@@ -1,0 +1,123 @@
+{
+  "schema": "ASTRAEUS_DM_E062_CHECKPOINT_MANIFEST_V1",
+  "date": "2026-08-22",
+  "artifact": "ASTRAEUS_DM_E062_GUARDED_EMBEDDING_DESCENT_20260822.zip",
+  "status": "APPEND_ONLY_NO_PARENT_PROMOTION",
+  "source_release": "DM_2.2.0",
+  "seed": "@dm_hidden_state_embedding",
+  "terminal": {
+    "state": "CYCLE_DETECTED",
+    "iteration": 3,
+    "focus": "@dm_hidden_state_embedding",
+    "cycle_hits": [
+      {
+        "source": "@dm_hidden_s3_network",
+        "relations": [
+          "REQUIRES"
+        ],
+        "target": "@dm_hidden_state_embedding",
+        "audit_statuses": [
+          "OPEN_HANDLE"
+        ],
+        "provenance": [
+          "DM2.0"
+        ]
+      }
+    ],
+    "reason": "Query-visible dependency expansion revisits an already visited QMO through registered oriented edges. Open-handle source edges remain non-promotional."
+  },
+  "query_graph_nontrivial_scc_count": 1,
+  "closure_eligible_nontrivial_scc_count": 0,
+  "candidate_qmos": [
+    "QMO-DM-BRIDGE-CAND-002",
+    "QMO-DM-BRIDGE-CAND-003"
+  ],
+  "next_handle": "@dm_local_embedding_descent_witness",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 335,
+      "sha256": "2b9046807433446b3b38d19ba165619388fa6c0c037c654b345b0224b9ac2f75"
+    },
+    {
+      "path": "audit/OPEN_HANDLE_GUARDED_CYCLE_AUDIT.json",
+      "bytes": 1697,
+      "sha256": "5bcce86b938d8bf235c45bcda6faef21d926b50c89c5334e684805a6130ede7e"
+    },
+    {
+      "path": "audit/SOURCE_BOUNDARY.md",
+      "bytes": 602,
+      "sha256": "e6cbca3c1e374a5121d32d2439b94d446efa341eaa12c2f0f9d608f729b0d141"
+    },
+    {
+      "path": "landscapes/DL-DM-E062-HIDDEN-EMBEDDING.json",
+      "bytes": 4690,
+      "sha256": "e81b167c326eebaf7e2a69a71a35373c657158f7fe206fe05d9a42d48e90bc47"
+    },
+    {
+      "path": "qmos/QMO-DM-BRIDGE-CAND-002_CONSTRAINT_PULLBACK_EMBEDDING.json",
+      "bytes": 2271,
+      "sha256": "9117a5b21dafcd1fc186e489286b2ab11eecfcde9b5370b6782dce4ac24dc282"
+    },
+    {
+      "path": "qmos/QMO-DM-BRIDGE-CAND-003_LOCAL_EMBEDDING_DESCENT_WITNESS.json",
+      "bytes": 2484,
+      "sha256": "0b87763c08e7ed36e8378015e11fbbe67a5dd631b21a45e735398521e23e7ba0"
+    },
+    {
+      "path": "reports/E062_GUARDED_EMBEDDING_DESCENT_REPORT.md",
+      "bytes": 4896,
+      "sha256": "0e33c65a4052a578c8c340b7b2963083ce1615bc5870625f18861bedc7c7895b"
+    },
+    {
+      "path": "runs/IT-DM-E062-HIDDEN-EMBEDDING.json",
+      "bytes": 6937,
+      "sha256": "633e165b9c288e1072d8c281b9de0549e5d38695c7455bee5c7de6cec09dff4c"
+    },
+    {
+      "path": "source_snapshots/BOUNDED_RECURSIVE_ITERATION_ARCHITECTURE.md",
+      "bytes": 1216,
+      "sha256": "937cfe4bdbd97561b4de48d0797a27583c7c7b804afd09462f911d3d85e4df6d"
+    },
+    {
+      "path": "source_snapshots/DM22_DIRECT_EDGE_REGISTRY.json",
+      "bytes": 29533,
+      "sha256": "d0a3b0922fdc4b648c86c27080ce1c52a2d547ef35d62e40f69d78d566dbd69c"
+    },
+    {
+      "path": "source_snapshots/DM22_MATHEMATICAL_MAP.md",
+      "bytes": 4901,
+      "sha256": "501ae1c85effeab5dfe65bf1cfd3023bf1f82c7e0eaea547657ff294a5967ff1"
+    },
+    {
+      "path": "source_snapshots/DM22_OPEN_HANDLE_REGISTRY.json",
+      "bytes": 5292,
+      "sha256": "4db05dd27d9d5d4aa718481a8d76b51197ea700f0eb2ed8a6f4f9a9eb33ca1c5"
+    },
+    {
+      "path": "source_snapshots/DM22_RELATION_COMPOSITION_ALGEBRA.json",
+      "bytes": 1324,
+      "sha256": "c08daf0a5348549d7bc7621c05897106c4e107e943407144d0183810203bc618"
+    },
+    {
+      "path": "source_snapshots/DM_API_CIRCULARITY_AUDIT.md",
+      "bytes": 1634,
+      "sha256": "c40cd4c1d379a7528cd1573abc90280f5559d77f6aa23ade0d033aee023a0c61"
+    },
+    {
+      "path": "source_snapshots/SELECTED_MATH5_OBJECTS.json",
+      "bytes": 3877,
+      "sha256": "fea5022d83c975b492dfc62425d87cb61c714359b636028ed3313f3ec2044ec7"
+    },
+    {
+      "path": "source_snapshots/V35_ADMISSIBLE_LIFT_CONSTRUCTION.md",
+      "bytes": 1983,
+      "sha256": "7cd21030202fe999cad53a1c2eb83840c3f5f6f45edc9c033f2315a5625fec46"
+    },
+    {
+      "path": "tools/run_e062.py",
+      "bytes": 1575,
+      "sha256": "11aea2c2e6186b3f6a0986c3be53bf3727e38959c6a64d58766db87cf023e060"
+    }
+  ]
+}

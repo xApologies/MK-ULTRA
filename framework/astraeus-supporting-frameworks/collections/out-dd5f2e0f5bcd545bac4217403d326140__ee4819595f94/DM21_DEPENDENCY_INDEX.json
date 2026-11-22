@@ -1,0 +1,55 @@
+{
+  "schema": "MK43_DARK_MATTER_DEPENDENCY_INDEX_V21",
+  "release": "2.1.0",
+  "active_geometry": "S4 -> S3 -> S2",
+  "handle_count": 302,
+  "parent_handle_count": 267,
+  "dm_handle_count": 35,
+  "direct_parent_edge_count": 750,
+  "direct_dm_edge_count": 82,
+  "primitive_dependency_pair_count": 307,
+  "composable_node_count": 214,
+  "fixed_point_dependency_pair_count": 5076,
+  "composed_dependency_pair_count": 4769,
+  "closure_growth_factor": 16.534201954397393,
+  "fixed_point_edge_density": 0.11135974726865869,
+  "child_nontrivial_scc_count": 0,
+  "generation_records": [
+    {
+      "generation": 0,
+      "path_depth": 1,
+      "dependency_pairs": 307,
+      "new_pairs": 307,
+      "density": 0.00673511473827388
+    },
+    {
+      "generation": 1,
+      "path_depth": 4,
+      "dependency_pairs": 1653,
+      "new_pairs": 1346,
+      "density": 0.036264314861129396
+    },
+    {
+      "generation": 2,
+      "path_depth": 16,
+      "dependency_pairs": 5060,
+      "new_pairs": 3407,
+      "density": 0.11100873151682682
+    },
+    {
+      "generation": 3,
+      "path_depth": "FULL",
+      "dependency_pairs": 5076,
+      "new_pairs": 16,
+      "density": 0.11135974726865869
+    }
+  ],
+  "child_sccs": [],
+  "semantic_corrections": [
+    {
+      "relation": "REALIZES",
+      "orientation": "forward",
+      "effect": "prevents abstract parent types from definitionally depending on child realization families"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "schema": "ASTRAEUS_DM_E073_E076_BATCH_MANIFEST_V1",
+  "date": "2026-08-22",
+  "source_live_release": "v0.5.0 / 2.2.0+live.e072",
+  "target_live_release": "v0.6.0 / 2.2.0+live.e076",
+  "baseline_release": "DM_2.2.0",
+  "checkpoints": [
+    "E073",
+    "E074",
+    "E075",
+    "E076"
+  ],
+  "current_frontier": "@dm_ucm_event_to_source_nonannihilation",
+  "highest_leverage_proof_debt": "PD-DM-007",
+  "shortest_conditional_cut": [
+    "PD-DM-001",
+    "PD-DM-002",
+    "PD-DM-004",
+    "PD-DM-007"
+  ],
+  "bypassed_on_shortest_ucm_lane": [
+    "PD-DM-003",
+    "PD-DM-005",
+    "PD-DM-006"
+  ],
+  "validation": {
+    "baseline_mutations": 0,
+    "parent_promotions": 0,
+    "physical_promotions": 0,
+    "canonical_edge_promotions": 0,
+    "new_working_assumptions": 1,
+    "new_proof_debt": 1,
+    "new_live_objects": 4,
+    "new_qmos": 4,
+    "new_certificates": 4,
+    "db_counts": {
+      "edges": 913,
+      "qmos": 20,
+      "landscapes": 15,
+      "iterations": 15,
+      "promotions": 15,
+      "live_objects": 12,
+      "closure_certificates": 14,
+      "working_assumptions": 7,
+      "proof_debt": 7
+    }
+  }
+}

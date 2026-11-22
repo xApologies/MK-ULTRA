@@ -1,0 +1,22 @@
+{
+  "schema": "ASTRAEUS_MOTE_GLUING_DATA_INSTANCE_GAP_V1",
+  "qmo_id": "QMO-AST-DM-WL-091",
+  "name": "Mote-Specific Gluing Data Instance Gap",
+  "atlas_version": "WL-v207",
+  "status": "INSTANCE_GAP",
+  "handle": "@gluing_data",
+  "source_supported_pair_semantics": [
+    "C_a \u00b7_rho C_b = C_c iff A(C_a,C_b,rho)=1",
+    "R_i(C_z)=C_i",
+    "orientation generates adjacency"
+  ],
+  "required_instance_fields": [
+    "overlap_selector",
+    "relative_orientation_transition_maps",
+    "triple_overlap_compatibility",
+    "ER_recovery_witness"
+  ],
+  "finding": "Pairwise admissibility semantics exist, but no complete mote-specific transition/overlap/gluing-witness instance is recovered.",
+  "next_handle": "@chirality_fabric",
+  "parent_promotions": 0
+}

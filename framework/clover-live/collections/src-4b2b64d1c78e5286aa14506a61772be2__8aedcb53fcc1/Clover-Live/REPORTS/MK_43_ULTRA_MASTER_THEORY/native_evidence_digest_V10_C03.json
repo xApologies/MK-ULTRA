@@ -1,0 +1,598 @@
+{
+  "chapter_ids": [
+    "V10-C03"
+  ],
+  "chapters": [
+    {
+      "assigned_handle_count": 7,
+      "chapter_id": "V10-C03",
+      "handles": [
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@apparent_horizon",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.761559+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 260,
+            "english_units": 93,
+            "equation_units": 4,
+            "evidence_diversity": 2,
+            "handle": "@apparent_horizon",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P2",
+            "registered_dependencies": 184,
+            "run_id": "RP-05B",
+            "score": 75,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 4588,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 721,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:721"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 723,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:723"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 732,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:732"
+            }
+          ],
+          "handle": "@apparent_horizon",
+          "incoming_relation_types": {
+            "BLACK_HOLE_GLOBAL_REACHES": 1,
+            "BLACK_HOLE_MODEL_REACHES": 1,
+            "SUPPORTS": 39,
+            "SUPPORTS_FAMILY": 1
+          },
+          "native_report": {
+            "bytes": 2401773,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V10_C03\\apparent_horizon_ddf6533515c54e7f974129e09c48952b.md",
+            "reused_master_query": false,
+            "sha256": "2879c57330bfab9649c5a4ca3f6acd062ddeed606ce17043744091bb6d5fccfe"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "BLACK_HOLE_CROSS_FAMILY_NODE": 1,
+            "COMPOSED_DEPENDENCY": 134,
+            "DEPENDS_ON": 4,
+            "FAMILY_DEPENDS_ON": 1,
+            "FEEDS_BLACK_HOLE_MODEL": 1,
+            "GLOBALLY_FEEDS_BLACK_HOLE": 1
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@cosmological_horizon` — Cosmological Horizon",
+          "canonical_uri": "mk43://recover/cosmology/cosmological-horizon",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.772062+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 289,
+            "english_units": 60,
+            "equation_units": 5,
+            "evidence_diversity": 2,
+            "handle": "@cosmological_horizon",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 3,
+            "recommended_priority": "P2",
+            "registered_dependencies": 147,
+            "run_id": "RP-05B",
+            "score": 83,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 4316,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 721,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:721"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 723,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:723"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 732,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:732"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 2204,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:2204"
+            }
+          ],
+          "handle": "@cosmological_horizon",
+          "incoming_relation_types": {
+            "BLACK_HOLE_GLOBAL_REACHES": 1,
+            "BLACK_HOLE_MODEL_REACHES": 1,
+            "DEPENDS_ON": 2,
+            "GENERALIZES": 1,
+            "SUPPORTS": 1,
+            "SUPPORTS_FAMILY": 1
+          },
+          "native_report": {
+            "bytes": 2468136,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V10_C03\\cosmological_horizon_6c4bda542c8b4904a22c0f8041cae3ac.md",
+            "reused_master_query": false,
+            "sha256": "dcd50d59dc459027601cfcc485e4476877a34c3bd5182f5e1f96d7d3507d9fee"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "BLACK_HOLE_CROSS_FAMILY_NODE": 1,
+            "COMPOSED_DEPENDENCY": 132,
+            "DEPENDS_ON": 1,
+            "FAMILY_DEPENDS_ON": 1,
+            "FEEDS_BLACK_HOLE_MODEL": 1,
+            "GLOBALLY_FEEDS_BLACK_HOLE": 1,
+            "SPECIALIZES": 1,
+            "SUPPORTS": 2
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@event_horizon_telescope",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.776061+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 248,
+            "english_units": 49,
+            "equation_units": 7,
+            "evidence_diversity": 2,
+            "handle": "@event_horizon_telescope",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P2",
+            "registered_dependencies": 186,
+            "run_id": "RP-05B",
+            "score": 82,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 4535,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 721,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:721"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 722,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:722"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 723,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:723"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 732,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:732"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1798,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1798"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1960,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1960"
+            }
+          ],
+          "handle": "@event_horizon_telescope",
+          "incoming_relation_types": {
+            "BLACK_HOLE_GLOBAL_REACHES": 1,
+            "BLACK_HOLE_MODEL_REACHES": 1,
+            "OBSERVED_BY": 1,
+            "OBSERVED_THROUGH": 1,
+            "SUPPORTS": 35,
+            "SUPPORTS_FAMILY": 1
+          },
+          "native_report": {
+            "bytes": 3158514,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V10_C03\\event_horizon_telescope_5070cd1242814d17ba6bfb00e4bdadb3.md",
+            "reused_master_query": false,
+            "sha256": "1d0770ebe2d5317d9005abcd62cb6828c8896311ecfe4dacee56d22526f6bcb1"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "BLACK_HOLE_CROSS_FAMILY_NODE": 1,
+            "COMPOSED_DEPENDENCY": 136,
+            "DEPENDS_ON": 4,
+            "FAMILY_DEPENDS_ON": 1,
+            "FEEDS_BLACK_HOLE_MODEL": 1,
+            "GLOBALLY_FEEDS_BLACK_HOLE": 1,
+            "OBSERVES": 2
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@gibbons_hawking_york_term",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.880689+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 186,
+            "english_units": 22,
+            "equation_units": 3,
+            "evidence_diversity": 2,
+            "handle": "@gibbons_hawking_york_term",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P2",
+            "registered_dependencies": 145,
+            "run_id": "RP-05B",
+            "score": 68,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 4001,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 721,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:721"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 723,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:723"
+            }
+          ],
+          "handle": "@gibbons_hawking_york_term",
+          "incoming_relation_types": {
+            "BLACK_HOLE_GLOBAL_REACHES": 1,
+            "BLACK_HOLE_MODEL_REACHES": 1,
+            "SUPPORTS": 3,
+            "SUPPORTS_FAMILY": 1
+          },
+          "native_report": {
+            "bytes": 1856990,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V10_C03\\gibbons_hawking_york_term_89cb09049a99420ba0e2be2df7f17fee.md",
+            "reused_master_query": false,
+            "sha256": "44a75fbbe75d10c29c98783db5b6e3caaff7b7d065dc5baedf4f1561f353776c"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "BLACK_HOLE_CROSS_FAMILY_NODE": 1,
+            "COMPOSED_DEPENDENCY": 132,
+            "DEPENDS_ON": 3,
+            "FAMILY_DEPENDS_ON": 1,
+            "FEEDS_BLACK_HOLE_MODEL": 1,
+            "GLOBALLY_FEEDS_BLACK_HOLE": 1
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@hawking_penrose_singularity_theorem",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.881690+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 260,
+            "english_units": 91,
+            "equation_units": 4,
+            "evidence_diversity": 2,
+            "handle": "@hawking_penrose_singularity_theorem",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P2",
+            "registered_dependencies": 232,
+            "run_id": "RP-05B",
+            "score": 75,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 4907,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 721,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:721"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 723,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:723"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 732,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:732"
+            }
+          ],
+          "handle": "@hawking_penrose_singularity_theorem",
+          "incoming_relation_types": {
+            "BLACK_HOLE_GLOBAL_REACHES": 1,
+            "BLACK_HOLE_MODEL_REACHES": 1,
+            "SUPPORTS": 57,
+            "SUPPORTS_FAMILY": 1
+          },
+          "native_report": {
+            "bytes": 2405952,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V10_C03\\hawking_penrose_singularity_theorem_abe151f1ecfb468eb740ee2658a09b28.md",
+            "reused_master_query": false,
+            "sha256": "fa17dab72bd321d863c24395e84b1f85135b527bdeb6b261b25a1febde3f5a29"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "BLACK_HOLE_CROSS_FAMILY_NODE": 1,
+            "COMPOSED_DEPENDENCY": 132,
+            "DEPENDS_ON": 36,
+            "FAMILY_DEPENDS_ON": 1,
+            "FEEDS_BLACK_HOLE_MODEL": 1,
+            "GLOBALLY_FEEDS_BLACK_HOLE": 1
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@killing_horizon",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.883689+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 250,
+            "english_units": 51,
+            "equation_units": 5,
+            "evidence_diversity": 2,
+            "handle": "@killing_horizon",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P2",
+            "registered_dependencies": 226,
+            "run_id": "RP-05B",
+            "score": 82,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 4846,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 721,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:721"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 723,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:723"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 732,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:732"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1960,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1960"
+            }
+          ],
+          "handle": "@killing_horizon",
+          "incoming_relation_types": {
+            "BLACK_HOLE_GLOBAL_REACHES": 1,
+            "BLACK_HOLE_MODEL_REACHES": 1,
+            "COMPOSED_DEPENDENCY": 35,
+            "DEPENDS_ON": 26,
+            "SUPPORTS_FAMILY": 1
+          },
+          "native_report": {
+            "bytes": 2685813,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V10_C03\\killing_horizon_b265d61a5809439bb5b8bec64c9c6af7.md",
+            "reused_master_query": false,
+            "sha256": "822a32d0ab2f14b41def8b1dbe8aabf616571c4056238a4e7496212a60a459e5"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "BLACK_HOLE_CROSS_FAMILY_NODE": 1,
+            "COMPOSED_DEPENDENCY": 132,
+            "FAMILY_DEPENDS_ON": 1,
+            "FEEDS_BLACK_HOLE_MODEL": 1,
+            "GLOBALLY_FEEDS_BLACK_HOLE": 1,
+            "SUPPORTS": 26
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@schwarzschild_radius",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.891197+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 590,
+            "english_units": 610,
+            "equation_units": 6,
+            "evidence_diversity": 2,
+            "handle": "@schwarzschild_radius",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 3,
+            "recommended_priority": "P2",
+            "registered_dependencies": 646,
+            "run_id": "RP-05B",
+            "score": 83,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 11222,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 721,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:721"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 723,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:723"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 732,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:732"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1798,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1798"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1960,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1960"
+            }
+          ],
+          "handle": "@schwarzschild_radius",
+          "incoming_relation_types": {
+            "BLACK_HOLE_GLOBAL_REACHES": 1,
+            "BLACK_HOLE_MODEL_REACHES": 1,
+            "COMPOSED_DEPENDENCY": 414,
+            "DEPENDS_ON": 45,
+            "SUPPORTS": 2,
+            "SUPPORTS_FAMILY": 1
+          },
+          "native_report": {
+            "bytes": 3131386,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V10_C03\\schwarzschild_radius_d388c1e8c6434962aff14a996b35814a.md",
+            "reused_master_query": false,
+            "sha256": "0e958c33ea6e446ecac1fd9d3209082b42b14ed35e62a40862502bc9de9705c8"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "BLACK_HOLE_CROSS_FAMILY_NODE": 1,
+            "COMPOSED_DEPENDENCY": 131,
+            "DEPENDS_ON": 2,
+            "FAMILY_DEPENDS_ON": 1,
+            "FEEDS_BLACK_HOLE_MODEL": 1,
+            "GLOBALLY_FEEDS_BLACK_HOLE": 1,
+            "SUPPORTS": 45
+          }
+        }
+      ],
+      "title": "Kerr, Schwarzschild, and Charged Families"
+    }
+  ],
+  "database_sha256": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03",
+  "database_unchanged": true,
+  "query_architecture": "Runtime -> BRANE -> API/QMO -> Library 4.1",
+  "query_receipt": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\native_query_receipt_V10_C03.json",
+  "schema": "mk-ultra-tome-native-evidence-digest-v1"
+}

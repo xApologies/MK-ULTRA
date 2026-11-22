@@ -1,0 +1,23 @@
+{
+  "schema": "ASTRAEUS_ER_INCIDENCE_WEIGHTED_ADJACENCY_ER_FOAM_V1",
+  "qmo_id": "QMO-AST-DM-WL-080",
+  "name": "ER-Throat Incidence / Weighted Adjacency / ER-Foam Chain",
+  "atlas_version": "WL-v196",
+  "status": "SOURCE_BACKED_INCIDENCE_TO_ER_FOAM_CHAIN",
+  "chain": [
+    "@er_throat_incidence -> @weighted_adjacency",
+    "@weighted_adjacency -> @adjacency_lattice",
+    "@adjacency_lattice -> @er_foam"
+  ],
+  "math": [
+    "W_ij >= 0",
+    "W_ij = W_ji"
+  ],
+  "confidence_note": "ER-throat-incidence -> weighted-adjacency and weighted-adjacency -> adjacency-lattice are source-backed medium recovered vertical-chain edges; adjacency-lattice -> ER-foam is high-confidence recovered/direct-source.",
+  "finding": "The API does not leave incidence as an English label: the integrated source graph continues it into a weighted adjacency and adjacency lattice before ER Foam. This gives a concrete graph-theoretic readout of the incidence stage.",
+  "guardrails": [
+    "source-backed medium navigation != parent promotion",
+    "weighted adjacency != dark matter",
+    "ER foam != dark matter"
+  ]
+}

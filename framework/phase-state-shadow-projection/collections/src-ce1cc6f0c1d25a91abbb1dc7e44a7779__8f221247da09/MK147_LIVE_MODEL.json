@@ -1,0 +1,753 @@
+{
+  "project": "MK-147",
+  "status": "SEALED CHECKPOINT 7 / WRITING-READY",
+  "updated": "2026-09-01T11:06:53-05:00",
+  "mounted_artifacts": {
+    "api": "MK147_SFO_API.json",
+    "model": "MK147_LIVE_MODEL.json",
+    "library": "MK147_LIBRARY.sqlite"
+  },
+  "top_level_sfo": [
+    "@sfo/aera",
+    "@sfo/age_of_knowledge",
+    "@sfo/agriculture",
+    "@sfo/binding_circle",
+    "@sfo/character",
+    "@sfo/cities",
+    "@sfo/culture",
+    "@sfo/domai",
+    "@sfo/dungeon",
+    "@sfo/eldris",
+    "@sfo/elements",
+    "@sfo/equipment",
+    "@sfo/era/age_of_knowledge",
+    "@sfo/event",
+    "@sfo/evil",
+    "@sfo/genesis_cards",
+    "@sfo/genesis_field",
+    "@sfo/institution_of_knowledge",
+    "@sfo/language",
+    "@sfo/math",
+    "@sfo/military",
+    "@sfo/nobles",
+    "@sfo/portal",
+    "@sfo/provenance",
+    "@sfo/raeon",
+    "@sfo/rainbow_road",
+    "@sfo/resource",
+    "@sfo/sports",
+    "@sfo/starscape",
+    "@sfo/story",
+    "@sfo/transduction",
+    "@sfo/transductionist",
+    "@sfo/wilds"
+  ],
+  "object_counts_by_type": {
+    "aera_mechanism_layer": 1,
+    "aera_projection_mechanism": 1,
+    "antagonist_domain": 1,
+    "arc": 4,
+    "architecture_reference": 1,
+    "author_map": 1,
+    "binding_circle_system": 7,
+    "book": 7,
+    "calendar": 1,
+    "calendar_event": 26,
+    "campus_location": 2,
+    "campus_mythology": 1,
+    "card_class": 4,
+    "card_game": 1,
+    "character": 2,
+    "character_domain": 1,
+    "city_class": 3,
+    "city_district": 1,
+    "city_infrastructure": 1,
+    "city_system": 3,
+    "civilization_domain": 1,
+    "civilization_system": 1,
+    "class_registry": 1,
+    "classification_system": 1,
+    "closed_constraint_structure": 1,
+    "club": 2,
+    "collection": 1,
+    "collector_domain": 1,
+    "collector_system": 3,
+    "competition_structure": 1,
+    "competition_system": 2,
+    "crafted_artifact": 1,
+    "culture": 1,
+    "culture_branch": 1,
+    "culture_domain": 1,
+    "culture_interface": 1,
+    "culture_system": 1,
+    "development_system": 6,
+    "diamond_size_class": 1,
+    "discipline": 1,
+    "discipline_process": 1,
+    "domai_core": 1,
+    "domain": 4,
+    "drug": 1,
+    "economic_interface": 1,
+    "economic_system": 3,
+    "education_domain": 1,
+    "education_path": 1,
+    "education_period": 1,
+    "eldris_class": 2,
+    "eldris_identity": 6,
+    "element_domain": 1,
+    "energy_storage_process": 1,
+    "energy_storage_system": 1,
+    "entity_domain": 1,
+    "entity_population": 1,
+    "environment": 1,
+    "environment_component": 4,
+    "environmental_domain": 1,
+    "equipment_class": 1,
+    "event_system": 1,
+    "evil_organization": 1,
+    "evil_organization_class": 3,
+    "evil_system": 2,
+    "fauna": 4,
+    "field_algebra": 1,
+    "field_basin_system": 1,
+    "field_domain": 1,
+    "field_manifold": 1,
+    "field_manifold_template": 1,
+    "field_operator": 1,
+    "field_path": 1,
+    "field_principle": 10,
+    "field_process": 1,
+    "field_quantity": 2,
+    "field_relation": 3,
+    "field_state": 1,
+    "field_state_space": 1,
+    "field_structure": 2,
+    "field_system": 2,
+    "field_unit": 1,
+    "foundational_domain": 1,
+    "foundational_field": 1,
+    "foundational_phenomenon": 1,
+    "game_component_domain": 2,
+    "game_system": 6,
+    "genesis_basin": 6,
+    "genesis_field_system": 1,
+    "historical_age": 2,
+    "identity_registry": 1,
+    "industry_domain": 1,
+    "industry_system": 1,
+    "infrastructure_system": 1,
+    "institution_calendar": 1,
+    "institution_component": 6,
+    "institution_domain": 1,
+    "institution_of_knowledge": 1,
+    "institution_period": 1,
+    "institution_registry": 1,
+    "institution_system": 1,
+    "institution_tradition": 1,
+    "institutional_domain": 1,
+    "item": 1,
+    "language": 1,
+    "legal_economic_system": 1,
+    "manufacturing_system": 1,
+    "marker_type": 2,
+    "material": 1,
+    "mechanism": 1,
+    "mechanism_class": 1,
+    "mechanism_contract": 2,
+    "mechanism_history": 1,
+    "mechanism_index": 1,
+    "mechanism_open_question": 1,
+    "mechanism_operation": 1,
+    "military_branch": 2,
+    "military_infrastructure": 1,
+    "military_system": 1,
+    "natural_gem": 1,
+    "noble_administrative_system": 1,
+    "noble_class": 2,
+    "noble_economic_system": 2,
+    "noble_rank": 2,
+    "noble_registry": 1,
+    "noble_system": 4,
+    "open_questions": 2,
+    "orbital_model": 1,
+    "organization_component": 17,
+    "patent_class": 1,
+    "phenomenon": 1,
+    "planet": 1,
+    "process": 2,
+    "protective_branch": 1,
+    "provenance_registry": 1,
+    "pssp_energy_condition": 1,
+    "pssp_failure_system": 1,
+    "pssp_handoff": 1,
+    "pssp_manifold": 1,
+    "pssp_state": 1,
+    "pssp_structure": 2,
+    "rank_system": 1,
+    "registry": 5,
+    "release_system": 1,
+    "resource_class": 3,
+    "resource_domain": 2,
+    "resource_system": 1,
+    "response_system": 1,
+    "settlement_class": 2,
+    "settlement_example": 1,
+    "settlement_system": 2,
+    "sigil_form": 2,
+    "sigil_system": 7,
+    "social_domain": 1,
+    "specialized_unit": 1,
+    "sport": 1,
+    "sport_history": 1,
+    "story": 1,
+    "story_engine": 1,
+    "story_facing_object": 2,
+    "structural_scaffold": 1,
+    "structural_unit": 1,
+    "structured_expression": 1,
+    "superposition_state": 1,
+    "transductionist_class": 5
+  },
+  "current_focus": "Writing foundation complete through PSSP. Remaining major world-mechanism discussion identified by Genesis: Genesis Minds.",
+  "sqlite_exhaustive_sync": {
+    "status": "PASS",
+    "api_objects": 322,
+    "sqlite_active_objects": 322,
+    "api_edges": 293,
+    "sqlite_active_edges": 293,
+    "knowledge_units": 2020,
+    "sfo_knowledge_links": 5394,
+    "equation_ledger": 2577,
+    "source_occurrences": 14451,
+    "source_content_index": 5530,
+    "sqlite_integrity": "ok"
+  },
+  "metadata_definition": "All accumulated substantive knowledge attached to an SFO address. The API exposes current-authority structured knowledge; the SQLite library is the exhaustive SFO-addressed compendium retaining current knowledge, source-derived knowledge, mathematics, provenance, candidates, supersessions, conflicts/open questions, and writing/recovery material.",
+  "rehydration_counts": {
+    "active_objects": 293,
+    "active_fragments": 999,
+    "active_edges": 244,
+    "objects": 294,
+    "knowledge_fragments": 1014,
+    "typed_edges": 245,
+    "object_payloads": 293,
+    "knowledge_reports": 293,
+    "provenance": 59,
+    "source_documents": 58,
+    "object_sources": 106,
+    "open_questions": 3,
+    "api_snapshots": 8
+  },
+  "current_mount": "MK147_CHECKPOINT_7_PSSP",
+  "genesis_field_handle": "@sfo/genesis_field",
+  "domai_handle": "@sfo/domai",
+  "domai_cannibalization": {
+    "chimera": "superseded -> ELDRIS",
+    "domai": "adopted",
+    "storm_chasers": "Aithren branch entering Domai; native subgroup name pending"
+  },
+  "domai_state": "CONDITIONALLY CLOSED",
+  "domai_summary": {
+    "classes": [
+      "Red",
+      "Orange",
+      "Yellow",
+      "Green",
+      "Blue",
+      "Violet"
+    ],
+    "white_domai": false,
+    "core": "Superposed White Genesis Crystal",
+    "legacy_chimera": "replaced by ELDRIS",
+    "outputs": [
+      "ELDRIS",
+      "Genesis crystals",
+      "Genesis dust",
+      "elements"
+    ],
+    "termination": [
+      "natural lifespan/unraveling",
+      "forced unraveling by core destruction"
+    ]
+  },
+  "provenance_branch": "@sfo/provenance",
+  "domai_response_rule": {
+    "red": "local / nobility / Aithren",
+    "orange": "local / nobility / Aithren",
+    "yellow": "kingdom military also responds",
+    "green": "kingdom military also responds",
+    "blue": "kingdom military also responds",
+    "violet": "kingdom military also responds"
+  },
+  "domai_history_policy": "Discarded historical designs removed from active working library by user request.",
+  "ru_ne_sigil_status": "CANNIBALIZED / ACTIVE",
+  "ru_ne_rule": "ru’ne is singular/plural for one constituent line; sigil is the complete closed ru’ne structure.",
+  "evil_handle": "@sfo/evil",
+  "evil_children": [
+    "Bandits",
+    "Cartels",
+    "Cabal of Ash and Crown",
+    "Pirates",
+    "Slave Trade",
+    "Drug Trade"
+  ],
+  "pirate_drug": {
+    "handle": "@sfo/evil/drug_trade/pirate_genesis_succulent",
+    "working_name": "Pirate Genesis Succulent",
+    "canonical_name_status": "OPEN",
+    "role": "Drug-trade destabilization and slave-trade vulnerability pipeline",
+    "economics": "Direct pirate revenue stream plus vulnerability-generation mechanism for trafficking."
+  },
+  "wilds_handle": "@sfo/wilds",
+  "wilds_summary": {
+    "between": "stabilized cities / village hubs",
+    "character": "overgrown, unstable, lightly controlled",
+    "hazards": [
+      "Genesis storms",
+      "Genesis collapse",
+      "Domai-related instability",
+      "roaming hostile creatures"
+    ],
+    "bandits": "common Wilds inhabitants; prey on road travelers"
+  },
+  "evil_pdf_crawl": {
+    "status": "COMPLETE",
+    "sources": [
+      "43 Bandits.pdf",
+      "44 Cartels.pdf",
+      "45 Cabal of Ash and Crown.pdf",
+      "46 Evil Organizations.pdf",
+      "29 Pirate Islands.pdf"
+    ],
+    "updated_handles": [
+      "@sfo/evil/bandits",
+      "@sfo/evil/cartels",
+      "@sfo/evil/cabal_of_ash_and_crown",
+      "@sfo/evil/pirates",
+      "@sfo/evil/slave_trade",
+      "@sfo/evil/drug_trade",
+      "@sfo/evil/drug_trade/pirate_genesis_succulent",
+      "@sfo/evil/pirates/pirate_islands",
+      "@sfo/wilds"
+    ],
+    "filter": "Generalized source material inherited; explicit current MK-147 corrections override older source mechanics."
+  },
+  "military": {
+    "handle": "@sfo/military",
+    "branches": {
+      "standard": "warfare / kingdom defense / roads / geopolitical security",
+      "eldris_response": "ELDRIS and major Domai/Genesis-threat response",
+      "guards": "internal law / protection / critical sites / Mage Hunters"
+    },
+    "source_normalization": "Chimera -> ELDRIS"
+  },
+  "nobles": {
+    "handle": "@sfo/nobles",
+    "structure": [
+      "houses",
+      "upper",
+      "lower",
+      "naming",
+      "heraldry",
+      "authority",
+      "mounts"
+    ],
+    "source_registry_houses": 5000
+  },
+  "nobles_current": {
+    "upper": "landed; Red→Violet",
+    "lower": "landless; Crown-appointed city stewardship",
+    "white": "Crown/civic district",
+    "city_types": [
+      "Capital",
+      "Large",
+      "Small"
+    ],
+    "capital_count": 4,
+    "small_districts": [
+      "Red",
+      "Orange",
+      "Yellow",
+      "White"
+    ],
+    "capital_districts": [
+      "Red",
+      "Orange",
+      "Yellow",
+      "Green",
+      "Blue",
+      "Violet",
+      "White"
+    ],
+    "large_city_districts": "OPEN",
+    "tax_percentage": "OPEN",
+    "mine_revenue_share": "OPEN",
+    "stabilized_radius": "per-city; ~30-mile example only"
+  },
+  "settlement_hierarchy": {
+    "formal": [
+      "Capital City",
+      "Large City",
+      "Small City",
+      "Village Hub"
+    ],
+    "town": "outside formal hierarchy / emergent",
+    "village_hub": {
+      "development_cycle_years": "60–80",
+      "final_city_build_years": "~10",
+      "center": "0.5×0.5 mile for future Small City; 1×1 mile for future Large City",
+      "kira_example_region": "20-mile radius",
+      "kira_example_future_city": "~7×7 miles",
+      "center_becomes": "White Civic District"
+    }
+  },
+  "sports": {
+    "primary": "Prism",
+    "handle": "@sfo/sports/prism",
+    "status": "ACTIVE / EXPANDABLE"
+  },
+  "checkpoint": {
+    "name": "MK147 Book v2.4 — Checkpoint 5 — Binding Circles",
+    "status": "STABLE RECOVERY POINT / SEALED",
+    "scope": "Binding Circles"
+  },
+  "genesis_diamond": {
+    "status": "LOCKED CANON RECOVERED",
+    "chip_size": "~1/4-inch cube",
+    "charge_states": [
+      "Clear",
+      "Infrared",
+      "Red",
+      "Orange",
+      "Yellow",
+      "Green",
+      "Blue",
+      "Violet",
+      "Ultraviolet"
+    ],
+    "organization": "quicksort-like stable occupancy distribution / average energy density",
+    "charging": "time-dependent",
+    "exchange_to_eln": "OPEN"
+  },
+  "math": {
+    "handle": "@sfo/math",
+    "status": "PRIMARY API HANDLE ACTIVE"
+  },
+  "genesis_cards": {
+    "status": "LOCKED CANON RECOVERED / EXPANDED",
+    "material": "Genesis-dust-infused mage glass",
+    "visual": "multidimensional field topology in thin physical card",
+    "patents": "math/topology patent controlled",
+    "kira_collection": "Fireball line"
+  },
+  "raeon": {
+    "canonical_spelling": "raeon",
+    "status": "SCAFFOLD CONDITIONALLY CLOSED",
+    "prime_count": 3,
+    "generator_ladder": {
+      "3": "Red",
+      "4": "Orange",
+      "5": "Yellow",
+      "6": "Green",
+      "7": "Blue",
+      "8": "Violet"
+    },
+    "square": "activation",
+    "pyramid": "color charge",
+    "player_field": "White→continuous spectrum→zero",
+    "cycles": "current sanctioned + Open/Legacy",
+    "open": [
+      "utility effects",
+      "shaping effects",
+      "generator topology families",
+      "Prime families",
+      "deck size",
+      "turn details",
+      "final health scale"
+    ]
+  },
+  "elements": {
+    "canonical_handle": "@sfo/elements",
+    "hierarchy": "top-level",
+    "domai_relation": "Domai may spawn/contain elements; Elements is not nested under Domai."
+  },
+  "binding_circle": {
+    "canonical_handle": "@sfo/binding_circle",
+    "hierarchy": "top-level",
+    "status": "ACTIVE / RECOVERED / EXPANDABLE",
+    "definition": "Large circular sigil carved into a fixed surface; ru’ne channels form the topology and anchor points receive requirement-driven components.",
+    "routing": "Genesis dust can optionally fill ru’ne channels as basin-specific Genesis circuitry.",
+    "anchors": [
+      "Genesis crystals",
+      "elements",
+      "charged diamonds",
+      "other configuration-required components"
+    ],
+    "functional_stack": "Genesis Field → Basins → Corridors → Boundaries → Relationships → Identities → Resolution → Configuration Space → Binding Circle → Expanded Topology → Structured Energy → Aera / Transduction → Manifestation",
+    "author_model_note": "Computer analogy retained only in SQLite as author-model provenance, not literal API/world terminology."
+  },
+  "checkpoint_base": "MK147 Book v2.7 — Checkpoint 7 — PSSP",
+  "working_revision": "MK147 Book v2.7 — Checkpoint 7 — PSSP",
+  "workflow": {
+    "live_model": "Workspace: current discussion/development state.",
+    "api": "Structured current-authority SFO/address map.",
+    "sqlite": "Exhaustive knowledge/provenance/recovery store keyed to SFO addresses.",
+    "sync_rule": "When API objects or metadata change, synchronize object state, metadata fragments, edges, payloads, reports, sources, and provenance into SQLite."
+  },
+  "provenance_audit": {
+    "status": "PASS",
+    "checkpoint_chain": [
+      "Checkpoint 1",
+      "Checkpoint 2 / Prism",
+      "Checkpoint 3 / Currency + Genesis Diamonds",
+      "Checkpoint 4 / Raeon + Genesis Cards",
+      "Checkpoint 5 / Binding Circles"
+    ],
+    "finding": "Checkpoint 5 is cumulative and seals the recovered Binding Circle foundation on top of the audited Checkpoint 1→4 chain. Prior active state is retained through API/SQLite provenance; the deliberate @sfo/domai/elements → @sfo/elements relocation remains preserved as superseded history.",
+    "repairs": [
+      "Checkpoint 5 updates the previously open Binding Circle hierarchy statement",
+      "Recovered screenshots IMG_1262–IMG_1269 are registered and carried as source receipts",
+      "Binding Circle world mechanics are current-authority API metadata; the computer analogy remains SQLite author-model provenance only",
+      "All API metadata, edges, payloads, reports, sources, and provenance were re-audited before sealing"
+    ]
+  },
+  "genesis_field_mathematics": {
+    "core_view": {
+      "genesis_field": {
+        "role": "single recursive organizational field/substrate from which local systems, identities, environments, manifolds and readable structures inherit expression",
+        "historical_master_relation": "G = G · Σ_d (R_d · B_d)",
+        "typing_note": "B_d is best treated as a scalar/readout of a richer Bandwidth object A_B rather than the definition of Bandwidth itself."
+      },
+      "genesis_domain": {
+        "symbol": "D=(|D|, F_D, A_D)",
+        "meaning": {
+          "|D|": "bounded carrier",
+          "F_D": "closed recursive/fractal identity constraint",
+          "A_D": "environmental admissibility structure"
+        },
+        "status": "CLOSED in R83"
+      },
+      "resolution": {
+        "definition": "Distinguishable Organization",
+        "role": "determines which organizational distinctions are readable at a given scope/depth; changing Resolution alone does not change the underlying relational state",
+        "readout": "rho_R : A_(B|D) -> A_(B|D)^R = A_(B|D)/K_R",
+        "status": "core"
+      },
+      "bandwidth": {
+        "definition": "Available Organizational Freedom",
+        "formal_object": "A_B = Cl_comp(Gen(B) ∪ {id_x})",
+        "domain_restricted": "Gen_D(B)={a∈Gen(B) | a admissible in D}; A_(B|D)=Cl_comp(Gen_D(B) ∪ {id_x})",
+        "meaning": "the typed transformations/corridors that remain supportable, not merely a scalar amount",
+        "status": "formal core"
+      },
+      "reachability": {
+        "definition": "Reach_(D,B)(x)={y | ∃ gamma∈A_(B|D), gamma:x->y}",
+        "resolved": "Reach_(D,B)^R(x)=rho_R(Reach_(D,B)(x))",
+        "status": "CLOSED in R87"
+      },
+      "relational_propagation": {
+        "locked_statement": "Relationship propagates first. Motion is a resolved description of that propagation.",
+        "state": "r=(delta, xi), where delta is separation and xi is remaining resolved relational structure",
+        "consequence": "r0 != r1 may occur while delta(r0)=delta(r1); distance is only one readout of relation",
+        "status": "CLOSED in R86"
+      },
+      "closed_recursive_identity": {
+        "profile": "F=(|F|,{F_R},{p_(R+1,R)})",
+        "inverse_limit_view": "coherent identity is a compatible projection/lift tower rather than one shadow",
+        "projection_seed": "Fib_Pi(y)=Pi^{-1}(y); active constraints A_R(y)⊆Fib_Pi(y)",
+        "nested_closure": "A_(R+1)(y)⊆A_R(y); IdClose(y)=∩_R A_R(y)",
+        "identity_equivalence": "History-decorated tower equivalence preserving incidence, bonding maps, declared invariants, History and relevant Bandwidth labels",
+        "status": "CLOSED structurally through R73; profile-specific identity contracts remain parameterized"
+      },
+      "morphism_firewall": {
+        "DEFORM": "same engagement dimension; admissible presentation change preserving identity class",
+        "PROJECT": "dimension-reducing readout producing seed + lift fiber",
+        "LIFT": "admissible higher-dimensional reconstruction; not generally a true inverse",
+        "TRANSPORT": "History-bearing route/corridor",
+        "READOUT": "Resolution-dependent output",
+        "rule": "DEFORM != PROJECT != LIFT != TRANSPORT != READOUT"
+      },
+      "blank_manifold": {
+        "source_model": "3+1+1 organizational scaffold",
+        "source_arrays": {
+          "source_manifold": "(channels,N,N,N)",
+          "set_lift": "(channels,N,N,N,2)",
+          "chirality_statecode": "(N,N,N)"
+        },
+        "blank_32_fixture": {
+          "source_shape": [
+            11,
+            32,
+            32,
+            32
+          ],
+          "set_lift_shape": [
+            11,
+            32,
+            32,
+            32,
+            2
+          ],
+          "chirality_shape": [
+            32,
+            32,
+            32
+          ],
+          "chirality_counts": {
+            "0": 16384,
+            "1": 16384
+          }
+        },
+        "interpretation": "construction remains generic; specific object/environment identity comes from occupancy/distribution plus chirality/admissibility/history/closure structure"
+      },
+      "basins": {
+        "alphabet": [
+          "R",
+          "O",
+          "Y",
+          "G",
+          "B",
+          "V"
+        ],
+        "labels": {
+          "R": "Red",
+          "O": "Orange",
+          "Y": "Yellow",
+          "G": "Green",
+          "B": "Blue",
+          "V": "Violet"
+        },
+        "structural_ladder": [
+          "1/7",
+          "2/7",
+          "3/7",
+          "4/7",
+          "5/7",
+          "6/7"
+        ],
+        "source_hard_stops": [
+          "0.142857",
+          "0.2857",
+          "0.42857",
+          "0.57",
+          "0.7",
+          "0.857"
+        ],
+        "white": "separate structural superposition; not automatically a seventh ordinary basin",
+        "ordered_resolution_profiles": 36,
+        "profile_form": "(A,B_A) |_[R[A,B]] (B,B_B)",
+        "bandwidth_anchoring": "each basin occurrence anchors its own Bandwidth interface",
+        "max_structural_transitions": 360,
+        "operative_rule": "actual dynamics are a Bandwidth-filtered subgraph; all 360 structural substitutions must not be assumed executable",
+        "depth_history": "Pi_R(D)=(G_R(0),...,G_R(D)) as graph-valued inherited Resolution history candidate"
+      },
+      "configuration_space": {
+        "interpretation": "admissible organizational space supported by the Genesis domain under Resolution/Bandwidth/identity/chirality constraints",
+        "key_point": "the architecture scales structural/configuration-space capacity rather than merely numerical capacity"
+      },
+      "binding_and_shaping": {
+        "binding_circle": "large circular sigil acting as engineered interface over configuration space; ru'ne channels + anchors + required resources",
+        "binding_effect": "binds a selected admissible manifold/configuration into a person's closed local Genesis identity",
+        "kira_identity": "working author model: at relevant scope Kira inherits Kira; bound shaping states become admissible configurations under that identity",
+        "shaping": "accesses an already-admissible latent manifold state and realizes/expands it rather than inventing topology ex nihilo",
+        "spike_ball_analogy": "collapsed admissible configuration -> expanded realized manifold while identity/invariants remain the same under the declared deformation",
+        "basin_relation": "accessible Red–Violet basins constrain which structural/energetic domains may feed the realized manifold",
+        "energy_relation": "energy is routed through the admissible manifold; topology and energy are not the same object"
+      },
+      "energy_cross_reference": {
+        "status": "CROSS-PROJECT candidate already mounted from MK Ultra API 4.3/TOME",
+        "native_unit": "epsilon_MK = ΔPi_min",
+        "energy_history": "E_MK(H)=(Pi(U_n)-Pi(U_0))/epsilon_MK",
+        "use_in_mk147": "potential author-side accounting for energetic cost of admissible state transitions; do not promote until reconciled with MK-147 Π notation and symbol collision."
+      }
+    },
+    "high_confidence_cannibalization_targets": [
+      "Resolution as distinguishability/readout rather than change of underlying state",
+      "Bandwidth as typed available transformation capacity",
+      "domain-restricted Bandwidth Algebra",
+      "reachability as propagation closure",
+      "relationship-first propagation and motion-as-readout",
+      "closed recursive identity profile / inverse-limit projection tower",
+      "projection seed + constrained lift fiber",
+      "History-decorated identity preservation under deformation/transport",
+      "six basin alphabet with basin-anchored Bandwidth and ordered shared Resolution profiles",
+      "blank manifold as generic construction plus occupancy/distribution",
+      "configuration space as admissible organizational space",
+      "morphism distinction DEFORM/PROJECT/LIFT/TRANSPORT/READOUT"
+    ],
+    "quarantined_or_open": [
+      "Exact mathematical meaning of the 1/7..6/7 basin fractions remains unrecovered; do not invent what denominator 7 measures.",
+      "Exact operative Bandwidth generator rule per basin remains open.",
+      "R88 branch: whether environmental admissibility is primitive domain data or generated intrinsically from closed fractal geometry.",
+      "Canonical ordering/comparison of Resolution-depth profiles remains open.",
+      "Exact five-dimensional Genesis-field embedding remains open.",
+      "Exact connection/horizontal-lift selector remains blocked on Bandwidth/depth rules.",
+      "Older Red-basin behavioral descriptions conflict across source branches and are not promoted.",
+      "MK43 Time-Space/QFT residue-bundle theorems remain out of MK-147 canon unless explicitly cannibalized.",
+      "Prime 0|0 semantics remain quarantined from MK-147 Genesis-field mechanics."
+    ],
+    "rainbow_ruling": "Let R be a rainbow. Seven is the admitted constructional scaffold; six ordinary basin addresses are 1/7 through 6/7 and White remains structural superposition.",
+    "metadata_rule": "SQLite is the knowledge compendium: current authority + source knowledge + candidates + supersessions + conflicts/open questions + quarantined/author-side notes, keyed to SFO address."
+  },
+  "checkpoint_6": {
+    "designation": "MK147 Book v2.6 — Checkpoint 6 — Genesis Field Mechanisms",
+    "purpose": "Writing-ready mechanism recovery for Astraeus.",
+    "knowledge_closure": "PASS",
+    "raw_corpus_policy": "Raw 4 GB bytes are not embedded; file occurrence/provenance inventory and canonical source knowledge are preserved in SQLite.",
+    "retrieval_model": "SFO address -> current API object + exhaustive SQLite linked knowledge units/equations/sources/provenance.",
+    "key_story_handles": [
+      "@sfo/genesis_field",
+      "@sfo/genesis_field/mechanism_map",
+      "@sfo/genesis_field/basins",
+      "@sfo/genesis_field/energy",
+      "@sfo/genesis_field/configuration_space",
+      "@sfo/genesis_field/manifold",
+      "@sfo/binding_circle",
+      "@sfo/aera/shaping",
+      "@sfo/portal",
+      "@sfo/rainbow_road"
+    ]
+  },
+  "checkpoint_7_pssp": {
+    "status": "CURRENT / SEALED",
+    "api_root": "@sfo/aera/transcription/pssp",
+    "hierarchy": "Aera → Transcription → PSSP",
+    "canonical_definition": "PSSP realizes a bound phase-state as the persistent Genesis manifold that defines the admissible structural corridors into which basin-conditioned energy may be organized prior to conscious shaping.",
+    "mechanism_sequence": [
+      "Binding Circle / Identity Binding",
+      "Bound Phase State",
+      "PSSP Shadow Manifold",
+      "Basin Signature / Corridor Requirements",
+      "Energy-Density Stabilization",
+      "Conscious Shaping Handoff",
+      "Manifested Shaping"
+    ],
+    "hard_separations": [
+      "PSSP is not Binding.",
+      "PSSP output is the manifold/scaffold, not the final manifestation.",
+      "The manifold is not the energy.",
+      "Basin signature is structural, not a power ranking.",
+      "Phase State != Shadow Manifold != Energy Occupancy != Manifested Shaping."
+    ],
+    "fireball_example": {
+      "illustrative_basin_signature": [
+        "Red",
+        "Orange",
+        "Green"
+      ],
+      "meaning": "structural corridor requirements only; not a magnitude/power ordering"
+    },
+    "historical_source": "Genesis Point — 14 Playground.pdf",
+    "formalization_artifact": "PSSP_FORMALIZATION_v0_1.md"
+  },
+  "writing_delivery_pad": {
+    "status": "READY",
+    "foundation_checkpoints": [
+      "Checkpoint 5 — Binding Circles",
+      "Checkpoint 6 — Genesis Field Mechanisms",
+      "Checkpoint 7 — PSSP"
+    ],
+    "next_major_mechanism": "Genesis Minds",
+    "astraeus_instruction": "Use the SFO API for current structure and the SQLite library for exhaustive SFO-addressed mathematics, provenance, source knowledge, equations, examples, and unresolved questions. Query PSSP at @sfo/aera/transcription/pssp."
+  }
+}

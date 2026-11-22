@@ -1,0 +1,25 @@
+{
+  "handle": "landscape://DL-DM-E080-RESPONSE-SPECTRUM-RESIDUE",
+  "object_type": "dependency_landscape",
+  "status": "CONDITIONAL_DISCRIMINATOR_CLOSURE",
+  "domain": "LANDSCAPE",
+  "namespace": "mk43://landscape",
+  "name": "DL-DM-E080-RESPONSE-SPECTRUM-RESIDUE",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "DEPENDENCY_LANDSCAPE",
+  "metadata": {
+    "id": "DL-DM-E080-RESPONSE-SPECTRUM-RESIDUE",
+    "seed": "@dm_hidden_response_operator",
+    "status": "CONDITIONAL_DISCRIMINATOR_CLOSURE",
+    "source_file": "live/registry",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1\", \"landscape_id\": \"DL-DM-E080-RESPONSE-SPECTRUM-RESIDUE\", \"seed\": \"@dm_hidden_response_operator\", \"status\": \"CONDITIONAL_DISCRIMINATOR_CLOSURE\", \"nodes\": [\"@dm_hidden_response_operator\", \"@dm_response_spectrum_residue_discriminator\", \"@dm_projection_residue_survival\", \"@dm_q_survival\"], \"terminal\": {\"state\": \"OPEN_FORK_SINGLE_RESIDUE_MAP\", \"iteration\": 3, \"focus\": \"@dm_response_spectrum_residue_discriminator\", \"reason\": \"The hidden discriminator is now explicit; only its preservation into the declared invariant-residue inventory remains unproved.\"}}"
+  },
+  "address": "landscape://DL-DM-E080-RESPONSE-SPECTRUM-RESIDUE",
+  "address_sha256": "f6ae5f58228c65b2a56864aa5a1f819429b622cdb4f0f32caf72d73edbe4ccad"
+}

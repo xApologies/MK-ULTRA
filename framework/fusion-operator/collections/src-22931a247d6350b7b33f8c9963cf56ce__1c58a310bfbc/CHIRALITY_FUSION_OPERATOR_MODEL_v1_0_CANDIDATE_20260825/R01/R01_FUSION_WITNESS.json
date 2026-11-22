@@ -1,0 +1,84 @@
+{
+  "schema": "FusionWitness.R01.v1",
+  "status": "CANDIDATE_CLOSED_FOR_R01_MATHEMATICAL_MODE",
+  "scope": "Chirality / Quantum Exploration Model; formal work-layer only",
+  "operator": "F_NN_0",
+  "mode": "mirror_null_contact",
+  "state_alphabet": {
+    "N": "empty-set label \u2205 on an addressed locus",
+    "E": "singleton-empty label {\u2205} on an addressed locus"
+  },
+  "input_A": {
+    "name": "L",
+    "matrix": [
+      [
+        "E",
+        "N"
+      ],
+      [
+        "N",
+        "E"
+      ]
+    ],
+    "interface_locus": "l_12",
+    "interface_label": "N",
+    "chirality_role": "mirror member A"
+  },
+  "input_B": {
+    "name": "R",
+    "matrix": [
+      [
+        "N",
+        "E"
+      ],
+      [
+        "E",
+        "N"
+      ]
+    ],
+    "interface_locus": "r_11",
+    "interface_label": "N",
+    "chirality_role": "mirror member B"
+  },
+  "interface": {
+    "template": "J_N={j}",
+    "map_A": "j -> l_12",
+    "map_B": "j -> r_11",
+    "boundary_eligible": true,
+    "label_compatible": true,
+    "contact_required": true,
+    "contact_satisfied": true
+  },
+  "relative_orientation": {
+    "symbol": "rho_star",
+    "mirror_related": true,
+    "source": "recovered chirality-seed/fusion sketch geometry"
+  },
+  "construction": {
+    "disjoint_vertex_count": 8,
+    "identifications": [
+      "l_12 ~ r_11"
+    ],
+    "quotient_vertex_count": 7,
+    "shared_class": "q=[l_12]=[r_11]",
+    "shared_state_label": "N",
+    "fusion_relation": "eta_star=(q,(L,l_12),(R,r_11),rho_star,FUSE)",
+    "fusion_relation_nonempty": true,
+    "empty_set_mutated": false,
+    "baseline_residue": "tag_L(Inv_L) boxplus tag_R(Inv_R) boxplus tag_F(eta_star)"
+  },
+  "formal_result": {
+    "exists": true,
+    "carrier_type": "finite decorated quotient / pushout-like chirality carrier",
+    "one_global_carrier": true,
+    "latent_subsystem_status": "UNRESOLVED; assigned to R02",
+    "quantum_entanglement_status": "NOT_TESTED; assigned to R03",
+    "superposition_status": "NOT_TESTED; assigned to R04",
+    "chirality_conservation_status": "NOT_TESTED; assigned to R07",
+    "physical_realization": "NOT_CLAIMED"
+  },
+  "operative_layer": {
+    "bandwidth_condition": "fusion generator/operator word must be available in active A_B",
+    "resolution_role": "readout and possibly address-selection distinguishability; not a formal existence condition"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "handle": "@klein_gordon_inner_product",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Klein Gordon Inner Product",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 3,
+    "xapi_raw_out_count": 0,
+    "xapi_raw_in_count": 3,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@mode_solution",
+        "relation": "NORMALIZED_BY",
+        "target": "@klein_gordon_inner_product",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-52",
+        "provenance": "DIRECT_SOURCE:HAWKING_MINIMAL_MATHEMATICAL_CLOSURE"
+      },
+      {
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_MODEL_REACHES",
+        "target": "@klein_gordon_inner_product",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-52",
+        "provenance": "DERIVED:RP52_HAWKING_FORWARD_CRAWL; witness=@black_hole-[BLACK_HOLE_MODEL_REACHES]->@mode_solution | @mode_solution-[NORMALIZED_BY]->@klein_gordon_inner_product"
+      },
+      {
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_GLOBAL_REACHES",
+        "target": "@klein_gordon_inner_product",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-53",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_FORWARD_CRAWL; witness=@black_hole-[BLACK_HOLE_MODEL_REACHES]->@klein_gordon_inner_product"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 17596,
+        "source": "@mode_solution",
+        "relation": "NORMALIZED_BY",
+        "target": "@klein_gordon_inner_product",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_SOURCE:HAWKING_MINIMAL_MATHEMATICAL_CLOSURE"
+      },
+      {
+        "id": 17634,
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_MODEL_REACHES",
+        "target": "@klein_gordon_inner_product",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP52_HAWKING_FORWARD_CRAWL; witness=@black_hole-[BLACK_HOLE_MODEL_REACHES]->@mode_solution | @mode_solution-[NORMALIZED_BY]->@klein_gordon_inner_product"
+      },
+      {
+        "id": 17873,
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_GLOBAL_REACHES",
+        "target": "@klein_gordon_inner_product",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_FORWARD_CRAWL; witness=@black_hole-[BLACK_HOLE_MODEL_REACHES]->@klein_gordon_inner_product"
+      }
+    ]
+  },
+  "address": "@klein_gordon_inner_product",
+  "address_sha256": "0c25072cd3c9132370347c233836db59c58ed13b57b8381e3c9d93ea7455f41f"
+}

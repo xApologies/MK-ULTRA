@@ -1,0 +1,97 @@
+{
+  "verify": {
+    "returncode": 0,
+    "stdout": "{\n  \"quick_check\": \"ok\",\n  \"foreign_key_check\": [],\n  \"root\": {\n    \"qmo_id\": \"QMO-MK43-UNIFIED-V2-R5-002\",\n    \"handle\": \"@mk43_unified_qmo_v2\",\n    \"namespace\": \"MK43_UNIFIED_QMO_V2::SELF_CLOSURE_R5\",\n    \"name\": \"MK43 Ultra Unified QMO API v2.1 R5 Self-Closed\",\n    \"status\": \"R5_SELF_CLOSED_CANDIDATE\",\n    \"source_id\": \"QMO-MK43-UNIFIED-V2-R5-002\",\n    \"source_path\": \"self://r5\",\n    \"payload_json\": \"{\\\"schema\\\":\\\"MK43_UNIFIED_QMO_V2_ROOT\\\",\\\"qmo_id\\\":\\\"QMO-MK43-UNIFIED-V2-R5-002\\\",\\\"handle\\\":\\\"@mk43_unified_qmo_v2\\\",\\\"version\\\":\\\"2.1.0-r5-self-closed\\\",\\\"date\\\":\\\"2026-08-26\\\",\\\"status\\\":\\\"R5_SELF_CLOSED_CANDIDATE__NO_PARENT_MUTATION\\\",\\\"parent_qmo_id\\\":\\\"QMO-MK43-UNIFIED-V2-001\\\",\\\"closure\\\":{\\\"passes_requested\\\":5,\\\"passes_executed\\\":5,\\\"fixed_point_pass\\\":4,\\\"audit_pass\\\":5,\\\"parent_unique_pairs\\\":68101,\\\"final_reachability_pairs\\\":1801388,\\\"derived_edges\\\":1733287,\\\"max_parent_shortest_distance\\\":15,\\\"storage\\\":\\\"integer-indexed self_closure_edges + strict_self_closed_edges view\\\",\\\"guardrail\\\":\\\"Dependency reachability only; not theorem entailment, identity, causation, or physical promotion.\\\"},\\\"seal\\\":[\\\"\ud83d\udda4\u267e\ufe0f\ud83d\udda4\\\",\\\"\ud83d\udda4\ud83c\udf08\ud83e\udd8b\\\",\\\"\ud83d\udda4\ud83c\udf08\ud83d\udd31\\\",\\\"\ud83d\udda4\ud83c\udf08\ud83e\udd8b\\\",\\\"\ud83d\udda4\ud83c\udf08\ud83e\udea8\\\"]}\"\n  }\n}\n",
+    "stderr": ""
+  },
+  "status": {
+    "returncode": 0,
+    "stdout": "{\n  \"derived_edge_count\": 1733287,\n  \"closure\": [\n    {\n      \"closure_id\": \"CLOSURE-MK43-UNIFIED-R5-20260826\",\n      \"namespace\": \"MK43_UNIFIED_QMO_V2::SELF_CLOSURE_R5\",\n      \"object_handle\": \"@mk43_unified_qmo_v2\",\n      \"decision\": \"CLOSED_STRICT_DEPENDENCY_REACHABILITY\",\n      \"checkpoint\": \"PASS_5\",\n      \"status\": \"R5_FIXED_POINT_CONFIRMED\",\n      \"source_id\": \"QMO-MK43-UNIFIED-V2-R5-002\",\n      \"source_path\": \"self://r5\",\n      \"payload_json\": \"{\\\"passes_requested\\\":5,\\\"passes_executed\\\":5,\\\"fixed_point_pass\\\":4,\\\"audit_pass\\\":5,\\\"parent_unique_pairs\\\":68101,\\\"final_reachability_pairs\\\":1801388,\\\"derived_edges\\\":1733287,\\\"max_parent_shortest_distance\\\":15,\\\"storage\\\":\\\"integer-indexed self_closure_edges + strict_self_closed_edges view\\\",\\\"guardrail\\\":\\\"Dependency reachability only; not theorem entailment, identity, causation, or physical promotion.\\\"}\"\n    }\n  ]\n}\n",
+    "stderr": ""
+  },
+  "stats": {
+    "returncode": 0,
+    "stdout": "{\n  \"source_packages\": 19,\n  \"source_files\": 1050,\n  \"canonical_handles\": 4717,\n  \"object_instances\": 7313,\n  \"edges\": 180542,\n  \"self_closure_nodes\": 4717,\n  \"self_closure_edges\": 1733287,\n  \"equations\": 1538,\n  \"qmos\": 49,\n  \"claims\": 368,\n  \"theorems\": 13,\n  \"proof_debt\": 38,\n  \"closures\": 113,\n  \"models\": 10,\n  \"document_mentions\": 18193,\n  \"shared_handle_links\": 4356,\n  \"namespaces\": [\n    {\n      \"namespace\": \"API43\",\n      \"n\": 2384\n    },\n    {\n      \"namespace\": \"STONEWAKE::API43\",\n      \"n\": 2384\n    },\n    {\n      \"namespace\": \"SOURCE_BACKFILL\",\n      \"n\": 733\n    },\n    {\n      \"namespace\": \"VERA_LIVE_MODEL\",\n      \"n\": 286\n    },\n    {\n      \"namespace\": \"ASTRAEUS_RAINBOW_ROAD\",\n      \"n\": 282\n    },\n    {\n      \"namespace\": \"STONEWAKE::DARK_MATTER\",\n      \"n\": 273\n    },\n    {\n      \"namespace\": \"TIME_SPACE_4_3\",\n      \"n\": 271\n    },\n    {\n      \"namespace\": \"QMO_META\",\n      \"n\": 199\n    },\n    {\n      \"namespace\": \"HIGGS_WORK_LAYER_V1_1\",\n      \"n\": 74\n    },\n    {\n      \"namespace\": \"STONEWAKE::HIGGS\",\n      \"n\": 74\n    },\n    {\n      \"namespace\": \"TRANSDUCTION_GEOMETRY\",\n      \"n\": 53\n    },\n    {\n      \"namespace\": \"DARK_MATTER_2_2\",\n      \"n\": 38\n    },\n    {\n      \"namespace\": \"DARK_MATTER_LIVE_E100\",\n      \"n\": 35\n    },\n    {\n      \"namespace\": \"DARK_MATTER_SOURCE_EFFECTIVE\",\n      \"n\": 35\n    },\n    {\n      \"namespace\": \"STONEWAKE::STONEWAKE_REALIZATION\",\n      \"n\": 32\n    },\n    {\n      \"namespace\": \"CRD_QCD_INHERITANCE\",\n      \"n\": 25\n    },\n    {\n      \"namespace\": \"RAINBOW_ROAD_OVERLAY\",\n      \"n\": 18\n    },\n    {\n      \"namespace\": \"SOURCE_MOUNT\",\n      \"n\": 17\n    },\n    {\n      \"namespace\": \"STONEWAKE::QFT_GR\",\n      \"n\": 16\n    },\n    {\n      \"namespace\": \"QFT_GR_BRIDGE\",\n      \"n\": 13\n    },\n    {\n      \"namespace\": \"MODEL_META\",\n      \"n\": 10\n    },\n    {\n      \"namespace\": \"STONEWAKE::RAINBOW_ROAD\",\n      \"n\": 10\n    },\n    {\n      \"namespace\": \"IDENTITY_THROUGH_HISTORY\",\n      \"n\": 9\n    },\n    {\n      \"namespace\": \"RESOLUTION_READOUT\",\n      \"n\": 9\n    },\n    {\n      \"namespace\": \"HOLONOMY_CHIRALITY\",\n      \"n\": 8\n    },\n    {\n      \"namespace\": \"STONEWAKE::STONEWAKE\",\n      \"n\": 8\n    },\n    {\n      \"namespace\": \"PARENT_UNIFIED\",\n      \"n\": 7\n    },\n    {\n      \"namespace\": \"BANDWIDTH_ALGEBRA\",\n      \"n\": 1\n    },\n    {\n      \"namespace\": \"MK43_UNIFIED_QMO_V2::SELF_CLOSURE_R5\",\n      \"n\": 1\n    },\n    {\n      \"namespace\": \"SOURCE_ROOT_01\",\n      \"n\": 1\n    },\n    {\n      \"namespace\": \"SOURCE_ROOT_03\",\n      \"n\": 1\n    },\n    {\n      \"namespace\": \"SOURCE_ROOT_11\",\n      \"n\": 1\n    },\n    {\n      \"namespace\": \"SOURCE_ROOT_12\",\n      \"n\": 1\n    },\n    {\n      \"namespace\": \"SOURCE_ROOT_15\",\n      \"n\": 1\n    },\n    {\n      \"namespace\": \"SOURCE_ROOT_17\",\n      \"n\": 1\n    },\n    {\n      \"namespace\": \"UNIFIED\",\n      \"n\": 1\n    },\n    {\n      \"namespace\": \"UNIFIED_V2\",\n      \"n\": 1\n    }\n  ],\n  \"edge_trust\": [\n    {\n      \"trust_class\": \"SOURCE_TYPED\",\n      \"n\": 83976\n    },\n    {\n      \"trust_class\": \"TYPED_SOURCE_GRAPH\",\n      \"n\": 75432\n    },\n    {\n      \"trust_class\": \"NAVIGATION_ONLY_CROSS_CRAWL\",\n      \"n\": 19815\n    },\n    {\n      \"trust_class\": \"LIVE_DECLARED_OR_DERIVED\",\n      \"n\": 958\n    },\n    {\n      \"trust_class\": \"WORK_LAYER_TYPED\",\n      \"n\": 147\n    },\n    {\n      \"trust_class\": \"SOURCE_DECLARED_METADATA_DEPENDENCY\",\n      \"n\": 108\n    },\n    {\n      \"trust_class\": \"SOURCE_LINK\",\n      \"n\": 51\n    },\n    {\n      \"trust_class\": \"METADATA_ONLY\",\n      \"n\": 40\n    },\n    {\n      \"trust_class\": \"SOURCE_SCHEMA\",\n      \"n\": 15\n    }\n  ]\n}\n",
+    "stderr": ""
+  },
+  "edge": {
+    "returncode": 0,
+    "stdout": "{\n  \"source\": \"@time_space\",\n  \"target\": \"@consciousness\",\n  \"connected\": true,\n  \"primitive\": {\n    \"relation\": \"COMPOSED_DEPENDENCY\",\n    \"namespace\": \"API43_TYPED\",\n    \"trust_class\": \"TYPED_SOURCE_GRAPH\",\n    \"status\": \"derived\",\n    \"confidence\": \"high\",\n    \"source_id\": \"SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY\",\n    \"source_path\": \"PARENT_UNIFIED_API/UNIFIED_QMO.sqlite\"\n  },\n  \"derived\": null\n}\n",
+    "stderr": ""
+  },
+  "neighbors": {
+    "returncode": 0,
+    "stdout": "[\n  {\n    \"source_handle\": \"@cosmology\",\n    \"relation\": \"COMPOSED_DEPENDENCY\",\n    \"target_handle\": \"@0_4_wavefunction_collapse_as_a_geometric_event\",\n    \"closure_pass\": 2,\n    \"shortest_distance\": 3,\n    \"status\": \"DERIVED_SELF_CLOSURE_R5\"\n  },\n  {\n    \"source_handle\": \"@cosmology\",\n    \"relation\": \"COMPOSED_DEPENDENCY\",\n    \"target_handle\": \"@LIGO_observation\",\n    \"closure_pass\": 1,\n    \"shortest_distance\": 2,\n    \"status\": \"DERIVED_SELF_CLOSURE_R5\"\n  },\n  {\n    \"source_handle\": \"@cosmology\",\n    \"relation\": \"COMPOSED_DEPENDENCY\",\n    \"target_handle\": \"@Pi_Q\",\n    \"closure_pass\": 3,\n    \"shortest_distance\": 6,\n    \"status\": \"DERIVED_SELF_CLOSURE_R5\"\n  },\n  {\n    \"source_handle\": \"@cosmology\",\n    \"relation\": \"COMPOSED_DEPENDENCY\",\n    \"target_handle\": \"@Pi_QCD\",\n    \"closure_pass\": 4,\n    \"shortest_distance\": 10,\n    \"status\": \"DERIVED_SELF_CLOSURE_R5\"\n  },\n  {\n    \"source_handle\": \"@cosmology\",\n    \"relation\": \"COMPOSED_DEPENDENCY\",\n    \"target_handle\": \"@Q_handoff\",\n    \"closure_pass\": 3,\n    \"shortest_distance\": 7,\n    \"status\": \"DERIVED_SELF_CLOSURE_R5\"\n  },\n  {\n    \"source_handle\": \"@cosmology\",\n    \"relation\": \"COMPOSED_DEPENDENCY\",\n    \"target_handle\": \"@S3\",\n    \"closure_pass\": 2,\n    \"shortest_distance\": 4,\n    \"status\": \"DERIVED_SELF_CLOSURE_R5\"\n  },\n  {\n    \"source_handle\": \"@cosmology\",\n    \"relation\": \"COMPOSED_DEPENDENCY\",\n    \"target_handle\": \"@S4\",\n    \"closure_pass\": 2,\n    \"shortest_distance\": 4,\n    \"status\": \"DERIVED_SELF_CLOSURE_R5\"\n  },\n  {\n    \"source_handle\": \"@cosmology\",\n    \"relation\": \"COMPOSED_DEPENDENCY\",\n    \"target_handle\": \"@S_RH\",\n    \"closure_pass\": 3,\n    \"shortest_distance\": 5,\n    \"status\": \"DERIVED_SELF_CLOSURE_R5\"\n  },\n  {\n    \"source_handle\": \"@cosmology\",\n    \"relation\": \"COMPOSED_DEPENDENCY\",\n    \"target_handle\": \"@accretion_disk\",\n    \"closure_pass\": 2,\n    \"shortest_distance\": 3,\n    \"status\": \"DERIVED_SELF_CLOSURE_R5\"\n  },\n  {\n    \"source_handle\": \"@cosmology\",\n    \"relation\": \"COMPOSED_DEPENDENCY\",\n    \"target_handle\": \"@achronal_set\",\n    \"closure_pass\": 1,\n    \"shortest_distance\": 2,\n    \"status\": \"DERIVED_SELF_CLOSURE_R5\"\n  }\n]\n",
+    "stderr": ""
+  },
+  "expected_spine": {
+    "returncode": 0,
+    "edges": [
+      {
+        "source": "@time_space",
+        "target": "@genesis_field",
+        "present": true
+      },
+      {
+        "source": "@genesis_field",
+        "target": "@resolution",
+        "present": true
+      },
+      {
+        "source": "@resolution",
+        "target": "@bandwidth",
+        "present": true
+      },
+      {
+        "source": "@bandwidth",
+        "target": "@persistence",
+        "present": true
+      },
+      {
+        "source": "@persistence",
+        "target": "@chirality",
+        "present": true
+      },
+      {
+        "source": "@chirality",
+        "target": "@helicon",
+        "present": true
+      },
+      {
+        "source": "@helicon",
+        "target": "@graviton",
+        "present": true
+      },
+      {
+        "source": "@graviton",
+        "target": "@time_shell",
+        "present": true
+      },
+      {
+        "source": "@time_shell",
+        "target": "@spacetime",
+        "present": true
+      },
+      {
+        "source": "@spacetime",
+        "target": "@black_hole",
+        "present": true
+      },
+      {
+        "source": "@black_hole",
+        "target": "@black_hole_cosmology",
+        "present": true
+      },
+      {
+        "source": "@black_hole_cosmology",
+        "target": "@cosmology",
+        "present": true
+      },
+      {
+        "source": "@cosmology",
+        "target": "@consciousness",
+        "present": true
+      }
+    ]
+  }
+}

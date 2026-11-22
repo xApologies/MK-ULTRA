@@ -1,0 +1,67 @@
+{
+  "handle": "@dm_local_continuity_response_coefficient",
+  "object_type": "mathematical_object",
+  "status": "ATLAS_DERIVED_ACTIVE",
+  "domain": "DM22",
+  "namespace": "network",
+  "name": "Local Continuity Response Coefficient",
+  "definition": "Local unsaturated edge-response coefficient used by the finite continuity Laplacian. It is definitionally distinct from runtime transition capacity.",
+  "math": "w_e = kappa_ij A_ij >= 0; W_N=diag(w_e); L_N=B_N W_N B_N^T.",
+  "source_layer": "DM22",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "DM22",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 2,
+    "live_out_count": 1,
+    "live_in_count": 2,
+    "closure_out_reachability_count": 5,
+    "closure_in_reachability_count": 1,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19780,
+        "source": "@dm_local_continuity_response_coefficient",
+        "relation": "DEPENDS_ON",
+        "target": "@admissibility",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19720,
+        "source": "@dm_continuity_laplacian",
+        "relation": "USES",
+        "target": "@dm_local_continuity_response_coefficient",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19778,
+        "source": "@dm_history_to_continuity_strength",
+        "relation": "MAY_MODULATE",
+        "target": "@dm_local_continuity_response_coefficient",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.0"
+      }
+    ]
+  },
+  "address": "@dm_local_continuity_response_coefficient",
+  "address_sha256": "631024356a830e82b2eca61414541db9cc922af85e11e7e21412878dabc9cd54"
+}

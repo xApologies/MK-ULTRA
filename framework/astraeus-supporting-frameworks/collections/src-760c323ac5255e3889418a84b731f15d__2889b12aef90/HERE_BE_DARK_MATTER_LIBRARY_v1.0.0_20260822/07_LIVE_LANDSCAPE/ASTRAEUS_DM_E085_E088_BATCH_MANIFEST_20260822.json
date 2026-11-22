@@ -1,0 +1,53 @@
+{
+  "schema": "ASTRAEUS_DM_E085_E088_BATCH_MANIFEST_V1",
+  "date": "2026-08-22",
+  "source_live_release": "v0.8.0 / 2.2.0+live.e084",
+  "target_live_release": "v0.9.0 / 2.2.0+live.e088",
+  "baseline_release": "DM_2.2.0",
+  "checkpoints": [
+    "E085",
+    "E086",
+    "E087",
+    "E088"
+  ],
+  "current_frontier": "@dm_two_port_timeshell_gravity_fiber_test",
+  "highest_leverage_proof_debt": "PD-DM-012",
+  "new_internal_closure": [
+    "explicit two-port native continuity residual at c_*=(1,-1)^T"
+  ],
+  "source_reconciliation": [
+    "generic native-density/readable-density route must use Resolution-level profile factorization rather than a universal scalar carrier"
+  ],
+  "conditional_closures": [
+    "selected direct Time-Shell gravity dark-readout witness"
+  ],
+  "new_debts": [
+    "PD-DM-012"
+  ],
+  "debt_reranking": {
+    "PD-DM-011": "parked alternate profile/readout lane",
+    "PD-DM-010": "secondary residue-symmetry lane",
+    "PD-DM-012": "highest-leverage direct gravity fiber"
+  },
+  "validation": {
+    "baseline_mutations": 0,
+    "parent_promotions": 0,
+    "physical_promotions": 0,
+    "canonical_edge_promotions": 0,
+    "new_working_assumptions": 1,
+    "new_live_objects": 4,
+    "new_qmos": 4,
+    "new_certificates": 4,
+    "db_counts": {
+      "edges": 939,
+      "qmos": 32,
+      "landscapes": 27,
+      "iterations": 27,
+      "promotions": 27,
+      "live_objects": 24,
+      "closure_certificates": 26,
+      "working_assumptions": 12,
+      "proof_debt": 12
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+  "handle": "@dm_port_response_trace_invariant",
+  "canonical_name": "Hidden Port-Response Trace Invariant",
+  "type": "DerivedResponseTraceInvariant",
+  "status": "LIVE_DERIVED_CLOSED_INTERNAL",
+  "checkpoint": "E081",
+  "definition": "The matched full/visible hidden-network pair has a state-level response invariant with tr(Lambda_full)>tr(Lambda_vis), and this trace gap is independent of port naming/relabeling.",
+  "math": "DeltaLambda_H >=_PSD 0, DeltaLambda_H != 0 => tr(DeltaLambda_H)>0 => tr(Lambda_full)>tr(Lambda_vis). For permutation P, tr(P Lambda P^T)=tr(Lambda).",
+  "parents": [
+    "@dm_hidden_response_operator",
+    "@dm_response_spectrum_residue_discriminator"
+  ],
+  "working_assumptions": [],
+  "proof_debt": [
+    "PD-DM-010"
+  ],
+  "physical_claim": false,
+  "baseline_mutation": false
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "ASTRAEUS_DM_BATCH_MANIFEST_V1",
+  "checkpoints": [
+    "E069",
+    "E070",
+    "E071",
+    "E072"
+  ],
+  "live_release": "v0.5.0",
+  "live_api_version": "2.2.0+live.e072",
+  "current_frontier": "@dm_metric_active_representation_witness",
+  "baseline_sha256": "ee4819595f94a52565ab21c832c902ea4040e315f3f575b203c61e53740ed63a",
+  "baseline_mutation": 0,
+  "parent_promotions": 0,
+  "physical_promotions": 0,
+  "new_working_assumptions": [
+    "WA-DM-E069-001"
+  ],
+  "new_proof_debt": [
+    "PD-DM-006"
+  ],
+  "new_live_objects": [
+    "@dm_conditional_scalar_stress_active_witness",
+    "@dm_conditional_action_dark_readout_witness",
+    "@dm_conditional_qualification_witness"
+  ],
+  "new_qmos": [
+    "QMO-DM-BRIDGE-CAND-010",
+    "QMO-DM-BRIDGE-CAND-011",
+    "QMO-DM-BRIDGE-CAND-012",
+    "QMO-DM-BRIDGE-CAND-013"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_NEIGHBORS_V1",
+  "handle": "@ordering",
+  "incoming": [
+    [
+      "@time_space",
+      {
+        "source": "@time_space",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@ordering",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56125->56127",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@time_space",
+      {
+        "source": "@time_space",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@ordering",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "API_CODE_BLOCK:56127;CANONICAL_API_VERTICAL:56125->56127",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ]
+  ],
+  "outgoing": [
+    [
+      "@continuation_operator",
+      {
+        "source": "@ordering",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@continuation_operator",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56127->56129",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@continuation_operator",
+      {
+        "source": "@ordering",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@continuation_operator",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "API_CODE_BLOCK:56129;CANONICAL_API_VERTICAL:56127->56129",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ]
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry"
+}

@@ -1,0 +1,56 @@
+{
+  "handle": "@dm_mode0_network_selection_rule",
+  "object_type": "mathematical_object",
+  "status": "OPEN_HANDLE",
+  "domain": "DM22",
+  "namespace": "open",
+  "name": "Mode-0 Hidden-Network Selection Rule",
+  "definition": "Typed unresolved object promoted from the Master Dark-Matter QMO. It remains mathematically open; promotion makes the unknown queryable rather than solved.",
+  "math": "Sel_0 : Mode0AccessState -> P(X_H^R) | requirements: Preserve current White-State-Core access-interface distinction.; Select hidden S3 support without identifying White-State Core with dark matter.; Remain inside S4 -> S3 -> S2.",
+  "source_layer": "DM22",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "DM22",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 1,
+    "live_in_count": 1,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 1,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19785,
+        "source": "@dm_mode0_network_selection_rule",
+        "relation": "SELECTS_ACCESS_TO",
+        "target": "@dm_hidden_s3_network",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19784,
+        "source": "@dm_mode0_access_interface",
+        "relation": "REQUIRES",
+        "target": "@dm_mode0_network_selection_rule",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.0"
+      }
+    ]
+  },
+  "address": "@dm_mode0_network_selection_rule",
+  "address_sha256": "2ceb0e1ec803a596109176846cd2b8dbe5081de2a888373eaf85e564fc0830bc"
+}

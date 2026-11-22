@@ -1,0 +1,26 @@
+{
+  "handle": "closure://CC-DM-E086-001",
+  "object_type": "closure_certificate",
+  "status": "EXPLICIT_TWO_PORT_CONTINUITY_RESIDUAL_CLOSED",
+  "domain": "CLOSURE",
+  "namespace": "mk43://closure",
+  "name": "CC-DM-E086-001",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E086",
+  "qmo_generated": true,
+  "proof_status": "EXPLICIT_TWO_PORT_CONTINUITY_RESIDUAL_CLOSED",
+  "empirical_status": "",
+  "provenance_class": "CLOSURE_CERTIFICATE",
+  "metadata": {
+    "id": "CC-DM-E086-001",
+    "object_handle": "@dm_explicit_two_port_continuity_residual_witness",
+    "decision": "EXPLICIT_TWO_PORT_CONTINUITY_RESIDUAL_CLOSED",
+    "checkpoint": "E086",
+    "source_file": "live/checkpoints/E086/certs/CC-DM-E086-001.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_CLOSURE_CERTIFICATE_V1\", \"certificate_id\": \"CC-DM-E086-001\", \"checkpoint\": \"E086\", \"object\": \"@dm_explicit_two_port_continuity_residual_witness\", \"decision\": \"EXPLICIT_TWO_PORT_CONTINUITY_RESIDUAL_CLOSED\", \"scope\": \"fixed-support unsaturated two-port hidden response sector\", \"checks\": {\"two_port_DeltaLambda_source_backed\": true, \"V27_response_identity_source_closed\": true, \"selected_state_outside_kernel\": true, \"nonzero_residual_derived\": true, \"TT_admissibility_proved\": false, \"gravity_projection_survival_proved\": false, \"baseline_dm22_modified\": false, \"physical_promotion\": false}, \"result\": \"A concrete c_* gives a nonzero hidden-vs-visible native continuity residual without any density calibration, UCM source law, or residue/Q assumption.\"}"
+  },
+  "address": "closure://CC-DM-E086-001",
+  "address_sha256": "271d39e2ef8f15574cba03c7243e721d092420dccd722aa7268e8ca82a3eaa62"
+}

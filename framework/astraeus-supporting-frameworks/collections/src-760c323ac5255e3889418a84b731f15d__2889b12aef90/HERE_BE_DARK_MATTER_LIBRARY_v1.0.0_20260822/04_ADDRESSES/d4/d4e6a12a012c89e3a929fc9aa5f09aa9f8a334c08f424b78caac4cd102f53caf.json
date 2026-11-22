@@ -1,0 +1,56 @@
+{
+  "handle": "@chirality_mirror_operator",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@chirality_mirror_operator",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 0,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@boundary_reflection",
+        "relation": "DIRECTED_TO",
+        "target": "@chirality_mirror_operator",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:52037->52038"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 119,
+        "source": "@boundary_reflection",
+        "relation": "DIRECTED_TO",
+        "target": "@chirality_mirror_operator",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:52037->52038"
+      }
+    ]
+  },
+  "address": "@chirality_mirror_operator",
+  "address_sha256": "d4e6a12a012c89e3a929fc9aa5f09aa9f8a334c08f424b78caac4cd102f53caf"
+}

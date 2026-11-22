@@ -1,0 +1,35 @@
+{
+  "basis_qmo": "QMO-CONSCIOUSNESS-TO-TIME-SPACE-API-CRAWL-R8-001",
+  "basis_db_sha256": "cf2dd5617d530ff4d03beb2b55f75f002b200bbe2aa6f856df40045f1cbb353b",
+  "counts": {
+    "nodes": 1459,
+    "instances": 3316,
+    "relation_types": 355,
+    "edge_witnesses": 160057,
+    "canonical_typed_edges": 79624,
+    "primitive_ordered_pairs": 68029,
+    "derived_closure_pairs": 1733204,
+    "total_nonreflexive_reachability_pairs": 1801233,
+    "equations": 163
+  },
+  "topology": {
+    "weak_components": 1,
+    "strong_components": 176,
+    "giant_scc_size": 1260,
+    "condensation_edges": 212,
+    "source_sccs": 69,
+    "sink_sccs": 64,
+    "symmetrized_seed_radius": 7,
+    "max_directed_shortest_distance": 15
+  },
+  "checks": {
+    "all_canonical_edges_have_witness": true,
+    "closure_pairs_disjoint_from_primitive_pairs": true,
+    "no_primitive_self_loops": true,
+    "no_closure_self_loops": true,
+    "condensation_is_dag": true,
+    "all_nodes_reached_by_bidirectional_seed_crawl": true,
+    "fixed_point_after_radius_7": true
+  },
+  "formalization_status": "ASTRAEUS_DERIVED_MATHEMATICAL_DESCRIPTION__NO_SOURCE_PROMOTION"
+}

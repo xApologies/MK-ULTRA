@@ -1,0 +1,312 @@
+[
+  {
+    "address": "@eq/right_seed_profile",
+    "name": "Right-handed seed profile",
+    "expression": "[[0,1],[1,0]]",
+    "interpretation": "Toy occupancy profile.",
+    "status": "WORKING",
+    "authority": "Genesis live",
+    "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+    "notes": ""
+  },
+  {
+    "address": "@eq/left_seed_profile",
+    "name": "Left-handed seed profile",
+    "expression": "[[1,0],[0,1]]",
+    "interpretation": "Mirror occupancy profile.",
+    "status": "WORKING",
+    "authority": "Genesis live",
+    "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+    "notes": "Chromatic branch open."
+  },
+  {
+    "address": "@eq/color_weights",
+    "name": "Color weights",
+    "expression": "R=1,O=2,Y=3,G=4,B=5,V=6",
+    "interpretation": "Discrete toy weights.",
+    "status": "CURRENT_TOY",
+    "authority": "Genesis live",
+    "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+    "notes": ""
+  },
+  {
+    "address": "@eq/domain_color_readout",
+    "name": "Domain color readout",
+    "expression": "C(D)=trunc((1/N_D) sum_i w(c_i))",
+    "interpretation": "Current discrete coarse readout.",
+    "status": "CURRENT_TOY",
+    "authority": "Genesis live",
+    "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+    "notes": "Continuous gradient later."
+  },
+  {
+    "address": "@eq/torus_seed_space",
+    "name": "Seed torus",
+    "expression": "T2=S1_A x S1_B",
+    "interpretation": "Two occupied tile color phases.",
+    "status": "STRONG_CANDIDATE",
+    "authority": "R36-R37",
+    "source_ref": "09_SOURCE_SNAPSHOTS/GENESIS_CHIRALITY_v9/R37_T2_LOCAL_CONTINUITY.md",
+    "notes": "Local only."
+  },
+  {
+    "address": "@eq/torus_update",
+    "name": "Torus transport",
+    "expression": "(theta_A,theta_B)->(theta_A+Delta_A,theta_B+Delta_B) mod 2pi",
+    "interpretation": "General local phase displacement.",
+    "status": "CANDIDATE",
+    "authority": "R61",
+    "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+    "notes": "Selector open."
+  },
+  {
+    "address": "@eq/torus_winding",
+    "name": "Torus winding",
+    "expression": "pi_1(T2)=Z x Z",
+    "interpretation": "Winding History carrier.",
+    "status": "PROVED_INHERITED_MATH",
+    "authority": "R37",
+    "source_ref": "09_SOURCE_SNAPSHOTS/GENESIS_CHIRALITY_v9/R37_T2_LOCAL_CONTINUITY.md",
+    "notes": "Not complete History."
+  },
+  {
+    "address": "@eq/byte_phase_space",
+    "name": "Byte phase space",
+    "expression": "X_byte subseteq (S1)^4",
+    "interpretation": "Four occupied tile phases under fixed occupancy.",
+    "status": "PROVISIONAL_MODEL",
+    "authority": "R61",
+    "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+    "notes": "Constrained domain."
+  },
+  {
+    "address": "@eq/block_phase_space",
+    "name": "Block phase space",
+    "expression": "X_block subseteq (S1)^32",
+    "interpretation": "Thirty-two occupied tile phases in half-occupied block.",
+    "status": "PROVISIONAL_MODEL",
+    "authority": "R61",
+    "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+    "notes": "Not physical dimension count."
+  },
+  {
+    "address": "@eq/block_path",
+    "name": "Block path",
+    "expression": "Gamma:[0,1]->X_block",
+    "interpretation": "Joint multiscale path.",
+    "status": "CANDIDATE",
+    "authority": "R61",
+    "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+    "notes": ""
+  },
+  {
+    "address": "@eq/block_direct_readout",
+    "name": "Direct block readout",
+    "expression": "C_block=trunc((1/32) sum_tau w(c_tau))",
+    "interpretation": "Fine-grained direct toy average.",
+    "status": "CURRENT_TOY",
+    "authority": "R61",
+    "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+    "notes": "Compare to recursive readout."
+  },
+  {
+    "address": "@eq/fixed_transfer",
+    "name": "Fixed local transfer",
+    "expression": "T_e,delta(x)=x+delta b_e",
+    "interpretation": "R16 conservative edge redistribution.",
+    "status": "SOURCE_DERIVED",
+    "authority": "R16",
+    "source_ref": "09_SOURCE_SNAPSHOTS/GENESIS_CHIRALITY_v9/R16_LOCAL_TILE_REDISTRIBUTION_KERNEL.md",
+    "notes": "White/midpoint working realization."
+  },
+  {
+    "address": "@eq/fixed_transfer_commutes",
+    "name": "Fixed-transfer commutativity",
+    "expression": "T_f,eps o T_e,delta = T_e,delta o T_f,eps",
+    "interpretation": "Fixed additive transfers commute when both compositions admissible.",
+    "status": "R60_RESULT",
+    "authority": "R60",
+    "source_ref": "09_SOURCE_SNAPSHOTS/CURRENT_TANGENT/R60_NATIVE_UPDATE_MECHANISM_TANGENT.md",
+    "notes": ""
+  },
+  {
+    "address": "@eq/decorated_transfer",
+    "name": "Decorated transfer",
+    "expression": "T_e(X)=x+delta_e(X)b_e",
+    "interpretation": "State/History-dependent transfer.",
+    "status": "CANDIDATE",
+    "authority": "R60",
+    "source_ref": "09_SOURCE_SNAPSHOTS/CURRENT_TANGENT/R60_NATIVE_UPDATE_MECHANISM_TANGENT.md",
+    "notes": "May be order-dependent."
+  },
+  {
+    "address": "@eq/commutator",
+    "name": "Commutator",
+    "expression": "[A,B]=AB-BA",
+    "interpretation": "Measures order dependence.",
+    "status": "INHERITED_TOOL",
+    "authority": "standard algebra",
+    "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+    "notes": ""
+  },
+  {
+    "address": "@eq/recursive_closure",
+    "name": "Recursive continuity update",
+    "expression": "Psi_(n+1)=R_c(O(Psi_n tensor T))",
+    "interpretation": "Interface recursive skeleton.",
+    "status": "FORMAL_STACK",
+    "authority": "Time-Space formal stack",
+    "source_ref": "09_SOURCE_SNAPSHOTS/TIMESPACE_FORMAL_STACK/05_Interface_Definitions.md",
+    "notes": "Not a specific tile update law."
+  },
+  {
+    "address": "@eq/closure_idempotence",
+    "name": "Closure idempotence",
+    "expression": "R_c(R_c(Psi))=R_c(Psi)",
+    "interpretation": "Closure-stabilized condition.",
+    "status": "FORMAL_STACK",
+    "authority": "Time-Space formal stack",
+    "source_ref": "09_SOURCE_SNAPSHOTS/TIMESPACE_FORMAL_STACK/05_Interface_Definitions.md",
+    "notes": ""
+  },
+  {
+    "address": "@eq/chirality_transport",
+    "name": "Chirality transport",
+    "expression": "chi(I^n(xi))=tau^n(chi(xi))",
+    "interpretation": "Inherited chirality transport.",
+    "status": "PROVED_LEMMA",
+    "authority": "Time-Space formal stack",
+    "source_ref": "09_SOURCE_SNAPSHOTS/TIMESPACE_FORMAL_STACK/03_Lemmas.md",
+    "notes": ""
+  },
+  {
+    "address": "@eq/persistence_locus",
+    "name": "Persistence locus",
+    "expression": "Xi={xi in E | exists n>=1: I^n(xi)~xi}",
+    "interpretation": "Recoverable organizational identity.",
+    "status": "FORMAL_STACK",
+    "authority": "Time-Space formal stack",
+    "source_ref": "09_SOURCE_SNAPSHOTS/TIMESPACE_FORMAL_STACK/02_Axioms.md",
+    "notes": ""
+  },
+  {
+    "address": "@eq/corridor_operator",
+    "name": "Chirality Corridor operator",
+    "expression": "C_ab=Pi_b o P_W o L_a",
+    "interpretation": "Time-Shell lift, transport, target projection.",
+    "status": "WORKING_FORMALIZATION",
+    "authority": "Chirality Corridor",
+    "source_ref": "09_SOURCE_SNAPSHOTS/TIMESPACE_FORMAL_STACK/corridor(1).md",
+    "notes": ""
+  },
+  {
+    "address": "@eq/crd_constraint",
+    "name": "CRD local constraint",
+    "expression": "delta x=f over Z_2",
+    "interpretation": "Candidate seam/backreaction closure condition.",
+    "status": "CANDIDATE",
+    "authority": "CRD source",
+    "source_ref": "@source/crd_relaxation",
+    "notes": ""
+  },
+  {
+    "address": "@eq/crd_relaxation",
+    "name": "CRD relaxation functional",
+    "expression": "Phi_chi(x;f)=sum_e c_e [x_u xor x_v != f_e]",
+    "interpretation": "Candidate local relaxation cost.",
+    "status": "CANDIDATE",
+    "authority": "CRD source",
+    "source_ref": "@source/crd_relaxation",
+    "notes": ""
+  },
+  {
+    "address": "@eq/native_energy",
+    "name": "Native energy unit",
+    "expression": "epsilon_MK=Delta Pi_min",
+    "interpretation": "Minimum admissible persistence difference.",
+    "status": "RECOVERED_API",
+    "authority": "Unified API",
+    "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+    "notes": ""
+  },
+  {
+    "address": "@eq/persistence_functional",
+    "name": "Persistence functional",
+    "expression": "Pi=sum_d I_d B_d R_d O_d C_d",
+    "interpretation": "Organizational persistence accounting.",
+    "status": "RECOVERED_API",
+    "authority": "Unified API",
+    "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+    "notes": "Symbol roles source-specific."
+  },
+  {
+    "address": "@eq/energy_density",
+    "name": "Energy density",
+    "expression": "rho_E=RT/V",
+    "interpretation": "Recovered API relation.",
+    "status": "RECOVERED_API",
+    "authority": "Unified API",
+    "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+    "notes": "Do not merge with MK147 ladder."
+  },
+  {
+    "address": "@eq/domain_generator_map",
+    "name": "Domain generator map",
+    "expression": "Lambda_D:(F_D,A_D,B)->Gen_D(B)",
+    "interpretation": "Domain-relative generator construction.",
+    "status": "OPEN",
+    "authority": "Propagation v8",
+    "source_ref": "09_SOURCE_SNAPSHOTS/PROPAGATION_v8/CANONICAL_FULL_CONTINUITY_v8.md",
+    "notes": "Branch A/B unresolved."
+  },
+  {
+    "address": "@eq/local_update_generator",
+    "name": "Local chirality generator",
+    "expression": "K_chi:(state,Adj,R,B,H,P,Sigma)->Gen_local",
+    "interpretation": "Active update-law target.",
+    "status": "OPEN",
+    "authority": "R61",
+    "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+    "notes": ""
+  },
+  {
+    "address": "@eq/multiscale_update",
+    "name": "Multiscale update",
+    "expression": "U_chi:(K_t,Adj,R,B,H,P,Sigma) ⇀ (K_t+1,H_prime)",
+    "interpretation": "Partial decorated update operator.",
+    "status": "WORKING_CANDIDATE",
+    "authority": "R61",
+    "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+    "notes": ""
+  },
+  {
+    "address": "@eq/helicon_q_handoff",
+    "name": "Helicon-Q handoff",
+    "expression": "Lambda_HQ:D_HQ ⇀ Q_loc",
+    "interpretation": "Source-respecting handoff target.",
+    "status": "OPEN_BLOCKER",
+    "authority": "CRD->QCD v1.8",
+    "source_ref": "09_SOURCE_SNAPSHOTS/CRD_QCD_v1_8/README.md",
+    "notes": ""
+  },
+  {
+    "address": "@eq/su3_dimension",
+    "name": "SU3 generator dimension",
+    "expression": "dim SU(3)=3^2-1=8",
+    "interpretation": "External comparison fact.",
+    "status": "EXTERNAL_COMPARISON",
+    "authority": "standard QCD",
+    "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+    "notes": "No derivation claim."
+  },
+  {
+    "address": "@eq/qcd_commutator",
+    "name": "QCD Lie algebra commutator",
+    "expression": "[T^a,T^b]=i f^{abc}T^c",
+    "interpretation": "External comparison fact.",
+    "status": "EXTERNAL_COMPARISON",
+    "authority": "standard QCD",
+    "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+    "notes": ""
+  }
+]

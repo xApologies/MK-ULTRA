@@ -1,0 +1,58 @@
+{
+  "scope": "Constructed mathematical interface examples only; not actual native-physics validation.",
+  "python": "3.13.5",
+  "tests_run": 12,
+  "passed": 12,
+  "failed": 0,
+  "native_GR_equivalence_proved": false,
+  "tests": [
+    {
+      "test": "A0: typed admissibility in the two-sheet interface example",
+      "passed": true
+    },
+    {
+      "test": "A1: identity arrow is admissible at every state",
+      "passed": true
+    },
+    {
+      "test": "A2: composition preserves the declared admissibility relation",
+      "passed": true
+    },
+    {
+      "test": "A3/A4: identity chart transitions preserve admissibility and cocycles",
+      "passed": true
+    },
+    {
+      "test": "The readout covers the target but has two distinct formal identity lifts",
+      "passed": true
+    },
+    {
+      "test": "Every candidate section is a right inverse; none is a left inverse",
+      "passed": true
+    },
+    {
+      "test": "Two distinct native witness histories have identical full readout sequences",
+      "passed": true
+    },
+    {
+      "test": "The retained identity-bit observable does not factor through the readout",
+      "passed": true
+    },
+    {
+      "test": "A different gauge interpretation removes the bit, but also removes its observable",
+      "passed": true
+    },
+    {
+      "test": "Initial readout can fail to determine projected evolution",
+      "passed": true
+    },
+    {
+      "test": "Two-time readout can recover a bit that a one-time readout loses",
+      "passed": true
+    },
+    {
+      "test": "Finite-prefix projections are onto and the all-ones prefixes are compatible",
+      "passed": true
+    }
+  ]
+}

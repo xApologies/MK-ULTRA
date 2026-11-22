@@ -1,0 +1,60 @@
+{
+  "id": "QMO-AST-DM-WL-005_T5_LOCAL_QFT_GR_S3_CONTINUITY_BRIDGE",
+  "work_layer": "WL-006",
+  "atlas": "WL-v130",
+  "date": "2026-08-17",
+  "status": "SOURCE_MATCHED_INTEGRATION_CANDIDATE_NOT_PARENT_PROMOTED",
+  "parents": [
+    "MK43 Chirality Landscape Version 1",
+    "QFT / GR Representation Bridge from the Common Chirality Fabric",
+    "Five-Dimensional Time-Space as an S2-Fibered Continuity Structure",
+    "QMO-AST-DM-WL-003_ROTATIONAL_SELF_CORRIDOR_DARK_GEOMETRY",
+    "QMO-AST-DM-WL-004_CROSS_RESOLUTION_FRAME_DRAG_TIME_SHELL"
+  ],
+  "source_geometry": {
+    "total": "T5",
+    "fibration": "S2 -> T5 --pi--> S3",
+    "fiber": "Sigma_p=pi^-1(p)~=S2",
+    "base": "S3 continuity domain",
+    "dimension": "dim(T5)=dim(S3)+dim(S2)=3+2=5"
+  },
+  "local_representations": {
+    "chirality": "chi_p=i_p^*(chi)",
+    "quantum": "rho_Q,p:chi_p->QFT_p",
+    "gravity": "rho_G,p:chi_p->GR_p",
+    "er": "rho_ER,p:chi_p->ER_p",
+    "bridge": "QFT_p<-chi_p->GR_p"
+  },
+  "global_formal_bridge": {
+    "fabric": "Fabr_chi=[G_chi]_G",
+    "operative_state": "F=Op(Fabr_chi;B,R,H)",
+    "quantum_readout": "rho_Q:F->Q_QFT",
+    "gravity_readout": "rho_G:F->Q_GR",
+    "common_ancestry": "R_QG={(q,g)|exists F:q=rho_Q(F),g=rho_G(F)}"
+  },
+  "corridor": {
+    "path": "gamma:[0,1]->S3",
+    "pullback": "W_gamma=gamma^*(T5)",
+    "local_form": "W_gamma~=S2x[0,1]",
+    "transport": "P_gamma^chi"
+  },
+  "dark_candidate": {
+    "matter_equivalence": "rho_Q,p,R(F0)=rho_Q,p,R(F1)",
+    "gravity_inequivalence": "rho_G,p,R(F0)!=rho_G,p,R(F1)",
+    "kernel_form": "DeltaF in ker(rho_Q,p,R) but DeltaF notin ker(rho_G,p,R)",
+    "interpretation": "S3 History/holonomy distinction may be quotiented out by one local readout and retained by another"
+  },
+  "intertwining_target": "rho_s,beta o P_gamma^chi = U_s(gamma) o rho_s,alpha",
+  "supersession_firewall": {
+    "version1": "T5 is universe/Time-Space; earlier S4=universe is superseded in this branch",
+    "parent_dark_matter": "0.14.0/Atlas v125 S4->S3->S2 terminology remains provenance-preserved until typed reconciliation"
+  },
+  "open_obligations": [
+    "type local Resolution-conditioned rho_Q,p,R and rho_G,p,R",
+    "type gravity-sector intertwining under explicit hypotheses",
+    "connect the gravity readout to accepted downstream observables",
+    "reconcile parent Dark Matter S4 role with Version 1 T5 fibration without provenance collapse",
+    "retain or redefine S4 only with an explicit non-universe role if useful"
+  ],
+  "parent_promotions": 0
+}

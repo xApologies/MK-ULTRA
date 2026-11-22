@@ -1,0 +1,44 @@
+{
+  "schema": "ASTRAEUS_DM_WORK_LAYER_QMO_V1",
+  "qmo_id": "QMO-AST-DM-WL-010",
+  "name": "Sector-Relative Holonomy Dark Resolution Window",
+  "status": "FINITE_WORK_LAYER_THEOREM_AND_MODEL_CLASS_WITNESS_NOT_PARENT_PROMOTED",
+  "work_layer_revision": "WL-011",
+  "date": "2026-08-17",
+  "parents": [
+    "QMO-AST-DM-WL-003_ROTATIONAL_SELF_CORRIDOR_DARK_GEOMETRY",
+    "QMO-AST-DM-WL-005_T5_LOCAL_QFT_GR_S3_CONTINUITY_BRIDGE",
+    "Bandwidth Algebra BA-D4",
+    "Bandwidth Algebra BA-T2",
+    "Resolution Landscape RL9/RL-T3",
+    "Dark Matter API D_R"
+  ],
+  "anchor": "p_H in S3 with Sigma_H=pi^-1(p_H)~=S2 for the galactic specialization",
+  "formal_history": "h_H=Hol_H(gamma_H), with h_H!=id in the formal History/transport algebra",
+  "q_visibility": "Pers_Q(h_H;x)={R | rho_Q,p_H,R(h_H.x)!=rho_Q,p_H,R(x)}",
+  "g_visibility": "Pers_G(h_H;x)={R | rho_G,p_H,R(h_H.x)!=rho_G,p_H,R(x)}",
+  "dark_window": "DarkRes(h_H;x)=Pers_G(h_H;x)\\Pers_Q(h_H;x)",
+  "theorem": "R in DarkRes implies QFT-equivalent and GR-inequivalent common-ancestry states; under matter-factorization and gravity-nondegeneracy this yields a D_R pair.",
+  "constructive_witness": {
+    "history_group": "Z2-type return transport {id,h}, h^2=id",
+    "resolutions": ["R_c", "R_d", "R_f"],
+    "Pers_Q": ["R_f"],
+    "Pers_G": ["R_d", "R_f"],
+    "DarkRes": ["R_d"]
+  },
+  "guardrails": [
+    "composition identity is not additive zero",
+    "algebraic nonemptiness is not an astronomical dark-matter detection",
+    "S3 is a continuity/History domain, not dark matter by identity",
+    "black-hole anchor is a specialization, not required by the abstract theorem",
+    "rho_G physical completion remains open",
+    "no parent promotion"
+  ],
+  "source_paths": [
+    "MOUNTS/FORMAL_BOOKS/BANDWIDTH_ALGEBRA_v1.0/BANDWIDTH_ALGEBRA_V1_0_20260816/FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+    "MOUNTS/FORMAL_BOOKS/BANDWIDTH_ALGEBRA_v1.0/BANDWIDTH_ALGEBRA_V1_0_20260816/FORMAL/08_THEOREMS.md",
+    "MOUNTS/FORMAL_BOOKS/BANDWIDTH_ALGEBRA_v1.0/BANDWIDTH_ALGEBRA_V1_0_20260816/SOURCES/TRANSDUCTION_GEOMETRY_SEED/S35_RESOLUTION_LANDSCAPE_v0.1.md",
+    "MOUNTS/QFT_GR_BRIDGE_VERSION_1/MK43_CHIRALITY_LANDSCAPE_VERSION_1_20260816/FORMAL/TIMESPACE_S2_OVER_S3_FIBRATION.md",
+    "MOUNTS/DARK_MATTER_API_2.2/DARK_MATTER_API_CURRENT_CANONICAL.md"
+  ]
+}

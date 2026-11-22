@@ -1,0 +1,97 @@
+{
+  "project": "CHIRALITY_CROSS_DOMAIN_EVIDENCE_MAP_PROJECT_SEED_v0_1_20260826",
+  "state": "PAUSED",
+  "resume_target": "X01",
+  "finish_line": "X10",
+  "active_project_elsewhere": "CRD_TO_QCD_INHERITANCE_LIVE_MODEL_v1_3_QMO_LITE_20260825",
+  "runs": [
+    {
+      "id": "X00",
+      "target": "Seed assembly",
+      "status": "PASS",
+      "authority": "LILY_PAD",
+      "depends_on": "",
+      "exit_condition": "Package CRC/DB/checks pass"
+    },
+    {
+      "id": "X01",
+      "target": "Source archaeology / chronology",
+      "status": "READY",
+      "authority": "RESUME_TARGET",
+      "depends_on": "X00",
+      "exit_condition": "All domains receipted or explicit gap"
+    },
+    {
+      "id": "X02",
+      "target": "Chirality type dictionary",
+      "status": "LOCKED",
+      "authority": "NORMAL",
+      "depends_on": "X01",
+      "exit_condition": "Typed chirality objects and forbidden equivalences"
+    },
+    {
+      "id": "X03",
+      "target": "Computer architecture branch",
+      "status": "LOCKED",
+      "authority": "NORMAL",
+      "depends_on": "X02",
+      "exit_condition": "Nontrivial computational role tested"
+    },
+    {
+      "id": "X04",
+      "target": "BRANE/SPO branch",
+      "status": "LOCKED",
+      "authority": "NORMAL",
+      "depends_on": "X02",
+      "exit_condition": "Reusable chirality/admissibility interface verdict"
+    },
+    {
+      "id": "X05",
+      "target": "Genesis Language/Rainbow Road branch",
+      "status": "LOCKED",
+      "authority": "NORMAL",
+      "depends_on": "X02",
+      "exit_condition": "Portal/Road/basin/chirality type map"
+    },
+    {
+      "id": "X06",
+      "target": "Atomic/MMO branch",
+      "status": "LOCKED",
+      "authority": "NORMAL",
+      "depends_on": "X01,X02",
+      "exit_condition": "MMO source recovered and bond/closure object typed"
+    },
+    {
+      "id": "X07",
+      "target": "Physics/LIGO branch",
+      "status": "LOCKED",
+      "authority": "NORMAL",
+      "depends_on": "X01,X02",
+      "exit_condition": "Independent physics/evidence status imported"
+    },
+    {
+      "id": "X08",
+      "target": "Stonewake/game branch",
+      "status": "LOCKED",
+      "authority": "NORMAL",
+      "depends_on": "X01,X02",
+      "exit_condition": "Game source recovered and typed"
+    },
+    {
+      "id": "X09",
+      "target": "Cross-domain invariant tests",
+      "status": "LOCKED",
+      "authority": "NORMAL",
+      "depends_on": "X03,X04,X05,X06,X07,X08",
+      "exit_condition": "Invariant survives or partitions"
+    },
+    {
+      "id": "X10",
+      "target": "Final evidence atlas verdict",
+      "status": "LOCKED",
+      "authority": "FINISH_LINE",
+      "depends_on": "X09",
+      "exit_condition": "PASS/PARTIAL/NO-GO with evidence matrix"
+    }
+  ]
+}

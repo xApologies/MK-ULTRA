@@ -1,0 +1,212 @@
+{
+  "api_address_count": 2384,
+  "chapter_ids": [
+    "V07-C03"
+  ],
+  "complete": true,
+  "created_at": "2026-08-10T19:32:01.264823+00:00",
+  "database_sha256_after": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03",
+  "database_sha256_before": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03",
+  "database_unchanged": true,
+  "failed_queries": [],
+  "next_handle": null,
+  "requested_handles": [
+    "@linear_metric_perturbation",
+    "@metric_and_phase_perturbations"
+  ],
+  "results": [
+    {
+      "artifacts": [
+        {
+          "bytes": 3204177,
+          "path": "provenance://unavailable/content-sha256/01de4a4307e955c9830eb48217c29687429e65c61a4e520f64cad5033cf50c55/linear_metric_perturbation_7a43746b559145d38dd837d04e8eb478.md",
+          "sha256": "01de4a4307e955c9830eb48217c29687429e65c61a4e520f64cad5033cf50c55"
+        }
+      ],
+      "elapsed_seconds": 1.811148,
+      "ordinal": 0,
+      "requested_handle": "@linear_metric_perturbation",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/01de4a4307e955c9830eb48217c29687429e65c61a4e520f64cad5033cf50c55/linear_metric_perturbation_7a43746b559145d38dd837d04e8eb478.md",
+          "rendered_realizations": 1,
+          "sha256": "01de4a4307e955c9830eb48217c29687429e65c61a4e520f64cad5033cf50c55",
+          "size_bytes": 3204177,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "7a43746b559145d38dd837d04e8eb478",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@linear_metric_perturbation",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V07_C03-0000",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 10029,
+          "path": "provenance://unavailable/content-sha256/00aebcdce0bdfa05465ed061e273bee3c6a2a9874a31fae19feeb4d0f57383e1/metric_and_phase_perturbations_16fb308ee2814cf1a1e07abc2fc9e147.md",
+          "sha256": "00aebcdce0bdfa05465ed061e273bee3c6a2a9874a31fae19feeb4d0f57383e1"
+        }
+      ],
+      "elapsed_seconds": 0.249335,
+      "ordinal": 1,
+      "requested_handle": "@metric_and_phase_perturbations",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/00aebcdce0bdfa05465ed061e273bee3c6a2a9874a31fae19feeb4d0f57383e1/metric_and_phase_perturbations_16fb308ee2814cf1a1e07abc2fc9e147.md",
+          "rendered_realizations": 1,
+          "sha256": "00aebcdce0bdfa05465ed061e273bee3c6a2a9874a31fae19feeb4d0f57383e1",
+          "size_bytes": 10029,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "16fb308ee2814cf1a1e07abc2fc9e147",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@metric_and_phase_perturbations",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V07_C03-0001",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    }
+  ],
+  "reused_master_queries": [],
+  "runtime_info": {
+    "api_visible_to_runtime": false,
+    "direct_api_access": false,
+    "direct_library_access": false,
+    "downstream_role": "brane",
+    "manifest": {
+      "architecture": {
+        "composition_rule": "contract-compatible ports; no domain overlap required",
+        "domain_policy": "independent-port-domains",
+        "module_storage": "external-only",
+        "mounts_external": [
+          "ai",
+          "api",
+          "library"
+        ],
+        "owns": [
+          "private_qmo",
+          "port_registry",
+          "composition_mechanism"
+        ],
+        "private_objects": [
+          "qmo"
+        ],
+        "runtime_visibility": [
+          "brane"
+        ]
+      },
+      "build_version": "2.3.3",
+      "entrypoint": "mk43_brane:Brane",
+      "module_id": "mk43.brane",
+      "name": "MK43 BRANE 2.3.3",
+      "package": "mk43_brane",
+      "release_identity_separate": true,
+      "release_version": "2.3.3",
+      "role": "brane",
+      "runtime_identity_stable": true,
+      "schema_version": "1.0",
+      "version": "2.3.3"
+    },
+    "package_root": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/src",
+    "private_qmo_access": false,
+    "qmo_visible_to_runtime": false,
+    "root": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/mk43_brane_mount_b0fwcst0",
+    "runtime_boundary": "Runtime -> BRANE",
+    "runtime_module_id": "mk43.runtime",
+    "runtime_version": "4.2.0",
+    "source": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/BRANE_3.1.zip",
+    "source_sha256": "ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e"
+  },
+  "runtime_validation": {
+    "boundary": {
+      "ai_owned_by": "BRANE",
+      "api_owned_by": "BRANE",
+      "library_owned_by": "BRANE",
+      "qmo_owned_by": "BRANE",
+      "runtime_accepts": "BRANE",
+      "runtime_rejects_direct_api": true
+    },
+    "errors": [],
+    "info": {
+      "api_visible_to_runtime": false,
+      "direct_api_access": false,
+      "direct_library_access": false,
+      "downstream_role": "brane",
+      "manifest": {
+        "architecture": {
+          "composition_rule": "contract-compatible ports; no domain overlap required",
+          "domain_policy": "independent-port-domains",
+          "module_storage": "external-only",
+          "mounts_external": [
+            "ai",
+            "api",
+            "library"
+          ],
+          "owns": [
+            "private_qmo",
+            "port_registry",
+            "composition_mechanism"
+          ],
+          "private_objects": [
+            "qmo"
+          ],
+          "runtime_visibility": [
+            "brane"
+          ]
+        },
+        "build_version": "2.3.3",
+        "entrypoint": "mk43_brane:Brane",
+        "module_id": "mk43.brane",
+        "name": "MK43 BRANE 2.3.3",
+        "package": "mk43_brane",
+        "release_identity_separate": true,
+        "release_version": "2.3.3",
+        "role": "brane",
+        "runtime_identity_stable": true,
+        "schema_version": "1.0",
+        "version": "2.3.3"
+      },
+      "package_root": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/src",
+      "private_qmo_access": false,
+      "qmo_visible_to_runtime": false,
+      "root": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/mk43_brane_mount_b0fwcst0",
+      "runtime_boundary": "Runtime -> BRANE",
+      "runtime_module_id": "mk43.runtime",
+      "runtime_version": "4.2.0",
+      "source": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/BRANE_3.1.zip",
+      "source_sha256": "ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e"
+    },
+    "valid": true,
+    "warnings": []
+  },
+  "schema": "mk-ultra-tome-native-chapter-query-receipt-v1",
+  "successful_queries": [
+    "@linear_metric_perturbation",
+    "@metric_and_phase_perturbations"
+  ]
+}

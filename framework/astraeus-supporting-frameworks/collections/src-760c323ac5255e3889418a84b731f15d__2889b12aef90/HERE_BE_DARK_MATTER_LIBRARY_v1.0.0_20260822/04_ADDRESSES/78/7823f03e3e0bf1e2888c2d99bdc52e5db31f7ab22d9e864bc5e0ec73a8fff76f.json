@@ -1,0 +1,105 @@
+{
+  "handle": "@dm_dark_readout_defect",
+  "object_type": "mathematical_object",
+  "status": "ATLAS_DERIVED_ACTIVE",
+  "domain": "DM22",
+  "namespace": "readout",
+  "name": "Dark Readout Factorization Defect",
+  "definition": "Pairs of formal states identified by ordinary matter readout but distinguished by gravitational readout.",
+  "math": "D_R={(x,y): M_R(x)=M_R(y), G_R(x)!=G_R(y)}.",
+  "source_layer": "DM22",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "DM22",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 2,
+    "xapi_raw_in_count": 2,
+    "live_out_count": 2,
+    "live_in_count": 5,
+    "closure_out_reachability_count": 148,
+    "closure_in_reachability_count": 3,
+    "direct_source_anchors": [
+      {
+        "id": 2,
+        "source_id": "SRC-DM-001",
+        "relation": "HISTORICAL_PRECEDENT_FOR",
+        "handle": "@dm_dark_readout_defect",
+        "status": "SOURCE_BACKFILL_ONLY",
+        "provenance": "A/block_A.tex:53-58"
+      },
+      {
+        "id": 7,
+        "source_id": "SRC-DM-004",
+        "relation": "HISTORICAL_PRECEDENT_FOR",
+        "handle": "@dm_dark_readout_defect",
+        "status": "SOURCE_BACKFILL_ONLY",
+        "provenance": "0.tex:30-40"
+      },
+      {
+        "id": 9,
+        "source_id": "SRC-DM-005",
+        "relation": "HISTORICAL_ALTERNATE_FORMULATION_OF",
+        "handle": "@dm_dark_readout_defect",
+        "status": "SOURCE_BACKFILL_ONLY",
+        "provenance": "0.tex:34-40"
+      }
+    ],
+    "source_reachability_anchor_count": 5,
+    "aliases": [
+      "@dm_readout_defect"
+    ],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19736,
+        "source": "@dm_dark_readout_defect",
+        "relation": "COMPARES",
+        "target": "@gravity",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19737,
+        "source": "@dm_dark_readout_defect",
+        "relation": "COMPARES",
+        "target": "@matter_readable_organization",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19728,
+        "source": "@dm_dark_matter_qualification_locus",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_dark_readout_defect",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19741,
+        "source": "@dm_er_branch_readout_separation",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_dark_readout_defect",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.2_CROSS_API"
+      }
+    ]
+  },
+  "address": "@dm_dark_readout_defect",
+  "address_sha256": "7823f03e3e0bf1e2888c2d99bdc52e5db31f7ab22d9e864bc5e0ec73a8fff76f"
+}

@@ -1,0 +1,200 @@
+{
+  "schema": "tome-final-volume-assembly-validation/v1",
+  "created_at": "2026-08-12T12:07:45.425902+00:00",
+  "assembly_method": "BYTE_VERIFIED_SEALED_CHAPTER_PDF_CONCATENATION_WITH_CONTINUOUS_VOLUME_PAGINATION",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1_SEALED_CHAPTER_ARTIFACT_ASSEMBLY",
+  "source_renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "volume_id": "V09",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_09_UNIVERSAL_COUPLING/MK_ULTRA_TOME_VOLUME_09_UNIVERSAL_COUPLING_FINAL.pdf",
+    "bytes": 2166630,
+    "sha256": "b85c8df161f93ee3a1583bf53079e45c917d583dd22b9d97f28e336b64b02781"
+  },
+  "actual_pages": 42,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V09-C01": 3,
+    "V09-C02": 9,
+    "V09-C03": 15,
+    "V09-C04": 21,
+    "V09-C05": 27,
+    "V09-C06": 33,
+    "V09-C07": 39
+  },
+  "chapter_count": 7,
+  "chapter_inputs": [
+    {
+      "chapter_id": "V09-C01",
+      "source_sha256": "e22a7403fb0a4b6a2054a1746ce82d8c6453c60984637d8f05da33cc93ab9e66",
+      "published_source_sha256": "e22a7403fb0a4b6a2054a1746ce82d8c6453c60984637d8f05da33cc93ab9e66",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1310,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_09_UNIVERSAL_COUPLING/MK_ULTRA_TOME_V09_C01_UNIVERSAL_COUPLING_IDENTITY.pdf",
+        "bytes": 153211,
+        "sha256": "9fc6ffd6f7f247631892b1597fcd842d989b961cef03c4df376315c2e917d45a"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_09_UNIVERSAL_COUPLING/MK_ULTRA_TOME_V09_C01_UNIVERSAL_COUPLING_IDENTITY_VALIDATION.json",
+        "bytes": 2792,
+        "sha256": "902f96f0a21dd7648fb48840ababdfee8c49edc2ffc347920e09f4178e23036c"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 3,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V09-C02",
+      "source_sha256": "cce23f5e26f3abb6d74de79b541ce8e771e79cdb80b7d94829c996e6347628b6",
+      "published_source_sha256": "93bd13b6e9ed6185a9741f7972f0b0af6b83d3d41eeafc98a0939b85dc2a2aea",
+      "published_source_differs_from_current_sealed_ledger_source": true,
+      "word_count": 1065,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_09_UNIVERSAL_COUPLING/MK_ULTRA_TOME_V09_C02_INPUTS_DOMAINS_AND_ADMISSIBILITY.pdf",
+        "bytes": 123182,
+        "sha256": "39b21b95fb87037e81522c25a3db783bc85c45c33041dc0fb0428e800dfbea28"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_09_UNIVERSAL_COUPLING/MK_ULTRA_TOME_V09_C02_INPUTS_DOMAINS_AND_ADMISSIBILITY_VALIDATION.json",
+        "bytes": 3460,
+        "sha256": "ace3da49b67f1641b6ab683af595180db399bb66d2ab0cea127155c51aa2c8ff"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 9,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V09-C03",
+      "source_sha256": "37de2c98b519d579f4a916e86536dd00de6cae48d87dcad00cf738d3e4e7ecda",
+      "published_source_sha256": "37de2c98b519d579f4a916e86536dd00de6cae48d87dcad00cf738d3e4e7ecda",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1021,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_09_UNIVERSAL_COUPLING/MK_ULTRA_TOME_V09_C03_COUPLING_OPERATORS_AND_RELATIONS.pdf",
+        "bytes": 130607,
+        "sha256": "2ee53a66715006646b9c379b0f549dd64d49633d0be5c4edb874672c1ec98814"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_09_UNIVERSAL_COUPLING/MK_ULTRA_TOME_V09_C03_COUPLING_OPERATORS_AND_RELATIONS_VALIDATION.json",
+        "bytes": 2792,
+        "sha256": "81e93a614b27523e0d18ade2d2681068e90d7e9a403ae86698bad9408160e647"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 15,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V09-C04",
+      "source_sha256": "426c454dd5c2f2f0e6b2224854d7ce490a99ce0d913b3bc98e762f1b01762c66",
+      "published_source_sha256": "426c454dd5c2f2f0e6b2224854d7ce490a99ce0d913b3bc98e762f1b01762c66",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1012,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_09_UNIVERSAL_COUPLING/MK_ULTRA_TOME_V09_C04_CROSS_QMO_COUPLING_ARCHITECTURE.pdf",
+        "bytes": 144247,
+        "sha256": "1a1fe4ae1f3071ee246a451d24064147a8587dda2489573d0401f7878807b0b7"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_09_UNIVERSAL_COUPLING/MK_ULTRA_TOME_V09_C04_CROSS_QMO_COUPLING_ARCHITECTURE_VALIDATION.json",
+        "bytes": 2791,
+        "sha256": "4807b2014bcb7a997df5009cdcf452b4425db08f81439756c324cefa500b7277"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 21,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V09-C05",
+      "source_sha256": "bff4f0c3543e2c561b56180baa55ccfa4faaac24ca3aa0a908102caee76fbfb7",
+      "published_source_sha256": "f69d410e806c341d7cf6c5229745450e4d59421dd54e1f09b49f9fae5d1faad8",
+      "published_source_differs_from_current_sealed_ledger_source": true,
+      "word_count": 1189,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_09_UNIVERSAL_COUPLING/MK_ULTRA_TOME_V09_C05_GRAVITY_MATTER_AND_FIELD_COUPLING.pdf",
+        "bytes": 157259,
+        "sha256": "fca10ecfa4413d51e73253c05c61c9de9f7f9a0addce76c1aa8fc9c151bea308"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_09_UNIVERSAL_COUPLING/MK_ULTRA_TOME_V09_C05_GRAVITY_MATTER_AND_FIELD_COUPLING_VALIDATION.json",
+        "bytes": 3217,
+        "sha256": "f93afa7dc400d9f1dc39844369846c850ab2346e6c19d4f4b16a99ed98c6892c"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 27,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V09-C06",
+      "source_sha256": "3cf219ff3cdbf071d74d9eeab68abf8bbc1a49bbfe25cb43680e79a75d50580d",
+      "published_source_sha256": "3cf219ff3cdbf071d74d9eeab68abf8bbc1a49bbfe25cb43680e79a75d50580d",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1015,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_09_UNIVERSAL_COUPLING/MK_ULTRA_TOME_V09_C06_COUPLING_LIMITS_AND_STABILITY.pdf",
+        "bytes": 150537,
+        "sha256": "eae7080b1c54b58b872ffa0dfa3ff5ebc1bbf7db52290efa67c9567b5bae162f"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_09_UNIVERSAL_COUPLING/MK_ULTRA_TOME_V09_C06_COUPLING_LIMITS_AND_STABILITY_VALIDATION.json",
+        "bytes": 2785,
+        "sha256": "94693935b4ce04c33c729d73855043d944a7cf42dcb875e494ad08e0e9341683"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 33,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V09-C07",
+      "source_sha256": "ef84f240549305e7b093ec56db33f0ff20b5f30272bd30d6e76aadffaa4feb03",
+      "published_source_sha256": "ef84f240549305e7b093ec56db33f0ff20b5f30272bd30d6e76aadffaa4feb03",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 977,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_09_UNIVERSAL_COUPLING/MK_ULTRA_TOME_V09_C07_ESTABLISHED_STRUCTURE_AND_RESEARCH_FRONTIER.pdf",
+        "bytes": 135475,
+        "sha256": "0c6dd5a14284fb08e047b91de5eac86f100b656db6c68a59363270d788b660c7"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_09_UNIVERSAL_COUPLING/MK_ULTRA_TOME_V09_C07_ESTABLISHED_STRUCTURE_AND_RESEARCH_FRONTIER_VALIDATION.json",
+        "bytes": 2799,
+        "sha256": "99d834baf9d0e4ba53a730f30e2bfad4cafa6813db4b713f69476cb556496d2d"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 39,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    }
+  ],
+  "raw_latex_guard": {
+    "result": "PASS_INHERITED_FROM_QUALIFIED_CHAPTER_RECEIPTS",
+    "hits": []
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V09-C01": "e22a7403fb0a4b6a2054a1746ce82d8c6453c60984637d8f05da33cc93ab9e66",
+    "V09-C02": "cce23f5e26f3abb6d74de79b541ce8e771e79cdb80b7d94829c996e6347628b6",
+    "V09-C03": "37de2c98b519d579f4a916e86536dd00de6cae48d87dcad00cf738d3e4e7ecda",
+    "V09-C04": "426c454dd5c2f2f0e6b2224854d7ce490a99ce0d913b3bc98e762f1b01762c66",
+    "V09-C05": "bff4f0c3543e2c561b56180baa55ccfa4faaac24ca3aa0a908102caee76fbfb7",
+    "V09-C06": "3cf219ff3cdbf071d74d9eeab68abf8bbc1a49bbfe25cb43680e79a75d50580d",
+    "V09-C07": "ef84f240549305e7b093ec56db33f0ff20b5f30272bd30d6e76aadffaa4feb03"
+  },
+  "source_hashes_after": {
+    "V09-C01": "e22a7403fb0a4b6a2054a1746ce82d8c6453c60984637d8f05da33cc93ab9e66",
+    "V09-C02": "cce23f5e26f3abb6d74de79b541ce8e771e79cdb80b7d94829c996e6347628b6",
+    "V09-C03": "37de2c98b519d579f4a916e86536dd00de6cae48d87dcad00cf738d3e4e7ecda",
+    "V09-C04": "426c454dd5c2f2f0e6b2224854d7ce490a99ce0d913b3bc98e762f1b01762c66",
+    "V09-C05": "bff4f0c3543e2c561b56180baa55ccfa4faaac24ca3aa0a908102caee76fbfb7",
+    "V09-C06": "3cf219ff3cdbf071d74d9eeab68abf8bbc1a49bbfe25cb43680e79a75d50580d",
+    "V09-C07": "ef84f240549305e7b093ec56db33f0ff20b5f30272bd30d6e76aadffaa4feb03"
+  },
+  "sealed_chapter_content_change_count": 0,
+  "duplicate_chapter_inputs": [],
+  "missing_chapter_inputs": []
+}

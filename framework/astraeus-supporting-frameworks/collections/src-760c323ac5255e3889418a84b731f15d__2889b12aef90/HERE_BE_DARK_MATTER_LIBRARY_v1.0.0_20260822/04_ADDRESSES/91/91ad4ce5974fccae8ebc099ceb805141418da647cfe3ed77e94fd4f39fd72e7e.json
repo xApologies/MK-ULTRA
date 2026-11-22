@@ -1,0 +1,130 @@
+{
+  "handle": "@observer_frames_and_chromatic_energy_strata",
+  "object_type": "mathematical_object",
+  "status": "indexed-unlinked",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Observer Frames and Chromatic Energy Strata",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 3,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 4,
+    "live_out_count": 0,
+    "live_in_count": 1,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@observer_frames_and_chromatic_energy_strata",
+        "relation": "MEASURES",
+        "target": "@proper_time",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@proper_time MEASURED_BY @observer_frames_and_chromatic_energy_strata); rule=MEASURED_BY→MEASURES"
+      },
+      {
+        "source": "@proper_time",
+        "relation": "MEASURED_BY",
+        "target": "@observer_frames_and_chromatic_energy_strata",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-45",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Observer frames register proper-time evolution."
+      },
+      {
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_MODEL_REACHES",
+        "target": "@observer_frames_and_chromatic_energy_strata",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-52",
+        "provenance": "DERIVED:RP52_HAWKING_FORWARD_CRAWL; witness=@black_hole-[BLACK_HOLE_MODEL_REACHES]->@proper_time | @proper_time-[MEASURED_BY]->@observer_frames_and_chromatic_energy_strata"
+      },
+      {
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_GLOBAL_REACHES",
+        "target": "@observer_frames_and_chromatic_energy_strata",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-53",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_FORWARD_CRAWL; witness=@black_hole-[BLACK_HOLE_MODEL_REACHES]->@observer_frames_and_chromatic_energy_strata"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 3082,
+        "source": "@observer_frames_and_chromatic_energy_strata",
+        "relation": "MEASURES",
+        "target": "@proper_time",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@proper_time MEASURED_BY @observer_frames_and_chromatic_energy_strata); rule=MEASURED_BY→MEASURES"
+      },
+      {
+        "id": 2030,
+        "source": "@proper_time",
+        "relation": "MEASURED_BY",
+        "target": "@observer_frames_and_chromatic_energy_strata",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Observer frames register proper-time evolution."
+      },
+      {
+        "id": 17636,
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_MODEL_REACHES",
+        "target": "@observer_frames_and_chromatic_energy_strata",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP52_HAWKING_FORWARD_CRAWL; witness=@black_hole-[BLACK_HOLE_MODEL_REACHES]->@proper_time | @proper_time-[MEASURED_BY]->@observer_frames_and_chromatic_energy_strata"
+      },
+      {
+        "id": 17929,
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_GLOBAL_REACHES",
+        "target": "@observer_frames_and_chromatic_energy_strata",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_FORWARD_CRAWL; witness=@black_hole-[BLACK_HOLE_MODEL_REACHES]->@observer_frames_and_chromatic_energy_strata"
+      },
+      {
+        "id": 19674,
+        "source": "@proper_time",
+        "relation": "MEASURED_BY",
+        "target": "@observer_frames_and_chromatic_energy_strata",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Observer frames register proper-time evolution."
+      }
+    ]
+  },
+  "address": "@observer_frames_and_chromatic_energy_strata",
+  "address_sha256": "91ad4ce5974fccae8ebc099ceb805141418da647cfe3ed77e94fd4f39fd72e7e"
+}

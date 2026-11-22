@@ -1,0 +1,10 @@
+object,source_form,status,instance_ready,remaining
+ER weighted adjacency,W_ij; (L_ER f)_i = sum_j W_ij(f_i-f_j),SOURCE_RECOVERED,PARTIAL,Exact source-authoritative W_ij construction/calibration for the E019 endogenous ER instance is not recovered. Source only says mutual information may weight connectivity: W_ij proportional to f(I(i:j)).
+ER spectral basis,L_ER u_a = lambda_a u_a,SOURCE_RECOVERED,PARTIAL,Cannot extract the E019 instance eigenbasis until its W_ij are fixed.
+Helicon spectral theory,L_H(H_alpha)=lambda_alpha H_alpha; Psi=sum_alpha c_alpha H_alpha,SOURCE_RECOVERED,PARTIAL,Need an explicit bridge between the E019 continuity/ER instance and the source helicon operator or admissible eigenmode family.
+Gravitational helicon update,H_g[n+1]-2H_g[n]+H_g[n-1]+c_A^2 L_ER H_g[n]=0,SOURCE_RECOVERED,PARTIAL,Specific E019 mode H_g has not yet been selected.
+Exact discrete dispersion,4 sin^2(omega_a/2)=c_A^2 lambda_a,SOURCE_RECOVERED,PARTIAL,Needs E019 instance lambda_a and a fixed normalization/calibration of c_A.
+Massless branch,mu_g=0; no additive native mass term,SOURCE_RECOVERED,YES_AS_MODE_CLASS_CONDITION,Must still establish that the E019 selected mode belongs to the gravitational helicon class.
+c_A propagation ceiling,maximum admissible expression rate c_A; readable identification c_A -> c,SOURCE_RECOVERED,PARTIAL,No separate native numerical calibration/normalization for the current sandbox instance recovered.
+Gravitational-sector projector P_g,"[R,P_g]=0; P_lock R P_g=0",SYMBOL_AND_CONSTRAINTS_RECOVERED,NO,Full helicon kernel / constructive operator mapping native helicon state into gravitational sector remains an explicit open formal obligation.
+Readable TT transduction,T_g = Pi_T P_TT; h_mn=Pi_T(delta C_TT),SOURCE_RECOVERED_ARCHITECTURE,NO,Exact typed projection/intertwining and E019 instance gravitational-sector input remain incomplete.

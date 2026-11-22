@@ -1,0 +1,22 @@
+{
+  "assumption_id": "WA-DM-E088-001",
+  "name": "Selected Two-Port Time-Shell Gravity Fiber Separation",
+  "status": "WORKING_ASSUMPTION",
+  "checkpoint": "E088",
+  "scope": "the E086 two-port contrast state c_* and the matched full/visible reduced continuity inputs",
+  "statement": "Let the recovered composite gravity readout G_TS=Pi_T o A_g separate the selected pair: G_TS(-Lambda_full c_*) != G_TS(-Lambda_vis c_*).",
+  "source_support": [
+    "ATLAS_V36:174_V27_TIME_SHELL_GRAVITY_TRANSMISSION_GATE.md gives this exact criterion",
+    "ATLAS_V36:83_TIME_SHELL_TYPED_PROJECTION_NAMESPACE.md types Pi_TS^grav:C_TT->H_2",
+    "ATLAS_V36:88_TIME_SHELL_GRAVITY_CHANNEL.md recovers Pi_TS^grav(deltaC)=h_mn",
+    "E086 proves the selected native continuity inputs differ"
+  ],
+  "not_claimed": [
+    "global injectivity of G_TS",
+    "linearity of A_g or Pi_T",
+    "that every nonzero continuity residual gravitates",
+    "a separate live gravity model",
+    "physical dark-matter identity"
+  ],
+  "proof_debt": "PD-DM-012"
+}

@@ -1,0 +1,23 @@
+{
+  "experiment": "E013",
+  "candidate": "CAND-DM-RAINBOW-BUS-ROUTE-FAMILY-016",
+  "title": "Persistent Rainbow-Bus Route Families of Readout-Degenerate Hidden States",
+  "status": "WORK-LAYER ROUTE-FAMILY RESULT; NOT FULL PORTAL; NOT PHYSICAL DARK-MATTER WITNESS",
+  "parent_promotions": 0,
+  "physical_dark_matter_witness": false,
+  "results": {
+    "representative_states": 296,
+    "strict_T5_route_persistent_states": 224,
+    "persistent_hidden_pairs": 92,
+    "persistent_pairs_with_distinct_route_family": 92,
+    "persistent_pairs_with_identical_route_family": 0,
+    "fraction_persistent_pairs_route_family_distinct": 1.0,
+    "route_family_size_min_for_persistent_states": 2,
+    "route_family_size_max_for_persistent_states": 7,
+    "mean_condition_route_set_difference_fraction": 1.0,
+    "mean_condition_route_set_disjoint_fraction": 1.0
+  },
+  "ruling": "For the T5-persistent E010 subset, the natural robust object is a persistent route family on the Rainbow Bus rather than one globally fixed road. If same-readout pairs retain different route families, hidden information survives as distributed routing structure.",
+  "boundary": "The route family is not promoted to Invariant Residue and does not satisfy the full PortalRequest because basin_distribution and source-valid tile residue remain unresolved.",
+  "next_handle": "TEST_ROUTE_FAMILY_AS_SHARED_ER_MEMORY_CARRIER_WITH_H_AND_O_PROBES"
+}

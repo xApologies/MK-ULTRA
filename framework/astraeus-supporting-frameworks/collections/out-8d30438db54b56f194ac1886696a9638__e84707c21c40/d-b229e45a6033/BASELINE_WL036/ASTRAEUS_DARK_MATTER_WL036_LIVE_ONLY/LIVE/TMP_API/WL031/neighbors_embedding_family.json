@@ -1,0 +1,78 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_NEIGHBORS_V1",
+  "handle": "@dm_constraint_preserving_embedding_family",
+  "incoming": [
+    [
+      "@dm_hidden_state_embedding",
+      {
+        "source": "@dm_hidden_state_embedding",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_constraint_preserving_embedding_family",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.2_CROSS_API",
+        "origin": "DARKMATTER_2.2",
+        "origin_api": "DARKMATTER_2.2"
+      }
+    ]
+  ],
+  "outgoing": [
+    [
+      "@dm_hidden_state_bundle",
+      {
+        "source": "@dm_constraint_preserving_embedding_family",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_hidden_state_bundle",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.2_CROSS_API",
+        "origin": "DARKMATTER_2.2",
+        "origin_api": "DARKMATTER_2.2"
+      }
+    ],
+    [
+      "@inheritance_morphism",
+      {
+        "source": "@dm_constraint_preserving_embedding_family",
+        "relation": "DEPENDS_ON",
+        "target": "@inheritance_morphism",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.2_CROSS_API",
+        "origin": "DARKMATTER_2.2",
+        "origin_api": "DARKMATTER_2.2"
+      }
+    ],
+    [
+      "@inherited_state_bundle",
+      {
+        "source": "@dm_constraint_preserving_embedding_family",
+        "relation": "DEPENDS_ON",
+        "target": "@inherited_state_bundle",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.2_CROSS_API",
+        "origin": "DARKMATTER_2.2",
+        "origin_api": "DARKMATTER_2.2"
+      }
+    ],
+    [
+      "@native_constraint_closure",
+      {
+        "source": "@dm_constraint_preserving_embedding_family",
+        "relation": "DEPENDS_ON",
+        "target": "@native_constraint_closure",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.2_CROSS_API",
+        "origin": "DARKMATTER_2.2",
+        "origin_api": "DARKMATTER_2.2"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schema": "ASTRAEUS_QMO_CROSS_CRAWL_V1",
+  "seeds": [
+    "@qmo_ast_dm_041"
+  ],
+  "targets": [
+    "@universal_coupling"
+  ],
+  "bidirectional": true,
+  "edge_count": 1659,
+  "reachable_count": 206,
+  "distance_histogram": {
+    "0": 1,
+    "1": 9,
+    "2": 30,
+    "3": 44,
+    "4": 122
+  },
+  "paths": {
+    "@qmo_ast_dm_041 -> @universal_coupling": [
+      {
+        "from": "@qmo_ast_dm_041",
+        "relation": "PRESERVES",
+        "to": "@qmo_ast_dm_053",
+        "traversal": "reverse",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V117_V125",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@qmo_ast_dm_053",
+        "relation": "USES",
+        "to": "@qmo_ast_dm_050",
+        "traversal": "forward",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V117_V125",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@qmo_ast_dm_050",
+        "relation": "TARGETS",
+        "to": "@universal_coupling",
+        "traversal": "forward",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V117_V125",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      }
+    ]
+  },
+  "guardrail": "Navigation evidence only. Composed paths are not direct theorems and no parent object is promoted."
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "ASTRAEUS_QMO_CANDIDATE_V1",
+  "qmo_id": "QMO-DM-BRIDGE-CAND-026",
+  "handle": "@dm_density_profile_readout_factorization_gate",
+  "canonical_name": "Resolution-Profile Readout Factorization Gate",
+  "status": "LIVE_SOURCE_RECONCILED_DIAGNOSTIC",
+  "checkpoint": "E085",
+  "parents": [
+    "@dm_resolution_density_profile",
+    "@dm_native_density_to_readable_source",
+    "@energy_density",
+    "@time_shell"
+  ],
+  "source_basis": [
+    "ATLAS_V36:205_V33_RESOLUTION_DENSITY_PROFILE.md",
+    "ATLAS_V36:206_V33_TIME_SHELL_DENSITY_FACTORIZATION.md",
+    "ATLAS_V36:208_V33_MASTER_SYNTHESIS.md"
+  ],
+  "derivation": [
+    "V33 proves that the scalar regional native density rho_E is only a weighted compression of the Resolution-level profile bold_rho_E^R.",
+    "A scalar average density therefore cannot be the universal input to a spatial Time-Shell field-intensity translation.",
+    "The source-backed typed target is T_rho,R,u = C_rho,u o F_TS^B o Beta_R on the partial domain Dom(Beta_R) subset DensityProfile_R.",
+    "The exact remaining gates are basin-domain admission, basin distinction, Time-Shell fidelity, final readable calibration, and stress-energy consistency."
+  ],
+  "result": "The E084 selected event-component scaffold is retained only as a local conditional shortcut; the source-grounded generic density/readout lane must use the Resolution-level profile factorization rather than a universal scalar rho_E map.",
+  "math": "Delta boldrho_H^R -> Beta_R -> BasinOrg_R -> F_TS^B -> FieldIntensity_R -> C_rho,u -> Delta rho_read[u].",
+  "boundary": "This is a source-route correction/typing result. It does not prove that the selected hidden profile lies in Dom(Beta_R), that Beta_R separates the pair, that Time-Shell fidelity holds, or that final calibration is nonannihilating.",
+  "physical_claim": false
+}

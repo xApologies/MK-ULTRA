@@ -1,0 +1,32 @@
+PASS Archived-field W -> metric -> W, all ten entries
+PASS Symmetric target -> weights -> target algebraic identity
+PASS Unknown native weight signs are not certified
+PASS Reference white metric is recovered, not overcounted
+PASS Reference subtraction equals original additive formula
+PASS Reject negative native edge weights
+PASS Reject nonsymmetric native adjacency
+PASS Reject unique inverse with singular covectors
+PASS Reject zero-coupling inverse
+PASS Entrywise nonnegativity is not misread as PSD
+PASS Lorentzian target with negative recovered edge is not admitted
+PASS Fixed-network target consistency detects spatially varying weights
+PASS ER weight recovery is coordinate covariant
+PASS Five-channel kernel element annihilates metric contribution
+PASS Distinct positive networks have the same recovered metric
+PASS Rectangular representative plus remainder recovers network
+PASS Five-channel linear kernel has dimension five
+PASS Three spacetime readouts separate all fifteen constant graph weights
+PASS Overcomplete constant network is recovered without a side record
+PASS Recovered graph reproduces the entire symbolic metric field
+PASS Constant network recovery preserves native nonnegative symmetry
+PASS A single deficient snapshot does not masquerade as a complete inverse
+Traceback (most recent call last):
+  File "/mnt/data/Genesis_GR_Native_ER_Attachment/code/checks.py", line 141, in <module>
+    try:main();status='PASS'
+        ~~~~^^
+  File "/mnt/data/Genesis_GR_Native_ER_Attachment/code/checks.py", line 96, in main
+    forged=Dfield.copy();forged[2,2]+=sx*(sx*sx-1)
+                         ~~~~~~^^^^^
+  File "/opt/pyvenv/lib/python3.13/site-packages/sympy/matrices/immutable.py", line 69, in __setitem__
+    raise TypeError("Cannot set values of {}".format(self.__class__))
+TypeError: Cannot set values of <class 'sympy.matrices.immutable.ImmutableDenseMatrix'>

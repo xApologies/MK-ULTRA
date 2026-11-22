@@ -1,0 +1,46 @@
+{
+  "schema": "ASTRAEUS_QMO_CROSS_CRAWL_V1",
+  "seeds": [
+    "@dm_metric_action_selection"
+  ],
+  "targets": [
+    "@stress_energy_tensor"
+  ],
+  "bidirectional": true,
+  "edge_count": 1333,
+  "reachable_count": 44,
+  "distance_histogram": {
+    "0": 1,
+    "1": 4,
+    "2": 11,
+    "3": 11,
+    "4": 17
+  },
+  "paths": {
+    "@dm_metric_action_selection -> @stress_energy_tensor": [
+      {
+        "from": "@dm_metric_action_selection",
+        "relation": "DEPENDS_ON",
+        "to": "@dm_stress_energy_realization_family",
+        "traversal": "reverse",
+        "origin": "DARKMATTER_2.1",
+        "provenance": "DM2.1",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "ATLAS_DERIVED",
+        "confidence": "high"
+      },
+      {
+        "from": "@dm_stress_energy_realization_family",
+        "relation": "REALIZES",
+        "to": "@stress_energy_tensor",
+        "traversal": "forward",
+        "origin": "DARKMATTER_2.1",
+        "provenance": "DM2.1",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "ATLAS_DERIVED",
+        "confidence": "high"
+      }
+    ]
+  },
+  "guardrail": "Navigation evidence only. Composed paths are not direct theorems and no parent object is promoted."
+}

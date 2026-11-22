@@ -1,0 +1,118 @@
+{
+  "a": "@stationary_spacetime",
+  "b": "@axisymmetric_spacetime",
+  "radius": 2,
+  "a_node_count": 17,
+  "b_node_count": 17,
+  "interface": [
+    {
+      "handle": "@isometry",
+      "distance_a": 1,
+      "distance_b": 1
+    },
+    {
+      "handle": "@killing_vector",
+      "distance_a": 1,
+      "distance_b": 1
+    },
+    {
+      "handle": "@axisymmetric_spacetime",
+      "distance_a": 2,
+      "distance_b": 0
+    },
+    {
+      "handle": "@stationary_spacetime",
+      "distance_a": 0,
+      "distance_b": 2
+    },
+    {
+      "handle": "@static_spacetime",
+      "distance_a": 1,
+      "distance_b": 2
+    },
+    {
+      "handle": "@adm_mass",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@asymptotic_flatness",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@asymptotic_symmetry",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@bms_group",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@bondi_mass",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@bondi_mass_loss",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@killing_equation",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@komar_angular_momentum",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@komar_mass",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@levi_civita_connection",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@metric_tensor",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@noether_charge",
+      "distance_a": 2,
+      "distance_b": 2
+    }
+  ],
+  "path_a_to_b": [
+    {
+      "source": "@stationary_spacetime",
+      "relation": "FAMILY_DEPENDS_ON",
+      "target": "@isometry",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-43",
+      "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:337"
+    },
+    {
+      "source": "@isometry",
+      "relation": "SUPPORTS_FAMILY",
+      "target": "@axisymmetric_spacetime",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-46",
+      "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@axisymmetric_spacetime FAMILY_DEPENDS_ON @isometry); rule=FAMILY_DEPENDS_ON\u2192SUPPORTS_FAMILY"
+    }
+  ],
+  "direct_neighborhood_policy": "high-confidence non-derived/direct-source Time-Space API edges only",
+  "path_policy": "high-confidence registered + admissibly derived Time-Space API edges; directions preserved"
+}

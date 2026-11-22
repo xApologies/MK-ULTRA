@@ -1,0 +1,22 @@
+{
+  "handle": "@mass",
+  "kind": "imported_source_object",
+  "title": "Native Mass v3.0 — supplied T4/T5 source import",
+  "status": "source_definition_relative_to_axioms",
+  "equation": "Mass_MK([X])=Pers([P4_lock(X)])-Pers([0_E])",
+  "source": "sources/_mass_b(4).txt",
+  "hypotheses": [
+    "Imported from the supplied v3.0 mass manuscript, not retroactively added to original API bytes",
+    "Downstream readable gravity and unit maps retain their correspondence conditions"
+  ],
+  "outgoing": [],
+  "incoming": [
+    {
+      "source": "@integration_chirality_energy_mass",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "origin": "additive_integration"
+    }
+  ],
+  "source_locations": [],
+  "truncation_limit": 12
+}

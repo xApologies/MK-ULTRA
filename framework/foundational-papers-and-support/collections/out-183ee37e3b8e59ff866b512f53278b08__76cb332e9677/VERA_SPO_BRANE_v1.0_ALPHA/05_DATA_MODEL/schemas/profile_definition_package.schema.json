@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "approvals": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "package_id": {
+      "type": "string"
+    },
+    "protected_cues": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "provenance": {
+      "type": "object"
+    },
+    "requirements": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "spo_root": {
+      "type": "string"
+    },
+    "unknowns": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "package_id",
+    "spo_root",
+    "requirements",
+    "protected_cues",
+    "unknowns",
+    "provenance"
+  ],
+  "title": "Profile Definition Package",
+  "type": "object"
+}

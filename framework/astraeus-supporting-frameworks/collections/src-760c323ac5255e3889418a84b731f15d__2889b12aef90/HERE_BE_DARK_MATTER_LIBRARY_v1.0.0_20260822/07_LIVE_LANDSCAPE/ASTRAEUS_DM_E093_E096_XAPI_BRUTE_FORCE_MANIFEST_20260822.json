@@ -1,0 +1,121 @@
+{
+  "schema": "ASTRAEUS_DM_XAPI_BRUTE_FORCE_MANIFEST_V1",
+  "checkpoint_range": "E093-E096",
+  "live_release": "v1.1.0",
+  "live_api_version": "2.2.0+live.e096",
+  "qmo_id": "QMO-XAPI-002",
+  "source_hashes": {
+    "api43_zip": "0010a4de99d78748ede57670b3bca1df6185b7ba8dd0faf266cc3ba1a4ccf752",
+    "dm22_zip": "ee4819595f94a52565ab21c832c902ea4040e315f3f575b203c61e53740ed63a",
+    "live_v1_zip": "3acc6c14817e19f73f6cb3688df587b269c2f1117d236c04de5579d5b99121ba"
+  },
+  "fixed_point": {
+    "ceiling": 1000000000,
+    "iterations_used": 8,
+    "wave_counts": [
+      38,
+      33,
+      54,
+      49,
+      48,
+      16,
+      8,
+      1,
+      1
+    ],
+    "nodes_reached_from_all_dm_objects": 248,
+    "api_nodes_reached_from_all_dm_objects": 210,
+    "dm_nodes_reached": 38,
+    "terminal": "NO_NEW_STRUCTURE"
+  },
+  "full_navigation_fixed_point": {
+    "iterations_used": 9,
+    "wave_counts": [
+      38,
+      33,
+      324,
+      214,
+      41,
+      13,
+      4,
+      1,
+      1,
+      1
+    ],
+    "nodes_reached": 670,
+    "api_nodes_reached": 632
+  },
+  "closure_stats": {
+    "primitive_pairs": 6489,
+    "closure_pairs": 72564,
+    "growth_factor": 11.182616736014793,
+    "max_shortest_path_depth": 18,
+    "cross_dm_to_api_pairs": 4391,
+    "cross_api_to_dm_pairs": 0,
+    "api43_self_primitive_pairs": 6399,
+    "api43_self_closure_pairs": 68054,
+    "api43_self_growth_factor": 10.635099234255353,
+    "dm22_source_validated_primitive_pairs": 315,
+    "dm22_source_validated_fixed_point_pairs": 5769,
+    "dm22_source_validated_growth_factor": 18.314285714285713
+  },
+  "bridge": [
+    {
+      "source": "@dm_resolution_density_profile",
+      "relation": "REALIZES",
+      "target": "@energy_density",
+      "layer": "DM22",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.0"
+    },
+    {
+      "source": "@energy_density",
+      "relation": "ENTERS",
+      "target": "@stress_energy_tensor",
+      "layer": "DM22",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Energy density is a stress-energy component."
+    },
+    {
+      "source": "@stress_energy_tensor",
+      "relation": "FAMILY_DEPENDS_ON",
+      "target": "@einstein_field_equation",
+      "layer": "DM22",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:304"
+    },
+    {
+      "source": "@einstein_field_equation",
+      "relation": "REALIZES",
+      "target": "@gravity",
+      "layer": "DM22",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; The readable gravitational response is governed by the Einstein equation."
+    }
+  ],
+  "live_db_counts": {
+    "edges": 951,
+    "qmos": 37,
+    "landscapes": 32,
+    "iterations": 32,
+    "live_objects": 31,
+    "closure_certificates": 31,
+    "proof_debt": 14,
+    "working_assumptions": 13
+  },
+  "current_frontier": "@dm_xapi_density_component_calibration",
+  "highest_leverage_proof_debt": "PD-DM-014",
+  "validation": {
+    "dm22_source_validation": "PASS 16/16",
+    "api43_handle_manifest": 2384,
+    "api43_index_list_unique": 2384,
+    "api43_stale_embedded_handle_count": 2362,
+    "parent_mutations": 0,
+    "physical_promotions": 0,
+    "canonical_edge_promotions": 0
+  }
+}

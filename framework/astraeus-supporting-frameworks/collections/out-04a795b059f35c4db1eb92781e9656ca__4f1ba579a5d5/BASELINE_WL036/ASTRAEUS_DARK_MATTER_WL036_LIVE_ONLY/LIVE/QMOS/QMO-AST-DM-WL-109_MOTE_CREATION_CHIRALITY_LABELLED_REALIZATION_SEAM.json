@@ -1,0 +1,37 @@
+{
+  "schema": "ASTRAEUS_MOTE_CREATION_REALIZATION_SEAM_V1",
+  "qmo_id": "QMO-AST-DM-WL-109",
+  "name": "Mote Creation / White-Core Chirality-Labelled Realization Seam",
+  "atlas_version": "WL-v225",
+  "work_layer": "WL-036",
+  "status": "SOURCE_REALIZATION_ROLE_RECOVERED_CANONICAL_HANDLE_EDGE_ABSENT",
+  "parent_promotions": 0,
+  "source_math": {
+    "vacuum": "Nhat |Omega> = 0",
+    "creation": "Gdag |Omega> = (|+> + |->)/sqrt(2)",
+    "adjoint": "G |+> = G |-> = |Omega>/sqrt(2)",
+    "partial_isometry": [
+      "G Gdag |Omega> = |Omega>",
+      "Gdag G |\u00b1> = |\u00b1>"
+    ],
+    "collapse_map": "C_k : I_k -> H_mote; C_k(I_k)=alpha_k|+>+beta_k|->; |alpha_k|^2+|beta_k|^2=1",
+    "white_core_definition": "Hamiltonian interaction converting abstract source degrees into concrete chirality-labelled mote states."
+  },
+  "registered_edges": [
+    "@zero_state -> @mote_creation_operator",
+    "@mote_creation_operator -> @genesis_partial_isometry",
+    "@genesis_partial_isometry -> @mote_hilbert_space",
+    "@mote_creation_operator -> @white_core_mote_coupling",
+    "@mote_collapse_profile -> @white_core_mote_coupling",
+    "@white_core_mote_coupling -> @mote"
+  ],
+  "retyping": "WL-v213 was correct that no canonical direct handle map @mote -> @chirality_labelled_mote exists. WL-v225 adds that API 4.3 nevertheless contains source-level realization semantics in @white_core_mote_coupling explicitly producing concrete chirality-labelled mote states. This is semantic/source evidence, not permission to invent a new direct parent edge.",
+  "remaining_gap": "The controlled H0/H1 rotational-History pair is not yet typed as the abstract source input I_k consumed by C_k / the white-core coupling.",
+  "next_handle": "@collapse_map",
+  "source_receipts": [
+    "WL036_SOURCE_MOTE_CREATION_CHIRALITY_REALIZATION.txt",
+    "WL036_SOURCE_MOTE_CREATION_EDGE_REGISTRY.txt",
+    "WL036_RAW_MOTE_CREATION_NEIGHBORS.json",
+    "WL036_RAW_WHITE_CORE_MOTE_COUPLING_NEIGHBORS.json"
+  ]
+}

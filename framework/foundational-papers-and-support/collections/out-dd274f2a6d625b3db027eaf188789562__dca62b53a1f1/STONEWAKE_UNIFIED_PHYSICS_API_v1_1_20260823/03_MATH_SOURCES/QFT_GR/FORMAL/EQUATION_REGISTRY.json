@@ -1,0 +1,141 @@
+[
+  {
+    "id": "P0",
+    "equation": "0_L | 0_R",
+    "class": "SOURCE_DERIVED",
+    "source": "PRIME 2"
+  },
+  {
+    "id": "C1",
+    "equation": "W_ab^3 = S^3 \\ (int B_a^3 union int B_b^3)",
+    "class": "NEW_DERIVATION+EXTERNAL_ESTABLISHED_MATH"
+  },
+  {
+    "id": "C2",
+    "equation": "W_ab^3 ~= S^2 x [0,1]",
+    "class": "EXTERNAL_ESTABLISHED_MATH / matches SOURCE_DERIVED corridor"
+  },
+  {
+    "id": "C3",
+    "equation": "boundary(W_ab^3)=Sigma_a union (-Sigma_b)",
+    "class": "EXTERNAL_ESTABLISHED_MATH / SOURCE_DERIVED corridor"
+  },
+  {
+    "id": "TG1",
+    "equation": "A_B^R = A_B / K_R",
+    "class": "TG_FORMAL"
+  },
+  {
+    "id": "TG2",
+    "equation": "Geo_R(B)=Spec_T(A_B/K_R)",
+    "class": "TG_FORMAL"
+  },
+  {
+    "id": "TG3",
+    "equation": "Fabr_chi=[G_chi]_G",
+    "class": "NEW_NOTATION over TG_FORMAL D37"
+  },
+  {
+    "id": "Q1",
+    "equation": "L_H(H_alpha)=lambda_alpha H_alpha",
+    "class": "SOURCE_DERIVED"
+  },
+  {
+    "id": "Q2",
+    "equation": "Psi=sum_alpha c_alpha H_alpha",
+    "class": "SOURCE_DERIVED"
+  },
+  {
+    "id": "Q3",
+    "equation": "Psi_(n+1)=Chi(Psi_n tensor T) compose R_c",
+    "class": "SOURCE_DERIVED"
+  },
+  {
+    "id": "Q4",
+    "equation": "M_u=(chi_R tensor chi_L) compose A",
+    "class": "SOURCE_DERIVED"
+  },
+  {
+    "id": "B1",
+    "equation": "C_ab=Pi_b o P_W o L_a",
+    "class": "SOURCE_DERIVED corridor"
+  },
+  {
+    "id": "G1",
+    "equation": "g_mn=gbar_mn+h_mn",
+    "class": "SOURCE_DERIVED / standard readable GR form"
+  },
+  {
+    "id": "B2",
+    "equation": "R_QG={(q,g)|exists F: q=rho_Q(F), g=rho_G(F)}",
+    "class": "NEW_DERIVATION"
+  },
+  {
+    "id": "B3",
+    "equation": "rho_s o P_W^chi = U_s(W) o rho_s",
+    "class": "NEW_DERIVATION / OPEN_TYPING"
+  },
+  {
+    "id": "E-LM002-01",
+    "expression": "dE_D/dt = P_in - P_out + P_src",
+    "role": "localized open-domain energy balance",
+    "status": "NEW_DERIVATION / standard balance form integration"
+  },
+  {
+    "id": "E-LM002-02",
+    "expression": "(E_a,x) ~_T (E_b,y) iff y=T_ab(x) and energetic balance commutes",
+    "role": "energy transduction equivalence",
+    "status": "NEW_DERIVATION"
+  },
+  {
+    "id": "E-LM002-03",
+    "expression": "mathcal_E[x] := [(E_a,x)]_~T",
+    "role": "cross-representational energetic content",
+    "status": "NEW_DERIVATION"
+  },
+  {
+    "id": "T5-V1-01",
+    "equation": "S2 -> T5 --pi--> S3",
+    "class": "NEW_DERIVATION / VERSION_1 OPERATIVE GEOMETRY"
+  },
+  {
+    "id": "T5-V1-02",
+    "equation": "Sigma_p := pi^(-1)(p) ~= S2",
+    "class": "NEW_DERIVATION / FIBER DEFINITION"
+  },
+  {
+    "id": "T5-V1-03",
+    "equation": "chi_p := i_p^*(chi)",
+    "class": "NEW_DERIVATION / LOCAL CHIRALITY RESTRICTION"
+  },
+  {
+    "id": "T5-V1-04",
+    "equation": "W_gamma := gamma^*(T5) ~= S2 x [0,1] (local trivial case)",
+    "class": "NEW_DERIVATION + STANDARD PULLBACK/FIBER GEOMETRY"
+  },
+  {
+    "id": "T5-V1-05",
+    "equation": "boundary(W_gamma)=Sigma_alpha union (-Sigma_beta)",
+    "class": "NEW_DERIVATION / matches SOURCE_DERIVED corridor"
+  },
+  {
+    "id": "T5-V1-06",
+    "equation": "QFT_p <- chi_p -> GR_p",
+    "class": "NEW_DERIVATION / LOCAL BRIDGE"
+  },
+  {
+    "id": "T5-V1-07",
+    "equation": "G_mn[rho_G,p(chi_p)] = 8 pi G T_mn[rho_Q,p(chi_p),rho_G,p(chi_p)]",
+    "class": "NEW_DERIVATION / OPEN_TYPING"
+  },
+  {
+    "id": "T5-V1-08",
+    "equation": "rho_s,beta o P_gamma^chi = U_s(gamma) o rho_s,alpha",
+    "class": "NEW_DERIVATION / GLOBAL INTERTWINING TARGET"
+  },
+  {
+    "id": "ER-V1-01",
+    "equation": "E_partial = argmin_Apartial [sum W_ij(A_ij-Pi(A_bulk)_ij)^2 + lambda sum kappa_i Phi(A_partial,i)]",
+    "class": "SOURCE_DERIVED ER FOAM"
+  }
+]

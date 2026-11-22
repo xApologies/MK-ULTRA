@@ -1,0 +1,149 @@
+{
+  "schema": "ASTRAEUS_SOURCE_MOUNT_REGISTRY_R8",
+  "date": "2026-08-18",
+  "mount_policy": "READ_ONLY",
+  "active_mounts": [
+    {
+      "id": "BA10",
+      "name": "Bandwidth Algebra v1.0",
+      "archive": "SOURCE_ARCHIVES/BANDWIDTH_ALGEBRA_v1.0.zip",
+      "role": "formal mathematics branch",
+      "validation": {
+        "crc": "PASS",
+        "controlled": 38,
+        "missing": 0,
+        "mismatch": 0,
+        "sha256": "2672e910b989db5d03ff419c3024f50c35b9e1ed9eb47ab720811177514f3b53"
+      }
+    },
+    {
+      "id": "DM22",
+      "name": "Dark Matter API 2.2",
+      "archive": "SOURCE_ARCHIVES/DARK_MATTER_API_2.2.zip",
+      "role": "authoritative dark-matter child API",
+      "validation": {
+        "crc": "PASS",
+        "controlled": 231,
+        "missing": 0,
+        "mismatch": 0,
+        "sha256": "ee4819595f94a52565ab21c832c902ea4040e315f3f575b203c61e53740ed63a"
+      }
+    },
+    {
+      "id": "ITH10",
+      "name": "Identity Through History v1.0",
+      "archive": "SOURCE_ARCHIVES/IDENTITY_THROUGH_HISTORY_v1.0.zip",
+      "role": "formal mathematics branch",
+      "validation": {
+        "crc": "PASS",
+        "controlled": 38,
+        "missing": 0,
+        "mismatch": 0,
+        "sha256": "45399cae67da80249d999e1aeb6fa1d6cb8c9dd32b0dcf6d8b715d032b6fc2b2"
+      }
+    },
+    {
+      "id": "RAINBOW",
+      "name": "Rainbow Road / Genesis Mainframe live project",
+      "archive": "SOURCE_ARCHIVES/RAINBOW_ROAD.zip",
+      "role": "candidate side-source / portal-path architecture",
+      "validation": {
+        "crc": "PASS",
+        "controlled": 56,
+        "missing": 0,
+        "mismatch": 0,
+        "sha256": "c9dbe0b4ee3bb7643c35d3bad9929165de50ebc14f49bfdc93376223cd155c9b"
+      }
+    },
+    {
+      "id": "RR10",
+      "name": "Resolution & Readout v1.0",
+      "archive": "SOURCE_ARCHIVES/RESOLUTION_READOUT_v1.0.zip",
+      "role": "formal mathematics branch",
+      "validation": {
+        "crc": "PASS",
+        "controlled": 33,
+        "missing": 0,
+        "mismatch": 0,
+        "sha256": "b39d9d036ff1b856ade54fe48d5964812d174f0f531ea696e9526bb0792e9aab"
+      }
+    },
+    {
+      "id": "TS43",
+      "name": "Time-Space API 4.3",
+      "archive": "SOURCE_ARCHIVES/TIME_SPACE_API_4.3.zip",
+      "role": "authoritative parent API",
+      "validation": {
+        "crc": "PASS",
+        "controlled": 58,
+        "missing": 0,
+        "mismatch": 0,
+        "sha256": "0010a4de99d78748ede57670b3bca1df6185b7ba8dd0faf266cc3ba1a4ccf752"
+      }
+    },
+    {
+      "id": "TG10",
+      "name": "Transduction Geometry v1.0",
+      "archive": "SOURCE_ARCHIVES/TRANSDUCTION_GEOMETRY_v1.0.zip",
+      "role": "formal mathematics baseline",
+      "validation": {
+        "crc": "PASS",
+        "controlled": 306,
+        "missing": 0,
+        "mismatch": 0,
+        "sha256": "7f6b965033e809c6a1683d8e7deaa320da37cb456688138b666608e10e16be77"
+      }
+    }
+  ],
+  "baseline_checkpoint": {
+    "id": "WL036-LIVE",
+    "path": "BASELINE_WL036/ASTRAEUS_DARK_MATTER_WL036_LIVE_ONLY",
+    "role": "authoritative immediate work-layer handoff",
+    "validation": {
+      "controlled": 757,
+      "missing_count": 0,
+      "mismatch_count": 0,
+      "missing": [],
+      "mismatch": []
+    }
+  },
+  "continuity_audit": "PASS_WITH_NORMALIZED_LEGACY_BOOKKEEPING_ANOMALIES",
+  "research_frontier_advanced": true,
+  "supplemental_live_sources": [
+    {
+      "name": "Universal Coupling Mechanism Recovery Canon",
+      "path": "SOURCE_INPUTS_20260818/UCM_RECOVERY_CANON_20260818.md",
+      "sha256": "5527802542a1c22812ff375f9511b7c2fffb2a6b096ffbca795f804242f3fe21",
+      "role": "later recovered gravity/UCM mechanism support",
+      "policy": "READ_ONLY"
+    },
+    {
+      "name": "Chirality Corridor current upload",
+      "path": "SOURCE_INPUTS_20260818/CHIRALITY_CORRIDOR_CURRENT_UPLOAD.md",
+      "sha256": "2e2509cc615de96a972cb9b8cb474b6f4508b921475846887922831bfd95bdb6",
+      "role": "corridor source; byte-identical to mounted Rainbow/Transduction source",
+      "policy": "READ_ONLY"
+    },
+    {
+      "name": "Prime Dependency Foundations current upload",
+      "path": "SOURCE_INPUTS_20260818/PRIME_2_CURRENT_UPLOAD.md",
+      "sha256": "915be232f0901c4247b2063f5e58e4504bd5ae65a7899b04b3e9c8583de65186",
+      "role": "prime/boundary support mathematics",
+      "policy": "READ_ONLY"
+    },
+    {
+      "name": "MASTER 2 current Rainbow-thread reconstruction",
+      "path": "SOURCE_INPUTS_20260818/MASTER_2_CURRENT_UPLOAD.pdf",
+      "sha256": "beaf68d1fc739b9129b3bce853d8d0aa76824e1d75fd1053534f753372d87275",
+      "role": "Rainbow/basin/environment/blank-manifold support; curatorial publication snapshot",
+      "policy": "READ_ONLY"
+    },
+    {
+      "name": "Structural basin rotated-view diagram",
+      "path": "SOURCE_INPUTS_20260818/STRUCTURAL_BASIN_ROTATED_VIEW.jpeg",
+      "sha256": "f2b9bba0a12c31774598c658e1cf4f891dc7b421d0a9a217696e820ec335836b",
+      "role": "visual support for lower-dimensional projection of volumetric environment/basin anchors",
+      "policy": "READ_ONLY"
+    }
+  ]
+}

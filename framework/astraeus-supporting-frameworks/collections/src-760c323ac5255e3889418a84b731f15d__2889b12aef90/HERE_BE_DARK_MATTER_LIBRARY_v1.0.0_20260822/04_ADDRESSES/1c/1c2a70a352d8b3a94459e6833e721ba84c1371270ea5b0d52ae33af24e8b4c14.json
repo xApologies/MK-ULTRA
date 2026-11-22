@@ -1,0 +1,77 @@
+{
+  "handle": "@mathematical_object",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@mathematical_object",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 2,
+    "xapi_raw_out_count": 0,
+    "xapi_raw_in_count": 2,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@dependency_closure",
+        "relation": "INTERPRETS_AS",
+        "target": "@mathematical_object",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:52387;CANONICAL_API_TYPED_LINE:52387"
+      },
+      {
+        "source": "@proof_dependency_graph",
+        "relation": "CERTIFIES",
+        "target": "@mathematical_object",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:52389;CANONICAL_API_TYPED_LINE:52389"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 296,
+        "source": "@dependency_closure",
+        "relation": "INTERPRETS_AS",
+        "target": "@mathematical_object",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:52387;CANONICAL_API_TYPED_LINE:52387"
+      },
+      {
+        "id": 945,
+        "source": "@proof_dependency_graph",
+        "relation": "CERTIFIES",
+        "target": "@mathematical_object",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:52389;CANONICAL_API_TYPED_LINE:52389"
+      }
+    ]
+  },
+  "address": "@mathematical_object",
+  "address_sha256": "1c2a70a352d8b3a94459e6833e721ba84c1371270ea5b0d52ae33af24e8b4c14"
+}

@@ -1,0 +1,449 @@
+{
+  "handle": "@helicon_curvature",
+  "object_type": "mathematical_object",
+  "status": "indexed-unlinked",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Helicon Curvature",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 6,
+    "api43_direct_in_count": 20,
+    "xapi_raw_out_count": 8,
+    "xapi_raw_in_count": 6,
+    "live_out_count": 2,
+    "live_in_count": 2,
+    "closure_out_reachability_count": 165,
+    "closure_in_reachability_count": 71,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 6,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@helicon_curvature",
+        "relation": "REQUIRES_AUDIT",
+        "target": "@connection_to_formal_curvature_bundle",
+        "graph_family": "audit",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "recovery_pass": "RP-37",
+        "provenance": "DIRECT_TYPED_API:51578"
+      },
+      {
+        "source": "@helicon_curvature",
+        "relation": "REPRESENTS",
+        "target": "@helicon_field_strength",
+        "graph_family": "representation",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "recovery_pass": "RP-37",
+        "provenance": "DIRECT_TYPED_API:51524"
+      },
+      {
+        "source": "@helicon_curvature",
+        "relation": "DERIVED_FROM",
+        "target": "@helicon_one_form",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "recovery_pass": "RP-37",
+        "provenance": "DIRECT_TYPED_API:51440"
+      },
+      {
+        "source": "@helicon_curvature",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@helicon_spectral_coupling",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:27765"
+      },
+      {
+        "source": "@helicon_curvature",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@helicon_resonance",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@helicon_resonance FORMALLY_DEPENDS_ON @helicon_curvature); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      },
+      {
+        "source": "@helicon_curvature",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@shear_compensation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@shear_compensation FORMALLY_DEPENDS_ON @helicon_curvature); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      },
+      {
+        "source": "@helicon_one_form",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@helicon_curvature",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:27751"
+      },
+      {
+        "source": "@helicon_resonance",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@helicon_curvature",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "recovery_pass": "RP-38",
+        "provenance": "DIRECT_DEFINITION_API:2698-2727"
+      },
+      {
+        "source": "@shear_compensation",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@helicon_curvature",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "recovery_pass": "RP-38",
+        "provenance": "DIRECT_EQUATION_API:2729-2755"
+      },
+      {
+        "source": "@helicon_field_strength",
+        "relation": "REPRESENTED_BY",
+        "target": "@helicon_curvature",
+        "graph_family": "representation",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@helicon_curvature REPRESENTS @helicon_field_strength); rule=REPRESENTS→REPRESENTED_BY"
+      },
+      {
+        "source": "@adjacency_lattice",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@helicon_curvature",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@adjacency_lattice -> @er_foam -> @helicon -> @helicon_resonance -> @helicon_curvature; relations=DEPENDS_TO + DEPENDS_TO + FORMALLY_DEPENDS_ON + FORMALLY_DEPENDS_ON; primitive_depth=4"
+      },
+      {
+        "source": "@agency",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@helicon_curvature",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@agency -> @helicon -> @helicon_resonance -> @helicon_curvature; relations=DEPENDS_TO + FORMALLY_DEPENDS_ON + FORMALLY_DEPENDS_ON; primitive_depth=3"
+      },
+      {
+        "source": "@bound_coherent_helicon",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@helicon_curvature",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@bound_coherent_helicon -> @shear_compensation -> @helicon_curvature; relations=DEPENDS_TO + FORMALLY_DEPENDS_ON; primitive_depth=2"
+      },
+      {
+        "source": "@chirality",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@helicon_curvature",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@chirality -> @er_foam -> @helicon -> @helicon_resonance -> @helicon_curvature; relations=DEPENDS_TO + DEPENDS_TO + FORMALLY_DEPENDS_ON + FORMALLY_DEPENDS_ON; primitive_depth=4"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@helicon_curvature",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@conscious_coherence -> @agency -> @helicon -> @helicon_resonance -> @helicon_curvature; relations=DEPENDS_TO + DEPENDS_TO + FORMALLY_DEPENDS_ON + FORMALLY_DEPENDS_ON; primitive_depth=4"
+      },
+      {
+        "source": "@curvature_binding",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@helicon_curvature",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@curvature_binding -> @helicon_resonance -> @helicon_curvature; relations=ONTOLOGICALLY_DEPENDS_ON + FORMALLY_DEPENDS_ON; primitive_depth=2"
+      },
+      {
+        "source": "@curvature_binding_condition",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@helicon_curvature",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@curvature_binding_condition -> @helicon -> @helicon_resonance -> @helicon_curvature; relations=DEPENDS_TO + FORMALLY_DEPENDS_ON + FORMALLY_DEPENDS_ON; primitive_depth=3"
+      },
+      {
+        "source": "@er_foam",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@helicon_curvature",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@er_foam -> @helicon -> @helicon_resonance -> @helicon_curvature; relations=DEPENDS_TO + FORMALLY_DEPENDS_ON + FORMALLY_DEPENDS_ON; primitive_depth=3"
+      },
+      {
+        "source": "@gravitational_anchor_lattice",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@helicon_curvature",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@gravitational_anchor_lattice -> @helicon -> @helicon_resonance -> @helicon_curvature; relations=FORMALLY_DEPENDS_ON + FORMALLY_DEPENDS_ON + FORMALLY_DEPENDS_ON; primitive_depth=3"
+      },
+      {
+        "source": "@helicon",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@helicon_curvature",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@helicon -> @helicon_resonance -> @helicon_curvature; relations=FORMALLY_DEPENDS_ON + FORMALLY_DEPENDS_ON; primitive_depth=2"
+      },
+      {
+        "source": "@helicon_spectral_coupling",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@helicon_curvature",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@helicon_spectral_coupling -> @helicon -> @helicon_resonance -> @helicon_curvature; relations=FORMALLY_DEPENDS_ON + FORMALLY_DEPENDS_ON + FORMALLY_DEPENDS_ON; primitive_depth=3"
+      },
+      {
+        "source": "@mote",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@helicon_curvature",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@mote -> @er_foam -> @helicon -> @helicon_resonance -> @helicon_curvature; relations=DEPENDS_TO + DEPENDS_TO + FORMALLY_DEPENDS_ON + FORMALLY_DEPENDS_ON; primitive_depth=4"
+      },
+      {
+        "source": "@projection_admissibility",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@helicon_curvature",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@projection_admissibility -> @er_foam -> @helicon -> @helicon_resonance -> @helicon_curvature; relations=DEPENDS_TO + DEPENDS_TO + FORMALLY_DEPENDS_ON + FORMALLY_DEPENDS_ON; primitive_depth=4"
+      },
+      {
+        "source": "@shear_compensation",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@helicon_curvature",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@shear_compensation -> @helicon -> @helicon_resonance -> @helicon_curvature; relations=FORMALLY_DEPENDS_ON + FORMALLY_DEPENDS_ON + FORMALLY_DEPENDS_ON; primitive_depth=3"
+      },
+      {
+        "source": "@spectral_coupling",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@helicon_curvature",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@spectral_coupling -> @helicon -> @helicon_resonance -> @helicon_curvature; relations=FORMALLY_DEPENDS_ON + FORMALLY_DEPENDS_ON + FORMALLY_DEPENDS_ON; primitive_depth=3"
+      },
+      {
+        "source": "@wake_evolution",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@helicon_curvature",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@wake_evolution -> @helicon -> @helicon_resonance -> @helicon_curvature; relations=FORMALLY_DEPENDS_ON + FORMALLY_DEPENDS_ON + FORMALLY_DEPENDS_ON; primitive_depth=3"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 625,
+        "source": "@helicon_curvature",
+        "relation": "REQUIRES_AUDIT",
+        "target": "@connection_to_formal_curvature_bundle",
+        "layer": "API43",
+        "graph_family": "audit",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_TYPED_API:51578"
+      },
+      {
+        "id": 626,
+        "source": "@helicon_curvature",
+        "relation": "REPRESENTS",
+        "target": "@helicon_field_strength",
+        "layer": "API43",
+        "graph_family": "representation",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_TYPED_API:51524"
+      },
+      {
+        "id": 627,
+        "source": "@helicon_curvature",
+        "relation": "DERIVED_FROM",
+        "target": "@helicon_one_form",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_TYPED_API:51440"
+      },
+      {
+        "id": 628,
+        "source": "@helicon_curvature",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@helicon_spectral_coupling",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:27765"
+      },
+      {
+        "id": 2212,
+        "source": "@helicon_curvature",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@helicon_resonance",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@helicon_resonance FORMALLY_DEPENDS_ON @helicon_curvature); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      },
+      {
+        "id": 2268,
+        "source": "@helicon_curvature",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@shear_compensation",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@shear_compensation FORMALLY_DEPENDS_ON @helicon_curvature); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      },
+      {
+        "id": 19203,
+        "source": "@helicon_curvature",
+        "relation": "DERIVED_FROM",
+        "target": "@helicon_one_form",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_TYPED_API:51440"
+      },
+      {
+        "id": 19204,
+        "source": "@helicon_curvature",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@helicon_spectral_coupling",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:27765"
+      },
+      {
+        "id": 630,
+        "source": "@helicon_one_form",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@helicon_curvature",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:27751"
+      },
+      {
+        "id": 633,
+        "source": "@helicon_resonance",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@helicon_curvature",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_DEFINITION_API:2698-2727"
+      },
+      {
+        "id": 1049,
+        "source": "@shear_compensation",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@helicon_curvature",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_EQUATION_API:2729-2755"
+      },
+      {
+        "id": 2210,
+        "source": "@helicon_field_strength",
+        "relation": "REPRESENTED_BY",
+        "target": "@helicon_curvature",
+        "layer": "API43",
+        "graph_family": "representation",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@helicon_curvature REPRESENTS @helicon_field_strength); rule=REPRESENTS→REPRESENTED_BY"
+      },
+      {
+        "id": 19206,
+        "source": "@helicon_one_form",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@helicon_curvature",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:27751"
+      },
+      {
+        "id": 19207,
+        "source": "@helicon_resonance",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@helicon_curvature",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_DEFINITION_API:2698-2727"
+      }
+    ]
+  },
+  "address": "@helicon_curvature",
+  "address_sha256": "927882a3e8f9692a6daafd738e2cf76097dbdacb5a8b6e6196d199745a87e570"
+}

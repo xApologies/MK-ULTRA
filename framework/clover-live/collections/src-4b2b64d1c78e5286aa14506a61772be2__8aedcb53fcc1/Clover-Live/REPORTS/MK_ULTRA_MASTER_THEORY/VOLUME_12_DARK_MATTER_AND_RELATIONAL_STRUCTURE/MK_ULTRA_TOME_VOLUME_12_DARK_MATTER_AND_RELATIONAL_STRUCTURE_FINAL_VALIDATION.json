@@ -1,0 +1,176 @@
+{
+  "schema": "tome-final-volume-assembly-validation/v1",
+  "created_at": "2026-08-12T12:07:47.283093+00:00",
+  "assembly_method": "BYTE_VERIFIED_SEALED_CHAPTER_PDF_CONCATENATION_WITH_CONTINUOUS_VOLUME_PAGINATION",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1_SEALED_CHAPTER_ARTIFACT_ASSEMBLY",
+  "source_renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "volume_id": "V12",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_12_DARK_MATTER_AND_RELATIONAL_STRUCTURE/MK_ULTRA_TOME_VOLUME_12_DARK_MATTER_AND_RELATIONAL_STRUCTURE_FINAL.pdf",
+    "bytes": 2064601,
+    "sha256": "d9de0903363dc0812a82cf62c1b409e030e55d332098598e622ef1ef980f5381"
+  },
+  "actual_pages": 37,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V12-C01": 3,
+    "V12-C02": 9,
+    "V12-C03": 15,
+    "V12-C04": 21,
+    "V12-C05": 28,
+    "V12-C06": 34
+  },
+  "chapter_count": 6,
+  "chapter_inputs": [
+    {
+      "chapter_id": "V12-C01",
+      "source_sha256": "15c1c3d058637e46ada5516839417a1cfbd4977d2dafa76136d897c79dad8045",
+      "published_source_sha256": "cc0ce0fdc35b996b4b934ed31f7a6da7c2cc317bc3fabf7fe8803e9b5dd04f63",
+      "published_source_differs_from_current_sealed_ledger_source": true,
+      "word_count": 1284,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_12_DARK_MATTER_AND_RELATIONAL_STRUCTURE/MK_ULTRA_TOME_V12_C01_DARK_MATTER_AS_RELATIONAL_GEOMETRY.pdf",
+        "bytes": 162949,
+        "sha256": "799b0a36e4e43a019de1d5fda352e7ebab0a12b92f3ca8c91658a8a73608269a"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_12_DARK_MATTER_AND_RELATIONAL_STRUCTURE/MK_ULTRA_TOME_V12_C01_DARK_MATTER_AS_RELATIONAL_GEOMETRY_VALIDATION.json",
+        "bytes": 3304,
+        "sha256": "a5b7816fe7a63ecf7995feb5012c69760c4ee79e2c79ddda04388714a3b6801b"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 3,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V12-C02",
+      "source_sha256": "7da2e7a5bacecce13d68411cd9bcdcedfaebdf444638ed2ed795e8a30fc900cb",
+      "published_source_sha256": "7da2e7a5bacecce13d68411cd9bcdcedfaebdf444638ed2ed795e8a30fc900cb",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1056,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_12_DARK_MATTER_AND_RELATIONAL_STRUCTURE/MK_ULTRA_TOME_V12_C02_ER_NETWORKS_AND_LOAD_BEARING_STRUCTURE.pdf",
+        "bytes": 138258,
+        "sha256": "a140edf52e2485f9d6b55a360645ae0a220d6a05690121fbbf9c972bf566a90b"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_12_DARK_MATTER_AND_RELATIONAL_STRUCTURE/MK_ULTRA_TOME_V12_C02_ER_NETWORKS_AND_LOAD_BEARING_STRUCTURE_VALIDATION.json",
+        "bytes": 2876,
+        "sha256": "4de4349e6fbba9a367bf32a7ff5ddc8b32ba2c92af2818e3ea79d25020157f66"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 9,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V12-C03",
+      "source_sha256": "62a1658bb61860a0e93ab622380a1d093bab824acb2e427a3a17284ca09c48ff",
+      "published_source_sha256": "62a1658bb61860a0e93ab622380a1d093bab824acb2e427a3a17284ca09c48ff",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 997,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_12_DARK_MATTER_AND_RELATIONAL_STRUCTURE/MK_ULTRA_TOME_V12_C03_DARK_MATTER_TRANSPORT_AND_BRIDGES.pdf",
+        "bytes": 144080,
+        "sha256": "d7b7fc1c62ae28b354fb51a699f2f91b33ef587f65821eeddd4e0c7f1d7bc4c5"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_12_DARK_MATTER_AND_RELATIONAL_STRUCTURE/MK_ULTRA_TOME_V12_C03_DARK_MATTER_TRANSPORT_AND_BRIDGES_VALIDATION.json",
+        "bytes": 2849,
+        "sha256": "4128ff2ae8a61366beec9ef2f184a17853094d7151a0f0b486ae9f3c84ef1908"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 15,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V12-C04",
+      "source_sha256": "3a2c07c1e071a4a2e36bf8fc46475b42ce51ee3085f6f3992c41c6594b5dcfde",
+      "published_source_sha256": "3a2c07c1e071a4a2e36bf8fc46475b42ce51ee3085f6f3992c41c6594b5dcfde",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1360,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_12_DARK_MATTER_AND_RELATIONAL_STRUCTURE/MK_ULTRA_TOME_V12_C04_RELATIONAL_HISTORIES_AND_ADJACENCY.pdf",
+        "bytes": 165719,
+        "sha256": "573b54be59146ad320452bd04068380fd020c0635410ced977a02d4a86aaf173"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_12_DARK_MATTER_AND_RELATIONAL_STRUCTURE/MK_ULTRA_TOME_V12_C04_RELATIONAL_HISTORIES_AND_ADJACENCY_VALIDATION.json",
+        "bytes": 2855,
+        "sha256": "6d693c651e3852a6273e36e7cc141df8f751cf457926c588918de28a20a55d0e"
+      },
+      "pages": 7,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 21,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V12-C05",
+      "source_sha256": "6649dc0761948b9cedd83f4fc57822c55e3c794ed1dc93c4ec16b97e5603b96a",
+      "published_source_sha256": "6649dc0761948b9cedd83f4fc57822c55e3c794ed1dc93c4ec16b97e5603b96a",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1233,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_12_DARK_MATTER_AND_RELATIONAL_STRUCTURE/MK_ULTRA_TOME_V12_C05_PHENOMENOLOGICAL_CONSEQUENCES.pdf",
+        "bytes": 141885,
+        "sha256": "59bb9c3201e6087e8f1594499bad7f112ffd3d7388a1e3387fa0dcb69151cd9c"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_12_DARK_MATTER_AND_RELATIONAL_STRUCTURE/MK_ULTRA_TOME_V12_C05_PHENOMENOLOGICAL_CONSEQUENCES_VALIDATION.json",
+        "bytes": 2842,
+        "sha256": "e971992bd40dc1855747035b89b3266f92f4f9247b8c555c7f92020363891719"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 28,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V12-C06",
+      "source_sha256": "c2708415ec42380a78a2deecef6d161c8825a1e136d6858a4c46acf271c11570",
+      "published_source_sha256": "c2708415ec42380a78a2deecef6d161c8825a1e136d6858a4c46acf271c11570",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1203,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_12_DARK_MATTER_AND_RELATIONAL_STRUCTURE/MK_ULTRA_TOME_V12_C06_FORMALIZATION_AND_DISCRIMINATING_TESTS.pdf",
+        "bytes": 150653,
+        "sha256": "edc11ee1daef448417ed87da590525f8e7525c1e9d26f6cad6b5cf5a3d3d0628"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_12_DARK_MATTER_AND_RELATIONAL_STRUCTURE/MK_ULTRA_TOME_V12_C06_FORMALIZATION_AND_DISCRIMINATING_TESTS_VALIDATION.json",
+        "bytes": 2851,
+        "sha256": "287230e249506a4feeb0dc755578a67000822397de221ec3184d8c248629ac7a"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 34,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    }
+  ],
+  "raw_latex_guard": {
+    "result": "PASS_INHERITED_FROM_QUALIFIED_CHAPTER_RECEIPTS",
+    "hits": []
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V12-C01": "15c1c3d058637e46ada5516839417a1cfbd4977d2dafa76136d897c79dad8045",
+    "V12-C02": "7da2e7a5bacecce13d68411cd9bcdcedfaebdf444638ed2ed795e8a30fc900cb",
+    "V12-C03": "62a1658bb61860a0e93ab622380a1d093bab824acb2e427a3a17284ca09c48ff",
+    "V12-C04": "3a2c07c1e071a4a2e36bf8fc46475b42ce51ee3085f6f3992c41c6594b5dcfde",
+    "V12-C05": "6649dc0761948b9cedd83f4fc57822c55e3c794ed1dc93c4ec16b97e5603b96a",
+    "V12-C06": "c2708415ec42380a78a2deecef6d161c8825a1e136d6858a4c46acf271c11570"
+  },
+  "source_hashes_after": {
+    "V12-C01": "15c1c3d058637e46ada5516839417a1cfbd4977d2dafa76136d897c79dad8045",
+    "V12-C02": "7da2e7a5bacecce13d68411cd9bcdcedfaebdf444638ed2ed795e8a30fc900cb",
+    "V12-C03": "62a1658bb61860a0e93ab622380a1d093bab824acb2e427a3a17284ca09c48ff",
+    "V12-C04": "3a2c07c1e071a4a2e36bf8fc46475b42ce51ee3085f6f3992c41c6594b5dcfde",
+    "V12-C05": "6649dc0761948b9cedd83f4fc57822c55e3c794ed1dc93c4ec16b97e5603b96a",
+    "V12-C06": "c2708415ec42380a78a2deecef6d161c8825a1e136d6858a4c46acf271c11570"
+  },
+  "sealed_chapter_content_change_count": 0,
+  "duplicate_chapter_inputs": [],
+  "missing_chapter_inputs": []
+}

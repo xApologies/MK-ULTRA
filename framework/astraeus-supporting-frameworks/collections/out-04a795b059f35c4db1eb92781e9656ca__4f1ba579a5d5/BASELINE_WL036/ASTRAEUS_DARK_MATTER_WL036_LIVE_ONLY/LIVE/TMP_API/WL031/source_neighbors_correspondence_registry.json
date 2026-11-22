@@ -1,0 +1,53 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_NEIGHBORS_V1",
+  "handle": "@correspondence_registry",
+  "incoming": [
+    [
+      "@time_shell",
+      {
+        "source": "@time_shell",
+        "relation": "DIRECTED_TO",
+        "target": "@correspondence_registry",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54844->54845",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ]
+  ],
+  "outgoing": [
+    [
+      "@detector_observable",
+      {
+        "source": "@correspondence_registry",
+        "relation": "DIRECTED_TO",
+        "target": "@detector_observable",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54850->54851",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@newtonian_gravity",
+      {
+        "source": "@correspondence_registry",
+        "relation": "DIRECTED_TO",
+        "target": "@newtonian_gravity",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54847->54848",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ]
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry"
+}

@@ -1,0 +1,87 @@
+{
+  "schema": "ASTRAEUS_OCCUPANCY_HIDDEN_STATE_PERSISTENCE_SEAM_V1",
+  "qmo_id": "QMO-AST-DM-WL-071",
+  "name": "Occupancy / Hidden-State Persistence Seam",
+  "atlas_version": "WL-v187",
+  "status": "SOURCE_BACKED_STATE_CONTENT_SEAM_NOT_SELECTOR",
+  "timespace_chain": [
+    "@inheritance -> @occupancy",
+    "@recursive_depth -> @occupancy",
+    "@occupancy -> @persistence_potential",
+    "@occupancy -> @mote_configuration_space"
+  ],
+  "exact_interface_radius3": [
+    {
+      "handle": "@bandwidth",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_runtime_transition_capacity",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@genlang_phrase_sha_da_rel",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@mote_chirality",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@mote_lattice",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@native_constraint_closure",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@persistent_recursive_topology",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@relational_history",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@resolution",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@chirality",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@genesis_field",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@genlang_root_rel",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@time_shell",
+      "distance_a": 3,
+      "distance_b": 3
+    }
+  ],
+  "finding": "Occupancy is a source-native state-content handle through which inheritance/recursive depth feed persistence and mote configuration. Hidden embedding and Mode-0 branches reach the same Resolution/Bandwidth/persistence neighborhood. The branch immediately returns to already-exhausted mote/persistence structure and supplies no embedding or Mode-0 selector.",
+  "guardrails": [
+    "occupancy != dark matter",
+    "occupancy != Mode-0 selector",
+    "persistence potential != selected hidden state",
+    "mote configuration != hidden S3 bundle by identity"
+  ]
+}

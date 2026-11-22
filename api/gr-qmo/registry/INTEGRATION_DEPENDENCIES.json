@@ -1,0 +1,334 @@
+{
+  "schema": "GR_QMO_INTEGRATION_DEPENDENCIES_V1",
+  "edge_count": 28,
+  "edges": [
+    {
+      "source": "@integration_genesis_gr_time_shell",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@graviton",
+      "scope": "source_relative_composition",
+      "conditions": [
+        "P_MK is defined on the admitted native input",
+        "Original fields, boundaries and conventions are retained",
+        "P_MK(N) lies in the matched smooth translator domain"
+      ],
+      "source_record": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/REPORT.md"
+    },
+    {
+      "source": "@integration_genesis_gr_time_shell",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@continuity_perturbation",
+      "scope": "source_relative_composition",
+      "conditions": [
+        "P_MK is defined on the admitted native input",
+        "Original fields, boundaries and conventions are retained",
+        "P_MK(N) lies in the matched smooth translator domain"
+      ],
+      "source_record": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/REPORT.md"
+    },
+    {
+      "source": "@integration_genesis_gr_time_shell",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@time_shell",
+      "scope": "source_relative_composition",
+      "conditions": [
+        "P_MK is defined on the admitted native input",
+        "Original fields, boundaries and conventions are retained",
+        "P_MK(N) lies in the matched smooth translator domain"
+      ],
+      "source_record": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/REPORT.md"
+    },
+    {
+      "source": "@integration_genesis_gr_time_shell",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@projected_gr_inheritance",
+      "scope": "source_relative_composition",
+      "conditions": [
+        "P_MK is defined on the admitted native input",
+        "Original fields, boundaries and conventions are retained",
+        "P_MK(N) lies in the matched smooth translator domain"
+      ],
+      "source_record": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/REPORT.md"
+    },
+    {
+      "source": "@integration_native_fixed_point",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@gravitational_self_coupling",
+      "scope": "inherited_operator_contract",
+      "conditions": [
+        "Actual source operators must be supplied",
+        "Existence and convergence are not implied by a fixed-point notation"
+      ],
+      "source_record": "sources/MK43_Existing_Gravity_Source_Trace.md"
+    },
+    {
+      "source": "@integration_native_fixed_point",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@continuity_redistribution",
+      "scope": "inherited_operator_contract",
+      "conditions": [
+        "Actual source operators must be supplied",
+        "Existence and convergence are not implied by a fixed-point notation"
+      ],
+      "source_record": "sources/MK43_Existing_Gravity_Source_Trace.md"
+    },
+    {
+      "source": "@integration_native_fixed_point",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@continuity_perturbation",
+      "scope": "inherited_operator_contract",
+      "conditions": [
+        "Actual source operators must be supplied",
+        "Existence and convergence are not implied by a fixed-point notation"
+      ],
+      "source_record": "sources/MK43_Existing_Gravity_Source_Trace.md"
+    },
+    {
+      "source": "@integration_metric_readout",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@time_shell",
+      "scope": "inherited_operator_contract",
+      "conditions": [
+        "Original scope of Pi_T retained",
+        "Full classical output is not forced through a radiative TT projector"
+      ],
+      "source_record": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/REPORT.md"
+    },
+    {
+      "source": "@integration_metric_readout",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@continuity_perturbation",
+      "scope": "inherited_operator_contract",
+      "conditions": [
+        "Original scope of Pi_T retained",
+        "Full classical output is not forced through a radiative TT projector"
+      ],
+      "source_record": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/REPORT.md"
+    },
+    {
+      "source": "@integration_geometry_chain",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@levi_civita_connection",
+      "scope": "derived_geometric_identity",
+      "conditions": [
+        "Smooth symmetric nondegenerate Lorentzian metrics",
+        "Same manifold and conventions",
+        "No extension of a weak-field native approximation is inferred"
+      ],
+      "source_record": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/REPORT.md"
+    },
+    {
+      "source": "@integration_geometry_chain",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@riemann_tensor",
+      "scope": "derived_geometric_identity",
+      "conditions": [
+        "Smooth symmetric nondegenerate Lorentzian metrics",
+        "Same manifold and conventions",
+        "No extension of a weak-field native approximation is inferred"
+      ],
+      "source_record": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/REPORT.md"
+    },
+    {
+      "source": "@integration_geometry_chain",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@einstein_tensor",
+      "scope": "derived_geometric_identity",
+      "conditions": [
+        "Smooth symmetric nondegenerate Lorentzian metrics",
+        "Same manifold and conventions",
+        "No extension of a weak-field native approximation is inferred"
+      ],
+      "source_record": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/REPORT.md"
+    },
+    {
+      "source": "@integration_geometry_chain",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@integration_metric_readout",
+      "scope": "derived_geometric_identity",
+      "conditions": [
+        "Smooth symmetric nondegenerate Lorentzian metrics",
+        "Same manifold and conventions",
+        "No extension of a weak-field native approximation is inferred"
+      ],
+      "source_record": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/REPORT.md"
+    },
+    {
+      "source": "@integration_genesis_gr_roundtrip",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@integration_geometry_chain",
+      "scope": "representation_theorem_scoped",
+      "conditions": [
+        "Invertible smooth frame realization",
+        "Source metric compatibility and torsion restriction",
+        "No inverse of the entire microscopic state is asserted"
+      ],
+      "source_record": "checkpoints/expanded/Genesis_GR_Translation_Closure/DERIVATION.md"
+    },
+    {
+      "source": "@integration_matched_source",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@stress_energy_tensor",
+      "scope": "integration_contract",
+      "conditions": [
+        "Matter fields are retained, not recovered from T alone",
+        "T is supplied independently, not set to the Einstein residual"
+      ],
+      "source_record": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/REPORT.md"
+    },
+    {
+      "source": "@integration_matched_source",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@integration_genesis_gr_roundtrip",
+      "scope": "integration_contract",
+      "conditions": [
+        "Matter fields are retained, not recovered from T alone",
+        "T is supplied independently, not set to the Einstein residual"
+      ],
+      "source_record": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/REPORT.md"
+    },
+    {
+      "source": "@integration_mode_image_inverse",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@native_probability_preservation",
+      "scope": "conditional_linear_theorem",
+      "conditions": [
+        "Source Hilbert-sector contract",
+        "Inverse only on the represented image",
+        "Not an inverse of a channel that traces out data"
+      ],
+      "source_record": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/REPORT.md"
+    },
+    {
+      "source": "@integration_mode_image_inverse",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@readable_graviton_projection",
+      "scope": "conditional_linear_theorem",
+      "conditions": [
+        "Source Hilbert-sector contract",
+        "Inverse only on the represented image",
+        "Not an inverse of a channel that traces out data"
+      ],
+      "source_record": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/REPORT.md"
+    },
+    {
+      "source": "@integration_feedback_response",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@integration_native_fixed_point",
+      "scope": "conditional_differentiation_theorem",
+      "conditions": [
+        "Differentiable actual operators",
+        "I-A boundedly invertible on the selected domain",
+        "Other explicit source dependence must also be varied"
+      ],
+      "source_record": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/REPORT.md"
+    },
+    {
+      "source": "@integration_feedback_response",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@integration_metric_readout",
+      "scope": "conditional_differentiation_theorem",
+      "conditions": [
+        "Differentiable actual operators",
+        "I-A boundedly invertible on the selected domain",
+        "Other explicit source dependence must also be varied"
+      ],
+      "source_record": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/REPORT.md"
+    },
+    {
+      "source": "@integration_chirality_energy_mass",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@mass",
+      "scope": "source_derived_scalar_identities",
+      "conditions": [
+        "Version 3 T4/T5 selector and shared epsilon_P",
+        "Admissible histories and fixed vacuum baseline",
+        "Not all Native History Energy is rest mass"
+      ],
+      "source_record": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/REPORT.md"
+    },
+    {
+      "source": "@integration_chirality_energy_mass",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@native_unit_of_energy",
+      "scope": "source_derived_scalar_identities",
+      "conditions": [
+        "Version 3 T4/T5 selector and shared epsilon_P",
+        "Admissible histories and fixed vacuum baseline",
+        "Not all Native History Energy is rest mass"
+      ],
+      "source_record": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/REPORT.md"
+    },
+    {
+      "source": "@integration_chirality_energy_mass",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@chirality",
+      "scope": "source_derived_scalar_identities",
+      "conditions": [
+        "Version 3 T4/T5 selector and shared epsilon_P",
+        "Admissible histories and fixed vacuum baseline",
+        "Not all Native History Energy is rest mass"
+      ],
+      "source_record": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/REPORT.md"
+    },
+    {
+      "source": "@integration_chirality_energy_mass",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@persistence",
+      "scope": "source_derived_scalar_identities",
+      "conditions": [
+        "Version 3 T4/T5 selector and shared epsilon_P",
+        "Admissible histories and fixed vacuum baseline",
+        "Not all Native History Energy is rest mass"
+      ],
+      "source_record": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/REPORT.md"
+    },
+    {
+      "source": "@integration_rainbow_road_transport",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@integration_chirality_energy_mass",
+      "scope": "source_derived_path_accounting",
+      "conditions": [
+        "Actual admitted generator actions are required",
+        "Scalar endpoint energy does not recover full History",
+        "General chirality generator correspondence is not automatically certified"
+      ],
+      "source_record": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/REPORT.md"
+    },
+    {
+      "source": "@integration_metric_codec",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@integration_metric_readout",
+      "scope": "representation_only",
+      "conditions": [
+        "sigma positive",
+        "Componentwise encoding with its nonlinear chart transition",
+        "No new GRC scalar action or metric-code graph replaces original physics"
+      ],
+      "source_record": "checkpoints/expanded/Genesis_GR_Regular_Completion_v0_1/THEOREM.md"
+    },
+    {
+      "source": "@integration_provenance_status",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@gravity_audit_v2",
+      "scope": "audit_registry",
+      "conditions": [
+        "All source qualifications retained",
+        "Audit item 12 has no newly acquired external-data result"
+      ],
+      "source_record": "registry/GRAVITY_AUDIT_INHERITED.json"
+    },
+    {
+      "source": "@integration_provenance_status",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@integration_genesis_gr_time_shell",
+      "scope": "audit_registry",
+      "conditions": [
+        "All source qualifications retained",
+        "Audit item 12 has no newly acquired external-data result"
+      ],
+      "source_record": "registry/GRAVITY_AUDIT_INHERITED.json"
+    }
+  ],
+  "unresolved_overlay_endpoints": []
+}

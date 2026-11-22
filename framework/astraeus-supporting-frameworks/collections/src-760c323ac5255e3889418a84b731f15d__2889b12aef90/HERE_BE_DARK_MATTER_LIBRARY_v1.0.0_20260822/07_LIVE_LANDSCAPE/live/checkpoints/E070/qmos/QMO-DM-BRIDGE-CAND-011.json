@@ -1,0 +1,29 @@
+{
+  "schema": "ASTRAEUS_QMO_CANDIDATE_V1",
+  "qmo_id": "QMO-DM-BRIDGE-CAND-011",
+  "handle": "@dm_conditional_action_dark_readout_witness",
+  "canonical_name": "Conditional Action-Lane Dark Readout Witness",
+  "status": "LIVE_CONDITIONAL_CANDIDATE",
+  "parents": [
+    "@dm_conditional_scalar_stress_active_witness",
+    "@dm_dark_readout_defect",
+    "@stress_energy_tensor",
+    "@einstein_field_equation"
+  ],
+  "working_assumptions": [
+    "WA-DM-E064-002",
+    "WA-DM-E069-001"
+  ],
+  "derivation": [
+    "full comparator carries the proxy hidden sector while the visible comparator does not",
+    "T_H!=0 => T_full!=T_vis",
+    "inside one fixed readable Einstein comparison problem, source separation produces gravitational-readout separation",
+    "M_R(u_full)=M_R(u_vis) => pair lies in D_R"
+  ],
+  "result": "An action-side route reaches the existing dark-readout factorization defect without native-density calibration or invariant-residue discrimination.",
+  "guardrails": [
+    "Conditional only.",
+    "Does not replace the qualification boundary/Q gates.",
+    "No physical dark-matter claim."
+  ]
+}

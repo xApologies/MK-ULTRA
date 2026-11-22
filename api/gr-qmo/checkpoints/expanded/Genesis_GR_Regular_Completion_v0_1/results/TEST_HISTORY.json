@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "result": "stopped at symbolic normalization check",
+      "check": "hyperbolic encoding decoder",
+      "observation": "SymPy simplify did not reduce an expression mixing exp(z), exp(-z), and sinh(z) to zero.",
+      "change": "Added a conservative fallback rewriting sinh/cosh to exponentials before simplification. No model formula changed."
+    },
+    {
+      "attempt": 2,
+      "result": "all 42 named checks passed",
+      "record": "CHECK_RESULTS.json"
+    },
+    {
+      "attempt": 3,
+      "result": "43 checks passed",
+      "change": "Added a direct Z-variable connection computation and compared every coefficient with the independent coordinate-metric route.",
+      "record": "EXECUTION_LOG.txt"
+    }
+  ],
+  "qualification": "These are implementation checks and constructed examples, not independent peer review or a formal proof-assistant certificate."
+}

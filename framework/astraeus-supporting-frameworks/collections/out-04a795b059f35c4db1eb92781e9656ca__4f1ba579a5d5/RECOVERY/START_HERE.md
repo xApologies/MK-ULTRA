@@ -1,0 +1,38 @@
+# START HERE — ASTRAEUS DARK MATTER R5 / WL-038
+
+## Immediate state
+
+```text
+Work layer: WL-038
+Atlas: WL-v247
+QMO frontier: QMO-AST-DM-WL-131
+Protocol: AST-DM-WL-P031
+Next action: SEARCH_CORRIDOR_DARK_DEFECT_WITNESS
+Parent promotions: 0
+Physical dark-matter witness: NOT ESTABLISHED
+```
+
+## Read in this order
+
+1. `LIVE/STATE_VECTOR.json`
+2. `LIVE/LIVE_MODEL.md`
+3. `RECOVERY/R5_ARCHITECTURE_CLOSURE_REPORT_WL038.md`
+4. `LIVE/WORK_LAYER_WL038/ATLAS/WL_V245_READOUT_FACTORIZATION_SOURCE_RECONCILIATION.md`
+5. `LIVE/WORK_LAYER_WL038/ATLAS/WL_V246_CORRIDOR_BOUNDARY_REALIZATION_SOURCE_CLOSURE.md`
+6. `LIVE/WORK_LAYER_WL038/ATLAS/WL_V247_DARK_ARCHITECTURE_CLOSURE_RECONCILIATION.md`
+7. `LIVE/WORK_LAYER_WL038/ATLAS/WL_V239_CANONICAL_PULLBACK_EQUIVALENCE.md`
+8. `LIVE/WORK_LAYER_WL038/ATLAS/WL_V240_CORRIDOR_NATIVE_INHERITED_STATE_ROUTE.md`
+9. `LIVE/WORK_LAYER_WL038/ATLAS/WL_V241_DARK_READOUT_FACTORIZATION_THEOREM.md` (historical live-branch restatement; see v245 provenance correction)
+10. `LIVE/WORK_LAYER_WL038/ATLAS/WL_V242_CORRIDOR_BOUNDARY_REALIZATION_INDUCTION.md` (historical diagnostic; superseded for corridor typing by v246)
+11. `LIVE/WORK_LAYER_WL038/ATLAS/WL_V243_RELATIVE_RESIDUE_FIBER_ARCHITECTURE.md`
+12. `LIVE/WORK_LAYER_WL038/ATLAS/WL_V244_DARK_ARCHITECTURE_CLOSURE_THEOREM.md`
+13. `LIVE/WORK_LAYER_WL038/PROTOCOLS/CORRIDOR_DARK_NONEMPTINESS_WITNESS_SEARCH.md`
+
+## Recovery ruling
+
+The corridor route is **architecturally closed to a witness problem**. Do not report physical dark matter as established. Do not close the generic parent network embedding handle. Do not reopen mote adjacency without new evidence.
+
+
+## Final R5 source reconciliation
+
+Read `LIVE/WORK_LAYER_WL038/ATLAS/WL_V245_READOUT_FACTORIZATION_SOURCE_RECONCILIATION.md`, then v246 and v247. These correct provenance before resuming the witness search.

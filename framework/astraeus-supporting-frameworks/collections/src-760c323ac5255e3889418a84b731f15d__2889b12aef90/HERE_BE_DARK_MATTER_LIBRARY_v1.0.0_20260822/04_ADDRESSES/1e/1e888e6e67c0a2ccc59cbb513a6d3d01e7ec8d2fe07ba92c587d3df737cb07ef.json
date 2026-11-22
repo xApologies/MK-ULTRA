@@ -1,0 +1,182 @@
+{
+  "handle": "@null_geodesic_incompleteness",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@null_geodesic_incompleteness",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 4,
+    "api43_direct_in_count": 3,
+    "xapi_raw_out_count": 4,
+    "xapi_raw_in_count": 3,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 164,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@null_geodesic_incompleteness",
+        "relation": "SPECIALIZES",
+        "target": "@geodesic_incompleteness",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-50",
+        "provenance": "ACCEPTED_MATHEMATICS:PENROSE_MINIMAL_MATHEMATICAL_CLOSURE"
+      },
+      {
+        "source": "@null_geodesic_incompleteness",
+        "relation": "MODE_1_REPRESENTATION_OF",
+        "target": "@singularity",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-50",
+        "provenance": "DERIVED:RP50_PENROSE_TYPED_CRAWL; round=1; path=@null_geodesic_incompleteness->@geodesic_incompleteness->@singularity; relations=SPECIALIZES+MODE_1_REPRESENTATION_OF=>MODE_1_REPRESENTATION_OF"
+      },
+      {
+        "source": "@null_geodesic_incompleteness",
+        "relation": "FEEDS_BLACK_HOLE_MODEL",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_BLACK_HOLE_REVERSE_CRAWL; witness=@null_geodesic_incompleteness-[SPECIALIZES]->@geodesic_incompleteness | @geodesic_incompleteness-[COMPOSED_DEPENDENCY]->@black_hole"
+      },
+      {
+        "source": "@null_geodesic_incompleteness",
+        "relation": "GLOBALLY_FEEDS_BLACK_HOLE",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-53",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_REVERSE_CRAWL; witness=@null_geodesic_incompleteness-[FEEDS_BLACK_HOLE_MODEL]->@black_hole"
+      },
+      {
+        "source": "@penrose_singularity_theorem",
+        "relation": "CONCLUDES",
+        "target": "@null_geodesic_incompleteness",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-50",
+        "provenance": "ACCEPTED_MATHEMATICS:PENROSE_MINIMAL_MATHEMATICAL_CLOSURE"
+      },
+      {
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_MODEL_REACHES",
+        "target": "@null_geodesic_incompleteness",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_BLACK_HOLE_FORWARD_CRAWL; witness=@black_hole-[SUPPORTS]->@penrose_singularity_theorem | @penrose_singularity_theorem-[CONCLUDES]->@null_geodesic_incompleteness"
+      },
+      {
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_GLOBAL_REACHES",
+        "target": "@null_geodesic_incompleteness",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-53",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_FORWARD_CRAWL; witness=@black_hole-[BLACK_HOLE_MODEL_REACHES]->@null_geodesic_incompleteness"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 8611,
+        "source": "@null_geodesic_incompleteness",
+        "relation": "SPECIALIZES",
+        "target": "@geodesic_incompleteness",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "ACCEPTED_MATHEMATICS:PENROSE_MINIMAL_MATHEMATICAL_CLOSURE"
+      },
+      {
+        "id": 8652,
+        "source": "@null_geodesic_incompleteness",
+        "relation": "MODE_1_REPRESENTATION_OF",
+        "target": "@singularity",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP50_PENROSE_TYPED_CRAWL; round=1; path=@null_geodesic_incompleteness->@geodesic_incompleteness->@singularity; relations=SPECIALIZES+MODE_1_REPRESENTATION_OF=>MODE_1_REPRESENTATION_OF"
+      },
+      {
+        "id": 12178,
+        "source": "@null_geodesic_incompleteness",
+        "relation": "FEEDS_BLACK_HOLE_MODEL",
+        "target": "@black_hole",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP51_BLACK_HOLE_REVERSE_CRAWL; witness=@null_geodesic_incompleteness-[SPECIALIZES]->@geodesic_incompleteness | @geodesic_incompleteness-[COMPOSED_DEPENDENCY]->@black_hole"
+      },
+      {
+        "id": 18347,
+        "source": "@null_geodesic_incompleteness",
+        "relation": "GLOBALLY_FEEDS_BLACK_HOLE",
+        "target": "@black_hole",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_REVERSE_CRAWL; witness=@null_geodesic_incompleteness-[FEEDS_BLACK_HOLE_MODEL]->@black_hole"
+      },
+      {
+        "id": 8610,
+        "source": "@penrose_singularity_theorem",
+        "relation": "CONCLUDES",
+        "target": "@null_geodesic_incompleteness",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "ACCEPTED_MATHEMATICS:PENROSE_MINIMAL_MATHEMATICAL_CLOSURE"
+      },
+      {
+        "id": 11775,
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_MODEL_REACHES",
+        "target": "@null_geodesic_incompleteness",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP51_BLACK_HOLE_FORWARD_CRAWL; witness=@black_hole-[SUPPORTS]->@penrose_singularity_theorem | @penrose_singularity_theorem-[CONCLUDES]->@null_geodesic_incompleteness"
+      },
+      {
+        "id": 17927,
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_GLOBAL_REACHES",
+        "target": "@null_geodesic_incompleteness",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_FORWARD_CRAWL; witness=@black_hole-[BLACK_HOLE_MODEL_REACHES]->@null_geodesic_incompleteness"
+      }
+    ]
+  },
+  "address": "@null_geodesic_incompleteness",
+  "address_sha256": "1e888e6e67c0a2ccc59cbb513a6d3d01e7ec8d2fe07ba92c587d3df737cb07ef"
+}

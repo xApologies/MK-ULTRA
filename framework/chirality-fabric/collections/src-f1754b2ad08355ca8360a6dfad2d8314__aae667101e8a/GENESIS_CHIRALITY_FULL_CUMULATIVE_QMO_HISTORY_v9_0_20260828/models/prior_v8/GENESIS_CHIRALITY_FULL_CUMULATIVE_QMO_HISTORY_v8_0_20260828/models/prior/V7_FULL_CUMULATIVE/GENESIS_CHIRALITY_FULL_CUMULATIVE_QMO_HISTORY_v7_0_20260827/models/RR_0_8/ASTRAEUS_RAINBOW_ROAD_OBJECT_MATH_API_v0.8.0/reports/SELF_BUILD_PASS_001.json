@@ -1,0 +1,56 @@
+{
+  "pass": "SELF_BUILD_PASS_001",
+  "frontier": [
+    {
+      "handle": "@recovery_witness_counterexample_crawl",
+      "status": "ACTIVE",
+      "priority": "P0",
+      "question": "Can the smallest candidate witness bundle fail to distinguish two fine-resolution lineages in the same non-injective handoff fiber, and if so, exactly which additional structural component is necessary to repair the ambiguity?",
+      "raw_json": "{\"handle\": \"@recovery_witness_counterexample_crawl\", \"status\": \"ACTIVE\", \"priority\": \"P0\", \"question\": \"Can the smallest candidate witness bundle fail to distinguish two fine-resolution lineages in the same non-injective handoff fiber, and if so, exactly which additional structural component is necessary to repair the ambiguity?\", \"native_branches\": [\"resolution_readout\", \"identity_through_history\", \"transduction_geometry\", \"bandwidth_algebra\"], \"probe_branches\": [\"holonomy_chirality\"], \"candidate_outputs\": [\"@witness_bundle_core\", \"@witness_bundle_history_augmented\", \"@witness_bundle_full_state_fallback\", \"@fine_lineage_selector\"], \"next_tests\": [\"Construct same-coarse-readout/different-lineage pairs\", \"Test core witness collision\", \"Add History only if collision persists\", \"Identify minimal repair component\", \"Audit composition across chained handoffs\"]}"
+    }
+  ],
+  "generated_candidates": [
+    {
+      "candidate_id": "SB-001-C1",
+      "handle": "@witness_bundle_core",
+      "status": "CANDIDATE",
+      "generated_by": "R-002",
+      "audit_status": "UNPROMOTED",
+      "definition": "Candidate recovery witness containing formal address/provenance pointer + Identity Witness + transition token + invariant residue.",
+      "test": "Can this bundle uniquely select the correct fine lineage for every declared non-injective handoff fiber?",
+      "raw_json": "{\"candidate_id\": \"SB-001-C1\", \"handle\": \"@witness_bundle_core\", \"status\": \"CANDIDATE\", \"generated_by\": \"R-002\", \"audit_status\": \"UNPROMOTED\", \"definition\": \"Candidate recovery witness containing formal address/provenance pointer + Identity Witness + transition token + invariant residue.\", \"components\": [\"@provenance\", \"@identity_witness\", \"@invariant_residue\"], \"test\": \"Can this bundle uniquely select the correct fine lineage for every declared non-injective handoff fiber?\", \"provenance\": [\"SELF_BUILD_PASS_001\", \"LIVE_MODEL::NF-005 OPEN\"]}"
+    },
+    {
+      "candidate_id": "SB-001-C2",
+      "handle": "@witness_bundle_history_augmented",
+      "status": "CANDIDATE",
+      "generated_by": "R-002",
+      "audit_status": "UNPROMOTED",
+      "definition": "Core candidate plus explicit ordered History trace.",
+      "test": "Does adding ordered History resolve counterexamples where the core bundle is ambiguous?",
+      "raw_json": "{\"candidate_id\": \"SB-001-C2\", \"handle\": \"@witness_bundle_history_augmented\", \"status\": \"CANDIDATE\", \"generated_by\": \"R-002\", \"audit_status\": \"UNPROMOTED\", \"definition\": \"Core candidate plus explicit ordered History trace.\", \"components\": [\"@provenance\", \"@identity_witness\", \"@invariant_residue\", \"@history_trace\"], \"test\": \"Does adding ordered History resolve counterexamples where the core bundle is ambiguous?\", \"provenance\": [\"SELF_BUILD_PASS_001\", \"LIVE_MODEL::NF-005 OPEN\"]}"
+    },
+    {
+      "candidate_id": "SB-001-C3",
+      "handle": "@witness_bundle_full_state_fallback",
+      "status": "FALLBACK_CANDIDATE",
+      "generated_by": "R-002",
+      "audit_status": "UNPROMOTED",
+      "definition": "Retain the fuller predecessor structural state when compressed provenance cannot guarantee unique lineage recovery.",
+      "test": "Fallback upper bound on retained structure; not presumed minimal.",
+      "raw_json": "{\"candidate_id\": \"SB-001-C3\", \"handle\": \"@witness_bundle_full_state_fallback\", \"status\": \"FALLBACK_CANDIDATE\", \"generated_by\": \"R-002\", \"audit_status\": \"UNPROMOTED\", \"definition\": \"Retain the fuller predecessor structural state when compressed provenance cannot guarantee unique lineage recovery.\", \"components\": [\"@formal_object\", \"@provenance\", \"@history_trace\"], \"test\": \"Fallback upper bound on retained structure; not presumed minimal.\", \"provenance\": [\"SELF_BUILD_PASS_001\", \"LIVE_MODEL::NF-005 OPEN\"]}"
+    },
+    {
+      "candidate_id": "SB-001-C4",
+      "handle": "@fine_lineage_selector",
+      "status": "CANDIDATE",
+      "generated_by": "R-003",
+      "audit_status": "UNPROMOTED",
+      "definition": "A witness-mediated selector over a handoff merge fiber; it is not an inverse to q_ji and may be partial/context-dependent.",
+      "test": "Can the selector recover the declared lineage without inventing distinctions absent from provenance?",
+      "raw_json": "{\"candidate_id\": \"SB-001-C4\", \"handle\": \"@fine_lineage_selector\", \"status\": \"CANDIDATE\", \"generated_by\": \"R-003\", \"audit_status\": \"UNPROMOTED\", \"definition\": \"A witness-mediated selector over a handoff merge fiber; it is not an inverse to q_ji and may be partial/context-dependent.\", \"components\": [\"@handoff_merge_fiber\", \"@recovery_provenance_bundle\"], \"test\": \"Can the selector recover the declared lineage without inventing distinctions absent from provenance?\", \"provenance\": [\"SELF_BUILD_PASS_001\", \"LIVE_MODEL::NF-005 OPEN\"]}"
+    }
+  ],
+  "promotion_policy": "NO_AUTOMATIC_PROMOTION",
+  "next_action": "Construct counterexamples against the smallest witness bundle first; promote nothing without audit."
+}

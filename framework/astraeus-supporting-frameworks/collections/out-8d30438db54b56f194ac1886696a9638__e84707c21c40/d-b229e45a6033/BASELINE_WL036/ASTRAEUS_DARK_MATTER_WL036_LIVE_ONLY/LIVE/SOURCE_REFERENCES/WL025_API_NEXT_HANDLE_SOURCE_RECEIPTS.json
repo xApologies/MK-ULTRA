@@ -1,0 +1,33 @@
+{
+  "schema": "ASTRAEUS_SOURCE_RECEIPTS_V1",
+  "work_layer": "WL-025",
+  "atlas": "v149",
+  "sources": [
+    {
+      "path": "provenance://unavailable/content-sha256/0071c1d9d6a89c283f57a9c225857fa8f49a63f8caff86d83cca4a66896b0259/MK43_Ultra_API_CURRENT_CANONICAL.md",
+      "sha256": "0071c1d9d6a89c283f57a9c225857fa8f49a63f8caff86d83cca4a66896b0259",
+      "role": "read-only mounted API/QMO evidence"
+    },
+    {
+      "path": "../../../../../../out-dd5f2e0f5bcd545bac4217403d326140__ee4819595f94/registry/DM_DIRECT_EDGE_REGISTRY.json",
+      "sha256": "d0a3b0922fdc4b648c86c27080ce1c52a2d547ef35d62e40f69d78d566dbd69c",
+      "role": "read-only mounted API/QMO evidence"
+    },
+    {
+      "path": "../../../../../../out-dd5f2e0f5bcd545bac4217403d326140__ee4819595f94/registry/PARENT_DIRECT_EDGE_REGISTRY.json",
+      "sha256": "b8347095e275909833ebe6809faae28865264746d9ee506dbdbf1f91d3f62ba0",
+      "role": "read-only mounted API/QMO evidence"
+    },
+    {
+      "path": "../../../../../../out-dd5f2e0f5bcd545bac4217403d326140__ee4819595f94/DM22_HANDLE_REGISTRY.json",
+      "sha256": "0c63fb532d28dd243f69acb0dcdc8d7f7547187c2e89fd6f84e0969b5b9d5730",
+      "role": "read-only mounted API/QMO evidence"
+    },
+    {
+      "path": "provenance://unavailable/content-sha256/6169c86c4fca479f3f7dc607f567afa9971dc448debdec558e42154f049597c5/cross_qmo_chain.py",
+      "sha256": "6169c86c4fca479f3f7dc607f567afa9971dc448debdec558e42154f049597c5",
+      "role": "read-only mounted API/QMO evidence"
+    }
+  ],
+  "note": "API-first next-handle crawl. No source mutation; reverse steps in navigation are explicitly non-semantic."
+}

@@ -1,0 +1,21 @@
+{
+  "experiment": "E010",
+  "candidate": "CAND-DM-MULTICORRIDOR-BANDWIDTH-013",
+  "title": "Pipeline Robustness Filter of Exhaustive Readout-Degenerate Tile Classes",
+  "status": "CONTROLLED PIPELINE-GUARD / R4-R6 ROBUSTNESS RESULT; NOT PHYSICAL DARK-MATTER WITNESS",
+  "parent_promotions": 0,
+  "physical_dark_matter_witness": false,
+  "input_microstates": 6561,
+  "input_degenerate_readout_classes": 1215,
+  "nontrivial_classes_robust_for_B1_through_B4": 0,
+  "nontrivial_classes_robust_for_B2_through_B4": 148,
+  "states_in_B2_B4_robust_pairs": 296,
+  "random_weight_vectors": 10000,
+  "random_weight_stress_all_148_pairs_pass": true,
+  "minimum_occupied_sites_among_robust_states": 4,
+  "maximum_occupied_sites_among_robust_states": 7,
+  "controlled_ruling": "In this finite-tile stress model, no non-symmetry hidden pair is selection-guaranteed at single-corridor Bandwidth B=1, while 148 readout classes contain a non-symmetry pair whose R5/R6 selected corridor topology remains separated for every deterministic source-grounded score condition at B=2..4 and all 10,000 random weight stresses.",
+  "interpretation": "A multi-corridor capacity threshold emerges as a controlled sandbox feature: robust hidden topology retention begins once the resolution stage can retain at least two corridors.",
+  "hard_boundary": "B is a controlled corridor-count proxy for finite Bandwidth; this is not yet a source-derived physical Bandwidth calibration or theorem.",
+  "next_handle": "TEST_MULTICORRIDOR_THRESHOLD_AGAINST_BANDWIDTH_ALGEBRA_AND_SOURCE_NATIVE_RESOLUTION"
+}

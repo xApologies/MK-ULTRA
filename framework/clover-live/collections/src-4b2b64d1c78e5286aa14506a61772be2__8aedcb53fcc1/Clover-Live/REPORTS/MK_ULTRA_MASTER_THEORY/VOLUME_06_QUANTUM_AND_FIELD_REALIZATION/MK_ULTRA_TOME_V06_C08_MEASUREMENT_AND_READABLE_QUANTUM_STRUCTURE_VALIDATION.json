@@ -1,0 +1,106 @@
+{
+  "schema": "tome-publication-renderer-validation/v1",
+  "created_at": "2026-08-10T19:17:05.069504+00:00",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "engine": "KaTeX 0.16.22 -> HTML/CSS -> Playwright -> Microsoft Edge PDF",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_06_QUANTUM_AND_FIELD_REALIZATION/MK_ULTRA_TOME_V06_C08_MEASUREMENT_AND_READABLE_QUANTUM_STRUCTURE.pdf",
+    "bytes": 158249,
+    "sha256": "c9264d9df7d6e0735a40ee7a675687cc236fc1e596fa9600aec2e0a84c6fae3e"
+  },
+  "actual_pages": 6,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V06-C08": 3
+  },
+  "chapter_validations": [
+    {
+      "chapter_id": "V06-C08",
+      "source_sha256": "80594837bdbb3a808a1c1e4e3d0503d7f2d9333641914899e7cb2cba3c6b237d",
+      "page_start": 3,
+      "headings": 21,
+      "display_equations": 18,
+      "inline_equations": 13,
+      "equation_tags": 18,
+      "api_handles": 7,
+      "table_rows": 8,
+      "content_markers_present": true
+    }
+  ],
+  "engine_metrics": {
+    "renderer": "TOME_PUBLICATION_RENDERER_V1",
+    "katexVersion": "0.16.22",
+    "chapters": [
+      {
+        "id": "V06-C08",
+        "sourceBytes": 11955,
+        "paragraphs": 41,
+        "headings": 21,
+        "displayEquations": 18,
+        "inlineEquations": 13,
+        "tables": 1,
+        "tableRows": 7,
+        "listItems": 0,
+        "codeBlocks": 0,
+        "figures": 0
+      }
+    ],
+    "paragraphs": 41,
+    "headings": 21,
+    "displayEquations": 18,
+    "inlineEquations": 13,
+    "tables": 1,
+    "tableRows": 7,
+    "listItems": 0,
+    "blockQuotes": 0,
+    "codeBlocks": 0,
+    "figures": 0,
+    "mathLayout": {
+      "checked": 18,
+      "scaled": [],
+      "remainingOverflow": []
+    }
+  },
+  "raw_latex_guard": {
+    "result": "PASS",
+    "hits": [],
+    "commands_scanned": [
+      "frac",
+      "mathcal",
+      "mathrm",
+      "begin",
+      "end",
+      "left",
+      "right",
+      "longrightarrow",
+      "rightarrow",
+      "otimes",
+      "partial",
+      "nabla",
+      "mu",
+      "nu",
+      "sum",
+      "int",
+      "operatorname"
+    ]
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V06-C08": "80594837bdbb3a808a1c1e4e3d0503d7f2d9333641914899e7cb2cba3c6b237d"
+  },
+  "source_hashes_after": {
+    "V06-C08": "80594837bdbb3a808a1c1e4e3d0503d7f2d9333641914899e7cb2cba3c6b237d"
+  },
+  "visual_qa": {
+    "result": "PASS",
+    "scope": "ALL_6_PAGES",
+    "pages_inspected": 6,
+    "blank_pages": 0,
+    "clipped_text_or_math": 0,
+    "overlapping_elements": 0,
+    "unrendered_latex": 0,
+    "layout_defects": 0,
+    "inspection_method": "Poppler 130-DPI page render with full-document contact sheets"
+  },
+  "sealed_chapter_content_change_count": 0
+}

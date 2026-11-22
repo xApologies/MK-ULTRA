@@ -1,0 +1,77 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_NEIGHBORS_V1",
+  "handle": "@admissible_continuation",
+  "incoming": [],
+  "outgoing": [
+    [
+      "@inherited_state_bundle",
+      {
+        "source": "@admissible_continuation",
+        "relation": "DEPENDS_TO",
+        "target": "@inherited_state_bundle",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45043",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@inherited_state_bundle",
+      {
+        "source": "@admissible_continuation",
+        "relation": "DIRECTED_TO",
+        "target": "@inherited_state_bundle",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45043",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@inherited_state_bundle",
+      {
+        "source": "@admissible_continuation",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@inherited_state_bundle",
+        "graph_family": "audit",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45043",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@inherited_state_bundle",
+      {
+        "source": "@admissible_continuation",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@inherited_state_bundle",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:45519",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@inherited_state_bundle",
+      {
+        "source": "@admissible_continuation",
+        "relation": "USED_BY",
+        "target": "@inherited_state_bundle",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:45163",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ]
+  ]
+}

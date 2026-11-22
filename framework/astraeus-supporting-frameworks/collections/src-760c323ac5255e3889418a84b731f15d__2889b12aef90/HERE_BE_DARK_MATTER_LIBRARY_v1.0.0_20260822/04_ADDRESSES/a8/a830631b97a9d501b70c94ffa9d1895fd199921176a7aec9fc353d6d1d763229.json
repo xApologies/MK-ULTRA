@@ -1,0 +1,89 @@
+{
+  "handle": "@dm_constraint_preserving_embedding_family",
+  "object_type": "mathematical_object",
+  "status": "ATLAS_DERIVED_CLOSED",
+  "domain": "DM22",
+  "namespace": "state",
+  "name": "Constraint-Preserving Hidden-State Embedding Family",
+  "definition": "Cross-API refinement of the hidden-state embedding problem. Candidate embeddings must preserve the existing hidden/base and inheritance commuting laws and land in the physical kernel of the Time-Space native constraint algebra.",
+  "math": "Emb_H,phys^R={ iota_H:E_H^R↪E | pi_E∘iota_H=j_T∘pi_H; I∘iota_H=iota_H∘I_H; iota_H(E_H^R)⊆ker(C) }. API4.3 supplies C_a|Psi_phys>=0, U ker(C)⊆ker(C), and C_read Pi_T=Pi_T C_native on admissible states. The family is defined; nonemptiness/selection of a physical iota_H remains open.",
+  "source_layer": "DM22",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "DM22",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 4,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 4,
+    "live_in_count": 1,
+    "closure_out_reachability_count": 201,
+    "closure_in_reachability_count": 10,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 2,
+    "aliases": [],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19715,
+        "source": "@dm_constraint_preserving_embedding_family",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_hidden_state_bundle",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.2_CROSS_API"
+      },
+      {
+        "id": 19716,
+        "source": "@dm_constraint_preserving_embedding_family",
+        "relation": "DEPENDS_ON",
+        "target": "@inheritance_morphism",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.2_CROSS_API"
+      },
+      {
+        "id": 19717,
+        "source": "@dm_constraint_preserving_embedding_family",
+        "relation": "DEPENDS_ON",
+        "target": "@inherited_state_bundle",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.2_CROSS_API"
+      },
+      {
+        "id": 19718,
+        "source": "@dm_constraint_preserving_embedding_family",
+        "relation": "DEPENDS_ON",
+        "target": "@native_constraint_closure",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.2_CROSS_API"
+      },
+      {
+        "id": 19772,
+        "source": "@dm_hidden_state_embedding",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_constraint_preserving_embedding_family",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.2_CROSS_API"
+      }
+    ]
+  },
+  "address": "@dm_constraint_preserving_embedding_family",
+  "address_sha256": "a830631b97a9d501b70c94ffa9d1895fd199921176a7aec9fc353d6d1d763229"
+}

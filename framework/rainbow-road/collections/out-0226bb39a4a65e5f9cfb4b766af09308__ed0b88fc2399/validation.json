@@ -1,0 +1,105 @@
+{
+  "source_zip": "provenance://unavailable/path-sha256/ed2955ec650eab10c7c7c0f7540e9af6a0e431b3b8e8f55981936e1a904cb4c1/H%282%29.zip",
+  "manifold_name": "Hydrogen Recursive Topology Manifold v2",
+  "interpretation": {
+    "three": "spatial lattice axes x,y,z = 32x32x32",
+    "plus_one": "2-branch chirality lift axis: right,left"
+  },
+  "shapes": {
+    "source_projection_4d": [
+      13,
+      32,
+      32,
+      32
+    ],
+    "chirality_field": [
+      32,
+      32,
+      32
+    ],
+    "setlift_5d": [
+      13,
+      32,
+      32,
+      32,
+      2
+    ]
+  },
+  "lift_equations": {
+    "right": "R = S * (0.5 + 0.5 * max(chi,0))",
+    "left": "L = S * (0.5 + 0.5 * max(-chi,0))",
+    "source_recovery": "S = 2 * min(R,L)",
+    "chirality_recovery": "chi = 2 * (R-L) / S, evaluated where S>0 and reconciled across channels"
+  },
+  "validation": {
+    "rebuilt_setlift_exact_equal": true,
+    "rebuilt_setlift_max_abs_error": 0.0,
+    "recovered_source_exact_equal": true,
+    "recovered_source_max_abs_error": 0.0,
+    "recovered_chirality_max_abs_error": 1.2150177586267574e-07,
+    "recovered_chirality_mean_abs_error": 3.055275427576992e-08,
+    "nonzero_source_channels_per_voxel_min": 6,
+    "nonzero_source_channels_per_voxel_max": 13,
+    "voxels_without_recovery_support": 0,
+    "coordinate_reexpression_roundtrip_exact_equal": true
+  },
+  "hashes": {
+    "source_projection_4d": "d856449407d7e5248f4429bf8602c6bb6ced87b39b91ee810f384e6258efeb90",
+    "chirality_field": "70c9d2bc6cd0701692b908f077c21648cf10c345a2770cfe106a36ea587fbd1c",
+    "setlift_5d_original": "be95ab4cd26213defc0c40d6d04285b9ef7a4af94480c476106513e74536fa3c",
+    "setlift_5d_rebuilt": "be95ab4cd26213defc0c40d6d04285b9ef7a4af94480c476106513e74536fa3c",
+    "coordinate_roundtrip": "be95ab4cd26213defc0c40d6d04285b9ef7a4af94480c476106513e74536fa3c"
+  },
+  "standalone_channel_checks": [
+    {
+      "file": "hydrogen_v2_pair_closure_topology.npy",
+      "source_channel": "pair_closure_topology_H2",
+      "exact_equal": true,
+      "max_abs_error": 0.0,
+      "sha256": "78bdea590d34169a2df8a71e0d956be060226bef91ece42770058fdb81bdb8ef"
+    },
+    {
+      "file": "hydrogen_v2_mixed_closure_admissibility.npy",
+      "source_channel": "mixed_closure_admissibility",
+      "exact_equal": true,
+      "max_abs_error": 0.0,
+      "sha256": "618f4188f53eb69ac35e46dcaf9b4246bb90ba1fcffd77731f5bfa96295f1622"
+    },
+    {
+      "file": "hydrogen_v2_mixed_anchor_lobe.npy",
+      "source_channel": "mixed_anchor_lobe",
+      "exact_equal": true,
+      "max_abs_error": 0.0,
+      "sha256": "83b33b1b6ac55fdeda7e9ca3eaef55ce2386869a92ce48447ddcd9b5de640bce"
+    },
+    {
+      "file": "hydrogen_v2_polarization_shell.npy",
+      "source_channel": "polarization_shell",
+      "exact_equal": true,
+      "max_abs_error": 0.0,
+      "sha256": "b3878dccfa26a50ba53760b5ad8b8d5c7b9e3797aac90acafef636b51a2c7058"
+    },
+    {
+      "file": "hydrogen_v2_closure_topology.npy",
+      "source_channel": "closure_topology",
+      "exact_equal": true,
+      "max_abs_error": 0.0,
+      "sha256": "0bb6615590c29ea7c7ff64dc9a11ddaecf255f43d17302fb00a4170229bab309"
+    },
+    {
+      "file": "hydrogen_v2_redistribution_resistance.npy",
+      "source_channel": "redistribution_resistance",
+      "exact_equal": true,
+      "max_abs_error": 0.0,
+      "sha256": "648ae03a6e5ceeff9a42c2c7f899291ba38b84df3436e5ef043d58e97872962f"
+    },
+    {
+      "file": "hydrogen_v2_environment_admissibility.npy",
+      "source_channel": "environment_admissibility",
+      "exact_equal": true,
+      "max_abs_error": 0.0,
+      "sha256": "0be584101904c1144d1d6528104aa6b86b26aaaccbbd947c05e896e767085bff"
+    }
+  ],
+  "classification": "Mathematical/digital manifold validation. This does not by itself instantiate a physical transport device."
+}

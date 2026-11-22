@@ -1,0 +1,44 @@
+{
+  "schema": "STONEWAKE_CHIRALITY_RELAXATION_ENGINE_v0_1",
+  "DomainState": {
+    "nodes": [
+      "id",
+      "layer",
+      "chirality_byte",
+      "orientation_class",
+      "basin",
+      "resolution",
+      "bandwidth",
+      "persistent"
+    ],
+    "edges": [
+      "u",
+      "v",
+      "relation",
+      "capacity",
+      "fusion_seam",
+      "backreaction_phase",
+      "port_witness"
+    ],
+    "history": "append-only event records"
+  },
+  "event_types": [
+    "FUSE",
+    "UNBIND",
+    "REORIENT",
+    "RELAX",
+    "PERSISTENCE_CHECK",
+    "READOUT"
+  ],
+  "pipeline": [
+    "validate_event",
+    "apply_seam_change",
+    "compute_local_syndrome",
+    "relax",
+    "persistence_check",
+    "emit_readout_delta",
+    "append_history"
+  ],
+  "determinism": "same state + same event + same solver policy -> same update record",
+  "physics_status": "GAME_ENGINE_ABSTRACTION; not a physical calibration"
+}

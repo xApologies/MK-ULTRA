@@ -1,0 +1,119 @@
+{
+  "handle": "@genlang_phrase_rin_tal_ael",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@genlang_phrase_rin_tal_ael",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 3,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 3,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@genlang_phrase_rin_tal_ael",
+        "relation": "LANGUAGE_APPROXIMATES",
+        "target": "@persistent_recursive_topology",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48123;CANONICAL_API_TYPED_LINE:48123"
+      },
+      {
+        "source": "@genlang_root_ael",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_phrase_rin_tal_ael",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48122;CANONICAL_API_TYPED_LINE:48122"
+      },
+      {
+        "source": "@genlang_root_rin",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_phrase_rin_tal_ael",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48120;CANONICAL_API_TYPED_LINE:48120"
+      },
+      {
+        "source": "@genlang_root_tal",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_phrase_rin_tal_ael",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48121;CANONICAL_API_TYPED_LINE:48121"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 413,
+        "source": "@genlang_phrase_rin_tal_ael",
+        "relation": "LANGUAGE_APPROXIMATES",
+        "target": "@persistent_recursive_topology",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48123;CANONICAL_API_TYPED_LINE:48123"
+      },
+      {
+        "id": 416,
+        "source": "@genlang_root_ael",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_phrase_rin_tal_ael",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48122;CANONICAL_API_TYPED_LINE:48122"
+      },
+      {
+        "id": 450,
+        "source": "@genlang_root_rin",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_phrase_rin_tal_ael",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48120;CANONICAL_API_TYPED_LINE:48120"
+      },
+      {
+        "id": 465,
+        "source": "@genlang_root_tal",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_phrase_rin_tal_ael",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48121;CANONICAL_API_TYPED_LINE:48121"
+      }
+    ]
+  },
+  "address": "@genlang_phrase_rin_tal_ael",
+  "address_sha256": "805544baf5579393a183e16af43f347dc600cb25e4cea8a8e1d43a8dfad723b7"
+}

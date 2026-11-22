@@ -1,0 +1,102 @@
+{
+  "schema": "tome-publication-renderer-validation/v1",
+  "created_at": "2026-08-10T10:43:32.847487+00:00",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "engine": "KaTeX 0.16.22 -> HTML/CSS -> Playwright -> Microsoft Edge PDF",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_03_API_AND_QMO_MATHEMATICS/MK_ULTRA_TOME_V03_C04_QUANTUM_MATHEMATICAL_OBJECTS.pdf",
+    "bytes": 169452,
+    "sha256": "aa2031d43726afba2cb39049926a2a94479f002f9f72a869b477c4edb76d05c7"
+  },
+  "actual_pages": 7,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V03-C04": 3
+  },
+  "chapter_validations": [
+    {
+      "chapter_id": "V03-C04",
+      "source_sha256": "c0aac261c2c4eda1ed81d6497d900456c028fb1993e80265c395d9ea18ac2277",
+      "page_start": 3,
+      "headings": 20,
+      "display_equations": 18,
+      "inline_equations": 15,
+      "equation_tags": 18,
+      "api_handles": 25,
+      "table_rows": 26,
+      "content_markers_present": true
+    }
+  ],
+  "engine_metrics": {
+    "renderer": "TOME_PUBLICATION_RENDERER_V1",
+    "katexVersion": "0.16.22",
+    "chapters": [
+      {
+        "id": "V03-C04",
+        "sourceBytes": 11530,
+        "paragraphs": 53,
+        "headings": 20,
+        "displayEquations": 18,
+        "inlineEquations": 15,
+        "tables": 1,
+        "tableRows": 25,
+        "listItems": 0,
+        "codeBlocks": 0,
+        "figures": 0
+      }
+    ],
+    "paragraphs": 53,
+    "headings": 20,
+    "displayEquations": 18,
+    "inlineEquations": 15,
+    "tables": 1,
+    "tableRows": 25,
+    "listItems": 0,
+    "blockQuotes": 0,
+    "codeBlocks": 0,
+    "figures": 0,
+    "mathLayout": {
+      "checked": 18,
+      "scaled": [],
+      "remainingOverflow": []
+    }
+  },
+  "raw_latex_guard": {
+    "result": "PASS",
+    "hits": [],
+    "commands_scanned": [
+      "frac",
+      "mathcal",
+      "mathrm",
+      "begin",
+      "end",
+      "left",
+      "right",
+      "longrightarrow",
+      "rightarrow",
+      "otimes",
+      "partial",
+      "nabla",
+      "mu",
+      "nu",
+      "sum",
+      "int",
+      "operatorname"
+    ]
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V03-C04": "c0aac261c2c4eda1ed81d6497d900456c028fb1993e80265c395d9ea18ac2277"
+  },
+  "source_hashes_after": {
+    "V03-C04": "c0aac261c2c4eda1ed81d6497d900456c028fb1993e80265c395d9ea18ac2277"
+  },
+  "sealed_chapter_content_change_count": 0,
+  "visual_qa": {
+    "result": "PASS",
+    "pages_inspected": "ALL_7_PAGES",
+    "render_dpi": 110,
+    "defects": [],
+    "notes": "All pages visually inspected after Poppler rendering. No clipping, overlap, blank-page, equation-rendering, table-layout, or pagination defects observed."
+  }
+}

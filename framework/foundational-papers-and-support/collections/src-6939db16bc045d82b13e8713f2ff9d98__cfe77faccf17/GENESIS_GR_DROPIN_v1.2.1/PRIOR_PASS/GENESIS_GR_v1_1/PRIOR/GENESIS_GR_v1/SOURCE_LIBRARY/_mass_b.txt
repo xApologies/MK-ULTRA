@@ -1,0 +1,3219 @@
+# MK43 ULTRA
+# NATIVE MASS FORMALISM
+
+**Version:** 3.0 — T4/T5 Pipeline Closure  
+**Canonical Handle:** `@mass`  
+**Primary Mass Corridor:** `T4`  
+**First Matter Corridor:** `T5`  
+**Construction Order:** Primitive → Definition → Axiom → Lemma → Theorem → Interface  
+**Mathematical Policy:** Geometry first. The native construction uses corridor maps, graph topology, bounded support, fixed states, finite sums, quotient structure, and finite differences. No differential or integral calculus is required.
+
+---
+
+# 0. FOUNDATIONAL RESULT
+
+This document defines Mass inside the MK43 Ultra transduction framework.
+
+The definition is not:
+
+> Mass is resistance to acceleration.
+
+It is not:
+
+> Mass is a property of matter.
+
+It is not:
+
+> Mass is whatever the Higgs field gives a particle.
+
+Those statements describe behavior, placement, or realization.
+
+They do not identify the mathematical object called Mass.
+
+The native construction follows the pipeline:
+
+    T0
+    chirality memory
+    ↓
+    T1
+    chirality admissibility amplification
+    ↓
+    T2
+    adjacency geometry routing
+    ↓
+    T3
+    propagation topology reinforcement
+    ↓
+    T4
+    inherit → stabilize → close
+    ↓
+    localized persistence separation
+    ↓
+    Native Mass
+    ↓
+    T5
+    propagate → redistribute → close
+    ↓
+    bounded core–shell organization
+    ↓
+    Native Matter
+
+The central definition is:
+
+    Mass_MK([X])
+    =
+    Pers([P4_lock(X)])
+    -
+    Pers([0_E])
+
+Under vacuum normalization:
+
+    Pers([0_E])
+    =
+    0
+
+so:
+
+    Mass_MK([X])
+    =
+    Pers([P4_lock(X)])
+
+The full English definition is:
+
+> Mass is the resolution-independent persistence carried by the localized T4 continuity lock of an inherited organizational identity, measured relative to the native vacuum.
+
+The compressed definition is:
+
+> Mass is T4 locked persistence.
+
+The pipeline compression is:
+
+> Mass is stabilized persistence separation.
+
+---
+
+# 0.1 SOURCE-LOCKED PIPELINE GRAMMAR
+
+The canonical dot operators used by this module are:
+
+    .·
+    =
+    Inherit
+
+    ··
+    =
+    Propagate
+
+    .°.
+    =
+    Stabilize
+
+    .·· .°
+    =
+    Redistribute
+
+    ··° ·°
+    =
+    Destabilize
+
+    ·°·
+    =
+    Close
+
+    ■ .· ■
+    =
+    Normalize
+
+Their meanings are fixed as follows:
+
+    Inherit
+    =
+    preserve prior continuity adjacency
+
+    Propagate
+    =
+    traverse or advance recursive field state
+
+    Stabilize
+    =
+    resist drift, establish inertial lock,
+    and retain recursive persistence
+
+    Redistribute
+    =
+    direct occupancy flow through density-bearing topology
+
+    Destabilize
+    =
+    exceed bounded stabilization,
+    weaken boundary,
+    and permit recursive continuity failure
+
+    Close
+    =
+    realize bounded convergence and completed local closure
+
+    Normalize
+    =
+    rebalance inherited continuity around a stable checkpoint
+
+The T4 corridor signature is:
+
+    .· → .°. → ·°·
+
+The T5 corridor signature is:
+
+    ·· → .·· .° → ·°·
+
+No new dot operator is introduced by this Mass module.
+
+---
+
+# 0.2 INHERITED MK43 FOUNDATION
+
+The Mass module inherits the following completed upstream objects.
+
+## Structured Temporal Manifold
+
+    T
+
+is the manifold of admissible temporal organization.
+
+## Continuation Operator
+
+    C : T → T
+
+is lawful temporal continuation.
+
+## Inherited State Bundle
+
+    pi_E : E → T
+
+is the bundle of inherited organizational states.
+
+## Inheritance Morphism
+
+    I : E → E
+
+satisfies:
+
+    pi_E ∘ I
+    =
+    C ∘ pi_E
+
+## Chirality Space
+
+    Ω
+
+is the canonical Chirality Space.
+
+The symbol Ω is not used for the vacuum.
+
+## Chirality Map and Transport
+
+    chi : E → Ω
+
+    tau : Ω → Ω
+
+with:
+
+    chi(I(X))
+    =
+    tau(chi(X))
+
+## Admissible Equivalence
+
+    X ~ Y
+
+means that X and Y represent the same recoverable organizational identity.
+
+## Persistent Locus
+
+    Xi
+    =
+    {
+        X ∈ E
+        |
+        there exists n ≥ 1 such that I^n(X) ~ X
+    }
+
+## Canonical Persistence Profile
+
+For every identity class [X], define the inherited persistence profile:
+
+    PersVec([X])
+    =
+    (
+        Pers_d([X])
+    )_(d ∈ N_0)
+
+with:
+
+    PersVec([X])
+    ∈
+    l1_+
+
+The scalar Persistence Functional is:
+
+    Pers([X])
+    =
+    sum over d ≥ 0 of Pers_d([X])
+
+A canonical coordinate realization is:
+
+    Pers_d([X])
+    =
+    Inh_d([X])
+    ×
+    Band_d([X])
+    ×
+    Res_d([X])
+    ×
+    Occ_d([X])
+    ×
+    Close_d([X])
+
+where each factor is a canonically normalized nonnegative MK43 quantity.
+
+The Mass module does not redefine or rescale Pers.
+
+The object:
+
+    P4_lock
+
+selects which organizational state is measured.
+
+The coordinate:
+
+    Close_d
+
+records the depthwise closure retained by that selected state.
+
+These are different mathematical roles.
+
+## Native Persistence Unit
+
+The existing canonical native unit of energy is the least positive admissible persistence difference.
+
+Inside this document it is written:
+
+    epsilon_P
+
+with the identification:
+
+    epsilon_P
+    :=
+    @native_unit_of_energy
+
+The symbol is renamed locally only to emphasize that it is a persistence unit shared by Native Energy and Native Mass.
+
+---
+
+# 0.3 NOTATION LOCK
+
+    Ω
+    =
+    Chirality Space
+
+    0_E
+    =
+    Native Vacuum Reference State
+
+    R
+    =
+    {T0,T1,T2,T3,T4,T5,T6,T7}
+
+    (X,Tk)
+    =
+    state X presented inside corridor Tk
+
+    G_ER
+    =
+    native ER adjacency geometry
+
+    Supp_ER(X)
+    =
+    occupied ER support of X
+
+    diam_ER(S)
+    =
+    ER diameter of support set S
+
+    Diam_ER(X)
+    =
+    diam_ER(Supp_ER(X))
+
+    P(V_ER)
+    =
+    collection of subsets of V_ER
+
+    l1_+
+    =
+    nonnegative summable sequences
+
+    R>=0
+    =
+    nonnegative real numbers
+
+    N_0
+    =
+    nonnegative integers
+
+    Inherit4
+    =
+    T4 inheritance map
+
+    Stabilize4
+    =
+    T4 stabilization map
+
+    Close4
+    =
+    T4 bounded closure map
+
+    P4_lock
+    =
+    T4 localized continuity-lock selector
+
+    Knot4
+    =
+    non-vacuum T4 lock locus
+
+    Free4
+    =
+    lock-free T4 sector
+
+    Mass_MK
+    =
+    Native Mass Functional
+
+    mu_MK
+    =
+    Native Mass Number
+
+    Form5
+    =
+    T5 proto-material realization map
+
+    Matter5
+    =
+    T5 Native Matter Locus
+
+    [X]
+    =
+    admissible-equivalence class of X
+
+    X ~=res Y
+    =
+    X and Y are admissible resolution representations
+    of one topology
+
+---
+
+# I. PRIMITIVE LAYER
+
+# Primitive P0
+# Single Organizational State Space with Corridor Environment
+
+## Motivation
+
+The pipeline explicitly distinguishes the object from the environment.
+
+The manifold remains the organizational state.
+
+The corridor remains the environmental continuity regime.
+
+The framework therefore does not introduce eight unrelated state spaces.
+
+## Formal Mathematical Statement
+
+Let:
+
+    R
+    =
+    {T0,T1,T2,T3,T4,T5,T6,T7}
+
+be the corridor set.
+
+The organizational state space remains:
+
+    E
+
+A corridor presentation is the ordered pair:
+
+    (X,Tk)
+    ∈
+    E × R
+
+The corridor label Tk changes the environmental operator acting on X.
+
+It does not create a second identity.
+
+## Required Properties
+
+- The same inherited identity may be represented in multiple corridors.
+- Corridor transitions preserve ancestry.
+- The vacuum 0_E exists in every corridor presentation.
+- The object is never altered merely to force a pipeline pass.
+- Environmental operators may change admissible organization while preserving declared identity conditions.
+
+## Primitive Summary
+
+**Name:** Single Organizational State Space with Corridor Environment  
+**Symbols:** `E`, `R`, `(X,Tk)`  
+**Purpose:** Preserve the distinction between the manifold as object and the pipeline as environment.
+
+---
+
+# Primitive P1
+# Native ER Adjacency Geometry
+
+## Motivation
+
+T2 routes adjacency geometry.
+
+T3 reinforces traversable continuity pathways.
+
+T4 admits bounded ER-foam knots.
+
+A geometry is therefore required before Mass can be defined.
+
+## Formal Mathematical Statement
+
+Define:
+
+    G_ER
+    =
+    (
+        V_ER,
+        A_ER,
+        W,
+        ell,
+        d_ER
+    )
+
+where:
+
+    V_ER
+    =
+    ER organizational sites
+
+    A_ER
+    =
+    symmetric admissible adjacency relation
+
+    W(i,j) > 0
+    =
+    symmetric relational strength
+
+with:
+
+    W(i,j)
+    =
+    W(j,i)
+
+Define edge length by:
+
+    ell(i,j)
+    =
+    1 / W(i,j)
+
+Define path length as the finite sum of edge lengths.
+
+Define:
+
+    d_ER(i,j)
+
+as the shortest admissible path length between i and j.
+
+For an organizational state X, define:
+
+    Supp_ER(X)
+    =
+    {
+        i ∈ V_ER
+        |
+        X carries nonzero organization at i
+    }
+
+For every support set S contained in V_ER, define:
+
+    diam_ER(S)
+    =
+    sup {
+        d_ER(i,j)
+        |
+        i,j ∈ S
+    }
+
+Define:
+
+    Diam_ER(X)
+    =
+    diam_ER(Supp_ER(X))
+
+For the vacuum:
+
+    Supp_ER(0_E)
+    =
+    empty set
+
+    Diam_ER(0_E)
+    =
+    0
+
+## Required Properties
+
+- A_ER is symmetric.
+- W is symmetric and positive.
+- d_ER is a metric on every Mass-relevant connected component.
+- A bounded localized state has finite ER diameter.
+- ER distance is not readable XYZ distance.
+
+## Primitive Summary
+
+**Name:** Native ER Adjacency Geometry  
+**Symbol:** `G_ER`  
+**Purpose:** Supply the topology-first geometry required to distinguish propagation, bounded closure, shell organization, and collapse.
+
+---
+
+# Primitive P2
+# Native Vacuum Reference State
+
+## Formal Mathematical Statement
+
+Let:
+
+    0_E
+    ∈
+    E
+
+be the distinguished vacuum identity.
+
+Require:
+
+    I(0_E)
+    ~
+    0_E
+
+    Supp_ER(0_E)
+    =
+    empty set
+
+    Pers([0_E])
+    =
+    0
+
+Every corridor contains the same vacuum presentation:
+
+    (0_E,Tk)
+
+for every Tk ∈ R.
+
+## Primitive Summary
+
+**Name:** Native Vacuum Reference State  
+**Symbol:** `0_E`  
+**Purpose:** Supply the common zero baseline for every corridor and every Mass evaluation.
+
+---
+
+# Primitive P3
+# T0–T3 Pre-Mass Corridor Chain
+
+## Motivation
+
+The pipeline places the prerequisites for Mass before T4.
+
+T0 stores chirality memory.
+
+T1 amplifies admissibility.
+
+T2 routes adjacency.
+
+T3 reinforces propagation.
+
+## Formal Mathematical Statement
+
+Define corridor maps acting on the single state space E:
+
+    F01 : E → E
+
+    F12 : E → E
+
+    F23 : E → E
+
+For an initial organizational state X_0:
+
+    X_1
+    =
+    F01(X_0)
+
+    X_2
+    =
+    F12(X_1)
+
+    X_3
+    =
+    F23(X_2)
+
+Their roles are:
+
+    F01
+    =
+    chirality admissibility amplification
+
+    F12
+    =
+    adjacency geometry routing
+
+    F23
+    =
+    propagation topology reinforcement
+
+## Required Properties
+
+- Preserve recoverable chirality ancestry.
+- Do not create premature localized persistence.
+- Do not create Matter.
+- Preserve local corridor differentiation.
+- Prepare a state for T4 knot admissibility.
+
+## Primitive Summary
+
+**Name:** T0–T3 Pre-Mass Corridor Chain  
+**Symbols:** `F01`, `F12`, `F23`  
+**Purpose:** Construct the chirality, adjacency, and propagation prerequisites required before T4.
+
+---
+
+# Primitive P4
+# T4 Inheritance Operator
+
+## Formal Mathematical Statement
+
+Define:
+
+    Inherit4 : E → E
+
+with canonical dot signature:
+
+    Inherit4
+    =
+    .·
+
+For X_3:
+
+    X_4^in
+    =
+    Inherit4(X_3)
+
+## Required Properties
+
+- Preserve T3 continuity adjacency.
+- Preserve chirality ancestry.
+- Preserve admissible identity.
+- Introduce no T4 lock by itself.
+- Place the inherited state inside the T4 environmental regime.
+
+## Primitive Summary
+
+**Name:** T4 Inheritance Operator  
+**Symbol:** `Inherit4`  
+**Dot Signature:** `.·`  
+**Purpose:** Carry T3 continuity organization into T4.
+
+---
+
+# Primitive P5
+# T4 Stabilization Operator
+
+## Motivation
+
+The canonical meaning of `.°.` is:
+
+- drift resistance;
+- inertial lock;
+- recursive persistence retention.
+
+T4 additionally contains weak persistence asymmetry, chirality pressure gradients, resolution separation, closure asymmetry, and knot admissibility.
+
+## Formal Mathematical Statement
+
+Define:
+
+    Stabilize4 : E → E
+
+with:
+
+    Stabilize4
+    =
+    .°.
+
+For a T4 entry state:
+
+    X_4^st
+    =
+    Stabilize4(X_4^in)
+
+## Required Properties
+
+- Preserve ancestry and admissible chirality.
+- Respect admissible equivalence.
+- Resist unbounded drift.
+- Retain localized recursive persistence when admissible.
+- Preserve free propagation when no knot is admissible.
+- Avoid hard collapse.
+- Fix the vacuum.
+- Fix every completed T4 knot.
+
+## Primitive Summary
+
+**Name:** T4 Stabilization Operator  
+**Symbol:** `Stabilize4`  
+**Dot Signature:** `.°.`  
+**Purpose:** Establish selective persistence retention and inertial lock inside T4.
+
+---
+
+# Primitive P6
+# T4 Knot-Admissibility Domain and Bounded Closure
+
+## Motivation
+
+The T4 failure condition contains two distinct failures:
+
+- persistence fails to separate from background;
+- persistence over-localizes into hard collapse.
+
+Closure must therefore be bounded and selective.
+
+## Formal Mathematical Statement
+
+Define the T4 knot-admissibility domain:
+
+    A4
+    ⊆
+    E
+
+A stabilized state belongs to A4 exactly when it admits a bounded non-destructive closure.
+
+Define the partial bounded closure map:
+
+    Close4 : A4 → E
+
+with canonical dot signature:
+
+    Close4
+    =
+    ·°·
+
+Require:
+
+    Close4(Close4(X))
+    =
+    Close4(X)
+
+for every X in A4 whose closure output remains in A4.
+
+Define the total T4 lock selector:
+
+    P4_lock : E → E
+
+by:
+
+    P4_lock(X)
+    =
+    Close4(Stabilize4(X))
+
+when:
+
+    Stabilize4(X)
+    ∈
+    A4
+
+and:
+
+    P4_lock(X)
+    =
+    0_E
+
+otherwise.
+
+## Required Properties
+
+Every non-vacuum output K of Close4 must satisfy:
+
+- K ∈ A4;
+- K ∈ Xi;
+- Supp_ER(K) is connected;
+- Diam_ER(K) is finite;
+- Close4(K) = K;
+- Stabilize4(K) = K;
+- K is not a hard-collapse state.
+
+## Primitive Summary
+
+**Name:** T4 Knot-Admissibility Domain and Bounded Closure  
+**Symbols:** `A4`, `Close4`, `P4_lock`  
+**Dot Signature:** `·°·`  
+**Purpose:** Select a bounded persistent T4 knot when admissible and return the vacuum lock when no knot separates.
+
+---
+
+# Primitive P7
+# Admissible Resolution Refinement
+
+## Formal Mathematical Statement
+
+Let:
+
+    Ref
+
+be the family of admissible resolution maps.
+
+For r ∈ Ref, write:
+
+    r(X)
+
+for a refined or coarsened representation of X.
+
+Define:
+
+    X ~=res Y
+
+when X and Y differ only by an admissible resolution change preserving:
+
+- chirality organization;
+- ER incidence class;
+- inherited identity;
+- bounded closure class;
+- canonical Persistence value.
+
+## Primitive Summary
+
+**Name:** Admissible Resolution Refinement  
+**Symbols:** `Ref`, `~=res`  
+**Purpose:** Make Mass a property of topology rather than cell count or representation density.
+
+---
+
+# Primitive P8
+# T5 Proto-Material Operators
+
+## Motivation
+
+The pipeline places Matter downstream of T4.
+
+T5 is the bounded shell redistribution and proto-material dynamic corridor.
+
+## Formal Mathematical Statement
+
+Define:
+
+    Propagate5 : E → E
+
+with:
+
+    Propagate5
+    =
+    ··
+
+Define:
+
+    Redistribute5 : E → E
+
+with:
+
+    Redistribute5
+    =
+    .·· .°
+
+Define:
+
+    Close5 : E → E
+
+with:
+
+    Close5
+    =
+    ·°·
+
+Define:
+
+    Form5
+    =
+    Close5
+    ∘
+    Redistribute5
+    ∘
+    Propagate5
+
+## Required Properties
+
+For every T4 knot K:
+
+- Form5(K) preserves a recoverable T4 core;
+- shell occupancy may move;
+- shell thickening and thinning are admissible;
+- the shell remains bounded;
+- the shell does not collapse into the core;
+- the shell does not dissolve into global blur;
+- the complete state remains recoverable.
+
+## Primitive Summary
+
+**Name:** T5 Proto-Material Operators  
+**Symbols:** `Propagate5`, `Redistribute5`, `Close5`, `Form5`  
+**Dot Signature:** `·· → .·· .° → ·°·`  
+**Purpose:** Produce bounded core–shell dynamics around a T4 Mass-bearing knot.
+
+---
+
+# Primitive P9
+# Admissible Organizational Composition
+
+## Formal Mathematical Statement
+
+Define a partial operation:
+
+    star
+    :
+    Dom(star)
+    ⊆
+    E × E
+    →
+    E
+
+For compatible T4 knots K_1 and K_2:
+
+    K_1 star K_2
+
+contains both inherited lock identities and every new admissible relational closure produced by their composition.
+
+## Required Properties
+
+- Respect admissible equivalence.
+- Preserve ancestry.
+- Preserve Mass-domain legality.
+- Permit new relational persistence.
+- Do not assume numerical additivity.
+
+## Primitive Summary
+
+**Name:** Admissible Organizational Composition  
+**Symbol:** `star`  
+**Purpose:** Construct composite topology before evaluating composite Mass.
+
+---
+
+# II. DEFINITION LAYER
+
+# Definition D1
+# Pre-Mass Corridor State
+
+For X_0 ∈ E, define:
+
+    X_1
+    =
+    F01(X_0)
+
+    X_2
+    =
+    F12(X_1)
+
+    X_3
+    =
+    F23(X_2)
+
+The state X_3 is the Pre-Mass Corridor State.
+
+It contains chirality memory, admissibility, routed adjacency, and reinforced propagation topology, but no T4 Mass readout.
+
+---
+
+# Definition D2
+# T4 Entry State
+
+Define:
+
+    X_4^in
+    =
+    Inherit4(X_3)
+
+The T4 Entry State is the inherited T3 topology before T4 stabilization and closure.
+
+---
+
+# Definition D3
+# T4 Formation Map
+
+Define the full T4 corridor map:
+
+    Form4
+    =
+    P4_lock
+    ∘
+    Inherit4
+
+Expanded:
+
+    Form4(X_3)
+    =
+    P4_lock(
+        Inherit4(X_3)
+    )
+
+When the stabilized entry state is knot-admissible:
+
+    Form4
+    =
+    Close4
+    ∘
+    Stabilize4
+    ∘
+    Inherit4
+
+In dot notation:
+
+    .· → .°. → ·°·
+
+---
+
+# Definition D4
+# T4 Knot and Lock-Free Sectors
+
+Define the T4 Knot Locus:
+
+    Knot4
+    =
+    {
+        K ∈ E
+        |
+        K not ~ 0_E,
+        K ∈ A4,
+        K ∈ Xi,
+        Supp_ER(K) is connected,
+        Diam_ER(K) < infinity,
+        Stabilize4(K) = K,
+        Close4(K) = K
+    }
+
+Define the lock-free sector:
+
+    Free4
+    =
+    {
+        X ∈ E
+        |
+        P4_lock(X) ~ 0_E
+    }
+
+---
+
+# Definition D5
+# T4 Mass Domain
+
+Define:
+
+    D_M4
+    =
+    {
+        X ∈ E
+        |
+        P4_lock(X) is defined
+        and
+        Pers([P4_lock(X)]) is finite
+    }
+
+Define the identity-class domain:
+
+    Dbar_M4
+    =
+    D_M4 / ~
+
+---
+
+# Definition D6
+# Native Mass Functional
+
+Define:
+
+    Mass_MK
+    :
+    Dbar_M4
+    →
+    R>=0
+
+by:
+
+    Mass_MK([X])
+    =
+    Pers([P4_lock(X)])
+    -
+    Pers([0_E])
+
+Under vacuum normalization:
+
+    Mass_MK([X])
+    =
+    Pers([P4_lock(X)])
+
+For a T3 precursor X_3, define its T4 Mass readout by:
+
+    Mass_MK^T4([X_3])
+    =
+    Mass_MK([
+        Inherit4(X_3)
+    ])
+
+Equivalently:
+
+    Mass_MK^T4([X_3])
+    =
+    Pers([
+        Form4(X_3)
+    ])
+    -
+    Pers([0_E])
+
+---
+
+# Definition D7
+# T4 Persistence Thickening
+
+Define:
+
+    Thick4([X_3])
+    =
+    Pers([
+        Form4(X_3)
+    ])
+    -
+    Pers([0_E])
+
+Therefore:
+
+    Thick4([X_3])
+    =
+    Mass_MK^T4([X_3])
+
+Persistence thickening is not an undefined substance.
+
+It is the positive persistence content retained by the localized T4 lock after background resolution has been excluded.
+
+---
+
+# Definition D8
+# Massless and Massive Sectors
+
+Define:
+
+    S_0
+    =
+    {
+        [X] ∈ Dbar_M4
+        |
+        Mass_MK([X]) = 0
+    }
+
+Define:
+
+    S_+
+    =
+    {
+        [X] ∈ Dbar_M4
+        |
+        Mass_MK([X]) > 0
+    }
+
+---
+
+# Definition D9
+# Native Mass Number
+
+Define:
+
+    mu_MK([X])
+    =
+    Mass_MK([X])
+    /
+    epsilon_P
+
+Mass_MK is Native Mass content.
+
+mu_MK is the number of native persistence units represented by that content.
+
+---
+
+# Definition D10
+# T5 Core–Shell Decomposition
+
+Define the T5 candidate image:
+
+    Cand5
+    =
+    {
+        Form5(K)
+        |
+        K ∈ Knot4
+    }
+
+Define the core map:
+
+    Core5 : Cand5 → Knot4
+
+Define the shell map:
+
+    Shell5 : Cand5 → P(V_ER)
+
+For every K ∈ Knot4, define:
+
+    Y_5
+    =
+    Form5(K)
+
+and require:
+
+    Core5(Y_5)
+    ~
+    K
+
+    Supp_ER(Core5(Y_5))
+    intersect
+    Shell5(Y_5)
+    =
+    empty set
+
+    Supp_ER(Y_5)
+    =
+    Supp_ER(Core5(Y_5))
+    union
+    Shell5(Y_5)
+
+    Shell5(Y_5)
+    is nonempty
+
+    diam_ER(Shell5(Y_5))
+    <
+    infinity
+
+---
+
+# Definition D11
+# Native Matter Locus
+
+Define:
+
+    Matter5
+    =
+    {
+        Y ∈ E
+        |
+        there exists K ∈ Knot4 such that
+        Y = Form5(K),
+        Core5(Y) ~ K,
+        Shell5(Y) is nonempty and bounded,
+        and Y ∈ Xi
+    }
+
+Matter is therefore a T5 bounded dynamic core–shell state inherited from a T4 Mass-bearing knot.
+
+---
+
+# Definition D12
+# T5 Matter Mass and Shell Correction
+
+For Y ∈ Matter5, define total T5 Mass:
+
+    Mass5([Y])
+    =
+    Pers([Y])
+    -
+    Pers([0_E])
+
+Define the inherited core Mass:
+
+    Mass_core([Y])
+    =
+    Mass_MK([
+        Core5(Y)
+    ])
+
+Define the shell-and-relation correction:
+
+    DeltaMass_shell([Y])
+    =
+    Mass5([Y])
+    -
+    Mass_core([Y])
+
+Therefore:
+
+    Mass5([Y])
+    =
+    Mass_core([Y])
+    +
+    DeltaMass_shell([Y])
+
+DeltaMass_shell may be positive, zero, or negative.
+
+---
+
+# Definition D13
+# Native History Energy
+
+An admissible corridor history is a finite ordered sequence:
+
+    H
+    =
+    (
+        X_a,
+        X_(a+1),
+        ...,
+        X_b
+    )
+
+Define:
+
+    DeltaPers(H)
+    =
+    Pers([X_b])
+    -
+    Pers([X_a])
+
+Define Native History Energy:
+
+    Energy_MK(H)
+    =
+    DeltaPers(H)
+    /
+    epsilon_P
+
+For a T4 lock-formation history:
+
+    H_4
+    :
+    0_E
+    =>
+    P4_lock(X)
+
+Define:
+
+    Energy_lock(H_4)
+    =
+    [
+        Pers([P4_lock(X)])
+        -
+        Pers([0_E])
+    ]
+    /
+    epsilon_P
+
+---
+
+# Definition D14
+# Resolution-Equivalent Mass
+
+Define `equiv_M` as the smallest equivalence relation containing:
+
+    ~
+
+and:
+
+    ~=res
+
+If:
+
+    X equiv_M Y
+
+then Mass must satisfy:
+
+    Mass_MK([X])
+    =
+    Mass_MK([Y])
+
+Mass therefore descends to the quotient by identity and admissible resolution.
+
+---
+
+# Definition D15
+# Matter, Mass, and Energy Types
+
+Inside this module:
+
+    Native Matter
+    =
+    Y ∈ Matter5
+
+    Native Mass
+    =
+    Mass5([Y]) ∈ R>=0
+
+    Native Energy
+    =
+    Energy_MK(H) ∈ R
+
+Matter is a state.
+
+Mass is a scalar on an identity class.
+
+Energy is a scalar on an ordered history.
+
+---
+
+# Definition D16
+# Composite Mass Correction
+
+For K_1,K_2 ∈ Knot4 such that:
+
+    (K_1,K_2)
+    ∈
+    Dom(star)
+
+and:
+
+    K_1 star K_2
+    ∈
+    Knot4
+
+Define:
+
+    DeltaMass_rel([K_1],[K_2])
+    =
+    Mass_MK([K_1 star K_2])
+    -
+    Mass_MK([K_1])
+    -
+    Mass_MK([K_2])
+
+---
+
+# Definition D17
+# Canonical Native Mass Object
+
+Define:
+
+    Q_Mass
+    =
+    (
+        E,
+        R,
+        G_ER,
+        0_E,
+        PersVec,
+        Pers,
+        epsilon_P,
+        F01,
+        F12,
+        F23,
+        Inherit4,
+        Stabilize4,
+        A4,
+        Close4,
+        P4_lock,
+        Form4,
+        Knot4,
+        Free4,
+        D_M4,
+        Mass_MK,
+        Thick4,
+        mu_MK,
+        S_0,
+        S_+,
+        Propagate5,
+        Redistribute5,
+        Close5,
+        Form5,
+        Cand5,
+        Core5,
+        Shell5,
+        Matter5,
+        Mass5,
+        Mass_core,
+        DeltaMass_shell,
+        Energy_MK,
+        star,
+        DeltaMass_rel
+    )
+
+Q_Mass contains the complete native T4 Mass construction and its immediate T5 Matter realization.
+
+---
+
+# III. AXIOM LAYER
+
+# Axiom A0
+# Identity Integrity
+
+The relation `~` is an equivalence relation on every domain used by this module.
+
+It is reflexive, symmetric, and transitive.
+
+Every corridor map respects admissible identity unless a new closure class is explicitly produced.
+
+---
+
+# Axiom A1
+# Object–Environment Separation
+
+The organizational object belongs to E.
+
+The corridor belongs to R.
+
+A corridor presentation `(X,Tk)` does not create a new identity merely by changing Tk.
+
+No manifold is modified merely to make it pass a corridor test.
+
+---
+
+# Axiom A2
+# Corridor Ordering
+
+The Mass-relevant order is:
+
+    T0 → T1 → T2 → T3 → T4 → T5
+
+with:
+
+    T0
+    =
+    chirality memory
+
+    T1
+    =
+    admissibility amplification
+
+    T2
+    =
+    adjacency routing
+
+    T3
+    =
+    propagation reinforcement
+
+    T4
+    =
+    knot admissibility and persistence separation
+
+    T5
+    =
+    bounded shell redistribution and proto-material dynamics
+
+No Native Mass readout is assigned before T4.
+
+No Native Matter state is assigned before T5.
+
+---
+
+# Axiom A3
+# Dot-Operator Integrity
+
+The T4 sequence is:
+
+    .· → .°. → ·°·
+
+The T5 sequence is:
+
+    ·· → .·· .° → ·°·
+
+The Mass module introduces no replacement dot operators.
+
+---
+
+# Axiom A4
+# ER Geometry Integrity
+
+The ER adjacency relation and relational strength are symmetric.
+
+The induced path distance is a metric.
+
+Every K ∈ Knot4 has connected bounded ER support.
+
+Every T5 shell is bounded and disjoint from its retained core support.
+
+---
+
+# Axiom A5
+# Persistence Canonicality
+
+For every identity class [X]:
+
+    PersVec([X])
+    ∈
+    l1_+
+
+    Pers([X])
+    ≥
+    0
+
+    Pers([X])
+    <
+    infinity
+
+If:
+
+    X ~ Y
+
+then:
+
+    Pers([X])
+    =
+    Pers([Y])
+
+Every persistence factor is canonically normalized.
+
+The Mass module does not rescale Pers.
+
+Vacuum normalization is:
+
+    Pers([0_E])
+    =
+    0
+
+---
+
+# Axiom A6
+# Pre-Mass Corridor Integrity
+
+The T0–T3 maps preserve ancestry and admissible chirality.
+
+They may prepare topology for Mass but do not themselves create a T4 lock readout.
+
+---
+
+# Axiom A7
+# T4 Stabilization Integrity
+
+For every admissible X:
+
+- Stabilize4 respects identity equivalence.
+- Stabilize4 preserves chirality ancestry.
+- Stabilize4 resists unbounded drift.
+- Stabilize4 retains admissible localized persistence.
+- Stabilize4 does not force free modes into knots.
+- Stabilize4 fixes 0_E.
+- Stabilize4 fixes every K ∈ Knot4.
+
+---
+
+# Axiom A8
+# T4 Bounded Closure Integrity
+
+Close4 is defined only on A4.
+
+For X ∈ A4:
+
+    Close4(X)
+
+is a bounded persistent closure state.
+
+Close4 is idempotent on its image.
+
+Knot admissibility is identity-invariant:
+
+    X ~ Y
+
+implies:
+
+    X ∈ A4
+    if and only if
+    Y ∈ A4
+
+Bounded closure respects identity:
+
+    X ~ Y
+    and
+    X,Y ∈ A4
+
+implies:
+
+    Close4(X)
+    ~
+    Close4(Y)
+
+Hard-collapse states are excluded from its image.
+
+P4_lock returns 0_E whenever the stabilized state does not belong to A4.
+
+---
+
+# Axiom A9
+# T4 Lock Faithfulness
+
+For every X ∈ D_M4:
+
+    Pers([P4_lock(X)])
+    =
+    0
+
+if and only if:
+
+    P4_lock(X)
+    ~
+    0_E
+
+For every K ∈ Knot4:
+
+    Pers([K])
+    >
+    0
+
+---
+
+# Axiom A10
+# Resolution Invariance
+
+For every admissible refinement r and every X ∈ D_M4:
+
+    P4_lock(r(X))
+    ~
+    r(P4_lock(X))
+
+and:
+
+    Pers([P4_lock(r(X))])
+    =
+    Pers([P4_lock(X)])
+
+---
+
+# Axiom A11
+# Native Unit Preservation
+
+The inherited persistence unit epsilon_P is positive and fixed.
+
+The Mass module may divide by epsilon_P but may not redefine it.
+
+---
+
+# Axiom A12
+# T5 Core Preservation
+
+For every K ∈ Knot4 and Y = Form5(K):
+
+    Core5(Y)
+    ~
+    K
+
+T5 shell redistribution may move occupancy without erasing the T4 core identity.
+
+If Y ~ Y_prime inside Cand5, then:
+
+    Core5(Y)
+    ~
+    Core5(Y_prime)
+
+and their shell supports are admissibly ER-equivalent.
+
+---
+
+# Axiom A13
+# T5 Bounded Shell Dynamics
+
+For every Y ∈ Matter5:
+
+- Shell5(Y) is nonempty.
+- Shell5(Y) has finite ER diameter.
+- Shell occupancy may redistribute.
+- Shell redistribution remains bounded.
+- The shell does not collapse into the core.
+- The shell does not dissolve into global blur.
+- The complete T5 identity remains recoverable.
+
+---
+
+# Axiom A14
+# T5 Mass Accounting
+
+For every Y ∈ Matter5:
+
+    Mass5([Y])
+    =
+    Mass_core([Y])
+    +
+    DeltaMass_shell([Y])
+
+Bounded redistribution that preserves total persistence preserves Mass5.
+
+Changes in shell closure or binding may change DeltaMass_shell without erasing the T4 core contribution.
+
+---
+
+# Axiom A15
+# Composition Congruence
+
+If:
+
+    K_1 ~ K_1_prime
+
+and:
+
+    K_2 ~ K_2_prime
+
+and both composites are defined, then:
+
+    K_1 star K_2
+    ~
+    K_1_prime star K_2_prime
+
+No numerical additivity is assumed.
+
+---
+
+# IV. LEMMA LAYER
+
+# Lemma L1
+# T4 Formation Well-Definedness
+
+## Statement
+
+For every X_3, Form4(X_3) is either:
+
+- 0_E; or
+- a member of Knot4.
+
+## Proof
+
+Inherit4 maps X_3 into the T4 environment.
+
+Stabilize4 produces a stabilized T4 state.
+
+If that state belongs to A4, Close4 returns a bounded persistent closure state, which belongs to Knot4 by Axiom A8 and Definition D4.
+
+If it does not belong to A4, P4_lock returns 0_E.
+
+Therefore Form4 has the stated codomain.
+
+QED
+
+---
+
+# Lemma L2
+# T4 Lock Idempotence
+
+## Statement
+
+For every X ∈ D_M4:
+
+    P4_lock(P4_lock(X))
+    =
+    P4_lock(X)
+
+## Proof
+
+The first application returns either 0_E or K ∈ Knot4.
+
+Stabilize4 and P4_lock fix 0_E.
+
+Every K ∈ Knot4 is fixed by Stabilize4 and Close4.
+
+Therefore the second application returns the same result.
+
+QED
+
+---
+
+# Lemma L3
+# Native Mass Well-Definedness
+
+## Statement
+
+Mass_MK is well defined on Dbar_M4.
+
+## Proof
+
+Let X ~ Y.
+
+Stabilize4 respects admissible equivalence.
+
+Axiom A8 guarantees that knot admissibility agrees for equivalent stabilized states and that Close4 preserves their identity class.
+
+Therefore:
+
+    P4_lock(X)
+    ~
+    P4_lock(Y)
+
+Persistence is constant on identity classes.
+
+Therefore:
+
+    Mass_MK([X])
+    =
+    Mass_MK([Y])
+
+QED
+
+---
+
+# Lemma L4
+# Masslessness Criterion
+
+## Statement
+
+For every [X] ∈ Dbar_M4:
+
+    Mass_MK([X])
+    =
+    0
+
+if and only if:
+
+    P4_lock(X)
+    ~
+    0_E
+
+## Proof
+
+By Definition D6 and vacuum normalization:
+
+    Mass_MK([X])
+    =
+    Pers([P4_lock(X)])
+
+Axiom A9 identifies zero Persistence exactly with the vacuum-equivalent T4 lock.
+
+QED
+
+---
+
+# Lemma L5
+# Positive Mass of a T4 Knot
+
+## Statement
+
+For every K ∈ Knot4:
+
+    Mass_MK([K])
+    >
+    0
+
+## Proof
+
+K is fixed by P4_lock and is not vacuum-equivalent.
+
+Axiom A9 assigns positive Persistence to every non-vacuum T4 knot.
+
+Therefore Mass_MK([K]) is positive.
+
+QED
+
+---
+
+# Lemma L6
+# Mass Resolution Invariance
+
+## Statement
+
+If X ~=res Y, then:
+
+    Mass_MK([X])
+    =
+    Mass_MK([Y])
+
+## Proof
+
+Axiom A10 preserves both the T4 lock class and its canonical Persistence value under admissible refinement.
+
+QED
+
+---
+
+# Lemma L7
+# T0–T3 Pre-Mass Lemma
+
+## Statement
+
+No state in T0, T1, T2, or T3 possesses a Native Mass readout inside this module.
+
+## Proof
+
+Mass_MK requires P4_lock.
+
+P4_lock is the T4 stabilization-and-bounded-closure selector.
+
+No earlier corridor contains that complete operator sequence.
+
+QED
+
+---
+
+# Lemma L8
+# T5 Core-Mass Retention
+
+## Statement
+
+For every Y ∈ Matter5:
+
+    Mass_core([Y])
+    =
+    Mass_MK([K])
+
+for the T4 ancestor K of Y.
+
+## Proof
+
+Axiom A12 gives Core5(Y) ~ K.
+
+Native Mass is identity-invariant.
+
+Therefore:
+
+    Mass_MK([Core5(Y)])
+    =
+    Mass_MK([K])
+
+QED
+
+---
+
+# Lemma L9
+# Mass-before-Matter Lemma
+
+## Statement
+
+Every Y ∈ Matter5 has a positive-Mass T4 ancestor.
+
+## Proof
+
+By Definition D11, Y = Form5(K) for some K ∈ Knot4.
+
+Lemma L5 gives Mass_MK([K]) > 0.
+
+QED
+
+---
+
+# Lemma L10
+# Matter–Mass–Energy Type Separation
+
+## Statement
+
+Matter, Mass, and Energy are distinct mathematical types.
+
+## Proof
+
+Matter is a state in Matter5.
+
+Mass is a nonnegative scalar on an identity class.
+
+Energy is a signed scalar on an ordered history.
+
+Their domains differ.
+
+QED
+
+---
+
+# Lemma L11
+# Lock-Formation Energy Identity
+
+## Statement
+
+For a T4 lock-formation history H_4:
+
+    Energy_lock(H_4)
+    =
+    mu_MK([X])
+
+## Proof
+
+Both sides are the same vacuum-relative locked Persistence divided by epsilon_P.
+
+QED
+
+## Status Note
+
+This is an exact identity produced by the definitions.
+
+It is not a claim that all Energy is Mass.
+
+---
+
+# Lemma L12
+# Composite Mass Accounting Identity
+
+## Statement
+
+For every admissible composite:
+
+    Mass_MK([K_1 star K_2])
+    =
+    Mass_MK([K_1])
+    +
+    Mass_MK([K_2])
+    +
+    DeltaMass_rel([K_1],[K_2])
+
+## Proof
+
+This is the rearrangement of Definition D16.
+
+QED
+
+---
+
+# V. THEOREM LAYER
+
+# Theorem T1
+# T4 Native Mass Emergence Theorem
+
+## Statement
+
+Under Primitives P0 through P7, Definitions D1 through D9, and Axioms A0 through A11, there exists a well-defined nonnegative Native Mass Functional:
+
+    Mass_MK
+    :
+    Dbar_M4
+    →
+    R>=0
+
+with:
+
+    Mass_MK([X])
+    =
+    Pers([P4_lock(X)])
+    -
+    Pers([0_E])
+
+## Proof
+
+The T0–T3 corridor constructs a pre-Mass state.
+
+Inherit4 carries that organization into T4.
+
+Stabilize4 applies persistence retention and inertial lock.
+
+P4_lock selects bounded closure or vacuum.
+
+Persistence assigns a finite nonnegative value to the selected lock.
+
+Vacuum subtraction provides the zero baseline.
+
+Lemma L3 proves identity-class well-definedness.
+
+Therefore Mass_MK exists as stated.
+
+QED
+
+---
+
+# Theorem T2
+# First-Mass Corridor Theorem
+
+## Statement
+
+T4 is the first corridor in which Native Mass is readable.
+
+## Proof
+
+T0 supplies chirality memory.
+
+T1 amplifies admissibility.
+
+T2 routes adjacency.
+
+T3 reinforces propagation.
+
+The complete lock selector appears only at T4 through:
+
+    .· → .°. → ·°·
+
+Therefore the full dependency required by Mass_MK first exists at T4.
+
+QED
+
+---
+
+# Theorem T3
+# Mass-before-Matter Theorem
+
+## Statement
+
+Native Mass precedes Native Matter.
+
+T4 produces a Mass-bearing localized knot.
+
+T5 produces a bounded core–shell Matter state around that knot.
+
+## Proof
+
+Theorem T1 establishes Mass at T4.
+
+Every Matter5 state is constructed from a Knot4 state.
+
+Lemma L9 proves that every Matter5 state has a positive-Mass T4 ancestor.
+
+QED
+
+---
+
+# Theorem T4
+# Mass Identity and Resolution Invariance Theorem
+
+## Statement
+
+If:
+
+    X ~ Y
+
+or:
+
+    X ~=res Y
+
+then:
+
+    Mass_MK([X])
+    =
+    Mass_MK([Y])
+
+## Proof
+
+Identity invariance follows from Lemma L3.
+
+Resolution invariance follows from Lemma L6.
+
+QED
+
+---
+
+# Theorem T5
+# Mass-Sector Separation Theorem
+
+## Statement
+
+The T4 Mass domain separates into:
+
+    Dbar_M4
+    =
+    S_0
+    disjoint union
+    S_+
+
+with:
+
+    [X] ∈ S_0
+    if and only if
+    P4_lock(X) ~ 0_E
+
+and:
+
+    [X] ∈ S_+
+    if and only if
+    P4_lock(X) not ~ 0_E
+
+## Proof
+
+Mass_MK is nonnegative.
+
+Lemma L4 characterizes the zero sector.
+
+Lemma L5 gives positive Mass to every non-vacuum knot.
+
+QED
+
+---
+
+# Theorem T6
+# Native Lock-Formation Correspondence Theorem
+
+## Statement
+
+For every T4 lock-formation history:
+
+    Energy_lock(H_4)
+    =
+    mu_MK([X])
+
+## Proof
+
+This is Lemma L11.
+
+QED
+
+## Interpretation
+
+Energy records persistence change through the formation history.
+
+Mass records the persistence retained by the completed lock.
+
+---
+
+# Theorem T7
+# Composite Mass Trichotomy
+
+## Statement
+
+For every admissible composite K_1 star K_2, exactly one of the following holds.
+
+### Additive Case
+
+If:
+
+    Pers([K_1 star K_2])
+    =
+    Pers([K_1])
+    +
+    Pers([K_2])
+
+then:
+
+    DeltaMass_rel
+    =
+    0
+
+### Positive Relational Closure
+
+If:
+
+    Pers([K_1 star K_2])
+    >
+    Pers([K_1])
+    +
+    Pers([K_2])
+
+then:
+
+    DeltaMass_rel
+    >
+    0
+
+### Negative Relational Closure
+
+If:
+
+    Pers([K_1 star K_2])
+    <
+    Pers([K_1])
+    +
+    Pers([K_2])
+
+then:
+
+    DeltaMass_rel
+    <
+    0
+
+## Proof
+
+Substitute each comparison into Definition D16.
+
+QED
+
+---
+
+# Theorem T8
+# Native Mass Framework Integrity Theorem
+
+## Statement
+
+Q_Mass contains every internal mathematical object required to:
+
+1. preserve one organizational state across environmental corridors;
+2. prepare chirality, adjacency, and propagation before T4;
+3. inherit the state into T4;
+4. stabilize persistence selectively;
+5. distinguish bounded closure from no lock and hard collapse;
+6. evaluate canonical Persistence on the T4 lock;
+7. subtract the vacuum baseline;
+8. define zero and positive Native Mass;
+9. preserve Mass across identity and resolution changes;
+10. normalize Mass with the inherited persistence unit;
+11. carry a T4 Mass-bearing core into T5;
+12. define bounded T5 Matter;
+13. account for shell and relational Mass corrections;
+14. distinguish Matter, Mass, and Energy.
+
+## Proof
+
+Each item is supplied by the preceding primitives, definitions, axioms, lemmas, and theorems.
+
+No undefined Mass parameter is inserted.
+
+No projected Higgs field is required to define Native Mass.
+
+No calculus is required.
+
+QED
+
+---
+
+# VI. HIGGS-LIKE INTERFACE LAYER
+
+The native Mass definition is complete before this layer.
+
+This layer states a possible correspondence between the T4 environmental order and the projected Higgs field.
+
+It is a correspondence structure, not part of the definition of Mass.
+
+# Interface Definition I1
+# Native T4 Order Space
+
+Define the Native T4 Order Space:
+
+    N_4
+
+An order state eta ∈ N_4 records the T4 environmental organization controlling:
+
+- persistence bias;
+- chirality gradient;
+- closure asymmetry;
+- resolution separation pressure;
+- knot admissibility gain.
+
+Define a family:
+
+    Stabilize4^eta : E → E
+
+a family of knot-admissibility domains:
+
+    A4^eta
+
+and bounded closure maps:
+
+    Close4^eta : A4^eta → E
+
+Define:
+
+    P4_lock^eta(X)
+
+by:
+
+    P4_lock^eta(X)
+    =
+    Close4^eta(
+        Stabilize4^eta(X)
+    )
+
+when the stabilized state belongs to A4^eta, and by:
+
+    P4_lock^eta(X)
+    =
+    0_E
+
+otherwise.
+
+The canonical pipeline environment is one distinguished order:
+
+    eta_can
+    ∈
+    N_4
+
+with:
+
+    Stabilize4^eta_can
+    =
+    Stabilize4
+
+    A4^eta_can
+    =
+    A4
+
+    Close4^eta_can
+    =
+    Close4
+
+    P4_lock^eta_can
+    =
+    P4_lock
+
+---
+
+# Interface Definition I2
+# Native-to-Projected Higgs Map
+
+Let:
+
+    F_H
+
+be the Higgs-sector bundle of the completed QFT handoff object.
+
+Define the native-to-projected map:
+
+    Project_H
+    :
+    N_4
+    →
+    Sections(F_H)
+
+Let:
+
+    eta_vac
+    ∈
+    N_4
+
+be the selected native vacuum order.
+
+Define the projected Higgs vacuum:
+
+    Phi_0
+    =
+    Project_H(eta_vac)
+
+The dependency direction is:
+
+    native T4 order
+    →
+    projected Higgs field
+
+not the reverse.
+
+---
+
+# Interface Definition I3
+# Order-Conditioned Native Mass
+
+For eta ∈ N_4, define:
+
+    Mass_eta([X])
+    =
+    Pers([P4_lock^eta(X)])
+    -
+    Pers([0_E])
+
+At the selected vacuum order:
+
+    Mass_vac([X])
+    =
+    Mass_eta_vac([X])
+
+---
+
+# Interface Definition I4
+# Broken and Unbroken T4 Sectors
+
+Define:
+
+    U_0
+    =
+    {
+        [X]
+        |
+        P4_lock^eta_vac(X) ~ 0_E
+    }
+
+Define:
+
+    U_+
+    =
+    {
+        [X]
+        |
+        P4_lock^eta_vac(X) not ~ 0_E
+    }
+
+Then:
+
+    [X] ∈ U_0
+    implies
+    Mass_vac([X]) = 0
+
+and:
+
+    [X] ∈ U_+
+    implies
+    Mass_vac([X]) > 0
+
+---
+
+# Interface Definition I5
+# Faithful Readable Mass Translation
+
+Define the total Native Mass spectrum:
+
+    Spec_M
+    =
+    union over admissible eta of
+    Image(Mass_eta)
+
+Define:
+
+    T_mass
+    :
+    Spec_M
+    →
+    R>=0_read
+
+Require:
+
+    T_mass(0)
+    =
+    0
+
+    T_mass(a)
+    =
+    0
+    if and only if
+    a = 0
+
+    a < b
+    implies
+    T_mass(a) < T_mass(b)
+
+Define readable mass:
+
+    m_read([X])
+    =
+    T_mass(
+        Mass_vac([X])
+    )
+
+---
+
+# Interface Definition I6
+# Mass-Homogeneous Mode Sectors
+
+Let:
+
+    H_mode
+
+be the projected inner-product mode space.
+
+Let:
+
+    H_mode
+    =
+    H_0
+    direct sum
+    direct sum over alpha of H_alpha
+
+where the sectors are mutually orthogonal.
+
+Define a representation map:
+
+    rho_mode
+    :
+    H_mode minus {0}
+    →
+    conditioned T4 identity classes
+
+Require rho_mode to be constant on every sector H_alpha.
+
+Require Mass homogeneity:
+
+    u,v ∈ H_alpha
+
+implies:
+
+    Mass_vac(rho_mode(u))
+    =
+    Mass_vac(rho_mode(v))
+
+Define:
+
+    m_native,alpha
+    =
+    Mass_vac(
+        rho_mode(u_alpha)
+    )
+
+for any nonzero u_alpha ∈ H_alpha.
+
+Define the Native Mass Operator:
+
+    Mhat_native
+    =
+    sum over alpha of
+    m_native,alpha
+    ×
+    P_alpha
+
+with:
+
+    Mhat_native P_0
+    =
+    0
+
+---
+
+# Interface Definition I7
+# Higgs Mass-Matrix Correspondence
+
+Let:
+
+    Hhat_Higgs^2(Phi_0)
+
+be the readable Higgs-generated mass-squared operator.
+
+Define the translated Native Mass Operator:
+
+    Mhat_read
+    =
+    sum over alpha of
+    T_mass(m_native,alpha)
+    ×
+    P_alpha
+
+The correspondence condition is:
+
+    Mhat_read^2
+    =
+    Hhat_Higgs^2(Phi_0)
+
+Because T_mass reflects zero:
+
+    Hhat_Higgs^2(Phi_0) u
+    =
+    0
+
+if and only if:
+
+    Mhat_native u
+    =
+    0
+
+if and only if:
+
+    rho_mode(u)
+    ∈
+    U_0
+
+---
+
+# Interface Definition I8
+# Finite Higgs–Mass Coupling
+
+Let:
+
+    G_eta
+    =
+    (
+        V_eta,
+        A_eta,
+        d_eta
+    )
+
+be the graph of admissible T4 order configurations.
+
+A finite Higgs-like excitation is an edge:
+
+    h
+    :
+    eta
+    →
+    eta_prime
+
+Define the finite readable Mass change:
+
+    Delta_h m([X])
+    =
+    T_mass(
+        Mass_eta_prime([X])
+    )
+    -
+    T_mass(
+        Mass_eta([X])
+    )
+
+Define the finite coupling strength:
+
+    g_hX
+    =
+    Delta_h m([X])
+    /
+    d_eta(eta,eta_prime)
+
+No derivative is required.
+
+---
+
+# Interface Theorem IT1
+# T4 Higgs-Like Compatibility Theorem
+
+## Statement
+
+Assume:
+
+1. N_4 and Project_H exist.
+2. P4_lock^eta is identity-compatible and resolution-invariant.
+3. T_mass preserves and reflects zero.
+4. The Higgs mass-matrix correspondence holds.
+
+Then:
+
+- every projected Higgs-unbroken mode is Native Massless;
+- every projected mode with positive Higgs mass is Native Massive;
+- the Higgs field controls T4 lock selection without defining Mass;
+- finite Higgs excitations couple through finite changes in T4 locked persistence.
+
+## Proof
+
+The mass-matrix correspondence equates the readable Higgs spectrum with the translated Native Mass spectrum.
+
+Zero reflection makes their kernels equal.
+
+The Native Masslessness Criterion identifies that kernel with the T4 lock-free sector.
+
+Positive translated eigenvalues correspond to positive Native Mass and therefore non-vacuum T4 locks.
+
+Project_H supplies the native-to-readable bridge.
+
+QED
+
+---
+
+# VII. ADDITIONAL READABLE INTERFACES
+
+# Interface Definition R1
+# Geometry-First Inertial Readout
+
+Let K ∈ Knot4.
+
+Let:
+
+    Move_q(K)
+
+be a finite admissible change in collective corridor orientation that preserves the internal T4 lock class.
+
+Define the finite stabilization cost:
+
+    Cost_inertia(K,q)
+    =
+    [
+        Pers([
+            Stabilize4(Move_q(K))
+        ])
+        -
+        Pers([K])
+    ]
+    /
+    epsilon_P
+
+Require:
+
+    Cost_inertia(K,q)
+    ≥
+    0
+
+A readable inertial correspondence requires equal geometric changes q to produce a cost monotone in:
+
+    T_mass(
+        Mass_MK([K])
+    )
+
+Mass is the retained lock.
+
+Inertia is the finite stabilization cost of changing its collective motion.
+
+---
+
+# Interface Definition R2
+# Gravitational Source Readout
+
+Let:
+
+    Source_ER([K])
+
+be the readable shared-substrate source value produced by Time-Shell projection of the T4 lock K.
+
+The Mass–Gravity Correspondence Condition is:
+
+    Source_ER([K])
+    =
+    T_mass(
+        Mass_MK([K])
+    )
+
+for every isolated T4 lock evaluated in its readable rest organization.
+
+Gravitational mass is the readable source realization of the same Native Mass object.
+
+---
+
+# Interface Definition R3
+# T6–T7 Mass Retention
+
+Let Y_5 ∈ Matter5.
+
+Let Y_6 be its T6 dynamic-continuity state.
+
+Let Y_7 be its T7 closure-equilibrium writeout.
+
+If T6 and T7 preserve:
+
+- the T4 core class;
+- total closed Persistence;
+
+then:
+
+    Mass6([Y_6])
+    =
+    Mass5([Y_5])
+
+and:
+
+    Mass7([Y_7])
+    =
+    Mass6([Y_6])
+
+---
+
+# VIII. CANONICAL DEPENDENCY GRAPH
+
+    T0 chirality memory
+    ↓
+    T1 admissibility amplification
+    ↓
+    T2 adjacency geometry routing
+    ↓
+    T3 propagation topology reinforcement
+    ↓
+    T4 inheritance
+        .·
+    ↓
+    T4 stabilization
+        .°.
+    ↓
+    T4 bounded closure
+        ·°·
+    ↓
+    T4 localized continuity lock
+    ↓
+    canonical Persistence evaluation
+    ↓
+    vacuum subtraction
+    ↓
+    Native Mass
+    ↓
+    T5 propagation
+        ··
+    ↓
+    T5 shell redistribution
+        .·· .°
+    ↓
+    T5 bounded closure
+        ·°·
+    ↓
+    Native Matter
+    ↓
+    T6 interaction ecology
+    ↓
+    T7 closure-equilibrium writeout
+
+The dependency order is:
+
+    Mass
+    →
+    Matter
+
+not:
+
+    Matter
+    →
+    Mass
+
+---
+
+# IX. CANONICAL ENGLISH DEFINITIONS
+
+## Mass
+
+> Mass is the resolution-independent persistence carried by the localized T4 continuity lock of an inherited organizational identity, measured relative to the native vacuum.
+
+## Compressed Mass
+
+> Mass is T4 locked persistence.
+
+## Pipeline Compression
+
+> Mass is stabilized persistence separation.
+
+## Locked Persistence
+
+> Locked persistence is the canonical Persistence Functional evaluated on the bounded state selected by T4 stabilization and closure.
+
+## Massless
+
+> A state is massless when T4 stabilization and bounded closure return no non-vacuum localized persistence lock.
+
+## Massive
+
+> A state is massive when T4 stabilization and bounded closure produce a non-vacuum persistent ER-foam knot.
+
+## Matter
+
+> Matter is the T5 bounded dynamic core–shell realization of a T4 Mass-bearing knot.
+
+## Energy
+
+> Energy is persistence difference across an admissible ordered history.
+
+## Higgs-Like Mechanism
+
+> The native T4 order controls stabilization and knot admissibility. Its projected field realization may correspond to the Higgs field.
+
+## Higgs–Mass Relation
+
+> The Higgs-like order controls which T4 lock is selected. Mass is the persistence carried by that selected lock.
+
+## Inertia
+
+> Inertia is the downstream finite stabilization cost of changing the collective motion of a T4 lock.
+
+## Gravitational Mass
+
+> Gravitational mass is the readable shared-substrate source realization of the same T4 lock.
+
+---
+
+# X. CLOSURE STATUS
+
+## Internally Defined in This Module
+
+- one state space with corridor environments;
+- T0–T3 pre-Mass preparation;
+- T4 inheritance;
+- T4 stabilization;
+- T4 knot-admissibility domain;
+- T4 bounded closure;
+- T4 lock selector;
+- Native Mass Functional;
+- massless and massive sectors;
+- identity invariance;
+- resolution invariance;
+- Native Mass Number;
+- T5 core–shell decomposition;
+- Native Matter Locus;
+- T5 shell and binding correction;
+- Native History Energy;
+- Matter–Mass–Energy type separation;
+- composite Mass correction.
+
+## Downstream Correspondence Conditions
+
+- exact native-to-projected Higgs map;
+- exact Higgs mass-matrix equality;
+- readable mass calibration;
+- inertial cost calibration;
+- gravitational source calibration;
+- numerical implementation of corridor operators.
+
+These downstream tasks do not redefine Mass.
+
+They test and realize the already-defined Native Mass object.
+
+---
+
+# XI. FINAL STATEMENT
+
+The Native Mass equation is:
+
+    Mass_MK([X])
+    =
+    Pers([P4_lock(X)])
+    -
+    Pers([0_E])
+
+with:
+
+    P4_lock(X)
+    =
+    Close4(
+        Stabilize4(X)
+    )
+
+when bounded T4 closure is admissible, and:
+
+    P4_lock(X)
+    =
+    0_E
+
+otherwise.
+
+The full T4 corridor is:
+
+    Form4
+    =
+    P4_lock
+    ∘
+    Inherit4
+
+or, on the knot-admissible branch:
+
+    Form4
+    =
+    Close4
+    ∘
+    Stabilize4
+    ∘
+    Inherit4
+
+In dot notation:
+
+    .· → .°. → ·°·
+
+Under vacuum normalization:
+
+    Mass_MK([X])
+    =
+    Pers([P4_lock(X)])
+
+Therefore:
+
+> Closed is the bounded T4 fixed state.
+
+> Persistence is the canonical quantity.
+
+> Vacuum is the zero baseline.
+
+> Mass is the persistence retained by the T4 lock.
+
+And downstream:
+
+> T5 Matter is bounded shell dynamics around a T4 Mass-bearing core.
+
+> The Higgs-like order controls lock selection; it does not define Mass.
+
+---
+
+# XII. CANONICAL COMPRESSION
+
+    T0–T3
+    =
+    prepare the topology
+
+    T4 .·
+    =
+    inherit it
+
+    T4 .°.
+    =
+    stabilize it
+
+    T4 ·°·
+    =
+    close it when bounded closure is admissible
+
+    P4_lock
+    =
+    select the localized persistent component
+
+    Pers
+    =
+    measure that component
+
+    0_E
+    =
+    supply the zero baseline
+
+    Mass
+    =
+    T4 locked persistence
+
+    T5
+    =
+    redistribute bounded occupancy around the Mass-bearing core
+
+    Matter
+    =
+    bounded T5 core–shell organization
+
+Therefore:
+
+> Mass first separates at T4.
+
+> Matter inherits and dynamically realizes it at T5.
+
+**Simple. Elegant. Sophisticated.**

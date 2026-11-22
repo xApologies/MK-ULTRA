@@ -1,0 +1,26 @@
+{
+  "handle": "assumption://WA-DM-E064-001",
+  "object_type": "working_assumption",
+  "status": "WORKING_ASSUMPTION",
+  "domain": "ASSUMPTION",
+  "namespace": "mk43://assumption",
+  "name": "Selected Positive Hidden Support",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E064",
+  "qmo_generated": false,
+  "proof_status": "CONDITIONAL",
+  "empirical_status": "",
+  "provenance_class": "WORKING_ASSUMPTION",
+  "metadata": {
+    "id": "WA-DM-E064-001",
+    "name": "Selected Positive Hidden Support",
+    "status": "WORKING_ASSUMPTION",
+    "checkpoint": "E064",
+    "proof_debt": "PD-DM-001",
+    "payload_json": "{\"assumption_id\": \"WA-DM-E064-001\", \"name\": \"Selected Positive Hidden Support\", \"status\": \"WORKING_ASSUMPTION\", \"checkpoint\": \"E064\", \"scope\": \"finite diagnostic/support sector only\", \"statement\": \"Let H be one selected two-port hidden support satisfying the already-used E063 positive-support premises, so Delta rho_H > 0 and Delta Lambda_H != 0 on that support.\", \"source_support\": [\"CC-DM-E063-001\", \"@dm_joint_hidden_network_witness\"], \"not_claimed\": [\"physical existence of a dark-matter network\", \"global hidden-state embedding\"], \"proof_debt\": \"PD-DM-001\"}"
+  },
+  "address": "assumption://WA-DM-E064-001",
+  "address_sha256": "391c43d2bc7e97ca7e6d1f6ca5298423b04355009d2b59b7311251f69dd172c6"
+}

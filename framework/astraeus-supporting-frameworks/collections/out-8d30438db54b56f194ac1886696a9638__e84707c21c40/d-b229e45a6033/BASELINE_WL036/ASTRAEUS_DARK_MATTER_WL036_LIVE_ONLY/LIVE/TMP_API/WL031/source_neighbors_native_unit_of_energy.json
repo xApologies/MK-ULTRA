@@ -1,0 +1,67 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_NEIGHBORS_V1",
+  "handle": "@native_unit_of_energy",
+  "incoming": [
+    [
+      "@persistence",
+      {
+        "source": "@persistence",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@native_unit_of_energy",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56524->56526",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@persistence",
+      {
+        "source": "@persistence",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@native_unit_of_energy",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "API_CODE_BLOCK:56526;API_CODE_BLOCK:56582;CANONICAL_API_VERTICAL:56524->56526;CANONICAL_API_VERTICAL:56580->56582",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ]
+  ],
+  "outgoing": [
+    [
+      "@general_energy",
+      {
+        "source": "@native_unit_of_energy",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@general_energy",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56526->56528",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@general_energy",
+      {
+        "source": "@native_unit_of_energy",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@general_energy",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "API_CODE_BLOCK:56528;API_CODE_BLOCK:56584;CANONICAL_API_VERTICAL:56526->56528;CANONICAL_API_VERTICAL:56582->56584",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ]
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry"
+}

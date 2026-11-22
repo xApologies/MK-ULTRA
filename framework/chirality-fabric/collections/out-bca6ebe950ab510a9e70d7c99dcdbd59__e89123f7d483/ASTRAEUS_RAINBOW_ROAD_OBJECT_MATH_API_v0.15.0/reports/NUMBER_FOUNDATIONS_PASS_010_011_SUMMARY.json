@@ -1,0 +1,43 @@
+{
+  "api_release": "0.15.0",
+  "live_model_revision": "v0.28.0",
+  "frontier": "@number_scale_reparameterization_frontier",
+  "objects": 282,
+  "edges": 438,
+  "equations": 32,
+  "theorems": 13,
+  "candidates": 9,
+  "certificates": 75,
+  "metadata_addresses": 282,
+  "dependency_landscapes": 20,
+  "dependency_graphs": 4,
+  "dependency_chains": 2,
+  "iteration_runs": 6,
+  "commands": 43,
+  "functions": 2,
+  "sources": 9,
+  "landscape_run": {
+    "registered": true,
+    "qmo_address": "@dl_number_scale_reparameterization",
+    "landscape_id": "DL-b1c836b5d4ba",
+    "statistics": {
+      "qmo_count": 36,
+      "edge_count": 50
+    }
+  },
+  "iteration_run": {
+    "registered": true,
+    "qmo_address": "@it_number_scale_reparameterization_4",
+    "run_id": "IT-bae3e6422a69",
+    "requested_iteration_bound": 4,
+    "actual_iterations_executed": 4,
+    "terminal": {
+      "state": "MAX_ITERATIONS",
+      "focus": null,
+      "reason": "requested finite iteration horizon reached",
+      "iteration": 4
+    },
+    "materialized_qmo": "@it_number_scale_reparameterization_4_landscape",
+    "domain_state": "OPEN_RESULT"
+  }
+}

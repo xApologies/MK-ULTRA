@@ -1,0 +1,73 @@
+{
+  "schema": "ASTRAEUS_QMO_CANDIDATE_V1",
+  "qmo_id": "QMO-DM-BRIDGE-CAND-032",
+  "handle": "@dm_chirality_byte_basin_probe_family",
+  "canonical_name": "Chirality-Byte / Basin Finite Probe Family",
+  "status": "LIVE_CONDITIONAL_DIAGNOSTIC",
+  "checkpoint": "E091",
+  "parents": [
+    "@dm_chirality_seed_contrast_normal_form",
+    "@chirality_byte",
+    "@energy_density"
+  ],
+  "working_assumptions": [
+    "WA-DM-E091-001"
+  ],
+  "source_basis": [
+    "chirality_recovery_report.md"
+  ],
+  "derivation": [
+    "The canonical byte pair is Byte_L=(Seed_L,Seed_R) and Byte_R=(Seed_R,Seed_L), so the byte-level mirror difference is (D_chi,-D_chi).",
+    "The recovered basin ladder has beta_k=k/7 for k=1,...,6, with 0/7 and 7/7 as bounds.",
+    "Under the explicitly provisional diagnostic weighting WA-DM-E091-001, each basin-weighted mirror contrast beta_k D_chi remains nonzero and preserves the same contrast eigenvector c_*.",
+    "Thus the correct finite wind tunnel consists of six basin-indexed mirror pairs (twelve oriented states), not six chirality-byte identities."
+  ],
+  "result": "All six interior basin levels preserve a nonzero mirror chirality contrast under the diagnostic weighting. The family gives six explicit positive-amplitude inputs sharing one canonical chiral contrast direction.",
+  "math": "For k=1..6: D_k=(k/7)D_chi; D_k c_*=2(k/7)c_* !=0; ||2(k/7)c_*||^2=8(k/7)^2.",
+  "probe_table": [
+    {
+      "k": 1,
+      "beta_exact": "1/7",
+      "beta_float": 0.14285714285714285,
+      "contrast_eigenvalue": 0.2857142857142857,
+      "native_contrast_norm_sq": 0.16326530612244897
+    },
+    {
+      "k": 2,
+      "beta_exact": "2/7",
+      "beta_float": 0.2857142857142857,
+      "contrast_eigenvalue": 0.5714285714285714,
+      "native_contrast_norm_sq": 0.6530612244897959
+    },
+    {
+      "k": 3,
+      "beta_exact": "3/7",
+      "beta_float": 0.42857142857142855,
+      "contrast_eigenvalue": 0.8571428571428571,
+      "native_contrast_norm_sq": 1.4693877551020407
+    },
+    {
+      "k": 4,
+      "beta_exact": "4/7",
+      "beta_float": 0.5714285714285714,
+      "contrast_eigenvalue": 1.1428571428571428,
+      "native_contrast_norm_sq": 2.6122448979591835
+    },
+    {
+      "k": 5,
+      "beta_exact": "5/7",
+      "beta_float": 0.7142857142857143,
+      "contrast_eigenvalue": 1.4285714285714286,
+      "native_contrast_norm_sq": 4.081632653061225
+    },
+    {
+      "k": 6,
+      "beta_exact": "6/7",
+      "beta_float": 0.8571428571428571,
+      "contrast_eigenvalue": 1.7142857142857142,
+      "native_contrast_norm_sq": 5.877551020408163
+    }
+  ],
+  "boundary": "Conditional on diagnostic scalar weighting only. The source-authoritative basin action remains PD-DM-013 and is deliberately parked unless later needed.",
+  "physical_claim": false
+}

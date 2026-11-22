@@ -1,0 +1,27 @@
+{
+  "experiment": "E028",
+  "candidate": "CAND-DM-HYDROGEN-BANDWIDTH-RESOLUTION-TUBE-031",
+  "title": "Hydrogen Bandwidth Anchor and Bidirectional Resolution Projection Domain",
+  "status": "SOURCE-ALIGNED FORMAL CONSTRUCTION; RESOLUTION REFINEMENT INSTANCE MAP STILL CANDIDATE",
+  "physical_dark_matter_witness": false,
+  "parent_promotions": 0,
+  "results": {
+    "hydrogen_anchor_object": "H",
+    "formal_bandwidth_anchor": "B_H",
+    "anchored_algebra": "A_BH",
+    "cross_resolution_family": "CRB(B_H)={View_R(B_H)}",
+    "resolution_landscape": "L_R(B_H)",
+    "hydrogen_readout_preimage_domain": "Dom_R^H([H]_R)=q_R^-1([H]_R)",
+    "fixed_ordering_domain": "D_R^H(o*)=Read_R(TS_o* intersect Z_H)",
+    "coarsening": "SOURCE-FORMALIZED",
+    "refinement": "LIVE-MODEL CANDIDATE WITH ANCESTRY CONSTRAINT",
+    "bidirectional_navigation_possible": true,
+    "global_inverse_claimed": false,
+    "readable_domain_under_refinement": "expands in monotone section model",
+    "conflation_domain_under_refinement": "contracts",
+    "resolution_creates_new_bandwidth": false,
+    "H_channel_count": 13
+  },
+  "ruling": "Yes: Hydrogen can be used as a fixed Bandwidth anchor and its Resolution landscape examined. The clean typing is H as the object and admissible transformations as Bandwidth operators. A fixed B_H persists across Resolution; fine-to-coarse maps are formalized, and ancestry-aware coarse-to-fine refinement is an explicit live-model candidate. This yields a two-sided Resolution tube around H without treating Resolution as a new physical spatial axis.",
+  "next_handle": "INSTANTIATE_HYDROGEN_RESOLUTION_SECTION_FROM_ANCESTRY_WITHOUT_ARBITRARY_SCALE_AND_TEST_WHICH_H_DISTINCTIONS_EMERGE_OR_MERGE"
+}

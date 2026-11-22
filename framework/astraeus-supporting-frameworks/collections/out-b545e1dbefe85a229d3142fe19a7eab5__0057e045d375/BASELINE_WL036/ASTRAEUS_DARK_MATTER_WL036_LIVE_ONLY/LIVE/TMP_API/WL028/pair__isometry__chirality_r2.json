@@ -1,0 +1,32 @@
+{
+  "a": "@isometry",
+  "b": "@chirality",
+  "radius": 2,
+  "a_node_count": 31,
+  "b_node_count": 30,
+  "interface": [],
+  "path_a_to_b": [
+    {
+      "source": "@isometry",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@native_constraint_closure",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-51",
+      "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@isometry-[COMPOSED_DEPENDENCY]->@metric_perturbation-[COMPOSED_DEPENDENCY]->@native_constraint_closure"
+    },
+    {
+      "source": "@native_constraint_closure",
+      "relation": "FORMALLY_SUPPORTS",
+      "target": "@chirality",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-46",
+      "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@chirality FORMALLY_DEPENDS_ON @native_constraint_closure); rule=FORMALLY_DEPENDS_ON\u2192FORMALLY_SUPPORTS"
+    }
+  ],
+  "direct_neighborhood_policy": "high-confidence non-derived/direct-source Time-Space API edges only",
+  "path_policy": "high-confidence registered + admissibly derived Time-Space API edges; directions preserved"
+}

@@ -1,0 +1,183 @@
+{
+  "nodes": [
+    {
+      "id": "prime",
+      "label": "Prime boundary 0|0"
+    },
+    {
+      "id": "boundary",
+      "label": "Boundary / address"
+    },
+    {
+      "id": "T5",
+      "label": "Time-Space T5"
+    },
+    {
+      "id": "S3",
+      "label": "S3 continuity"
+    },
+    {
+      "id": "S2",
+      "label": "Localized S2 projection"
+    },
+    {
+      "id": "chi",
+      "label": "Global chirality"
+    },
+    {
+      "id": "chip",
+      "label": "Local chirality chi_p"
+    },
+    {
+      "id": "gamma",
+      "label": "Path gamma in S3"
+    },
+    {
+      "id": "corridor",
+      "label": "Corridor W_gamma=S2xI"
+    },
+    {
+      "id": "transport",
+      "label": "Chirality transport"
+    },
+    {
+      "id": "timeshell",
+      "label": "Time-Shell readout"
+    },
+    {
+      "id": "qft",
+      "label": "QFT_p"
+    },
+    {
+      "id": "gr",
+      "label": "GR_p"
+    },
+    {
+      "id": "er",
+      "label": "ER_p"
+    },
+    {
+      "id": "helicon",
+      "label": "Helicon"
+    },
+    {
+      "id": "graviton",
+      "label": "Graviton"
+    },
+    {
+      "id": "metric",
+      "label": "Metric/curvature"
+    },
+    {
+      "id": "energy",
+      "label": "Energy invariant"
+    }
+  ],
+  "edges": [
+    {
+      "source": "prime",
+      "target": "boundary",
+      "label": "generates address"
+    },
+    {
+      "source": "boundary",
+      "target": "timeshell",
+      "label": "scales to readout boundary"
+    },
+    {
+      "source": "T5",
+      "target": "S3",
+      "label": "projects to continuity base"
+    },
+    {
+      "source": "T5",
+      "target": "S2",
+      "label": "has localized fibers"
+    },
+    {
+      "source": "chi",
+      "target": "chip",
+      "label": "restricts to local projection"
+    },
+    {
+      "source": "S3",
+      "target": "gamma",
+      "label": "admits path"
+    },
+    {
+      "source": "gamma",
+      "target": "corridor",
+      "label": "pullback induces"
+    },
+    {
+      "source": "T5",
+      "target": "corridor",
+      "label": "pullback source"
+    },
+    {
+      "source": "chip",
+      "target": "qft",
+      "label": "rho_Q"
+    },
+    {
+      "source": "chip",
+      "target": "gr",
+      "label": "rho_G"
+    },
+    {
+      "source": "chip",
+      "target": "er",
+      "label": "rho_ER"
+    },
+    {
+      "source": "chi",
+      "target": "transport",
+      "label": "global organization"
+    },
+    {
+      "source": "gamma",
+      "target": "transport",
+      "label": "defines route"
+    },
+    {
+      "source": "transport",
+      "target": "corridor",
+      "label": "acts through"
+    },
+    {
+      "source": "corridor",
+      "target": "timeshell",
+      "label": "arrives at boundary readout"
+    },
+    {
+      "source": "er",
+      "target": "helicon",
+      "label": "supports local modes"
+    },
+    {
+      "source": "helicon",
+      "target": "graviton",
+      "label": "gravitational mode projects"
+    },
+    {
+      "source": "graviton",
+      "target": "metric",
+      "label": "Time-Shell / perturbation route"
+    },
+    {
+      "source": "metric",
+      "target": "gr",
+      "label": "readable GR"
+    },
+    {
+      "source": "energy",
+      "target": "qft",
+      "label": "representation"
+    },
+    {
+      "source": "energy",
+      "target": "gr",
+      "label": "representation"
+    }
+  ]
+}

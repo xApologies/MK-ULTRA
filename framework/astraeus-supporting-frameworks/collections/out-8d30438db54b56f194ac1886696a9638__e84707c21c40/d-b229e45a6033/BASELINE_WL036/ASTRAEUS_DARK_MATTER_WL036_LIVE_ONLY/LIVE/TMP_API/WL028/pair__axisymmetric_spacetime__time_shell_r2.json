@@ -1,0 +1,22 @@
+{
+  "a": "@axisymmetric_spacetime",
+  "b": "@time_shell",
+  "radius": 2,
+  "a_node_count": 17,
+  "b_node_count": 76,
+  "interface": [],
+  "path_a_to_b": [
+    {
+      "source": "@axisymmetric_spacetime",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@time_shell",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-51",
+      "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@axisymmetric_spacetime-[COMPOSED_DEPENDENCY]->@spacetime-[COMPOSED_DEPENDENCY]->@time_shell"
+    }
+  ],
+  "direct_neighborhood_policy": "high-confidence non-derived/direct-source Time-Space API edges only",
+  "path_policy": "high-confidence registered + admissibly derived Time-Space API edges; directions preserved"
+}

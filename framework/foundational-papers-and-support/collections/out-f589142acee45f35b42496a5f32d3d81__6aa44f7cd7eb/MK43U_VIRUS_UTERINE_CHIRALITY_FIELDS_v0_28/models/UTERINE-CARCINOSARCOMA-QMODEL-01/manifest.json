@@ -1,0 +1,101 @@
+{
+  "boundaries": [
+    "not a literal solved quantum state of a tumor or virus",
+    "not a QCD calculation",
+    "not a patient-specific field",
+    "not evidence that a virus disrupts a tumor"
+  ],
+  "files": {
+    "MIDPLANE_CHIRALITY.png": {
+      "bytes": 48767,
+      "sha256": "9e5d84bc34eb021fccdc762cf1fe06c27127ded68ec54b27abce2642964661c9"
+    },
+    "README.md": {
+      "bytes": 782,
+      "sha256": "a7178c924b58c60e55ad9514e2af881672817a60764355f79ddd2b9b4d0e1ff4"
+    },
+    "atomic_profile.json": {
+      "bytes": 1822,
+      "sha256": "970dcebbac95207e4e11324dfcf26cc72432e6691e9978aead9eb9b8ce164048"
+    },
+    "chirality_field_3p1p1_32x32x32x2x2.npy": {
+      "bytes": 524416,
+      "sha256": "d1be8aa59724c6f7bc8cd2f175408b4ed20ceaed14a6c57ac1a6bb898f308067"
+    },
+    "chirality_scalar_32x32x32.npy": {
+      "bytes": 131200,
+      "sha256": "aceaa7af6c8f5970c0ad9fbf0f477c75adbd4d8c3147d677742f13db1cc8382b"
+    },
+    "chirality_statecode_32x32x32.npy": {
+      "bytes": 32896,
+      "sha256": "6d4f7451472da74afe4cf45edd5a8ba872033a55c93a36575531953003d98c36"
+    },
+    "mass_density_32x32x32.npy": {
+      "bytes": 131200,
+      "sha256": "0e94d151a16ba37b4f98d05e1fcad68b922aeccc12ac2a6a23f7b28fc905d75c"
+    },
+    "occupancy_32x32x32.npy": {
+      "bytes": 131200,
+      "sha256": "d4b329af7d72596d0d2c4f16eed40c60f8233e8c55642a6d258c10be54807ace"
+    },
+    "persistence_32x32x32.npy": {
+      "bytes": 131200,
+      "sha256": "73e1df539bce80f28e459526c980ada99580dfc1d8f843e5c941265b5310abfe"
+    },
+    "pipeline_stage_fields_T0_T7.npz": {
+      "bytes": 487278,
+      "sha256": "c2d75d714783a6f8ce9a817eb22bee9c454fe2383d21e45f3c30de5688e8acc0"
+    },
+    "quantum_atomic_model.json": {
+      "bytes": 93543,
+      "sha256": "b8d50405d6350740172d818fabf5bb38b970c4bd8e084aa15628bd0005150159"
+    },
+    "resolution_32x32x32.npy": {
+      "bytes": 131200,
+      "sha256": "8a019001d2310c39b4c9a8541a443549e88c389f0c4141fb070e7bab81091ca7"
+    },
+    "setlift_5d_32x32x32x2.npy": {
+      "bytes": 2883712,
+      "sha256": "88217a26a0029310b97b616b74ea9e4c2d5758a94d4f951bdcc9740619e1047b"
+    },
+    "source_4d_32x32x32.npy": {
+      "bytes": 1441920,
+      "sha256": "a91b64a945dff1967a07ef836b484a340b4c7bd2e202b31f58ab88afd319e5c9"
+    }
+  },
+  "model_id": "UTERINE-CARCINOSARCOMA-QMODEL-01",
+  "schema": "MK43U_QUANTUM_CHIRALITY_PACKAGE_V0_1",
+  "summary": {
+    "chirality_field_shape": [
+      32,
+      32,
+      32,
+      2,
+      2
+    ],
+    "chirality_max": 0.12190699577331543,
+    "chirality_min": -1.0,
+    "grid_n": 32,
+    "left_weight": 42.43343734741211,
+    "model_id": "UTERINE-CARCINOSARCOMA-QMODEL-01",
+    "occupied_voxels": 274,
+    "persistent_voxels": 53,
+    "persistent_weight": 30.22407341003418,
+    "quantum_resolution_status": "hybrid_exact_small_molecule_plus_experimental_macromolecular_reference",
+    "right_weight": 22.166332244873047,
+    "setlift_shape": [
+      11,
+      32,
+      32,
+      32,
+      2
+    ],
+    "source_shape": [
+      11,
+      32,
+      32,
+      32
+    ],
+    "unresolved_persistence_weight": 34.37569808959961
+  }
+}

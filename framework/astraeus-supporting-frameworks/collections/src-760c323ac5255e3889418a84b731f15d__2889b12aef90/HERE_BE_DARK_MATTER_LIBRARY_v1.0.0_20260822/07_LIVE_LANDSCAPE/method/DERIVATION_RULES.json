@@ -1,0 +1,471 @@
+{
+  "schema": "ASTRAEUS_RAINBOW_ROAD_DERIVATION_RULES_V2",
+  "policy": {
+    "outputs_default_to_candidates": true,
+    "internal_auto_promotion": true,
+    "auto_promotion_requires": "VALID Closure Certificate under CLOSURE_CONTRACT.json",
+    "domain_extensions_auto_promote": false,
+    "provenance_required": true,
+    "circularity_guard": "No certificate may depend evidentially on its own output through an unbroken cycle."
+  },
+  "rules": [
+    {
+      "rule_id": "R-001",
+      "name": "handoff_composition_candidate",
+      "kind": "graph_pattern",
+      "when": [
+        "X HANDOFF_TO Y",
+        "Y HANDOFF_TO Z"
+      ],
+      "propose": [
+        "X HANDOFF_TO Z"
+      ],
+      "requirements": [
+        "compatibility proof across both handoffs"
+      ],
+      "status": "ENABLED_CANDIDATE_ONLY"
+    },
+    {
+      "rule_id": "R-002",
+      "name": "recovery_witness_component_lattice",
+      "kind": "frontier_macro",
+      "when": [
+        "frontier=@object_resolution_recovery_witness_minimality"
+      ],
+      "propose_objects": [
+        "@witness_bundle_core",
+        "@witness_bundle_history_augmented",
+        "@witness_bundle_full_state_fallback"
+      ],
+      "status": "ENABLED_CANDIDATE_ONLY"
+    },
+    {
+      "rule_id": "R-003",
+      "name": "interface_defect_requires_selector",
+      "kind": "graph_pattern",
+      "when": [
+        "@bandwidth_resolution_interface_defect OCCURS_AT_INTERFACE_OF @resolution_readout",
+        "@handoff_merge_fiber MOTIVATES @recovery_provenance_bundle"
+      ],
+      "propose_objects": [
+        "@fine_lineage_selector"
+      ],
+      "status": "ENABLED_CANDIDATE_ONLY"
+    },
+    {
+      "rule_id": "R-004",
+      "name": "native_cross_branch_synthesis",
+      "kind": "frontier_macro",
+      "when": [
+        "active frontier touches >=2 native branches"
+      ],
+      "propose": [
+        "cross_branch_synthesis_task"
+      ],
+      "status": "ENABLED_CANDIDATE_ONLY"
+    },
+    {
+      "rule_id": "R-005",
+      "name": "domain_boundary_firewall",
+      "kind": "audit",
+      "when": [
+        "generated result changes domain contract or introduces primitive/axiom/unlicensed transformation"
+      ],
+      "propose": [
+        "DOMAIN_EXTENSION_PROPOSAL"
+      ],
+      "status": "ALWAYS_ON"
+    },
+    {
+      "rule_id": "R-006",
+      "name": "closure_certificate_self_promotion",
+      "kind": "closure",
+      "when": [
+        "candidate has VALID Closure Certificate",
+        "all certificate obligations true"
+      ],
+      "propose": [
+        "promote candidate to DERIVED_CLOSED_INTERNAL"
+      ],
+      "status": "AUTO_CLOSURE_ELIGIBLE"
+    },
+    {
+      "rule_id": "R-007",
+      "name": "mobius_closure_equivariance_audit",
+      "kind": "audit",
+      "when": [
+        "result has typed H action or orientation scope"
+      ],
+      "propose": [
+        "compare Cl_RR(H(x)) with H(Cl_RR(x)) under declared equivalence; record defect rather than force equality"
+      ],
+      "status": "ALWAYS_ON"
+    },
+    {
+      "rule_id": "R-008",
+      "name": "recursive_perturbation_impact",
+      "kind": "sandbox",
+      "when": [
+        "perturbation injected"
+      ],
+      "propose": [
+        "compute dependency impact cone",
+        "invalidate affected certificates",
+        "iterate reclosure in isolated branch",
+        "report conflicts/forks"
+      ],
+      "status": "SANDBOX_ONLY"
+    },
+    {
+      "rule_id": "R-009",
+      "name": "witness_fiber_separation",
+      "kind": "recovery",
+      "when": [
+        "non-injective handoff fiber declared",
+        "retained witness map declared"
+      ],
+      "propose": [
+        "test witness collisions on each recovery-relevant merge fiber",
+        "promote fiber-separation criterion with valid certificate"
+      ],
+      "status": "AUTO_CLOSURE_ELIGIBLE"
+    },
+    {
+      "rule_id": "R-010",
+      "name": "core_witness_counterexample",
+      "kind": "counterexample",
+      "when": [
+        "two distinct fine lineages share one coarse readout",
+        "core witness projections coincide"
+      ],
+      "propose": [
+        "record @core_witness_collision",
+        "mark unqualified universal core sufficiency false"
+      ],
+      "status": "AUTO_CLOSURE_ELIGIBLE"
+    },
+    {
+      "rule_id": "R-011",
+      "name": "minimal_recovery_discriminator",
+      "kind": "recovery",
+      "when": [
+        "witness collision found"
+      ],
+      "propose": [
+        "introduce derived @recovery_discriminator role",
+        "test existing source-backed History/holonomy components before adding new structure"
+      ],
+      "status": "AUTO_CLOSURE_ELIGIBLE"
+    },
+    {
+      "rule_id": "R-012",
+      "name": "history_counterexample_repair",
+      "kind": "recovery",
+      "when": [
+        "colliding lineages have distinct retained ordered History"
+      ],
+      "propose": [
+        "test History-augmented bundle for separation",
+        "do not promote full History as globally minimal from one counterexample"
+      ],
+      "status": "AUTO_CLOSURE_ELIGIBLE"
+    },
+    {
+      "rule_id": "R-013",
+      "name": "recovery_context_equivalence",
+      "kind": "recovery",
+      "when": [
+        "History path algebra is admitted",
+        "recovery test family is declared"
+      ],
+      "propose": [
+        "define contextual recovery equivalence over all admissible left/right History contexts",
+        "test equivalence and congruence laws"
+      ],
+      "status": "AUTO_CLOSURE_ELIGIBLE"
+    },
+    {
+      "rule_id": "R-014",
+      "name": "recovery_signature_quotient",
+      "kind": "quotient",
+      "when": [
+        "@recovery_context_equivalence is a congruence"
+      ],
+      "propose": [
+        "construct @recovery_history_signature_quotient",
+        "induce @recovery_signature_composition from History composition"
+      ],
+      "status": "AUTO_CLOSURE_ELIGIBLE"
+    },
+    {
+      "rule_id": "R-015",
+      "name": "recovery_signature_minimality",
+      "kind": "theorem",
+      "when": [
+        "recovery tests are declared complete for the selected recovery contract",
+        "contextual equivalence is used"
+      ],
+      "propose": [
+        "prove quotient recovery sufficiency",
+        "prove quotient is coarsest compositional recovery-sufficient signature relative to declared test family"
+      ],
+      "status": "AUTO_CLOSURE_ELIGIBLE"
+    },
+    {
+      "rule_id": "R-016",
+      "name": "holonomy_signature_realization",
+      "kind": "frontier_macro",
+      "when": [
+        "@recovery_history_signature_quotient is closed",
+        "@holonomy_history_signature remains a scaffold"
+      ],
+      "propose": [
+        "test source Sig_Hol fields against abstract quotient",
+        "remove fields only by counterexample-safe redundancy proof",
+        "retain full History when finite field subset is not separating"
+      ],
+      "status": "ENABLED_CANDIDATE_ONLY"
+    },
+    {
+      "rule_id": "R-017",
+      "name": "signature_kernel_equivalence",
+      "kind": "signature_audit",
+      "when": [
+        "concrete History signature sigma declared"
+      ],
+      "propose": [
+        "derive kernel equivalence h~_sigma k iff sigma(h)=sigma(k)"
+      ],
+      "status": "AUTO_CLOSURE_ELIGIBLE"
+    },
+    {
+      "rule_id": "R-018",
+      "name": "signature_resolution_defects",
+      "kind": "counterexample",
+      "when": [
+        "@signature_kernel_equivalence and @recovery_context_equivalence are available"
+      ],
+      "propose": [
+        "search underresolution pairs ker(sigma)\\~_Rec",
+        "search overresolution pairs ~_Rec\\ker(sigma)"
+      ],
+      "status": "AUTO_CLOSURE_ELIGIBLE"
+    },
+    {
+      "rule_id": "R-019",
+      "name": "exact_recovery_signature_realization",
+      "kind": "theorem",
+      "when": [
+        "sigma is compositional",
+        "kernel relation is available"
+      ],
+      "propose": [
+        "certify exact realization iff ker(sigma)=~_Rec"
+      ],
+      "status": "AUTO_CLOSURE_ELIGIBLE"
+    },
+    {
+      "rule_id": "R-020",
+      "name": "holonomy_field_projection_crawl",
+      "kind": "frontier_macro",
+      "when": [
+        "source Sig_Hol tuple is available",
+        "@signature_realization_criterion closed"
+      ],
+      "propose": [
+        "test field subsets against under/overresolution defects",
+        "do not treat D57 scaffold as closed minimal signature without kernel equality proof"
+      ],
+      "status": "ENABLED_CANDIDATE_ONLY"
+    },
+    {
+      "rule_id": "R-021",
+      "name": "signature_role_normalization",
+      "kind": "representation_normalization",
+      "when": [
+        "typed History source/target available",
+        "classifier/equivalence scope declared",
+        "QMO provenance is address-recoverable"
+      ],
+      "propose": [
+        "factor flat signature into typed envelope plus structural payload",
+        "preserve joined-record equivalence",
+        "do not infer kernel reduction from payload reduction"
+      ],
+      "status": "AUTO_CLOSURE_ELIGIBLE"
+    },
+    {
+      "rule_id": "R-022",
+      "name": "recovery_test_family_instantiation_gate",
+      "kind": "realization_gate",
+      "when": [
+        "concrete signature kernel is to be compared with Recovery Context Equivalence"
+      ],
+      "propose": [
+        "require instantiated recovery test basis or equivalent oracle",
+        "block exact field-minimality certification while test-family completeness is only schematic"
+      ],
+      "status": "AUTO_CLOSURE_ELIGIBLE"
+    },
+    {
+      "rule_id": "R-023",
+      "name": "d57_history_class_source_audit",
+      "kind": "source_typing_audit",
+      "when": [
+        "D57 [h] is used as a signature field"
+      ],
+      "propose": [
+        "search mounted sources for defining equivalence",
+        "refuse unlicensed identification with [h]_Id or [h]_Rec"
+      ],
+      "status": "AUTO_CLOSURE_ELIGIBLE"
+    },
+    {
+      "rule_id": "R-024",
+      "name": "signature_role_separation",
+      "kind": "semantic_role_audit",
+      "when": [
+        "Sig_Rec is closed as minimal recovery quotient",
+        "Sig_Hol source definition packages distinct component effects"
+      ],
+      "propose": [
+        "separate recovery-selector role from holonomy-diagnostic role",
+        "require kernel equality only when one object is explicitly assigned to realize the other role"
+      ],
+      "status": "AUTO_CLOSURE_ELIGIBLE"
+    },
+    {
+      "rule_id": "R-025",
+      "name": "number_object_readout_return",
+      "kind": "frontier_reactivation",
+      "when": [
+        "tool/infrastructure branch is no longer foundationally blocking",
+        "object-first number program remains unresolved"
+      ],
+      "propose": [
+        "build Number Dependency Landscape from object, Resolution, transduction, structural zero, closed-domain unity, objectivity, and parked number ontology",
+        "generate next number question from landscape rather than importing arithmetic"
+      ],
+      "status": "ENABLED_CANDIDATE_ONLY"
+    },
+    {
+      "rule_id": "R-026",
+      "name": "formal_object_before_optional_valuation",
+      "kind": "source_seeded_type_separation",
+      "when": [
+        "native formal object exists independently of optional scalar valuation",
+        "source explicitly calls scalar an optional readout/summary"
+      ],
+      "propose": [
+        "separate formal-object role from valuation-output role",
+        "certify object-before-scalarization ordering",
+        "separate valuation role from generic classifier role"
+      ],
+      "status": "AUTO_CLOSURE_ELIGIBLE"
+    },
+    {
+      "rule_id": "R-027",
+      "name": "remove_numeric_codomain_circularity",
+      "kind": "foundational_abstraction",
+      "when": [
+        "valuation source uses a predeclared conventional numerical codomain",
+        "root question asks what makes an output numerical without presupposing number ontology"
+      ],
+      "propose": [
+        "replace numerical codomain with uninterpreted summary domain V for foundational test",
+        "register codomain circularity defect",
+        "advance to structural characterization of V"
+      ],
+      "status": "ENABLED_CANDIDATE_AND_AUDIT"
+    },
+    {
+      "rule_id": "R-028",
+      "name": "unit_normalization_role_separation",
+      "kind": "source_seeded_role_typing",
+      "when": [
+        "source U_1 contains admissible configuration changes",
+        "all admitted U_1 configurations satisfy ell(c)=1"
+      ],
+      "propose": [
+        "type 1 as unit-normalization value in this source context",
+        "reject counting interpretation of the same token",
+        "guard against identification with other 1-labeled objects without witness"
+      ],
+      "status": "AUTO_CLOSURE_ELIGIBLE"
+    },
+    {
+      "rule_id": "R-029",
+      "name": "unit_relative_valuation_frontier",
+      "kind": "frontier_generation",
+      "when": [
+        "valuation-output numerical role remains open",
+        "source provides recoverable normalized unit object/value"
+      ],
+      "propose": [
+        "test whether numerical role can be generated relative to a unit normalization object",
+        "avoid importing division or arithmetic ratio",
+        "require transduction/provenance compatibility"
+      ],
+      "status": "ENABLED_CANDIDATE_ONLY"
+    },
+    {
+      "rule_id": "R-030",
+      "name": "valuation_fiber_factorization",
+      "kind": "quotient_factorization",
+      "when": [
+        "v:X->V is a declared function/readout",
+        "valuation equality is available in V"
+      ],
+      "propose": [
+        "define x ~_v y iff v(x)=v(y)",
+        "form Q_v=X/~_v",
+        "factor v through Q_v",
+        "preserve source-object provenance upstream"
+      ],
+      "status": "AUTO_CLOSURE_ELIGIBLE"
+    },
+    {
+      "rule_id": "R-031",
+      "name": "order_before_number_probe",
+      "kind": "source_seeded_insufficiency_test",
+      "when": [
+        "source structural order exists before optional scalarization"
+      ],
+      "propose": [
+        "register source order as nonnumerical structural comparison",
+        "reject order alone as sufficient characterization of number"
+      ],
+      "status": "AUTO_CLOSURE_ELIGIBLE"
+    },
+    {
+      "rule_id": "R-032",
+      "name": "unit_order_reparameterization_probe",
+      "kind": "symmetry_insufficiency_test",
+      "when": [
+        "value domain has equality/order and distinguished unit",
+        "no richer scale law is declared"
+      ],
+      "propose": [
+        "construct structure-preserving reparameterization stabilizer",
+        "test whether nontrivial relabelings preserve all declared data",
+        "if yes, register underdetermination rather than numerical closure"
+      ],
+      "status": "AUTO_CLOSURE_ELIGIBLE"
+    },
+    {
+      "rule_id": "R-033",
+      "name": "relative_value_transport_frontier",
+      "kind": "frontier_generation",
+      "when": [
+        "fiber quotient, order, and unit remain insufficient",
+        "numerical role still open"
+      ],
+      "propose": [
+        "test presentation-independent relative transport between value classes",
+        "require composition/provenance compatibility",
+        "do not name transport addition, ratio, or division without derivation"
+      ],
+      "status": "ENABLED_CANDIDATE_ONLY"
+    }
+  ]
+}

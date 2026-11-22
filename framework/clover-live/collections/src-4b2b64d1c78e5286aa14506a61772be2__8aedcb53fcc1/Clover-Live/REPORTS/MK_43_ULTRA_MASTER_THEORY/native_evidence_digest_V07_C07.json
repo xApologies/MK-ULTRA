@@ -1,0 +1,476 @@
+{
+  "chapter_ids": [
+    "V07-C07"
+  ],
+  "chapters": [
+    {
+      "assigned_handle_count": 5,
+      "chapter_id": "V07-C07",
+      "handles": [
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@appendix_4_linearised_gravitational_waves_in_the_phase_framework` — Appendix 4: Linearised Gravitational Waves in the Phase Framework",
+          "canonical_uri": "mk43://recover/gravity/appendix-4-linearised-gravitational-waves-in-the-phase-framework",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.762551+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 42,
+            "english_units": 0,
+            "equation_units": 0,
+            "evidence_diversity": 0,
+            "handle": "@appendix_4_linearised_gravitational_waves_in_the_phase_framework",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 3,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 13,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 208,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@appendix_4_linearised_gravitational_waves_in_the_phase_framework",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 11123,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V07_C07\\appendix_4_linearised_gravitational_waves_in_the_phase_framework_2584f5657cf9436fbe61af284fd371f7.md",
+            "reused_master_query": false,
+            "sha256": "39cf9021cb380c4bb1de1397ed2c9c50ad657da9894ef299fa718aba52bbb889"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@gravitational_lensing",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.881690+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 264,
+            "english_units": 52,
+            "equation_units": 5,
+            "evidence_diversity": 2,
+            "handle": "@gravitational_lensing",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P2",
+            "registered_dependencies": 182,
+            "run_id": "RP-05B",
+            "score": 82,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 4652,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 721,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:721"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 723,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:723"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 732,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:732"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1960,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1960"
+            }
+          ],
+          "handle": "@gravitational_lensing",
+          "incoming_relation_types": {
+            "ADMITS": 1,
+            "BLACK_HOLE_GLOBAL_REACHES": 1,
+            "BLACK_HOLE_MODEL_REACHES": 1,
+            "COMPOSED_DEPENDENCY": 2,
+            "DEPENDS_ON": 3,
+            "SUPPORTS": 32,
+            "SUPPORTS_FAMILY": 1
+          },
+          "native_report": {
+            "bytes": 2682598,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V07_C07\\gravitational_lensing_1e02a023e67d43f4b5a7077da788985c.md",
+            "reused_master_query": false,
+            "sha256": "263c2d1a42c889a3f65d5e9fc27713c91ea307a522191379ea1e0998f7b75a15"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "ADMITTED_BY": 1,
+            "BLACK_HOLE_CROSS_FAMILY_NODE": 1,
+            "COMPOSED_DEPENDENCY": 132,
+            "DEPENDS_ON": 1,
+            "FAMILY_DEPENDS_ON": 1,
+            "FEEDS_BLACK_HOLE_MODEL": 1,
+            "GLOBALLY_FEEDS_BLACK_HOLE": 1,
+            "SUPPORTS": 3
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@gravitational_radiation` — Gravitational Radiation",
+          "canonical_uri": "mk43://recover/gravity/gravitational-radiation",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.881690+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 649,
+            "english_units": 580,
+            "equation_units": 7,
+            "evidence_diversity": 2,
+            "handle": "@gravitational_radiation",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 4,
+            "recommended_priority": "P2",
+            "registered_dependencies": 573,
+            "run_id": "RP-05B",
+            "score": 84,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 10150,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 712,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:712"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 721,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:721"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 723,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:723"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1798,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1798"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1960,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1960"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 2204,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:2204"
+            }
+          ],
+          "handle": "@gravitational_radiation",
+          "incoming_relation_types": {
+            "BLACK_HOLE_GLOBAL_REACHES": 1,
+            "BLACK_HOLE_MODEL_REACHES": 1,
+            "COMPOSED_DEPENDENCY": 414,
+            "DEPENDS_TO": 2,
+            "DIRECTED_TO": 2,
+            "EXPLICIT_ARROW": 2,
+            "FORMALLY_DEPENDS_ON": 2,
+            "FORMALLY_SUPPORTS": 1,
+            "RECOVERED_DEPENDENCY": 2,
+            "USED_BY": 2,
+            "VERTICAL_CHAIN": 1
+          },
+          "native_report": {
+            "bytes": 2687971,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\gravitational_radiation_b07fbdf35a8f4e5e9b4a149828887b50.md",
+            "reused_master_query": true,
+            "sha256": "90bebd7d1ba3d4814422a31a7afa792dfbf570e7a308e823f6d48e2196d068d3"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "BLACK_HOLE_CROSS_FAMILY_NODE": 1,
+            "COMPOSED_DEPENDENCY": 131,
+            "DEPENDS_TO": 1,
+            "DIRECTED_TO": 1,
+            "EXPLICIT_ARROW": 1,
+            "FEEDS_BLACK_HOLE_MODEL": 1,
+            "FORMALLY_DEPENDS_ON": 1,
+            "FORMALLY_SUPPORTS": 2,
+            "GLOBALLY_FEEDS_BLACK_HOLE": 1,
+            "RECOVERED_DEPENDENCY": 1,
+            "USED_BY": 1,
+            "VERTICAL_CHAIN": 1
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@gravitational_wave",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.881690+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 623,
+            "english_units": 689,
+            "equation_units": 7,
+            "evidence_diversity": 2,
+            "handle": "@gravitational_wave",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 4,
+            "recommended_priority": "P2",
+            "registered_dependencies": 679,
+            "run_id": "RP-05B",
+            "score": 84,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 12255,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 721,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:721"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 722,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:722"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 723,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:723"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1798,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1798"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1960,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1960"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 2204,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:2204"
+            }
+          ],
+          "handle": "@gravitational_wave",
+          "incoming_relation_types": {
+            "ADMITS": 1,
+            "BLACK_HOLE_GLOBAL_REACHES": 1,
+            "BLACK_HOLE_MODEL_REACHES": 1,
+            "COMPOSED_DEPENDENCY": 414,
+            "CONTAINS_BRANCH": 1,
+            "CORRESPOND_TO": 1,
+            "DEPENDS_ON": 15,
+            "GENERATES": 1,
+            "GOVERNS": 1,
+            "OBSERVES": 1,
+            "PREDICTS": 1,
+            "REALIZES": 1,
+            "SUPPORTS": 39,
+            "SUPPORTS_FAMILY": 1
+          },
+          "native_report": {
+            "bytes": 2723363,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V07_C07\\gravitational_wave_09eeda864abd4c1e9292d902ba6f44a2.md",
+            "reused_master_query": false,
+            "sha256": "2fe87966f2244a9308aa189bfccafb2e64411762aace1a95d873433ae3d9c268"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "ADMITTED_BY": 1,
+            "BLACK_HOLE_CROSS_FAMILY_NODE": 1,
+            "BRANCH_OF": 1,
+            "CARRIES": 1,
+            "COMPOSED_DEPENDENCY": 131,
+            "DEPENDS_ON": 45,
+            "FAMILY_DEPENDS_ON": 1,
+            "FEEDS_BLACK_HOLE_MODEL": 1,
+            "GENERATED_BY": 1,
+            "GLOBALLY_FEEDS_BLACK_HOLE": 1,
+            "OBSERVED_BY": 1,
+            "PERTURBS": 1,
+            "PROPAGATES_AS": 1,
+            "PROPAGATES_THROUGH": 1,
+            "REALIZED_BY": 1,
+            "SUPPORTS": 11
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@gravitational_wave_propagation",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.881690+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 130,
+            "english_units": 47,
+            "equation_units": 10,
+            "evidence_diversity": 2,
+            "handle": "@gravitational_wave_propagation",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P2",
+            "registered_dependencies": 8,
+            "run_id": "RP-05B",
+            "score": 82,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 2800,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 549,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:549"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 551,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:551"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 712,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:712"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 719,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:719"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 721,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:721"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 732,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:732"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1798,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1798"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 2203,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:2203"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 2204,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:2204"
+            }
+          ],
+          "handle": "@gravitational_wave_propagation",
+          "incoming_relation_types": {
+            "BLACK_HOLE_GLOBAL_REACHES": 1,
+            "BLACK_HOLE_MODEL_REACHES": 1,
+            "DIRECTED_TO": 1,
+            "REALIZED_BY": 1,
+            "USED_BY": 1
+          },
+          "native_report": {
+            "bytes": 2468071,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V07_C07\\gravitational_wave_propagation_8a5b4409318f4e5a989ae5205d33a2e7.md",
+            "reused_master_query": false,
+            "sha256": "9dc34eab6312ad49e1b7d94c575105f77e02a7f0cac5a2e04d8aa62e191bd859"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "FEEDS_BLACK_HOLE_MODEL": 1,
+            "GLOBALLY_FEEDS_BLACK_HOLE": 1,
+            "REALIZES": 1
+          }
+        }
+      ],
+      "title": "Gravitational Waves and Radiation"
+    }
+  ],
+  "database_sha256": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03",
+  "database_unchanged": true,
+  "query_architecture": "Runtime -> BRANE -> API/QMO -> Library 4.1",
+  "query_receipt": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\native_query_receipt_V07_C07.json",
+  "schema": "mk-ultra-tome-native-evidence-digest-v1"
+}

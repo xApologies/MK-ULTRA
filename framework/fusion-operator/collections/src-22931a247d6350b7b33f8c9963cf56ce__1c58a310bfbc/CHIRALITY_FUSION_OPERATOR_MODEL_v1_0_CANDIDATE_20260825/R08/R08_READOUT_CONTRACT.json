@@ -1,0 +1,86 @@
+{
+  "formal_input": "full Fusion record",
+  "maps": {
+    "R0_balance": {
+      "retains": [
+        "signed_balance"
+      ],
+      "forgets": [
+        "local_chirality",
+        "seam",
+        "source_order",
+        "witness",
+        "provenance"
+      ]
+    },
+    "R1_chi": {
+      "retains": [
+        "unordered_local_chirality",
+        "opposition_parity",
+        "signed_balance",
+        "chirality_content"
+      ],
+      "forgets": [
+        "seam",
+        "source_order",
+        "witness",
+        "provenance"
+      ]
+    },
+    "R2_seam": {
+      "retains": [
+        "R1_chi",
+        "seam"
+      ],
+      "forgets": [
+        "source_order",
+        "witness",
+        "provenance"
+      ]
+    },
+    "R3_full": {
+      "retains": [
+        "ordered_source_images",
+        "chirality_profile",
+        "seam",
+        "witness",
+        "provenance"
+      ]
+    },
+    "R_occ": {
+      "retains": [
+        "label_population"
+      ],
+      "forgets": [
+        "arrangement",
+        "chirality",
+        "seam_semantics",
+        "source_order",
+        "witness",
+        "provenance"
+      ]
+    }
+  },
+  "display_test": {
+    "source": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "permutation": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "declared_output": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "classification_if_permutation_declared": "representation-only / losslessly invertible",
+    "classification_if_identity_contract_declared": "contract mismatch unless another admissible map is supplied"
+  }
+}

@@ -1,0 +1,9 @@
+# BRANE Library⁵ Contract
+
+Declarations: role=library; contract_version=2.0; internal_dimension=5; canonical_state_policy=READ_ONLY; rewrite_policy=DERIVED_ONLY.
+
+Required methods:
+recover, recover_batch, recover_model, recover_equations, recover_models, recover_analogies, recover_explanations, assemble_chunk, pull_qmo, dimension_model, fork_request_context, canonical_fingerprint, healthcheck.
+
+Population/admin methods:
+add_address, add_many, add_package, append_content, replace_address, replace_package, remove_address, remove_many, remove_package, purge_address, purge_package, preview_transaction, validate_transaction, commit_transaction, rollback_transaction.

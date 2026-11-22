@@ -1,0 +1,38 @@
+{
+  "schema": "ASTRAEUS_BH_INFORMATION_WHITE_STATE_FORK_V1",
+  "qmo_id": "QMO-AST-DM-WL-077",
+  "name": "Black-Hole Information Closure / White-State Core Fork",
+  "atlas_version": "WL-v193",
+  "status": "SOURCE_RECOVERED_FORK_NO_DARK_SELECTOR_BRIDGE",
+  "seed": "@black_hole_information_closure",
+  "source_type": {
+    "handle": "@black_hole_information_closure",
+    "type": "HorizonMicrostateClosure",
+    "domain": "admissible horizon and interior configurations",
+    "codomain": "entropy, temperature, conserved information records"
+  },
+  "direct_incoming": [
+    "@black_hole",
+    "@event_horizon",
+    "@white_state_core",
+    "@er_network"
+  ],
+  "direct_outgoing": [
+    "@black_hole_thermodynamics",
+    "@evaporation",
+    "@strong_field_gravity"
+  ],
+  "white_state_core_fork": [
+    "@white_state_core -> @black_hole_information_closure",
+    "@white_state_core -> @dm_mode0_access_interface",
+    "@white_state_core -> @critical_compression",
+    "@white_state_core -> @white_core_mote_coupling"
+  ],
+  "finding": "The queued handle is a genuine black-hole information/thermodynamics closure. Its only dark-matter relevance in the present graph is a shared upstream White-State Core with the Mode-0 access interface. No registered edge carries black-hole information closure into the Mode-0 selection rule, so this is a fork, not a selector side door.",
+  "disposition": "STOP_BH_INFORMATION_BRANCH; follow the White-State/Core structural seam only through separately registered handles.",
+  "guardrails": [
+    "shared upstream handle != direct dependency",
+    "black-hole information invariant != Mode-0 selection rule",
+    "thermodynamic closure != dark-matter qualification"
+  ]
+}

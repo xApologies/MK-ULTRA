@@ -1,0 +1,77 @@
+{
+  "schema": "ASTRAEUS_API_QMO_GALAXY_RESPONSE_READOUT_V1",
+  "qmo_id": "QMO-AST-DM-WL-058",
+  "name": "Native Hidden Witness / Hidden Response Operator / Galaxy Readout",
+  "atlas_version": "WL-v173",
+  "status": "SOURCE_REGISTERED_GALAXY_READOUT_NOT_PHYSICAL_DARK_MATTER_NOT_PARENT_PROMOTED",
+  "query": {
+    "schema": "ASTRAEUS_CROSS_API_PAIR_QUERY_V1",
+    "a": "@dm_hidden_response_operator",
+    "b": "@galaxy",
+    "radius": 2,
+    "a_node_count": 9,
+    "b_node_count": 5,
+    "interface": [
+      {
+        "handle": "@dm_hidden_response_operator",
+        "distance_a": 0,
+        "distance_b": 1
+      },
+      {
+        "handle": "@galaxy",
+        "distance_a": 1,
+        "distance_b": 0
+      },
+      {
+        "handle": "@dm_continuity_laplacian",
+        "distance_a": 1,
+        "distance_b": 2
+      },
+      {
+        "handle": "@dm_hidden_boundary_response_form",
+        "distance_a": 1,
+        "distance_b": 2
+      },
+      {
+        "handle": "@dm_native_hidden_witness",
+        "distance_a": 1,
+        "distance_b": 2
+      }
+    ],
+    "path_a_to_b": [
+      {
+        "source": "@dm_hidden_response_operator",
+        "relation": "READS_OUT_AT",
+        "target": "@galaxy",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      }
+    ],
+    "path_b_to_a": null,
+    "edge_policy": {
+      "timespace": "high-confidence direct/non-derived RP42 records",
+      "darkmatter": "high-confidence DM_DIRECT_EDGE_REGISTRY records",
+      "gluing": "exact handle equality only; no cross-edge is invented"
+    }
+  },
+  "registered_chain": [
+    "@dm_native_hidden_witness CONTAINS @dm_hidden_response_operator",
+    "@dm_hidden_response_operator READS_OUT_AT @galaxy"
+  ],
+  "response_math": "Lambda_N=L_PP-L_PI L_II^{-1} L_IP; DeltaLambda_H=Lambda_full-Lambda_vis",
+  "galaxy_status": {
+    "timespace_parent_status": "indexed-unlinked",
+    "darkmatter_relation": "@dm_hidden_response_operator READS_OUT_AT @galaxy"
+  },
+  "finding": "DM2.0 already registers the algebraic hidden S3-to-S2 Schur/Kron response operator as reading out at @galaxy. This is a dark-matter API readout edge, not a proof that the indexed-unlinked Time-Space @galaxy handle has been fully integrated into the parent dependency graph.",
+  "next_handle": "@dm_stress_energy_separation_gate",
+  "guardrails": [
+    "@galaxy indexed-unlinked in Time-Space 4.3 remains a parent integration warning",
+    "Schur/Kron galaxy readout != observed dark matter",
+    "one-port no-go still applies to a free one-port hidden component"
+  ]
+}

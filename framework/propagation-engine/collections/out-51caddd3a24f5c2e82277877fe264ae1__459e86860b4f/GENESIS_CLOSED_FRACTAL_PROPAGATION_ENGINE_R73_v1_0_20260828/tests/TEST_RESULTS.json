@@ -1,0 +1,22 @@
+{
+  "T1_same_dimensional_acceptance": {
+    "status": "PASS",
+    "statement": "A 5D closed engine identity can map/read into a 5D closed engine profile; dimension reduction is not required."
+  },
+  "T2_lower_dimensional_seed": {
+    "status": "PASS",
+    "statement": "5D->dD projection may be many-to-one while the resulting shadow acts as a seed into a constrained higher-dimensional lift fiber."
+  },
+  "T3_identity_under_transform": {
+    "status": "PASS_GENERIC",
+    "statement": "Identity is preserved under any declared admissible geometric transformation that preserves History-decorated recursive tower equivalence."
+  },
+  "T4_engine_vector_relation": {
+    "status": "PASS_STRONG_CANDIDATE",
+    "statement": "Propagation vector/readout is induced by current dimensional engagement of the engine identity rather than attached as an independent primitive."
+  },
+  "T5_profile_contract_branch": {
+    "status": "CLOSED_GENERIC",
+    "statement": "Generic profile contract reduces to closed recursive profile plus admissible transformation class; profile-specific extra invariants are optional refinements."
+  }
+}

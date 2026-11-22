@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "actor": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "input_fingerprints": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "kind": {
+      "type": "string"
+    },
+    "notes": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "output_fingerprint": {
+      "type": "string"
+    },
+    "receipt_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "receipt_id",
+    "kind",
+    "input_fingerprints",
+    "output_fingerprint",
+    "created_at"
+  ],
+  "title": "Provenance Receipt",
+  "type": "object"
+}

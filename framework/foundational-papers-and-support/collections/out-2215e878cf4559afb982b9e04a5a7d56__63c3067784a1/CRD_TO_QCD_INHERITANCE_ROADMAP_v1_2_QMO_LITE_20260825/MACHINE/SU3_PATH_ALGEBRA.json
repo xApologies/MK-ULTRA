@@ -1,0 +1,214 @@
+{
+  "representative_root_map": {
+    "1": {
+      "operator": "E12",
+      "edge": [
+        1,
+        2
+      ],
+      "root": [
+        "1",
+        "0"
+      ]
+    },
+    "3": {
+      "operator": "E13",
+      "edge": [
+        1,
+        3
+      ],
+      "root": [
+        "1/2",
+        "sqrt(3)/2"
+      ]
+    },
+    "2": {
+      "operator": "E23",
+      "edge": [
+        2,
+        3
+      ],
+      "root": [
+        "-1/2",
+        "sqrt(3)/2"
+      ]
+    },
+    "6": {
+      "operator": "E21",
+      "edge": [
+        2,
+        1
+      ],
+      "root": [
+        "-1",
+        "0"
+      ]
+    },
+    "4": {
+      "operator": "E31",
+      "edge": [
+        3,
+        1
+      ],
+      "root": [
+        "-1/2",
+        "-sqrt(3)/2"
+      ]
+    },
+    "5": {
+      "operator": "E32",
+      "edge": [
+        3,
+        2
+      ],
+      "root": [
+        "1/2",
+        "-sqrt(3)/2"
+      ]
+    }
+  },
+  "nonzero_matrix_unit_products": [
+    {
+      "left": 1,
+      "right": 2,
+      "result": {
+        "basin": 3,
+        "operator": "E13"
+      }
+    },
+    {
+      "left": 1,
+      "right": 6,
+      "result": {
+        "diagonal_projector": "E11"
+      }
+    },
+    {
+      "left": 3,
+      "right": 4,
+      "result": {
+        "diagonal_projector": "E11"
+      }
+    },
+    {
+      "left": 3,
+      "right": 5,
+      "result": {
+        "basin": 1,
+        "operator": "E12"
+      }
+    },
+    {
+      "left": 2,
+      "right": 4,
+      "result": {
+        "basin": 6,
+        "operator": "E21"
+      }
+    },
+    {
+      "left": 2,
+      "right": 5,
+      "result": {
+        "diagonal_projector": "E22"
+      }
+    },
+    {
+      "left": 6,
+      "right": 1,
+      "result": {
+        "diagonal_projector": "E22"
+      }
+    },
+    {
+      "left": 6,
+      "right": 3,
+      "result": {
+        "basin": 2,
+        "operator": "E23"
+      }
+    },
+    {
+      "left": 4,
+      "right": 1,
+      "result": {
+        "basin": 5,
+        "operator": "E32"
+      }
+    },
+    {
+      "left": 4,
+      "right": 3,
+      "result": {
+        "diagonal_projector": "E33"
+      }
+    },
+    {
+      "left": 5,
+      "right": 2,
+      "result": {
+        "diagonal_projector": "E33"
+      }
+    },
+    {
+      "left": 5,
+      "right": 6,
+      "result": {
+        "basin": 4,
+        "operator": "E31"
+      }
+    }
+  ],
+  "key_commutators": [
+    {
+      "left": 1,
+      "right": 6,
+      "result": "H12=E11-E22"
+    },
+    {
+      "left": 2,
+      "right": 5,
+      "result": "H23=E22-E33"
+    },
+    {
+      "left": 3,
+      "right": 4,
+      "result": "H13=E11-E33=H12+H23"
+    },
+    {
+      "left": 1,
+      "right": 2,
+      "result": "E13 (basin 3)"
+    },
+    {
+      "left": 3,
+      "right": 5,
+      "result": "E12 (basin 1)"
+    },
+    {
+      "left": 2,
+      "right": 4,
+      "result": "E21 (basin 6)"
+    },
+    {
+      "left": 6,
+      "right": 3,
+      "result": "E23 (basin 2)"
+    },
+    {
+      "left": 4,
+      "right": 1,
+      "result": "E32 (basin 5)"
+    },
+    {
+      "left": 5,
+      "right": 6,
+      "result": "E31 (basin 4)"
+    }
+  ],
+  "generated_complex_lie_algebra": "sl(3,C)",
+  "compact_real_form": "su(3)",
+  "cartan_rank": 2,
+  "off_diagonal_root_directions": 6,
+  "total_real_su3_dimension": 8
+}

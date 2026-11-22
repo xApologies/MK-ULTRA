@@ -1,0 +1,25 @@
+{
+  "experiment": "E038",
+  "candidate": "CAND-DM-TT-ROBUST-SOURCE-COMPONENT-041",
+  "title": "Exact A_g Archaeology, Conditional TT Robustness, and Pairwise Source-Component Rebase",
+  "status": "A_g STILL SOURCE-OPEN; STANDARD TT GENERICALLY SURVIVES; SOURCE-COMPONENT ROUTE NOW PRIMARY",
+  "physical_dark_matter_witness": false,
+  "parent_promotions": 0,
+  "results": {
+    "source_files_with_Ag_CTT_related_hits": 14,
+    "exact_Ag_operator_recovered": false,
+    "exact_current_pair_CTT_admission_rule_recovered": false,
+    "TT_tensor_cases": 12,
+    "TT_directions_per_tensor": 200000,
+    "TT_total_evaluations": 2400000,
+    "minimum_fraction_directions_retaining_gt_1pct_norm": 0.999795,
+    "minimum_tensor_median_TT_ratio": 0.5767496219593795,
+    "tensors_with_numerically_silent_special_direction": 12,
+    "stress_energy_density_separation_theorem_recovered": true,
+    "fixed_GR_source_separation_theorem_recovered": true,
+    "current_pair_native_density_component_certificate": false,
+    "current_pair_readable_density_nonannihilation_certificate": false
+  },
+  "ruling": "Comprehensive source archaeology does not recover the missing A_g. Conventional TT projection of the existing rank-two precursor is generically nonzero across the sphere, but each tensor has special TT-silent directions, so physical mode/direction selection remains essential. The branch therefore switches to the pairwise source-component route. The remaining source-side bottleneck is now current-pair native density typing plus T_rho,R nonannihilation; once one readable density component differs, stress-energy and fixed-GR metric separation are already theoremically closed.",
+  "next_handle": "RECOVER_CURRENT_PAIR_NATIVE_ENERGY_DENSITY_COMPONENT_WITHOUT_BANDWIDTH_EQUALS_TRANSITION_CAPACITY_SHORTCUT_THEN_TEST_T_RHO_R_NONANNIHILATION"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "QMO-AST-DM-WL-007_STAGEWISE_GRAVITY_INTERTWINING_DARK_ONSET",
+  "work_layer": "WL-008",
+  "atlas": "WL-v132",
+  "date": "2026-08-17",
+  "status": "SOURCE_COMPOSED_EXTERNAL_MATH_REDUCTION_CANDIDATE_NOT_PARENT_PROMOTED",
+  "parents": [
+    "QMO-AST-DM-WL-006_S4_CONTINUITY_CLOSURE_HORIZONTAL_HOLONOMY",
+    "QMO-AST-DM-WL-005_T5_LOCAL_QFT_GR_S3_CONTINUITY_BRIDGE",
+    "QFT/GR Representation Bridge from the Common Chirality Fabric",
+    "Time-Space API 4.3 gravity and Helicon route"
+  ],
+  "gravity_stages": [
+    "chi",
+    "ER",
+    "Helicon",
+    "gravitational_helicon_mode",
+    "Graviton",
+    "continuity_perturbation",
+    "Time_Shell_projection",
+    "h_mn",
+    "g_mn",
+    "curvature_GR"
+  ],
+  "vertical_maps": "v_i^alpha:X_i^alpha->X_(i+1)^alpha",
+  "horizontal_transports": "U_i(gamma):X_i^alpha->X_i^beta with U_0=P_gamma^chi and U_9=U_G",
+  "stagewise_condition": "U_(i+1)(gamma) o v_i^alpha = v_i^beta o U_i(gamma)",
+  "reduction_lemma": "if all stagewise squares commute, then rho_G,beta o P_gamma^chi = U_G(gamma) o rho_G,alpha",
+  "dark_onset": "k_*=min{i|r_i(F0)!=r_i(F1)} for a pair with fixed localized matter/QFT readout",
+  "holonomy_pair": {
+    "F0": "Hol_H(gamma_H)=id",
+    "F1": "Hol_H(gamma_H)!=id",
+    "anchor": "gamma_H based at p_H in S3"
+  },
+  "priority_stage": "Helicon is first priority audit because source contains rotational modes, rotational-frame resonance, curvature binding, shear compensation, and downstream continuity redistribution; not presumed to pass",
+  "frame_rule": "frame dragging is a late readout after successful stage transport, not a primitive input",
+  "parent_promotions": 0
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "ASTRAEUS_QMO_CANDIDATE_V1",
+  "qmo_id": "QMO-DM-BRIDGE-CAND-018",
+  "handle": "@dm_ucm_topology_source_scope_inclusion",
+  "canonical_name": "UCM Topology-Bearing Source-Scope Inclusion",
+  "status": "LIVE_SOURCE_DERIVED_CLOSED",
+  "checkpoint": "E077",
+  "parents": [
+    "@universal_coupling",
+    "@dm_hidden_s3_network",
+    "@stress_energy_tensor"
+  ],
+  "source_basis": [
+    "ATLAS_V36:132_UCM_FULL_VS_VISIBLE_SOURCE_PROJECTION.md",
+    "ATLAS_V36:136_V17_MASTER_SYNTHESIS.md"
+  ],
+  "result": "The recovered UCM readable source projection has declared source-side inputs O, Chi, A, P, Rred, S, B. Thus UCM-internal adjacency/topology, chirality, persistence, redistribution, survivability/strain, and Bandwidth belong to the full UCM source ledger T_U rather than requiring a second independent beta_ext source branch.",
+  "math": "T_U(L)=Pi_read^UCM(O,Chi,A,P,Rred,S,B); beta_ext contains only downstream GR inputs not already represented in Pi_read^UCM.",
+  "boundary": "Declared source scope does not prove Pi_read is nonconstant in every coordinate and does not prove the selected hidden pair produces Delta T_U != 0.",
+  "physical_claim": false
+}

@@ -1,0 +1,19 @@
+{
+  "T1_congruence_too_strict": {
+    "status": "PASS_NEGATIVE",
+    "statement": "Exact geometric congruence rejects harmless coordinate deformations and is too strict as the universal identity law."
+  },
+  "T2_homeomorphism_too_weak": {
+    "status": "PASS_NEGATIVE",
+    "statement": "Homeomorphism alone can forget recursive incidence/cell labels and History, so it is too weak."
+  },
+  "T3_simplicial_cellular_nearly_sufficient": {
+    "status": "PASS",
+    "statement": "Simplicial/cellular isomorphism preserves higher-order recursive incidence but still needs History decoration."
+  },
+  "T4_history_decorated_tower": {
+    "status": "PASS_STRONG_CANDIDATE",
+    "score": 6,
+    "statement": "A History-decorated simplicial/cellular tower isomorphism satisfies all accumulated structural requirements."
+  }
+}

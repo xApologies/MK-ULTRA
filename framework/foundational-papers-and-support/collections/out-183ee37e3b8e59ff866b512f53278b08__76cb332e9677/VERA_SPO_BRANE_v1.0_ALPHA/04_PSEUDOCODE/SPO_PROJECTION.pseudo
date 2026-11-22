@@ -1,0 +1,17 @@
+FUNCTION PROJECT_SPO(qmo6, profile_pkg, target_device):
+    ASSERT qmo6.validation_state == VALID
+    ASSERT profile_pkg.parent_api_fingerprint == qmo6.api_fingerprint
+
+    spo ← NEW_INDEPENDENT_SPO()
+    spo.instance_id ← UUID()
+    spo.parent_api_fingerprint ← qmo6.api_fingerprint
+    spo.profile_fields ← PROJECT_ALLOWED_PROFILE_FIELDS(qmo6, profile_pkg)
+    spo.rules ← PROJECT_ADMISSIBLE_RULES(qmo6, profile_pkg)
+    spo.protected_events ← INHERIT_PROTECTED_EVENTS(qmo6)
+    spo.safety_constraints ← INHERIT_SAFETY_CONSTRAINTS(qmo6)
+    spo.device_target ← target_device
+    spo.provenance ← MERGE_PROVENANCE(qmo6, profile_pkg)
+    spo.fingerprint ← HASH_CANONICAL(spo)
+    FREEZE(spo)
+    RETURN spo
+END

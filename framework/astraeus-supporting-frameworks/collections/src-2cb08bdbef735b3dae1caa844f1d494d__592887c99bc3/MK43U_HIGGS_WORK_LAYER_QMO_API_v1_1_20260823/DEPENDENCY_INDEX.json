@@ -1,0 +1,1858 @@
+{
+  "schema": "MK43_HIGGS_WORK_DEPENDENCY_INDEX_V1_1",
+  "root": "@higgs_field",
+  "object_count": 74,
+  "edge_count": 147,
+  "equation_count": 19,
+  "proof_debt_count": 6,
+  "adjacency_out": {
+    "@higgs_field": [
+      {
+        "relation": "HAS_NATIVE_REALIZATION",
+        "target": "@native_higgs_order_field",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "HAS_READABLE_REALIZATION_TARGET",
+        "target": "@projected_higgs_field",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "HAS_MASS_RESPONSE",
+        "target": "@native_mass",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "HAS_OPERATOR_GRAMMAR",
+        "target": "@dot_notation",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "HAS_ENVIRONMENTAL_ANCESTRY",
+        "target": "@genesis_field",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "HAS_PROJECTION_INTERFACE",
+        "target": "@canonical_qft_handoff_object",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "HAS_DOWNSTREAM_BOUNDARY",
+        "target": "@persistence_thickening_threshold",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "HAS_WORK_LAYER_CLOSURE",
+        "target": "@higgs_work_layer_closure",
+        "audit_status": "WORK_LAYER_ACCEPTED"
+      }
+    ],
+    "@native_higgs_order_field": [
+      {
+        "relation": "DOMAIN",
+        "target": "@environment_address_space",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "CODOMAIN",
+        "target": "@native_higgs_order_space",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "HAS_LOCAL_STATE",
+        "target": "@native_higgs_order_state",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "HAS_ORDER_CONDITIONED_MASS_READOUT",
+        "target": "@native_mass",
+        "audit_status": "DERIVED_CLOSED"
+      },
+      {
+        "relation": "ACTS_THROUGH",
+        "target": "@inherit_operator",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "ACTS_THROUGH",
+        "target": "@stabilize_operator",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "ACTS_THROUGH",
+        "target": "@bounded_closure_operator",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@native_higgs_order_space": [
+      {
+        "relation": "CONTAINS",
+        "target": "@native_higgs_order_state",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "HAS_VACUUM_ORDER",
+        "target": "@native_vacuum_order",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "CONDITIONS",
+        "target": "@stabilize_operator",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "CONDITIONS",
+        "target": "@knot_admissibility_domain",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "CONDITIONS",
+        "target": "@bounded_closure_operator",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "CONDITIONS",
+        "target": "@conditioned_lock_selector",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "SOURCE_COMPATIBILITY_LABEL",
+        "target": "@historical_t4_label",
+        "audit_status": "HISTORICAL_ALIAS"
+      },
+      {
+        "relation": "MAPS_BY",
+        "target": "@native_to_projected_higgs_map",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "REQUIRES_EXACT_SELECTOR_TO",
+        "target": "@higgs_helicon_sector",
+        "audit_status": "OPEN_PROOF_DEBT"
+      },
+      {
+        "relation": "HAS_CONFIGURATION_GRAPH",
+        "target": "@higgs_order_graph",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "HAS_CANONICAL_ORDER_READOUT",
+        "target": "@canonical_higgs_configuration",
+        "audit_status": "WORK_LAYER_DERIVED"
+      }
+    ],
+    "@environment_address_space": [
+      {
+        "relation": "READS",
+        "target": "@environment",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "READS",
+        "target": "@chirality",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "READS",
+        "target": "@resolution",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "READS",
+        "target": "@bandwidth",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@environment": [
+      {
+        "relation": "INHERITS",
+        "target": "@er_foam",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@genesis_field": [
+      {
+        "relation": "HAS_RESOLUTION_COORDINATE",
+        "target": "@resolution",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "HAS_BANDWIDTH_COORDINATE",
+        "target": "@bandwidth",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@dot_notation": [
+      {
+        "relation": "DEFINES",
+        "target": "@inherit_operator",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "DEFINES",
+        "target": "@stabilize_operator",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "DEFINES",
+        "target": "@bounded_closure_operator",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@stabilize_operator": [
+      {
+        "relation": "TESTS_INTO",
+        "target": "@knot_admissibility_domain",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@conditioned_lock_selector": [
+      {
+        "relation": "USES",
+        "target": "@stabilize_operator",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "USES",
+        "target": "@bounded_closure_operator",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "RETURNS_VACUUM_ON_FAILURE",
+        "target": "@native_vacuum",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "SELECTS",
+        "target": "@localized_persistence_lock",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@native_mass": [
+      {
+        "relation": "EVALUATES",
+        "target": "@localized_persistence_lock",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "USES",
+        "target": "@persistence",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "SUBTRACTS_BASELINE",
+        "target": "@native_vacuum",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "PARTITIONS",
+        "target": "@massless_sector",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "PARTITIONS",
+        "target": "@massive_sector",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "TRANSLATED_BY",
+        "target": "@readable_mass_translation",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@massless_sector": [
+      {
+        "relation": "DEFINED_BY",
+        "target": "@conditioned_lock_selector",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "REFERENCES",
+        "target": "@native_vacuum_order",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@massive_sector": [
+      {
+        "relation": "DEFINED_BY",
+        "target": "@conditioned_lock_selector",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "REFERENCES",
+        "target": "@native_vacuum_order",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@native_to_projected_higgs_map": [
+      {
+        "relation": "TARGETS",
+        "target": "@higgs_sector_bundle",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "REALIZES",
+        "target": "@projected_higgs_field",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@projected_higgs_field": [
+      {
+        "relation": "SECTION_OF",
+        "target": "@higgs_sector_bundle",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@native_vacuum_order": [
+      {
+        "relation": "MAPS_TO",
+        "target": "@projected_higgs_vacuum",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@projected_higgs_vacuum": [
+      {
+        "relation": "STATE_OF",
+        "target": "@projected_higgs_field",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@higgs_sector_bundle": [
+      {
+        "relation": "SECTOR_OF",
+        "target": "@residue_quantum_field_bundle",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@residue_quantum_field_bundle": [
+      {
+        "relation": "MEMBER_OF",
+        "target": "@canonical_qft_handoff_object",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "BUILT_FROM",
+        "target": "@invariant_residue",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@canonical_qft_handoff_object": [
+      {
+        "relation": "HAS_TARGET",
+        "target": "@projective_target_manifold",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@persistent_boundary": [
+      {
+        "relation": "READ_OUT_BY",
+        "target": "@boundary_projection",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@time_shell": [
+      {
+        "relation": "REALIZES_INTERFACE",
+        "target": "@persistent_boundary",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "USES",
+        "target": "@boundary_projection",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@boundary_projection": [
+      {
+        "relation": "TARGETS",
+        "target": "@projective_target_manifold",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "PRESERVES_AS",
+        "target": "@invariant_residue",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@helicon": [
+      {
+        "relation": "MODE_OF",
+        "target": "@er_foam",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "CONSTRAINED_BY",
+        "target": "@chirality",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@helicon_spectral_operator": [
+      {
+        "relation": "SELECTS_ALLOWED_MODE",
+        "target": "@helicon",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@higgs_helicon_sector": [
+      {
+        "relation": "SUBSPACE_OF",
+        "target": "@helicon",
+        "audit_status": "OPEN_CLASSIFICATION"
+      },
+      {
+        "relation": "MUST_PRECEDE_READABLE_REALIZATION",
+        "target": "@projected_higgs_field",
+        "audit_status": "PROJECT_CONSTRAINT"
+      },
+      {
+        "relation": "PROJECTS_THROUGH",
+        "target": "@time_shell",
+        "audit_status": "CANDIDATE_FACTORIZATION"
+      }
+    ],
+    "@higgs_order_graph": [
+      {
+        "relation": "ADMITS_EDGE",
+        "target": "@higgs_order_excitation",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@higgs_order_excitation": [
+      {
+        "relation": "INDUCES",
+        "target": "@finite_higgs_mass_coupling",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@finite_higgs_mass_coupling": [
+      {
+        "relation": "MEASURES_CHANGE_IN",
+        "target": "@native_mass",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@projected_mode_space": [
+      {
+        "relation": "REPRESENTS_MASS_SECTORS_OF",
+        "target": "@native_mass",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@native_mass_operator": [
+      {
+        "relation": "ACTS_ON",
+        "target": "@projected_mode_space",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "relation": "BUILT_FROM",
+        "target": "@native_mass",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@higgs_mass_matrix_correspondence": [
+      {
+        "relation": "COMPARES",
+        "target": "@native_mass_operator",
+        "audit_status": "OPEN_CORRESPONDENCE"
+      },
+      {
+        "relation": "AT_VACUUM",
+        "target": "@projected_higgs_vacuum",
+        "audit_status": "OPEN_CORRESPONDENCE"
+      }
+    ],
+    "@readable_mass_translation": [
+      {
+        "relation": "USED_BY",
+        "target": "@higgs_mass_matrix_correspondence",
+        "audit_status": "OPEN_CORRESPONDENCE"
+      }
+    ],
+    "@persistence_thickening_threshold": [
+      {
+        "relation": "DOWNSTREAM_OF",
+        "target": "@native_higgs_order_field",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@canonical_higgs_configuration": [
+      {
+        "relation": "INSTANCE_OF",
+        "target": "@projected_higgs_field",
+        "audit_status": "WORK_LAYER_DERIVED"
+      }
+    ],
+    "@canonical_positive_lock": [
+      {
+        "relation": "REPRESENTED_BY",
+        "target": "@local_positive_mode",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      }
+    ],
+    "@canonical_zero_lock": [
+      {
+        "relation": "REPRESENTED_BY",
+        "target": "@local_zero_mode",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      }
+    ],
+    "@local_positive_mode": [
+      {
+        "relation": "MAPS_BY",
+        "target": "@local_matter_realization_map",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      }
+    ],
+    "@local_matter_realization_map": [
+      {
+        "relation": "REALIZES",
+        "target": "@local_positive_matter_state",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      }
+    ],
+    "@local_positive_matter_state": [
+      {
+        "relation": "INSTANCE_OF",
+        "target": "@field_section",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      },
+      {
+        "relation": "GOVERNED_BY",
+        "target": "@local_positive_matter_action",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      }
+    ],
+    "@local_positive_matter_action": [
+      {
+        "relation": "INSTANCE_OF",
+        "target": "@matter_action",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      }
+    ],
+    "@local_positive_stress_energy": [
+      {
+        "relation": "INSTANCE_OF",
+        "target": "@stress_energy_tensor",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      },
+      {
+        "relation": "DERIVED_FROM",
+        "target": "@local_positive_matter_action",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      }
+    ],
+    "@local_positive_matter_coupling": [
+      {
+        "relation": "INSTANCE_OF",
+        "target": "@matter_coupling",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      },
+      {
+        "relation": "DEPENDS_ON",
+        "target": "@local_positive_stress_energy",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      },
+      {
+        "relation": "REALIZES",
+        "target": "@local_gravity_matter_closure",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      }
+    ],
+    "@local_gravity_matter_closure": [
+      {
+        "relation": "INSTANCE_OF",
+        "target": "@gravity_matter_closure",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      },
+      {
+        "relation": "DEPENDS_ON",
+        "target": "@einstein_field_equation",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      },
+      {
+        "relation": "DEPENDS_ON",
+        "target": "@graviton",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      }
+    ],
+    "@local_continuity_perturbation": [
+      {
+        "relation": "INSTANCE_OF",
+        "target": "@continuity_perturbation",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      },
+      {
+        "relation": "PROJECTS_BY",
+        "target": "@time_shell_projection_operator",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      },
+      {
+        "relation": "PROJECTS_TO",
+        "target": "@local_graviton_metric",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      }
+    ],
+    "@graviton": [
+      {
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@local_continuity_perturbation",
+        "audit_status": "WORK_LAYER_LOCAL_REALIZATION"
+      },
+      {
+        "relation": "DEPENDS_TO",
+        "target": "@continuity_perturbation",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "relation": "DIRECTED_TO",
+        "target": "@continuity_perturbation",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "relation": "EXPLICIT_ARROW",
+        "target": "@continuity_perturbation",
+        "audit_status": "API43_DIRECT_SOURCE"
+      },
+      {
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@continuity_perturbation",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@continuity_perturbation",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "relation": "USED_BY",
+        "target": "@continuity_perturbation",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "relation": "VERTICAL_CHAIN",
+        "target": "@continuity_perturbation",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@continuity_perturbation",
+        "audit_status": "API43_DERIVED"
+      }
+    ],
+    "@local_graviton_metric": [
+      {
+        "relation": "INSTANCE_OF",
+        "target": "@weak_field_metric_perturbation",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      }
+    ],
+    "@local_component_match_timelike": [
+      {
+        "relation": "COMPARES",
+        "target": "@local_graviton_metric",
+        "audit_status": "WORK_LAYER_CLOSED"
+      },
+      {
+        "relation": "COMPARES",
+        "target": "@local_positive_stress_energy",
+        "audit_status": "WORK_LAYER_CLOSED"
+      }
+    ],
+    "@local_component_match_spacelike": [
+      {
+        "relation": "COMPARES",
+        "target": "@local_graviton_metric",
+        "audit_status": "WORK_LAYER_CLOSED"
+      },
+      {
+        "relation": "COMPARES",
+        "target": "@local_positive_stress_energy",
+        "audit_status": "WORK_LAYER_CLOSED"
+      }
+    ],
+    "@higgs_work_layer_closure": [
+      {
+        "relation": "DEPENDS_ON",
+        "target": "@local_positive_matter_state",
+        "audit_status": "WORK_LAYER_ACCEPTED"
+      },
+      {
+        "relation": "DEPENDS_ON",
+        "target": "@local_gravity_matter_closure",
+        "audit_status": "WORK_LAYER_ACCEPTED"
+      },
+      {
+        "relation": "DEPENDS_ON",
+        "target": "@local_component_match_timelike",
+        "audit_status": "WORK_LAYER_ACCEPTED"
+      },
+      {
+        "relation": "DEPENDS_ON",
+        "target": "@local_component_match_spacelike",
+        "audit_status": "WORK_LAYER_ACCEPTED"
+      },
+      {
+        "relation": "DEPENDS_ON",
+        "target": "@higgs_physical_boundary_audit",
+        "audit_status": "WORK_LAYER_ACCEPTED"
+      }
+    ],
+    "@continuity_perturbation": [
+      {
+        "relation": "DEPENDS_TO",
+        "target": "@time_shell_projection_operator",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "relation": "DIRECTED_TO",
+        "target": "@time_shell_projection_operator",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "relation": "EXPLICIT_ARROW",
+        "target": "@time_shell_projection_operator",
+        "audit_status": "API43_DIRECT_SOURCE"
+      },
+      {
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@time_shell_projection_operator",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@time_shell_projection_operator",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "relation": "USED_BY",
+        "target": "@time_shell_projection_operator",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "relation": "VERTICAL_CHAIN",
+        "target": "@time_shell_projection_operator",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@time_shell_projection_operator",
+        "audit_status": "API43_DERIVED"
+      }
+    ],
+    "@time_shell_projection_operator": [
+      {
+        "relation": "DEPENDS_TO",
+        "target": "@weak_field_metric_perturbation",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "relation": "DIRECTED_TO",
+        "target": "@weak_field_metric_perturbation",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "relation": "EXPLICIT_ARROW",
+        "target": "@weak_field_metric_perturbation",
+        "audit_status": "API43_DIRECT_SOURCE"
+      },
+      {
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@weak_field_metric_perturbation",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@weak_field_metric_perturbation",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "relation": "USED_BY",
+        "target": "@weak_field_metric_perturbation",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@weak_field_metric_perturbation",
+        "audit_status": "API43_DERIVED"
+      }
+    ],
+    "@stress_energy_tensor": [
+      {
+        "relation": "DEPENDS_ON",
+        "target": "@matter_action",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "relation": "GENERATED_BY",
+        "target": "@matter_action",
+        "audit_status": "API43_DERIVED"
+      },
+      {
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@matter_action",
+        "audit_status": "API43_DERIVED"
+      }
+    ],
+    "@matter_coupling": [
+      {
+        "relation": "DEPENDS_ON",
+        "target": "@stress_energy_tensor",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "relation": "REALIZES",
+        "target": "@gravity_matter_closure",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@stress_energy_tensor",
+        "audit_status": "API43_DERIVED"
+      },
+      {
+        "relation": "SUPPORTS",
+        "target": "@gravity_matter_closure",
+        "audit_status": "API43_DERIVED"
+      }
+    ],
+    "@gravity_matter_closure": [
+      {
+        "relation": "DEPENDS_ON",
+        "target": "@einstein_field_equation",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@stress_energy_tensor",
+        "audit_status": "API43_DERIVED"
+      },
+      {
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@einstein_field_equation",
+        "audit_status": "API43_DERIVED"
+      },
+      {
+        "relation": "DEPENDS_ON",
+        "target": "@stress_energy_tensor",
+        "audit_status": "API43_DERIVED"
+      },
+      {
+        "relation": "DEPENDS_ON",
+        "target": "@graviton",
+        "audit_status": "API43_DERIVED"
+      },
+      {
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@graviton",
+        "audit_status": "API43_DERIVED"
+      }
+    ]
+  },
+  "adjacency_in": {
+    "@native_higgs_order_field": [
+      {
+        "source": "@higgs_field",
+        "relation": "HAS_NATIVE_REALIZATION",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@persistence_thickening_threshold",
+        "relation": "DOWNSTREAM_OF",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@projected_higgs_field": [
+      {
+        "source": "@higgs_field",
+        "relation": "HAS_READABLE_REALIZATION_TARGET",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@native_to_projected_higgs_map",
+        "relation": "REALIZES",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@projected_higgs_vacuum",
+        "relation": "STATE_OF",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@higgs_helicon_sector",
+        "relation": "MUST_PRECEDE_READABLE_REALIZATION",
+        "audit_status": "PROJECT_CONSTRAINT"
+      },
+      {
+        "source": "@canonical_higgs_configuration",
+        "relation": "INSTANCE_OF",
+        "audit_status": "WORK_LAYER_DERIVED"
+      }
+    ],
+    "@native_mass": [
+      {
+        "source": "@higgs_field",
+        "relation": "HAS_MASS_RESPONSE",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@native_higgs_order_field",
+        "relation": "HAS_ORDER_CONDITIONED_MASS_READOUT",
+        "audit_status": "DERIVED_CLOSED"
+      },
+      {
+        "source": "@finite_higgs_mass_coupling",
+        "relation": "MEASURES_CHANGE_IN",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@projected_mode_space",
+        "relation": "REPRESENTS_MASS_SECTORS_OF",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@native_mass_operator",
+        "relation": "BUILT_FROM",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@dot_notation": [
+      {
+        "source": "@higgs_field",
+        "relation": "HAS_OPERATOR_GRAMMAR",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@genesis_field": [
+      {
+        "source": "@higgs_field",
+        "relation": "HAS_ENVIRONMENTAL_ANCESTRY",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@canonical_qft_handoff_object": [
+      {
+        "source": "@higgs_field",
+        "relation": "HAS_PROJECTION_INTERFACE",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@residue_quantum_field_bundle",
+        "relation": "MEMBER_OF",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@persistence_thickening_threshold": [
+      {
+        "source": "@higgs_field",
+        "relation": "HAS_DOWNSTREAM_BOUNDARY",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@environment_address_space": [
+      {
+        "source": "@native_higgs_order_field",
+        "relation": "DOMAIN",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@native_higgs_order_space": [
+      {
+        "source": "@native_higgs_order_field",
+        "relation": "CODOMAIN",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@native_higgs_order_state": [
+      {
+        "source": "@native_higgs_order_field",
+        "relation": "HAS_LOCAL_STATE",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@native_higgs_order_space",
+        "relation": "CONTAINS",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@native_vacuum_order": [
+      {
+        "source": "@native_higgs_order_space",
+        "relation": "HAS_VACUUM_ORDER",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@massless_sector",
+        "relation": "REFERENCES",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@massive_sector",
+        "relation": "REFERENCES",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@stabilize_operator": [
+      {
+        "source": "@native_higgs_order_space",
+        "relation": "CONDITIONS",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@dot_notation",
+        "relation": "DEFINES",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@native_higgs_order_field",
+        "relation": "ACTS_THROUGH",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@conditioned_lock_selector",
+        "relation": "USES",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@knot_admissibility_domain": [
+      {
+        "source": "@native_higgs_order_space",
+        "relation": "CONDITIONS",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@stabilize_operator",
+        "relation": "TESTS_INTO",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@bounded_closure_operator": [
+      {
+        "source": "@native_higgs_order_space",
+        "relation": "CONDITIONS",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@dot_notation",
+        "relation": "DEFINES",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@native_higgs_order_field",
+        "relation": "ACTS_THROUGH",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@conditioned_lock_selector",
+        "relation": "USES",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@conditioned_lock_selector": [
+      {
+        "source": "@native_higgs_order_space",
+        "relation": "CONDITIONS",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@massless_sector",
+        "relation": "DEFINED_BY",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@massive_sector",
+        "relation": "DEFINED_BY",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@historical_t4_label": [
+      {
+        "source": "@native_higgs_order_space",
+        "relation": "SOURCE_COMPATIBILITY_LABEL",
+        "audit_status": "HISTORICAL_ALIAS"
+      }
+    ],
+    "@environment": [
+      {
+        "source": "@environment_address_space",
+        "relation": "READS",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@chirality": [
+      {
+        "source": "@environment_address_space",
+        "relation": "READS",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@helicon",
+        "relation": "CONSTRAINED_BY",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@resolution": [
+      {
+        "source": "@environment_address_space",
+        "relation": "READS",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@genesis_field",
+        "relation": "HAS_RESOLUTION_COORDINATE",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@bandwidth": [
+      {
+        "source": "@environment_address_space",
+        "relation": "READS",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@genesis_field",
+        "relation": "HAS_BANDWIDTH_COORDINATE",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@er_foam": [
+      {
+        "source": "@environment",
+        "relation": "INHERITS",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@helicon",
+        "relation": "MODE_OF",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@inherit_operator": [
+      {
+        "source": "@dot_notation",
+        "relation": "DEFINES",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@native_higgs_order_field",
+        "relation": "ACTS_THROUGH",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@native_vacuum": [
+      {
+        "source": "@conditioned_lock_selector",
+        "relation": "RETURNS_VACUUM_ON_FAILURE",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@native_mass",
+        "relation": "SUBTRACTS_BASELINE",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@localized_persistence_lock": [
+      {
+        "source": "@conditioned_lock_selector",
+        "relation": "SELECTS",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@native_mass",
+        "relation": "EVALUATES",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@persistence": [
+      {
+        "source": "@native_mass",
+        "relation": "USES",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@massless_sector": [
+      {
+        "source": "@native_mass",
+        "relation": "PARTITIONS",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@massive_sector": [
+      {
+        "source": "@native_mass",
+        "relation": "PARTITIONS",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@native_to_projected_higgs_map": [
+      {
+        "source": "@native_higgs_order_space",
+        "relation": "MAPS_BY",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@higgs_sector_bundle": [
+      {
+        "source": "@native_to_projected_higgs_map",
+        "relation": "TARGETS",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@projected_higgs_field",
+        "relation": "SECTION_OF",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@projected_higgs_vacuum": [
+      {
+        "source": "@native_vacuum_order",
+        "relation": "MAPS_TO",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@higgs_mass_matrix_correspondence",
+        "relation": "AT_VACUUM",
+        "audit_status": "OPEN_CORRESPONDENCE"
+      }
+    ],
+    "@residue_quantum_field_bundle": [
+      {
+        "source": "@higgs_sector_bundle",
+        "relation": "SECTOR_OF",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@invariant_residue": [
+      {
+        "source": "@residue_quantum_field_bundle",
+        "relation": "BUILT_FROM",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@boundary_projection",
+        "relation": "PRESERVES_AS",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@projective_target_manifold": [
+      {
+        "source": "@canonical_qft_handoff_object",
+        "relation": "HAS_TARGET",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@boundary_projection",
+        "relation": "TARGETS",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@boundary_projection": [
+      {
+        "source": "@persistent_boundary",
+        "relation": "READ_OUT_BY",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@time_shell",
+        "relation": "USES",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@persistent_boundary": [
+      {
+        "source": "@time_shell",
+        "relation": "REALIZES_INTERFACE",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@helicon": [
+      {
+        "source": "@helicon_spectral_operator",
+        "relation": "SELECTS_ALLOWED_MODE",
+        "audit_status": "ACCEPTED"
+      },
+      {
+        "source": "@higgs_helicon_sector",
+        "relation": "SUBSPACE_OF",
+        "audit_status": "OPEN_CLASSIFICATION"
+      }
+    ],
+    "@higgs_helicon_sector": [
+      {
+        "source": "@native_higgs_order_space",
+        "relation": "REQUIRES_EXACT_SELECTOR_TO",
+        "audit_status": "OPEN_PROOF_DEBT"
+      }
+    ],
+    "@time_shell": [
+      {
+        "source": "@higgs_helicon_sector",
+        "relation": "PROJECTS_THROUGH",
+        "audit_status": "CANDIDATE_FACTORIZATION"
+      }
+    ],
+    "@higgs_order_graph": [
+      {
+        "source": "@native_higgs_order_space",
+        "relation": "HAS_CONFIGURATION_GRAPH",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@higgs_order_excitation": [
+      {
+        "source": "@higgs_order_graph",
+        "relation": "ADMITS_EDGE",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@finite_higgs_mass_coupling": [
+      {
+        "source": "@higgs_order_excitation",
+        "relation": "INDUCES",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@readable_mass_translation": [
+      {
+        "source": "@native_mass",
+        "relation": "TRANSLATED_BY",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@projected_mode_space": [
+      {
+        "source": "@native_mass_operator",
+        "relation": "ACTS_ON",
+        "audit_status": "ACCEPTED"
+      }
+    ],
+    "@native_mass_operator": [
+      {
+        "source": "@higgs_mass_matrix_correspondence",
+        "relation": "COMPARES",
+        "audit_status": "OPEN_CORRESPONDENCE"
+      }
+    ],
+    "@higgs_mass_matrix_correspondence": [
+      {
+        "source": "@readable_mass_translation",
+        "relation": "USED_BY",
+        "audit_status": "OPEN_CORRESPONDENCE"
+      }
+    ],
+    "@higgs_work_layer_closure": [
+      {
+        "source": "@higgs_field",
+        "relation": "HAS_WORK_LAYER_CLOSURE",
+        "audit_status": "WORK_LAYER_ACCEPTED"
+      }
+    ],
+    "@canonical_higgs_configuration": [
+      {
+        "source": "@native_higgs_order_space",
+        "relation": "HAS_CANONICAL_ORDER_READOUT",
+        "audit_status": "WORK_LAYER_DERIVED"
+      }
+    ],
+    "@local_positive_mode": [
+      {
+        "source": "@canonical_positive_lock",
+        "relation": "REPRESENTED_BY",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      }
+    ],
+    "@local_zero_mode": [
+      {
+        "source": "@canonical_zero_lock",
+        "relation": "REPRESENTED_BY",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      }
+    ],
+    "@local_matter_realization_map": [
+      {
+        "source": "@local_positive_mode",
+        "relation": "MAPS_BY",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      }
+    ],
+    "@local_positive_matter_state": [
+      {
+        "source": "@local_matter_realization_map",
+        "relation": "REALIZES",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      },
+      {
+        "source": "@higgs_work_layer_closure",
+        "relation": "DEPENDS_ON",
+        "audit_status": "WORK_LAYER_ACCEPTED"
+      }
+    ],
+    "@field_section": [
+      {
+        "source": "@local_positive_matter_state",
+        "relation": "INSTANCE_OF",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      }
+    ],
+    "@local_positive_matter_action": [
+      {
+        "source": "@local_positive_matter_state",
+        "relation": "GOVERNED_BY",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      },
+      {
+        "source": "@local_positive_stress_energy",
+        "relation": "DERIVED_FROM",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      }
+    ],
+    "@matter_action": [
+      {
+        "source": "@local_positive_matter_action",
+        "relation": "INSTANCE_OF",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      },
+      {
+        "source": "@stress_energy_tensor",
+        "relation": "DEPENDS_ON",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "source": "@stress_energy_tensor",
+        "relation": "GENERATED_BY",
+        "audit_status": "API43_DERIVED"
+      },
+      {
+        "source": "@stress_energy_tensor",
+        "relation": "COMPOSED_DEPENDENCY",
+        "audit_status": "API43_DERIVED"
+      }
+    ],
+    "@stress_energy_tensor": [
+      {
+        "source": "@local_positive_stress_energy",
+        "relation": "INSTANCE_OF",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      },
+      {
+        "source": "@matter_coupling",
+        "relation": "DEPENDS_ON",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "source": "@gravity_matter_closure",
+        "relation": "COMPOSED_DEPENDENCY",
+        "audit_status": "API43_DERIVED"
+      },
+      {
+        "source": "@matter_coupling",
+        "relation": "COMPOSED_DEPENDENCY",
+        "audit_status": "API43_DERIVED"
+      },
+      {
+        "source": "@gravity_matter_closure",
+        "relation": "DEPENDS_ON",
+        "audit_status": "API43_DERIVED"
+      }
+    ],
+    "@matter_coupling": [
+      {
+        "source": "@local_positive_matter_coupling",
+        "relation": "INSTANCE_OF",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      }
+    ],
+    "@local_positive_stress_energy": [
+      {
+        "source": "@local_positive_matter_coupling",
+        "relation": "DEPENDS_ON",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      },
+      {
+        "source": "@local_component_match_timelike",
+        "relation": "COMPARES",
+        "audit_status": "WORK_LAYER_CLOSED"
+      },
+      {
+        "source": "@local_component_match_spacelike",
+        "relation": "COMPARES",
+        "audit_status": "WORK_LAYER_CLOSED"
+      }
+    ],
+    "@local_gravity_matter_closure": [
+      {
+        "source": "@local_positive_matter_coupling",
+        "relation": "REALIZES",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      },
+      {
+        "source": "@higgs_work_layer_closure",
+        "relation": "DEPENDS_ON",
+        "audit_status": "WORK_LAYER_ACCEPTED"
+      }
+    ],
+    "@gravity_matter_closure": [
+      {
+        "source": "@local_gravity_matter_closure",
+        "relation": "INSTANCE_OF",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      },
+      {
+        "source": "@matter_coupling",
+        "relation": "REALIZES",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "source": "@matter_coupling",
+        "relation": "SUPPORTS",
+        "audit_status": "API43_DERIVED"
+      }
+    ],
+    "@einstein_field_equation": [
+      {
+        "source": "@local_gravity_matter_closure",
+        "relation": "DEPENDS_ON",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      },
+      {
+        "source": "@gravity_matter_closure",
+        "relation": "DEPENDS_ON",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "source": "@gravity_matter_closure",
+        "relation": "COMPOSED_DEPENDENCY",
+        "audit_status": "API43_DERIVED"
+      }
+    ],
+    "@graviton": [
+      {
+        "source": "@local_gravity_matter_closure",
+        "relation": "DEPENDS_ON",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      },
+      {
+        "source": "@gravity_matter_closure",
+        "relation": "DEPENDS_ON",
+        "audit_status": "API43_DERIVED"
+      },
+      {
+        "source": "@gravity_matter_closure",
+        "relation": "COMPOSED_DEPENDENCY",
+        "audit_status": "API43_DERIVED"
+      }
+    ],
+    "@continuity_perturbation": [
+      {
+        "source": "@local_continuity_perturbation",
+        "relation": "INSTANCE_OF",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      },
+      {
+        "source": "@graviton",
+        "relation": "DEPENDS_TO",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "source": "@graviton",
+        "relation": "DIRECTED_TO",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "source": "@graviton",
+        "relation": "EXPLICIT_ARROW",
+        "audit_status": "API43_DIRECT_SOURCE"
+      },
+      {
+        "source": "@graviton",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "source": "@graviton",
+        "relation": "RECOVERED_DEPENDENCY",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "source": "@graviton",
+        "relation": "USED_BY",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "source": "@graviton",
+        "relation": "VERTICAL_CHAIN",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "source": "@graviton",
+        "relation": "COMPOSED_DEPENDENCY",
+        "audit_status": "API43_DERIVED"
+      }
+    ],
+    "@local_continuity_perturbation": [
+      {
+        "source": "@graviton",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "audit_status": "WORK_LAYER_LOCAL_REALIZATION"
+      }
+    ],
+    "@time_shell_projection_operator": [
+      {
+        "source": "@local_continuity_perturbation",
+        "relation": "PROJECTS_BY",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      },
+      {
+        "source": "@continuity_perturbation",
+        "relation": "DEPENDS_TO",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "source": "@continuity_perturbation",
+        "relation": "DIRECTED_TO",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "source": "@continuity_perturbation",
+        "relation": "EXPLICIT_ARROW",
+        "audit_status": "API43_DIRECT_SOURCE"
+      },
+      {
+        "source": "@continuity_perturbation",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "source": "@continuity_perturbation",
+        "relation": "RECOVERED_DEPENDENCY",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "source": "@continuity_perturbation",
+        "relation": "USED_BY",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "source": "@continuity_perturbation",
+        "relation": "VERTICAL_CHAIN",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "source": "@continuity_perturbation",
+        "relation": "COMPOSED_DEPENDENCY",
+        "audit_status": "API43_DERIVED"
+      }
+    ],
+    "@local_graviton_metric": [
+      {
+        "source": "@local_continuity_perturbation",
+        "relation": "PROJECTS_TO",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      },
+      {
+        "source": "@local_component_match_timelike",
+        "relation": "COMPARES",
+        "audit_status": "WORK_LAYER_CLOSED"
+      },
+      {
+        "source": "@local_component_match_spacelike",
+        "relation": "COMPARES",
+        "audit_status": "WORK_LAYER_CLOSED"
+      }
+    ],
+    "@weak_field_metric_perturbation": [
+      {
+        "source": "@local_graviton_metric",
+        "relation": "INSTANCE_OF",
+        "audit_status": "WORK_LAYER_CONSTRUCTED"
+      },
+      {
+        "source": "@time_shell_projection_operator",
+        "relation": "DEPENDS_TO",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "source": "@time_shell_projection_operator",
+        "relation": "DIRECTED_TO",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "source": "@time_shell_projection_operator",
+        "relation": "EXPLICIT_ARROW",
+        "audit_status": "API43_DIRECT_SOURCE"
+      },
+      {
+        "source": "@time_shell_projection_operator",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "source": "@time_shell_projection_operator",
+        "relation": "RECOVERED_DEPENDENCY",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "source": "@time_shell_projection_operator",
+        "relation": "USED_BY",
+        "audit_status": "API43_RECOVERED"
+      },
+      {
+        "source": "@time_shell_projection_operator",
+        "relation": "COMPOSED_DEPENDENCY",
+        "audit_status": "API43_DERIVED"
+      }
+    ],
+    "@local_component_match_timelike": [
+      {
+        "source": "@higgs_work_layer_closure",
+        "relation": "DEPENDS_ON",
+        "audit_status": "WORK_LAYER_ACCEPTED"
+      }
+    ],
+    "@local_component_match_spacelike": [
+      {
+        "source": "@higgs_work_layer_closure",
+        "relation": "DEPENDS_ON",
+        "audit_status": "WORK_LAYER_ACCEPTED"
+      }
+    ],
+    "@higgs_physical_boundary_audit": [
+      {
+        "source": "@higgs_work_layer_closure",
+        "relation": "DEPENDS_ON",
+        "audit_status": "WORK_LAYER_ACCEPTED"
+      }
+    ]
+  },
+  "fixed_point": {
+    "seed": "@higgs_field",
+    "direction": "both",
+    "terminal": "NO_NEW_STRUCTURE",
+    "iterations_used": 5,
+    "wave_counts": [
+      1,
+      8,
+      29,
+      22,
+      10,
+      2
+    ],
+    "recovered_count": 72,
+    "waves": [
+      [
+        "@higgs_field"
+      ],
+      [
+        "@canonical_qft_handoff_object",
+        "@dot_notation",
+        "@genesis_field",
+        "@higgs_work_layer_closure",
+        "@native_higgs_order_field",
+        "@native_mass",
+        "@persistence_thickening_threshold",
+        "@projected_higgs_field"
+      ],
+      [
+        "@bandwidth",
+        "@bounded_closure_operator",
+        "@canonical_higgs_configuration",
+        "@environment_address_space",
+        "@finite_higgs_mass_coupling",
+        "@higgs_helicon_sector",
+        "@higgs_physical_boundary_audit",
+        "@higgs_sector_bundle",
+        "@inherit_operator",
+        "@local_component_match_spacelike",
+        "@local_component_match_timelike",
+        "@local_gravity_matter_closure",
+        "@local_positive_matter_state",
+        "@localized_persistence_lock",
+        "@massive_sector",
+        "@massless_sector",
+        "@native_higgs_order_space",
+        "@native_higgs_order_state",
+        "@native_mass_operator",
+        "@native_to_projected_higgs_map",
+        "@native_vacuum",
+        "@persistence",
+        "@projected_higgs_vacuum",
+        "@projected_mode_space",
+        "@projective_target_manifold",
+        "@readable_mass_translation",
+        "@residue_quantum_field_bundle",
+        "@resolution",
+        "@stabilize_operator"
+      ],
+      [
+        "@boundary_projection",
+        "@chirality",
+        "@conditioned_lock_selector",
+        "@einstein_field_equation",
+        "@environment",
+        "@field_section",
+        "@graviton",
+        "@gravity_matter_closure",
+        "@helicon",
+        "@higgs_mass_matrix_correspondence",
+        "@higgs_order_excitation",
+        "@higgs_order_graph",
+        "@historical_t4_label",
+        "@invariant_residue",
+        "@knot_admissibility_domain",
+        "@local_graviton_metric",
+        "@local_matter_realization_map",
+        "@local_positive_matter_action",
+        "@local_positive_matter_coupling",
+        "@local_positive_stress_energy",
+        "@native_vacuum_order",
+        "@time_shell"
+      ],
+      [
+        "@continuity_perturbation",
+        "@er_foam",
+        "@helicon_spectral_operator",
+        "@local_continuity_perturbation",
+        "@local_positive_mode",
+        "@matter_action",
+        "@matter_coupling",
+        "@persistent_boundary",
+        "@stress_energy_tensor",
+        "@weak_field_metric_perturbation"
+      ],
+      [
+        "@canonical_positive_lock",
+        "@time_shell_projection_operator"
+      ]
+    ]
+  },
+  "global_api_crawl": {
+    "seed_handles": [
+      "@canonical_qft_handoff_object",
+      "@graviton",
+      "@gravity_matter_closure",
+      "@higgs_field",
+      "@matter_coupling",
+      "@native_higgs_order_space",
+      "@native_mass"
+    ],
+    "api43_registered_handles": 2384,
+    "api43_edge_records": 75432,
+    "higgs_parent_objects": 47,
+    "higgs_parent_edges": 79,
+    "recovered_handles": 731,
+    "iterations_used": 7,
+    "wave_counts": [
+      7,
+      458,
+      156,
+      70,
+      15,
+      7,
+      16,
+      2
+    ],
+    "terminal": "NO_NEW_STRUCTURE",
+    "fixed_point_note": "Once the monotone neighbor-expansion operator reaches F(S)=S, all further iterations satisfy F^n(S)=S. One billion additional iterations would therefore add zero structure."
+  }
+}

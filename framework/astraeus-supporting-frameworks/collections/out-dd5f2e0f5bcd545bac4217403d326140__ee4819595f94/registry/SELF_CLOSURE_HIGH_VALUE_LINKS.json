@@ -1,0 +1,77 @@
+[
+  {
+    "source": "@dm_hidden_s3_network",
+    "target": "@persistence",
+    "primitive_depth": 3,
+    "path": [
+      "@dm_hidden_s3_network",
+      "@dm_runtime_transition_capacity",
+      "@bandwidth",
+      "@persistence"
+    ],
+    "status": "DERIVED_SELF_CLOSURE"
+  },
+  {
+    "source": "@dm_hidden_s3_network",
+    "target": "@persistent_recursive_topology",
+    "primitive_depth": 6,
+    "path": [
+      "@dm_hidden_s3_network",
+      "@dm_runtime_transition_capacity",
+      "@bandwidth",
+      "@inheritance",
+      "@occupancy",
+      "@persistence_potential",
+      "@persistent_recursive_topology"
+    ],
+    "status": "DERIVED_SELF_CLOSURE"
+  },
+  {
+    "source": "@dm_history_support_preorder",
+    "target": "@persistent_locus",
+    "primitive_depth": 4,
+    "path": [
+      "@dm_history_support_preorder",
+      "@relational_history",
+      "@admissible_equivalence",
+      "@coherent_continuation_class",
+      "@persistent_locus"
+    ],
+    "status": "DERIVED_SELF_CLOSURE"
+  },
+  {
+    "source": "@dm_hidden_relational_load",
+    "target": "@persistence",
+    "primitive_depth": 3,
+    "path": [
+      "@dm_hidden_relational_load",
+      "@dm_runtime_transition_capacity",
+      "@bandwidth",
+      "@persistence"
+    ],
+    "status": "DERIVED_SELF_CLOSURE"
+  },
+  {
+    "source": "@dm_native_hidden_witness",
+    "target": "@persistence",
+    "primitive_depth": 4,
+    "path": [
+      "@dm_native_hidden_witness",
+      "@dm_resolution_density_profile",
+      "@resolution",
+      "@bandwidth",
+      "@persistence"
+    ],
+    "status": "DERIVED_SELF_CLOSURE"
+  },
+  {
+    "source": "@dm_formal_persistence_qualification",
+    "target": "@persistent_locus",
+    "primitive_depth": 1,
+    "path": [
+      "@dm_formal_persistence_qualification",
+      "@persistent_locus"
+    ],
+    "status": "DERIVED_SELF_CLOSURE"
+  }
+]

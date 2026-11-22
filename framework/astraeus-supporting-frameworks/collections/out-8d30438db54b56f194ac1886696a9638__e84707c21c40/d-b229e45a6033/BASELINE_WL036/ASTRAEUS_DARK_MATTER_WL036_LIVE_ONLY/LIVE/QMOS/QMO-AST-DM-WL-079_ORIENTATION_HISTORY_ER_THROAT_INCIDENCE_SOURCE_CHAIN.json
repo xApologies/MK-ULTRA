@@ -1,0 +1,23 @@
+{
+  "schema": "ASTRAEUS_ORIENTATION_HISTORY_ER_THROAT_INCIDENCE_CHAIN_V1",
+  "qmo_id": "QMO-AST-DM-WL-079",
+  "name": "Orientation History to ER-Throat Incidence Source Chain",
+  "atlas_version": "WL-v195",
+  "status": "SOURCE_RECOVERED_DIRECTED_CHAIN_NOT_VARIATION_THEOREM",
+  "canonical_chain": [
+    "@orientation_history",
+    "@relational_history",
+    "@admissible_equivalence",
+    "@coherent_continuation_class",
+    "@persistent_locus",
+    "@persistent_boundary",
+    "@projection_admissibility",
+    "@planck_landscape",
+    "@chirality_labelled_mote",
+    "@er_throat_incidence"
+  ],
+  "source_note": "Time-Space API 4.3 integrated source graph explicitly places Orientation history -> Relational history -> persistent boundary -> projection admissibility -> Planck landscape -> finite chirality-labelled motes -> ER-throat incidence.",
+  "confidence_note": "The history/persistence/boundary portion is high-confidence recovered/direct source. Projection-admissibility -> Planck-landscape is source-backed medium recovered navigation; Planck-landscape -> chirality-labelled-mote and chirality-labelled-mote -> ER-throat-incidence are high-confidence recovered/direct source.",
+  "finding": "This is the first canonical API path in the current work layer that names an actual incidence object downstream of orientation/relational History. It supplies a concrete source-native incidence target for the rotational candidate.",
+  "guardrail": "The path is dependency/realization ancestry. It does not by itself prove that changing History changes ER-throat incidence for a controlled pair."
+}

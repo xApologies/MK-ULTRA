@@ -1,0 +1,128 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_PATH_QUERY_V1",
+  "source": "@orientation_history",
+  "target": "@matter_readable_organization",
+  "path": [
+    {
+      "source": "@orientation_history",
+      "relation": "DEPENDS_TO",
+      "target": "@relational_history",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45106",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@relational_history",
+      "relation": "DEPENDS_TO",
+      "target": "@admissible_equivalence",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45129",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@admissible_equivalence",
+      "relation": "DEPENDS_TO",
+      "target": "@coherent_continuation_class",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45044",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@coherent_continuation_class",
+      "relation": "DEPENDS_TO",
+      "target": "@persistent_locus",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45064",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@persistent_locus",
+      "relation": "DEPENDS_TO",
+      "target": "@persistent_boundary",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45114",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@persistent_boundary",
+      "relation": "DEPENDS_TO",
+      "target": "@projection_admissibility",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45112",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@projection_admissibility",
+      "relation": "DEPENDS_TO",
+      "target": "@er_foam",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45122",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@er_foam",
+      "relation": "DEPENDS_TO",
+      "target": "@stable_er_foam_knot",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45074",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@stable_er_foam_knot",
+      "relation": "DEPENDS_TO",
+      "target": "@localized_persistent_topology",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45132",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@localized_persistent_topology",
+      "relation": "DEPENDS_TO",
+      "target": "@particle_readable_organization",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45101",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@particle_readable_organization",
+      "relation": "DEPENDS_TO",
+      "target": "@matter_readable_organization",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45107",
+      "origin_api": "TIMESPACE_4.3"
+    }
+  ]
+}

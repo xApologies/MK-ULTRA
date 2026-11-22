@@ -1,0 +1,51 @@
+{
+  "name": "MK43U_ER_Foam_Chirality_Substrate_v0_3",
+  "created": "2026-05-28T00:54:35+00:00",
+  "architecture": "3 + 1 + 1 recursive continuity substrate",
+  "tensor_shape": [
+    7,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "interpretation": {
+    "x_y_z": "occupancy adjacency dimensions",
+    "chirality_dimension": "recursive ordering orientation",
+    "persistence_dimension": "recursive inheritance / continuity retention"
+  },
+  "minimum_seed": "2x2x2 chirality-resolvable adjacency volume",
+  "dot_channels": {
+    "0": ".\u00b7",
+    "1": "\u00b7\u00b7",
+    "2": ".\u00b0.",
+    "3": ".\u00b7\u00b7 .\u00b0",
+    "4": "\u00b7\u00b7\u00b0 \u00b7\u00b0",
+    "5": "\u00b7\u00b0\u00b7",
+    "6": "\u25a0 .\u00b7 \u25a0"
+  },
+  "rest_state": {
+    "constructive_channels": 1.0,
+    "destabilization_channel": 0.0
+  },
+  "chirality_seed": {
+    "left_handed": {
+      "top_left_bottom_right": "{\u2205}",
+      "top_right_bottom_left": "\u2205"
+    },
+    "right_handed": {
+      "top_left_bottom_right": "\u2205",
+      "top_right_bottom_left": "{\u2205}"
+    }
+  },
+  "critical_rules": [
+    "The substrate is not empty space.",
+    "The substrate is not a particle field.",
+    "The substrate is recursive adjacency-ordering topology.",
+    "The substrate already contains chirality structure at rest.",
+    "The manifold perturbs preexisting chirality-ordering pathways.",
+    "Vectors emerge from recursive local substrate deformation.",
+    "The substrate and manifold share organizational dimensionality."
+  ]
+}

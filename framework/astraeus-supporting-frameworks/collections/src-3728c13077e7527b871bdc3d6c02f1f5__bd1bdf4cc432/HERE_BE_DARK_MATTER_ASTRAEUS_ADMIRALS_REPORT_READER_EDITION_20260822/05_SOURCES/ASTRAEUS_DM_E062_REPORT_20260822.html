@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+
+<html lang="" xml:lang="" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8"/>
+<meta content="pandoc" name="generator"/>
+<meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
+<title>ASTRAEUS DM E062 REPORT 20260822</title>
+<style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+<style>
+:root { color-scheme: light dark; }
+body { max-width: 980px; margin: 0 auto; padding: 2.2rem 1.5rem 5rem; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 1.62; }
+h1,h2,h3,h4 { line-height: 1.2; margin-top: 1.8em; }
+h1 { border-bottom: 2px solid currentColor; padding-bottom: .25rem; }
+h2 { border-bottom: 1px solid color-mix(in srgb, currentColor 30%, transparent); padding-bottom: .2rem; }
+blockquote { border-left: 4px solid currentColor; padding-left: 1rem; margin-left: 0; opacity: .92; }
+pre, code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+pre { overflow-x: auto; padding: 1rem; border: 1px solid color-mix(in srgb, currentColor 20%, transparent); border-radius: 8px; }
+code { font-size: .92em; }
+table { border-collapse: collapse; width: 100%; overflow-x: auto; display: block; }
+th, td { border: 1px solid color-mix(in srgb, currentColor 25%, transparent); padding: .45rem .6rem; vertical-align: top; }
+a { color: inherit; text-decoration-thickness: .08em; }
+nav#TOC { padding: 1rem 1.2rem; border: 1px solid color-mix(in srgb, currentColor 25%, transparent); border-radius: 10px; }
+.reader-banner { border: 2px solid currentColor; border-radius: 12px; padding: .8rem 1rem; margin: 0 0 2rem; font-weight: 650; }
+mjx-container { max-width: 100%; }
+mjx-container[display="true"] { display: block; overflow-x: auto; overflow-y: hidden; padding: .45rem 0; margin: 1rem 0; }
+mjx-container svg { max-width: 100%; }
+.eq-source { font-size: .86rem; opacity: .75; margin-bottom: .25rem; }
+.eq-card { padding: .6rem .9rem; margin: .7rem 0 1.2rem; border-left: 3px solid color-mix(in srgb, currentColor 45%, transparent); }
+.render-fallback { font-family: Georgia, "Times New Roman", serif; white-space: pre-wrap; overflow-x: auto; }
+@media (max-width: 600px) { body { font-size: 17px; padding: 1.2rem .8rem 3rem; } }
+</style></head>
+<body><div class="reader-banner">READER EDITION — equations are pre-rendered as vector mathematics. No LaTeX renderer, plug-in, or internet connection is required.</div>
+<header id="title-block-header">
+<h1 class="title">ASTRAEUS DM E062 REPORT 20260822</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#astraeus-dark-matter-e062-guarded-embedding-descent-crawl" id="toc-astraeus-dark-matter-e062-guarded-embedding-descent-crawl">Astraeus
+Dark Matter — E062 Guarded Embedding / Descent Crawl</a>
+<ul>
+<li><a href="#status" id="toc-status">Status</a></li>
+<li><a href="#why-this-run-was-performed" id="toc-why-this-run-was-performed">1. Why this run was
+performed</a></li>
+<li><a href="#bounded-crawl-result" id="toc-bounded-crawl-result">2.
+Bounded crawl result</a></li>
+<li><a href="#reconciliation-with-the-dm-2.2-child-scc-0-validation" id="toc-reconciliation-with-the-dm-2.2-child-scc-0-validation">3.
+Reconciliation with the DM 2.2 “child SCC = 0” validation</a></li>
+<li><a href="#mathematical-consequence" id="toc-mathematical-consequence">4. Mathematical consequence</a></li>
+<li><a href="#constraint-pullback-retyping" id="toc-constraint-pullback-retyping">5. Constraint-pullback
+retyping</a></li>
+<li><a href="#cross-branch-descent-route" id="toc-cross-branch-descent-route">6. Cross-branch descent
+route</a></li>
+<li><a href="#next-handle" id="toc-next-handle">7. Next handle</a></li>
+<li><a href="#gate-ruling" id="toc-gate-ruling">8. Gate ruling</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="astraeus-dark-matter-e062-guarded-embedding-descent-crawl">Astraeus
+Dark Matter — E062 Guarded Embedding / Descent Crawl</h1>
+<h2 id="status">Status</h2>
+<p><strong>APPEND-ONLY EXPERIMENT / NO PARENT PROMOTION</strong></p>
+<ul>
+<li>Dark Matter API parent: <strong>2.2.0</strong></li>
+<li>Seed open handle: <code>@dm_hidden_state_embedding</code></li>
+<li>Bounded-iteration method: recovered v0.5/v0.8 QMO iteration
+discipline</li>
+<li>Canonical API mutation: <strong>NONE</strong></li>
+<li>Physical dark-matter promotion: <strong>NONE</strong></li>
+<li>Terminal state: <strong>CYCLE_DETECTED</strong> after
+<strong>3</strong> iterations</li>
+</ul>
+<h2 id="why-this-run-was-performed">1. Why this run was performed</h2>
+<p>The current DM 2.2 frontier asks whether</p>
+<p><code>Emb_H,phys^R != empty</code>.</p>
+<p>The new QMO-chain material supplied a disciplined way to test the
+dependency landscape without inventing edges: finite ceiling, registered
+relations only, append-only History, and canonical early stopping.</p>
+<h2 id="bounded-crawl-result">2. Bounded crawl result</h2>
+<p>The query-visible dependency expansion is:</p>
+<pre class="text"><code>iteration 0
+  @dm_hidden_state_embedding
+
+iteration 1
+  @dm_constraint_preserving_embedding_family
+  @dm_hidden_state_bundle
+  @inheritance_morphism
+
+iteration 2
+  @dm_hidden_s3_network
+  @inherited_state_bundle
+  @native_constraint_closure
+  @relational_history
+  @resolution
+
+iteration 3
+  @dm_runtime_transition_capacity
+  + revisit @dm_hidden_state_embedding
+  =&gt; CYCLE_DETECTED</code></pre>
+<p>The shortest registered loop is:</p>
+<pre class="text"><code>@dm_hidden_state_embedding
+  --DEPENDS_ON--&gt;
+@dm_hidden_state_bundle
+  --DEPENDS_ON--&gt;
+@dm_hidden_s3_network
+  --REQUIRES--&gt;
+@dm_hidden_state_embedding</code></pre>
+<p>A second loop passes through
+<code>@dm_constraint_preserving_embedding_family</code>.</p>
+<h2 id="reconciliation-with-the-dm-2.2-child-scc-0-validation">3.
+Reconciliation with the DM 2.2 “child SCC = 0” validation</h2>
+<p>This is <strong>not</strong> a contradiction.</p>
+<p>The Dark Matter circularity policy explicitly keeps open handles
+queryable while excluding them from solved self-composition/promotion.
+When outgoing edges from registered open handles are removed from the
+closure-eligible graph, this experiment reproduces:</p>
+<pre class="text"><code>nontrivial child SCCs = 0</code></pre>
+<p>When the same registered edges are retained for query/navigation, one
+guarded SCC appears around the open embedding problem.</p>
+<p>Therefore E062 classifies the structure as:</p>
+<p><strong>OPEN-HANDLE-GUARDED RECURSION KNOT</strong></p>
+<p>not as a closed child SCC and not as an inconsistency.</p>
+<h2 id="mathematical-consequence">4. Mathematical consequence</h2>
+<p>Recursive dependency traversal cannot select <code>iota_H</code> by
+itself, because the query path returns to the open map whose existence
+it is trying to establish.</p>
+<p>The loop must be broken by an independent witness/construction.</p>
+<h2 id="constraint-pullback-retyping">5. Constraint-pullback
+retyping</h2>
+<p>API 4.3 types the parent inherited object as a smooth fiber
+bundle</p>
+<p><code>pi_E:E-&gt;T</code></p>
+<p>and DM 2.2 requires a hidden embedding</p>
+<p><code>iota_H:E_H^R hookrightarrow E</code></p>
+<p>such that</p>
+<p><code>pi_E o iota_H = j_T o pi_H</code></p>
+<p>and the selected image lies in the native constraint locus.</p>
+<p>Define provisionally</p>
+<pre class="text"><code>K_phys := ker(C)
+
+P_H^R := j_T^*(K_phys)
+       = {(t,e) in T_H x K_phys | j_T(t)=pi_E(e)}.</code></pre>
+<p>Then every admissible <code>iota_H</code> determines</p>
+<pre class="text"><code>tilde_iota_H(x) = (pi_H(x), iota_H(x)),</code></pre>
+<p>and conversely <code>iota_H = pr_E o tilde_iota_H</code>.</p>
+<p>Under the stated typing hypotheses this gives a canonical witness-set
+correspondence:</p>
+<pre class="text"><code>Emb_H,phys^R nonempty
+iff
+PEmb_H^R nonempty.</code></pre>
+<p>This is <strong>QMO-DM-BRIDGE-CAND-002</strong>. It retypes the open
+problem; it does not prove nonemptiness.</p>
+<h2 id="cross-branch-descent-route">6. Cross-branch descent route</h2>
+<p>The mounted Math5 model already contains source-backed objects for
+local admissible lift families, gluing data, and Transduction Descent.
+Atlas V35 independently defines an admissible native lift over
+hidden-network support.</p>
+<p>Those structures suggest a lawful next attack:</p>
+<pre class="text"><code>local hidden-state encoding candidates
+  -&gt; local constraint-preserving injections
+  -&gt; overlap / gluing compatibility
+  -&gt; inheritance compatibility
+  -&gt; global hidden bundle monomorphism</code></pre>
+<p>However the V35 lift <code>ell:V_H-&gt;X_N^R</code> is
+<strong>not</strong> silently identified with
+<code>iota_H:E_H^R-&gt;E</code>. It lacks, by itself, full fiber-state
+encoding, global injectivity, overlap descent, inheritance equivariance,
+and the constraint-kernel proof.</p>
+<p>The resulting next candidate is <strong>QMO-DM-BRIDGE-CAND-003 —
+Local-to-Global Hidden Embedding Descent Witness</strong>.</p>
+<h2 id="next-handle">7. Next handle</h2>
+<pre class="text"><code>@dm_local_embedding_descent_witness</code></pre>
+<p>Question:</p>
+<p><strong>Can one recover or construct local hidden-state encodings
+that satisfy the DM constraint/base/inheritance laws and glue under the
+existing Transduction-Descent architecture into one global
+<code>iota_H</code>?</strong></p>
+<p>If no typed local encoding exists, the embedding branch stops there.
+If local encodings exist but fail overlap compatibility, the obstruction
+is a descent defect. If they glue, the resulting global map must still
+pass injectivity, inheritance, constraint, persistence, and later
+dark-matter qualification gates.</p>
+<h2 id="gate-ruling">8. Gate ruling</h2>
+<pre class="text"><code>E062 RESULT: CLOSED AS A DIAGNOSTIC / OPEN AS AN EXISTENCE PROBLEM
+parent promotion: 0
+physical promotion: 0
+new canonical API edges: 0
+candidate QMOs: 2
+next handle: @dm_local_embedding_descent_witness</code></pre>
+</body>
+</html>

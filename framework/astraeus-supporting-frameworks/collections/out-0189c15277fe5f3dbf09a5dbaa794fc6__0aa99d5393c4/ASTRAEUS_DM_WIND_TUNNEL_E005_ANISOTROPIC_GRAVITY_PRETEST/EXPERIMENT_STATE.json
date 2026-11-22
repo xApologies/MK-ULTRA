@@ -1,0 +1,28 @@
+{
+  "experiment": "E005",
+  "title": "Anisotropic ER-History Gravity-Eligibility Pretest",
+  "status": "GEOMETRY-FIRST PRETEST / NOT A_g CLOSURE / NOT PHYSICAL DARK-MATTER WITNESS",
+  "input": "E003 endogenous H2-conditioned vs fresh ER history at T7",
+  "source_gravity_condition": "MK43 Phase III gravitational continuum language: gravity is anisotropic continuity redistribution; neighboring path-efficiency asymmetry is curvature-eligible.",
+  "diagnostic_only": {
+    "second_moment_tensor": "Q = weighted second moment of |environment residual| around its weighted centroid",
+    "tracefree_tensor": "Q0 = Q - tr(Q)/3 I",
+    "TT_projector": "standard spatial TT projector applied only as an external mathematical diagnostic to Q0",
+    "warning": "Q0 is NOT asserted to be the source-native continuity tensor deltaC_TT."
+  },
+  "results": {
+    "all_four_environment_history_fields_anisotropic": true,
+    "anisotropy_ratio_range": [
+      1.3990902239272514,
+      2.5815491049293007
+    ],
+    "tracefree_norm_range": [
+      8.280287981426167,
+      20.674814465552203
+    ],
+    "all_tested_fields_have_nonzero_TT_diagnostic_for_at_least_one_direction": true
+  },
+  "ruling": "E003's endogenous ER-history residual is not an isotropic/uniform memory mode. It carries persistent anisotropic spatial organization and is not eliminated by the standard TT diagnostic after a clearly-labeled second-moment tensorization.",
+  "hard_boundary": "The exact native continuity-tensor generation map required before source-valid TT projection remains open. E005 does not close A_g or G_R.",
+  "next_handle": "RECOVER_OR_DERIVE_NATIVE_CONTINUITY_TENSOR_FROM_PIPELINE_ER_DEFORMATION"
+}

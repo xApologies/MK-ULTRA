@@ -1,0 +1,68 @@
+{
+  "handle": "@dm_source_er_gravitational_readout_chain",
+  "object_type": "qmo_derived_mathematical_object",
+  "status": "LIVE_DERIVED_CLOSED_SOURCE_EFFECTIVE",
+  "domain": "DM30",
+  "namespace": "mk43://dark-matter/live",
+  "name": "Source ER Gravitational Readout Chain",
+  "definition": "Recovered source chain from ER adjacency/energy density through effective geometry or ER stress-energy into Einstein/cosmological/galactic gravitational readout.",
+  "math": "W_ij -> g^(ER)_mn; rho_ER enters Friedmann/Einstein sector; Phi_eff=Phi_GR+deltaPhi_ER; v^2=r d_r Phi_eff. Historical total field equation includes T^(ER)_mn as a distinct source sector.",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E099",
+  "qmo_generated": true,
+  "proof_status": "DERIVED_OR_CONDITIONAL",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "LIVE_QMO_DERIVED",
+  "metadata": {
+    "payload": {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_source_er_gravitational_readout_chain",
+      "canonical_name": "Source ER Gravitational Readout Chain",
+      "type": "SourceEffectiveDarkMatterChain",
+      "status": "LIVE_DERIVED_CLOSED_SOURCE_EFFECTIVE",
+      "checkpoint": "E099",
+      "definition": "Recovered source chain from ER adjacency/energy density through effective geometry or ER stress-energy into Einstein/cosmological/galactic gravitational readout.",
+      "math": "W_ij -> g^(ER)_mn; rho_ER enters Friedmann/Einstein sector; Phi_eff=Phi_GR+deltaPhi_ER; v^2=r d_r Phi_eff. Historical total field equation includes T^(ER)_mn as a distinct source sector.",
+      "parents": [
+        "@er_network",
+        "@energy_density",
+        "@stress_energy_tensor",
+        "@einstein_field_equation",
+        "@gravity"
+      ],
+      "working_assumptions": [],
+      "proof_debt": [
+        "PD-DM-015"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    "direct_live_edges_out": [
+      {
+        "source": "@dm_source_er_gravitational_readout_chain",
+        "relation": "DERIVED_FROM",
+        "target": "@er_network",
+        "graph_family": "LIVE_SOURCE_BACKFILL",
+        "confidence": "high",
+        "audit_status": "LIVE_DERIVED_CLOSED_SOURCE_EFFECTIVE",
+        "provenance": "SRC-DM-007;SRC-DM-010;SRC-DM-011;SRC-DM-015;SRC-DM-016",
+        "origin": "E097-E100",
+        "source_layer": "LIVE_OVERLAY"
+      },
+      {
+        "source": "@dm_source_er_gravitational_readout_chain",
+        "relation": "READS_OUT_AS",
+        "target": "@gravity",
+        "graph_family": "LIVE_SOURCE_BACKFILL",
+        "confidence": "high",
+        "audit_status": "LIVE_DERIVED_CLOSED_SOURCE_EFFECTIVE",
+        "provenance": "SRC-DM-009;SRC-DM-011;SRC-DM-015",
+        "origin": "E097-E100",
+        "source_layer": "LIVE_OVERLAY"
+      }
+    ],
+    "direct_live_edges_in": []
+  },
+  "address": "@dm_source_er_gravitational_readout_chain",
+  "address_sha256": "b38a0370d4b84f310da724b8389307d38c057fa87e257b4bd7f4bea25c14510a"
+}

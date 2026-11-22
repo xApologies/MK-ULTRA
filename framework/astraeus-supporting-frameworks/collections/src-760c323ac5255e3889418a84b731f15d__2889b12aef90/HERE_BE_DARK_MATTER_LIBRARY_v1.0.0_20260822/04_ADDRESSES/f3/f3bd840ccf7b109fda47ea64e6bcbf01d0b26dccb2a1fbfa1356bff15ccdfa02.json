@@ -1,0 +1,26 @@
+{
+  "handle": "qmo://QMO-DM-BRIDGE-CAND-024",
+  "object_type": "qmo",
+  "status": "LIVE_CONDITIONAL_CANDIDATE",
+  "domain": "QMO",
+  "namespace": "mk43://qmo",
+  "name": "Hidden Response-Trace Q-Handoff Survival Witness",
+  "definition": "",
+  "math": "",
+  "source_layer": "live",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "QMO_REGISTRY",
+  "metadata": {
+    "qmo_id": "QMO-DM-BRIDGE-CAND-024",
+    "name": "Hidden Response-Trace Q-Handoff Survival Witness",
+    "status": "LIVE_CONDITIONAL_CANDIDATE",
+    "source_layer": "live",
+    "source_file": "E083",
+    "payload_json": "{\"schema\": \"ASTRAEUS_QMO_CANDIDATE_V1\", \"qmo_id\": \"QMO-DM-BRIDGE-CAND-024\", \"handle\": \"@dm_response_trace_q_handoff_witness\", \"canonical_name\": \"Hidden Response-Trace Q-Handoff Survival Witness\", \"status\": \"LIVE_CONDITIONAL_CANDIDATE\", \"checkpoint\": \"E083\", \"parents\": [\"@dm_conditional_response_trace_residue_survival\", \"@dm_q_survival\", \"@dm_q_completion_family\"], \"working_assumptions\": [\"WA-DM-E065-001\", \"WA-DM-E082-001\"], \"source_basis\": [\"DM21_MATHEMATICAL_MAP.md\", \"DARK_MATTER_API_CURRENT_CANONICAL.md:@dm_q_survival\"], \"derivation\": [\"E082 conditionally gives B_full^R not ~=_F B_vis^R under a declared invariant-preserving residue comparison.\", \"DM 2.1/2.2 already closes the Q-completion family for residue bundles produced under the current Time-Space assumptions.\", \"The closed Q-survival theorem states that no Q-isomorphism preserving the residue-bundle constituent can identify Q_full with Q_vis when the residue bundles are non-isomorphic.\"], \"result\": \"The response-trace distinction, once admitted into invariant residue, survives the standard Q completion without any chromatic dictionary or new field ontology.\", \"math\": \"B_full^R not ~=_F B_vis^R => Q_full not ~=_Q Q_vis for Q morphisms preserving the residue-bundle constituent.\", \"boundary\": \"Still conditional on boundary admission and PD-DM-010. No stress-energy or gravity claim follows from Q distinction alone.\"}"
+  },
+  "address": "qmo://QMO-DM-BRIDGE-CAND-024",
+  "address_sha256": "f3bd840ccf7b109fda47ea64e6bcbf01d0b26dccb2a1fbfa1356bff15ccdfa02"
+}

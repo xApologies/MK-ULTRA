@@ -1,0 +1,47 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_PAIR_QUERY_V1",
+  "a": "@initial_data_set",
+  "b": "@dm_q_survival",
+  "radius": 3,
+  "a_node_count": 66,
+  "b_node_count": 41,
+  "interface": [
+    {
+      "handle": "@diffeomorphism_invariance",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@local_energy_momentum_conservation",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@matter_action",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@metric_variation",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@stress_energy_tensor",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@total_action",
+      "distance_a": 3,
+      "distance_b": 3
+    }
+  ],
+  "path_a_to_b": null,
+  "path_b_to_a": null,
+  "edge_policy": {
+    "timespace": "high-confidence direct/non-derived RP42 records",
+    "darkmatter": "high-confidence DM_DIRECT_EDGE_REGISTRY records",
+    "gluing": "exact handle equality only; no cross-edge is invented"
+  }
+}

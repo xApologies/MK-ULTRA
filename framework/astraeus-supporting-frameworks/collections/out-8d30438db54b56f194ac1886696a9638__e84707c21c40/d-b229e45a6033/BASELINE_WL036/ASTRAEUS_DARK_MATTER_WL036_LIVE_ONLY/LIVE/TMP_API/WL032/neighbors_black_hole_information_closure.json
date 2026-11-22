@@ -1,0 +1,168 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_NEIGHBORS_V1",
+  "handle": "@black_hole_information_closure",
+  "incoming": [
+    [
+      "@black_hole",
+      {
+        "source": "@black_hole",
+        "relation": "DIRECTED_TO",
+        "target": "@black_hole_information_closure",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54853->54854",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@black_hole",
+      {
+        "source": "@black_hole",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@black_hole_information_closure",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DEPENDSON:54469",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@er_network",
+      {
+        "source": "@er_network",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@black_hole_information_closure",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DEPENDSON:54472",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@event_horizon",
+      {
+        "source": "@event_horizon",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@black_hole_information_closure",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DEPENDSON:54470",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@white_state_core",
+      {
+        "source": "@white_state_core",
+        "relation": "DIRECTED_TO",
+        "target": "@black_hole_information_closure",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54856->54857",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@white_state_core",
+      {
+        "source": "@white_state_core",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@black_hole_information_closure",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DEPENDSON:54471",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ]
+  ],
+  "outgoing": [
+    [
+      "@black_hole_thermodynamics",
+      {
+        "source": "@black_hole_information_closure",
+        "relation": "DIRECTED_TO",
+        "target": "@black_hole_thermodynamics",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54859->54860",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@black_hole_thermodynamics",
+      {
+        "source": "@black_hole_information_closure",
+        "relation": "USED_BY",
+        "target": "@black_hole_thermodynamics",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_USEDBY:54474",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@evaporation",
+      {
+        "source": "@black_hole_information_closure",
+        "relation": "DIRECTED_TO",
+        "target": "@evaporation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54862->54863",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@evaporation",
+      {
+        "source": "@black_hole_information_closure",
+        "relation": "USED_BY",
+        "target": "@evaporation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_USEDBY:54475",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@strong_field_gravity",
+      {
+        "source": "@black_hole_information_closure",
+        "relation": "USED_BY",
+        "target": "@strong_field_gravity",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_USEDBY:54476",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ]
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry"
+}

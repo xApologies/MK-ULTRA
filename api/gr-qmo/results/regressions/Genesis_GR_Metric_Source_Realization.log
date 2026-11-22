@@ -1,0 +1,102 @@
+{
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "check_count": 18,
+  "checks": [
+    {
+      "name": "all_symmetric_forms_quadratic_probe_decoder",
+      "passed": true,
+      "scope": "Symbolic tensor identity; does not establish native quadratic probes."
+    },
+    {
+      "name": "arbitrary_symmetric_source_flux_decoder",
+      "passed": true,
+      "scope": "All ten symbolic source components; given exact local flux densities."
+    },
+    {
+      "name": "flux_encoder_round_trip",
+      "passed": true,
+      "scope": "Exact local flux readout identity."
+    },
+    {
+      "name": "reject_rank_deficient_normal_data",
+      "passed": true,
+      "scope": "Negative control."
+    },
+    {
+      "name": "reject_nonsymmetric_flux_source",
+      "passed": true,
+      "scope": "Negative control for selected non-spin sector."
+    },
+    {
+      "name": "boost_invariants_one_dimensional",
+      "passed": true,
+      "scope": "Declared matrix fixture, not a claim about native gravitational holonomy."
+    },
+    {
+      "name": "trivial_holonomy_retains_ten_calibration_parameters",
+      "passed": true,
+      "scope": "Algebraic calibration count."
+    },
+    {
+      "name": "x_segment_parallel_transport",
+      "passed": true,
+      "scope": "Constructed curved test on 0<x<pi; base x=pi/2."
+    },
+    {
+      "name": "y_segment_parallel_transport",
+      "passed": true,
+      "scope": "Constructed curved test at fixed x."
+    },
+    {
+      "name": "curved_metric_from_seed_and_transport",
+      "passed": true,
+      "scope": "Nonflat R x S^2 x R local chart fixture; not a native-corpus solution."
+    },
+    {
+      "name": "seed_round_trip",
+      "passed": true,
+      "scope": "Exact metric calibration recovery."
+    },
+    {
+      "name": "connection_metric_compatibility",
+      "passed": true,
+      "scope": "All four coordinate directions."
+    },
+    {
+      "name": "connection_torsion_free",
+      "passed": true,
+      "scope": "Constructed connection."
+    },
+    {
+      "name": "connection_recovered_from_metric",
+      "passed": true,
+      "scope": "All 64 Christoffel components."
+    },
+    {
+      "name": "nonzero_curvature_scalar",
+      "passed": true,
+      "scope": "Constructed nonlinear curved fixture."
+    },
+    {
+      "name": "curved_einstein_residual_zero",
+      "passed": true,
+      "scope": "Designed metric/source fixture with Lambda=0; no native source-law claim."
+    },
+    {
+      "name": "source_covariant_conservation",
+      "passed": true,
+      "scope": "Constructed curved fixture."
+    },
+    {
+      "name": "holonomy_preserving_path_independence",
+      "passed": true,
+      "scope": "Exact algebra; all-loop native invariance has not been verified."
+    }
+  ],
+  "native_Q_R_implemented": false,
+  "native_flux_generation_implemented": false,
+  "native_physical_inverse_established": false,
+  "fixture_scope": "Algebraic and constructed smooth geometric data only."
+}
+

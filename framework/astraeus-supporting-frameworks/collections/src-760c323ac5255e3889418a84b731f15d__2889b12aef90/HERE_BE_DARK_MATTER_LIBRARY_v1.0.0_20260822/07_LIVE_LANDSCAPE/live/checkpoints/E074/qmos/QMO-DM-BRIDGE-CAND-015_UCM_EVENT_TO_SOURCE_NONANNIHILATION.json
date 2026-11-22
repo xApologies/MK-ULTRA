@@ -1,0 +1,23 @@
+{
+  "schema": "ASTRAEUS_QMO_CANDIDATE_V1",
+  "qmo_id": "QMO-DM-BRIDGE-CAND-015",
+  "handle": "@dm_ucm_event_to_source_nonannihilation",
+  "canonical_name": "UCM Event-to-Readable-Source Nonannihilation Gate",
+  "status": "OPEN_QMO_CANDIDATE_NOT_PROMOTED",
+  "checkpoint": "E074",
+  "parents": [
+    "@dm_ucm_source_domain_distinction",
+    "@universal_coupling",
+    "@stress_energy_tensor",
+    "@dm_dark_readout_defect"
+  ],
+  "factorization": "Pi_U = P_T o U_dyn on the common admissible domain.",
+  "goal": "For one controlled hidden-network pair, prove P_T(U_dyn(u_full)) != P_T(U_dyn(u_vis)).",
+  "equivalent": "Delta T_U := P_T(e_full)-P_T(e_vis) != 0.",
+  "research_gain": "This replaces the overbroad generic metric-active field/action bridge on the shortest UCM lane. UCM already supplies a typed readable StressEnergy target; the remaining problem is one nonannihilation/sensitivity witness.",
+  "guardrails": [
+    "Different UCM events need not imply different readable sources.",
+    "No linearity of P_T is assumed.",
+    "No source-schema argument is assumed individually sensitive without a witness."
+  ]
+}

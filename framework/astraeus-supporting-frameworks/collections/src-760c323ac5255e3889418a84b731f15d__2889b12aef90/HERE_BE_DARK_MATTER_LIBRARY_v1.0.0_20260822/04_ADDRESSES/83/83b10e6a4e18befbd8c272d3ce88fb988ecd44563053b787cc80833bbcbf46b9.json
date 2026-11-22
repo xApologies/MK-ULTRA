@@ -1,0 +1,25 @@
+{
+  "handle": "landscape://DL-DM-E091-CHIRALITY-BASIN-WIND-TUNNEL",
+  "object_type": "dependency_landscape",
+  "status": "CONDITIONAL_FINITE_SWEEP_CLOSED",
+  "domain": "LANDSCAPE",
+  "namespace": "mk43://landscape",
+  "name": "DL-DM-E091-CHIRALITY-BASIN-WIND-TUNNEL",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "DEPENDENCY_LANDSCAPE",
+  "metadata": {
+    "id": "DL-DM-E091-CHIRALITY-BASIN-WIND-TUNNEL",
+    "seed": "@chirality_byte",
+    "status": "CONDITIONAL_FINITE_SWEEP_CLOSED",
+    "source_file": "live/checkpoints/E091/landscapes/DL-DM-E091-CHIRALITY-BASIN-WIND-TUNNEL.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1\", \"landscape_id\": \"DL-DM-E091-CHIRALITY-BASIN-WIND-TUNNEL\", \"seed\": \"@chirality_byte\", \"status\": \"CONDITIONAL_FINITE_SWEEP_CLOSED\", \"nodes\": [\"@chirality_byte\", \"@energy_density\", \"@dm_chirality_seed_contrast_normal_form\", \"@dm_chirality_byte_basin_probe_family\"], \"terminal\": {\"state\": \"SIX_BASIN_PROBE_FAMILY_READY\", \"iteration\": 4, \"focus\": \"@dm_chirality_byte_basin_probe_family\", \"reason\": \"All six interior basin levels give nonzero mirror contrast under one explicitly provisional occupancy weighting.\"}}"
+  },
+  "address": "landscape://DL-DM-E091-CHIRALITY-BASIN-WIND-TUNNEL",
+  "address_sha256": "83b10e6a4e18befbd8c272d3ce88fb988ecd44563053b787cc80833bbcbf46b9"
+}

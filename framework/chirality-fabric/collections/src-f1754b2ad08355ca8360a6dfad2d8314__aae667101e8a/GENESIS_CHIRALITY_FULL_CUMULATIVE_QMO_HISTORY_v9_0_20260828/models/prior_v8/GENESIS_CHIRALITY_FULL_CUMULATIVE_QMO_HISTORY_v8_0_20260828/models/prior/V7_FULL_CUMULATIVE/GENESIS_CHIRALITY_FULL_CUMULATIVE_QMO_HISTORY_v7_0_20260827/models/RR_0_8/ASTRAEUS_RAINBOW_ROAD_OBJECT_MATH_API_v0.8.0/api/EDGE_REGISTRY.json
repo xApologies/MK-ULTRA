@@ -1,0 +1,2846 @@
+{
+  "schema": "ASTRAEUS_RAINBOW_ROAD_EDGE_REGISTRY_V2",
+  "edge_count": 205,
+  "edges": [
+    {
+      "edge_id": "E-00001",
+      "source": "@genesis",
+      "relation": "HAS_READOUT_STRUCTURE",
+      "target": "@resolution",
+      "graph_family": "mathematical",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-002;L-003"
+      ]
+    },
+    {
+      "edge_id": "E-00002",
+      "source": "@genesis",
+      "relation": "HAS_AVAILABLE_FREEDOM",
+      "target": "@bandwidth",
+      "graph_family": "mathematical",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-002;L-004"
+      ]
+    },
+    {
+      "edge_id": "E-00003",
+      "source": "@bandwidth",
+      "relation": "CONSTRAINS",
+      "target": "@occupancy",
+      "graph_family": "transduction",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-195;L-200"
+      ]
+    },
+    {
+      "edge_id": "E-00004",
+      "source": "@chirality",
+      "relation": "CONSTRAINS_ADMISSIBILITY_OF",
+      "target": "@transduction_connection",
+      "graph_family": "transduction",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "medium",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-263;L-271"
+      ]
+    },
+    {
+      "edge_id": "E-00005",
+      "source": "@transduction_connection",
+      "relation": "SELECTS_LIFTS_IN",
+      "target": "@typed_lift_architecture",
+      "graph_family": "categorical",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-238;L-263"
+      ]
+    },
+    {
+      "edge_id": "E-00006",
+      "source": "@transduction_connection",
+      "relation": "GENERATES",
+      "target": "@moebius_monodromy",
+      "graph_family": "categorical",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "medium",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-266"
+      ]
+    },
+    {
+      "edge_id": "E-00007",
+      "source": "@transduction_connection",
+      "relation": "HAS_COHERENCE_OBSTRUCTION",
+      "target": "@transduction_curvature",
+      "graph_family": "categorical",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-264"
+      ]
+    },
+    {
+      "edge_id": "E-00008",
+      "source": "@transduction_descent",
+      "relation": "GLUES_LOCAL_INSTANCES_OF",
+      "target": "@transduction_connection",
+      "graph_family": "categorical",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-270;L-268"
+      ]
+    },
+    {
+      "edge_id": "E-00009",
+      "source": "@chirality_fabric",
+      "relation": "CANDIDATE_SUPPORTS",
+      "target": "@transduction_descent",
+      "graph_family": "categorical",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "medium",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-271"
+      ]
+    },
+    {
+      "edge_id": "E-00010",
+      "source": "@descent_defect",
+      "relation": "AUDITS",
+      "target": "@transduction_descent",
+      "graph_family": "audit",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-272"
+      ]
+    },
+    {
+      "edge_id": "E-00011",
+      "source": "@evolution_descent_defect",
+      "relation": "AUDITS",
+      "target": "@chirality_fabric",
+      "graph_family": "audit",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "medium",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-273"
+      ]
+    },
+    {
+      "edge_id": "E-00012",
+      "source": "@resolution_descent_defect",
+      "relation": "AUDITS",
+      "target": "@resolution",
+      "graph_family": "audit",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-274"
+      ]
+    },
+    {
+      "edge_id": "E-00013",
+      "source": "@bandwidth_descent_defect",
+      "relation": "AUDITS",
+      "target": "@bandwidth",
+      "graph_family": "audit",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-275"
+      ]
+    },
+    {
+      "edge_id": "E-00014",
+      "source": "@identity_invariant",
+      "relation": "CLASSIFIES",
+      "target": "@identity_orbit",
+      "graph_family": "identity",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-191;L-207"
+      ]
+    },
+    {
+      "edge_id": "E-00015",
+      "source": "@identity_orbit",
+      "relation": "STRATIFIES_INTO",
+      "target": "@identity_stratum",
+      "graph_family": "identity",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-206;L-216"
+      ]
+    },
+    {
+      "edge_id": "E-00016",
+      "source": "@identity_stratum",
+      "relation": "ASSEMBLES_INTO",
+      "target": "@identity_base",
+      "graph_family": "identity",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-206"
+      ]
+    },
+    {
+      "edge_id": "E-00017",
+      "source": "@identity_groupoid",
+      "relation": "REFINES",
+      "target": "@identity_base",
+      "graph_family": "identity",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "medium",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-211"
+      ]
+    },
+    {
+      "edge_id": "E-00018",
+      "source": "@dependency_category",
+      "relation": "INDEXES",
+      "target": "@state_fiber",
+      "graph_family": "categorical",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-231;L-232"
+      ]
+    },
+    {
+      "edge_id": "E-00019",
+      "source": "@dependency_category",
+      "relation": "BASE_OF",
+      "target": "@global_transduction_object",
+      "graph_family": "categorical",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-233"
+      ]
+    },
+    {
+      "edge_id": "E-00020",
+      "source": "@state_fiber",
+      "relation": "FIBER_OF",
+      "target": "@global_transduction_object",
+      "graph_family": "categorical",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-233"
+      ]
+    },
+    {
+      "edge_id": "E-00021",
+      "source": "@recursive_dependency_grammar",
+      "relation": "GENERATES_SKELETON_FOR",
+      "target": "@dependency_category",
+      "graph_family": "categorical",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "medium",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-222;L-231"
+      ]
+    },
+    {
+      "edge_id": "E-00022",
+      "source": "@recursive_dependency_grammar",
+      "relation": "LIFTS_TO",
+      "target": "@stratum_graph",
+      "graph_family": "categorical",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-224"
+      ]
+    },
+    {
+      "edge_id": "E-00023",
+      "source": "@history",
+      "relation": "IS_PATH_IN",
+      "target": "@global_transduction_object",
+      "graph_family": "categorical",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-234"
+      ]
+    },
+    {
+      "edge_id": "E-00024",
+      "source": "@occupancy",
+      "relation": "SELECTS_OBJECT_IN",
+      "target": "@global_transduction_object",
+      "graph_family": "transduction",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-234"
+      ]
+    },
+    {
+      "edge_id": "E-00025",
+      "source": "@bandwidth",
+      "relation": "SELECTS_AVAILABLE_MORPHISMS_IN",
+      "target": "@global_transduction_object",
+      "graph_family": "transduction",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-234"
+      ]
+    },
+    {
+      "edge_id": "E-00026",
+      "source": "@resolution",
+      "relation": "READS",
+      "target": "@global_transduction_object",
+      "graph_family": "readout",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-234"
+      ]
+    },
+    {
+      "edge_id": "E-00027",
+      "source": "@transduction",
+      "relation": "IS_MORPHISM_IN",
+      "target": "@global_transduction_object",
+      "graph_family": "categorical",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-218;L-234"
+      ]
+    },
+    {
+      "edge_id": "E-00028",
+      "source": "@closure",
+      "relation": "PRECEDES_OR_SUPPORTS",
+      "target": "@persistence",
+      "graph_family": "transduction",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "medium",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-201;L-212"
+      ]
+    },
+    {
+      "edge_id": "E-00029",
+      "source": "@unit_defect",
+      "relation": "AUDITS",
+      "target": "@adjoint_transduction_audit",
+      "graph_family": "audit",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-248;L-250"
+      ]
+    },
+    {
+      "edge_id": "E-00030",
+      "source": "@counit_defect",
+      "relation": "AUDITS",
+      "target": "@adjoint_transduction_audit",
+      "graph_family": "audit",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-249;L-250"
+      ]
+    },
+    {
+      "edge_id": "E-00031",
+      "source": "@adjoint_transduction_audit",
+      "relation": "AUDITS_ROUND_TRIP_OF",
+      "target": "@typed_lift_architecture",
+      "graph_family": "audit",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "medium",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-246;L-252"
+      ]
+    },
+    {
+      "edge_id": "E-00032",
+      "source": "@gluing_class",
+      "relation": "CLASSIFIES",
+      "target": "@chirality_fabric",
+      "graph_family": "classification",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "medium",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-280;L-282"
+      ]
+    },
+    {
+      "edge_id": "E-00033",
+      "source": "@holonomy_class",
+      "relation": "CLASSIFIES",
+      "target": "@chirality_fabric",
+      "graph_family": "classification",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "medium",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-281;L-282"
+      ]
+    },
+    {
+      "edge_id": "E-00034",
+      "source": "@component_salvage_protocol",
+      "relation": "GOVERNS_REUSE_OF",
+      "target": "@chirality_fabric",
+      "graph_family": "method",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-278;L-284"
+      ]
+    },
+    {
+      "edge_id": "E-00035",
+      "source": "@global_fabric_classifier",
+      "relation": "USES",
+      "target": "@fabric_signature",
+      "graph_family": "classification",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-288;L-289"
+      ]
+    },
+    {
+      "edge_id": "E-00036",
+      "source": "@fabric_signature",
+      "relation": "SCOPED_BY",
+      "target": "@classifier_scope",
+      "graph_family": "classification",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-291"
+      ]
+    },
+    {
+      "edge_id": "E-00037",
+      "source": "@fabric_equivalence_test",
+      "relation": "USES",
+      "target": "@fabric_signature",
+      "graph_family": "classification",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-288;L-290"
+      ]
+    },
+    {
+      "edge_id": "E-00038",
+      "source": "@fabric_equivalence_test",
+      "relation": "SCOPED_BY",
+      "target": "@classifier_scope",
+      "graph_family": "classification",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-291"
+      ]
+    },
+    {
+      "edge_id": "E-00039",
+      "source": "@holonomy_class",
+      "relation": "COMPONENT_OF",
+      "target": "@fabric_signature",
+      "graph_family": "classification",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-287;L-290"
+      ]
+    },
+    {
+      "edge_id": "E-00040",
+      "source": "@gluing_class",
+      "relation": "COMPONENT_OF",
+      "target": "@fabric_signature",
+      "graph_family": "classification",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-290"
+      ]
+    },
+    {
+      "edge_id": "E-00041",
+      "source": "@transduction_connection",
+      "relation": "COMPONENT_OF",
+      "target": "@fabric_signature",
+      "graph_family": "classification",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "medium",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-290"
+      ]
+    },
+    {
+      "edge_id": "E-00042",
+      "source": "@transduction_curvature",
+      "relation": "COMPONENT_OF",
+      "target": "@fabric_signature",
+      "graph_family": "classification",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "medium",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-290"
+      ]
+    },
+    {
+      "edge_id": "E-00043",
+      "source": "@transduction_descent",
+      "relation": "CONTRIBUTES_DEFECT_DATA_TO",
+      "target": "@fabric_signature",
+      "graph_family": "classification",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "medium",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-290"
+      ]
+    },
+    {
+      "edge_id": "E-00044",
+      "source": "@transduction_language",
+      "relation": "LANGUAGE_DEFINES",
+      "target": "@transduction_connection",
+      "graph_family": "language",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-297;L-298"
+      ]
+    },
+    {
+      "edge_id": "E-00045",
+      "source": "@transduction_language",
+      "relation": "LANGUAGE_DEFINES",
+      "target": "@transduction_curvature",
+      "graph_family": "language",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-297;L-298"
+      ]
+    },
+    {
+      "edge_id": "E-00046",
+      "source": "@transduction_language",
+      "relation": "LANGUAGE_DEFINES",
+      "target": "@transduction_descent",
+      "graph_family": "language",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-297;L-298"
+      ]
+    },
+    {
+      "edge_id": "E-00047",
+      "source": "@typed_analogy_record",
+      "relation": "SCHEMATIZES",
+      "target": "@analogy_moebius_gluing",
+      "graph_family": "metadata",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-299;L-300"
+      ]
+    },
+    {
+      "edge_id": "E-00048",
+      "source": "@analogy_moebius_gluing",
+      "relation": "ANALOGY_SUPPORTS",
+      "target": "@transduction_descent",
+      "graph_family": "research",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "medium",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-300"
+      ]
+    },
+    {
+      "edge_id": "E-00049",
+      "source": "@analogy_moebius_holonomy",
+      "relation": "ANALOGY_SUPPORTS",
+      "target": "@transduction_connection",
+      "graph_family": "research",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "medium",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-300"
+      ]
+    },
+    {
+      "edge_id": "E-00050",
+      "source": "@analogy_moebius_identity_history",
+      "relation": "ANALOGY_SUPPORTS",
+      "target": "@identity_orbit",
+      "graph_family": "research",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "medium",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-300"
+      ]
+    },
+    {
+      "edge_id": "E-00051",
+      "source": "@theory_chirality_fabric_as_admissibility_descent",
+      "relation": "THEORY_USES",
+      "target": "@gluing_data",
+      "graph_family": "research",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-308"
+      ]
+    },
+    {
+      "edge_id": "E-00052",
+      "source": "@minimal_fabric_signature",
+      "relation": "USES",
+      "target": "@gluing_data",
+      "graph_family": "classification",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-305"
+      ]
+    },
+    {
+      "edge_id": "E-00053",
+      "source": "@minimal_fabric_signature",
+      "relation": "USES",
+      "target": "@transduction_connection",
+      "graph_family": "classification",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-305"
+      ]
+    },
+    {
+      "edge_id": "E-00054",
+      "source": "@minimal_fabric_signature",
+      "relation": "SCOPED_BY",
+      "target": "@classifier_scope",
+      "graph_family": "classification",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-305"
+      ]
+    },
+    {
+      "edge_id": "E-00055",
+      "source": "@global_fabric_classifier",
+      "relation": "USES",
+      "target": "@minimal_fabric_signature",
+      "graph_family": "classification",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-304;L-305"
+      ]
+    },
+    {
+      "edge_id": "E-00056",
+      "source": "@high_recall_metadata",
+      "relation": "GOVERNS",
+      "target": "@global_transduction_object",
+      "graph_family": "metadata",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-296;L-307"
+      ]
+    },
+    {
+      "edge_id": "E-00057",
+      "source": "@semantic_type_system",
+      "relation": "CONSTRAINS",
+      "target": "@transduction_language",
+      "graph_family": "language",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-310;L-311"
+      ]
+    },
+    {
+      "edge_id": "E-00058",
+      "source": "@language_sync_engine",
+      "relation": "SYNCHRONIZES",
+      "target": "@transduction_language",
+      "graph_family": "language",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-312"
+      ]
+    },
+    {
+      "edge_id": "E-00059",
+      "source": "@language_sync_engine",
+      "relation": "READS",
+      "target": "@global_transduction_object",
+      "graph_family": "language",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-312"
+      ]
+    },
+    {
+      "edge_id": "E-00060",
+      "source": "@semantic_contradiction_audit",
+      "relation": "AUDITS",
+      "target": "@global_transduction_object",
+      "graph_family": "audit",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-313"
+      ]
+    },
+    {
+      "edge_id": "E-00061",
+      "source": "@semantic_contradiction_audit",
+      "relation": "USES",
+      "target": "@semantic_type_system",
+      "graph_family": "audit",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-313"
+      ]
+    },
+    {
+      "edge_id": "E-00062",
+      "source": "@language_missing",
+      "relation": "REPORTS_COVERAGE_GAP_IN",
+      "target": "@transduction_language",
+      "graph_family": "language",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-316;L-318"
+      ]
+    },
+    {
+      "edge_id": "E-00063",
+      "source": "@language_orphan",
+      "relation": "REPORTS_COVERAGE_GAP_IN",
+      "target": "@transduction_language",
+      "graph_family": "language",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-317;L-318"
+      ]
+    },
+    {
+      "edge_id": "E-00064",
+      "source": "@bandwidth_algebra",
+      "relation": "HAS_OPERATOR",
+      "target": "@bandwidth_compose",
+      "graph_family": "native_branch",
+      "status": "SOURCE_BACKED",
+      "confidence": "high",
+      "audit_status": "source",
+      "provenance": [
+        "BANDWIDTH_ALGEBRA::API/bandwidth_algebra_schema.json"
+      ]
+    },
+    {
+      "edge_id": "E-00065",
+      "source": "@bandwidth_algebra",
+      "relation": "HAS_OPERATOR",
+      "target": "@bandwidth_identity",
+      "graph_family": "native_branch",
+      "status": "SOURCE_BACKED",
+      "confidence": "high",
+      "audit_status": "source",
+      "provenance": [
+        "BANDWIDTH_ALGEBRA::API/bandwidth_algebra_schema.json"
+      ]
+    },
+    {
+      "edge_id": "E-00066",
+      "source": "@bandwidth_algebra",
+      "relation": "HAS_OPERATOR",
+      "target": "@bandwidth_restrict",
+      "graph_family": "native_branch",
+      "status": "SOURCE_BACKED",
+      "confidence": "high",
+      "audit_status": "source",
+      "provenance": [
+        "BANDWIDTH_ALGEBRA::API/bandwidth_algebra_schema.json"
+      ]
+    },
+    {
+      "edge_id": "E-00067",
+      "source": "@bandwidth_algebra",
+      "relation": "HAS_OPERATOR",
+      "target": "@bandwidth_expand",
+      "graph_family": "native_branch",
+      "status": "SOURCE_BACKED",
+      "confidence": "high",
+      "audit_status": "source",
+      "provenance": [
+        "BANDWIDTH_ALGEBRA::API/bandwidth_algebra_schema.json"
+      ]
+    },
+    {
+      "edge_id": "E-00068",
+      "source": "@bandwidth_algebra",
+      "relation": "HAS_OPERATOR",
+      "target": "@bandwidth_join",
+      "graph_family": "native_branch",
+      "status": "SOURCE_BACKED",
+      "confidence": "high",
+      "audit_status": "source",
+      "provenance": [
+        "BANDWIDTH_ALGEBRA::API/bandwidth_algebra_schema.json"
+      ]
+    },
+    {
+      "edge_id": "E-00069",
+      "source": "@bandwidth_algebra",
+      "relation": "HAS_OPERATOR",
+      "target": "@bandwidth_meet",
+      "graph_family": "native_branch",
+      "status": "SOURCE_BACKED",
+      "confidence": "high",
+      "audit_status": "source",
+      "provenance": [
+        "BANDWIDTH_ALGEBRA::API/bandwidth_algebra_schema.json"
+      ]
+    },
+    {
+      "edge_id": "E-00070",
+      "source": "@bandwidth_algebra",
+      "relation": "HAS_OPERATOR",
+      "target": "@bandwidth_modify",
+      "graph_family": "native_branch",
+      "status": "SOURCE_BACKED",
+      "confidence": "high",
+      "audit_status": "source",
+      "provenance": [
+        "BANDWIDTH_ALGEBRA::API/bandwidth_algebra_schema.json"
+      ]
+    },
+    {
+      "edge_id": "E-00071",
+      "source": "@bandwidth_algebra",
+      "relation": "HAS_OPERATOR",
+      "target": "@bandwidth_resolution_quotient",
+      "graph_family": "native_branch",
+      "status": "SOURCE_BACKED",
+      "confidence": "high",
+      "audit_status": "source",
+      "provenance": [
+        "BANDWIDTH_ALGEBRA::API/bandwidth_algebra_schema.json"
+      ]
+    },
+    {
+      "edge_id": "E-00072",
+      "source": "@object_mathematics",
+      "relation": "STUDIES",
+      "target": "@formal_object",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00073",
+      "source": "@formal_object",
+      "relation": "HAS_PRESENTATION_VIA",
+      "target": "@resolution_readout",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00074",
+      "source": "@formal_object",
+      "relation": "HAS_IDENTITY",
+      "target": "@formal_identity",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00075",
+      "source": "@formal_object",
+      "relation": "RETAINS",
+      "target": "@provenance",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00076",
+      "source": "@formal_object",
+      "relation": "MAY_RETAIN",
+      "target": "@history_trace",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00077",
+      "source": "@resolution_handoff",
+      "relation": "ORGANIZES",
+      "target": "@cross_resolution_section",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00078",
+      "source": "@cross_resolution_section",
+      "relation": "SATISFIES",
+      "target": "@weak_resolution_handoff_coherence",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00079",
+      "source": "@strong_resolution_handoff_continuity",
+      "relation": "REQUIRES",
+      "target": "@weak_resolution_handoff_coherence",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00080",
+      "source": "@strong_resolution_handoff_continuity",
+      "relation": "REQUIRES",
+      "target": "@formal_identity",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00081",
+      "source": "@strong_resolution_handoff_continuity",
+      "relation": "REQUIRES",
+      "target": "@identity_witness",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00082",
+      "source": "@strong_resolution_handoff_continuity",
+      "relation": "REQUIRES",
+      "target": "@provenance",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00083",
+      "source": "@strong_resolution_handoff_continuity",
+      "relation": "REQUIRES",
+      "target": "@eventual_recoverability",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00084",
+      "source": "@handoff_merge_fiber",
+      "relation": "ARISES_FROM",
+      "target": "@resolution_handoff",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00085",
+      "source": "@handoff_merge_fiber",
+      "relation": "MOTIVATES",
+      "target": "@recovery_provenance_bundle",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00086",
+      "source": "@recovery_provenance_bundle",
+      "relation": "MAY_INCLUDE",
+      "target": "@formal_identity",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00087",
+      "source": "@recovery_provenance_bundle",
+      "relation": "MAY_INCLUDE",
+      "target": "@identity_witness",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00088",
+      "source": "@recovery_provenance_bundle",
+      "relation": "MAY_INCLUDE",
+      "target": "@history_trace",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00089",
+      "source": "@recovery_provenance_bundle",
+      "relation": "MAY_INCLUDE",
+      "target": "@invariant_residue",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00090",
+      "source": "@recovery_provenance_bundle",
+      "relation": "MAY_INCLUDE",
+      "target": "@provenance",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00091",
+      "source": "@object_resolution_recovery_witness_minimality",
+      "relation": "TARGETS",
+      "target": "@recovery_provenance_bundle",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00092",
+      "source": "@bandwidth_modifier",
+      "relation": "ACTS_WITHIN",
+      "target": "@bandwidth_algebra",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00093",
+      "source": "@bandwidth_modifier",
+      "relation": "TESTED_AGAINST",
+      "target": "@resolution_readout",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00094",
+      "source": "@bandwidth_resolution_interface_defect",
+      "relation": "DETECTS_FAILURE_OF",
+      "target": "@bandwidth_modifier",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00095",
+      "source": "@bandwidth_resolution_interface_defect",
+      "relation": "OCCURS_AT_INTERFACE_OF",
+      "target": "@resolution_readout",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00096",
+      "source": "@bandwidth_resolution_interface_defect",
+      "relation": "OCCURS_AT_INTERFACE_OF",
+      "target": "@bandwidth_algebra",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00097",
+      "source": "@bandwidth_resolution_interface_defect",
+      "relation": "REPAIRED_BY",
+      "target": "@resolution_repair",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00098",
+      "source": "@bandwidth_resolution_interface_defect",
+      "relation": "REPAIRED_BY",
+      "target": "@provenance_repair",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00099",
+      "source": "@bandwidth_resolution_interface_defect",
+      "relation": "REPAIRED_BY",
+      "target": "@bandwidth_domain_repair",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00100",
+      "source": "@resolution_blind_core",
+      "relation": "REQUIRES_RECOVERY_VIA",
+      "target": "@provenance",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00101",
+      "source": "@resolution_blind_core",
+      "relation": "REQUIRES_RECOVERY_VIA",
+      "target": "@formal_identity",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00102",
+      "source": "@structural_discontinuity",
+      "relation": "AVOIDED_BY",
+      "target": "@eventual_recoverability",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00103",
+      "source": "@number_ontology",
+      "relation": "DOWNSTREAM_OF",
+      "target": "@object_mathematics",
+      "graph_family": "object_math",
+      "status": "PARKED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00104",
+      "source": "@mobius_probe",
+      "relation": "TESTS",
+      "target": "@strong_resolution_handoff_continuity",
+      "graph_family": "object_math",
+      "status": "PARKED_PROBE",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00105",
+      "source": "@rainbow_road_probe",
+      "relation": "TESTS",
+      "target": "@strong_resolution_handoff_continuity",
+      "graph_family": "object_math",
+      "status": "PARKED_PROBE",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00106",
+      "source": "@object_mathematics",
+      "relation": "USES_NATIVE_BRANCH",
+      "target": "@transduction",
+      "graph_family": "native_mount",
+      "status": "SOURCE_BACKED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "transduction_geometry::API"
+      ]
+    },
+    {
+      "edge_id": "E-00107",
+      "source": "@object_mathematics",
+      "relation": "USES_NATIVE_BRANCH",
+      "target": "@bandwidth_algebra",
+      "graph_family": "native_mount",
+      "status": "SOURCE_BACKED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "bandwidth_algebra::API"
+      ]
+    },
+    {
+      "edge_id": "E-00108",
+      "source": "@object_mathematics",
+      "relation": "USES_NATIVE_BRANCH",
+      "target": "@identity_witness",
+      "graph_family": "native_mount",
+      "status": "SOURCE_BACKED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "identity_through_history::API"
+      ]
+    },
+    {
+      "edge_id": "E-00109",
+      "source": "@object_mathematics",
+      "relation": "USES_NATIVE_BRANCH",
+      "target": "@holonomy_record",
+      "graph_family": "native_mount",
+      "status": "SOURCE_BACKED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "holonomy_chirality::API"
+      ]
+    },
+    {
+      "edge_id": "E-00110",
+      "source": "@object_resolution_recovery_witness_minimality",
+      "relation": "PROPOSES_TEST_OF",
+      "target": "@witness_bundle_core",
+      "graph_family": "self_build",
+      "status": "SELF_BUILD_CANDIDATE",
+      "confidence": "candidate",
+      "audit_status": "unpromoted",
+      "provenance": [
+        "SELF_BUILD_PASS_001"
+      ]
+    },
+    {
+      "edge_id": "E-00111",
+      "source": "@object_resolution_recovery_witness_minimality",
+      "relation": "PROPOSES_TEST_OF",
+      "target": "@witness_bundle_history_augmented",
+      "graph_family": "self_build",
+      "status": "SELF_BUILD_CANDIDATE",
+      "confidence": "candidate",
+      "audit_status": "unpromoted",
+      "provenance": [
+        "SELF_BUILD_PASS_001"
+      ]
+    },
+    {
+      "edge_id": "E-00112",
+      "source": "@object_resolution_recovery_witness_minimality",
+      "relation": "PROPOSES_FALLBACK",
+      "target": "@witness_bundle_full_state_fallback",
+      "graph_family": "self_build",
+      "status": "SELF_BUILD_CANDIDATE",
+      "confidence": "candidate",
+      "audit_status": "unpromoted",
+      "provenance": [
+        "SELF_BUILD_PASS_001"
+      ]
+    },
+    {
+      "edge_id": "E-00113",
+      "source": "@recovery_provenance_bundle",
+      "relation": "MAY_INDUCE",
+      "target": "@fine_lineage_selector",
+      "graph_family": "self_build",
+      "status": "SELF_BUILD_CANDIDATE",
+      "confidence": "candidate",
+      "audit_status": "unpromoted",
+      "provenance": [
+        "SELF_BUILD_PASS_001"
+      ]
+    },
+    {
+      "edge_id": "E-00114",
+      "source": "@object_resolution_recovery_witness_minimality",
+      "relation": "ADVANCES_TO",
+      "target": "@recovery_witness_counterexample_crawl",
+      "graph_family": "self_build",
+      "status": "SELF_BUILD_FRONTIER",
+      "confidence": "candidate",
+      "audit_status": "unpromoted",
+      "provenance": [
+        "SELF_BUILD_PASS_001",
+        "LIVE_MODEL::NF-006"
+      ]
+    },
+    {
+      "edge_id": "RR-00115",
+      "source": "@rainbow_road_recursive_domain",
+      "relation": "BOUNDED_BY_STRUCTURE",
+      "target": "@primitive_structural_zero",
+      "graph_family": "rainbow_runtime",
+      "status": "DERIVED_CLOSED",
+      "confidence": "high",
+      "audit_status": "closure_contract",
+      "provenance": [
+        "LIVE_MODEL::NF-007"
+      ]
+    },
+    {
+      "edge_id": "RR-00116",
+      "source": "@rainbow_road_recursive_domain",
+      "relation": "CLOSES_AS",
+      "target": "@closed_domain_unity",
+      "graph_family": "rainbow_runtime",
+      "status": "DERIVED_CLOSED",
+      "confidence": "high",
+      "audit_status": "closure_contract",
+      "provenance": [
+        "LIVE_MODEL::NF-007"
+      ]
+    },
+    {
+      "edge_id": "RR-00117",
+      "source": "@rainbow_road_recursive_domain",
+      "relation": "USES_CARRIER",
+      "target": "@mobius_recursive_carrier",
+      "graph_family": "rainbow_runtime",
+      "status": "DERIVED_CLOSED",
+      "confidence": "high",
+      "audit_status": "closure_contract",
+      "provenance": [
+        "LIVE_MODEL::NF-007"
+      ]
+    },
+    {
+      "edge_id": "RR-00118",
+      "source": "@rainbow_road_recursive_domain",
+      "relation": "HOSTS",
+      "target": "@object_mathematics",
+      "graph_family": "rainbow_runtime",
+      "status": "DERIVED_CLOSED",
+      "confidence": "high",
+      "audit_status": "closure_contract",
+      "provenance": [
+        "LIVE_MODEL::NF-007"
+      ]
+    },
+    {
+      "edge_id": "RR-00119",
+      "source": "@rainbow_road_recursive_domain",
+      "relation": "USES",
+      "target": "@dynamic_recursive_closure",
+      "graph_family": "rainbow_runtime",
+      "status": "DERIVED_CLOSED",
+      "confidence": "high",
+      "audit_status": "closure_contract",
+      "provenance": [
+        "LIVE_MODEL::NF-007"
+      ]
+    },
+    {
+      "edge_id": "RR-00120",
+      "source": "@dynamic_recursive_closure",
+      "relation": "MAY_REACH",
+      "target": "@semantic_closure_fixed_point",
+      "graph_family": "rainbow_runtime",
+      "status": "DERIVED_CLOSED",
+      "confidence": "high",
+      "audit_status": "closure_contract",
+      "provenance": [
+        "LIVE_MODEL::NF-007"
+      ]
+    },
+    {
+      "edge_id": "RR-00121",
+      "source": "@dynamic_recursive_closure",
+      "relation": "ISSUES",
+      "target": "@closure_certificate",
+      "graph_family": "rainbow_runtime",
+      "status": "DERIVED_CLOSED",
+      "confidence": "high",
+      "audit_status": "closure_contract",
+      "provenance": [
+        "LIVE_MODEL::NF-007"
+      ]
+    },
+    {
+      "edge_id": "RR-00122",
+      "source": "@closure_certificate",
+      "relation": "AUTHORIZES_WHEN_VALID",
+      "target": "@internal_self_promotion",
+      "graph_family": "rainbow_runtime",
+      "status": "DERIVED_CLOSED",
+      "confidence": "high",
+      "audit_status": "closure_contract",
+      "provenance": [
+        "LIVE_MODEL::NF-007"
+      ]
+    },
+    {
+      "edge_id": "RR-00123",
+      "source": "@domain_extension_proposal",
+      "relation": "REQUIRES_AUDIT_BEFORE",
+      "target": "@rainbow_road_recursive_domain",
+      "graph_family": "rainbow_runtime",
+      "status": "DERIVED_CLOSED",
+      "confidence": "high",
+      "audit_status": "closure_contract",
+      "provenance": [
+        "LIVE_MODEL::NF-007"
+      ]
+    },
+    {
+      "edge_id": "RR-00124",
+      "source": "@mobius_recursive_carrier",
+      "relation": "IMPLEMENTS_HANDOFF",
+      "target": "@mobius_orientation_handoff",
+      "graph_family": "rainbow_runtime",
+      "status": "DERIVED_CLOSED",
+      "confidence": "high",
+      "audit_status": "closure_contract",
+      "provenance": [
+        "LIVE_MODEL::NF-007"
+      ]
+    },
+    {
+      "edge_id": "RR-00125",
+      "source": "@mobius_orientation_handoff",
+      "relation": "PRESERVES_DOMAIN",
+      "target": "@rainbow_road_recursive_domain",
+      "graph_family": "rainbow_runtime",
+      "status": "DERIVED_CLOSED",
+      "confidence": "high",
+      "audit_status": "closure_contract",
+      "provenance": [
+        "LIVE_MODEL::NF-007"
+      ]
+    },
+    {
+      "edge_id": "RR-00126",
+      "source": "@history_bearing_return",
+      "relation": "PRESERVES",
+      "target": "@history_trace",
+      "graph_family": "rainbow_runtime",
+      "status": "DERIVED_CLOSED",
+      "confidence": "high",
+      "audit_status": "closure_contract",
+      "provenance": [
+        "LIVE_MODEL::NF-007"
+      ]
+    },
+    {
+      "edge_id": "RR-00127",
+      "source": "@history_bearing_return",
+      "relation": "SUPPORTS",
+      "target": "@return_not_reset",
+      "graph_family": "rainbow_runtime",
+      "status": "DERIVED_CLOSED",
+      "confidence": "high",
+      "audit_status": "closure_contract",
+      "provenance": [
+        "LIVE_MODEL::NF-007"
+      ]
+    },
+    {
+      "edge_id": "RR-00128",
+      "source": "@dynamic_recursive_closure",
+      "relation": "AUDITED_BY",
+      "target": "@closure_equivariance_defect",
+      "graph_family": "rainbow_runtime",
+      "status": "DERIVED_CLOSED",
+      "confidence": "high",
+      "audit_status": "closure_contract",
+      "provenance": [
+        "LIVE_MODEL::NF-007"
+      ]
+    },
+    {
+      "edge_id": "RR-00129",
+      "source": "@perturbation_probe",
+      "relation": "CREATES",
+      "target": "@reclosure_branch",
+      "graph_family": "rainbow_runtime",
+      "status": "DERIVED_CLOSED",
+      "confidence": "high",
+      "audit_status": "closure_contract",
+      "provenance": [
+        "LIVE_MODEL::NF-007"
+      ]
+    },
+    {
+      "edge_id": "RR-00130",
+      "source": "@perturbation_probe",
+      "relation": "COMPUTES",
+      "target": "@recursive_impact_cone",
+      "graph_family": "rainbow_runtime",
+      "status": "DERIVED_CLOSED",
+      "confidence": "high",
+      "audit_status": "closure_contract",
+      "provenance": [
+        "LIVE_MODEL::NF-007"
+      ]
+    },
+    {
+      "edge_id": "RR-00131",
+      "source": "@constraint_perturbation",
+      "relation": "MAY_EXPAND",
+      "target": "@recursive_impact_cone",
+      "graph_family": "rainbow_runtime",
+      "status": "DERIVED_CLOSED",
+      "confidence": "high",
+      "audit_status": "closure_contract",
+      "provenance": [
+        "LIVE_MODEL::NF-007"
+      ]
+    },
+    {
+      "edge_id": "RR-00132",
+      "source": "@readout_perturbation",
+      "relation": "NEED_NOT_EXPAND",
+      "target": "@recursive_impact_cone",
+      "graph_family": "rainbow_runtime",
+      "status": "DERIVED_CLOSED",
+      "confidence": "high",
+      "audit_status": "closure_contract",
+      "provenance": [
+        "LIVE_MODEL::NF-007"
+      ]
+    },
+    {
+      "edge_id": "RR-00133",
+      "source": "@reclosure_branch",
+      "relation": "REMAINS_SEPARATE_FROM",
+      "target": "@rainbow_road_recursive_domain",
+      "graph_family": "rainbow_runtime",
+      "status": "DERIVED_CLOSED",
+      "confidence": "high",
+      "audit_status": "closure_contract",
+      "provenance": [
+        "LIVE_MODEL::NF-007"
+      ]
+    },
+    {
+      "edge_id": "RR-00134",
+      "source": "@rainbow_road_recursive_domain",
+      "relation": "RETAINS",
+      "target": "@provenance",
+      "graph_family": "rainbow_runtime",
+      "status": "DERIVED_CLOSED",
+      "confidence": "high",
+      "audit_status": "closure_contract",
+      "provenance": [
+        "LIVE_MODEL::NF-007"
+      ]
+    },
+    {
+      "edge_id": "RR-00135",
+      "source": "@rainbow_road_recursive_domain",
+      "relation": "RETAINS",
+      "target": "@history_trace",
+      "graph_family": "rainbow_runtime",
+      "status": "DERIVED_CLOSED",
+      "confidence": "high",
+      "audit_status": "closure_contract",
+      "provenance": [
+        "LIVE_MODEL::NF-007"
+      ]
+    },
+    {
+      "edge_id": "RR-00136",
+      "source": "@rainbow_road_recursive_domain",
+      "relation": "FILTERED_BY",
+      "target": "@bandwidth_algebra",
+      "graph_family": "rainbow_runtime",
+      "status": "DERIVED_CLOSED",
+      "confidence": "high",
+      "audit_status": "closure_contract",
+      "provenance": [
+        "LIVE_MODEL::NF-007"
+      ]
+    },
+    {
+      "edge_id": "RR-00137",
+      "source": "@rainbow_road_recursive_domain",
+      "relation": "READ_THROUGH",
+      "target": "@resolution_readout",
+      "graph_family": "rainbow_runtime",
+      "status": "DERIVED_CLOSED",
+      "confidence": "high",
+      "audit_status": "closure_contract",
+      "provenance": [
+        "LIVE_MODEL::NF-007"
+      ]
+    },
+    {
+      "edge_id": "RR-00138",
+      "source": "@rainbow_road_recursive_domain",
+      "relation": "TRANSDUCES_VIA",
+      "target": "@transduction",
+      "graph_family": "rainbow_runtime",
+      "status": "DERIVED_CLOSED",
+      "confidence": "high",
+      "audit_status": "closure_contract",
+      "provenance": [
+        "LIVE_MODEL::NF-007"
+      ]
+    },
+    {
+      "edge_id": "RR-00139",
+      "source": "@rainbow_road_recursive_domain",
+      "relation": "WITNESSED_BY",
+      "target": "@identity_witness",
+      "graph_family": "rainbow_runtime",
+      "status": "DERIVED_CLOSED",
+      "confidence": "high",
+      "audit_status": "closure_contract",
+      "provenance": [
+        "LIVE_MODEL::NF-007"
+      ]
+    },
+    {
+      "edge_id": "E-00140",
+      "source": "@handoff_merge_fiber",
+      "relation": "TESTED_BY",
+      "target": "@core_witness_collision",
+      "graph_family": "recovery",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "CE-RW-001"
+      ]
+    },
+    {
+      "edge_id": "E-00141",
+      "source": "@core_witness_collision",
+      "relation": "REFUTES_UNQUALIFIED_UNIVERSAL_SUFFICIENCY_OF",
+      "target": "@witness_bundle_core",
+      "graph_family": "recovery",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "CE-RW-001"
+      ]
+    },
+    {
+      "edge_id": "E-00142",
+      "source": "@core_witness_collision",
+      "relation": "REQUIRES",
+      "target": "@recovery_discriminator",
+      "graph_family": "recovery",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "CE-RW-001"
+      ]
+    },
+    {
+      "edge_id": "E-00143",
+      "source": "@history_trace",
+      "relation": "REALIZES_FOR_COUNTEREXAMPLE",
+      "target": "@recovery_discriminator",
+      "graph_family": "recovery",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "CE-RW-001"
+      ]
+    },
+    {
+      "edge_id": "E-00144",
+      "source": "@witness_bundle_history_augmented",
+      "relation": "SEPARATES",
+      "target": "@core_witness_collision",
+      "graph_family": "recovery",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "CE-RW-001"
+      ]
+    },
+    {
+      "edge_id": "E-00145",
+      "source": "@witness_fiber_separation_criterion",
+      "relation": "CONSTRAINS",
+      "target": "@fine_lineage_selector",
+      "graph_family": "recovery",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_003"
+      ]
+    },
+    {
+      "edge_id": "E-00146",
+      "source": "@recovery_witness_counterexample_crawl",
+      "relation": "ADVANCES_TO",
+      "target": "@recovery_history_signature_minimality",
+      "graph_family": "recovery",
+      "status": "SELF_BUILD_FRONTIER",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_003"
+      ]
+    },
+    {
+      "edge_id": "E-00147",
+      "source": "@recovery_history_signature_minimality",
+      "relation": "QUERIES",
+      "target": "@history_holonomy",
+      "graph_family": "recovery",
+      "status": "SELF_BUILD_FRONTIER",
+      "confidence": "high",
+      "audit_status": "source_aligned",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "FIVE_BRANCH_NATIVE_CORPUS"
+      ]
+    },
+    {
+      "edge_id": "E-00148",
+      "source": "@recovery_history_signature_minimality",
+      "relation": "QUERIES",
+      "target": "@holonomy_history_signature",
+      "graph_family": "recovery",
+      "status": "SELF_BUILD_FRONTIER",
+      "confidence": "high",
+      "audit_status": "source_aligned",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "FIVE_BRANCH_NATIVE_CORPUS"
+      ]
+    },
+    {
+      "edge_id": "E-00149",
+      "source": "@recovery_history_signature_minimality",
+      "relation": "TESTS",
+      "target": "@recovery_discriminator",
+      "graph_family": "recovery",
+      "status": "SELF_BUILD_FRONTIER",
+      "confidence": "high",
+      "audit_status": "source_aligned",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "FIVE_BRANCH_NATIVE_CORPUS"
+      ]
+    },
+    {
+      "edge_id": "E-00150",
+      "source": "@dependency_landscape",
+      "relation": "CONSTRUCTS_LANDSCAPE",
+      "target": "@dl_history_signature",
+      "graph_family": "landscape_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "API_4.3::recover_dependency_landscape",
+        "ASTRAEUS_API_v0.5"
+      ]
+    },
+    {
+      "edge_id": "E-00151",
+      "source": "@dl_history_signature",
+      "relation": "HAS_LANDSCAPE_ROOT",
+      "target": "@recovery_history_signature_minimality",
+      "graph_family": "landscape_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "API_4.3::RP-30.13_API_CRAWL_CONTRACT",
+        "API_4.3::RP-45_DEPENDENCY_LANDSCAPE_DENSIFICATION",
+        "GENESIS_DIRECTION::2026-08-22",
+        "QMO:@recovery_history_signature_minimality",
+        "QMO:@holonomy_history_signature"
+      ]
+    },
+    {
+      "edge_id": "E-00152",
+      "source": "@dl_history_signature",
+      "relation": "HAS_LANDSCAPE_ROOT",
+      "target": "@holonomy_history_signature",
+      "graph_family": "landscape_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "API_4.3::RP-30.13_API_CRAWL_CONTRACT",
+        "API_4.3::RP-45_DEPENDENCY_LANDSCAPE_DENSIFICATION",
+        "GENESIS_DIRECTION::2026-08-22",
+        "QMO:@recovery_history_signature_minimality",
+        "QMO:@holonomy_history_signature"
+      ]
+    },
+    {
+      "edge_id": "E-00153",
+      "source": "@dependency_landscape",
+      "relation": "CONSTRUCTS_LANDSCAPE",
+      "target": "@dl_resolution_recovery",
+      "graph_family": "landscape_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "API_4.3::recover_dependency_landscape",
+        "ASTRAEUS_API_v0.5"
+      ]
+    },
+    {
+      "edge_id": "E-00154",
+      "source": "@dl_resolution_recovery",
+      "relation": "HAS_LANDSCAPE_ROOT",
+      "target": "@strong_resolution_handoff_continuity",
+      "graph_family": "landscape_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "API_4.3::RP-30.13_API_CRAWL_CONTRACT",
+        "API_4.3::RP-45_DEPENDENCY_LANDSCAPE_DENSIFICATION",
+        "GENESIS_DIRECTION::2026-08-22",
+        "QMO:@strong_resolution_handoff_continuity",
+        "QMO:@recovery_discriminator"
+      ]
+    },
+    {
+      "edge_id": "E-00155",
+      "source": "@dl_resolution_recovery",
+      "relation": "HAS_LANDSCAPE_ROOT",
+      "target": "@recovery_discriminator",
+      "graph_family": "landscape_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "API_4.3::RP-30.13_API_CRAWL_CONTRACT",
+        "API_4.3::RP-45_DEPENDENCY_LANDSCAPE_DENSIFICATION",
+        "GENESIS_DIRECTION::2026-08-22",
+        "QMO:@strong_resolution_handoff_continuity",
+        "QMO:@recovery_discriminator"
+      ]
+    },
+    {
+      "edge_id": "E-00156",
+      "source": "@dependency_landscape",
+      "relation": "CONSTRUCTS_LANDSCAPE",
+      "target": "@dl_history_resolution_bridge",
+      "graph_family": "landscape_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "API_4.3::recover_dependency_landscape",
+        "ASTRAEUS_API_v0.5"
+      ]
+    },
+    {
+      "edge_id": "E-00157",
+      "source": "@dl_history_resolution_bridge",
+      "relation": "COMPOSES_LANDSCAPE",
+      "target": "@dl_history_signature",
+      "graph_family": "landscape_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "API_4.3::RP-30.13_API_CRAWL_CONTRACT",
+        "API_4.3::RP-45_DEPENDENCY_LANDSCAPE_DENSIFICATION",
+        "GENESIS_DIRECTION::2026-08-22",
+        "QMO:@dl_history_signature",
+        "QMO:@dl_resolution_recovery"
+      ]
+    },
+    {
+      "edge_id": "E-00158",
+      "source": "@dl_history_resolution_bridge",
+      "relation": "COMPOSES_LANDSCAPE",
+      "target": "@dl_resolution_recovery",
+      "graph_family": "landscape_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "API_4.3::RP-30.13_API_CRAWL_CONTRACT",
+        "API_4.3::RP-45_DEPENDENCY_LANDSCAPE_DENSIFICATION",
+        "GENESIS_DIRECTION::2026-08-22",
+        "QMO:@dl_history_signature",
+        "QMO:@dl_resolution_recovery"
+      ]
+    },
+    {
+      "edge_id": "E-00159",
+      "source": "@dependency_chain",
+      "relation": "USES",
+      "target": "@dependency_landscape",
+      "graph_family": "chain_architecture",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_chain"
+      ]
+    },
+    {
+      "edge_id": "E-00160",
+      "source": "@dependency_chain",
+      "relation": "USES",
+      "target": "@dependency_graph",
+      "graph_family": "chain_architecture",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_chain"
+      ]
+    },
+    {
+      "edge_id": "E-00161",
+      "source": "@dependency_chain",
+      "relation": "CLOSES_BY",
+      "target": "@dynamic_recursive_closure",
+      "graph_family": "chain_architecture",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_chain"
+      ]
+    },
+    {
+      "edge_id": "E-00162",
+      "source": "@dependency_chain",
+      "relation": "PRESERVES",
+      "target": "@history_trace",
+      "graph_family": "chain_architecture",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_chain"
+      ]
+    },
+    {
+      "edge_id": "E-00163",
+      "source": "@dependency_chain",
+      "relation": "SCOPED_BY",
+      "target": "@resolution",
+      "graph_family": "chain_architecture",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_chain"
+      ]
+    },
+    {
+      "edge_id": "E-00164",
+      "source": "@dependency_chain",
+      "relation": "SCOPED_BY",
+      "target": "@bandwidth_algebra",
+      "graph_family": "chain_architecture",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_chain"
+      ]
+    },
+    {
+      "edge_id": "E-00165",
+      "source": "@dependency_graph",
+      "relation": "PRESERVES",
+      "target": "@provenance",
+      "graph_family": "chain_architecture",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_chain"
+      ]
+    },
+    {
+      "edge_id": "E-00166",
+      "source": "@dependency_graph",
+      "relation": "SCOPED_BY",
+      "target": "@resolution",
+      "graph_family": "chain_architecture",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_chain"
+      ]
+    },
+    {
+      "edge_id": "E-00167",
+      "source": "@dependency_graph",
+      "relation": "SCOPED_BY",
+      "target": "@bandwidth_algebra",
+      "graph_family": "chain_architecture",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_chain"
+      ]
+    },
+    {
+      "edge_id": "E-00168",
+      "source": "@dependency_graph",
+      "relation": "CONSTRUCTS_GRAPH",
+      "target": "@dc_recovery_witness_to_signature_g01",
+      "graph_family": "dependency_graph_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_graph",
+        "API_4.3::DEPENDENCY_GRAPH_IS_MATHEMATICAL_OBJECT",
+        "RUNTIME_REGISTER",
+        "QMO:@object_resolution_recovery_witness_minimality",
+        "QMO:@recovery_witness_counterexample_crawl"
+      ]
+    },
+    {
+      "edge_id": "E-00169",
+      "source": "@dc_recovery_witness_to_signature_g01",
+      "relation": "HAS_GRAPH_ROOT",
+      "target": "@object_resolution_recovery_witness_minimality",
+      "graph_family": "dependency_graph_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_graph",
+        "API_4.3::DEPENDENCY_GRAPH_IS_MATHEMATICAL_OBJECT",
+        "RUNTIME_REGISTER",
+        "QMO:@object_resolution_recovery_witness_minimality",
+        "QMO:@recovery_witness_counterexample_crawl"
+      ]
+    },
+    {
+      "edge_id": "E-00170",
+      "source": "@dc_recovery_witness_to_signature_g01",
+      "relation": "HAS_GRAPH_ROOT",
+      "target": "@recovery_witness_counterexample_crawl",
+      "graph_family": "dependency_graph_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_graph",
+        "API_4.3::DEPENDENCY_GRAPH_IS_MATHEMATICAL_OBJECT",
+        "RUNTIME_REGISTER",
+        "QMO:@object_resolution_recovery_witness_minimality",
+        "QMO:@recovery_witness_counterexample_crawl"
+      ]
+    },
+    {
+      "edge_id": "E-00171",
+      "source": "@dependency_landscape",
+      "relation": "CONSTRUCTS_LANDSCAPE",
+      "target": "@dc_recovery_witness_to_signature_l01",
+      "graph_family": "landscape_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+        "GENESIS_DIRECTION::2026-08-22",
+        "RUNTIME_REGISTER",
+        "QMO:@dc_recovery_witness_to_signature_g01"
+      ]
+    },
+    {
+      "edge_id": "E-00172",
+      "source": "@dc_recovery_witness_to_signature_l01",
+      "relation": "COMPOSES_GRAPH",
+      "target": "@dc_recovery_witness_to_signature_g01",
+      "graph_family": "landscape_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+        "GENESIS_DIRECTION::2026-08-22",
+        "RUNTIME_REGISTER",
+        "QMO:@dc_recovery_witness_to_signature_g01"
+      ]
+    },
+    {
+      "edge_id": "E-00173",
+      "source": "@dependency_graph",
+      "relation": "CONSTRUCTS_GRAPH",
+      "target": "@dc_recovery_witness_to_signature_g02",
+      "graph_family": "dependency_graph_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_graph",
+        "API_4.3::DEPENDENCY_GRAPH_IS_MATHEMATICAL_OBJECT",
+        "RUNTIME_REGISTER",
+        "QMO:@recovery_witness_counterexample_crawl",
+        "QMO:@recovery_history_signature_minimality"
+      ]
+    },
+    {
+      "edge_id": "E-00174",
+      "source": "@dc_recovery_witness_to_signature_g02",
+      "relation": "HAS_GRAPH_ROOT",
+      "target": "@recovery_witness_counterexample_crawl",
+      "graph_family": "dependency_graph_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_graph",
+        "API_4.3::DEPENDENCY_GRAPH_IS_MATHEMATICAL_OBJECT",
+        "RUNTIME_REGISTER",
+        "QMO:@recovery_witness_counterexample_crawl",
+        "QMO:@recovery_history_signature_minimality"
+      ]
+    },
+    {
+      "edge_id": "E-00175",
+      "source": "@dc_recovery_witness_to_signature_g02",
+      "relation": "HAS_GRAPH_ROOT",
+      "target": "@recovery_history_signature_minimality",
+      "graph_family": "dependency_graph_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_graph",
+        "API_4.3::DEPENDENCY_GRAPH_IS_MATHEMATICAL_OBJECT",
+        "RUNTIME_REGISTER",
+        "QMO:@recovery_witness_counterexample_crawl",
+        "QMO:@recovery_history_signature_minimality"
+      ]
+    },
+    {
+      "edge_id": "E-00176",
+      "source": "@dependency_landscape",
+      "relation": "CONSTRUCTS_LANDSCAPE",
+      "target": "@dc_recovery_witness_to_signature_l02",
+      "graph_family": "landscape_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+        "GENESIS_DIRECTION::2026-08-22",
+        "RUNTIME_REGISTER",
+        "QMO:@dc_recovery_witness_to_signature_l01",
+        "QMO:@dc_recovery_witness_to_signature_g02"
+      ]
+    },
+    {
+      "edge_id": "E-00177",
+      "source": "@dc_recovery_witness_to_signature_l02",
+      "relation": "COMPOSES_LANDSCAPE",
+      "target": "@dc_recovery_witness_to_signature_l01",
+      "graph_family": "landscape_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+        "GENESIS_DIRECTION::2026-08-22",
+        "RUNTIME_REGISTER",
+        "QMO:@dc_recovery_witness_to_signature_l01",
+        "QMO:@dc_recovery_witness_to_signature_g02"
+      ]
+    },
+    {
+      "edge_id": "E-00178",
+      "source": "@dc_recovery_witness_to_signature_l02",
+      "relation": "COMPOSES_GRAPH",
+      "target": "@dc_recovery_witness_to_signature_g02",
+      "graph_family": "landscape_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+        "GENESIS_DIRECTION::2026-08-22",
+        "RUNTIME_REGISTER",
+        "QMO:@dc_recovery_witness_to_signature_l01",
+        "QMO:@dc_recovery_witness_to_signature_g02"
+      ]
+    },
+    {
+      "edge_id": "E-00179",
+      "source": "@dependency_chain",
+      "relation": "CONSTRUCTS_CHAIN",
+      "target": "@dc_recovery_witness_to_signature",
+      "graph_family": "dependency_chain_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_chain",
+        "QMO:@object_resolution_recovery_witness_minimality",
+        "QMO:@dc_recovery_witness_to_signature_g01",
+        "QMO:@dc_recovery_witness_to_signature_g02",
+        "QMO:@dc_recovery_witness_to_signature_l01",
+        "QMO:@dc_recovery_witness_to_signature_l02"
+      ]
+    },
+    {
+      "edge_id": "E-00180",
+      "source": "@dc_recovery_witness_to_signature",
+      "relation": "HAS_CHAIN_SEED",
+      "target": "@object_resolution_recovery_witness_minimality",
+      "graph_family": "dependency_chain_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_chain",
+        "QMO:@object_resolution_recovery_witness_minimality",
+        "QMO:@dc_recovery_witness_to_signature_g01",
+        "QMO:@dc_recovery_witness_to_signature_g02",
+        "QMO:@dc_recovery_witness_to_signature_l01",
+        "QMO:@dc_recovery_witness_to_signature_l02"
+      ]
+    },
+    {
+      "edge_id": "E-00181",
+      "source": "@dc_recovery_witness_to_signature",
+      "relation": "HAS_CHAIN_GRAPH",
+      "target": "@dc_recovery_witness_to_signature_g01",
+      "graph_family": "dependency_chain_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_chain",
+        "QMO:@object_resolution_recovery_witness_minimality",
+        "QMO:@dc_recovery_witness_to_signature_g01",
+        "QMO:@dc_recovery_witness_to_signature_g02",
+        "QMO:@dc_recovery_witness_to_signature_l01",
+        "QMO:@dc_recovery_witness_to_signature_l02"
+      ]
+    },
+    {
+      "edge_id": "E-00182",
+      "source": "@dc_recovery_witness_to_signature",
+      "relation": "HAS_CHAIN_LANDSCAPE",
+      "target": "@dc_recovery_witness_to_signature_l01",
+      "graph_family": "dependency_chain_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_chain",
+        "QMO:@object_resolution_recovery_witness_minimality",
+        "QMO:@dc_recovery_witness_to_signature_g01",
+        "QMO:@dc_recovery_witness_to_signature_g02",
+        "QMO:@dc_recovery_witness_to_signature_l01",
+        "QMO:@dc_recovery_witness_to_signature_l02"
+      ]
+    },
+    {
+      "edge_id": "E-00183",
+      "source": "@dc_recovery_witness_to_signature",
+      "relation": "RESOLVES_CHAIN_STEP_TO",
+      "target": "@recovery_witness_counterexample_crawl",
+      "graph_family": "dependency_chain_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_chain",
+        "QMO:@object_resolution_recovery_witness_minimality",
+        "QMO:@dc_recovery_witness_to_signature_g01",
+        "QMO:@dc_recovery_witness_to_signature_g02",
+        "QMO:@dc_recovery_witness_to_signature_l01",
+        "QMO:@dc_recovery_witness_to_signature_l02"
+      ]
+    },
+    {
+      "edge_id": "E-00184",
+      "source": "@dc_recovery_witness_to_signature",
+      "relation": "HAS_CHAIN_GRAPH",
+      "target": "@dc_recovery_witness_to_signature_g02",
+      "graph_family": "dependency_chain_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_chain",
+        "QMO:@object_resolution_recovery_witness_minimality",
+        "QMO:@dc_recovery_witness_to_signature_g01",
+        "QMO:@dc_recovery_witness_to_signature_g02",
+        "QMO:@dc_recovery_witness_to_signature_l01",
+        "QMO:@dc_recovery_witness_to_signature_l02"
+      ]
+    },
+    {
+      "edge_id": "E-00185",
+      "source": "@dc_recovery_witness_to_signature",
+      "relation": "HAS_CHAIN_LANDSCAPE",
+      "target": "@dc_recovery_witness_to_signature_l02",
+      "graph_family": "dependency_chain_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_chain",
+        "QMO:@object_resolution_recovery_witness_minimality",
+        "QMO:@dc_recovery_witness_to_signature_g01",
+        "QMO:@dc_recovery_witness_to_signature_g02",
+        "QMO:@dc_recovery_witness_to_signature_l01",
+        "QMO:@dc_recovery_witness_to_signature_l02"
+      ]
+    },
+    {
+      "edge_id": "E-00186",
+      "source": "@dc_recovery_witness_to_signature",
+      "relation": "RESOLVES_CHAIN_STEP_TO",
+      "target": "@recovery_history_signature_minimality",
+      "graph_family": "dependency_chain_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_chain",
+        "QMO:@object_resolution_recovery_witness_minimality",
+        "QMO:@dc_recovery_witness_to_signature_g01",
+        "QMO:@dc_recovery_witness_to_signature_g02",
+        "QMO:@dc_recovery_witness_to_signature_l01",
+        "QMO:@dc_recovery_witness_to_signature_l02"
+      ]
+    },
+    {
+      "edge_id": "E-00187",
+      "source": "@dc_recovery_witness_to_signature",
+      "relation": "TERMINATES_AT",
+      "target": "@recovery_history_signature_minimality",
+      "graph_family": "dependency_chain_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_chain",
+        "QMO:@object_resolution_recovery_witness_minimality",
+        "QMO:@dc_recovery_witness_to_signature_g01",
+        "QMO:@dc_recovery_witness_to_signature_g02",
+        "QMO:@dc_recovery_witness_to_signature_l01",
+        "QMO:@dc_recovery_witness_to_signature_l02"
+      ]
+    },
+    {
+      "edge_id": "E-00188",
+      "source": "@dependency_landscape",
+      "relation": "CONSTRUCTS_LANDSCAPE",
+      "target": "@dl_recovery_progression_graphs",
+      "graph_family": "landscape_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+        "GENESIS_DIRECTION::2026-08-22",
+        "RUNTIME_REGISTER",
+        "QMO:@dc_recovery_witness_to_signature_g01",
+        "QMO:@dc_recovery_witness_to_signature_g02"
+      ]
+    },
+    {
+      "edge_id": "E-00189",
+      "source": "@dl_recovery_progression_graphs",
+      "relation": "COMPOSES_GRAPH",
+      "target": "@dc_recovery_witness_to_signature_g01",
+      "graph_family": "landscape_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+        "GENESIS_DIRECTION::2026-08-22",
+        "RUNTIME_REGISTER",
+        "QMO:@dc_recovery_witness_to_signature_g01",
+        "QMO:@dc_recovery_witness_to_signature_g02"
+      ]
+    },
+    {
+      "edge_id": "E-00190",
+      "source": "@dl_recovery_progression_graphs",
+      "relation": "COMPOSES_GRAPH",
+      "target": "@dc_recovery_witness_to_signature_g02",
+      "graph_family": "landscape_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+        "GENESIS_DIRECTION::2026-08-22",
+        "RUNTIME_REGISTER",
+        "QMO:@dc_recovery_witness_to_signature_g01",
+        "QMO:@dc_recovery_witness_to_signature_g02"
+      ]
+    },
+    {
+      "edge_id": "E-00191",
+      "source": "@black_rainbow_closed_landscape",
+      "relation": "USES_RECURSIVE_RUNTIME",
+      "target": "@rainbow_road_recursive_domain",
+      "graph_family": "iteration_architecture",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_bounded_qmo_iteration",
+        "ASTRAEUS_DERIVATION::bounded_recursive_iteration",
+        "VERA_AUDIT::domain_and_history_guard"
+      ]
+    },
+    {
+      "edge_id": "E-00192",
+      "source": "@black_rainbow_closed_landscape",
+      "relation": "USES_CARRIER",
+      "target": "@mobius_recursive_carrier",
+      "graph_family": "iteration_architecture",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_bounded_qmo_iteration",
+        "ASTRAEUS_DERIVATION::bounded_recursive_iteration",
+        "VERA_AUDIT::domain_and_history_guard"
+      ]
+    },
+    {
+      "edge_id": "E-00193",
+      "source": "@black_rainbow_closed_landscape",
+      "relation": "CLOSES_WITH",
+      "target": "@dynamic_recursive_closure",
+      "graph_family": "iteration_architecture",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_bounded_qmo_iteration",
+        "ASTRAEUS_DERIVATION::bounded_recursive_iteration",
+        "VERA_AUDIT::domain_and_history_guard"
+      ]
+    },
+    {
+      "edge_id": "E-00194",
+      "source": "@bounded_recursive_iteration",
+      "relation": "OPERATES_IN",
+      "target": "@black_rainbow_closed_landscape",
+      "graph_family": "iteration_architecture",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_bounded_qmo_iteration",
+        "ASTRAEUS_DERIVATION::bounded_recursive_iteration",
+        "VERA_AUDIT::domain_and_history_guard"
+      ]
+    },
+    {
+      "edge_id": "E-00195",
+      "source": "@bounded_recursive_iteration",
+      "relation": "USES",
+      "target": "@dynamic_recursive_closure",
+      "graph_family": "iteration_architecture",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_bounded_qmo_iteration",
+        "ASTRAEUS_DERIVATION::bounded_recursive_iteration",
+        "VERA_AUDIT::domain_and_history_guard"
+      ]
+    },
+    {
+      "edge_id": "E-00196",
+      "source": "@bounded_recursive_iteration",
+      "relation": "READS",
+      "target": "@resolution",
+      "graph_family": "iteration_architecture",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_bounded_qmo_iteration",
+        "ASTRAEUS_DERIVATION::bounded_recursive_iteration",
+        "VERA_AUDIT::domain_and_history_guard"
+      ]
+    },
+    {
+      "edge_id": "E-00197",
+      "source": "@bounded_recursive_iteration",
+      "relation": "READS",
+      "target": "@bandwidth_algebra",
+      "graph_family": "iteration_architecture",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_bounded_qmo_iteration",
+        "ASTRAEUS_DERIVATION::bounded_recursive_iteration",
+        "VERA_AUDIT::domain_and_history_guard"
+      ]
+    },
+    {
+      "edge_id": "E-00198",
+      "source": "@bounded_dependency_crawl",
+      "relation": "SPECIALIZES",
+      "target": "@bounded_recursive_iteration",
+      "graph_family": "iteration_architecture",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_bounded_qmo_iteration",
+        "ASTRAEUS_DERIVATION::bounded_recursive_iteration",
+        "VERA_AUDIT::domain_and_history_guard"
+      ]
+    },
+    {
+      "edge_id": "E-00199",
+      "source": "@bounded_dependency_crawl",
+      "relation": "BUILDS",
+      "target": "@dependency_chain",
+      "graph_family": "iteration_architecture",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_bounded_qmo_iteration",
+        "ASTRAEUS_DERIVATION::bounded_recursive_iteration",
+        "VERA_AUDIT::domain_and_history_guard"
+      ]
+    },
+    {
+      "edge_id": "E-00200",
+      "source": "@bounded_dependency_crawl",
+      "relation": "BUILDS",
+      "target": "@dependency_landscape",
+      "graph_family": "iteration_architecture",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_bounded_qmo_iteration",
+        "ASTRAEUS_DERIVATION::bounded_recursive_iteration",
+        "VERA_AUDIT::domain_and_history_guard"
+      ]
+    },
+    {
+      "edge_id": "E-00201",
+      "source": "@bounded_recursive_iteration",
+      "relation": "CONSTRUCTS_ITERATION",
+      "target": "@it_recovery_witness_1m_ceiling",
+      "graph_family": "iteration_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_bounded_qmo_iteration",
+        "QMO:@object_resolution_recovery_witness_minimality",
+        "QMO:@bounded_recursive_iteration",
+        "QMO:@bounded_dependency_crawl",
+        "QMO:@dc_recovery_witness_to_signature"
+      ]
+    },
+    {
+      "edge_id": "E-00202",
+      "source": "@it_recovery_witness_1m_ceiling",
+      "relation": "HAS_ITERATION_SEED",
+      "target": "@object_resolution_recovery_witness_minimality",
+      "graph_family": "iteration_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_bounded_qmo_iteration",
+        "QMO:@object_resolution_recovery_witness_minimality",
+        "QMO:@bounded_recursive_iteration",
+        "QMO:@bounded_dependency_crawl",
+        "QMO:@dc_recovery_witness_to_signature"
+      ]
+    },
+    {
+      "edge_id": "E-00203",
+      "source": "@it_recovery_witness_1m_ceiling",
+      "relation": "USES_ITERATION_FUNCTION",
+      "target": "@bounded_dependency_crawl",
+      "graph_family": "iteration_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_bounded_qmo_iteration",
+        "QMO:@object_resolution_recovery_witness_minimality",
+        "QMO:@bounded_recursive_iteration",
+        "QMO:@bounded_dependency_crawl",
+        "QMO:@dc_recovery_witness_to_signature"
+      ]
+    },
+    {
+      "edge_id": "E-00204",
+      "source": "@it_recovery_witness_1m_ceiling",
+      "relation": "MATERIALIZES",
+      "target": "@dc_recovery_witness_to_signature",
+      "graph_family": "iteration_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_bounded_qmo_iteration",
+        "QMO:@object_resolution_recovery_witness_minimality",
+        "QMO:@bounded_recursive_iteration",
+        "QMO:@bounded_dependency_crawl",
+        "QMO:@dc_recovery_witness_to_signature"
+      ]
+    },
+    {
+      "edge_id": "E-00205",
+      "source": "@it_recovery_witness_1m_ceiling",
+      "relation": "TERMINATES_AT",
+      "target": "@recovery_history_signature_minimality",
+      "graph_family": "iteration_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_bounded_qmo_iteration",
+        "QMO:@object_resolution_recovery_witness_minimality",
+        "QMO:@bounded_recursive_iteration",
+        "QMO:@bounded_dependency_crawl",
+        "QMO:@dc_recovery_witness_to_signature"
+      ]
+    }
+  ]
+}

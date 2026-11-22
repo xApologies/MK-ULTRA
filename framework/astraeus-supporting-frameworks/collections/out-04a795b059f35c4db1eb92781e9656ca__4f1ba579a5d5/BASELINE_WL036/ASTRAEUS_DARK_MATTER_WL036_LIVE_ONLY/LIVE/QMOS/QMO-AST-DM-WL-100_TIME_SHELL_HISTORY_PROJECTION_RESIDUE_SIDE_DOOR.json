@@ -1,0 +1,30 @@
+{
+  "schema": "ASTRAEUS_HOLONOMY_PROJECTION_RESIDUE_SIDE_DOOR_V1",
+  "qmo_id": "QMO-AST-DM-WL-100",
+  "name": "Time-Shell History Address -> Projection-Residue Side Door",
+  "atlas_version": "WL-v216",
+  "work_layer": "WL-035",
+  "status": "SIDE_DOOR_TO_EXISTING_OPEN_SLOT",
+  "parent_promotions": 0,
+  "time_shell_object": "TS=(dXi,Lambda_chi,Pi_TS,Read_R,Ord,Inv)",
+  "time_shell_address": "TSAddress=(Sigma_p,b,[h]_Id,chi,Inv,R,B,O)",
+  "dm_gate": {
+    "handle": "@dm_projection_residue_survival",
+    "test": "B_full^R not ~=_F B_vis^R",
+    "next_if_pass": "@dm_q_survival"
+  },
+  "blocking_chain": [
+    "@dm_projection_residue_survival",
+    "@dm_hidden_boundary_contact",
+    "@dm_hidden_persistent_subset",
+    "@dm_hidden_state_embedding"
+  ],
+  "finding": "Holonomy-bearing History address is a candidate pair generator/metadata source, but projection-residue admission still bottoms out at the existing hidden-state embedding OpenSlot.",
+  "next_handle": "@identity_witness",
+  "guardrails": [
+    "Time-Shell History address != DM hidden boundary contact",
+    "same generic Read_R != same matter M_R without typing",
+    "identity holonomy != dark matter",
+    "no parent promotion"
+  ]
+}

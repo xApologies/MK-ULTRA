@@ -1,0 +1,43 @@
+{
+  "a": "@isometry",
+  "b": "@angular_momentum_parameter",
+  "radius": 2,
+  "a_node_count": 31,
+  "b_node_count": 51,
+  "interface": [
+    {
+      "handle": "@diffeomorphism_invariance",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@einstein_tensor",
+      "distance_a": 2,
+      "distance_b": 2
+    }
+  ],
+  "path_a_to_b": [
+    {
+      "source": "@isometry",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@black_hole",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-46",
+      "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@isometry -> @metric_tensor -> @spacetime -> @readable_space_time -> @black_hole; relations=DEPENDS_ON + FAMILY_DEPENDS_ON + DEPENDS_ON + FAMILY_DEPENDS_ON; primitive_depth=4"
+    },
+    {
+      "source": "@black_hole",
+      "relation": "BLACK_HOLE_MODEL_REACHES",
+      "target": "@angular_momentum_parameter",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-51",
+      "provenance": "DERIVED:RP51_BLACK_HOLE_FORWARD_CRAWL; witness=@black_hole-[COMPOSED_DEPENDENCY]->@vacuum_field_equation | @vacuum_field_equation-[SUPPORTS]->@angular_momentum_parameter"
+    }
+  ],
+  "direct_neighborhood_policy": "high-confidence non-derived/direct-source Time-Space API edges only",
+  "path_policy": "high-confidence registered + admissibly derived Time-Space API edges; directions preserved"
+}

@@ -1,0 +1,38 @@
+{
+  "count": 1,
+  "derivations": [
+    {
+      "derivation_id": "D-0001",
+      "nodes": [
+        "@dependency_category",
+        "@transduction_connection",
+        "@holonomy_class"
+      ],
+      "compiler_status": "PASS",
+      "compiler_version": "0.1",
+      "metadata_package": {
+        "preserved_invariants": [
+          "operator_typing"
+        ],
+        "may_change": [
+          "presentation",
+          "history"
+        ],
+        "changed_witnessed": [],
+        "requirements": [
+          "typed_dependency_arrow",
+          "admissible_lift_family",
+          "closed_path"
+        ],
+        "analogies": [
+          "@analogy_moebius_holonomy"
+        ],
+        "provenance_chain": [
+          "L-263",
+          "L-266",
+          "L-281"
+        ]
+      }
+    }
+  ]
+}

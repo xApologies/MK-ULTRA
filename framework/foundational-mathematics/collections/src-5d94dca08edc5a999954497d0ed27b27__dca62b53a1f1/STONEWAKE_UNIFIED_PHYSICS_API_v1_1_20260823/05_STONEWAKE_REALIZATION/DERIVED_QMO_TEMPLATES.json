@@ -1,0 +1,90 @@
+{
+  "plasma_channel": {
+    "model_handle": "@sw_plasma_channel_model",
+    "required": [
+      "@sw_electromagnetic_sector",
+      "@sw_plasma_sector",
+      "@sw_thermodynamics_sector",
+      "@sw_transport_sector",
+      "@sw_material_sector"
+    ],
+    "optional": [
+      "@sw_atomic_species_registry"
+    ],
+    "note": "Derived local QMO. Requires a chosen conductivity/ionization/material closure before a concrete numerical channel is considered fully specified."
+  },
+  "lightning_discharge": {
+    "model_handle": "@sw_lightning_discharge_model",
+    "required": [
+      "@sw_electromagnetic_sector",
+      "@sw_plasma_sector",
+      "@sw_thermodynamics_sector",
+      "@sw_material_sector"
+    ],
+    "optional": [
+      "@sw_optics_sector",
+      "@sw_acoustics_sector"
+    ],
+    "note": "Derived local QMO. EM/plasma/thermal core is generic; breakdown path and material closure are context-dependent."
+  },
+  "poison_cloud": {
+    "model_handle": "@sw_poison_cloud_model",
+    "required": [
+      "@sw_species_concentration_field",
+      "@sw_fluid_sector",
+      "@sw_transport_sector",
+      "@sw_thermodynamics_sector",
+      "@sw_molecular_sector",
+      "@sw_biological_exposure_response"
+    ],
+    "optional": [
+      "@sw_chemical_reaction_sector",
+      "@sw_material_sector"
+    ],
+    "note": "Cloud transport is physics; target harm is a downstream exposure-response model. Molecular/periodic-table catalog may refine species parameters later."
+  },
+  "thermal_front": {
+    "model_handle": "@sw_thermal_front_model",
+    "required": [
+      "@sw_thermodynamics_sector",
+      "@sw_transport_sector",
+      "@sw_material_sector"
+    ],
+    "optional": [],
+    "note": "Generic thermal transport child QMO."
+  },
+  "phase_change": {
+    "model_handle": "@sw_phase_change_model",
+    "required": [
+      "@sw_thermodynamics_sector",
+      "@sw_phase_state",
+      "@sw_material_sector"
+    ],
+    "optional": [
+      "@sw_molecular_sector"
+    ],
+    "note": "Requires a material-specific constitutive phase relation."
+  },
+  "gravity_well": {
+    "model_handle": "@sw_gravity_well_model",
+    "required": [
+      "@sw_gravity_geometry_sector",
+      "@stress_energy_tensor"
+    ],
+    "optional": [
+      "@sw_chirality_sector"
+    ],
+    "note": "Reduced local gravity/geometry child QMO; source gravity architecture remains upstream."
+  },
+  "photon_resonance": {
+    "model_handle": "@sw_photon_resonance_model",
+    "required": [
+      "@sw_optics_sector",
+      "@sw_wave_resonance_sector"
+    ],
+    "optional": [
+      "@sw_chirality_sector"
+    ],
+    "note": "Wave/optical/resonance child QMO; chirality coupling is optional/contextual."
+  }
+}

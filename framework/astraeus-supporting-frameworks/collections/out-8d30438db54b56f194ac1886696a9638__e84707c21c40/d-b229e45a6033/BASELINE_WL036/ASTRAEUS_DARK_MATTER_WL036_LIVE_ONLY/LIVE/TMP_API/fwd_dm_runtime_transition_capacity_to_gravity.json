@@ -1,0 +1,57 @@
+{
+  "schema": "ASTRAEUS_QMO_CROSS_CRAWL_V1",
+  "seeds": [
+    "@dm_runtime_transition_capacity"
+  ],
+  "targets": [
+    "@gravity"
+  ],
+  "bidirectional": false,
+  "edge_count": 1333,
+  "reachable_count": 126,
+  "distance_histogram": {
+    "0": 1,
+    "1": 5,
+    "2": 17,
+    "3": 47,
+    "4": 56
+  },
+  "paths": {
+    "@dm_runtime_transition_capacity -> @gravity": [
+      {
+        "from": "@dm_runtime_transition_capacity",
+        "relation": "DEPENDS_ON",
+        "to": "@continuity_redistribution",
+        "traversal": "forward",
+        "origin": "DARKMATTER_2.0",
+        "provenance": "DM2.0",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "ATLAS_DERIVED",
+        "confidence": "high"
+      },
+      {
+        "from": "@continuity_redistribution",
+        "relation": "DIRECTED_TO",
+        "to": "@gravitational_self_coupling",
+        "traversal": "forward",
+        "origin": "TIMESPACE_4.3_FULL_CANONICAL",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54745->54746",
+        "source_location": "source_snapshots/api43/MK43_Ultra_API_CURRENT_CANONICAL.md:57474",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@gravitational_self_coupling",
+        "relation": "DIRECTED_TO",
+        "to": "@gravity",
+        "traversal": "forward",
+        "origin": "TIMESPACE_4.3_FULL_CANONICAL",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54748->54749",
+        "source_location": "source_snapshots/api43/MK43_Ultra_API_CURRENT_CANONICAL.md:57737",
+        "audit_status": "recovered",
+        "confidence": "high"
+      }
+    ]
+  },
+  "guardrail": "Navigation evidence only. Composed paths are not direct theorems and no parent object is promoted."
+}

@@ -1,0 +1,130 @@
+{
+  "handle": "@genesis_topology",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Genesis Topology",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 3,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 4,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 1,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 1,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@genesis_topology",
+        "relation": "SUPPORTS",
+        "target": "@persistent_recursive_topology",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-45",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Genesis topology supports persistent recursive topology."
+      },
+      {
+        "source": "@genesis_topology",
+        "relation": "FEEDS_BLACK_HOLE_MODEL",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_BLACK_HOLE_REVERSE_CRAWL; witness=@genesis_topology-[SUPPORTS]->@persistent_recursive_topology | @persistent_recursive_topology-[COMPOSED_DEPENDENCY]->@chirality_transport | @chirality_transport-[COMPOSED_DEPENDENCY]->@er_foam | @er_foam-[COMPOSED_DEPENDENCY]->@black_hole"
+      },
+      {
+        "source": "@genesis_topology",
+        "relation": "GLOBALLY_FEEDS_BLACK_HOLE",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-53",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_REVERSE_CRAWL; witness=@genesis_topology-[FEEDS_BLACK_HOLE_MODEL]->@black_hole"
+      },
+      {
+        "source": "@genesis_stabilization",
+        "relation": "DEPENDS_TO",
+        "target": "@genesis_topology",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:55621"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 2016,
+        "source": "@genesis_topology",
+        "relation": "SUPPORTS",
+        "target": "@persistent_recursive_topology",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Genesis topology supports persistent recursive topology."
+      },
+      {
+        "id": 12065,
+        "source": "@genesis_topology",
+        "relation": "FEEDS_BLACK_HOLE_MODEL",
+        "target": "@black_hole",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP51_BLACK_HOLE_REVERSE_CRAWL; witness=@genesis_topology-[SUPPORTS]->@persistent_recursive_topology | @persistent_recursive_topology-[COMPOSED_DEPENDENCY]->@chirality_transport | @chirality_transport-[COMPOSED_DEPENDENCY]->@er_foam | @er_foam-[COMPOSED_DEPENDENCY]->@black_hole"
+      },
+      {
+        "id": 18230,
+        "source": "@genesis_topology",
+        "relation": "GLOBALLY_FEEDS_BLACK_HOLE",
+        "target": "@black_hole",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_REVERSE_CRAWL; witness=@genesis_topology-[FEEDS_BLACK_HOLE_MODEL]->@black_hole"
+      },
+      {
+        "id": 19665,
+        "source": "@genesis_topology",
+        "relation": "SUPPORTS",
+        "target": "@persistent_recursive_topology",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Genesis topology supports persistent recursive topology."
+      },
+      {
+        "id": 375,
+        "source": "@genesis_stabilization",
+        "relation": "DEPENDS_TO",
+        "target": "@genesis_topology",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:55621"
+      }
+    ]
+  },
+  "address": "@genesis_topology",
+  "address_sha256": "4216787e6703a62136b6a414466e5c97159d8f4fb21d58630477890929e43a77"
+}

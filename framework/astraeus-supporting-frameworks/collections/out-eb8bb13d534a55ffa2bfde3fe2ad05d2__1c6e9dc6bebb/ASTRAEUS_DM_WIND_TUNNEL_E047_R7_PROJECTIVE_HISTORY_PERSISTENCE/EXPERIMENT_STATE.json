@@ -1,0 +1,24 @@
+{
+  "experiment": "E047",
+  "candidate": "CAND-DM-PROJECTIVE-HISTORY-PERSISTENCE-050",
+  "title": "R7-Isolated Projective History Persistence",
+  "status": "FULL AMPLITUDE RELAXES; PROJECTIVE/TOPOGRAPHIC HISTORY SHAPE IS EXACTLY PRESERVED UNDER THE ISOLATED R7 OPERATOR",
+  "physical_dark_matter_witness": false,
+  "parent_promotions": 0,
+  "results": {
+    "test_type": "controlled R7 operator-isolation diagnostic; not a full source-defined empty-environment trajectory",
+    "initial_state": "E043 saturated audit state E16",
+    "R7_relaxation_factor": 0.9,
+    "R7_isolate_steps_tested": 128,
+    "environment_topography_invariant_all_steps": true,
+    "all_7_H_O_readout_topographies_invariant_all_steps": true,
+    "max_cross_probe_scalar_ray_L2_error": 2.693299013657489e-15,
+    "max_normalized_readout_shape_error": 4.440892098500626e-16,
+    "full_amplitude_persistent": false,
+    "projective_topographic_persistent_for_finite_steps": true,
+    "asymptotic_zero_boundary": true,
+    "physical_time_calibration": false
+  },
+  "ruling": "The strongest source-grounded no-new-write diagnostic available is isolation of the reconstructed R7 slow-relaxation operator. It contracts every ER History field by the same factor 0.90, so the full state amplitude decays while the positive-scale/projective class and the E044 normalized domain topography remain exactly invariant for every finite step. All seven H/O source-neutral readouts likewise move along scalar rays and preserve normalized topography. Therefore the current reconstruction contains projective/topographic shape memory but not permanent full-amplitude fossil memory.",
+  "next_handle": "DECOMPOSE_THE_E043_DRIVEN_HISTORY_MAP_INTO_WRITE_PLUS_RELAXATION_AND_TEST_WHETHER_THE_SATURATED_STATE_IS_A_DRIVEN_GEOMETRIC_FIXED_CLASS"
+}

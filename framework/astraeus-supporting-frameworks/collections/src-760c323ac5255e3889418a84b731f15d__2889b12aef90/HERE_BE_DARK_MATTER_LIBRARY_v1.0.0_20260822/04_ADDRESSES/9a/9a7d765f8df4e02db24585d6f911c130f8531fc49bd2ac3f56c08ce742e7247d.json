@@ -1,0 +1,99 @@
+{
+  "handle": "@recursive_chirality_evolution_field",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Recursive Chirality Evolution Field",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 2,
+    "xapi_raw_in_count": 2,
+    "live_out_count": 1,
+    "live_in_count": 1,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@recursive_chirality_evolution_field",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_configuration_space",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:51007->51008"
+      },
+      {
+        "source": "@mote_configuration_space",
+        "relation": "DIRECTED_TO",
+        "target": "@recursive_chirality_evolution_field",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:51010->51011"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 981,
+        "source": "@recursive_chirality_evolution_field",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_configuration_space",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:51007->51008"
+      },
+      {
+        "id": 19376,
+        "source": "@recursive_chirality_evolution_field",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_configuration_space",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:51007->51008"
+      },
+      {
+        "id": 742,
+        "source": "@mote_configuration_space",
+        "relation": "DIRECTED_TO",
+        "target": "@recursive_chirality_evolution_field",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:51010->51011"
+      },
+      {
+        "id": 19255,
+        "source": "@mote_configuration_space",
+        "relation": "DIRECTED_TO",
+        "target": "@recursive_chirality_evolution_field",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:51010->51011"
+      }
+    ]
+  },
+  "address": "@recursive_chirality_evolution_field",
+  "address_sha256": "9a7d765f8df4e02db24585d6f911c130f8531fc49bd2ac3f56c08ce742e7247d"
+}

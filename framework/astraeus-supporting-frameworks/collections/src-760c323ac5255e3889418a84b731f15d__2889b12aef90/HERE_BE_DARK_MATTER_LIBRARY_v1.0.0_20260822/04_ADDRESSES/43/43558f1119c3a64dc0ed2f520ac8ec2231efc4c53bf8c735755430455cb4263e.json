@@ -1,0 +1,91 @@
+{
+  "handle": "@dm_q_completion_family",
+  "object_type": "mathematical_object",
+  "status": "ATLAS_DERIVED_CLOSED",
+  "domain": "DM22",
+  "namespace": "field",
+  "name": "Residue-Bundle Q-Completion Family",
+  "definition": "Set of complete QFT handoff objects extending an admissible residue bundle under the current Time-Space field axioms/theorems. It replaces the open arbitrary residue→Q map.",
+  "math": "C_Q(B):={ Q=(M,F,π_F,h,∇,R_∇,Γ,A,P,S) | Q extends B=(M,F,π_F) and satisfies the admitted field axioms }. For a residue bundle produced under the full current Time-Space assumptions, C_Q(B)≠∅ by T1–T4.",
+  "source_layer": "DM22",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "DM22",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 2,
+    "xapi_raw_in_count": 3,
+    "live_out_count": 2,
+    "live_in_count": 4,
+    "closure_out_reachability_count": 2,
+    "closure_in_reachability_count": 8,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 3,
+    "aliases": [
+      "@dm_field_handoff_from_residue"
+    ],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19793,
+        "source": "@dm_q_completion_family",
+        "relation": "DEPENDS_ON",
+        "target": "@field_level_handoff_theorem",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19794,
+        "source": "@dm_q_completion_family",
+        "relation": "DEPENDS_ON",
+        "target": "@residue_quantum_field_bundle",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19722,
+        "source": "@dm_covariant_hidden_action_family",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_q_completion_family",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.2_CROSS_API"
+      },
+      {
+        "id": 19782,
+        "source": "@dm_metric_action_selection",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_q_completion_family",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19796,
+        "source": "@dm_q_survival",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_q_completion_family",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      }
+    ]
+  },
+  "address": "@dm_q_completion_family",
+  "address_sha256": "43558f1119c3a64dc0ed2f520ac8ec2231efc4c53bf8c735755430455cb4263e"
+}

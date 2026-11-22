@@ -1,0 +1,86 @@
+{
+  "handle": "@dm_stress_active_action_fiber",
+  "object_type": "qmo_derived_mathematical_object",
+  "status": "LIVE_DERIVED_CLOSED_INTERNAL",
+  "domain": "DM30",
+  "namespace": "mk43://dark-matter/live",
+  "name": "Stress-Active Covariant Hidden Action Fiber",
+  "definition": "Subset of the already-closed covariant hidden-action family whose metric variation generates nonzero hidden stress-energy.",
+  "math": "S_H,act^cov := {S_H∈S_H^cov(Q_H,g) | V_g(S_H) != 0}, V_g(S_H)=-(2/sqrt(-g))δS_H/δg^(μν).",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E067",
+  "qmo_generated": true,
+  "proof_status": "DERIVED_OR_CONDITIONAL",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "LIVE_QMO_DERIVED",
+  "metadata": {
+    "payload": {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_stress_active_action_fiber",
+      "canonical_name": "Stress-Active Covariant Hidden Action Fiber",
+      "type": "MetricVariationKernelComplement",
+      "status": "LIVE_DERIVED_CLOSED_INTERNAL",
+      "checkpoint": "E067",
+      "definition": "Subset of the already-closed covariant hidden-action family whose metric variation generates nonzero hidden stress-energy.",
+      "math": "S_H,act^cov := {S_H∈S_H^cov(Q_H,g) | V_g(S_H) != 0}, V_g(S_H)=-(2/sqrt(-g))δS_H/δg^(μν).",
+      "parents": [
+        "@dm_covariant_hidden_action_family",
+        "@dm_stress_energy_realization_family",
+        "@metric_variation"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false,
+      "open_nonemptiness": "@dm_stress_active_action_fiber_nonempty"
+    },
+    "direct_live_edges_out": [
+      {
+        "source": "@dm_stress_active_action_fiber",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_covariant_hidden_action_family",
+        "graph_family": "dark_matter_live",
+        "confidence": "high",
+        "audit_status": "LIVE_DERIVED_CLOSED",
+        "provenance": "E067",
+        "origin": "LIVE_LANDSCAPE",
+        "source_layer": "live_e067"
+      },
+      {
+        "source": "@dm_stress_active_action_fiber",
+        "relation": "DEPENDS_ON",
+        "target": "@metric_variation",
+        "graph_family": "dark_matter_live",
+        "confidence": "high",
+        "audit_status": "LIVE_DERIVED_CLOSED",
+        "provenance": "E067",
+        "origin": "LIVE_LANDSCAPE",
+        "source_layer": "live_e067"
+      }
+    ],
+    "direct_live_edges_in": [
+      {
+        "source": "@dm_stress_active_action_fiber_nonempty",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_stress_active_action_fiber",
+        "graph_family": "dark_matter_live",
+        "confidence": "high",
+        "audit_status": "LIVE_OPEN_CANDIDATE",
+        "provenance": "E067",
+        "origin": "LIVE_LANDSCAPE",
+        "source_layer": "live_e067"
+      },
+      {
+        "source": "@dm_conditional_scalar_stress_active_witness",
+        "relation": "CONDITIONAL_ON",
+        "target": "@dm_stress_active_action_fiber",
+        "graph_family": "LIVE_OVERLAY",
+        "confidence": null,
+        "audit_status": "LIVE_CONDITIONAL",
+        "provenance": "CC-DM-E069-001",
+        "origin": "E069",
+        "source_layer": "live_e069"
+      }
+    ]
+  },
+  "address": "@dm_stress_active_action_fiber",
+  "address_sha256": "b55a6314804dd75bd759024ea1fc39b6a80dad6b52231d63ed7ed94a27221852"
+}

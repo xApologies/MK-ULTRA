@@ -1,0 +1,38 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_NEIGHBORS_V1",
+  "handle": "@weighted_adjacency",
+  "incoming": [
+    [
+      "@er_throat_incidence",
+      {
+        "source": "@er_throat_incidence",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@weighted_adjacency",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:27715",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ]
+  ],
+  "outgoing": [
+    [
+      "@adjacency_lattice",
+      {
+        "source": "@weighted_adjacency",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@adjacency_lattice",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:27721",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ]
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry"
+}

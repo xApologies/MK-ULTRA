@@ -1,0 +1,36 @@
+{
+  "schema": "ASTRAEUS_QMO_COMPOSITION_V1",
+  "qmo_id": "QMO-AST-DM-WL-034",
+  "name": "Rotational Closed-History / Parent-Native Cyclic Lift Composition",
+  "status": "QMO_COMPOSED_CANDIDATE_NOT_PARENT_PROMOTED",
+  "parents": [
+    "QMO-AST-DM-WL-003",
+    "QMO-AST-DM-WL-031",
+    "QMO-AST-DM-WL-032",
+    "PARENT:QMO-AST-DM-015",
+    "PARENT:QMO-AST-DM-016",
+    "PARENT:QMO-AST-DM-033",
+    "PARENT:QMO-AST-DM-034"
+  ],
+  "composition_inputs": {
+    "rotational_history": "W_g^3(H)=accumulated ordered family of S2 states; S3-class, not automatically literal S3",
+    "closed_memory": "Hol_gamma(H)!=id for nontrivial closed orientation memory",
+    "history_handle": "@orientation_history -> @relational_history",
+    "hidden_bundle_handle": "@dm_hidden_state_bundle",
+    "embedding_family_handle": "@dm_constraint_preserving_embedding_family",
+    "parent_antecedent_lift_qmo": "QMO-AST-DM-015",
+    "parent_cyclic_lift_qmo": "QMO-AST-DM-016"
+  },
+  "combined_query_object": "Select a finite cyclic stage representative of the already-defined nontrivial closed rotational History and query it against the existing parent-native antecedent relation R_HE^R / Lift_cyc^R(x0;N), while preserving the existing hidden-bundle, inheritance, and native-constraint handles.",
+  "next_candidate_handle": "@dm_v76_cyclic_parent_native_orbit_lift",
+  "open_target": "@dm_hidden_state_embedding",
+  "why_this_handle": "QMO-AST-DM-015 already targets @dm_hidden_state_embedding and its specialization QMO-AST-DM-016 is explicitly a cyclic parent-native orbit lift. The current rotational self-corridor already supplies a closed ordered History, so the APIs/candidate graph point to the cyclic-lift handle before any new embedding mathematics is written.",
+  "readout_sidecar": "PARENT QMO-AST-DM-034 already defines the History-orbit dark readout criterion on @relational_history; keep this as the readout test after physical admission rather than rebuilding it.",
+  "guardrails": [
+    "finite cyclic representative != global hidden-bundle embedding",
+    "Lift_cyc nonemptiness not assumed",
+    "candidate graph edge != parent theorem",
+    "no scalar-profile primitive",
+    "no parent promotion"
+  ]
+}

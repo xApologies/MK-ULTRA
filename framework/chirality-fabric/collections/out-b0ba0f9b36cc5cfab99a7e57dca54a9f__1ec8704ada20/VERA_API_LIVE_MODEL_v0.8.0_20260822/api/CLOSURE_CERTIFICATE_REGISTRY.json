@@ -1,0 +1,2277 @@
+{
+  "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_REGISTRY_V1",
+  "certificates": [
+    {
+      "certificate_id": "CERT-RR-001",
+      "handle": "@history_bearing_return",
+      "status": "VALID",
+      "domain": "@rainbow_road_recursive_domain",
+      "rule": "R-006",
+      "premises": [
+        "@mobius_recursive_carrier",
+        "@history_trace",
+        "@mobius_orientation_handoff"
+      ],
+      "obligations": {
+        "premises_admitted": true,
+        "licensed_rule": true,
+        "no_new_primitive": true,
+        "inside_domain": true,
+        "provenance_complete": true,
+        "recovery_witness": true,
+        "hard_guards_pass": true,
+        "orientation_typed": true
+      },
+      "provenance": [
+        "LIVE_MODEL RR-006 §§38.1-38.5",
+        "NF-007"
+      ]
+    },
+    {
+      "certificate_id": "CERT-RR-002",
+      "handle": "@return_not_reset",
+      "status": "VALID",
+      "domain": "@rainbow_road_recursive_domain",
+      "rule": "R-006",
+      "premises": [
+        "@history_bearing_return",
+        "@history_trace"
+      ],
+      "obligations": {
+        "premises_admitted": true,
+        "licensed_rule": true,
+        "no_new_primitive": true,
+        "inside_domain": true,
+        "provenance_complete": true,
+        "recovery_witness": true,
+        "hard_guards_pass": true,
+        "orientation_typed": true
+      },
+      "provenance": [
+        "LIVE_MODEL RR-006 §38.5",
+        "NF-007"
+      ]
+    },
+    {
+      "certificate_id": "CC-003",
+      "handle": "@witness_fiber_separation_criterion",
+      "status": "VALID",
+      "derivation_rule": "R-009",
+      "premises": [
+        "@handoff_merge_fiber",
+        "@recovery_provenance_bundle"
+      ],
+      "obligations": {
+        "premises_admitted": true,
+        "licensed_rule": true,
+        "no_new_primitive_or_axiom": true,
+        "output_type_admitted": true,
+        "bandwidth_obligations_pass": true,
+        "resolution_obligations_pass": true,
+        "provenance_complete_acyclic": true,
+        "recovery_witness_present_when_required": true,
+        "hard_guards_satisfied": true,
+        "mobius_orientation_typed": true
+      },
+      "domain": "@rainbow_road_recursive_domain",
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "CE-RW-001"
+      ]
+    },
+    {
+      "certificate_id": "CC-004",
+      "handle": "@core_witness_collision",
+      "status": "VALID",
+      "derivation_rule": "R-010",
+      "premises": [
+        "@handoff_merge_fiber",
+        "@witness_bundle_core"
+      ],
+      "obligations": {
+        "premises_admitted": true,
+        "licensed_rule": true,
+        "no_new_primitive_or_axiom": true,
+        "output_type_admitted": true,
+        "bandwidth_obligations_pass": true,
+        "resolution_obligations_pass": true,
+        "provenance_complete_acyclic": true,
+        "recovery_witness_present_when_required": true,
+        "hard_guards_satisfied": true,
+        "mobius_orientation_typed": true
+      },
+      "domain": "@rainbow_road_recursive_domain",
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "CE-RW-001"
+      ]
+    },
+    {
+      "certificate_id": "CC-005",
+      "handle": "@recovery_discriminator",
+      "status": "VALID",
+      "derivation_rule": "R-011",
+      "premises": [
+        "@core_witness_collision"
+      ],
+      "obligations": {
+        "premises_admitted": true,
+        "licensed_rule": true,
+        "no_new_primitive_or_axiom": true,
+        "output_type_admitted": true,
+        "bandwidth_obligations_pass": true,
+        "resolution_obligations_pass": true,
+        "provenance_complete_acyclic": true,
+        "recovery_witness_present_when_required": true,
+        "hard_guards_satisfied": true,
+        "mobius_orientation_typed": true
+      },
+      "domain": "@rainbow_road_recursive_domain",
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "CE-RW-001"
+      ]
+    },
+    {
+      "certificate_id": "CC-006",
+      "handle": "@history_trace_counterexample_sufficiency",
+      "status": "VALID",
+      "derivation_rule": "R-012",
+      "premises": [
+        "@core_witness_collision",
+        "@history_trace",
+        "@witness_bundle_history_augmented"
+      ],
+      "obligations": {
+        "premises_admitted": true,
+        "licensed_rule": true,
+        "no_new_primitive_or_axiom": true,
+        "output_type_admitted": true,
+        "bandwidth_obligations_pass": true,
+        "resolution_obligations_pass": true,
+        "provenance_complete_acyclic": true,
+        "recovery_witness_present_when_required": true,
+        "hard_guards_satisfied": true,
+        "mobius_orientation_typed": true
+      },
+      "domain": "@rainbow_road_recursive_domain",
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "CE-RW-001"
+      ]
+    },
+    {
+      "certificate_id": "CERT-DL-a12ffa9e8e21",
+      "handle": "@dl_history_signature",
+      "status": "VALID",
+      "domain": "@rainbow_road_recursive_domain",
+      "rule": "DEPENDENCY_LANDSCAPE_CONSTRUCTION_V1",
+      "premises": [
+        "@recovery_history_signature_minimality",
+        "@holonomy_history_signature"
+      ],
+      "obligations": {
+        "inputs_registered": true,
+        "member_edges_registered": true,
+        "no_unregistered_mathematical_edges_added": true,
+        "member_status_preserved": true,
+        "provenance_complete": true,
+        "history_attached": true,
+        "resolution_context_attached": true,
+        "bandwidth_context_attached": true,
+        "qmo_address_registered": true
+      },
+      "provenance": [
+        "API_4.3::RP-30.13_API_CRAWL_CONTRACT",
+        "API_4.3::RP-45_DEPENDENCY_LANDSCAPE_DENSIFICATION",
+        "GENESIS_DIRECTION::2026-08-22",
+        "QMO:@recovery_history_signature_minimality",
+        "QMO:@holonomy_history_signature"
+      ],
+      "semantic_guard": "Certificate validates landscape construction only; it does not promote member claims."
+    },
+    {
+      "certificate_id": "CERT-DL-b85c029a60eb",
+      "handle": "@dl_resolution_recovery",
+      "status": "VALID",
+      "domain": "@rainbow_road_recursive_domain",
+      "rule": "DEPENDENCY_LANDSCAPE_CONSTRUCTION_V1",
+      "premises": [
+        "@strong_resolution_handoff_continuity",
+        "@recovery_discriminator"
+      ],
+      "obligations": {
+        "inputs_registered": true,
+        "member_edges_registered": true,
+        "no_unregistered_mathematical_edges_added": true,
+        "member_status_preserved": true,
+        "provenance_complete": true,
+        "history_attached": true,
+        "resolution_context_attached": true,
+        "bandwidth_context_attached": true,
+        "qmo_address_registered": true
+      },
+      "provenance": [
+        "API_4.3::RP-30.13_API_CRAWL_CONTRACT",
+        "API_4.3::RP-45_DEPENDENCY_LANDSCAPE_DENSIFICATION",
+        "GENESIS_DIRECTION::2026-08-22",
+        "QMO:@strong_resolution_handoff_continuity",
+        "QMO:@recovery_discriminator"
+      ],
+      "semantic_guard": "Certificate validates landscape construction only; it does not promote member claims."
+    },
+    {
+      "certificate_id": "CERT-DL-ee67ffe08f2e",
+      "handle": "@dl_history_resolution_bridge",
+      "status": "VALID",
+      "domain": "@rainbow_road_recursive_domain",
+      "rule": "DEPENDENCY_LANDSCAPE_CONSTRUCTION_V1",
+      "premises": [
+        "@dl_history_signature",
+        "@dl_resolution_recovery"
+      ],
+      "obligations": {
+        "inputs_registered": true,
+        "member_edges_registered": true,
+        "no_unregistered_mathematical_edges_added": true,
+        "member_status_preserved": true,
+        "provenance_complete": true,
+        "history_attached": true,
+        "resolution_context_attached": true,
+        "bandwidth_context_attached": true,
+        "qmo_address_registered": true
+      },
+      "provenance": [
+        "API_4.3::RP-30.13_API_CRAWL_CONTRACT",
+        "API_4.3::RP-45_DEPENDENCY_LANDSCAPE_DENSIFICATION",
+        "GENESIS_DIRECTION::2026-08-22",
+        "QMO:@dl_history_signature",
+        "QMO:@dl_resolution_recovery"
+      ],
+      "semantic_guard": "Certificate validates landscape construction only; it does not promote member claims."
+    },
+    {
+      "certificate_id": "CERT-DG-d89a18fafa57",
+      "handle": "@dc_recovery_witness_to_signature_g01",
+      "status": "VALID",
+      "domain": "@rainbow_road_recursive_domain",
+      "rule": "DEPENDENCY_GRAPH_CONSTRUCTION_V1",
+      "premises": [
+        "@object_resolution_recovery_witness_minimality",
+        "@recovery_witness_counterexample_crawl"
+      ],
+      "obligations": {
+        "inputs_registered": true,
+        "edges_registered": true,
+        "no_unregistered_edges_added": true,
+        "member_status_preserved": true,
+        "provenance_complete": true,
+        "history_attached": true,
+        "qmo_address_registered": true
+      },
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_graph",
+        "API_4.3::DEPENDENCY_GRAPH_IS_MATHEMATICAL_OBJECT",
+        "RUNTIME_REGISTER",
+        "QMO:@object_resolution_recovery_witness_minimality",
+        "QMO:@recovery_witness_counterexample_crawl"
+      ],
+      "semantic_guard": "Certificate validates graph construction only; it does not promote member claims."
+    },
+    {
+      "certificate_id": "CERT-DL-7a8fb844468f",
+      "handle": "@dc_recovery_witness_to_signature_l01",
+      "status": "VALID",
+      "domain": "@rainbow_road_recursive_domain",
+      "rule": "DEPENDENCY_LANDSCAPE_CONSTRUCTION_V2",
+      "premises": [
+        "@dc_recovery_witness_to_signature_g01"
+      ],
+      "obligations": {
+        "inputs_registered": true,
+        "member_edges_registered": true,
+        "no_unregistered_mathematical_edges_added": true,
+        "member_status_preserved": true,
+        "provenance_complete": true,
+        "history_attached": true,
+        "resolution_context_attached": true,
+        "bandwidth_context_attached": true,
+        "qmo_address_registered": true
+      },
+      "provenance": [
+        "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+        "GENESIS_DIRECTION::2026-08-22",
+        "RUNTIME_REGISTER",
+        "QMO:@dc_recovery_witness_to_signature_g01"
+      ],
+      "semantic_guard": "Certificate validates landscape construction only; it does not promote member claims."
+    },
+    {
+      "certificate_id": "CERT-DG-88f33087524e",
+      "handle": "@dc_recovery_witness_to_signature_g02",
+      "status": "VALID",
+      "domain": "@rainbow_road_recursive_domain",
+      "rule": "DEPENDENCY_GRAPH_CONSTRUCTION_V1",
+      "premises": [
+        "@recovery_witness_counterexample_crawl",
+        "@recovery_history_signature_minimality"
+      ],
+      "obligations": {
+        "inputs_registered": true,
+        "edges_registered": true,
+        "no_unregistered_edges_added": true,
+        "member_status_preserved": true,
+        "provenance_complete": true,
+        "history_attached": true,
+        "qmo_address_registered": true
+      },
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_graph",
+        "API_4.3::DEPENDENCY_GRAPH_IS_MATHEMATICAL_OBJECT",
+        "RUNTIME_REGISTER",
+        "QMO:@recovery_witness_counterexample_crawl",
+        "QMO:@recovery_history_signature_minimality"
+      ],
+      "semantic_guard": "Certificate validates graph construction only; it does not promote member claims."
+    },
+    {
+      "certificate_id": "CERT-DL-1e1bdaf52ab4",
+      "handle": "@dc_recovery_witness_to_signature_l02",
+      "status": "VALID",
+      "domain": "@rainbow_road_recursive_domain",
+      "rule": "DEPENDENCY_LANDSCAPE_CONSTRUCTION_V2",
+      "premises": [
+        "@dc_recovery_witness_to_signature_l01",
+        "@dc_recovery_witness_to_signature_g02"
+      ],
+      "obligations": {
+        "inputs_registered": true,
+        "member_edges_registered": true,
+        "no_unregistered_mathematical_edges_added": true,
+        "member_status_preserved": true,
+        "provenance_complete": true,
+        "history_attached": true,
+        "resolution_context_attached": true,
+        "bandwidth_context_attached": true,
+        "qmo_address_registered": true
+      },
+      "provenance": [
+        "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+        "GENESIS_DIRECTION::2026-08-22",
+        "RUNTIME_REGISTER",
+        "QMO:@dc_recovery_witness_to_signature_l01",
+        "QMO:@dc_recovery_witness_to_signature_g02"
+      ],
+      "semantic_guard": "Certificate validates landscape construction only; it does not promote member claims."
+    },
+    {
+      "certificate_id": "CERT-DC-99028cade24b",
+      "handle": "@dc_recovery_witness_to_signature",
+      "status": "VALID",
+      "domain": "@rainbow_road_recursive_domain",
+      "rule": "DEPENDENCY_CHAIN_CONSTRUCTION_V1",
+      "premises": [
+        "@object_resolution_recovery_witness_minimality"
+      ],
+      "obligations": {
+        "seed_registered": true,
+        "step_edges_registered": true,
+        "step_graphs_registered": true,
+        "step_landscapes_registered": true,
+        "history_attached": true,
+        "provenance_complete": true,
+        "member_status_preserved": true,
+        "qmo_address_registered": true,
+        "terminal_closure_valid": false
+      },
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_chain",
+        "QMO:@object_resolution_recovery_witness_minimality",
+        "QMO:@dc_recovery_witness_to_signature_g01",
+        "QMO:@dc_recovery_witness_to_signature_g02",
+        "QMO:@dc_recovery_witness_to_signature_l01",
+        "QMO:@dc_recovery_witness_to_signature_l02"
+      ],
+      "semantic_guard": "Certificate validates chain construction. CLOSED_SUBDOMAIN status is permitted only when terminal_closure_valid is true."
+    },
+    {
+      "certificate_id": "CERT-DL-78e2b36b1e20",
+      "handle": "@dl_recovery_progression_graphs",
+      "status": "VALID",
+      "domain": "@rainbow_road_recursive_domain",
+      "rule": "DEPENDENCY_LANDSCAPE_CONSTRUCTION_V2",
+      "premises": [
+        "@dc_recovery_witness_to_signature_g01",
+        "@dc_recovery_witness_to_signature_g02"
+      ],
+      "obligations": {
+        "inputs_registered": true,
+        "member_edges_registered": true,
+        "no_unregistered_mathematical_edges_added": true,
+        "member_status_preserved": true,
+        "provenance_complete": true,
+        "history_attached": true,
+        "resolution_context_attached": true,
+        "bandwidth_context_attached": true,
+        "qmo_address_registered": true
+      },
+      "provenance": [
+        "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+        "GENESIS_DIRECTION::2026-08-22",
+        "RUNTIME_REGISTER",
+        "QMO:@dc_recovery_witness_to_signature_g01",
+        "QMO:@dc_recovery_witness_to_signature_g02"
+      ],
+      "semantic_guard": "Certificate validates landscape construction only; it does not promote member claims."
+    },
+    {
+      "certificate_id": "CERT-19795a8b80ca",
+      "handle": "@bounded_recursive_iteration",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "BOUNDED_RECURSIVE_ITERATION_V1",
+      "premises": [
+        "@black_rainbow_closed_landscape",
+        "@dynamic_recursive_closure",
+        "@resolution",
+        "@bandwidth_algebra"
+      ],
+      "obligations": {
+        "finite_bound_declared": true,
+        "step_operator_registered": true,
+        "stop_predicate_declared": true,
+        "history_preserved": true,
+        "domain_guard_active": true,
+        "provenance_complete": true
+      },
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_bounded_qmo_iteration",
+        "ASTRAEUS_DERIVATION::bounded_recursive_iteration",
+        "VERA_AUDIT::domain_and_history_guard"
+      ],
+      "semantic_guard": "Certificate validates internal architectural construction; it does not promote unrelated member claims."
+    },
+    {
+      "certificate_id": "CERT-43df09c3f59d",
+      "handle": "@bounded_dependency_crawl",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "BOUNDED_DEPENDENCY_CRAWL_V1",
+      "premises": [
+        "@bounded_recursive_iteration",
+        "@dependency_graph",
+        "@dependency_landscape",
+        "@dependency_chain"
+      ],
+      "obligations": {
+        "registered_edges_only": true,
+        "no_invented_edges": true,
+        "member_status_preserved": true,
+        "history_preserved": true,
+        "domain_guard_active": true
+      },
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_bounded_qmo_iteration",
+        "ASTRAEUS_DERIVATION::bounded_recursive_iteration",
+        "VERA_AUDIT::domain_and_history_guard"
+      ],
+      "semantic_guard": "Certificate validates internal architectural construction; it does not promote unrelated member claims."
+    },
+    {
+      "certificate_id": "CERT-IT-248e42a5cee6",
+      "handle": "@it_recovery_witness_1m_ceiling",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "BOUNDED_ITERATION_RUN_V1",
+      "premises": [
+        "@object_resolution_recovery_witness_minimality",
+        "@bounded_recursive_iteration"
+      ],
+      "obligations": {
+        "finite_horizon_declared": true,
+        "registered_step_function": true,
+        "history_attached": true,
+        "domain_guard_active": true,
+        "materialized_qmo_registered": true,
+        "member_status_preserved": true,
+        "provenance_complete": true
+      },
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_bounded_qmo_iteration",
+        "QMO:@object_resolution_recovery_witness_minimality",
+        "QMO:@bounded_recursive_iteration",
+        "QMO:@bounded_dependency_crawl",
+        "QMO:@dc_recovery_witness_to_signature"
+      ],
+      "semantic_guard": "Validates iteration-run construction, not truth/promotion of all members encountered."
+    },
+    {
+      "certificate_id": "CERT-DL-edfbacd57ec3",
+      "handle": "@dl_recovery_history_signature_core",
+      "status": "VALID",
+      "domain": "@rainbow_road_recursive_domain",
+      "rule": "DEPENDENCY_LANDSCAPE_CONSTRUCTION_V2",
+      "premises": [
+        "@history_holonomy",
+        "@holonomy_history_signature",
+        "@recovery_discriminator"
+      ],
+      "obligations": {
+        "inputs_registered": true,
+        "member_edges_registered": true,
+        "no_unregistered_mathematical_edges_added": true,
+        "member_status_preserved": true,
+        "provenance_complete": true,
+        "history_attached": true,
+        "resolution_context_attached": true,
+        "bandwidth_context_attached": true,
+        "qmo_address_registered": true
+      },
+      "provenance": [
+        "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+        "GENESIS_DIRECTION::2026-08-22",
+        "RUNTIME_REGISTER",
+        "QMO:@history_holonomy",
+        "QMO:@holonomy_history_signature",
+        "QMO:@recovery_discriminator"
+      ],
+      "semantic_guard": "Certificate validates landscape construction only; it does not promote member claims."
+    },
+    {
+      "certificate_id": "CC-007",
+      "handle": "@recovery_test_family",
+      "status": "VALID",
+      "derivation_rule": "R-013",
+      "premises": [
+        "@recovery_discriminator",
+        "@identity_witness"
+      ],
+      "obligations": {
+        "premises_admitted": true,
+        "licensed_rule": true,
+        "no_new_primitive_or_axiom": true,
+        "output_type_admitted": true,
+        "bandwidth_obligations_pass": true,
+        "resolution_obligations_pass": true,
+        "provenance_complete_acyclic": true,
+        "recovery_witness_present_when_required": true,
+        "hard_guards_satisfied": true,
+        "domain_guard_active": true
+      },
+      "domain": "@black_rainbow_closed_landscape",
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE",
+      "provenance": [
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/02_IDENTITY_WITNESS_TRANSPORT.md",
+        "IDENTITY_THROUGH_HISTORY::D43-D49",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "TRANSDUCTION_GEOMETRY::D14_DERIVATION_MACRO",
+        "SELF_BUILD_PASS_003",
+        "QMO:@dl_recovery_history_signature_core"
+      ],
+      "semantic_guard": "Closure is relative to the declared recovery-test family and Black Rainbow contract; it does not prove that a finite Holonomy field tuple realizes the quotient."
+    },
+    {
+      "certificate_id": "CC-008",
+      "handle": "@recovery_context_equivalence",
+      "status": "VALID",
+      "derivation_rule": "R-013",
+      "premises": [
+        "@history_path",
+        "@recovery_test_family",
+        "@history_transport"
+      ],
+      "obligations": {
+        "premises_admitted": true,
+        "licensed_rule": true,
+        "no_new_primitive_or_axiom": true,
+        "output_type_admitted": true,
+        "bandwidth_obligations_pass": true,
+        "resolution_obligations_pass": true,
+        "provenance_complete_acyclic": true,
+        "recovery_witness_present_when_required": true,
+        "hard_guards_satisfied": true,
+        "domain_guard_active": true
+      },
+      "domain": "@black_rainbow_closed_landscape",
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE",
+      "provenance": [
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/02_IDENTITY_WITNESS_TRANSPORT.md",
+        "IDENTITY_THROUGH_HISTORY::D43-D49",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "TRANSDUCTION_GEOMETRY::D14_DERIVATION_MACRO",
+        "SELF_BUILD_PASS_003",
+        "QMO:@dl_recovery_history_signature_core"
+      ],
+      "semantic_guard": "Closure is relative to the declared recovery-test family and Black Rainbow contract; it does not prove that a finite Holonomy field tuple realizes the quotient."
+    },
+    {
+      "certificate_id": "CC-009",
+      "handle": "@recovery_history_signature_quotient",
+      "status": "VALID",
+      "derivation_rule": "R-014",
+      "premises": [
+        "@recovery_context_equivalence",
+        "@history_path"
+      ],
+      "obligations": {
+        "premises_admitted": true,
+        "licensed_rule": true,
+        "no_new_primitive_or_axiom": true,
+        "output_type_admitted": true,
+        "bandwidth_obligations_pass": true,
+        "resolution_obligations_pass": true,
+        "provenance_complete_acyclic": true,
+        "recovery_witness_present_when_required": true,
+        "hard_guards_satisfied": true,
+        "domain_guard_active": true
+      },
+      "domain": "@black_rainbow_closed_landscape",
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE",
+      "provenance": [
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/02_IDENTITY_WITNESS_TRANSPORT.md",
+        "IDENTITY_THROUGH_HISTORY::D43-D49",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "TRANSDUCTION_GEOMETRY::D14_DERIVATION_MACRO",
+        "SELF_BUILD_PASS_003",
+        "QMO:@dl_recovery_history_signature_core"
+      ],
+      "semantic_guard": "Closure is relative to the declared recovery-test family and Black Rainbow contract; it does not prove that a finite Holonomy field tuple realizes the quotient."
+    },
+    {
+      "certificate_id": "CC-010",
+      "handle": "@recovery_signature_composition",
+      "status": "VALID",
+      "derivation_rule": "R-014",
+      "premises": [
+        "@recovery_history_signature_quotient",
+        "@history_path"
+      ],
+      "obligations": {
+        "premises_admitted": true,
+        "licensed_rule": true,
+        "no_new_primitive_or_axiom": true,
+        "output_type_admitted": true,
+        "bandwidth_obligations_pass": true,
+        "resolution_obligations_pass": true,
+        "provenance_complete_acyclic": true,
+        "recovery_witness_present_when_required": true,
+        "hard_guards_satisfied": true,
+        "domain_guard_active": true
+      },
+      "domain": "@black_rainbow_closed_landscape",
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE",
+      "provenance": [
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/02_IDENTITY_WITNESS_TRANSPORT.md",
+        "IDENTITY_THROUGH_HISTORY::D43-D49",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "TRANSDUCTION_GEOMETRY::D14_DERIVATION_MACRO",
+        "SELF_BUILD_PASS_003",
+        "QMO:@dl_recovery_history_signature_core"
+      ],
+      "semantic_guard": "Closure is relative to the declared recovery-test family and Black Rainbow contract; it does not prove that a finite Holonomy field tuple realizes the quotient."
+    },
+    {
+      "certificate_id": "CC-011",
+      "handle": "@theorem_recovery_context_quotient",
+      "status": "VALID",
+      "derivation_rule": "R-015",
+      "premises": [
+        "@recovery_context_equivalence",
+        "@recovery_history_signature_quotient",
+        "@recovery_signature_composition",
+        "@recovery_discriminator"
+      ],
+      "obligations": {
+        "premises_admitted": true,
+        "licensed_rule": true,
+        "no_new_primitive_or_axiom": true,
+        "output_type_admitted": true,
+        "bandwidth_obligations_pass": true,
+        "resolution_obligations_pass": true,
+        "provenance_complete_acyclic": true,
+        "recovery_witness_present_when_required": true,
+        "hard_guards_satisfied": true,
+        "domain_guard_active": true
+      },
+      "domain": "@black_rainbow_closed_landscape",
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE",
+      "provenance": [
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/02_IDENTITY_WITNESS_TRANSPORT.md",
+        "IDENTITY_THROUGH_HISTORY::D43-D49",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "TRANSDUCTION_GEOMETRY::D14_DERIVATION_MACRO",
+        "SELF_BUILD_PASS_003",
+        "QMO:@dl_recovery_history_signature_core"
+      ],
+      "semantic_guard": "Closure is relative to the declared recovery-test family and Black Rainbow contract; it does not prove that a finite Holonomy field tuple realizes the quotient."
+    },
+    {
+      "certificate_id": "CERT-DL-1fd4d83e4e8f",
+      "handle": "@dl_holonomy_signature_realization",
+      "status": "VALID",
+      "domain": "@rainbow_road_recursive_domain",
+      "rule": "DEPENDENCY_LANDSCAPE_CONSTRUCTION_V2",
+      "premises": [
+        "@holonomy_signature_realization_test",
+        "@holonomy_history_signature",
+        "@recovery_history_signature_quotient"
+      ],
+      "obligations": {
+        "inputs_registered": true,
+        "member_edges_registered": true,
+        "no_unregistered_mathematical_edges_added": true,
+        "member_status_preserved": true,
+        "provenance_complete": true,
+        "history_attached": true,
+        "resolution_context_attached": true,
+        "bandwidth_context_attached": true,
+        "qmo_address_registered": true
+      },
+      "provenance": [
+        "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+        "GENESIS_DIRECTION::2026-08-22",
+        "RUNTIME_REGISTER",
+        "QMO:@holonomy_signature_realization_test",
+        "QMO:@holonomy_history_signature",
+        "QMO:@recovery_history_signature_quotient"
+      ],
+      "semantic_guard": "Certificate validates landscape construction only; it does not promote member claims."
+    },
+    {
+      "certificate_id": "CC-012",
+      "handle": "@signature_kernel_equivalence",
+      "status": "VALID",
+      "derivation_rule": "R-017",
+      "premises": [
+        "@recovery_history_signature_quotient"
+      ],
+      "obligations": {
+        "premises_admitted": true,
+        "licensed_rule": true,
+        "no_new_primitive_or_axiom": true,
+        "output_type_admitted": true,
+        "bandwidth_obligations_pass": true,
+        "resolution_obligations_pass": true,
+        "provenance_complete_acyclic": true,
+        "hard_guards_satisfied": true,
+        "domain_guard_active": true
+      },
+      "domain": "@black_rainbow_closed_landscape",
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE",
+      "provenance": [
+        "SELF_BUILD_PASS_005_SIGNATURE_REALIZATION",
+        "SELF_BUILD_PASS_004",
+        "QMO:@dl_holonomy_signature_realization",
+        "QMO:@recovery_history_signature_quotient",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md"
+      ],
+      "semantic_guard": "Certifies the abstract realization criterion; no finite/source tuple is thereby proven exact."
+    },
+    {
+      "certificate_id": "CC-013",
+      "handle": "@signature_underresolution_defect",
+      "status": "VALID",
+      "derivation_rule": "R-018",
+      "premises": [
+        "@signature_kernel_equivalence",
+        "@recovery_context_equivalence"
+      ],
+      "obligations": {
+        "premises_admitted": true,
+        "licensed_rule": true,
+        "no_new_primitive_or_axiom": true,
+        "output_type_admitted": true,
+        "bandwidth_obligations_pass": true,
+        "resolution_obligations_pass": true,
+        "provenance_complete_acyclic": true,
+        "hard_guards_satisfied": true,
+        "domain_guard_active": true
+      },
+      "domain": "@black_rainbow_closed_landscape",
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE",
+      "provenance": [
+        "SELF_BUILD_PASS_005_SIGNATURE_REALIZATION",
+        "SELF_BUILD_PASS_004",
+        "QMO:@dl_holonomy_signature_realization",
+        "QMO:@recovery_history_signature_quotient",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md"
+      ],
+      "semantic_guard": "Certifies the abstract realization criterion; no finite/source tuple is thereby proven exact."
+    },
+    {
+      "certificate_id": "CC-014",
+      "handle": "@signature_overresolution_defect",
+      "status": "VALID",
+      "derivation_rule": "R-018",
+      "premises": [
+        "@signature_kernel_equivalence",
+        "@recovery_context_equivalence"
+      ],
+      "obligations": {
+        "premises_admitted": true,
+        "licensed_rule": true,
+        "no_new_primitive_or_axiom": true,
+        "output_type_admitted": true,
+        "bandwidth_obligations_pass": true,
+        "resolution_obligations_pass": true,
+        "provenance_complete_acyclic": true,
+        "hard_guards_satisfied": true,
+        "domain_guard_active": true
+      },
+      "domain": "@black_rainbow_closed_landscape",
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE",
+      "provenance": [
+        "SELF_BUILD_PASS_005_SIGNATURE_REALIZATION",
+        "SELF_BUILD_PASS_004",
+        "QMO:@dl_holonomy_signature_realization",
+        "QMO:@recovery_history_signature_quotient",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md"
+      ],
+      "semantic_guard": "Certifies the abstract realization criterion; no finite/source tuple is thereby proven exact."
+    },
+    {
+      "certificate_id": "CC-015",
+      "handle": "@signature_realization_criterion",
+      "status": "VALID",
+      "derivation_rule": "R-019",
+      "premises": [
+        "@signature_kernel_equivalence",
+        "@recovery_context_equivalence"
+      ],
+      "obligations": {
+        "premises_admitted": true,
+        "licensed_rule": true,
+        "no_new_primitive_or_axiom": true,
+        "output_type_admitted": true,
+        "bandwidth_obligations_pass": true,
+        "resolution_obligations_pass": true,
+        "provenance_complete_acyclic": true,
+        "hard_guards_satisfied": true,
+        "domain_guard_active": true
+      },
+      "domain": "@black_rainbow_closed_landscape",
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE",
+      "provenance": [
+        "SELF_BUILD_PASS_005_SIGNATURE_REALIZATION",
+        "SELF_BUILD_PASS_004",
+        "QMO:@dl_holonomy_signature_realization",
+        "QMO:@recovery_history_signature_quotient",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md"
+      ],
+      "semantic_guard": "Certifies the abstract realization criterion; no finite/source tuple is thereby proven exact."
+    },
+    {
+      "certificate_id": "CC-016",
+      "handle": "@theorem_recovery_signature_realization",
+      "status": "VALID",
+      "derivation_rule": "R-019",
+      "premises": [
+        "@signature_realization_criterion",
+        "@recovery_history_signature_quotient"
+      ],
+      "obligations": {
+        "premises_admitted": true,
+        "licensed_rule": true,
+        "no_new_primitive_or_axiom": true,
+        "output_type_admitted": true,
+        "bandwidth_obligations_pass": true,
+        "resolution_obligations_pass": true,
+        "provenance_complete_acyclic": true,
+        "hard_guards_satisfied": true,
+        "domain_guard_active": true
+      },
+      "domain": "@black_rainbow_closed_landscape",
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE",
+      "provenance": [
+        "SELF_BUILD_PASS_005_SIGNATURE_REALIZATION",
+        "SELF_BUILD_PASS_004",
+        "QMO:@dl_holonomy_signature_realization",
+        "QMO:@recovery_history_signature_quotient",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md"
+      ],
+      "semantic_guard": "Certifies the abstract realization criterion; no finite/source tuple is thereby proven exact."
+    },
+    {
+      "certificate_id": "CERT-DL-16d9247ff8c1",
+      "handle": "@dl_holonomy_field_redundancy",
+      "status": "VALID",
+      "domain": "@rainbow_road_recursive_domain",
+      "rule": "DEPENDENCY_LANDSCAPE_CONSTRUCTION_V2",
+      "premises": [
+        "@holonomy_signature_field_redundancy_crawl",
+        "@holonomy_history_signature",
+        "@signature_underresolution_defect",
+        "@signature_overresolution_defect"
+      ],
+      "obligations": {
+        "inputs_registered": true,
+        "member_edges_registered": true,
+        "no_unregistered_mathematical_edges_added": true,
+        "member_status_preserved": true,
+        "provenance_complete": true,
+        "history_attached": true,
+        "resolution_context_attached": true,
+        "bandwidth_context_attached": true,
+        "qmo_address_registered": true
+      },
+      "provenance": [
+        "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+        "GENESIS_DIRECTION::2026-08-22",
+        "RUNTIME_REGISTER",
+        "QMO:@holonomy_signature_field_redundancy_crawl",
+        "QMO:@holonomy_history_signature",
+        "QMO:@signature_underresolution_defect",
+        "QMO:@signature_overresolution_defect"
+      ],
+      "semantic_guard": "Certificate validates landscape construction only; it does not promote member claims."
+    },
+    {
+      "certificate_id": "CERT-DL-4d65ef2b5987",
+      "handle": "@it_holonomy_field_redundancy_3_landscape",
+      "status": "VALID",
+      "domain": "@rainbow_road_recursive_domain",
+      "rule": "DEPENDENCY_LANDSCAPE_CONSTRUCTION_V2",
+      "premises": [
+        "@holonomy_signature_field_redundancy_crawl"
+      ],
+      "obligations": {
+        "inputs_registered": true,
+        "member_edges_registered": true,
+        "no_unregistered_mathematical_edges_added": true,
+        "member_status_preserved": true,
+        "provenance_complete": true,
+        "history_attached": true,
+        "resolution_context_attached": true,
+        "bandwidth_context_attached": true,
+        "qmo_address_registered": true
+      },
+      "provenance": [
+        "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+        "GENESIS_DIRECTION::2026-08-22",
+        "RUNTIME_REGISTER",
+        "QMO:@holonomy_signature_field_redundancy_crawl"
+      ],
+      "semantic_guard": "Certificate validates landscape construction only; it does not promote member claims."
+    },
+    {
+      "certificate_id": "CERT-IT-89db1e4e1196",
+      "handle": "@it_holonomy_field_redundancy_3",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "BOUNDED_ITERATION_RUN_V1",
+      "premises": [
+        "@holonomy_signature_field_redundancy_crawl",
+        "@bounded_recursive_iteration"
+      ],
+      "obligations": {
+        "finite_horizon_declared": true,
+        "registered_step_function": true,
+        "history_attached": true,
+        "domain_guard_active": true,
+        "materialized_qmo_registered": true,
+        "member_status_preserved": true,
+        "provenance_complete": true
+      },
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_bounded_qmo_iteration",
+        "QMO:@holonomy_signature_field_redundancy_crawl",
+        "QMO:@bounded_recursive_iteration",
+        "QMO:@bounded_dependency_crawl",
+        "QMO:@it_holonomy_field_redundancy_3_landscape"
+      ],
+      "semantic_guard": "Validates iteration-run construction, not truth/promotion of all members encountered."
+    },
+    {
+      "certificate_id": "CC-017",
+      "handle": "@holonomy_signature_type_envelope",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "R-021",
+      "premises": [
+        "@holonomy_history_signature",
+        "@classifier_scope"
+      ],
+      "obligations": {
+        "registered_premises": true,
+        "no_new_primitive": true,
+        "provenance_complete": true,
+        "recovery_preserved": true,
+        "domain_membership": true
+      },
+      "provenance": [
+        "SELF_BUILD_PASS_006_SIGNATURE_ROLE_NORMALIZATION",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/07_TIME_SHELL_HISTORY_READOUT.md",
+        "TRANSDUCTION_GEOMETRY::@classifier_scope",
+        "ASTRAEUS_API::QMO_METADATA_ADDRESS_CONTRACT",
+        "SELF_BUILD_PASS_005_SIGNATURE_REALIZATION"
+      ],
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE"
+    },
+    {
+      "certificate_id": "CC-018",
+      "handle": "@holonomy_signature_structural_payload",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "R-021",
+      "premises": [
+        "@holonomy_history_signature",
+        "@history_path"
+      ],
+      "obligations": {
+        "registered_premises": true,
+        "no_new_primitive": true,
+        "provenance_complete": true,
+        "recovery_preserved": true,
+        "domain_membership": true
+      },
+      "provenance": [
+        "SELF_BUILD_PASS_006_SIGNATURE_ROLE_NORMALIZATION",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/07_TIME_SHELL_HISTORY_READOUT.md",
+        "TRANSDUCTION_GEOMETRY::@classifier_scope",
+        "ASTRAEUS_API::QMO_METADATA_ADDRESS_CONTRACT",
+        "SELF_BUILD_PASS_005_SIGNATURE_REALIZATION"
+      ],
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE"
+    },
+    {
+      "certificate_id": "CC-019",
+      "handle": "@signature_information_relocation",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "R-021",
+      "premises": [
+        "@holonomy_signature_type_envelope",
+        "@holonomy_signature_structural_payload"
+      ],
+      "obligations": {
+        "registered_premises": true,
+        "no_new_primitive": true,
+        "provenance_complete": true,
+        "recovery_preserved": true,
+        "domain_membership": true
+      },
+      "provenance": [
+        "SELF_BUILD_PASS_006_SIGNATURE_ROLE_NORMALIZATION",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/07_TIME_SHELL_HISTORY_READOUT.md",
+        "TRANSDUCTION_GEOMETRY::@classifier_scope",
+        "ASTRAEUS_API::QMO_METADATA_ADDRESS_CONTRACT",
+        "SELF_BUILD_PASS_005_SIGNATURE_REALIZATION"
+      ],
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE"
+    },
+    {
+      "certificate_id": "CC-020",
+      "handle": "@theorem_signature_envelope_normalization",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "R-021",
+      "premises": [
+        "@signature_information_relocation"
+      ],
+      "obligations": {
+        "registered_premises": true,
+        "no_new_primitive": true,
+        "provenance_complete": true,
+        "recovery_preserved": true,
+        "domain_membership": true
+      },
+      "provenance": [
+        "SELF_BUILD_PASS_006_SIGNATURE_ROLE_NORMALIZATION",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/07_TIME_SHELL_HISTORY_READOUT.md",
+        "TRANSDUCTION_GEOMETRY::@classifier_scope",
+        "ASTRAEUS_API::QMO_METADATA_ADDRESS_CONTRACT",
+        "SELF_BUILD_PASS_005_SIGNATURE_REALIZATION"
+      ],
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE"
+    },
+    {
+      "certificate_id": "CC-021",
+      "handle": "@recovery_test_family_completeness_gap",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "R-022",
+      "premises": [
+        "@recovery_test_family",
+        "@signature_realization_criterion"
+      ],
+      "obligations": {
+        "registered_premises": true,
+        "no_new_primitive": true,
+        "provenance_complete": true,
+        "recovery_preserved": true,
+        "domain_membership": true
+      },
+      "provenance": [
+        "SELF_BUILD_PASS_006_SIGNATURE_ROLE_NORMALIZATION",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/07_TIME_SHELL_HISTORY_READOUT.md",
+        "TRANSDUCTION_GEOMETRY::@classifier_scope",
+        "ASTRAEUS_API::QMO_METADATA_ADDRESS_CONTRACT",
+        "SELF_BUILD_PASS_005_SIGNATURE_REALIZATION"
+      ],
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE"
+    },
+    {
+      "certificate_id": "CC-022",
+      "handle": "@minimal_recovery_signature_role",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "R-024",
+      "premises": [
+        "@recovery_history_signature_quotient"
+      ],
+      "obligations": {
+        "registered_premises": true,
+        "no_new_primitive": true,
+        "provenance_complete": true,
+        "recovery_preserved": true,
+        "domain_membership": true
+      },
+      "provenance": [
+        "SELF_BUILD_PASS_007_ROLE_SEPARATION_AND_NUMBER_RETURN",
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "SELF_BUILD_PASS_005_SIGNATURE_REALIZATION",
+        "SELF_BUILD_PASS_006_SIGNATURE_ROLE_NORMALIZATION",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "QMO:@recovery_history_signature_quotient",
+        "QMO:@holonomy_history_signature"
+      ],
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE"
+    },
+    {
+      "certificate_id": "CC-023",
+      "handle": "@holonomy_diagnostic_signature_role",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "R-024",
+      "premises": [
+        "@holonomy_history_signature"
+      ],
+      "obligations": {
+        "registered_premises": true,
+        "no_new_primitive": true,
+        "provenance_complete": true,
+        "recovery_preserved": true,
+        "domain_membership": true
+      },
+      "provenance": [
+        "SELF_BUILD_PASS_007_ROLE_SEPARATION_AND_NUMBER_RETURN",
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "SELF_BUILD_PASS_005_SIGNATURE_REALIZATION",
+        "SELF_BUILD_PASS_006_SIGNATURE_ROLE_NORMALIZATION",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "QMO:@recovery_history_signature_quotient",
+        "QMO:@holonomy_history_signature"
+      ],
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE"
+    },
+    {
+      "certificate_id": "CC-024",
+      "handle": "@signature_role_separation",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "R-024",
+      "premises": [
+        "@minimal_recovery_signature_role",
+        "@holonomy_diagnostic_signature_role"
+      ],
+      "obligations": {
+        "registered_premises": true,
+        "no_new_primitive": true,
+        "provenance_complete": true,
+        "recovery_preserved": true,
+        "domain_membership": true
+      },
+      "provenance": [
+        "SELF_BUILD_PASS_007_ROLE_SEPARATION_AND_NUMBER_RETURN",
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "SELF_BUILD_PASS_005_SIGNATURE_REALIZATION",
+        "SELF_BUILD_PASS_006_SIGNATURE_ROLE_NORMALIZATION",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "QMO:@recovery_history_signature_quotient",
+        "QMO:@holonomy_history_signature"
+      ],
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE"
+    },
+    {
+      "certificate_id": "CC-025",
+      "handle": "@theorem_signature_role_separation",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "R-024",
+      "premises": [
+        "@signature_role_separation"
+      ],
+      "obligations": {
+        "registered_premises": true,
+        "no_new_primitive": true,
+        "provenance_complete": true,
+        "recovery_preserved": true,
+        "domain_membership": true
+      },
+      "provenance": [
+        "SELF_BUILD_PASS_007_ROLE_SEPARATION_AND_NUMBER_RETURN",
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "SELF_BUILD_PASS_005_SIGNATURE_REALIZATION",
+        "SELF_BUILD_PASS_006_SIGNATURE_ROLE_NORMALIZATION",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "QMO:@recovery_history_signature_quotient",
+        "QMO:@holonomy_history_signature"
+      ],
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE"
+    },
+    {
+      "certificate_id": "CERT-DL-81988f67de53",
+      "handle": "@dl_number_object_readout",
+      "status": "VALID",
+      "domain": "@rainbow_road_recursive_domain",
+      "rule": "DEPENDENCY_LANDSCAPE_CONSTRUCTION_V2",
+      "premises": [
+        "@number_question",
+        "@number_object_readout_frontier",
+        "@formal_object",
+        "@resolution",
+        "@resolution_readout",
+        "@transduction",
+        "@objectivity",
+        "@primitive_structural_zero",
+        "@closed_domain_unity",
+        "@number_ontology",
+        "@bandwidth_algebra",
+        "@history",
+        "@identity_witness"
+      ],
+      "obligations": {
+        "inputs_registered": true,
+        "member_edges_registered": true,
+        "no_unregistered_mathematical_edges_added": true,
+        "member_status_preserved": true,
+        "provenance_complete": true,
+        "history_attached": true,
+        "resolution_context_attached": true,
+        "bandwidth_context_attached": true,
+        "qmo_address_registered": true
+      },
+      "provenance": [
+        "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+        "GENESIS_DIRECTION::2026-08-22",
+        "RUNTIME_REGISTER",
+        "QMO:@number_question",
+        "QMO:@number_object_readout_frontier",
+        "QMO:@formal_object",
+        "QMO:@resolution",
+        "QMO:@resolution_readout",
+        "QMO:@transduction",
+        "QMO:@objectivity",
+        "QMO:@primitive_structural_zero",
+        "QMO:@closed_domain_unity",
+        "QMO:@number_ontology",
+        "QMO:@bandwidth_algebra",
+        "QMO:@history",
+        "QMO:@identity_witness"
+      ],
+      "semantic_guard": "Certificate validates landscape construction only; it does not promote member claims."
+    },
+    {
+      "certificate_id": "CERT-DL-c4f70ce004e6",
+      "handle": "@it_number_object_readout_3_landscape",
+      "status": "VALID",
+      "domain": "@rainbow_road_recursive_domain",
+      "rule": "DEPENDENCY_LANDSCAPE_CONSTRUCTION_V2",
+      "premises": [
+        "@number_object_readout_frontier"
+      ],
+      "obligations": {
+        "inputs_registered": true,
+        "member_edges_registered": true,
+        "no_unregistered_mathematical_edges_added": true,
+        "member_status_preserved": true,
+        "provenance_complete": true,
+        "history_attached": true,
+        "resolution_context_attached": true,
+        "bandwidth_context_attached": true,
+        "qmo_address_registered": true
+      },
+      "provenance": [
+        "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+        "GENESIS_DIRECTION::2026-08-22",
+        "RUNTIME_REGISTER",
+        "QMO:@number_object_readout_frontier"
+      ],
+      "semantic_guard": "Certificate validates landscape construction only; it does not promote member claims."
+    },
+    {
+      "certificate_id": "CERT-IT-a54298232d1c",
+      "handle": "@it_number_object_readout_3",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "BOUNDED_ITERATION_RUN_V1",
+      "premises": [
+        "@number_object_readout_frontier",
+        "@bounded_recursive_iteration"
+      ],
+      "obligations": {
+        "finite_horizon_declared": true,
+        "registered_step_function": true,
+        "history_attached": true,
+        "domain_guard_active": true,
+        "materialized_qmo_registered": true,
+        "member_status_preserved": true,
+        "provenance_complete": true
+      },
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_bounded_qmo_iteration",
+        "QMO:@number_object_readout_frontier",
+        "QMO:@bounded_recursive_iteration",
+        "QMO:@bounded_dependency_crawl",
+        "QMO:@it_number_object_readout_3_landscape"
+      ],
+      "semantic_guard": "Validates iteration-run construction, not truth/promotion of all members encountered."
+    },
+    {
+      "certificate_id": "CC-026",
+      "handle": "@valuation_readout_role",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "R-026",
+      "premises": [
+        "@bandwidth_algebra",
+        "@bandwidth_scalar_valuation"
+      ],
+      "obligations": {
+        "registered_premises": true,
+        "no_new_primitive": true,
+        "provenance_complete": true,
+        "recovery_preserved": true,
+        "domain_membership": true
+      },
+      "provenance": [
+        "SELF_BUILD_PASS_008_VALUATION_ROLE_PROBE",
+        "BANDWIDTH_ALGEBRA::FORMAL/00_EXECUTIVE_SUMMARY.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "TRANSDUCTION_GEOMETRY::@classifier_scope",
+        "QMO:@dl_number_object_readout",
+        "QMO:@it_number_object_readout_3"
+      ],
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE"
+    },
+    {
+      "certificate_id": "CC-027",
+      "handle": "@valuation_classifier_role_separation",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "R-026",
+      "premises": [
+        "@valuation_readout_role",
+        "@classifier_scope"
+      ],
+      "obligations": {
+        "registered_premises": true,
+        "no_new_primitive": true,
+        "provenance_complete": true,
+        "recovery_preserved": true,
+        "domain_membership": true
+      },
+      "provenance": [
+        "SELF_BUILD_PASS_008_VALUATION_ROLE_PROBE",
+        "BANDWIDTH_ALGEBRA::FORMAL/00_EXECUTIVE_SUMMARY.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "TRANSDUCTION_GEOMETRY::@classifier_scope",
+        "QMO:@dl_number_object_readout",
+        "QMO:@it_number_object_readout_3"
+      ],
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE"
+    },
+    {
+      "certificate_id": "CC-028",
+      "handle": "@numerical_codomain_circularity_defect",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "R-027",
+      "premises": [
+        "@bandwidth_scalar_valuation",
+        "@number_question"
+      ],
+      "obligations": {
+        "registered_premises": true,
+        "no_new_primitive": true,
+        "provenance_complete": true,
+        "recovery_preserved": true,
+        "domain_membership": true
+      },
+      "provenance": [
+        "SELF_BUILD_PASS_008_VALUATION_ROLE_PROBE",
+        "BANDWIDTH_ALGEBRA::FORMAL/00_EXECUTIVE_SUMMARY.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "TRANSDUCTION_GEOMETRY::@classifier_scope",
+        "QMO:@dl_number_object_readout",
+        "QMO:@it_number_object_readout_3"
+      ],
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE"
+    },
+    {
+      "certificate_id": "CC-029",
+      "handle": "@theorem_object_before_scalarization",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "R-026",
+      "premises": [
+        "@bandwidth_algebra",
+        "@bandwidth_scalar_valuation"
+      ],
+      "obligations": {
+        "registered_premises": true,
+        "no_new_primitive": true,
+        "provenance_complete": true,
+        "recovery_preserved": true,
+        "domain_membership": true
+      },
+      "provenance": [
+        "SELF_BUILD_PASS_008_VALUATION_ROLE_PROBE",
+        "BANDWIDTH_ALGEBRA::FORMAL/00_EXECUTIVE_SUMMARY.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "TRANSDUCTION_GEOMETRY::@classifier_scope",
+        "QMO:@dl_number_object_readout",
+        "QMO:@it_number_object_readout_3"
+      ],
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE"
+    },
+    {
+      "certificate_id": "CERT-DL-918f460b9392",
+      "handle": "@dl_number_valuation_codomain",
+      "status": "VALID",
+      "domain": "@rainbow_road_recursive_domain",
+      "rule": "DEPENDENCY_LANDSCAPE_CONSTRUCTION_V2",
+      "premises": [
+        "@number_valuation_codomain_frontier",
+        "@foundational_valuation_lift",
+        "@bandwidth_scalar_valuation",
+        "@valuation_readout_role",
+        "@classifier_readout_role",
+        "@valuation_classifier_role_separation",
+        "@classifier_scope",
+        "@resolution_readout",
+        "@transduction",
+        "@formal_object",
+        "@closed_domain_unity",
+        "@objectivity"
+      ],
+      "obligations": {
+        "inputs_registered": true,
+        "member_edges_registered": true,
+        "no_unregistered_mathematical_edges_added": true,
+        "member_status_preserved": true,
+        "provenance_complete": true,
+        "history_attached": true,
+        "resolution_context_attached": true,
+        "bandwidth_context_attached": true,
+        "qmo_address_registered": true
+      },
+      "provenance": [
+        "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+        "GENESIS_DIRECTION::2026-08-22",
+        "RUNTIME_REGISTER",
+        "QMO:@number_valuation_codomain_frontier",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@valuation_readout_role",
+        "QMO:@classifier_readout_role",
+        "QMO:@valuation_classifier_role_separation",
+        "QMO:@classifier_scope",
+        "QMO:@resolution_readout",
+        "QMO:@transduction",
+        "QMO:@formal_object",
+        "QMO:@closed_domain_unity",
+        "QMO:@objectivity"
+      ],
+      "semantic_guard": "Certificate validates landscape construction only; it does not promote member claims."
+    },
+    {
+      "certificate_id": "CERT-DL-c77cf9add1c3",
+      "handle": "@it_number_valuation_codomain_3_landscape",
+      "status": "VALID",
+      "domain": "@rainbow_road_recursive_domain",
+      "rule": "DEPENDENCY_LANDSCAPE_CONSTRUCTION_V2",
+      "premises": [
+        "@number_valuation_codomain_frontier"
+      ],
+      "obligations": {
+        "inputs_registered": true,
+        "member_edges_registered": true,
+        "no_unregistered_mathematical_edges_added": true,
+        "member_status_preserved": true,
+        "provenance_complete": true,
+        "history_attached": true,
+        "resolution_context_attached": true,
+        "bandwidth_context_attached": true,
+        "qmo_address_registered": true
+      },
+      "provenance": [
+        "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+        "GENESIS_DIRECTION::2026-08-22",
+        "RUNTIME_REGISTER",
+        "QMO:@number_valuation_codomain_frontier"
+      ],
+      "semantic_guard": "Certificate validates landscape construction only; it does not promote member claims."
+    },
+    {
+      "certificate_id": "CERT-IT-8d5ccb45b6fa",
+      "handle": "@it_number_valuation_codomain_3",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "BOUNDED_ITERATION_RUN_V1",
+      "premises": [
+        "@number_valuation_codomain_frontier",
+        "@bounded_recursive_iteration"
+      ],
+      "obligations": {
+        "finite_horizon_declared": true,
+        "registered_step_function": true,
+        "history_attached": true,
+        "domain_guard_active": true,
+        "materialized_qmo_registered": true,
+        "member_status_preserved": true,
+        "provenance_complete": true
+      },
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_bounded_qmo_iteration",
+        "QMO:@number_valuation_codomain_frontier",
+        "QMO:@bounded_recursive_iteration",
+        "QMO:@bounded_dependency_crawl",
+        "QMO:@it_number_valuation_codomain_3_landscape"
+      ],
+      "semantic_guard": "Validates iteration-run construction, not truth/promotion of all members encountered."
+    },
+    {
+      "certificate_id": "CERT-DG-31fd4bf51b27",
+      "handle": "@dc_number_question_to_valuation_frontier_g01",
+      "status": "VALID",
+      "domain": "@rainbow_road_recursive_domain",
+      "rule": "DEPENDENCY_GRAPH_CONSTRUCTION_V1",
+      "premises": [
+        "@number_question",
+        "@number_object_readout_frontier"
+      ],
+      "obligations": {
+        "inputs_registered": true,
+        "edges_registered": true,
+        "no_unregistered_edges_added": true,
+        "member_status_preserved": true,
+        "provenance_complete": true,
+        "history_attached": true,
+        "qmo_address_registered": true
+      },
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_graph",
+        "API_4.3::DEPENDENCY_GRAPH_IS_MATHEMATICAL_OBJECT",
+        "RUNTIME_REGISTER",
+        "QMO:@number_question",
+        "QMO:@number_object_readout_frontier"
+      ],
+      "semantic_guard": "Certificate validates graph construction only; it does not promote member claims."
+    },
+    {
+      "certificate_id": "CERT-DL-b3ce12f27ed4",
+      "handle": "@dc_number_question_to_valuation_frontier_l01",
+      "status": "VALID",
+      "domain": "@rainbow_road_recursive_domain",
+      "rule": "DEPENDENCY_LANDSCAPE_CONSTRUCTION_V2",
+      "premises": [
+        "@dc_number_question_to_valuation_frontier_g01"
+      ],
+      "obligations": {
+        "inputs_registered": true,
+        "member_edges_registered": true,
+        "no_unregistered_mathematical_edges_added": true,
+        "member_status_preserved": true,
+        "provenance_complete": true,
+        "history_attached": true,
+        "resolution_context_attached": true,
+        "bandwidth_context_attached": true,
+        "qmo_address_registered": true
+      },
+      "provenance": [
+        "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+        "GENESIS_DIRECTION::2026-08-22",
+        "RUNTIME_REGISTER",
+        "QMO:@dc_number_question_to_valuation_frontier_g01"
+      ],
+      "semantic_guard": "Certificate validates landscape construction only; it does not promote member claims."
+    },
+    {
+      "certificate_id": "CERT-DG-5034c594fd7b",
+      "handle": "@dc_number_question_to_valuation_frontier_g02",
+      "status": "VALID",
+      "domain": "@rainbow_road_recursive_domain",
+      "rule": "DEPENDENCY_GRAPH_CONSTRUCTION_V1",
+      "premises": [
+        "@number_object_readout_frontier",
+        "@number_valuation_codomain_frontier"
+      ],
+      "obligations": {
+        "inputs_registered": true,
+        "edges_registered": true,
+        "no_unregistered_edges_added": true,
+        "member_status_preserved": true,
+        "provenance_complete": true,
+        "history_attached": true,
+        "qmo_address_registered": true
+      },
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_graph",
+        "API_4.3::DEPENDENCY_GRAPH_IS_MATHEMATICAL_OBJECT",
+        "RUNTIME_REGISTER",
+        "QMO:@number_object_readout_frontier",
+        "QMO:@number_valuation_codomain_frontier"
+      ],
+      "semantic_guard": "Certificate validates graph construction only; it does not promote member claims."
+    },
+    {
+      "certificate_id": "CERT-DL-612977d7dc89",
+      "handle": "@dc_number_question_to_valuation_frontier_l02",
+      "status": "VALID",
+      "domain": "@rainbow_road_recursive_domain",
+      "rule": "DEPENDENCY_LANDSCAPE_CONSTRUCTION_V2",
+      "premises": [
+        "@dc_number_question_to_valuation_frontier_l01",
+        "@dc_number_question_to_valuation_frontier_g02"
+      ],
+      "obligations": {
+        "inputs_registered": true,
+        "member_edges_registered": true,
+        "no_unregistered_mathematical_edges_added": true,
+        "member_status_preserved": true,
+        "provenance_complete": true,
+        "history_attached": true,
+        "resolution_context_attached": true,
+        "bandwidth_context_attached": true,
+        "qmo_address_registered": true
+      },
+      "provenance": [
+        "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+        "GENESIS_DIRECTION::2026-08-22",
+        "RUNTIME_REGISTER",
+        "QMO:@dc_number_question_to_valuation_frontier_l01",
+        "QMO:@dc_number_question_to_valuation_frontier_g02"
+      ],
+      "semantic_guard": "Certificate validates landscape construction only; it does not promote member claims."
+    },
+    {
+      "certificate_id": "CERT-DC-cc8cefae7c6e",
+      "handle": "@dc_number_question_to_valuation_frontier",
+      "status": "VALID",
+      "domain": "@rainbow_road_recursive_domain",
+      "rule": "DEPENDENCY_CHAIN_CONSTRUCTION_V1",
+      "premises": [
+        "@number_question"
+      ],
+      "obligations": {
+        "seed_registered": true,
+        "step_edges_registered": true,
+        "step_graphs_registered": true,
+        "step_landscapes_registered": true,
+        "history_attached": true,
+        "provenance_complete": true,
+        "member_status_preserved": true,
+        "qmo_address_registered": true,
+        "terminal_closure_valid": false
+      },
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_chain",
+        "QMO:@number_question",
+        "QMO:@dc_number_question_to_valuation_frontier_g01",
+        "QMO:@dc_number_question_to_valuation_frontier_g02",
+        "QMO:@dc_number_question_to_valuation_frontier_l01",
+        "QMO:@dc_number_question_to_valuation_frontier_l02"
+      ],
+      "semantic_guard": "Certificate validates chain construction. CLOSED_SUBDOMAIN status is permitted only when terminal_closure_valid is true."
+    },
+    {
+      "certificate_id": "CC-030",
+      "handle": "@unit_value_role",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "R-028",
+      "premises": [
+        "@unit_normalization_invariant",
+        "@unit_string_configuration_domain"
+      ],
+      "obligations": {
+        "registered_premises": true,
+        "no_new_primitive": true,
+        "provenance_complete": true,
+        "recovery_preserved": true,
+        "domain_membership": true
+      },
+      "provenance": [
+        "SELF_BUILD_PASS_009_UNIT_NORMALIZATION_PROBE",
+        "BANDWIDTH_ALGEBRA::FORMAL/07_UNIT_STRING_AND_HELICON_INTERFACE.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/09_EXAMPLES.md",
+        "QMO:@number_valuation_codomain_frontier",
+        "QMO:@foundational_valuation_lift"
+      ],
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE"
+    },
+    {
+      "certificate_id": "CC-031",
+      "handle": "@theorem_unit_value_not_counting",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "R-028",
+      "premises": [
+        "@unit_normalization_invariant",
+        "@unit_string_bandwidth_algebra"
+      ],
+      "obligations": {
+        "registered_premises": true,
+        "no_new_primitive": true,
+        "provenance_complete": true,
+        "recovery_preserved": true,
+        "domain_membership": true
+      },
+      "provenance": [
+        "SELF_BUILD_PASS_009_UNIT_NORMALIZATION_PROBE",
+        "BANDWIDTH_ALGEBRA::FORMAL/07_UNIT_STRING_AND_HELICON_INTERFACE.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/09_EXAMPLES.md",
+        "QMO:@number_valuation_codomain_frontier",
+        "QMO:@foundational_valuation_lift"
+      ],
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE"
+    },
+    {
+      "certificate_id": "CC-032",
+      "handle": "@numeral_role_polymorphism",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "R-028",
+      "premises": [
+        "@unit_normalization_invariant",
+        "@closed_domain_unity"
+      ],
+      "obligations": {
+        "registered_premises": true,
+        "no_new_primitive": true,
+        "provenance_complete": true,
+        "recovery_preserved": true,
+        "domain_membership": true
+      },
+      "provenance": [
+        "SELF_BUILD_PASS_009_UNIT_NORMALIZATION_PROBE",
+        "BANDWIDTH_ALGEBRA::FORMAL/07_UNIT_STRING_AND_HELICON_INTERFACE.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/09_EXAMPLES.md",
+        "QMO:@number_valuation_codomain_frontier",
+        "QMO:@foundational_valuation_lift"
+      ],
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE"
+    },
+    {
+      "certificate_id": "CC-033",
+      "handle": "@unit_closed_unity_nonidentity_guard",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "R-028",
+      "premises": [
+        "@unit_normalization_invariant",
+        "@closed_domain_unity",
+        "@identity_witness"
+      ],
+      "obligations": {
+        "registered_premises": true,
+        "no_new_primitive": true,
+        "provenance_complete": true,
+        "recovery_preserved": true,
+        "domain_membership": true
+      },
+      "provenance": [
+        "SELF_BUILD_PASS_009_UNIT_NORMALIZATION_PROBE",
+        "BANDWIDTH_ALGEBRA::FORMAL/07_UNIT_STRING_AND_HELICON_INTERFACE.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/09_EXAMPLES.md",
+        "QMO:@number_valuation_codomain_frontier",
+        "QMO:@foundational_valuation_lift"
+      ],
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE"
+    },
+    {
+      "certificate_id": "CERT-DL-de676e6f142f",
+      "handle": "@dl_number_unit_normalization",
+      "status": "VALID",
+      "domain": "@rainbow_road_recursive_domain",
+      "rule": "DEPENDENCY_LANDSCAPE_CONSTRUCTION_V2",
+      "premises": [
+        "@number_unit_normalization_frontier",
+        "@unit_string_configuration_domain",
+        "@unit_normalization_invariant",
+        "@unit_string_bandwidth_algebra",
+        "@unit_value_role",
+        "@foundational_valuation_lift",
+        "@closed_domain_unity",
+        "@primitive_structural_zero",
+        "@transduction",
+        "@identity_witness",
+        "@resolution_readout"
+      ],
+      "obligations": {
+        "inputs_registered": true,
+        "member_edges_registered": true,
+        "no_unregistered_mathematical_edges_added": true,
+        "member_status_preserved": true,
+        "provenance_complete": true,
+        "history_attached": true,
+        "resolution_context_attached": true,
+        "bandwidth_context_attached": true,
+        "qmo_address_registered": true
+      },
+      "provenance": [
+        "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+        "GENESIS_DIRECTION::2026-08-22",
+        "RUNTIME_REGISTER",
+        "QMO:@number_unit_normalization_frontier",
+        "QMO:@unit_string_configuration_domain",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_bandwidth_algebra",
+        "QMO:@unit_value_role",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@closed_domain_unity",
+        "QMO:@primitive_structural_zero",
+        "QMO:@transduction",
+        "QMO:@identity_witness",
+        "QMO:@resolution_readout"
+      ],
+      "semantic_guard": "Certificate validates landscape construction only; it does not promote member claims."
+    },
+    {
+      "certificate_id": "CERT-DL-0a35482508f7",
+      "handle": "@it_number_unit_normalization_4_landscape",
+      "status": "VALID",
+      "domain": "@rainbow_road_recursive_domain",
+      "rule": "DEPENDENCY_LANDSCAPE_CONSTRUCTION_V2",
+      "premises": [
+        "@number_unit_normalization_frontier"
+      ],
+      "obligations": {
+        "inputs_registered": true,
+        "member_edges_registered": true,
+        "no_unregistered_mathematical_edges_added": true,
+        "member_status_preserved": true,
+        "provenance_complete": true,
+        "history_attached": true,
+        "resolution_context_attached": true,
+        "bandwidth_context_attached": true,
+        "qmo_address_registered": true
+      },
+      "provenance": [
+        "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+        "GENESIS_DIRECTION::2026-08-22",
+        "RUNTIME_REGISTER",
+        "QMO:@number_unit_normalization_frontier"
+      ],
+      "semantic_guard": "Certificate validates landscape construction only; it does not promote member claims."
+    },
+    {
+      "certificate_id": "CERT-IT-cb40ae9df054",
+      "handle": "@it_number_unit_normalization_4",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "BOUNDED_ITERATION_RUN_V1",
+      "premises": [
+        "@number_unit_normalization_frontier",
+        "@bounded_recursive_iteration"
+      ],
+      "obligations": {
+        "finite_horizon_declared": true,
+        "registered_step_function": true,
+        "history_attached": true,
+        "domain_guard_active": true,
+        "materialized_qmo_registered": true,
+        "member_status_preserved": true,
+        "provenance_complete": true
+      },
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_bounded_qmo_iteration",
+        "QMO:@number_unit_normalization_frontier",
+        "QMO:@bounded_recursive_iteration",
+        "QMO:@bounded_dependency_crawl",
+        "QMO:@it_number_unit_normalization_4_landscape"
+      ],
+      "semantic_guard": "Validates iteration-run construction, not truth/promotion of all members encountered."
+    },
+    {
+      "certificate_id": "CC-034",
+      "handle": "@valuation_fiber_equivalence",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "R-030",
+      "premises": [
+        "@foundational_valuation_lift"
+      ],
+      "obligations": {
+        "registered_premises": true,
+        "no_new_primitive": true,
+        "provenance_complete": true,
+        "recovery_preserved": true,
+        "domain_membership": true
+      },
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ],
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE"
+    },
+    {
+      "certificate_id": "CC-035",
+      "handle": "@valuation_fiber_quotient",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "R-030",
+      "premises": [
+        "@valuation_fiber_equivalence"
+      ],
+      "obligations": {
+        "registered_premises": true,
+        "no_new_primitive": true,
+        "provenance_complete": true,
+        "recovery_preserved": true,
+        "domain_membership": true
+      },
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ],
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE"
+    },
+    {
+      "certificate_id": "CC-036",
+      "handle": "@unit_value_fiber",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "R-030",
+      "premises": [
+        "@foundational_valuation_lift",
+        "@unit_value_role"
+      ],
+      "obligations": {
+        "registered_premises": true,
+        "no_new_primitive": true,
+        "provenance_complete": true,
+        "recovery_preserved": true,
+        "domain_membership": true
+      },
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ],
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE"
+    },
+    {
+      "certificate_id": "CC-037",
+      "handle": "@theorem_valuation_factorization",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "R-030",
+      "premises": [
+        "@valuation_fiber_equivalence",
+        "@valuation_fiber_quotient"
+      ],
+      "obligations": {
+        "registered_premises": true,
+        "no_new_primitive": true,
+        "provenance_complete": true,
+        "recovery_preserved": true,
+        "domain_membership": true
+      },
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ],
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE"
+    },
+    {
+      "certificate_id": "CC-038",
+      "handle": "@theorem_fiber_structure_not_numerical",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "R-030",
+      "premises": [
+        "@theorem_valuation_factorization",
+        "@classifier_readout_role"
+      ],
+      "obligations": {
+        "registered_premises": true,
+        "no_new_primitive": true,
+        "provenance_complete": true,
+        "recovery_preserved": true,
+        "domain_membership": true
+      },
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ],
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE"
+    },
+    {
+      "certificate_id": "CC-039",
+      "handle": "@theorem_order_precedes_scalarization",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "R-031",
+      "premises": [
+        "@bandwidth_capacity_order",
+        "@bandwidth_scalar_valuation"
+      ],
+      "obligations": {
+        "registered_premises": true,
+        "no_new_primitive": true,
+        "provenance_complete": true,
+        "recovery_preserved": true,
+        "domain_membership": true
+      },
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ],
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE"
+    },
+    {
+      "certificate_id": "CC-040",
+      "handle": "@unit_order_reparameterization_stabilizer",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "R-032",
+      "premises": [
+        "@unit_anchored_ordered_value_domain",
+        "@value_domain_reparameterization"
+      ],
+      "obligations": {
+        "registered_premises": true,
+        "no_new_primitive": true,
+        "provenance_complete": true,
+        "recovery_preserved": true,
+        "domain_membership": true
+      },
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ],
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE"
+    },
+    {
+      "certificate_id": "CC-041",
+      "handle": "@theorem_unit_order_underdetermination",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "R-032",
+      "premises": [
+        "@unit_order_reparameterization_stabilizer"
+      ],
+      "obligations": {
+        "registered_premises": true,
+        "no_new_primitive": true,
+        "provenance_complete": true,
+        "recovery_preserved": true,
+        "domain_membership": true
+      },
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ],
+      "audit": "INTERNAL_CLOSURE_ELIGIBLE"
+    },
+    {
+      "certificate_id": "CERT-DL-b1c836b5d4ba",
+      "handle": "@dl_number_scale_reparameterization",
+      "status": "VALID",
+      "domain": "@rainbow_road_recursive_domain",
+      "rule": "DEPENDENCY_LANDSCAPE_CONSTRUCTION_V2",
+      "premises": [
+        "@number_scale_reparameterization_frontier",
+        "@valuation_fiber_quotient",
+        "@bandwidth_capacity_order",
+        "@unit_value_role",
+        "@unit_order_reparameterization_stabilizer",
+        "@relative_value_transport"
+      ],
+      "obligations": {
+        "inputs_registered": true,
+        "member_edges_registered": true,
+        "no_unregistered_mathematical_edges_added": true,
+        "member_status_preserved": true,
+        "provenance_complete": true,
+        "history_attached": true,
+        "resolution_context_attached": true,
+        "bandwidth_context_attached": true,
+        "qmo_address_registered": true
+      },
+      "provenance": [
+        "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+        "GENESIS_DIRECTION::2026-08-22",
+        "RUNTIME_REGISTER",
+        "QMO:@number_scale_reparameterization_frontier",
+        "QMO:@valuation_fiber_quotient",
+        "QMO:@bandwidth_capacity_order",
+        "QMO:@unit_value_role",
+        "QMO:@unit_order_reparameterization_stabilizer",
+        "QMO:@relative_value_transport"
+      ],
+      "semantic_guard": "Certificate validates landscape construction only; it does not promote member claims."
+    },
+    {
+      "certificate_id": "CERT-DL-961e74a06325",
+      "handle": "@it_number_scale_reparameterization_4_landscape",
+      "status": "VALID",
+      "domain": "@rainbow_road_recursive_domain",
+      "rule": "DEPENDENCY_LANDSCAPE_CONSTRUCTION_V2",
+      "premises": [
+        "@number_scale_reparameterization_frontier"
+      ],
+      "obligations": {
+        "inputs_registered": true,
+        "member_edges_registered": true,
+        "no_unregistered_mathematical_edges_added": true,
+        "member_status_preserved": true,
+        "provenance_complete": true,
+        "history_attached": true,
+        "resolution_context_attached": true,
+        "bandwidth_context_attached": true,
+        "qmo_address_registered": true
+      },
+      "provenance": [
+        "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+        "GENESIS_DIRECTION::2026-08-22",
+        "RUNTIME_REGISTER",
+        "QMO:@number_scale_reparameterization_frontier"
+      ],
+      "semantic_guard": "Certificate validates landscape construction only; it does not promote member claims."
+    },
+    {
+      "certificate_id": "CERT-IT-bae3e6422a69",
+      "handle": "@it_number_scale_reparameterization_4",
+      "status": "VALID",
+      "domain": "@black_rainbow_closed_landscape",
+      "rule": "BOUNDED_ITERATION_RUN_V1",
+      "premises": [
+        "@number_scale_reparameterization_frontier",
+        "@bounded_recursive_iteration"
+      ],
+      "obligations": {
+        "finite_horizon_declared": true,
+        "registered_step_function": true,
+        "history_attached": true,
+        "domain_guard_active": true,
+        "materialized_qmo_registered": true,
+        "member_status_preserved": true,
+        "provenance_complete": true
+      },
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_bounded_qmo_iteration",
+        "QMO:@number_scale_reparameterization_frontier",
+        "QMO:@bounded_recursive_iteration",
+        "QMO:@bounded_dependency_crawl",
+        "QMO:@it_number_scale_reparameterization_4_landscape"
+      ],
+      "semantic_guard": "Validates iteration-run construction, not truth/promotion of all members encountered."
+    }
+  ],
+  "certificate_count": 75
+}

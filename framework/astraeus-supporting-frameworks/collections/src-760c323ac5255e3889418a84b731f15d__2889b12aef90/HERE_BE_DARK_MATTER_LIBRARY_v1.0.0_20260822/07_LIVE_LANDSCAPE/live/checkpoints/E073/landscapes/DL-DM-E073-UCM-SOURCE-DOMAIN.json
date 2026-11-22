@@ -1,0 +1,18 @@
+{
+  "schema": "ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1",
+  "landscape_id": "DL-DM-E073-UCM-SOURCE-DOMAIN",
+  "seed": "@dm_joint_hidden_network_witness",
+  "status": "APPEND_ONLY_SOURCE_DOMAIN_CLOSURE",
+  "nodes": [
+    "@dm_joint_hidden_network_witness",
+    "@dm_hidden_s3_network",
+    "@universal_coupling",
+    "@dm_ucm_source_domain_distinction"
+  ],
+  "terminal": {
+    "state": "SOURCE_DOMAIN_DISTINCTION_CLOSED",
+    "iteration": 2,
+    "focus": "@dm_ucm_source_domain_distinction",
+    "reason": "Nonzero hidden network structure yields distinct full/visible UCM source records; projection sensitivity remains a separate gate."
+  }
+}

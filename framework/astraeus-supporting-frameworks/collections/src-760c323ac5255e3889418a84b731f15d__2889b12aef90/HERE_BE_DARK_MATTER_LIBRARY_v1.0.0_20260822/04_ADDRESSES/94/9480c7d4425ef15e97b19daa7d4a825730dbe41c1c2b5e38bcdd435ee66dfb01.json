@@ -1,0 +1,28 @@
+{
+  "handle": "source://anchor/SRC-DM-011",
+  "object_type": "source_anchor",
+  "status": "source",
+  "domain": "SOURCE",
+  "namespace": "mk43://source/anchor",
+  "name": "Friedmann equation with ER energy density",
+  "definition": "",
+  "math": "",
+  "source_layer": "ARCHIVE_SOURCE",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "CANONICAL_CHAPTER_EQUATION",
+  "metadata": {
+    "source_id": "SRC-DM-011",
+    "title": "Friedmann equation with ER energy density",
+    "source_path": "chapters_11_15_with_part/chapters_11_15_with_part.tex",
+    "line_start": 25,
+    "line_end": 43,
+    "source_class": "CANONICAL_CHAPTER_EQUATION",
+    "source_sha256": "1d15510144aaddb05703f619f0a95e197a8fc35936ac3ea04c5851e8721a53fe",
+    "text": "\\section{Effective Friedmann Equations}\n\nFrom the MK--43 Ultra action we obtain modified Friedmann equations of the form\n\\begin{align}\n  H^2 &=\n  \\frac{8\\pi G}{3}\\left(\\rho_\\tau + \\rho_\\chi + \\rho_{ER} + \\rho_{\\mathrm{m}}\\right)\n  - \\frac{k}{a^2},\n  \\\\\n  \\frac{\\ddot{a}}{a} &=\n  -\\frac{4\\pi G}{3}\\left(\n    \\rho_\\tau + \\rho_\\chi + \\rho_{ER} + \\rho_{\\mathrm{m}}\n    + 3p_\\tau + 3p_\\chi + 3p_{ER} + 3p_{\\mathrm{m}}\n  \\right),\n\\end{align}\nwhere $\\rho_\\tau$, $\\rho_\\chi$, and $\\rho_{ER}$ denote energy densities in the phase, chromatic, and ER sectors, respectively, and $p_\\tau$, $p_\\chi$, $p_{ER}$ are the associated pressures.\n\n\\section{Role of the Phase Field in Expansion}\n\nThe phase field contributes an effective equation of state $w_\\tau = p_\\tau/\\rho_\\tau$ which can interpolate between stiff, radiation-like, or dark-energy-like behavior depending on the potential $V(\\tau)$ and the magnitude of $\\dot{\\tau}$."
+  },
+  "address": "source://anchor/SRC-DM-011",
+  "address_sha256": "9480c7d4425ef15e97b19daa7d4a825730dbe41c1c2b5e38bcdd435ee66dfb01"
+}

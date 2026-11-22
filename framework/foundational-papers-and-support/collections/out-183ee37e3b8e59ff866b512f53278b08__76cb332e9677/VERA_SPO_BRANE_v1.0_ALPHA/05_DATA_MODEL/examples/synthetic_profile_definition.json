@@ -1,0 +1,29 @@
+{
+  "approvals": [],
+  "package_id": "SYNTHETIC-DEMO-001",
+  "protected_cues": [
+    "@alarm",
+    "@spoken_warning",
+    "@vehicle_warning"
+  ],
+  "provenance": {
+    "authoring_source": "1.0 Alpha example",
+    "status": "SYNTHETIC_NON_CLINICAL"
+  },
+  "requirements": [
+    {
+      "event_class": "@steady_mechanical_noise",
+      "note": "synthetic demo only",
+      "requested_operation": "ATTENUATE"
+    },
+    {
+      "event_class": "@conversation",
+      "requested_operation": "PRESERVE"
+    }
+  ],
+  "spo_root": "@auditory_continuity",
+  "unknowns": [
+    "clinical_thresholds",
+    "validated_transform_parameters"
+  ]
+}

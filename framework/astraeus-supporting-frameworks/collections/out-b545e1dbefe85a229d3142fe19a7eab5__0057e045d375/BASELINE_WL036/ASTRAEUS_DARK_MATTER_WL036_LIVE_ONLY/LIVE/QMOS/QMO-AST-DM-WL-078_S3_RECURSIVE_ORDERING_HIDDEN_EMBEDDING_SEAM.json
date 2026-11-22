@@ -1,0 +1,37 @@
+{
+  "schema": "ASTRAEUS_S3_RECURSIVE_ORDERING_HIDDEN_EMBEDDING_SEAM_V1",
+  "qmo_id": "QMO-AST-DM-WL-078",
+  "name": "S3 / Recursive Ordering / Hidden Embedding Seam",
+  "atlas_version": "WL-v194",
+  "status": "SOURCE_BACKED_SEAM_OPEN_SELECTION_UNCHANGED",
+  "timespace_chain": [
+    "@S3 -> @recursive_ordering",
+    "@recursive_ordering -> @admissible_continuation",
+    "@admissible_continuation -> @inherited_state_bundle"
+  ],
+  "exact_pair_interface_radius4": [
+    {
+      "handle": "@recursive_ordering",
+      "distance_S3": 1,
+      "distance_hidden_embedding": 3
+    },
+    {
+      "handle": "@admissible_continuation",
+      "distance_S3": 2,
+      "distance_hidden_embedding": 2
+    },
+    {
+      "handle": "@inherited_state_bundle",
+      "distance_S3": 3,
+      "distance_hidden_embedding": 1
+    }
+  ],
+  "finding": "API 4.3 already gives S3 a source-backed recursive-ordering continuation neighborhood that approaches the exact target bundle used by the Dark Matter hidden-state embedding problem. This sharpens the source-side handle vocabulary but does not select iota_H or prove Emb_H,phys^R nonempty.",
+  "next_handle": "@recursive_ordering",
+  "next_handle_result": "Thin handle: downstream returns to already-crawled @admissible_continuation (and accepted @geodesic); stop after recording the seam.",
+  "guardrails": [
+    "@S3 != @dm_hidden_s3_network by identity",
+    "recursive ordering != selected hidden embedding",
+    "exact-handle interface != existence proof"
+  ]
+}

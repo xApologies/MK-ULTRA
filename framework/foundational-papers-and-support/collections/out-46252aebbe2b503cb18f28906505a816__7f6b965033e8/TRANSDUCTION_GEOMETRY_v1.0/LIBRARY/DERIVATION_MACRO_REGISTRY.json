@@ -1,0 +1,54 @@
+{
+  "count": 3,
+  "macros": [
+    {
+      "handle": "@macro_connection_to_holonomy",
+      "input": [
+        "dependency_path",
+        "source_state"
+      ],
+      "output": [
+        "holonomy_diagnostic"
+      ],
+      "expansion": [
+        "connection_select_lifts",
+        "compose_transport",
+        "close_loop",
+        "holonomy_audit"
+      ],
+      "status": "SEEDED"
+    },
+    {
+      "handle": "@macro_path_curvature_audit",
+      "input": [
+        "same_endpoint_paths",
+        "source_state"
+      ],
+      "output": [
+        "typed_curvature_defect"
+      ],
+      "expansion": [
+        "transport_path_1",
+        "transport_path_2",
+        "typed_defect_compare"
+      ],
+      "status": "SEEDED"
+    },
+    {
+      "handle": "@macro_descent_audit",
+      "input": [
+        "local_data",
+        "overlap_transitions"
+      ],
+      "output": [
+        "descent_disposition"
+      ],
+      "expansion": [
+        "pairwise_overlap",
+        "triple_overlap",
+        "descent_defect"
+      ],
+      "status": "SEEDED"
+    }
+  ]
+}

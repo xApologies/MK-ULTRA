@@ -1,0 +1,317 @@
+{
+  "chapter_ids": [
+    "V03-C03"
+  ],
+  "chapters": [
+    {
+      "assigned_handle_count": 6,
+      "chapter_id": "V03-C03",
+      "handles": [
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@dependency_graph` — Dependency graph",
+          "canonical_uri": "mk43://recover/core/dependency-graph",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.773061+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 178,
+            "english_units": 92,
+            "equation_units": 4,
+            "evidence_diversity": 2,
+            "handle": "@dependency_graph",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 4,
+            "recommended_priority": "P2",
+            "registered_dependencies": 29,
+            "run_id": "RP-05B",
+            "score": 77,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 931,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 550,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:550"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 722,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:722"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 723,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:723"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 2203,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:2203"
+            }
+          ],
+          "handle": "@dependency_graph",
+          "incoming_relation_types": {
+            "ADMITTED_BY": 1,
+            "CONTAINED_IN": 1,
+            "FORMALIZES": 1,
+            "GENERALIZES": 9,
+            "GENERATES": 1,
+            "REALIZED_BY": 1
+          },
+          "native_report": {
+            "bytes": 1033317,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V03_C03\\dependency_graph_7acdc398a4ea4e1abf6d2ee0a93acf6d.md",
+            "reused_master_query": false,
+            "sha256": "669c74ee5ff09de91bc1d1abfb93f66c05edba2c49eff592348d2392ee334e0c"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "ADMITS": 1,
+            "CLOSES_UNDER": 1,
+            "CONTAINS": 1,
+            "GENERATED_BY": 1,
+            "REALIZES": 1,
+            "SPECIALIZES_AS": 9,
+            "VERTICAL_CHAIN": 1
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@dependency_graph_mutation` — Dependency Graph Mutation",
+          "canonical_uri": "mk43://recover/core/dependency-graph-mutation",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.773061+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 84,
+            "english_units": 0,
+            "equation_units": 0,
+            "evidence_diversity": 0,
+            "handle": "@dependency_graph_mutation",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 12,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 178,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@dependency_graph_mutation",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 9853,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V03_C03\\dependency_graph_mutation_cf9921b3a53b40c09c080af43ea145d1.md",
+            "reused_master_query": false,
+            "sha256": "2679593a556f9f2165dd0ffea9478056107ea571865605779c271c43db738da3"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@kernel_dependency_graph` — Kernel Dependency Graph",
+          "canonical_uri": "mk43://recover/core/kernel-dependency-graph",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.883689+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 86,
+            "english_units": 0,
+            "equation_units": 0,
+            "evidence_diversity": 0,
+            "handle": "@kernel_dependency_graph",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 12,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 171,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@kernel_dependency_graph",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 9789,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V03_C03\\kernel_dependency_graph_62716557b5b845528272589e51bbb764.md",
+            "reused_master_query": false,
+            "sha256": "c5337fa32ff780fb7b52e3fb57d2826398ae58196fe135ae2bcaf6d93ea8ee51"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "Proof Dependency Graph",
+          "canonical_uri": "mk43://recover/prime/proof-dependency-graph",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.889194+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 110,
+            "english_units": 73,
+            "equation_units": 3,
+            "evidence_diversity": 2,
+            "handle": "@proof_dependency_graph",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 3,
+            "recommended_priority": "P2",
+            "registered_dependencies": 3,
+            "run_id": "RP-05B",
+            "score": 67,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 458,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 550,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:550"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 722,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:722"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1798,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1798"
+            }
+          ],
+          "handle": "@proof_dependency_graph",
+          "incoming_relation_types": {
+            "REALIZES": 1
+          },
+          "native_report": {
+            "bytes": 520167,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V03_C03\\proof_dependency_graph_1bb1408e14674e49bba84da0968a9d41.md",
+            "reused_master_query": false,
+            "sha256": "a62fe480ee7f1ce18873308107466ac377482cea29e7baeb44c357746416eb27"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "CERTIFIES": 1,
+            "REALIZED_BY": 1
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@reverse_dependency_graph` — Reverse dependency graph",
+          "canonical_uri": "mk43://recover/core/reverse-dependency-graph",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.890197+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 81,
+            "english_units": 5,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@reverse_dependency_graph",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 27,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 174,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@reverse_dependency_graph",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 9821,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V03_C03\\reverse_dependency_graph_7b02687828ed47de893397927bedb830.md",
+            "reused_master_query": false,
+            "sha256": "f08561f4fe1186b726088e50b923e6fe7033bba2b5b7b0593083a76181846699"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@typed_dependency_graph",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.895197+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 19,
+            "english_units": 1,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@typed_dependency_graph",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 1,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 14,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 94,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@typed_dependency_graph",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 9322,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V03_C03\\typed_dependency_graph_75f7c9362e7340f9a62e15b1369edd84.md",
+            "reused_master_query": false,
+            "sha256": "94c1418fcc313901f1654ed8faa14a92bdea748663fc6dc2cd99413470686b77"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        }
+      ],
+      "title": "Typed Edges and Dependency Traversal"
+    }
+  ],
+  "database_sha256": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03",
+  "database_unchanged": true,
+  "query_architecture": "Runtime -> BRANE -> API/QMO -> Library 4.1",
+  "query_receipt": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\native_query_receipt_V03_C03.json",
+  "schema": "mk-ultra-tome-native-evidence-digest-v1"
+}

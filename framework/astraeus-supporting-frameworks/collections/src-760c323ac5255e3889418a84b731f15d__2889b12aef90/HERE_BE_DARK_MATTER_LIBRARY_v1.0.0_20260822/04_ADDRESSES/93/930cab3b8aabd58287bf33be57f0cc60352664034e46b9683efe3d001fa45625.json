@@ -1,0 +1,26 @@
+{
+  "handle": "assumption://WA-DM-E079-001",
+  "object_type": "working_assumption",
+  "status": "WORKING_ASSUMPTION",
+  "domain": "ASSUMPTION",
+  "namespace": "mk43://assumption",
+  "name": "Selected Persistent Corridor Event Survival",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E079",
+  "qmo_generated": false,
+  "proof_status": "CONDITIONAL",
+  "empirical_status": "",
+  "provenance_class": "WORKING_ASSUMPTION",
+  "metadata": {
+    "id": "WA-DM-E079-001",
+    "name": "Selected Persistent Corridor Event Survival",
+    "status": "WORKING_ASSUMPTION",
+    "checkpoint": "E079",
+    "proof_debt": "PD-DM-008",
+    "payload_json": "{\"assumption_id\": \"WA-DM-E079-001\", \"name\": \"Selected Persistent Corridor Event Survival\", \"status\": \"WORKING_ASSUMPTION\", \"checkpoint\": \"E079\", \"scope\": \"one finite controlled hidden support in the recovered R4-R7 UCM transaction\", \"statement\": \"Let the full source state generate at least one admissible corridor candidate C_H that is absent from the visible candidate family, is selected by the recovered R5 constrained lowest-strain rule (possibly after a declared tie-break), survives R6, and remains persistent at R7.\", \"source_support\": [\"ATLAS_V36:138_R4_R6_BLACK_HOLE_CORRIDOR_SELECTOR.md\", \"ATLAS_V36:103_UNIVERSAL_COUPLING_DARK_MATTER_RECONVERGENCE.md\", \"@dm_joint_hidden_network_witness\"], \"not_claimed\": [\"physical black-hole realization\", \"global uniqueness of R5 selector\", \"numerical strain calibration\", \"readable stress-energy separation\"], \"proof_debt\": \"PD-DM-008\"}"
+  },
+  "address": "assumption://WA-DM-E079-001",
+  "address_sha256": "930cab3b8aabd58287bf33be57f0cc60352664034e46b9683efe3d001fa45625"
+}

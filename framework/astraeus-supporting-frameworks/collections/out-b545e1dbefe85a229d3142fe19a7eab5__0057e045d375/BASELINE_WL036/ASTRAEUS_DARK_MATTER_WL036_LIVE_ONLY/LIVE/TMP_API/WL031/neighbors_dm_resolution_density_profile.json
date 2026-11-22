@@ -1,0 +1,78 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_NEIGHBORS_V1",
+  "handle": "@dm_resolution_density_profile",
+  "incoming": [
+    [
+      "@dm_native_hidden_witness",
+      {
+        "source": "@dm_native_hidden_witness",
+        "relation": "CONTAINS",
+        "target": "@dm_resolution_density_profile",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      }
+    ]
+  ],
+  "outgoing": [
+    [
+      "@dm_hidden_relational_load",
+      {
+        "source": "@dm_resolution_density_profile",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_hidden_relational_load",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      }
+    ],
+    [
+      "@resolution",
+      {
+        "source": "@dm_resolution_density_profile",
+        "relation": "DEPENDS_ON",
+        "target": "@resolution",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      }
+    ],
+    [
+      "@energy_density",
+      {
+        "source": "@dm_resolution_density_profile",
+        "relation": "REALIZES",
+        "target": "@energy_density",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      }
+    ],
+    [
+      "@dm_native_density_to_readable_source",
+      {
+        "source": "@dm_resolution_density_profile",
+        "relation": "REQUIRES",
+        "target": "@dm_native_density_to_readable_source",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      }
+    ]
+  ]
+}

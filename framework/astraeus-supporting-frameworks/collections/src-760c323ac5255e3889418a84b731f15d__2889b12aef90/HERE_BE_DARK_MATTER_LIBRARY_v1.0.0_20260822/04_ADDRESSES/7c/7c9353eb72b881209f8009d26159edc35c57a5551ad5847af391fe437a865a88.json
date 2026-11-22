@@ -1,0 +1,203 @@
+{
+  "handle": "@unit_string",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@unit_string",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 2,
+    "api43_direct_in_count": 6,
+    "xapi_raw_out_count": 2,
+    "xapi_raw_in_count": 6,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@unit_string",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@invariant_interval",
+        "graph_family": "source",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56039->56041"
+      },
+      {
+        "source": "@unit_string",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@invariant_interval",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "API_CODE_BLOCK:56041;API_CODE_BLOCK:56245;API_CODE_BLOCK:56550;CANONICAL_API_VERTICAL:56039->56041;CANONICAL_API_VERTICAL:56243->56245;CANONICAL_API_VERTICAL:56548->56550"
+      },
+      {
+        "source": "@admissible_continuation",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@unit_string",
+        "graph_family": "source",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56037->56039"
+      },
+      {
+        "source": "@admissible_continuation",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@unit_string",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "API_CODE_BLOCK:56039;CANONICAL_API_VERTICAL:56037->56039"
+      },
+      {
+        "source": "@geodesic",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@unit_string",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56137->56139"
+      },
+      {
+        "source": "@geodesic",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@unit_string",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "API_CODE_BLOCK:56139;API_CODE_BLOCK:56548;API_CODE_BLOCK:56570;CANONICAL_API_VERTICAL:56137->56139;CANONICAL_API_VERTICAL:56546->56548;CANONICAL_API_VERTICAL:56568->56570"
+      },
+      {
+        "source": "@intrinsic_path_measure",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@unit_string",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56241->56243"
+      },
+      {
+        "source": "@intrinsic_path_measure",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@unit_string",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "API_CODE_BLOCK:56243;CANONICAL_API_VERTICAL:56241->56243"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 1161,
+        "source": "@unit_string",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@invariant_interval",
+        "layer": "API43",
+        "graph_family": "source",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56039->56041"
+      },
+      {
+        "id": 1162,
+        "source": "@unit_string",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@invariant_interval",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:56041;API_CODE_BLOCK:56245;API_CODE_BLOCK:56550;CANONICAL_API_VERTICAL:56039->56041;CANONICAL_API_VERTICAL:56243->56245;CANONICAL_API_VERTICAL:56548->56550"
+      },
+      {
+        "id": 23,
+        "source": "@admissible_continuation",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@unit_string",
+        "layer": "API43",
+        "graph_family": "source",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56037->56039"
+      },
+      {
+        "id": 24,
+        "source": "@admissible_continuation",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@unit_string",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:56039;CANONICAL_API_VERTICAL:56037->56039"
+      },
+      {
+        "id": 481,
+        "source": "@geodesic",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@unit_string",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56137->56139"
+      },
+      {
+        "id": 482,
+        "source": "@geodesic",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@unit_string",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:56139;API_CODE_BLOCK:56548;API_CODE_BLOCK:56570;CANONICAL_API_VERTICAL:56137->56139;CANONICAL_API_VERTICAL:56546->56548;CANONICAL_API_VERTICAL:56568->56570"
+      },
+      {
+        "id": 692,
+        "source": "@intrinsic_path_measure",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@unit_string",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56241->56243"
+      },
+      {
+        "id": 693,
+        "source": "@intrinsic_path_measure",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@unit_string",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:56243;CANONICAL_API_VERTICAL:56241->56243"
+      }
+    ]
+  },
+  "address": "@unit_string",
+  "address_sha256": "7c9353eb72b881209f8009d26159edc35c57a5551ad5847af391fe437a865a88"
+}

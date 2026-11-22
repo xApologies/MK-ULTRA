@@ -1,0 +1,22 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_NEIGHBORS_V1",
+  "handle": "@mote_identity",
+  "incoming": [
+    [
+      "@inheritance",
+      {
+        "source": "@inheritance",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_identity",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50989->50990",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ]
+  ],
+  "outgoing": [],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry"
+}

@@ -1,0 +1,103 @@
+{
+  "schema": "tome-publication-renderer-validation/v1",
+  "created_at": "2026-08-11T03:33:37.238551+00:00",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "engine": "KaTeX 0.16.22 -> HTML/CSS -> Playwright -> Microsoft Edge PDF",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_11_COSMOLOGY/MK_ULTRA_TOME_V11_C06_COSMOLOGICAL_HORIZONS_AND_DARK_ENERGY.pdf",
+    "bytes": 155196,
+    "sha256": "586e0227f0000ed8209738de7bca1e3d5faa321659c7f1529ad326a2d69783f4"
+  },
+  "actual_pages": 7,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V11-C06": 3
+  },
+  "chapter_validations": [
+    {
+      "chapter_id": "V11-C06",
+      "source_sha256": "8aae69f9dc82f3995d8d23c6199290e889a3afab08ab7dc7e923f2c42727838c",
+      "page_start": 3,
+      "headings": 24,
+      "display_equations": 21,
+      "inline_equations": 0,
+      "equation_tags": 21,
+      "api_handles": 12,
+      "table_rows": 26,
+      "content_markers_present": true
+    }
+  ],
+  "engine_metrics": {
+    "renderer": "TOME_PUBLICATION_RENDERER_V1",
+    "katexVersion": "0.16.22",
+    "chapters": [
+      {
+        "id": "V11-C06",
+        "sourceBytes": 10684,
+        "paragraphs": 43,
+        "headings": 24,
+        "displayEquations": 21,
+        "inlineEquations": 0,
+        "tables": 2,
+        "tableRows": 24,
+        "listItems": 0,
+        "codeBlocks": 0,
+        "figures": 0
+      }
+    ],
+    "paragraphs": 43,
+    "headings": 24,
+    "displayEquations": 21,
+    "inlineEquations": 0,
+    "tables": 2,
+    "tableRows": 24,
+    "listItems": 0,
+    "blockQuotes": 0,
+    "codeBlocks": 0,
+    "figures": 0,
+    "mathLayout": {
+      "checked": 21,
+      "scaled": [],
+      "remainingOverflow": []
+    }
+  },
+  "raw_latex_guard": {
+    "result": "PASS",
+    "hits": [],
+    "commands_scanned": [
+      "frac",
+      "mathcal",
+      "mathrm",
+      "begin",
+      "end",
+      "left",
+      "right",
+      "longrightarrow",
+      "rightarrow",
+      "otimes",
+      "partial",
+      "nabla",
+      "mu",
+      "nu",
+      "sum",
+      "int",
+      "operatorname"
+    ]
+  },
+  "visual_qa": {
+    "result": "PASS",
+    "pages_rendered": 7,
+    "pages_inspected": 7,
+    "contact_sheets_inspected": 2,
+    "findings": [],
+    "inspection_note": "All seven rendered pages were visually inspected. Cover, contents, equations, tables, pagination, and chapter text are legible with no clipping, overlap, raw LaTeX, or unintended blank pages."
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V11-C06": "8aae69f9dc82f3995d8d23c6199290e889a3afab08ab7dc7e923f2c42727838c"
+  },
+  "source_hashes_after": {
+    "V11-C06": "8aae69f9dc82f3995d8d23c6199290e889a3afab08ab7dc7e923f2c42727838c"
+  },
+  "sealed_chapter_content_change_count": 0
+}

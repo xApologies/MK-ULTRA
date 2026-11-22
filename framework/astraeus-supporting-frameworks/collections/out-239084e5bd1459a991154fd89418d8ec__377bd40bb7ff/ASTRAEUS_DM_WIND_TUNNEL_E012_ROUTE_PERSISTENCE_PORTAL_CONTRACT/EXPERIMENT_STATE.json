@@ -1,0 +1,22 @@
+{
+  "experiment": "E012",
+  "candidate": "CAND-DM-PERSISTENT-ROUTE-CONTRACT-015",
+  "title": "T5 Route Persistence and Rainbow-Road Portal Contract Audit",
+  "status": "ROUTE-PERSISTENCE RESULT + PORTAL CONTRACT BLOCKER IDENTIFICATION",
+  "physical_dark_matter_witness": false,
+  "parent_promotions": 0,
+  "results": {
+    "robust_states_tested": 296,
+    "states_with_connected_B2_route_common_to_p0_and_p1_for_every_tested_condition": 224,
+    "states_with_one_identical_connected_route_common_to_all_conditions_and_p0_p1": 0,
+    "robust_pairs_where_both_states_pass_strict_T5_route_persistence": 92,
+    "robust_pairs_where_both_states_have_one_globally_fixed_route": 0,
+    "full_portal_transactions_closed": 0
+  },
+  "ruling": [
+    "A substantial subset of E010 robust states has route topology that survives the T5 persistence boundary under every tested R5 stress condition.",
+    "Rainbow-Road route persistence can therefore be tested independently from full Portal success.",
+    "Full Portal transaction success is not yet type-complete because basin_distribution and invariant_residue are unresolved for the controlled tile grammar; source Bandwidth cost and destination closure are only partial."
+  ],
+  "next_handle": "RECOVER_TILE_TO_BASIN_AND_INVARIANT_RESIDUE_TYPING_OR_KEEP_RAINBOW_ROAD_AS_ROUTE_ONLY"
+}

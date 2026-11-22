@@ -1,0 +1,172 @@
+# Genesis Geometric Intermediate Representation v0.1
+# Status: Working synthesis
+# Purpose: Canonical machine-readable form for a Genesis Geometric
+# Important: Serialization is a projection of the Geometric, not the Geometric itself.
+
+genesis_ir: "0.1"
+
+geometric:
+  id: null
+  kind: "geometric"
+
+  environment:
+    id: null
+    boundary_context: null
+    substrate: null
+
+  boundary:
+    id: null
+    parent_boundary: null
+    inclusions: []
+    exclusions: []
+    interfaces: []
+
+  occupancy:
+    support:
+      construction: "3+1+1"
+      xyz_shape: null
+      lift_axis: null
+      chirality_axis: null
+    cells: []
+    distribution_ref: null
+
+  relationships:
+    adjacency: []
+    inheritance_links: []
+    portal_links: []
+    dependencies: []
+
+  identity:
+    class: null
+    invariant_residue: null
+    equivalence_rule: null
+    recoverable: false
+
+  persistence:
+    state: "unresolved"
+    contract: null
+    ancestry: []
+    checkpoints: []
+
+  topology:
+    class: null
+    closure_class: null
+    support_manifold: null
+    recursive_depth: 0
+
+  chirality:
+    class: null
+    handedness: null
+    seed: null
+    byte:
+      arrangement: null
+      serialization: null
+    transport_rule: null
+    admissibility_constraints: []
+
+  basin_distribution:
+    model: "dual-aspect"
+    cells: []
+    allowed_basins:
+      - id: "B1"
+        name: "red"
+        fraction: "1/7"
+        spoken_root: "ra"
+      - id: "B2"
+        name: "orange"
+        fraction: "2/7"
+        spoken_root: "o"
+      - id: "B3"
+        name: "yellow"
+        fraction: "3/7"
+        spoken_root: "ya"
+      - id: "B4"
+        name: "green"
+        fraction: "4/7"
+        spoken_root: "gi"
+      - id: "B5"
+        name: "blue"
+        fraction: "5/7"
+        spoken_root: "bu"
+      - id: "B6"
+        name: "violet"
+        fraction: "6/7"
+        spoken_root: "vi"
+    hard_stop_signature: null
+    rotational_signature: null
+
+  capacity:
+    resolution:
+      available: null
+      required: null
+    bandwidth:
+      available: null
+      required: null
+
+  locality:
+    address: null
+    neighborhood: null
+    coherence: null
+
+  translation:
+    readiness: null
+    source_address: null
+    target_address: null
+    route: null
+
+  runtime:
+    status: "unresolved"
+    operator_plan: []
+    current_operator: null
+    drift_detected: false
+
+  closure:
+    target: null
+    status: "unresolved"
+    fixed_point: false
+    normalized: false
+
+  guardian:
+    observer: null
+    interpretation: null
+    integrity_status: "unresolved"
+    unresolved_questions: []
+
+  provenance:
+    source_ids: []
+    inherited_from: []
+    derivation_path: []
+    created_by: null
+    created_at: null
+
+  realization:
+    backend: "reference"
+    format: null
+    artifact_ref: null
+
+contracts:
+  required:
+    - "boundary"
+    - "occupancy"
+    - "relationships"
+    - "identity"
+    - "persistence"
+    - "topology"
+    - "chirality"
+    - "capacity"
+    - "closure"
+    - "provenance"
+
+  success:
+    - "identity.recoverable == true"
+    - "closure.fixed_point == true"
+    - "capacity.resolution.available >= capacity.resolution.required"
+    - "capacity.bandwidth.available >= capacity.bandwidth.required"
+    - "guardian.integrity_status == 'admissible'"
+
+  failure_states:
+    persistence_failure: "rin-nai"
+    stabilization_failure: "tal-nai"
+    closure_failure: "kor-nai"
+    absent_identity: "en-nai"
+    broken_continuity: "sera-nai"

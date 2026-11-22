@@ -1,0 +1,38 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_NEIGHBORS_V1",
+  "handle": "@mote_diagonal_rule",
+  "incoming": [
+    [
+      "@mote_occupancy_function",
+      {
+        "source": "@mote_occupancy_function",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_diagonal_rule",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:49478->49479",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ]
+  ],
+  "outgoing": [
+    [
+      "@mote_chirality",
+      {
+        "source": "@mote_diagonal_rule",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_chirality",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:49481->49482",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ]
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry"
+}

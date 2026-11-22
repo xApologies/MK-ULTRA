@@ -1,0 +1,79 @@
+{
+  "schema": "ASTRAEUS_QMO_CROSS_CRAWL_V1",
+  "seeds": [
+    "@dm_mode0_network_selection_rule"
+  ],
+  "targets": [
+    "@galaxy"
+  ],
+  "bidirectional": true,
+  "edge_count": 1333,
+  "reachable_count": 91,
+  "distance_histogram": {
+    "0": 1,
+    "1": 2,
+    "2": 7,
+    "3": 24,
+    "4": 57
+  },
+  "paths": {
+    "@dm_mode0_network_selection_rule -> @galaxy": [
+      {
+        "from": "@dm_mode0_network_selection_rule",
+        "relation": "SELECTS_ACCESS_TO",
+        "to": "@dm_hidden_s3_network",
+        "traversal": "forward",
+        "origin": "DARKMATTER_2.0",
+        "provenance": "DM2.0",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "OPEN_HANDLE",
+        "confidence": "high"
+      },
+      {
+        "from": "@dm_hidden_s3_network",
+        "relation": "USES",
+        "to": "@dm_runtime_transition_capacity",
+        "traversal": "forward",
+        "origin": "DARKMATTER_2.0",
+        "provenance": "DM2.0",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "ATLAS_DERIVED",
+        "confidence": "high"
+      },
+      {
+        "from": "@dm_runtime_transition_capacity",
+        "relation": "SATURATION_GUARDS",
+        "to": "@dm_continuity_laplacian",
+        "traversal": "forward",
+        "origin": "DARKMATTER_2.0",
+        "provenance": "DM2.0",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "ATLAS_DERIVED_CLOSED",
+        "confidence": "high"
+      },
+      {
+        "from": "@dm_continuity_laplacian",
+        "relation": "SCHUR_REDUCES",
+        "to": "@dm_hidden_response_operator",
+        "traversal": "reverse",
+        "origin": "DARKMATTER_2.0",
+        "provenance": "DM2.0",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "ATLAS_DERIVED",
+        "confidence": "high"
+      },
+      {
+        "from": "@dm_hidden_response_operator",
+        "relation": "READS_OUT_AT",
+        "to": "@galaxy",
+        "traversal": "forward",
+        "origin": "DARKMATTER_2.0",
+        "provenance": "DM2.0",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "ATLAS_DERIVED",
+        "confidence": "high"
+      }
+    ]
+  },
+  "guardrail": "Navigation evidence only. Composed paths are not direct theorems and no parent object is promoted."
+}

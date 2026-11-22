@@ -1,0 +1,12 @@
+{
+  "qmo_address": "@dc/torus_direction_to_portal_token",
+  "steps": [
+    "@r47/torus_local_direction",
+    "@r47/chart_lift_realization",
+    "@r47/bandwidth_pullback",
+    "@r47/portal_generator",
+    "@r47/portal_admissibility",
+    "@open/portal_to_hidden_edge"
+  ],
+  "terminal_state": "ROADBLOCK"
+}

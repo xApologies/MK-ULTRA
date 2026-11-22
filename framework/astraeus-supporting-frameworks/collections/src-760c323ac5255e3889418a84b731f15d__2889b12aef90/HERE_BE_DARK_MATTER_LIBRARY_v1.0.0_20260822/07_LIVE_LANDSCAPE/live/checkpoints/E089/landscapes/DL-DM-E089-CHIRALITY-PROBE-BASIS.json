@@ -1,0 +1,20 @@
+{
+  "schema": "ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1",
+  "landscape_id": "DL-DM-E089-CHIRALITY-PROBE-BASIS",
+  "seed": "@chirality_seed",
+  "status": "SOURCE_RECOVERY_CLOSED",
+  "nodes": [
+    "@chirality_seed",
+    "@left_chirality_seed",
+    "@right_chirality_seed",
+    "@chirality_byte",
+    "@energy_density",
+    "@dm_chirality_seed_byte_probe_basis"
+  ],
+  "terminal": {
+    "state": "SOURCE_PROBE_BASIS_RECOVERED",
+    "iteration": 5,
+    "focus": "@dm_chirality_seed_byte_probe_basis",
+    "reason": "Recovery gives the seed, byte, and basin roles with enough precision to define a finite probe without re-deriving chirality foundations."
+  }
+}

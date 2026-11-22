@@ -1,0 +1,196 @@
+{
+  "task": "Original microscopic Genesis -> unchanged GRC-1 faithful embedding audit",
+  "determination": "NOT_ESTABLISHED; canonical coarse metric map nonfaithful on tested interface; regular same-metric scalar point-map obstruction for stated source-action specialization",
+  "total": 32,
+  "passed": 32,
+  "checks": [
+    {
+      "name": "GRC1 encoder preserves decoded Minkowski metric",
+      "passed": true,
+      "scope": "representation identity"
+    },
+    {
+      "name": "GRC1 flat reference is not original identity adjacency",
+      "passed": true,
+      "scope": "different encoding, not a physical no-go"
+    },
+    {
+      "name": "canonical encoder has no vanishing scalar derivative",
+      "passed": true,
+      "scope": "regular readout transfer"
+    },
+    {
+      "name": "same fixed ER covectors annihilate ambiguity",
+      "passed": true,
+      "scope": "source metric-interface fixture"
+    },
+    {
+      "name": "both networks strictly entrywise positive",
+      "passed": true,
+      "scope": "source weight admissibility only"
+    },
+    {
+      "name": "networks distinct and symmetric",
+      "passed": true,
+      "scope": "source weight-interface fixture"
+    },
+    {
+      "name": "both readouts are the same Lorentzian metric",
+      "passed": true,
+      "scope": "fixed-background metric fixture, not full solutions"
+    },
+    {
+      "name": "canonical GRC1 encoding preserves collision",
+      "passed": true,
+      "scope": "proves re-encoding cannot recover these two networks"
+    },
+    {
+      "name": "original graph spectra differ",
+      "passed": true,
+      "scope": "exact source graph operators"
+    },
+    {
+      "name": "same initial amplitude has different next native update",
+      "passed": true,
+      "scope": "source recurrence, no identification of recursive depth with physical time"
+    },
+    {
+      "name": "complementary kernel record restores each full network",
+      "passed": true,
+      "scope": "exact decoder with additional kernel data; not GRC1 alone"
+    },
+    {
+      "name": "new completion changes kinetic metric by rank-one term",
+      "passed": true,
+      "scope": "source-derived specialization vs exact new model"
+    },
+    {
+      "name": "GRC1 kinetic metric is flat-metric pullback",
+      "passed": true,
+      "scope": "all seven fields; flatness follows by explicit diffeomorphism"
+    },
+    {
+      "name": "original phase shift leaves a nontrivial transverse metric",
+      "passed": true,
+      "scope": "same scalar map does not flatten original action"
+    },
+    {
+      "name": "old determinant and positivity threshold",
+      "passed": true,
+      "scope": "eight-dimensional original kinetic matrix"
+    },
+    {
+      "name": "completed determinant never degenerates",
+      "passed": true,
+      "scope": "new completion comparison"
+    },
+    {
+      "name": "original eight-field curvature at origin",
+      "passed": true,
+      "scope": "exact full 8D metric jets; not a 2D slice argument"
+    },
+    {
+      "name": "original sectional curvature at origin",
+      "passed": true,
+      "scope": "chosen distinct chromatic directions"
+    },
+    {
+      "name": "completed full Riemann tensor vanishes at origin",
+      "passed": true,
+      "scope": "exact full 8D metric jets"
+    },
+    {
+      "name": "original full curvature agrees with radial formula n=2",
+      "passed": true,
+      "scope": "independent exact jets at a nonzero interior point"
+    },
+    {
+      "name": "GRC1 Riemann vanishes at nonzero point n=2",
+      "passed": true,
+      "scope": "exact local comparison"
+    },
+    {
+      "name": "original full curvature agrees with radial formula n=7",
+      "passed": true,
+      "scope": "independent exact jets at a nonzero interior point"
+    },
+    {
+      "name": "GRC1 Riemann vanishes at nonzero point n=7",
+      "passed": true,
+      "scope": "exact local comparison"
+    },
+    {
+      "name": "one-chromatic-field special case has no curvature obstruction",
+      "passed": true,
+      "scope": "negative control prevents overgeneralization to one scalar"
+    },
+    {
+      "name": "zero coupling removes this kinetic discrepancy",
+      "passed": true,
+      "scope": "conditional agreement, not a full microscopic embedding"
+    },
+    {
+      "name": "curved fixture solves GRC1 Einstein equations",
+      "passed": true,
+      "scope": "complete GRC1 metric/scalar fixture, no old ER claim"
+    },
+    {
+      "name": "same inverse fixture fails old Einstein-source equation",
+      "passed": true,
+      "scope": "old displayed scalar action only; explicit ER action not specified"
+    },
+    {
+      "name": "spatial stress discrepancy matches completed-square term",
+      "passed": true,
+      "scope": "action-derived tensor comparison"
+    },
+    {
+      "name": "GRC1 mixed scalar equation vanishes independently",
+      "passed": true,
+      "scope": "direct homogeneous action variation"
+    },
+    {
+      "name": "old scalar residual is nonzero exact expression",
+      "passed": true,
+      "scope": "source specialization under proposed direct inverse"
+    },
+    {
+      "name": "phase equation still agrees on this fixture",
+      "passed": true,
+      "scope": "difference localized to chromatic and stress sectors"
+    },
+    {
+      "name": "same old matter can be retained by regular metric reexpression",
+      "passed": true,
+      "scope": "algebraic chain rule; not completion of unresolved original microphysics"
+    }
+  ],
+  "python": "3.13.5",
+  "sympy": "1.14.0",
+  "elapsed_seconds": 1.51,
+  "new_invariant": {
+    "n_chromatic": 7,
+    "old_scalar_curvature_at_origin": "-42 gamma^2/beta",
+    "GRC1_scalar_curvature": "0",
+    "hypotheses": "constant chromatic coefficient identity, beta>0, gamma!=0, no compensating additional kinetic action, same spacetime metric, regular derivative-free scalar redefinition"
+  },
+  "graph_witness": {
+    "spectra_1": {
+      "0": 1,
+      "5": 4
+    },
+    "spectra_2": {
+      "0": 1,
+      "4": 1,
+      "5": 3
+    },
+    "scope": "source formula and recurrence fixture, not complete native on-shell states"
+  },
+  "limits": [
+    "No full microscopic solution-space construction or classification performed.",
+    "Curvature obstruction excludes the stated class of local action-preserving scalar identifications, not all possible derivative/nonlocal embeddings.",
+    "G^{ab}=identity is an explicit specialization, not a recovered unique global field-space law.",
+    "Additional original sectors could change total kinetic geometry; none is assumed to cancel the discrepancy.",
+    "Passing tests includes detecting negative witnesses; it does not certify the requested embedding."
+  ]
+}

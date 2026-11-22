@@ -1,0 +1,26 @@
+{
+  "experiment": "E011",
+  "candidate": "CAND-DM-RESOLUTION-ROUTE-CAPACITY-014",
+  "title": "Resolution/Bandwidth/Route Retype of the E010 Multicorridor Threshold",
+  "status": "SOURCE-SEMANTIC RETYPE + FINITE ROUTE-READINESS TEST; NOT PHYSICAL DARK-MATTER WITNESS",
+  "parent_promotions": 0,
+  "physical_dark_matter_witness": false,
+  "results": {
+    "E010_robust_pairs": 148,
+    "pairs_same_at_R0": 148,
+    "pairs_distinguished_at_R1_adjacency": 148,
+    "R1_edge_hamming_min": 8,
+    "R1_edge_hamming_max": 10,
+    "robust_states": 296,
+    "robust_states_with_some_composable_B2_route": 296,
+    "robust_states_where_all_B2_optima_are_routes": 16,
+    "robust_pairs_where_both_states_have_some_route": 148
+  },
+  "ruling": [
+    "E010 B is allocated corridor capacity, not source Bandwidth itself.",
+    "All 148 robust pairs are unresolved at coarse R0 but become distinguishable at adjacency Resolution R1, changing 8 or 10 of the 12 labeled edge relations.",
+    "All 296 representative robust states possess at least one optimal two-corridor selection that is geometrically composable into a local path.",
+    "Only 16/296 states force every tested optimal B2 selection to be path-connected; therefore multicorridor survival creates route capacity but does not automatically instantiate Rainbow Road."
+  ],
+  "next_handle": "TEST_ROUTE_PERSISTENCE_AND_PORTAL_TRANSACTION_CONTRACT_ON_E010_SURVIVORS"
+}

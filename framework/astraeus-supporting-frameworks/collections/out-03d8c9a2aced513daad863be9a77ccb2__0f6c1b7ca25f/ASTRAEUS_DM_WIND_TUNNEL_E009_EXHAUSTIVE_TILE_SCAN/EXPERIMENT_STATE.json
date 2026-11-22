@@ -1,0 +1,17 @@
+{
+  "experiment": "E009",
+  "title": "Exhaustive 2x2x2 ER-Tile Readout-Degeneracy Scan",
+  "status": "EXHAUSTIVE CONTROLLED SANDBOX ENUMERATION / NOT PHYSICAL DARK-MATTER WITNESS",
+  "state_space_encoding": "Each of 8 tile sites is one of {-1,0,+1}: negative chirality occupied, empty, positive chirality occupied.",
+  "total_microstates": 6561,
+  "total_top_down_readout_classes": 1296,
+  "degenerate_readout_classes": 1215,
+  "readout_classes_with_adjacency_variation": 729,
+  "readout_classes_with_robust_H_and_O_ER_response_variation": 1215,
+  "microstates_inside_robust_readout_degenerate_classes": 6480,
+  "fraction_microstates_in_robust_classes": 0.9876543209876543,
+  "robust_definition": "Within a single top-down readout class, at least one pair has nonzero H and O probe ER-response separation for p=0 and p=1 under both possible ER chirality-index conventions.",
+  "main_result": "Readout degeneracy with cross-probe ER distinguishability is widespread in the complete controlled native-cell state space, not unique to the hand-selected E001 pair.",
+  "hard_boundary": "The {-1,0,+1} site encoding and top-down readout are the controlled E009 sandbox grammar. This exhaustive scan does not prove all enumerated states are physically admissible MK43 states.",
+  "next_handle": "FILTER_E009_ROBUST_CLASSES_BY_PIPELINE_ADMISSIBILITY_PERSISTENCE_AND_R4_R6_SURVIVAL"
+}

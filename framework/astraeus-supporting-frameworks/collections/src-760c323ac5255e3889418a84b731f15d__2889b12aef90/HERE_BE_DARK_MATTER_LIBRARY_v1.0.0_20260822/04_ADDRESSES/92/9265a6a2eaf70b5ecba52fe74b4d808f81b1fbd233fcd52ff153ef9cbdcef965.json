@@ -1,0 +1,26 @@
+{
+  "handle": "closure://CC-DM-E098-001",
+  "object_type": "closure_certificate",
+  "status": "SOURCE_DENSITY_TO_SHELL_GEOMETRY_CALIBRATION_CLOSED",
+  "domain": "CLOSURE",
+  "namespace": "mk43://closure",
+  "name": "CC-DM-E098-001",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E098",
+  "qmo_generated": true,
+  "proof_status": "SOURCE_DENSITY_TO_SHELL_GEOMETRY_CALIBRATION_CLOSED",
+  "empirical_status": "",
+  "provenance_class": "CLOSURE_CERTIFICATE",
+  "metadata": {
+    "id": "CC-DM-E098-001",
+    "object_handle": "@dm_source_density_geometry_calibration",
+    "decision": "SOURCE_DENSITY_TO_SHELL_GEOMETRY_CALIBRATION_CLOSED",
+    "checkpoint": "E098",
+    "source_file": "ASTRAEUS_DM_E097_E100_SOURCE_CLOSURE_REPORT_20260822.md",
+    "payload_json": "{\"schema\": \"ASTRAEUS_CLOSURE_CERTIFICATE_V1\", \"certificate_id\": \"CC-DM-E098-001\", \"checkpoint\": \"E098\", \"object\": \"@dm_source_density_geometry_calibration\", \"decision\": \"SOURCE_DENSITY_TO_SHELL_GEOMETRY_CALIBRATION_CLOSED\", \"scope\": \"historical peer-review source sector only\", \"premises\": [\"mu_f>0\", \"mu_v>0\", \"alpha!=0\", \"mu_f!=mu_v\", \"m=ln(mu/mu0)\", \"phi=(1/2)ln det g\", \"phi+alpha m=phi0\"], \"result\": \"Delta phi=-alpha ln(mu_f/mu_v)!=0 and det(g_f)/det(g_v)=(mu_f/mu_v)^(-2alpha)!=1. PD-DM-014 is discharged in this declared source sector.\", \"checks\": {\"exact_source_equations_used\": true, \"universal_empirical_calibration_claimed\": false, \"physical_promotion\": false}}"
+  },
+  "address": "closure://CC-DM-E098-001",
+  "address_sha256": "9265a6a2eaf70b5ecba52fe74b4d808f81b1fbd233fcd52ff153ef9cbdcef965"
+}

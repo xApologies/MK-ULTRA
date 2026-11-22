@@ -1,0 +1,142 @@
+{
+  "qmo_address": "@dl/localization_beh_mask",
+  "members": [
+    "@r45/time_shell",
+    "@r45/persistent_boundary",
+    "@r45/environment_address_space",
+    "@r45/environment",
+    "@r45/bandwidth",
+    "@r45/occupancy",
+    "@r45/projection_admissibility",
+    "@r45/boundary_projection",
+    "@r45/invariant_residue",
+    "@r45/orientation_history",
+    "@r45/localization_mask",
+    "@open/localization_predicate_evaluator"
+  ],
+  "edges": [
+    {
+      "source": "@r45/environment_address_space",
+      "relation": "READS",
+      "target": "@r45/environment"
+    },
+    {
+      "source": "@r45/environment_address_space",
+      "relation": "READS",
+      "target": "@r45/bandwidth"
+    },
+    {
+      "source": "@r45/environment_address_space",
+      "relation": "JOINTLY_READS",
+      "target": "@r45/time_shell"
+    },
+    {
+      "source": "@r45/persistent_boundary",
+      "relation": "INTERFACE_FOR",
+      "target": "@r45/time_shell"
+    },
+    {
+      "source": "@r45/persistent_boundary",
+      "relation": "UPSTREAM_OF",
+      "target": "@r45/projection_admissibility"
+    },
+    {
+      "source": "@r45/projection_admissibility",
+      "relation": "GATES",
+      "target": "@r45/boundary_projection"
+    },
+    {
+      "source": "@r45/boundary_projection",
+      "relation": "PRESERVES",
+      "target": "@r45/invariant_residue"
+    },
+    {
+      "source": "@r45/bandwidth",
+      "relation": "CONSTRAINS",
+      "target": "@r45/occupancy"
+    },
+    {
+      "source": "@r45/orientation_history",
+      "relation": "CONSTRAINS",
+      "target": "@r45/localization_mask"
+    },
+    {
+      "source": "@r45/environment_address_space",
+      "relation": "CONSTRAINS",
+      "target": "@r45/localization_mask"
+    },
+    {
+      "source": "@r45/persistent_boundary",
+      "relation": "CONSTRAINS",
+      "target": "@r45/localization_mask"
+    },
+    {
+      "source": "@r45/projection_admissibility",
+      "relation": "CONSTRAINS",
+      "target": "@r45/localization_mask"
+    },
+    {
+      "source": "@r45/bandwidth",
+      "relation": "CONSTRAINS",
+      "target": "@r45/localization_mask"
+    },
+    {
+      "source": "@r45/occupancy",
+      "relation": "CONSTRAINS",
+      "target": "@r45/localization_mask"
+    },
+    {
+      "source": "@r45/invariant_residue",
+      "relation": "CONSTRAINS",
+      "target": "@r45/localization_mask"
+    },
+    {
+      "source": "@r45/localization_mask",
+      "relation": "REQUIRES_EVALUATOR",
+      "target": "@open/localization_predicate_evaluator"
+    }
+  ],
+  "mask_clauses": [
+    {
+      "priority": 1,
+      "name": "environment_address",
+      "criterion": "candidate lift lands at / is represented by an admissible local Environment address a in A_E"
+    },
+    {
+      "priority": 2,
+      "name": "joint_readability",
+      "criterion": "at a, inherited organization, chirality, Resolution, Bandwidth and recursive ordering are jointly readable"
+    },
+    {
+      "priority": 3,
+      "name": "persistent_boundary",
+      "criterion": "candidate is compatible with the persistent-boundary / Time-Shell localization interface"
+    },
+    {
+      "priority": 4,
+      "name": "projection_admissibility",
+      "criterion": "candidate satisfies projection admissibility"
+    },
+    {
+      "priority": 5,
+      "name": "bandwidth",
+      "criterion": "candidate transformation is supportable under local Bandwidth"
+    },
+    {
+      "priority": 6,
+      "name": "history",
+      "criterion": "candidate is compatible with retained orientation/relational History and recursive inheritance"
+    },
+    {
+      "priority": 7,
+      "name": "occupancy",
+      "criterion": "candidate is compatible with the localized realized/occupancy contract"
+    },
+    {
+      "priority": 8,
+      "name": "invariant_residue",
+      "criterion": "candidate projection preserves the required invariant residue F_p"
+    }
+  ],
+  "status": "MASK_DEPENDENCY_TYPE_CLOSED__EVALUATOR_OPEN"
+}

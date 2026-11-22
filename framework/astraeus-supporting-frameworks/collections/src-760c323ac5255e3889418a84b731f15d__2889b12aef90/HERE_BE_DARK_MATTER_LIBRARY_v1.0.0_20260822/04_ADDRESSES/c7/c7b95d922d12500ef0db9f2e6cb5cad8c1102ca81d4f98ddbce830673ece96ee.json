@@ -1,0 +1,152 @@
+{
+  "handle": "@helicon_one_form",
+  "object_type": "mathematical_object",
+  "status": "indexed-unlinked",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Helicon One-Form",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 2,
+    "api43_direct_in_count": 2,
+    "xapi_raw_out_count": 4,
+    "xapi_raw_in_count": 3,
+    "live_out_count": 2,
+    "live_in_count": 1,
+    "closure_out_reachability_count": 165,
+    "closure_in_reachability_count": 71,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 6,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@helicon_one_form",
+        "relation": "REPRESENTS",
+        "target": "@helicon",
+        "graph_family": "representation",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "recovery_pass": "RP-37",
+        "provenance": "DIRECT_TYPED_API:51520"
+      },
+      {
+        "source": "@helicon_one_form",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@helicon_curvature",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:27751"
+      },
+      {
+        "source": "@helicon_curvature",
+        "relation": "DERIVED_FROM",
+        "target": "@helicon_one_form",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "recovery_pass": "RP-37",
+        "provenance": "DIRECT_TYPED_API:51440"
+      },
+      {
+        "source": "@helicon",
+        "relation": "REPRESENTED_BY",
+        "target": "@helicon_one_form",
+        "graph_family": "representation",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@helicon_one_form REPRESENTS @helicon); rule=REPRESENTS→REPRESENTED_BY"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 629,
+        "source": "@helicon_one_form",
+        "relation": "REPRESENTS",
+        "target": "@helicon",
+        "layer": "API43",
+        "graph_family": "representation",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_TYPED_API:51520"
+      },
+      {
+        "id": 630,
+        "source": "@helicon_one_form",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@helicon_curvature",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:27751"
+      },
+      {
+        "id": 19205,
+        "source": "@helicon_one_form",
+        "relation": "REPRESENTS",
+        "target": "@helicon",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_TYPED_API:51520"
+      },
+      {
+        "id": 19206,
+        "source": "@helicon_one_form",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@helicon_curvature",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:27751"
+      },
+      {
+        "id": 627,
+        "source": "@helicon_curvature",
+        "relation": "DERIVED_FROM",
+        "target": "@helicon_one_form",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_TYPED_API:51440"
+      },
+      {
+        "id": 2211,
+        "source": "@helicon",
+        "relation": "REPRESENTED_BY",
+        "target": "@helicon_one_form",
+        "layer": "API43",
+        "graph_family": "representation",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@helicon_one_form REPRESENTS @helicon); rule=REPRESENTS→REPRESENTED_BY"
+      },
+      {
+        "id": 19203,
+        "source": "@helicon_curvature",
+        "relation": "DERIVED_FROM",
+        "target": "@helicon_one_form",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_TYPED_API:51440"
+      }
+    ]
+  },
+  "address": "@helicon_one_form",
+  "address_sha256": "c7b95d922d12500ef0db9f2e6cb5cad8c1102ca81d4f98ddbce830673ece96ee"
+}

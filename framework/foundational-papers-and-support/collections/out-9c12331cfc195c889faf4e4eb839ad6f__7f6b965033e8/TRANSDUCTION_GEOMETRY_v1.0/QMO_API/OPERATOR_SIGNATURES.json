@@ -1,0 +1,91 @@
+{
+  "schema": "MK43_OPERATOR_SIGNATURES_V1",
+  "signatures": [
+    {
+      "handle": "@transport",
+      "input": [
+        "state@F(U)"
+      ],
+      "output": [
+        "state@F(U)"
+      ],
+      "preserves": [
+        "dependency_context"
+      ],
+      "may_change": [
+        "presentation",
+        "history"
+      ],
+      "forbids": [
+        "undeclared_base_change"
+      ]
+    },
+    {
+      "handle": "@transduction",
+      "input": [
+        "state@F(U)"
+      ],
+      "output": [
+        "state@F(V)"
+      ],
+      "may_change": [
+        "dependency_context",
+        "identity",
+        "presentation",
+        "history"
+      ],
+      "requires": [
+        "typed_dependency_arrow"
+      ]
+    },
+    {
+      "handle": "@resolution",
+      "input": [
+        "fine_structure"
+      ],
+      "output": [
+        "readable_representation"
+      ],
+      "forbids": [
+        "invented_ancestry"
+      ]
+    },
+    {
+      "handle": "@occupancy",
+      "input": [
+        "admissible_possibilities"
+      ],
+      "output": [
+        "realized_state"
+      ],
+      "forbids": [
+        "capacity_semantics"
+      ]
+    },
+    {
+      "handle": "@transduction_connection",
+      "input": [
+        "dependency_arrow",
+        "source_state"
+      ],
+      "output": [
+        "horizontal_lift"
+      ],
+      "forbids": [
+        "curvature_identity"
+      ]
+    },
+    {
+      "handle": "@transduction_curvature",
+      "input": [
+        "same_endpoint_paths"
+      ],
+      "output": [
+        "typed_coherence_defect"
+      ],
+      "forbids": [
+        "transport_generation"
+      ]
+    }
+  ]
+}

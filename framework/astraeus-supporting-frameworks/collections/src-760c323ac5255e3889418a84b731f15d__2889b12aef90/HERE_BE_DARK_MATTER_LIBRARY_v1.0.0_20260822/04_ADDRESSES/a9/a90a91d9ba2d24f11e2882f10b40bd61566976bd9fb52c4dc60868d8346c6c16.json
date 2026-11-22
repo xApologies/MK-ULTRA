@@ -1,0 +1,77 @@
+{
+  "handle": "@ricci_curvature",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@ricci_curvature",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@ricci_curvature",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@scalar_curvature",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:27902"
+      },
+      {
+        "source": "@riemann_curvature",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@ricci_curvature",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:27897"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 1027,
+        "source": "@ricci_curvature",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@scalar_curvature",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:27902"
+      },
+      {
+        "id": 1028,
+        "source": "@riemann_curvature",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@ricci_curvature",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:27897"
+      }
+    ]
+  },
+  "address": "@ricci_curvature",
+  "address_sha256": "a90a91d9ba2d24f11e2882f10b40bd61566976bd9fb52c4dc60868d8346c6c16"
+}

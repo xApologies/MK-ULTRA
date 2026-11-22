@@ -1,0 +1,19 @@
+{
+  "schema": "ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1",
+  "landscape_id": "DL-DM-E085-PROFILE-READOUT-ROUTE",
+  "seed": "@dm_native_density_to_readable_source",
+  "status": "SOURCE_ROUTE_RECONCILED",
+  "nodes": [
+    "@dm_resolution_density_profile",
+    "@dm_density_profile_readout_factorization_gate",
+    "@time_shell",
+    "@energy_density",
+    "@stress_energy_tensor"
+  ],
+  "terminal": {
+    "state": "MULTI_GATE_PROFILE_TRANSLATION",
+    "iteration": 5,
+    "focus": "@dm_density_profile_readout_factorization_gate",
+    "reason": "The generic scalar route is blocked by the V33 no-go; the source-backed profile route carries several still-open translation/calibration gates and is parked to avoid a new swamp."
+  }
+}

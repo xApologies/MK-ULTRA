@@ -1,0 +1,23 @@
+{
+  "schema": "ASTRAEUS_DM_WORK_LAYER_QMO_V1",
+  "qmo_id": "QMO-AST-DM-WL-012",
+  "name": "Residual Transaction-Fiber / Source-Matched Gate-B Rebase",
+  "status": "SOURCE_ALIGNED_REDUCTION_NOT_PARENT_PROMOTED",
+  "work_layer_revision": "WL-013",
+  "date": "2026-08-17",
+  "supersedes_as_primary": "QMO-AST-DM-WL-009_UCM_RESIDUAL_TO_PROJECTION_RESIDUE_BRIDGE",
+  "parent_boundary_contact": "B_contact,H^R=cl_E(Xi_H^R) intersect partialXi, conditional on the open hidden-state embedding iota_H",
+  "residual_extractor": "Res(u)=ResidualFieldState(u)",
+  "transaction_fiber": "Fib_Res^R(r)={u in U_rot^R | Res(u)=r}",
+  "source_tensor": "T_D^R(u)=T_U(u)-T_vis^R(u)",
+  "gate_B_family": "GateB_rot^R(r|B_res,g)=union_{u in Fib_Res^R(r)} C_Q,T,rot^R(B_res,T_D^R(u);g)",
+  "theorem": "Nonempty GateB_rot^R yields a Q/action witness source-matched to a UCM transaction carrying r, with exchange/conservation and rotational equivariance/action invariance.",
+  "guardrails": [
+    "ResidualFieldState_UCM != ProjectionResidue",
+    "ResidualFieldState_UCM != T_D^R tensor",
+    "parent boundary contact is already canonically constructed conditional on iota_H",
+    "Gate A concrete instance remains frozen/open",
+    "no residue bundle may be invented as a physical witness",
+    "no parent promotion"
+  ]
+}

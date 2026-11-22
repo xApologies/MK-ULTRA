@@ -1,0 +1,40 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_PATH_QUERY_V1",
+  "source": "@dm_hidden_s3_network",
+  "target": "@native_interaction_factorization",
+  "path": [
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "USES",
+      "target": "@dm_runtime_transition_capacity",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "origin_api": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@dm_runtime_transition_capacity",
+      "relation": "DEPENDS_ON",
+      "target": "@admissibility",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "origin_api": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@admissibility",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@native_interaction_factorization",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DEPENDSON:54037",
+      "origin_api": "TIMESPACE_4.3"
+    }
+  ]
+}

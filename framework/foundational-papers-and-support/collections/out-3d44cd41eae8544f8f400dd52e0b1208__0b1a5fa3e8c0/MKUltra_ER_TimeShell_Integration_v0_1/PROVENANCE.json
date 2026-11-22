@@ -1,0 +1,20 @@
+{
+  "created": "2026-10-31",
+  "input_api": {
+    "archive": "Genesis_GR_Native_ER_Attachment.zip",
+    "member": "Genesis_GR_Native_ER_Attachment/sources/MK43_Ultra_API_CURRENT_CANONICAL.md",
+    "sha256": "0071c1d9d6a89c283f57a9c225857fa8f49a63f8caff86d83cca4a66896b0259"
+  },
+  "prior_checkpoint": {
+    "path": "prior/Genesis_GRC1_Faithful_Embedding_Audit_v0_1.zip",
+    "sha256": "9e81d46ad7678954d98b41d9292b5f3e02e7ea7856d5687d6d12467f68fb4916"
+  },
+  "environment": {
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "numpy": "2.3.5",
+    "sympy": "1.14.0",
+    "scipy": "1.17.0"
+  },
+  "retrieval_scope": "Targeted canonical Markdown passages and two literal nested source notes. Not a fresh exhaustive audit of every nested archive or remote revision.",
+  "changes": "New candidate model/derivations only. No user source or remote repository modified."
+}

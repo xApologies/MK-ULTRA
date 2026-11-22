@@ -1,0 +1,20 @@
+{
+  "schema": "ASTRAEUS_GLOBAL_INHERITANCE_RECURSIVE_CONTINUITY_LOOPBACK_V1",
+  "qmo_id": "QMO-AST-DM-WL-076",
+  "name": "Global Inheritance / Recursive Continuity Persistence Loopback",
+  "atlas_version": "WL-v192",
+  "status": "SOURCE_BACKED_LOOPBACK_STOPPED",
+  "registered_source_backed_chains": [
+    "@conservation_of_information -> @global_inheritance -> @persistence",
+    "@global_inheritance -> @recursive_continuity -> @persistence"
+  ],
+  "finding": "The next broad structural handles returned by global ranking do not expose a narrower dark-specific object: both global inheritance and recursive continuity flow directly back into the already-crawled persistence corridor. Stop under the next-handle rule.",
+  "next_queued_handle": "@black_hole_information_closure",
+  "selection_note": "After excluding language-projection noise and already-exhausted persistence/mote/correspondence branches, @black_hole_information_closure is the next high-breadth structural candidate in the source-backed ranking and will be queried as a fresh branch, not assumed relevant.",
+  "guardrails": [
+    "global inheritance != hidden state embedding",
+    "recursive continuity != S3 History by identity",
+    "persistence loopback != OpenSlot closure",
+    "queued handle != promoted dependency"
+  ]
+}

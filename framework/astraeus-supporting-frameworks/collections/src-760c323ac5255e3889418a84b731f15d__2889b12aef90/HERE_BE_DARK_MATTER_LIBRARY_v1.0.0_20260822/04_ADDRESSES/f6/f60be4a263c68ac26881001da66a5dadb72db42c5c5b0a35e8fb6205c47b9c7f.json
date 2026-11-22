@@ -1,0 +1,130 @@
+{
+  "handle": "@quantum_information_geometry_in_mk_43_ultra",
+  "object_type": "mathematical_object",
+  "status": "indexed-unlinked",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Quantum Information Geometry in MK--43 Ultra",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 2,
+    "api43_direct_in_count": 2,
+    "xapi_raw_out_count": 3,
+    "xapi_raw_in_count": 2,
+    "live_out_count": 1,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 159,
+    "closure_in_reachability_count": 17,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@quantum_information_geometry_in_mk_43_ultra",
+        "relation": "CONNECTS_TO",
+        "target": "@black_hole_information_problem",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-45",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; MK43 quantum information geometry provides a downstream comparison branch."
+      },
+      {
+        "source": "@quantum_information_geometry_in_mk_43_ultra",
+        "relation": "CONNECTS_TO",
+        "target": "@conservation_of_information",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-47",
+        "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=1; path=@quantum_information_geometry_in_mk_43_ultra -> @black_hole_information_problem -> @conservation_of_information; relations=CONNECTS_TO + CONNECTS_TO => CONNECTS_TO"
+      },
+      {
+        "source": "@black_hole_information_problem",
+        "relation": "CONNECTS_TO",
+        "target": "@quantum_information_geometry_in_mk_43_ultra",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@quantum_information_geometry_in_mk_43_ultra CONNECTS_TO @black_hole_information_problem); rule=CONNECTS_TO→CONNECTS_TO"
+      },
+      {
+        "source": "@conservation_of_information",
+        "relation": "CONNECTS_TO",
+        "target": "@quantum_information_geometry_in_mk_43_ultra",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-47",
+        "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=1; path=@conservation_of_information -> @black_hole_information_problem -> @quantum_information_geometry_in_mk_43_ultra; relations=CONNECTS_TO + CONNECTS_TO => CONNECTS_TO"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 2072,
+        "source": "@quantum_information_geometry_in_mk_43_ultra",
+        "relation": "CONNECTS_TO",
+        "target": "@black_hole_information_problem",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; MK43 quantum information geometry provides a downstream comparison branch."
+      },
+      {
+        "id": 3157,
+        "source": "@quantum_information_geometry_in_mk_43_ultra",
+        "relation": "CONNECTS_TO",
+        "target": "@conservation_of_information",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=1; path=@quantum_information_geometry_in_mk_43_ultra -> @black_hole_information_problem -> @conservation_of_information; relations=CONNECTS_TO + CONNECTS_TO => CONNECTS_TO"
+      },
+      {
+        "id": 19690,
+        "source": "@quantum_information_geometry_in_mk_43_ultra",
+        "relation": "CONNECTS_TO",
+        "target": "@black_hole_information_problem",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; MK43 quantum information geometry provides a downstream comparison branch."
+      },
+      {
+        "id": 3110,
+        "source": "@black_hole_information_problem",
+        "relation": "CONNECTS_TO",
+        "target": "@quantum_information_geometry_in_mk_43_ultra",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@quantum_information_geometry_in_mk_43_ultra CONNECTS_TO @black_hole_information_problem); rule=CONNECTS_TO→CONNECTS_TO"
+      },
+      {
+        "id": 3164,
+        "source": "@conservation_of_information",
+        "relation": "CONNECTS_TO",
+        "target": "@quantum_information_geometry_in_mk_43_ultra",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=1; path=@conservation_of_information -> @black_hole_information_problem -> @quantum_information_geometry_in_mk_43_ultra; relations=CONNECTS_TO + CONNECTS_TO => CONNECTS_TO"
+      }
+    ]
+  },
+  "address": "@quantum_information_geometry_in_mk_43_ultra",
+  "address_sha256": "f60be4a263c68ac26881001da66a5dadb72db42c5c5b0a35e8fb6205c47b9c7f"
+}

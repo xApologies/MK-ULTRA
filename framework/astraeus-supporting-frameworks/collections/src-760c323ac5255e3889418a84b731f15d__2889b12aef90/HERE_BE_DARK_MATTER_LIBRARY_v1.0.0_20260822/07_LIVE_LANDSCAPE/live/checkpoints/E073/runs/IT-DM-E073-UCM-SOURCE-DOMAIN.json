@@ -1,0 +1,11 @@
+{
+  "schema": "ASTRAEUS_DM_ITERATION_RUN_V1",
+  "run_id": "IT-DM-E073-UCM-SOURCE-DOMAIN",
+  "checkpoint": "E073",
+  "seed": "@dm_joint_hidden_network_witness",
+  "ceiling": 64,
+  "iterations_used": 2,
+  "terminal_state": "SOURCE_DOMAIN_DISTINCTION_CLOSED",
+  "open_next": "@dm_ucm_event_to_source_nonannihilation",
+  "note": "Separates source-domain distinction from readable-source separation instead of conflating them."
+}

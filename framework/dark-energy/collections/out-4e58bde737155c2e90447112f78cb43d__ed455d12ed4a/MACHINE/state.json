@@ -1,0 +1,39 @@
+{
+  "package": "GENESIS_CHIRALITY_FABRIC_FORMALIZATION_CHECKPOINT",
+  "version": "1.0",
+  "date": "2026-08-30",
+  "primary_frontier": "@open/native_multiscale_update_law",
+  "block": {
+    "shape": [
+      4,
+      4,
+      4
+    ],
+    "addresses": 64,
+    "working_realized": 32,
+    "working_void": 32
+  },
+  "canonical_hierarchy": [
+    "tile",
+    "seed",
+    "chirality byte",
+    "chirality block",
+    "chirality fabric"
+  ],
+  "rainbow_basins": [
+    "Red",
+    "Orange",
+    "Yellow",
+    "Green",
+    "Blue",
+    "Violet"
+  ],
+  "firewalls": [
+    "Void=DNE",
+    "chirality byte only",
+    "Resolution!=selection",
+    "readout equality!=identity",
+    "six basins do not imply SU(6)",
+    "QCD downstream only"
+  ]
+}

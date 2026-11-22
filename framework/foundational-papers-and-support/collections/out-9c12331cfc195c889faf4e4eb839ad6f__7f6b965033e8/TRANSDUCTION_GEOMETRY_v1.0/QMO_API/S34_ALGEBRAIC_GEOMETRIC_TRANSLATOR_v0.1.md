@@ -1,0 +1,413 @@
+# S34 — ALGEBRAIC-GEOMETRIC TRANSLATOR v0.1
+
+Status: STRONG PASS / SPEED-TAPE FORMALIZATION
+
+## 1. Goal
+
+Construct a non-arbitrary bridge:
+
+```text
+Formal Bandwidth Algebra A_B
+        ->
+algebraic-geometric carrier
+        ->
+Resolution-dependent geometry.
+```
+
+The translator must preserve the distinction:
+
+```text
+Bandwidth = formal transformation capacity
+Resolution = distinguishability/readout
+```
+
+while letting both arise from one mathematical object.
+
+## 2. Why ordinary Spec(A) is not assumed
+
+`A_B` is currently a typed partial operator algebra/category-like algebra, not necessarily a commutative ring.
+
+Therefore ordinary affine algebraic geometry:
+
+```text
+Spec(A_B)
+```
+
+is not automatically defined.
+
+Do not force commutativity merely to obtain a familiar spectrum.
+
+Instead introduce a BRACED generalized spectrum construction.
+
+## 3. D60 — Bandwidth Spectrum
+
+Define:
+
+```text
+Spec_T(A_B)
+```
+
+as the generalized spectrum of admissible transformation observables/prime-like distinguishability classes associated with `A_B`.
+
+Status:
+
+```text
+BRACED.
+```
+
+In commutative specializations it may reduce to an ordinary spectrum.
+
+In noncommutative/typed settings it may require primitive ideals, representations, localization sites, or categorical spectra.
+
+The exact species is deferred.
+
+## 4. D61 — Resolution Filter
+
+For each Resolution `R`, define a distinguishability filter/congruence:
+
+```text
+K_R
+```
+
+on `A_B`.
+
+Two formal transformations are observationally equivalent at `R` when:
+
+```text
+a ~_R b
+iff
+a -_formal b lies in K_R
+```
+
+where the subtraction notation is schematic when the algebra lacks additive structure.
+
+More generally:
+
+```text
+K_R
+=
+kernel/congruence of rho_R.
+```
+
+Status:
+
+```text
+PROMOTED AT CONGRUENCE LEVEL.
+```
+
+## 5. D62 — Resolution Algebra
+
+Define:
+
+```text
+A_B^R
+=
+A_B / K_R
+```
+
+where `/` means quotient by the Resolution congruence appropriate to the algebraic species.
+
+This recovers the S33 observational algebra.
+
+Status:
+
+```text
+PROMOTED DEFINITION.
+```
+
+## 6. D63 — Resolution Geometry
+
+Define:
+
+```text
+Geo_R(B)
+=
+Spec_T(A_B / K_R).
+```
+
+This is the geometry readable at Resolution `R`.
+
+Status:
+
+```text
+BRACED DEFINITION
+```
+
+because `Spec_T` remains generalized.
+
+## 7. Resolution ordering
+
+For `R_i` coarser than `R_j`, require:
+
+```text
+K_Rj subseteq K_Ri.
+```
+
+Finer Resolution identifies fewer formal distinctions.
+
+Therefore the quotient maps:
+
+```text
+A_B/K_Rj -> A_B/K_Ri
+```
+
+recover the S32/S33 coarsening maps.
+
+This is the first non-arbitrary algebraic realization of Resolution transition.
+
+## 8. D64 — Resolution Filtration
+
+Define the ordered family:
+
+```text
+K = {K_R}
+```
+
+as the Resolution Filtration of `A_B`.
+
+For increasing Resolution:
+
+```text
+K_R decreases.
+```
+
+For decreasing Resolution:
+
+```text
+K_R increases.
+```
+
+Status:
+
+```text
+PROMOTED DEFINITION.
+```
+
+## 9. Fine-resolution limit
+
+Candidate idealized limit:
+
+```text
+intersection_R K_R = K_infty.
+```
+
+If:
+
+```text
+K_infty = trivial congruence,
+```
+
+then arbitrarily fine Resolution separates all distinctions represented by `A_B`.
+
+If not, some formal distinctions are intrinsically observationally invisible within the chosen Resolution family.
+
+This is a useful new invariant.
+
+## 10. D65 — Resolution Blind Core
+
+Define:
+
+```text
+Blind(B)
+=
+intersection_R K_R.
+```
+
+The Resolution Blind Core contains formal distinctions annihilated at every available Resolution.
+
+Status:
+
+```text
+PROMOTED DEFINITION.
+```
+
+This is potentially important for hidden Identity/Holonomy structure.
+
+## 11. L31 — Resolution coarsening is quotient enlargement
+
+If `R_i` is coarser than `R_j`, then:
+
+```text
+K_Rj subseteq K_Ri.
+```
+
+Therefore the coarse observational algebra is a further quotient of the fine observational algebra.
+
+Status: PROVED from D61-D64.
+
+## 12. L32 — Fine Resolution cannot lose a distinction visible at coarse Resolution
+
+Under the nested-congruence model, any distinction surviving the coarse quotient also survives the finer quotient.
+
+Status: PROVED.
+
+This formalizes monotone Resolution.
+
+Non-monotone sensor/readout systems remain outside this sprint and may be represented later by a general Resolution graph rather than a filtration.
+
+## 13. L33 — Blind Core is invisible at every modeled Resolution
+
+Any distinction lying entirely in `Blind(B)` maps to the trivial observational distinction for every `R`.
+
+Status: PROVED from D65.
+
+## 14. T8 — Algebraic Generation of Cross-Resolution Views
+
+Let `A_B` be a formal Bandwidth Algebra equipped with Resolution Filtration `{K_R}`.
+
+Then the compatible family:
+
+```text
+A_B^R = A_B/K_R
+```
+
+and corresponding:
+
+```text
+Geo_R(B)=Spec_T(A_B/K_R)
+```
+
+forms a coherent cross-resolution system generated from one formal Bandwidth Algebra.
+
+Thus Resolution views need not be assigned independently; they can be generated by nested algebraic congruences.
+
+QED.
+
+Status:
+
+```text
+PROMOTED THEOREM T8.
+```
+
+## 15. T9 — Persistent Hidden Structure Theorem
+
+If:
+
+```text
+Blind(B) != trivial,
+```
+
+then there exist formal Bandwidth distinctions that remain observationally invisible at every Resolution in the modeled family.
+
+Therefore increasing Resolution within that family cannot recover all formal structure.
+
+QED.
+
+Status:
+
+```text
+PROMOTED THEOREM T9.
+```
+
+## 16. Chirality / holonomy integration
+
+Let a chirality-holonomy distinction be represented algebraically by an element/class:
+
+```text
+h_chi in A_B
+```
+
+or an associated action representation.
+
+If:
+
+```text
+h_chi in K_R,
+```
+
+then its distinction is invisible at Resolution `R`.
+
+If:
+
+```text
+h_chi in Blind(B),
+```
+
+it is invisible throughout the modeled Resolution family.
+
+This gives an algebraic mechanism for T6-style hidden identity effects.
+
+## 17. Corridor integration
+
+A formal corridor word/operator:
+
+```text
+c in A_B
+```
+
+has Resolution image:
+
+```text
+[c]_R in A_B/K_R.
+```
+
+Distinct corridors `c1,c2` are observationally merged exactly when:
+
+```text
+c1 ~_R c2.
+```
+
+Thus the corridor source's Resolution threshold/readability idea now has an algebraic realization without importing its MK43-specific physical ontology.
+
+## 18. Geometry semantics
+
+The translator is:
+
+```text
+AGT_B(R)
+=
+Spec_T(A_B/K_R).
+```
+
+The load-bearing content is not the exact spectrum functor.
+
+It is:
+
+```text
+same formal algebra
++
+nested Resolution congruences
+->
+compatible geometric/readable realizations.
+```
+
+The spectrum implementation can be upgraded later.
+
+## 19. Handoff to S35
+
+S35 should treat:
+
+```text
+{Geo_R(B)}
+```
+
+plus the quotient/coarsening maps as the Resolution Landscape.
+
+Required additions:
+
+```text
+Resolution index/order
+geometry transition maps
+cross-resolution persistence
+formal/observational identity map
+holonomy projection
+blind-core annotation.
+```
+
+## 20. Result
+
+The requested bridge now exists in speed-tape form:
+
+```text
+Bandwidth B
+    ->
+Bandwidth Algebra A_B
+    ->
+Resolution Filtration {K_R}
+    ->
+Resolution Algebra A_B/K_R
+    ->
+Resolution Geometry Spec_T(A_B/K_R).
+```
+
+This is sufficient to build the Resolution Landscape.

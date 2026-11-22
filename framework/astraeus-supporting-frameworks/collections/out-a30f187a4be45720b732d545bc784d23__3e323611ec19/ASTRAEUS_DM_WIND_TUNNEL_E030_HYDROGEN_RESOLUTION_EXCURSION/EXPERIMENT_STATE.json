@@ -1,0 +1,25 @@
+{
+  "experiment": "E030",
+  "candidate": "CAND-DM-HYDROGEN-RESOLUTION-EXCURSION-033",
+  "title": "Closed Hydrogen Resolution Excursion and Resolution-Square Holonomy Scaffold",
+  "status": "READOUT LOOP CLOSED + HISTORY NONTRIVIAL; HOLONOMY VALUE OPEN",
+  "physical_dark_matter_witness": false,
+  "parent_promotions": 0,
+  "results": {
+    "monotone_refinement_paths": 24,
+    "distinct_full_excursion_history_words": 24,
+    "all_paths_same_full_context_endpoint": true,
+    "all_excursions_return_to_intrinsic_H_anchor": true,
+    "elementary_resolution_squares": 6,
+    "pair_readout_equal_at_intrinsic_anchor": true,
+    "pair_distinguishable_when_any_contextual_history_feature_visible": true,
+    "pair_readout_equal_after_full_coarsening": true,
+    "underlying_pre_G_separation_preserved_as_existing_state_fact": true,
+    "resolution_indexed_pre_G_response_law_available": false,
+    "actual_holonomy_computed": false,
+    "continuity_L2_difference_existing": 0.0036081662333576,
+    "shell_L2_difference_existing": 0.0021395938100588
+  },
+  "ruling": "A full coarse->fine->coarse Hydrogen Resolution excursion can be instantiated as a closed readout loop without changing the Hydrogen anchor. Twenty-four distinct refinement histories reach the same full contextual endpoint, and all close back to the same coarse [Q_H] readout while UTO History remains nontrivial. Six elementary two-feature Resolution squares provide the minimal holonomy test scaffold. Actual holonomy and Resolution-indexed UCM response remain open because no source-valid connection/response instance is yet assigned.",
+  "next_handle": "SEARCH_SOURCE_FOR_RESOLUTION_OR_BANDWIDTH_CONNECTION_TRANSPORT_OPERATOR_ON_THE_SIX_ELEMENTARY_SQUARES"
+}

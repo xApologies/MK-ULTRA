@@ -1,0 +1,108 @@
+{
+  "sympy_version": "1.14.0",
+  "passed": 20,
+  "total": 20,
+  "checks": [
+    {
+      "name": "FLRW Ricci computed from Christoffel symbols",
+      "passed": true,
+      "scope": "Full nonlinear spatially flat FLRW ansatz; arbitrary smooth nonzero a(t)."
+    },
+    {
+      "name": "FLRW scalar curvature",
+      "passed": true,
+      "scope": "No perturbative expansion."
+    },
+    {
+      "name": "FLRW Einstein tensor",
+      "passed": true,
+      "scope": "Computed from Ricci and scalar contraction."
+    },
+    {
+      "name": "Metric round trip",
+      "passed": true,
+      "scope": "Smooth invertible moving-frame realization; not native Q_R reconstruction."
+    },
+    {
+      "name": "Connection includes derivative of frame",
+      "passed": true,
+      "scope": "Connection transforms inhomogeneously; omitting A inverse dA is not correct."
+    },
+    {
+      "name": "Connection metric compatibility",
+      "passed": true,
+      "scope": "Covariant derivative along coordinate direction, in native frame indices."
+    },
+    {
+      "name": "All curvature matrix transformations",
+      "passed": true,
+      "scope": "All 16 ordered coordinate-direction pairs in moving frame."
+    },
+    {
+      "name": "Ricci transformation after contraction",
+      "passed": true,
+      "scope": "Full native-frame directional conversion before contraction."
+    },
+    {
+      "name": "Scalar is invariant",
+      "passed": true,
+      "scope": "Inverse metric and Ricci transform consistently."
+    },
+    {
+      "name": "Einstein tensor naturality",
+      "passed": true,
+      "scope": "Full nonlinear moving-frame calculation."
+    },
+    {
+      "name": "Full gravitational field residual round trip",
+      "passed": true,
+      "scope": "Includes independent symbolic source, Lambda and coupling; not solved by defining T from curvature."
+    },
+    {
+      "name": "Source tensor round trip",
+      "passed": true,
+      "scope": "Energy and stresses are preserved by the tensor readout."
+    },
+    {
+      "name": "Contracted Bianchi in nonlinear ansatz",
+      "passed": true,
+      "scope": "Off-shell a(t) is arbitrary."
+    },
+    {
+      "name": "Perfect-fluid covariant conservation",
+      "passed": true,
+      "scope": "Energy condition is rho prime + 3 H (rho+p)=0, not ordinary constant cell energy."
+    },
+    {
+      "name": "Pressure-work balance",
+      "passed": true,
+      "scope": "d(a^3 rho)/dt + p d(a^3)/dt = a^3 div(T)^0."
+    },
+    {
+      "name": "Same metric and first derivatives need not have same curvature",
+      "passed": true,
+      "scope": "Minkowski a=1 vs a=1+k t^2 at t=0; local positive a. This is a counterexample to arbitrary coarse readout, not to supplied Q_R."
+    },
+    {
+      "name": "Algebraic quotient need not admit derivative descent",
+      "passed": true,
+      "scope": "Ideal of functions vanishing at 0 is not derivative-stable."
+    },
+    {
+      "name": "de Sitter vacuum with Lambda",
+      "passed": true,
+      "scope": "Constructed exact solution with Lambda=3 H^2, c=1."
+    },
+    {
+      "name": "Null two-plane can have zero metric area with independent tangents",
+      "passed": true,
+      "scope": "Reason to use signed parameter bivector in the small-loop limit."
+    },
+    {
+      "name": "Generic symmetric tensor inverse",
+      "passed": true,
+      "scope": "All ten independent components in a non-diagonal invertible frame."
+    }
+  ],
+  "limitations": "Constructed classical tensor examples and algebraic counterexamples only. No native metric-generator, native self-coupling, Time-Shell implementation, global native lift, full matter model, or empirical predictions were tested."
+}

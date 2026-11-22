@@ -1,0 +1,225 @@
+{
+  "schema": "ASTRAEUS_API_QMO_COMPOSED_ROTATIONAL_LANDSCAPE_V1",
+  "qmo_id": "QMO-AST-DM-WL-047",
+  "name": "Black-Hole Angular-Momentum / Ergoregion / Time-Shell Symmetry Landscape",
+  "atlas_version": "WL-v162",
+  "status": "API_COMPOSED_COMPARISON_LANDSCAPE_NOT_PHYSICAL_IDENTIFICATION_NOT_PARENT_PROMOTED",
+  "angular_parameter_vs_black_hole_angular_momentum": {
+    "a": "@angular_momentum_parameter",
+    "b": "@black_hole_angular_momentum",
+    "radius": 2,
+    "a_node_count": 51,
+    "b_node_count": 42,
+    "interface": [
+      {
+        "handle": "@black_hole",
+        "distance_a": 2,
+        "distance_b": 1
+      },
+      {
+        "handle": "@einstein_field_equation",
+        "distance_a": 1,
+        "distance_b": 2
+      },
+      {
+        "handle": "@ergoregion",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@inner_horizon",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@ring_singularity",
+        "distance_a": 2,
+        "distance_b": 2
+      }
+    ],
+    "path_a_to_b": [
+      {
+        "source": "@angular_momentum_parameter",
+        "relation": "FAMILY_DEPENDS_ON",
+        "target": "@einstein_field_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:379"
+      },
+      {
+        "source": "@einstein_field_equation",
+        "relation": "SUPPORTS",
+        "target": "@black_hole_angular_momentum",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-50",
+        "provenance": "DERIVED:RP50_PENROSE_TYPED_CRAWL; round=2; path=@einstein_field_equation->@general_relativity->@black_hole_angular_momentum; relations=SUPPORTS+SUPPORTS=>SUPPORTS"
+      }
+    ],
+    "direct_neighborhood_policy": "high-confidence non-derived/direct-source Time-Space API edges only",
+    "path_policy": "high-confidence registered + admissibly derived Time-Space API edges; directions preserved"
+  },
+  "ergoregion_vs_time_shell": {
+    "a": "@ergoregion",
+    "b": "@time_shell",
+    "radius": 2,
+    "a_node_count": 45,
+    "b_node_count": 76,
+    "interface": [
+      {
+        "handle": "@black_hole",
+        "distance_a": 1,
+        "distance_b": 2
+      },
+      {
+        "handle": "@gravitational_self_coupling",
+        "distance_a": 2,
+        "distance_b": 1
+      },
+      {
+        "handle": "@graviton",
+        "distance_a": 2,
+        "distance_b": 1
+      },
+      {
+        "handle": "@projected_gr_inheritance",
+        "distance_a": 2,
+        "distance_b": 1
+      },
+      {
+        "handle": "@metric_perturbation",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@time_shell_projection",
+        "distance_a": 2,
+        "distance_b": 2
+      }
+    ],
+    "path_a_to_b": [
+      {
+        "source": "@ergoregion",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@time_shell",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@ergoregion-[COMPOSED_DEPENDENCY]->@general_relativity-[COMPOSED_DEPENDENCY]->@time_shell"
+      }
+    ],
+    "direct_neighborhood_policy": "high-confidence non-derived/direct-source Time-Space API edges only",
+    "path_policy": "high-confidence registered + admissibly derived Time-Space API edges; directions preserved"
+  },
+  "killing_vector_vs_ergoregion": {
+    "a": "@killing_vector",
+    "b": "@ergoregion",
+    "radius": 2,
+    "a_node_count": 43,
+    "b_node_count": 45,
+    "interface": [
+      {
+        "handle": "@black_hole_angular_momentum",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@spacetime",
+        "distance_a": 2,
+        "distance_b": 2
+      }
+    ],
+    "path_a_to_b": [
+      {
+        "source": "@killing_vector",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@ergoregion",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@killing_vector-[COMPOSED_DEPENDENCY]->@black_hole-[COMPOSED_DEPENDENCY]->@ergoregion"
+      }
+    ],
+    "direct_neighborhood_policy": "high-confidence non-derived/direct-source Time-Space API edges only",
+    "path_policy": "high-confidence registered + admissibly derived Time-Space API edges; directions preserved"
+  },
+  "killing_vector_vs_time_shell_radius2": {
+    "a": "@killing_vector",
+    "b": "@time_shell",
+    "radius": 2,
+    "a_node_count": 43,
+    "b_node_count": 76,
+    "interface": [],
+    "path_a_to_b": [
+      {
+        "source": "@killing_vector",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@time_shell",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@killing_vector-[COMPOSED_DEPENDENCY]->@metric_perturbation-[COMPOSED_DEPENDENCY]->@time_shell"
+      }
+    ],
+    "direct_neighborhood_policy": "high-confidence non-derived/direct-source Time-Space API edges only",
+    "path_policy": "high-confidence registered + admissibly derived Time-Space API edges; directions preserved"
+  },
+  "direct_accepted_chain": [
+    {
+      "source": "@black_hole_angular_momentum",
+      "relation": "DEPENDS_ON",
+      "target": "@komar_angular_momentum",
+      "object": "Angular momentum of black hole -> angular momentum integral from axial Killing field",
+      "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:635"
+    },
+    {
+      "source": "@komar_angular_momentum",
+      "relation": "DEPENDS_ON",
+      "target": "@killing_vector",
+      "object": "Komar angular momentum -> generator of continuous isometry",
+      "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:600"
+    },
+    {
+      "source": "@axisymmetric_spacetime",
+      "relation": "DEPENDS_ON",
+      "target": "@killing_vector",
+      "object": "Spacetime with axial Killing field",
+      "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:599"
+    },
+    {
+      "source": "@stationary_spacetime",
+      "relation": "DEPENDS_ON",
+      "target": "@killing_vector",
+      "object": "Spacetime with asymptotically timelike Killing field",
+      "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:597"
+    }
+  ],
+  "time_shell_interface": [
+    "@black_hole",
+    "@gravitational_self_coupling",
+    "@graviton",
+    "@projected_gr_inheritance",
+    "@metric_perturbation",
+    "@time_shell_projection"
+  ],
+  "interpretation": "Exact QMO composition exposes an existing rotational black-hole / Time-Shell neighborhood, while the angular-momentum branch itself bottoms into an algebraic symmetry generator: @killing_vector. The API therefore points to symmetry structure rather than requiring a new scalar/frame-dragging profile.",
+  "guardrails": [
+    "@black_hole_angular_momentum != abstract J_* until typed",
+    "@komar_angular_momentum is accepted GR readout, not native MK43 primitive",
+    "@killing_vector != S3 History",
+    "ergoregion/Time-Shell overlap != frame-dragging theorem",
+    "radius-2 killing-vector/Time-Shell direct interface is empty; do not fill it by assumption",
+    "parent promotions = 0"
+  ],
+  "next_handle": "@killing_vector",
+  "parallel_next_handles": [
+    "@axisymmetric_spacetime",
+    "@stationary_spacetime"
+  ]
+}

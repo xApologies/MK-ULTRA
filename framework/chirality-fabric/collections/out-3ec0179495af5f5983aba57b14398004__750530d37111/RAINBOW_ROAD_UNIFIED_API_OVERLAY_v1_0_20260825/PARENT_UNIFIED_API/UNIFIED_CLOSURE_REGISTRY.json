@@ -1,0 +1,1057 @@
+{
+  "schema": "MK43_UNIFIED_CLOSURE_REGISTRY_V1",
+  "count": 37,
+  "closures": [
+    {
+      "id": "CC-DM-E063-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_joint_hidden_network_witness",
+      "decision": "DERIVED_CLOSED_INTERNAL",
+      "checkpoint": "E063",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E063-001",
+        "checkpoint": "E063",
+        "object": "@dm_joint_hidden_network_witness",
+        "decision": "DERIVED_CLOSED_INTERNAL",
+        "scope": "conditional finite mathematical witness only",
+        "premises": [
+          {
+            "source": "DM2.2 ATLAS 167 V24-T4",
+            "statement": "positive hidden path joining two readable ports gives nonzero reduced boundary response"
+          },
+          {
+            "source": "DM2.2 ATLAS 184 V29-T3",
+            "statement": "nonnegative hidden relationship-capacity terms with at least one strict positive term and V>0 give Delta rho_H>0"
+          },
+          {
+            "source": "DM2.2 ATLAS 207",
+            "statement": "native hidden witness keeps density-profile and response-operator coordinates distinct"
+          }
+        ],
+        "derivation": "Conjunction of two source-closed conditional results on one support satisfying both premise sets.",
+        "checks": {
+          "all_premises_admitted_in_source_domain": true,
+          "new_primitive_added": false,
+          "new_axiom_added": false,
+          "type_conflict_detected": false,
+          "provenance_complete": true,
+          "physical_promotion": false,
+          "baseline_dm22_modified": false
+        },
+        "limitations": [
+          "Does not certify existence of a physical hidden network",
+          "Does not certify UCM/readable-source sensitivity",
+          "Does not solve @dm_native_density_to_readable_source",
+          "Does not solve @dm_hidden_state_embedding"
+        ]
+      }
+    },
+    {
+      "id": "CC-DM-E064-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_conditional_dark_readout_witness",
+      "decision": "CONDITIONAL_CLOSED_WITH_WORKING_ASSUMPTIONS",
+      "checkpoint": "E064",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E064-001",
+        "checkpoint": "E064",
+        "object": "@dm_conditional_dark_readout_witness",
+        "decision": "CONDITIONAL_CLOSED_WITH_WORKING_ASSUMPTIONS",
+        "scope": "mathematical implication only; proof-debt-carrying live object",
+        "working_assumptions": [
+          "WA-DM-E064-001",
+          "WA-DM-E064-002",
+          "WA-DM-E064-003"
+        ],
+        "source_premises": [
+          {
+            "source": "E063 CC-DM-E063-001",
+            "statement": "selected positive hidden support yields nonzero native load/response conditionally"
+          },
+          {
+            "source": "DM2.2 ATLAS 201",
+            "statement": "nonzero readable density component implies stress-energy tensors differ"
+          },
+          {
+            "source": "DM2.2 ATLAS 180 V28-T3",
+            "statement": "in one fixed readable GR problem, source tensor separation implies metric/gravity separation"
+          },
+          {
+            "source": "DM2.2 ATLAS 122",
+            "statement": "same matter readout with different gravity readout is a dark readout factorization defect"
+          }
+        ],
+        "checks": {
+          "derivation_valid_given_assumptions": true,
+          "assumptions_explicit": true,
+          "proof_debt_registered": true,
+          "baseline_dm22_modified": false,
+          "parent_api_promoted": false,
+          "physical_promotion": false
+        },
+        "limitations": [
+          "Does not discharge @dm_hidden_state_embedding",
+          "Does not prove global UCM component sensitivity",
+          "Does not calibrate T_rho,R,u",
+          "Does not establish an empirical dark-matter detection or ontology"
+        ],
+        "promotion_rule": "May be used as a live conditional theorem. It cannot become source-backed/internal unconditional closure until the relevant working assumptions are discharged or replaced by stronger source results."
+      }
+    },
+    {
+      "id": "CC-DM-E065-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_conditional_boundary_residue_seed",
+      "decision": "CONDITIONAL_CLOSED_WITH_WORKING_ASSUMPTION",
+      "checkpoint": "E065",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E065-001",
+        "checkpoint": "E065",
+        "object": "@dm_conditional_boundary_residue_seed",
+        "decision": "CONDITIONAL_CLOSED_WITH_WORKING_ASSUMPTION",
+        "scope": "boundary/residue entry only",
+        "working_assumptions": [
+          "WA-DM-E065-001"
+        ],
+        "source_premises": [
+          {
+            "source": "DM2.2 @dm_hidden_boundary_contact",
+            "statement": "B_H^R=cl_E(Xi_H^R)∩∂Xi is the canonical contact set."
+          },
+          {
+            "source": "Time-Space formal boundary projection",
+            "statement": "Π:∂Xi→M and F_p=Inv(Π^{-1}(p))."
+          }
+        ],
+        "checks": {
+          "derivation_valid_given_assumption": true,
+          "baseline_dm22_modified": false,
+          "canonical_edge_promoted": false,
+          "physical_promotion": false
+        },
+        "limitations": [
+          "Does not prove B_H^R nonempty.",
+          "Does not prove full/visible residue separation."
+        ]
+      }
+    },
+    {
+      "id": "CC-DM-E066-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_conditional_q_handoff_distinction",
+      "decision": "CONDITIONAL_CLOSED_WITH_WORKING_ASSUMPTIONS",
+      "checkpoint": "E066",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E066-001",
+        "checkpoint": "E066",
+        "object": "@dm_conditional_q_handoff_distinction",
+        "decision": "CONDITIONAL_CLOSED_WITH_WORKING_ASSUMPTIONS",
+        "scope": "projection-residue and Q-handoff survival only",
+        "working_assumptions": [
+          "WA-DM-E065-001",
+          "WA-DM-E066-001"
+        ],
+        "source_premises": [
+          {
+            "source": "DM2.2 @dm_projection_residue_survival",
+            "statement": "B_full^R not ~=_F B_vis^R is sufficient for field-bundle survival."
+          },
+          {
+            "source": "DM2.2 @dm_q_survival",
+            "statement": "bundle-level survival implies Q-structured survival under residue-preserving Q morphisms."
+          }
+        ],
+        "checks": {
+          "derivation_valid_given_assumptions": true,
+          "optional_chromatic_branch_used": false,
+          "density_calibration_used": false,
+          "baseline_dm22_modified": false,
+          "physical_promotion": false
+        },
+        "limitations": [
+          "Does not establish residue discriminator survival without WA-DM-E066-001.",
+          "Does not imply stress-energy separation."
+        ]
+      }
+    },
+    {
+      "id": "CC-DM-E067-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_stress_active_action_fiber",
+      "decision": "DERIVED_CLOSED_INTERNAL",
+      "checkpoint": "E067",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E067-001",
+        "checkpoint": "E067",
+        "object": "@dm_stress_active_action_fiber",
+        "decision": "DERIVED_CLOSED_INTERNAL",
+        "scope": "mathematical factorization of the admitted action family",
+        "premises": [
+          {
+            "source": "DM2.2 @dm_covariant_hidden_action_family",
+            "statement": "S_H^cov(Q_H,g) is a typed covariant hidden action family."
+          },
+          {
+            "source": "DM2.2 @dm_stress_energy_realization_family",
+            "statement": "T_H is generated by metric variation of admitted hidden actions."
+          }
+        ],
+        "checks": {
+          "definition_only_no_new_physics": true,
+          "baseline_dm22_modified": false,
+          "physical_promotion": false,
+          "nonemptiness_not_assumed": true
+        },
+        "limitations": [
+          "Does not prove S_H,act^cov nonempty.",
+          "Does not select the realized action/equivalence class."
+        ]
+      }
+    },
+    {
+      "id": "CC-DM-E068-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_live_qualification_cut",
+      "decision": "DIAGNOSTIC_CLOSED",
+      "checkpoint": "E068",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E068-001",
+        "checkpoint": "E068",
+        "object": "@dm_live_qualification_cut",
+        "decision": "DIAGNOSTIC_CLOSED",
+        "scope": "live dependency/proof-debt prioritization",
+        "checks": {
+          "no_claim_promoted": true,
+          "baseline_dm22_modified": false,
+          "two_independent_middle_lanes_preserved": true
+        },
+        "result": "Reprioritize active frontier to @dm_stress_active_action_fiber_nonempty; retain PD-DM-003 and PD-DM-004 as parallel branch debts."
+      }
+    },
+    {
+      "id": "CC-DM-E069-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_conditional_scalar_stress_active_witness",
+      "decision": "CONDITIONAL_CLOSED_WITH_WORKING_ASSUMPTION",
+      "checkpoint": "E069",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E069-001",
+        "checkpoint": "E069",
+        "object": "@dm_conditional_scalar_stress_active_witness",
+        "decision": "CONDITIONAL_CLOSED_WITH_WORKING_ASSUMPTION",
+        "scope": "metric-active proxy/action existence only",
+        "working_assumptions": [
+          "WA-DM-E069-001"
+        ],
+        "source_premises": [
+          {
+            "source": "MK Ultra TOME V06-C03/V08-C05",
+            "statement": "A standard scalar action is metric dependent and generates the standard scalar stress tensor; it is an external mathematical realization target, not an MK43 scalar identity."
+          },
+          {
+            "source": "DM 2.2",
+            "statement": "Hidden stress-energy is generated by metric variation of an admitted covariant hidden action."
+          }
+        ],
+        "checks": {
+          "proxy_metric_variation_nonzero": true,
+          "baseline_dm22_modified": false,
+          "canonical_edge_promoted": false,
+          "physical_promotion": false
+        },
+        "limitations": [
+          "Does not prove the scalar proxy is a source-authoritative hidden realization.",
+          "Does not select the physical hidden action."
+        ]
+      }
+    },
+    {
+      "id": "CC-DM-E070-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_conditional_action_dark_readout_witness",
+      "decision": "CONDITIONAL_CLOSED_WITH_WORKING_ASSUMPTIONS",
+      "checkpoint": "E070",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E070-001",
+        "checkpoint": "E070",
+        "object": "@dm_conditional_action_dark_readout_witness",
+        "decision": "CONDITIONAL_CLOSED_WITH_WORKING_ASSUMPTIONS",
+        "scope": "dark-readout factorization only",
+        "working_assumptions": [
+          "WA-DM-E064-002",
+          "WA-DM-E069-001"
+        ],
+        "checks": {
+          "density_lane_used": false,
+          "residue_lane_used": false,
+          "baseline_dm22_modified": false,
+          "physical_promotion": false
+        },
+        "limitations": [
+          "Does not prove a matched physical pair exists.",
+          "Does not prove the proxy realization is source-authoritative.",
+          "Does not by itself pass persistence/boundary/Q qualification gates."
+        ]
+      }
+    },
+    {
+      "id": "CC-DM-E071-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_conditional_qualification_witness",
+      "decision": "CONDITIONAL_PREDICATE_ASSEMBLY_CLOSED",
+      "checkpoint": "E071",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E071-001",
+        "checkpoint": "E071",
+        "object": "@dm_conditional_qualification_witness",
+        "decision": "CONDITIONAL_PREDICATE_ASSEMBLY_CLOSED",
+        "scope": "formal DM_R predicate satisfaction under explicit assumptions",
+        "working_assumptions": [
+          "WA-DM-E064-002",
+          "WA-DM-E065-001",
+          "WA-DM-E066-001",
+          "WA-DM-E069-001"
+        ],
+        "checks": {
+          "all_closed_DM_R_predicate_classes_addressed": true,
+          "unconditional_nonemptiness_proved": false,
+          "baseline_dm22_modified": false,
+          "physical_promotion": false
+        },
+        "limitations": [
+          "Does not prove any assumed witness exists physically or source-authoritatively.",
+          "Does not promote @dm_dark_matter_qualification_nonempty."
+        ]
+      }
+    },
+    {
+      "id": "CC-DM-E072-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_metric_active_representation_witness",
+      "decision": "DIAGNOSTIC_CLOSED_OPEN_EXISTENCE",
+      "checkpoint": "E072",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E072-001",
+        "checkpoint": "E072",
+        "object": "@dm_metric_active_representation_witness",
+        "decision": "DIAGNOSTIC_CLOSED_OPEN_EXISTENCE",
+        "scope": "proof-debt compression and next-frontier selection",
+        "checks": {
+          "conditional_qualification_witness_exists_in_live_layer": true,
+          "unconditional_qualification_open": true,
+          "density_debt_not_required_on_current_action_lane": true,
+          "baseline_dm22_modified": false,
+          "physical_promotion": false
+        },
+        "result": "Current shortest conditional qualification route carries PD-DM-001, PD-DM-002, PD-DM-004, and PD-DM-006. Next active frontier is the Q-compatible metric-active representation witness."
+      }
+    },
+    {
+      "id": "CC-DM-E073-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_ucm_source_domain_distinction",
+      "decision": "SOURCE_DOMAIN_SEPARATION_CLOSED_READABLE_SOURCE_OPEN",
+      "checkpoint": "E073",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E073-001",
+        "checkpoint": "E073",
+        "object": "@dm_ucm_source_domain_distinction",
+        "decision": "SOURCE_DOMAIN_SEPARATION_CLOSED_READABLE_SOURCE_OPEN",
+        "scope": "UCM source-state domain only",
+        "checks": {
+          "finite_hidden_network_witness_available": true,
+          "full_visible_source_records_distinct": true,
+          "readable_stress_energy_separation_proved": false,
+          "baseline_dm22_modified": false,
+          "physical_promotion": false
+        },
+        "limitations": [
+          "UCM source projection may compress distinct source/event states.",
+          "No component sensitivity is inferred from source-schema argument names."
+        ]
+      }
+    },
+    {
+      "id": "CC-DM-E074-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_ucm_event_to_source_nonannihilation",
+      "decision": "DIAGNOSTIC_FACTORIZATION_CLOSED_OPEN_SENSITIVITY",
+      "checkpoint": "E074",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E074-001",
+        "checkpoint": "E074",
+        "object": "@dm_ucm_event_to_source_nonannihilation",
+        "decision": "DIAGNOSTIC_FACTORIZATION_CLOSED_OPEN_SENSITIVITY",
+        "scope": "UCM event/source factorization",
+        "checks": {
+          "Pi_U_factorization_typed": true,
+          "hidden_source_domain_pair_available": true,
+          "P_T_nonannihilation_proved": false,
+          "generic_metric_active_representation_required_on_shortest_ucm_lane": false,
+          "baseline_dm22_modified": false,
+          "physical_promotion": false
+        },
+        "result": "The shortest UCM route requires one event-to-readable-source sensitivity witness, not a unique hidden action or a generic Q_H-to-field identity."
+      }
+    },
+    {
+      "id": "CC-DM-E075-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_conditional_ucm_stress_energy_witness",
+      "decision": "CONDITIONAL_UCM_STRESS_ENERGY_SEPARATION_CLOSED",
+      "checkpoint": "E075",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E075-001",
+        "checkpoint": "E075",
+        "object": "@dm_conditional_ucm_stress_energy_witness",
+        "decision": "CONDITIONAL_UCM_STRESS_ENERGY_SEPARATION_CLOSED",
+        "scope": "one selected component-level hidden-network diagnostic sector",
+        "working_assumptions": [
+          "WA-DM-E075-001"
+        ],
+        "checks": {
+          "Delta_rho_H_nonzero_from_E063": true,
+          "component_nonannihilation_assumed": true,
+          "Delta_T_nonzero_follows": true,
+          "full_tensor_reconstructed_from_scalar": false,
+          "baseline_dm22_modified": false,
+          "physical_promotion": false
+        },
+        "limitations": [
+          "Conditional on WA-DM-E075-001.",
+          "Does not calibrate the residual or identify a physical dark-matter species."
+        ]
+      }
+    },
+    {
+      "id": "CC-DM-E076-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_conditional_ucm_qualification_witness",
+      "decision": "CONDITIONAL_UCM_NATIVE_QUALIFICATION_ASSEMBLY_CLOSED",
+      "checkpoint": "E076",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E076-001",
+        "checkpoint": "E076",
+        "object": "@dm_conditional_ucm_qualification_witness",
+        "decision": "CONDITIONAL_UCM_NATIVE_QUALIFICATION_ASSEMBLY_CLOSED",
+        "scope": "formal DM_R predicate satisfaction through UCM-native source lane",
+        "working_assumptions": [
+          "WA-DM-E064-002",
+          "WA-DM-E065-001",
+          "WA-DM-E066-001",
+          "WA-DM-E075-001"
+        ],
+        "checks": {
+          "all_DM_R_predicate_classes_addressed": true,
+          "scalar_proxy_required": false,
+          "PD_DM_006_required_on_shortest_ucm_lane": false,
+          "PD_DM_007_required": true,
+          "unconditional_nonemptiness_proved": false,
+          "baseline_dm22_modified": false,
+          "physical_promotion": false
+        },
+        "result": "Shortest current conditional qualification cut = PD-DM-001, PD-DM-002, PD-DM-004, PD-DM-007."
+      }
+    },
+    {
+      "id": "CC-DM-E077-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_ucm_topology_source_scope_inclusion",
+      "decision": "SOURCE_SCOPE_CLOSED_SENSITIVITY_NOT_INFERRED",
+      "checkpoint": "E077",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E077-001",
+        "checkpoint": "E077",
+        "object": "@dm_ucm_topology_source_scope_inclusion",
+        "decision": "SOURCE_SCOPE_CLOSED_SENSITIVITY_NOT_INFERRED",
+        "scope": "UCM readable-source input typing",
+        "checks": {
+          "ucm_source_input_inventory_recovered": true,
+          "topology_bearing_inputs_inside_T_U_scope": true,
+          "external_beta_double_counting_required": false,
+          "selected_pair_nonannihilation_proved": false,
+          "baseline_dm22_modified": false,
+          "physical_promotion": false
+        },
+        "limitations": [
+          "Input membership is not an injectivity theorem.",
+          "No component sensitivity is promoted from an argument label."
+        ]
+      }
+    },
+    {
+      "id": "CC-DM-E078-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_ucm_two_gate_factorization",
+      "decision": "TWO_GATE_FACTORIZATION_CLOSED_BOTH_SENSITIVITIES_OPEN",
+      "checkpoint": "E078",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E078-001",
+        "checkpoint": "E078",
+        "object": "@dm_ucm_two_gate_factorization",
+        "decision": "TWO_GATE_FACTORIZATION_CLOSED_BOTH_SENSITIVITIES_OPEN",
+        "scope": "UCM diagnostic factorization",
+        "checks": {
+          "factorization_source_backed": true,
+          "dynamic_gate_is_separate": true,
+          "source_projection_gate_is_separate": true,
+          "dynamic_separation_proved": false,
+          "source_fiber_separation_proved": false,
+          "baseline_dm22_modified": false,
+          "physical_promotion": false
+        }
+      }
+    },
+    {
+      "id": "CC-DM-E079-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_conditional_ucm_dynamic_event_witness",
+      "decision": "CONDITIONAL_DYNAMIC_EVENT_SEPARATION_CLOSED",
+      "checkpoint": "E079",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E079-001",
+        "checkpoint": "E079",
+        "object": "@dm_conditional_ucm_dynamic_event_witness",
+        "decision": "CONDITIONAL_DYNAMIC_EVENT_SEPARATION_CLOSED",
+        "scope": "one selected R4-R7 corridor witness",
+        "checks": {
+          "R4_R7_architecture_source_backed": true,
+          "selected_unique_full_corridor_assumed": true,
+          "event_records_separated_conditionally": true,
+          "readable_source_separated": false,
+          "baseline_dm22_modified": false,
+          "physical_promotion": false
+        }
+      }
+    },
+    {
+      "id": "CC-DM-E080-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_response_spectrum_residue_discriminator",
+      "decision": "CONCRETE_RESIDUE_DISCRIMINATOR_CONDITIONAL_CLOSURE",
+      "checkpoint": "E080",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E080-001",
+        "checkpoint": "E080",
+        "object": "@dm_response_spectrum_residue_discriminator",
+        "decision": "CONCRETE_RESIDUE_DISCRIMINATOR_CONDITIONAL_CLOSURE",
+        "scope": "selected two-port hidden response spectrum",
+        "checks": {
+          "DeltaLambda_nonzero_source_backed": true,
+          "spectral_discriminator_explicit": true,
+          "projection_residue_inclusion_source_backed": false,
+          "Q_survival_if_bundle_distinct_closed": true,
+          "baseline_dm22_modified": false,
+          "physical_promotion": false
+        },
+        "result": "PD-DM-004 is narrowed from an arbitrary hidden residue discriminator to preservation of one explicit response-spectrum invariant."
+      }
+    },
+    {
+      "id": "CC-DM-E081-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_port_response_trace_invariant",
+      "decision": "PORT_RESPONSE_TRACE_INVARIANCE_CLOSED",
+      "checkpoint": "E081",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E081-001",
+        "checkpoint": "E081",
+        "object": "@dm_port_response_trace_invariant",
+        "decision": "PORT_RESPONSE_TRACE_INVARIANCE_CLOSED",
+        "scope": "finite hidden port-response operator under structural relabeling",
+        "checks": {
+          "deltaLambda_psd_nonzero_source_backed": true,
+          "trace_gap_derived": true,
+          "port_relabeling_similarity_invariance_proved": true,
+          "full_projection_symmetry_action_typed": false,
+          "baseline_dm22_modified": false,
+          "physical_promotion": false
+        },
+        "result": "The E080 spectral idea is reduced to the simpler state-level trace discriminator tr(Lambda), which is invariant under port relabeling."
+      }
+    },
+    {
+      "id": "CC-DM-E082-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_conditional_response_trace_residue_survival",
+      "decision": "CONDITIONAL_RESPONSE_TRACE_RESIDUE_SURVIVAL",
+      "checkpoint": "E082",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E082-001",
+        "checkpoint": "E082",
+        "object": "@dm_conditional_response_trace_residue_survival",
+        "decision": "CONDITIONAL_RESPONSE_TRACE_RESIDUE_SURVIVAL",
+        "scope": "selected Resolution-R invariant-residue comparator",
+        "checks": {
+          "topology_in_invariant_transport_contract_source_backed": true,
+          "residue_definition_requires_projection_invariance": true,
+          "trace_gap_closed_E081": true,
+          "projection_symmetry_trace_preservation_assumed": true,
+          "bundle_distinction_conditional": true,
+          "baseline_dm22_modified": false,
+          "physical_promotion": false
+        },
+        "result": "The generic PD-DM-004 discriminator problem is reduced to one symmetry-action typing debt PD-DM-010."
+      }
+    },
+    {
+      "id": "CC-DM-E083-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_response_trace_q_handoff_witness",
+      "decision": "CONDITIONAL_TRACE_Q_SURVIVAL_CLOSED",
+      "checkpoint": "E083",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E083-001",
+        "checkpoint": "E083",
+        "object": "@dm_response_trace_q_handoff_witness",
+        "decision": "CONDITIONAL_TRACE_Q_SURVIVAL_CLOSED",
+        "scope": "standard Q completion preserving residue constituent",
+        "checks": {
+          "residue_bundle_separation_conditional_E082": true,
+          "Q_completion_nonempty_source_closed": true,
+          "Q_survival_theorem_source_closed": true,
+          "chromatic_dictionary_required": false,
+          "stress_energy_separation_proved": false,
+          "baseline_dm22_modified": false,
+          "physical_promotion": false
+        }
+      }
+    },
+    {
+      "id": "CC-DM-E084-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_conditional_event_density_source_separation",
+      "decision": "CONDITIONAL_UCM_GATE_2_COMPONENT_CLOSURE",
+      "checkpoint": "E084",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E084-001",
+        "checkpoint": "E084",
+        "object": "@dm_conditional_event_density_source_separation",
+        "decision": "CONDITIONAL_UCM_GATE_2_COMPONENT_CLOSURE",
+        "scope": "one selected event-level readable energy-density component",
+        "checks": {
+          "rho_E_typed_on_event_space_source_backed": true,
+          "energy_density_enters_stress_tensor_edge_recovered": true,
+          "density_separation_theorem_source_closed": true,
+          "event_pair_separated_conditionally_E079": true,
+          "component_nonannihilation_assumed": true,
+          "global_scalar_factorization_claimed": false,
+          "baseline_dm22_modified": false,
+          "physical_promotion": false
+        },
+        "result": "The UCM source gate is reduced to one event-level density component proof debt PD-DM-011."
+      }
+    },
+    {
+      "id": "CC-DM-E085-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_density_profile_readout_factorization_gate",
+      "decision": "DENSITY_READOUT_ROUTE_RECONCILED_TO_PROFILE_FACTOR",
+      "checkpoint": "E085",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E085-001",
+        "checkpoint": "E085",
+        "object": "@dm_density_profile_readout_factorization_gate",
+        "decision": "DENSITY_READOUT_ROUTE_RECONCILED_TO_PROFILE_FACTOR",
+        "scope": "native density/readout carrier typing",
+        "checks": {
+          "scalar_is_weighted_profile_compression_source_closed": true,
+          "scalar_not_universal_spatial_input_source_closed": true,
+          "profile_factorization_target_recovered": true,
+          "Beta_domain_closed": false,
+          "TimeShell_fidelity_closed": false,
+          "calibration_closed": false,
+          "baseline_dm22_modified": false,
+          "physical_promotion": false
+        },
+        "result": "PD-DM-011 is parked as a local event shortcut; a source-grounded generic attack must operate on the Resolution-level density profile chain."
+      }
+    },
+    {
+      "id": "CC-DM-E086-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_explicit_two_port_continuity_residual_witness",
+      "decision": "EXPLICIT_TWO_PORT_CONTINUITY_RESIDUAL_CLOSED",
+      "checkpoint": "E086",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E086-001",
+        "checkpoint": "E086",
+        "object": "@dm_explicit_two_port_continuity_residual_witness",
+        "decision": "EXPLICIT_TWO_PORT_CONTINUITY_RESIDUAL_CLOSED",
+        "scope": "fixed-support unsaturated two-port hidden response sector",
+        "checks": {
+          "two_port_DeltaLambda_source_backed": true,
+          "V27_response_identity_source_closed": true,
+          "selected_state_outside_kernel": true,
+          "nonzero_residual_derived": true,
+          "TT_admissibility_proved": false,
+          "gravity_projection_survival_proved": false,
+          "baseline_dm22_modified": false,
+          "physical_promotion": false
+        },
+        "result": "A concrete c_* gives a nonzero hidden-vs-visible native continuity residual without any density calibration, UCM source law, or residue/Q assumption."
+      }
+    },
+    {
+      "id": "CC-DM-E087-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_two_port_timeshell_gravity_fiber_test",
+      "decision": "DIRECT_GRAVITY_GATE_TYPED_NOT_SOLVED",
+      "checkpoint": "E087",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E087-001",
+        "checkpoint": "E087",
+        "object": "@dm_two_port_timeshell_gravity_fiber_test",
+        "decision": "DIRECT_GRAVITY_GATE_TYPED_NOT_SOLVED",
+        "scope": "one explicit two-port continuity-response pair through G_TS",
+        "checks": {
+          "native_pair_distinct_E086": true,
+          "gravity_projection_route_source_recovered": true,
+          "exact_projection_fiber_criterion_source_closed": true,
+          "A_g_operator_fully_typed": false,
+          "selected_pair_gravity_separated": false,
+          "baseline_dm22_modified": false,
+          "physical_promotion": false
+        },
+        "result": "The direct gravity branch has one exact selected-pair gate PD-DM-012; no UCM density, chromatic, or residue/Q bridge is needed to state it."
+      }
+    },
+    {
+      "id": "CC-DM-E088-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_conditional_direct_timeshell_dark_readout_witness",
+      "decision": "CONDITIONAL_DIRECT_TIMESHELL_DARK_READOUT_CLOSED",
+      "checkpoint": "E088",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E088-001",
+        "checkpoint": "E088",
+        "object": "@dm_conditional_direct_timeshell_dark_readout_witness",
+        "decision": "CONDITIONAL_DIRECT_TIMESHELL_DARK_READOUT_CLOSED",
+        "scope": "selected two-port hidden continuity response and fixed matter-readout comparison",
+        "checks": {
+          "matched_matter_readout_assumed": true,
+          "explicit_native_continuity_residual_E086": true,
+          "selected_GTS_fiber_separation_assumed": true,
+          "direct_TimeShell_gravity_route_source_recovered": true,
+          "UCM_density_required": false,
+          "residue_Q_required": false,
+          "chromatic_route_required": false,
+          "baseline_dm22_modified": false,
+          "physical_promotion": false
+        },
+        "result": "The shortest current dark-readout scout route is now a single selected Time-Shell gravity-fiber gate PD-DM-012 plus the matched-pair scaffold."
+      }
+    },
+    {
+      "id": "CC-DM-E089-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_chirality_seed_byte_probe_basis",
+      "decision": "CHIRALITY_PROBE_BASIS_RECOVERED_AND_SIX_STATE_AMBIGUITY_CORRECTED",
+      "checkpoint": "E089",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E089-001",
+        "checkpoint": "E089",
+        "object": "@dm_chirality_seed_byte_probe_basis",
+        "decision": "CHIRALITY_PROBE_BASIS_RECOVERED_AND_SIX_STATE_AMBIGUITY_CORRECTED",
+        "scope": "source recovery / probe typing",
+        "checks": {
+          "seed_existence_states_recovered": true,
+          "left_right_seed_mirror_recovered": true,
+          "canonical_byte_pair_recovered": true,
+          "arrangement_primary_over_serialization": true,
+          "basin_ladder_recovered": true,
+          "six_basins_not_six_bytes": true,
+          "dark_matter_identity_claimed": false,
+          "baseline_dm22_modified": false
+        },
+        "result": "The correct finite test space is mirror chirality orientation plus basin occupancy, not six independent chirality-byte identities."
+      }
+    },
+    {
+      "id": "CC-DM-E090-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_chirality_seed_contrast_normal_form",
+      "decision": "CHIRALITY_SEED_CONTRAST_NORMAL_FORM_MATCH_CLOSED",
+      "checkpoint": "E090",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E090-001",
+        "checkpoint": "E090",
+        "object": "@dm_chirality_seed_contrast_normal_form",
+        "decision": "CHIRALITY_SEED_CONTRAST_NORMAL_FORM_MATCH_CLOSED",
+        "scope": "recovered seed arrangement vs E063 two-port response normal form",
+        "checks": {
+          "source_seed_matrices_recovered": true,
+          "mirror_difference_computed": true,
+          "E063_response_matrix_exact_match_up_to_positive_scale": true,
+          "contrast_eigenmode_exact": true,
+          "whole_object_identity_claimed": false,
+          "physical_promotion": false,
+          "baseline_dm22_modified": false
+        },
+        "result": "The two-port response witness already used by the Live Landscape is algebraically the canonical chirality-seed contrast normal form up to w_eff>0."
+      }
+    },
+    {
+      "id": "CC-DM-E091-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_chirality_byte_basin_probe_family",
+      "decision": "SIX_BASIN_MIRROR_PROBE_FAMILY_CONDITIONALLY_CLOSED",
+      "checkpoint": "E091",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E091-001",
+        "checkpoint": "E091",
+        "object": "@dm_chirality_byte_basin_probe_family",
+        "decision": "SIX_BASIN_MIRROR_PROBE_FAMILY_CONDITIONALLY_CLOSED",
+        "scope": "diagnostic basin weighting over canonical chirality contrast",
+        "checks": {
+          "canonical_byte_pair_source_recovered": true,
+          "six_interior_basins_source_recovered": true,
+          "byte_vs_basin_identity_kept_distinct": true,
+          "diagnostic_weighting_explicit_assumption": true,
+          "all_six_weighted_contrasts_nonzero": true,
+          "source_authoritative_basin_operator_proved": false,
+          "physical_promotion": false,
+          "baseline_dm22_modified": false
+        },
+        "result": "The finite wind tunnel is six basin-indexed L/R mirror pairs with one common chiral contrast mode; the exact basin operator is nonblocking proof debt."
+      }
+    },
+    {
+      "id": "CC-DM-E092-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_chirality_seed_timeshell_gravity_fiber_test",
+      "decision": "DIRECT_GRAVITY_GATE_REANCHORED_TO_CANONICAL_CHIRALITY_CONTRAST",
+      "checkpoint": "E092",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E092-001",
+        "checkpoint": "E092",
+        "object": "@dm_chirality_seed_timeshell_gravity_fiber_test",
+        "decision": "DIRECT_GRAVITY_GATE_REANCHORED_TO_CANONICAL_CHIRALITY_CONTRAST",
+        "scope": "selected chirality-seed contrast through existing continuity/Time-Shell gravity fiber",
+        "checks": {
+          "canonical_seed_contrast_source_grounded": true,
+          "E063_normal_form_match_closed": true,
+          "E086_nonzero_continuity_residual_closed": true,
+          "Gravity_equals_Chirality_rejected_preserved": true,
+          "selected_GTS_fiber_separation_proved": false,
+          "baseline_dm22_modified": false,
+          "physical_promotion": false
+        },
+        "result": "The primary direct-readout frontier is now the same small G_TS fiber gate, but with a canonical chirality-seed contrast as its explicit input."
+      }
+    },
+    {
+      "id": "CC-DM-E095-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_xapi_energy_density_stress_corridor",
+      "decision": "CROSS_API_STRUCTURAL_COMPONENT_ROUTE_CLOSED",
+      "checkpoint": "E095",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E095-001",
+        "checkpoint": "E095",
+        "object": "@dm_xapi_energy_density_stress_corridor",
+        "decision": "CROSS_API_STRUCTURAL_COMPONENT_ROUTE_CLOSED",
+        "scope": "formal typed route only",
+        "premises": [
+          {
+            "source": "DM2.2 direct edge",
+            "statement": "@dm_resolution_density_profile REALIZES @energy_density (high, ATLAS_DERIVED)"
+          },
+          {
+            "source": "API4.3 RP45 GR dependency landscape",
+            "statement": "@energy_density ENTERS @stress_energy_tensor (high, recovered)"
+          },
+          {
+            "source": "DM2.2 V32 Theorem 201.1",
+            "statement": "one nonzero readable density component is sufficient to prove stress-energy tensors differ"
+          }
+        ],
+        "checks": {
+          "direct_cross_api_bridge_present": true,
+          "stress_energy_component_edge_present": true,
+          "full_tensor_reconstruction_claimed": false,
+          "observer_calibration_claimed": false,
+          "parent_api_mutated": false,
+          "physical_promotion": false
+        },
+        "result": "The structural density->stress-energy bridge is no longer an undefined monolithic map. Only component-preserving readable calibration/normalization remains open."
+      }
+    },
+    {
+      "id": "CC-DM-E097-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_source_backfilled_master_map",
+      "decision": "SOURCE_ARCHIVE_MOUNTED_AND_XAPI_CROSSWALK_CLOSED",
+      "checkpoint": "E097",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E097-001",
+        "checkpoint": "E097",
+        "object": "@dm_source_backfilled_master_map",
+        "decision": "SOURCE_ARCHIVE_MOUNTED_AND_XAPI_CROSSWALK_CLOSED",
+        "scope": "provenance/source-map closure",
+        "checks": {
+          "archive_recovery_complete": true,
+          "source_anchors_crosswalked": true,
+          "parent_apis_mutated": false,
+          "historical_formulations_silently_promoted": false
+        },
+        "result": "Recovered source layer mounted with 19 anchors and 2689 source reachability pairs."
+      }
+    },
+    {
+      "id": "CC-DM-E098-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_source_density_geometry_calibration",
+      "decision": "SOURCE_DENSITY_TO_SHELL_GEOMETRY_CALIBRATION_CLOSED",
+      "checkpoint": "E098",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E098-001",
+        "checkpoint": "E098",
+        "object": "@dm_source_density_geometry_calibration",
+        "decision": "SOURCE_DENSITY_TO_SHELL_GEOMETRY_CALIBRATION_CLOSED",
+        "scope": "historical peer-review source sector only",
+        "premises": [
+          "mu_f>0",
+          "mu_v>0",
+          "alpha!=0",
+          "mu_f!=mu_v",
+          "m=ln(mu/mu0)",
+          "phi=(1/2)ln det g",
+          "phi+alpha m=phi0"
+        ],
+        "result": "Delta phi=-alpha ln(mu_f/mu_v)!=0 and det(g_f)/det(g_v)=(mu_f/mu_v)^(-2alpha)!=1. PD-DM-014 is discharged in this declared source sector.",
+        "checks": {
+          "exact_source_equations_used": true,
+          "universal_empirical_calibration_claimed": false,
+          "physical_promotion": false
+        }
+      }
+    },
+    {
+      "id": "CC-DM-E099-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_source_er_gravitational_readout_chain",
+      "decision": "SOURCE_ER_GRAVITATIONAL_READOUT_CHAIN_CLOSED",
+      "checkpoint": "E099",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E099-001",
+        "checkpoint": "E099",
+        "object": "@dm_source_er_gravitational_readout_chain",
+        "decision": "SOURCE_ER_GRAVITATIONAL_READOUT_CHAIN_CLOSED",
+        "scope": "recovered source-effective model",
+        "premises": [
+          "W_ij source ER network",
+          "g_ER metric contribution",
+          "rho_ER effective energy sector",
+          "historical T_ER source slot in Einstein equation",
+          "Phi_eff=Phi_GR+deltaPhi_ER",
+          "v^2=r partial_r Phi_eff"
+        ],
+        "result": "The recovered source contains a continuous effective-model chain from ER connectivity/density to gravitational geometry and galactic readout.",
+        "checks": {
+          "source_chain_present": true,
+          "strict_hidden_s3_identity_claimed": false,
+          "empirical_fit_claimed": false,
+          "physical_promotion": false
+        }
+      }
+    },
+    {
+      "id": "CC-DM-E100-001",
+      "domain": "DARK_MATTER",
+      "object_handle": "@dm_source_er_effective_model_closure",
+      "decision": "SOURCE_EFFECTIVE_DARK_MATTER_MODEL_CLOSED_EMPIRICAL_VALIDATION_OPEN",
+      "checkpoint": "E100",
+      "payload": {
+        "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+        "certificate_id": "CC-DM-E100-001",
+        "checkpoint": "E100",
+        "object": "@dm_source_er_effective_model_closure",
+        "decision": "SOURCE_EFFECTIVE_DARK_MATTER_MODEL_CLOSED_EMPIRICAL_VALIDATION_OPEN",
+        "scope": "internal mathematical/source-effective project closure",
+        "result": "The source-effective ER/load-bearing-geometry Dark Matter branch is internally closed. DM2.2 strict hidden-S3 qualification is retained as optional refinement; empirical identification and external validation remain open under PD-DM-015.",
+        "checks": {
+          "source_effective_chain_closed": true,
+          "PD_DM_014_discharged_in_source_sector": true,
+          "baseline_dm22_mutated": false,
+          "api43_mutated": false,
+          "strict_dm22_nonemptiness_claimed": false,
+          "empirical_dark_matter_claimed": false
+        }
+      }
+    },
+    {
+      "id": "CC-HIGGS-E024-WORK",
+      "domain": "HIGGS",
+      "object_handle": "@higgs_work_layer_closure",
+      "decision": "NATIVE_HIGGS_WORK_LAYER_CLOSED__PHYSICAL_IDENTIFICATION_OPEN",
+      "checkpoint": "E024",
+      "payload": {
+        "scope": "native Higgs work-layer closure",
+        "physical_identification": "OPEN",
+        "parent_mutation": false
+      }
+    },
+    {
+      "id": "CC-MK43-UNIFIED-001",
+      "domain": "UNIFIED",
+      "object_handle": "@mk43_unified_qmo",
+      "decision": "UNIFIED_QUERYABLE_MATHEMATICAL_LANDSCAPE_FIXED_POINT_CLOSED__DARK_MATTER_SOURCE_EFFECTIVE_CLOSURE_PRESERVED__HIGGS_WORK_LAYER_CLOSURE_PRESERVED__PHYSICAL_VALIDATION_AND_EXACT_SM_IDENTIFICATION_OPEN",
+      "checkpoint": "UNIFIED-20260823",
+      "payload": {
+        "scope": "finite dependency/query landscape closure only",
+        "navigation_fixed_point": {
+          "iterations_used": 7,
+          "recovered_count": 833,
+          "terminal": "NO_NEW_STRUCTURE"
+        },
+        "typed_fixed_point": {
+          "iterations_used": 7,
+          "recovered_count": 833,
+          "terminal": "NO_NEW_STRUCTURE"
+        },
+        "guardrails": [
+          "reachability is not proof",
+          "reverse traversal is navigation only",
+          "shared handle identity is not a new physical equivalence theorem",
+          "no parent API mutation",
+          "open proof debts remain open"
+        ]
+      }
+    }
+  ]
+}

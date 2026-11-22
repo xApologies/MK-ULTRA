@@ -1,0 +1,119 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_PAIR_V1",
+  "a": "@global_inheritance",
+  "b": "@dm_hidden_state_embedding",
+  "radius": 3,
+  "interface": [
+    {
+      "handle": "@resolution",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@dm_hidden_state_bundle",
+      "distance_a": 3,
+      "distance_b": 1
+    },
+    {
+      "handle": "@persistence",
+      "distance_a": 1,
+      "distance_b": 3
+    },
+    {
+      "handle": "@admissible_continuation",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@bandwidth",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@chirality",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@continuation_operator",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@dm_history_support_preorder",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_runtime_transition_capacity",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@native_constraint_closure",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@persistent_recursive_topology",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@relational_history",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@relationship",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@time_space",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_hidden_relational_load",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_resolution_density_profile",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@genesis_field",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@inheritance",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@mote_chirality",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@mote_lattice",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@ordering",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@time_shell",
+      "distance_a": 3,
+      "distance_b": 3
+    }
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry; exact-handle interface only"
+}

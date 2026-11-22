@@ -1,0 +1,43 @@
+{
+  "schema": "ASTRAEUS_DARK_MATTER_API_LIVE_MANIFEST_V10",
+  "artifact": "ASTRAEUS_DARK_MATTER_API_LIVE_v1.0.0_20260822.zip",
+  "model_release": "v1.0.0",
+  "baseline_release": "DM_2.2.0",
+  "live_api_version": "2.2.0+live.e092",
+  "current_checkpoint": "E092",
+  "current_frontier": "@dm_chirality_seed_timeshell_gravity_fiber_test",
+  "highest_leverage_proof_debt": "PD-DM-012",
+  "status": "APPEND_ONLY_LIVE_LANDSCAPE_CANONICAL_CHIRALITY_CONTRAST_FRONTIER",
+  "baseline_sha256": "ee4819595f94a52565ab21c832c902ea4040e315f3f575b203c61e53740ed63a",
+  "validation": {
+    "baseline_hash_match": true,
+    "dm22_validation": "PASS 16/16",
+    "e089": "PASS_CHIRALITY_SOURCE_RECOVERY",
+    "e090": "PASS_NORMAL_FORM_MATCH",
+    "e091": "PASS_CONDITIONAL_FINITE_BASIN_SWEEP",
+    "e092": "PASS_CANONICAL_RETYPE_GATE_OPEN",
+    "parent_promotions": 0,
+    "physical_promotions": 0,
+    "canonical_edge_promotions": 0,
+    "db_counts": {
+      "edges": 946,
+      "qmos": 36,
+      "landscapes": 31,
+      "iterations": 31,
+      "promotions": 31,
+      "live_objects": 28,
+      "closure_certificates": 30,
+      "working_assumptions": 13,
+      "proof_debt": 13
+    }
+  },
+  "policy": {
+    "stable_abstraction_boundary": true,
+    "primary_frontier": "PD-DM-012",
+    "finite_sweep": "six basin-indexed L/R chirality mirror pairs",
+    "parked_representation_debt": "PD-DM-013",
+    "do_not_claim_gravity_equals_chirality": true,
+    "do_not_reopen_chirality_foundation": true
+  },
+  "package_sha256_record": "../ASTRAEUS_DARK_MATTER_API_LIVE_v1.0.0_20260822_SHA256.txt"
+}

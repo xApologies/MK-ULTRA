@@ -1,0 +1,29 @@
+{
+  "schema": "ASTRAEUS_NUMBER_UNIT_NORMALIZATION_CRAWL_V1",
+  "api_release": "0.14.0",
+  "live_model_revision": "v0.27.0",
+  "frontier": "@number_unit_normalization_frontier",
+  "status": "OPEN_BOUNDED_CRAWL_COMPLETED",
+  "landscape": "@dl_number_unit_normalization",
+  "landscape_qmo_count": 77,
+  "landscape_edge_count": 114,
+  "iteration": "@it_number_unit_normalization_4",
+  "requested_iterations": 4,
+  "actual_iterations": 4,
+  "terminal": "MAX_ITERATIONS",
+  "materialized_landscape": "@it_number_unit_normalization_4_landscape",
+  "materialized_qmo_count": 107,
+  "materialized_edge_count": 170,
+  "result": "No licensed relative-to-unit numerical value construction was derived without importing arithmetic division, counting, or a predeclared numerical codomain. Frontier remains open.",
+  "closed_context": [
+    "@theorem_object_before_scalarization",
+    "@theorem_unit_value_not_counting"
+  ],
+  "guards": [
+    "NO_RATIO_BY_IMPORT",
+    "NO_DIVISION_BY_IMPORT",
+    "NO_SHARED_GLYPH_IDENTITY",
+    "NO_NUMERIC_CODOMAIN_CIRCULARITY",
+    "FULL_UPSTREAM_STRUCTURE_RECOVERABLE"
+  ]
+}

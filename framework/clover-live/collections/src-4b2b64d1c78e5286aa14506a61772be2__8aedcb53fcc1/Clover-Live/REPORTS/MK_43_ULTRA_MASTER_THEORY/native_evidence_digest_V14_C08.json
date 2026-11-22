@@ -1,0 +1,160 @@
+{
+  "chapter_ids": [
+    "V14-C08"
+  ],
+  "chapters": [
+    {
+      "assigned_handle_count": 2,
+      "chapter_id": "V14-C08",
+      "handles": [
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@arrival_first_contact_with_living_geometry` — Arrival: First Contact with Living Geometry",
+          "canonical_uri": "mk43://recover/biology/arrival-first-contact-with-living-geometry",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.763553+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 78,
+            "english_units": 10,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@arrival_first_contact_with_living_geometry",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 3,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 43,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 207,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@arrival_first_contact_with_living_geometry",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 10418,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V14_C08\\arrival_first_contact_with_living_geometry_497ef5925eb541e2b409a9db01c33464.md",
+            "reused_master_query": false,
+            "sha256": "31b9c39d68d74d3c1eeaa6666d5cc7dae4e8417c9bc36492031e50caea34a0f5"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@conscious_coherence` — Conscious Coherence",
+          "canonical_uri": "mk43://recover/dependency/conscious-coherence",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.772062+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 280,
+            "english_units": 184,
+            "equation_units": 7,
+            "evidence_diversity": 2,
+            "handle": "@conscious_coherence",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 4,
+            "recommended_priority": "P2",
+            "registered_dependencies": 163,
+            "run_id": "RP-05B",
+            "score": 84,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 4615,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 721,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:721"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 723,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:723"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 732,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:732"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1799,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1799"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1960,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1960"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 2203,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:2203"
+            }
+          ],
+          "handle": "@conscious_coherence",
+          "incoming_relation_types": {
+            "DEPENDS_TO": 1,
+            "DIRECTED_TO": 1,
+            "EXPLICIT_ARROW": 1,
+            "FORMALLY_DEPENDS_ON": 1,
+            "FORMALLY_SUPPORTS": 1,
+            "RECOVERED_DEPENDENCY": 1,
+            "USED_BY": 1
+          },
+          "native_report": {
+            "bytes": 3077460,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V14_C08\\conscious_coherence_f50b265316d742d7bba06dc6c4ddd840.md",
+            "reused_master_query": false,
+            "sha256": "4a2f822ffb7f6dd57cfc26510dd0fc485046685d251170c3a6859ed62307dd8d"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "BLACK_HOLE_CROSS_FAMILY_NODE": 1,
+            "COMPOSED_DEPENDENCY": 146,
+            "DEPENDS_TO": 1,
+            "DIRECTED_TO": 1,
+            "EXPLICIT_ARROW": 1,
+            "FEEDS_BLACK_HOLE_MODEL": 1,
+            "FORMALLY_DEPENDS_ON": 1,
+            "FORMALLY_SUPPORTS": 1,
+            "GLOBALLY_FEEDS_BLACK_HOLE": 1,
+            "RECOVERED_DEPENDENCY": 1,
+            "USED_BY": 1
+          }
+        }
+      ],
+      "title": "Scientific Boundaries of the Biological Sector"
+    }
+  ],
+  "database_sha256": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03",
+  "database_unchanged": true,
+  "query_architecture": "Runtime -> BRANE -> API/QMO -> Library 4.1",
+  "query_receipt": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\native_query_receipt_V14_C08.json",
+  "schema": "mk-ultra-tome-native-evidence-digest-v1"
+}

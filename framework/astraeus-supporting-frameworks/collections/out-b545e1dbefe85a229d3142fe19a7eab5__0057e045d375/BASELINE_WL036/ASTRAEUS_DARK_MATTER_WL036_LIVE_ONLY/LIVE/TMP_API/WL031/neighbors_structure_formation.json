@@ -1,0 +1,50 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_NEIGHBORS_V1",
+  "handle": "@structure_formation",
+  "incoming": [
+    [
+      "@primordial_black_hole",
+      {
+        "source": "@primordial_black_hole",
+        "relation": "DEPENDS_ON",
+        "target": "@structure_formation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:131",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ]
+  ],
+  "outgoing": [
+    [
+      "@cosmology",
+      {
+        "source": "@structure_formation",
+        "relation": "DEPENDS_ON",
+        "target": "@cosmology",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:130",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@cosmology",
+      {
+        "source": "@structure_formation",
+        "relation": "FAMILY_DEPENDS_ON",
+        "target": "@cosmology",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:523",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ]
+  ]
+}

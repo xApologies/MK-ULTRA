@@ -1,0 +1,26 @@
+{
+  "handle": "closure://CC-DM-E085-001",
+  "object_type": "closure_certificate",
+  "status": "DENSITY_READOUT_ROUTE_RECONCILED_TO_PROFILE_FACTOR",
+  "domain": "CLOSURE",
+  "namespace": "mk43://closure",
+  "name": "CC-DM-E085-001",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E085",
+  "qmo_generated": true,
+  "proof_status": "DENSITY_READOUT_ROUTE_RECONCILED_TO_PROFILE_FACTOR",
+  "empirical_status": "",
+  "provenance_class": "CLOSURE_CERTIFICATE",
+  "metadata": {
+    "id": "CC-DM-E085-001",
+    "object_handle": "@dm_density_profile_readout_factorization_gate",
+    "decision": "DENSITY_READOUT_ROUTE_RECONCILED_TO_PROFILE_FACTOR",
+    "checkpoint": "E085",
+    "source_file": "live/checkpoints/E085/certs/CC-DM-E085-001.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_CLOSURE_CERTIFICATE_V1\", \"certificate_id\": \"CC-DM-E085-001\", \"checkpoint\": \"E085\", \"object\": \"@dm_density_profile_readout_factorization_gate\", \"decision\": \"DENSITY_READOUT_ROUTE_RECONCILED_TO_PROFILE_FACTOR\", \"scope\": \"native density/readout carrier typing\", \"checks\": {\"scalar_is_weighted_profile_compression_source_closed\": true, \"scalar_not_universal_spatial_input_source_closed\": true, \"profile_factorization_target_recovered\": true, \"Beta_domain_closed\": false, \"TimeShell_fidelity_closed\": false, \"calibration_closed\": false, \"baseline_dm22_modified\": false, \"physical_promotion\": false}, \"result\": \"PD-DM-011 is parked as a local event shortcut; a source-grounded generic attack must operate on the Resolution-level density profile chain.\"}"
+  },
+  "address": "closure://CC-DM-E085-001",
+  "address_sha256": "b1a43e636516372213b051a3517dc6f666c9bd4cb92bb854328ed9512d476943"
+}

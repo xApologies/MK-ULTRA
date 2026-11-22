@@ -1,0 +1,40 @@
+{
+  "schema": "ASTRAEUS_HARD_GUARD_INCOMPATIBILITIES_V1",
+  "guards": [
+    {
+      "guard_id": "G-001",
+      "relation": "SAME_AS",
+      "left": "@resolution_readout",
+      "right": "@formal_object",
+      "reason": "Readout may suppress structure and must not replace the recoverable formal object."
+    },
+    {
+      "guard_id": "G-002",
+      "relation": "SAME_AS",
+      "left": "@bandwidth",
+      "right": "@resolution",
+      "reason": "Bandwidth and Resolution answer distinct organizational questions."
+    },
+    {
+      "guard_id": "G-003",
+      "relation": "ERASES",
+      "left": "@resolution_readout",
+      "right": "@history_trace",
+      "reason": "Resolution may hide History but cannot silently erase canonical recoverable History."
+    },
+    {
+      "guard_id": "G-004",
+      "relation": "REQUIRES_GLOBAL_INVERSE",
+      "left": "@strong_resolution_handoff_continuity",
+      "right": "@resolution_handoff",
+      "reason": "Recoverability is not invertibility; non-injective handoffs are permitted."
+    },
+    {
+      "guard_id": "G-005",
+      "relation": "RESETS",
+      "left": "@mobius_orientation_handoff",
+      "right": "@history_trace",
+      "reason": "Return of local presentation does not reset History."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+flowchart TD
+  prime["Prime boundary 0|0"]
+  boundary["Boundary / address"]
+  T5["Time-Space T5"]
+  S3["S3 continuity"]
+  S2["Localized S2 projection"]
+  chi["Global chirality"]
+  chip["Local chirality chi_p"]
+  gamma["Path gamma in S3"]
+  corridor["Corridor W_gamma=S2xI"]
+  transport["Chirality transport"]
+  timeshell["Time-Shell readout"]
+  qft["QFT_p"]
+  gr["GR_p"]
+  er["ER_p"]
+  helicon["Helicon"]
+  graviton["Graviton"]
+  metric["Metric/curvature"]
+  energy["Energy invariant"]
+  prime -->|generates address| boundary
+  boundary -->|scales to readout boundary| timeshell
+  T5 -->|projects to continuity base| S3
+  T5 -->|has localized fibers| S2
+  chi -->|restricts to local projection| chip
+  S3 -->|admits path| gamma
+  gamma -->|pullback induces| corridor
+  T5 -->|pullback source| corridor
+  chip -->|rho_Q| qft
+  chip -->|rho_G| gr
+  chip -->|rho_ER| er
+  chi -->|global organization| transport
+  gamma -->|defines route| transport
+  transport -->|acts through| corridor
+  corridor -->|arrives at boundary readout| timeshell
+  er -->|supports local modes| helicon
+  helicon -->|gravitational mode projects| graviton
+  graviton -->|Time-Shell / perturbation route| metric
+  metric -->|readable GR| gr
+  energy -->|representation| qft
+  energy -->|representation| gr

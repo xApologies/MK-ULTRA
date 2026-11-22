@@ -1,0 +1,23 @@
+{
+  "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+  "certificate_id": "CC-DM-E075-001",
+  "checkpoint": "E075",
+  "object": "@dm_conditional_ucm_stress_energy_witness",
+  "decision": "CONDITIONAL_UCM_STRESS_ENERGY_SEPARATION_CLOSED",
+  "scope": "one selected component-level hidden-network diagnostic sector",
+  "working_assumptions": [
+    "WA-DM-E075-001"
+  ],
+  "checks": {
+    "Delta_rho_H_nonzero_from_E063": true,
+    "component_nonannihilation_assumed": true,
+    "Delta_T_nonzero_follows": true,
+    "full_tensor_reconstructed_from_scalar": false,
+    "baseline_dm22_modified": false,
+    "physical_promotion": false
+  },
+  "limitations": [
+    "Conditional on WA-DM-E075-001.",
+    "Does not calibrate the residual or identify a physical dark-matter species."
+  ]
+}

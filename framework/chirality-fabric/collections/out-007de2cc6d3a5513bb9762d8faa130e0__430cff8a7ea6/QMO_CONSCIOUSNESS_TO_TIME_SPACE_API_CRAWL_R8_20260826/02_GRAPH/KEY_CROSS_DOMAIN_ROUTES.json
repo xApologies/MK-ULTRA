@@ -1,0 +1,133 @@
+{
+  "@time_space__TO__@consciousness": [
+    {
+      "source_handle": "@time_space",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target_handle": "@consciousness",
+      "namespace": "API43_TYPED",
+      "trust_class": "TYPED_SOURCE_GRAPH",
+      "status": "derived",
+      "confidence": "high",
+      "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+      "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite"
+    }
+  ],
+  "@time_space__TO__@higgs_field": [
+    {
+      "source_handle": "@time_space",
+      "relation": "DEPENDS_TO",
+      "target_handle": "@genesis_field",
+      "namespace": "API43_TYPED",
+      "trust_class": "TYPED_SOURCE_GRAPH",
+      "status": "recovered",
+      "confidence": "high",
+      "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+      "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite"
+    },
+    {
+      "source_handle": "@genesis_field",
+      "relation": "CLASSIFIED_IN_PHYSICS_NEIGHBORHOOD",
+      "target_handle": "@sw_qft_sector",
+      "namespace": "STONEWAKE::STONEWAKE_REALIZATION",
+      "trust_class": "SOURCE_TYPED",
+      "status": "STONEWAKE_ENGINE_INTEGRATION",
+      "confidence": "medium",
+      "source_id": "SRC09_2_0_INTERNAL_MAPPING",
+      "source_path": "STONEWAKE_UNIFIED_PHYSICS_API_v1_1_20260823/02_MACHINE/STONEWAKE_PHYSICS_QMO.sqlite"
+    },
+    {
+      "source_handle": "@sw_qft_sector",
+      "relation": "INDEXES_RELATED_OBJECT",
+      "target_handle": "@higgs_field",
+      "namespace": "STONEWAKE::STONEWAKE_REALIZATION",
+      "trust_class": "SOURCE_TYPED",
+      "status": "STONEWAKE_ENGINE_INTEGRATION",
+      "confidence": "medium",
+      "source_id": "SRC09_2_0_INTERNAL_MAPPING",
+      "source_path": "STONEWAKE_UNIFIED_PHYSICS_API_v1_1_20260823/02_MACHINE/STONEWAKE_PHYSICS_QMO.sqlite"
+    }
+  ],
+  "@time_space__TO__@dark_matter_geometry": [
+    {
+      "source_handle": "@time_space",
+      "relation": "DEPENDS_TO",
+      "target_handle": "@graviton",
+      "namespace": "API43_TYPED",
+      "trust_class": "TYPED_SOURCE_GRAPH",
+      "status": "recovered",
+      "confidence": "high",
+      "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+      "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite"
+    },
+    {
+      "source_handle": "@graviton",
+      "relation": "SUPPORTS",
+      "target_handle": "@structure_formation",
+      "namespace": "API43_TYPED",
+      "trust_class": "TYPED_SOURCE_GRAPH",
+      "status": "derived",
+      "confidence": "high",
+      "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+      "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite"
+    },
+    {
+      "source_handle": "@structure_formation",
+      "relation": "RECEIVES_CONTRIBUTION_FROM",
+      "target_handle": "@dark_matter_geometry",
+      "namespace": "API43_TYPED",
+      "trust_class": "TYPED_SOURCE_GRAPH",
+      "status": "derived",
+      "confidence": "high",
+      "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+      "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite"
+    }
+  ],
+  "@higgs_field__TO__@consciousness": [
+    {
+      "source_handle": "@higgs_field",
+      "relation": "HAS_ENVIRONMENTAL_ANCESTRY",
+      "target_handle": "@genesis_field",
+      "namespace": "HIGGS_WORK_LAYER",
+      "trust_class": "WORK_LAYER_TYPED",
+      "status": "ACCEPTED",
+      "confidence": "high",
+      "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+      "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite"
+    },
+    {
+      "source_handle": "@genesis_field",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target_handle": "@consciousness",
+      "namespace": "API43_TYPED",
+      "trust_class": "TYPED_SOURCE_GRAPH",
+      "status": "derived",
+      "confidence": "high",
+      "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+      "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite"
+    }
+  ],
+  "@dark_matter_geometry__TO__@consciousness": [
+    {
+      "source_handle": "@dark_matter_geometry",
+      "relation": "CONTRIBUTES_TO",
+      "target_handle": "@structure_formation",
+      "namespace": "API43_TYPED",
+      "trust_class": "TYPED_SOURCE_GRAPH",
+      "status": "recovered",
+      "confidence": "high",
+      "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+      "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite"
+    },
+    {
+      "source_handle": "@structure_formation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target_handle": "@consciousness",
+      "namespace": "API43_TYPED",
+      "trust_class": "TYPED_SOURCE_GRAPH",
+      "status": "derived",
+      "confidence": "high",
+      "source_id": "SRC10_6_UNIFIED_RAINBOW_ROAD_OVERLAY",
+      "source_path": "PARENT_UNIFIED_API/UNIFIED_QMO.sqlite"
+    }
+  ]
+}

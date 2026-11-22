@@ -1,0 +1,46 @@
+{
+  "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+  "certificate_id": "CC-DM-E064-001",
+  "checkpoint": "E064",
+  "object": "@dm_conditional_dark_readout_witness",
+  "decision": "CONDITIONAL_CLOSED_WITH_WORKING_ASSUMPTIONS",
+  "scope": "mathematical implication only; proof-debt-carrying live object",
+  "working_assumptions": [
+    "WA-DM-E064-001",
+    "WA-DM-E064-002",
+    "WA-DM-E064-003"
+  ],
+  "source_premises": [
+    {
+      "source": "E063 CC-DM-E063-001",
+      "statement": "selected positive hidden support yields nonzero native load/response conditionally"
+    },
+    {
+      "source": "DM2.2 ATLAS 201",
+      "statement": "nonzero readable density component implies stress-energy tensors differ"
+    },
+    {
+      "source": "DM2.2 ATLAS 180 V28-T3",
+      "statement": "in one fixed readable GR problem, source tensor separation implies metric/gravity separation"
+    },
+    {
+      "source": "DM2.2 ATLAS 122",
+      "statement": "same matter readout with different gravity readout is a dark readout factorization defect"
+    }
+  ],
+  "checks": {
+    "derivation_valid_given_assumptions": true,
+    "assumptions_explicit": true,
+    "proof_debt_registered": true,
+    "baseline_dm22_modified": false,
+    "parent_api_promoted": false,
+    "physical_promotion": false
+  },
+  "limitations": [
+    "Does not discharge @dm_hidden_state_embedding",
+    "Does not prove global UCM component sensitivity",
+    "Does not calibrate T_rho,R,u",
+    "Does not establish an empirical dark-matter detection or ontology"
+  ],
+  "promotion_rule": "May be used as a live conditional theorem. It cannot become source-backed/internal unconditional closure until the relevant working assumptions are discharged or replaced by stronger source results."
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "ASTRAEUS_DM_FINITE_WITNESS_V1",
+  "witness_id": "WIT-AST-DM-002",
+  "name": "Minimal One-Port-to-Two-Port Hidden Corridor Witness",
+  "status": "STRUCTURAL_MODEL_CLASS_WITNESS_NOT_PHYSICAL_ADMISSION",
+  "vertex_order": ["A", "B", "C"],
+  "port_set": ["A", "B"],
+  "hidden_set": ["C"],
+  "histories": {
+    "H0": {
+      "edges": [["A", "C", 1]],
+      "L": [[1,0,-1],[0,0,0],[-1,0,1]],
+      "Lambda": [[0,0],[0,0]]
+    },
+    "H1": {
+      "edges": [["A", "C", 1],["B", "C", 1]],
+      "L": [[1,0,-1],[0,1,-1],[-1,-1,2]],
+      "Lambda": [[0.5,-0.5],[-0.5,0.5]]
+    }
+  },
+  "port_state": [1,-1],
+  "responses": {
+    "H0": [0,0],
+    "H1": [1,-1]
+  },
+  "matter_readout": "declared equal on H0/H1 for the toy quotient",
+  "resolution_chain": ["R_c","R_d","R_f"],
+  "emergence": {
+    "continuity_operator": "R_d",
+    "matter_qft": "R_f"
+  },
+  "guardrails": [
+    "normalization not calibration",
+    "not a physical galaxy",
+    "not a GR witness",
+    "not stress-energy",
+    "not parent promoted"
+  ]
+}

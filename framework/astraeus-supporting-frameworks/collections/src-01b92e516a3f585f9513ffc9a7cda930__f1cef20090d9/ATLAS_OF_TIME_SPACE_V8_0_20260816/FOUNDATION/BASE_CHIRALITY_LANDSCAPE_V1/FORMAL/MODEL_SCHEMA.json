@@ -1,0 +1,38 @@
+{
+  "checkpoint": "LM-001",
+  "version": "v0.1.0-live",
+  "date": "2026-08-16",
+  "formal_objects": {
+    "prime_boundary": {
+      "symbol": "0_L | 0_R",
+      "role": "address-generating boundary"
+    },
+    "global_fabric": {
+      "symbol": "Fabr_chi=[G_chi]_G",
+      "role": "global chirality/admissibility realization"
+    },
+    "time_space": {
+      "topology": "S4",
+      "role": "global Time-Space physical mapping"
+    },
+    "continuity_carrier": {
+      "topology": "S3",
+      "role": "connected chirality-continuity physical mapping"
+    },
+    "localized_address": {
+      "topology": "S2",
+      "role": "localized readable address boundary"
+    },
+    "corridor": {
+      "topology": "3-cobordism; standard pair S2xI",
+      "role": "admissible transport between addresses"
+    }
+  },
+  "maps": {
+    "corridor": "C_ab = Pi_b o P_W o L_a",
+    "qft_representation": "rho_Q",
+    "gr_representation": "rho_G",
+    "universal_intertwining": "rho_s o P_W^chi = U_s(W) o rho_s"
+  },
+  "status": "LIVE"
+}

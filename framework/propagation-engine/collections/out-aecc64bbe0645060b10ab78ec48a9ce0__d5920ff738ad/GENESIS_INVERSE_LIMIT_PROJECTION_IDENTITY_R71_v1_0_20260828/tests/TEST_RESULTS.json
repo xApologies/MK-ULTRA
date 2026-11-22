@@ -1,0 +1,18 @@
+{
+  "T1_inverse_system": {
+    "status": "PASS",
+    "statement": "Resolution approximants with bonding/restriction maps form a natural inverse system; coherent identity is represented by a compatible thread through all levels."
+  },
+  "T2_finite_resolution_equivalence": {
+    "status": "PASS",
+    "statement": "Two identities can share all coarse approximants through depth R and split at R+1."
+  },
+  "T3_history_refines_residual_fiber": {
+    "status": "PASS_CANDIDATE",
+    "statement": "When projection refinement leaves a residual fiber, ordered History can further restrict/select the admissible lift without changing the projection seed."
+  },
+  "T4_canonical_equivalence_candidate": {
+    "status": "PASS_STRONG_CANDIDATE",
+    "statement": "Identity equivalence at Resolution R is naturally equivalence/isomorphism of coherent projection-lift towers through R, with designated preserved invariants and History witness."
+  }
+}

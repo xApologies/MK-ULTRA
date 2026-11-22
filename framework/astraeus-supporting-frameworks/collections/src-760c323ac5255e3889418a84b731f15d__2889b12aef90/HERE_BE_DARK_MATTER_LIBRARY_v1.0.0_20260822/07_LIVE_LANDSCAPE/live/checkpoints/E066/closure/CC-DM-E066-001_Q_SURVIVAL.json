@@ -1,0 +1,33 @@
+{
+  "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+  "certificate_id": "CC-DM-E066-001",
+  "checkpoint": "E066",
+  "object": "@dm_conditional_q_handoff_distinction",
+  "decision": "CONDITIONAL_CLOSED_WITH_WORKING_ASSUMPTIONS",
+  "scope": "projection-residue and Q-handoff survival only",
+  "working_assumptions": [
+    "WA-DM-E065-001",
+    "WA-DM-E066-001"
+  ],
+  "source_premises": [
+    {
+      "source": "DM2.2 @dm_projection_residue_survival",
+      "statement": "B_full^R not ~=_F B_vis^R is sufficient for field-bundle survival."
+    },
+    {
+      "source": "DM2.2 @dm_q_survival",
+      "statement": "bundle-level survival implies Q-structured survival under residue-preserving Q morphisms."
+    }
+  ],
+  "checks": {
+    "derivation_valid_given_assumptions": true,
+    "optional_chromatic_branch_used": false,
+    "density_calibration_used": false,
+    "baseline_dm22_modified": false,
+    "physical_promotion": false
+  },
+  "limitations": [
+    "Does not establish residue discriminator survival without WA-DM-E066-001.",
+    "Does not imply stress-energy separation."
+  ]
+}

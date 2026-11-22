@@ -1,0 +1,39 @@
+{
+  "status": "PASS_EXACT_STRUCTURAL",
+  "eta": [
+    [
+      -1,
+      0,
+      0
+    ],
+    [
+      0,
+      -1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "eta_order": 2,
+  "eta_determinant": 1,
+  "eta_trace": -1,
+  "residual": "r=f+delta x mod 2",
+  "link": "J_e=eta^(r_e)",
+  "portal_gauge_map": "x->x+y maps to g_y(v)=eta^(y_v)",
+  "covariance": "J'_e=g_y(t(e)) J_e g_y(s(e))^-1",
+  "loop": "J_gamma=eta^(Hol_f(gamma))",
+  "loop_trace": {
+    "holonomy_0": 3,
+    "holonomy_1": -1
+  },
+  "potential_identity": "Phi=(3/4) sum_e c_e [1-(1/3) ReTr J_e]",
+  "interpretation": "CRD spontaneous relaxation is gauge-fixing descent within a fixed embedded SU(3) gauge orbit.",
+  "not_claims": [
+    "CRD defect holonomy is not identified with Wilson holonomy.",
+    "Phi is not Yang-Mills action.",
+    "This restricted map is not full physical QCD."
+  ]
+}

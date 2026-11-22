@@ -1,0 +1,162 @@
+{
+  "schema": "ASTRAEUS_API_QMO_CHAIN_V1",
+  "qmo_id": "QMO-AST-DM-WL-035",
+  "name": "Cyclic Parent-Native Lift Next-Handle Crawl",
+  "status": "API_PLUS_PARENT_CANDIDATE_NAVIGATION_NOT_PARENT_PROMOTED",
+  "seed": "@dm_v76_cyclic_parent_native_orbit_lift",
+  "include_parent_candidates": true,
+  "paths": {
+    "@dm_v76_cyclic_parent_native_orbit_lift -> @dm_hidden_state_embedding": [
+      {
+        "from": "@dm_v76_cyclic_parent_native_orbit_lift",
+        "relation": "SPECIALIZES_TO",
+        "to": "@qmo_ast_dm_014",
+        "traversal": "reverse",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V76",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@qmo_ast_dm_014",
+        "relation": "REQUIRES",
+        "to": "@dm_hidden_state_embedding",
+        "traversal": "forward",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V73",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      }
+    ],
+    "@dm_v76_cyclic_parent_native_orbit_lift -> @native_constraint_closure": [
+      {
+        "from": "@dm_v76_cyclic_parent_native_orbit_lift",
+        "relation": "GENERATES",
+        "to": "@qmo_ast_dm_016",
+        "traversal": "forward",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V76",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@qmo_ast_dm_016",
+        "relation": "PRESERVES",
+        "to": "@native_constraint_closure",
+        "traversal": "forward",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V76",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      }
+    ],
+    "@dm_v76_cyclic_parent_native_orbit_lift -> @relational_history": [
+      {
+        "from": "@dm_v76_cyclic_parent_native_orbit_lift",
+        "relation": "SPECIALIZES_TO",
+        "to": "@qmo_ast_dm_014",
+        "traversal": "reverse",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V76",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@qmo_ast_dm_014",
+        "relation": "REQUIRES",
+        "to": "@dm_hidden_state_embedding",
+        "traversal": "forward",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V73",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@dm_hidden_state_embedding",
+        "relation": "DEPENDS_ON",
+        "to": "@dm_hidden_state_bundle",
+        "traversal": "forward",
+        "origin": "DARKMATTER_2.1",
+        "provenance": "DM2.1",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "OPEN_HANDLE",
+        "confidence": "high"
+      },
+      {
+        "from": "@dm_hidden_state_bundle",
+        "relation": "DEPENDS_ON",
+        "to": "@relational_history",
+        "traversal": "forward",
+        "origin": "DARKMATTER_2.1",
+        "provenance": "DM2.1",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "ATLAS_DERIVED",
+        "confidence": "high"
+      }
+    ],
+    "@dm_v76_cyclic_parent_native_orbit_lift -> @dm_dark_matter_qualification_nonempty": [
+      {
+        "from": "@dm_v76_cyclic_parent_native_orbit_lift",
+        "relation": "SPECIALIZES_TO",
+        "to": "@qmo_ast_dm_014",
+        "traversal": "reverse",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V76",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@qmo_ast_dm_014",
+        "relation": "REQUIRES",
+        "to": "@dm_hidden_state_embedding",
+        "traversal": "forward",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V73",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@dm_hidden_state_embedding",
+        "relation": "REFINES",
+        "to": "@qmo_ast_dm_033",
+        "traversal": "reverse",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V93_V98",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@qmo_ast_dm_033",
+        "relation": "TARGETS",
+        "to": "@dm_dark_matter_qualification_nonempty",
+        "traversal": "forward",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V93_V98",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      }
+    ]
+  },
+  "next_handle_sequence": [
+    "@dm_v76_cyclic_parent_native_orbit_lift",
+    "@qmo_ast_dm_016",
+    "@native_constraint_closure",
+    "@dm_hidden_state_embedding"
+  ],
+  "interpretation": "The next useful math object is not another gravity bridge. The parent candidate landscape already contains a cyclic physical-lift QMO that preserves native constraint closure and reduces the hidden-state embedding problem on one selected cycle. This is the object to query with the rotational closed-History data.",
+  "guardrails": [
+    "navigation through ASTRAEUS_WORK_LAYER candidate edges remains candidate provenance",
+    "QMO-AST-DM-016 explicitly does not prove a global embedding",
+    "no parent promotion"
+  ]
+}

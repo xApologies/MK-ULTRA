@@ -1,0 +1,528 @@
+{
+  "schema": "ASTRAEUS_BLACK_RAINBOW_RELEASE_V8",
+  "version": "0.8.0",
+  "date": "2026-08-22",
+  "root_handle": "@black_rainbow_closed_landscape",
+  "recursive_runtime": "@rainbow_road_recursive_domain",
+  "carrier": "@mobius_recursive_carrier",
+  "mathematics_frontier": "@recovery_history_signature_minimality",
+  "runtime_frontier": "@bounded_recursive_iteration",
+  "validation_passed": true,
+  "object_count": 204,
+  "edge_count": 205,
+  "theorem_count": 3,
+  "dependency_graph_count": 2,
+  "dependency_landscape_count": 6,
+  "dependency_chain_count": 1,
+  "function_count": 2,
+  "iteration_run_count": 1,
+  "command_count": 43,
+  "lineage_included": true,
+  "manifest_scope": "All files except this manifest and PACKAGE_CHECKSUMS.sha256",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 5965,
+      "sha256": "586d566532ec94685c99b980017cca7e26912edea5ea087af3baa9e3015e377a"
+    },
+    {
+      "path": "api/ALIAS_REGISTRY.json",
+      "bytes": 16570,
+      "sha256": "70282a5bf9b53c4620925a9d436c1a9f63e6b65eed54f7e0167cbafa86b9e12d"
+    },
+    {
+      "path": "api/API_SCHEMA.json",
+      "bytes": 4411,
+      "sha256": "3fdaf0a3a5b41ee370749d2b00835286db7941c2b380c45f43584f6b12fc85e1"
+    },
+    {
+      "path": "api/CANDIDATE_REGISTRY.json",
+      "bytes": 4119,
+      "sha256": "56112fb84bece67cfef5e6dfbe13e3f14505c6562834074110affa6b9a7c6253"
+    },
+    {
+      "path": "api/CLOSURE_CERTIFICATE_REGISTRY.json",
+      "bytes": 18057,
+      "sha256": "83e0540620a7cc4284bbe3d696c98a09072155b82f2617968b5e7ec037d49ca0"
+    },
+    {
+      "path": "api/CLOSURE_CONTRACT.json",
+      "bytes": 1899,
+      "sha256": "d36d3c5ce3a0cef1bfebcf03822f616e68b3ae1a89168d30eb065d392eeb4e91"
+    },
+    {
+      "path": "api/COMMAND_REGISTRY.json",
+      "bytes": 18170,
+      "sha256": "c7910be494d62165554892a80838f10e7d3a37233964e7384792cb4d48f5f5b0"
+    },
+    {
+      "path": "api/DEPENDENCY_CHAIN_REGISTRY.json",
+      "bytes": 3717,
+      "sha256": "a3d4e86f43053c414d27add0b58562edf44305a8cd49ddce241a91a28d4bb5a4"
+    },
+    {
+      "path": "api/DEPENDENCY_GRAPH_REGISTRY.json",
+      "bytes": 5702,
+      "sha256": "93a644f4943e3cf452658ca19d5e4b6a0ceb3c392f9533696340b5ecbbffd7ad"
+    },
+    {
+      "path": "api/DEPENDENCY_LANDSCAPE_REGISTRY.json",
+      "bytes": 61223,
+      "sha256": "c3f7a0a7c12f328c87dd7f555eacbbdc7b64b4bd404e7f2d49570ffaaa0e0af8"
+    },
+    {
+      "path": "api/DERIVATION_RULES.json",
+      "bytes": 5058,
+      "sha256": "8cab54ed61fa5bb6ba918163be3a866080969a7d32e8d0c46d42e788d3fd6278"
+    },
+    {
+      "path": "api/DOMAIN_REGISTRY.json",
+      "bytes": 2619,
+      "sha256": "8d70dfd37b1facb3abed44e937dac30e72f17a08418a4ddbeac6be9356eda3c4"
+    },
+    {
+      "path": "api/EDGE_REGISTRY.json",
+      "bytes": 86558,
+      "sha256": "3f9259acb598bb6697cf756b58dac50ab1234caf0c286dbf35512c1f01b04a3e"
+    },
+    {
+      "path": "api/EQUATION_REGISTRY.json",
+      "bytes": 6820,
+      "sha256": "6aad46e292ea2235a4fa1018a021bcdba9b8a4c7c161cf28c14344633f9b2902"
+    },
+    {
+      "path": "api/FRONTIER_REGISTRY.json",
+      "bytes": 4672,
+      "sha256": "f74fabb127aa9ba5a05dbd11dcee5c67dd48232de1c2bb3af713f0822e986f42"
+    },
+    {
+      "path": "api/FUNCTION_REGISTRY.json",
+      "bytes": 1503,
+      "sha256": "5e99ada87927208be6ca7caeadc9b90e0076ea0e41f1d2e8a16c00f02eb9b0fe"
+    },
+    {
+      "path": "api/GRAPH_TYPE_REGISTRY.json",
+      "bytes": 1231,
+      "sha256": "e25af88d42213441303995089a41e464950c392a7e38cf7727d92ee64177d28d"
+    },
+    {
+      "path": "api/HELP_REGISTRY.json",
+      "bytes": 18167,
+      "sha256": "2d47ac389321976dd55cafc48e285b5cabbee10d9a1bb569f7b4bc44fd27d3bb"
+    },
+    {
+      "path": "api/INCOMPATIBILITY_REGISTRY.json",
+      "bytes": 1257,
+      "sha256": "a261a82c26327f6a505ecd2ad07560baa7499dee4325f69c62d227a1a2182b8e"
+    },
+    {
+      "path": "api/ITERATION_REGISTRY.json",
+      "bytes": 4339,
+      "sha256": "34c6d0388eac117886b6f38792ead8fbecaebfadd4e2f842001801ec01600334"
+    },
+    {
+      "path": "api/LIVE_RUNTIME_STATE.json",
+      "bytes": 1552,
+      "sha256": "2813eacdd98069bde2f1a4ea4dd15fda5a9717e156ca69a0faacd23176dc2d6c"
+    },
+    {
+      "path": "api/OBJECT_REGISTRY.json",
+      "bytes": 119297,
+      "sha256": "9d870ff4bbe6de990623984b9bfff9586b97564e43ad00b1a7c26a19bde8f44f"
+    },
+    {
+      "path": "api/PERTURBATION_REGISTRY.json",
+      "bytes": 2010,
+      "sha256": "208e902f105cd073b540235083d3af7b085f1ef9b11854f9fb9618d293e148ab"
+    },
+    {
+      "path": "api/QMO_METADATA_REGISTRY.json",
+      "bytes": 443914,
+      "sha256": "17f555e868c2088a19bbc59a07a0904fc7fcfcad4534a44d8fedbf2e72cbfc46"
+    },
+    {
+      "path": "api/QMO_METADATA_SCHEMA.json",
+      "bytes": 1854,
+      "sha256": "b67aaade550852e4e14dfac2656fddd7ac05813625e688bfa448c0cbd1409149"
+    },
+    {
+      "path": "api/QMO_TYPE_REGISTRY.json",
+      "bytes": 2490,
+      "sha256": "b832a73a6765f531579467d8860d51bd20b7bdac91222e723f92c44c0f6eeac8"
+    },
+    {
+      "path": "api/QUERY_CONTRACT.md",
+      "bytes": 2971,
+      "sha256": "60e77645796016e63b4a201bee1fa919adf8f7f8632ee56e7b8bd67bbf8a9991"
+    },
+    {
+      "path": "api/SOURCE_REGISTRY.json",
+      "bytes": 3270,
+      "sha256": "250e805150bfc314257cbb48a02598dd3029672bf3755ab085d504b8d77b100e"
+    },
+    {
+      "path": "api/THEOREM_REGISTRY.json",
+      "bytes": 2880,
+      "sha256": "7354bc1c6162c7f33171804db1d1a39530a8a1ebfc5b86ee156f575dda9d47a5"
+    },
+    {
+      "path": "canonical/ASTRAEUS_OBJECT_MATH_API_CANONICAL.md",
+      "bytes": 4175,
+      "sha256": "b9b5713f16652161bc3ef2674205f1e3d81ca982f7db66cf30bf8ce8e2f6fcbd"
+    },
+    {
+      "path": "canonical/VERA_RAINBOW_ROAD_LIVE_MODEL.md",
+      "bytes": 143100,
+      "sha256": "d548e27045235c1b16ab3c3bacc95873c443e126401727dae64b7e96236f8d17"
+    },
+    {
+      "path": "db/astraeus_math.sqlite",
+      "bytes": 55803904,
+      "sha256": "27e197a8936ee883a968e717e861bc67309f3f0405b0b33c9b0cab63c785a27c"
+    },
+    {
+      "path": "examples/PINK_SKY_TOY_DOMAIN.json",
+      "bytes": 1030,
+      "sha256": "4fa21abdb2c47155aac7c179ef8ecbe83c7d9c7e6dfeedeecb5f7609c9dd16d4"
+    },
+    {
+      "path": "library/QMO_METADATA_LIBRARY.json",
+      "bytes": 449357,
+      "sha256": "7c610e4ee630e5a87b94282172167f4d2b565d26d17d1c9a13a529e1ba117e1d"
+    },
+    {
+      "path": "library/dependency_chains/dc_recovery_witness_to_signature.json",
+      "bytes": 3212,
+      "sha256": "508cf25d839517559dbb4b6b551d81656cae6a44b730ca02dedd78db7c7cb740"
+    },
+    {
+      "path": "library/dependency_graphs/dc_recovery_witness_to_signature_g01.json",
+      "bytes": 2499,
+      "sha256": "860506f7b6585e5e0437099e9158fe851a2deb8fa03ce9b72e5ed87548b20b81"
+    },
+    {
+      "path": "library/dependency_graphs/dc_recovery_witness_to_signature_g02.json",
+      "bytes": 2413,
+      "sha256": "ab74cb2078fe4b0b2b4dd095e0bc31919f0d453fe0233bdeb3e40e22e7911eed"
+    },
+    {
+      "path": "library/dependency_landscapes/dc_recovery_witness_to_signature_l01.json",
+      "bytes": 4583,
+      "sha256": "e1b6e04ce77bef8fd5c55e701cb704c21a18478d79e669fe3d5f7d81a3712a79"
+    },
+    {
+      "path": "library/dependency_landscapes/dc_recovery_witness_to_signature_l02.json",
+      "bytes": 6224,
+      "sha256": "18efdf02dfa4380952834c1900ef4d28e8aab23ce88be88066ff4f27125a5140"
+    },
+    {
+      "path": "library/dependency_landscapes/dl_history_resolution_bridge.json",
+      "bytes": 15840,
+      "sha256": "5b7548183aba3bdb5cf9b518dc0b3b85cf04674f26b477ae2b44ef2aee57a221"
+    },
+    {
+      "path": "library/dependency_landscapes/dl_history_signature.json",
+      "bytes": 5444,
+      "sha256": "420c2c71017007480663e294a0da77c98b59b0cddea96a00876a54b448a23d79"
+    },
+    {
+      "path": "library/dependency_landscapes/dl_recovery_progression_graphs.json",
+      "bytes": 6221,
+      "sha256": "24afbaf6315efbf8e648df206f052972f3200a6cdacdb95f52ac5c5ec7432943"
+    },
+    {
+      "path": "library/dependency_landscapes/dl_resolution_recovery.json",
+      "bytes": 15277,
+      "sha256": "3f00704214d34b134ca1ed7b8c8820711f56a349dd0fec20422f481ba94bdb57"
+    },
+    {
+      "path": "library/iterations/it_recovery_witness_1m_ceiling.json",
+      "bytes": 3753,
+      "sha256": "db55f17adad2d579628c9b92996d0e264e73c78802dc4fa5723ae43aa8046719"
+    },
+    {
+      "path": "live_model/API_COMMAND_HISTORY.jsonl",
+      "bytes": 1195,
+      "sha256": "640f491903466dbb824ca39ec2ba6becfdfcdac10a1308d77a2f10487dbabfb1"
+    },
+    {
+      "path": "live_model/API_LIVE_MODEL.json",
+      "bytes": 8514,
+      "sha256": "f2ff30d834616c2882b0fd92d5d7aa3af86f2d46ca9d865f591adf276f9b59a7"
+    },
+    {
+      "path": "live_model/ASTRAEUS_API_LIVE_MODEL.md",
+      "bytes": 39012,
+      "sha256": "0d35dc842cbc69a83f9df5e47ecc83b84e82e2c535c1de33e056123bc4c31a5a"
+    },
+    {
+      "path": "live_model/DEPENDENCY_CHAIN_HISTORY.jsonl",
+      "bytes": 1276,
+      "sha256": "b58a1f68ab5986bf7723afbfb69cf95bb6ea69bddff3cba3f4498de7adf85e6c"
+    },
+    {
+      "path": "live_model/DEPENDENCY_GRAPH_HISTORY.jsonl",
+      "bytes": 802,
+      "sha256": "c299eb95e3de6abb0eded6a767c4459fe21ba0326cf31b4500a6c9b00e971227"
+    },
+    {
+      "path": "live_model/DEPENDENCY_LANDSCAPE_HISTORY.jsonl",
+      "bytes": 3367,
+      "sha256": "21898de8cc4caa61e40213c969bf81d3fdafc60ed7fc8f1b3ee216a06c95ce10"
+    },
+    {
+      "path": "live_model/ITERATION_HISTORY.jsonl",
+      "bytes": 717,
+      "sha256": "03f30d0bdbdb9355b5ce16ab1790409a0193f3263338a12006f363c8b384aba0"
+    },
+    {
+      "path": "live_model/QMO_ADDRESS_INDEX.json",
+      "bytes": 6089,
+      "sha256": "584855652a56ba535ad6aaa900c9763e7baeb4ec2da2d3ff2c9743ed42c82cc6"
+    },
+    {
+      "path": "live_model/QMO_METADATA_HISTORY.jsonl",
+      "bytes": 68046,
+      "sha256": "c984235cd5ff0a7712e809a28a8e1a0fa4862411c4a22024fe571ae0414457f6"
+    },
+    {
+      "path": "provenance/4.3(20260822-134229).zip",
+      "bytes": 7630835,
+      "sha256": "0010a4de99d78748ede57670b3bca1df6185b7ba8dd0faf266cc3ba1a4ccf752"
+    },
+    {
+      "path": "provenance/BUILD_QMO_LIVE_MODEL_v0.4.0.py",
+      "bytes": 33229,
+      "sha256": "7dd466afb11ad660782a5166526a31423e26ecb26608980617f7cbc1820836ee"
+    },
+    {
+      "path": "provenance/LINEAGE.json",
+      "bytes": 2178,
+      "sha256": "793457a01adb1668ad11e095b866dff3d242cebf79303b385873cb3b80a5577b"
+    },
+    {
+      "path": "provenance/PREDECESSOR_REFERENCES.json",
+      "bytes": 1632,
+      "sha256": "e1100853eb6d8419ccd987a8d6177b0f7f030b38845dd32c9ffba85097ee5143"
+    },
+    {
+      "path": "provenance/RESTRUCTURE_RAINBOW_ROAD_API_v0.2.0.py",
+      "bytes": 54643,
+      "sha256": "9cfd2f8022c46a8fee8cd160cbd087be526bcb191fe3260542cf49f60764721b"
+    },
+    {
+      "path": "provenance/UPGRADE_BOUNDED_ITERATION_v0.8.0.py",
+      "bytes": 22993,
+      "sha256": "06df7d39c64dfb046997210d0e5520a68ab533bd20f857d0965a9288b2f2e2be"
+    },
+    {
+      "path": "provenance/UPGRADE_COMMAND_NAMESPACE_v0.6.0.py",
+      "bytes": 26415,
+      "sha256": "d4a793579ccf739b6b4b4f094308c5ba496caf0a5d657970ac365794bb65f761"
+    },
+    {
+      "path": "provenance/UPGRADE_DEPENDENCY_CHAIN_v0.7.0.py",
+      "bytes": 75218,
+      "sha256": "3d79a1bb91d4d1acb52c53658502e27d7d854cf704c3cf8e63874f75343bbded"
+    },
+    {
+      "path": "provenance/UPGRADE_DEPENDENCY_LANDSCAPE_v0.5.0.py",
+      "bytes": 47071,
+      "sha256": "119915f0ddd0e3a2687ab8c031e8a47830dd75f7d3b14b30e1e659a93865071e"
+    },
+    {
+      "path": "reports/API43_ARCHITECTURE_OBSERVATION.md",
+      "bytes": 1094,
+      "sha256": "97dc322e7d46bbaeb5457ee1b0c225764544f2d346068b66f665dc1c8bf729a9"
+    },
+    {
+      "path": "reports/API43_DEPENDENCY_LANDSCAPE_RECOVERY.md",
+      "bytes": 1061,
+      "sha256": "76d66ed87962184de3356c78470e0e641798d916d3f7d8a5d7a3d3d939bcd909"
+    },
+    {
+      "path": "reports/BOUNDED_ITERATION_VALIDATION.json",
+      "bytes": 891,
+      "sha256": "9fc748a3ce93851aa914ffbdcd9fcbf93ca44c1c955754dd29c3df810c6a46ec"
+    },
+    {
+      "path": "reports/BOUNDED_RECURSIVE_ITERATION_ARCHITECTURE.md",
+      "bytes": 1216,
+      "sha256": "937cfe4bdbd97561b4de48d0797a27583c7c7b804afd09462f911d3d85e4df6d"
+    },
+    {
+      "path": "reports/COMMAND_NAMESPACE_VALIDATION.json",
+      "bytes": 34320,
+      "sha256": "1b7850517885cc27c4cc6f4e974bae49b3efe214511d5e0c41cf06821392bca4"
+    },
+    {
+      "path": "reports/COUNTEREXAMPLE_CE_RW_001.json",
+      "bytes": 2542,
+      "sha256": "d5f659a93f7f062c8c60aa3af102dfcd393bb7bc5ae465df599b4fd947ce2f50"
+    },
+    {
+      "path": "reports/DEPENDENCY_CHAIN_ARCHITECTURE.md",
+      "bytes": 984,
+      "sha256": "2a10b2dbeafccf82d4f07df6cfbb25b788dc3909b26441f493bc6888de77ef15"
+    },
+    {
+      "path": "reports/DEPENDENCY_CHAIN_VALIDATION.json",
+      "bytes": 8029,
+      "sha256": "f0165399b56a315ae2cb698085098aaf9b8ffe6c866dff4b425b6761d45a03b6"
+    },
+    {
+      "path": "reports/DEPENDENCY_LANDSCAPE_VALIDATION.json",
+      "bytes": 34110,
+      "sha256": "69e8f5420e29daee7565302446ac587413dc4f592a2ff2f15690804f76a50272",
+      "source_sha256_before_publication": "6ff0b70d6fe6fb5192beda44695993bf0d8365c11efc3ce64537a161ef8cbb1f",
+      "publication_path_portability_edit": true
+    },
+    {
+      "path": "reports/PERTURBATION_SMOKE_TESTS.json",
+      "bytes": 7929,
+      "sha256": "4ff39587caf621c9a1d97528a46a3392548174d61ade885b8020835b3fee5cdb"
+    },
+    {
+      "path": "reports/QMO_LIVE_MODEL_REPORT.md",
+      "bytes": 773,
+      "sha256": "03c610366335ada9e6d3644020872b59dd6dc645500e52b9035a5f28a44a541b"
+    },
+    {
+      "path": "reports/QMO_LIVE_MODEL_VALIDATION.json",
+      "bytes": 13689,
+      "sha256": "f95a6513440fabe25c0a0ddefc53dc60df1a68d3837a0f984ac74c87389fde58",
+      "source_sha256_before_publication": "1f3a4fa8150fbd84009436573da69718fb2be98ea26bc50ac633e093c41e415e",
+      "publication_path_portability_edit": true
+    },
+    {
+      "path": "reports/RAINBOW_ROAD_RESTRUCTURE_REPORT.md",
+      "bytes": 2463,
+      "sha256": "816f426d88b584cf290ea3a2c41e84bd69881db60853f33f5ab82e2a878b6247"
+    },
+    {
+      "path": "reports/RECURSIVE_CLOSURE_SMOKE_TEST.json",
+      "bytes": 1160,
+      "sha256": "236944b85b688e1db8453c7409494092110b19e34e9fc7ec6066a418ad45d22f"
+    },
+    {
+      "path": "reports/SELF_BUILD_PASS_001.json",
+      "bytes": 5600,
+      "sha256": "c0634c99364de9f410597b53077db01e00c320c64d42517f0b5a3edf371ec073"
+    },
+    {
+      "path": "reports/SELF_BUILD_PASS_003.json",
+      "bytes": 1947,
+      "sha256": "29bd2bb5a8e71f112a565af2ffc09c985bc48abdacd9e0d6ef7f669364f05d8a"
+    },
+    {
+      "path": "reports/VALIDATION_REPORT.json",
+      "bytes": 9224,
+      "sha256": "87d8c4d653460e16d94ed4956fee17888fe62f75cd9f5a758009aa8b8fad1170"
+    },
+    {
+      "path": "reports/VALIDATION_REPORT_V2.json",
+      "bytes": 2615,
+      "sha256": "e598ed11df62a3897030c6ad1d4c65071504c3d32587713e6f36601b71e882bb"
+    },
+    {
+      "path": "reports/VALIDATION_REPORT_V3.json",
+      "bytes": 2066,
+      "sha256": "46eca6509bd4d5bda5eb9dc83cf02760be4f86b13491581649ea99415e54d09b"
+    },
+    {
+      "path": "runtime/ROAD_HISTORY.jsonl",
+      "bytes": 484,
+      "sha256": "8b4e06a47658d41642d1092c3f1784edac4447a4555df5dbfb2ea5bd752246c2"
+    },
+    {
+      "path": "runtime/__pycache__/astraeus_math_api.cpython-313.pyc",
+      "bytes": 30692,
+      "sha256": "cad29da0dec53de1a4dc8898ce42aee3c2bc633c838e7f70a8cc8ec3c038ca91"
+    },
+    {
+      "path": "runtime/__pycache__/bounded_iteration.cpython-313.pyc",
+      "bytes": 29642,
+      "sha256": "192edb440208dc60da4e1a937bbdd54ba281e13f7df086b0eb77f87fba3e7ede"
+    },
+    {
+      "path": "runtime/astraeus_math_api.py",
+      "bytes": 17160,
+      "sha256": "01ae07e8e193e356959945f2fc20e3183fea7ea258f1863a33afd8a502879b68"
+    },
+    {
+      "path": "runtime/bounded_iteration.py",
+      "bytes": 16780,
+      "sha256": "112bdce4a10d355ca976d1ffed081f3b0b99926a30a2c290480689c1b5414615"
+    },
+    {
+      "path": "runtime/dependency_chain.py",
+      "bytes": 16066,
+      "sha256": "e135be71ef7441f19f1ae82d0bbee8af9ef40a4e9e97c5011c712a1675eb953b"
+    },
+    {
+      "path": "runtime/dependency_graph.py",
+      "bytes": 14558,
+      "sha256": "286759085672fa69c27da9e74b3726cc69373dd2d66972c1cb767ea619764d41"
+    },
+    {
+      "path": "runtime/dependency_landscape.py",
+      "bytes": 14006,
+      "sha256": "9bf13f317340e6219bda5dec6ab4fffaeeccba2dfcaf0b65168c23a1dcfb7be9"
+    },
+    {
+      "path": "runtime/qmo_live_model.py",
+      "bytes": 3741,
+      "sha256": "5fe6e0e94e0f0a00295bac6df2b9cde759aef1b9f2a48f07acc31f7a0fda68db"
+    },
+    {
+      "path": "runtime/rainbow_road_runtime.py",
+      "bytes": 7447,
+      "sha256": "6792207db276f2179564f07a374afc6721a1739ef4dbbd827b93c1fe971dba8d"
+    },
+    {
+      "path": "runtime/self_build.py",
+      "bytes": 855,
+      "sha256": "d67df23a4b10537397706cf4996796a42d240475f54e5a2dc6fa044226f80cef"
+    },
+    {
+      "path": "runtime/self_build_pass003.py",
+      "bytes": 1129,
+      "sha256": "6f55c19537f52cf53262fe854bcccab0b76c80c8e9bc8233383aa59815b8fb7c"
+    },
+    {
+      "path": "source_archives/Bandwidth Algebra(3).zip",
+      "bytes": 1163433,
+      "sha256": "2672e910b989db5d03ff419c3024f50c35b9e1ed9eb47ab720811177514f3b53"
+    },
+    {
+      "path": "source_archives/Holonomy and Chirality(1).zip",
+      "bytes": 686047,
+      "sha256": "433e9a4ff681ddf33839530a67551db58d08ad99ea012f76adf00fc2d72d74a6"
+    },
+    {
+      "path": "source_archives/Identity Through History(2).zip",
+      "bytes": 224934,
+      "sha256": "45399cae67da80249d999e1aeb6fa1d6cb8c9dd32b0dcf6d8b715d032b6fc2b2"
+    },
+    {
+      "path": "source_archives/Resolution Readout(2).zip",
+      "bytes": 327280,
+      "sha256": "b39d9d036ff1b856ade54fe48d5964812d174f0f531ea696e9526bb0792e9aab"
+    },
+    {
+      "path": "source_archives/TRANSDUCTION_GEOMETRY_v1.0(5).zip",
+      "bytes": 3398136,
+      "sha256": "7f6b965033e809c6a1683d8e7deaa320da37cb456688138b666608e10e16be77"
+    },
+    {
+      "path": "supporting_sources/PRIME_DEPENDENCY_FOUNDATIONS_v0.1.1_SEED_TO_VERTEX_CLOSURE.md",
+      "bytes": 35032,
+      "sha256": "29ff4e333496593d45e39096d106feae1cb3846c253883d65ebb2b4c57eddde5"
+    },
+    {
+      "path": "supporting_sources/Rainbow_road(2).zip",
+      "bytes": 10386950,
+      "sha256": "c9dbe0b4ee3bb7643c35d3bad9929165de50ebc14f49bfdc93376223cd155c9b"
+    }
+  ]
+}

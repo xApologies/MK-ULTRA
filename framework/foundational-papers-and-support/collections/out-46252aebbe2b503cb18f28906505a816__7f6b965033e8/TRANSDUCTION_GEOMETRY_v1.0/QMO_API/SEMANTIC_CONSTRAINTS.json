@@ -1,0 +1,53 @@
+{
+  "schema": "MK43_SEMANTIC_CONSTRAINTS_V1",
+  "rules": [
+    {
+      "left": "@transport",
+      "right": "@transduction",
+      "rule": "NOT_EQUAL",
+      "reason": "Transport is fixed-base; transduction may change base."
+    },
+    {
+      "left": "@transduction_curvature",
+      "right": "@transduction_descent",
+      "rule": "NOT_EQUAL",
+      "reason": "Curvature is path coherence defect; descent is gluing coherence."
+    },
+    {
+      "left": "@transduction_connection",
+      "right": "@transduction_curvature",
+      "rule": "NOT_EQUAL",
+      "reason": "Connection selects transport; curvature measures coherence defect."
+    },
+    {
+      "left": "@holonomy_class",
+      "right": "@chirality_fabric",
+      "rule": "NOT_COMPLETE_IDENTITY",
+      "reason": "Holonomy is not a universal complete classifier."
+    },
+    {
+      "left": "@bandwidth",
+      "right": "@resolution",
+      "rule": "NOT_EQUAL",
+      "reason": "Bandwidth is available freedom; Resolution is distinguishable readout."
+    },
+    {
+      "left": "@bandwidth",
+      "right": "@occupancy",
+      "rule": "NOT_EQUAL",
+      "reason": "Bandwidth is possibility; Occupancy is realization."
+    },
+    {
+      "left": "@closure",
+      "right": "@persistence",
+      "rule": "NOT_EQUAL",
+      "reason": "Closure stabilizes/forms; Persistence maintains/recover identity."
+    },
+    {
+      "left": "@identity_invariant",
+      "right": "@history",
+      "rule": "NOT_EQUAL",
+      "reason": "Identity may persist while history advances."
+    }
+  ]
+}

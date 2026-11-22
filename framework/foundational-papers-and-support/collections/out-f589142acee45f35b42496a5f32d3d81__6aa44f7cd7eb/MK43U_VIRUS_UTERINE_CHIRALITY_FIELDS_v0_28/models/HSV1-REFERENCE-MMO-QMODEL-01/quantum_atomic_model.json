@@ -1,0 +1,144 @@
+{
+  "aggregate": {
+    "component_count": 6,
+    "experimental_structure_reference_atoms": 235662,
+    "experimental_structure_reference_mass_kda": 4323.17
+  },
+  "components": [
+    {
+      "atom_count": 219702,
+      "chirality_channel_sign": -1.0,
+      "chirality_class": "predominantly_L_amino_acid_polypeptide",
+      "component_id": "HSV1:CAPSID-CATC:6CGR",
+      "kind": "parametric_shell_from_experimental_structure",
+      "method": "electron microscopy",
+      "modeled_residue_count": 28712,
+      "name": "HSV-1 capsid with capsid-associated tegument complexes",
+      "pdb_id": "6CGR",
+      "polymer_class": "protein",
+      "position_rule": {
+        "radius_normalized": 0.255,
+        "shape": "spherical_shell",
+        "thickness_normalized": 0.028
+      },
+      "resolution_angstrom": 4.2,
+      "resolution_score": 0.7899999999999999,
+      "source_object": "@virus_hsv1_capsid",
+      "source_url": "https://www.rcsb.org/structure/6CGR",
+      "structure_weight_kda": 4031.74
+    },
+    {
+      "atom_count": 4178,
+      "chirality_channel_sign": -1.0,
+      "chirality_class": "predominantly_L_amino_acid_polypeptide",
+      "component_id": "HSV1:ENTRY-COMPLEX:3U82",
+      "kind": "experimental_structure_anchor",
+      "method": "X-ray diffraction",
+      "modeled_residue_count": 531,
+      "name": "HSV-1 glycoprotein D-human nectin-1 complex",
+      "pdb_id": "3U82",
+      "polymer_class": "protein",
+      "position_normalized": [
+        0.88,
+        0.5,
+        0.5
+      ],
+      "resolution_angstrom": 3.16,
+      "resolution_score": 0.842,
+      "source_url": "https://www.rcsb.org/structure/3U82",
+      "structure_weight_kda": 67.97
+    },
+    {
+      "atom_count": 11782,
+      "chirality_channel_sign": -1.0,
+      "chirality_class": "mixed_L_polypeptide_and_D_sugar_nucleic_acid",
+      "component_id": "HSV1:POLYMERASE:8OJA",
+      "kind": "experimental_structure_anchor",
+      "method": "electron microscopy",
+      "modeled_residue_count": 1391,
+      "name": "HSV-1 UL30/UL42 DNA polymerase complex",
+      "note": "protein chirality channel represents the polymerase proteins; bound DNA is represented by the separate genome/D-sugar channel",
+      "pdb_id": "8OJA",
+      "polymer_class": "protein_with_bound_DNA",
+      "position_normalized": [
+        0.48,
+        0.48,
+        0.48
+      ],
+      "resolution_angstrom": 1.87,
+      "resolution_score": 0.9065,
+      "source_url": "https://www.rcsb.org/structure/8OJA",
+      "structure_weight_kda": 223.46
+    },
+    {
+      "chirality_channel_sign": 1.0,
+      "chirality_class": "natural_D_deoxyribose_nucleic_acid",
+      "component_id": "HSV1:GENOME:DSDNA",
+      "genome_length_bp_approx": 152000,
+      "kind": "composition_level_nucleic_acid_core",
+      "mass_kda_approx": 100320.0,
+      "note": "mass uses ~660 Da per base pair only as a composition-scale bookkeeping approximation; no viral sequence is embedded",
+      "position_rule": {
+        "radius_normalized": 0.18,
+        "shape": "sphere",
+        "softness_normalized": 0.025
+      },
+      "resolution_score": 0.45,
+      "sequence_embedded": false,
+      "source_object": "@virus_hsv1_genome"
+    },
+    {
+      "chirality_channel_sign": 0.0,
+      "component_id": "HSV1:ENVELOPE",
+      "kind": "unresolved_lipid_envelope_shell",
+      "note": "exact lipid/glycan composition unresolved; no molecular formula invented",
+      "position_rule": {
+        "radius_normalized": 0.425,
+        "shape": "spherical_shell",
+        "thickness_normalized": 0.035
+      },
+      "resolution_score": 0.25,
+      "source_object": "@virus_hsv1_envelope"
+    },
+    {
+      "chirality_channel_sign": -1.0,
+      "component_id": "HSV1:TEGUMENT",
+      "kind": "proteinaceous_layer_reference",
+      "note": "proteinaceous tegument known; complete stoichiometry unresolved",
+      "position_rule": {
+        "radius_normalized": 0.335,
+        "shape": "spherical_shell",
+        "thickness_normalized": 0.05
+      },
+      "resolution_score": 0.35,
+      "source_object": "@virus_hsv1_tegument"
+    }
+  ],
+  "model_id": "HSV1-REFERENCE-MMO-QMODEL-01",
+  "physical_model_contract": {
+    "claim": "hybrid quantum/atomic proxy of the mapped HSV-1 reference object",
+    "exact_or_experimental": [
+      "PDB:6CGR",
+      "PDB:3U82",
+      "PDB:8OJA"
+    ],
+    "not_claimed": [
+      "whole-virion electronic wavefunction",
+      "QCD parton or gluon distribution",
+      "complete lipid/glycan/tegument stoichiometry",
+      "engineered therapeutic virus",
+      "viral genome sequence or construct map"
+    ]
+  },
+  "schema": "OB_QUANTUM_ATOMIC_PROXY_V1",
+  "source_handle": "@virus_hsv1_reference",
+  "source_uri": "obmol://virus/hsv1/reference",
+  "unresolved_for_physical_completion": [
+    "complete virion atom table",
+    "exact envelope lipid and glycan composition",
+    "complete tegument stoichiometry",
+    "full fusion complex",
+    "many-body electronic state",
+    "QCD parton/gluon distributions"
+  ]
+}

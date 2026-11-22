@@ -1,0 +1,56 @@
+{
+  "handle": "@dm_chromatic_optional_branch",
+  "object_type": "mathematical_object",
+  "status": "OPTIONAL_NOT_CRITICAL_PATH",
+  "domain": "DM22",
+  "namespace": "representation",
+  "name": "Optional Chromatic/Basin Representation Branch",
+  "definition": "Historical/downstream chromatic or basin representation route. It is not required for the current persistent-boundary / residue-bundle critical path.",
+  "math": "E --chi--> Omega --R_{OmegaC}^R--> X_C^R; R_{OmegaC}^R remains open.",
+  "source_layer": "DM22",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "DM22",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 1,
+    "live_in_count": 1,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19714,
+        "source": "@dm_chromatic_optional_branch",
+        "relation": "NOT_REQUIRED_FOR",
+        "target": "@residue_quantum_field_bundle",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "THEOREM",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19788,
+        "source": "@dm_omega_to_chromatic_representation",
+        "relation": "REPRESENTS_AS",
+        "target": "@dm_chromatic_optional_branch",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPTIONAL_OPEN_HANDLE",
+        "provenance": "DM2.0"
+      }
+    ]
+  },
+  "address": "@dm_chromatic_optional_branch",
+  "address_sha256": "4efe3d90c7997ac5977625ea7b8ff6291737f441961ad0ede3a778fd05517b03"
+}

@@ -1,0 +1,203 @@
+{
+  "schema": "ASTRAEUS_API_QMO_NATIVE_CAUSAL_ORDER_GLOBAL_PIVOT_V1",
+  "qmo_id": "QMO-AST-DM-WL-067",
+  "name": "Global Open-Handle Ranking / Native Causal Order Pivot",
+  "atlas_version": "WL-v183",
+  "status": "API_NEXT_HANDLE_SELECTED_NOT_PARENT_PROMOTED",
+  "ranking_record": {
+    "handle": "@native_causal_order",
+    "open_targets": [
+      "@dm_hidden_state_embedding",
+      "@dm_history_to_continuity_strength",
+      "@dm_mode0_network_selection_rule"
+    ],
+    "anchor_support_sum": 8,
+    "rank_sum": 4,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 1,
+        "handle": "@native_causal_order",
+        "anchor_support": 3,
+        "min_parent_distance": 1,
+        "lexical_signal": 1,
+        "supporting_anchors": [
+          "@admissibility",
+          "@continuity_redistribution",
+          "@inheritance_morphism"
+        ]
+      },
+      {
+        "open_target": "@dm_history_to_continuity_strength",
+        "rank": 2,
+        "handle": "@native_causal_order",
+        "anchor_support": 2,
+        "min_parent_distance": 1,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@admissibility",
+          "@continuity_redistribution"
+        ]
+      },
+      {
+        "open_target": "@dm_mode0_network_selection_rule",
+        "rank": 1,
+        "handle": "@native_causal_order",
+        "anchor_support": 3,
+        "min_parent_distance": 1,
+        "lexical_signal": 1,
+        "supporting_anchors": [
+          "@admissibility",
+          "@continuity_redistribution",
+          "@inheritance_morphism"
+        ]
+      }
+    ]
+  },
+  "source_definition": {
+    "handle": "@native_causal_order",
+    "type": "AdmissiblePartialOrder",
+    "domain": "geometric-expression events",
+    "codomain": "ordered, independent, or inadmissibly related event pairs",
+    "depends_on": [
+      "@admissibility",
+      "@recursive_inheritance",
+      "@er_network",
+      "@time_shell"
+    ],
+    "used_by": [
+      "@causality",
+      "@lorentz_limit",
+      "@locality",
+      "@graviton_propagation"
+    ],
+    "native_relation": "e_i ≺ e_j iff an admissible directed path exists from e_i to e_j",
+    "independence_relation": "e_i ∥ e_j iff neither direction is ordered",
+    "rank_condition": "e_i -> e_j implies r(e_j)>r(e_i)"
+  },
+  "open_target_registered_paths": {
+    "@dm_hidden_state_embedding": [
+      {
+        "source": "@dm_hidden_state_embedding",
+        "relation": "CONSTRAINED_BY",
+        "target": "@inheritance_morphism",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.1",
+        "origin": "DARKMATTER_2.1",
+        "origin_api": "DARKMATTER_2.1"
+      },
+      {
+        "source": "@inheritance_morphism",
+        "relation": "DEPENDS_TO",
+        "target": "@recursive_inheritance",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45097",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@recursive_inheritance",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@native_causal_order",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DEPENDSON:53953",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    "@dm_history_to_continuity_strength": [
+      {
+        "source": "@dm_history_to_continuity_strength",
+        "relation": "MAY_MODULATE",
+        "target": "@dm_local_continuity_response_coefficient",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      },
+      {
+        "source": "@dm_local_continuity_response_coefficient",
+        "relation": "DEPENDS_ON",
+        "target": "@admissibility",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      },
+      {
+        "source": "@admissibility",
+        "relation": "DIRECTED_TO",
+        "target": "@native_causal_order",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54778->54779",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    "@dm_mode0_network_selection_rule": [
+      {
+        "source": "@dm_mode0_network_selection_rule",
+        "relation": "SELECTS_ACCESS_TO",
+        "target": "@dm_hidden_s3_network",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      },
+      {
+        "source": "@dm_hidden_s3_network",
+        "relation": "USES",
+        "target": "@dm_runtime_transition_capacity",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      },
+      {
+        "source": "@dm_runtime_transition_capacity",
+        "relation": "DEPENDS_ON",
+        "target": "@admissibility",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      },
+      {
+        "source": "@admissibility",
+        "relation": "DIRECTED_TO",
+        "target": "@native_causal_order",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54778->54779",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ]
+  },
+  "finding": "The global cross-open rank exposed @native_causal_order as a high-support non-mote handle. Its registered paths enter from hidden embedding through recursive inheritance and from hidden S3/mode0/history-strength branches through admissibility. Radius-2 strict direct-neighborhood intersections are empty, so the ranking is path-level rather than an immediate exact-interface closure.",
+  "guardrails": [
+    "ranking support != OpenSlot closure",
+    "registered path != type identity",
+    "empty strict radius-2 interface is retained",
+    "native causal order != S3 History by identity"
+  ]
+}

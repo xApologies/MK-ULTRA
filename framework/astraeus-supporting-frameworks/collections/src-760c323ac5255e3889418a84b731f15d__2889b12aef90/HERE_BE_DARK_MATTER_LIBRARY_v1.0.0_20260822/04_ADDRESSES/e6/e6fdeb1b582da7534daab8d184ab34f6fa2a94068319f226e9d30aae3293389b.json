@@ -1,0 +1,56 @@
+{
+  "handle": "@anomaly_freedom",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@anomaly_freedom",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 0,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@native_constraint_closure",
+        "relation": "USED_BY",
+        "target": "@anomaly_freedom",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_USEDBY:54138"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 760,
+        "source": "@native_constraint_closure",
+        "relation": "USED_BY",
+        "target": "@anomaly_freedom",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_USEDBY:54138"
+      }
+    ]
+  },
+  "address": "@anomaly_freedom",
+  "address_sha256": "e6fdeb1b582da7534daab8d184ab34f6fa2a94068319f226e9d30aae3293389b"
+}

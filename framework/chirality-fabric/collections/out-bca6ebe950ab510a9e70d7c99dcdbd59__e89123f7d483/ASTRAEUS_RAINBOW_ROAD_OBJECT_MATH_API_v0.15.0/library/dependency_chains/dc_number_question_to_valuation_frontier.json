@@ -1,0 +1,106 @@
+{
+  "seed": "@number_question",
+  "seed_kind": "qmo",
+  "initial_focus": "@number_question",
+  "steps": [
+    {
+      "step": 1,
+      "input_focus": "@number_question",
+      "progression_relation": "ADVANCES_TO",
+      "resolved_qmo": "@number_object_readout_frontier",
+      "edge_id": "E-00277",
+      "graph_handle": "@dc_number_question_to_valuation_frontier_g01",
+      "landscape_handle": "@dc_number_question_to_valuation_frontier_l01"
+    },
+    {
+      "step": 2,
+      "input_focus": "@number_object_readout_frontier",
+      "progression_relation": "ADVANCES_TO",
+      "resolved_qmo": "@number_valuation_codomain_frontier",
+      "edge_id": "E-00321",
+      "graph_handle": "@dc_number_question_to_valuation_frontier_g02",
+      "landscape_handle": "@dc_number_question_to_valuation_frontier_l02"
+    }
+  ],
+  "terminal": {
+    "state": "OPEN_FORK",
+    "focus": "@number_valuation_codomain_frontier",
+    "exploration_targets": [
+      {
+        "relation": "USES",
+        "target": "@foundational_valuation_lift",
+        "edge_id": "E-00322"
+      },
+      {
+        "relation": "USES",
+        "target": "@valuation_classifier_role_separation",
+        "edge_id": "E-00323"
+      },
+      {
+        "relation": "USES",
+        "target": "@resolution_readout",
+        "edge_id": "E-00324"
+      },
+      {
+        "relation": "USES",
+        "target": "@transduction",
+        "edge_id": "E-00325"
+      },
+      {
+        "relation": "USES",
+        "target": "@closed_domain_unity",
+        "edge_id": "E-00326"
+      }
+    ]
+  },
+  "visited_focuses": [
+    "@number_question",
+    "@number_object_readout_frontier",
+    "@number_valuation_codomain_frontier"
+  ],
+  "landscape_depth": 1,
+  "direction": "bidirectional",
+  "subdomain_eligibility": false,
+  "chain_id": "DC-cc8cefae7c6e",
+  "qmo_address": "@dc_number_question_to_valuation_frontier",
+  "canonical_name": "Dependency Chain: @number_question",
+  "status": "ACTIVE_DEPENDENCY_CHAIN",
+  "construction": {
+    "operator": "@dependency_chain",
+    "progression_policy": [
+      "ADVANCES_TO",
+      "RESOLVES_TO",
+      "CLOSES_TO",
+      "DERIVES_TO",
+      "PROMOTES_TO"
+    ],
+    "max_steps": 6,
+    "landscape_depth": 1,
+    "direction": "bidirectional",
+    "member_claim_promotion": false
+  },
+  "history": {
+    "policy": "APPEND_ONLY",
+    "created_in_api_release": "0.13.0",
+    "created_live_model_revision": "v0.26.0",
+    "step_count": 2
+  },
+  "resolution_context": {
+    "operator": "@resolution",
+    "policy": "EACH_CHAIN_STEP_HAS_ITS_OWN_GRAPH/LANDSCAPE_RESOLUTION; CHAIN_ORDER_PRESERVED"
+  },
+  "bandwidth_context": {
+    "operator": "@bandwidth_algebra",
+    "policy": "ONLY_REGISTERED_PROGRESSIONS_AND_EDGES_AVAILABLE_TO_CHAIN"
+  },
+  "domain_state": "OPEN_NOT_A_DOMAIN",
+  "provenance": [
+    "GENESIS_DIRECTION::2026-08-22_dependency_chain",
+    "QMO:@number_question",
+    "QMO:@dc_number_question_to_valuation_frontier_g01",
+    "QMO:@dc_number_question_to_valuation_frontier_g02",
+    "QMO:@dc_number_question_to_valuation_frontier_l01",
+    "QMO:@dc_number_question_to_valuation_frontier_l02"
+  ],
+  "semantic_guard": "A Dependency Chain records recursive resolution History. Chain construction does not promote member claims. Domain status requires an independently valid terminal closure condition."
+}

@@ -1,0 +1,88 @@
+{
+  "handle": "@unit_of_energy",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Unit Of Energy",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 2,
+    "live_out_count": 0,
+    "live_in_count": 1,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 1,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@unit_of_energy",
+        "relation": "REALIZED_BY",
+        "target": "@native_unit_of_energy",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@native_unit_of_energy REALIZES @unit_of_energy); rule=REALIZES→REALIZED_BY"
+      },
+      {
+        "source": "@native_unit_of_energy",
+        "relation": "REALIZES",
+        "target": "@unit_of_energy",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-45",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; The native energy unit becomes readable as the unit of energy."
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 3093,
+        "source": "@unit_of_energy",
+        "relation": "REALIZED_BY",
+        "target": "@native_unit_of_energy",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@native_unit_of_energy REALIZES @unit_of_energy); rule=REALIZES→REALIZED_BY"
+      },
+      {
+        "id": 2041,
+        "source": "@native_unit_of_energy",
+        "relation": "REALIZES",
+        "target": "@unit_of_energy",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; The native energy unit becomes readable as the unit of energy."
+      },
+      {
+        "id": 19680,
+        "source": "@native_unit_of_energy",
+        "relation": "REALIZES",
+        "target": "@unit_of_energy",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; The native energy unit becomes readable as the unit of energy."
+      }
+    ]
+  },
+  "address": "@unit_of_energy",
+  "address_sha256": "170619d3421bcea5825412b1e99791b00c64dcfdfb537063084ff8a6662fe9ae"
+}

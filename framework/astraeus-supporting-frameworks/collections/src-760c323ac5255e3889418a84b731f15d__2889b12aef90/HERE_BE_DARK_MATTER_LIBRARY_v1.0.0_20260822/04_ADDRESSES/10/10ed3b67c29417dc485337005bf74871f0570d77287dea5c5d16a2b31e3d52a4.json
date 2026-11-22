@@ -1,0 +1,56 @@
+{
+  "handle": "@multiparticle_gravity",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@multiparticle_gravity",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 0,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@native_interaction_factorization",
+        "relation": "USED_BY",
+        "target": "@multiparticle_gravity",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_USEDBY:54044"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 777,
+        "source": "@native_interaction_factorization",
+        "relation": "USED_BY",
+        "target": "@multiparticle_gravity",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_USEDBY:54044"
+      }
+    ]
+  },
+  "address": "@multiparticle_gravity",
+  "address_sha256": "10ed3b67c29417dc485337005bf74871f0570d77287dea5c5d16a2b31e3d52a4"
+}

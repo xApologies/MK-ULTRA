@@ -1,0 +1,25 @@
+{
+  "handle": "landscape://DL-DM-E079-R4R7-EVENT-WITNESS",
+  "object_type": "dependency_landscape",
+  "status": "CONDITIONAL_FORWARD_CLOSURE",
+  "domain": "LANDSCAPE",
+  "namespace": "mk43://landscape",
+  "name": "DL-DM-E079-R4R7-EVENT-WITNESS",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "DEPENDENCY_LANDSCAPE",
+  "metadata": {
+    "id": "DL-DM-E079-R4R7-EVENT-WITNESS",
+    "seed": "@dm_ucm_dynamic_event_survival",
+    "status": "CONDITIONAL_FORWARD_CLOSURE",
+    "source_file": "live/registry",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1\", \"landscape_id\": \"DL-DM-E079-R4R7-EVENT-WITNESS\", \"seed\": \"@dm_ucm_dynamic_event_survival\", \"status\": \"CONDITIONAL_FORWARD_CLOSURE\", \"nodes\": [\"@dm_hidden_s3_network\", \"@universal_coupling\", \"@dm_ucm_dynamic_event_survival\", \"@dm_conditional_ucm_dynamic_event_witness\"], \"route\": [\"R4 candidate possibility\", \"R5 constrained selection\", \"R6 survivability\", \"R7 persistence\", \"U_dyn event record\"], \"terminal\": {\"state\": \"CONDITIONAL_GATE_1_CLOSED\", \"iteration\": 4, \"focus\": \"@dm_conditional_ucm_dynamic_event_witness\", \"reason\": \"One persistent full-only corridor is sufficient to separate event records; existence/selection remains proof debt.\"}}"
+  },
+  "address": "landscape://DL-DM-E079-R4R7-EVENT-WITNESS",
+  "address_sha256": "b1039d72d7b9da3f05f23da836cd05ef2e285a1a292dde27954847dc54822d26"
+}

@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mk43-collapse-intelligence-port"
+version = "1.0.0"
+description = "Standalone Collapse Intelligence AI port for MK43 BRANE"
+requires-python = ">=3.11"
+dependencies = ["mk43-brane>=1.1.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

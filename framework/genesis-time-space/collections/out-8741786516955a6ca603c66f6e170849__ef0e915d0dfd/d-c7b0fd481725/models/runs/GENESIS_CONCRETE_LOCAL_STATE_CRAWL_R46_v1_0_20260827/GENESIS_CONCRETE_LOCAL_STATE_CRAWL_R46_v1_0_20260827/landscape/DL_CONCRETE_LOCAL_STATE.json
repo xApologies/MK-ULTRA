@@ -1,0 +1,70 @@
+{
+  "qmo_address": "@dl/concrete_local_state",
+  "state_family": "R_H(t)=(V_t,E_t,w_t,chi_t,H_t)_R",
+  "network": "G_H^R=(V_H,E_H,w)",
+  "source_predicates": {
+    "capacity": "T_run(e)=sup_{Phi in F_run(G_*)} Phi(e)",
+    "capacity_bound": "T_run(e_ij)<=U_ij^+, U_ij^+=kappa_ij A_ij DeltaC_ij^+",
+    "history_preorder": "e <=_H f iff S_R(e) subseteq S_R(f)",
+    "projection_residue": "B_full^R not ~=_F B_vis^R sufficient survival witness"
+  },
+  "mask_clause_status": [
+    {
+      "clause": 1,
+      "name": "Environment address / local carrier",
+      "status": "PARTIAL",
+      "source": "@r46/hidden_state_bundle",
+      "notes": "Concrete indexed relational-state family exists, but source does not identify its fiber index directly with an A_E address in this object."
+    },
+    {
+      "clause": 2,
+      "name": "Joint readability of organization/chirality/Resolution/Bandwidth/recursive ordering",
+      "status": "PARTIAL",
+      "source": "@r46/hidden_state_bundle",
+      "notes": "State carries chirality and History; Bandwidth/capacity dependencies exist. Resolution is not an explicit coordinate of R_H(t)."
+    },
+    {
+      "clause": 3,
+      "name": "Persistent-boundary / Time-Shell compatibility",
+      "status": "PARTIAL",
+      "source": "@r46/runtime_transition_capacity",
+      "notes": "Runtime capacity is explicitly under active Time-Space constraints, but no per-lift Time-Shell Boolean is emitted."
+    },
+    {
+      "clause": 4,
+      "name": "Projection admissibility",
+      "status": "PARTIAL",
+      "source": "@r46/projection_residue_survival",
+      "notes": "Source supplies a post-projection residue-survival witness, not a direct pre-projection candidate Boolean."
+    },
+    {
+      "clause": 5,
+      "name": "Bandwidth / supportability",
+      "status": "STRONG_PARTIAL",
+      "source": "@r46/runtime_transition_capacity",
+      "notes": "A source functional and local upper envelope now exist for a concrete relationship e; numerical/instance values remain absent."
+    },
+    {
+      "clause": 6,
+      "name": "History compatibility",
+      "status": "STRONG_PARTIAL",
+      "source": "@r46/history_support_preorder",
+      "notes": "A source relation orders relationships by invariant-preserving admissible History support."
+    },
+    {
+      "clause": 7,
+      "name": "Occupancy/localized realization",
+      "status": "OPEN",
+      "source": "@r46/hidden_state_bundle",
+      "notes": "The state family is concrete, but no explicit occupancy Boolean for each torus lift is supplied."
+    },
+    {
+      "clause": 8,
+      "name": "Invariant residue preservation",
+      "status": "STRONG_PARTIAL",
+      "source": "@r46/projection_residue_survival",
+      "notes": "A sufficient field-bundle survival witness exists, but requires matched full/visible constructions."
+    }
+  ],
+  "status": "CONCRETE_STATE_FAMILY_FOUND__LIFT_CARRIER_BRIDGE_OPEN"
+}

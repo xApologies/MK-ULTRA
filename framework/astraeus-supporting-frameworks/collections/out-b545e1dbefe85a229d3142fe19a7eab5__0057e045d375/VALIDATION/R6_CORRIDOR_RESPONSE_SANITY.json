@@ -1,0 +1,13 @@
+{
+  "schema": "ASTRAEUS_DM_R6_CORRIDOR_RESPONSE_SANITY_V1",
+  "date": "2026-08-18",
+  "purpose": "Computational sanity check only; not the proof of WL039-T1.",
+  "two_edge_path": "p --a-- h --b-- q",
+  "assumptions": ["a>0", "b>0"],
+  "schur_reduction": "Lambda_H=(ab/(a+b))*[[1,-1],[-1,1]]",
+  "effective_weight": "ab/(a+b)>0",
+  "kernel": "span{(1,1)}",
+  "relative_test_vector": "(1,-1)",
+  "quadratic_response": "(1,-1)^T Lambda_H (1,-1)=4ab/(a+b)>0",
+  "status": "PASS_SYMBOLIC_SANITY"
+}

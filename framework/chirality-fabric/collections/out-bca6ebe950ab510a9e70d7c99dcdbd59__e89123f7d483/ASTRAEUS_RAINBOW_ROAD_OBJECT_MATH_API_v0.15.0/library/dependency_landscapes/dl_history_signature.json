@@ -1,0 +1,183 @@
+{
+  "landscape_id": "DL-a12ffa9e8e21",
+  "qmo_address": "@dl_history_signature",
+  "canonical_name": "Dependency Landscape: @recovery_history_signature_minimality, @holonomy_history_signature",
+  "status": "DERIVED_CLOSED_INTERNAL",
+  "roots": [
+    "@recovery_history_signature_minimality",
+    "@holonomy_history_signature"
+  ],
+  "inputs": [
+    {
+      "handle": "@recovery_history_signature_minimality",
+      "kind": "qmo"
+    },
+    {
+      "handle": "@holonomy_history_signature",
+      "kind": "qmo"
+    }
+  ],
+  "construction": {
+    "operator": "@dependency_landscape",
+    "depth": 2,
+    "direction": "bidirectional",
+    "edge_policy": "REGISTERED_EDGES_ONLY",
+    "connecting_path_policy": "REGISTERED_UNDIRECTED_PATH_FOR_LANDSCAPE_BRIDGE",
+    "member_claim_promotion": false
+  },
+  "member_qmos": [
+    "@core_witness_collision",
+    "@history_holonomy",
+    "@history_trace",
+    "@holonomy_history_signature",
+    "@object_resolution_recovery_witness_minimality",
+    "@recovery_discriminator",
+    "@recovery_history_signature_minimality",
+    "@recovery_witness_counterexample_crawl"
+  ],
+  "member_edge_ids": [
+    "E-00114",
+    "E-00142",
+    "E-00143",
+    "E-00146",
+    "E-00147",
+    "E-00148",
+    "E-00149"
+  ],
+  "member_edges": [
+    {
+      "edge_id": "E-00114",
+      "source": "@object_resolution_recovery_witness_minimality",
+      "relation": "ADVANCES_TO",
+      "target": "@recovery_witness_counterexample_crawl",
+      "graph_family": "self_build",
+      "status": "SELF_BUILD_FRONTIER",
+      "confidence": "candidate",
+      "audit_status": "unpromoted",
+      "provenance": [
+        "SELF_BUILD_PASS_001",
+        "LIVE_MODEL::NF-006"
+      ]
+    },
+    {
+      "edge_id": "E-00142",
+      "source": "@core_witness_collision",
+      "relation": "REQUIRES",
+      "target": "@recovery_discriminator",
+      "graph_family": "recovery",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "CE-RW-001"
+      ]
+    },
+    {
+      "edge_id": "E-00143",
+      "source": "@history_trace",
+      "relation": "REALIZES_FOR_COUNTEREXAMPLE",
+      "target": "@recovery_discriminator",
+      "graph_family": "recovery",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "CE-RW-001"
+      ]
+    },
+    {
+      "edge_id": "E-00146",
+      "source": "@recovery_witness_counterexample_crawl",
+      "relation": "ADVANCES_TO",
+      "target": "@recovery_history_signature_minimality",
+      "graph_family": "recovery",
+      "status": "SELF_BUILD_FRONTIER",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_003"
+      ]
+    },
+    {
+      "edge_id": "E-00147",
+      "source": "@recovery_history_signature_minimality",
+      "relation": "QUERIES",
+      "target": "@history_holonomy",
+      "graph_family": "recovery",
+      "status": "SELF_BUILD_FRONTIER",
+      "confidence": "high",
+      "audit_status": "source_aligned",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "FIVE_BRANCH_NATIVE_CORPUS"
+      ]
+    },
+    {
+      "edge_id": "E-00148",
+      "source": "@recovery_history_signature_minimality",
+      "relation": "QUERIES",
+      "target": "@holonomy_history_signature",
+      "graph_family": "recovery",
+      "status": "SELF_BUILD_FRONTIER",
+      "confidence": "high",
+      "audit_status": "source_aligned",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "FIVE_BRANCH_NATIVE_CORPUS"
+      ]
+    },
+    {
+      "edge_id": "E-00149",
+      "source": "@recovery_history_signature_minimality",
+      "relation": "TESTS",
+      "target": "@recovery_discriminator",
+      "graph_family": "recovery",
+      "status": "SELF_BUILD_FRONTIER",
+      "confidence": "high",
+      "audit_status": "source_aligned",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "FIVE_BRANCH_NATIVE_CORPUS"
+      ]
+    }
+  ],
+  "statistics": {
+    "qmo_count": 8,
+    "edge_count": 7,
+    "weak_component_count": 1,
+    "component_sizes": [
+      8
+    ]
+  },
+  "resolution_context": {
+    "operator": "@resolution",
+    "policy": "PRESERVE_MEMBER_RESOLUTION_STATE; NO_EXTRA_QUOTIENT_BY_LANDSCAPE",
+    "landscape_resolution": "QUERY_RELATIVE_AND_HISTORY_BEARING"
+  },
+  "bandwidth_context": {
+    "operator": "@bandwidth_algebra",
+    "policy": "REGISTERED_EDGE_AVAILABILITY_ONLY; LANDSCAPE_DOES_NOT_INVENT_AVAILABLE_TRANSFORMATIONS",
+    "landscape_bandwidth": "AVAILABLE_MEMBER_DEPENDENCY_STRUCTURE"
+  },
+  "history": {
+    "policy": "APPEND_ONLY",
+    "created_in_api_release": "0.5.0",
+    "created_live_model_revision": "v0.18.0",
+    "parent_landscapes": [],
+    "parent_qmos": [
+      "@recovery_history_signature_minimality",
+      "@holonomy_history_signature"
+    ]
+  },
+  "provenance": [
+    "API_4.3::RP-30.13_API_CRAWL_CONTRACT",
+    "API_4.3::RP-45_DEPENDENCY_LANDSCAPE_DENSIFICATION",
+    "GENESIS_DIRECTION::2026-08-22",
+    "QMO:@recovery_history_signature_minimality",
+    "QMO:@holonomy_history_signature"
+  ],
+  "semantic_guard": "A landscape is a queryable mathematical graph object over already registered structure. Membership copies/preserves status; it does not promote or falsify the member QMO.",
+  "notes": "Initial current-frontier Dependency Landscape."
+}

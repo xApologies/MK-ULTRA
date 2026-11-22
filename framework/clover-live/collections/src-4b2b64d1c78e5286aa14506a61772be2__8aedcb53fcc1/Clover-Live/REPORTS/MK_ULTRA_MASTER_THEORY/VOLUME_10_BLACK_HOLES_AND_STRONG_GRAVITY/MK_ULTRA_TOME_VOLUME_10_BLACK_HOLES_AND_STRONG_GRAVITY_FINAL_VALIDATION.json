@@ -1,0 +1,176 @@
+{
+  "schema": "tome-final-volume-assembly-validation/v1",
+  "created_at": "2026-08-12T12:07:46.029667+00:00",
+  "assembly_method": "BYTE_VERIFIED_SEALED_CHAPTER_PDF_CONCATENATION_WITH_CONTINUOUS_VOLUME_PAGINATION",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1_SEALED_CHAPTER_ARTIFACT_ASSEMBLY",
+  "source_renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "volume_id": "V10",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_10_BLACK_HOLES_AND_STRONG_GRAVITY/MK_ULTRA_TOME_VOLUME_10_BLACK_HOLES_AND_STRONG_GRAVITY_FINAL.pdf",
+    "bytes": 2059595,
+    "sha256": "3ea0cb7f141280badff94c4aeafca2f073488626ce0d2c14ede7d652d4544d88"
+  },
+  "actual_pages": 37,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V10-C01": 3,
+    "V10-C02": 10,
+    "V10-C03": 16,
+    "V10-C04": 22,
+    "V10-C05": 28,
+    "V10-C06": 34
+  },
+  "chapter_count": 6,
+  "chapter_inputs": [
+    {
+      "chapter_id": "V10-C01",
+      "source_sha256": "fc8a340e201f82d78b65b75e9290b88a002af6b59d65ae74daa641cd5cc3f12d",
+      "published_source_sha256": "fc8a340e201f82d78b65b75e9290b88a002af6b59d65ae74daa641cd5cc3f12d",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1341,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_10_BLACK_HOLES_AND_STRONG_GRAVITY/MK_ULTRA_TOME_V10_C01_BLACK_HOLE_GEOMETRY.pdf",
+        "bytes": 166502,
+        "sha256": "95a7c4bd1dc9bf73ace7e836cd9ab370d2fc02b403c59b1b565b57d6b957a809"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_10_BLACK_HOLES_AND_STRONG_GRAVITY/MK_ULTRA_TOME_V10_C01_BLACK_HOLE_GEOMETRY_VALIDATION.json",
+        "bytes": 2793,
+        "sha256": "e7907e7f4633bfd517a043b3bd48307b334a91f86972372dd78d707359c5da3a"
+      },
+      "pages": 7,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 3,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V10-C02",
+      "source_sha256": "2df2529819ee15a3dd17ba4825f0666c440d6e07fedd7b8858b45f8f45d0f6e4",
+      "published_source_sha256": "2df2529819ee15a3dd17ba4825f0666c440d6e07fedd7b8858b45f8f45d0f6e4",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1069,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_10_BLACK_HOLES_AND_STRONG_GRAVITY/MK_ULTRA_TOME_V10_C02_HORIZONS_TRAPPED_SURFACES_AND_CAUSAL_STRUCTURE.pdf",
+        "bytes": 154618,
+        "sha256": "fcc7e5d23db059dbfd75e4d3e178e39246475082e536b85877ef604ea914eae3"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_10_BLACK_HOLES_AND_STRONG_GRAVITY/MK_ULTRA_TOME_V10_C02_HORIZONS_TRAPPED_SURFACES_AND_CAUSAL_STRUCTURE_VALIDATION.json",
+        "bytes": 2815,
+        "sha256": "2dae88043d3a983c747dbf1c9839ab3c01823f20d7ab597b02e39a0383f554d7"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 10,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V10-C03",
+      "source_sha256": "6e659bd1b32d01fe631166322ffa8482a82ce111c9ae035ebf20c4e11c4169d0",
+      "published_source_sha256": "6e659bd1b32d01fe631166322ffa8482a82ce111c9ae035ebf20c4e11c4169d0",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1076,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_10_BLACK_HOLES_AND_STRONG_GRAVITY/MK_ULTRA_TOME_V10_C03_KERR_SCHWARZSCHILD_AND_CHARGED_FAMILIES.pdf",
+        "bytes": 149333,
+        "sha256": "f98d98d2dc0cdb07591487d93caba86c1b014672fc6cbddc03dc87ee8cee0ec5"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_10_BLACK_HOLES_AND_STRONG_GRAVITY/MK_ULTRA_TOME_V10_C03_KERR_SCHWARZSCHILD_AND_CHARGED_FAMILIES_VALIDATION.json",
+        "bytes": 2807,
+        "sha256": "e3cd71c852c1d988bc7ca7b61fb6a065df1a1bccb75d3753a4666f71cb265f98"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 16,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V10-C04",
+      "source_sha256": "dcba3cfc3bf09b209b207403fe48cc42d04419f3a4cee4e76fa670e95d85fd02",
+      "published_source_sha256": "dcba3cfc3bf09b209b207403fe48cc42d04419f3a4cee4e76fa670e95d85fd02",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 986,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_10_BLACK_HOLES_AND_STRONG_GRAVITY/MK_ULTRA_TOME_V10_C04_BLACK_HOLE_THERMODYNAMICS_AND_RADIATION.pdf",
+        "bytes": 145999,
+        "sha256": "e370912d72d63155920994e77f5da73d5168bd712dc673568e916a988e97d5c1"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_10_BLACK_HOLES_AND_STRONG_GRAVITY/MK_ULTRA_TOME_V10_C04_BLACK_HOLE_THERMODYNAMICS_AND_RADIATION_VALIDATION.json",
+        "bytes": 2807,
+        "sha256": "7ca3d98b7a7be29758b2023b88eb32b3d4b26188d428fa3d052979e82079e92a"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 22,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V10-C05",
+      "source_sha256": "708c638e80a33b3b8129735a4450dd5a17b90483bbc7b76fe4f9500dd65d2937",
+      "published_source_sha256": "708c638e80a33b3b8129735a4450dd5a17b90483bbc7b76fe4f9500dd65d2937",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1036,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_10_BLACK_HOLES_AND_STRONG_GRAVITY/MK_ULTRA_TOME_V10_C05_INTERIOR_STRUCTURE_AND_INFORMATION_CLOSURE.pdf",
+        "bytes": 147857,
+        "sha256": "e7361be3a47d6f1f614f830735da40d6df1b7b25d86673d50d52f4084e1b7403"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_10_BLACK_HOLES_AND_STRONG_GRAVITY/MK_ULTRA_TOME_V10_C05_INTERIOR_STRUCTURE_AND_INFORMATION_CLOSURE_VALIDATION.json",
+        "bytes": 2810,
+        "sha256": "f8d56cdd0a87c0e0932c0ecad42ee1e79db86af833774a436615c9f70a32598c"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 28,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V10-C06",
+      "source_sha256": "2c0d4a824830274b71af2626940ad143f923d5167836d515f1e86b00d9ea9a2d",
+      "published_source_sha256": "2c0d4a824830274b71af2626940ad143f923d5167836d515f1e86b00d9ea9a2d",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1017,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_10_BLACK_HOLES_AND_STRONG_GRAVITY/MK_ULTRA_TOME_V10_C06_STRONG_GRAVITY_SIGNATURES_AND_OPEN_PROBLEMS.pdf",
+        "bytes": 156283,
+        "sha256": "9a09cd74f6be7cdc4d552cecd71d5222d7c63587ef80522eec9988b7f84f29a9"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_10_BLACK_HOLES_AND_STRONG_GRAVITY/MK_ULTRA_TOME_V10_C06_STRONG_GRAVITY_SIGNATURES_AND_OPEN_PROBLEMS_VALIDATION.json",
+        "bytes": 2811,
+        "sha256": "0799ebd68cb1d12a55c45eb0f4e4e908861b3e9851700d36445da1e046588ec9"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 34,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    }
+  ],
+  "raw_latex_guard": {
+    "result": "PASS_INHERITED_FROM_QUALIFIED_CHAPTER_RECEIPTS",
+    "hits": []
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V10-C01": "fc8a340e201f82d78b65b75e9290b88a002af6b59d65ae74daa641cd5cc3f12d",
+    "V10-C02": "2df2529819ee15a3dd17ba4825f0666c440d6e07fedd7b8858b45f8f45d0f6e4",
+    "V10-C03": "6e659bd1b32d01fe631166322ffa8482a82ce111c9ae035ebf20c4e11c4169d0",
+    "V10-C04": "dcba3cfc3bf09b209b207403fe48cc42d04419f3a4cee4e76fa670e95d85fd02",
+    "V10-C05": "708c638e80a33b3b8129735a4450dd5a17b90483bbc7b76fe4f9500dd65d2937",
+    "V10-C06": "2c0d4a824830274b71af2626940ad143f923d5167836d515f1e86b00d9ea9a2d"
+  },
+  "source_hashes_after": {
+    "V10-C01": "fc8a340e201f82d78b65b75e9290b88a002af6b59d65ae74daa641cd5cc3f12d",
+    "V10-C02": "2df2529819ee15a3dd17ba4825f0666c440d6e07fedd7b8858b45f8f45d0f6e4",
+    "V10-C03": "6e659bd1b32d01fe631166322ffa8482a82ce111c9ae035ebf20c4e11c4169d0",
+    "V10-C04": "dcba3cfc3bf09b209b207403fe48cc42d04419f3a4cee4e76fa670e95d85fd02",
+    "V10-C05": "708c638e80a33b3b8129735a4450dd5a17b90483bbc7b76fe4f9500dd65d2937",
+    "V10-C06": "2c0d4a824830274b71af2626940ad143f923d5167836d515f1e86b00d9ea9a2d"
+  },
+  "sealed_chapter_content_change_count": 0,
+  "duplicate_chapter_inputs": [],
+  "missing_chapter_inputs": []
+}

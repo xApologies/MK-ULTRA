@@ -1,0 +1,161 @@
+{
+  "handle": "@phase_regulated_fusion_stability",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@phase_regulated_fusion_stability",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 6,
+    "xapi_raw_out_count": 0,
+    "xapi_raw_in_count": 6,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 1,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@stellar_er_architecture_and_core_stabilization",
+        "relation": "DEPENDS_TO",
+        "target": "@phase_regulated_fusion_stability",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45133"
+      },
+      {
+        "source": "@stellar_er_architecture_and_core_stabilization",
+        "relation": "DIRECTED_TO",
+        "target": "@phase_regulated_fusion_stability",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45133"
+      },
+      {
+        "source": "@stellar_er_architecture_and_core_stabilization",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@phase_regulated_fusion_stability",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45133"
+      },
+      {
+        "source": "@stellar_er_architecture_and_core_stabilization",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@phase_regulated_fusion_stability",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:45680"
+      },
+      {
+        "source": "@stellar_er_architecture_and_core_stabilization",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@phase_regulated_fusion_stability",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "EDGE_LEDGER_LINE:45133;vertical_chain:2061,vertical_chain:27804"
+      },
+      {
+        "source": "@stellar_er_architecture_and_core_stabilization",
+        "relation": "USED_BY",
+        "target": "@phase_regulated_fusion_stability",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:45814"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 1065,
+        "source": "@stellar_er_architecture_and_core_stabilization",
+        "relation": "DEPENDS_TO",
+        "target": "@phase_regulated_fusion_stability",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:45133"
+      },
+      {
+        "id": 1066,
+        "source": "@stellar_er_architecture_and_core_stabilization",
+        "relation": "DIRECTED_TO",
+        "target": "@phase_regulated_fusion_stability",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45133"
+      },
+      {
+        "id": 1067,
+        "source": "@stellar_er_architecture_and_core_stabilization",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@phase_regulated_fusion_stability",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45133"
+      },
+      {
+        "id": 1068,
+        "source": "@stellar_er_architecture_and_core_stabilization",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@phase_regulated_fusion_stability",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:45680"
+      },
+      {
+        "id": 1069,
+        "source": "@stellar_er_architecture_and_core_stabilization",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@phase_regulated_fusion_stability",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "EDGE_LEDGER_LINE:45133;vertical_chain:2061,vertical_chain:27804"
+      },
+      {
+        "id": 1070,
+        "source": "@stellar_er_architecture_and_core_stabilization",
+        "relation": "USED_BY",
+        "target": "@phase_regulated_fusion_stability",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:45814"
+      }
+    ]
+  },
+  "address": "@phase_regulated_fusion_stability",
+  "address_sha256": "b2f498f86472da2881d21e7fd261f03e23fc10dd083bc39ef4a7b1967c1f8aa6"
+}

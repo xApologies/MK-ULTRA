@@ -1,0 +1,29 @@
+{
+  "schema": "ASTRAEUS_WL036_SOURCE_RECEIPTS_V1",
+  "date": "2026-08-18",
+  "work_layer": "WL-036",
+  "api_sources": {
+    "time_space": "Time-Space API 4.3 / preserved canonical dependency index and canonical markdown",
+    "dark_matter": "Dark Matter API 2.2 direct edge registry"
+  },
+  "raw_queries": [
+    "WL036_RAW_CHIRALITY_HISTORY_COLLAPSE_MAP_PAIR.json",
+    "WL036_RAW_COLLAPSE_MAP_NEIGHBORS.json",
+    "WL036_RAW_GENESIS_PARTIAL_ISOMETRY_NEIGHBORS.json",
+    "WL036_RAW_GLOBAL_RANK_ALL7.json",
+    "WL036_RAW_MOTE_CREATION_CHIRALITY_LABELLED_PAIR.json",
+    "WL036_RAW_MOTE_CREATION_NEIGHBORS.json",
+    "WL036_RAW_MOTE_CREATION_QUALIFICATION_PAIR.json",
+    "WL036_RAW_ORIENTATION_HISTORY_COLLAPSE_MAP_PAIR.json",
+    "WL036_RAW_PARTIAL_ISOMETRY_HIDDEN_EMBED_PAIR.json",
+    "WL036_RAW_RELATIONAL_HISTORY_COLLAPSE_MAP_PAIR.json",
+    "WL036_RAW_WHITE_CORE_CHIRALITY_LABELLED_PAIR.json",
+    "WL036_RAW_WHITE_CORE_MOTE_COUPLING_NEIGHBORS.json"
+  ],
+  "source_excerpts": [
+    "WL036_SOURCE_MOTE_CREATION_CHIRALITY_REALIZATION.txt",
+    "WL036_SOURCE_MOTE_CREATION_EDGE_REGISTRY.txt",
+    "WL036_SOURCE_MOTE_HISTORY_NEIGHBORHOOD.txt"
+  ],
+  "provenance_note": "All source archives remain read-only. Work-layer reports compose source roles without creating parent edges."
+}

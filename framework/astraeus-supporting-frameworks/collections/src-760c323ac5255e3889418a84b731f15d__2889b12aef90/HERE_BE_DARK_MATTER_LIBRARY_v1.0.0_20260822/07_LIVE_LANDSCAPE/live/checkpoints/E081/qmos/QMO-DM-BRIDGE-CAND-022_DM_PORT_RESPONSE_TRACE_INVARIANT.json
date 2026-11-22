@@ -1,0 +1,27 @@
+{
+  "schema": "ASTRAEUS_QMO_CANDIDATE_V1",
+  "qmo_id": "QMO-DM-BRIDGE-CAND-022",
+  "handle": "@dm_port_response_trace_invariant",
+  "canonical_name": "Hidden Port-Response Trace Invariant",
+  "status": "LIVE_DERIVED_CLOSED_INTERNAL",
+  "checkpoint": "E081",
+  "parents": [
+    "@dm_hidden_response_operator",
+    "@dm_response_spectrum_residue_discriminator"
+  ],
+  "source_basis": [
+    "ATLAS_V36:194_V31_KRON_RESIDUAL_MONOTONICITY.md",
+    "ATLAS_V36:199_V32_HIDDEN_BOUNDARY_RESPONSE_FORM.md",
+    "PRIME2:A7 Structural Renaming Invariance"
+  ],
+  "derivation": [
+    "V31 supplies DeltaLambda_H=Lambda_full-Lambda_vis >=_PSD 0 and DeltaLambda_H != 0 for a genuine multi-port hidden component.",
+    "A nonzero positive-semidefinite finite matrix has positive trace, so tr(Lambda_full)-tr(Lambda_vis)=tr(DeltaLambda_H)>0.",
+    "Under an admissible port relabeling represented by a permutation matrix P, Lambda maps to P Lambda P^T.",
+    "Trace, rank, characteristic polynomial, and spectrum are invariant under this similarity transformation."
+  ],
+  "result": "The matched full/visible hidden-network pair has a state-level response invariant with tr(Lambda_full)>tr(Lambda_vis), and this trace gap is independent of port naming/relabeling.",
+  "math": "DeltaLambda_H >=_PSD 0, DeltaLambda_H != 0 => tr(DeltaLambda_H)>0 => tr(Lambda_full)>tr(Lambda_vis). For permutation P, tr(P Lambda P^T)=tr(Lambda).",
+  "boundary": "This proves invariance under structural port renaming. It does not yet prove that the full boundary-projection symmetry group acts on the response operator only by similarity.",
+  "physical_claim": false
+}

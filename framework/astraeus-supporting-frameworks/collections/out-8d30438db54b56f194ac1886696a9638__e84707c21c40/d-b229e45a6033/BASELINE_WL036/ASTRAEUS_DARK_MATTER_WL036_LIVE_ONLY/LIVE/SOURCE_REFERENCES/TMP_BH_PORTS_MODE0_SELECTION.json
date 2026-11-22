@@ -1,0 +1,68 @@
+{
+  "schema": "ASTRAEUS_QMO_CROSS_CRAWL_V1",
+  "seeds": [
+    "@dm_v62_black_hole_marked_galaxy_ports"
+  ],
+  "targets": [
+    "@dm_mode0_network_selection_rule"
+  ],
+  "bidirectional": true,
+  "edge_count": 1659,
+  "reachable_count": 86,
+  "distance_histogram": {
+    "0": 1,
+    "1": 1,
+    "2": 3,
+    "3": 26,
+    "4": 55
+  },
+  "paths": {
+    "@dm_v62_black_hole_marked_galaxy_ports -> @dm_mode0_network_selection_rule": [
+      {
+        "from": "@dm_v62_black_hole_marked_galaxy_ports",
+        "relation": "MARKS",
+        "to": "@galaxy",
+        "traversal": "forward",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "DM2.2_V36_BH_CARTOGRAPHY;GENESIS_CURATORIAL",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@galaxy",
+        "relation": "REPRESENTS",
+        "to": "@qmo_ast_dm_029",
+        "traversal": "reverse",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V93_V98",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@qmo_ast_dm_029",
+        "relation": "TARGETS",
+        "to": "@dm_hidden_s3_network",
+        "traversal": "forward",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V93_V98",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@dm_hidden_s3_network",
+        "relation": "SELECTS_ACCESS_TO",
+        "to": "@dm_mode0_network_selection_rule",
+        "traversal": "reverse",
+        "origin": "DARKMATTER_2.0",
+        "provenance": "DM2.0",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "OPEN_HANDLE",
+        "confidence": "high"
+      }
+    ]
+  },
+  "guardrail": "Navigation evidence only. Composed paths are not direct theorems and no parent object is promoted."
+}

@@ -1,0 +1,16 @@
+digraph G {
+  graph [bgcolor="#07101f", rankdir=LR, pad="0.3", nodesep="0.55", ranksep="0.8", label="Resolution & Readout v1.0", labelloc=t, fontcolor="#e3b76f", fontsize=24];
+  node [shape=box, style="rounded,filled", fillcolor="#101d31", color="#d7a85b", fontcolor="white", fontname="Helvetica", fontsize=12];
+  edge [color="#70b7d8", fontcolor="#d9eaf2", fontname="Helvetica", fontsize=10];
+  AB [label="Formal Bandwidth Algebra\nA_B"];
+  KR [label="Resolution congruence\nK_R"];
+  QR [label="Readable algebra\nA_B^R = A_B / K_R"];
+  GEO [label="Resolution geometry\nGeo_R(B)=Spec_T(A_B/K_R)"];
+  OBS [label="Observational identity\nObs_R"];
+  PHYS [label="Readable geometry / physics\nat R"];
+  AB -> QR [label="q_R"];
+  KR -> QR [label="identifies unavailable distinctions"];
+  QR -> GEO [label="algebraic-geometric translation"];
+  GEO -> OBS [label="readout"];
+  OBS -> PHYS;
+}

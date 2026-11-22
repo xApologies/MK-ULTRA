@@ -1,0 +1,56 @@
+{
+  "handle": "@genlang_aspect_nai",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@genlang_aspect_nai",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 0,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@genlang_aspect_nai",
+        "relation": "LANGUAGE_APPROXIMATES",
+        "target": "@destabilization",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48102;CANONICAL_API_TYPED_LINE:48102"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 377,
+        "source": "@genlang_aspect_nai",
+        "relation": "LANGUAGE_APPROXIMATES",
+        "target": "@destabilization",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48102;CANONICAL_API_TYPED_LINE:48102"
+      }
+    ]
+  },
+  "address": "@genlang_aspect_nai",
+  "address_sha256": "5d6fd14a601419d023eb24a139de80459a35b216f3da305885439365d0993a18"
+}

@@ -1,0 +1,46 @@
+{
+  "schema": "ASTRAEUS_QMO_CROSS_CRAWL_V1",
+  "seeds": [
+    "@dm_v58_matter_branch_factorization_gate"
+  ],
+  "targets": [
+    "@localized_persistent_topology"
+  ],
+  "bidirectional": true,
+  "edge_count": 1659,
+  "reachable_count": 273,
+  "distance_histogram": {
+    "0": 1,
+    "1": 4,
+    "2": 25,
+    "3": 82,
+    "4": 161
+  },
+  "paths": {
+    "@dm_v58_matter_branch_factorization_gate -> @localized_persistent_topology": [
+      {
+        "from": "@dm_v58_matter_branch_factorization_gate",
+        "relation": "REFINED_BY",
+        "to": "@dm_er_branch_readout_separation",
+        "traversal": "reverse",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V58",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@dm_er_branch_readout_separation",
+        "relation": "DEPENDS_ON",
+        "to": "@localized_persistent_topology",
+        "traversal": "forward",
+        "origin": "DARKMATTER_2.2",
+        "provenance": "DM2.2_CROSS_API",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "ATLAS_DERIVED",
+        "confidence": "high"
+      }
+    ]
+  },
+  "guardrail": "Navigation evidence only. Composed paths are not direct theorems and no parent object is promoted."
+}

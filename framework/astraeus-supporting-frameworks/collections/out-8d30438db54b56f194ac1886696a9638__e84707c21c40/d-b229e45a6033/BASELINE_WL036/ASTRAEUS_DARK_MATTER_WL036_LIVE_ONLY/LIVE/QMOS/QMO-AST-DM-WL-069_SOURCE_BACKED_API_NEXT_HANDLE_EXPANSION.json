@@ -1,0 +1,566 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_API_NEXT_HANDLE_EXPANSION_V1",
+  "qmo_id": "QMO-AST-DM-WL-069",
+  "name": "Source-Backed API Next-Handle Expansion",
+  "atlas_version": "WL-v185",
+  "status": "WORK_LAYER_QUERY_EXPANSION_NOT_PARENT_PROMOTED",
+  "policy": {
+    "timespace_edges": "admit high+medium only when API registry audit_status is recovered/direct_source and provenance is not DERIVED",
+    "darkmatter_edges": "high-confidence direct registry only",
+    "effect": "query-surface expansion only; confidence/provenance retained; no parent edge promotion"
+  },
+  "open_targets": [
+    "@dm_dark_matter_qualification_nonempty",
+    "@dm_hidden_state_embedding",
+    "@dm_metric_action_selection",
+    "@dm_history_to_continuity_strength",
+    "@dm_mode0_network_selection_rule",
+    "@dm_native_density_to_readable_source",
+    "@dm_omega_to_chromatic_representation"
+  ],
+  "used_qmo_handle_count_before_expansion": 266,
+  "top_ranked_unseen_handles": [
+    {
+      "handle": "@admissible_continuation",
+      "open_count": 6,
+      "avg_distance": 3.8333333333333335,
+      "min_distance": 2,
+      "high_edges_sum": 19,
+      "medium_edges_sum": 4,
+      "hits": [
+        {
+          "open": "@dm_hidden_state_embedding",
+          "distance": 2,
+          "high_edges": 2,
+          "medium_edges": 0
+        },
+        {
+          "open": "@dm_history_to_continuity_strength",
+          "distance": 3,
+          "high_edges": 2,
+          "medium_edges": 1
+        },
+        {
+          "open": "@dm_mode0_network_selection_rule",
+          "distance": 4,
+          "high_edges": 4,
+          "medium_edges": 0
+        },
+        {
+          "open": "@dm_omega_to_chromatic_representation",
+          "distance": 4,
+          "high_edges": 3,
+          "medium_edges": 1
+        },
+        {
+          "open": "@dm_dark_matter_qualification_nonempty",
+          "distance": 5,
+          "high_edges": 4,
+          "medium_edges": 1
+        },
+        {
+          "open": "@dm_native_density_to_readable_source",
+          "distance": 5,
+          "high_edges": 4,
+          "medium_edges": 1
+        }
+      ]
+    },
+    {
+      "handle": "@continuation_operator",
+      "open_count": 6,
+      "avg_distance": 4.0,
+      "min_distance": 2,
+      "high_edges_sum": 19,
+      "medium_edges_sum": 5,
+      "hits": [
+        {
+          "open": "@dm_hidden_state_embedding",
+          "distance": 2,
+          "high_edges": 2,
+          "medium_edges": 0
+        },
+        {
+          "open": "@dm_history_to_continuity_strength",
+          "distance": 4,
+          "high_edges": 2,
+          "medium_edges": 2
+        },
+        {
+          "open": "@dm_mode0_network_selection_rule",
+          "distance": 4,
+          "high_edges": 4,
+          "medium_edges": 0
+        },
+        {
+          "open": "@dm_omega_to_chromatic_representation",
+          "distance": 4,
+          "high_edges": 3,
+          "medium_edges": 1
+        },
+        {
+          "open": "@dm_dark_matter_qualification_nonempty",
+          "distance": 5,
+          "high_edges": 4,
+          "medium_edges": 1
+        },
+        {
+          "open": "@dm_native_density_to_readable_source",
+          "distance": 5,
+          "high_edges": 4,
+          "medium_edges": 1
+        }
+      ]
+    },
+    {
+      "handle": "@occupancy",
+      "open_count": 6,
+      "avg_distance": 4.0,
+      "min_distance": 3,
+      "high_edges_sum": 18,
+      "medium_edges_sum": 6,
+      "hits": [
+        {
+          "open": "@dm_omega_to_chromatic_representation",
+          "distance": 3,
+          "high_edges": 2,
+          "medium_edges": 1
+        },
+        {
+          "open": "@dm_hidden_state_embedding",
+          "distance": 4,
+          "high_edges": 3,
+          "medium_edges": 1
+        },
+        {
+          "open": "@dm_history_to_continuity_strength",
+          "distance": 4,
+          "high_edges": 3,
+          "medium_edges": 1
+        },
+        {
+          "open": "@dm_mode0_network_selection_rule",
+          "distance": 4,
+          "high_edges": 3,
+          "medium_edges": 1
+        },
+        {
+          "open": "@dm_native_density_to_readable_source",
+          "distance": 4,
+          "high_edges": 3,
+          "medium_edges": 1
+        },
+        {
+          "open": "@dm_dark_matter_qualification_nonempty",
+          "distance": 5,
+          "high_edges": 4,
+          "medium_edges": 1
+        }
+      ]
+    },
+    {
+      "handle": "@genlang_phrase_sha_da_rel",
+      "open_count": 6,
+      "avg_distance": 4.166666666666667,
+      "min_distance": 3,
+      "high_edges_sum": 24,
+      "medium_edges_sum": 1,
+      "hits": [
+        {
+          "open": "@dm_hidden_state_embedding",
+          "distance": 3,
+          "high_edges": 3,
+          "medium_edges": 0
+        },
+        {
+          "open": "@dm_history_to_continuity_strength",
+          "distance": 3,
+          "high_edges": 3,
+          "medium_edges": 0
+        },
+        {
+          "open": "@dm_mode0_network_selection_rule",
+          "distance": 4,
+          "high_edges": 4,
+          "medium_edges": 0
+        },
+        {
+          "open": "@dm_dark_matter_qualification_nonempty",
+          "distance": 5,
+          "high_edges": 5,
+          "medium_edges": 0
+        },
+        {
+          "open": "@dm_native_density_to_readable_source",
+          "distance": 5,
+          "high_edges": 5,
+          "medium_edges": 0
+        },
+        {
+          "open": "@dm_omega_to_chromatic_representation",
+          "distance": 5,
+          "high_edges": 4,
+          "medium_edges": 1
+        }
+      ]
+    },
+    {
+      "handle": "@containment_volume",
+      "open_count": 6,
+      "avg_distance": 4.166666666666667,
+      "min_distance": 3,
+      "high_edges_sum": 21,
+      "medium_edges_sum": 4,
+      "hits": [
+        {
+          "open": "@dm_native_density_to_readable_source",
+          "distance": 3,
+          "high_edges": 3,
+          "medium_edges": 0
+        },
+        {
+          "open": "@dm_hidden_state_embedding",
+          "distance": 4,
+          "high_edges": 4,
+          "medium_edges": 0
+        },
+        {
+          "open": "@dm_metric_action_selection",
+          "distance": 4,
+          "high_edges": 3,
+          "medium_edges": 1
+        },
+        {
+          "open": "@dm_mode0_network_selection_rule",
+          "distance": 4,
+          "high_edges": 4,
+          "medium_edges": 0
+        },
+        {
+          "open": "@dm_dark_matter_qualification_nonempty",
+          "distance": 5,
+          "high_edges": 5,
+          "medium_edges": 0
+        },
+        {
+          "open": "@dm_history_to_continuity_strength",
+          "distance": 5,
+          "high_edges": 2,
+          "medium_edges": 3
+        }
+      ]
+    },
+    {
+      "handle": "@recursive_depth",
+      "open_count": 6,
+      "avg_distance": 4.5,
+      "min_distance": 4,
+      "high_edges_sum": 25,
+      "medium_edges_sum": 2,
+      "hits": [
+        {
+          "open": "@dm_hidden_state_embedding",
+          "distance": 4,
+          "high_edges": 3,
+          "medium_edges": 1
+        },
+        {
+          "open": "@dm_history_to_continuity_strength",
+          "distance": 4,
+          "high_edges": 3,
+          "medium_edges": 1
+        },
+        {
+          "open": "@dm_omega_to_chromatic_representation",
+          "distance": 4,
+          "high_edges": 4,
+          "medium_edges": 0
+        },
+        {
+          "open": "@dm_dark_matter_qualification_nonempty",
+          "distance": 5,
+          "high_edges": 5,
+          "medium_edges": 0
+        },
+        {
+          "open": "@dm_mode0_network_selection_rule",
+          "distance": 5,
+          "high_edges": 5,
+          "medium_edges": 0
+        },
+        {
+          "open": "@dm_native_density_to_readable_source",
+          "distance": 5,
+          "high_edges": 5,
+          "medium_edges": 0
+        }
+      ]
+    },
+    {
+      "handle": "@ordering",
+      "open_count": 6,
+      "avg_distance": 4.5,
+      "min_distance": 3,
+      "high_edges_sum": 20,
+      "medium_edges_sum": 7,
+      "hits": [
+        {
+          "open": "@dm_hidden_state_embedding",
+          "distance": 3,
+          "high_edges": 2,
+          "medium_edges": 1
+        },
+        {
+          "open": "@dm_omega_to_chromatic_representation",
+          "distance": 4,
+          "high_edges": 3,
+          "medium_edges": 1
+        },
+        {
+          "open": "@dm_dark_matter_qualification_nonempty",
+          "distance": 5,
+          "high_edges": 4,
+          "medium_edges": 1
+        },
+        {
+          "open": "@dm_history_to_continuity_strength",
+          "distance": 5,
+          "high_edges": 3,
+          "medium_edges": 2
+        },
+        {
+          "open": "@dm_mode0_network_selection_rule",
+          "distance": 5,
+          "high_edges": 4,
+          "medium_edges": 1
+        },
+        {
+          "open": "@dm_native_density_to_readable_source",
+          "distance": 5,
+          "high_edges": 4,
+          "medium_edges": 1
+        }
+      ]
+    },
+    {
+      "handle": "@transition_capacity",
+      "open_count": 6,
+      "avg_distance": 4.5,
+      "min_distance": 4,
+      "high_edges_sum": 16,
+      "medium_edges_sum": 11,
+      "hits": [
+        {
+          "open": "@dm_hidden_state_embedding",
+          "distance": 4,
+          "high_edges": 2,
+          "medium_edges": 2
+        },
+        {
+          "open": "@dm_history_to_continuity_strength",
+          "distance": 4,
+          "high_edges": 2,
+          "medium_edges": 2
+        },
+        {
+          "open": "@dm_native_density_to_readable_source",
+          "distance": 4,
+          "high_edges": 3,
+          "medium_edges": 1
+        },
+        {
+          "open": "@dm_metric_action_selection",
+          "distance": 5,
+          "high_edges": 3,
+          "medium_edges": 2
+        },
+        {
+          "open": "@dm_mode0_network_selection_rule",
+          "distance": 5,
+          "high_edges": 4,
+          "medium_edges": 1
+        },
+        {
+          "open": "@dm_omega_to_chromatic_representation",
+          "distance": 5,
+          "high_edges": 2,
+          "medium_edges": 3
+        }
+      ]
+    },
+    {
+      "handle": "@correspondence_registry",
+      "open_count": 6,
+      "avg_distance": 4.666666666666667,
+      "min_distance": 4,
+      "high_edges_sum": 26,
+      "medium_edges_sum": 2,
+      "hits": [
+        {
+          "open": "@dm_dark_matter_qualification_nonempty",
+          "distance": 4,
+          "high_edges": 4,
+          "medium_edges": 0
+        },
+        {
+          "open": "@dm_hidden_state_embedding",
+          "distance": 4,
+          "high_edges": 4,
+          "medium_edges": 0
+        },
+        {
+          "open": "@dm_history_to_continuity_strength",
+          "distance": 5,
+          "high_edges": 3,
+          "medium_edges": 2
+        },
+        {
+          "open": "@dm_metric_action_selection",
+          "distance": 5,
+          "high_edges": 5,
+          "medium_edges": 0
+        },
+        {
+          "open": "@dm_mode0_network_selection_rule",
+          "distance": 5,
+          "high_edges": 5,
+          "medium_edges": 0
+        },
+        {
+          "open": "@dm_omega_to_chromatic_representation",
+          "distance": 5,
+          "high_edges": 5,
+          "medium_edges": 0
+        }
+      ]
+    },
+    {
+      "handle": "@genlang_root_rel",
+      "open_count": 5,
+      "avg_distance": 4.0,
+      "min_distance": 3,
+      "high_edges_sum": 20,
+      "medium_edges_sum": 0,
+      "hits": [
+        {
+          "open": "@dm_hidden_state_embedding",
+          "distance": 3,
+          "high_edges": 3,
+          "medium_edges": 0
+        },
+        {
+          "open": "@dm_history_to_continuity_strength",
+          "distance": 3,
+          "high_edges": 3,
+          "medium_edges": 0
+        },
+        {
+          "open": "@dm_mode0_network_selection_rule",
+          "distance": 4,
+          "high_edges": 4,
+          "medium_edges": 0
+        },
+        {
+          "open": "@dm_dark_matter_qualification_nonempty",
+          "distance": 5,
+          "high_edges": 5,
+          "medium_edges": 0
+        },
+        {
+          "open": "@dm_native_density_to_readable_source",
+          "distance": 5,
+          "high_edges": 5,
+          "medium_edges": 0
+        }
+      ]
+    },
+    {
+      "handle": "@genlang_root_rin",
+      "open_count": 5,
+      "avg_distance": 4.0,
+      "min_distance": 3,
+      "high_edges_sum": 18,
+      "medium_edges_sum": 2,
+      "hits": [
+        {
+          "open": "@dm_history_to_continuity_strength",
+          "distance": 3,
+          "high_edges": 3,
+          "medium_edges": 0
+        },
+        {
+          "open": "@dm_hidden_state_embedding",
+          "distance": 4,
+          "high_edges": 3,
+          "medium_edges": 1
+        },
+        {
+          "open": "@dm_native_density_to_readable_source",
+          "distance": 4,
+          "high_edges": 3,
+          "medium_edges": 1
+        },
+        {
+          "open": "@dm_omega_to_chromatic_representation",
+          "distance": 4,
+          "high_edges": 4,
+          "medium_edges": 0
+        },
+        {
+          "open": "@dm_mode0_network_selection_rule",
+          "distance": 5,
+          "high_edges": 5,
+          "medium_edges": 0
+        }
+      ]
+    },
+    {
+      "handle": "@global_inheritance",
+      "open_count": 5,
+      "avg_distance": 4.0,
+      "min_distance": 3,
+      "high_edges_sum": 12,
+      "medium_edges_sum": 8,
+      "hits": [
+        {
+          "open": "@dm_history_to_continuity_strength",
+          "distance": 3,
+          "high_edges": 2,
+          "medium_edges": 1
+        },
+        {
+          "open": "@dm_hidden_state_embedding",
+          "distance": 4,
+          "high_edges": 2,
+          "medium_edges": 2
+        },
+        {
+          "open": "@dm_native_density_to_readable_source",
+          "distance": 4,
+          "high_edges": 2,
+          "medium_edges": 2
+        },
+        {
+          "open": "@dm_omega_to_chromatic_representation",
+          "distance": 4,
+          "high_edges": 2,
+          "medium_edges": 2
+        },
+        {
+          "open": "@dm_mode0_network_selection_rule",
+          "distance": 5,
+          "high_edges": 4,
+          "medium_edges": 1
+        }
+      ]
+    }
+  ],
+  "selected_next_handle": "@admissible_continuation",
+  "finding": "The strict/direct open crawls were effectively saturated. The source-backed API query surface exposes additional canonical recovered vertical corridors. @admissible_continuation ranks first across six of seven open targets and is selected before lower-ranked branches.",
+  "guardrails": [
+    "medium-confidence recovered source edge != promoted parent edge",
+    "ranking breadth != physical relevance",
+    "language-projection handles are not selected merely by rank",
+    "OpenSlots remain open"
+  ]
+}

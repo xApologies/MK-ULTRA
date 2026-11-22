@@ -1,0 +1,109 @@
+{
+  "qmos": [
+    {
+      "address": "@mk_ultra/time_space",
+      "name": "Time-Space",
+      "type": "domain",
+      "authority": "CURRENT_CANON_NAMESPACE",
+      "summary": "Container for S0-S4 time-space hierarchy."
+    },
+    {
+      "address": "@mk_ultra/time_space/s0/distinction",
+      "name": "S0 Distinction",
+      "type": "sphere",
+      "authority": "SOURCE_PRESERVED",
+      "summary": "S0={-1,+1}; minimal admissible distinction."
+    },
+    {
+      "address": "@mk_ultra/time_space/sqrt/admissibility",
+      "name": "Square-root admissibility",
+      "type": "operator",
+      "authority": "SOURCE_PRESERVED",
+      "summary": "Local rule sqrt(+1)=1, sqrt(-1)=i; opens complex path."
+    },
+    {
+      "address": "@mk_ultra/time_space/unit_string",
+      "name": "Unit String",
+      "type": "invariant",
+      "authority": "SOURCE_PRESERVED",
+      "summary": "Invariant continuation interval of length 1."
+    },
+    {
+      "address": "@mk_ultra/time_space/s1/closure",
+      "name": "S1 Closure",
+      "type": "sphere",
+      "authority": "SOURCE_PRESERVED_PLUS_STANDARD_FORM",
+      "summary": "Closed unit interval/circle; S1={(a,b):a^2+b^2=1}."
+    },
+    {
+      "address": "@mk_ultra/time_space/s2/riemann_sphere",
+      "name": "S2 Riemann Sphere",
+      "type": "sphere",
+      "authority": "SOURCE_PRESERVED_PLUS_STANDARD_FORM",
+      "summary": "S2 in R3; compactification/recoverable infinity."
+    },
+    {
+      "address": "@mk_ultra/time_space/s2/stereographic_chart",
+      "name": "S2 Stereographic Chart",
+      "type": "chart",
+      "authority": "STANDARD_MATH_CHART_CONVENTION",
+      "summary": "n=(2u/D,2v/D,(u^2+v^2-1)/D), D=1+u^2+v^2."
+    },
+    {
+      "address": "@mk_ultra/time_space/s3/recursive_ordering",
+      "name": "S3 Recursive Ordering",
+      "type": "sphere",
+      "authority": "SOURCE_PRESERVED",
+      "summary": "x^2+y^2+z^2+w^2=1; recursive ordering structure."
+    },
+    {
+      "address": "@mk_ultra/time_space/s3/lift_from_s2",
+      "name": "S2 to S3 Lift",
+      "type": "map",
+      "authority": "NEW_EXPLICIT_FORMALIZATION",
+      "summary": "L23(n,tau)=(cos(tau)n,sin(tau))."
+    },
+    {
+      "address": "@mk_ultra/time_space/s3/recovery_to_s2",
+      "name": "S3 to S2 Recovery",
+      "type": "map",
+      "authority": "NEW_EXPLICIT_FORMALIZATION",
+      "summary": "Pi32(q)=(x,y,z)/sqrt(1-w^2) away from poles."
+    },
+    {
+      "address": "@mk_ultra/time_space/s4/organization_of_ordering",
+      "name": "S4 Organization of Ordering",
+      "type": "sphere",
+      "authority": "SOURCE_PRESERVED",
+      "summary": "X^2+Y^2+Z^2+W^2+V^2=1; recursive stabilization / organization of ordering."
+    },
+    {
+      "address": "@mk_ultra/time_space/s4/lift_from_s3",
+      "name": "S3 to S4 Recursive Organization Lift",
+      "type": "map",
+      "authority": "NEW_CANDIDATE_SOURCE_CONSTRAINED_FORMALIZATION",
+      "summary": "L34(q,sigma)=(cos(sigma)q,sin(sigma))."
+    },
+    {
+      "address": "@mk_ultra/time_space/s4/recovery_to_s3",
+      "name": "S4 to S3 Recovery",
+      "type": "map",
+      "authority": "NEW_CANDIDATE_SOURCE_CONSTRAINED_FORMALIZATION",
+      "summary": "Pi43(Q)=(X,Y,Z,W)/sqrt(1-V^2) away from poles."
+    },
+    {
+      "address": "@mk_ultra/time_space/pole_history_guard",
+      "name": "Pole-History Guard",
+      "type": "guard",
+      "authority": "NEW_CANDIDATE_FORMALIZATION",
+      "summary": "Exact suspension poles require external History witness, identity change typing, or domain exclusion."
+    },
+    {
+      "address": "@mk_ultra/time_space/recursive_sphere_lift",
+      "name": "Recursive Sphere Lift",
+      "type": "map_family",
+      "authority": "NEW_EXPLICIT_FORMALIZATION",
+      "summary": "L_{n,n+1}(q,theta)=(cos(theta)q,sin(theta))."
+    }
+  ]
+}

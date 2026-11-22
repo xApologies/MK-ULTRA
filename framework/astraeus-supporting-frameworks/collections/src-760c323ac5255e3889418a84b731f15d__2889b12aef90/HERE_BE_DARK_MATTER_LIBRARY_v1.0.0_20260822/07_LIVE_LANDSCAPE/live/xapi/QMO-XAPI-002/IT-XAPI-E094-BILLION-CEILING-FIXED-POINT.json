@@ -1,0 +1,26 @@
+{
+  "schema": "ASTRAEUS_XAPI_ITERATION_RUN_V1",
+  "run_id": "IT-XAPI-E094-BILLION-CEILING-FIXED-POINT",
+  "checkpoint": "E094",
+  "qmo_id": "QMO-XAPI-002",
+  "seed_count": 38,
+  "ceiling": 1000000000,
+  "iterations_used": 8,
+  "terminal_state": "NO_NEW_STRUCTURE",
+  "wave_counts": [
+    38,
+    33,
+    54,
+    49,
+    48,
+    16,
+    8,
+    1,
+    1
+  ],
+  "runtime_seconds": 0.00023395800053549465,
+  "all_pairs_runtime_seconds": 0.3129467440003282,
+  "api43_self_runtime_seconds": 0.04417365500012238,
+  "full_navigation_runtime_seconds": 0.00162632699993992,
+  "note": "A one-billion iteration ceiling was permitted, but the finite semantic landscape reached fixed point after eight expansion waves. Continuing to the ceiling would only repeat an unchanged frontier."
+}

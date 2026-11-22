@@ -1,0 +1,25 @@
+{
+  "handle": "landscape://DL-DM-E074-UCM-EVENT-SOURCE-GATE",
+  "object_type": "dependency_landscape",
+  "status": "DIAGNOSTIC_APPEND_ONLY",
+  "domain": "LANDSCAPE",
+  "namespace": "mk43://landscape",
+  "name": "DL-DM-E074-UCM-EVENT-SOURCE-GATE",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "DEPENDENCY_LANDSCAPE",
+  "metadata": {
+    "id": "DL-DM-E074-UCM-EVENT-SOURCE-GATE",
+    "seed": "@dm_ucm_source_domain_distinction",
+    "status": "DIAGNOSTIC_APPEND_ONLY",
+    "source_file": "live/registry",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1\", \"landscape_id\": \"DL-DM-E074-UCM-EVENT-SOURCE-GATE\", \"seed\": \"@dm_ucm_source_domain_distinction\", \"status\": \"DIAGNOSTIC_APPEND_ONLY\", \"nodes\": [\"@dm_ucm_source_domain_distinction\", \"@universal_coupling\", \"@dm_ucm_event_to_source_nonannihilation\", \"@stress_energy_tensor\"], \"factorization\": [\"u_full/u_vis\", \"U_dyn\", \"event records e_full/e_vis\", \"P_T\", \"StressEnergy_R\"], \"terminal\": {\"state\": \"OPEN_FORK_EVENT_TO_SOURCE_SENSITIVITY\", \"iteration\": 2, \"focus\": \"@dm_ucm_event_to_source_nonannihilation\", \"reason\": \"Source and event distinctions are available, but the recovered UCM schema does not prove P_T is nonconstant on the selected hidden direction.\"}}"
+  },
+  "address": "landscape://DL-DM-E074-UCM-EVENT-SOURCE-GATE",
+  "address_sha256": "ed6658724873a7c487b4cf02c2f44941c0418d82da622c44308e232c573f801d"
+}

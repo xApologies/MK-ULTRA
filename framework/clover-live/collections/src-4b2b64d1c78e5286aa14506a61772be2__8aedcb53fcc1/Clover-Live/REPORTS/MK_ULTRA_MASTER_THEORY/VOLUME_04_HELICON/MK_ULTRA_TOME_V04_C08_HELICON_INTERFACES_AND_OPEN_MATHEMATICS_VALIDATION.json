@@ -1,0 +1,106 @@
+{
+  "schema": "tome-publication-renderer-validation/v1",
+  "created_at": "2026-08-10T12:15:36.791571+00:00",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "engine": "KaTeX 0.16.22 -> HTML/CSS -> Playwright -> Microsoft Edge PDF",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_04_HELICON/MK_ULTRA_TOME_V04_C08_HELICON_INTERFACES_AND_OPEN_MATHEMATICS.pdf",
+    "bytes": 143825,
+    "sha256": "f639e16059c372af099485cd0e051587750aa3efc0d8bec6bdaf7042ebf83537"
+  },
+  "actual_pages": 5,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V04-C08": 3
+  },
+  "chapter_validations": [
+    {
+      "chapter_id": "V04-C08",
+      "source_sha256": "2ea43dbcc2b84459a5a18d76a067748f40b3462ff30bdcacaaa794093e2973e5",
+      "page_start": 3,
+      "headings": 17,
+      "display_equations": 16,
+      "inline_equations": 2,
+      "equation_tags": 16,
+      "api_handles": 2,
+      "table_rows": 3,
+      "content_markers_present": true
+    }
+  ],
+  "engine_metrics": {
+    "renderer": "TOME_PUBLICATION_RENDERER_V1",
+    "katexVersion": "0.16.22",
+    "chapters": [
+      {
+        "id": "V04-C08",
+        "sourceBytes": 8088,
+        "paragraphs": 31,
+        "headings": 17,
+        "displayEquations": 16,
+        "inlineEquations": 2,
+        "tables": 1,
+        "tableRows": 2,
+        "listItems": 0,
+        "codeBlocks": 0,
+        "figures": 0
+      }
+    ],
+    "paragraphs": 31,
+    "headings": 17,
+    "displayEquations": 16,
+    "inlineEquations": 2,
+    "tables": 1,
+    "tableRows": 2,
+    "listItems": 0,
+    "blockQuotes": 0,
+    "codeBlocks": 0,
+    "figures": 0,
+    "mathLayout": {
+      "checked": 16,
+      "scaled": [],
+      "remainingOverflow": []
+    }
+  },
+  "raw_latex_guard": {
+    "result": "PASS",
+    "hits": [],
+    "commands_scanned": [
+      "frac",
+      "mathcal",
+      "mathrm",
+      "begin",
+      "end",
+      "left",
+      "right",
+      "longrightarrow",
+      "rightarrow",
+      "otimes",
+      "partial",
+      "nabla",
+      "mu",
+      "nu",
+      "sum",
+      "int",
+      "operatorname"
+    ]
+  },
+  "visual_qa": {
+    "result": "PASS",
+    "pages_inspected": "ALL_5_PAGES",
+    "findings": {
+      "clipping": 0,
+      "overlap": 0,
+      "blank_pages": 0,
+      "unreadable_text": 0,
+      "math_layout_failures": 0
+    }
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V04-C08": "2ea43dbcc2b84459a5a18d76a067748f40b3462ff30bdcacaaa794093e2973e5"
+  },
+  "source_hashes_after": {
+    "V04-C08": "2ea43dbcc2b84459a5a18d76a067748f40b3462ff30bdcacaaa794093e2973e5"
+  },
+  "sealed_chapter_content_change_count": 0
+}

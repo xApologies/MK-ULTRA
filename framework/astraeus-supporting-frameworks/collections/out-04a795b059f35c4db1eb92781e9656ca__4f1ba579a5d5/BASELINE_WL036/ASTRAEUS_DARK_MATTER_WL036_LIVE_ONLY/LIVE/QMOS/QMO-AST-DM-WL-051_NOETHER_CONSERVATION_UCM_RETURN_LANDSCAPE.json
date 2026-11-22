@@ -1,0 +1,458 @@
+{
+  "schema": "ASTRAEUS_API_QMO_CONSERVATION_RETURN_V1",
+  "qmo_id": "QMO-AST-DM-WL-051",
+  "name": "Noether Identity / Local Energy-Momentum Conservation / UCM Return Landscape",
+  "atlas_version": "WL-v166",
+  "status": "API_CONSERVATION_RETURN_LANDSCAPE_NOT_PHYSICAL_WITNESS_NOT_PARENT_PROMOTED",
+  "noether_charge_noether_identity": {
+    "a": "@noether_charge",
+    "b": "@noether_identity",
+    "radius": 2,
+    "a_node_count": 26,
+    "b_node_count": 48,
+    "interface": [
+      {
+        "handle": "@diffeomorphism_invariance",
+        "distance_a": 1,
+        "distance_b": 1
+      },
+      {
+        "handle": "@noether_charge",
+        "distance_a": 0,
+        "distance_b": 2
+      },
+      {
+        "handle": "@noether_identity",
+        "distance_a": 2,
+        "distance_b": 0
+      },
+      {
+        "handle": "@einstein_field_equation",
+        "distance_a": 2,
+        "distance_b": 1
+      },
+      {
+        "handle": "@gauge_transformation_linearized",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@total_action",
+        "distance_a": 2,
+        "distance_b": 2
+      }
+    ],
+    "path_a_to_b": [
+      {
+        "source": "@noether_charge",
+        "relation": "DEPENDS_ON",
+        "target": "@diffeomorphism_invariance",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:603"
+      },
+      {
+        "source": "@diffeomorphism_invariance",
+        "relation": "IMPLIES",
+        "target": "@noether_identity",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-44",
+        "provenance": "DERIVED:RP44_GR_EDGE_CRAWL; Gauge symmetry yields differential identities."
+      }
+    ],
+    "direct_neighborhood_policy": "high-confidence non-derived/direct-source Time-Space API edges only",
+    "path_policy": "high-confidence registered + admissibly derived Time-Space API edges; directions preserved"
+  },
+  "noether_identity_local_conservation": {
+    "a": "@noether_identity",
+    "b": "@local_energy_momentum_conservation",
+    "radius": 2,
+    "a_node_count": 48,
+    "b_node_count": 51,
+    "interface": [
+      {
+        "handle": "@einstein_field_equation",
+        "distance_a": 1,
+        "distance_b": 1
+      },
+      {
+        "handle": "@local_energy_momentum_conservation",
+        "distance_a": 2,
+        "distance_b": 0
+      },
+      {
+        "handle": "@noether_identity",
+        "distance_a": 0,
+        "distance_b": 2
+      },
+      {
+        "handle": "@diffeomorphism_invariance",
+        "distance_a": 1,
+        "distance_b": 2
+      },
+      {
+        "handle": "@angular_momentum_parameter",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@anti_de_sitter_spacetime",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@birkhoff_theorem",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@black_hole",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@boundary_term",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@boyer_lindquist_coordinates",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@cauchy_problem",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@charge_parameter",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@cosmological_constant",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@cosmology",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@de_sitter_spacetime",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@dominant_energy_condition",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@eddington_finkelstein_coordinates",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@einstein_hilbert_action",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@einstein_tensor",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@energy_condition",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@friedmann_equation",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@friedmann_lemaitre_robertson_walker_spacetime",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@general_relativity",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@gibbons_hawking_york_term",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@kerr_geometry",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@kerr_newman_geometry",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@kruskal_szekeres_extension",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@linear_metric_perturbation",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@mass_parameter",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@matter_action",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@matter_coupling",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@maximal_extension",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@metric_variation",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@minkowski_spacetime",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@null_energy_condition",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@post_newtonian_expansion",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@reissner_nordstrom_geometry",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@schwarzschild_geometry",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@schwarzschild_radius",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@stress_energy_tensor",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@strong_energy_condition",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@total_action",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@trace_reversed_field_equation",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@vacuum_field_equation",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@vacuum_kasner_spacetime",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@weak_energy_condition",
+        "distance_a": 2,
+        "distance_b": 2
+      }
+    ],
+    "path_a_to_b": [
+      {
+        "source": "@noether_identity",
+        "relation": "FAMILY_DEPENDS_ON",
+        "target": "@einstein_field_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:309"
+      },
+      {
+        "source": "@einstein_field_equation",
+        "relation": "SUPPORTS",
+        "target": "@local_energy_momentum_conservation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@local_energy_momentum_conservation DEPENDS_ON @einstein_field_equation); rule=DEPENDS_ON→SUPPORTS"
+      }
+    ],
+    "direct_neighborhood_policy": "high-confidence non-derived/direct-source Time-Space API edges only",
+    "path_policy": "high-confidence registered + admissibly derived Time-Space API edges; directions preserved"
+  },
+  "noether_charge_local_conservation": {
+    "a": "@noether_charge",
+    "b": "@local_energy_momentum_conservation",
+    "radius": 2,
+    "a_node_count": 26,
+    "b_node_count": 51,
+    "interface": [
+      {
+        "handle": "@diffeomorphism_invariance",
+        "distance_a": 1,
+        "distance_b": 2
+      },
+      {
+        "handle": "@einstein_field_equation",
+        "distance_a": 2,
+        "distance_b": 1
+      },
+      {
+        "handle": "@noether_identity",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@total_action",
+        "distance_a": 2,
+        "distance_b": 2
+      }
+    ],
+    "path_a_to_b": [
+      {
+        "source": "@noether_charge",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@metric_tensor",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@noether_charge -> @isometry -> @metric_tensor; relations=FAMILY_DEPENDS_ON + DEPENDS_ON; primitive_depth=2"
+      },
+      {
+        "source": "@metric_tensor",
+        "relation": "SUPPORTS",
+        "target": "@local_energy_momentum_conservation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-47",
+        "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=2; path=@metric_tensor -> @einstein_field_equation -> @local_energy_momentum_conservation; relations=SUPPORTS + SUPPORTS => SUPPORTS"
+      }
+    ],
+    "direct_neighborhood_policy": "high-confidence non-derived/direct-source Time-Space API edges only",
+    "path_policy": "high-confidence registered + admissibly derived Time-Space API edges; directions preserved"
+  },
+  "local_conservation_to_ucm": {
+    "source": "@local_energy_momentum_conservation",
+    "target": "@universal_coupling",
+    "path": [
+      {
+        "source": "@local_energy_momentum_conservation",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@graviton_radiative_stability",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@local_energy_momentum_conservation-[COMPOSED_DEPENDENCY]->@metric_perturbation-[COMPOSED_DEPENDENCY]->@graviton_radiative_stability"
+      },
+      {
+        "source": "@graviton_radiative_stability",
+        "relation": "USED_BY",
+        "target": "@universal_coupling",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_USEDBY:54213"
+      }
+    ]
+  },
+  "local_conservation_to_time_shell": {
+    "source": "@local_energy_momentum_conservation",
+    "target": "@time_shell",
+    "path": [
+      {
+        "source": "@local_energy_momentum_conservation",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@time_shell",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-47",
+        "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=6; path=@local_energy_momentum_conservation -> @graviton -> @time_shell; relations=DEPENDS_ON + FORMALLY_DEPENDS_ON => COMPOSED_DEPENDENCY"
+      }
+    ]
+  },
+  "direct_edges": [
+    {
+      "source": "@noether_identity",
+      "relation": "DEPENDS_ON",
+      "target": "@diffeomorphism_invariance",
+      "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:583"
+    },
+    {
+      "source": "@local_energy_momentum_conservation",
+      "relation": "DEPENDS_ON",
+      "target": "@einstein_field_equation",
+      "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:49"
+    },
+    {
+      "source": "@local_energy_momentum_conservation",
+      "relation": "DEPENDS_ON",
+      "target": "@contracted_bianchi_identity",
+      "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:145"
+    }
+  ],
+  "interpretation": "The handle walk closes a standard-GR conservation loop back into handles already used by the UCM/gravity landscape. The useful research result is not a new proof but that the API has routed the project’s angular-momentum intuition into its native symmetry/conserved-charge/action/conservation architecture.",
+  "guardrails": [
+    "derived path to UCM/Time Shell is navigation, not a new direct edge",
+    "conservation closure != dark-matter qualification nonemptiness",
+    "Noether identity does not solve metric-action member selection",
+    "do not continue walking ordinary GR indefinitely; pivot back to a dark OpenSlot after this return",
+    "parent promotions = 0"
+  ],
+  "return_handle": "@local_energy_momentum_conservation",
+  "next_research_move": "Use the returned Noether/conserved-charge QMO as candidate witness structure in the existing @dm_dark_matter_qualification_nonempty initial-data landscape; ask the APIs for the next dark-specific handle rather than elaborating standard GR."
+}

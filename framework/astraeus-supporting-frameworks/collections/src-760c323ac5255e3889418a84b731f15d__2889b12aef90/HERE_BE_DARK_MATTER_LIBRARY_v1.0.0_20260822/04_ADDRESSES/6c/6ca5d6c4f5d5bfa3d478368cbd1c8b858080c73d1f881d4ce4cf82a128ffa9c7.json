@@ -1,0 +1,183 @@
+{
+  "handle": "@semiclassical_einstein_equation",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Semiclassical Einstein Equation",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 3,
+    "api43_direct_in_count": 3,
+    "xapi_raw_out_count": 4,
+    "xapi_raw_in_count": 4,
+    "live_out_count": 1,
+    "live_in_count": 1,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 3,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@semiclassical_einstein_equation",
+        "relation": "DEFINES_DOMAIN",
+        "target": "@semiclassical_gravity",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-52",
+        "provenance": "DIRECT_SOURCE:HAWKING_MINIMAL_MATHEMATICAL_CLOSURE"
+      },
+      {
+        "source": "@semiclassical_einstein_equation",
+        "relation": "FEEDS_BLACK_HOLE_MODEL",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-52",
+        "provenance": "DERIVED:RP52_HAWKING_REVERSE_CRAWL; witness=@semiclassical_einstein_equation-[DEFINES_DOMAIN]->@semiclassical_gravity | @semiclassical_gravity-[COMPOSED_DEPENDENCY]->@black_hole"
+      },
+      {
+        "source": "@semiclassical_einstein_equation",
+        "relation": "GLOBALLY_FEEDS_BLACK_HOLE",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-53",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_REVERSE_CRAWL; witness=@semiclassical_einstein_equation-[FEEDS_BLACK_HOLE_MODEL]->@black_hole"
+      },
+      {
+        "source": "@renormalized_stress_energy_tensor",
+        "relation": "SOURCES",
+        "target": "@semiclassical_einstein_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-52",
+        "provenance": "DIRECT_SOURCE:HAWKING_MINIMAL_MATHEMATICAL_CLOSURE"
+      },
+      {
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_MODEL_REACHES",
+        "target": "@semiclassical_einstein_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-52",
+        "provenance": "DERIVED:RP52_HAWKING_FORWARD_CRAWL; witness=@black_hole-[BLACK_HOLE_MODEL_REACHES]->@renormalized_stress_energy_tensor | @renormalized_stress_energy_tensor-[SOURCES]->@semiclassical_einstein_equation"
+      },
+      {
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_GLOBAL_REACHES",
+        "target": "@semiclassical_einstein_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-53",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_FORWARD_CRAWL; witness=@black_hole-[BLACK_HOLE_MODEL_REACHES]->@semiclassical_einstein_equation"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 17623,
+        "source": "@semiclassical_einstein_equation",
+        "relation": "DEFINES_DOMAIN",
+        "target": "@semiclassical_gravity",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_SOURCE:HAWKING_MINIMAL_MATHEMATICAL_CLOSURE"
+      },
+      {
+        "id": 17654,
+        "source": "@semiclassical_einstein_equation",
+        "relation": "FEEDS_BLACK_HOLE_MODEL",
+        "target": "@black_hole",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP52_HAWKING_REVERSE_CRAWL; witness=@semiclassical_einstein_equation-[DEFINES_DOMAIN]->@semiclassical_gravity | @semiclassical_gravity-[COMPOSED_DEPENDENCY]->@black_hole"
+      },
+      {
+        "id": 18423,
+        "source": "@semiclassical_einstein_equation",
+        "relation": "GLOBALLY_FEEDS_BLACK_HOLE",
+        "target": "@black_hole",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_REVERSE_CRAWL; witness=@semiclassical_einstein_equation-[FEEDS_BLACK_HOLE_MODEL]->@black_hole"
+      },
+      {
+        "id": 19710,
+        "source": "@semiclassical_einstein_equation",
+        "relation": "DEFINES_DOMAIN",
+        "target": "@semiclassical_gravity",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_SOURCE:HAWKING_MINIMAL_MATHEMATICAL_CLOSURE"
+      },
+      {
+        "id": 17622,
+        "source": "@renormalized_stress_energy_tensor",
+        "relation": "SOURCES",
+        "target": "@semiclassical_einstein_equation",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_SOURCE:HAWKING_MINIMAL_MATHEMATICAL_CLOSURE"
+      },
+      {
+        "id": 17639,
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_MODEL_REACHES",
+        "target": "@semiclassical_einstein_equation",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP52_HAWKING_FORWARD_CRAWL; witness=@black_hole-[BLACK_HOLE_MODEL_REACHES]->@renormalized_stress_energy_tensor | @renormalized_stress_energy_tensor-[SOURCES]->@semiclassical_einstein_equation"
+      },
+      {
+        "id": 17991,
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_GLOBAL_REACHES",
+        "target": "@semiclassical_einstein_equation",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_FORWARD_CRAWL; witness=@black_hole-[BLACK_HOLE_MODEL_REACHES]->@semiclassical_einstein_equation"
+      },
+      {
+        "id": 19709,
+        "source": "@renormalized_stress_energy_tensor",
+        "relation": "SOURCES",
+        "target": "@semiclassical_einstein_equation",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_SOURCE:HAWKING_MINIMAL_MATHEMATICAL_CLOSURE"
+      }
+    ]
+  },
+  "address": "@semiclassical_einstein_equation",
+  "address_sha256": "6ca5d6c4f5d5bfa3d478368cbd1c8b858080c73d1f881d4ce4cf82a128ffa9c7"
+}

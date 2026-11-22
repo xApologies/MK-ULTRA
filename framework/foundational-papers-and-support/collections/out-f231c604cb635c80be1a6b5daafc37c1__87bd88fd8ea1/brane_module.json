@@ -1,0 +1,26 @@
+{
+  "name": "MK43 AI 1.C.1",
+  "role": "ai",
+  "version": "1.C.1",
+  "contract_version": "2.0",
+  "entrypoint": "mk43_ai1c:create_module",
+  "internal_dimension": 5,
+  "canonical_state_policy": "READ_ONLY",
+  "rewrite_policy": "DERIVED_ONLY",
+  "chirality_model": "request-oriented-tree-policy-v2",
+  "provenance_model": "derived-validation-and-failure-receipt-v2",
+  "domain_ids": [
+    "generic",
+    "mk43-ultra",
+    "gravity",
+    "canonical-mathematics"
+  ],
+  "capabilities": [
+    "interpret",
+    "rank",
+    "continue_or_terminate",
+    "place_continuation",
+    "collapse",
+    "validate_collapse"
+  ]
+}

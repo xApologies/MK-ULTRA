@@ -1,0 +1,34 @@
+{
+  "schema": "ASTRAEUS_QMO_CANDIDATE_V1",
+  "qmo_id": "QMO-DM-BRIDGE-CAND-006",
+  "handle": "@dm_conditional_boundary_residue_seed",
+  "canonical_name": "Conditional Hidden Boundary/Residue Seed",
+  "status": "LIVE_CONDITIONAL_CANDIDATE",
+  "provenance_class": [
+    "DM_2.2_SOURCE_DERIVED_INPUTS",
+    "STABLE_ABSTRACTION_WORKING_ASSUMPTION",
+    "DETERMINISTIC_COMPOSITION"
+  ],
+  "parents": [
+    "@dm_joint_hidden_network_witness",
+    "@dm_hidden_boundary_contact",
+    "@persistent_boundary",
+    "@boundary_projection",
+    "@residue_quantum_field_bundle"
+  ],
+  "working_assumptions": [
+    "WA-DM-E065-001"
+  ],
+  "construction": {
+    "contact_set": "B_H^R := cl_E(Xi_H^R) ∩ ∂Xi",
+    "selected_contact": "choose b_H ∈ B_H^R",
+    "projected_address": "p_H := Π(b_H)",
+    "residue_fiber": "F_{p_H} := Inv(Π^{-1}(p_H))"
+  },
+  "result": "Conditional on B_H^R≠∅, the selected hidden support has a mathematically typed entry point into the already-closed Persistent-Boundary -> Projection -> Invariant-Residue plumbing.",
+  "guardrails": [
+    "No claim that the hidden witness necessarily survives projection.",
+    "No new canonical API edge.",
+    "No physical dark-matter promotion."
+  ]
+}

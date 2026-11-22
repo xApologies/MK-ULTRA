@@ -1,0 +1,67 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_NEIGHBORS_V1",
+  "handle": "@recursive_continuity",
+  "incoming": [
+    [
+      "@global_inheritance",
+      {
+        "source": "@global_inheritance",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@recursive_continuity",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56506->56508",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@global_inheritance",
+      {
+        "source": "@global_inheritance",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@recursive_continuity",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "API_CODE_BLOCK:56508;CANONICAL_API_VERTICAL:56506->56508",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ]
+  ],
+  "outgoing": [
+    [
+      "@persistence",
+      {
+        "source": "@recursive_continuity",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@persistence",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56508->56510",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@persistence",
+      {
+        "source": "@recursive_continuity",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@persistence",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "API_CODE_BLOCK:56510;CANONICAL_API_VERTICAL:56508->56510",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ]
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry"
+}

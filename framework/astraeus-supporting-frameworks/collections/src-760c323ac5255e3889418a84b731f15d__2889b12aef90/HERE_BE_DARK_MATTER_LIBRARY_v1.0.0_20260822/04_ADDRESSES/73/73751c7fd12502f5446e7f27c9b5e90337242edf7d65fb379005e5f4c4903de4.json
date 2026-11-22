@@ -1,0 +1,26 @@
+{
+  "handle": "qmo://QMO-DM-BRIDGE-CAND-012",
+  "object_type": "qmo",
+  "status": "LIVE_CONDITIONAL_CANDIDATE",
+  "domain": "QMO",
+  "namespace": "mk43://qmo",
+  "name": "Conditional Dark-Matter Qualification Witness",
+  "definition": "",
+  "math": "",
+  "source_layer": "live_012",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "QMO_REGISTRY",
+  "metadata": {
+    "qmo_id": "QMO-DM-BRIDGE-CAND-012",
+    "name": "Conditional Dark-Matter Qualification Witness",
+    "status": "LIVE_CONDITIONAL_CANDIDATE",
+    "source_layer": "live_012",
+    "source_file": null,
+    "payload_json": "{\"schema\": \"ASTRAEUS_QMO_CANDIDATE_V1\", \"qmo_id\": \"QMO-DM-BRIDGE-CAND-012\", \"handle\": \"@dm_conditional_qualification_witness\", \"canonical_name\": \"Conditional Dark-Matter Qualification Witness\", \"status\": \"LIVE_CONDITIONAL_CANDIDATE\", \"parents\": [\"@dm_dark_matter_qualification_locus\", \"@dm_conditional_action_dark_readout_witness\", \"@dm_conditional_boundary_residue_seed\", \"@dm_conditional_q_handoff_distinction\"], \"working_assumptions\": [\"WA-DM-E064-002\", \"WA-DM-E065-001\", \"WA-DM-E066-001\", \"WA-DM-E069-001\"], \"predicate_assembly\": {\"matched_external_data\": \"WA-DM-E064-002\", \"hidden_S3_and_persistence_boundary_entry\": \"WA-DM-E065-001\", \"same_ordinary_matter_readout\": \"WA-DM-E064-002\", \"nonzero_hidden_stress_and_metric_separation\": \"CC-DM-E069-001 + CC-DM-E070-001\", \"Einstein_readable_problem\": \"E070 fixed readable Einstein comparison sector\", \"Q_gate\": \"CC-DM-E066-001\"}, \"result\": \"Under the four registered working assumptions, one selected full/visible tuple satisfies every predicate of the closed DM_R qualification definition. This is a conditional witness, not an unconditional nonemptiness theorem.\", \"guardrails\": [\"No empirical identification.\", \"No baseline mutation.\", \"The result inherits all listed proof debt.\"]}"
+  },
+  "address": "qmo://QMO-DM-BRIDGE-CAND-012",
+  "address_sha256": "73751c7fd12502f5446e7f27c9b5e90337242edf7d65fb379005e5f4c4903de4"
+}

@@ -1,0 +1,22 @@
+{
+  "a": "@angular_momentum_parameter",
+  "b": "@vorticity_tensor",
+  "radius": 2,
+  "a_node_count": 51,
+  "b_node_count": 32,
+  "interface": [],
+  "path_a_to_b": [
+    {
+      "source": "@angular_momentum_parameter",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@vorticity_tensor",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-51",
+      "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@angular_momentum_parameter-[COMPOSED_DEPENDENCY]->@white_state_core-[COMPOSED_DEPENDENCY]->@vorticity_tensor"
+    }
+  ],
+  "direct_neighborhood_policy": "high-confidence non-derived/direct-source Time-Space API edges only",
+  "path_policy": "high-confidence registered + admissibly derived Time-Space API edges; directions preserved"
+}

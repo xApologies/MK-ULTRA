@@ -1,0 +1,18 @@
+{
+  "schema": "ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1",
+  "landscape_id": "DL-DM-E090-CHIRALITY-CONTRAST-NORMAL-FORM",
+  "seed": "@dm_chirality_seed_byte_probe_basis",
+  "status": "INTERNAL_MATH_CLOSED",
+  "nodes": [
+    "@dm_chirality_seed_byte_probe_basis",
+    "@dm_chirality_seed_contrast_normal_form",
+    "@dm_joint_hidden_network_witness",
+    "@dm_explicit_two_port_continuity_residual_witness"
+  ],
+  "terminal": {
+    "state": "NORMAL_FORM_MATCH_CLOSED",
+    "iteration": 4,
+    "focus": "@dm_chirality_seed_contrast_normal_form",
+    "reason": "The recovered seed mirror difference and E063 hidden response operator share the exact 2x2 contrast form."
+  }
+}

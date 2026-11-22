@@ -1,0 +1,68 @@
+{
+  "schema": "ASTRAEUS_QMO_CROSS_CRAWL_V1",
+  "seeds": [
+    "@time_shell"
+  ],
+  "targets": [
+    "@dm_mode0_access_interface"
+  ],
+  "bidirectional": true,
+  "edge_count": 1659,
+  "reachable_count": 404,
+  "distance_histogram": {
+    "0": 1,
+    "1": 19,
+    "2": 101,
+    "3": 151,
+    "4": 132
+  },
+  "paths": {
+    "@time_shell -> @dm_mode0_access_interface": [
+      {
+        "from": "@time_shell",
+        "relation": "DIRECTED_TO",
+        "to": "@mote",
+        "traversal": "reverse",
+        "origin": "TIMESPACE_4.3_FULL_CANONICAL",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:49490->49491",
+        "source_location": "source_snapshots/api43/MK43_Ultra_API_CURRENT_CANONICAL.md:57934",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@mote",
+        "relation": "DIRECTED_TO",
+        "to": "@white_core_mote_coupling",
+        "traversal": "reverse",
+        "origin": "TIMESPACE_4.3_FULL_CANONICAL",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50147->50148",
+        "source_location": "source_snapshots/api43/MK43_Ultra_API_CURRENT_CANONICAL.md:58385",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@white_core_mote_coupling",
+        "relation": "DIRECTED_TO",
+        "to": "@white_state_core",
+        "traversal": "reverse",
+        "origin": "TIMESPACE_4.3_FULL_CANONICAL",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50138->50139",
+        "source_location": "source_snapshots/api43/MK43_Ultra_API_CURRENT_CANONICAL.md:58395",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@white_state_core",
+        "relation": "SUPPLIES_MODE0_ACCESS_INTERFACE",
+        "to": "@dm_mode0_access_interface",
+        "traversal": "forward",
+        "origin": "DARKMATTER_2.0",
+        "provenance": "DM2.0",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "USER_CURATORIAL_RULING",
+        "confidence": "high"
+      }
+    ]
+  },
+  "guardrail": "Navigation evidence only. Composed paths are not direct theorems and no parent object is promoted."
+}

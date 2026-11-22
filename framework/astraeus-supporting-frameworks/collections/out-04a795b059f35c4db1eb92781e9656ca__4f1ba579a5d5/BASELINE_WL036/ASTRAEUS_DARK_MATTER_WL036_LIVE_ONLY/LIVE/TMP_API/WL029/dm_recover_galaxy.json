@@ -1,0 +1,133 @@
+{
+  "handle": "@galaxy",
+  "record": {
+    "handle": "@galaxy",
+    "name": "Galaxy",
+    "origin": "TIMESPACE_4.3",
+    "criticality": "critical",
+    "uri": "mk43://recover/cosmology/galaxy",
+    "parent_status": "indexed-unlinked",
+    "parent_upstream": "none",
+    "parent_downstream": "none",
+    "source_occurrences": "1",
+    "registry_line": 36468,
+    "occurrence_lines": [
+      7719,
+      36468,
+      46676
+    ]
+  },
+  "incoming": [
+    {
+      "source": "@dm_hidden_response_operator",
+      "relation": "READS_OUT_AT",
+      "target": "@galaxy",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0"
+    }
+  ],
+  "outgoing": [],
+  "composed_in": [],
+  "composed_out": [
+    {
+      "source": "@galaxy",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@admissibility",
+      "primitive_depth": 4,
+      "shortest_path": [
+        "@galaxy",
+        "@dm_hidden_response_operator",
+        "@dm_continuity_laplacian",
+        "@dm_local_continuity_response_coefficient",
+        "@admissibility"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@galaxy",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@continuity_redistribution",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@galaxy",
+        "@dm_hidden_response_operator",
+        "@dm_continuity_laplacian",
+        "@continuity_redistribution"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@galaxy",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@dm_continuity_laplacian",
+      "primitive_depth": 2,
+      "shortest_path": [
+        "@galaxy",
+        "@dm_hidden_response_operator",
+        "@dm_continuity_laplacian"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@galaxy",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@dm_local_continuity_response_coefficient",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@galaxy",
+        "@dm_hidden_response_operator",
+        "@dm_continuity_laplacian",
+        "@dm_local_continuity_response_coefficient"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@galaxy",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@gravitational_self_coupling",
+      "primitive_depth": 4,
+      "shortest_path": [
+        "@galaxy",
+        "@dm_hidden_response_operator",
+        "@dm_continuity_laplacian",
+        "@continuity_redistribution",
+        "@gravitational_self_coupling"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@galaxy",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@graviton_radiative_stability",
+      "primitive_depth": 6,
+      "shortest_path": [
+        "@galaxy",
+        "@dm_hidden_response_operator",
+        "@dm_continuity_laplacian",
+        "@dm_local_continuity_response_coefficient",
+        "@admissibility",
+        "@native_constraint_closure",
+        "@graviton_radiative_stability"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@galaxy",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@native_constraint_closure",
+      "primitive_depth": 5,
+      "shortest_path": [
+        "@galaxy",
+        "@dm_hidden_response_operator",
+        "@dm_continuity_laplacian",
+        "@dm_local_continuity_response_coefficient",
+        "@admissibility",
+        "@native_constraint_closure"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    }
+  ]
+}

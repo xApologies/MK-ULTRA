@@ -1,0 +1,69 @@
+{
+  "schema": "MK43_COMPONENT_SALVAGE_REGISTRY_V1",
+  "protocol_handle": "@component_salvage_protocol",
+  "allowed_dispositions": [
+    "REUSE",
+    "ADAPT",
+    "SPECIALIZE",
+    "GENERALIZE",
+    "QUARANTINE",
+    "REJECT"
+  ],
+  "reuse_types": [
+    "FORM_REUSE",
+    "SEMANTIC_REUSE",
+    "DERIVED_REUSE",
+    "ANALOGICAL_ONLY"
+  ],
+  "records": [
+    {
+      "legacy_component": "chirality seed/orientation",
+      "new_role": "local state/orientation representative",
+      "reuse_type": "DERIVED_REUSE",
+      "status": "ADAPT",
+      "provenance": "user-supplied chirality material + v39 live model"
+    },
+    {
+      "legacy_component": "neighbor set N",
+      "new_role": "local adjacency graph",
+      "reuse_type": "FORM_REUSE",
+      "status": "REUSE",
+      "provenance": "recursive chirality evolution material"
+    },
+    {
+      "legacy_component": "coupling weights w_n",
+      "new_role": "typed local coupling strengths",
+      "reuse_type": "FORM_REUSE",
+      "status": "ADAPT",
+      "provenance": "recursive chirality evolution material"
+    },
+    {
+      "legacy_component": "lambda localization/closure",
+      "new_role": "closure/localization pressure",
+      "reuse_type": "DERIVED_REUSE",
+      "status": "ADAPT",
+      "provenance": "recursive chirality evolution material"
+    },
+    {
+      "legacy_component": "Pi recursive occupancy projection",
+      "new_role": "admissibility-preserving update/readout operator",
+      "reuse_type": "DERIVED_REUSE",
+      "status": "ADAPT",
+      "provenance": "recursive chirality evolution material"
+    },
+    {
+      "legacy_component": "Resolution R_d",
+      "new_role": "readout/refinement structure",
+      "reuse_type": "SEMANTIC_REUSE",
+      "status": "REUSE",
+      "provenance": "Genesis/Resolution material"
+    },
+    {
+      "legacy_component": "Bandwidth B_d",
+      "new_role": "available morphism/capacity structure",
+      "reuse_type": "DERIVED_REUSE",
+      "status": "ADAPT",
+      "provenance": "Genesis/Bandwidth material"
+    }
+  ]
+}

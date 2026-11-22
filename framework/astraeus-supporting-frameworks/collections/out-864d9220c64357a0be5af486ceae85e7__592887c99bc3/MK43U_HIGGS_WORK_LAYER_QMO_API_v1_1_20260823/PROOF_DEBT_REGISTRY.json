@@ -1,0 +1,77 @@
+{
+  "schema": "MK43_HIGGS_WORK_PROOF_DEBT_V1_1",
+  "count": 6,
+  "items": [
+    {
+      "id": "PD-HIGGS-001",
+      "name": "Exact Higgs-relevant Helicon sector selector",
+      "status": "OPEN_REFINEMENT",
+      "blocking_scope": "EXACT_NATIVE_TO_PROJECTED_REALIZATION_ONLY",
+      "statement": "Construct and source-type Sigma_H such that native order states select the exact Higgs-relevant Helicon sector and the realization respects Helicon-before-QFT direction. Candidate target: Project_H = Pi_H o Sigma_H, with correct Time-Shell/boundary typing.",
+      "does_not_block": [
+        "native Higgs order field definition",
+        "order-conditioned persistence-lock selection",
+        "Native Mass definition",
+        "typed existence/signature of Project_H"
+      ]
+    },
+    {
+      "id": "PD-HIGGS-002",
+      "name": "Exact Standard-Model Higgs mass-matrix equality and readable calibration",
+      "status": "OPEN_CORRESPONDENCE",
+      "blocking_scope": "EXACT_STANDARD_MODEL_NUMERICAL_CORRESPONDENCE",
+      "statement": "Establish Mhat_read^2 = Hhat_Higgs^2(Phi_0) with exact mode identification, units, parameters, and empirical/readable calibration.",
+      "does_not_block": [
+        "native field ontology",
+        "Native Mass",
+        "source-typed QFT handoff interface"
+      ]
+    },
+    {
+      "id": "PD-HIGGS-003",
+      "name": "Numerical implementation of native corridor/order operators",
+      "status": "OPEN_IMPLEMENTATION_REFINEMENT",
+      "blocking_scope": "NUMERICAL_PREDICTION_ONLY",
+      "statement": "Implement and calibrate the conditioned inherit/stabilize/closure operators numerically without changing the source-defined object/environment split.",
+      "does_not_block": [
+        "symbolic native Higgs QMO",
+        "fixed-point dependency closure"
+      ]
+    },
+    {
+      "id": "PD-HIGGS-W019-001",
+      "name": "Physical identity of local matter realization",
+      "status": "OPEN_PHYSICAL_IDENTIFICATION",
+      "blocking_scope": "PHYSICAL_FIELD_IDENTITY_ONLY",
+      "statement": "Identify the abstract local matter state psi_+ with an exact native/Standard-Model field sector and derive its action from the upstream T4 lock rather than using a local realization chart.",
+      "does_not_block": [
+        "work-layer matter witness",
+        "stress-energy typing",
+        "gravity-matter closure instance"
+      ]
+    },
+    {
+      "id": "PD-HIGGS-W021-001",
+      "name": "Native Graviton source-coupling derivation",
+      "status": "OPEN_NATIVE_DYNAMICS",
+      "blocking_scope": "NATIVE_GRAVITON_SOURCE_DYNAMICS",
+      "statement": "Derive the microscopic native map from the T4/matter source to the Graviton/continuity-perturbation dynamics. E021 closes only the readable weak-field interface.",
+      "does_not_block": [
+        "readable local Einstein/Graviton component test",
+        "work-layer closure"
+      ]
+    },
+    {
+      "id": "PD-HIGGS-PHYS-001",
+      "name": "Canonical-order versus Higgs-vacuum alignment",
+      "status": "OPEN_CORRESPONDENCE",
+      "blocking_scope": "PHYSICAL_HIGGS_VACUUM_IDENTIFICATION",
+      "statement": "Determine whether eta_can and eta_vac are identical, equivalent, or distinct and correspondingly whether Phi_can equals Phi_0.",
+      "does_not_block": [
+        "native Higgs closure",
+        "eta_can work-layer witness",
+        "work-layer QFT/gravity closure"
+      ]
+    }
+  ]
+}

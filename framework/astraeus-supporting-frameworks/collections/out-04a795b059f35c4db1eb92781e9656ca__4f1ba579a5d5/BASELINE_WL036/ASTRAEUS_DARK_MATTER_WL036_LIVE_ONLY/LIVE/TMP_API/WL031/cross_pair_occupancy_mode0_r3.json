@@ -1,0 +1,231 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_PAIR_QUERY_V1",
+  "a": "@occupancy",
+  "b": "@dm_mode0_network_selection_rule",
+  "radius": 3,
+  "a_node_count": 49,
+  "b_node_count": 34,
+  "interface": [
+    {
+      "handle": "@bandwidth",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_runtime_transition_capacity",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@relational_history",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@resolution",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@white_core_mote_coupling",
+      "distance_a": 3,
+      "distance_b": 3
+    }
+  ],
+  "path_a_to_b": [
+    {
+      "source": "@occupancy",
+      "relation": "DEPENDS_TO",
+      "target": "@persistence_potential",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45105",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@persistence_potential",
+      "relation": "DEPENDS_TO",
+      "target": "@persistent_recursive_topology",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45111",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@persistent_recursive_topology",
+      "relation": "DIRECTED_TO",
+      "target": "@native_constraint_closure",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54808->54809",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@native_constraint_closure",
+      "relation": "DIRECTED_TO",
+      "target": "@readable_graviton_projection",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54814->54815",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@readable_graviton_projection",
+      "relation": "DEPENDS_TO",
+      "target": "@gravitational_radiation",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45125",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@gravitational_radiation",
+      "relation": "DEPENDS_TO",
+      "target": "@inspiral",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45083",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@inspiral",
+      "relation": "DEPENDS_TO",
+      "target": "@merger",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45099",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@merger",
+      "relation": "DEPENDS_TO",
+      "target": "@ringdown",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45102",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@ringdown",
+      "relation": "DEPENDS_TO",
+      "target": "@black_hole_horizon",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45131",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@black_hole_horizon",
+      "relation": "DEPENDS_TO",
+      "target": "@white_state_core",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45052",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@white_state_core",
+      "relation": "SUPPLIES_MODE0_ACCESS_INTERFACE",
+      "target": "@dm_mode0_access_interface",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "USER_CURATORIAL_RULING",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "origin_api": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@dm_mode0_access_interface",
+      "relation": "REQUIRES",
+      "target": "@dm_mode0_network_selection_rule",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "OPEN_HANDLE",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "origin_api": "DARKMATTER_2.0"
+    }
+  ],
+  "path_b_to_a": [
+    {
+      "source": "@dm_mode0_network_selection_rule",
+      "relation": "SELECTS_ACCESS_TO",
+      "target": "@dm_hidden_s3_network",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "OPEN_HANDLE",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "origin_api": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "USES",
+      "target": "@dm_runtime_transition_capacity",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "origin_api": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@dm_runtime_transition_capacity",
+      "relation": "CONSTRAINED_BY",
+      "target": "@bandwidth",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "origin_api": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@bandwidth",
+      "relation": "DEPENDS_TO",
+      "target": "@inheritance",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45049",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@inheritance",
+      "relation": "DEPENDS_TO",
+      "target": "@occupancy",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45095",
+      "origin_api": "TIMESPACE_4.3"
+    }
+  ],
+  "edge_policy": {
+    "timespace": "high-confidence direct/non-derived RP42 records",
+    "darkmatter": "high-confidence DM_DIRECT_EDGE_REGISTRY records",
+    "gluing": "exact handle equality only; no cross-edge is invented"
+  }
+}

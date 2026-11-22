@@ -1,0 +1,48 @@
+{
+  "module": {
+    "name": "MK43 AI",
+    "release": "1.0-alpha",
+    "role": "AI",
+    "contract_version": "2.0",
+    "internal_dimension": 5,
+    "canonical_state_policy": "READ_ONLY",
+    "rewrite_policy": "DERIVED_ONLY",
+    "executable": false,
+    "realization_target": "1.B"
+  },
+  "coordinates": [
+    "Intent",
+    "Relevance",
+    "Orientation",
+    "RecursiveStrategy",
+    "DecisionProvenance"
+  ],
+  "required_methods": [
+    "interpret",
+    "rank",
+    "continue_or_terminate",
+    "place_continuation",
+    "collapse",
+    "validate_collapse",
+    "dimension_model",
+    "fork_request_context",
+    "canonical_fingerprint",
+    "healthcheck"
+  ],
+  "decision_domain": [
+    "CONTINUE",
+    "TERMINATE",
+    "DEFER",
+    "REJECT_INVALID"
+  ],
+  "invariants": [
+    "no_fabricated_handles",
+    "no_canonical_mutation",
+    "no_silent_branch_drop",
+    "complete_branch_accounting",
+    "termination_preserves_continuation",
+    "qmo_private",
+    "stable_replay_in_deterministic_mode"
+  ],
+  "acceptance_test_count": 40
+}

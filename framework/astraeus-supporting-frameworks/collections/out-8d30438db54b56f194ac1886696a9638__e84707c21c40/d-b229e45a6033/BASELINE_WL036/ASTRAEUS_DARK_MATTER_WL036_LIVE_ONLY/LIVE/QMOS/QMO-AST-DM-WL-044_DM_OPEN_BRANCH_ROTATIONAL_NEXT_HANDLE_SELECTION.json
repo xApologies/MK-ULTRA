@@ -1,0 +1,64 @@
+{
+  "schema": "ASTRAEUS_API_QMO_NEXT_HANDLE_SELECTION_V1",
+  "qmo_id": "QMO-AST-DM-WL-044",
+  "name": "DM Open-Branch Rotational Next-Handle Selection",
+  "atlas_version": "WL-v159",
+  "status": "API_SELECTED_NAVIGATION_HANDLE_NOT_PARENT_PROMOTED",
+  "method": "Query DM2.2 cross-crawl rankings for the two active primary open branches; prefer an API-returned handle aligned with the active rotational witness direction rather than constructing new mathematics.",
+  "open_targets": [
+    "@dm_dark_matter_qualification_nonempty",
+    "@dm_metric_action_selection"
+  ],
+  "current_frontier": "@shift_vector",
+  "api_return": {
+    "handle": "@angular_momentum_parameter",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 9,
+    "rank_sum": 9,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 5,
+        "handle": "@angular_momentum_parameter",
+        "anchor_support": 5,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity",
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 4,
+        "handle": "@angular_momentum_parameter",
+        "anchor_support": 4,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      }
+    ]
+  },
+  "selection": "@angular_momentum_parameter",
+  "selection_reason": "The DM2.2 cross-crawl independently returns @angular_momentum_parameter under both principal open branches (qualification rank 5 with anchor support 5; metric-action rank 4 with anchor support 4). Generic higher-ranked handles such as GR/total-action/Cauchy are already traversed landscapes. This is the first API-returned rotationally aligned handle chosen for the next QMO.",
+  "handle_definition": "Rotation parameter (accepted GR/Kerr branch).",
+  "guardrails": [
+    "ranking != physical realization",
+    "@angular_momentum_parameter != abstract work-layer J_* by identity",
+    "Kerr rotation parameter != dark matter",
+    "no scalar profile is promoted to native ontology",
+    "parent promotions = 0"
+  ],
+  "next_handle": "@angular_momentum_parameter"
+}

@@ -1,0 +1,158 @@
+{
+  "chapter_ids": [
+    "V07-C03"
+  ],
+  "chapters": [
+    {
+      "assigned_handle_count": 2,
+      "chapter_id": "V07-C03",
+      "handles": [
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@linear_metric_perturbation",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.883689+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 593,
+            "english_units": 1256,
+            "equation_units": 7,
+            "evidence_diversity": 2,
+            "handle": "@linear_metric_perturbation",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P2",
+            "registered_dependencies": 697,
+            "run_id": "RP-05B",
+            "score": 82,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 15767,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 721,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:721"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 723,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:723"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 732,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:732"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1798,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1798"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1960,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1960"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 2204,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:2204"
+            }
+          ],
+          "handle": "@linear_metric_perturbation",
+          "incoming_relation_types": {
+            "BLACK_HOLE_GLOBAL_REACHES": 1,
+            "BLACK_HOLE_MODEL_REACHES": 1,
+            "COMPOSED_DEPENDENCY": 414,
+            "DEPENDS_ON": 21,
+            "FAMILY_DEPENDS_ON": 20,
+            "GENERALIZES": 1,
+            "SUPPORTS": 28
+          },
+          "native_report": {
+            "bytes": 3204177,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V07_C03\\linear_metric_perturbation_7a43746b559145d38dd837d04e8eb478.md",
+            "reused_master_query": false,
+            "sha256": "01de4a4307e955c9830eb48217c29687429e65c61a4e520f64cad5033cf50c55"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "BLACK_HOLE_CROSS_FAMILY_NODE": 1,
+            "COMPOSED_DEPENDENCY": 131,
+            "DEPENDS_ON": 34,
+            "FEEDS_BLACK_HOLE_MODEL": 1,
+            "GLOBALLY_FEEDS_BLACK_HOLE": 1,
+            "REALIZES": 1,
+            "SPECIALIZES": 1,
+            "SUPPORTS": 21,
+            "SUPPORTS_FAMILY": 20
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@metric_and_phase_perturbations` — Metric and phase perturbations",
+          "canonical_uri": "mk43://recover/geometry/metric-and-phase-perturbations",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.884689+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 83,
+            "english_units": 7,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@metric_and_phase_perturbations",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 33,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 169,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@metric_and_phase_perturbations",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 10029,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V07_C03\\metric_and_phase_perturbations_16fb308ee2814cf1a1e07abc2fc9e147.md",
+            "reused_master_query": false,
+            "sha256": "00aebcdce0bdfa05465ed061e273bee3c6a2a9874a31fae19feeb4d0f57383e1"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        }
+      ],
+      "title": "Continuity Perturbation"
+    }
+  ],
+  "database_sha256": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03",
+  "database_unchanged": true,
+  "query_architecture": "Runtime -> BRANE -> API/QMO -> Library 4.1",
+  "query_receipt": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\native_query_receipt_V07_C03.json",
+  "schema": "mk-ultra-tome-native-evidence-digest-v1"
+}

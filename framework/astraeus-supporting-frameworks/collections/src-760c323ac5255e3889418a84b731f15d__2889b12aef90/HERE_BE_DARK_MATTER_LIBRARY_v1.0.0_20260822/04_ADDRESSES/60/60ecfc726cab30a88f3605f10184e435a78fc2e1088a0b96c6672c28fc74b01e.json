@@ -1,0 +1,98 @@
+{
+  "handle": "@artifact_coordinate",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@artifact_coordinate",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 2,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 2,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 1,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@artifact_coordinate",
+        "relation": "DIRECTED_TO",
+        "target": "@configuration_space_3_1_1",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54835->54836"
+      },
+      {
+        "source": "@artifact_coordinate",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@configuration_space_3_1_1",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DEPENDSON:54293"
+      },
+      {
+        "source": "@configuration_space_3_1_1",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@artifact_coordinate",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@artifact_coordinate FORMALLY_DEPENDS_ON @configuration_space_3_1_1); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 61,
+        "source": "@artifact_coordinate",
+        "relation": "DIRECTED_TO",
+        "target": "@configuration_space_3_1_1",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54835->54836"
+      },
+      {
+        "id": 62,
+        "source": "@artifact_coordinate",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@configuration_space_3_1_1",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_DEPENDSON:54293"
+      },
+      {
+        "id": 2115,
+        "source": "@configuration_space_3_1_1",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@artifact_coordinate",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@artifact_coordinate FORMALLY_DEPENDS_ON @configuration_space_3_1_1); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      }
+    ]
+  },
+  "address": "@artifact_coordinate",
+  "address_sha256": "60ecfc726cab30a88f3605f10184e435a78fc2e1088a0b96c6672c28fc74b01e"
+}

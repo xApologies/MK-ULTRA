@@ -1,0 +1,371 @@
+{
+  "schema": "ASTRAEUS_WL030_NATIVE_CAUSAL_ORDER_RAW_API_V1",
+  "generated_at": "2026-08-17T20:59:00-05:00",
+  "ranking_record": {
+    "handle": "@native_causal_order",
+    "open_targets": [
+      "@dm_hidden_state_embedding",
+      "@dm_history_to_continuity_strength",
+      "@dm_mode0_network_selection_rule"
+    ],
+    "anchor_support_sum": 8,
+    "rank_sum": 4,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 1,
+        "handle": "@native_causal_order",
+        "anchor_support": 3,
+        "min_parent_distance": 1,
+        "lexical_signal": 1,
+        "supporting_anchors": [
+          "@admissibility",
+          "@continuity_redistribution",
+          "@inheritance_morphism"
+        ]
+      },
+      {
+        "open_target": "@dm_history_to_continuity_strength",
+        "rank": 2,
+        "handle": "@native_causal_order",
+        "anchor_support": 2,
+        "min_parent_distance": 1,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@admissibility",
+          "@continuity_redistribution"
+        ]
+      },
+      {
+        "open_target": "@dm_mode0_network_selection_rule",
+        "rank": 1,
+        "handle": "@native_causal_order",
+        "anchor_support": 3,
+        "min_parent_distance": 1,
+        "lexical_signal": 1,
+        "supporting_anchors": [
+          "@admissibility",
+          "@continuity_redistribution",
+          "@inheritance_morphism"
+        ]
+      }
+    ]
+  },
+  "direct_pair_queries": {
+    "embedding": {
+      "a": "@native_causal_order",
+      "b": "@dm_hidden_state_embedding",
+      "radius": 2,
+      "a_node_count": 37,
+      "b_node_count": 1,
+      "interface": [],
+      "path_a_to_b": null,
+      "direct_neighborhood_policy": "high-confidence non-derived/direct-source Time-Space API edges only",
+      "path_policy": "high-confidence registered + admissibly derived Time-Space API edges; directions preserved"
+    },
+    "history_strength": {
+      "a": "@native_causal_order",
+      "b": "@dm_history_to_continuity_strength",
+      "radius": 2,
+      "a_node_count": 37,
+      "b_node_count": 1,
+      "interface": [],
+      "path_a_to_b": null,
+      "direct_neighborhood_policy": "high-confidence non-derived/direct-source Time-Space API edges only",
+      "path_policy": "high-confidence registered + admissibly derived Time-Space API edges; directions preserved"
+    },
+    "mode0": {
+      "a": "@native_causal_order",
+      "b": "@dm_mode0_network_selection_rule",
+      "radius": 2,
+      "a_node_count": 37,
+      "b_node_count": 1,
+      "interface": [],
+      "path_a_to_b": null,
+      "direct_neighborhood_policy": "high-confidence non-derived/direct-source Time-Space API edges only",
+      "path_policy": "high-confidence registered + admissibly derived Time-Space API edges; directions preserved"
+    },
+    "hidden_s3": {
+      "a": "@native_causal_order",
+      "b": "@dm_hidden_s3_network",
+      "radius": 2,
+      "a_node_count": 37,
+      "b_node_count": 1,
+      "interface": [],
+      "path_a_to_b": null,
+      "direct_neighborhood_policy": "high-confidence non-derived/direct-source Time-Space API edges only",
+      "path_policy": "high-confidence registered + admissibly derived Time-Space API edges; directions preserved"
+    }
+  },
+  "registered_paths": {
+    "embedding_to_nco": {
+      "schema": "ASTRAEUS_CROSS_API_PATH_QUERY_V1",
+      "source": "@dm_hidden_state_embedding",
+      "target": "@native_causal_order",
+      "path": [
+        {
+          "source": "@dm_hidden_state_embedding",
+          "relation": "CONSTRAINED_BY",
+          "target": "@inheritance_morphism",
+          "graph_family": "dark_matter",
+          "confidence": "high",
+          "audit_status": "OPEN_HANDLE",
+          "provenance": "DM2.1",
+          "origin": "DARKMATTER_2.1",
+          "origin_api": "DARKMATTER_2.1"
+        },
+        {
+          "source": "@inheritance_morphism",
+          "relation": "DEPENDS_TO",
+          "target": "@recursive_inheritance",
+          "graph_family": "mixed",
+          "confidence": "high",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-34",
+          "provenance": "DIRECT_API_LINE:45097",
+          "origin_api": "TIMESPACE_4.3"
+        },
+        {
+          "source": "@recursive_inheritance",
+          "relation": "FORMALLY_DEPENDS_ON",
+          "target": "@native_causal_order",
+          "graph_family": "mathematical",
+          "confidence": "high",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-36",
+          "provenance": "CANONICAL_API_DEPENDSON:53953",
+          "origin_api": "TIMESPACE_4.3"
+        }
+      ]
+    },
+    "history_strength_to_nco": {
+      "schema": "ASTRAEUS_CROSS_API_PATH_QUERY_V1",
+      "source": "@dm_history_to_continuity_strength",
+      "target": "@native_causal_order",
+      "path": [
+        {
+          "source": "@dm_history_to_continuity_strength",
+          "relation": "MAY_MODULATE",
+          "target": "@dm_local_continuity_response_coefficient",
+          "graph_family": "dark_matter",
+          "confidence": "high",
+          "audit_status": "OPEN_HANDLE",
+          "provenance": "DM2.0",
+          "origin": "DARKMATTER_2.0",
+          "origin_api": "DARKMATTER_2.0"
+        },
+        {
+          "source": "@dm_local_continuity_response_coefficient",
+          "relation": "DEPENDS_ON",
+          "target": "@admissibility",
+          "graph_family": "dark_matter",
+          "confidence": "high",
+          "audit_status": "ATLAS_DERIVED",
+          "provenance": "DM2.0",
+          "origin": "DARKMATTER_2.0",
+          "origin_api": "DARKMATTER_2.0"
+        },
+        {
+          "source": "@admissibility",
+          "relation": "DIRECTED_TO",
+          "target": "@native_causal_order",
+          "graph_family": "mathematical",
+          "confidence": "high",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-36",
+          "provenance": "CANONICAL_API_MULTILINE_ARROW:54778->54779",
+          "origin_api": "TIMESPACE_4.3"
+        }
+      ]
+    },
+    "mode0_to_nco": {
+      "schema": "ASTRAEUS_CROSS_API_PATH_QUERY_V1",
+      "source": "@dm_mode0_network_selection_rule",
+      "target": "@native_causal_order",
+      "path": [
+        {
+          "source": "@dm_mode0_network_selection_rule",
+          "relation": "SELECTS_ACCESS_TO",
+          "target": "@dm_hidden_s3_network",
+          "graph_family": "dark_matter",
+          "confidence": "high",
+          "audit_status": "OPEN_HANDLE",
+          "provenance": "DM2.0",
+          "origin": "DARKMATTER_2.0",
+          "origin_api": "DARKMATTER_2.0"
+        },
+        {
+          "source": "@dm_hidden_s3_network",
+          "relation": "USES",
+          "target": "@dm_runtime_transition_capacity",
+          "graph_family": "dark_matter",
+          "confidence": "high",
+          "audit_status": "ATLAS_DERIVED",
+          "provenance": "DM2.0",
+          "origin": "DARKMATTER_2.0",
+          "origin_api": "DARKMATTER_2.0"
+        },
+        {
+          "source": "@dm_runtime_transition_capacity",
+          "relation": "DEPENDS_ON",
+          "target": "@admissibility",
+          "graph_family": "dark_matter",
+          "confidence": "high",
+          "audit_status": "ATLAS_DERIVED",
+          "provenance": "DM2.0",
+          "origin": "DARKMATTER_2.0",
+          "origin_api": "DARKMATTER_2.0"
+        },
+        {
+          "source": "@admissibility",
+          "relation": "DIRECTED_TO",
+          "target": "@native_causal_order",
+          "graph_family": "mathematical",
+          "confidence": "high",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-36",
+          "provenance": "CANONICAL_API_MULTILINE_ARROW:54778->54779",
+          "origin_api": "TIMESPACE_4.3"
+        }
+      ]
+    },
+    "hidden_s3_to_nco": {
+      "schema": "ASTRAEUS_CROSS_API_PATH_QUERY_V1",
+      "source": "@dm_hidden_s3_network",
+      "target": "@native_causal_order",
+      "path": [
+        {
+          "source": "@dm_hidden_s3_network",
+          "relation": "USES",
+          "target": "@dm_runtime_transition_capacity",
+          "graph_family": "dark_matter",
+          "confidence": "high",
+          "audit_status": "ATLAS_DERIVED",
+          "provenance": "DM2.0",
+          "origin": "DARKMATTER_2.0",
+          "origin_api": "DARKMATTER_2.0"
+        },
+        {
+          "source": "@dm_runtime_transition_capacity",
+          "relation": "DEPENDS_ON",
+          "target": "@admissibility",
+          "graph_family": "dark_matter",
+          "confidence": "high",
+          "audit_status": "ATLAS_DERIVED",
+          "provenance": "DM2.0",
+          "origin": "DARKMATTER_2.0",
+          "origin_api": "DARKMATTER_2.0"
+        },
+        {
+          "source": "@admissibility",
+          "relation": "DIRECTED_TO",
+          "target": "@native_causal_order",
+          "graph_family": "mathematical",
+          "confidence": "high",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-36",
+          "provenance": "CANONICAL_API_MULTILINE_ARROW:54778->54779",
+          "origin_api": "TIMESPACE_4.3"
+        }
+      ]
+    },
+    "hidden_s3_to_graviton": {
+      "schema": "ASTRAEUS_CROSS_API_PATH_QUERY_V1",
+      "source": "@dm_hidden_s3_network",
+      "target": "@graviton",
+      "path": [
+        {
+          "source": "@dm_hidden_s3_network",
+          "relation": "USES",
+          "target": "@dm_runtime_transition_capacity",
+          "graph_family": "dark_matter",
+          "confidence": "high",
+          "audit_status": "ATLAS_DERIVED",
+          "provenance": "DM2.0",
+          "origin": "DARKMATTER_2.0",
+          "origin_api": "DARKMATTER_2.0"
+        },
+        {
+          "source": "@dm_runtime_transition_capacity",
+          "relation": "DEPENDS_ON",
+          "target": "@admissibility",
+          "graph_family": "dark_matter",
+          "confidence": "high",
+          "audit_status": "ATLAS_DERIVED",
+          "provenance": "DM2.0",
+          "origin": "DARKMATTER_2.0",
+          "origin_api": "DARKMATTER_2.0"
+        },
+        {
+          "source": "@admissibility",
+          "relation": "DIRECTED_TO",
+          "target": "@native_causal_order",
+          "graph_family": "mathematical",
+          "confidence": "high",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-36",
+          "provenance": "CANONICAL_API_MULTILINE_ARROW:54778->54779",
+          "origin_api": "TIMESPACE_4.3"
+        },
+        {
+          "source": "@native_causal_order",
+          "relation": "DIRECTED_TO",
+          "target": "@graviton",
+          "graph_family": "mathematical",
+          "confidence": "high",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-36",
+          "provenance": "CANONICAL_API_MULTILINE_ARROW:54787->54788",
+          "origin_api": "TIMESPACE_4.3"
+        }
+      ]
+    },
+    "nco_to_graviton": {
+      "schema": "ASTRAEUS_CROSS_API_PATH_QUERY_V1",
+      "source": "@native_causal_order",
+      "target": "@graviton",
+      "path": [
+        {
+          "source": "@native_causal_order",
+          "relation": "DIRECTED_TO",
+          "target": "@graviton",
+          "graph_family": "mathematical",
+          "confidence": "high",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-36",
+          "provenance": "CANONICAL_API_MULTILINE_ARROW:54787->54788",
+          "origin_api": "TIMESPACE_4.3"
+        }
+      ]
+    },
+    "nco_to_time_shell": {
+      "schema": "ASTRAEUS_CROSS_API_PATH_QUERY_V1",
+      "source": "@native_causal_order",
+      "target": "@time_shell",
+      "path": [
+        {
+          "source": "@native_causal_order",
+          "relation": "DIRECTED_TO",
+          "target": "@graviton",
+          "graph_family": "mathematical",
+          "confidence": "high",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-36",
+          "provenance": "CANONICAL_API_MULTILINE_ARROW:54787->54788",
+          "origin_api": "TIMESPACE_4.3"
+        },
+        {
+          "source": "@graviton",
+          "relation": "DEPENDS_TO",
+          "target": "@time_shell",
+          "graph_family": "mixed",
+          "confidence": "high",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-34",
+          "provenance": "DIRECT_API_LINE:45086",
+          "origin_api": "TIMESPACE_4.3"
+        }
+      ]
+    }
+  }
+}

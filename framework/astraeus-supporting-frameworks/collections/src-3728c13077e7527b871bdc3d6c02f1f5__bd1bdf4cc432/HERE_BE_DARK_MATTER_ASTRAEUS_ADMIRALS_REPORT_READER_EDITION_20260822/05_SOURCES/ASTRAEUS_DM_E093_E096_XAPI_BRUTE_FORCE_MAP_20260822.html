@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+
+<html lang="" xml:lang="" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8"/>
+<meta content="pandoc" name="generator"/>
+<meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
+<title>ASTRAEUS DM E093 E096 XAPI BRUTE FORCE MAP 20260822</title>
+<style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+<style>
+:root { color-scheme: light dark; }
+body { max-width: 980px; margin: 0 auto; padding: 2.2rem 1.5rem 5rem; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 1.62; }
+h1,h2,h3,h4 { line-height: 1.2; margin-top: 1.8em; }
+h1 { border-bottom: 2px solid currentColor; padding-bottom: .25rem; }
+h2 { border-bottom: 1px solid color-mix(in srgb, currentColor 30%, transparent); padding-bottom: .2rem; }
+blockquote { border-left: 4px solid currentColor; padding-left: 1rem; margin-left: 0; opacity: .92; }
+pre, code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+pre { overflow-x: auto; padding: 1rem; border: 1px solid color-mix(in srgb, currentColor 20%, transparent); border-radius: 8px; }
+code { font-size: .92em; }
+table { border-collapse: collapse; width: 100%; overflow-x: auto; display: block; }
+th, td { border: 1px solid color-mix(in srgb, currentColor 25%, transparent); padding: .45rem .6rem; vertical-align: top; }
+a { color: inherit; text-decoration-thickness: .08em; }
+nav#TOC { padding: 1rem 1.2rem; border: 1px solid color-mix(in srgb, currentColor 25%, transparent); border-radius: 10px; }
+.reader-banner { border: 2px solid currentColor; border-radius: 12px; padding: .8rem 1rem; margin: 0 0 2rem; font-weight: 650; }
+mjx-container { max-width: 100%; }
+mjx-container[display="true"] { display: block; overflow-x: auto; overflow-y: hidden; padding: .45rem 0; margin: 1rem 0; }
+mjx-container svg { max-width: 100%; }
+.eq-source { font-size: .86rem; opacity: .75; margin-bottom: .25rem; }
+.eq-card { padding: .6rem .9rem; margin: .7rem 0 1.2rem; border-left: 3px solid color-mix(in srgb, currentColor 45%, transparent); }
+.render-fallback { font-family: Georgia, "Times New Roman", serif; white-space: pre-wrap; overflow-x: auto; }
+@media (max-width: 600px) { body { font-size: 17px; padding: 1.2rem .8rem 3rem; } }
+</style></head>
+<body><div class="reader-banner">READER EDITION — equations are pre-rendered as vector mathematics. No LaTeX renderer, plug-in, or internet connection is required.</div>
+<header id="title-block-header">
+<h1 class="title">ASTRAEUS DM E093 E096 XAPI BRUTE FORCE MAP
+20260822</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#astraeus-dark-matter-e093e096-api-4.3-dm-2.2-brute-force-map" id="toc-astraeus-dark-matter-e093e096-api-4.3-dm-2.2-brute-force-map">Astraeus
+Dark Matter — E093–E096 API 4.3 × DM 2.2 Brute-Force Map</a>
+<ul>
+<li><a href="#status" id="toc-status">Status</a></li>
+<li><a href="#e093-mount-the-two-apis-as-one-qmo" id="toc-e093-mount-the-two-apis-as-one-qmo">E093 — mount the two APIs as
+one QMO</a></li>
+<li><a href="#e094-brute-force-closure" id="toc-e094-brute-force-closure">E094 — brute-force closure</a></li>
+<li><a href="#e095-the-energy-density-bridge-closes-structurally" id="toc-e095-the-energy-density-bridge-closes-structurally">E095 — the
+energy-density bridge closes structurally</a></li>
+<li><a href="#e096-dark-matter-map-reranked" id="toc-e096-dark-matter-map-reranked">E096 — Dark Matter map
+reranked</a></li>
+<li><a href="#current-frontier" id="toc-current-frontier">Current
+frontier</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="astraeus-dark-matter-e093e096-api-4.3-dm-2.2-brute-force-map">Astraeus
+Dark Matter — E093–E096 API 4.3 × DM 2.2 Brute-Force Map</h1>
+<h2 id="status">Status</h2>
+<p><strong>COMPLETED CROSS-API FIXED-POINT MAP — APPEND-ONLY LIVE
+LANDSCAPE UPDATE</strong></p>
+<ul>
+<li>API 4.3 source SHA-256:
+<code>0010a4de99d78748ede57670b3bca1df6185b7ba8dd0faf266cc3ba1a4ccf752</code></li>
+<li>Dark Matter 2.2 source SHA-256:
+<code>ee4819595f94a52565ab21c832c902ea4040e315f3f575b203c61e53740ed63a</code></li>
+<li>immutable DM rollback baseline mutated: <strong>no</strong></li>
+<li>API 4.3 mutated: <strong>no</strong></li>
+<li>physical dark-matter promotion: <strong>no</strong></li>
+<li>canonical-edge promotion: <strong>no</strong></li>
+</ul>
+<h2 id="e093-mount-the-two-apis-as-one-qmo">E093 — mount the two APIs as
+one QMO</h2>
+<p><code>QMO-XAPI-002</code> mounts the complete API 4.3 handle universe
+and Dark Matter 2.2 child API as one finite dependency object while
+preserving source domains and edge types.</p>
+<pre class="text"><code>API 4.3 handles                     2384
+API 4.3 typed edge records          75432
+DM 2.2 child objects                38
+DM 2.2 open handles                 7
+combined unique nodes               2422
+combined semantic primitive pairs   6489</code></pre>
+<p>API 4.3’s RP42 index contains a stale embedded
+<code>handle_count=2362</code> while its handle list and the current
+RP53 release manifest contain <code>2384</code> unique handles. The
+combined landscape uses the current manifest/list value and records the
+discrepancy rather than silently rewriting the source.</p>
+<h2 id="e094-brute-force-closure">E094 — brute-force closure</h2>
+<p>A one-billion-iteration ceiling was allowed:</p>
+<pre class="text"><code>ceiling             1,000,000,000
+iterations used     8
+terminal            NO_NEW_STRUCTURE
+wave counts         [38, 33, 54, 49, 48, 16, 8, 1, 1]</code></pre>
+<p>The finite landscape reached fixed point after eight expansion waves,
+so spending the remaining 999,999,992 iterations would only repeat an
+unchanged frontier.</p>
+<p>The exhaustive all-pairs semantic crawl produced:</p>
+<pre class="text"><code>primitive pairs                6,489
+fixed-point reachability pairs 72,564
+closure growth                 11.18x
+maximum shortest-path depth    18
+DM -&gt; API reachability pairs   4,391
+API -&gt; DM reachability pairs   0</code></pre>
+<p>The zero API→DM count under forward semantic orientation is useful:
+the child API depends into the parent universe without forcing the
+parent to acquire definitions from the child.</p>
+<p>API 4.3 self-crawl, independently:</p>
+<pre class="text"><code>semantic primitive pairs       6,399
+semantic fixed-point pairs     68,054
+growth                         10.64x
+max shortest-path depth        18</code></pre>
+<p>DM 2.2’s own source-validated self closure remains:</p>
+<pre class="text"><code>primitive dependency pairs     315
+fixed-point dependency pairs   5769
+growth                         18.31x
+validation                     PASS 16/16</code></pre>
+<h2 id="e095-the-energy-density-bridge-closes-structurally">E095 — the
+energy-density bridge closes structurally</h2>
+<p>The combined QMO exposes the direct source-backed corridor:</p>
+<pre class="text"><code>@dm_resolution_density_profile
+    --REALIZES--&gt;
+@energy_density
+    --ENTERS--&gt;
+@stress_energy_tensor</code></pre>
+<p>This is not an inferred shortcut. Both edges already exist in the
+mounted APIs.</p>
+<p>The longer registered corridor is:</p>
+<pre class="text"><code>@dm_resolution_density_profile
+ -&gt; @energy_density
+ -&gt; @stress_energy_tensor
+ -&gt; @einstein_field_equation
+ -&gt; @gravity</code></pre>
+<p>The exact relation/provenance records are retained in
+<code>QMO-XAPI-002</code> and the SQLite landscape.</p>
+<p>This changes the old open object
+<code>@dm_native_density_to_readable_source</code>. It is no longer one
+undifferentiated missing bridge. It factors into:</p>
+<pre class="text"><code>DM Resolution density profile
+    -&gt; API 4.3 energy-density object          CLOSED STRUCTURALLY
+    -&gt; stress-energy density component        CLOSED STRUCTURALLY
+    -&gt; chosen readable observer/calibration   OPEN NUMERIC/TYPING DEBT</code></pre>
+<p>The existing DM theorem remains intact: one scalar density does
+<strong>not</strong> reconstruct a whole stress-energy tensor. The
+corridor only supplies a component route, which is enough for a
+separation witness if one nonzero component survives readable
+normalization.</p>
+<p>New residual proof debt: <strong>PD-DM-014</strong>.</p>
+<h2 id="e096-dark-matter-map-reranked">E096 — Dark Matter map
+reranked</h2>
+<p>The shortest current energy/gravity route is now:</p>
+<pre class="text"><code>@dm_native_hidden_witness
+ -&gt; @dm_resolution_density_profile
+ -&gt; @energy_density
+ -&gt; @stress_energy_tensor
+ -&gt; @einstein_field_equation
+ -&gt; @gravity</code></pre>
+<p>Shortest depths from the finite witness are:</p>
+<pre class="text"><code>energy density       2
+stress-energy        3
+gravity              5</code></pre>
+<p><code>PD-DM-012</code> (the custom Time-Shell gravity-fiber test) is
+therefore retained as a return lane but is no longer required by the
+shortest energy-density/Einstein corridor. <code>PD-DM-003</code> and
+<code>PD-DM-011</code> are refactored into the much smaller
+<code>PD-DM-014</code> observer/calibration gate.</p>
+<p>The APIs did what the combined-QMO method was supposed to do: the
+bridge was already present; exhaustive closure exposed the factorization
+without inventing a new mechanism.</p>
+<h2 id="current-frontier">Current frontier</h2>
+<pre class="text"><code>@dm_xapi_density_component_calibration</code></pre>
+<p>Question:</p>
+<blockquote>
+<p>For one declared Resolution cell and one fixed normalized readable
+observer, does the already-registered nonzero hidden energy-density
+component remain nonzero in the readable stress-energy slot?</p>
+</blockquote>
+<p>Everything before that component calibration is now structurally
+mapped across the two APIs.</p>
+</body>
+</html>

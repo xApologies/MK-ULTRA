@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "role": "brane",
+  "module_id": "mk43.brane",
+  "package": "mk43_brane",
+  "entrypoint": "mk43_brane:Brane",
+  "release_version": "2.3.3",
+  "build_version": "2.3.3",
+  "runtime_identity_stable": true,
+  "release_identity_separate": true,
+  "architecture": {
+    "owns": [
+      "private_qmo",
+      "port_registry",
+      "composition_mechanism"
+    ],
+    "runtime_visibility": [
+      "brane"
+    ],
+    "private_objects": [
+      "qmo"
+    ],
+    "domain_policy": "independent-port-domains",
+    "composition_rule": "contract-compatible ports; no domain overlap required",
+    "mounts_external": [
+      "ai",
+      "api",
+      "library"
+    ],
+    "module_storage": "external-only"
+  },
+  "version": "2.3.3",
+  "name": "MK43 BRANE 2.3.3"
+}

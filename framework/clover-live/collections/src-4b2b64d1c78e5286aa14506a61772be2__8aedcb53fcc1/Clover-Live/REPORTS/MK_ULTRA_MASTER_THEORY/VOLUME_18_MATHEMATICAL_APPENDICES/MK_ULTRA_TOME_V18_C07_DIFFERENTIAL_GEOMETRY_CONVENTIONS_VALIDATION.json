@@ -1,0 +1,103 @@
+{
+  "schema": "tome-publication-renderer-validation/v1",
+  "created_at": "2026-08-12T10:05:55.898717+00:00",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "engine": "KaTeX 0.16.22 -> HTML/CSS -> Playwright -> Microsoft Edge PDF",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_18_MATHEMATICAL_APPENDICES/MK_ULTRA_TOME_V18_C07_DIFFERENTIAL_GEOMETRY_CONVENTIONS.pdf",
+    "bytes": 144980,
+    "sha256": "fe7b4731db446825fb527c2c6171dcf2e6f5b30e6a4345dbd479ccc9bd387426"
+  },
+  "actual_pages": 7,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V18-C07": 3
+  },
+  "chapter_validations": [
+    {
+      "chapter_id": "V18-C07",
+      "source_sha256": "d3882469c3f31339427085157d766d34e00b597f7ba11ab2ee49269ed6f64f4f",
+      "page_start": 3,
+      "headings": 23,
+      "display_equations": 21,
+      "inline_equations": 0,
+      "equation_tags": 21,
+      "api_handles": 32,
+      "table_rows": 33,
+      "content_markers_present": true
+    }
+  ],
+  "engine_metrics": {
+    "renderer": "TOME_PUBLICATION_RENDERER_V1",
+    "katexVersion": "0.16.22",
+    "chapters": [
+      {
+        "id": "V18-C07",
+        "sourceBytes": 10357,
+        "paragraphs": 42,
+        "headings": 23,
+        "displayEquations": 21,
+        "inlineEquations": 0,
+        "tables": 1,
+        "tableRows": 32,
+        "listItems": 0,
+        "codeBlocks": 0,
+        "figures": 0
+      }
+    ],
+    "paragraphs": 42,
+    "headings": 23,
+    "displayEquations": 21,
+    "inlineEquations": 0,
+    "tables": 1,
+    "tableRows": 32,
+    "listItems": 0,
+    "blockQuotes": 0,
+    "codeBlocks": 0,
+    "figures": 0,
+    "mathLayout": {
+      "checked": 21,
+      "scaled": [],
+      "remainingOverflow": []
+    }
+  },
+  "raw_latex_guard": {
+    "result": "PASS",
+    "hits": [],
+    "commands_scanned": [
+      "frac",
+      "mathcal",
+      "mathrm",
+      "begin",
+      "end",
+      "left",
+      "right",
+      "longrightarrow",
+      "rightarrow",
+      "otimes",
+      "partial",
+      "nabla",
+      "mu",
+      "nu",
+      "sum",
+      "int",
+      "operatorname"
+    ]
+  },
+  "visual_qa": {
+    "result": "PASS",
+    "pages_rendered": 7,
+    "pages_inspected": 7,
+    "contact_sheets_inspected": 2,
+    "findings": [],
+    "inspection_note": "All seven rendered pages were visually inspected. Cover, contents, all 21 equations, the complete thirty-two-handle evidence register across pages 6-7, pagination, and chapter text are legible with no clipping, overlap, raw LaTeX, or unintended blank pages."
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V18-C07": "d3882469c3f31339427085157d766d34e00b597f7ba11ab2ee49269ed6f64f4f"
+  },
+  "source_hashes_after": {
+    "V18-C07": "d3882469c3f31339427085157d766d34e00b597f7ba11ab2ee49269ed6f64f4f"
+  },
+  "sealed_chapter_content_change_count": 0
+}

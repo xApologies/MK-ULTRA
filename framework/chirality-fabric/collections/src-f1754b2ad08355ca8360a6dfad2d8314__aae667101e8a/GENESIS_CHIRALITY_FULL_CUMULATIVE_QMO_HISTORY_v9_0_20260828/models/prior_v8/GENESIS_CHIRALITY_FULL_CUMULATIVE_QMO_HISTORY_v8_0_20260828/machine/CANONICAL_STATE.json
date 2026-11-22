@@ -1,0 +1,25 @@
+{
+  "version": "8.0",
+  "date": "2026-08-28",
+  "canonical_state": "state/CANONICAL_FULL_CUMULATIVE_STATE.md",
+  "master_database": "database/GENESIS_CHIRALITY_FULL_CUMULATIVE_v8.sqlite",
+  "mini_api": "api/qmo_api.py",
+  "resume": "@open/portal_to_hidden_edge",
+  "active_chain": [
+    "@qmo/portal_generator",
+    "@open/portal_to_hidden_edge",
+    "@qmo/hidden_s3_edge",
+    "@qmo/runtime_transition_capacity",
+    "@qmo/history_support_preorder",
+    "@qmo/localization_mask",
+    "@qmo/watcher_rule"
+  ],
+  "firewalls": [
+    "upstream recursive depth is not clock time",
+    "local T2 is not a proven global S4->S2 fiber",
+    "ordered History is not quotient to winding unless explicitly licensed",
+    "Bandwidth is availability/filter, not silent preference",
+    "portal != hidden S3 edge until bridge closes",
+    "QCD remains downstream"
+  ]
+}

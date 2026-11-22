@@ -1,0 +1,11 @@
+[build-system]
+requires=["setuptools>=68"]
+build-backend="setuptools.build_meta"
+[project]
+name="mk43-ai-1b"
+version="1.0.0b1"
+description="Executable BRANE AI5 cognitive traversal and collapse module"
+requires-python=">=3.11"
+[tool.pytest.ini_options]
+pythonpath=["."]
+testpaths=["tests"]

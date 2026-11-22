@@ -1,0 +1,59 @@
+{
+  "schema": "MK43_DEPENDENCY_CONE_REGISTRY_V1",
+  "count": 1,
+  "cones": [
+    {
+      "handle": "@transduction_connection",
+      "revision": "v47",
+      "upstream_nodes": [
+        "@dependency_category",
+        "@state_fiber",
+        "@typed_lift_architecture",
+        "@chirality_fabric"
+      ],
+      "downstream_nodes": [
+        "@macro_connection_to_holonomy",
+        "@macro_path_curvature_audit",
+        "@holonomy_class",
+        "@transduction_curvature"
+      ],
+      "typed_edges": [
+        {
+          "source": "@typed_lift_architecture",
+          "relation": "HARD_DEPENDS_ON",
+          "target": "@transduction_connection",
+          "criticality": "HARD"
+        },
+        {
+          "source": "@chirality_fabric",
+          "relation": "CANDIDATE_CONSTRAINS",
+          "target": "@transduction_connection",
+          "criticality": "CONTEXTUAL"
+        },
+        {
+          "source": "@transduction_connection",
+          "relation": "HARD_DEPENDENCY_OF",
+          "target": "@macro_connection_to_holonomy",
+          "criticality": "HARD"
+        },
+        {
+          "source": "@transduction_connection",
+          "relation": "HARD_DEPENDENCY_OF",
+          "target": "@macro_path_curvature_audit",
+          "criticality": "HARD"
+        }
+      ],
+      "single_points_of_failure": [
+        "@typed_lift_architecture"
+      ],
+      "alternative_supports": [],
+      "cut_set_candidates": [
+        [
+          "@typed_lift_architecture"
+        ]
+      ],
+      "math_impact": "operator revision triggers downstream revalidation",
+      "trust_impact": "no automatic truth-status change without evidence-edge change"
+    }
+  ]
+}

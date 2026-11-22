@@ -1,0 +1,8 @@
+statement,formula_or_ruling,status
+Additivity,D_C(phi_A+phi_B)=D_C(phi_A)+D_C(phi_B),EXACT
+Quotient addition,[phi_A]+[phi_B]=[phi_A+phi_B] in Flow/ker(D_C),EXACT
+Cycle blindness,z in ker(D_C) => [phi+z]=[phi],EXACT
+Support locality,supp(D_C phi) lies in vertices incident to supp(phi),EXACT
+Separated-support orthogonality,"if supp(D_C phi_A) and supp(D_C phi_B) are disjoint, ||D_C(phi_A+phi_B)||^2=||D_C phi_A||^2+||D_C phi_B||^2",EXACT
+Overlap nonlinearity,overlap alone does NOT make D_C nonlinear,EXACT NEGATIVE
+Where true interaction can enter,"state-dependent W_N, corridor selection, pair ecology, admissibility, or later nonlinear maps",SOURCE/ARCHITECTURE BOUNDARY

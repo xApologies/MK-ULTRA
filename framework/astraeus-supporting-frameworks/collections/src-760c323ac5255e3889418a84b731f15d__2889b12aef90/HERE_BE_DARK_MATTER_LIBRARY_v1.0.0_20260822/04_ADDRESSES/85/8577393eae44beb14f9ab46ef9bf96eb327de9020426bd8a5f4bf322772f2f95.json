@@ -1,0 +1,140 @@
+{
+  "handle": "@information_flow",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@information_flow",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 2,
+    "api43_direct_in_count": 3,
+    "xapi_raw_out_count": 2,
+    "xapi_raw_in_count": 3,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 147,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@information_flow",
+        "relation": "CONSTRAINED_BY",
+        "target": "@causal_structure",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@causal_structure CONSTRAINS @information_flow); rule=CONSTRAINS→CONSTRAINED_BY"
+      },
+      {
+        "source": "@information_flow",
+        "relation": "CONSTRAINED_BY",
+        "target": "@event_horizon",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@event_horizon CONSTRAINS @information_flow); rule=CONSTRAINS→CONSTRAINED_BY"
+      },
+      {
+        "source": "@causal_structure",
+        "relation": "CONSTRAINS",
+        "target": "@information_flow",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-45",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Causal structure constrains information flow."
+      },
+      {
+        "source": "@event_horizon",
+        "relation": "CONSTRAINS",
+        "target": "@information_flow",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-45",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; An event horizon restricts future-directed information flow."
+      },
+      {
+        "source": "@general_relativity",
+        "relation": "CONSTRAINS",
+        "target": "@information_flow",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-47",
+        "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=1; path=@general_relativity -> @causal_structure -> @information_flow; relations=CONSTRAINS + CONSTRAINS => CONSTRAINS"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 3078,
+        "source": "@information_flow",
+        "relation": "CONSTRAINED_BY",
+        "target": "@causal_structure",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@causal_structure CONSTRAINS @information_flow); rule=CONSTRAINS→CONSTRAINED_BY"
+      },
+      {
+        "id": 3084,
+        "source": "@information_flow",
+        "relation": "CONSTRAINED_BY",
+        "target": "@event_horizon",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@event_horizon CONSTRAINS @information_flow); rule=CONSTRAINS→CONSTRAINED_BY"
+      },
+      {
+        "id": 2025,
+        "source": "@causal_structure",
+        "relation": "CONSTRAINS",
+        "target": "@information_flow",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Causal structure constrains information flow."
+      },
+      {
+        "id": 2032,
+        "source": "@event_horizon",
+        "relation": "CONSTRAINS",
+        "target": "@information_flow",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; An event horizon restricts future-directed information flow."
+      },
+      {
+        "id": 3191,
+        "source": "@general_relativity",
+        "relation": "CONSTRAINS",
+        "target": "@information_flow",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=1; path=@general_relativity -> @causal_structure -> @information_flow; relations=CONSTRAINS + CONSTRAINS => CONSTRAINS"
+      }
+    ]
+  },
+  "address": "@information_flow",
+  "address_sha256": "8577393eae44beb14f9ab46ef9bf96eb327de9020426bd8a5f4bf322772f2f95"
+}

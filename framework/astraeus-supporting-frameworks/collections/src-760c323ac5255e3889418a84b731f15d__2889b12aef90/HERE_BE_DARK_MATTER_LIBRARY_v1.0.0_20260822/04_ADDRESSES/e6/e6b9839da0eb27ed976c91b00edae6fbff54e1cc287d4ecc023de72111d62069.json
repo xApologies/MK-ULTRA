@@ -1,0 +1,26 @@
+{
+  "handle": "qmo://QMO-DM-BRIDGE-CAND-005",
+  "object_type": "qmo",
+  "status": "CONDITIONAL_QMO_CLOSED_ON_WORKING_ASSUMPTIONS_NOT_PROMOTED",
+  "domain": "QMO",
+  "namespace": "mk43://qmo",
+  "name": "Conditional Dark-Readout Factorization Witness",
+  "definition": "",
+  "math": "",
+  "source_layer": "live_e064",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "QMO_REGISTRY",
+  "metadata": {
+    "qmo_id": "QMO-DM-BRIDGE-CAND-005",
+    "name": "Conditional Dark-Readout Factorization Witness",
+    "status": "CONDITIONAL_QMO_CLOSED_ON_WORKING_ASSUMPTIONS_NOT_PROMOTED",
+    "source_layer": "live_e064",
+    "source_file": "live/checkpoints/E064/qmos/QMO-DM-BRIDGE-CAND-005_CONDITIONAL_DARK_READOUT_WITNESS.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_QMO_CANDIDATE_V1\", \"qmo_id\": \"QMO-DM-BRIDGE-CAND-005\", \"handle\": \"@dm_conditional_dark_readout_witness\", \"canonical_name\": \"Conditional Dark-Readout Factorization Witness\", \"status\": \"CONDITIONAL_QMO_CLOSED_ON_WORKING_ASSUMPTIONS_NOT_PROMOTED\", \"checkpoint\": \"E064\", \"strategy\": \"STABLE_ABSTRACTION_FAST_FORWARD\", \"parents\": [\"@dm_joint_hidden_network_witness\", \"@dm_native_density_to_readable_source\", \"@energy_density\", \"@stress_energy_tensor\", \"@dm_dark_readout_defect\"], \"working_assumptions\": [\"WA-DM-E064-001\", \"WA-DM-E064-002\", \"WA-DM-E064-003\"], \"source_theorems\": [\"ATLAS 201 Theorem 201.1: Delta rho_read != 0 => Delta T != 0\", \"ATLAS 180 V28-T3: fixed-GR T_full != T_vis => g_full != g_vis\", \"ATLAS 122 definition: same matter readout plus different gravity readout gives a dark readout defect\"], \"derivation\": [\"E063/WA-001 gives Delta rho_H > 0 on the selected support.\", \"WA-003 gives Delta rho_read != 0.\", \"ATLAS 201 gives T_full != T_vis.\", \"Under one fixed readable GR problem, ATLAS 180 gives g_full != g_vis.\", \"WA-002 gives M_R(u_full)=M_R(u_vis).\", \"Therefore (u_full,u_vis) is in D_R and D_R is nonempty on the admitted conditional sector.\"], \"result\": \"Conditional on the three registered working assumptions, the Live Landscape contains a mathematical witness of ordinary-matter readout equivalence with gravitational readout separation.\", \"guardrails\": [\"No physical dark-matter identification\", \"No empirical claim\", \"No baseline mutation\", \"No claim that @dm_native_density_to_readable_source is solved globally\", \"All downstream conclusions remain conditional until the proof debts are discharged\"]}"
+  },
+  "address": "qmo://QMO-DM-BRIDGE-CAND-005",
+  "address_sha256": "e6b9839da0eb27ed976c91b00edae6fbff54e1cc287d4ecc023de72111d62069"
+}

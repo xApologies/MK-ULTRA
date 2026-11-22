@@ -1,0 +1,26 @@
+{
+  "schema": "ASTRAEUS_DM_LIVE_PROVENANCE_V1",
+  "baseline_source": "DM_2.2.zip",
+  "baseline_sha256": "ee4819595f94a52565ab21c832c902ea4040e315f3f575b203c61e53740ed63a",
+  "append_sources": [
+    {
+      "artifact": "ASTRAEUS_DM_E062_GUARDED_EMBEDDING_DESCENT_20260822.zip",
+      "sha256": "9d5275e42c686892acfc7b11dee9160fd3f7f66899799bc1d1cd8008b7c58cbf"
+    },
+    {
+      "artifact": "VERA_API_LIVE_MODEL_v0.5.0_20260822.zip",
+      "role": "bounded-iteration/closure-method reference",
+      "sha256": "f69ba4b021ba0cbfe1d24d73fe16ad99294094e6b3d8d1da3c99e55af9051426"
+    },
+    {
+      "artifact": "ASTRAEUS_RAINBOW_ROAD_OBJECT_MATH_API_v0.15.0_20260822.zip",
+      "role": "derivation-rule/QMO-type reference",
+      "sha256": "e89123f7d4833d51516d6c6d4674cf696c909e8b017e1926d0b404aa8b1e0775"
+    },
+    {
+      "artifact": "MK Ultra.pdf",
+      "role": "E069 conventional scalar-action/stress-energy realization target",
+      "sha256": "cca59f71a28079fb6fc511df7b811a88b7e3fde97d84bc1f299c3f4b86b12e8d"
+    }
+  ]
+}

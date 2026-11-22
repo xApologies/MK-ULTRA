@@ -1,0 +1,11 @@
+{
+  "schema": "ASTRAEUS_DM_ITERATION_RUN_V1",
+  "run_id": "IT-DM-E086-EXPLICIT-CONTINUITY-RESIDUAL",
+  "checkpoint": "E086",
+  "seed": "@dm_hidden_response_operator",
+  "ceiling": 64,
+  "iterations_used": 4,
+  "terminal_state": "NONZERO_CONTINUITY_RESIDUAL_CLOSED",
+  "open_next": "@dm_two_port_timeshell_gravity_fiber_test",
+  "note": "Forward route now uses the already-recovered continuity->Time-Shell gravity channel rather than native-density calibration."
+}

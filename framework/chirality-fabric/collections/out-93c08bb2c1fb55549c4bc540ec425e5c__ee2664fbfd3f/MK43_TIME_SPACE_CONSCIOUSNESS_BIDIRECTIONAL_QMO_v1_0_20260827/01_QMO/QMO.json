@@ -1,0 +1,49 @@
+{
+  "qmo_id": "QMO-CONSCIOUSNESS-TO-TIME-SPACE-API-CRAWL-R8-001",
+  "handle": "@qmo_consciousness_to_time_space_api_crawl_r8",
+  "title": "Consciousness -> Time-Space Reverse-Rooted API Crawl QMO",
+  "version": "1.0.0-candidate",
+  "date": "2026-08-26",
+  "root_handle": "@consciousness",
+  "terminal_handle": "@time_space",
+  "view_orientation": "reverse_traversal",
+  "source_edge_orientation": "preserved",
+  "parent_api": {
+    "handle": "@mk43_unified_qmo_v2",
+    "release": "v2.1 R5 self-closed",
+    "zip_sha256": "563f19343591b422c3dcbe90a7a9ca9315c183e2e674300100a8e1ab2f46896e",
+    "path": "provenance://unavailable/path-sha256/922cbdcf2a044a6fa31846e0b64187fc1e9b7c25473bf7797277497752f6fca1/MK43_ULTRA_UNIFIED_QMO_API_v2_1_R5_SELF_CLOSED_20260826.zip"
+  },
+  "seed_qmo_handles": [
+    "@consciousness",
+    "@cosmology",
+    "@black_hole_cosmology",
+    "@black_hole",
+    "@spacetime",
+    "@time_shell",
+    "@graviton",
+    "@helicon",
+    "@chirality",
+    "@persistence",
+    "@bandwidth",
+    "@resolution",
+    "@genesis_field",
+    "@time_space"
+  ],
+  "crawl_policy": {
+    "discovery": "recursive strict graph crawl in both directions from every QMO seed handle",
+    "structure_reconstruction": "primitive/source strict edges retained with original directions and provenance",
+    "reachability_acceleration": "parent self-closure layer retained separately as COMPOSED_DEPENDENCY reachability",
+    "inverse_edge_policy": "no inverse dependency edges promoted into source mathematics; reverse is a traversal view only",
+    "fixed_point_iteration": 8
+  },
+  "counts": {
+    "canonical_handles": 1459,
+    "namespace_object_instances": 3316,
+    "strict_source_edge_witnesses": 160057,
+    "canonical_typed_edge_triples": 79624,
+    "derived_self_closure_pairs": 1733204,
+    "equations": 163
+  },
+  "status": "API_CRAWL_COMPLETE__REVERSE_ROOTED_VIEW__NO_PARENT_MUTATION"
+}

@@ -1,0 +1,122 @@
+{
+  "handle": "@dm_stress_energy_realization_family",
+  "object_type": "mathematical_object",
+  "status": "ATLAS_DERIVED_CLOSED",
+  "domain": "DM22",
+  "namespace": "readout",
+  "name": "Hidden Stress-Energy Realization Family",
+  "definition": "Set-valued readable stress-energy construction conditional on a metric-coupled hidden action. It replaces the arbitrary open residue→stress-energy map.",
+  "math": "T_H(Q,g):={ -(2/√(-g)) δS_H/δg^{μν} | S_H∈S_adm(Q_H,g) }. The family is typed; selecting the physically relevant member remains the metric-action-selection problem.",
+  "source_layer": "DM22",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "DM22",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 4,
+    "xapi_raw_in_count": 3,
+    "live_out_count": 4,
+    "live_in_count": 3,
+    "closure_out_reachability_count": 153,
+    "closure_in_reachability_count": 4,
+    "direct_source_anchors": [
+      {
+        "id": 19,
+        "source_id": "SRC-DM-009",
+        "relation": "HISTORICAL_SOURCE_SUPPORTS",
+        "handle": "@dm_stress_energy_realization_family",
+        "status": "SOURCE_BACKFILL_ONLY",
+        "provenance": "tome_mk43_skeleton/tome_mk43.tex:261-276"
+      }
+    ],
+    "source_reachability_anchor_count": 2,
+    "aliases": [
+      "@dm_residue_to_stress_energy"
+    ],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19806,
+        "source": "@dm_stress_energy_realization_family",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_metric_action_selection",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19807,
+        "source": "@dm_stress_energy_realization_family",
+        "relation": "DEPENDS_ON",
+        "target": "@matter_action",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19808,
+        "source": "@dm_stress_energy_realization_family",
+        "relation": "DEPENDS_ON",
+        "target": "@metric_variation",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19809,
+        "source": "@dm_stress_energy_realization_family",
+        "relation": "REALIZES",
+        "target": "@stress_energy_tensor",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19734,
+        "source": "@dm_dark_matter_qualification_locus",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_stress_energy_realization_family",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19766,
+        "source": "@dm_hidden_sector_conservation",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_stress_energy_realization_family",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19811,
+        "source": "@dm_stress_energy_separation_gate",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_stress_energy_realization_family",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      }
+    ]
+  },
+  "address": "@dm_stress_energy_realization_family",
+  "address_sha256": "e7a9ff1deb332dfee06caae3e601e1145b841eeae414409f623b29793afe394c"
+}

@@ -1,0 +1,27 @@
+{
+  "run": "R64",
+  "status": "CLOSED_STRONG_5D_CANDIDATE",
+  "carrier": {
+    "base": "C3={(d12,d23,d31)>0 | triangle inequalities}",
+    "fiber_coordinates": [
+      "rho",
+      "eta"
+    ],
+    "local_chart": [
+      "d12",
+      "d23",
+      "d31",
+      "rho",
+      "eta"
+    ],
+    "dimension": 5
+  },
+  "resolution": "graph-valued state G_R(rho), not one scalar per relation",
+  "bandwidth": "admissible whole-system transformation family Gen_B123(S)",
+  "branches": [
+    "exact fiber/sheaf type",
+    "orientation decoration"
+  ],
+  "roadblock": null,
+  "next": "@qmo/finite_system_resolution_sheaf_test"
+}

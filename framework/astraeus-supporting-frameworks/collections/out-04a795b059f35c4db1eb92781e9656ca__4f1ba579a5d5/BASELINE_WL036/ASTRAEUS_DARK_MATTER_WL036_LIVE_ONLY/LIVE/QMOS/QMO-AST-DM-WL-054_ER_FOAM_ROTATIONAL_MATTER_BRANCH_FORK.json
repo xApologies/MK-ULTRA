@@ -1,0 +1,233 @@
+{
+  "schema": "ASTRAEUS_API_QMO_BRANCH_FORK_V1",
+  "qmo_id": "QMO-AST-DM-WL-054",
+  "name": "ER-Foam Rotational Propagating Branch / Localized Matter Branch Fork",
+  "atlas_version": "WL-v169",
+  "status": "SOURCE_BACKED_BRANCH_FORK_CANDIDATE_WITNESS_SLOT_NOT_NONEMPTY_PROOF_NOT_PARENT_PROMOTED",
+  "parents": [
+    "@er_foam",
+    "@rotational_symmetry_constraint",
+    "@stable_er_foam_knot",
+    "@matter_readable_organization"
+  ],
+  "er_rotational_query": {
+    "schema": "ASTRAEUS_CROSS_API_PAIR_QUERY_V1",
+    "a": "@er_foam",
+    "b": "@rotational_symmetry_constraint",
+    "radius": 2,
+    "a_node_count": 65,
+    "b_node_count": 26,
+    "interface": [
+      {
+        "handle": "@helicon",
+        "distance_a": 1,
+        "distance_b": 1
+      },
+      {
+        "handle": "@er_foam",
+        "distance_a": 0,
+        "distance_b": 2
+      },
+      {
+        "handle": "@rotational_symmetry_constraint",
+        "distance_a": 2,
+        "distance_b": 0
+      },
+      {
+        "handle": "@agency",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@angular_generator",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@angular_reduction",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@angular_reduction_field",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@binding_threshold",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@coherent_helicon_propagation",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@curvature_binding",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@curvature_binding_condition",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@gravitational_anchor_lattice",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@gravitational_helicon_mode",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@graviton",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@helicon_kernel_derivation",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@helicon_one_form",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@helicon_resonance",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@helicon_spectral_coupling",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@helicon_structural_tuple",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@higher_order_helicon_modes",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@shear_compensation",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@spectral_coupling",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@wake_evolution",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@wake_stabilization_equation",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@zer0_interaction",
+        "distance_a": 2,
+        "distance_b": 2
+      }
+    ],
+    "path_a_to_b": [
+      {
+        "source": "@er_foam",
+        "relation": "DEPENDS_TO",
+        "target": "@helicon",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45073",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@helicon",
+        "relation": "SATISFIES",
+        "target": "@rotational_symmetry_constraint",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "recovery_pass": "RP-38",
+        "provenance": "DIRECT_DEFINITION_API:2498-2510",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    "path_b_to_a": null,
+    "edge_policy": {
+      "timespace": "high-confidence direct/non-derived RP42 records",
+      "darkmatter": "high-confidence DM_DIRECT_EDGE_REGISTRY records",
+      "gluing": "exact handle equality only; no cross-edge is invented"
+    }
+  },
+  "matter_lock_query": {
+    "schema": "ASTRAEUS_CROSS_API_PAIR_QUERY_V1",
+    "a": "@stable_er_foam_knot",
+    "b": "@rotational_symmetry_constraint",
+    "radius": 2,
+    "a_node_count": 15,
+    "b_node_count": 26,
+    "interface": [
+      {
+        "handle": "@er_foam",
+        "distance_a": 1,
+        "distance_b": 2
+      },
+      {
+        "handle": "@helicon",
+        "distance_a": 2,
+        "distance_b": 1
+      }
+    ],
+    "path_a_to_b": null,
+    "path_b_to_a": null,
+    "edge_policy": {
+      "timespace": "high-confidence direct/non-derived RP42 records",
+      "darkmatter": "high-confidence DM_DIRECT_EDGE_REGISTRY records",
+      "gluing": "exact handle equality only; no cross-edge is invented"
+    }
+  },
+  "source_branch_contract": {
+    "propagating": [
+      "ER Foam",
+      "Angular Geometry",
+      "Angular Reduction",
+      "Helicon",
+      "Coherent Helicon Propagation",
+      "Graviton",
+      "Time-Shell Translation",
+      "Gravity"
+    ],
+    "localized": [
+      "ER Foam",
+      "Stable ER-Foam Knot",
+      "Localized Persistent Topology",
+      "Particle-Readable Organization",
+      "Matter-Readable Organization",
+      "Matter / Fields"
+    ]
+  },
+  "candidate_witness_slot": "Hold the localized-knot/matter branch fixed while testing a nontrivial rotational/Helicon distinction on the propagating branch. This is only a search template; the API branch contract does not prove that such an independently variable matched pair exists.",
+  "next_handle": "@dm_one_port_no_go",
+  "reason": "Before treating one localized galactic self-corridor as a witness, ask the qualification constraints whether a one-port hidden component can produce the required effective response.",
+  "guardrails": [
+    "same ER origin does not prove independent branch coordinates",
+    "stable-knot equality does not automatically imply all matter readouts equal",
+    "rotational branch difference does not automatically imply gravity difference"
+  ]
+}

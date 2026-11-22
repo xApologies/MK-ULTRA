@@ -1,0 +1,115 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_PAIR_QUERY_V1",
+  "a": "@dm_q_survival",
+  "b": "@rotational_symmetry_constraint",
+  "radius": 3,
+  "a_node_count": 41,
+  "b_node_count": 56,
+  "interface": [
+    {
+      "handle": "@dm_er_branch_readout_separation",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@er_foam",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@graviton",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@time_shell",
+      "distance_a": 3,
+      "distance_b": 3
+    }
+  ],
+  "path_a_to_b": [
+    {
+      "source": "@dm_q_survival",
+      "relation": "DEPENDS_ON",
+      "target": "@dm_projection_residue_survival",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.1",
+      "origin": "DARKMATTER_2.1",
+      "origin_api": "DARKMATTER_2.1"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "DEPENDS_ON",
+      "target": "@dm_hidden_boundary_contact",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.1",
+      "origin": "DARKMATTER_2.1",
+      "origin_api": "DARKMATTER_2.1"
+    },
+    {
+      "source": "@dm_hidden_boundary_contact",
+      "relation": "DEPENDS_ON",
+      "target": "@persistent_boundary",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.1",
+      "origin": "DARKMATTER_2.1",
+      "origin_api": "DARKMATTER_2.1"
+    },
+    {
+      "source": "@persistent_boundary",
+      "relation": "DEPENDS_TO",
+      "target": "@projection_admissibility",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45112",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@projection_admissibility",
+      "relation": "DEPENDS_TO",
+      "target": "@er_foam",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45122",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@er_foam",
+      "relation": "DEPENDS_TO",
+      "target": "@helicon",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45073",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@helicon",
+      "relation": "SATISFIES",
+      "target": "@rotational_symmetry_constraint",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "direct_api_recovery",
+      "recovery_pass": "RP-38",
+      "provenance": "DIRECT_DEFINITION_API:2498-2510",
+      "origin_api": "TIMESPACE_4.3"
+    }
+  ],
+  "path_b_to_a": null,
+  "edge_policy": {
+    "timespace": "high-confidence direct/non-derived RP42 records",
+    "darkmatter": "high-confidence DM_DIRECT_EDGE_REGISTRY records",
+    "gluing": "exact handle equality only; no cross-edge is invented"
+  }
+}

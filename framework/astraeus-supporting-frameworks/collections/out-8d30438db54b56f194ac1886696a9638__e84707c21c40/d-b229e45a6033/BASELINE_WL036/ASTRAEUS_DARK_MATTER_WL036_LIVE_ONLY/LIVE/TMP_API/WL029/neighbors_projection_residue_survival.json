@@ -1,0 +1,64 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_NEIGHBORS_V1",
+  "handle": "@dm_projection_residue_survival",
+  "incoming": [
+    [
+      "@dm_q_survival",
+      {
+        "source": "@dm_q_survival",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_projection_residue_survival",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1",
+        "origin": "DARKMATTER_2.1",
+        "origin_api": "DARKMATTER_2.1"
+      }
+    ]
+  ],
+  "outgoing": [
+    [
+      "@boundary_projection",
+      {
+        "source": "@dm_projection_residue_survival",
+        "relation": "DEPENDS_ON",
+        "target": "@boundary_projection",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1",
+        "origin": "DARKMATTER_2.1",
+        "origin_api": "DARKMATTER_2.1"
+      }
+    ],
+    [
+      "@dm_hidden_boundary_contact",
+      {
+        "source": "@dm_projection_residue_survival",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_hidden_boundary_contact",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1",
+        "origin": "DARKMATTER_2.1",
+        "origin_api": "DARKMATTER_2.1"
+      }
+    ],
+    [
+      "@residue_quantum_field_bundle",
+      {
+        "source": "@dm_projection_residue_survival",
+        "relation": "DEPENDS_ON",
+        "target": "@residue_quantum_field_bundle",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1",
+        "origin": "DARKMATTER_2.1",
+        "origin_api": "DARKMATTER_2.1"
+      }
+    ]
+  ]
+}

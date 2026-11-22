@@ -1,0 +1,29 @@
+flowchart LR
+  P0["Prime Boundary 0|0"]
+  ADDR["Boundary Address"]
+  FABR["Global Chirality Fabric"]
+  S4["S4 Time-Space"]
+  S3["S3 Continuity Carrier"]
+  S2["Localized S2 Address"]
+  W["S3 Corridor / Cobordism"]
+  TG["Transduction Geometry"]
+  ER["ER Foam"]
+  H["Helicon"]
+  QFT["QFT Readout"]
+  G["Graviton/Continuity"]
+  GR["GR Readout"]
+  P0 -->|generates| ADDR
+  ADDR -->|localizes/glues| FABR
+  FABR -->|geometric realization| S3
+  S3 -->|contains boundaries| S2
+  S2 -->|bounds| W
+  W -->|targets| S2
+  FABR -->|typed by| TG
+  FABR -->|admissibility/adjacency| ER
+  ER -->|supports| H
+  H -->|spectral readout| QFT
+  H -->|gravitational mode| G
+  G -->|Time-Shell projection| GR
+  W -->|rho_Q / U_Q| QFT
+  W -->|rho_G / U_G| GR
+  S3 -->|slice/embedded in| S4

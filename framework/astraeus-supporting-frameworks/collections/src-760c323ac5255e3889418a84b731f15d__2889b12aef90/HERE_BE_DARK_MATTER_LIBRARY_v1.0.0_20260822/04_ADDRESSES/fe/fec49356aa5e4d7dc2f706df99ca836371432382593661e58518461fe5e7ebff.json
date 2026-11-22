@@ -1,0 +1,140 @@
+{
+  "handle": "@angular_reduction_theorem",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@angular_reduction_theorem",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 3,
+    "api43_direct_in_count": 2,
+    "xapi_raw_out_count": 3,
+    "xapi_raw_in_count": 2,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 168,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@angular_reduction_theorem",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@angular_reduction_field",
+        "graph_family": "theorem",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "recovery_pass": "RP-38",
+        "provenance": "DIRECT_THEOREM_API:2564-2583"
+      },
+      {
+        "source": "@angular_reduction_theorem",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@rotational_symmetry_constraint",
+        "graph_family": "theorem",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "recovery_pass": "RP-38",
+        "provenance": "DIRECT_THEOREM_API:2564-2583"
+      },
+      {
+        "source": "@angular_reduction_theorem",
+        "relation": "SUPPORTS",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "theorem",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "recovery_pass": "RP-38",
+        "provenance": "DIRECT_THEOREM_API:2564-2593"
+      },
+      {
+        "source": "@angular_reduction_field",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@angular_reduction_theorem",
+        "graph_family": "theorem",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@angular_reduction_theorem FORMALLY_DEPENDS_ON @angular_reduction_field); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      },
+      {
+        "source": "@rotational_symmetry_constraint",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@angular_reduction_theorem",
+        "graph_family": "theorem",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@angular_reduction_theorem FORMALLY_DEPENDS_ON @rotational_symmetry_constraint); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 39,
+        "source": "@angular_reduction_theorem",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@angular_reduction_field",
+        "layer": "API43",
+        "graph_family": "theorem",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_THEOREM_API:2564-2583"
+      },
+      {
+        "id": 40,
+        "source": "@angular_reduction_theorem",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@rotational_symmetry_constraint",
+        "layer": "API43",
+        "graph_family": "theorem",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_THEOREM_API:2564-2583"
+      },
+      {
+        "id": 41,
+        "source": "@angular_reduction_theorem",
+        "relation": "SUPPORTS",
+        "target": "@wake_stabilization_equation",
+        "layer": "API43",
+        "graph_family": "theorem",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_THEOREM_API:2564-2593"
+      },
+      {
+        "id": 2112,
+        "source": "@angular_reduction_field",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@angular_reduction_theorem",
+        "layer": "API43",
+        "graph_family": "theorem",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@angular_reduction_theorem FORMALLY_DEPENDS_ON @angular_reduction_field); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      },
+      {
+        "id": 2113,
+        "source": "@rotational_symmetry_constraint",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@angular_reduction_theorem",
+        "layer": "API43",
+        "graph_family": "theorem",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@angular_reduction_theorem FORMALLY_DEPENDS_ON @rotational_symmetry_constraint); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      }
+    ]
+  },
+  "address": "@angular_reduction_theorem",
+  "address_sha256": "fec49356aa5e4d7dc2f706df99ca836371432382593661e58518461fe5e7ebff"
+}

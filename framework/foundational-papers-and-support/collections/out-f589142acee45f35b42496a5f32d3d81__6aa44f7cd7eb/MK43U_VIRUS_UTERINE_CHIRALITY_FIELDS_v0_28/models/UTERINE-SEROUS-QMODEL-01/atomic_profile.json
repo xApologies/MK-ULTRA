@@ -1,0 +1,53 @@
+{
+  "derived_variables": {
+    "chirality_admissibility": "source channel 0 and 3+1+1 chirality axis",
+    "closure_topology": "source channel 9",
+    "core_persistence": "source channel 7",
+    "core_shell_coupling": "source channels 6 and 9",
+    "occupancy_load": "source channels 1 and 5",
+    "shell_occupancy": "source channel 8"
+  },
+  "implementation_boundary": "The source equations define organizational roles but not numerical kernels. Gaussian neighborhood inheritance, normalization, and gradient closure used here are explicit computational realization choices, not recovered source equations or physical biochemical laws.",
+  "model_id": "UTERINE-SEROUS-QMODEL-01",
+  "schema": "MK43U_ATOMIC_PROFILE_TRANSLATION_V0_1_REALIZATION",
+  "source_equations": {
+    "closure": "C = (M_u compose R) equivalent M_s",
+    "persistence": "P = (chi_R compose B_c)",
+    "prime_observation": "Psi_n+1 = Chi(Psi_n tensor T) compose R_c",
+    "recursive_tensor_propagation": "M_n+1 = Chi(M_n tensor T)",
+    "unified_chirality_manifold": "M_u = (chi_R tensor chi_L) compose A"
+  },
+  "summary": {
+    "chirality_field_shape": [
+      32,
+      32,
+      32,
+      2,
+      2
+    ],
+    "chirality_max": 0.1096600741147995,
+    "chirality_min": -1.0,
+    "grid_n": 32,
+    "left_weight": 49.86984634399414,
+    "model_id": "UTERINE-SEROUS-QMODEL-01",
+    "occupied_voxels": 309,
+    "persistent_voxels": 53,
+    "persistent_weight": 31.77435874938965,
+    "quantum_resolution_status": "hybrid_exact_small_molecule_plus_experimental_macromolecular_reference",
+    "right_weight": 21.907697677612305,
+    "setlift_shape": [
+      11,
+      32,
+      32,
+      32,
+      2
+    ],
+    "source_shape": [
+      11,
+      32,
+      32,
+      32
+    ],
+    "unresolved_persistence_weight": 40.00318145751953
+  }
+}

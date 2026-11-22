@@ -1,0 +1,4 @@
+digraph G { graph [bgcolor="#07101f",rankdir=LR,pad="0.25",label="Atlas Plate XXI — Helicon / Unit-String Spectral Test",labelloc=t,fontcolor="#e3b76f",fontsize=22]; node [shape=box,style="rounded,filled",fillcolor="#101d31",color="#d7a85b",fontcolor="white",fontname="Helvetica"]; edge [color="#70b7d8",fontcolor="#d9eaf2"];
+GAM[label="Unit-String configuration graph\nGamma_U"]; LU[label="Native spectral operator\nL_U"]; J[label="candidate intertwiner\nJ_H",shape=diamond,fillcolor="#342544"]; HS[label="Recovered Helicon mode space\nH_space"]; LH[label="Recovered spectral law\nL_H(H_alpha)=lambda_alpha H_alpha"];
+GAM->LU; LU->J[label="test"]; J->HS; HS->LH; LU->LH[style=dashed,label="seek commuting relation"];
+}

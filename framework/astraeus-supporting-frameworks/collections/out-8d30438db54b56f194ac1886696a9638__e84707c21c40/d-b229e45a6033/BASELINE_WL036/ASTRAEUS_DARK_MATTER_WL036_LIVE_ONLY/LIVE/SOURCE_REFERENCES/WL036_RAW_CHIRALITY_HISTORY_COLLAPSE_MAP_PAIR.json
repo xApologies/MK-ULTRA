@@ -1,0 +1,19 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_PAIR_V1",
+  "a": "@chirality_history",
+  "b": "@collapse_map",
+  "radius": 3,
+  "interface": [
+    {
+      "handle": "@mote",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@mote_ensemble",
+      "distance_a": 3,
+      "distance_b": 3
+    }
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry; exact-handle interface only"
+}

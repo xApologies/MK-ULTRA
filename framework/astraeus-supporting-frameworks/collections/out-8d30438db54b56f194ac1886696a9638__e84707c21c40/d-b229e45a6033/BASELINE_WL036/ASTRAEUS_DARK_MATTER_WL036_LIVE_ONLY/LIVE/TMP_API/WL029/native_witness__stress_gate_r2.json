@@ -1,0 +1,27 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_PAIR_QUERY_V1",
+  "a": "@dm_native_hidden_witness",
+  "b": "@dm_stress_energy_separation_gate",
+  "radius": 2,
+  "a_node_count": 10,
+  "b_node_count": 15,
+  "interface": [
+    {
+      "handle": "@dm_resolution_density_profile",
+      "distance_a": 1,
+      "distance_b": 2
+    },
+    {
+      "handle": "@energy_density",
+      "distance_a": 2,
+      "distance_b": 1
+    }
+  ],
+  "path_a_to_b": null,
+  "path_b_to_a": null,
+  "edge_policy": {
+    "timespace": "high-confidence direct/non-derived RP42 records",
+    "darkmatter": "high-confidence DM_DIRECT_EDGE_REGISTRY records",
+    "gluing": "exact handle equality only; no cross-edge is invented"
+  }
+}

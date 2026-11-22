@@ -1,0 +1,38 @@
+056430: ## RP-30.9 Energy Density
+056431: 
+056432: ```text
+056433: HANDLE:
+056434:     @energy_density
+056435: 
+056436: STATUS:
+056437:     recovered
+056438:     linked
+056439: ```
+056440: 
+056441: Canonical equation:
+056442: 
+056443: ```text
+056444: ρ_E
+056445: =
+056446: RT / V
+056447: ```
+056448: 
+056449: where:
+056450: 
+056451: ```text
+056452: R = Relationship
+056453: T = Transition Capacity
+056454: V = Containment Volume
+056455: ```
+056456: 
+056457: Dependency trace:
+056458: 
+056459: ```text
+056460: @relationship
+056461: ↓
+056462: @transition_capacity
+056463: ↓
+056464: @containment_volume
+056465: ↓
+056466: @energy_density
+056467: ```

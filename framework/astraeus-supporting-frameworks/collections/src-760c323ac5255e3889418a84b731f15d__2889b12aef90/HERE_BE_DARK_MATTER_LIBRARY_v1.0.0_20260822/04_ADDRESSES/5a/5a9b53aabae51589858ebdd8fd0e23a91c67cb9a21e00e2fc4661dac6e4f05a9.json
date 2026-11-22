@@ -1,0 +1,26 @@
+{
+  "handle": "closure://CC-DM-E081-001",
+  "object_type": "closure_certificate",
+  "status": "PORT_RESPONSE_TRACE_INVARIANCE_CLOSED",
+  "domain": "CLOSURE",
+  "namespace": "mk43://closure",
+  "name": "CC-DM-E081-001",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E081",
+  "qmo_generated": true,
+  "proof_status": "PORT_RESPONSE_TRACE_INVARIANCE_CLOSED",
+  "empirical_status": "",
+  "provenance_class": "CLOSURE_CERTIFICATE",
+  "metadata": {
+    "id": "CC-DM-E081-001",
+    "object_handle": "@dm_port_response_trace_invariant",
+    "decision": "PORT_RESPONSE_TRACE_INVARIANCE_CLOSED",
+    "checkpoint": "E081",
+    "source_file": "CC-DM-E081-001.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_CLOSURE_CERTIFICATE_V1\", \"certificate_id\": \"CC-DM-E081-001\", \"checkpoint\": \"E081\", \"object\": \"@dm_port_response_trace_invariant\", \"decision\": \"PORT_RESPONSE_TRACE_INVARIANCE_CLOSED\", \"scope\": \"finite hidden port-response operator under structural relabeling\", \"checks\": {\"deltaLambda_psd_nonzero_source_backed\": true, \"trace_gap_derived\": true, \"port_relabeling_similarity_invariance_proved\": true, \"full_projection_symmetry_action_typed\": false, \"baseline_dm22_modified\": false, \"physical_promotion\": false}, \"result\": \"The E080 spectral idea is reduced to the simpler state-level trace discriminator tr(Lambda), which is invariant under port relabeling.\"}"
+  },
+  "address": "closure://CC-DM-E081-001",
+  "address_sha256": "5a9b53aabae51589858ebdd8fd0e23a91c67cb9a21e00e2fc4661dac6e4f05a9"
+}

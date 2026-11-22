@@ -1,0 +1,26 @@
+{
+  "handle": "assumption://WA-DM-E064-002",
+  "object_type": "working_assumption",
+  "status": "WORKING_ASSUMPTION",
+  "domain": "ASSUMPTION",
+  "namespace": "mk43://assumption",
+  "name": "Matched Full / Visible Readout Pair",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E064",
+  "qmo_generated": false,
+  "proof_status": "CONDITIONAL",
+  "empirical_status": "",
+  "provenance_class": "WORKING_ASSUMPTION",
+  "metadata": {
+    "id": "WA-DM-E064-002",
+    "name": "Matched Full / Visible Readout Pair",
+    "status": "WORKING_ASSUMPTION",
+    "checkpoint": "E064",
+    "proof_debt": "PD-DM-002",
+    "payload_json": "{\"assumption_id\": \"WA-DM-E064-002\", \"name\": \"Matched Full / Visible Readout Pair\", \"status\": \"WORKING_ASSUMPTION\", \"checkpoint\": \"E064\", \"scope\": \"one fixed Resolution-R comparison problem\", \"statement\": \"Let u_full and u_vis be a controlled pair with M_R(u_full)=M_R(u_vis), where u_full carries the selected hidden support and u_vis is the corresponding ordinary-visible reconstruction under the same declared external comparison data.\", \"source_support\": [\"QMO-DM-BRIDGE-CAND-004\", \"ATLAS 122 dark readout factorization framework\", \"ATLAS 178 UCM source-fiber framework\"], \"not_claimed\": [\"uniqueness of visible reference representative\", \"empirical realization\"], \"proof_debt\": \"PD-DM-002\"}"
+  },
+  "address": "assumption://WA-DM-E064-002",
+  "address_sha256": "8e9d972b622d10558939e4aeaddc0dccabc47c1a1e2f6ddc937ede0400617f6d"
+}

@@ -1,0 +1,31 @@
+{
+  "handle": "@transduction_connection",
+  "priority_model": {
+    "version": "0.1",
+    "dimensions": [
+      "impact",
+      "fragility",
+      "dependency_discharge",
+      "redundancy_gain",
+      "scope",
+      "recoverability",
+      "cost",
+      "circularity_risk",
+      "novelty"
+    ],
+    "selected_target": {
+      "handle": "@typed_lift_architecture",
+      "priority": "P0/P1",
+      "circularity_risk": "HIGH"
+    },
+    "queue": [
+      "minimal base/fiber data for typed lift existence",
+      "structural versus connection-selected lifts",
+      "connection-independent restriction/realization lifts",
+      "lift composition coherence",
+      "lift failure/nonuniqueness object",
+      "independent lift route for redundancy"
+    ]
+  },
+  "note": "Detailed robustness registry may be queried when instantiated."
+}

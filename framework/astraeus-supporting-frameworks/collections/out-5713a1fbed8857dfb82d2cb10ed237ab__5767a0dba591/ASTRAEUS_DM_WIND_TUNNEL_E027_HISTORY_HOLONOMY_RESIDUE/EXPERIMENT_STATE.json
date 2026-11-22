@@ -1,0 +1,20 @@
+{
+  "experiment": "E027",
+  "candidate": "CAND-DM-HISTORY-HOLONOMY-030",
+  "title": "Source-Derived Corridor Residue Conservation and History-to-Holonomy Retype",
+  "status": "FORMAL HISTORY/RESIDUE MAP RECOVERED; INSTANCE HOLONOMY VALUES OPEN",
+  "physical_dark_matter_witness": false,
+  "parent_promotions": 0,
+  "results": {
+    "derived_corridor_residue_map": "Res_corr(H_W)=Inv(xi_0), constant along every source-valid admissible corridor history",
+    "history_updates_holonomy_in_UTO": true,
+    "E023_same_readout_pairs": 92,
+    "E023_pairs_with_same_endpoints_but_different_route_words": 34,
+    "distinct_simple_cube_loop_supports": 6,
+    "all_loop_supports_are_four_edge_square_cycles": true,
+    "loop_supports_represented_in_the_34_pairs": 6,
+    "actual_connection_holonomy_computed": false
+  },
+  "ruling": "The missing seam was slightly mis-posed. Source-valid corridor History preserves invariant residue rather than generally mapping to a new residue value. The UTO explicitly sends transport path into History plus Holonomy records, while the Residue/Quantum Field Bundle supplies connection and curvature for path-dependent transport. The correct next instance problem is therefore to type E013/E026 histories into connection/holonomy data on the residue bundle, not to force route history to equal invariant residue.",
+  "next_handle": "TYPE_E013_SAME_ENDPOINT_ROUTE_LOOPS_INTO_RESIDUE_BUNDLE_HOLONOMY_AND_SEARCH_FOR_SOURCE_VALID_CONNECTION_INSTANCE"
+}

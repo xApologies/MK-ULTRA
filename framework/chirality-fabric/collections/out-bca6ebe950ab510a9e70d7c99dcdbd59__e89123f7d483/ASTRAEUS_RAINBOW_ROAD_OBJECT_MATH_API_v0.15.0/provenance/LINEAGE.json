@@ -1,0 +1,36 @@
+{
+  "schema": "ASTRAEUS_RAINBOW_ROAD_LINEAGE_V1",
+  "current_release": "0.15.0",
+  "predecessor": {
+    "file": "ASTRAEUS_OBJECT_MATH_API_v0.1.0_20260822.zip",
+    "sha256": "14b66a48009f818859e3fc5beea02bf1c9a88b41b61c2ecd98eb38b8c565e39d"
+  },
+  "architecture_specimen": {
+    "file": "4.3(20260822-134229).zip",
+    "sha256": "0010a4de99d78748ede57670b3bca1df6185b7ba8dd0faf266cc3ba1a4ccf752",
+    "role": "ARCHITECTURE_SPECIMEN_ONLY_NOT_MATHEMATICAL_SOURCE"
+  },
+  "restructure_script": "RESTRUCTURE_RAINBOW_ROAD_API_v0.2.0.py",
+  "continuity_note": "Current package includes the immediate predecessor and the architecture specimen so the v0.1 -> v0.2 transition can be reconstructed without treating API 4.3 domain content as canonical.",
+  "immediate_predecessor": "ASTRAEUS_RAINBOW_ROAD_OBJECT_MATH_API_v0.14.0_20260822.zip",
+  "predecessor_sha256": "46cd7adb97d80f6124541d785da0d514087a1c84da1f49de34ff226de8bca46c",
+  "self_build_pass": "010_011_VALUE_FIBER_SCALE_PROBE",
+  "frontier_transition": "@number_unit_normalization_frontier -> @number_scale_reparameterization_frontier",
+  "counterexample": "CE-RW-001",
+  "predecessor_storage_policy": "CONTENT_ADDRESSED_REFERENCE_NOT_RENESTED",
+  "packaging_note": "The immediate v0.3 predecessor is referenced by exact SHA-256 rather than nested again, preventing literal recursive package blow-up while preserving lineage identity.",
+  "live_model_revision": "v0.28.0",
+  "metadata_model": "QMO_ADDRESSED_LIVE_MODEL_V1",
+  "dependency_landscape_model": "ACTIVE_V1",
+  "command_namespace": "AT_COMMAND_REGISTRY_V1",
+  "canonical_help": "@help",
+  "command_qmo_separation": "ACTIVE",
+  "dependency_graph_model": "ACTIVE_V1",
+  "dependency_chain_model": "ACTIVE_V1",
+  "dependency_chain_note": "Ordered crawl/graph/landscape/QMO recursion may close as a subdomain when terminal closure is certified.",
+  "bounded_iteration_model": "ACTIVE_V1",
+  "closed_landscape": "@black_rainbow_closed_landscape",
+  "recursive_runtime": "@rainbow_road_recursive_domain",
+  "iteration_smoke_test": "@it_recovery_witness_1m_ceiling",
+  "iteration_note": "Finite requested horizons bound recursive search; early mathematical termination is canonical."
+}

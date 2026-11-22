@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "source": "@genesis_field",
+    "relation": "CURRENT_DEPENDENCY_SPINE",
+    "target": "@time_space",
+    "semantics": "project dependency/realization ordering",
+    "status": "CURRENT",
+    "authority": "Genesis ruling + API/QMO continuity"
+  },
+  {
+    "id": 2,
+    "source": "@time_space",
+    "relation": "CURRENT_DEPENDENCY_SPINE",
+    "target": "@resolution",
+    "semantics": "project dependency/realization ordering",
+    "status": "CURRENT",
+    "authority": "Genesis ruling + API/QMO continuity"
+  },
+  {
+    "id": 3,
+    "source": "@resolution",
+    "relation": "CURRENT_DEPENDENCY_SPINE",
+    "target": "@bandwidth",
+    "semantics": "project dependency/realization ordering",
+    "status": "CURRENT",
+    "authority": "Genesis ruling + API/QMO continuity"
+  },
+  {
+    "id": 4,
+    "source": "@bandwidth",
+    "relation": "CURRENT_DEPENDENCY_SPINE",
+    "target": "@persistence",
+    "semantics": "project dependency/realization ordering",
+    "status": "CURRENT",
+    "authority": "Genesis ruling + API/QMO continuity"
+  },
+  {
+    "id": 5,
+    "source": "@persistence",
+    "relation": "CURRENT_DEPENDENCY_SPINE",
+    "target": "@chirality",
+    "semantics": "project dependency/realization ordering",
+    "status": "CURRENT",
+    "authority": "Genesis ruling + API/QMO continuity"
+  },
+  {
+    "id": 6,
+    "source": "@chirality",
+    "relation": "CURRENT_DEPENDENCY_SPINE",
+    "target": "@helicon",
+    "semantics": "project dependency/realization ordering",
+    "status": "CURRENT",
+    "authority": "Genesis ruling + API/QMO continuity"
+  },
+  {
+    "id": 7,
+    "source": "@helicon",
+    "relation": "CURRENT_DEPENDENCY_SPINE",
+    "target": "@graviton",
+    "semantics": "project dependency/realization ordering",
+    "status": "CURRENT",
+    "authority": "Genesis ruling + API/QMO continuity"
+  },
+  {
+    "id": 8,
+    "source": "@graviton",
+    "relation": "CURRENT_DEPENDENCY_SPINE",
+    "target": "@time_shell",
+    "semantics": "project dependency/realization ordering",
+    "status": "CURRENT",
+    "authority": "Genesis ruling + API/QMO continuity"
+  },
+  {
+    "id": 9,
+    "source": "@time_shell",
+    "relation": "CURRENT_DEPENDENCY_SPINE",
+    "target": "@spacetime",
+    "semantics": "project dependency/realization ordering",
+    "status": "CURRENT",
+    "authority": "Genesis ruling + API/QMO continuity"
+  },
+  {
+    "id": 10,
+    "source": "@cosmology",
+    "relation": "EXPLICIT_ARROW",
+    "target": "@consciousness",
+    "semantics": "source-attested relationship; causal semantics not established",
+    "status": "SOURCE-ATTESTED / SEMANTICS OPEN",
+    "authority": "API source"
+  },
+  {
+    "id": 11,
+    "source": "@cosmology",
+    "relation": "CANDIDATE_AMBIENT_DOMAIN_FOR",
+    "target": "@consciousness",
+    "semantics": "candidate reading: realized cosmological/spacetime domain supports local consciousness realization",
+    "status": "CANDIDATE",
+    "authority": "Genesis interpretation"
+  },
+  {
+    "id": 12,
+    "source": "@chirality",
+    "relation": "CANDIDATE_PROJECTS_VIA",
+    "target": "@helicon",
+    "semantics": "six-state chirality color projected/handed into quantum-field representation",
+    "status": "CANDIDATE",
+    "authority": "Genesis interpretation"
+  },
+  {
+    "id": 13,
+    "source": "@helicon",
+    "relation": "CANDIDATE_CONSTRAINS_TO",
+    "target": "QCD_COLOR",
+    "semantics": "candidate downstream three-dimensional QCD color representation",
+    "status": "OPEN TYPING",
+    "authority": "Genesis interpretation"
+  }
+]

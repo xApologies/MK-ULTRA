@@ -1,0 +1,102 @@
+[
+  {
+    "source": "@chirality",
+    "relation": "DEPENDS_TO",
+    "target": "@er_foam",
+    "graph_family": "mixed",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-34",
+    "provenance": "DIRECT_API_LINE:45055"
+  },
+  {
+    "source": "@chirality",
+    "relation": "DIRECTED_TO",
+    "target": "@er_foam",
+    "graph_family": "mixed",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-35",
+    "provenance": "CANONICAL_API_HANDLE_ARROW:45055"
+  },
+  {
+    "source": "@chirality",
+    "relation": "EXPLICIT_ARROW",
+    "target": "@er_foam",
+    "graph_family": "audit",
+    "confidence": "high",
+    "audit_status": "direct_source",
+    "recovery_pass": "RP-39",
+    "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45055"
+  },
+  {
+    "source": "@chirality",
+    "relation": "FORMALLY_DEPENDS_ON",
+    "target": "@er_foam",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-36",
+    "provenance": "CANONICAL_API_UPSTREAM_FIELD:35773;CANONICAL_API_UPSTREAM_FIELD:45421"
+  },
+  {
+    "source": "@chirality",
+    "relation": "RECOVERED_DEPENDENCY",
+    "target": "@er_foam",
+    "graph_family": "mixed",
+    "confidence": "medium",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-34",
+    "provenance": "EDGE_LEDGER_LINE:45055;prior_adjacency"
+  },
+  {
+    "source": "@chirality",
+    "relation": "USED_BY",
+    "target": "@er_foam",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-36",
+    "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:32424;CANONICAL_API_DOWNSTREAM_FIELD:45268"
+  },
+  {
+    "source": "@chirality",
+    "relation": "CONTRIBUTES_TO",
+    "target": "@helicon_orientation",
+    "graph_family": "realization",
+    "confidence": "high",
+    "audit_status": "direct_api_recovery",
+    "recovery_pass": "RP-37",
+    "provenance": "DIRECT_TYPED_API:51478"
+  },
+  {
+    "source": "@chirality",
+    "relation": "VERTICAL_CHAIN",
+    "target": "@orientation",
+    "graph_family": "audit",
+    "confidence": "medium",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-39",
+    "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:48393->48395"
+  },
+  {
+    "source": "@chirality",
+    "relation": "VERTICAL_CHAIN",
+    "target": "@persistence",
+    "graph_family": "mixed",
+    "confidence": "medium",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-39",
+    "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:48865->48867"
+  },
+  {
+    "source": "@chirality",
+    "relation": "VERTICAL_CHAIN",
+    "target": "@time_shell",
+    "graph_family": "theorem",
+    "confidence": "medium",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-39",
+    "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:26571->26573"
+  }
+]

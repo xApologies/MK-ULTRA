@@ -1,0 +1,37 @@
+{
+  "schema": "ASTRAEUS_V080_VALIDATION",
+  "release": "0.8.0",
+  "checks": {
+    "object_count_field": true,
+    "edge_count_field": true,
+    "qmo_metadata_bijection": true,
+    "unique_object_handles": true,
+    "unique_commands": true,
+    "help_not_qmo": true,
+    "black_rainbow_root": true,
+    "functions_exist": true,
+    "iteration_run_registered": true,
+    "million_bound_stopped_early": true,
+    "runtime_sync": true,
+    "all_edge_endpoints_qmo": true,
+    "sqlite_object_sync": true,
+    "sqlite_edge_sync": true,
+    "sqlite_metadata_sync": true,
+    "sqlite_iteration_sync": true
+  },
+  "missing_edge_endpoints": [],
+  "inventory": {
+    "qmos": 204,
+    "edges": 205,
+    "commands": 43,
+    "functions": 2,
+    "iteration_runs": 1
+  },
+  "sqlite_inventory": {
+    "objects": 204,
+    "edges": 205,
+    "qmo_metadata": 204,
+    "iteration_runs": 1
+  },
+  "passed": true
+}

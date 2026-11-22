@@ -1,0 +1,44 @@
+{
+  "package": {
+    "package_name": "GENESIS_CHIRALITY_RESOLUTION_OPERATOR",
+    "version": "0.2",
+    "date": "2026-08-30",
+    "primary_qmo": "@resolution_operator",
+    "authority": "NEW_CANDIDATE_MATHEMATICS",
+    "canonical_term_byte": "chirality byte",
+    "sqlite_api": "resolution_operator_qmo.sqlite"
+  },
+  "integrity_check": "ok",
+  "foreign_key_violations": 0,
+  "primary_qmo": "@resolution_operator",
+  "addresses": [
+    "@resolution_operator",
+    "@resolution_operator/domain",
+    "@resolution_operator/readout",
+    "@resolution_operator/chromatic",
+    "@resolution_operator/symmetric",
+    "@resolution_operator/history_sensitive",
+    "@resolution_operator/scale_consistency",
+    "@resolution_operator/firewalls",
+    "@resolution_operator/open",
+    "@resolution_operator/provenance",
+    "@chirality/tile",
+    "@chirality/seed",
+    "@chirality/byte",
+    "@chirality/block",
+    "@chirality/fabric",
+    "@void",
+    "@history",
+    "@rainbow_road",
+    "@portal",
+    "@resolution"
+  ],
+  "firewalls": [
+    "Resolution != selection",
+    "Resolution != native Chirality update law",
+    "readout equality != structural identity",
+    "Void receives no chromatic state",
+    "native torus != automatically C^6",
+    "six Rainbow basins != automatically SU(6)"
+  ]
+}

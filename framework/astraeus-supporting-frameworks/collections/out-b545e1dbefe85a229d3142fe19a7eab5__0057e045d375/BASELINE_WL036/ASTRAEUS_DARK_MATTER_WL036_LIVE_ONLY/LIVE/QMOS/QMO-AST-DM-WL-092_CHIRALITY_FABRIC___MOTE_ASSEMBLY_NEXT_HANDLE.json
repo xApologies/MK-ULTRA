@@ -1,0 +1,18 @@
+{
+  "schema": "ASTRAEUS_CHIRALITY_FABRIC_MOTE_ASSEMBLY_NEXT_HANDLE_V1",
+  "qmo_id": "QMO-AST-DM-WL-092",
+  "name": "Chirality Fabric / Mote Assembly Next Handle",
+  "atlas_version": "WL-v208",
+  "status": "NEXT_HANDLE_SELECTED_NOT_INSTANTIATED",
+  "handle": "@chirality_fabric",
+  "type": "distributed admissibility/gluing candidate",
+  "role": "candidate container for mote-local admissibility objects + overlap transition maps + descent compatibility",
+  "next_handle_after_instance": "@macro_descent_audit",
+  "p022_stage1": "BLOCKED_ONLY_AT_MOTE_SPECIFIC_FABRIC_GLUING_INSTANCE",
+  "parent_promotions": 0,
+  "guardrails": [
+    "chirality fabric candidate != ER foam",
+    "valid local gluing != dark matter",
+    "primitive chirality cell != canonical mote by identity"
+  ]
+}

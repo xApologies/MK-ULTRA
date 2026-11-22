@@ -1,0 +1,16 @@
+{
+  "source": "@local_energy_momentum_conservation",
+  "target": "@stress_energy_tensor",
+  "path": [
+    {
+      "source": "@local_energy_momentum_conservation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@stress_energy_tensor",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-46",
+      "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@local_energy_momentum_conservation -> @einstein_field_equation -> @stress_energy_tensor; relations=DEPENDS_ON + DEPENDS_ON; primitive_depth=2"
+    }
+  ]
+}

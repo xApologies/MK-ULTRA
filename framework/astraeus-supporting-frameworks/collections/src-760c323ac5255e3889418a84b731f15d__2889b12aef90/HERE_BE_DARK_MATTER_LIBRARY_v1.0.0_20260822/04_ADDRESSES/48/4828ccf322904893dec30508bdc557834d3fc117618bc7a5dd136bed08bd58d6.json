@@ -1,0 +1,120 @@
+{
+  "handle": "@chirality_occupancy_cube",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Chirality Occupancy Cube",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 2,
+    "xapi_raw_out_count": 2,
+    "xapi_raw_in_count": 3,
+    "live_out_count": 1,
+    "live_in_count": 1,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@chirality_occupancy_cube",
+        "relation": "DIRECTED_TO",
+        "target": "@chirality_space",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50159->50160"
+      },
+      {
+        "source": "@mote",
+        "relation": "DIRECTED_TO",
+        "target": "@chirality_occupancy_cube",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50156->50157"
+      },
+      {
+        "source": "@mote_chirality",
+        "relation": "DIRECTED_TO",
+        "target": "@chirality_occupancy_cube",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:49484->49485"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 149,
+        "source": "@chirality_occupancy_cube",
+        "relation": "DIRECTED_TO",
+        "target": "@chirality_space",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50159->50160"
+      },
+      {
+        "id": 19010,
+        "source": "@chirality_occupancy_cube",
+        "relation": "DIRECTED_TO",
+        "target": "@chirality_space",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50159->50160"
+      },
+      {
+        "id": 724,
+        "source": "@mote",
+        "relation": "DIRECTED_TO",
+        "target": "@chirality_occupancy_cube",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50156->50157"
+      },
+      {
+        "id": 735,
+        "source": "@mote_chirality",
+        "relation": "DIRECTED_TO",
+        "target": "@chirality_occupancy_cube",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:49484->49485"
+      },
+      {
+        "id": 19251,
+        "source": "@mote_chirality",
+        "relation": "DIRECTED_TO",
+        "target": "@chirality_occupancy_cube",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:49484->49485"
+      }
+    ]
+  },
+  "address": "@chirality_occupancy_cube",
+  "address_sha256": "4828ccf322904893dec30508bdc557834d3fc117618bc7a5dd136bed08bd58d6"
+}

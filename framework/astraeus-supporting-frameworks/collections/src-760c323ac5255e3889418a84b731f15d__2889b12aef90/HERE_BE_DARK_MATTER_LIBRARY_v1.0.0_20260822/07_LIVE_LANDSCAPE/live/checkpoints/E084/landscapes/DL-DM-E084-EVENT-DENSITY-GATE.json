@@ -1,0 +1,19 @@
+{
+  "schema": "ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1",
+  "landscape_id": "DL-DM-E084-EVENT-DENSITY-GATE",
+  "seed": "@dm_conditional_ucm_dynamic_event_witness",
+  "status": "CONDITIONAL_GATE_2_CLOSURE",
+  "nodes": [
+    "@dm_conditional_ucm_dynamic_event_witness",
+    "@energy_density",
+    "@dm_event_density_component_survival",
+    "@stress_energy_tensor",
+    "@dm_conditional_event_density_source_separation"
+  ],
+  "terminal": {
+    "state": "CONDITIONAL_UCM_GATE_2_CLOSED",
+    "iteration": 4,
+    "focus": "@dm_conditional_event_density_source_separation",
+    "reason": "One readable density component is enough to separate stress tensors; full P_T remains unnecessary for the selected witness."
+  }
+}

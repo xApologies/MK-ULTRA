@@ -1,0 +1,611 @@
+{
+  "inputs": [
+    {
+      "handle": "@holonomy_signature_realization_test",
+      "kind": "qmo"
+    },
+    {
+      "handle": "@holonomy_history_signature",
+      "kind": "qmo"
+    },
+    {
+      "handle": "@recovery_history_signature_quotient",
+      "kind": "qmo"
+    }
+  ],
+  "roots": [
+    "@holonomy_signature_realization_test",
+    "@holonomy_history_signature",
+    "@recovery_history_signature_quotient"
+  ],
+  "member_qmos": [
+    "@core_witness_collision",
+    "@dl_recovery_history_signature_core",
+    "@history_holonomy",
+    "@history_path",
+    "@history_trace",
+    "@history_transport",
+    "@holonomy_history_signature",
+    "@holonomy_signature_realization_test",
+    "@it_recovery_witness_1m_ceiling",
+    "@recovery_context_equivalence",
+    "@recovery_discriminator",
+    "@recovery_history_signature_minimality",
+    "@recovery_history_signature_quotient",
+    "@recovery_signature_composition",
+    "@recovery_test_family",
+    "@recovery_witness_counterexample_crawl",
+    "@theorem_recovery_context_quotient"
+  ],
+  "member_edge_ids": [
+    "E-00142",
+    "E-00143",
+    "E-00146",
+    "E-00147",
+    "E-00148",
+    "E-00149",
+    "E-00205",
+    "E-00210",
+    "E-00211",
+    "E-00212",
+    "E-00213",
+    "E-00214",
+    "E-00215",
+    "E-00216",
+    "E-00217",
+    "E-00218",
+    "E-00219",
+    "E-00220",
+    "E-00221",
+    "E-00222",
+    "E-00223",
+    "E-00224",
+    "E-00225",
+    "E-00226",
+    "E-00227"
+  ],
+  "member_edges": [
+    {
+      "edge_id": "E-00142",
+      "source": "@core_witness_collision",
+      "relation": "REQUIRES",
+      "target": "@recovery_discriminator",
+      "graph_family": "recovery",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "CE-RW-001"
+      ]
+    },
+    {
+      "edge_id": "E-00143",
+      "source": "@history_trace",
+      "relation": "REALIZES_FOR_COUNTEREXAMPLE",
+      "target": "@recovery_discriminator",
+      "graph_family": "recovery",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "CE-RW-001"
+      ]
+    },
+    {
+      "edge_id": "E-00146",
+      "source": "@recovery_witness_counterexample_crawl",
+      "relation": "ADVANCES_TO",
+      "target": "@recovery_history_signature_minimality",
+      "graph_family": "recovery",
+      "status": "SELF_BUILD_FRONTIER",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_003"
+      ]
+    },
+    {
+      "edge_id": "E-00147",
+      "source": "@recovery_history_signature_minimality",
+      "relation": "QUERIES",
+      "target": "@history_holonomy",
+      "graph_family": "recovery",
+      "status": "SELF_BUILD_FRONTIER",
+      "confidence": "high",
+      "audit_status": "source_aligned",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "FIVE_BRANCH_NATIVE_CORPUS"
+      ]
+    },
+    {
+      "edge_id": "E-00148",
+      "source": "@recovery_history_signature_minimality",
+      "relation": "QUERIES",
+      "target": "@holonomy_history_signature",
+      "graph_family": "recovery",
+      "status": "SELF_BUILD_FRONTIER",
+      "confidence": "high",
+      "audit_status": "source_aligned",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "FIVE_BRANCH_NATIVE_CORPUS"
+      ]
+    },
+    {
+      "edge_id": "E-00149",
+      "source": "@recovery_history_signature_minimality",
+      "relation": "TESTS",
+      "target": "@recovery_discriminator",
+      "graph_family": "recovery",
+      "status": "SELF_BUILD_FRONTIER",
+      "confidence": "high",
+      "audit_status": "source_aligned",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "FIVE_BRANCH_NATIVE_CORPUS"
+      ]
+    },
+    {
+      "edge_id": "E-00205",
+      "source": "@it_recovery_witness_1m_ceiling",
+      "relation": "TERMINATES_AT",
+      "target": "@recovery_history_signature_minimality",
+      "graph_family": "iteration_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_bounded_qmo_iteration",
+        "QMO:@object_resolution_recovery_witness_minimality",
+        "QMO:@bounded_recursive_iteration",
+        "QMO:@bounded_dependency_crawl",
+        "QMO:@dc_recovery_witness_to_signature"
+      ]
+    },
+    {
+      "edge_id": "E-00210",
+      "source": "@recovery_history_signature_minimality",
+      "relation": "BUILDS",
+      "target": "@recovery_test_family",
+      "graph_family": "recovery_signature",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "R-013",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/02_IDENTITY_WITNESS_TRANSPORT.md",
+        "IDENTITY_THROUGH_HISTORY::D43-D49",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "TRANSDUCTION_GEOMETRY::D14_DERIVATION_MACRO",
+        "SELF_BUILD_PASS_003",
+        "QMO:@dl_recovery_history_signature_core"
+      ]
+    },
+    {
+      "edge_id": "E-00211",
+      "source": "@history_path",
+      "relation": "SUPPORTS",
+      "target": "@recovery_context_equivalence",
+      "graph_family": "recovery_signature",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "R-013",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/02_IDENTITY_WITNESS_TRANSPORT.md",
+        "IDENTITY_THROUGH_HISTORY::D43-D49",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "TRANSDUCTION_GEOMETRY::D14_DERIVATION_MACRO",
+        "SELF_BUILD_PASS_003",
+        "QMO:@dl_recovery_history_signature_core"
+      ]
+    },
+    {
+      "edge_id": "E-00212",
+      "source": "@recovery_test_family",
+      "relation": "DEFINES",
+      "target": "@recovery_context_equivalence",
+      "graph_family": "recovery_signature",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "R-013",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/02_IDENTITY_WITNESS_TRANSPORT.md",
+        "IDENTITY_THROUGH_HISTORY::D43-D49",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "TRANSDUCTION_GEOMETRY::D14_DERIVATION_MACRO",
+        "SELF_BUILD_PASS_003",
+        "QMO:@dl_recovery_history_signature_core"
+      ]
+    },
+    {
+      "edge_id": "E-00213",
+      "source": "@recovery_discriminator",
+      "relation": "INFORMS",
+      "target": "@recovery_test_family",
+      "graph_family": "recovery_signature",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "R-013",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/02_IDENTITY_WITNESS_TRANSPORT.md",
+        "IDENTITY_THROUGH_HISTORY::D43-D49",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "TRANSDUCTION_GEOMETRY::D14_DERIVATION_MACRO",
+        "SELF_BUILD_PASS_003",
+        "QMO:@dl_recovery_history_signature_core"
+      ]
+    },
+    {
+      "edge_id": "E-00214",
+      "source": "@history_transport",
+      "relation": "CONSTRAINS_COMPOSITION_OF",
+      "target": "@recovery_context_equivalence",
+      "graph_family": "recovery_signature",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "R-013",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/02_IDENTITY_WITNESS_TRANSPORT.md",
+        "IDENTITY_THROUGH_HISTORY::D43-D49",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "TRANSDUCTION_GEOMETRY::D14_DERIVATION_MACRO",
+        "SELF_BUILD_PASS_003",
+        "QMO:@dl_recovery_history_signature_core"
+      ]
+    },
+    {
+      "edge_id": "E-00215",
+      "source": "@recovery_context_equivalence",
+      "relation": "QUOTIENTS",
+      "target": "@history_path",
+      "graph_family": "recovery_signature",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "R-014",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/02_IDENTITY_WITNESS_TRANSPORT.md",
+        "IDENTITY_THROUGH_HISTORY::D43-D49",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "TRANSDUCTION_GEOMETRY::D14_DERIVATION_MACRO",
+        "SELF_BUILD_PASS_003",
+        "QMO:@dl_recovery_history_signature_core"
+      ]
+    },
+    {
+      "edge_id": "E-00216",
+      "source": "@recovery_context_equivalence",
+      "relation": "DEFINES",
+      "target": "@recovery_history_signature_quotient",
+      "graph_family": "recovery_signature",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "R-014",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/02_IDENTITY_WITNESS_TRANSPORT.md",
+        "IDENTITY_THROUGH_HISTORY::D43-D49",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "TRANSDUCTION_GEOMETRY::D14_DERIVATION_MACRO",
+        "SELF_BUILD_PASS_003",
+        "QMO:@dl_recovery_history_signature_core"
+      ]
+    },
+    {
+      "edge_id": "E-00217",
+      "source": "@recovery_history_signature_quotient",
+      "relation": "HAS_COMPOSITION",
+      "target": "@recovery_signature_composition",
+      "graph_family": "recovery_signature",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "R-014",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/02_IDENTITY_WITNESS_TRANSPORT.md",
+        "IDENTITY_THROUGH_HISTORY::D43-D49",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "TRANSDUCTION_GEOMETRY::D14_DERIVATION_MACRO",
+        "SELF_BUILD_PASS_003",
+        "QMO:@dl_recovery_history_signature_core"
+      ]
+    },
+    {
+      "edge_id": "E-00218",
+      "source": "@recovery_signature_composition",
+      "relation": "INHERITS_FROM",
+      "target": "@history_path",
+      "graph_family": "recovery_signature",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "R-014",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/02_IDENTITY_WITNESS_TRANSPORT.md",
+        "IDENTITY_THROUGH_HISTORY::D43-D49",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "TRANSDUCTION_GEOMETRY::D14_DERIVATION_MACRO",
+        "SELF_BUILD_PASS_003",
+        "QMO:@dl_recovery_history_signature_core"
+      ]
+    },
+    {
+      "edge_id": "E-00219",
+      "source": "@recovery_history_signature_quotient",
+      "relation": "REALIZES_ROLE_OF",
+      "target": "@recovery_discriminator",
+      "graph_family": "recovery_signature",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "R-015",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/02_IDENTITY_WITNESS_TRANSPORT.md",
+        "IDENTITY_THROUGH_HISTORY::D43-D49",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "TRANSDUCTION_GEOMETRY::D14_DERIVATION_MACRO",
+        "SELF_BUILD_PASS_003",
+        "QMO:@dl_recovery_history_signature_core"
+      ]
+    },
+    {
+      "edge_id": "E-00220",
+      "source": "@theorem_recovery_context_quotient",
+      "relation": "CERTIFIES",
+      "target": "@recovery_context_equivalence",
+      "graph_family": "recovery_signature",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "R-015",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/02_IDENTITY_WITNESS_TRANSPORT.md",
+        "IDENTITY_THROUGH_HISTORY::D43-D49",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "TRANSDUCTION_GEOMETRY::D14_DERIVATION_MACRO",
+        "SELF_BUILD_PASS_003",
+        "QMO:@dl_recovery_history_signature_core"
+      ]
+    },
+    {
+      "edge_id": "E-00221",
+      "source": "@theorem_recovery_context_quotient",
+      "relation": "CERTIFIES",
+      "target": "@recovery_history_signature_quotient",
+      "graph_family": "recovery_signature",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "R-015",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/02_IDENTITY_WITNESS_TRANSPORT.md",
+        "IDENTITY_THROUGH_HISTORY::D43-D49",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "TRANSDUCTION_GEOMETRY::D14_DERIVATION_MACRO",
+        "SELF_BUILD_PASS_003",
+        "QMO:@dl_recovery_history_signature_core"
+      ]
+    },
+    {
+      "edge_id": "E-00222",
+      "source": "@theorem_recovery_context_quotient",
+      "relation": "CERTIFIES",
+      "target": "@recovery_signature_composition",
+      "graph_family": "recovery_signature",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "R-015",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/02_IDENTITY_WITNESS_TRANSPORT.md",
+        "IDENTITY_THROUGH_HISTORY::D43-D49",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "TRANSDUCTION_GEOMETRY::D14_DERIVATION_MACRO",
+        "SELF_BUILD_PASS_003",
+        "QMO:@dl_recovery_history_signature_core"
+      ]
+    },
+    {
+      "edge_id": "E-00223",
+      "source": "@dl_recovery_history_signature_core",
+      "relation": "SUPPORTS_DERIVATION_OF",
+      "target": "@theorem_recovery_context_quotient",
+      "graph_family": "recovery_signature",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "R-015",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/02_IDENTITY_WITNESS_TRANSPORT.md",
+        "IDENTITY_THROUGH_HISTORY::D43-D49",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "TRANSDUCTION_GEOMETRY::D14_DERIVATION_MACRO",
+        "SELF_BUILD_PASS_003",
+        "QMO:@dl_recovery_history_signature_core"
+      ]
+    },
+    {
+      "edge_id": "E-00224",
+      "source": "@recovery_history_signature_minimality",
+      "relation": "ADVANCES_TO",
+      "target": "@holonomy_signature_realization_test",
+      "graph_family": "recovery_signature",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "R-016",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/02_IDENTITY_WITNESS_TRANSPORT.md",
+        "IDENTITY_THROUGH_HISTORY::D43-D49",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "TRANSDUCTION_GEOMETRY::D14_DERIVATION_MACRO",
+        "SELF_BUILD_PASS_003",
+        "QMO:@dl_recovery_history_signature_core"
+      ]
+    },
+    {
+      "edge_id": "E-00225",
+      "source": "@holonomy_signature_realization_test",
+      "relation": "TESTS",
+      "target": "@holonomy_history_signature",
+      "graph_family": "recovery_signature",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "R-016",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/02_IDENTITY_WITNESS_TRANSPORT.md",
+        "IDENTITY_THROUGH_HISTORY::D43-D49",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "TRANSDUCTION_GEOMETRY::D14_DERIVATION_MACRO",
+        "SELF_BUILD_PASS_003",
+        "QMO:@dl_recovery_history_signature_core"
+      ]
+    },
+    {
+      "edge_id": "E-00226",
+      "source": "@holonomy_signature_realization_test",
+      "relation": "AGAINST",
+      "target": "@recovery_history_signature_quotient",
+      "graph_family": "recovery_signature",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "R-016",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/02_IDENTITY_WITNESS_TRANSPORT.md",
+        "IDENTITY_THROUGH_HISTORY::D43-D49",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "TRANSDUCTION_GEOMETRY::D14_DERIVATION_MACRO",
+        "SELF_BUILD_PASS_003",
+        "QMO:@dl_recovery_history_signature_core"
+      ]
+    },
+    {
+      "edge_id": "E-00227",
+      "source": "@holonomy_signature_realization_test",
+      "relation": "USES",
+      "target": "@history_holonomy",
+      "graph_family": "recovery_signature",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "R-016",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/02_IDENTITY_WITNESS_TRANSPORT.md",
+        "IDENTITY_THROUGH_HISTORY::D43-D49",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "TRANSDUCTION_GEOMETRY::D14_DERIVATION_MACRO",
+        "SELF_BUILD_PASS_003",
+        "QMO:@dl_recovery_history_signature_core"
+      ]
+    }
+  ],
+  "statistics": {
+    "qmo_count": 17,
+    "edge_count": 25
+  },
+  "resolution_context": {
+    "operator": "@resolution",
+    "policy": "PRESERVE_MEMBER_RESOLUTION_STATE; NO_EXTRA_QUOTIENT_BY_LANDSCAPE",
+    "landscape_resolution": "QUERY_RELATIVE_AND_HISTORY_BEARING"
+  },
+  "bandwidth_context": {
+    "operator": "@bandwidth_algebra",
+    "policy": "REGISTERED_EDGE_AVAILABILITY_ONLY; LANDSCAPE_DOES_NOT_INVENT_AVAILABLE_TRANSFORMATIONS",
+    "landscape_bandwidth": "AVAILABLE_MEMBER_DEPENDENCY_STRUCTURE"
+  },
+  "landscape_id": "DL-1fd4d83e4e8f",
+  "qmo_address": "@dl_holonomy_signature_realization",
+  "canonical_name": "Dependency Landscape: @holonomy_signature_realization_test, @holonomy_history_signature, @recovery_history_signature_quotient",
+  "status": "DERIVED_CLOSED_INTERNAL",
+  "construction": {
+    "operator": "@dependency_landscape",
+    "depth": 2,
+    "direction": "bidirectional",
+    "edge_policy": "REGISTERED_EDGES_ONLY",
+    "member_claim_promotion": false
+  },
+  "history": {
+    "policy": "APPEND_ONLY",
+    "created_in_api_release": "0.9.0",
+    "created_live_model_revision": "v0.22.0",
+    "parent_landscapes": [],
+    "parent_graphs": [],
+    "parent_qmos": [
+      "@holonomy_signature_realization_test",
+      "@holonomy_history_signature",
+      "@recovery_history_signature_quotient"
+    ]
+  },
+  "provenance": [
+    "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+    "GENESIS_DIRECTION::2026-08-22",
+    "RUNTIME_REGISTER",
+    "QMO:@holonomy_signature_realization_test",
+    "QMO:@holonomy_history_signature",
+    "QMO:@recovery_history_signature_quotient"
+  ],
+  "semantic_guard": "Landscape membership preserves member status; registration does not promote member claims."
+}

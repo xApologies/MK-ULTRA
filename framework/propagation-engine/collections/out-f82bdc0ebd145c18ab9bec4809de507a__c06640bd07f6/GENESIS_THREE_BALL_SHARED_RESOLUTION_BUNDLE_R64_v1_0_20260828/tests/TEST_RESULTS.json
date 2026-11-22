@@ -1,0 +1,28 @@
+{
+  "T1_triangle_coordinate_sufficiency": {
+    "status": "PASS",
+    "statement": "For a nondegenerate labeled three-point Euclidean configuration modulo common translations/rotations, three pair distances determine the congruence class.",
+    "max_reconstruction_error": 1.5543122344752192e-15
+  },
+  "T2_common_rigid_motion_quotient": {
+    "status": "PASS",
+    "statement": "Common Euclidean rigid motion preserves all three pair distances, so the relational base quotients common ambient motion.",
+    "max_distance_error": 4.440892098500626e-16
+  },
+  "T3_shared_resolution_not_scalar": {
+    "status": "PASS_SOURCE_ALIGNED",
+    "statement": "Retain a graph-valued Resolution state at each recursive depth; scalar depth is only an index/summary."
+  },
+  "T4_five_dimensional_carrier": {
+    "status": "PASS_AS_MINIMAL_CANDIDATE_NOT_CANONICAL_EMBEDDING",
+    "statement": "3 Euclidean relational coordinates + 1 recursive Resolution coordinate + 1 History/order coordinate yields a 5D carrier without treating every graph label as a new geometric dimension."
+  },
+  "T5_bandwidth_system_object": {
+    "status": "PASS_AS_TYPED_CANDIDATE",
+    "statement": "System Bandwidth is modeled as the admissible relational transformation family of the whole three-ball object, not an arithmetic sum of component bandwidths."
+  },
+  "T6_torus_requirement": {
+    "status": "NOT_FORCED",
+    "statement": "Pure three-ball Euclidean relational geometry does not force a torus. A torus re-enters only if cyclic Resolution/phase coordinates are independently present."
+  }
+}

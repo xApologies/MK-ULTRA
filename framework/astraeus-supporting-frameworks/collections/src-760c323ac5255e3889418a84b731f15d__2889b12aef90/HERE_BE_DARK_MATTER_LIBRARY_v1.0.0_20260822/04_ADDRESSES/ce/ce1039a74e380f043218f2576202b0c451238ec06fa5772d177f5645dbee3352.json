@@ -1,0 +1,98 @@
+{
+  "handle": "@fixed_point_recovery",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@fixed_point_recovery",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 2,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 2,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 2,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@fixed_point_recovery",
+        "relation": "USED_BY",
+        "target": "@compile_recovered_object",
+        "graph_family": "runtime",
+        "confidence": "high",
+        "audit_status": "explicitly_recovered",
+        "recovery_pass": "RP-42",
+        "provenance": "DIRECT_API_LINE:58715"
+      },
+      {
+        "source": "@recursive_recovery_engine",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@fixed_point_recovery",
+        "graph_family": "runtime",
+        "confidence": "high",
+        "audit_status": "explicitly_recovered",
+        "recovery_pass": "RP-42",
+        "provenance": "DIRECT_API_LINE:58703"
+      },
+      {
+        "source": "@recovery_closure",
+        "relation": "REALIZES",
+        "target": "@fixed_point_recovery",
+        "graph_family": "runtime",
+        "confidence": "high",
+        "audit_status": "explicitly_recovered",
+        "recovery_pass": "RP-42",
+        "provenance": "DIRECT_API_LINE:58714"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 1212,
+        "source": "@fixed_point_recovery",
+        "relation": "USED_BY",
+        "target": "@compile_recovered_object",
+        "layer": "API43",
+        "graph_family": "runtime",
+        "confidence": "high",
+        "audit_status": "explicitly_recovered",
+        "provenance": "DIRECT_API_LINE:58715"
+      },
+      {
+        "id": 1202,
+        "source": "@recursive_recovery_engine",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@fixed_point_recovery",
+        "layer": "API43",
+        "graph_family": "runtime",
+        "confidence": "high",
+        "audit_status": "explicitly_recovered",
+        "provenance": "DIRECT_API_LINE:58703"
+      },
+      {
+        "id": 1211,
+        "source": "@recovery_closure",
+        "relation": "REALIZES",
+        "target": "@fixed_point_recovery",
+        "layer": "API43",
+        "graph_family": "runtime",
+        "confidence": "high",
+        "audit_status": "explicitly_recovered",
+        "provenance": "DIRECT_API_LINE:58714"
+      }
+    ]
+  },
+  "address": "@fixed_point_recovery",
+  "address_sha256": "ce1039a74e380f043218f2576202b0c451238ec06fa5772d177f5645dbee3352"
+}

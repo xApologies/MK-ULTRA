@@ -1,0 +1,92 @@
+[
+  {
+    "edge_id": "E-0005",
+    "source": "@transduction_connection",
+    "relation": "SELECTS_LIFTS_IN",
+    "target": "@typed_lift_architecture",
+    "graph_family": "categorical",
+    "confidence": "high",
+    "audit_status": "live_model_derived",
+    "provenance": "L-238;L-263"
+  },
+  {
+    "edge_id": "E-0006",
+    "source": "@transduction_connection",
+    "relation": "GENERATES",
+    "target": "@moebius_monodromy",
+    "graph_family": "categorical",
+    "confidence": "medium",
+    "audit_status": "live_model_derived",
+    "provenance": "L-266"
+  },
+  {
+    "edge_id": "E-0007",
+    "source": "@transduction_connection",
+    "relation": "HAS_COHERENCE_OBSTRUCTION",
+    "target": "@transduction_curvature",
+    "graph_family": "categorical",
+    "confidence": "high",
+    "audit_status": "live_model_derived",
+    "provenance": "L-264"
+  },
+  {
+    "edge_id": "E-0041",
+    "source": "@transduction_connection",
+    "relation": "COMPONENT_OF",
+    "target": "@fabric_signature",
+    "graph_family": "classification",
+    "confidence": "medium",
+    "audit_status": "live_model_derived",
+    "provenance": "L-290"
+  },
+  {
+    "edge_id": "E-0004",
+    "source": "@chirality",
+    "relation": "CONSTRAINS_ADMISSIBILITY_OF",
+    "target": "@transduction_connection",
+    "graph_family": "transduction",
+    "confidence": "medium",
+    "audit_status": "live_model_derived",
+    "provenance": "L-263;L-271"
+  },
+  {
+    "edge_id": "E-0008",
+    "source": "@transduction_descent",
+    "relation": "GLUES_LOCAL_INSTANCES_OF",
+    "target": "@transduction_connection",
+    "graph_family": "categorical",
+    "confidence": "high",
+    "audit_status": "live_model_derived",
+    "provenance": "L-270;L-268"
+  },
+  {
+    "edge_id": "E-0044",
+    "source": "@transduction_language",
+    "relation": "LANGUAGE_DEFINES",
+    "target": "@transduction_connection",
+    "graph_family": "language",
+    "confidence": "high",
+    "audit_status": "live_model_derived",
+    "provenance": "L-297;L-298"
+  },
+  {
+    "edge_id": "E-0049",
+    "source": "@analogy_moebius_holonomy",
+    "relation": "ANALOGY_SUPPORTS",
+    "target": "@transduction_connection",
+    "graph_family": "research",
+    "confidence": "medium",
+    "audit_status": "live_model_derived",
+    "provenance": "L-300"
+  },
+  {
+    "edge_id": "E-0053",
+    "source": "@minimal_fabric_signature",
+    "relation": "USES",
+    "target": "@transduction_connection",
+    "graph_family": "classification",
+    "confidence": "high",
+    "audit_status": "live_model_derived",
+    "provenance": "L-305"
+  }
+]

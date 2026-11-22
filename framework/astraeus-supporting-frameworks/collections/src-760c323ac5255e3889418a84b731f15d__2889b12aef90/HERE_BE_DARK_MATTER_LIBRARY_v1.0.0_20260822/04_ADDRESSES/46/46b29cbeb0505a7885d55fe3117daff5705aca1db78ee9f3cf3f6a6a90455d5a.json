@@ -1,0 +1,99 @@
+{
+  "handle": "@readable_spacetime",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Readable Spacetime",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 2,
+    "xapi_raw_out_count": 0,
+    "xapi_raw_in_count": 4,
+    "live_out_count": 0,
+    "live_in_count": 2,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@configuration_space_3_1_1",
+        "relation": "DIRECTED_TO",
+        "target": "@readable_spacetime",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54838->54839"
+      },
+      {
+        "source": "@configuration_space_3_1_1",
+        "relation": "USED_BY",
+        "target": "@readable_spacetime",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_USEDBY:54296"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 240,
+        "source": "@configuration_space_3_1_1",
+        "relation": "DIRECTED_TO",
+        "target": "@readable_spacetime",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54838->54839"
+      },
+      {
+        "id": 241,
+        "source": "@configuration_space_3_1_1",
+        "relation": "USED_BY",
+        "target": "@readable_spacetime",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_USEDBY:54296"
+      },
+      {
+        "id": 19047,
+        "source": "@configuration_space_3_1_1",
+        "relation": "DIRECTED_TO",
+        "target": "@readable_spacetime",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54838->54839"
+      },
+      {
+        "id": 19048,
+        "source": "@configuration_space_3_1_1",
+        "relation": "USED_BY",
+        "target": "@readable_spacetime",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_USEDBY:54296"
+      }
+    ]
+  },
+  "address": "@readable_spacetime",
+  "address_sha256": "46b29cbeb0505a7885d55fe3117daff5705aca1db78ee9f3cf3f6a6a90455d5a"
+}

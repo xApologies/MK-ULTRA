@@ -1,0 +1,135 @@
+{
+  "schema": "ASTRAEUS_API_QMO_ROTATIONAL_CRAWL_V1",
+  "qmo_id": "QMO-AST-DM-WL-046",
+  "name": "Angular-Momentum Parameter / Kerr / Ergoregion Rotational Crawl",
+  "atlas_version": "WL-v161",
+  "status": "ACCEPTED_GR_ROTATIONAL_COMPARISON_LANDSCAPE_NOT_PARENT_PROMOTED",
+  "angular_parameter_to_kerr": {
+    "source": "@angular_momentum_parameter",
+    "target": "@kerr_geometry",
+    "path": [
+      {
+        "source": "@angular_momentum_parameter",
+        "relation": "DEPENDS_ON",
+        "target": "@kerr_geometry",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:615"
+      }
+    ]
+  },
+  "angular_parameter_ergoregion_pair": {
+    "a": "@angular_momentum_parameter",
+    "b": "@ergoregion",
+    "radius": 2,
+    "a_node_count": 51,
+    "b_node_count": 45,
+    "interface": [
+      {
+        "handle": "@kerr_geometry",
+        "distance_a": 1,
+        "distance_b": 1
+      },
+      {
+        "handle": "@angular_momentum_parameter",
+        "distance_a": 0,
+        "distance_b": 2
+      },
+      {
+        "handle": "@ergoregion",
+        "distance_a": 2,
+        "distance_b": 0
+      },
+      {
+        "handle": "@black_hole",
+        "distance_a": 2,
+        "distance_b": 1
+      },
+      {
+        "handle": "@einstein_field_equation",
+        "distance_a": 1,
+        "distance_b": 2
+      },
+      {
+        "handle": "@boyer_lindquist_coordinates",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@inner_horizon",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@ring_singularity",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@superradiance",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@teukolsky_equation",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@vacuum_field_equation",
+        "distance_a": 2,
+        "distance_b": 2
+      }
+    ],
+    "path_a_to_b": [
+      {
+        "source": "@angular_momentum_parameter",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@ergoregion",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@angular_momentum_parameter-[COMPOSED_DEPENDENCY]->@einstein_tensor-[COMPOSED_DEPENDENCY]->@ergoregion"
+      }
+    ],
+    "direct_neighborhood_policy": "high-confidence non-derived/direct-source Time-Space API edges only",
+    "path_policy": "high-confidence registered + admissibly derived Time-Space API edges; directions preserved"
+  },
+  "direct_edges": [
+    {
+      "source": "@angular_momentum_parameter",
+      "relation": "DEPENDS_ON",
+      "target": "@kerr_geometry",
+      "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:615"
+    },
+    {
+      "source": "@ergoregion",
+      "relation": "DEPENDS_ON",
+      "target": "@kerr_geometry",
+      "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:82"
+    },
+    {
+      "source": "@ergosphere",
+      "relation": "DEPENDS_ON",
+      "target": "@ergoregion",
+      "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:83"
+    }
+  ],
+  "api_absence_check": {
+    "@frame_dragging": false,
+    "@lense_thirring": false,
+    "@angular_velocity": false
+  },
+  "interpretation": "The API does not hand back a canonical frame-dragging handle. It hands back the accepted Kerr rotation parameter, Kerr geometry, and ergoregion/ergosphere branch. Follow those objects rather than naming a missing handle.",
+  "guardrails": [
+    "@ergoregion != frame dragging",
+    "@ergoregion != dark matter",
+    "Kerr strong-field comparison != galactic dark-sector realization",
+    "absence of a handle is not absence of the physical effect in downstream GR",
+    "parent promotions = 0"
+  ],
+  "next_handle": "@ergoregion"
+}

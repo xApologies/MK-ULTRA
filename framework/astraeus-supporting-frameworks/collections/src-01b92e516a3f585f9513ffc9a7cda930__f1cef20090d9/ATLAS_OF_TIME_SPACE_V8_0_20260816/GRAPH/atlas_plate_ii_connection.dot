@@ -1,0 +1,34 @@
+digraph AtlasV2 {
+  graph [rankdir=LR, bgcolor="#07101f", pad=0.4, nodesep=0.55, ranksep=0.7, fontname="DejaVu Sans", label="ATLAS OF TIME-SPACE — PLATE II: CHIRALITY CONNECTION & HOLONOMY", labelloc=t, fontsize=22, fontcolor="#e8c785"];
+  node [shape=box, style="rounded,filled", fillcolor="#0d2038", color="#78b9e8", fontcolor="#f5f7fb", fontname="DejaVu Sans", fontsize=12, penwidth=1.4];
+  edge [color="#e8c785", fontcolor="#f3d89d", fontname="DejaVu Sans", fontsize=10, penwidth=1.5];
+
+  S3 [label="S³ continuity base\naddresses pα, pβ"];
+  ga [shape=ellipse, label="γ : pα → pβ\nbase path"];
+  W [label="Wγ = γ* T⁵\n≅ S² × I\ngeometric corridor"];
+  A [label="H_TS\nTime-Space horizontal connection"];
+  C [label="∇χ\nchirality connection"];
+  Pa [label="Cα = Γ_adm(Eχ|Σα)\nlocal chirality field"];
+  P [label="Pγ^χ\nparallel transport\nD_s^χ c = 0", fillcolor="#173451"];
+  Pb [label="Cβ = Γ_adm(Eχ|Σβ)\ntransported chirality field"];
+  Hol [label="Holχ(loop)\nrelative history / path memory", fillcolor="#2a2346", color="#b78fe8"];
+  F [label="Fχ = F_HH + F_HV + F_VV", fillcolor="#332d22", color="#e8c785"];
+  HH [label="F_HH\nS³ continuity curvature"];
+  HV [label="F_HV\nlocal/global commutation obstruction", fillcolor="#3a2430", color="#e88ca9"];
+  VV [label="F_VV\nlocal S² chirality curvature"];
+  Q [label="next: ρ_Q,p\nQFT representation", fillcolor="#173021", color="#82d59a"];
+  G [label="next: ρ_G,p\nGR representation", fillcolor="#173021", color="#82d59a"];
+
+  S3 -> ga -> W;
+  A -> W [label="horizontal lift"];
+  Pa -> P -> Pb;
+  W -> P [label="supports"];
+  C -> P [label="defines"];
+  P -> Hol [label="closed / relative paths"];
+  C -> F [label="curvature"];
+  F -> HH;
+  F -> HV;
+  F -> VV;
+  Pb -> Q [style=dashed, label="v3 target"];
+  Pb -> G [style=dashed, label="v3 target"];
+}

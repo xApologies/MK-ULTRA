@@ -1,0 +1,72 @@
+MODULE MK43_API5
+
+CONSTANT CONTRACT_VERSION := "2.0"
+CONSTANT INTERNAL_DIMENSION := 5
+CONSTANT CANONICAL_STATE_POLICY := READ_ONLY
+CONSTANT REWRITE_POLICY := DERIVED_ONLY
+
+CLASS API5Adapter
+    PRIVATE snapshot: CanonicalSnapshot
+    PRIVATE context: RequestContext | NONE
+
+    FUNCTION dimension_model()
+        RETURN {
+            identity: TRUE,
+            dependency: TRUE,
+            chirality: TRUE,
+            recursive_depth: TRUE,
+            provenance: TRUE,
+            realization: FALSE
+        }
+    END
+
+    FUNCTION fork_request_context()
+        local := RequestContext.new(snapshot.fingerprint)
+        RETURN API5Adapter(snapshot = self.snapshot, context = local)
+    END
+
+    FUNCTION canonical_fingerprint()
+        RETURN snapshot.fingerprint
+    END
+
+    FUNCTION healthcheck()
+        RETURN BootstrapValidator.quick_check(snapshot)
+    END
+
+    FUNCTION resolve(subject)
+        REQUIRE context IS NOT NONE
+        RETURN AliasResolver.resolve(snapshot, subject)
+    END
+
+    FUNCTION neighbors(handle, direction)
+        REQUIRE handle IN snapshot.handles
+        RETURN GraphIndex.direct_neighbors(snapshot, handle, direction)
+    END
+
+    FUNCTION recover_closure(root, intent)
+        REQUIRE context IS NOT NONE
+        graph := ClosureEngine.recover(self, root, intent, context)
+        validate_graph(graph)
+        RETURN graph.freeze()
+    END
+
+    FUNCTION recover_equations(handle)
+        RETURN EquationRouter.recover_exact(snapshot, handle)
+    END
+
+    FUNCTION recover_provenance(handle)
+        RETURN ProvenanceEngine.recover_object_specific(snapshot, handle)
+    END
+
+    FUNCTION resolve_chirality(node, intent, provenance)
+        RETURN ChiralityEngine.resolve(snapshot, node, intent, provenance, context)
+    END
+
+    FUNCTION admissible(node, intent, chirality, provenance)
+        RETURN AdmissibilityEngine.evaluate(snapshot, node, intent, chirality, provenance, context)
+    END
+
+    FUNCTION validate_graph(graph)
+        GraphValidator.validate(snapshot, graph, context)
+    END
+END

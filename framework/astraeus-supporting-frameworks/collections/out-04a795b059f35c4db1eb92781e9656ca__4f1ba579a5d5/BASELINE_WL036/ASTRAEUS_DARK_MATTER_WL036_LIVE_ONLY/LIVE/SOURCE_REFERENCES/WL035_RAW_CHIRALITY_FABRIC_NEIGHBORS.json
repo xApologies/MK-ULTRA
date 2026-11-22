@@ -1,0 +1,52 @@
+[
+  {
+    "edge_id": "E-0009",
+    "source": "@chirality_fabric",
+    "relation": "CANDIDATE_SUPPORTS",
+    "target": "@transduction_descent",
+    "graph_family": "categorical",
+    "confidence": "medium",
+    "audit_status": "live_model_derived",
+    "provenance": "L-271"
+  },
+  {
+    "edge_id": "E-0011",
+    "source": "@evolution_descent_defect",
+    "relation": "AUDITS",
+    "target": "@chirality_fabric",
+    "graph_family": "audit",
+    "confidence": "medium",
+    "audit_status": "live_model_derived",
+    "provenance": "L-273"
+  },
+  {
+    "edge_id": "E-0032",
+    "source": "@gluing_class",
+    "relation": "CLASSIFIES",
+    "target": "@chirality_fabric",
+    "graph_family": "classification",
+    "confidence": "medium",
+    "audit_status": "live_model_derived",
+    "provenance": "L-280;L-282"
+  },
+  {
+    "edge_id": "E-0033",
+    "source": "@holonomy_class",
+    "relation": "CLASSIFIES",
+    "target": "@chirality_fabric",
+    "graph_family": "classification",
+    "confidence": "medium",
+    "audit_status": "live_model_derived",
+    "provenance": "L-281;L-282"
+  },
+  {
+    "edge_id": "E-0034",
+    "source": "@component_salvage_protocol",
+    "relation": "GOVERNS_REUSE_OF",
+    "target": "@chirality_fabric",
+    "graph_family": "method",
+    "confidence": "high",
+    "audit_status": "live_model_derived",
+    "provenance": "L-278;L-284"
+  }
+]

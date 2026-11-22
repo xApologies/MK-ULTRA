@@ -1,0 +1,182 @@
+{
+  "handle": "@out_vacuum",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@out_vacuum",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 3,
+    "api43_direct_in_count": 4,
+    "xapi_raw_out_count": 3,
+    "xapi_raw_in_count": 4,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 47,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@out_vacuum",
+        "relation": "IS_REPRESENTATION_OF",
+        "target": "@vacuum_state",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-52",
+        "provenance": "DIRECT_SOURCE:HAWKING_MINIMAL_MATHEMATICAL_CLOSURE"
+      },
+      {
+        "source": "@out_vacuum",
+        "relation": "FEEDS_BLACK_HOLE_MODEL",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-52",
+        "provenance": "DERIVED:RP52_HAWKING_REVERSE_CRAWL; witness=@out_vacuum-[IS_REPRESENTATION_OF]->@vacuum_state | @vacuum_state-[COMPOSED_DEPENDENCY]->@black_hole"
+      },
+      {
+        "source": "@out_vacuum",
+        "relation": "GLOBALLY_FEEDS_BLACK_HOLE",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-53",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_REVERSE_CRAWL; witness=@out_vacuum-[FEEDS_BLACK_HOLE_MODEL]->@black_hole"
+      },
+      {
+        "source": "@in_vacuum",
+        "relation": "COMPARED_WITH",
+        "target": "@out_vacuum",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-52",
+        "provenance": "DIRECT_SOURCE:HAWKING_MINIMAL_MATHEMATICAL_CLOSURE"
+      },
+      {
+        "source": "@bogoliubov_transformation",
+        "relation": "MAPS_TO",
+        "target": "@out_vacuum",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-52",
+        "provenance": "DIRECT_SOURCE:HAWKING_MINIMAL_MATHEMATICAL_CLOSURE"
+      },
+      {
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_MODEL_REACHES",
+        "target": "@out_vacuum",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-52",
+        "provenance": "DERIVED:RP52_HAWKING_FORWARD_CRAWL; witness=@black_hole-[BLACK_HOLE_MODEL_REACHES]->@bogoliubov_transformation | @bogoliubov_transformation-[MAPS_TO]->@out_vacuum"
+      },
+      {
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_GLOBAL_REACHES",
+        "target": "@out_vacuum",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-53",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_FORWARD_CRAWL; witness=@black_hole-[BLACK_HOLE_MODEL_REACHES]->@out_vacuum"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 17605,
+        "source": "@out_vacuum",
+        "relation": "IS_REPRESENTATION_OF",
+        "target": "@vacuum_state",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_SOURCE:HAWKING_MINIMAL_MATHEMATICAL_CLOSURE"
+      },
+      {
+        "id": 17652,
+        "source": "@out_vacuum",
+        "relation": "FEEDS_BLACK_HOLE_MODEL",
+        "target": "@black_hole",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP52_HAWKING_REVERSE_CRAWL; witness=@out_vacuum-[IS_REPRESENTATION_OF]->@vacuum_state | @vacuum_state-[COMPOSED_DEPENDENCY]->@black_hole"
+      },
+      {
+        "id": 18353,
+        "source": "@out_vacuum",
+        "relation": "GLOBALLY_FEEDS_BLACK_HOLE",
+        "target": "@black_hole",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_REVERSE_CRAWL; witness=@out_vacuum-[FEEDS_BLACK_HOLE_MODEL]->@black_hole"
+      },
+      {
+        "id": 17606,
+        "source": "@in_vacuum",
+        "relation": "COMPARED_WITH",
+        "target": "@out_vacuum",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_SOURCE:HAWKING_MINIMAL_MATHEMATICAL_CLOSURE"
+      },
+      {
+        "id": 17610,
+        "source": "@bogoliubov_transformation",
+        "relation": "MAPS_TO",
+        "target": "@out_vacuum",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_SOURCE:HAWKING_MINIMAL_MATHEMATICAL_CLOSURE"
+      },
+      {
+        "id": 17637,
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_MODEL_REACHES",
+        "target": "@out_vacuum",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP52_HAWKING_FORWARD_CRAWL; witness=@black_hole-[BLACK_HOLE_MODEL_REACHES]->@bogoliubov_transformation | @bogoliubov_transformation-[MAPS_TO]->@out_vacuum"
+      },
+      {
+        "id": 17932,
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_GLOBAL_REACHES",
+        "target": "@out_vacuum",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_FORWARD_CRAWL; witness=@black_hole-[BLACK_HOLE_MODEL_REACHES]->@out_vacuum"
+      }
+    ]
+  },
+  "address": "@out_vacuum",
+  "address_sha256": "85c8103aca8ab6b139980cec90bc5001d40fd8139d2ae35578c020ec92db5c6a"
+}

@@ -1,0 +1,46 @@
+{
+  "schema": "ASTRAEUS_QMO_CROSS_CRAWL_V1",
+  "seeds": [
+    "@dm_metric_action_selection"
+  ],
+  "targets": [
+    "@total_action"
+  ],
+  "bidirectional": true,
+  "edge_count": 1333,
+  "reachable_count": 44,
+  "distance_histogram": {
+    "0": 1,
+    "1": 4,
+    "2": 11,
+    "3": 11,
+    "4": 17
+  },
+  "paths": {
+    "@dm_metric_action_selection -> @total_action": [
+      {
+        "from": "@dm_metric_action_selection",
+        "relation": "DEPENDS_ON",
+        "to": "@dm_covariant_hidden_action_family",
+        "traversal": "forward",
+        "origin": "DARKMATTER_2.2",
+        "provenance": "DM2.2_CROSS_API",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "OPEN_HANDLE",
+        "confidence": "high"
+      },
+      {
+        "from": "@dm_covariant_hidden_action_family",
+        "relation": "DEPENDS_ON",
+        "to": "@total_action",
+        "traversal": "forward",
+        "origin": "DARKMATTER_2.2",
+        "provenance": "DM2.2_CROSS_API",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "ATLAS_DERIVED",
+        "confidence": "high"
+      }
+    ]
+  },
+  "guardrail": "Navigation evidence only. Composed paths are not direct theorems and no parent object is promoted."
+}

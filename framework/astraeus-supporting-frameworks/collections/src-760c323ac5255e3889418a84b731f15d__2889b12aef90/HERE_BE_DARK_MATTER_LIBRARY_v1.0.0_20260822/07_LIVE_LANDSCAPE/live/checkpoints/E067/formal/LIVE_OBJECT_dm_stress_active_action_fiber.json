@@ -1,0 +1,18 @@
+{
+  "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+  "handle": "@dm_stress_active_action_fiber",
+  "canonical_name": "Stress-Active Covariant Hidden Action Fiber",
+  "type": "MetricVariationKernelComplement",
+  "status": "LIVE_DERIVED_CLOSED_INTERNAL",
+  "checkpoint": "E067",
+  "definition": "Subset of the already-closed covariant hidden-action family whose metric variation generates nonzero hidden stress-energy.",
+  "math": "S_H,act^cov := {S_H∈S_H^cov(Q_H,g) | V_g(S_H) != 0}, V_g(S_H)=-(2/sqrt(-g))δS_H/δg^(μν).",
+  "parents": [
+    "@dm_covariant_hidden_action_family",
+    "@dm_stress_energy_realization_family",
+    "@metric_variation"
+  ],
+  "physical_claim": false,
+  "baseline_mutation": false,
+  "open_nonemptiness": "@dm_stress_active_action_fiber_nonempty"
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "address": "@open/native_multiscale_update_law",
+    "priority": 1,
+    "title": "Native multiscale update law",
+    "description": "Construct U_chi/K_chi from native decorated context.",
+    "status": "ACTIVE",
+    "blocked_by": null,
+    "source_ref": "04_MATHEMATICS/OPEN_PROOF_TARGETS.md",
+    "notes": "Primary resume point."
+  },
+  {
+    "address": "@open/tile_coupling_law",
+    "priority": 2,
+    "title": "Tile coupling law",
+    "description": "Determine what one tile update forces on a related tile.",
+    "status": "ACTIVE",
+    "blocked_by": "@open/native_multiscale_update_law",
+    "source_ref": "04_MATHEMATICS/OPEN_PROOF_TARGETS.md",
+    "notes": ""
+  },
+  {
+    "address": "@open/bandwidth_semantics",
+    "priority": 3,
+    "title": "Bandwidth semantics",
+    "description": "Determine direction/reach/generator/capacity meaning in this domain.",
+    "status": "ACTIVE",
+    "blocked_by": "@eq/domain_generator_map",
+    "source_ref": "04_MATHEMATICS/OPEN_PROOF_TARGETS.md",
+    "notes": ""
+  },
+  {
+    "address": "@open/seed_set_lift",
+    "priority": 4,
+    "title": "2D-to-3D seed set-lift",
+    "description": "Specify exact lift into byte/bite.",
+    "status": "OPEN",
+    "blocked_by": null,
+    "source_ref": "04_MATHEMATICS/OPEN_PROOF_TARGETS.md",
+    "notes": ""
+  },
+  {
+    "address": "@open/readout_composition",
+    "priority": 5,
+    "title": "Direct versus recursive readout",
+    "description": "Classify difference caused by intermediate truncation.",
+    "status": "OPEN",
+    "blocked_by": null,
+    "source_ref": "04_MATHEMATICS/OPEN_PROOF_TARGETS.md",
+    "notes": ""
+  },
+  {
+    "address": "@open/canonical_noncommutativity",
+    "priority": 6,
+    "title": "Canonical noncommutativity test",
+    "description": "Find earned A,B and test AB vs BA.",
+    "status": "OPEN",
+    "blocked_by": "@open/native_multiscale_update_law",
+    "source_ref": "04_MATHEMATICS/OPEN_PROOF_TARGETS.md",
+    "notes": ""
+  },
+  {
+    "address": "@open/simultaneous_update_semantics",
+    "priority": 7,
+    "title": "Simultaneous update semantics",
+    "description": "Distinguish independent, ordered coupled, and joint events.",
+    "status": "OPEN",
+    "blocked_by": "@open/tile_coupling_law",
+    "source_ref": "04_MATHEMATICS/OPEN_PROOF_TARGETS.md",
+    "notes": ""
+  },
+  {
+    "address": "@open/energy_density_color_map",
+    "priority": 8,
+    "title": "Energy-density to color map",
+    "description": "Derive local density-to-basin/readout mapping.",
+    "status": "OPEN",
+    "blocked_by": null,
+    "source_ref": "04_MATHEMATICS/OPEN_PROOF_TARGETS.md",
+    "notes": ""
+  },
+  {
+    "address": "@open/unoccupied_tile_state",
+    "priority": 9,
+    "title": "Unoccupied tile chirality state",
+    "description": "Determine whether unoccupied positions carry latent chirality/color/Void structure.",
+    "status": "OPEN",
+    "blocked_by": null,
+    "source_ref": "04_MATHEMATICS/OPEN_PROOF_TARGETS.md",
+    "notes": ""
+  },
+  {
+    "address": "@open/left_handed_chromatic_branch",
+    "priority": 10,
+    "title": "Left-handed chromatic branch",
+    "description": "Determine color assignment/resolution for mirror seed.",
+    "status": "OPEN",
+    "blocked_by": null,
+    "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+    "notes": ""
+  },
+  {
+    "address": "@open/domain_generator_branch",
+    "priority": 11,
+    "title": "Propagation R88 branch",
+    "description": "Determine whether transformation rule is primitive environment data or derived geometry.",
+    "status": "ROADBLOCK",
+    "blocked_by": null,
+    "source_ref": "09_SOURCE_SNAPSHOTS/PROPAGATION_v8/CANONICAL_FULL_CONTINUITY_v8.md",
+    "notes": "Do not choose without Genesis."
+  },
+  {
+    "address": "@open/helicon_q_handoff",
+    "priority": 12,
+    "title": "Helicon/Time-Shell to Q handoff",
+    "description": "Construct Lambda_HQ source-respectingly.",
+    "status": "BLOCKED_CONSTRUCTION",
+    "blocked_by": null,
+    "source_ref": "09_SOURCE_SNAPSHOTS/CRD_QCD_v1_8/README.md",
+    "notes": ""
+  },
+  {
+    "address": "@open/qcd_projection",
+    "priority": 13,
+    "title": "Downstream QCD correspondence",
+    "description": "Test rank-3/non-Abelian projection only after handoff.",
+    "status": "BLOCKED",
+    "blocked_by": "@open/helicon_q_handoff",
+    "source_ref": "09_SOURCE_SNAPSHOTS/CRD_QCD_v1_8/ROADMAP.md",
+    "notes": "Direct B6->C3 no-go retained."
+  }
+]

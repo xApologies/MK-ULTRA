@@ -1,0 +1,67 @@
+{
+  "handle": "@residue_quantum_field_bundle",
+  "object_type": "mathematical_object",
+  "status": "indexed-unlinked",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Residue / Quantum Field Bundle",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 0,
+    "xapi_raw_in_count": 3,
+    "live_out_count": 0,
+    "live_in_count": 4,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 10,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 3,
+    "aliases": [],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19714,
+        "source": "@dm_chromatic_optional_branch",
+        "relation": "NOT_REQUIRED_FOR",
+        "target": "@residue_quantum_field_bundle",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "THEOREM",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19792,
+        "source": "@dm_projection_residue_survival",
+        "relation": "DEPENDS_ON",
+        "target": "@residue_quantum_field_bundle",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19794,
+        "source": "@dm_q_completion_family",
+        "relation": "DEPENDS_ON",
+        "target": "@residue_quantum_field_bundle",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      }
+    ]
+  },
+  "address": "@residue_quantum_field_bundle",
+  "address_sha256": "64f25a30777e6a4e1c600026007f748d085899a3fb7d564f685503e41385f321"
+}

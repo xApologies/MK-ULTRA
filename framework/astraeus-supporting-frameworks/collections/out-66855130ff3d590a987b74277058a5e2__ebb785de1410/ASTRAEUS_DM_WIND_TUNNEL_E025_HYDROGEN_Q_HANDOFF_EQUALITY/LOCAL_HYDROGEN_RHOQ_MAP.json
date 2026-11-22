@@ -1,0 +1,10 @@
+{
+  "name": "rho_Q,H^anchor",
+  "definition": "rho_Q,H^anchor := R_H o pr_H",
+  "domain": "environment-conditioned single-H state Z_H = ENV_ER fiber_product_T X_H",
+  "codomain": "Q_H / ~_H",
+  "pr_H": "canonical factor projection Z_H -> X_H",
+  "R_H": "source-recovered atomic reverse map X_H -> Q_H / ~_H",
+  "status": "SOURCE-BACKED LOCAL RESTRICTION / global rho_Q remains open",
+  "equality_notion": "admissible-equivalence class [Q_H], not raw gauge/phase/representation coordinates"
+}

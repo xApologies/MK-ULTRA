@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MK43 Native Spectral Matching Input",
+  "type": "object",
+  "required": [
+    "readable_Hessian",
+    "hidden_Hessian",
+    "mixing",
+    "matching_scale"
+  ],
+  "properties": {
+    "readable_Hessian": {
+      "description": "A block"
+    },
+    "hidden_Hessian": {
+      "description": "positive or appropriately gauge-fixed K block"
+    },
+    "mixing": {
+      "description": "B block"
+    },
+    "matching_scale": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "scheme": {
+      "enum": [
+        "hard_threshold",
+        "smooth_threshold",
+        "resolvent",
+        "custom"
+      ]
+    },
+    "physical_scale_conversion": {
+      "description": "Unit-String/native-to-energy conversion"
+    },
+    "calibration_observables": {
+      "description": "indices or functionals used to fit native parameters"
+    },
+    "holdout_observables": {
+      "description": "quantities reserved for prediction"
+    }
+  }
+}

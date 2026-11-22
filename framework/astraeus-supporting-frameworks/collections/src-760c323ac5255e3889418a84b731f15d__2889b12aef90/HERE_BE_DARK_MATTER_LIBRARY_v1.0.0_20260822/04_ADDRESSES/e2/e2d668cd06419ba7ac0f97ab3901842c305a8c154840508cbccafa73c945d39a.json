@@ -1,0 +1,234 @@
+{
+  "handle": "@er_throat_incidence",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@er_throat_incidence",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 2,
+    "api43_direct_in_count": 8,
+    "xapi_raw_out_count": 2,
+    "xapi_raw_in_count": 7,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 2,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@er_throat_incidence",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@weighted_adjacency",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:27715"
+      },
+      {
+        "source": "@er_throat_incidence",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@chirality_labelled_mote",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@chirality_labelled_mote FORMALLY_DEPENDS_ON @er_throat_incidence); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      },
+      {
+        "source": "@chirality_labelled_mote",
+        "relation": "DEPENDS_TO",
+        "target": "@er_throat_incidence",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45056"
+      },
+      {
+        "source": "@chirality_labelled_mote",
+        "relation": "DIRECTED_TO",
+        "target": "@er_throat_incidence",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45056"
+      },
+      {
+        "source": "@chirality_labelled_mote",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@er_throat_incidence",
+        "graph_family": "audit",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45056"
+      },
+      {
+        "source": "@chirality_labelled_mote",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@er_throat_incidence",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:45435"
+      },
+      {
+        "source": "@chirality_labelled_mote",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@er_throat_incidence",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "EDGE_LEDGER_LINE:45056;vertical_chain:1830,vertical_chain:27573"
+      },
+      {
+        "source": "@chirality_labelled_mote",
+        "relation": "USED_BY",
+        "target": "@er_throat_incidence",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:45275"
+      },
+      {
+        "source": "@planck_landscape",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@er_throat_incidence",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:27711"
+      },
+      {
+        "source": "@planck_landscape",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@er_throat_incidence",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@planck_landscape -> @chirality_labelled_mote -> @er_throat_incidence; relations=DEPENDS_TO + DEPENDS_TO; primitive_depth=2"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 345,
+        "source": "@er_throat_incidence",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@weighted_adjacency",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:27715"
+      },
+      {
+        "id": 2129,
+        "source": "@er_throat_incidence",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@chirality_labelled_mote",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@chirality_labelled_mote FORMALLY_DEPENDS_ON @er_throat_incidence); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      },
+      {
+        "id": 136,
+        "source": "@chirality_labelled_mote",
+        "relation": "DEPENDS_TO",
+        "target": "@er_throat_incidence",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:45056"
+      },
+      {
+        "id": 137,
+        "source": "@chirality_labelled_mote",
+        "relation": "DIRECTED_TO",
+        "target": "@er_throat_incidence",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45056"
+      },
+      {
+        "id": 138,
+        "source": "@chirality_labelled_mote",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@er_throat_incidence",
+        "layer": "API43",
+        "graph_family": "audit",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45056"
+      },
+      {
+        "id": 139,
+        "source": "@chirality_labelled_mote",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@er_throat_incidence",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:45435"
+      },
+      {
+        "id": 140,
+        "source": "@chirality_labelled_mote",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@er_throat_incidence",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "EDGE_LEDGER_LINE:45056;vertical_chain:1830,vertical_chain:27573"
+      },
+      {
+        "id": 141,
+        "source": "@chirality_labelled_mote",
+        "relation": "USED_BY",
+        "target": "@er_throat_incidence",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:45275"
+      },
+      {
+        "id": 924,
+        "source": "@planck_landscape",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@er_throat_incidence",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:27711"
+      }
+    ]
+  },
+  "address": "@er_throat_incidence",
+  "address_sha256": "e2d668cd06419ba7ac0f97ab3901842c305a8c154840508cbccafa73c945d39a"
+}

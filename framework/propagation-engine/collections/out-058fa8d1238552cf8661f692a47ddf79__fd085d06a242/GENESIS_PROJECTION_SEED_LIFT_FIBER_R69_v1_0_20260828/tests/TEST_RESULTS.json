@@ -1,0 +1,22 @@
+{
+  "T1_projection_many_to_one": {
+    "status": "PASS",
+    "fiber_size": 27,
+    "statement": "A lower-dimensional projection seed can correspond to many higher-dimensional lifts."
+  },
+  "T2_seed_as_address": {
+    "status": "PASS",
+    "statement": "The projected shadow is naturally treated as an address into its higher-dimensional preimage/fiber, not as the complete identity."
+  },
+  "T3_resolution_constraints_nested": {
+    "status": "PASS",
+    "counts": [
+      22,
+      5,
+      0,
+      0,
+      0
+    ],
+    "statement": "Increasing Resolution/constraints can define a nested family of admissible lift sets."
+  }
+}

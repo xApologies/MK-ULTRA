@@ -1,0 +1,113 @@
+{
+  "schema": "tome-publication-renderer-validation/v1",
+  "created_at": "2026-08-10T02:54:49.376311+00:00",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "engine": "KaTeX 0.16.22 -> HTML/CSS -> Playwright -> Microsoft Edge PDF",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_02_GENESIS_LANGUAGE/MK_ULTRA_TOME_V02_C04_SCOPE_AND_REPRESENTATION.pdf",
+    "bytes": 201820,
+    "sha256": "d8dbc29f27797586e298387339cac3c78660bd7816643500557104a6430cc391"
+  },
+  "actual_pages": 9,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V02-C04": 3
+  },
+  "chapter_validations": [
+    {
+      "chapter_id": "V02-C04",
+      "source_sha256": "8e9c8f5b58b0b1260db7f31cac031624fc5c4c44643d7923692a1928e254184c",
+      "page_start": 3,
+      "headings": 16,
+      "display_equations": 18,
+      "inline_equations": 40,
+      "equation_tags": 18,
+      "api_handles": 25,
+      "table_rows": 24,
+      "content_markers_present": true
+    }
+  ],
+  "engine_metrics": {
+    "renderer": "TOME_PUBLICATION_RENDERER_V1",
+    "katexVersion": "0.16.22",
+    "chapters": [
+      {
+        "id": "V02-C04",
+        "sourceBytes": 22792,
+        "paragraphs": 72,
+        "headings": 16,
+        "displayEquations": 18,
+        "inlineEquations": 40,
+        "tables": 1,
+        "tableRows": 23,
+        "listItems": 0,
+        "codeBlocks": 0,
+        "figures": 0
+      }
+    ],
+    "paragraphs": 72,
+    "headings": 16,
+    "displayEquations": 18,
+    "inlineEquations": 40,
+    "tables": 1,
+    "tableRows": 23,
+    "listItems": 0,
+    "blockQuotes": 0,
+    "codeBlocks": 0,
+    "figures": 0,
+    "mathLayout": {
+      "checked": 18,
+      "scaled": [],
+      "remainingOverflow": []
+    }
+  },
+  "raw_latex_guard": {
+    "result": "PASS",
+    "hits": [],
+    "commands_scanned": [
+      "frac",
+      "mathcal",
+      "mathrm",
+      "begin",
+      "end",
+      "left",
+      "right",
+      "longrightarrow",
+      "rightarrow",
+      "otimes",
+      "partial",
+      "nabla",
+      "mu",
+      "nu",
+      "sum",
+      "int",
+      "operatorname"
+    ]
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V02-C04": "8e9c8f5b58b0b1260db7f31cac031624fc5c4c44643d7923692a1928e254184c"
+  },
+  "source_hashes_after": {
+    "V02-C04": "8e9c8f5b58b0b1260db7f31cac031624fc5c4c44643d7923692a1928e254184c"
+  },
+  "sealed_chapter_content_change_count": 0,
+  "visual_qa": {
+    "result": "PASS",
+    "pages_inspected": "ALL_9_PAGES",
+    "full_size_pages_inspected": [
+      5,
+      7,
+      8
+    ],
+    "defects": [],
+    "checks": [
+      "headers and continuous page numbers",
+      "chapter and section hierarchy",
+      "all displayed equations and equation tags",
+      "prose line wrapping and margins",
+      "23-row native evidence register across its page break",
+      "no clipping, overlap, black squares, or unreadable glyphs"
+    ]
+  }
+}

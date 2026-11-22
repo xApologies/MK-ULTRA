@@ -1,0 +1,103 @@
+{
+  "schema": "ASTRAEUS_DEPENDENCY_CHAIN_REGISTRY_V1",
+  "api_release": "0.7.0",
+  "chain_count": 1,
+  "chains": [
+    {
+      "seed": "@object_resolution_recovery_witness_minimality",
+      "seed_kind": "qmo",
+      "initial_focus": "@object_resolution_recovery_witness_minimality",
+      "steps": [
+        {
+          "step": 1,
+          "input_focus": "@object_resolution_recovery_witness_minimality",
+          "progression_relation": "ADVANCES_TO",
+          "resolved_qmo": "@recovery_witness_counterexample_crawl",
+          "edge_id": "E-00114",
+          "graph_handle": "@dc_recovery_witness_to_signature_g01",
+          "landscape_handle": "@dc_recovery_witness_to_signature_l01"
+        },
+        {
+          "step": 2,
+          "input_focus": "@recovery_witness_counterexample_crawl",
+          "progression_relation": "ADVANCES_TO",
+          "resolved_qmo": "@recovery_history_signature_minimality",
+          "edge_id": "E-00146",
+          "graph_handle": "@dc_recovery_witness_to_signature_g02",
+          "landscape_handle": "@dc_recovery_witness_to_signature_l02"
+        }
+      ],
+      "terminal": {
+        "state": "OPEN_FORK",
+        "focus": "@recovery_history_signature_minimality",
+        "exploration_targets": [
+          {
+            "relation": "QUERIES",
+            "target": "@history_holonomy",
+            "edge_id": "E-00147"
+          },
+          {
+            "relation": "QUERIES",
+            "target": "@holonomy_history_signature",
+            "edge_id": "E-00148"
+          },
+          {
+            "relation": "TESTS",
+            "target": "@recovery_discriminator",
+            "edge_id": "E-00149"
+          }
+        ]
+      },
+      "visited_focuses": [
+        "@object_resolution_recovery_witness_minimality",
+        "@recovery_witness_counterexample_crawl",
+        "@recovery_history_signature_minimality"
+      ],
+      "landscape_depth": 1,
+      "direction": "bidirectional",
+      "subdomain_eligibility": false,
+      "chain_id": "DC-99028cade24b",
+      "qmo_address": "@dc_recovery_witness_to_signature",
+      "canonical_name": "Dependency Chain: @object_resolution_recovery_witness_minimality",
+      "status": "ACTIVE_DEPENDENCY_CHAIN",
+      "construction": {
+        "operator": "@dependency_chain",
+        "progression_policy": [
+          "ADVANCES_TO",
+          "RESOLVES_TO",
+          "CLOSES_TO",
+          "DERIVES_TO",
+          "PROMOTES_TO"
+        ],
+        "max_steps": 5,
+        "landscape_depth": 1,
+        "direction": "bidirectional",
+        "member_claim_promotion": false
+      },
+      "history": {
+        "policy": "APPEND_ONLY",
+        "created_in_api_release": "0.7.0",
+        "created_live_model_revision": "v0.20.0",
+        "step_count": 2
+      },
+      "resolution_context": {
+        "operator": "@resolution",
+        "policy": "EACH_CHAIN_STEP_HAS_ITS_OWN_GRAPH/LANDSCAPE_RESOLUTION; CHAIN_ORDER_PRESERVED"
+      },
+      "bandwidth_context": {
+        "operator": "@bandwidth_algebra",
+        "policy": "ONLY_REGISTERED_PROGRESSIONS_AND_EDGES_AVAILABLE_TO_CHAIN"
+      },
+      "domain_state": "OPEN_NOT_A_DOMAIN",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_chain",
+        "QMO:@object_resolution_recovery_witness_minimality",
+        "QMO:@dc_recovery_witness_to_signature_g01",
+        "QMO:@dc_recovery_witness_to_signature_g02",
+        "QMO:@dc_recovery_witness_to_signature_l01",
+        "QMO:@dc_recovery_witness_to_signature_l02"
+      ],
+      "semantic_guard": "A Dependency Chain records recursive resolution History. Chain construction does not promote member claims. Domain status requires an independently valid terminal closure condition."
+    }
+  ]
+}

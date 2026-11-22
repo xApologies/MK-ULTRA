@@ -1,0 +1,27 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_PAIR_QUERY_V1",
+  "a": "@admissible_continuation",
+  "b": "@dm_history_to_continuity_strength",
+  "radius": 3,
+  "a_node_count": 13,
+  "b_node_count": 21,
+  "interface": [
+    {
+      "handle": "@dm_hidden_state_bundle",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@native_constraint_closure",
+      "distance_a": 3,
+      "distance_b": 3
+    }
+  ],
+  "path_a_to_b": null,
+  "path_b_to_a": null,
+  "edge_policy": {
+    "timespace": "high-confidence direct/non-derived RP42 records",
+    "darkmatter": "high-confidence DM_DIRECT_EDGE_REGISTRY records",
+    "gluing": "exact handle equality only; no cross-edge is invented"
+  }
+}

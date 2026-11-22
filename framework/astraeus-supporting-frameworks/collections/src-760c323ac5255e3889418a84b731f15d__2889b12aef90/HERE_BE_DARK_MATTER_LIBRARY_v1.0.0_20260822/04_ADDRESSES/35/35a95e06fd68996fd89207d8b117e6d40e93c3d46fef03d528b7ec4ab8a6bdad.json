@@ -1,0 +1,62 @@
+{
+  "handle": "@dm_native_density_to_readable_source",
+  "object_type": "mathematical_object",
+  "status": "OPEN_HANDLE",
+  "domain": "DM22",
+  "namespace": "open",
+  "name": "Native Density Profile to Readable Source",
+  "definition": "Typed unresolved object promoted from the Master Dark-Matter QMO. It remains mathematically open; promotion makes the unknown queryable rather than solved.",
+  "math": "T_rho,R : DensityProfile_R -> ReadableSource_R | requirements: Cannot use one regional scalar as a universal spatial profile inverse.; Must preserve any claimed nonzero distinction through an explicitly typed translation/calibration.; Must not reconstruct a full stress-energy tensor from scalar density alone.",
+  "source_layer": "DM22",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "DM22",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 0,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 5,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 2,
+    "direct_source_anchors": [
+      {
+        "id": 44,
+        "source_id": "SRC-DM-018",
+        "relation": "HISTORICAL_READOUT_MAPPING_SUPPORTS",
+        "handle": "@dm_native_density_to_readable_source",
+        "status": "SOURCE_BACKFILL_ONLY",
+        "provenance": "peer_review_with_appendices.tex:101-110"
+      },
+      {
+        "id": 51,
+        "source_id": "SRC-DM-019",
+        "relation": "SOURCE_SECTOR_CALIBRATION_SUPPORTS",
+        "handle": "@dm_native_density_to_readable_source",
+        "status": "SOURCE_BACKFILL_ONLY",
+        "provenance": "Archive.zip/peer_review_with_appendices.tex"
+      }
+    ],
+    "source_reachability_anchor_count": 4,
+    "aliases": [],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19800,
+        "source": "@dm_resolution_density_profile",
+        "relation": "REQUIRES",
+        "target": "@dm_native_density_to_readable_source",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.0"
+      }
+    ]
+  },
+  "address": "@dm_native_density_to_readable_source",
+  "address_sha256": "35a95e06fd68996fd89207d8b117e6d40e93c3d46fef03d528b7ec4ab8a6bdad"
+}

@@ -1,0 +1,206 @@
+{
+  "schema": "ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1",
+  "landscape_id": "DL-DM-E062-HIDDEN-EMBEDDING",
+  "seed": "@dm_hidden_state_embedding",
+  "nodes": [
+    "@dm_constraint_preserving_embedding_family",
+    "@dm_hidden_s3_network",
+    "@dm_hidden_state_bundle",
+    "@dm_hidden_state_embedding",
+    "@dm_runtime_transition_capacity",
+    "@inheritance_morphism",
+    "@inherited_state_bundle",
+    "@native_constraint_closure",
+    "@relational_history",
+    "@resolution"
+  ],
+  "edges": [
+    {
+      "source": "@dm_hidden_state_embedding",
+      "relations": [
+        "DEPENDS_ON"
+      ],
+      "target": "@dm_constraint_preserving_embedding_family",
+      "audit_statuses": [
+        "OPEN_HANDLE"
+      ],
+      "provenance": [
+        "DM2.2_CROSS_API"
+      ]
+    },
+    {
+      "source": "@dm_hidden_state_embedding",
+      "relations": [
+        "DEPENDS_ON"
+      ],
+      "target": "@dm_hidden_state_bundle",
+      "audit_statuses": [
+        "OPEN_HANDLE"
+      ],
+      "provenance": [
+        "DM2.1"
+      ]
+    },
+    {
+      "source": "@dm_hidden_state_embedding",
+      "relations": [
+        "CONSTRAINED_BY"
+      ],
+      "target": "@inheritance_morphism",
+      "audit_statuses": [
+        "OPEN_HANDLE"
+      ],
+      "provenance": [
+        "DM2.1"
+      ]
+    },
+    {
+      "source": "@dm_constraint_preserving_embedding_family",
+      "relations": [
+        "DEPENDS_ON"
+      ],
+      "target": "@dm_hidden_state_bundle",
+      "audit_statuses": [
+        "ATLAS_DERIVED"
+      ],
+      "provenance": [
+        "DM2.2_CROSS_API"
+      ]
+    },
+    {
+      "source": "@dm_constraint_preserving_embedding_family",
+      "relations": [
+        "DEPENDS_ON"
+      ],
+      "target": "@inheritance_morphism",
+      "audit_statuses": [
+        "ATLAS_DERIVED"
+      ],
+      "provenance": [
+        "DM2.2_CROSS_API"
+      ]
+    },
+    {
+      "source": "@dm_constraint_preserving_embedding_family",
+      "relations": [
+        "DEPENDS_ON"
+      ],
+      "target": "@inherited_state_bundle",
+      "audit_statuses": [
+        "ATLAS_DERIVED"
+      ],
+      "provenance": [
+        "DM2.2_CROSS_API"
+      ]
+    },
+    {
+      "source": "@dm_constraint_preserving_embedding_family",
+      "relations": [
+        "DEPENDS_ON"
+      ],
+      "target": "@native_constraint_closure",
+      "audit_statuses": [
+        "ATLAS_DERIVED"
+      ],
+      "provenance": [
+        "DM2.2_CROSS_API"
+      ]
+    },
+    {
+      "source": "@dm_hidden_state_bundle",
+      "relations": [
+        "DEPENDS_ON"
+      ],
+      "target": "@dm_hidden_s3_network",
+      "audit_statuses": [
+        "ATLAS_DERIVED"
+      ],
+      "provenance": [
+        "DM2.1"
+      ]
+    },
+    {
+      "source": "@dm_hidden_state_bundle",
+      "relations": [
+        "DEPENDS_ON"
+      ],
+      "target": "@relational_history",
+      "audit_statuses": [
+        "ATLAS_DERIVED"
+      ],
+      "provenance": [
+        "DM2.1"
+      ]
+    },
+    {
+      "source": "@dm_hidden_state_bundle",
+      "relations": [
+        "DEPENDS_ON"
+      ],
+      "target": "@resolution",
+      "audit_statuses": [
+        "ATLAS_DERIVED"
+      ],
+      "provenance": [
+        "DM2.1"
+      ]
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relations": [
+        "REQUIRES"
+      ],
+      "target": "@dm_hidden_state_embedding",
+      "audit_statuses": [
+        "OPEN_HANDLE"
+      ],
+      "provenance": [
+        "DM2.0"
+      ]
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relations": [
+        "USES"
+      ],
+      "target": "@dm_runtime_transition_capacity",
+      "audit_statuses": [
+        "ATLAS_DERIVED"
+      ],
+      "provenance": [
+        "DM2.0"
+      ]
+    }
+  ],
+  "terminal": {
+    "state": "CYCLE_DETECTED",
+    "iteration": 3,
+    "focus": "@dm_hidden_state_embedding",
+    "cycle_hits": [
+      {
+        "source": "@dm_hidden_s3_network",
+        "relations": [
+          "REQUIRES"
+        ],
+        "target": "@dm_hidden_state_embedding",
+        "audit_statuses": [
+          "OPEN_HANDLE"
+        ],
+        "provenance": [
+          "DM2.0"
+        ]
+      }
+    ],
+    "reason": "Query-visible dependency expansion revisits an already visited QMO through registered oriented edges. Open-handle source edges remain non-promotional."
+  },
+  "query_visible_nontrivial_sccs": [
+    [
+      "@dm_constraint_preserving_embedding_family",
+      "@dm_hidden_s3_network",
+      "@dm_hidden_state_bundle",
+      "@dm_hidden_state_embedding"
+    ]
+  ],
+  "closure_eligible_nontrivial_sccs": [],
+  "note": "The query-visible graph and closure-eligible graph intentionally differ because open handles are queryable but excluded from solved composition/promotion."
+}

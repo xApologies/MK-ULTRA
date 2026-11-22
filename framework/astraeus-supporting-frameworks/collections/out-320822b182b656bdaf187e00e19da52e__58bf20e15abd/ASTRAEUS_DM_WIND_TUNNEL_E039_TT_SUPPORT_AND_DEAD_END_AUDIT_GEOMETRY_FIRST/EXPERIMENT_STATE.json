@@ -1,0 +1,26 @@
+{
+  "experiment": "E039",
+  "candidate": "CAND-DM-DIRECTION-FREE-TT-SUPPORT-042",
+  "title": "Clover Self-Termination Audit and Geometry-First Direction-Free TT Support",
+  "status": "DEAD-END HANDLES TERMINATED; GEOMETRY-FIRST EXACT TT-SUPPORT THEOREM CLOSED",
+  "physical_dark_matter_witness": false,
+  "parent_promotions": 0,
+  "results": {
+    "self_terminated_handles": 5,
+    "E006_tensor_cases": 12,
+    "all_E006_tensors_symmetric_tracefree_to_numeric_precision": true,
+    "all_E006_tensors_have_nonzero_direction_free_TT_support": true,
+    "exact_spherical_mean_TT_power_factor": "2/5",
+    "exact_spherical_rms_TT_ratio": 0.6324555320336759,
+    "physical_mode_selector_recovered": false,
+    "canonical_TT_support_derivation": "GEOMETRY_FIRST",
+    "calculus_integral_role": "DOWNSTREAM_VERIFICATION_ONLY",
+    "dimension_count": {
+      "STF_tensor_space_dimension": 5,
+      "TT_fiber_dimension_per_direction": 2,
+      "isotropic_projector_factor": "2/5"
+    }
+  },
+  "ruling": "The canonical MK43 proof of direction-free TT support is geometry-first: the 5D STF tensor representation is covered isotropically by rotating 2D TT fibers, so the aggregate projector is (2/5)I by rotational isotropy and trace/rank counting. The previous spherical integral is retained only as a downstream check. All E006 nonzero STF precursors therefore possess nonzero TT support; the frontier remains gravitational channel selection/typing.",
+  "next_handle": "USE_HOLONOMY_CHIRALITY_AND_HELICON_SOURCE_TO_DEFINE_MINIMAL_GRAVITATIONAL_CHANNEL_SELECTOR_AXIOMS_AND_TEST_EXISTENCE_UNIQUENESS_WITHOUT_INVENTING_CALIBRATION"
+}

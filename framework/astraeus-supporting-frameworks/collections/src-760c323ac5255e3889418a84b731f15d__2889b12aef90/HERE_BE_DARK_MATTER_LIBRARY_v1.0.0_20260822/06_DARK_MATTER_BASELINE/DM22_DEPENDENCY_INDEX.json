@@ -1,0 +1,60 @@
+{
+  "schema": "MK43_DARK_MATTER_DEPENDENCY_INDEX_V22",
+  "release": "2.2.0",
+  "active_geometry": "S4 -> S3 -> S2",
+  "parent_handle_count": 271,
+  "dm_handle_count": 38,
+  "direct_parent_edge_count": 770,
+  "direct_dm_edge_count": 103,
+  "composable_node_count": 215,
+  "primitive_dependency_pair_count": 315,
+  "fixed_point_dependency_pair_count": 5769,
+  "composed_dependency_pair_count": 5454,
+  "closure_growth_factor": 18.314285714285713,
+  "fixed_point_edge_density": 0.12538578569876113,
+  "child_nontrivial_scc_count": 0,
+  "generation_records": [
+    {
+      "generation": 0,
+      "path_depth": 1,
+      "dependency_pairs": 315,
+      "new_pairs": 315,
+      "density": 0.0068463377526624646
+    },
+    {
+      "generation": 1,
+      "path_depth": 4,
+      "dependency_pairs": 1813,
+      "new_pairs": 1498,
+      "density": 0.03940447728754619
+    },
+    {
+      "generation": 2,
+      "path_depth": 16,
+      "dependency_pairs": 5753,
+      "new_pairs": 3940,
+      "density": 0.12503803520973703
+    },
+    {
+      "generation": 3,
+      "path_depth": "FULL",
+      "dependency_pairs": 5769,
+      "new_pairs": 16,
+      "density": 0.12538578569876113
+    }
+  ],
+  "cross_crawl": {
+    "interface_handles": 27,
+    "ts_to_dm_objects_reached": 35,
+    "ts_to_dm_cross_branch_hubs": 20,
+    "dm_to_ts_novel_depth_1": 17,
+    "dm_to_ts_novel_depth_2": 101,
+    "dm_to_ts_novel_depth_3": 279,
+    "promoted_parent_imports": [
+      "@native_constraint_closure",
+      "@total_action",
+      "@diffeomorphism_invariance",
+      "@particle_readable_organization"
+    ]
+  }
+}

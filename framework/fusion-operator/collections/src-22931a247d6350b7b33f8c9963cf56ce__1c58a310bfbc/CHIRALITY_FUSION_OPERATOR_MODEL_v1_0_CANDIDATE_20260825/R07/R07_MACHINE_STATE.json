@@ -1,0 +1,39 @@
+{
+  "run": "R07",
+  "title": "Chirality Conservation",
+  "verdict": "CLOSED",
+  "classification": "SOURCEWISE_CHIRALITY_PRESERVING_OPPOSITION_PRESERVING_NET_BALANCED_NOT_ANNIHILATING",
+  "current_fusion_domain": {
+    "mode": "mirror/null/contact weak quotient Fusion",
+    "required_pair_parity": -1,
+    "same_handed_LL": "UNDEFINED_CURRENT_OPERATOR",
+    "same_handed_RR": "UNDEFINED_CURRENT_OPERATOR"
+  },
+  "orientation_model": {
+    "classes": [
+      "L",
+      "R"
+    ],
+    "mirror": {
+      "L": "R",
+      "R": "L"
+    },
+    "numeric_sign_assignment": "CONVENTIONAL_ONLY"
+  },
+  "current_pair": {
+    "pair": "L/R mirror pair",
+    "pair_parity": -1,
+    "signed_balance": 0,
+    "unsigned_local_chirality_content": 2,
+    "annihilation": false
+  },
+  "conserved_object": "tagged chirality profile/provenance",
+  "whole_carrier_single_handedness": "NOT_DERIVED",
+  "bare_Q_ordered_chirality_provenance": "NOT_CANONICALLY_RECOVERABLE",
+  "global_mirror": {
+    "both_sources": "PRESERVES_CURRENT_ADMISSIBILITY",
+    "one_source": "LEAVES_CURRENT_DOMAIN",
+    "induced_bare_carrier_involution": "DERIVED_WHEN_INTERFACE_MIRROR_COMPATIBLE"
+  },
+  "next": "R08"
+}

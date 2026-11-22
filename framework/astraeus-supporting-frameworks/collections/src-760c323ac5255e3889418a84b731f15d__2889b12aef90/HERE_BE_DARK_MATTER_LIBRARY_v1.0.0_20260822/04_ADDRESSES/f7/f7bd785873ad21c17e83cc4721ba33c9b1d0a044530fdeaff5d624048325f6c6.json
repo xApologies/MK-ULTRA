@@ -1,0 +1,71 @@
+{
+  "handle": "@dm_response_trace_q_handoff_witness",
+  "object_type": "qmo_derived_mathematical_object",
+  "status": "LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT",
+  "domain": "DM30",
+  "namespace": "mk43://dark-matter/live",
+  "name": "Hidden Response-Trace Q-Handoff Survival Witness",
+  "definition": "The response-trace distinction, once admitted into invariant residue, survives the standard Q completion without any chromatic dictionary or new field ontology.",
+  "math": "B_full^R not ~=_F B_vis^R => Q_full not ~=_Q Q_vis for Q morphisms preserving the residue-bundle constituent.",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E083",
+  "qmo_generated": true,
+  "proof_status": "DERIVED_OR_CONDITIONAL",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "LIVE_QMO_DERIVED",
+  "metadata": {
+    "payload": {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_response_trace_q_handoff_witness",
+      "canonical_name": "Hidden Response-Trace Q-Handoff Survival Witness",
+      "type": "ConditionalQHandoffSurvivalWitness",
+      "status": "LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT",
+      "checkpoint": "E083",
+      "definition": "The response-trace distinction, once admitted into invariant residue, survives the standard Q completion without any chromatic dictionary or new field ontology.",
+      "math": "B_full^R not ~=_F B_vis^R => Q_full not ~=_Q Q_vis for Q morphisms preserving the residue-bundle constituent.",
+      "parents": [
+        "@dm_conditional_response_trace_residue_survival",
+        "@dm_q_survival",
+        "@dm_q_completion_family"
+      ],
+      "working_assumptions": [
+        "WA-DM-E065-001",
+        "WA-DM-E082-001"
+      ],
+      "proof_debt": [
+        "PD-DM-001",
+        "PD-DM-010"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    "direct_live_edges_out": [
+      {
+        "source": "@dm_response_trace_q_handoff_witness",
+        "relation": "USES_CLOSED_Q_SURVIVAL",
+        "target": "@dm_q_survival",
+        "graph_family": "dark_matter_live",
+        "confidence": "high",
+        "audit_status": "LIVE_DERIVED",
+        "provenance": "E083",
+        "origin": "LIVE_LANDSCAPE",
+        "source_layer": "live"
+      }
+    ],
+    "direct_live_edges_in": [
+      {
+        "source": "@dm_conditional_response_trace_residue_survival",
+        "relation": "CONDITIONALLY_SUPPORTS",
+        "target": "@dm_response_trace_q_handoff_witness",
+        "graph_family": "dark_matter_live",
+        "confidence": "medium",
+        "audit_status": "CONDITIONAL_DERIVATION",
+        "provenance": "WA-DM-E082-001",
+        "origin": "LIVE_LANDSCAPE",
+        "source_layer": "live"
+      }
+    ]
+  },
+  "address": "@dm_response_trace_q_handoff_witness",
+  "address_sha256": "f7bd785873ad21c17e83cc4721ba33c9b1d0a044530fdeaff5d624048325f6c6"
+}

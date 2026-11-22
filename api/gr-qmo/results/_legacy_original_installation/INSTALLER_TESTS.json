@@ -1,0 +1,41 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "verified_dry_run",
+      "passed": true
+    },
+    {
+      "name": "clean_additive_install",
+      "passed": true
+    },
+    {
+      "name": "idempotent_repeat_install",
+      "passed": true
+    },
+    {
+      "name": "refuse_modified_destination_without_overwrite",
+      "passed": true
+    },
+    {
+      "name": "installed_copy_integrity",
+      "passed": true
+    },
+    {
+      "name": "installed_query_entrypoint",
+      "passed": true
+    },
+    {
+      "name": "unrelated_repository_file_unchanged",
+      "passed": true
+    }
+  ],
+  "target_scope": "temporary local test repository in the current container; not user machine or GitHub",
+  "initial_install_manifest_sha256": "71680727860d49e1b5384676702fd0c0beb97f23a6f8c5492bd7c05845229aa9",
+  "details": {
+    "dry_run_status": "dry_run_verified",
+    "first_status": "installed_verified",
+    "repeat_status": "already_installed_verified",
+    "modified_destination_status": "not_installed"
+  }
+}

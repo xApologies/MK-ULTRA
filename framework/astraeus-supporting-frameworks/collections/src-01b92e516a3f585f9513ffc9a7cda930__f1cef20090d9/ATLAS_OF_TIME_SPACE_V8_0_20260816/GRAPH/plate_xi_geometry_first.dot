@@ -1,0 +1,14 @@
+digraph G {
+  graph [bgcolor="#07121f", rankdir=TB, pad=0.35, label="ATLAS PLATE XI — GEOMETRY-FIRST DARK READOUT", labelloc=t, fontname="Helvetica", fontsize=22, fontcolor="#f2d58a"];
+  node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=12, fontcolor="#eaf7ff", color="#2a7892", fillcolor="#0d2233", penwidth=1.6];
+  edge [color="#58c4dd", fontcolor="#cdeef5", fontname="Helvetica", fontsize=10, penwidth=1.6];
+  H [label="S³ HELICON / CHIRALITY INVARIANTS\nI_H(p)", fillcolor="#102b3d"];
+  dg [label="PRIMARY READOUT\nΔg_H,p = G_H,p(I_H)", color="#d4a84b", fillcolor="#27251f"];
+  full [label="FULL LOCAL S² GEOMETRY\ng_full = g_vis + Δg_H"];
+  Gfull [label="Gμν[g_full]"];
+  Tvis [label="VISIBLE SOURCE\n8πG Tμν^vis"];
+  app [label="APPARENT DARK SOURCE\nTμν^app,H = [G(g_full)-G(g_vis)]/(8πG)", fillcolor="#173548"];
+  H -> dg -> full -> Gfull;
+  Tvis -> Gfull [label="physical closure"];
+  full -> app [label="observer translation"];
+}

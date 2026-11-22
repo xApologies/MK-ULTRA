@@ -1,0 +1,77 @@
+{
+  "handle": "@mote_diagonal_rule",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@mote_diagonal_rule",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@mote_diagonal_rule",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_chirality",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:49481->49482"
+      },
+      {
+        "source": "@mote_occupancy_function",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_diagonal_rule",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:49478->49479"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 746,
+        "source": "@mote_diagonal_rule",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_chirality",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:49481->49482"
+      },
+      {
+        "id": 752,
+        "source": "@mote_occupancy_function",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_diagonal_rule",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:49478->49479"
+      }
+    ]
+  },
+  "address": "@mote_diagonal_rule",
+  "address_sha256": "4d6491e0f7b1b4618ae10cf7843c8cecf24dc6d0d0b135b2c23f3a5523f5fc28"
+}

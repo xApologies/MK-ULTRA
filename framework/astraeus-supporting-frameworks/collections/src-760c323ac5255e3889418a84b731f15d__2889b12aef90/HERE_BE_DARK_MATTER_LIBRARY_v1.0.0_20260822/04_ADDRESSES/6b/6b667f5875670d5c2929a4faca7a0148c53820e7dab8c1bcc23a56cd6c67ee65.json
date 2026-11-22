@@ -1,0 +1,67 @@
+{
+  "handle": "@dm_history_support_preorder",
+  "object_type": "mathematical_object",
+  "status": "ATLAS_DERIVED_ACTIVE",
+  "domain": "DM22",
+  "namespace": "history",
+  "name": "History-Support Preorder",
+  "definition": "Orders relationships by inclusion of invariant-preserving admissible history support.",
+  "math": "e <=_H f iff S_R(e) subseteq S_R(f).",
+  "source_layer": "DM22",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "DM22",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 3,
+    "xapi_raw_in_count": 0,
+    "live_out_count": 3,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 182,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19775,
+        "source": "@dm_history_support_preorder",
+        "relation": "DEPENDS_ON",
+        "target": "@persistence",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19776,
+        "source": "@dm_history_support_preorder",
+        "relation": "DEPENDS_ON",
+        "target": "@relational_history",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19777,
+        "source": "@dm_history_support_preorder",
+        "relation": "REQUIRES",
+        "target": "@dm_history_to_continuity_strength",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.0"
+      }
+    ]
+  },
+  "address": "@dm_history_support_preorder",
+  "address_sha256": "6b667f5875670d5c2929a4faca7a0148c53820e7dab8c1bcc23a56cd6c67ee65"
+}

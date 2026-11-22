@@ -1,0 +1,60 @@
+{
+  "schema": "ASTRAEUS_SOURCE_RECEIPTS_WL026_V1",
+  "date": "2026-08-17",
+  "work_layer": "WL-026",
+  "sources": [
+    {
+      "path": "../../../../../out-dd5f2e0f5bcd545bac4217403d326140__ee4819595f94/sources/ATLAS_V36/160_MODE0_WHITE_STATE_CORE_CLEAN_RECOVERY.md",
+      "sha256": "4a387fbd05c3bdd5e5e0636af1401fd9680cfa531377319dc6b44e3d0756bfa0"
+    },
+    {
+      "path": "../../../../../out-dd5f2e0f5bcd545bac4217403d326140__ee4819595f94/sources/ATLAS_V36/167_MODE0_PORT_ATTACHMENT_THEOREMS.md",
+      "sha256": "f4853a5127389ab7a8d47622dca06312dd589146360fc9add27778bdbcc3ea7a"
+    },
+    {
+      "path": "../../../../../out-543f36652fac5b87af8c8f2626839b51__98b12dc90211/ASTRAEUS_DM_WIND_TUNNEL_E042_DIRECT_FLOW_QUOTIENT_REBASE/SOURCE_V24_MASTER_SYNTHESIS.md",
+      "sha256": "0b2b09152ee8063ca4090c5e2ee878244c6e31aa45ef067dcb022f5184f9f267"
+    },
+    {
+      "path": "../../../../../out-dd5f2e0f5bcd545bac4217403d326140__ee4819595f94/sources/QMO_MASTER/FORMAL_MATHEMATICS.md",
+      "sha256": "078f8665e31deab672e397f066a690fdbe274ecc209a5ed850e186ed6d405279"
+    },
+    {
+      "path": "../../../../../out-dd5f2e0f5bcd545bac4217403d326140__ee4819595f94/DM22_HANDLE_REGISTRY.json",
+      "sha256": "0c63fb532d28dd243f69acb0dcdc8d7f7547187c2e89fd6f84e0969b5b9d5730"
+    },
+    {
+      "path": "../../../../../out-dd5f2e0f5bcd545bac4217403d326140__ee4819595f94/registry/DM_DIRECT_EDGE_REGISTRY.json",
+      "sha256": "d0a3b0922fdc4b648c86c27080ce1c52a2d547ef35d62e40f69d78d566dbd69c"
+    },
+    {
+      "path": "provenance://unavailable/content-sha256/6169c86c4fca479f3f7dc607f567afa9971dc448debdec558e42154f049597c5/cross_qmo_chain.py",
+      "sha256": "6169c86c4fca479f3f7dc607f567afa9971dc448debdec558e42154f049597c5"
+    }
+  ],
+  "api_generated_facts": {
+    "runtime_er_radius3_interface_count": 29,
+    "runtime_to_gravity_path": [
+      "@dm_runtime_transition_capacity --DEPENDS_ON--> @continuity_redistribution",
+      "@continuity_redistribution --DIRECTED_TO--> @gravitational_self_coupling",
+      "@gravitational_self_coupling --DIRECTED_TO--> @gravity"
+    ],
+    "mode0_to_gravity_path": [
+      "@dm_mode0_network_selection_rule --SELECTS_ACCESS_TO--> @dm_hidden_s3_network",
+      "@dm_hidden_s3_network --USES--> @dm_runtime_transition_capacity",
+      "@dm_runtime_transition_capacity --DEPENDS_ON--> @continuity_redistribution",
+      "@continuity_redistribution --DIRECTED_TO--> @gravitational_self_coupling",
+      "@gravitational_self_coupling --DIRECTED_TO--> @gravity"
+    ],
+    "current_records_used": [
+      "@dm_hidden_s3_network",
+      "@dm_runtime_transition_capacity",
+      "@dm_er_branch_readout_separation",
+      "@dm_energy_gravity_consistency_filter",
+      "@dm_stress_energy_realization_family",
+      "@dm_dark_matter_qualification_locus",
+      "@dm_metric_action_selection"
+    ]
+  },
+  "guardrail": "Receipts document source/query provenance only; they do not promote parent objects or prove physical existence."
+}

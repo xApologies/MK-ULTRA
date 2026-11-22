@@ -1,0 +1,79 @@
+{
+  "schema": "ASTRAEUS_QMO_CROSS_CRAWL_V1",
+  "seeds": [
+    "@universal_coupling"
+  ],
+  "targets": [
+    "@total_action"
+  ],
+  "bidirectional": true,
+  "edge_count": 1659,
+  "reachable_count": 214,
+  "distance_histogram": {
+    "0": 1,
+    "1": 3,
+    "2": 14,
+    "3": 50,
+    "4": 146
+  },
+  "paths": {
+    "@universal_coupling -> @total_action": [
+      {
+        "from": "@universal_coupling",
+        "relation": "TARGETS",
+        "to": "@qmo_ast_dm_050",
+        "traversal": "reverse",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V117_V125",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@qmo_ast_dm_050",
+        "relation": "USES",
+        "to": "@qmo_ast_dm_053",
+        "traversal": "reverse",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V117_V125",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@qmo_ast_dm_053",
+        "relation": "PRESERVES",
+        "to": "@qmo_ast_dm_041",
+        "traversal": "forward",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V117_V125",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@qmo_ast_dm_041",
+        "relation": "USES",
+        "to": "@dm_covariant_hidden_action_family",
+        "traversal": "forward",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V100_V108",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@dm_covariant_hidden_action_family",
+        "relation": "DEPENDS_ON",
+        "to": "@total_action",
+        "traversal": "forward",
+        "origin": "DARKMATTER_2.2",
+        "provenance": "DM2.2_CROSS_API",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "ATLAS_DERIVED",
+        "confidence": "high"
+      }
+    ]
+  },
+  "guardrail": "Navigation evidence only. Composed paths are not direct theorems and no parent object is promoted."
+}

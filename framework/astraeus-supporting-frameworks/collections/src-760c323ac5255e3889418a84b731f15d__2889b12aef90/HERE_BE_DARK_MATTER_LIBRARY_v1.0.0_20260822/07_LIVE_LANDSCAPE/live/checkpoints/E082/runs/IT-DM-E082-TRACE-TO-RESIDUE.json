@@ -1,0 +1,11 @@
+{
+  "schema": "ASTRAEUS_DM_ITERATION_RUN_V1",
+  "run_id": "IT-DM-E082-TRACE-TO-RESIDUE",
+  "checkpoint": "E082",
+  "seed": "@dm_port_response_trace_invariant",
+  "ceiling": 128,
+  "iterations_used": 4,
+  "terminal_state": "CONDITIONAL_RESIDUE_SURVIVAL_CLOSED",
+  "open_next": "@dm_response_trace_q_handoff_witness",
+  "note": "Stable abstraction boundary used only at the projection-symmetry action."
+}

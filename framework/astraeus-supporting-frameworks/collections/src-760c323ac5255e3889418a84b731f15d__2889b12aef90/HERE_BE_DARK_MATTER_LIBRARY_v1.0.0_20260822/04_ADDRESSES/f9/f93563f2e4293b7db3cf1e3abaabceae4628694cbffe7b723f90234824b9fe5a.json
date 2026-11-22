@@ -1,0 +1,434 @@
+{
+  "handle": "@wake_stabilization_equation",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@wake_stabilization_equation",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 2,
+    "api43_direct_in_count": 28,
+    "xapi_raw_out_count": 2,
+    "xapi_raw_in_count": 7,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 165,
+    "closure_in_reachability_count": 71,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 6,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@wake_stabilization_equation",
+        "relation": "DERIVED_FROM",
+        "target": "@wake_evolution",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "recovery_pass": "RP-38",
+        "provenance": "DIRECT_EQUATION_API:2620-2658"
+      },
+      {
+        "source": "@wake_stabilization_equation",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@helicon",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@helicon FORMALLY_DEPENDS_ON @wake_stabilization_equation); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      },
+      {
+        "source": "@angular_reduction_theorem",
+        "relation": "SUPPORTS",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "theorem",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "recovery_pass": "RP-38",
+        "provenance": "DIRECT_THEOREM_API:2564-2593"
+      },
+      {
+        "source": "@helicon",
+        "relation": "DEPENDS_TO",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45093"
+      },
+      {
+        "source": "@helicon",
+        "relation": "DIRECTED_TO",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45093"
+      },
+      {
+        "source": "@helicon",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "audit",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45093"
+      },
+      {
+        "source": "@helicon",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:45862"
+      },
+      {
+        "source": "@helicon",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "EDGE_LEDGER_LINE:45093;vertical_chain:15856"
+      },
+      {
+        "source": "@helicon",
+        "relation": "USED_BY",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:45492"
+      },
+      {
+        "source": "@adjacency_lattice",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@adjacency_lattice -> @er_foam -> @helicon -> @wake_stabilization_equation; relations=DEPENDS_TO + DEPENDS_TO + DEPENDS_TO; primitive_depth=3"
+      },
+      {
+        "source": "@agency",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@agency -> @helicon -> @wake_stabilization_equation; relations=DEPENDS_TO + DEPENDS_TO; primitive_depth=2"
+      },
+      {
+        "source": "@api_endpoints_added",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@api_endpoints_added -> @mote -> @er_foam -> @helicon -> @wake_stabilization_equation; relations=DEPENDS_TO + DEPENDS_TO + DEPENDS_TO + DEPENDS_TO; primitive_depth=4"
+      },
+      {
+        "source": "@biological_organization",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@biological_organization -> @conscious_coherence -> @agency -> @helicon -> @wake_stabilization_equation; relations=DEPENDS_TO + DEPENDS_TO + DEPENDS_TO + DEPENDS_TO; primitive_depth=4"
+      },
+      {
+        "source": "@bound_coherent_helicon",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@bound_coherent_helicon -> @shear_compensation -> @helicon -> @wake_stabilization_equation; relations=DEPENDS_TO + FORMALLY_DEPENDS_ON + DEPENDS_TO; primitive_depth=3"
+      },
+      {
+        "source": "@chirality",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@chirality -> @er_foam -> @helicon -> @wake_stabilization_equation; relations=DEPENDS_TO + DEPENDS_TO + DEPENDS_TO; primitive_depth=3"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@conscious_coherence -> @agency -> @helicon -> @wake_stabilization_equation; relations=DEPENDS_TO + DEPENDS_TO + DEPENDS_TO; primitive_depth=3"
+      },
+      {
+        "source": "@curvature_binding_condition",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@curvature_binding_condition -> @helicon -> @wake_stabilization_equation; relations=DEPENDS_TO + DEPENDS_TO; primitive_depth=2"
+      },
+      {
+        "source": "@er_foam",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@er_foam -> @helicon -> @wake_stabilization_equation; relations=DEPENDS_TO + DEPENDS_TO; primitive_depth=2"
+      },
+      {
+        "source": "@gravitational_anchor_lattice",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@gravitational_anchor_lattice -> @helicon -> @wake_stabilization_equation; relations=FORMALLY_DEPENDS_ON + DEPENDS_TO; primitive_depth=2"
+      },
+      {
+        "source": "@helicon_spectral_coupling",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@helicon_spectral_coupling -> @helicon -> @wake_stabilization_equation; relations=FORMALLY_DEPENDS_ON + DEPENDS_TO; primitive_depth=2"
+      },
+      {
+        "source": "@holographic_transfer_law",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@holographic_transfer_law -> @mote -> @er_foam -> @helicon -> @wake_stabilization_equation; relations=DEPENDS_TO + DEPENDS_TO + DEPENDS_TO + DEPENDS_TO; primitive_depth=4"
+      },
+      {
+        "source": "@list_of_figures",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@list_of_figures -> @mote -> @er_foam -> @helicon -> @wake_stabilization_equation; relations=DEPENDS_TO + DEPENDS_TO + DEPENDS_TO + DEPENDS_TO; primitive_depth=4"
+      },
+      {
+        "source": "@mote",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@mote -> @er_foam -> @helicon -> @wake_stabilization_equation; relations=DEPENDS_TO + DEPENDS_TO + DEPENDS_TO; primitive_depth=3"
+      },
+      {
+        "source": "@persistence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@persistence -> @chirality -> @er_foam -> @helicon -> @wake_stabilization_equation; relations=DEPENDS_TO + DEPENDS_TO + DEPENDS_TO + DEPENDS_TO; primitive_depth=4"
+      },
+      {
+        "source": "@persistent_boundary",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@persistent_boundary -> @projection_admissibility -> @er_foam -> @helicon -> @wake_stabilization_equation; relations=DEPENDS_TO + DEPENDS_TO + DEPENDS_TO + DEPENDS_TO; primitive_depth=4"
+      },
+      {
+        "source": "@projection_admissibility",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@projection_admissibility -> @er_foam -> @helicon -> @wake_stabilization_equation; relations=DEPENDS_TO + DEPENDS_TO + DEPENDS_TO; primitive_depth=3"
+      },
+      {
+        "source": "@re_expansion",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@re_expansion -> @mote -> @er_foam -> @helicon -> @wake_stabilization_equation; relations=DEPENDS_TO + DEPENDS_TO + DEPENDS_TO + DEPENDS_TO; primitive_depth=4"
+      },
+      {
+        "source": "@shear_compensation",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@shear_compensation -> @helicon -> @wake_stabilization_equation; relations=FORMALLY_DEPENDS_ON + DEPENDS_TO; primitive_depth=2"
+      },
+      {
+        "source": "@spectral_coupling",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@spectral_coupling -> @helicon -> @wake_stabilization_equation; relations=FORMALLY_DEPENDS_ON + DEPENDS_TO; primitive_depth=2"
+      },
+      {
+        "source": "@wake_evolution",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@wake_evolution -> @helicon -> @wake_stabilization_equation; relations=FORMALLY_DEPENDS_ON + DEPENDS_TO; primitive_depth=2"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 1169,
+        "source": "@wake_stabilization_equation",
+        "relation": "DERIVED_FROM",
+        "target": "@wake_evolution",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_EQUATION_API:2620-2658"
+      },
+      {
+        "id": 2208,
+        "source": "@wake_stabilization_equation",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@helicon",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@helicon FORMALLY_DEPENDS_ON @wake_stabilization_equation); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      },
+      {
+        "id": 41,
+        "source": "@angular_reduction_theorem",
+        "relation": "SUPPORTS",
+        "target": "@wake_stabilization_equation",
+        "layer": "API43",
+        "graph_family": "theorem",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_THEOREM_API:2564-2593"
+      },
+      {
+        "id": 618,
+        "source": "@helicon",
+        "relation": "DEPENDS_TO",
+        "target": "@wake_stabilization_equation",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:45093"
+      },
+      {
+        "id": 619,
+        "source": "@helicon",
+        "relation": "DIRECTED_TO",
+        "target": "@wake_stabilization_equation",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45093"
+      },
+      {
+        "id": 620,
+        "source": "@helicon",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@wake_stabilization_equation",
+        "layer": "API43",
+        "graph_family": "audit",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45093"
+      },
+      {
+        "id": 621,
+        "source": "@helicon",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@wake_stabilization_equation",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:45862"
+      },
+      {
+        "id": 622,
+        "source": "@helicon",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@wake_stabilization_equation",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "EDGE_LEDGER_LINE:45093;vertical_chain:15856"
+      },
+      {
+        "id": 623,
+        "source": "@helicon",
+        "relation": "USED_BY",
+        "target": "@wake_stabilization_equation",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:45492"
+      }
+    ]
+  },
+  "address": "@wake_stabilization_equation",
+  "address_sha256": "f93563f2e4293b7db3cf1e3abaabceae4628694cbffe7b723f90234824b9fe5a"
+}

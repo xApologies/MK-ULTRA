@@ -1,0 +1,25 @@
+{
+  "handle": "iteration://IT-DM-E081-TRACE-INVARIANT",
+  "object_type": "bounded_iteration",
+  "status": "OPEN_SINGLE_SYMMETRY_ACTION_TYPE",
+  "domain": "ITERATION",
+  "namespace": "mk43://iteration",
+  "name": "IT-DM-E081-TRACE-INVARIANT",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "BOUNDED_ITERATION",
+  "metadata": {
+    "id": "IT-DM-E081-TRACE-INVARIANT",
+    "seed": "@dm_hidden_response_operator",
+    "terminal_state": "OPEN_SINGLE_SYMMETRY_ACTION_TYPE",
+    "source_file": "IT-DM-E081-TRACE-INVARIANT.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_ITERATION_RUN_V1\", \"run_id\": \"IT-DM-E081-TRACE-INVARIANT\", \"checkpoint\": \"E081\", \"seed\": \"@dm_hidden_response_operator\", \"ceiling\": 128, \"iterations_used\": 3, \"terminal_state\": \"OPEN_SINGLE_SYMMETRY_ACTION_TYPE\", \"open_next\": \"@dm_projection_symmetry_response_action\", \"note\": \"Replaces pairwise difference-spectrum bookkeeping with a simpler full-vs-visible trace invariant.\"}"
+  },
+  "address": "iteration://IT-DM-E081-TRACE-INVARIANT",
+  "address_sha256": "56257df332f170ddf03f19b3858298aa93d84e4b85aabe6ce1fbfa95086c37d9"
+}

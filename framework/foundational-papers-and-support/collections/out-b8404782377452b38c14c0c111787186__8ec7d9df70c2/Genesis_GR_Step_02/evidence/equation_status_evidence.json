@@ -1,0 +1,62 @@
+[
+  {
+    "eq_id": "SW-SWP:API43:DISPLAY-0106",
+    "owner_handle": "@radiative_stability",
+    "namespace": "STONEWAKE::API43",
+    "kind": "display_math",
+    "expression": "H_g[n+1]\n-\n2H_g[n]\n+\nH_g[n-1]\n+\nc_A^2\\mathcal{L}_{\\mathrm{ER}}H_g[n]\n=\n0.",
+    "meaning": "Native Update Law",
+    "status": "SOURCE_CANONICAL",
+    "proof_status": "UNSPECIFIED",
+    "expression_sha256": "6f4dacafcb2b911322fb7703049e6f64478493dfd3c29645d98fdbabf79b2b2b",
+    "source_id": "SRC09_2_0_INTERNAL_MAPPING",
+    "source_path": "STONEWAKE_UNIFIED_PHYSICS_API_v1_1_20260823/02_MACHINE/STONEWAKE_PHYSICS_QMO.sqlite",
+    "provenance_json": "\"MK43_Ultra_API_CURRENT_CANONICAL.md\"",
+    "payload_json": "{\"domain\":\"API43\",\"expression\":\"H_g[n+1]\\n-\\n2H_g[n]\\n+\\nH_g[n-1]\\n+\\nc_A^2\\\\mathcal{L}_{\\\\mathrm{ER}}H_g[n]\\n=\\n0.\",\"expression_sha256\":\"10c3b4a70decb0cde413d108cdb4ac2ff83cb96ce8e294f71035450fb7589b2a\",\"id\":106,\"kind\":\"display_math\",\"meaning\":\"Native Update Law\",\"owner\":\"@radiative_stability\",\"source\":\"MK43_Ultra_API_CURRENT_CANONICAL.md\",\"source_id\":\"DISPLAY-0106\",\"status\":\"SOURCE_CANONICAL\",\"uid\":\"SWP:API43:DISPLAY-0106\"}"
+  },
+  {
+    "eq_id": "SW-SWP:API43:DISPLAY-0107",
+    "owner_handle": "@radiative_stability",
+    "namespace": "STONEWAKE::API43",
+    "kind": "display_math",
+    "expression": "H_g[n]\n=\nq_\\alpha e^{-i\\omega_\\alpha n}u_\\alpha,",
+    "meaning": "Native Update Law",
+    "status": "SOURCE_CANONICAL",
+    "proof_status": "UNSPECIFIED",
+    "expression_sha256": "53af3e7ba229b02b93a66eeb2d519d02b0a43d5a3d39bdda83a248ece40ce9ce",
+    "source_id": "SRC09_2_0_INTERNAL_MAPPING",
+    "source_path": "STONEWAKE_UNIFIED_PHYSICS_API_v1_1_20260823/02_MACHINE/STONEWAKE_PHYSICS_QMO.sqlite",
+    "provenance_json": "\"MK43_Ultra_API_CURRENT_CANONICAL.md\"",
+    "payload_json": "{\"domain\":\"API43\",\"expression\":\"H_g[n]\\n=\\nq_\\\\alpha e^{-i\\\\omega_\\\\alpha n}u_\\\\alpha,\",\"expression_sha256\":\"ee88f199b8b89ecd7d81a46505d39f937b4145af0807cfb4367ce00e620acaca\",\"id\":107,\"kind\":\"display_math\",\"meaning\":\"Native Update Law\",\"owner\":\"@radiative_stability\",\"source\":\"MK43_Ultra_API_CURRENT_CANONICAL.md\",\"source_id\":\"DISPLAY-0107\",\"status\":\"SOURCE_CANONICAL\",\"uid\":\"SWP:API43:DISPLAY-0107\"}"
+  },
+  {
+    "eq_id": "SW-SWP:API43:DISPLAY-0108",
+    "owner_handle": "@radiative_stability",
+    "namespace": "STONEWAKE::API43",
+    "kind": "display_math",
+    "expression": "4\\sin^2\\!\\left(\\frac{\\omega_\\alpha}{2}\\right)\n=\nc_A^2\\lambda_\\alpha.",
+    "meaning": "Native Update Law",
+    "status": "SOURCE_CANONICAL",
+    "proof_status": "UNSPECIFIED",
+    "expression_sha256": "31325fbdbbadd0e17985d25b9728419533953bf7afc645b75f3102e67e6e8f59",
+    "source_id": "SRC09_2_0_INTERNAL_MAPPING",
+    "source_path": "STONEWAKE_UNIFIED_PHYSICS_API_v1_1_20260823/02_MACHINE/STONEWAKE_PHYSICS_QMO.sqlite",
+    "provenance_json": "\"MK43_Ultra_API_CURRENT_CANONICAL.md\"",
+    "payload_json": "{\"domain\":\"API43\",\"expression\":\"4\\\\sin^2\\\\!\\\\left(\\\\frac{\\\\omega_\\\\alpha}{2}\\\\right)\\n=\\nc_A^2\\\\lambda_\\\\alpha.\",\"expression_sha256\":\"5efd851fe9b60ec82b16ca34d3fb57022dfc12dd88e3fc867da092da91105ef2\",\"id\":108,\"kind\":\"display_math\",\"meaning\":\"Native Update Law\",\"owner\":\"@radiative_stability\",\"source\":\"MK43_Ultra_API_CURRENT_CANONICAL.md\",\"source_id\":\"DISPLAY-0108\",\"status\":\"SOURCE_CANONICAL\",\"uid\":\"SWP:API43:DISPLAY-0108\"}"
+  },
+  {
+    "eq_id": "SW-SWP:API43:DISPLAY-0132",
+    "owner_handle": "@readable_graviton_projection",
+    "namespace": "STONEWAKE::API43",
+    "kind": "display_math",
+    "expression": "\\mathcal{T}_g^\\dagger\\mathcal{T}_g=P_g.",
+    "meaning": "Type",
+    "status": "SOURCE_CANONICAL",
+    "proof_status": "UNSPECIFIED",
+    "expression_sha256": "3c2e75b258287536500c0a1439dc8d8c3160d2bfdccce28a8f53f5f306e4e021",
+    "source_id": "SRC09_2_0_INTERNAL_MAPPING",
+    "source_path": "STONEWAKE_UNIFIED_PHYSICS_API_v1_1_20260823/02_MACHINE/STONEWAKE_PHYSICS_QMO.sqlite",
+    "provenance_json": "\"MK43_Ultra_API_CURRENT_CANONICAL.md\"",
+    "payload_json": "{\"domain\":\"API43\",\"expression\":\"\\\\mathcal{T}_g^\\\\dagger\\\\mathcal{T}_g=P_g.\",\"expression_sha256\":\"3c2e75b258287536500c0a1439dc8d8c3160d2bfdccce28a8f53f5f306e4e021\",\"id\":132,\"kind\":\"display_math\",\"meaning\":\"Type\",\"owner\":\"@readable_graviton_projection\",\"source\":\"MK43_Ultra_API_CURRENT_CANONICAL.md\",\"source_id\":\"DISPLAY-0132\",\"status\":\"SOURCE_CANONICAL\",\"uid\":\"SWP:API43:DISPLAY-0132\"}"
+  }
+]

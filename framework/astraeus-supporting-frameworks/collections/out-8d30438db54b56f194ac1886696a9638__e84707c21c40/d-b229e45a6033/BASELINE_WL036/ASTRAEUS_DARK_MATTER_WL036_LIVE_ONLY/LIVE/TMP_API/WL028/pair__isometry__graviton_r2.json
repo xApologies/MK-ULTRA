@@ -1,0 +1,38 @@
+{
+  "a": "@isometry",
+  "b": "@graviton",
+  "radius": 2,
+  "a_node_count": 31,
+  "b_node_count": 105,
+  "interface": [
+    {
+      "handle": "@black_hole_angular_momentum",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@black_hole_mass",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@spacetime",
+      "distance_a": 2,
+      "distance_b": 2
+    }
+  ],
+  "path_a_to_b": [
+    {
+      "source": "@isometry",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@graviton",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-51",
+      "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@isometry-[COMPOSED_DEPENDENCY]->@metric_perturbation-[COMPOSED_DEPENDENCY]->@graviton"
+    }
+  ],
+  "direct_neighborhood_policy": "high-confidence non-derived/direct-source Time-Space API edges only",
+  "path_policy": "high-confidence registered + admissibly derived Time-Space API edges; directions preserved"
+}

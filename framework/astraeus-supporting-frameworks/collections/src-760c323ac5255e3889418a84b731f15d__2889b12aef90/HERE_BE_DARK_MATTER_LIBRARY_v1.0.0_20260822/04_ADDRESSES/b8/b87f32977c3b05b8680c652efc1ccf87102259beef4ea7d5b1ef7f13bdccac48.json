@@ -1,0 +1,25 @@
+{
+  "handle": "landscape://DL-DM-E086-EXPLICIT-CONTINUITY-RESIDUAL",
+  "object_type": "dependency_landscape",
+  "status": "INTERNAL_MATH_CLOSED",
+  "domain": "LANDSCAPE",
+  "namespace": "mk43://landscape",
+  "name": "DL-DM-E086-EXPLICIT-CONTINUITY-RESIDUAL",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "DEPENDENCY_LANDSCAPE",
+  "metadata": {
+    "id": "DL-DM-E086-EXPLICIT-CONTINUITY-RESIDUAL",
+    "seed": "@dm_hidden_response_operator",
+    "status": "INTERNAL_MATH_CLOSED",
+    "source_file": "live/checkpoints/E086/landscapes/DL-DM-E086-EXPLICIT-CONTINUITY-RESIDUAL.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1\", \"landscape_id\": \"DL-DM-E086-EXPLICIT-CONTINUITY-RESIDUAL\", \"seed\": \"@dm_hidden_response_operator\", \"status\": \"INTERNAL_MATH_CLOSED\", \"nodes\": [\"@dm_hidden_response_operator\", \"@dm_joint_hidden_network_witness\", \"@dm_explicit_two_port_continuity_residual_witness\", \"@continuity_perturbation\"], \"terminal\": {\"state\": \"NONZERO_CONTINUITY_RESIDUAL_CLOSED\", \"iteration\": 4, \"focus\": \"@dm_explicit_two_port_continuity_residual_witness\", \"reason\": \"The explicit relative-port contrast c_* lies outside the hidden response kernel and produces a nonzero native continuity residual.\"}}"
+  },
+  "address": "landscape://DL-DM-E086-EXPLICIT-CONTINUITY-RESIDUAL",
+  "address_sha256": "b87f32977c3b05b8680c652efc1ccf87102259beef4ea7d5b1ef7f13bdccac48"
+}

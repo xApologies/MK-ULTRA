@@ -1,0 +1,786 @@
+{
+  "policy": "TS high+medium recovered/direct-source non-derived; DM high direct registry; no edge invention",
+  "ts_edges": {
+    "chirality_labelled_mote_to_er_throat_incidence": [
+      {
+        "source": "@chirality_labelled_mote",
+        "relation": "DEPENDS_TO",
+        "target": "@er_throat_incidence",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45056"
+      },
+      {
+        "source": "@chirality_labelled_mote",
+        "relation": "DIRECTED_TO",
+        "target": "@er_throat_incidence",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45056"
+      },
+      {
+        "source": "@chirality_labelled_mote",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@er_throat_incidence",
+        "graph_family": "audit",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45056"
+      },
+      {
+        "source": "@chirality_labelled_mote",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@er_throat_incidence",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:45435"
+      },
+      {
+        "source": "@chirality_labelled_mote",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@er_throat_incidence",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "EDGE_LEDGER_LINE:45056;vertical_chain:1830,vertical_chain:27573"
+      },
+      {
+        "source": "@chirality_labelled_mote",
+        "relation": "USED_BY",
+        "target": "@er_throat_incidence",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:45275"
+      }
+    ],
+    "er_throat_incidence_to_weighted_adjacency": [
+      {
+        "source": "@er_throat_incidence",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@weighted_adjacency",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:27715"
+      }
+    ],
+    "weighted_adjacency_to_adjacency_lattice": [
+      {
+        "source": "@weighted_adjacency",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@adjacency_lattice",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:27721"
+      }
+    ],
+    "adjacency_lattice_to_er_foam": [
+      {
+        "source": "@adjacency_lattice",
+        "relation": "DEPENDS_TO",
+        "target": "@er_foam",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45042"
+      },
+      {
+        "source": "@adjacency_lattice",
+        "relation": "DIRECTED_TO",
+        "target": "@er_foam",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45042"
+      },
+      {
+        "source": "@adjacency_lattice",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@er_foam",
+        "graph_family": "audit",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45042"
+      },
+      {
+        "source": "@adjacency_lattice",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@er_foam",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:45421"
+      },
+      {
+        "source": "@adjacency_lattice",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@er_foam",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "EDGE_LEDGER_LINE:45042;vertical_chain:1846,vertical_chain:27589"
+      },
+      {
+        "source": "@adjacency_lattice",
+        "relation": "USED_BY",
+        "target": "@er_foam",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:45156"
+      },
+      {
+        "source": "@adjacency_lattice",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@er_foam",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:27723"
+      }
+    ]
+  },
+  "paths": {
+    "@orientation_history->@chirality_labelled_mote": {
+      "nodes": [
+        "@orientation_history",
+        "@relational_history",
+        "@admissible_equivalence",
+        "@coherent_continuation_class",
+        "@persistent_locus",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@planck_landscape",
+        "@chirality_labelled_mote"
+      ],
+      "edges": [
+        {
+          "source": "@orientation_history",
+          "relation": "DEPENDS_TO",
+          "target": "@relational_history",
+          "graph_family": "mixed",
+          "confidence": "high",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-34",
+          "provenance": "DIRECT_API_LINE:45106"
+        },
+        {
+          "source": "@relational_history",
+          "relation": "DEPENDS_TO",
+          "target": "@admissible_equivalence",
+          "graph_family": "mixed",
+          "confidence": "high",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-34",
+          "provenance": "DIRECT_API_LINE:45129"
+        },
+        {
+          "source": "@admissible_equivalence",
+          "relation": "DEPENDS_TO",
+          "target": "@coherent_continuation_class",
+          "graph_family": "mixed",
+          "confidence": "high",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-34",
+          "provenance": "DIRECT_API_LINE:45044"
+        },
+        {
+          "source": "@coherent_continuation_class",
+          "relation": "DEPENDS_TO",
+          "target": "@persistent_locus",
+          "graph_family": "mixed",
+          "confidence": "high",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-34",
+          "provenance": "DIRECT_API_LINE:45064"
+        },
+        {
+          "source": "@persistent_locus",
+          "relation": "DEPENDS_TO",
+          "target": "@persistent_boundary",
+          "graph_family": "mixed",
+          "confidence": "high",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-34",
+          "provenance": "DIRECT_API_LINE:45114"
+        },
+        {
+          "source": "@persistent_boundary",
+          "relation": "DEPENDS_TO",
+          "target": "@projection_admissibility",
+          "graph_family": "mixed",
+          "confidence": "high",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-34",
+          "provenance": "DIRECT_API_LINE:45112"
+        },
+        {
+          "source": "@projection_admissibility",
+          "relation": "VERTICAL_CHAIN",
+          "target": "@planck_landscape",
+          "graph_family": "mixed",
+          "confidence": "medium",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-34",
+          "provenance": "API_CODE_BLOCK:27707"
+        },
+        {
+          "source": "@planck_landscape",
+          "relation": "DEPENDS_TO",
+          "target": "@chirality_labelled_mote",
+          "graph_family": "mixed",
+          "confidence": "high",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-34",
+          "provenance": "DIRECT_API_LINE:45120"
+        }
+      ]
+    },
+    "@orientation_history->@er_throat_incidence": {
+      "nodes": [
+        "@orientation_history",
+        "@relational_history",
+        "@admissible_equivalence",
+        "@coherent_continuation_class",
+        "@persistent_locus",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@planck_landscape",
+        "@er_throat_incidence"
+      ],
+      "edges": [
+        {
+          "source": "@orientation_history",
+          "relation": "DEPENDS_TO",
+          "target": "@relational_history",
+          "graph_family": "mixed",
+          "confidence": "high",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-34",
+          "provenance": "DIRECT_API_LINE:45106"
+        },
+        {
+          "source": "@relational_history",
+          "relation": "DEPENDS_TO",
+          "target": "@admissible_equivalence",
+          "graph_family": "mixed",
+          "confidence": "high",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-34",
+          "provenance": "DIRECT_API_LINE:45129"
+        },
+        {
+          "source": "@admissible_equivalence",
+          "relation": "DEPENDS_TO",
+          "target": "@coherent_continuation_class",
+          "graph_family": "mixed",
+          "confidence": "high",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-34",
+          "provenance": "DIRECT_API_LINE:45044"
+        },
+        {
+          "source": "@coherent_continuation_class",
+          "relation": "DEPENDS_TO",
+          "target": "@persistent_locus",
+          "graph_family": "mixed",
+          "confidence": "high",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-34",
+          "provenance": "DIRECT_API_LINE:45064"
+        },
+        {
+          "source": "@persistent_locus",
+          "relation": "DEPENDS_TO",
+          "target": "@persistent_boundary",
+          "graph_family": "mixed",
+          "confidence": "high",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-34",
+          "provenance": "DIRECT_API_LINE:45114"
+        },
+        {
+          "source": "@persistent_boundary",
+          "relation": "DEPENDS_TO",
+          "target": "@projection_admissibility",
+          "graph_family": "mixed",
+          "confidence": "high",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-34",
+          "provenance": "DIRECT_API_LINE:45112"
+        },
+        {
+          "source": "@projection_admissibility",
+          "relation": "VERTICAL_CHAIN",
+          "target": "@planck_landscape",
+          "graph_family": "mixed",
+          "confidence": "medium",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-34",
+          "provenance": "API_CODE_BLOCK:27707"
+        },
+        {
+          "source": "@planck_landscape",
+          "relation": "VERTICAL_CHAIN",
+          "target": "@er_throat_incidence",
+          "graph_family": "mixed",
+          "confidence": "medium",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-34",
+          "provenance": "API_CODE_BLOCK:27711"
+        }
+      ]
+    },
+    "@chirality_transport->@er_throat_incidence": {
+      "nodes": [
+        "@chirality_transport",
+        "@persistent_locus",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@planck_landscape",
+        "@er_throat_incidence"
+      ],
+      "edges": [
+        {
+          "source": "@chirality_transport",
+          "relation": "DEPENDS_TO",
+          "target": "@persistent_locus",
+          "graph_family": "mixed",
+          "confidence": "high",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-34",
+          "provenance": "DIRECT_API_LINE:45059"
+        },
+        {
+          "source": "@persistent_locus",
+          "relation": "DEPENDS_TO",
+          "target": "@persistent_boundary",
+          "graph_family": "mixed",
+          "confidence": "high",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-34",
+          "provenance": "DIRECT_API_LINE:45114"
+        },
+        {
+          "source": "@persistent_boundary",
+          "relation": "DEPENDS_TO",
+          "target": "@projection_admissibility",
+          "graph_family": "mixed",
+          "confidence": "high",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-34",
+          "provenance": "DIRECT_API_LINE:45112"
+        },
+        {
+          "source": "@projection_admissibility",
+          "relation": "VERTICAL_CHAIN",
+          "target": "@planck_landscape",
+          "graph_family": "mixed",
+          "confidence": "medium",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-34",
+          "provenance": "API_CODE_BLOCK:27707"
+        },
+        {
+          "source": "@planck_landscape",
+          "relation": "VERTICAL_CHAIN",
+          "target": "@er_throat_incidence",
+          "graph_family": "mixed",
+          "confidence": "medium",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-34",
+          "provenance": "API_CODE_BLOCK:27711"
+        }
+      ]
+    },
+    "@mote->@er_throat_incidence": {
+      "nodes": [
+        "@mote",
+        "@recursive_depth",
+        "@occupancy",
+        "@persistent_recursive_topology",
+        "@planck_landscape",
+        "@er_throat_incidence"
+      ],
+      "edges": [
+        {
+          "source": "@mote",
+          "relation": "DIRECTED_TO",
+          "target": "@recursive_depth",
+          "graph_family": "mathematical",
+          "confidence": "high",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-36",
+          "provenance": "CANONICAL_API_MULTILINE_ARROW:51013->51014"
+        },
+        {
+          "source": "@recursive_depth",
+          "relation": "DEPENDS_TO",
+          "target": "@occupancy",
+          "graph_family": "mixed",
+          "confidence": "high",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-34",
+          "provenance": "DIRECT_API_LINE:45127"
+        },
+        {
+          "source": "@occupancy",
+          "relation": "VERTICAL_CHAIN",
+          "target": "@persistent_recursive_topology",
+          "graph_family": "audit",
+          "confidence": "medium",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-39",
+          "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:27399->27401"
+        },
+        {
+          "source": "@persistent_recursive_topology",
+          "relation": "VERTICAL_CHAIN",
+          "target": "@planck_landscape",
+          "graph_family": "mixed",
+          "confidence": "medium",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-39",
+          "provenance": "DEPENDENCY_GRAPH_2_10.md:1574->1576"
+        },
+        {
+          "source": "@planck_landscape",
+          "relation": "VERTICAL_CHAIN",
+          "target": "@er_throat_incidence",
+          "graph_family": "mixed",
+          "confidence": "medium",
+          "audit_status": "recovered",
+          "recovery_pass": "RP-34",
+          "provenance": "API_CODE_BLOCK:27711"
+        }
+      ]
+    }
+  },
+  "interfaces": {
+    "mote_x_chirality_labelled_mote_r4": [
+      {
+        "handle": "@projection_admissibility",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@er_foam",
+        "distance_a": 1,
+        "distance_b": 3
+      },
+      {
+        "handle": "@planck_landscape",
+        "distance_a": 3,
+        "distance_b": 1
+      },
+      {
+        "handle": "@chirality_labelled_mote",
+        "distance_a": 4,
+        "distance_b": 0
+      },
+      {
+        "handle": "@mote",
+        "distance_a": 0,
+        "distance_b": 4
+      },
+      {
+        "handle": "@adjacency_lattice",
+        "distance_a": 2,
+        "distance_b": 3
+      },
+      {
+        "handle": "@chirality_space",
+        "distance_a": 2,
+        "distance_b": 3
+      },
+      {
+        "handle": "@native_constraint_closure",
+        "distance_a": 2,
+        "distance_b": 3
+      },
+      {
+        "handle": "@occupancy",
+        "distance_a": 2,
+        "distance_b": 3
+      },
+      {
+        "handle": "@persistence_potential",
+        "distance_a": 2,
+        "distance_b": 3
+      },
+      {
+        "handle": "@persistent_recursive_topology",
+        "distance_a": 3,
+        "distance_b": 2
+      },
+      {
+        "handle": "@weighted_adjacency",
+        "distance_a": 3,
+        "distance_b": 2
+      },
+      {
+        "handle": "@chirality_occupancy_cube",
+        "distance_a": 1,
+        "distance_b": 4
+      },
+      {
+        "handle": "@er_throat_incidence",
+        "distance_a": 4,
+        "distance_b": 1
+      },
+      {
+        "handle": "@genesis_field",
+        "distance_a": 1,
+        "distance_b": 4
+      },
+      {
+        "handle": "@recursive_depth",
+        "distance_a": 1,
+        "distance_b": 4
+      },
+      {
+        "handle": "@time_shell",
+        "distance_a": 1,
+        "distance_b": 4
+      },
+      {
+        "handle": "@genlang_aspect_ma",
+        "distance_a": 3,
+        "distance_b": 3
+      },
+      {
+        "handle": "@mote_closure",
+        "distance_a": 3,
+        "distance_b": 3
+      },
+      {
+        "handle": "@persistence",
+        "distance_a": 3,
+        "distance_b": 3
+      },
+      {
+        "handle": "@persistent_boundary",
+        "distance_a": 3,
+        "distance_b": 3
+      },
+      {
+        "handle": "@chirality",
+        "distance_a": 2,
+        "distance_b": 4
+      },
+      {
+        "handle": "@continuity_redistribution",
+        "distance_a": 2,
+        "distance_b": 4
+      },
+      {
+        "handle": "@geometry",
+        "distance_a": 2,
+        "distance_b": 4
+      },
+      {
+        "handle": "@helicon",
+        "distance_a": 2,
+        "distance_b": 4
+      },
+      {
+        "handle": "@helicon_substrate",
+        "distance_a": 2,
+        "distance_b": 4
+      },
+      {
+        "handle": "@inheritance",
+        "distance_a": 2,
+        "distance_b": 4
+      },
+      {
+        "handle": "@matter_readable_organization",
+        "distance_a": 2,
+        "distance_b": 4
+      },
+      {
+        "handle": "@mote_chirality",
+        "distance_a": 2,
+        "distance_b": 4
+      },
+      {
+        "handle": "@mote_configuration_space",
+        "distance_a": 2,
+        "distance_b": 4
+      },
+      {
+        "handle": "@mote_ensemble",
+        "distance_a": 2,
+        "distance_b": 4
+      },
+      {
+        "handle": "@phase_gravitational_wave_equations",
+        "distance_a": 2,
+        "distance_b": 4
+      },
+      {
+        "handle": "@resolution",
+        "distance_a": 2,
+        "distance_b": 4
+      },
+      {
+        "handle": "@stable_er_foam_knot",
+        "distance_a": 2,
+        "distance_b": 4
+      },
+      {
+        "handle": "@admissibility",
+        "distance_a": 3,
+        "distance_b": 4
+      },
+      {
+        "handle": "@anomaly_freedom",
+        "distance_a": 3,
+        "distance_b": 4
+      },
+      {
+        "handle": "@bandwidth",
+        "distance_a": 3,
+        "distance_b": 4
+      },
+      {
+        "handle": "@chirality_map",
+        "distance_a": 3,
+        "distance_b": 4
+      },
+      {
+        "handle": "@continuity_conservation",
+        "distance_a": 3,
+        "distance_b": 4
+      },
+      {
+        "handle": "@gauge_consistency",
+        "distance_a": 3,
+        "distance_b": 4
+      },
+      {
+        "handle": "@genlang_phrase_en_ar_en",
+        "distance_a": 3,
+        "distance_b": 4
+      },
+      {
+        "handle": "@genlang_phrase_gen_kor_en",
+        "distance_a": 3,
+        "distance_b": 4
+      },
+      {
+        "handle": "@genlang_phrase_rin_tal_ael",
+        "distance_a": 4,
+        "distance_b": 3
+      },
+      {
+        "handle": "@genlang_root_ael",
+        "distance_a": 4,
+        "distance_b": 3
+      },
+      {
+        "handle": "@genlang_root_da",
+        "distance_a": 3,
+        "distance_b": 4
+      },
+      {
+        "handle": "@genlang_root_en",
+        "distance_a": 4,
+        "distance_b": 3
+      },
+      {
+        "handle": "@genlang_word_genkoren",
+        "distance_a": 3,
+        "distance_b": 4
+      },
+      {
+        "handle": "@global_inheritance",
+        "distance_a": 3,
+        "distance_b": 4
+      },
+      {
+        "handle": "@graviton_radiative_stability",
+        "distance_a": 3,
+        "distance_b": 4
+      },
+      {
+        "handle": "@persistent_topology",
+        "distance_a": 3,
+        "distance_b": 4
+      },
+      {
+        "handle": "@readable_graviton_projection",
+        "distance_a": 3,
+        "distance_b": 4
+      },
+      {
+        "handle": "@relationship",
+        "distance_a": 3,
+        "distance_b": 4
+      },
+      {
+        "handle": "@closure",
+        "distance_a": 4,
+        "distance_b": 4
+      },
+      {
+        "handle": "@genlang_root_rin",
+        "distance_a": 4,
+        "distance_b": 4
+      },
+      {
+        "handle": "@genlang_root_sha",
+        "distance_a": 4,
+        "distance_b": 4
+      },
+      {
+        "handle": "@genlang_word_kai_ar_en_rin",
+        "distance_a": 4,
+        "distance_b": 4
+      },
+      {
+        "handle": "@native_unit_of_energy",
+        "distance_a": 4,
+        "distance_b": 4
+      },
+      {
+        "handle": "@persistent_locus",
+        "distance_a": 4,
+        "distance_b": 4
+      },
+      {
+        "handle": "@recoverability",
+        "distance_a": 4,
+        "distance_b": 4
+      },
+      {
+        "handle": "@recursive_continuity",
+        "distance_a": 4,
+        "distance_b": 4
+      }
+    ],
+    "er_throat_x_dm_qualification_nonempty_r3": [],
+    "er_throat_x_dm_er_branch_r3": [],
+    "adjacency_lattice_x_dm_qualification_nonempty_r3": []
+  }
+}

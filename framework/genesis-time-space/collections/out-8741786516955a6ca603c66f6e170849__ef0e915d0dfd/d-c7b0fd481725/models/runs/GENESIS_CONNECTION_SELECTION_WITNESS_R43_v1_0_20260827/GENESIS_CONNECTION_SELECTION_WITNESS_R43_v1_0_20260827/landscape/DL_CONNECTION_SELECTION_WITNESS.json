@@ -1,0 +1,91 @@
+{
+  "qmo_address": "@dl/connection_selection_witness",
+  "members": [
+    "@r43/connection_context",
+    "@r43/static_connection",
+    "@r43/operative_connection",
+    "@r43/watcher_rule",
+    "@r43/selection_witness",
+    "@r43/domain_specific_preference",
+    "@r43/horizontal_candidate",
+    "@open/domain_preference_or_state_instance"
+  ],
+  "edges": [
+    {
+      "source": "@r43/connection_context",
+      "relation": "SPLITS_INTO",
+      "target": "@r43/static_connection"
+    },
+    {
+      "source": "@r43/connection_context",
+      "relation": "SPLITS_INTO",
+      "target": "@r43/operative_connection"
+    },
+    {
+      "source": "@r43/operative_connection",
+      "relation": "USES",
+      "target": "@r43/watcher_rule"
+    },
+    {
+      "source": "@r43/watcher_rule",
+      "relation": "CERTIFIED_BY",
+      "target": "@r43/selection_witness"
+    },
+    {
+      "source": "@r43/selection_witness",
+      "relation": "SELECTS_OR_FILTERS",
+      "target": "@r43/horizontal_candidate"
+    },
+    {
+      "source": "@r43/watcher_rule",
+      "relation": "MAY_DEFER_TO",
+      "target": "@r43/domain_specific_preference"
+    },
+    {
+      "source": "@r43/domain_specific_preference",
+      "relation": "BLOCKED_BY",
+      "target": "@open/domain_preference_or_state_instance"
+    }
+  ],
+  "selection_context": [
+    "R",
+    "B",
+    "H",
+    "E=Environment",
+    "chi",
+    "Occupancy constraints"
+  ],
+  "watcher_criteria": [
+    {
+      "priority": 1,
+      "criterion": "ancestry",
+      "rule": "preserve declared ancestry"
+    },
+    {
+      "priority": 2,
+      "criterion": "chirality",
+      "rule": "preserve transported chirality class"
+    },
+    {
+      "priority": 3,
+      "criterion": "invariant",
+      "rule": "preserve invariant residue"
+    },
+    {
+      "priority": 4,
+      "criterion": "typing",
+      "rule": "satisfy operator typing"
+    },
+    {
+      "priority": 5,
+      "criterion": "operative_admissibility",
+      "rule": "satisfy Bandwidth / Environment / History admissibility"
+    },
+    {
+      "priority": 6,
+      "criterion": "minimal_extra_structure",
+      "rule": "minimize unsupported additional structure"
+    }
+  ],
+  "status": "SELECTION_SEMANTICS_CLOSED_TO_CONCRETE_TIE_FRONTIER"
+}

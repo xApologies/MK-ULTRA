@@ -1,0 +1,153 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_NEIGHBORS_V1",
+  "handle": "@global_inheritance",
+  "incoming": [
+    [
+      "@conservation_of_information",
+      {
+        "source": "@conservation_of_information",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@global_inheritance",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56485->56487",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@conservation_of_information",
+      {
+        "source": "@conservation_of_information",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@global_inheritance",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "API_CODE_BLOCK:56487;API_CODE_BLOCK:56522;API_CODE_BLOCK:56578;CANONICAL_API_VERTICAL:56485->56487;CANONICAL_API_VERTICAL:56520->56522;CANONICAL_API_VERTICAL:56576->56578",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@local_admissibility",
+      {
+        "source": "@local_admissibility",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@global_inheritance",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56504->56506",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@local_admissibility",
+      {
+        "source": "@local_admissibility",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@global_inheritance",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "API_CODE_BLOCK:56506;CANONICAL_API_VERTICAL:56504->56506",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@recursive_stabilization",
+      {
+        "source": "@recursive_stabilization",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@global_inheritance",
+        "graph_family": "source",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56045->56047",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@recursive_stabilization",
+      {
+        "source": "@recursive_stabilization",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@global_inheritance",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "API_CODE_BLOCK:56047;CANONICAL_API_VERTICAL:56045->56047",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ]
+  ],
+  "outgoing": [
+    [
+      "@persistence",
+      {
+        "source": "@global_inheritance",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@persistence",
+        "graph_family": "source",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56047->56049",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@persistence",
+      {
+        "source": "@global_inheritance",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@persistence",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "API_CODE_BLOCK:56049;API_CODE_BLOCK:56524;API_CODE_BLOCK:56580;CANONICAL_API_VERTICAL:56047->56049;CANONICAL_API_VERTICAL:56522->56524;CANONICAL_API_VERTICAL:56578->56580",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@recursive_continuity",
+      {
+        "source": "@global_inheritance",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@recursive_continuity",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56506->56508",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@recursive_continuity",
+      {
+        "source": "@global_inheritance",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@recursive_continuity",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "API_CODE_BLOCK:56508;CANONICAL_API_VERTICAL:56506->56508",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ]
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry"
+}

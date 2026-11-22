@@ -1,0 +1,224 @@
+{
+  "schema": "tome-final-volume-assembly-validation/v1",
+  "created_at": "2026-08-12T12:07:43.139980+00:00",
+  "assembly_method": "BYTE_VERIFIED_SEALED_CHAPTER_PDF_CONCATENATION_WITH_CONTINUOUS_VOLUME_PAGINATION",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1_SEALED_CHAPTER_ARTIFACT_ASSEMBLY",
+  "source_renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "volume_id": "V06",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_06_QUANTUM_AND_FIELD_REALIZATION/MK_ULTRA_TOME_VOLUME_06_QUANTUM_AND_FIELD_REALIZATION_FINAL.pdf",
+    "bytes": 4486344,
+    "sha256": "b8e3dd9f89492ea949d43066ec312ece544674f81a773b01e8fa6ec7b5ee3b7c"
+  },
+  "actual_pages": 59,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V06-C01": 3,
+    "V06-C02": 15,
+    "V06-C03": 22,
+    "V06-C04": 29,
+    "V06-C05": 36,
+    "V06-C06": 43,
+    "V06-C07": 49,
+    "V06-C08": 56
+  },
+  "chapter_count": 8,
+  "chapter_inputs": [
+    {
+      "chapter_id": "V06-C01",
+      "source_sha256": "bbe0ed8fe61299cc384681aa74072ee4db4c72569b75b565e42df6934e8c79dd",
+      "published_source_sha256": "bbe0ed8fe61299cc384681aa74072ee4db4c72569b75b565e42df6934e8c79dd",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 4339,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_06_QUANTUM_AND_FIELD_REALIZATION/MK_ULTRA_TOME_V06_C01_CANONICAL_QUANTUM_FIELD_HANDOFF_OBJECT.pdf",
+        "bytes": 249195,
+        "sha256": "98536dd238151fa7afd2f5e7ebeddfe774a61f2d2f4d7628e4aa217a4179447f"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_06_QUANTUM_AND_FIELD_REALIZATION/MK_ULTRA_TOME_V06_C01_CANONICAL_QUANTUM_FIELD_HANDOFF_OBJECT_VALIDATION.json",
+        "bytes": 2724,
+        "sha256": "e68aef52edddfebf7897a5df1aa0fcf2ae7db1ea2d80f1772c7d234a2cd03b56"
+      },
+      "pages": 12,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 3,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V06-C02",
+      "source_sha256": "4e86562656a1fac3f18ea5693b201c5db49cca00ca7f7afcec7d7419332f9c01",
+      "published_source_sha256": "4e86562656a1fac3f18ea5693b201c5db49cca00ca7f7afcec7d7419332f9c01",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 2313,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_06_QUANTUM_AND_FIELD_REALIZATION/MK_ULTRA_TOME_V06_C02_STATE_SPACES_PROBABILITY_AND_QUANTIZATION.pdf",
+        "bytes": 183974,
+        "sha256": "dd062e36b25cb54d75120999da81606507e732a3fddd1e9e340ab342db1ed280"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_06_QUANTUM_AND_FIELD_REALIZATION/MK_ULTRA_TOME_V06_C02_STATE_SPACES_PROBABILITY_AND_QUANTIZATION_VALIDATION.json",
+        "bytes": 2717,
+        "sha256": "9df78d3ccd55cd93593b5cf2137c64b4e7373cd7a665236648d3dc86fb3b5639"
+      },
+      "pages": 7,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 15,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V06-C03",
+      "source_sha256": "96cbcb58f12c675d2afda2ab21f9376639f2caf3634ef05fcec71b5e3a2cbfda",
+      "published_source_sha256": "96cbcb58f12c675d2afda2ab21f9376639f2caf3634ef05fcec71b5e3a2cbfda",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1976,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_06_QUANTUM_AND_FIELD_REALIZATION/MK_ULTRA_TOME_V06_C03_SCALAR_FIELD_REALIZATION.pdf",
+        "bytes": 178520,
+        "sha256": "d8f76db87a1a9a7421782b79ecd548f986aafeb8a9cec5f5224e176b8ee89897"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_06_QUANTUM_AND_FIELD_REALIZATION/MK_ULTRA_TOME_V06_C03_SCALAR_FIELD_REALIZATION_VALIDATION.json",
+        "bytes": 2704,
+        "sha256": "a996cf5d8d9510265f77860ee83464d5f6e1642b7518146b8d11ef3b9acefd7c"
+      },
+      "pages": 7,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 22,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V06-C04",
+      "source_sha256": "6ebea64b239956864371d83d728dbdae36211b17d175ef489180b2bcd0f753a6",
+      "published_source_sha256": "6ebea64b239956864371d83d728dbdae36211b17d175ef489180b2bcd0f753a6",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1710,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_06_QUANTUM_AND_FIELD_REALIZATION/MK_ULTRA_TOME_V06_C04_GAUGE_FIELD_REALIZATION.pdf",
+        "bytes": 167587,
+        "sha256": "fa1732f0a7159c622ab1038212a3bde4c8b1a09b8a4490ac758b320364482e5f"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_06_QUANTUM_AND_FIELD_REALIZATION/MK_ULTRA_TOME_V06_C04_GAUGE_FIELD_REALIZATION_VALIDATION.json",
+        "bytes": 2699,
+        "sha256": "38ff60269c4e960fdd4ebed7b41e0bc1079b58092dabb2af84e14f2f73f51137"
+      },
+      "pages": 7,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 29,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V06-C05",
+      "source_sha256": "34ff2a958c523343277f525b2d3d65d448614d74e1e5928759093c71cb857dc6",
+      "published_source_sha256": "34ff2a958c523343277f525b2d3d65d448614d74e1e5928759093c71cb857dc6",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1718,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_06_QUANTUM_AND_FIELD_REALIZATION/MK_ULTRA_TOME_V06_C05_SPINOR_AND_FERMIONIC_REALIZATION.pdf",
+        "bytes": 164608,
+        "sha256": "88b76e757677f1ba5be0e007e399557cc4118343f92dd90608d9e6c91f197a79"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_06_QUANTUM_AND_FIELD_REALIZATION/MK_ULTRA_TOME_V06_C05_SPINOR_AND_FERMIONIC_REALIZATION_VALIDATION.json",
+        "bytes": 2708,
+        "sha256": "9584b868030caf1dec53176cb62d285c2c7cf16dc9a41e6d155bc34f3ff80e3f"
+      },
+      "pages": 7,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 36,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V06-C06",
+      "source_sha256": "564b38b4bc24a44daeeb8b37a4d967a2b7c0d6ed79d3c61d0196238aaa9101db",
+      "published_source_sha256": "564b38b4bc24a44daeeb8b37a4d967a2b7c0d6ed79d3c61d0196238aaa9101db",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1548,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_06_QUANTUM_AND_FIELD_REALIZATION/MK_ULTRA_TOME_V06_C06_YANG_MILLS_AND_NON_ABELIAN_STRUCTURE.pdf",
+        "bytes": 160834,
+        "sha256": "3151d9a1e2d0edf69351ac6520a493095d3fb9f22651ef6f873cd1c43fd2627c"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_06_QUANTUM_AND_FIELD_REALIZATION/MK_ULTRA_TOME_V06_C06_YANG_MILLS_AND_NON_ABELIAN_STRUCTURE_VALIDATION.json",
+        "bytes": 2712,
+        "sha256": "ef2a249469706610ab7ef857f35ae795ce016586465eacc6a41e3adbb62a6ee8"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 43,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V06-C07",
+      "source_sha256": "384cefe9fe207960b9faffe33db0854ad04a1d27b1987b89080fa520df34a9bb",
+      "published_source_sha256": "384cefe9fe207960b9faffe33db0854ad04a1d27b1987b89080fa520df34a9bb",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1672,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_06_QUANTUM_AND_FIELD_REALIZATION/MK_ULTRA_TOME_V06_C07_FIELD_ACTIONS_OPERATORS_AND_CONSERVATION.pdf",
+        "bytes": 163276,
+        "sha256": "3eda9e4f8380ac349030ef11be7fa3e3a526da39aa93d92456c23a3021d5ceda"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_06_QUANTUM_AND_FIELD_REALIZATION/MK_ULTRA_TOME_V06_C07_FIELD_ACTIONS_OPERATORS_AND_CONSERVATION_VALIDATION.json",
+        "bytes": 2845,
+        "sha256": "6e8eea824596b48b730c2b5a7431a95476c88d523250093ba5d1b4e5c6de8f6d"
+      },
+      "pages": 7,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 49,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V06-C08",
+      "source_sha256": "80594837bdbb3a808a1c1e4e3d0503d7f2d9333641914899e7cb2cba3c6b237d",
+      "published_source_sha256": "80594837bdbb3a808a1c1e4e3d0503d7f2d9333641914899e7cb2cba3c6b237d",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1556,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_06_QUANTUM_AND_FIELD_REALIZATION/MK_ULTRA_TOME_V06_C08_MEASUREMENT_AND_READABLE_QUANTUM_STRUCTURE.pdf",
+        "bytes": 158249,
+        "sha256": "c9264d9df7d6e0735a40ee7a675687cc236fc1e596fa9600aec2e0a84c6fae3e"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_06_QUANTUM_AND_FIELD_REALIZATION/MK_ULTRA_TOME_V06_C08_MEASUREMENT_AND_READABLE_QUANTUM_STRUCTURE_VALIDATION.json",
+        "bytes": 2811,
+        "sha256": "753cc74974d3707a8251808bb10c90667a3d70b7310e683c1f503a394082c02f"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 56,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    }
+  ],
+  "raw_latex_guard": {
+    "result": "PASS_INHERITED_FROM_QUALIFIED_CHAPTER_RECEIPTS",
+    "hits": []
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V06-C01": "bbe0ed8fe61299cc384681aa74072ee4db4c72569b75b565e42df6934e8c79dd",
+    "V06-C02": "4e86562656a1fac3f18ea5693b201c5db49cca00ca7f7afcec7d7419332f9c01",
+    "V06-C03": "96cbcb58f12c675d2afda2ab21f9376639f2caf3634ef05fcec71b5e3a2cbfda",
+    "V06-C04": "6ebea64b239956864371d83d728dbdae36211b17d175ef489180b2bcd0f753a6",
+    "V06-C05": "34ff2a958c523343277f525b2d3d65d448614d74e1e5928759093c71cb857dc6",
+    "V06-C06": "564b38b4bc24a44daeeb8b37a4d967a2b7c0d6ed79d3c61d0196238aaa9101db",
+    "V06-C07": "384cefe9fe207960b9faffe33db0854ad04a1d27b1987b89080fa520df34a9bb",
+    "V06-C08": "80594837bdbb3a808a1c1e4e3d0503d7f2d9333641914899e7cb2cba3c6b237d"
+  },
+  "source_hashes_after": {
+    "V06-C01": "bbe0ed8fe61299cc384681aa74072ee4db4c72569b75b565e42df6934e8c79dd",
+    "V06-C02": "4e86562656a1fac3f18ea5693b201c5db49cca00ca7f7afcec7d7419332f9c01",
+    "V06-C03": "96cbcb58f12c675d2afda2ab21f9376639f2caf3634ef05fcec71b5e3a2cbfda",
+    "V06-C04": "6ebea64b239956864371d83d728dbdae36211b17d175ef489180b2bcd0f753a6",
+    "V06-C05": "34ff2a958c523343277f525b2d3d65d448614d74e1e5928759093c71cb857dc6",
+    "V06-C06": "564b38b4bc24a44daeeb8b37a4d967a2b7c0d6ed79d3c61d0196238aaa9101db",
+    "V06-C07": "384cefe9fe207960b9faffe33db0854ad04a1d27b1987b89080fa520df34a9bb",
+    "V06-C08": "80594837bdbb3a808a1c1e4e3d0503d7f2d9333641914899e7cb2cba3c6b237d"
+  },
+  "sealed_chapter_content_change_count": 0,
+  "duplicate_chapter_inputs": [],
+  "missing_chapter_inputs": []
+}

@@ -1,0 +1,125 @@
+{
+  "schema": "ASTRAEUS_DM_E063_VALIDATION_V1",
+  "baseline_source_hash_expected": "ee4819595f94a52565ab21c832c902ea4040e315f3f575b203c61e53740ed63a",
+  "baseline_source_hash_actual": "ee4819595f94a52565ab21c832c902ea4040e315f3f575b203c61e53740ed63a",
+  "baseline_hash_match": true,
+  "dm22_validation": {
+    "schema": "MK43_DARK_MATTER_API_VALIDATION_V22",
+    "status": "PASS",
+    "passed": 16,
+    "total": 16,
+    "tests": [
+      {
+        "name": "all_dm_objects_parent_attached",
+        "pass": true
+      },
+      {
+        "name": "reverse_depth1_novel",
+        "pass": true
+      },
+      {
+        "name": "reverse_depth2_growth",
+        "pass": true
+      },
+      {
+        "name": "constraint_parent_imported",
+        "pass": true
+      },
+      {
+        "name": "total_action_imported",
+        "pass": true
+      },
+      {
+        "name": "diffeo_imported",
+        "pass": true
+      },
+      {
+        "name": "particle_readable_imported",
+        "pass": true
+      },
+      {
+        "name": "constraint_embedding_defined",
+        "pass": true
+      },
+      {
+        "name": "covariant_action_defined",
+        "pass": true
+      },
+      {
+        "name": "er_branch_separation_defined",
+        "pass": true
+      },
+      {
+        "name": "embedding_still_open",
+        "pass": true
+      },
+      {
+        "name": "metric_action_still_open",
+        "pass": true
+      },
+      {
+        "name": "qualification_nonempty_still_open",
+        "pass": true
+      },
+      {
+        "name": "candidate_not_promoted",
+        "pass": true
+      },
+      {
+        "name": "child_scc_zero",
+        "pass": true
+      },
+      {
+        "name": "active_geometry_no_s5",
+        "pass": true
+      }
+    ]
+  },
+  "test_vector": {
+    "w_eff": 1.2,
+    "DeltaLambda_H": [
+      [
+        1.2,
+        -1.2
+      ],
+      [
+        -1.2,
+        1.2
+      ]
+    ],
+    "boundary_test_c": [
+      1.0,
+      0.0
+    ],
+    "Delta_j_H": [
+      1.2,
+      -1.2
+    ],
+    "Delta_rho_H": 0.5,
+    "lambda_eigenvalues": [
+      0.0,
+      2.4
+    ],
+    "joint_nonzero": true
+  },
+  "crawl_terminal": {
+    "state": "OPEN_FORK",
+    "iteration": 2,
+    "open_handles": [
+      "@dm_native_density_to_readable_source"
+    ],
+    "reason": "Registered dependency walk reached an explicitly open readout/transduction handle. Stop rather than invent its map."
+  },
+  "closure_certificate": "CC-DM-E063-001",
+  "parent_promotions": 0,
+  "physical_promotions": 0,
+  "db_counts": {
+    "edges": 876,
+    "qmos": 7,
+    "landscapes": 2,
+    "iterations": 2,
+    "promotions": 2,
+    "live_objects": 1,
+    "closure_certificates": 1
+  }
+}

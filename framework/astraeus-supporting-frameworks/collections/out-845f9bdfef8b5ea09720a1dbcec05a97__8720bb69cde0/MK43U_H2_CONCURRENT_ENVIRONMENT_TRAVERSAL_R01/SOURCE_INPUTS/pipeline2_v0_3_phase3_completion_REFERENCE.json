@@ -1,0 +1,421 @@
+{
+  "pipeline_name": "MK43U_Pipeline_2_5D_Phase3_Recursive_Interaction_Ecology",
+  "version": "0.3-phase3-completion-candidate",
+  "created_utc": "2026-05-27T17:47:41Z",
+  "status": "phase3_completion_candidate",
+  "replaces": "MK43U_Pipeline_2_5D_Recursive_Interaction_Ecology",
+  "phase_target": "Complete Phase 3: stable topology-dependent interaction laws",
+  "handoff_from": {
+    "pipeline_1": "T0_to_T7 Atomic-Profile Resolution Pipeline",
+    "pipeline_1_status": "frozen / canonical",
+    "expected_input": "resolved T7 manifold or resolved multi-manifold set from Pipeline 1",
+    "handoff_rule": "Pipeline 2 does not recreate atomic closure. It consumes resolved topology objects and evolves their interaction ecology.",
+    "cycle_rule": "For recursive equilibrium refinement, execute full-cycle recursion: Pipeline 1 T0\u2192T7, then Pipeline 2 R0\u2192R7, then return/de-resolve to T0 as needed for the next complete cycle. Do not max Pipeline 1 separately and then max Pipeline 2 separately."
+  },
+  "dimensional_contract": {
+    "declaration": "Pipeline 2 is explicitly 5D manifold-facing and must operate across the same dimensional capacity as the 5D manifold architecture.",
+    "manifold_shape_contract": {
+      "artifact_distribution_volume": "32x32x32 spatial occupancy domain unless explicitly upgraded",
+      "artifact_channel_axis": "11 canonical artifact / structural channels",
+      "set_lift_axis": "2-state chirality/set-lift component when present",
+      "accepted_primary_shapes": [
+        "(11,32,32,32)",
+        "(11,32,32,32,2)",
+        "multi-manifold collections of these shapes"
+      ],
+      "rule": "Pipeline 2 never treats the manifold as a flat 2D/3D visualization. Every region must preserve artifact-channel, chirality/set-lift, shell/closure, spatial occupancy, and ecological memory interfaces."
+    },
+    "five_interfaces": {
+      "D1_spatial_occupancy": "3D volume-level distribution, overlap, adjacency, shell-facing geometry, local density migration.",
+      "D2_shell_closure_topology": "resolved shell, closure boundary, core/shell separation, closure identity preservation.",
+      "D3_chirality_setlift": "chirality seed/state, handedness, set-lift polarity, ancestry recoverability, chirality pressure.",
+      "D4_artifact_channel": "11-channel structural artifact layer used as topology gates, registers, identity guards, and ecological interfaces.",
+      "D5_recursive_ecology_memory": "interaction history, coupling memory, perturbation recovery record, equilibrium convergence trace."
+    }
+  },
+  "artifact_chirality_io_policy": {
+    "summary": "Pipeline 2 is read-dominant at the chirality/artifact seed level. It may read, gate, and record through artifact channels, but it may not freely rewrite the chirality seed or artifact identity.",
+    "pipeline_1_policy": "write-dominant during T0\u2192T3 and closure-realization phases; reinforces chirality configuration and resolves atomic-profile topology.",
+    "pipeline_2_policy": "read-dominant ecological recursion; uses stabilized chirality configuration as authoritative constraint for allowed interactions.",
+    "allowed_operations": [
+      "read chirality baseline and artifact-channel integrity",
+      "gate continuity exchange through artifact-channel compatibility",
+      "record interaction memory without mutating seed identity",
+      "apply limited equilibrium correction to smooth ecological noise",
+      "mark composite-candidate traces only when R5 composite testing explicitly authorizes it"
+    ],
+    "forbidden_by_default": [
+      "rewrite chirality seed identity",
+      "overwrite artifact-channel identity",
+      "force a bond/corridor/shell-sharing state",
+      "collapse two artifact systems into one without composite authorization",
+      "mutate topology class during ordinary ecology traversal"
+    ],
+    "write_gate": "Only R5 Composite Topology Stabilization may request limited write authorization, and only to a separate composite register. Original manifold identities remain recoverable."
+  },
+  "phase3_completion_definition": {
+    "phase3_core_question": "How do recursive topologies interact without losing organizational coherence?",
+    "completion_gate": "Phase 3 is complete when interaction behavior is repeatable, topology-dependent, environmentally mediated, persistently stabilized, and identity-preserving across full-cycle recursion.",
+    "required_verified_capabilities": [
+      "stable coupling classification",
+      "persistent corridor or shell-sharing retention when topology permits",
+      "controlled continuity transfer without chirality seed rewrite",
+      "stable composite topology candidate detection without identity collapse",
+      "interaction hierarchy classification",
+      "environmental dependence scanning",
+      "multi-manifold ecology arbitration"
+    ],
+    "failure_conditions": [
+      "chirality seed overwrite during ordinary R0-R7 traversal",
+      "artifact-channel identity mutation outside authorized composite register",
+      "runaway coupling amplification",
+      "topology merger when identity preservation is required",
+      "loss of recursive recoverability",
+      "interaction behavior becomes identical across topology classes"
+    ]
+  },
+  "governing_invariants": {
+    "recursive_recoverability": "Every output must remain reverse-traversable into a recoverable ancestry state unless an instability test intentionally breaks the state.",
+    "chirality_conservation": "Pipeline 2 preserves chirality ancestry as a read-dominant invariant; it may measure, gate, and record against chirality, not rewrite it.",
+    "admissibility": "Interactions must emerge only when topology, shell ecology, chirality compatibility, and continuity bandwidth allow them.",
+    "equilibrium_saturation": "Coupling should converge toward an admissible equilibrium, not strengthen without bound.",
+    "identity_in_ecology": "A coupled ecology may become a higher-order system while preserving substructure identity maps.",
+    "full_cycle_recursion": "Preferred refinement cycle is Pipeline1 T0\u2192T7 followed by Pipeline2 R0\u2192R7, then de-resolution/return as needed for the next full cycle."
+  },
+  "new_phase3_registers": {
+    "coupling_class_register": {
+      "purpose": "Classifies observed interaction as shell-sharing, bounded corridor, cyclic persistence, suppression, neutral coexistence, or composite candidate.",
+      "write_policy": "May write ecology metadata only; may not rewrite source manifold artifact/chirality identity.",
+      "fields": [
+        "pair_id",
+        "topology_classes",
+        "coupling_class",
+        "strength_band",
+        "symmetry_type",
+        "persistence_score",
+        "identity_preservation_score",
+        "cycle_count"
+      ]
+    },
+    "continuity_transfer_register": {
+      "purpose": "Tracks controlled exchange/redistribution across interaction surfaces.",
+      "write_policy": "Records transfer measurements and gates; does not write to chirality seed.",
+      "fields": [
+        "exchange_direction",
+        "exchange_symmetry",
+        "occupancy_transfer_score",
+        "chirality_pressure_delta",
+        "shell_influence_score",
+        "closure_integrity_score"
+      ]
+    },
+    "corridor_memory_register": {
+      "purpose": "Stores bounded corridor survivability and recurrence traces for nitrogen-like topology classes.",
+      "fields": [
+        "corridor_axis",
+        "boundedness_score",
+        "multi_cycle_retention",
+        "recovery_after_perturbation",
+        "collapse_risk"
+      ]
+    },
+    "shell_sharing_memory_register": {
+      "purpose": "Stores symmetric accommodation history for hydrogen-like topology classes.",
+      "fields": [
+        "shared_shell_surface",
+        "overlap_band",
+        "synchronization_score",
+        "volatility_score",
+        "saturation_state"
+      ]
+    },
+    "environmental_arbitration_register": {
+      "purpose": "Tracks interaction preference, suppression, and competition in A+B+C+D ecology environments.",
+      "fields": [
+        "participants",
+        "preferred_links",
+        "suppressed_links",
+        "competition_zones",
+        "selected_equilibrium",
+        "unstable_boundaries"
+      ]
+    },
+    "composite_candidate_register": {
+      "purpose": "Only R5 may write here. Stores higher-order coupled topology candidates while preserving original identity maps.",
+      "write_policy": "Authorized R5-only separate register; original manifold identities must remain recoverable.",
+      "fields": [
+        "candidate_id",
+        "substructure_identity_map",
+        "shared_continuity_scaffold",
+        "composite_persistence_score",
+        "reversibility_score"
+      ]
+    }
+  },
+  "pipeline_regions": [
+    {
+      "region": "R0",
+      "name": "Resolved Entry / Identity Registration",
+      "phase3_role": "Prevents false coupling by authenticating resolved Pipeline 1 outputs before ecological interaction.",
+      "read_write_mode": "read-dominant; ecology memory initialization only",
+      "five_dimensional_actions": [
+        "D1: establish spatial occupancy boundaries and adjacency domain",
+        "D2: register shell/closure identity and persistence floor",
+        "D3: read chirality/set-lift ancestry baseline",
+        "D4: audit artifact-channel integrity",
+        "D5: initialize ecology memory registers"
+      ],
+      "outputs": [
+        "identity lock",
+        "admissibility baseline",
+        "interaction-safe participant set"
+      ]
+    },
+    {
+      "region": "R1",
+      "name": "Interaction Surface Mapping",
+      "phase3_role": "Finds where topologies may interact without forcing interaction.",
+      "read_write_mode": "read-only plus surface-map recording",
+      "five_dimensional_actions": [
+        "D1: map overlap, distance, adjacency, facing surfaces",
+        "D2: identify shell-sharing surfaces and closure compression zones",
+        "D3: compare chirality compatibility and chirality pressure",
+        "D4: identify artifact-channel gates that permit/suppress exchange",
+        "D5: write candidate interaction surfaces to coupling-class register"
+      ],
+      "outputs": [
+        "surface map",
+        "compatibility matrix",
+        "suppression map",
+        "candidate coupling class"
+      ]
+    },
+    {
+      "region": "R2",
+      "name": "Controlled Continuity Transfer Gate",
+      "phase3_role": "Primary Phase 3 upgrade: allows measured continuity redistribution without seed rewrite or topology merger.",
+      "read_write_mode": "gated ecological write to transfer registers; no chirality/artifact identity writes",
+      "five_dimensional_actions": [
+        "D1: measure occupancy transfer and local density migration",
+        "D2: propagate shell influence while preserving closure integrity",
+        "D3: measure chirality flow pressure without rewriting chirality seed",
+        "D4: use artifact channels as gates/regulators",
+        "D5: record continuity exchange history and saturation trend"
+      ],
+      "outputs": [
+        "regulated exchange profile",
+        "identity-safe transfer score",
+        "closure integrity score"
+      ],
+      "completion_metric": "nonzero controlled transfer with high identity preservation"
+    },
+    {
+      "region": "R3",
+      "name": "Persistent Coupling Memory",
+      "phase3_role": "Converts admissible temporary interaction into repeatable persistent ecology when topology permits.",
+      "read_write_mode": "writes coupling memory registers only",
+      "five_dimensional_actions": [
+        "D1: stabilize recurring overlap/shell/corridor geometry",
+        "D2: measure multi-cycle shell/corridor persistence",
+        "D3: verify chirality ancestry recoverability after coupling",
+        "D4: preserve artifact-channel identity while recording memory",
+        "D5: store coupling class, recurrence score, and saturation state"
+      ],
+      "outputs": [
+        "persistent shell-sharing memory",
+        "persistent corridor memory",
+        "coupling saturation estimate"
+      ],
+      "completion_metric": "coupling survives repeated R0-R7 and full-cycle recursion without identity loss"
+    },
+    {
+      "region": "R4",
+      "name": "Ecological Perturbation Probe",
+      "phase3_role": "Phase 4 bridge; used during Phase 3 only to test whether interaction persistence survives mild perturbation.",
+      "read_write_mode": "read-dominant perturbation audit; records recovery only",
+      "five_dimensional_actions": [
+        "D1: inject mild surface/occupancy stress",
+        "D2: measure closure deformation and recovery",
+        "D3: monitor chirality imbalance without rewriting seed",
+        "D4: verify artifact-channel guard rails under stress",
+        "D5: record recovery pathway and instability boundary"
+      ],
+      "outputs": [
+        "recovery threshold",
+        "resonance precursor signature",
+        "instability boundary"
+      ],
+      "note": "Full excitation theory belongs to Phase 4; here R4 only validates Phase 3 persistence robustness."
+    },
+    {
+      "region": "R5",
+      "name": "Composite Topology Candidate Gate",
+      "phase3_role": "Determines whether interacting manifolds are beginning to act as a higher-order ecology without erasing source identity.",
+      "read_write_mode": "limited write authorization to separate composite_candidate_register only",
+      "five_dimensional_actions": [
+        "D1: detect shared spatial scaffold",
+        "D2: detect higher-order closure ecology",
+        "D3: verify source chirality baselines remain recoverable",
+        "D4: preserve original artifact-channel identities; write only composite register",
+        "D5: measure composite persistence and reversibility"
+      ],
+      "outputs": [
+        "composite candidate or rejection",
+        "substructure identity map",
+        "composite persistence score"
+      ],
+      "completion_metric": "candidate higher-order behavior exists while original identities remain recoverable"
+    },
+    {
+      "region": "R6",
+      "name": "Interaction Hierarchy / Environmental Arbitration",
+      "phase3_role": "Classifies preferences, suppression, competition, and equilibrium selection in pair and multi-manifold environments.",
+      "read_write_mode": "ecology-classification writes only",
+      "five_dimensional_actions": [
+        "D1: map competing spatial interaction zones",
+        "D2: compare shell, corridor, cyclic, neutral, and suppression outcomes",
+        "D3: arbitrate chirality compatibility conflicts",
+        "D4: use artifact channels as compatibility gates",
+        "D5: record selected equilibrium and rejected alternatives"
+      ],
+      "outputs": [
+        "interaction hierarchy table",
+        "environmental selection map",
+        "suppression/interference map"
+      ],
+      "completion_metric": "different topology pairings produce repeatable distinct outcomes"
+    },
+    {
+      "region": "R7",
+      "name": "Stable Recursive Interaction Ecology Closure",
+      "phase3_role": "Final Phase 3 closure state for persistent topology-dependent interaction laws.",
+      "read_write_mode": "closure record; no chirality/artifact seed rewrite",
+      "five_dimensional_actions": [
+        "D1: freeze final ecology geometry for audit/reversal",
+        "D2: verify closure identity and interaction class persistence",
+        "D3: verify chirality conservation and recoverability",
+        "D4: verify artifact-channel integrity",
+        "D5: output recursive ecology state with memory registers"
+      ],
+      "outputs": [
+        "R7 ecology state",
+        "phase3 coupling report",
+        "reverse traversal audit state"
+      ],
+      "completion_metric": "R7 state can reverse toward R0/T0 with high chirality and identity correlation"
+    }
+  ],
+  "benchmark_expectations": {
+    "H_plus_H": {
+      "expected_coupling": "weak symmetric shell-sharing equilibrium",
+      "must_not": "bounded nitrogen corridor, topology merger, runaway strengthening",
+      "phase3_success": "coupling persists across full-cycle recursion and saturates at stable equilibrium"
+    },
+    "N_plus_N": {
+      "expected_coupling": "bounded chirality corridor persistence",
+      "must_not": "hydrogen-style only diffuse overlap, identity collapse",
+      "phase3_success": "corridor survives cycles and carries controlled continuity exchange"
+    },
+    "C6H6": {
+      "expected_coupling": "distributed cyclic persistence ecology",
+      "must_not": "collapse into six independent local cores",
+      "phase3_success": "cyclic continuity survives perturbation and ecology traversal"
+    },
+    "mixed_pairs": {
+      "expected_coupling": "hierarchy, suppression, compatibility, or neutral coexistence based on topology",
+      "phase3_success": "outcomes are repeatable and topology-dependent"
+    },
+    "A_B_C_D_environment": {
+      "expected_coupling": "multi-manifold arbitration; selected equilibrium or documented instability boundary",
+      "phase3_success": "ecology stabilizes or fails with interpretable cause"
+    }
+  },
+  "phase3_test_sequence": [
+    {
+      "id": "P2v03-001",
+      "name": "R0 5D identity registration audit",
+      "inputs": [
+        "H",
+        "N",
+        "N2",
+        "C6H6"
+      ],
+      "gate": "all pass chirality/artifact identity checks"
+    },
+    {
+      "id": "P2v03-002",
+      "name": "H+H controlled continuity exchange",
+      "inputs": [
+        "H+H"
+      ],
+      "gate": "nonzero shell-sharing transfer, no merger, no runaway"
+    },
+    {
+      "id": "P2v03-003",
+      "name": "H+H three full-cycle equilibrium",
+      "inputs": [
+        "H+H"
+      ],
+      "gate": "asymptotic weak shell-sharing convergence"
+    },
+    {
+      "id": "P2v03-004",
+      "name": "N+N corridor memory",
+      "inputs": [
+        "N+N"
+      ],
+      "gate": "bounded corridor persists across cycles"
+    },
+    {
+      "id": "P2v03-005",
+      "name": "N+N continuity transfer through corridor",
+      "inputs": [
+        "N+N"
+      ],
+      "gate": "regulated transfer without identity loss"
+    },
+    {
+      "id": "P2v03-006",
+      "name": "C6H6 cyclic persistence under R4 probe",
+      "inputs": [
+        "C6H6"
+      ],
+      "gate": "cyclic recovery and no fragmentation"
+    },
+    {
+      "id": "P2v03-007",
+      "name": "mixed pair hierarchy scan",
+      "inputs": [
+        "H+N",
+        "H+C6H6",
+        "N+C6H6"
+      ],
+      "gate": "repeatable interaction classification"
+    },
+    {
+      "id": "P2v03-008",
+      "name": "A+B+C+D multi-manifold arbitration",
+      "inputs": [
+        "selected four topology environment"
+      ],
+      "gate": "stable recursive ecology or interpretable failure boundary"
+    },
+    {
+      "id": "P2v03-009",
+      "name": "reverse recovery audit",
+      "inputs": [
+        "R7 outputs"
+      ],
+      "gate": "high chirality/identity/artifact recovery correlation"
+    }
+  ],
+  "phase4_handoff": {
+    "ready_when": [
+      "P2v03-001 through P2v03-009 pass or produce interpretable failure boundaries",
+      "coupling classes remain distinct across H+H, N+N, C6H6, and mixed pairs",
+      "controlled continuity transfer is observed without chirality seed rewrite",
+      "R4 perturbation probe identifies recovery thresholds but does not require full excitation theory"
+    ],
+    "phase4_begins_with": "formal perturbation/excitation response using R4 as the gateway region"
+  }
+}

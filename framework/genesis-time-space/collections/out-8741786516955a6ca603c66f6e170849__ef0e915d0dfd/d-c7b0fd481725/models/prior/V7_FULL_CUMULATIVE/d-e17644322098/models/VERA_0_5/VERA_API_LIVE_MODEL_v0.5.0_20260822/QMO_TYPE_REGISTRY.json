@@ -1,0 +1,79 @@
+{
+  "schema": "ASTRAEUS_QMO_TYPE_REGISTRY_V1",
+  "api_release": "0.8.0",
+  "principle": "QMO type describes mathematical/API role. The @ prefix is an address syntax, not a type declaration.",
+  "types": [
+    {
+      "type": "source_backed_qmo",
+      "role": "Recovered or mounted mathematical object with source provenance."
+    },
+    {
+      "type": "derived_qmo",
+      "role": "Object derived internally from admitted objects/rules."
+    },
+    {
+      "type": "operator_qmo",
+      "role": "Mathematical semantics of an operator/constructor; may have a structural command backing."
+    },
+    {
+      "type": "equation_qmo",
+      "role": "Registered equation/expression object."
+    },
+    {
+      "type": "theorem_qmo",
+      "role": "Registered theorem object with assumptions/conclusion."
+    },
+    {
+      "type": "witness_qmo",
+      "role": "Identity/recovery/provenance witness object."
+    },
+    {
+      "type": "defect_qmo",
+      "role": "Counterexample, obstruction, mismatch, or failure-set object."
+    },
+    {
+      "type": "handoff_qmo",
+      "role": "Cross-Resolution/transduction handoff or compatibility object."
+    },
+    {
+      "type": "history_signature_qmo",
+      "role": "Recoverable History/holonomy signature or compressed lineage object."
+    },
+    {
+      "type": "dependency_graph_qmo",
+      "role": "Focused typed graph over registered QMO dependencies."
+    },
+    {
+      "type": "dependency_landscape_qmo",
+      "role": "Recursive/merged dependency network QMO."
+    },
+    {
+      "type": "dependency_chain_qmo",
+      "role": "Ordered history-bearing sequence of graph/landscape/crawl resolutions."
+    },
+    {
+      "type": "closed_subdomain_qmo",
+      "role": "A dependency chain/object proven closed under its declared subdomain contract."
+    },
+    {
+      "type": "frontier_qmo",
+      "role": "Active unresolved mathematical question represented as an addressable object."
+    },
+    {
+      "type": "candidate_qmo",
+      "role": "Unpromoted object awaiting counterexample/closure testing."
+    },
+    {
+      "type": "closed_landscape_qmo",
+      "role": "Closure envelope that bounds an admitted mathematical runtime/domain."
+    },
+    {
+      "type": "iteration_function_qmo",
+      "role": "Mathematical functional defining bounded recursive iteration over QMO states."
+    },
+    {
+      "type": "iteration_run_qmo",
+      "role": "History-bearing execution/result object of a bounded mathematical iteration."
+    }
+  ]
+}

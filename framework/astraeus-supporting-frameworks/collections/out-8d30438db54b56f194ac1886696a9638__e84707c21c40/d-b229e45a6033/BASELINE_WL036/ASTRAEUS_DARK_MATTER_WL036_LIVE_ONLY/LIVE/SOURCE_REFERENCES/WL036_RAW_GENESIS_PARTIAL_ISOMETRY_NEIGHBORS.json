@@ -1,0 +1,38 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_NEIGHBORS_V1",
+  "handle": "@genesis_partial_isometry",
+  "incoming": [
+    [
+      "@mote_creation_operator",
+      {
+        "source": "@mote_creation_operator",
+        "relation": "DIRECTED_TO",
+        "target": "@genesis_partial_isometry",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50111->50112",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ]
+  ],
+  "outgoing": [
+    [
+      "@mote_hilbert_space",
+      {
+        "source": "@genesis_partial_isometry",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_hilbert_space",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50114->50115",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ]
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry"
+}

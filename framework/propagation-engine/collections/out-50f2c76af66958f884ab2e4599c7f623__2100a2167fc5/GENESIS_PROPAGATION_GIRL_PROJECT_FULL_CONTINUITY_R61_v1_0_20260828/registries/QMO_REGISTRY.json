@@ -1,0 +1,142 @@
+[
+  {
+    "address": "@primitive/unbounded_environment",
+    "name": "Unbounded Environment",
+    "type": "toy_domain",
+    "status": "ADMITTED",
+    "definition": "Environment extending without bound in all directions; no absolute frame is inferred."
+  },
+  {
+    "address": "@primitive/first_fold",
+    "name": "First Fold / Boundary",
+    "type": "primitive_relation",
+    "status": "SOURCE_LOCKED",
+    "definition": "Boundary creates distinct addresses/localization without necessarily creating distinct identity."
+  },
+  {
+    "address": "@qmo/oriented_dependency",
+    "name": "Oriented Dependency Edge",
+    "type": "directed_relation",
+    "status": "SOURCE_LOCKED",
+    "definition": "Address relation x->y selected by traversal orientation."
+  },
+  {
+    "address": "@qmo/two_ball_relation",
+    "name": "Two-Ball Relational State",
+    "type": "relational_configuration",
+    "status": "CLOSED_TOY_MODEL",
+    "definition": "Rel(B1,B2), with congruent unit-radius objects and no required absolute coordinates."
+  },
+  {
+    "address": "@qmo/diameter_calibration",
+    "name": "Ball-Diameter Calibration",
+    "type": "metric_readout",
+    "status": "CLOSED_TOY_MODEL",
+    "definition": "D12=d12/(2r); r=1 gives D12=d12/2."
+  },
+  {
+    "address": "@qmo/boundary_length_calibration",
+    "name": "Boundary-Derived Length",
+    "type": "geometric_readout",
+    "status": "CLOSED_GEOMETRIC",
+    "definition": "ell_B=sqrt(Area(\u2202B)/(4*pi))=r for a sphere."
+  },
+  {
+    "address": "@qmo/common_mode_propagation",
+    "name": "Common-Mode Propagation",
+    "type": "relational_invariance",
+    "status": "CLOSED_TOY_MODEL",
+    "definition": "Ambient/field occupancy can change while pair relational configuration remains invariant."
+  },
+  {
+    "address": "@qmo/genesis_projection_operator",
+    "name": "Genesis Projection Operator",
+    "type": "organizational_projection",
+    "status": "SOURCE_MOUNTED",
+    "definition": "Pi=sum_d I_d B_d R_d O_d C_d."
+  },
+  {
+    "address": "@qmo/transport",
+    "name": "Transport",
+    "type": "source_operator",
+    "status": "SOURCE_DEFINED",
+    "definition": "Connection-selected state motion along a dependency arrow under fixed base/dependency context."
+  },
+  {
+    "address": "@qmo/transduction",
+    "name": "Transduction",
+    "type": "source_operator",
+    "status": "SOURCE_DEFINED",
+    "definition": "Admissible typed transformation that may change dependency/base context."
+  },
+  {
+    "address": "@qmo/parallel_transport",
+    "name": "Parallel Transport",
+    "type": "source_operator",
+    "status": "SOURCE_DEFINED",
+    "definition": "P_gamma^Conn=lambda_fn o ... o lambda_f1."
+  },
+  {
+    "address": "@qmo/corridor_transport",
+    "name": "Corridor Transport",
+    "type": "source_operator",
+    "status": "SOURCE_DEFINED",
+    "definition": "P_W:dXi_alpha->dXi_beta."
+  },
+  {
+    "address": "@qmo/identity_witness",
+    "name": "Identity Witness",
+    "type": "history_identity",
+    "status": "SOURCE_DEFINED",
+    "definition": "W_Id(x,y;h) certifies two endpoint realizations belong to one declared Identity through History."
+  },
+  {
+    "address": "@qmo/portal_token",
+    "name": "Rainbow Road Portal Token",
+    "type": "transaction_token",
+    "status": "SOURCE_DEFINED",
+    "definition": "p=(id_p,x,ell,y,h_p)."
+  },
+  {
+    "address": "@qmo/propagation_morphism",
+    "name": "Propagation Morphism",
+    "type": "derived_synthesis",
+    "status": "STRONG_CANDIDATE",
+    "definition": "Admissible History-bearing identity-preserving transformation between relational occupancy states."
+  },
+  {
+    "address": "@qmo/propagation_vector",
+    "name": "Propagation Vector",
+    "type": "derived_readout",
+    "status": "STRONG_CANDIDATE",
+    "definition": "Resolution-dependent geometric readout of the propagation morphism where the chosen carrier supports directed displacement."
+  },
+  {
+    "address": "@qmo/riemann_sphere_sandbox",
+    "name": "Riemann Sphere Sandbox",
+    "type": "relational_geometry",
+    "status": "TOY_MODEL",
+    "definition": "C-hat\u2245S2 used as a compact 2D relational sandbox; not substituted for 3D one-point compactification."
+  },
+  {
+    "address": "@qmo/fractal_projection_signature",
+    "name": "Fractal Projection Signature",
+    "type": "resolution_signature",
+    "status": "CANDIDATE",
+    "definition": "Identity/readout signature across recursive projection depths."
+  },
+  {
+    "address": "@qmo/house_inheritance_graph",
+    "name": "House Inheritance Graph",
+    "type": "inheritance_toy_model",
+    "status": "ACTIVE",
+    "definition": "Object->Room->House->Earth->Solar System->Galaxy->Universe->Universe with local self-inheritance closures."
+  },
+  {
+    "address": "@qmo/propagation_morphism_vector_bridge",
+    "name": "Propagation Morphism-to-Vector Bridge",
+    "type": "next_test",
+    "status": "READY",
+    "definition": "Cross-model test of conditions under which source-native propagation morphisms admit resolved vector representations."
+  }
+]

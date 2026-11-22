@@ -1,0 +1,311 @@
+{
+  "inputs": [
+    {
+      "handle": "@history_holonomy",
+      "kind": "qmo"
+    },
+    {
+      "handle": "@holonomy_history_signature",
+      "kind": "qmo"
+    },
+    {
+      "handle": "@recovery_discriminator",
+      "kind": "qmo"
+    }
+  ],
+  "roots": [
+    "@history_holonomy",
+    "@holonomy_history_signature",
+    "@recovery_discriminator"
+  ],
+  "member_qmos": [
+    "@core_witness_collision",
+    "@dependency_chain",
+    "@formal_object",
+    "@handoff_merge_fiber",
+    "@history_bearing_return",
+    "@history_holonomy",
+    "@history_trace",
+    "@holonomy_history_signature",
+    "@it_recovery_witness_1m_ceiling",
+    "@rainbow_road_recursive_domain",
+    "@recovery_discriminator",
+    "@recovery_history_signature_minimality",
+    "@recovery_provenance_bundle",
+    "@recovery_witness_counterexample_crawl",
+    "@witness_bundle_core",
+    "@witness_bundle_history_augmented"
+  ],
+  "member_edge_ids": [
+    "E-00076",
+    "E-00088",
+    "E-00140",
+    "E-00141",
+    "E-00142",
+    "E-00143",
+    "E-00144",
+    "E-00146",
+    "E-00147",
+    "E-00148",
+    "E-00149",
+    "E-00162",
+    "E-00205",
+    "RR-00126",
+    "RR-00135"
+  ],
+  "member_edges": [
+    {
+      "edge_id": "E-00076",
+      "source": "@formal_object",
+      "relation": "MAY_RETAIN",
+      "target": "@history_trace",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00088",
+      "source": "@recovery_provenance_bundle",
+      "relation": "MAY_INCLUDE",
+      "target": "@history_trace",
+      "graph_family": "object_math",
+      "status": "DERIVED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00140",
+      "source": "@handoff_merge_fiber",
+      "relation": "TESTED_BY",
+      "target": "@core_witness_collision",
+      "graph_family": "recovery",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "CE-RW-001"
+      ]
+    },
+    {
+      "edge_id": "E-00141",
+      "source": "@core_witness_collision",
+      "relation": "REFUTES_UNQUALIFIED_UNIVERSAL_SUFFICIENCY_OF",
+      "target": "@witness_bundle_core",
+      "graph_family": "recovery",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "CE-RW-001"
+      ]
+    },
+    {
+      "edge_id": "E-00142",
+      "source": "@core_witness_collision",
+      "relation": "REQUIRES",
+      "target": "@recovery_discriminator",
+      "graph_family": "recovery",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "CE-RW-001"
+      ]
+    },
+    {
+      "edge_id": "E-00143",
+      "source": "@history_trace",
+      "relation": "REALIZES_FOR_COUNTEREXAMPLE",
+      "target": "@recovery_discriminator",
+      "graph_family": "recovery",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "CE-RW-001"
+      ]
+    },
+    {
+      "edge_id": "E-00144",
+      "source": "@witness_bundle_history_augmented",
+      "relation": "SEPARATES",
+      "target": "@core_witness_collision",
+      "graph_family": "recovery",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "CE-RW-001"
+      ]
+    },
+    {
+      "edge_id": "E-00146",
+      "source": "@recovery_witness_counterexample_crawl",
+      "relation": "ADVANCES_TO",
+      "target": "@recovery_history_signature_minimality",
+      "graph_family": "recovery",
+      "status": "SELF_BUILD_FRONTIER",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_003"
+      ]
+    },
+    {
+      "edge_id": "E-00147",
+      "source": "@recovery_history_signature_minimality",
+      "relation": "QUERIES",
+      "target": "@history_holonomy",
+      "graph_family": "recovery",
+      "status": "SELF_BUILD_FRONTIER",
+      "confidence": "high",
+      "audit_status": "source_aligned",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "FIVE_BRANCH_NATIVE_CORPUS"
+      ]
+    },
+    {
+      "edge_id": "E-00148",
+      "source": "@recovery_history_signature_minimality",
+      "relation": "QUERIES",
+      "target": "@holonomy_history_signature",
+      "graph_family": "recovery",
+      "status": "SELF_BUILD_FRONTIER",
+      "confidence": "high",
+      "audit_status": "source_aligned",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "FIVE_BRANCH_NATIVE_CORPUS"
+      ]
+    },
+    {
+      "edge_id": "E-00149",
+      "source": "@recovery_history_signature_minimality",
+      "relation": "TESTS",
+      "target": "@recovery_discriminator",
+      "graph_family": "recovery",
+      "status": "SELF_BUILD_FRONTIER",
+      "confidence": "high",
+      "audit_status": "source_aligned",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "FIVE_BRANCH_NATIVE_CORPUS"
+      ]
+    },
+    {
+      "edge_id": "E-00162",
+      "source": "@dependency_chain",
+      "relation": "PRESERVES",
+      "target": "@history_trace",
+      "graph_family": "chain_architecture",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_chain"
+      ]
+    },
+    {
+      "edge_id": "E-00205",
+      "source": "@it_recovery_witness_1m_ceiling",
+      "relation": "TERMINATES_AT",
+      "target": "@recovery_history_signature_minimality",
+      "graph_family": "iteration_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_bounded_qmo_iteration",
+        "QMO:@object_resolution_recovery_witness_minimality",
+        "QMO:@bounded_recursive_iteration",
+        "QMO:@bounded_dependency_crawl",
+        "QMO:@dc_recovery_witness_to_signature"
+      ]
+    },
+    {
+      "edge_id": "RR-00126",
+      "source": "@history_bearing_return",
+      "relation": "PRESERVES",
+      "target": "@history_trace",
+      "graph_family": "rainbow_runtime",
+      "status": "DERIVED_CLOSED",
+      "confidence": "high",
+      "audit_status": "closure_contract",
+      "provenance": [
+        "LIVE_MODEL::NF-007"
+      ]
+    },
+    {
+      "edge_id": "RR-00135",
+      "source": "@rainbow_road_recursive_domain",
+      "relation": "RETAINS",
+      "target": "@history_trace",
+      "graph_family": "rainbow_runtime",
+      "status": "DERIVED_CLOSED",
+      "confidence": "high",
+      "audit_status": "closure_contract",
+      "provenance": [
+        "LIVE_MODEL::NF-007"
+      ]
+    }
+  ],
+  "statistics": {
+    "qmo_count": 16,
+    "edge_count": 15
+  },
+  "resolution_context": {
+    "operator": "@resolution",
+    "policy": "PRESERVE_MEMBER_RESOLUTION_STATE; NO_EXTRA_QUOTIENT_BY_LANDSCAPE",
+    "landscape_resolution": "QUERY_RELATIVE_AND_HISTORY_BEARING"
+  },
+  "bandwidth_context": {
+    "operator": "@bandwidth_algebra",
+    "policy": "REGISTERED_EDGE_AVAILABILITY_ONLY; LANDSCAPE_DOES_NOT_INVENT_AVAILABLE_TRANSFORMATIONS",
+    "landscape_bandwidth": "AVAILABLE_MEMBER_DEPENDENCY_STRUCTURE"
+  },
+  "landscape_id": "DL-edfbacd57ec3",
+  "qmo_address": "@dl_recovery_history_signature_core",
+  "canonical_name": "Dependency Landscape: @history_holonomy, @holonomy_history_signature, @recovery_discriminator",
+  "status": "DERIVED_CLOSED_INTERNAL",
+  "construction": {
+    "operator": "@dependency_landscape",
+    "depth": 2,
+    "direction": "bidirectional",
+    "edge_policy": "REGISTERED_EDGES_ONLY",
+    "member_claim_promotion": false
+  },
+  "history": {
+    "policy": "APPEND_ONLY",
+    "created_in_api_release": "0.8.0",
+    "created_live_model_revision": "v0.21.0",
+    "parent_landscapes": [],
+    "parent_graphs": [],
+    "parent_qmos": [
+      "@history_holonomy",
+      "@holonomy_history_signature",
+      "@recovery_discriminator"
+    ]
+  },
+  "provenance": [
+    "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+    "GENESIS_DIRECTION::2026-08-22",
+    "RUNTIME_REGISTER",
+    "QMO:@history_holonomy",
+    "QMO:@holonomy_history_signature",
+    "QMO:@recovery_discriminator"
+  ],
+  "semantic_guard": "Landscape membership preserves member status; registration does not promote member claims."
+}

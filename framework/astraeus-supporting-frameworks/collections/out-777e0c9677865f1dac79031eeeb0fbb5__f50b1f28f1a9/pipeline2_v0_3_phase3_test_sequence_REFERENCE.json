@@ -1,0 +1,82 @@
+{
+  "test_plan_name": "Pipeline_2_v0_3_Phase3_Completion_Battery",
+  "tests": [
+    {
+      "id": "P2v03-001",
+      "name": "R0 5D identity registration audit",
+      "inputs": [
+        "H",
+        "N",
+        "N2",
+        "C6H6"
+      ],
+      "gate": "all pass chirality/artifact identity checks"
+    },
+    {
+      "id": "P2v03-002",
+      "name": "H+H controlled continuity exchange",
+      "inputs": [
+        "H+H"
+      ],
+      "gate": "nonzero shell-sharing transfer, no merger, no runaway"
+    },
+    {
+      "id": "P2v03-003",
+      "name": "H+H three full-cycle equilibrium",
+      "inputs": [
+        "H+H"
+      ],
+      "gate": "asymptotic weak shell-sharing convergence"
+    },
+    {
+      "id": "P2v03-004",
+      "name": "N+N corridor memory",
+      "inputs": [
+        "N+N"
+      ],
+      "gate": "bounded corridor persists across cycles"
+    },
+    {
+      "id": "P2v03-005",
+      "name": "N+N continuity transfer through corridor",
+      "inputs": [
+        "N+N"
+      ],
+      "gate": "regulated transfer without identity loss"
+    },
+    {
+      "id": "P2v03-006",
+      "name": "C6H6 cyclic persistence under R4 probe",
+      "inputs": [
+        "C6H6"
+      ],
+      "gate": "cyclic recovery and no fragmentation"
+    },
+    {
+      "id": "P2v03-007",
+      "name": "mixed pair hierarchy scan",
+      "inputs": [
+        "H+N",
+        "H+C6H6",
+        "N+C6H6"
+      ],
+      "gate": "repeatable interaction classification"
+    },
+    {
+      "id": "P2v03-008",
+      "name": "A+B+C+D multi-manifold arbitration",
+      "inputs": [
+        "selected four topology environment"
+      ],
+      "gate": "stable recursive ecology or interpretable failure boundary"
+    },
+    {
+      "id": "P2v03-009",
+      "name": "reverse recovery audit",
+      "inputs": [
+        "R7 outputs"
+      ],
+      "gate": "high chirality/identity/artifact recovery correlation"
+    }
+  ]
+}

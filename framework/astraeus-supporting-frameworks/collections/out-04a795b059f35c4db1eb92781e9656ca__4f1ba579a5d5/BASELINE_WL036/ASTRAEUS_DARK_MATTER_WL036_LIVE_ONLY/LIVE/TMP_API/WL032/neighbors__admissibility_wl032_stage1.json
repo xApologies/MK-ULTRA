@@ -1,0 +1,184 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_NEIGHBORS_V1",
+  "handle": "@admissibility",
+  "incoming": [
+    [
+      "@inheritance",
+      {
+        "source": "@inheritance",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@admissibility",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56131->56133",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@inheritance",
+      {
+        "source": "@inheritance",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@admissibility",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "API_CODE_BLOCK:56133;CANONICAL_API_VERTICAL:56131->56133",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@orientation",
+      {
+        "source": "@orientation",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@admissibility",
+        "graph_family": "audit",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:48395->48397",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@dm_local_continuity_response_coefficient",
+      {
+        "source": "@dm_local_continuity_response_coefficient",
+        "relation": "DEPENDS_ON",
+        "target": "@admissibility",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      }
+    ],
+    [
+      "@dm_runtime_transition_capacity",
+      {
+        "source": "@dm_runtime_transition_capacity",
+        "relation": "DEPENDS_ON",
+        "target": "@admissibility",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      }
+    ]
+  ],
+  "outgoing": [
+    [
+      "@admissible_continuation",
+      {
+        "source": "@admissibility",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@admissible_continuation",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56133->56135",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@admissible_continuation",
+      {
+        "source": "@admissibility",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@admissible_continuation",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "API_CODE_BLOCK:56135;CANONICAL_API_VERTICAL:56133->56135;CANONICAL_API_VERTICAL:56542->56544",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@native_causal_order",
+      {
+        "source": "@admissibility",
+        "relation": "DIRECTED_TO",
+        "target": "@native_causal_order",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54778->54779",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@native_causal_order",
+      {
+        "source": "@admissibility",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@native_causal_order",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DEPENDSON:53952",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@native_constraint_closure",
+      {
+        "source": "@admissibility",
+        "relation": "DIRECTED_TO",
+        "target": "@native_constraint_closure",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54799->54800",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@native_constraint_closure",
+      {
+        "source": "@admissibility",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@native_constraint_closure",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DEPENDSON:54131",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@native_interaction_factorization",
+      {
+        "source": "@admissibility",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@native_interaction_factorization",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DEPENDSON:54037",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ]
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry"
+}

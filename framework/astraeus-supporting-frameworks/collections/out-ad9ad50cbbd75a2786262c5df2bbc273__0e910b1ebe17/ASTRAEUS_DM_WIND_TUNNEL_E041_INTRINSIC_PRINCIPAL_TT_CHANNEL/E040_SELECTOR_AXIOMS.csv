@@ -1,0 +1,11 @@
+axiom,name,requirement,status,source_role
+GCS-1,TT support,selected projective direction [n] must satisfy TT_n(S) != 0,EXACT_GEOMETRIC,E039/E040
+GCS-2,Projective parity,"before chirality orientation data, n and -n are one TT channel because P_TT(n)=P_TT(-n)",EXACT_GEOMETRIC,TT projector
+GCS-3,Chirality admissibility,selected helicon/spectral mode must preserve transported chirality admissibility,SOURCE_ROLE_RECOVERED,Holonomy & Chirality / Transduction
+GCS-4,Ancestry/provenance,channel selection may not manufacture ancestry,SOURCE_ROLE_RECOVERED,Watcher / monodromy tests
+GCS-5,Invariant residue,selected transport must preserve declared invariant residue where the corridor/identity contract requires it,SOURCE_ROLE_RECOVERED,corridor / residue bundle
+GCS-6,Bandwidth supportability,"selected channel must be organizationally supportable under B_cap(a,R,H,E)",SOURCE TYPE RECOVERED; EVALUATOR OPEN,Transduction
+GCS-7,History/holonomy coherence,selected path/mode must compose coherently with History and any loop/monodromy constraints,SOURCE_ROLE RECOVERED; INSTANCE OPEN,Holonomy & Chirality
+GCS-8,Gravitational-helicon admissibility,mode must belong to the massless H_g spectral/update class,GENERIC SOURCE LAW RECOVERED; INSTANCE OPEN,QFT/GR gravity source
+GCS-9,Resolution covariance,different readout representations should preserve the abstract selected organizational channel up to declared conjugacy/equivalence,SOURCE CANDIDATE/ARCHITECTURE,Resolution/Transduction
+GCS-10,Minimal unsupported structure,"if several channels survive all declared constraints, do not select one by an unstated numerical preference",WATCHER RULE RECOVERED,Watcher selector

@@ -1,0 +1,88 @@
+{
+  "handle": "@dm_port_response_trace_invariant",
+  "object_type": "qmo_derived_mathematical_object",
+  "status": "LIVE_DERIVED_CLOSED_INTERNAL",
+  "domain": "DM30",
+  "namespace": "mk43://dark-matter/live",
+  "name": "Hidden Port-Response Trace Invariant",
+  "definition": "The matched full/visible hidden-network pair has a state-level response invariant with tr(Lambda_full)>tr(Lambda_vis), and this trace gap is independent of port naming/relabeling.",
+  "math": "DeltaLambda_H >=_PSD 0, DeltaLambda_H != 0 => tr(DeltaLambda_H)>0 => tr(Lambda_full)>tr(Lambda_vis). For permutation P, tr(P Lambda P^T)=tr(Lambda).",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E081",
+  "qmo_generated": true,
+  "proof_status": "DERIVED_OR_CONDITIONAL",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "LIVE_QMO_DERIVED",
+  "metadata": {
+    "payload": {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_port_response_trace_invariant",
+      "canonical_name": "Hidden Port-Response Trace Invariant",
+      "type": "DerivedResponseTraceInvariant",
+      "status": "LIVE_DERIVED_CLOSED_INTERNAL",
+      "checkpoint": "E081",
+      "definition": "The matched full/visible hidden-network pair has a state-level response invariant with tr(Lambda_full)>tr(Lambda_vis), and this trace gap is independent of port naming/relabeling.",
+      "math": "DeltaLambda_H >=_PSD 0, DeltaLambda_H != 0 => tr(DeltaLambda_H)>0 => tr(Lambda_full)>tr(Lambda_vis). For permutation P, tr(P Lambda P^T)=tr(Lambda).",
+      "parents": [
+        "@dm_hidden_response_operator",
+        "@dm_response_spectrum_residue_discriminator"
+      ],
+      "working_assumptions": [],
+      "proof_debt": [
+        "PD-DM-010"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    "direct_live_edges_out": [
+      {
+        "source": "@dm_port_response_trace_invariant",
+        "relation": "DERIVED_FROM",
+        "target": "@dm_hidden_response_operator",
+        "graph_family": "dark_matter_live",
+        "confidence": "high",
+        "audit_status": "LIVE_DERIVED",
+        "provenance": "E081",
+        "origin": "LIVE_LANDSCAPE",
+        "source_layer": "live"
+      },
+      {
+        "source": "@dm_port_response_trace_invariant",
+        "relation": "TARGETS",
+        "target": "@dm_projection_residue_survival",
+        "graph_family": "dark_matter_live",
+        "confidence": "high",
+        "audit_status": "LIVE_DERIVED",
+        "provenance": "E081",
+        "origin": "LIVE_LANDSCAPE",
+        "source_layer": "live"
+      },
+      {
+        "source": "@dm_port_response_trace_invariant",
+        "relation": "CONDITIONAL_ON",
+        "target": "@dm_projection_symmetry_response_action",
+        "graph_family": "dark_matter_live",
+        "confidence": "medium",
+        "audit_status": "WORKING_ASSUMPTION",
+        "provenance": "WA-DM-E082-001",
+        "origin": "LIVE_LANDSCAPE",
+        "source_layer": "live"
+      }
+    ],
+    "direct_live_edges_in": [
+      {
+        "source": "@dm_conditional_response_trace_residue_survival",
+        "relation": "USES",
+        "target": "@dm_port_response_trace_invariant",
+        "graph_family": "dark_matter_live",
+        "confidence": "high",
+        "audit_status": "LIVE_DERIVED",
+        "provenance": "E082",
+        "origin": "LIVE_LANDSCAPE",
+        "source_layer": "live"
+      }
+    ]
+  },
+  "address": "@dm_port_response_trace_invariant",
+  "address_sha256": "acbe12ba39c17c43dadb8f0e7f79f5be79e83937e06ae8b2c801c5ee320ac10b"
+}

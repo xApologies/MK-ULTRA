@@ -1,0 +1,12 @@
+digraph G {
+ graph [bgcolor="#07111e", rankdir=LR, pad=0.4, label="ATLAS PLATE IV — TRANSIENT ER-FOAM EVENTS", labelloc=t, fontcolor="#f3d48b", fontsize=24];
+ node [shape=circle, style=filled, fontname="Helvetica", fontsize=11, color="#a7c7d9", fillcolor="#10283b", fontcolor="#eaf4f8", penwidth=1.4];
+ edge [color="#7ec0d8", fontcolor="#dcecf2", fontname="Helvetica", fontsize=9, penwidth=1.5];
+ subgraph cluster0 { label="n"; color="#39576b"; fontcolor="#d8e8ef"; a[label="i"]; b[label="j"]; c[label="k"]; a->b [dir=none, style=dashed, label="off"]; }
+ subgraph cluster1 { label="n+1"; color="#39576b"; fontcolor="#d8e8ef"; d[label="i"]; e[label="j"]; f[label="k"]; d->e [dir=none, color="#f3d48b", penwidth=4, label="ER active"]; }
+ subgraph cluster2 { label="n+2"; color="#39576b"; fontcolor="#d8e8ef"; g[label="i"]; h[label="j"]; q[label="k"]; g->h [dir=none, color="#f3d48b", penwidth=2.5, label="weaken"]; g->q [dir=none, color="#94d3b8", penwidth=3.5, label="reconnect"]; }
+ subgraph cluster3 { label="n+3"; color="#39576b"; fontcolor="#d8e8ef"; r[label="i"]; s[label="j"]; t[label="k"]; r->t [dir=none, style=dashed, label="closed / residue persists"]; }
+ a->d [style=invis]; d->g [style=invis]; g->r [style=invis];
+ note [shape=box, style="rounded,filled", fillcolor="#193a38", label="a_ij[n] : 0 → active → 0\nTransient incidence; persistent continuity may survive", color="#94d3b8"];
+ t -> note [style=invis];
+}

@@ -1,0 +1,618 @@
+{
+  "chapter_ids": [
+    "V11-C02"
+  ],
+  "chapters": [
+    {
+      "assigned_handle_count": 11,
+      "chapter_id": "V11-C02",
+      "handles": [
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@chapter_61_adapter_multiversal_phase_boundaries_and_cross_cycle_geometry` — Chapter 61 Adapter — Multiversal Phase Boundaries and Cross-Cycle Geometry",
+          "canonical_uri": "mk43://recover/cosmology/chapter-61-adapter-multiversal-phase-boundaries-and-cross-cycle-geometry",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.766552+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 77,
+            "english_units": 12,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@chapter_61_adapter_multiversal_phase_boundaries_and_cross_cycle_geometry",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 42,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 179,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@chapter_61_adapter_multiversal_phase_boundaries_and_cross_cycle_geometry",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 11395,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V11_C02\\chapter_61_adapter_multiversal_phase_boundaries_and_cross_cycle_geometry_48e8df34b32c48a1859446d6d3d47f06.md",
+            "reused_master_query": false,
+            "sha256": "f49f8d2f7714df8d00afa2e9c63c428cf5ba7dcf2dfb5047ebcbe8814bfa4991"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@continuity_equation_cosmology",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.772062+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 247,
+            "english_units": 75,
+            "equation_units": 5,
+            "evidence_diversity": 2,
+            "handle": "@continuity_equation_cosmology",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P2",
+            "registered_dependencies": 214,
+            "run_id": "RP-05B",
+            "score": 82,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 4898,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 721,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:721"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 723,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:723"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 732,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:732"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 2204,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:2204"
+            }
+          ],
+          "handle": "@continuity_equation_cosmology",
+          "incoming_relation_types": {
+            "BLACK_HOLE_GLOBAL_REACHES": 1,
+            "BLACK_HOLE_MODEL_REACHES": 1,
+            "DEPENDS_ON": 1,
+            "GENERALIZES": 1,
+            "SUPPORTS": 31,
+            "SUPPORTS_FAMILY": 1
+          },
+          "native_report": {
+            "bytes": 2473061,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V11_C02\\continuity_equation_cosmology_e235d7922a7d47678fe3eb9175d7fa1e.md",
+            "reused_master_query": false,
+            "sha256": "3bdbda1fe310673afa9c8d2101607dc4ece944ef37d210c6e5367dc19c258d6c"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "BLACK_HOLE_CROSS_FAMILY_NODE": 1,
+            "COMPOSED_DEPENDENCY": 135,
+            "DEPENDS_ON": 37,
+            "FAMILY_DEPENDS_ON": 1,
+            "FEEDS_BLACK_HOLE_MODEL": 1,
+            "GLOBALLY_FEEDS_BLACK_HOLE": 1,
+            "SPECIALIZES": 1,
+            "SUPPORTS": 1
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@effective_friedmann_equations` — Effective Friedmann Equations",
+          "canonical_uri": "mk43://recover/core/effective-friedmann-equations",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.774060+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 69,
+            "english_units": 1,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@effective_friedmann_equations",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 3,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 16,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 234,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@effective_friedmann_equations",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 9985,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V11_C02\\effective_friedmann_equations_84b8d4d4e35e400aa401bc0a2adfe877.md",
+            "reused_master_query": false,
+            "sha256": "b66f9606522af45bfa53b682330f518ba8d0c5e6bf76a6be46aba4e000527163"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@effective_friedmann_system` — Effective Friedmann system",
+          "canonical_uri": "mk43://recover/core/effective-friedmann-system",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.774060+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 86,
+            "english_units": 1,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@effective_friedmann_system",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 15,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 170,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@effective_friedmann_system",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 9885,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V11_C02\\effective_friedmann_system_22f813d702bb4a54bbe030b085183676.md",
+            "reused_master_query": false,
+            "sha256": "737fd41c8f4d58c832655ffa0391dd85bc5b0f656c35c2d296cc8d68ee143bf4"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@friedmann_equation",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.777061+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 603,
+            "english_units": 633,
+            "equation_units": 7,
+            "evidence_diversity": 2,
+            "handle": "@friedmann_equation",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P2",
+            "registered_dependencies": 683,
+            "run_id": "RP-05B",
+            "score": 82,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 11364,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 721,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:721"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 723,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:723"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 732,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:732"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1798,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1798"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1960,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1960"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 2204,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:2204"
+            }
+          ],
+          "handle": "@friedmann_equation",
+          "incoming_relation_types": {
+            "BLACK_HOLE_GLOBAL_REACHES": 1,
+            "BLACK_HOLE_MODEL_REACHES": 1,
+            "COMPOSED_DEPENDENCY": 414,
+            "DEPENDS_ON": 57,
+            "GOVERNS": 1,
+            "SUPPORTS": 30,
+            "SUPPORTS_FAMILY": 1
+          },
+          "native_report": {
+            "bytes": 3202871,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V11_C02\\friedmann_equation_ae1c2cd14f8141d096588ce34f5c9d38.md",
+            "reused_master_query": false,
+            "sha256": "6465b8190836ea5dfa9ba3747a9dc79898200458d6e7f4490678bc6f6b767721"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "BLACK_HOLE_CROSS_FAMILY_NODE": 1,
+            "COMPOSED_DEPENDENCY": 131,
+            "DEPENDS_ON": 32,
+            "DERIVES_FROM": 1,
+            "FAMILY_DEPENDS_ON": 1,
+            "FEEDS_BLACK_HOLE_MODEL": 1,
+            "GLOBALLY_FEEDS_BLACK_HOLE": 1,
+            "GOVERNS": 2,
+            "SUPPORTS": 8
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@friedmann_lemaitre_robertson_walker_spacetime",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.777061+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 601,
+            "english_units": 523,
+            "equation_units": 7,
+            "evidence_diversity": 2,
+            "handle": "@friedmann_lemaitre_robertson_walker_spacetime",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P2",
+            "registered_dependencies": 636,
+            "run_id": "RP-05B",
+            "score": 82,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 10387,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 721,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:721"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 723,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:723"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 732,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:732"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1798,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1798"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1960,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1960"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 2204,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:2204"
+            }
+          ],
+          "handle": "@friedmann_lemaitre_robertson_walker_spacetime",
+          "incoming_relation_types": {
+            "ADMITS": 1,
+            "BLACK_HOLE_GLOBAL_REACHES": 1,
+            "BLACK_HOLE_MODEL_REACHES": 1,
+            "COMPOSED_DEPENDENCY": 414,
+            "DEPENDS_ON": 61,
+            "GENERALIZES": 3,
+            "GOVERNS": 2,
+            "SUPPORTS_FAMILY": 1
+          },
+          "native_report": {
+            "bytes": 3199931,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V11_C02\\friedmann_lemaitre_robertson_walker_spacetime_fae2607d55764c75836c98ee0f09931f.md",
+            "reused_master_query": false,
+            "sha256": "e639f4857801e6b688029df194d257d5370676a1ff9c7cad6d954a2e359e00d4"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "ADMITTED_BY": 1,
+            "BLACK_HOLE_CROSS_FAMILY_NODE": 1,
+            "COMPOSED_DEPENDENCY": 131,
+            "FAMILY_DEPENDS_ON": 1,
+            "FEEDS_BLACK_HOLE_MODEL": 1,
+            "GLOBALLY_FEEDS_BLACK_HOLE": 1,
+            "REALIZES": 1,
+            "SPECIALIZES": 3,
+            "SUPPORTS": 12
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@galactic_rotation_potential` — Galactic Rotation Potential",
+          "canonical_uri": "mk43://recover/cosmology/galactic-rotation-potential",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.777061+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 85,
+            "english_units": 12,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@galactic_rotation_potential",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 42,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 173,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@galactic_rotation_potential",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 9939,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V11_C02\\galactic_rotation_potential_1cc0631380934295b012c1f3b70a1feb.md",
+            "reused_master_query": false,
+            "sha256": "6b60c21c5ec8b8bc7ff358af6fda71608ecc426581d3096b8a642e4eca1867d0"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@multiversal_dynamics_and_phase_correlated_cosmoi` — Multiversal Dynamics and Phase-Correlated Cosmoi",
+          "canonical_uri": "mk43://recover/cosmology/multiversal-dynamics-and-phase-correlated-cosmoi",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.885695+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 79,
+            "english_units": 1,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@multiversal_dynamics_and_phase_correlated_cosmoi",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 15,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 195,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@multiversal_dynamics_and_phase_correlated_cosmoi",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 10613,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V11_C02\\multiversal_dynamics_and_phase_correlated_cosmoi_3a7035a957ef4b3fb7c3e3495ad39dd4.md",
+            "reused_master_query": false,
+            "sha256": "93098e2af891a2ecc2ff562b9ab2727ed1a35d80be75961622b8161537a125e5"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@multiversal_phase_boundaries_and_cross_cycle_geometry` — Multiversal Phase Boundaries and Cross-Cycle Geometry",
+          "canonical_uri": "mk43://recover/cosmology/multiversal-phase-boundaries-and-cross-cycle-geometry",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.885695+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 77,
+            "english_units": 1,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@multiversal_phase_boundaries_and_cross_cycle_geometry",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 15,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 187,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@multiversal_phase_boundaries_and_cross_cycle_geometry",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 10769,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V11_C02\\multiversal_phase_boundaries_and_cross_cycle_geometry_27b88c1b234348628c7c7ba5fedfc36a.md",
+            "reused_master_query": false,
+            "sha256": "72560f522c86f8a605b92165dd99856513ac89e5322c27b42c66420cf36ed876"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@phase_cosmology_and_background_solutions` — Phase Cosmology and Background Solutions",
+          "canonical_uri": "mk43://recover/cosmology/phase-cosmology-and-background-solutions",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.887689+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 82,
+            "english_units": 1,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@phase_cosmology_and_background_solutions",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 15,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 197,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@phase_cosmology_and_background_solutions",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 10358,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V11_C02\\phase_cosmology_and_background_solutions_b76f7364dd534296b24b5b8a1053afe3.md",
+            "reused_master_query": false,
+            "sha256": "c3d9b216c1eebcb52721d2e920dd64ecdd04097697978c71015ecab6bbdaac90"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@white_state_core_dynamics` — White-State Core Dynamics",
+          "canonical_uri": "mk43://recover/cosmology/white-state-core-dynamics",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.896202+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 68,
+            "english_units": 22,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@white_state_core_dynamics",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 42,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 216,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@white_state_core_dynamics",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 9882,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V11_C02\\white_state_core_dynamics_fcb42d43783c46619a0e8c18d3f12804.md",
+            "reused_master_query": false,
+            "sha256": "77055fb605b6aaa6a0b1e3122b818f48f71910d741797ee0b39eb6c3b8fef98d"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        }
+      ],
+      "title": "Friedmann and Background Dynamics"
+    }
+  ],
+  "database_sha256": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03",
+  "database_unchanged": true,
+  "query_architecture": "Runtime -> BRANE -> API/QMO -> Library 4.1",
+  "query_receipt": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\native_query_receipt_V11_C02.json",
+  "schema": "mk-ultra-tome-native-evidence-digest-v1"
+}

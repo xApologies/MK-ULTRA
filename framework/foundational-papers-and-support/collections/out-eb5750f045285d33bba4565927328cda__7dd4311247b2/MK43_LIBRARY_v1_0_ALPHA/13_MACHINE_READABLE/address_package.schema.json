@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AddressPackage",
+  "type": "object",
+  "required": [
+    "handle",
+    "object_type",
+    "content_blocks",
+    "provenance",
+    "package_version"
+  ],
+  "properties": {
+    "handle": {
+      "type": "string",
+      "pattern": "^@[A-Za-z0-9_.:-]+$"
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "object_type": {
+      "type": "string"
+    },
+    "canonical_math": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "content_blocks": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "provenance": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      },
+      "minItems": 1
+    },
+    "package_version": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string",
+      "default": "en-US"
+    }
+  }
+}

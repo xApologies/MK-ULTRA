@@ -1,0 +1,94 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_PAIR_V1",
+  "a": "@chirality_history",
+  "b": "@dm_dark_readout_defect",
+  "radius": 3,
+  "interface": [
+    {
+      "handle": "@time_shell",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@configuration_space_3_1_1",
+      "distance_a": 1,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_er_branch_readout_separation",
+      "distance_a": 3,
+      "distance_b": 1
+    },
+    {
+      "handle": "@gravity",
+      "distance_a": 3,
+      "distance_b": 1
+    },
+    {
+      "handle": "@er_foam",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@gravitational_self_coupling",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@graviton",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@chirality",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@correspondence_registry",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@geometry",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@mote",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@mote_ensemble",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@native_causal_order",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@native_constraint_closure",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@native_probability_preservation",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@projected_gr_inheritance",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@zer0_interaction",
+      "distance_a": 3,
+      "distance_b": 3
+    }
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry; exact-handle interface only"
+}

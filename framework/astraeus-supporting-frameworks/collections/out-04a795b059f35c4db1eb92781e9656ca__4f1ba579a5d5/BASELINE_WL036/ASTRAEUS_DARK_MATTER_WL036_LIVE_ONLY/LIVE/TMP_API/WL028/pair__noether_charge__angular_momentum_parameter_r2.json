@@ -1,0 +1,53 @@
+{
+  "a": "@noether_charge",
+  "b": "@angular_momentum_parameter",
+  "radius": 2,
+  "a_node_count": 26,
+  "b_node_count": 51,
+  "interface": [
+    {
+      "handle": "@diffeomorphism_invariance",
+      "distance_a": 1,
+      "distance_b": 2
+    },
+    {
+      "handle": "@einstein_field_equation",
+      "distance_a": 2,
+      "distance_b": 1
+    },
+    {
+      "handle": "@noether_identity",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@total_action",
+      "distance_a": 2,
+      "distance_b": 2
+    }
+  ],
+  "path_a_to_b": [
+    {
+      "source": "@noether_charge",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@einstein_field_equation",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-46",
+      "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@noether_charge -> @diffeomorphism_invariance -> @einstein_field_equation; relations=DEPENDS_ON + FAMILY_DEPENDS_ON; primitive_depth=2"
+    },
+    {
+      "source": "@einstein_field_equation",
+      "relation": "SUPPORTS_FAMILY",
+      "target": "@angular_momentum_parameter",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-46",
+      "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@angular_momentum_parameter FAMILY_DEPENDS_ON @einstein_field_equation); rule=FAMILY_DEPENDS_ON\u2192SUPPORTS_FAMILY"
+    }
+  ],
+  "direct_neighborhood_policy": "high-confidence non-derived/direct-source Time-Space API edges only",
+  "path_policy": "high-confidence registered + admissibly derived Time-Space API edges; directions preserved"
+}

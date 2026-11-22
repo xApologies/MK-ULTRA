@@ -1,0 +1,99 @@
+{
+  "chapter_ids": [
+    "V04-C02"
+  ],
+  "chapters": [
+    {
+      "assigned_handle_count": 1,
+      "chapter_id": "V04-C02",
+      "handles": [
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@helicon_structural_tuple",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.881690+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 88,
+            "english_units": 31,
+            "equation_units": 6,
+            "evidence_diversity": 2,
+            "handle": "@helicon_structural_tuple",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 4,
+            "recommended_priority": "P2",
+            "registered_dependencies": 2,
+            "run_id": "RP-05B",
+            "score": 81,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 2677,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 551,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:551"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 712,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:712"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 719,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:719"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1799,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1799"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 2204,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:2204"
+            }
+          ],
+          "handle": "@helicon_structural_tuple",
+          "incoming_relation_types": {
+            "REPRESENTED_BY": 1
+          },
+          "native_report": {
+            "bytes": 1143684,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\helicon_structural_tuple_c909554a90a5417481078d54689db1de.md",
+            "reused_master_query": true,
+            "sha256": "a4a2bf54fcf9a81f35b676585ef85373db89e2f5ff6c751113098458dc5d44d5"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "REPRESENTS": 1
+          }
+        }
+      ],
+      "title": "Structural Tuple and One-Form Representations"
+    }
+  ],
+  "database_sha256": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03",
+  "database_unchanged": true,
+  "query_architecture": "Runtime -> BRANE -> API/QMO -> Library 4.1",
+  "query_receipt": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\native_query_receipt_V04_C02.json",
+  "schema": "mk-ultra-tome-native-evidence-digest-v1"
+}

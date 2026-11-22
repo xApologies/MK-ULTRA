@@ -1,0 +1,109 @@
+{
+  "handle": "@angular_reduction_field",
+  "object_type": "mathematical_object",
+  "status": "indexed-unlinked",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Angular Reduction Field",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 2,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 3,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 1,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 166,
+    "closure_in_reachability_count": 1,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@angular_reduction_field",
+        "relation": "OPERATES_ON",
+        "target": "@helicon",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "recovery_pass": "RP-38",
+        "provenance": "DIRECT_DEFINITION_API:2513-2532"
+      },
+      {
+        "source": "@angular_reduction_field",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@angular_reduction_theorem",
+        "graph_family": "theorem",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@angular_reduction_theorem FORMALLY_DEPENDS_ON @angular_reduction_field); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      },
+      {
+        "source": "@angular_reduction_theorem",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@angular_reduction_field",
+        "graph_family": "theorem",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "recovery_pass": "RP-38",
+        "provenance": "DIRECT_THEOREM_API:2564-2583"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 38,
+        "source": "@angular_reduction_field",
+        "relation": "OPERATES_ON",
+        "target": "@helicon",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_DEFINITION_API:2513-2532"
+      },
+      {
+        "id": 2112,
+        "source": "@angular_reduction_field",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@angular_reduction_theorem",
+        "layer": "API43",
+        "graph_family": "theorem",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@angular_reduction_theorem FORMALLY_DEPENDS_ON @angular_reduction_field); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      },
+      {
+        "id": 18960,
+        "source": "@angular_reduction_field",
+        "relation": "OPERATES_ON",
+        "target": "@helicon",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_DEFINITION_API:2513-2532"
+      },
+      {
+        "id": 39,
+        "source": "@angular_reduction_theorem",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@angular_reduction_field",
+        "layer": "API43",
+        "graph_family": "theorem",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_THEOREM_API:2564-2583"
+      }
+    ]
+  },
+  "address": "@angular_reduction_field",
+  "address_sha256": "a2d5fc070fc4ee1c4e8c04310e043725ae384ba72f02f3566140ca31c9d77251"
+}

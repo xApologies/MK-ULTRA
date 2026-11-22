@@ -1,0 +1,100 @@
+{
+  "status": "ALL_LISTED_CHECKS_PASSED",
+  "scope": "Algebraic consequences and synthetic fixtures only. Not native GR equivalence validation.",
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "sympy": "1.14.0",
+  "tests": [
+    {
+      "name": "native_characteristic_equation",
+      "kind": "exact_symbolic",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "exact_interpolation_conjugacy_M_C_equals_C_U",
+      "kind": "exact_symbolic",
+      "passed": true,
+      "residual": "Matrix([[0, 0], [0, 0]])"
+    },
+    {
+      "name": "initial_data_map_determinant",
+      "kind": "exact_symbolic",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "zero_mode_conjugacy",
+      "kind": "exact_symbolic",
+      "passed": true,
+      "residual": "Matrix([[0, 0], [0, 0]])"
+    },
+    {
+      "name": "isometry_left_round_trip",
+      "kind": "exact_symbolic",
+      "passed": true,
+      "residual": "Matrix([[0, 0], [0, 0]])"
+    },
+    {
+      "name": "range_projector_idempotent",
+      "kind": "exact_symbolic",
+      "passed": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "coverage_defect_projector_idempotent",
+      "kind": "exact_symbolic",
+      "passed": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "name": "isometry_does_not_imply_surjectivity",
+      "kind": "exact_counterexample_to_extra_inference",
+      "passed": true,
+      "target_defect": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 1]])"
+    },
+    {
+      "name": "naive_spectrum_residual_series",
+      "kind": "exact_symbolic",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "naive_spectrum_residual_at_z_1",
+      "kind": "numeric_fixture",
+      "passed": true,
+      "value": 0.08060461173627943
+    },
+    {
+      "name": "eta_4_generalized_mode",
+      "kind": "exact_symbolic",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "four_mode_exact_interpolant_vs_recurrence_20_steps",
+      "kind": "numeric_fixture",
+      "passed": true,
+      "max_abs_error": 8.881784197001252e-15,
+      "native_eigenvalues_used": [
+        0.0,
+        0.25,
+        1.0,
+        3.0
+      ]
+    },
+    {
+      "name": "spectral_matching_fixture",
+      "kind": "numeric_fixture",
+      "passed": true,
+      "max_abs_error": 1.1102230246251565e-16
+    }
+  ],
+  "check_count": 13,
+  "not_checked": [
+    "Actual native operators R_C, F_g, Pi_T",
+    "Actual ER weights or a Time-Shell clock law",
+    "Global or nonlinear Einstein equivalence",
+    "Empirical predictions or observations"
+  ]
+}

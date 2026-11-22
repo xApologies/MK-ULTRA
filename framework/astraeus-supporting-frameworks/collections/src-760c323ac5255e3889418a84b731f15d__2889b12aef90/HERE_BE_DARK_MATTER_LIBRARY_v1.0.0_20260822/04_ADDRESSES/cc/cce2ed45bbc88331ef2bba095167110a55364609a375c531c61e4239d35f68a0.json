@@ -1,0 +1,94 @@
+{
+  "handle": "@dm_xapi_energy_density_stress_corridor",
+  "object_type": "qmo_derived_mathematical_object",
+  "status": "LIVE_DERIVED_CLOSED_TYPED_ROUTE",
+  "domain": "DM30",
+  "namespace": "mk43://dark-matter/live",
+  "name": "Dark-Matter Resolution Density -> Stress-Energy Cross-API Corridor",
+  "definition": "The DM 2.2 Resolution-level hidden density profile directly REALIZES API 4.3 @energy_density, and API 4.3 @energy_density directly ENTERS @stress_energy_tensor. Therefore the structural component route is already present across the two APIs.",
+  "math": "@dm_resolution_density_profile --REALIZES--> @energy_density --ENTERS--> @stress_energy_tensor",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E095",
+  "qmo_generated": true,
+  "proof_status": "DERIVED_OR_CONDITIONAL",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "LIVE_QMO_DERIVED",
+  "metadata": {
+    "payload": {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_xapi_energy_density_stress_corridor",
+      "canonical_name": "Dark-Matter Resolution Density -> Stress-Energy Cross-API Corridor",
+      "type": "TypedCrossAPIComponentRoute",
+      "status": "LIVE_DERIVED_CLOSED_TYPED_ROUTE",
+      "checkpoint": "E095",
+      "definition": "The DM 2.2 Resolution-level hidden density profile directly REALIZES API 4.3 @energy_density, and API 4.3 @energy_density directly ENTERS @stress_energy_tensor. Therefore the structural component route is already present across the two APIs.",
+      "math": "@dm_resolution_density_profile --REALIZES--> @energy_density --ENTERS--> @stress_energy_tensor",
+      "parents": [
+        "@dm_resolution_density_profile",
+        "@energy_density",
+        "@stress_energy_tensor"
+      ],
+      "working_assumptions": [],
+      "proof_debt": [
+        "PD-DM-014"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false,
+      "limitations": [
+        "Does not reconstruct the full stress-energy tensor from density alone.",
+        "Does not by itself supply SI calibration or a chosen readable observer normalization.",
+        "Does not prove physical dark-matter existence."
+      ]
+    },
+    "direct_live_edges_out": [
+      {
+        "source": "@dm_xapi_energy_density_stress_corridor",
+        "relation": "DERIVED_FROM",
+        "target": "@dm_resolution_density_profile",
+        "graph_family": "live_xapi",
+        "confidence": "high",
+        "audit_status": "live_derived",
+        "provenance": "CC-DM-E095-001",
+        "origin": "LIVE_OVERLAY",
+        "source_layer": "LIVE_XAPI"
+      },
+      {
+        "source": "@dm_xapi_energy_density_stress_corridor",
+        "relation": "USES_RECOVERED_ROUTE",
+        "target": "@energy_density",
+        "graph_family": "live_xapi",
+        "confidence": "high",
+        "audit_status": "live_derived",
+        "provenance": "QMO-XAPI-002",
+        "origin": "LIVE_OVERLAY",
+        "source_layer": "LIVE_XAPI"
+      },
+      {
+        "source": "@dm_xapi_energy_density_stress_corridor",
+        "relation": "USES_RECOVERED_ROUTE",
+        "target": "@stress_energy_tensor",
+        "graph_family": "live_xapi",
+        "confidence": "high",
+        "audit_status": "live_derived",
+        "provenance": "QMO-XAPI-002",
+        "origin": "LIVE_OVERLAY",
+        "source_layer": "LIVE_XAPI"
+      }
+    ],
+    "direct_live_edges_in": [
+      {
+        "source": "@dm_xapi_master_dependency_map",
+        "relation": "DERIVED_FROM",
+        "target": "@dm_xapi_energy_density_stress_corridor",
+        "graph_family": "live_xapi",
+        "confidence": "high",
+        "audit_status": "live_derived",
+        "provenance": "QMO-XAPI-002",
+        "origin": "LIVE_OVERLAY",
+        "source_layer": "LIVE_XAPI"
+      }
+    ]
+  },
+  "address": "@dm_xapi_energy_density_stress_corridor",
+  "address_sha256": "cce2ed45bbc88331ef2bba095167110a55364609a375c531c61e4239d35f68a0"
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+  "handle": "@dm_chirality_seed_timeshell_gravity_fiber_test",
+  "canonical_name": "Canonical Chirality-Seed Time-Shell Gravity Fiber Test",
+  "type": "CanonicalizedGravityProjectionFiberGate",
+  "status": "LIVE_OPEN_TYPED_GATE_RETYPE",
+  "checkpoint": "E092",
+  "definition": "PD-DM-012 is retyped onto a canonical chirality-seed contrast input. The only direct-readout question remains whether the existing G_TS fiber separates this explicit persistent-continuity contrast rather than annihilating it.",
+  "math": "D_chi c_*=2c_*; Delta(deltaC)_P=-w_eff D_chi c_*=-2w_eff c_* !=0. Test G_TS(x_vis-w_eff D_chi c_*) != G_TS(x_vis) on the selected admissible fiber.",
+  "parents": [
+    "@dm_chirality_seed_contrast_normal_form",
+    "@dm_explicit_two_port_continuity_residual_witness",
+    "@time_shell_projection_operator",
+    "@weak_field_metric_perturbation"
+  ],
+  "working_assumptions": [],
+  "proof_debt": [
+    "PD-DM-012"
+  ],
+  "physical_claim": false,
+  "baseline_mutation": false
+}

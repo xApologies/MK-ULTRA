@@ -1,0 +1,42 @@
+{
+  "run": "R03",
+  "status": "CLOSED",
+  "classification": "ENTANGLEMENT_FUSION_LOGICALLY_INDEPENDENT_TYPED_LAYERS",
+  "refinement": "entanglement is factorization-relative state nonseparability; current Fusion is carrier/interface quotient; coexistence requires retained factor registry",
+  "quantum_lift": {
+    "H_A": "span{|L>,|R>}",
+    "H_B": "span{|L>,|R>}",
+    "H_AB": "H_A tensor H_B",
+    "native_factorization_of_Q": false,
+    "orientation_sign_mapping": "PROVISIONAL_NOT_RESOLVED"
+  },
+  "reference_states": {
+    "classical_anticorrelated": "rho_cl = 1/2 |LR><LR| + 1/2 |RL><RL|",
+    "separable_coherent": "|Sigma> = |s>_A tensor |s>_B, |s>=(|L>+|R>)/sqrt(2)",
+    "entangled": "|Psi_phi>=(|LR>+exp(i phi)|RL>)/sqrt(2)"
+  },
+  "entangled_reference_diagnostics": {
+    "coefficient_matrix_rank": 2,
+    "determinant": "-exp(i phi)/2",
+    "reduced_purity": 0.5,
+    "global_purity": 1.0,
+    "partial_transpose_eigenvalues": [
+      "1/2",
+      "1/2",
+      "1/2",
+      "-1/2"
+    ]
+  },
+  "logical_implications": {
+    "fusion_implies_entanglement": false,
+    "entanglement_implies_fusion": false,
+    "entanglement_necessary_for_fusion": false,
+    "entanglement_sufficient_for_fusion": false
+  },
+  "bare_Q_entanglement": "NOT_TYPED",
+  "hybrid_object": "(Q, eta_F, Inv_F, W_AB, rho_AB)",
+  "strong_fusion_factor_erasure_effect": "A|B entanglement becomes undefined if A|B factorization is absent",
+  "phase_holonomy_bridge": "UNRESOLVED_R09",
+  "superposition_of_fused_object": "UNRESOLVED_R04",
+  "next_run": "R04"
+}

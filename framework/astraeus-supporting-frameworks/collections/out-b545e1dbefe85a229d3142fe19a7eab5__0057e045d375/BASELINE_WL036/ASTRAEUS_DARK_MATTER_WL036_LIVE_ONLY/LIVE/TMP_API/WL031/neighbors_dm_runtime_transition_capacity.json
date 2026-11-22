@@ -1,0 +1,120 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_NEIGHBORS_V1",
+  "handle": "@dm_runtime_transition_capacity",
+  "incoming": [
+    [
+      "@dm_hidden_relational_load",
+      {
+        "source": "@dm_hidden_relational_load",
+        "relation": "USES",
+        "target": "@dm_runtime_transition_capacity",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      }
+    ],
+    [
+      "@dm_hidden_s3_network",
+      {
+        "source": "@dm_hidden_s3_network",
+        "relation": "USES",
+        "target": "@dm_runtime_transition_capacity",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      }
+    ],
+    [
+      "@dm_local_capacity_envelope",
+      {
+        "source": "@dm_local_capacity_envelope",
+        "relation": "BOUNDS",
+        "target": "@dm_runtime_transition_capacity",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      }
+    ]
+  ],
+  "outgoing": [
+    [
+      "@bandwidth",
+      {
+        "source": "@dm_runtime_transition_capacity",
+        "relation": "CONSTRAINED_BY",
+        "target": "@bandwidth",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      }
+    ],
+    [
+      "@resolution",
+      {
+        "source": "@dm_runtime_transition_capacity",
+        "relation": "CONSTRAINED_BY",
+        "target": "@resolution",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      }
+    ],
+    [
+      "@admissibility",
+      {
+        "source": "@dm_runtime_transition_capacity",
+        "relation": "DEPENDS_ON",
+        "target": "@admissibility",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      }
+    ],
+    [
+      "@continuity_redistribution",
+      {
+        "source": "@dm_runtime_transition_capacity",
+        "relation": "DEPENDS_ON",
+        "target": "@continuity_redistribution",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      }
+    ],
+    [
+      "@dm_continuity_laplacian",
+      {
+        "source": "@dm_runtime_transition_capacity",
+        "relation": "SATURATION_GUARDS",
+        "target": "@dm_continuity_laplacian",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED_CLOSED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      }
+    ]
+  ]
+}

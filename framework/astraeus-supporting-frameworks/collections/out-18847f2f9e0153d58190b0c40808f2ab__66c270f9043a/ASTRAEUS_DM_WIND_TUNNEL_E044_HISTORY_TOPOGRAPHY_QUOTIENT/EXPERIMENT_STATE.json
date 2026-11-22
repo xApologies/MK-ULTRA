@@ -1,0 +1,68 @@
+{
+  "experiment": "E044",
+  "candidate": "CAND-DM-HISTORY-TOPOGRAPHY-QUOTIENT-047",
+  "title": "Geometry-First History Topography Quotient",
+  "status": "SCALE-FREE SNAPSHOT TOPOGRAPHIC QUOTIENT CLOSED FOR E043 ORBIT; LATE TOPOGRAPHY STABILIZES BEFORE EXACT RESPONSE",
+  "physical_dark_matter_witness": false,
+  "parent_promotions": 0,
+  "results": {
+    "history_states_tested": 17,
+    "thresholds": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9
+    ],
+    "field_channels_per_threshold": 6,
+    "filtration_slices_per_history": 54,
+    "topographic_equivalence_classes": 7,
+    "class_members": {
+      "T0": [
+        0
+      ],
+      "T1": [
+        1
+      ],
+      "T2": [
+        2
+      ],
+      "T3": [
+        3
+      ],
+      "T4": [
+        4
+      ],
+      "T5": [
+        5
+      ],
+      "T6": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    "first_four_E043_witness_states_topographically_distinct": true,
+    "topology_only_stabilization_depth": 6,
+    "positioned_topography_stabilization_depth": 6,
+    "late_class_actual_threshold_masks_identical": true,
+    "late_class_max_pairwise_DeltaC_L2": 7.709348533582866e-08,
+    "late_class_max_relative_DeltaC_spread": 1.9162183537218742e-05,
+    "late_class_max_relative_DeltaC_spread_percent": 0.0019162183537218742,
+    "topographic_class_exactly_determines_direct_flow_response": false
+  },
+  "ruling": "A finite geometry-first snapshot quotient exists for the E043 endogenous History orbit. Normalized superlevel-set connectivity across the four ER History fields plus signed chirality yields seven classes: fresh, five distinct transient classes, and one saturated class containing depths 6-16. The actual tested normalized masks are identical throughout the saturated class, while the exact direct-flow response still changes only at ~1.9e-5 relative scale. Thus the topographic quotient is a legitimate coarse substrate-state representation, not a full-state identity or exact response coordinate.",
+  "next_handle": "CROSS_PROBE_THE_E044_HISTORY_TOPOGRAPHY_CLASSES_WITH_OXYGEN_OR_RESOLUTION_VARIATION_TO_TEST_SUBSTRATE_INVARIANCE_WITHOUT_DEEPENING_THE_FILTRATION"
+}

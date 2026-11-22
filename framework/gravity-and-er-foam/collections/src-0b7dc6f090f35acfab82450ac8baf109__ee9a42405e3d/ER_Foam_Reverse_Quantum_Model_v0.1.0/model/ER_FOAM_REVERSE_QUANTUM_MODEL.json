@@ -1,0 +1,146 @@
+{
+  "identity": {
+    "name": "ER-Foam Reverse Quantum Model",
+    "version": "0.1.0",
+    "classification": "pre-particle chirality-persistence substrate state",
+    "source": "MK43U_ER_Foam_Chirality_Substrate_v0_3"
+  },
+  "hilbert_space": {
+    "factorization": "H_operator(7) tensor H_xyz(2x2x2) tensor H_chirality(2) tensor H_persistence(2)",
+    "dimension": 224,
+    "constructive_support_dimension": 192,
+    "basis": "|o,x,y,z,c,p>",
+    "operator_basis": {
+      "0": "inherit",
+      "1": "propagate",
+      "2": "stabilize",
+      "3": "redistribute",
+      "4": "destabilize",
+      "5": "close",
+      "6": "normalize"
+    }
+  },
+  "reverse_result": {
+    "minimal_pre_observation_state": "equal-amplitude coherent superposition over all 192 constructive operator-adjacency-chirality-persistence basis states",
+    "amplitude_on_each_supported_basis_state": 0.07216878364870323,
+    "destabilization_amplitude": 0.0,
+    "spatial_adjacency": "uniform over the eight 2x2x2 adjacency addresses",
+    "chirality_before_filter": "balanced c0/c1 superposition",
+    "persistence_before_filter": "balanced p0/p1 superposition",
+    "phase_choice": "zero-phase minimal representative; the supplied nonnegative tensor does not determine relative phases"
+  },
+  "exact_forward_filters": {
+    "closure_projector": {
+      "constructive_operator_sectors": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "destabilization_sector": 4,
+      "action": "annihilate destabilization support"
+    },
+    "chirality_filter_weight": {
+      "inherit": [
+        1.05,
+        0.95
+      ],
+      "stabilize": [
+        1.05,
+        0.95
+      ],
+      "all_other_constructive_channels": [
+        1.0,
+        1.0
+      ]
+    },
+    "persistence_filter_weight": [
+      1.0,
+      1.02
+    ],
+    "amplitude_rule": "use square roots of tensor weights"
+  },
+  "state_family": {
+    "diagonal_density_model": "rho_ER = sum_i p_i |i><i|, p_i = E_i / sum(E)",
+    "pure_state_family": "|Q(phi)> = sum_i sqrt(p_i) exp(i phi_i) |i>; phases phi_i are unresolved by the source tensor",
+    "minimal_pure_representative": "all phi_i = 0"
+  },
+  "derived_observables": {
+    "operator_probabilities": {
+      "inherit": 0.16666666502737498,
+      "propagate": 0.1666666674863125,
+      "stabilize": 0.16666666502737498,
+      "redistribute": 0.1666666674863125,
+      "destabilize": 0.0,
+      "close": 0.1666666674863125,
+      "normalize": 0.1666666674863125
+    },
+    "chirality_probabilities": {
+      "c0": 0.5083333318989534,
+      "c1": 0.49166666810104714,
+      "global_polarization_c0_minus_c1": 0.01666666379790621
+    },
+    "persistence_probabilities": {
+      "p0": 0.49504950714162643,
+      "p1": 0.5049504928583715,
+      "p1_minus_p0": 0.009900985716745025
+    },
+    "spatial_adjacency_probabilities": {
+      "each_of_eight_addresses": 0.125,
+      "uniform": true
+    },
+    "conditional_chirality": {
+      "inherit": {
+        "c0": 0.524999995942753,
+        "c1": 0.47500000405724696,
+        "polarization_c0_minus_c1": 0.04999999188550608
+      },
+      "propagate": {
+        "c0": 0.5,
+        "c1": 0.5,
+        "polarization_c0_minus_c1": 0.0
+      },
+      "stabilize": {
+        "c0": 0.524999995942753,
+        "c1": 0.47500000405724696,
+        "polarization_c0_minus_c1": 0.04999999188550608
+      },
+      "redistribute": {
+        "c0": 0.5,
+        "c1": 0.5,
+        "polarization_c0_minus_c1": 0.0
+      },
+      "close": {
+        "c0": 0.5,
+        "c1": 0.5,
+        "polarization_c0_minus_c1": 0.0
+      },
+      "normalize": {
+        "c0": 0.5,
+        "c1": 0.5,
+        "polarization_c0_minus_c1": 0.0
+      }
+    },
+    "vector_expectation": "zero in the supplied rest-state placeholder",
+    "diagonal_shannon_entropy_bits": 7.584290412764715,
+    "diagonal_purity": 0.005213184605514199
+  },
+  "minimal_parent_hamiltonian": {
+    "status": "mathematical completion, not uniquely source-derived",
+    "form": "H_parent = Delta (I_C - |Q0><Q0|) + Lambda Pi_destabilize, Delta>0, Lambda>0",
+    "ground_state": "|Q0>",
+    "meaning": "the recovered equal-amplitude constructive state is the unique zero-energy state of this minimal parent Hamiltonian"
+  },
+  "not_recoverable_from_rest_tensor_alone": [
+    "particle species",
+    "mass",
+    "electric charge",
+    "atomic orbital identity",
+    "physical spin representation",
+    "relative quantum phases",
+    "unique Hamiltonian",
+    "localized excitation spectrum"
+  ]
+}

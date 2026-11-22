@@ -1,0 +1,59 @@
+{
+  "schema": "MK43_UNIFIED_API_SELF_CLOSURE_R5_ITERATION_LEDGER_V1",
+  "passes": [
+    {
+      "pass": 1,
+      "max_path_length_covered": 2,
+      "new_composed_edges": 354160,
+      "cumulative_pairs": 422261,
+      "terminal": "EXPANDED"
+    },
+    {
+      "pass": 2,
+      "max_path_length_covered": 4,
+      "new_composed_edges": 1167407,
+      "cumulative_pairs": 1589668,
+      "terminal": "EXPANDED"
+    },
+    {
+      "pass": 3,
+      "max_path_length_covered": 8,
+      "new_composed_edges": 206220,
+      "cumulative_pairs": 1795888,
+      "terminal": "EXPANDED"
+    },
+    {
+      "pass": 4,
+      "max_path_length_covered": 16,
+      "new_composed_edges": 5500,
+      "cumulative_pairs": 1801388,
+      "terminal": "EXPANDED"
+    },
+    {
+      "pass": 5,
+      "max_path_length_covered": 32,
+      "new_composed_edges": 0,
+      "cumulative_pairs": 1801388,
+      "terminal": "NO_NEW_STRUCTURE"
+    }
+  ],
+  "distance_histogram": {
+    "1": 68101,
+    "2": 354160,
+    "3": 621784,
+    "4": 545623,
+    "5": 138046,
+    "6": 44011,
+    "7": 17914,
+    "8": 6249,
+    "9": 3032,
+    "10": 1537,
+    "11": 805,
+    "12": 90,
+    "13": 27,
+    "14": 8,
+    "15": 1
+  },
+  "fixed_point_first_reached": "PASS_4",
+  "fixed_point_confirmed": "PASS_5"
+}

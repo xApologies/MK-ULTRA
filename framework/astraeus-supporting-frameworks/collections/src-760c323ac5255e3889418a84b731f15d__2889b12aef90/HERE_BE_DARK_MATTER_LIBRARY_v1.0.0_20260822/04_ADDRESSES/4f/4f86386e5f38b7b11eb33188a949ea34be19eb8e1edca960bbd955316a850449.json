@@ -1,0 +1,78 @@
+{
+  "handle": "@dm_metric_action_selection",
+  "object_type": "mathematical_object",
+  "status": "OPEN_PRIMARY_HANDLE",
+  "domain": "DM22",
+  "namespace": "readout",
+  "name": "Metric-Coupled Hidden Action Selection",
+  "definition": "Primary open source-selection problem after bidirectional cross-crawl: select the physically realized action/equivalence class from @dm_covariant_hidden_action_family.",
+  "math": "Select S_H∈S_H^cov(Q_H,g); then T_H_mn=-(2/sqrt(-g)) δS_H/δg^(mn).",
+  "source_layer": "DM22",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "DM22",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 3,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 3,
+    "live_in_count": 1,
+    "closure_out_reachability_count": 152,
+    "closure_in_reachability_count": 5,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 2,
+    "aliases": [],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19781,
+        "source": "@dm_metric_action_selection",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_covariant_hidden_action_family",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.2_CROSS_API"
+      },
+      {
+        "id": 19782,
+        "source": "@dm_metric_action_selection",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_q_completion_family",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19783,
+        "source": "@dm_metric_action_selection",
+        "relation": "DEPENDS_ON",
+        "target": "@quantum_action_functional",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19806,
+        "source": "@dm_stress_energy_realization_family",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_metric_action_selection",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      }
+    ]
+  },
+  "address": "@dm_metric_action_selection",
+  "address_sha256": "4f86386e5f38b7b11eb33188a949ea34be19eb8e1edca960bbd955316a850449"
+}

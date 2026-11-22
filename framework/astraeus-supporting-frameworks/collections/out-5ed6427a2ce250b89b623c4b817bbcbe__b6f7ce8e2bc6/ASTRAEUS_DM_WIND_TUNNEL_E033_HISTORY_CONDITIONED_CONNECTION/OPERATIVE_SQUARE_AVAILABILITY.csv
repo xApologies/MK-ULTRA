@@ -1,0 +1,13 @@
+environment,feature_a,feature_b,square_available,path_a_then_b_available,path_b_then_a_available,K_Conn_history_class,reason
+fresh,chi_history,adjacency_memory,True,True,True,PURE_HISTORY_HOLONOMY,both operative lifts available
+fresh,chi_history,corridor_memory,False,False,False,UNDEFINED_NO_LIFT,at least one operative lift unavailable
+fresh,chi_history,persistent_memory,True,True,True,PURE_HISTORY_HOLONOMY,both operative lifts available
+fresh,adjacency_memory,corridor_memory,False,False,False,UNDEFINED_NO_LIFT,at least one operative lift unavailable
+fresh,adjacency_memory,persistent_memory,True,True,True,PURE_HISTORY_HOLONOMY,both operative lifts available
+fresh,corridor_memory,persistent_memory,False,False,False,UNDEFINED_NO_LIFT,at least one operative lift unavailable
+conditioned,chi_history,adjacency_memory,True,True,True,PURE_HISTORY_HOLONOMY,both operative lifts available
+conditioned,chi_history,corridor_memory,True,True,True,PURE_HISTORY_HOLONOMY,both operative lifts available
+conditioned,chi_history,persistent_memory,True,True,True,PURE_HISTORY_HOLONOMY,both operative lifts available
+conditioned,adjacency_memory,corridor_memory,True,True,True,PURE_HISTORY_HOLONOMY,both operative lifts available
+conditioned,adjacency_memory,persistent_memory,True,True,True,PURE_HISTORY_HOLONOMY,both operative lifts available
+conditioned,corridor_memory,persistent_memory,True,True,True,PURE_HISTORY_HOLONOMY,both operative lifts available

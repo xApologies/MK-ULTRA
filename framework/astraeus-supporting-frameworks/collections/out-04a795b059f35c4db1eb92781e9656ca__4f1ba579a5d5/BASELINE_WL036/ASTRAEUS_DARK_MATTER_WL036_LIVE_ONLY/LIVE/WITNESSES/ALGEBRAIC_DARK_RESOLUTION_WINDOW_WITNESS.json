@@ -1,0 +1,44 @@
+{
+  "schema": "ASTRAEUS_DM_FINITE_WITNESS_V1",
+  "witness_id": "WIT-AST-DM-001",
+  "name": "Three-Resolution Sector-Relative Holonomy Witness",
+  "status": "CONSTRUCTIVE_WORK_LAYER_MODEL_WITNESS_NOT_PHYSICAL_ADMISSION",
+  "formal_states": ["x0", "x1"],
+  "history": {
+    "identity": "id",
+    "nontrivial": "h",
+    "relations": ["h(x0)=x1", "h(x1)=x0", "h^2=id", "h!=id"]
+  },
+  "resolutions": [
+    {
+      "R": "R_c",
+      "qft_partition": [["x0", "x1"]],
+      "gr_partition": [["x0", "x1"]],
+      "dark": false
+    },
+    {
+      "R": "R_d",
+      "qft_partition": [["x0", "x1"]],
+      "gr_partition": [["x0"], ["x1"]],
+      "dark": true
+    },
+    {
+      "R": "R_f",
+      "qft_partition": [["x0"], ["x1"]],
+      "gr_partition": [["x0"], ["x1"]],
+      "dark": false
+    }
+  ],
+  "derived": {
+    "Pers_Q": ["R_f"],
+    "Pers_G": ["R_d", "R_f"],
+    "DarkRes": ["R_d"]
+  },
+  "interpretation": "One formal History distinction can be unresolved by the QFT/matter sector and resolved by the GR/gravity sector at the same modeled Resolution.",
+  "guardrails": [
+    "not an astronomical fit",
+    "not a parent API witness",
+    "does not type the physical rho_G intertwining map",
+    "does not identify identity with additive zero"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1",
+  "landscape_id": "DL-DM-E067-STRESS-ACTIVE-ACTION",
+  "seed": "@dm_metric_action_selection",
+  "status": "APPEND_ONLY",
+  "nodes": [
+    "@dm_metric_action_selection",
+    "@dm_covariant_hidden_action_family",
+    "@dm_q_completion_family",
+    "@quantum_action_functional",
+    "@matter_action",
+    "@metric_variation",
+    "@total_action",
+    "@diffeomorphism_invariance",
+    "@noether_identity",
+    "@dm_stress_energy_realization_family",
+    "@stress_energy_tensor",
+    "@dm_stress_active_action_fiber",
+    "@dm_stress_active_action_fiber_nonempty"
+  ],
+  "terminal": {
+    "state": "OPEN_FORK",
+    "iteration": 3,
+    "focus": "@dm_stress_active_action_fiber_nonempty",
+    "reason": "Action-family typing closes; nonemptiness of the metric-sensitive subset remains the next witness problem."
+  }
+}

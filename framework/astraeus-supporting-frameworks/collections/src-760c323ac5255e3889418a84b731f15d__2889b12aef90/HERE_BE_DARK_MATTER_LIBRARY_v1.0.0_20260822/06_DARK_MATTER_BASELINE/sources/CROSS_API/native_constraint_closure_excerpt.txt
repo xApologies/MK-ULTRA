@@ -1,0 +1,66 @@
+054115: 
+054116: # 8. Native Transduction-Constraint Closure
+054117: 
+054118: ## Handle
+054119: 
+054120: ```text
+054121: @native_constraint_closure
+054122: ```
+054123: 
+054124: ## Type
+054125: 
+054126: ```text
+054127: Type: TransductionConstraintAlgebra
+054128: Domain: admissible native states and projection maps
+054129: Codomain: preserved physical-state subspaces
+054130: DependsOn:
+054131:     @admissibility
+054132:     @continuity_conservation
+054133:     @chirality
+054134:     @persistent_topology
+054135:     @time_shell
+054136: UsedBy:
+054137:     @gauge_consistency
+054138:     @anomaly_freedom
+054139:     @readable_graviton_projection
+054140: ```
+054141: 
+054142: Define native constraints
+054143: 
+054144: \[
+054145: \mathcal{C}_A,\quad
+054146: \mathcal{C}_C,\quad
+054147: \mathcal{C}_{\chi},\quad
+054148: \mathcal{C}_W,\quad
+054149: \mathcal{C}_T
+054150: \]
+054151: 
+054152: for admissibility, continuity, chirality orbit, topology class, and Time-Shell
+054153: projection.
+054154: 
+054155: Physical native states satisfy
+054156: 
+054157: \[
+054158: \mathcal{C}_a|\Psi_{\mathrm{phys}}\rangle=0.
+054159: \]
+054160: 
+054161: Closure under native update is
+054162: 
+054163: \[
+054164: [\mathcal{C}_a,\mathcal{C}_b]_U
+054165: =
+054166: \sum_c f_{ab}{}^c\mathcal{C}_c.
+054167: \]
+054168: 
+054169: The update operator preserves the physical kernel:
+054170: 
+054171: \[
+054172: U\,\ker(\mathcal{C})
+054173: \subseteq
+054174: \ker(\mathcal{C}).
+054175: \]
+054176: 
+054177: Transduction preserves constraints when
+054178: 
+054179: \[
+054180: \mathcal{C}_{\mathrm{read}}

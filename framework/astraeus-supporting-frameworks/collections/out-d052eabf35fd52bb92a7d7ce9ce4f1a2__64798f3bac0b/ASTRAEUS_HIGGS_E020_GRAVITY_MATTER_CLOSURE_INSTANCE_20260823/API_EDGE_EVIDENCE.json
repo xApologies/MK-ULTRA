@@ -1,0 +1,362 @@
+[
+  {
+    "source": "@continuity_perturbation",
+    "relation": "DEPENDS_TO",
+    "target": "@time_shell_projection_operator",
+    "graph_family": "mixed",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-34",
+    "provenance": "DIRECT_API_LINE:45070"
+  },
+  {
+    "source": "@continuity_perturbation",
+    "relation": "DIRECTED_TO",
+    "target": "@time_shell_projection_operator",
+    "graph_family": "mixed",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-35",
+    "provenance": "CANONICAL_API_HANDLE_ARROW:45070"
+  },
+  {
+    "source": "@continuity_perturbation",
+    "relation": "EXPLICIT_ARROW",
+    "target": "@time_shell_projection_operator",
+    "graph_family": "audit",
+    "confidence": "high",
+    "audit_status": "direct_source",
+    "recovery_pass": "RP-39",
+    "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45070"
+  },
+  {
+    "source": "@continuity_perturbation",
+    "relation": "FORMALLY_DEPENDS_ON",
+    "target": "@time_shell_projection_operator",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-36",
+    "provenance": "CANONICAL_API_UPSTREAM_FIELD:45841"
+  },
+  {
+    "source": "@continuity_perturbation",
+    "relation": "RECOVERED_DEPENDENCY",
+    "target": "@time_shell_projection_operator",
+    "graph_family": "mixed",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-34",
+    "provenance": "EDGE_LEDGER_LINE:45070;branch_contract"
+  },
+  {
+    "source": "@continuity_perturbation",
+    "relation": "USED_BY",
+    "target": "@time_shell_projection_operator",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-36",
+    "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:45380"
+  },
+  {
+    "source": "@continuity_perturbation",
+    "relation": "VERTICAL_CHAIN",
+    "target": "@time_shell_projection_operator",
+    "graph_family": "mixed",
+    "confidence": "medium",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-34",
+    "provenance": "API_CODE_BLOCK:27858"
+  },
+  {
+    "source": "@graviton",
+    "relation": "DEPENDS_TO",
+    "target": "@continuity_perturbation",
+    "graph_family": "mixed",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-34",
+    "provenance": "DIRECT_API_LINE:45085"
+  },
+  {
+    "source": "@graviton",
+    "relation": "DIRECTED_TO",
+    "target": "@continuity_perturbation",
+    "graph_family": "mixed",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-35",
+    "provenance": "CANONICAL_API_HANDLE_ARROW:45085"
+  },
+  {
+    "source": "@graviton",
+    "relation": "EXPLICIT_ARROW",
+    "target": "@continuity_perturbation",
+    "graph_family": "audit",
+    "confidence": "high",
+    "audit_status": "direct_source",
+    "recovery_pass": "RP-39",
+    "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45085"
+  },
+  {
+    "source": "@graviton",
+    "relation": "FORMALLY_DEPENDS_ON",
+    "target": "@continuity_perturbation",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-36",
+    "provenance": "CANONICAL_API_UPSTREAM_FIELD:45379"
+  },
+  {
+    "source": "@graviton",
+    "relation": "RECOVERED_DEPENDENCY",
+    "target": "@continuity_perturbation",
+    "graph_family": "mixed",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-34",
+    "provenance": "EDGE_LEDGER_LINE:45085;branch_contract,vertical_chain:1974,vertical_chain:27717"
+  },
+  {
+    "source": "@graviton",
+    "relation": "USED_BY",
+    "target": "@continuity_perturbation",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-36",
+    "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:45478"
+  },
+  {
+    "source": "@graviton",
+    "relation": "VERTICAL_CHAIN",
+    "target": "@continuity_perturbation",
+    "graph_family": "mixed",
+    "confidence": "medium",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-34",
+    "provenance": "API_CODE_BLOCK:27851"
+  },
+  {
+    "source": "@time_shell_projection_operator",
+    "relation": "DEPENDS_TO",
+    "target": "@weak_field_metric_perturbation",
+    "graph_family": "mixed",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-34",
+    "provenance": "DIRECT_API_LINE:45138"
+  },
+  {
+    "source": "@time_shell_projection_operator",
+    "relation": "DIRECTED_TO",
+    "target": "@weak_field_metric_perturbation",
+    "graph_family": "mixed",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-35",
+    "provenance": "CANONICAL_API_HANDLE_ARROW:45138"
+  },
+  {
+    "source": "@time_shell_projection_operator",
+    "relation": "EXPLICIT_ARROW",
+    "target": "@weak_field_metric_perturbation",
+    "graph_family": "mixed",
+    "confidence": "high",
+    "audit_status": "direct_source",
+    "recovery_pass": "RP-39",
+    "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45138"
+  },
+  {
+    "source": "@time_shell_projection_operator",
+    "relation": "FORMALLY_DEPENDS_ON",
+    "target": "@weak_field_metric_perturbation",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-36",
+    "provenance": "CANONICAL_API_UPSTREAM_FIELD:45876"
+  },
+  {
+    "source": "@time_shell_projection_operator",
+    "relation": "RECOVERED_DEPENDENCY",
+    "target": "@weak_field_metric_perturbation",
+    "graph_family": "mixed",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-34",
+    "provenance": "EDGE_LEDGER_LINE:45138;branch_contract"
+  },
+  {
+    "source": "@time_shell_projection_operator",
+    "relation": "USED_BY",
+    "target": "@weak_field_metric_perturbation",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-36",
+    "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:45842"
+  },
+  {
+    "source": "@stress_energy_tensor",
+    "relation": "DEPENDS_ON",
+    "target": "@matter_action",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-43",
+    "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:46"
+  },
+  {
+    "source": "@matter_coupling",
+    "relation": "DEPENDS_ON",
+    "target": "@stress_energy_tensor",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-43",
+    "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:47"
+  },
+  {
+    "source": "@matter_coupling",
+    "relation": "REALIZES",
+    "target": "@gravity_matter_closure",
+    "graph_family": "mixed",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-45",
+    "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Matter coupling contributes to gravity-matter closure."
+  },
+  {
+    "source": "@gravity_matter_closure",
+    "relation": "DEPENDS_ON",
+    "target": "@einstein_field_equation",
+    "graph_family": "mixed",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-45",
+    "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Readable gravity-matter closure depends on the Einstein equation."
+  },
+  {
+    "source": "@stress_energy_tensor",
+    "relation": "GENERATED_BY",
+    "target": "@matter_action",
+    "graph_family": "mixed",
+    "confidence": "high",
+    "audit_status": "derived",
+    "recovery_pass": "RP-46",
+    "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@matter_action GENERATES @stress_energy_tensor); rule=GENERATES\u2192GENERATED_BY"
+  },
+  {
+    "source": "@gravity_matter_closure",
+    "relation": "COMPOSED_DEPENDENCY",
+    "target": "@stress_energy_tensor",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "derived",
+    "recovery_pass": "RP-46",
+    "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@gravity_matter_closure -> @einstein_field_equation -> @stress_energy_tensor; relations=DEPENDS_ON + DEPENDS_ON; primitive_depth=2"
+  },
+  {
+    "source": "@matter_coupling",
+    "relation": "COMPOSED_DEPENDENCY",
+    "target": "@stress_energy_tensor",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "derived",
+    "recovery_pass": "RP-46",
+    "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@matter_coupling -> @einstein_field_equation -> @stress_energy_tensor; relations=FAMILY_DEPENDS_ON + DEPENDS_ON; primitive_depth=2"
+  },
+  {
+    "source": "@matter_coupling",
+    "relation": "SUPPORTS",
+    "target": "@gravity_matter_closure",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "derived",
+    "recovery_pass": "RP-47",
+    "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=1; path=@matter_coupling -> @einstein_field_equation -> @gravity_matter_closure; relations=SUPPORTS + SUPPORTS => SUPPORTS"
+  },
+  {
+    "source": "@gravity_matter_closure",
+    "relation": "COMPOSED_DEPENDENCY",
+    "target": "@einstein_field_equation",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "derived",
+    "recovery_pass": "RP-47",
+    "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=2; path=@gravity_matter_closure -> @cosmology -> @einstein_field_equation; relations=DEPENDS_ON + DEPENDS_ON => COMPOSED_DEPENDENCY"
+  },
+  {
+    "source": "@gravity_matter_closure",
+    "relation": "DEPENDS_ON",
+    "target": "@stress_energy_tensor",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "derived",
+    "recovery_pass": "RP-47",
+    "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=2; path=@gravity_matter_closure -> @einstein_field_equation -> @stress_energy_tensor; relations=DEPENDS_ON + GOVERNS => DEPENDS_ON"
+  },
+  {
+    "source": "@gravity_matter_closure",
+    "relation": "DEPENDS_ON",
+    "target": "@graviton",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "derived",
+    "recovery_pass": "RP-47",
+    "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=5; path=@gravity_matter_closure -> @einstein_field_equation -> @graviton; relations=DEPENDS_ON + GOVERNS => DEPENDS_ON"
+  },
+  {
+    "source": "@gravity_matter_closure",
+    "relation": "COMPOSED_DEPENDENCY",
+    "target": "@graviton",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "derived",
+    "recovery_pass": "RP-47",
+    "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=5; path=@gravity_matter_closure -> @metric_perturbation -> @graviton; relations=DEPENDS_ON + DEPENDS_ON => COMPOSED_DEPENDENCY"
+  },
+  {
+    "source": "@graviton",
+    "relation": "COMPOSED_DEPENDENCY",
+    "target": "@continuity_perturbation",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "derived",
+    "recovery_pass": "RP-51",
+    "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@graviton-[COMPOSED_DEPENDENCY]->@general_relativity-[COMPOSED_DEPENDENCY]->@continuity_perturbation"
+  },
+  {
+    "source": "@stress_energy_tensor",
+    "relation": "COMPOSED_DEPENDENCY",
+    "target": "@matter_action",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "derived",
+    "recovery_pass": "RP-51",
+    "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@stress_energy_tensor-[COMPOSED_DEPENDENCY]->@einstein_hilbert_action-[COMPOSED_DEPENDENCY]->@matter_action"
+  },
+  {
+    "source": "@continuity_perturbation",
+    "relation": "COMPOSED_DEPENDENCY",
+    "target": "@time_shell_projection_operator",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "derived",
+    "recovery_pass": "RP-51",
+    "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@continuity_perturbation-[COMPOSED_DEPENDENCY]->@einstein_tensor-[COMPOSED_DEPENDENCY]->@time_shell_projection_operator"
+  },
+  {
+    "source": "@time_shell_projection_operator",
+    "relation": "COMPOSED_DEPENDENCY",
+    "target": "@weak_field_metric_perturbation",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "derived",
+    "recovery_pass": "RP-51",
+    "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@time_shell_projection_operator-[COMPOSED_DEPENDENCY]->@einstein_tensor-[COMPOSED_DEPENDENCY]->@weak_field_metric_perturbation"
+  }
+]

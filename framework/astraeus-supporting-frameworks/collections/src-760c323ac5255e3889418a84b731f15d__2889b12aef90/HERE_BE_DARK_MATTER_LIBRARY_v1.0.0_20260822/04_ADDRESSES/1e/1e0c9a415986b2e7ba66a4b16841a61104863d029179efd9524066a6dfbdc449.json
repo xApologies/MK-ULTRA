@@ -1,0 +1,26 @@
+{
+  "handle": "qmo://QMO-DM-BRIDGE-CAND-016",
+  "object_type": "qmo",
+  "status": "LIVE_CONDITIONAL_CANDIDATE",
+  "domain": "QMO",
+  "namespace": "mk43://qmo",
+  "name": "Conditional UCM Hidden Stress-Energy Witness",
+  "definition": "",
+  "math": "",
+  "source_layer": "live",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "QMO_REGISTRY",
+  "metadata": {
+    "qmo_id": "QMO-DM-BRIDGE-CAND-016",
+    "name": "Conditional UCM Hidden Stress-Energy Witness",
+    "status": "LIVE_CONDITIONAL_CANDIDATE",
+    "source_layer": "live",
+    "source_file": "live/checkpoints/E075/qmos/QMO-DM-BRIDGE-CAND-016_CONDITIONAL_UCM_STRESS_ENERGY.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_QMO_CANDIDATE_V1\", \"qmo_id\": \"QMO-DM-BRIDGE-CAND-016\", \"handle\": \"@dm_conditional_ucm_stress_energy_witness\", \"canonical_name\": \"Conditional UCM Hidden Stress-Energy Witness\", \"status\": \"LIVE_CONDITIONAL_CANDIDATE\", \"checkpoint\": \"E075\", \"parents\": [\"@dm_joint_hidden_network_witness\", \"@dm_ucm_source_domain_distinction\", \"@dm_ucm_event_to_source_nonannihilation\", \"@dm_stress_energy_separation_gate\"], \"working_assumptions\": [\"WA-DM-E075-001\"], \"derivation\": [\"E063: Delta rho_H>0 on one selected support.\", \"WA-DM-E075-001: the corresponding readable UCM energy-density contraction remains nonzero.\", \"A nonzero contraction u^mu u^nu Delta T_mn proves Delta T_mn != 0.\"], \"result\": \"Conditional on one component-level UCM nonannihilation assumption, T_U(full) != T_U(visible) and the dark-source residual T_D^R is nonzero in the common tensor convention.\", \"guardrails\": [\"No full tensor is reconstructed from scalar density.\", \"No physical calibration is asserted.\", \"Conditional closure only.\"]}"
+  },
+  "address": "qmo://QMO-DM-BRIDGE-CAND-016",
+  "address_sha256": "1e0c9a415986b2e7ba66a4b16841a61104863d029179efd9524066a6dfbdc449"
+}

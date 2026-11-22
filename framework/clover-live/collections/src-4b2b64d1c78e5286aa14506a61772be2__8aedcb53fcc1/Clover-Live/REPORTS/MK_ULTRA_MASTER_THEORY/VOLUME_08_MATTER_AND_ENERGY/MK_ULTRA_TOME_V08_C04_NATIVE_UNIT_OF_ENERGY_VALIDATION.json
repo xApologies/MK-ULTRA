@@ -1,0 +1,116 @@
+{
+  "schema": "tome-publication-renderer-validation/v1",
+  "created_at": "2026-08-10T20:55:44.496240+00:00",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "engine": "KaTeX 0.16.22 -> HTML/CSS -> Playwright -> Microsoft Edge PDF",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_08_MATTER_AND_ENERGY/MK_ULTRA_TOME_V08_C04_NATIVE_UNIT_OF_ENERGY.pdf",
+    "bytes": 151526,
+    "sha256": "372c8a80243841309f8fe8a5800792dc1dbadf6bab45eca9b30b2696c0554d16"
+  },
+  "actual_pages": 6,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V08-C04": 3
+  },
+  "chapter_validations": [
+    {
+      "chapter_id": "V08-C04",
+      "source_sha256": "01b02d3a8f56b8520a3d4c7eeb1a1c4b0b63fa84fce46b77b3bfbf62635eefb2",
+      "page_start": 3,
+      "headings": 23,
+      "display_equations": 20,
+      "inline_equations": 23,
+      "equation_tags": 20,
+      "api_handles": 7,
+      "table_rows": 8,
+      "content_markers_present": true
+    }
+  ],
+  "engine_metrics": {
+    "renderer": "TOME_PUBLICATION_RENDERER_V1",
+    "katexVersion": "0.16.22",
+    "chapters": [
+      {
+        "id": "V08-C04",
+        "sourceBytes": 8832,
+        "paragraphs": 41,
+        "headings": 23,
+        "displayEquations": 20,
+        "inlineEquations": 23,
+        "tables": 1,
+        "tableRows": 7,
+        "listItems": 0,
+        "codeBlocks": 0,
+        "figures": 0
+      }
+    ],
+    "paragraphs": 41,
+    "headings": 23,
+    "displayEquations": 20,
+    "inlineEquations": 23,
+    "tables": 1,
+    "tableRows": 7,
+    "listItems": 0,
+    "blockQuotes": 0,
+    "codeBlocks": 0,
+    "figures": 0,
+    "mathLayout": {
+      "checked": 20,
+      "scaled": [],
+      "remainingOverflow": []
+    }
+  },
+  "raw_latex_guard": {
+    "result": "PASS",
+    "hits": [],
+    "commands_scanned": [
+      "frac",
+      "mathcal",
+      "mathrm",
+      "begin",
+      "end",
+      "left",
+      "right",
+      "longrightarrow",
+      "rightarrow",
+      "otimes",
+      "partial",
+      "nabla",
+      "mu",
+      "nu",
+      "sum",
+      "int",
+      "operatorname"
+    ]
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V08-C04": "01b02d3a8f56b8520a3d4c7eeb1a1c4b0b63fa84fce46b77b3bfbf62635eefb2"
+  },
+  "source_hashes_after": {
+    "V08-C04": "01b02d3a8f56b8520a3d4c7eeb1a1c4b0b63fa84fce46b77b3bfbf62635eefb2"
+  },
+  "sealed_chapter_content_change_count": 0,
+  "render_compatibility": {
+    "result": "PASS_SEMANTICALLY_EQUIVALENT_NOTATION",
+    "sealed_source_path": "REPORTS/MK_43_ULTRA_MASTER_THEORY/VOLUME_08_MATTER_AND_ENERGY/V08_C04_NATIVE_UNIT_OF_ENERGY.md",
+    "sealed_source_sha256": "8265147a14cfeb17aaba63bae5501c2fe691f84485277fcadb22456f05165ab9",
+    "temporary_render_source_sha256": "01b02d3a8f56b8520a3d4c7eeb1a1c4b0b63fa84fce46b77b3bfbf62635eefb2",
+    "substitution_count": 1,
+    "substitution": "Unsupported \\centernot\\Longrightarrow rendered as the semantically equivalent KaTeX-supported \\not\\Longrightarrow.",
+    "sealed_source_modified": false,
+    "renderer_modified": false
+  },
+  "visual_qa": {
+    "result": "PASS",
+    "scope": "ALL_6_PAGES",
+    "pages_inspected": 6,
+    "blank_pages": 0,
+    "clipped_text_or_math": 0,
+    "overlapping_elements": 0,
+    "unrendered_latex": 0,
+    "layout_defects": 0,
+    "inspection_method": "Poppler 120-DPI page render with full-document contact sheets"
+  }
+}

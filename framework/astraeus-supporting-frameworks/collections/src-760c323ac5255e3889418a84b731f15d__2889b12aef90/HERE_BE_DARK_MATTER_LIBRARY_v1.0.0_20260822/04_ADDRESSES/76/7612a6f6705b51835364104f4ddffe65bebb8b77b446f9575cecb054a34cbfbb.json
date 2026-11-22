@@ -1,0 +1,25 @@
+{
+  "handle": "landscape://DL-DM-E075-UCM-COMPONENT-WITNESS",
+  "object_type": "dependency_landscape",
+  "status": "APPEND_ONLY_CONDITIONAL",
+  "domain": "LANDSCAPE",
+  "namespace": "mk43://landscape",
+  "name": "DL-DM-E075-UCM-COMPONENT-WITNESS",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "DEPENDENCY_LANDSCAPE",
+  "metadata": {
+    "id": "DL-DM-E075-UCM-COMPONENT-WITNESS",
+    "seed": "@dm_joint_hidden_network_witness",
+    "status": "APPEND_ONLY_CONDITIONAL",
+    "source_file": "live/registry",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1\", \"landscape_id\": \"DL-DM-E075-UCM-COMPONENT-WITNESS\", \"seed\": \"@dm_joint_hidden_network_witness\", \"status\": \"APPEND_ONLY_CONDITIONAL\", \"nodes\": [\"@dm_joint_hidden_network_witness\", \"@dm_resolution_density_profile\", \"@energy_density\", \"@dm_ucm_source_domain_distinction\", \"@dm_ucm_event_to_source_nonannihilation\", \"@stress_energy_tensor\", \"@dm_conditional_ucm_stress_energy_witness\"], \"working_assumptions\": [\"WA-DM-E075-001\"], \"terminal\": {\"state\": \"CONDITIONAL_STRESS_ENERGY_SEPARATION_CLOSED\", \"iteration\": 3, \"focus\": \"@dm_conditional_ucm_stress_energy_witness\", \"reason\": \"One nonzero hidden density component is conditionally preserved through the recovered UCM source handoff, sufficient to prove tensor inequality without reconstructing the full tensor.\"}}"
+  },
+  "address": "landscape://DL-DM-E075-UCM-COMPONENT-WITNESS",
+  "address_sha256": "7612a6f6705b51835364104f4ddffe65bebb8b77b446f9575cecb054a34cbfbb"
+}

@@ -1,0 +1,57 @@
+{
+  "schema": "ASTRAEUS_QMO_CROSS_CRAWL_V1",
+  "seeds": [
+    "@black_hole"
+  ],
+  "targets": [
+    "@dm_mode0_access_interface"
+  ],
+  "bidirectional": true,
+  "edge_count": 1659,
+  "reachable_count": 245,
+  "distance_histogram": {
+    "0": 1,
+    "1": 6,
+    "2": 24,
+    "3": 63,
+    "4": 151
+  },
+  "paths": {
+    "@black_hole -> @dm_mode0_access_interface": [
+      {
+        "from": "@black_hole",
+        "relation": "DIRECTED_TO",
+        "to": "@black_hole_information_closure",
+        "traversal": "forward",
+        "origin": "TIMESPACE_4.3_FULL_CANONICAL",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54853->54854",
+        "source_location": "source_snapshots/api43/MK43_Ultra_API_CURRENT_CANONICAL.md:57288",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@black_hole_information_closure",
+        "relation": "DIRECTED_TO",
+        "to": "@white_state_core",
+        "traversal": "reverse",
+        "origin": "TIMESPACE_4.3_FULL_CANONICAL",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54856->54857",
+        "source_location": "source_snapshots/api43/MK43_Ultra_API_CURRENT_CANONICAL.md:58386",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@white_state_core",
+        "relation": "SUPPLIES_MODE0_ACCESS_INTERFACE",
+        "to": "@dm_mode0_access_interface",
+        "traversal": "forward",
+        "origin": "DARKMATTER_2.0",
+        "provenance": "DM2.0",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "USER_CURATORIAL_RULING",
+        "confidence": "high"
+      }
+    ]
+  },
+  "guardrail": "Navigation evidence only. Composed paths are not direct theorems and no parent object is promoted."
+}

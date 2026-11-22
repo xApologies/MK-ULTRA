@@ -1,0 +1,17 @@
+{
+  "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+  "certificate_id": "CC-DM-E074-001",
+  "checkpoint": "E074",
+  "object": "@dm_ucm_event_to_source_nonannihilation",
+  "decision": "DIAGNOSTIC_FACTORIZATION_CLOSED_OPEN_SENSITIVITY",
+  "scope": "UCM event/source factorization",
+  "checks": {
+    "Pi_U_factorization_typed": true,
+    "hidden_source_domain_pair_available": true,
+    "P_T_nonannihilation_proved": false,
+    "generic_metric_active_representation_required_on_shortest_ucm_lane": false,
+    "baseline_dm22_modified": false,
+    "physical_promotion": false
+  },
+  "result": "The shortest UCM route requires one event-to-readable-source sensitivity witness, not a unique hidden action or a generic Q_H-to-field identity."
+}

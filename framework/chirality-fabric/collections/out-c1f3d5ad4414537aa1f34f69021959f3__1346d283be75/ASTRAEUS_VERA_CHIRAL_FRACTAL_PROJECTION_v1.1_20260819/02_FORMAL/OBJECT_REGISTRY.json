@@ -1,0 +1,62 @@
+[
+  {
+    "handle": "@cfp_source_object",
+    "type": "recursive_source",
+    "status": "CFP_DERIVED",
+    "definition": "Source history plus geometry and hidden chirality/history fiber."
+  },
+  {
+    "handle": "@cfp_projection_profile",
+    "type": "readout_map",
+    "status": "CFP_DERIVED",
+    "definition": "A map from a source object to a readable target/profile."
+  },
+  {
+    "handle": "@cfp_projection_fiber",
+    "type": "equivalence_fiber",
+    "status": "CFP_DERIVED",
+    "definition": "Preimage of a readable profile; nonlinear analogue of unresolved projection class."
+  },
+  {
+    "handle": "@cfp_common_kernel",
+    "type": "linear_unresolved_subspace",
+    "status": "CFP_DERIVED",
+    "definition": "Intersection of kernels of stacked linear probes."
+  },
+  {
+    "handle": "@cfp_state_residue",
+    "type": "compression_residue",
+    "status": "CFP_DERIVED_LANGUAGE",
+    "definition": "Component of the full state omitted by a declared reduced coordinate/readout; in E056, r_perp relative to q. Distinct from numerical fit residual and from canonical MK43 Invariant Residue."
+  },
+  {
+    "handle": "@cfp_transverse_probe",
+    "type": "measurement",
+    "status": "CFP_DERIVED",
+    "definition": "Residue-sensitive probe: a measurement with sensitivity into directions not represented by the current dominant readout family."
+  },
+  {
+    "handle": "@cfp_z2_holonomy",
+    "type": "finite_path_invariant",
+    "status": "TOY_ONLY",
+    "definition": "Cycle product of Z2 edge signs modulo vertex gauge."
+  },
+  {
+    "handle": "@cfp_hidden_fractal_dimension",
+    "type": "self_similar_product_dimension",
+    "status": "TOY_ONLY",
+    "definition": "Dimension carried by projected-away Cantor-product factors."
+  },
+  {
+    "handle": "@cfp_response_leverage",
+    "type": "finite_diagnostic",
+    "status": "CFP_DERIVED",
+    "definition": "Response-energy miss divided by transverse state-residue energy share."
+  },
+  {
+    "handle": "@e056_weighted_tree_response",
+    "type": "source_result",
+    "status": "SOURCE_PRESERVED",
+    "definition": "Existing E056 controlled weighted-tree to direct-flow response result."
+  }
+]

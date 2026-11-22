@@ -1,0 +1,95 @@
+{
+  "schema": "ASTRAEUS_API_QMO_CROSS_LANDSCAPE_V1",
+  "qmo_id": "QMO-AST-DM-WL-053",
+  "name": "ER Branch Readout Separation / Rotational Symmetry Interface",
+  "atlas_version": "WL-v168",
+  "status": "API_BRANCH_INTERFACE_CLOSED_ARCHITECTURE_NOT_WITNESS_NOT_PARENT_PROMOTED",
+  "parents": [
+    "@dm_er_branch_readout_separation",
+    "@rotational_symmetry_constraint"
+  ],
+  "query": {
+    "schema": "ASTRAEUS_CROSS_API_PAIR_QUERY_V1",
+    "a": "@dm_er_branch_readout_separation",
+    "b": "@rotational_symmetry_constraint",
+    "radius": 2,
+    "a_node_count": 45,
+    "b_node_count": 26,
+    "interface": [
+      {
+        "handle": "@er_foam",
+        "distance_a": 1,
+        "distance_b": 2
+      },
+      {
+        "handle": "@graviton",
+        "distance_a": 1,
+        "distance_b": 2
+      },
+      {
+        "handle": "@helicon",
+        "distance_a": 2,
+        "distance_b": 1
+      },
+      {
+        "handle": "@gravitational_helicon_mode",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@zer0_interaction",
+        "distance_a": 2,
+        "distance_b": 2
+      }
+    ],
+    "path_a_to_b": [
+      {
+        "source": "@dm_er_branch_readout_separation",
+        "relation": "DEPENDS_ON",
+        "target": "@er_foam",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.2_CROSS_API",
+        "origin": "DARKMATTER_2.2",
+        "origin_api": "DARKMATTER_2.2"
+      },
+      {
+        "source": "@er_foam",
+        "relation": "DEPENDS_TO",
+        "target": "@helicon",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45073",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@helicon",
+        "relation": "SATISFIES",
+        "target": "@rotational_symmetry_constraint",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "recovery_pass": "RP-38",
+        "provenance": "DIRECT_DEFINITION_API:2498-2510",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    "path_b_to_a": null,
+    "edge_policy": {
+      "timespace": "high-confidence direct/non-derived RP42 records",
+      "darkmatter": "high-confidence DM_DIRECT_EDGE_REGISTRY records",
+      "gluing": "exact handle equality only; no cross-edge is invented"
+    }
+  },
+  "finding": "The exact radius-2 interface is @er_foam, @graviton, @helicon, @gravitational_helicon_mode, @zer0_interaction. The direct registered route is @dm_er_branch_readout_separation -> @er_foam -> @helicon -> @rotational_symmetry_constraint.",
+  "next_handle": "@er_foam",
+  "reason": "@dm_er_branch_readout_separation is already CLOSED; @er_foam is the source-native branch origin. Gravity/Time-Shell mathematics is already recovered, while horizontal Helicon transport remains untyped.",
+  "guardrails": [
+    "do not infer frame dragging",
+    "do not use @zer0_interaction without a dedicated query",
+    "Helicon horizontal transport remains untyped"
+  ]
+}

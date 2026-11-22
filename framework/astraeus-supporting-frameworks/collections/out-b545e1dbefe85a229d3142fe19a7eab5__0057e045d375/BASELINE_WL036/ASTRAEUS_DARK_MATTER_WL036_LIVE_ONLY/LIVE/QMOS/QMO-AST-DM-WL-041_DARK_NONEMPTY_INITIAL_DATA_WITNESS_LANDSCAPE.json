@@ -1,0 +1,108 @@
+{
+  "schema": "ASTRAEUS_API_QMO_COMPOSITION_V1",
+  "qmo_id": "QMO-AST-DM-WL-041",
+  "name": "Dark Qualification Nonemptiness -> Parent Initial-Data Witness Landscape",
+  "atlas_version": "WL-v156",
+  "status": "PARENT_CANDIDATE_REACTIVATED_NOT_PROMOTED",
+  "seed": "@dm_dark_matter_qualification_nonempty",
+  "parent_candidate_qmo": {
+    "schema": "MK43_QMO_CANDIDATE_V1",
+    "qmo_id": "QMO-XAPI-CAND-001",
+    "name": "Dark-Matter Nonemptiness as an Initial-Data Witness Problem",
+    "status": "OPEN_QMO_CANDIDATE_NOT_PROMOTED",
+    "mount_scope": [
+      "timespace_4_3",
+      "darkmatter_2_2"
+    ],
+    "parents": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_covariant_hidden_action_family",
+      "@dm_constraint_preserving_embedding_family"
+    ],
+    "candidate_statement": "Search for one matched full/visible initial-data witness satisfying the parent GR initial-value constraints together with the Dark-Matter Qualification Locus conditions, then use the parent Cauchy/evolution architecture as the continuation target.",
+    "parent_handles": [
+      "@cauchy_problem",
+      "@initial_data_set",
+      "@hamiltonian_constraint",
+      "@momentum_constraint"
+    ],
+    "recovered_paths": {
+      "@cauchy_problem": [
+        "@local_energy_momentum_conservation",
+        "@einstein_field_equation",
+        "@cauchy_problem"
+      ],
+      "@initial_data_set": [
+        "@stress_energy_tensor",
+        "@general_relativity",
+        "@initial_data_set"
+      ],
+      "@hamiltonian_constraint": [
+        "@local_energy_momentum_conservation",
+        "@einstein_field_equation",
+        "@cauchy_problem",
+        "@hamiltonian_constraint"
+      ],
+      "@momentum_constraint": [
+        "@local_energy_momentum_conservation",
+        "@einstein_field_equation",
+        "@cauchy_problem",
+        "@momentum_constraint"
+      ]
+    },
+    "guardrail": "API 4.3 supplies the initial-data/Cauchy dependency architecture, but this cross-crawl does not itself prove existence or well-posed evolution for the hidden sector. This remains a witness-construction QMO."
+  },
+  "api43_handle_records": {
+    "@initial_data_set": {
+      "family": "F6_INITIAL_VALUE_ADM",
+      "object": "Spatial metric and extrinsic curvature with matter data",
+      "status": "RECOVERED_ACCEPTED_MATHEMATICS"
+    },
+    "@hamiltonian_constraint": {
+      "family": "F6_INITIAL_VALUE_ADM",
+      "object": "Scalar constraint on initial data",
+      "status": "RECOVERED_ACCEPTED_MATHEMATICS"
+    },
+    "@momentum_constraint": {
+      "family": "F6_INITIAL_VALUE_ADM",
+      "object": "Vector constraint on initial data",
+      "status": "RECOVERED_ACCEPTED_MATHEMATICS"
+    },
+    "@cauchy_problem": {
+      "family": "F6_INITIAL_VALUE_ADM",
+      "object": "GR initial-value/evolution architecture",
+      "status": "RECOVERED_ACCEPTED_MATHEMATICS"
+    }
+  },
+  "registered_edges": [
+    {
+      "from": "@initial_data_set",
+      "relation": "DEPENDS_ON",
+      "to": "@hamiltonian_constraint",
+      "api_line": 62328,
+      "provenance": "ACCEPTED_MATHEMATICS"
+    },
+    {
+      "from": "@initial_data_set",
+      "relation": "DEPENDS_ON",
+      "to": "@momentum_constraint",
+      "api_line": 62329,
+      "provenance": "ACCEPTED_MATHEMATICS"
+    },
+    {
+      "from": "@initial_data_set",
+      "relation": "FAMILY_DEPENDS_ON",
+      "to": "@cauchy_problem",
+      "api_line": 62064,
+      "provenance": "ACCEPTED_MATHEMATICS"
+    }
+  ],
+  "next_handle": "@initial_data_set",
+  "reason": "Unlike the atomic action selector, the parent API already supplied QMO-XAPI-CAND-001 as a concrete next-handle strategy for qualification nonemptiness.",
+  "guardrails": [
+    "candidate QMO is not promoted",
+    "initial-data architecture does not establish hidden-sector witness existence",
+    "constraints remain required",
+    "metric-action selection remains open in parallel"
+  ]
+}

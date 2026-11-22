@@ -1,0 +1,22 @@
+{
+  "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+  "handle": "@dm_joint_hidden_network_witness",
+  "canonical_name": "Joint Hidden-Network Load/Response Witness",
+  "type": "ConditionalDualWitnessTheorem",
+  "status": "LIVE_DERIVED_CLOSED_INTERNAL",
+  "checkpoint": "E063",
+  "definition": "Conditional theorem: a selected positive two-port hidden path satisfying the native-load assumptions has both nonzero hidden boundary response and nonzero supported native load.",
+  "math": "p,q>0 and positive hidden load support => DeltaLambda_H != 0 AND Delta rho_H > 0; W_H^R=(Delta boldrho_H^R,Lambda_H) is jointly nonzero.",
+  "parents": [
+    "@dm_hidden_response_operator",
+    "@dm_hidden_relational_load",
+    "@dm_native_hidden_witness"
+  ],
+  "source_theorems": [
+    "ATLAS_V36/167_MODE0_PORT_ATTACHMENT_THEOREMS.md:V24-T4",
+    "ATLAS_V36/184_V29_EQUILIBRIUM_NATIVE_LOAD_WITNESS.md:V29-T3",
+    "ATLAS_V36/207_V33_DARK_NETWORK_WITNESS_PAIR.md"
+  ],
+  "physical_claim": false,
+  "baseline_mutation": false
+}

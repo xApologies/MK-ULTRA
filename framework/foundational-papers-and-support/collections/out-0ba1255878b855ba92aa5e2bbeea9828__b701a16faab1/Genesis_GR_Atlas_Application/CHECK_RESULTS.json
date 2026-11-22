@@ -1,0 +1,145 @@
+{
+  "status": "ALL_TESTS_PASSED",
+  "tests": [
+    {
+      "name": "Atlas RN025 exact partition sequence",
+      "passed": true
+    },
+    {
+      "name": "Atlas RN025 exactly two strict refinements",
+      "passed": true
+    },
+    {
+      "name": "A shortest distinguishing word has length two",
+      "passed": true
+    },
+    {
+      "name": "Report-consistent jump then gate also distinguishes 0 and 2",
+      "passed": true
+    },
+    {
+      "name": "Witness is defined for one state and undefined for the other",
+      "passed": true
+    },
+    {
+      "name": "4356 bounded word-state-pair checks agree with stable partition",
+      "passed": true
+    },
+    {
+      "name": "All finite pair-witness results agree with stable partition",
+      "passed": true
+    },
+    {
+      "name": "Irrelevant retained labels yield two behavioral classes",
+      "passed": true
+    },
+    {
+      "name": "Finite matched bridge passes",
+      "passed": true
+    },
+    {
+      "name": "Explicit declared quotient passes finite equality check",
+      "passed": true
+    },
+    {
+      "name": "Distinct declared physical labels are not silently quotiented",
+      "passed": true
+    },
+    {
+      "name": "Raw labels remain recoverable from paired data",
+      "passed": true
+    },
+    {
+      "name": "Incorrect target dynamics rejected",
+      "passed": true
+    },
+    {
+      "name": "Enabledness mismatch rejected",
+      "passed": true
+    },
+    {
+      "name": "Coverage failure rejected",
+      "passed": true
+    },
+    {
+      "name": "Malformed state reference rejected",
+      "passed": true
+    },
+    {
+      "name": "All 324 two-state models agree with independent pair search",
+      "passed": true
+    },
+    {
+      "name": "Projection-plus-complement inverse on 125 rational fixtures",
+      "passed": true
+    },
+    {
+      "name": "Copying an already visible coordinate does not recover missing coordinate",
+      "passed": true
+    },
+    {
+      "name": "Sector identity extension guard",
+      "passed": true
+    }
+  ],
+  "test_count": 20,
+  "atlas_partitions": [
+    [
+      [
+        "0",
+        "2",
+        "4"
+      ],
+      [
+        "1",
+        "3",
+        "5"
+      ]
+    ],
+    [
+      [
+        "0",
+        "2"
+      ],
+      [
+        "1",
+        "3"
+      ],
+      [
+        "4"
+      ],
+      [
+        "5"
+      ]
+    ],
+    [
+      [
+        "0"
+      ],
+      [
+        "1"
+      ],
+      [
+        "2"
+      ],
+      [
+        "3"
+      ],
+      [
+        "4"
+      ],
+      [
+        "5"
+      ]
+    ]
+  ],
+  "atlas_strict_refinements": 2,
+  "atlas_shortest_witness_0_vs_2": [
+    "gate",
+    "gate"
+  ],
+  "atlas_bounded_word_pair_checks": 4356,
+  "exhaustive_two_state_models": 324,
+  "native_genesis_gr": "NOT_EVALUATED: actual native operators, target evolution, and independently justified physical equivalence were not supplied as evaluated finite tables.",
+  "scope": "Report example and constructed finite/linear fixtures only; no physical-equivalence certificate."
+}

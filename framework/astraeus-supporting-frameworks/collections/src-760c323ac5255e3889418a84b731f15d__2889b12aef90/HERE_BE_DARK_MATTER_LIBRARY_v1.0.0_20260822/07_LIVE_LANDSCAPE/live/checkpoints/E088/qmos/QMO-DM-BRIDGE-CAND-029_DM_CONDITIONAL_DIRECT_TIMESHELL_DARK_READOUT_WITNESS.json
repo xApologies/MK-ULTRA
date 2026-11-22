@@ -1,0 +1,32 @@
+{
+  "schema": "ASTRAEUS_QMO_CANDIDATE_V1",
+  "qmo_id": "QMO-DM-BRIDGE-CAND-029",
+  "handle": "@dm_conditional_direct_timeshell_dark_readout_witness",
+  "canonical_name": "Conditional Direct Time-Shell Dark-Readout Witness",
+  "status": "LIVE_CONDITIONAL_CANDIDATE",
+  "checkpoint": "E088",
+  "parents": [
+    "@dm_two_port_timeshell_gravity_fiber_test",
+    "@dm_dark_readout_defect",
+    "@matter_readable_organization"
+  ],
+  "working_assumptions": [
+    "WA-DM-E064-002",
+    "WA-DM-E088-001"
+  ],
+  "source_basis": [
+    "ATLAS_V36:122_DARK_MATTER_AS_READOUT_FACTORIZATION_DEFECT.md",
+    "ATLAS_V36:121_CHANNEL_CONDITIONED_RESOLUTION_READOUT.md",
+    "ATLAS_V36:174_V27_TIME_SHELL_GRAVITY_TRANSMISSION_GATE.md"
+  ],
+  "derivation": [
+    "WA-DM-E064-002 supplies a matched full/visible pair in one ordinary matter-readout fiber: M_R(N_full)=M_R(N_vis).",
+    "E086 supplies distinct native continuity responses for the selected c_*.",
+    "WA-DM-E088-001 speed-tapes only the selected G_TS fiber separation, yielding distinct readable metric perturbations h_full!=h_vis.",
+    "The readout-factorization definition therefore places the selected pair in the dark-readout defect D_R."
+  ],
+  "result": "A direct conditional dark-readout witness exists on the selected two-port Time-Shell gravity fiber without using the UCM event-density bridge, chromatic route, or residue/Q route.",
+  "math": "M_R(N_full)=M_R(N_vis) and G_TS(-Lambda_full c_*)!=G_TS(-Lambda_vis c_*) => (N_full,N_vis,c_*) in D_G^R subset of the selected dark-readout comparison class.",
+  "boundary": "This is conditional on the matched-pair scaffold and one selected gravity-fiber separation. It is not an unconditional proof that DM_R is nonempty and it does not identify the hidden network with physical dark matter.",
+  "physical_claim": false
+}

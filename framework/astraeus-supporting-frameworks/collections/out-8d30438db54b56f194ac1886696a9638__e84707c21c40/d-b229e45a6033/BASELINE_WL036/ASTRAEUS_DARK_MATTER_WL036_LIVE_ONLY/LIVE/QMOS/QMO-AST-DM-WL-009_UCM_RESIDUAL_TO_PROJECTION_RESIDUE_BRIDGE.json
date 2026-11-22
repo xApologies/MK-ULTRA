@@ -1,0 +1,33 @@
+{
+  "id": "QMO-AST-DM-WL-009_UCM_RESIDUAL_TO_PROJECTION_RESIDUE_BRIDGE",
+  "work_layer": "WL-010",
+  "atlas": "WL-v134",
+  "date": "2026-08-17",
+  "status": "SOURCE_COMPOSED_OPEN_BRIDGE_NOT_PARENT_PROMOTED",
+  "parents": [
+    "QMO-AST-DM-052_PERSISTENT_HISTORY_UCM_RESIDUAL",
+    "QMO-AST-DM-028_SOURCE_MATCHED_Q_ACTION_COMPLETION",
+    "QMO-AST-DM-041_SYMMETRY_QUALIFIED_SOURCE_MATCHED_Q_ACTION",
+    "Time-Space API 4.3 Lemma L5 Projection Residue Bundle",
+    "@persistent_boundary",
+    "@boundary_projection",
+    "@residue_quantum_field_bundle"
+  ],
+  "type_firewall": "ResidualFieldState_UCM != ProjectionResidue_F_p unless an explicit bridge is typed",
+  "open_bridge": "beta_res^R:Res_P,rot^R partial->Bnd_Xi^R",
+  "source_backed_descendant": "Once admissible persistent-boundary projection data exist, PRB constructs F_p=Inv(Pi^-1(p)) and the residue bundle pi_F:F->M by Time-Space Lemma L5",
+  "gate_factorization": {
+    "B0": "persistent rotational/S3-provenance UCM ResidualFieldState witness",
+    "B1": "beta_res^R persistent-boundary realization",
+    "B2": "projection-residue bundle + source-matched Q/action core C_Q,T^R nonempty",
+    "B3": "rotational equivariance/action-invariance refinement C_Q,T,rot^R nonempty"
+  },
+  "current_blockers": [
+    "beta_res^R not recovered",
+    "nonzero source-matched T_D^R for the controlled rotational History family not witnessed",
+    "Q/action source-matched nonemptiness remains open",
+    "known propagating Helicon route to B3 rotational equivariance has untyped horizontal transport"
+  ],
+  "scalar_guardrail": "rho_E is a load witness only and does not determine T_mn without a source-proved factorization",
+  "parent_promotions": 0
+}

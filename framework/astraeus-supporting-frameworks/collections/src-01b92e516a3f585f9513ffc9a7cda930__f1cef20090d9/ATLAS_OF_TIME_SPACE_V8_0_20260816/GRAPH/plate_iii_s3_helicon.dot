@@ -1,0 +1,30 @@
+digraph G {
+ graph [bgcolor="#07111e", rankdir=LR, pad=0.4, nodesep=0.45, ranksep=0.65, label="ATLAS PLATE III — S3 HELICON DOMAIN", labelloc=t, fontcolor="#f3d48b", fontsize=24];
+ node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=12, color="#a7c7d9", fillcolor="#0c2033", fontcolor="#e8f2f7", penwidth=1.4];
+ edge [color="#85b9d1", fontcolor="#d8eaf3", fontname="Helvetica", fontsize=10, penwidth=1.4];
+ S3 [label="S³ continuity base\nchirality + Helicon candidate domain", shape=ellipse, fillcolor="#16324a", color="#f3d48b", penwidth=2.4];
+ chi [label="Eχ³ → S³\nχ₃ global chirality section"];
+ H [label="E_H → S³\nH₃ coherent Helicon section"];
+ gamma [label="γ : I → S³\ncontinuity path"];
+ P [label="Pγ^χ , Pγ^H\nparallel transport"];
+ W [label="Wγ = γ* T⁵\n≅ S² × I", fillcolor="#193a38"];
+ Sa [label="Σα ≅ S²\nlocal spacetime"];
+ Sb [label="Σβ ≅ S²\nlocal spacetime"];
+ Ta [label="τ_H,α\nS³→S² transduction"];
+ Tb [label="τ_H,β\nS³→S² transduction"];
+ Q [label="local QFT / Q handoff"];
+ GR [label="local GR / metric"];
+ ER [label="local ER foam"];
+ S3 -> chi [label="hosts"];
+ chi -> H [label="orients / constrains", color="#f0b96c"];
+ S3 -> H [label="hosts"];
+ S3 -> gamma [label="path"];
+ gamma -> P [label="induces"];
+ P -> W [label="lifts through T⁵"];
+ W -> Sa [dir=both, label="endpoint"];
+ W -> Sb [dir=both, label="endpoint"];
+ H -> Ta; H -> Tb;
+ Ta -> Sa; Tb -> Sb;
+ Sa -> Q; Sa -> GR; Sa -> ER;
+ Sb -> Q [style=dashed]; Sb -> GR [style=dashed]; Sb -> ER [style=dashed];
+}

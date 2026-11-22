@@ -1,0 +1,96 @@
+[
+  {
+    "handle": "@dm_dark_matter_qualification_nonempty",
+    "name": "Dark-Matter Qualification Nonemptiness",
+    "namespace": "theorem_target",
+    "type": "OpenExistenceTheorem",
+    "status": "OPEN_PRIMARY_HANDLE",
+    "criticality": "critical",
+    "definition": "Final internal existence target after the source map is typed: prove that the Dark-Matter Qualification Locus contains at least one admissible full/visible comparison state.",
+    "math": "Goal: DM_R ≠ ∅ for at least one declared Resolution R and matched comparison class.",
+    "source_refs": [
+      "DM2.1:@dm_dark_matter_qualification_locus"
+    ]
+  },
+  {
+    "handle": "@dm_hidden_state_embedding",
+    "name": "Hidden S3 State Embedding into Inherited State Bundle",
+    "namespace": "open",
+    "type": "OpenBundleMonomorphism",
+    "status": "OPEN_PRIMARY_HANDLE",
+    "criticality": "critical",
+    "definition": "Primary open selection/existence problem after bidirectional cross-crawl: select a physical embedding from @dm_constraint_preserving_embedding_family. The family is typed; nonemptiness and a realized embedding remain open.",
+    "math": "Select iota_H∈Emb_H,phys^R. Required: pi_E∘iota_H=j_T∘pi_H; I∘iota_H=iota_H∘I_H; iota_H(E_H^R)⊆ker(C).",
+    "source_refs": [
+      "QMO_RUNTIME_v0.2:QMO-DM-CAND-002",
+      "CURRENT_FORMAL:@inherited_state_bundle",
+      "TOME_CH94:relational-state/history type normalization"
+    ]
+  },
+  {
+    "handle": "@dm_metric_action_selection",
+    "name": "Metric-Coupled Hidden Action Selection",
+    "namespace": "readout",
+    "type": "OpenActionSelection",
+    "status": "OPEN_PRIMARY_HANDLE",
+    "criticality": "critical",
+    "definition": "Primary open source-selection problem after bidirectional cross-crawl: select the physically realized action/equivalence class from @dm_covariant_hidden_action_family.",
+    "math": "Select S_H∈S_H^cov(Q_H,g); then T_H_mn=-(2/sqrt(-g)) δS_H/δg^(mn).",
+    "source_refs": [
+      "CURRENT_FORMAL:Axiom_A14_Quantum_Action_Principle",
+      "TOME_CH71:stress-energy requires field/action/metric variation"
+    ]
+  },
+  {
+    "handle": "@dm_history_to_continuity_strength",
+    "name": "History Support to Continuity-Strength Transduction",
+    "namespace": "open",
+    "type": "OpenMonotoneFunctional",
+    "status": "OPEN_HANDLE",
+    "criticality": "supporting",
+    "definition": "Typed unresolved object promoted from the Master Dark-Matter QMO. It remains mathematically open; promotion makes the unknown queryable rather than solved.",
+    "math": "K_R : HistorySupport_R -> ContinuityStrength | requirements: Respect history-support preorder where all other local conditions are equal.; Do not identify raw history count with physical continuity strength.; Allow source-authoritative decay/forgetting if present.",
+    "source_refs": [
+      "QMO_RUNTIME_v0.3:formal/OPEN_SLOT_REGISTRY.json"
+    ]
+  },
+  {
+    "handle": "@dm_mode0_network_selection_rule",
+    "name": "Mode-0 Hidden-Network Selection Rule",
+    "namespace": "open",
+    "type": "OpenSelectionMap",
+    "status": "OPEN_HANDLE",
+    "criticality": "supporting",
+    "definition": "Typed unresolved object promoted from the Master Dark-Matter QMO. It remains mathematically open; promotion makes the unknown queryable rather than solved.",
+    "math": "Sel_0 : Mode0AccessState -> P(X_H^R) | requirements: Preserve current White-State-Core access-interface distinction.; Select hidden S3 support without identifying White-State Core with dark matter.; Remain inside S4 -> S3 -> S2.",
+    "source_refs": [
+      "QMO_RUNTIME_v0.3:formal/OPEN_SLOT_REGISTRY.json"
+    ]
+  },
+  {
+    "handle": "@dm_native_density_to_readable_source",
+    "name": "Native Density Profile to Readable Source",
+    "namespace": "open",
+    "type": "OpenTransduction",
+    "status": "OPEN_HANDLE",
+    "criticality": "supporting",
+    "definition": "Typed unresolved object promoted from the Master Dark-Matter QMO. It remains mathematically open; promotion makes the unknown queryable rather than solved.",
+    "math": "T_rho,R : DensityProfile_R -> ReadableSource_R | requirements: Cannot use one regional scalar as a universal spatial profile inverse.; Must preserve any claimed nonzero distinction through an explicitly typed translation/calibration.; Must not reconstruct a full stress-energy tensor from scalar density alone.",
+    "source_refs": [
+      "QMO_RUNTIME_v0.3:formal/OPEN_SLOT_REGISTRY.json"
+    ]
+  },
+  {
+    "handle": "@dm_omega_to_chromatic_representation",
+    "name": "Chirality-Space to Chromatic/Basin Representation",
+    "namespace": "open",
+    "type": "OpenRepresentationRelation",
+    "status": "OPTIONAL_OPEN_HANDLE",
+    "criticality": "optional",
+    "definition": "Typed unresolved object promoted from the Master Dark-Matter QMO. It remains mathematically open; promotion makes the unknown queryable rather than solved.",
+    "math": "R_OmegaC^R subseteq Omega x X_C^R | requirements: Do not identify chirality-space elements with chromatic components by shared notation.; Any transported representation must satisfy the appropriate equivariance/commutation condition.; Not required by the primary residue-bundle branch.",
+    "source_refs": [
+      "QMO_RUNTIME_v0.3:formal/OPEN_SLOT_REGISTRY.json"
+    ]
+  }
+]

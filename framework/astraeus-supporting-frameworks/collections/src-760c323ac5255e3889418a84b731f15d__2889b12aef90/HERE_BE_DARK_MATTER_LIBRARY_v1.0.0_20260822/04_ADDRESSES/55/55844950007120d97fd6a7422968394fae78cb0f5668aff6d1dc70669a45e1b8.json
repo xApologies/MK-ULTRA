@@ -1,0 +1,26 @@
+{
+  "handle": "assumption://WA-DM-E091-001",
+  "object_type": "working_assumption",
+  "status": "WORKING_ASSUMPTION",
+  "domain": "ASSUMPTION",
+  "namespace": "mk43://assumption",
+  "name": "Diagnostic Basin Weighting of Chirality Contrast",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E091",
+  "qmo_generated": false,
+  "proof_status": "CONDITIONAL",
+  "empirical_status": "",
+  "provenance_class": "WORKING_ASSUMPTION",
+  "metadata": {
+    "id": "WA-DM-E091-001",
+    "name": "Diagnostic Basin Weighting of Chirality Contrast",
+    "status": "WORKING_ASSUMPTION",
+    "checkpoint": "E091",
+    "proof_debt": "PD-DM-013",
+    "payload_json": "{\"assumption_id\": \"WA-DM-E091-001\", \"name\": \"Diagnostic Basin Weighting of Chirality Contrast\", \"status\": \"WORKING_ASSUMPTION\", \"checkpoint\": \"E091\", \"scope\": \"finite chirality-byte wind tunnel only\", \"statement\": \"For diagnostic traversal, represent basin occupancy beta_k=k/7 as a positive scalar weight on the canonical chirality mirror-contrast mode D_chi. This models the recovered statement that energy density is structured occupancy inside chirality topology without claiming the source-authoritative basin operator.\", \"source_support\": [\"chirality_recovery_report.md: basin ladder 1/7..6/7\", \"chirality_recovery_report.md: energy density becomes structured occupancy inside chirality topology\", \"E090 canonical seed-contrast normal form\"], \"not_claimed\": [\"that basin identity is literally scalar multiplication\", \"that the decimal/voltage is the basin identity\", \"physical calibration\", \"a universal chirality-to-continuity law\"], \"proof_debt\": \"PD-DM-013\"}"
+  },
+  "address": "assumption://WA-DM-E091-001",
+  "address_sha256": "55844950007120d97fd6a7422968394fae78cb0f5668aff6d1dc70669a45e1b8"
+}

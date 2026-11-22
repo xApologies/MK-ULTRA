@@ -1,0 +1,8 @@
+FUNCTION PROPOSE_PROFILE_UPDATE(current_spo, feedback):
+    evidence ← STORE_AS_EVIDENCE(feedback)
+    proposal ← AUTHORING_AI.PROPOSE_DELTA(current_spo, evidence)
+    REQUIRE APPROVAL_PATH(proposal)
+    RETURN BRANE_BUILD_NEW_VERSION(current_spo, proposal)
+END
+
+// Realtime runtime never calls this implicitly.

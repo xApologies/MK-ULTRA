@@ -1,0 +1,67 @@
+{
+  "run_name": "MK43U_H2_CONCURRENT_ENVIRONMENT_TRAVERSAL_R01",
+  "execution_status": "ACTUALLY EXECUTED \u2014 reconstructed source-grounded runner",
+  "historical_runner_recovered": false,
+  "input_manifolds": [
+    "H_A",
+    "H_B"
+  ],
+  "manifold_source": "Hydrogen Recursive Topology Manifold v2",
+  "environment": "MK43U ER Foam Environment v0.1 + Pipeline1/Pipeline2 static domain laws",
+  "T5_category": "NOT(time-independent); persistence/Time-Shell admissible",
+  "T5_environment_chirality_abs_mean": 0.01010797429619232,
+  "T5_environment_persistent_memory_mean": 0.003501726974580986,
+  "T5_timeshell_interface_strength_mean": 0.0036863965144388776,
+  "T5_timeshell_interface_strength_max": 0.03592303224789924,
+  "T6_environment_chirality_abs_mean": 0.013274571260508839,
+  "T7_environment_chirality_abs_mean_after_relaxation": 0.011947114134457955,
+  "continuity_inventory_each_initial": 5528.381336474646,
+  "continuity_inventory_each_final": 5528.381336474646,
+  "continuity_inventory_error_fraction": 0.0,
+  "chirality_rewritten": false,
+  "ancestry_preserved": true,
+  "cycle_summaries": [
+    {
+      "cycle": 1,
+      "gross_exchange_each_direction_fraction": 0.03953317524712755,
+      "persistent_coupling_memory": 0.03456248610830065,
+      "corridor_candidate_weighted_strength": 0.209228382317929,
+      "recoverability": 0.5990767463913047,
+      "recoverability_margin": 0.5077726308917089,
+      "survival_score": 0.7740606713454078,
+      "stable_pair_edge": true
+    },
+    {
+      "cycle": 2,
+      "gross_exchange_each_direction_fraction": 0.03953317524712755,
+      "persistent_coupling_memory": 0.03695119562017376,
+      "corridor_candidate_weighted_strength": 0.2038785801124531,
+      "recoverability": 0.6053712837875282,
+      "recoverability_margin": 0.5173691931534956,
+      "survival_score": 0.776629169680524,
+      "stable_pair_edge": true
+    },
+    {
+      "cycle": 3,
+      "gross_exchange_each_direction_fraction": 0.03953317524712755,
+      "persistent_coupling_memory": 0.03791165888044702,
+      "corridor_candidate_weighted_strength": 0.20174961311718717,
+      "recoverability": 0.6085402920143584,
+      "recoverability_margin": 0.5219519291523029,
+      "survival_score": 0.7778449934982313,
+      "stable_pair_edge": true
+    }
+  ],
+  "R7_topology_classification_post_run": "H2-class weak symmetric shell-sharing ecology",
+  "historical_H_plus_H_benchmark": {
+    "expected_coupling": "weak symmetric shell-sharing equilibrium",
+    "must_not": "bounded nitrogen corridor, topology merger, runaway strengthening",
+    "phase3_success": "coupling persists across full-cycle recursion and saturates at stable equilibrium"
+  },
+  "benchmark_checked_after_run": true,
+  "benchmark_shape_match": true,
+  "pair_closure_ablation_final_pair_edge": false,
+  "R5_sensitivity_positive_cases": 11,
+  "R5_sensitivity_total_cases": 12,
+  "R5_sensitivity_all_tested_margins_positive": false
+}

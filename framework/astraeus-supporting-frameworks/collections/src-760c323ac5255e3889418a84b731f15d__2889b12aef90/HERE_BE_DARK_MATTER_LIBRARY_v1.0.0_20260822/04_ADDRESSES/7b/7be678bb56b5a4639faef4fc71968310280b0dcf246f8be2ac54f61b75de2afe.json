@@ -1,0 +1,25 @@
+{
+  "handle": "iteration://IT-DM-E067-ACTION-KERNEL",
+  "object_type": "bounded_iteration",
+  "status": "OPEN_FORK",
+  "domain": "ITERATION",
+  "namespace": "mk43://iteration",
+  "name": "IT-DM-E067-ACTION-KERNEL",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "BOUNDED_ITERATION",
+  "metadata": {
+    "id": "IT-DM-E067-ACTION-KERNEL",
+    "seed": "@dm_metric_action_selection",
+    "terminal_state": "OPEN_FORK",
+    "source_file": "live/checkpoints/E067/runs/IT-DM-E067-ACTION-KERNEL.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_ITERATION_RUN_V1\", \"run_id\": \"IT-DM-E067-ACTION-KERNEL\", \"checkpoint\": \"E067\", \"seed\": \"@dm_metric_action_selection\", \"ceiling\": 128, \"iterations_used\": 3, \"terminal_state\": \"OPEN_FORK\", \"open_next\": \"@dm_stress_active_action_fiber_nonempty\", \"note\": \"The crawl reduced physical action selection to an existence question over a metric-variation kernel complement; no action was invented.\"}"
+  },
+  "address": "iteration://IT-DM-E067-ACTION-KERNEL",
+  "address_sha256": "7be678bb56b5a4639faef4fc71968310280b0dcf246f8be2ac54f61b75de2afe"
+}

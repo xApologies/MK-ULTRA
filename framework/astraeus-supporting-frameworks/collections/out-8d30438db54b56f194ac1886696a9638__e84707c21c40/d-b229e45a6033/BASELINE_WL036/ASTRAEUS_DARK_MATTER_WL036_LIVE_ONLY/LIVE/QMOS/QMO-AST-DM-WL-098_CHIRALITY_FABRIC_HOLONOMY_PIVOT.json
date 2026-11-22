@@ -1,0 +1,42 @@
+{
+  "schema": "ASTRAEUS_CHIRALITY_FABRIC_HOLONOMY_PIVOT_V1",
+  "qmo_id": "QMO-AST-DM-WL-098",
+  "name": "Chirality Fabric -> Holonomy Next Handle",
+  "atlas_version": "WL-v214",
+  "work_layer": "WL-035",
+  "status": "SOURCE_NATIVE_PIVOT",
+  "parent_promotions": 0,
+  "source_object": {
+    "handle": "@chirality_fabric",
+    "status": "STRONG_CANDIDATE",
+    "type": "distributed admissibility/gluing candidate"
+  },
+  "source_neighbor": {
+    "source": "@holonomy_class",
+    "relation": "CLASSIFIES",
+    "target": "@chirality_fabric",
+    "status": "PROMOTED_CANDIDATE"
+  },
+  "runtime_chain": [
+    "Chirality Fabric",
+    "Chirality Transport",
+    "Chirality Holonomy",
+    "Identity Sensitivity",
+    "Identity Holonomy"
+  ],
+  "history_layer": [
+    "D43 Closed History Loop",
+    "D44 History Transport",
+    "D45 History Holonomy",
+    "D46 Identity Holonomy Triviality",
+    "D47 Identity Holonomy Defect",
+    "D48 Hidden Identity-Breaking Loop",
+    "D49 History Orbit"
+  ],
+  "next_handle": "@identity_holonomy_defect",
+  "guardrails": [
+    "classification edge is Transduction live-model candidate, not DM parent edge",
+    "holonomy != dark matter",
+    "no parent promotion"
+  ]
+}

@@ -1,0 +1,82 @@
+# STATUS NOTICE — PROVISIONAL SKETCH
+
+This file predates the language-discovery reset. It is retained for provenance only. It is **not** current Genesis canon and must not be treated as a finalized syntax or language design.
+
+(* Genesis Programming Language — initial structural grammar *)
+
+program             = { declaration } ;
+
+declaration         = geometric_decl
+                    | boundary_decl
+                    | relationship_decl
+                    | identity_decl
+                    | persistence_decl
+                    | portal_decl
+                    | operation_stmt ;
+
+geometric_decl      = "geometric", identifier, "{", { geometric_field }, "}" ;
+geometric_field     = field_name, ":", value ;
+
+boundary_decl       = "boundary", identifier, "{", { field }, "}" ;
+relationship_decl   = "relationship", identifier, "{", { field }, "}" ;
+identity_decl       = "identity", identifier, "{", { field }, "}" ;
+persistence_decl    = "persistence", identifier, "{", { field }, "}" ;
+
+portal_decl         = "portal", identifier, "{",
+                        "from", ":", reference,
+                        "to", ":", reference,
+                        "carry", ":", reference,
+                        [ "route", ":", route_expr ],
+                        [ "preserve", ":", list ],
+                        [ "require", ":", block ],
+                        [ "on_open", ":", list ],
+                        [ "on_transfer", ":", list ],
+                        [ "on_arrival", ":", list ],
+                        [ "on_failure", ":", list ],
+                        [ "close", ":", value ],
+                      "}" ;
+
+operation_stmt      = inherit_stmt
+                    | propagate_stmt
+                    | stabilize_stmt
+                    | redistribute_stmt
+                    | destabilize_stmt
+                    | close_stmt
+                    | normalize_stmt
+                    | express_stmt ;
+
+inherit_stmt        = "inherit", reference, [ "from", reference ] ;
+propagate_stmt      = "propagate", reference, [ "through", reference ] ;
+stabilize_stmt      = "stabilize", reference ;
+redistribute_stmt   = "redistribute", reference, [ "within", reference ] ;
+destabilize_stmt    = "destabilize", reference, [ "under", value ] ;
+close_stmt          = "close", reference, [ "as", reference ] ;
+normalize_stmt      = "normalize", reference, [ "to", reference ] ;
+express_stmt        = "express", basin, "in", reference ;
+
+basin               = "red" | "orange" | "yellow" | "green" | "blue" | "violet" ;
+
+route_expr          = reference | "discover", "admissible" ;
+
+block               = "{", { field }, "}" ;
+field               = field_name, ":", value ;
+list                = "[", [ value, { ",", value } ], "]" ;
+
+value               = identifier
+                    | reference
+                    | string
+                    | number
+                    | list
+                    | block
+                    | comparison ;
+
+comparison          = reference, comparator, value ;
+comparator          = ">=" | "<=" | "==" | "!=" | ">" | "<" ;
+
+reference           = identifier, { ".", identifier } ;
+field_name          = identifier ;
+identifier          = letter, { letter | digit | "_" } ;
+string              = '"', { ? any character except quote ? }, '"' ;
+number              = digit, { digit | "." } ;
+letter              = "A"…"Z" | "a"…"z" ;
+digit               = "0"…"9" ;

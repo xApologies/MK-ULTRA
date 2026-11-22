@@ -1,0 +1,56 @@
+{
+  "handle": "@dm_mode0_access_interface",
+  "object_type": "mathematical_object",
+  "status": "USER_CURATORIAL_RULING_ACTIVE",
+  "domain": "DM22",
+  "namespace": "access",
+  "name": "Mode-0 / White-State Access Interface",
+  "definition": "Mode 0 routes through the White-State Core and is treated in the current dark-matter landscape as an access interface to the inter-black-hole hidden continuity network. The White-State Core is not identified with the network or with dark matter.",
+  "math": "Mode1 -> local GR/Penrose singularity branch; Mode0 -> White-State Core -> hidden inter-black-hole network (current curatorial ruling).",
+  "source_layer": "DM22",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "DM22",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 1,
+    "live_in_count": 1,
+    "closure_out_reachability_count": 1,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19784,
+        "source": "@dm_mode0_access_interface",
+        "relation": "REQUIRES",
+        "target": "@dm_mode0_network_selection_rule",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19815,
+        "source": "@white_state_core",
+        "relation": "SUPPLIES_MODE0_ACCESS_INTERFACE",
+        "target": "@dm_mode0_access_interface",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "USER_CURATORIAL_RULING",
+        "provenance": "DM2.0"
+      }
+    ]
+  },
+  "address": "@dm_mode0_access_interface",
+  "address_sha256": "acfa3efb4cba2d20466765d588e6cc21fee88d941bc4ff9fe9e4ded3611030e2"
+}

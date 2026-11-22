@@ -1,0 +1,25 @@
+{
+  "higgs_to_work_layer_closure": [
+    [
+      "@higgs_field",
+      "HAS_WORK_LAYER_CLOSURE",
+      "@higgs_work_layer_closure",
+      "WORK_LAYER_ACCEPTED"
+    ]
+  ],
+  "positive_mode_to_local_gravity_matter_closure": null,
+  "graviton_to_local_metric": [
+    [
+      "@graviton",
+      "FORMALLY_DEPENDS_ON",
+      "@local_continuity_perturbation",
+      "WORK_LAYER_LOCAL_REALIZATION"
+    ],
+    [
+      "@local_continuity_perturbation",
+      "PROJECTS_TO",
+      "@local_graviton_metric",
+      "WORK_LAYER_CONSTRUCTED"
+    ]
+  ]
+}

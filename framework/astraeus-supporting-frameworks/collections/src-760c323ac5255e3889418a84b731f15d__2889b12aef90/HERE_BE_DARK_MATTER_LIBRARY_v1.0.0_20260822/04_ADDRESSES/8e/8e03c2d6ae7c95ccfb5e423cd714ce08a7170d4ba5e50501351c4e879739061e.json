@@ -1,0 +1,77 @@
+{
+  "handle": "@cellular_phase_field",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@cellular_phase_field",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@cellular_phase_field",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@chromatic_biological_coupling",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:28025"
+      },
+      {
+        "source": "@cosmological_structure",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@cellular_phase_field",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:28018"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 120,
+        "source": "@cellular_phase_field",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@chromatic_biological_coupling",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:28025"
+      },
+      {
+        "id": 278,
+        "source": "@cosmological_structure",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@cellular_phase_field",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:28018"
+      }
+    ]
+  },
+  "address": "@cellular_phase_field",
+  "address_sha256": "8e03c2d6ae7c95ccfb5e423cd714ce08a7170d4ba5e50501351c4e879739061e"
+}

@@ -1,0 +1,1885 @@
+{
+  "schema": "MK43_HIGGS_WORK_EDGE_REGISTRY_V1_1",
+  "count": 147,
+  "edges": [
+    {
+      "source": "@higgs_field",
+      "relation": "HAS_NATIVE_REALIZATION",
+      "target": "@native_higgs_order_field",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3",
+        "S-ENV"
+      ]
+    },
+    {
+      "source": "@higgs_field",
+      "relation": "HAS_READABLE_REALIZATION_TARGET",
+      "target": "@projected_higgs_field",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3",
+        "S-TS-THM"
+      ]
+    },
+    {
+      "source": "@higgs_field",
+      "relation": "HAS_MASS_RESPONSE",
+      "target": "@native_mass",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@higgs_field",
+      "relation": "HAS_OPERATOR_GRAMMAR",
+      "target": "@dot_notation",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-DOT"
+      ]
+    },
+    {
+      "source": "@higgs_field",
+      "relation": "HAS_ENVIRONMENTAL_ANCESTRY",
+      "target": "@genesis_field",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-GENESIS",
+        "S-ENV"
+      ]
+    },
+    {
+      "source": "@higgs_field",
+      "relation": "HAS_PROJECTION_INTERFACE",
+      "target": "@canonical_qft_handoff_object",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-TS-DEF",
+        "S-TS-THM"
+      ]
+    },
+    {
+      "source": "@higgs_field",
+      "relation": "HAS_DOWNSTREAM_BOUNDARY",
+      "target": "@persistence_thickening_threshold",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-ENV",
+        "S-DOT"
+      ]
+    },
+    {
+      "source": "@native_higgs_order_field",
+      "relation": "DOMAIN",
+      "target": "@environment_address_space",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-CORRIDOR",
+        "S-ENV"
+      ]
+    },
+    {
+      "source": "@native_higgs_order_field",
+      "relation": "CODOMAIN",
+      "target": "@native_higgs_order_space",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@native_higgs_order_field",
+      "relation": "HAS_LOCAL_STATE",
+      "target": "@native_higgs_order_state",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@native_higgs_order_field",
+      "relation": "HAS_ORDER_CONDITIONED_MASS_READOUT",
+      "target": "@native_mass",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "DERIVED_CLOSED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ],
+      "note": "Derived directly from eta-conditioned lock selection plus Mass_eta."
+    },
+    {
+      "source": "@native_higgs_order_space",
+      "relation": "CONTAINS",
+      "target": "@native_higgs_order_state",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@native_higgs_order_space",
+      "relation": "HAS_VACUUM_ORDER",
+      "target": "@native_vacuum_order",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@native_higgs_order_space",
+      "relation": "CONDITIONS",
+      "target": "@stabilize_operator",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@native_higgs_order_space",
+      "relation": "CONDITIONS",
+      "target": "@knot_admissibility_domain",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@native_higgs_order_space",
+      "relation": "CONDITIONS",
+      "target": "@bounded_closure_operator",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@native_higgs_order_space",
+      "relation": "CONDITIONS",
+      "target": "@conditioned_lock_selector",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@native_higgs_order_space",
+      "relation": "SOURCE_COMPATIBILITY_LABEL",
+      "target": "@historical_t4_label",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "HISTORICAL_ALIAS",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3",
+        "S-PIPELINE1"
+      ]
+    },
+    {
+      "source": "@environment_address_space",
+      "relation": "READS",
+      "target": "@environment",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-ENV",
+        "S-CORRIDOR"
+      ]
+    },
+    {
+      "source": "@environment_address_space",
+      "relation": "READS",
+      "target": "@chirality",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-CORRIDOR"
+      ]
+    },
+    {
+      "source": "@environment_address_space",
+      "relation": "READS",
+      "target": "@resolution",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-CORRIDOR",
+        "S-GENESIS"
+      ]
+    },
+    {
+      "source": "@environment_address_space",
+      "relation": "READS",
+      "target": "@bandwidth",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-CORRIDOR",
+        "S-GENESIS"
+      ]
+    },
+    {
+      "source": "@environment",
+      "relation": "INHERITS",
+      "target": "@er_foam",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-ENV"
+      ]
+    },
+    {
+      "source": "@genesis_field",
+      "relation": "HAS_RESOLUTION_COORDINATE",
+      "target": "@resolution",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-GENESIS"
+      ]
+    },
+    {
+      "source": "@genesis_field",
+      "relation": "HAS_BANDWIDTH_COORDINATE",
+      "target": "@bandwidth",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-GENESIS"
+      ]
+    },
+    {
+      "source": "@dot_notation",
+      "relation": "DEFINES",
+      "target": "@inherit_operator",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-DOT"
+      ]
+    },
+    {
+      "source": "@dot_notation",
+      "relation": "DEFINES",
+      "target": "@stabilize_operator",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-DOT"
+      ]
+    },
+    {
+      "source": "@dot_notation",
+      "relation": "DEFINES",
+      "target": "@bounded_closure_operator",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-DOT"
+      ]
+    },
+    {
+      "source": "@native_higgs_order_field",
+      "relation": "ACTS_THROUGH",
+      "target": "@inherit_operator",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3",
+        "S-DOT"
+      ]
+    },
+    {
+      "source": "@native_higgs_order_field",
+      "relation": "ACTS_THROUGH",
+      "target": "@stabilize_operator",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3",
+        "S-DOT"
+      ]
+    },
+    {
+      "source": "@native_higgs_order_field",
+      "relation": "ACTS_THROUGH",
+      "target": "@bounded_closure_operator",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3",
+        "S-DOT"
+      ]
+    },
+    {
+      "source": "@stabilize_operator",
+      "relation": "TESTS_INTO",
+      "target": "@knot_admissibility_domain",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@conditioned_lock_selector",
+      "relation": "USES",
+      "target": "@stabilize_operator",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@conditioned_lock_selector",
+      "relation": "USES",
+      "target": "@bounded_closure_operator",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@conditioned_lock_selector",
+      "relation": "RETURNS_VACUUM_ON_FAILURE",
+      "target": "@native_vacuum",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@conditioned_lock_selector",
+      "relation": "SELECTS",
+      "target": "@localized_persistence_lock",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@native_mass",
+      "relation": "EVALUATES",
+      "target": "@localized_persistence_lock",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@native_mass",
+      "relation": "USES",
+      "target": "@persistence",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@native_mass",
+      "relation": "SUBTRACTS_BASELINE",
+      "target": "@native_vacuum",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@massless_sector",
+      "relation": "DEFINED_BY",
+      "target": "@conditioned_lock_selector",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@massless_sector",
+      "relation": "REFERENCES",
+      "target": "@native_vacuum_order",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@massive_sector",
+      "relation": "DEFINED_BY",
+      "target": "@conditioned_lock_selector",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@massive_sector",
+      "relation": "REFERENCES",
+      "target": "@native_vacuum_order",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@native_mass",
+      "relation": "PARTITIONS",
+      "target": "@massless_sector",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@native_mass",
+      "relation": "PARTITIONS",
+      "target": "@massive_sector",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@native_higgs_order_space",
+      "relation": "MAPS_BY",
+      "target": "@native_to_projected_higgs_map",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@native_to_projected_higgs_map",
+      "relation": "TARGETS",
+      "target": "@higgs_sector_bundle",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@native_to_projected_higgs_map",
+      "relation": "REALIZES",
+      "target": "@projected_higgs_field",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@projected_higgs_field",
+      "relation": "SECTION_OF",
+      "target": "@higgs_sector_bundle",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@native_vacuum_order",
+      "relation": "MAPS_TO",
+      "target": "@projected_higgs_vacuum",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@projected_higgs_vacuum",
+      "relation": "STATE_OF",
+      "target": "@projected_higgs_field",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@higgs_sector_bundle",
+      "relation": "SECTOR_OF",
+      "target": "@residue_quantum_field_bundle",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3",
+        "S-TS-DEF"
+      ]
+    },
+    {
+      "source": "@residue_quantum_field_bundle",
+      "relation": "MEMBER_OF",
+      "target": "@canonical_qft_handoff_object",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-TS-DEF",
+        "S-TS-THM"
+      ]
+    },
+    {
+      "source": "@residue_quantum_field_bundle",
+      "relation": "BUILT_FROM",
+      "target": "@invariant_residue",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-TS-DEF"
+      ]
+    },
+    {
+      "source": "@canonical_qft_handoff_object",
+      "relation": "HAS_TARGET",
+      "target": "@projective_target_manifold",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-TS-DEF"
+      ]
+    },
+    {
+      "source": "@persistent_boundary",
+      "relation": "READ_OUT_BY",
+      "target": "@boundary_projection",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-CORRIDOR",
+        "S-TS-DEF"
+      ]
+    },
+    {
+      "source": "@time_shell",
+      "relation": "REALIZES_INTERFACE",
+      "target": "@persistent_boundary",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-CORRIDOR"
+      ]
+    },
+    {
+      "source": "@boundary_projection",
+      "relation": "TARGETS",
+      "target": "@projective_target_manifold",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-CORRIDOR",
+        "S-TS-DEF"
+      ]
+    },
+    {
+      "source": "@boundary_projection",
+      "relation": "PRESERVES_AS",
+      "target": "@invariant_residue",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-CORRIDOR",
+        "S-TS-DEF"
+      ]
+    },
+    {
+      "source": "@helicon",
+      "relation": "MODE_OF",
+      "target": "@er_foam",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-HELICON"
+      ]
+    },
+    {
+      "source": "@helicon",
+      "relation": "CONSTRAINED_BY",
+      "target": "@chirality",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-HELICON"
+      ]
+    },
+    {
+      "source": "@helicon_spectral_operator",
+      "relation": "SELECTS_ALLOWED_MODE",
+      "target": "@helicon",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-HELICON"
+      ]
+    },
+    {
+      "source": "@higgs_helicon_sector",
+      "relation": "SUBSPACE_OF",
+      "target": "@helicon",
+      "graph_family": "higgs_qmo",
+      "confidence": "medium",
+      "audit_status": "OPEN_CLASSIFICATION",
+      "closure_eligible": true,
+      "provenance": [
+        "S-HELICON"
+      ]
+    },
+    {
+      "source": "@native_higgs_order_space",
+      "relation": "REQUIRES_EXACT_SELECTOR_TO",
+      "target": "@higgs_helicon_sector",
+      "graph_family": "higgs_qmo",
+      "confidence": "medium",
+      "audit_status": "OPEN_PROOF_DEBT",
+      "closure_eligible": true,
+      "provenance": [
+        "S-HELICON",
+        "S-MASS3"
+      ],
+      "note": "PD-HIGGS-001"
+    },
+    {
+      "source": "@higgs_helicon_sector",
+      "relation": "MUST_PRECEDE_READABLE_REALIZATION",
+      "target": "@projected_higgs_field",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "PROJECT_CONSTRAINT",
+      "closure_eligible": true,
+      "provenance": [
+        "S-HELICON",
+        "S-MASS3",
+        "S-TS-DEF"
+      ],
+      "note": "Helicon-before-QFT direction; exact Sigma_H unresolved."
+    },
+    {
+      "source": "@higgs_helicon_sector",
+      "relation": "PROJECTS_THROUGH",
+      "target": "@time_shell",
+      "graph_family": "higgs_qmo",
+      "confidence": "medium",
+      "audit_status": "CANDIDATE_FACTORIZATION",
+      "closure_eligible": true,
+      "provenance": [
+        "S-HELICON",
+        "S-CORRIDOR"
+      ],
+      "note": "Factorization target only."
+    },
+    {
+      "source": "@time_shell",
+      "relation": "USES",
+      "target": "@boundary_projection",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-CORRIDOR"
+      ]
+    },
+    {
+      "source": "@native_higgs_order_space",
+      "relation": "HAS_CONFIGURATION_GRAPH",
+      "target": "@higgs_order_graph",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@higgs_order_graph",
+      "relation": "ADMITS_EDGE",
+      "target": "@higgs_order_excitation",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@higgs_order_excitation",
+      "relation": "INDUCES",
+      "target": "@finite_higgs_mass_coupling",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@finite_higgs_mass_coupling",
+      "relation": "MEASURES_CHANGE_IN",
+      "target": "@native_mass",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@native_mass",
+      "relation": "TRANSLATED_BY",
+      "target": "@readable_mass_translation",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@projected_mode_space",
+      "relation": "REPRESENTS_MASS_SECTORS_OF",
+      "target": "@native_mass",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@native_mass_operator",
+      "relation": "ACTS_ON",
+      "target": "@projected_mode_space",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@native_mass_operator",
+      "relation": "BUILT_FROM",
+      "target": "@native_mass",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@higgs_mass_matrix_correspondence",
+      "relation": "COMPARES",
+      "target": "@native_mass_operator",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "OPEN_CORRESPONDENCE",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@higgs_mass_matrix_correspondence",
+      "relation": "AT_VACUUM",
+      "target": "@projected_higgs_vacuum",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "OPEN_CORRESPONDENCE",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@readable_mass_translation",
+      "relation": "USED_BY",
+      "target": "@higgs_mass_matrix_correspondence",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "OPEN_CORRESPONDENCE",
+      "closure_eligible": true,
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@persistence_thickening_threshold",
+      "relation": "DOWNSTREAM_OF",
+      "target": "@native_higgs_order_field",
+      "graph_family": "higgs_qmo",
+      "confidence": "high",
+      "audit_status": "ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "S-ENV",
+        "S-DOT",
+        "S-PIPELINE1"
+      ]
+    },
+    {
+      "source": "@higgs_field",
+      "relation": "HAS_WORK_LAYER_CLOSURE",
+      "target": "@higgs_work_layer_closure",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "E024"
+      ]
+    },
+    {
+      "source": "@native_higgs_order_space",
+      "relation": "HAS_CANONICAL_ORDER_READOUT",
+      "target": "@canonical_higgs_configuration",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_DERIVED",
+      "closure_eligible": true,
+      "provenance": [
+        "E015",
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@canonical_higgs_configuration",
+      "relation": "INSTANCE_OF",
+      "target": "@projected_higgs_field",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_DERIVED",
+      "closure_eligible": true,
+      "provenance": [
+        "E015",
+        "S-MASS3"
+      ]
+    },
+    {
+      "source": "@canonical_positive_lock",
+      "relation": "REPRESENTED_BY",
+      "target": "@local_positive_mode",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_CONSTRUCTED",
+      "closure_eligible": true,
+      "provenance": [
+        "E016"
+      ]
+    },
+    {
+      "source": "@canonical_zero_lock",
+      "relation": "REPRESENTED_BY",
+      "target": "@local_zero_mode",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_CONSTRUCTED",
+      "closure_eligible": true,
+      "provenance": [
+        "E016"
+      ]
+    },
+    {
+      "source": "@local_positive_mode",
+      "relation": "MAPS_BY",
+      "target": "@local_matter_realization_map",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_CONSTRUCTED",
+      "closure_eligible": true,
+      "provenance": [
+        "E019"
+      ]
+    },
+    {
+      "source": "@local_matter_realization_map",
+      "relation": "REALIZES",
+      "target": "@local_positive_matter_state",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_CONSTRUCTED",
+      "closure_eligible": true,
+      "provenance": [
+        "E019"
+      ]
+    },
+    {
+      "source": "@local_positive_matter_state",
+      "relation": "INSTANCE_OF",
+      "target": "@field_section",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_CONSTRUCTED",
+      "closure_eligible": true,
+      "provenance": [
+        "E019",
+        "TS-QFT"
+      ]
+    },
+    {
+      "source": "@local_positive_matter_state",
+      "relation": "GOVERNED_BY",
+      "target": "@local_positive_matter_action",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_CONSTRUCTED",
+      "closure_eligible": true,
+      "provenance": [
+        "E019"
+      ]
+    },
+    {
+      "source": "@local_positive_matter_action",
+      "relation": "INSTANCE_OF",
+      "target": "@matter_action",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_CONSTRUCTED",
+      "closure_eligible": true,
+      "provenance": [
+        "E019",
+        "TOME67"
+      ]
+    },
+    {
+      "source": "@local_positive_stress_energy",
+      "relation": "INSTANCE_OF",
+      "target": "@stress_energy_tensor",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_CONSTRUCTED",
+      "closure_eligible": true,
+      "provenance": [
+        "E019",
+        "TOME67"
+      ]
+    },
+    {
+      "source": "@local_positive_stress_energy",
+      "relation": "DERIVED_FROM",
+      "target": "@local_positive_matter_action",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_CONSTRUCTED",
+      "closure_eligible": true,
+      "provenance": [
+        "E019",
+        "TOME67"
+      ]
+    },
+    {
+      "source": "@local_positive_matter_coupling",
+      "relation": "INSTANCE_OF",
+      "target": "@matter_coupling",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_CONSTRUCTED",
+      "closure_eligible": true,
+      "provenance": [
+        "E020",
+        "API43"
+      ]
+    },
+    {
+      "source": "@local_positive_matter_coupling",
+      "relation": "DEPENDS_ON",
+      "target": "@local_positive_stress_energy",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_CONSTRUCTED",
+      "closure_eligible": true,
+      "provenance": [
+        "E020"
+      ]
+    },
+    {
+      "source": "@local_positive_matter_coupling",
+      "relation": "REALIZES",
+      "target": "@local_gravity_matter_closure",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_CONSTRUCTED",
+      "closure_eligible": true,
+      "provenance": [
+        "E020",
+        "API43"
+      ]
+    },
+    {
+      "source": "@local_gravity_matter_closure",
+      "relation": "INSTANCE_OF",
+      "target": "@gravity_matter_closure",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_CONSTRUCTED",
+      "closure_eligible": true,
+      "provenance": [
+        "E020",
+        "API43"
+      ]
+    },
+    {
+      "source": "@local_gravity_matter_closure",
+      "relation": "DEPENDS_ON",
+      "target": "@einstein_field_equation",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_CONSTRUCTED",
+      "closure_eligible": true,
+      "provenance": [
+        "E020",
+        "API43"
+      ]
+    },
+    {
+      "source": "@local_gravity_matter_closure",
+      "relation": "DEPENDS_ON",
+      "target": "@graviton",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_CONSTRUCTED",
+      "closure_eligible": true,
+      "provenance": [
+        "E020",
+        "API43"
+      ]
+    },
+    {
+      "source": "@local_continuity_perturbation",
+      "relation": "INSTANCE_OF",
+      "target": "@continuity_perturbation",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_CONSTRUCTED",
+      "closure_eligible": true,
+      "provenance": [
+        "E021",
+        "API43"
+      ]
+    },
+    {
+      "source": "@graviton",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@local_continuity_perturbation",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_LOCAL_REALIZATION",
+      "closure_eligible": true,
+      "provenance": [
+        "E021"
+      ],
+      "note": "Local branch instantiation; does not replace canonical @graviton -> @continuity_perturbation edge."
+    },
+    {
+      "source": "@local_continuity_perturbation",
+      "relation": "PROJECTS_BY",
+      "target": "@time_shell_projection_operator",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_CONSTRUCTED",
+      "closure_eligible": true,
+      "provenance": [
+        "E021",
+        "EXACT_PI_T"
+      ]
+    },
+    {
+      "source": "@local_continuity_perturbation",
+      "relation": "PROJECTS_TO",
+      "target": "@local_graviton_metric",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_CONSTRUCTED",
+      "closure_eligible": true,
+      "provenance": [
+        "E021",
+        "EXACT_PI_T"
+      ]
+    },
+    {
+      "source": "@local_graviton_metric",
+      "relation": "INSTANCE_OF",
+      "target": "@weak_field_metric_perturbation",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_CONSTRUCTED",
+      "closure_eligible": true,
+      "provenance": [
+        "E021"
+      ]
+    },
+    {
+      "source": "@local_component_match_timelike",
+      "relation": "COMPARES",
+      "target": "@local_graviton_metric",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_CLOSED",
+      "closure_eligible": true,
+      "provenance": [
+        "E021"
+      ]
+    },
+    {
+      "source": "@local_component_match_timelike",
+      "relation": "COMPARES",
+      "target": "@local_positive_stress_energy",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_CLOSED",
+      "closure_eligible": true,
+      "provenance": [
+        "E021"
+      ]
+    },
+    {
+      "source": "@local_component_match_spacelike",
+      "relation": "COMPARES",
+      "target": "@local_graviton_metric",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_CLOSED",
+      "closure_eligible": true,
+      "provenance": [
+        "E022"
+      ]
+    },
+    {
+      "source": "@local_component_match_spacelike",
+      "relation": "COMPARES",
+      "target": "@local_positive_stress_energy",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_CLOSED",
+      "closure_eligible": true,
+      "provenance": [
+        "E022"
+      ]
+    },
+    {
+      "source": "@higgs_work_layer_closure",
+      "relation": "DEPENDS_ON",
+      "target": "@local_positive_matter_state",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "E024"
+      ]
+    },
+    {
+      "source": "@higgs_work_layer_closure",
+      "relation": "DEPENDS_ON",
+      "target": "@local_gravity_matter_closure",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "E024"
+      ]
+    },
+    {
+      "source": "@higgs_work_layer_closure",
+      "relation": "DEPENDS_ON",
+      "target": "@local_component_match_timelike",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "E024"
+      ]
+    },
+    {
+      "source": "@higgs_work_layer_closure",
+      "relation": "DEPENDS_ON",
+      "target": "@local_component_match_spacelike",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "E024"
+      ]
+    },
+    {
+      "source": "@higgs_work_layer_closure",
+      "relation": "DEPENDS_ON",
+      "target": "@higgs_physical_boundary_audit",
+      "graph_family": "higgs_work_qmo",
+      "confidence": "high",
+      "audit_status": "WORK_LAYER_ACCEPTED",
+      "closure_eligible": true,
+      "provenance": [
+        "E024"
+      ]
+    },
+    {
+      "source": "@continuity_perturbation",
+      "relation": "DEPENDS_TO",
+      "target": "@time_shell_projection_operator",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_RECOVERED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "DIRECT_API_LINE:45070"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@continuity_perturbation",
+      "relation": "DIRECTED_TO",
+      "target": "@time_shell_projection_operator",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_RECOVERED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "CANONICAL_API_HANDLE_ARROW:45070"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@continuity_perturbation",
+      "relation": "EXPLICIT_ARROW",
+      "target": "@time_shell_projection_operator",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_DIRECT_SOURCE",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "MK43_Ultra_API_CURRENT_CANONICAL.md:45070"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@continuity_perturbation",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@time_shell_projection_operator",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_RECOVERED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "CANONICAL_API_UPSTREAM_FIELD:45841"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@continuity_perturbation",
+      "relation": "RECOVERED_DEPENDENCY",
+      "target": "@time_shell_projection_operator",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_RECOVERED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "EDGE_LEDGER_LINE:45070;branch_contract"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@continuity_perturbation",
+      "relation": "USED_BY",
+      "target": "@time_shell_projection_operator",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_RECOVERED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "CANONICAL_API_DOWNSTREAM_FIELD:45380"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@continuity_perturbation",
+      "relation": "VERTICAL_CHAIN",
+      "target": "@time_shell_projection_operator",
+      "graph_family": "api43_reference",
+      "confidence": "medium",
+      "audit_status": "API43_RECOVERED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "API_CODE_BLOCK:27858"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@graviton",
+      "relation": "DEPENDS_TO",
+      "target": "@continuity_perturbation",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_RECOVERED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "DIRECT_API_LINE:45085"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@graviton",
+      "relation": "DIRECTED_TO",
+      "target": "@continuity_perturbation",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_RECOVERED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "CANONICAL_API_HANDLE_ARROW:45085"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@graviton",
+      "relation": "EXPLICIT_ARROW",
+      "target": "@continuity_perturbation",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_DIRECT_SOURCE",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "MK43_Ultra_API_CURRENT_CANONICAL.md:45085"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@graviton",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@continuity_perturbation",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_RECOVERED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "CANONICAL_API_UPSTREAM_FIELD:45379"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@graviton",
+      "relation": "RECOVERED_DEPENDENCY",
+      "target": "@continuity_perturbation",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_RECOVERED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "EDGE_LEDGER_LINE:45085;branch_contract,vertical_chain:1974,vertical_chain:27717"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@graviton",
+      "relation": "USED_BY",
+      "target": "@continuity_perturbation",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_RECOVERED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "CANONICAL_API_DOWNSTREAM_FIELD:45478"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@graviton",
+      "relation": "VERTICAL_CHAIN",
+      "target": "@continuity_perturbation",
+      "graph_family": "api43_reference",
+      "confidence": "medium",
+      "audit_status": "API43_RECOVERED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "API_CODE_BLOCK:27851"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@time_shell_projection_operator",
+      "relation": "DEPENDS_TO",
+      "target": "@weak_field_metric_perturbation",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_RECOVERED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "DIRECT_API_LINE:45138"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@time_shell_projection_operator",
+      "relation": "DIRECTED_TO",
+      "target": "@weak_field_metric_perturbation",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_RECOVERED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "CANONICAL_API_HANDLE_ARROW:45138"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@time_shell_projection_operator",
+      "relation": "EXPLICIT_ARROW",
+      "target": "@weak_field_metric_perturbation",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_DIRECT_SOURCE",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "MK43_Ultra_API_CURRENT_CANONICAL.md:45138"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@time_shell_projection_operator",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@weak_field_metric_perturbation",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_RECOVERED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "CANONICAL_API_UPSTREAM_FIELD:45876"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@time_shell_projection_operator",
+      "relation": "RECOVERED_DEPENDENCY",
+      "target": "@weak_field_metric_perturbation",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_RECOVERED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "EDGE_LEDGER_LINE:45138;branch_contract"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@time_shell_projection_operator",
+      "relation": "USED_BY",
+      "target": "@weak_field_metric_perturbation",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_RECOVERED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "CANONICAL_API_DOWNSTREAM_FIELD:45842"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@stress_energy_tensor",
+      "relation": "DEPENDS_ON",
+      "target": "@matter_action",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_RECOVERED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:46"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@matter_coupling",
+      "relation": "DEPENDS_ON",
+      "target": "@stress_energy_tensor",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_RECOVERED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:47"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@matter_coupling",
+      "relation": "REALIZES",
+      "target": "@gravity_matter_closure",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_RECOVERED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Matter coupling contributes to gravity-matter closure."
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@gravity_matter_closure",
+      "relation": "DEPENDS_ON",
+      "target": "@einstein_field_equation",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_RECOVERED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Readable gravity-matter closure depends on the Einstein equation."
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@stress_energy_tensor",
+      "relation": "GENERATED_BY",
+      "target": "@matter_action",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_DERIVED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "DERIVED:RP46_INVERSE_RELATION; source_edge=(@matter_action GENERATES @stress_energy_tensor); rule=GENERATES\u2192GENERATED_BY"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@gravity_matter_closure",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@stress_energy_tensor",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_DERIVED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@gravity_matter_closure -> @einstein_field_equation -> @stress_energy_tensor; relations=DEPENDS_ON + DEPENDS_ON; primitive_depth=2"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@matter_coupling",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@stress_energy_tensor",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_DERIVED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@matter_coupling -> @einstein_field_equation -> @stress_energy_tensor; relations=FAMILY_DEPENDS_ON + DEPENDS_ON; primitive_depth=2"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@matter_coupling",
+      "relation": "SUPPORTS",
+      "target": "@gravity_matter_closure",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_DERIVED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=1; path=@matter_coupling -> @einstein_field_equation -> @gravity_matter_closure; relations=SUPPORTS + SUPPORTS => SUPPORTS"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@gravity_matter_closure",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@einstein_field_equation",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_DERIVED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=2; path=@gravity_matter_closure -> @cosmology -> @einstein_field_equation; relations=DEPENDS_ON + DEPENDS_ON => COMPOSED_DEPENDENCY"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@gravity_matter_closure",
+      "relation": "DEPENDS_ON",
+      "target": "@stress_energy_tensor",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_DERIVED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=2; path=@gravity_matter_closure -> @einstein_field_equation -> @stress_energy_tensor; relations=DEPENDS_ON + GOVERNS => DEPENDS_ON"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@gravity_matter_closure",
+      "relation": "DEPENDS_ON",
+      "target": "@graviton",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_DERIVED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=5; path=@gravity_matter_closure -> @einstein_field_equation -> @graviton; relations=DEPENDS_ON + GOVERNS => DEPENDS_ON"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@gravity_matter_closure",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@graviton",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_DERIVED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=5; path=@gravity_matter_closure -> @metric_perturbation -> @graviton; relations=DEPENDS_ON + DEPENDS_ON => COMPOSED_DEPENDENCY"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@graviton",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@continuity_perturbation",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_DERIVED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@graviton-[COMPOSED_DEPENDENCY]->@general_relativity-[COMPOSED_DEPENDENCY]->@continuity_perturbation"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@stress_energy_tensor",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@matter_action",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_DERIVED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@stress_energy_tensor-[COMPOSED_DEPENDENCY]->@einstein_hilbert_action-[COMPOSED_DEPENDENCY]->@matter_action"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@continuity_perturbation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@time_shell_projection_operator",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_DERIVED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@continuity_perturbation-[COMPOSED_DEPENDENCY]->@einstein_tensor-[COMPOSED_DEPENDENCY]->@time_shell_projection_operator"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    },
+    {
+      "source": "@time_shell_projection_operator",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@weak_field_metric_perturbation",
+      "graph_family": "api43_reference",
+      "confidence": "high",
+      "audit_status": "API43_DERIVED",
+      "closure_eligible": true,
+      "provenance": [
+        "API43",
+        "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@time_shell_projection_operator-[COMPOSED_DEPENDENCY]->@einstein_tensor-[COMPOSED_DEPENDENCY]->@weak_field_metric_perturbation"
+      ],
+      "note": "Imported reference edge; parent API 4.3 remains immutable."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "handle": "@dm_direct_cycle_gravity_no_go",
+  "object_type": "mathematical_object",
+  "status": "ATLAS_DERIVED_CLOSED",
+  "domain": "DM22",
+  "namespace": "theorem",
+  "name": "Direct Cycle-Gravity Kernel No-Go",
+  "definition": "A pure divergence-free circulation is killed by the direct deltaC gravitational channel; cycle organization can matter only through network/operator dependence or another typed route.",
+  "math": "z in ker(D_C) => G_direct(z)=0.",
+  "source_layer": "DM22",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "DM22",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 0,
+    "live_out_count": 1,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19738,
+        "source": "@dm_direct_cycle_gravity_no_go",
+        "relation": "CONSTRAINS",
+        "target": "@dm_hidden_s3_network",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "THEOREM",
+        "provenance": "DM2.0"
+      }
+    ]
+  },
+  "address": "@dm_direct_cycle_gravity_no_go",
+  "address_sha256": "f941372326deef8ccf66362367d75a1dd5eda4e769794d2520b6cff7ca1da951"
+}

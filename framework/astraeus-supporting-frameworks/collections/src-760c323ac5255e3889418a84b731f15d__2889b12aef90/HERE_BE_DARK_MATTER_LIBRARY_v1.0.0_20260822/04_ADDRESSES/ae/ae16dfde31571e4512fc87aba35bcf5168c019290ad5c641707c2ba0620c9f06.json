@@ -1,0 +1,56 @@
+{
+  "handle": "@genesis_inheritance",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@genesis_inheritance",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 0,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 1,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@genesis_inheritance",
+        "relation": "DEPENDS_TO",
+        "target": "@genesis_identity",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:55608"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 372,
+        "source": "@genesis_inheritance",
+        "relation": "DEPENDS_TO",
+        "target": "@genesis_identity",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:55608"
+      }
+    ]
+  },
+  "address": "@genesis_inheritance",
+  "address_sha256": "ae16dfde31571e4512fc87aba35bcf5168c019290ad5c641707c2ba0620c9f06"
+}

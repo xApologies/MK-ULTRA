@@ -1,0 +1,16 @@
+{
+  "source": "@local_energy_momentum_conservation",
+  "target": "@time_shell",
+  "path": [
+    {
+      "source": "@local_energy_momentum_conservation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@time_shell",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-47",
+      "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=6; path=@local_energy_momentum_conservation -> @graviton -> @time_shell; relations=DEPENDS_ON + FORMALLY_DEPENDS_ON => COMPOSED_DEPENDENCY"
+    }
+  ]
+}

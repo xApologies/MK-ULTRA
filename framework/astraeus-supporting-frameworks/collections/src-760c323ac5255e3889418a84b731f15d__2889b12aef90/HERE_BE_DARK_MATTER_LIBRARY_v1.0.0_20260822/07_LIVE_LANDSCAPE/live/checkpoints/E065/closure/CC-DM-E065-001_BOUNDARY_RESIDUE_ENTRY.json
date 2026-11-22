@@ -1,0 +1,31 @@
+{
+  "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+  "certificate_id": "CC-DM-E065-001",
+  "checkpoint": "E065",
+  "object": "@dm_conditional_boundary_residue_seed",
+  "decision": "CONDITIONAL_CLOSED_WITH_WORKING_ASSUMPTION",
+  "scope": "boundary/residue entry only",
+  "working_assumptions": [
+    "WA-DM-E065-001"
+  ],
+  "source_premises": [
+    {
+      "source": "DM2.2 @dm_hidden_boundary_contact",
+      "statement": "B_H^R=cl_E(Xi_H^R)∩∂Xi is the canonical contact set."
+    },
+    {
+      "source": "Time-Space formal boundary projection",
+      "statement": "Π:∂Xi→M and F_p=Inv(Π^{-1}(p))."
+    }
+  ],
+  "checks": {
+    "derivation_valid_given_assumption": true,
+    "baseline_dm22_modified": false,
+    "canonical_edge_promoted": false,
+    "physical_promotion": false
+  },
+  "limitations": [
+    "Does not prove B_H^R nonempty.",
+    "Does not prove full/visible residue separation."
+  ]
+}

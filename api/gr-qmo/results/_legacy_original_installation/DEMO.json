@@ -1,0 +1,14 @@
+{
+  "scope": "synthetic curved readout; no native projection implementation claimed",
+  "metric_roundtrip": true,
+  "source_roundtrip": true,
+  "retained_fields_roundtrip": true,
+  "metric_codec_roundtrip": true,
+  "scalar_curvature": "-4/(r**2 + 1)",
+  "vacuum_equation_satisfied": false,
+  "domain_check": {
+    "signature": "exact_sign_check_in_symbol_assumptions",
+    "nondegeneracy": "symbolically_proved",
+    "domain": "r real, smooth, diagonal (-+++) everywhere"
+  }
+}

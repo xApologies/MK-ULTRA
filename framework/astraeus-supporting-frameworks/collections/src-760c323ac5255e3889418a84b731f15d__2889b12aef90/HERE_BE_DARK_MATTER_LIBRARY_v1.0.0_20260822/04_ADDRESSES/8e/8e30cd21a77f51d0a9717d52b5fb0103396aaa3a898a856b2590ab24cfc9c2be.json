@@ -1,0 +1,25 @@
+{
+  "handle": "iteration://IT-DM-E064-CONDITIONAL-READOUT",
+  "object_type": "bounded_iteration",
+  "status": "CONDITIONAL_CLOSED",
+  "domain": "ITERATION",
+  "namespace": "mk43://iteration",
+  "name": "IT-DM-E064-CONDITIONAL-READOUT",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "BOUNDED_ITERATION",
+  "metadata": {
+    "id": "IT-DM-E064-CONDITIONAL-READOUT",
+    "seed": "@dm_joint_hidden_network_witness",
+    "terminal_state": "CONDITIONAL_CLOSED",
+    "source_file": "live/checkpoints/E064/runs/IT-DM-E064-CONDITIONAL-READOUT.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_BOUNDED_ITERATION_RUN_V1\", \"run_id\": \"IT-DM-E064-CONDITIONAL-READOUT\", \"checkpoint\": \"E064\", \"seed\": \"@dm_joint_hidden_network_witness\", \"method\": \"conditional theorem propagation over source theorems plus explicitly registered working assumptions\", \"requested_ceiling\": 8, \"actual_iterations\": 5, \"steps\": [{\"i\": 0, \"state\": \"Delta rho_H > 0\", \"basis\": \"E063 conditional joint witness / WA-DM-E064-001\"}, {\"i\": 1, \"state\": \"Delta rho_read != 0\", \"basis\": \"WA-DM-E064-003\"}, {\"i\": 2, \"state\": \"T_full != T_vis\", \"basis\": \"ATLAS 201 Theorem 201.1\"}, {\"i\": 3, \"state\": \"g_full != g_vis\", \"basis\": \"ATLAS 180 V28-T3 under fixed-GR comparison\"}, {\"i\": 4, \"state\": \"M_R(u_full)=M_R(u_vis)\", \"basis\": \"WA-DM-E064-002\"}, {\"i\": 5, \"state\": \"(u_full,u_vis) in D_R; D_R != empty on conditional sector\", \"basis\": \"ATLAS 122 definition\"}], \"terminal\": {\"state\": \"CONDITIONAL_CLOSED\", \"iteration\": 5, \"reason\": \"The target factorization-defect witness follows; further progress requires discharging proof debt rather than adding more definitions.\"}, \"promotion_effect\": \"LIVE_CONDITIONAL_OBJECT_ONLY\"}"
+  },
+  "address": "iteration://IT-DM-E064-CONDITIONAL-READOUT",
+  "address_sha256": "8e30cd21a77f51d0a9717d52b5fb0103396aaa3a898a856b2590ab24cfc9c2be"
+}

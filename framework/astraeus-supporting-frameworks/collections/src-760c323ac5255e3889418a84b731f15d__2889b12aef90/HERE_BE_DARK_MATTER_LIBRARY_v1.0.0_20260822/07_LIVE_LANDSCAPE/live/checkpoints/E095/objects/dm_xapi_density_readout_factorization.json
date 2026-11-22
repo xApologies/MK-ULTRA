@@ -1,0 +1,21 @@
+{
+  "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+  "handle": "@dm_xapi_density_readout_factorization",
+  "canonical_name": "Native-Density Readout Factorization",
+  "type": "OpenHandleFactorization",
+  "status": "LIVE_DERIVED_NARROWED",
+  "checkpoint": "E095",
+  "definition": "The old native-density-to-readable-source problem factors into two source-closed structural steps plus one residual calibration/observer step.",
+  "math": "Delta boldrho_H^R -> @energy_density -> @stress_energy_tensor; remaining debt = component-preserving readable calibration/observer normalization, not tensor existence.",
+  "parents": [
+    "@dm_native_density_to_readable_source",
+    "@dm_xapi_energy_density_stress_corridor",
+    "@dm_stress_energy_separation_gate"
+  ],
+  "working_assumptions": [],
+  "proof_debt": [
+    "PD-DM-014"
+  ],
+  "physical_claim": false,
+  "baseline_mutation": false
+}

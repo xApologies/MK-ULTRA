@@ -1,0 +1,35 @@
+{
+  "schema": "MK43_QMO_V1",
+  "qmo_id": "QMO-XAPI-001",
+  "name": "Time-Space 4.3 / Dark Matter 2.1 Bidirectional Cross-Closure",
+  "operation": "BIDIRECTIONAL_API_CROSS_CRAWL",
+  "mount_scope": [
+    "timespace_4_3",
+    "darkmatter_2_1"
+  ],
+  "directions": {
+    "timespace_to_darkmatter": {
+      "interface_handles": 27,
+      "dm_objects_reached": 35,
+      "cross_branch_hubs": 20
+    },
+    "darkmatter_to_timespace": {
+      "novel_parent_handles_depth_1": 17,
+      "novel_parent_handles_depth_2": 101,
+      "novel_parent_handles_depth_3": 279
+    }
+  },
+  "promoted_parent_imports": [
+    "@native_constraint_closure",
+    "@total_action",
+    "@diffeomorphism_invariance",
+    "@particle_readable_organization"
+  ],
+  "promoted_derived_objects": [
+    "@dm_constraint_preserving_embedding_family",
+    "@dm_covariant_hidden_action_family",
+    "@dm_er_branch_readout_separation"
+  ],
+  "candidate_not_promoted": "QMO-XAPI-CAND-001",
+  "interpretation": "The bidirectional crawl is used as a bridge-mining operation. Cross-links become canonical only after a source/type audit; dense proximity alone is not promoted."
+}

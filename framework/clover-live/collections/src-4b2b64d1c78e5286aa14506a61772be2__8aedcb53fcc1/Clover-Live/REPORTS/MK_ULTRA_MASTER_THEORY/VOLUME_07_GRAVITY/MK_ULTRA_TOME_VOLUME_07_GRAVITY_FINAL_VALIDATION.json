@@ -1,0 +1,272 @@
+{
+  "schema": "tome-final-volume-assembly-validation/v1",
+  "created_at": "2026-08-12T12:07:44.045853+00:00",
+  "assembly_method": "BYTE_VERIFIED_SEALED_CHAPTER_PDF_CONCATENATION_WITH_CONTINUOUS_VOLUME_PAGINATION",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1_SEALED_CHAPTER_ARTIFACT_ASSEMBLY",
+  "source_renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "volume_id": "V07",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_07_GRAVITY/MK_ULTRA_TOME_VOLUME_07_GRAVITY_FINAL.pdf",
+    "bytes": 3999460,
+    "sha256": "d378004b175388755cd6057b3d23affb20df8b21cdb4c02c5e4e71e0b9644518"
+  },
+  "actual_pages": 65,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V07-C01": 3,
+    "V07-C02": 12,
+    "V07-C03": 18,
+    "V07-C04": 24,
+    "V07-C05": 31,
+    "V07-C06": 38,
+    "V07-C07": 44,
+    "V07-C08": 50,
+    "V07-C09": 56,
+    "V07-C10": 62
+  },
+  "chapter_count": 10,
+  "chapter_inputs": [
+    {
+      "chapter_id": "V07-C01",
+      "source_sha256": "6506e6a00764cdce659296de10d351343f5bbf97bd727dd48d436c71c939ad70",
+      "published_source_sha256": "6506e6a00764cdce659296de10d351343f5bbf97bd727dd48d436c71c939ad70",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 2238,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_07_GRAVITY/MK_ULTRA_TOME_V07_C01_THE_MK_43_ULTRA_GRAVITY_MECHANISM.pdf",
+        "bytes": 179731,
+        "sha256": "d291915f9021c58c61592309c66766b2efa604e3ddab3b59f1722bee703c0352"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_07_GRAVITY/MK_ULTRA_TOME_V07_C01_THE_MK_43_ULTRA_GRAVITY_MECHANISM_VALIDATION.json",
+        "bytes": 2784,
+        "sha256": "8bcf326bad34a1189cd237967327fbf58c9a35bf55b04f14f7b57c56f8da1e66"
+      },
+      "pages": 9,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 3,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V07-C02",
+      "source_sha256": "c110dff046386e2f3d0a95be926e136a230dd7c6048814e06a3af52e94ffb24a",
+      "published_source_sha256": "c110dff046386e2f3d0a95be926e136a230dd7c6048814e06a3af52e94ffb24a",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1259,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_07_GRAVITY/MK_ULTRA_TOME_V07_C02_GRAVITON_IDENTITY_AND_PROJECTION_MODE.pdf",
+        "bytes": 151163,
+        "sha256": "6ff9fec65245b9e863a80abc0a115c89851be40411605c9f33662f0e4f5d24d7"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_07_GRAVITY/MK_ULTRA_TOME_V07_C02_GRAVITON_IDENTITY_AND_PROJECTION_MODE_VALIDATION.json",
+        "bytes": 2780,
+        "sha256": "0b36a43fed5b41daaee1d887ef46abe9ebfda4c4e7fcb8710d70c71d1e202c2c"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 12,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V07-C03",
+      "source_sha256": "fa9e9b4e652863de428aa809016bc6d417048ba70acf3b5e84f17667ce3012c0",
+      "published_source_sha256": "fa9e9b4e652863de428aa809016bc6d417048ba70acf3b5e84f17667ce3012c0",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1196,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_07_GRAVITY/MK_ULTRA_TOME_V07_C03_CONTINUITY_PERTURBATION.pdf",
+        "bytes": 140646,
+        "sha256": "0336c252927ef605118696cb1a930dce0d3d10ef0a199a4fe1fa2aad3ae047e8"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_07_GRAVITY/MK_ULTRA_TOME_V07_C03_CONTINUITY_PERTURBATION_VALIDATION.json",
+        "bytes": 2769,
+        "sha256": "34ec2f78b1e0bc27d747e3034f166489266ef706341e87a753ad2d927e82a85c"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 18,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V07-C04",
+      "source_sha256": "21d204c32f834a7585f9fba515734636b945cd1aa996e435ccd2f9d25c84de8b",
+      "published_source_sha256": "21d204c32f834a7585f9fba515734636b945cd1aa996e435ccd2f9d25c84de8b",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1643,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_07_GRAVITY/MK_ULTRA_TOME_V07_C04_TIME_SHELL_METRIC_PROJECTION.pdf",
+        "bytes": 162701,
+        "sha256": "5dcef5cef2d9657572d777e51a01c1291dbd3fe31a6852877570ab7ae9fc85e7"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_07_GRAVITY/MK_ULTRA_TOME_V07_C04_TIME_SHELL_METRIC_PROJECTION_VALIDATION.json",
+        "bytes": 2837,
+        "sha256": "e3d039e9890fc7a2124f069d94296e45444c597284f4786f8dd0b6d1482edcea"
+      },
+      "pages": 7,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 24,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V07-C05",
+      "source_sha256": "ec7bdae416dd5bebbda64478109d2928d3fe39b41d05f12a389ad754d0204222",
+      "published_source_sha256": "ec7bdae416dd5bebbda64478109d2928d3fe39b41d05f12a389ad754d0204222",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1632,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_07_GRAVITY/MK_ULTRA_TOME_V07_C05_WEAK_FIELD_METRIC_AND_CURVATURE.pdf",
+        "bytes": 158492,
+        "sha256": "a7b40590bfd01edf164726afc4d71ddf45cefcabff18b0a62f8f5797726ac7f2"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_07_GRAVITY/MK_ULTRA_TOME_V07_C05_WEAK_FIELD_METRIC_AND_CURVATURE_VALIDATION.json",
+        "bytes": 2785,
+        "sha256": "0d57161f2611c51bfcd9cf5755111eaf365613f785e188af7e8c0f47961d8aad"
+      },
+      "pages": 7,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 31,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V07-C06",
+      "source_sha256": "020388a73daca4a440970a7140d38b2d11ed142ad758ec71cf4c35c6e9db4042",
+      "published_source_sha256": "020388a73daca4a440970a7140d38b2d11ed142ad758ec71cf4c35c6e9db4042",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1525,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_07_GRAVITY/MK_ULTRA_TOME_V07_C06_EINSTEIN_SECTOR_AND_STRESS_ENERGY.pdf",
+        "bytes": 151440,
+        "sha256": "03ef3c96d64825c35b3400c52b20e49f3b027548096a51cbde78ab6d72e3d8ba"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_07_GRAVITY/MK_ULTRA_TOME_V07_C06_EINSTEIN_SECTOR_AND_STRESS_ENERGY_VALIDATION.json",
+        "bytes": 2780,
+        "sha256": "2617df8f22767a7b622d4f5dcec8b4a5e025ce8ab4dfb72a3861a4c03ead88e8"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 38,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V07-C07",
+      "source_sha256": "98f3ae3f12db6840fd215a8e847099aed656963eefeb2f4520be35fb943b7588",
+      "published_source_sha256": "98f3ae3f12db6840fd215a8e847099aed656963eefeb2f4520be35fb943b7588",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1419,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_07_GRAVITY/MK_ULTRA_TOME_V07_C07_GRAVITATIONAL_WAVES_AND_RADIATION.pdf",
+        "bytes": 158769,
+        "sha256": "e530b27fc719b7114180721f0f89166fd7d18a78b65aebffd35f6222ea2b594a"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_07_GRAVITY/MK_ULTRA_TOME_V07_C07_GRAVITATIONAL_WAVES_AND_RADIATION_VALIDATION.json",
+        "bytes": 2780,
+        "sha256": "0cf31a99c2a8b104db11b351ad204f03ee5bf54609aa1fd64ce422dc2deb6efe"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 44,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V07-C08",
+      "source_sha256": "af7ee89a7d65fa76ecc681b426053694af758d3adf3eae1e1d9537834c602f88",
+      "published_source_sha256": "af7ee89a7d65fa76ecc681b426053694af758d3adf3eae1e1d9537834c602f88",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1292,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_07_GRAVITY/MK_ULTRA_TOME_V07_C08_GAUGE_POLARIZATION_AND_PROPAGATION.pdf",
+        "bytes": 137729,
+        "sha256": "12d7363ebac558dbff35a94fc96b31c9c3eb22da90d509368f57e6e5909b4cc7"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_07_GRAVITY/MK_ULTRA_TOME_V07_C08_GAUGE_POLARIZATION_AND_PROPAGATION_VALIDATION.json",
+        "bytes": 2783,
+        "sha256": "bcfac87f388c63d9970d0cd57607e39535f2250327e40d9e0d2f4d9db86fc829"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 50,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V07-C09",
+      "source_sha256": "957f025a8fe2cb77653fa34d2cbe7177ce53eb83fd2ec93835ea3d03631f1495",
+      "published_source_sha256": "957f025a8fe2cb77653fa34d2cbe7177ce53eb83fd2ec93835ea3d03631f1495",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1250,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_07_GRAVITY/MK_ULTRA_TOME_V07_C09_GRAVITY_MATTER_CLOSURE.pdf",
+        "bytes": 146963,
+        "sha256": "bbea53baccd6c1906f8d72d52e04f936e6e481a013c6492085fddcab9fceb273"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_07_GRAVITY/MK_ULTRA_TOME_V07_C09_GRAVITY_MATTER_CLOSURE_VALIDATION.json",
+        "bytes": 2771,
+        "sha256": "a7a11e699e69da712ffee917a07c816be9dc71c444590583d8b04fa95cf2290e"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 56,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V07-C10",
+      "source_sha256": "6dc28637b190033b7daa636e1ab5f67d01595186a1ec5fa047bc9e17c543f5b1",
+      "published_source_sha256": "6dc28637b190033b7daa636e1ab5f67d01595186a1ec5fa047bc9e17c543f5b1",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1285,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_07_GRAVITY/MK_ULTRA_TOME_V07_C10_FORMAL_GRAVITY_GAPS_AND_VALIDATION_BOUNDARIES.pdf",
+        "bytes": 154630,
+        "sha256": "9499fbc603ee941ce197e81db97c06cec16893790da4c9ec4c68a0b2a9ae029e"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_07_GRAVITY/MK_ULTRA_TOME_V07_C10_FORMAL_GRAVITY_GAPS_AND_VALIDATION_BOUNDARIES_VALIDATION.json",
+        "bytes": 2794,
+        "sha256": "b8f09009603572a26b4f97326d2a19a4cd34f209f2b88a8592e80046d2d9456a"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 62,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    }
+  ],
+  "raw_latex_guard": {
+    "result": "PASS_INHERITED_FROM_QUALIFIED_CHAPTER_RECEIPTS",
+    "hits": []
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V07-C01": "6506e6a00764cdce659296de10d351343f5bbf97bd727dd48d436c71c939ad70",
+    "V07-C02": "c110dff046386e2f3d0a95be926e136a230dd7c6048814e06a3af52e94ffb24a",
+    "V07-C03": "fa9e9b4e652863de428aa809016bc6d417048ba70acf3b5e84f17667ce3012c0",
+    "V07-C04": "21d204c32f834a7585f9fba515734636b945cd1aa996e435ccd2f9d25c84de8b",
+    "V07-C05": "ec7bdae416dd5bebbda64478109d2928d3fe39b41d05f12a389ad754d0204222",
+    "V07-C06": "020388a73daca4a440970a7140d38b2d11ed142ad758ec71cf4c35c6e9db4042",
+    "V07-C07": "98f3ae3f12db6840fd215a8e847099aed656963eefeb2f4520be35fb943b7588",
+    "V07-C08": "af7ee89a7d65fa76ecc681b426053694af758d3adf3eae1e1d9537834c602f88",
+    "V07-C09": "957f025a8fe2cb77653fa34d2cbe7177ce53eb83fd2ec93835ea3d03631f1495",
+    "V07-C10": "6dc28637b190033b7daa636e1ab5f67d01595186a1ec5fa047bc9e17c543f5b1"
+  },
+  "source_hashes_after": {
+    "V07-C01": "6506e6a00764cdce659296de10d351343f5bbf97bd727dd48d436c71c939ad70",
+    "V07-C02": "c110dff046386e2f3d0a95be926e136a230dd7c6048814e06a3af52e94ffb24a",
+    "V07-C03": "fa9e9b4e652863de428aa809016bc6d417048ba70acf3b5e84f17667ce3012c0",
+    "V07-C04": "21d204c32f834a7585f9fba515734636b945cd1aa996e435ccd2f9d25c84de8b",
+    "V07-C05": "ec7bdae416dd5bebbda64478109d2928d3fe39b41d05f12a389ad754d0204222",
+    "V07-C06": "020388a73daca4a440970a7140d38b2d11ed142ad758ec71cf4c35c6e9db4042",
+    "V07-C07": "98f3ae3f12db6840fd215a8e847099aed656963eefeb2f4520be35fb943b7588",
+    "V07-C08": "af7ee89a7d65fa76ecc681b426053694af758d3adf3eae1e1d9537834c602f88",
+    "V07-C09": "957f025a8fe2cb77653fa34d2cbe7177ce53eb83fd2ec93835ea3d03631f1495",
+    "V07-C10": "6dc28637b190033b7daa636e1ab5f67d01595186a1ec5fa047bc9e17c543f5b1"
+  },
+  "sealed_chapter_content_change_count": 0,
+  "duplicate_chapter_inputs": [],
+  "missing_chapter_inputs": []
+}

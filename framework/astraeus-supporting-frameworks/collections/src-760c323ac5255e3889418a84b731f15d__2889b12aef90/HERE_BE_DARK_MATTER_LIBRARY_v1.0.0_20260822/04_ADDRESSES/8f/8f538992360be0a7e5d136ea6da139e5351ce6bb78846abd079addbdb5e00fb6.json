@@ -1,0 +1,56 @@
+{
+  "handle": "@dm_history_to_continuity_strength",
+  "object_type": "mathematical_object",
+  "status": "OPEN_HANDLE",
+  "domain": "DM22",
+  "namespace": "open",
+  "name": "History Support to Continuity-Strength Transduction",
+  "definition": "Typed unresolved object promoted from the Master Dark-Matter QMO. It remains mathematically open; promotion makes the unknown queryable rather than solved.",
+  "math": "K_R : HistorySupport_R -> ContinuityStrength | requirements: Respect history-support preorder where all other local conditions are equal.; Do not identify raw history count with physical continuity strength.; Allow source-authoritative decay/forgetting if present.",
+  "source_layer": "DM22",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "DM22",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 1,
+    "live_in_count": 1,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 1,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19778,
+        "source": "@dm_history_to_continuity_strength",
+        "relation": "MAY_MODULATE",
+        "target": "@dm_local_continuity_response_coefficient",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19777,
+        "source": "@dm_history_support_preorder",
+        "relation": "REQUIRES",
+        "target": "@dm_history_to_continuity_strength",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.0"
+      }
+    ]
+  },
+  "address": "@dm_history_to_continuity_strength",
+  "address_sha256": "8f538992360be0a7e5d136ea6da139e5351ce6bb78846abd079addbdb5e00fb6"
+}

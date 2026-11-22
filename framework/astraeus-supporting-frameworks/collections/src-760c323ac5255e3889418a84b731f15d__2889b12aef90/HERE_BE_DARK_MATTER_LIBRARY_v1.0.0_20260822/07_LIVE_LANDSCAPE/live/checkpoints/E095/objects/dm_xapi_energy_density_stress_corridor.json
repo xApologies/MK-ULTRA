@@ -1,0 +1,26 @@
+{
+  "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+  "handle": "@dm_xapi_energy_density_stress_corridor",
+  "canonical_name": "Dark-Matter Resolution Density -> Stress-Energy Cross-API Corridor",
+  "type": "TypedCrossAPIComponentRoute",
+  "status": "LIVE_DERIVED_CLOSED_TYPED_ROUTE",
+  "checkpoint": "E095",
+  "definition": "The DM 2.2 Resolution-level hidden density profile directly REALIZES API 4.3 @energy_density, and API 4.3 @energy_density directly ENTERS @stress_energy_tensor. Therefore the structural component route is already present across the two APIs.",
+  "math": "@dm_resolution_density_profile --REALIZES--> @energy_density --ENTERS--> @stress_energy_tensor",
+  "parents": [
+    "@dm_resolution_density_profile",
+    "@energy_density",
+    "@stress_energy_tensor"
+  ],
+  "working_assumptions": [],
+  "proof_debt": [
+    "PD-DM-014"
+  ],
+  "physical_claim": false,
+  "baseline_mutation": false,
+  "limitations": [
+    "Does not reconstruct the full stress-energy tensor from density alone.",
+    "Does not by itself supply SI calibration or a chosen readable observer normalization.",
+    "Does not prove physical dark-matter existence."
+  ]
+}

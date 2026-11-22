@@ -1,0 +1,209 @@
+{
+  "schema": "ASTRAEUS_EQUATION_REGISTRY_V1",
+  "equation_count": 15,
+  "equations": [
+    {
+      "equation_handle": "@genesis_master_equation",
+      "kind": "organizational accounting equation",
+      "expression_text": "G = G * SUM_d(R_d * B_d)",
+      "status": "RECOVERED",
+      "symbols": {
+        "G": "Genesis field",
+        "R_d": "Resolution at recursive depth d",
+        "B_d": "Bandwidth at recursive depth d"
+      },
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-002"
+      ],
+      "branch": "transduction_geometry"
+    },
+    {
+      "equation_handle": "@identity_projection_invariance",
+      "kind": "persistence condition",
+      "expression_text": "pi(M(x)) = pi(x)",
+      "status": "PROMOTED_CANDIDATE",
+      "symbols": {
+        "pi": "identity projection",
+        "M": "admissible transport/monodromy",
+        "x": "state"
+      },
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-192",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-194"
+      ],
+      "branch": "transduction_geometry"
+    },
+    {
+      "equation_handle": "@moebius_history_exact_sequence",
+      "kind": "history/presentation exact sequence",
+      "expression_text": "0 -> 2Z -> Z -> Z2 -> 0",
+      "status": "STRENGTHENED_CANDIDATE",
+      "symbols": {
+        "Z": "full winding history",
+        "Z2": "coarse presentation parity"
+      },
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::sources/live_model_v39/MK43_Transduction_Live_Model_Report_v39.md"
+      ],
+      "branch": "transduction_geometry"
+    },
+    {
+      "equation_handle": "@transduction_curvature_defect",
+      "kind": "typed path-dependence defect",
+      "expression_text": "K(gamma_1,gamma_2;x) = Def(P_gamma1(x), P_gamma2(x))",
+      "status": "PROMOTED_CANDIDATE",
+      "symbols": {
+        "K": "Transduction Curvature",
+        "P_gamma": "path transport",
+        "Def": "typed discrepancy"
+      },
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-255"
+      ],
+      "branch": "transduction_geometry"
+    },
+    {
+      "equation_handle": "@descent_defect",
+      "kind": "triple-overlap descent defect",
+      "expression_text": "D_ijk = g_ij g_jk g_ki",
+      "status": "PROMOTED_AUDIT_OBJECT",
+      "symbols": {
+        "g_ij": "overlap transition maps"
+      },
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-272"
+      ],
+      "branch": "transduction_geometry"
+    },
+    {
+      "equation_handle": "@gluing_gauge_equivalence",
+      "kind": "local reparameterization equivalence",
+      "expression_text": "g'_ij ~ h_j g_ij h_i^-1",
+      "status": "PROMOTED_CANDIDATE",
+      "symbols": {
+        "g_ij": "transition data",
+        "h_i": "local reparameterization"
+      },
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-280"
+      ],
+      "branch": "transduction_geometry"
+    },
+    {
+      "equation_handle": "@adjunction_candidate",
+      "kind": "adjunction candidate",
+      "expression_text": "Hom_V(f_! x, y) ~ Hom_U(x, f^* y)",
+      "status": "STRONG_CANDIDATE_NOT_PROVED",
+      "symbols": {
+        "f_!": "forward realization",
+        "f^*": "backward restriction/readback"
+      },
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-247",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-252"
+      ],
+      "branch": "transduction_geometry"
+    },
+    {
+      "equation_handle": "@unit_round_trip",
+      "kind": "adjoint audit",
+      "expression_text": "eta_x : x -> f^* f_! x",
+      "status": "PROMOTED_AUDIT_OBJECT",
+      "symbols": {
+        "eta": "unit/source round-trip audit"
+      },
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-248"
+      ],
+      "branch": "transduction_geometry"
+    },
+    {
+      "equation_handle": "@counit_reconstruction",
+      "kind": "adjoint audit",
+      "expression_text": "epsilon_y : f_! f^* y -> y",
+      "status": "PROMOTED_AUDIT_OBJECT",
+      "symbols": {
+        "epsilon": "counit/target reconstruction audit"
+      },
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-249"
+      ],
+      "branch": "transduction_geometry"
+    },
+    {
+      "equation_handle": "@fabric_signature_v01",
+      "kind": "classifier signature",
+      "expression_text": "Sig_Fabric = (LocalType,[g],[Conn],[Hol],K,D,Top,Strata)",
+      "status": "PROMOTED_CANDIDATE",
+      "symbols": {
+        "[g]": "gluing class",
+        "[Conn]": "connection class",
+        "[Hol]": "holonomy data",
+        "K": "curvature data",
+        "D": "descent data",
+        "Top": "topological metadata",
+        "Strata": "stratification metadata"
+      },
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-290"
+      ],
+      "branch": "transduction_geometry"
+    },
+    {
+      "equation_handle": "@minimal_fabric_signature_v01",
+      "kind": "classifier core",
+      "expression_text": "MinimalFabricSignature = (LocalType, GluingData, ConnectionClass, ClassifierScope)",
+      "status": "PROMOTED_CANDIDATE",
+      "symbols": {
+        "LocalType": "local admissibility/fiber type",
+        "GluingData": "representative transitions + equivalence class",
+        "ConnectionClass": "transport/lift-selection class",
+        "ClassifierScope": "declared classification regime"
+      },
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-305"
+      ],
+      "branch": "transduction_geometry"
+    },
+    {
+      "equation_handle": "@eq_resolution_readout",
+      "expression": "rho_R : A_B -> A_B^R = A_B / K_R",
+      "meaning": "Resolution quotient/readout",
+      "branch": "live_model",
+      "status": "SOURCE_BACKED_SYNTHESIS",
+      "provenance": [
+        "LIVE_MODEL::NF-005 §53.1"
+      ]
+    },
+    {
+      "equation_handle": "@eq_resolution_handoff",
+      "expression": "rho_Ri = q_ji o rho_Rj",
+      "meaning": "Weak Resolution-Handoff Coherence",
+      "branch": "live_model",
+      "status": "DERIVED",
+      "provenance": [
+        "LIVE_MODEL::NF-005 §53.2"
+      ]
+    },
+    {
+      "equation_handle": "@eq_strong_handoff_recovery",
+      "expression": "Rec_j(rho_Ri(a), P_a) ~_S rho_Rj(a)",
+      "meaning": "Strong handoff recovery condition",
+      "branch": "live_model",
+      "status": "DERIVED_CANDIDATE",
+      "provenance": [
+        "LIVE_MODEL::NF-005 §53.4"
+      ]
+    },
+    {
+      "equation_handle": "@eq_br_defect",
+      "expression": "Def_BR(M;R,R') = {(a,b) | a~_R b and M(a)!~_R' M(b)}",
+      "meaning": "Bandwidth–Resolution interface defect set",
+      "branch": "live_model",
+      "status": "DERIVED",
+      "provenance": [
+        "LIVE_MODEL::NF-005 §53.8"
+      ]
+    }
+  ]
+}

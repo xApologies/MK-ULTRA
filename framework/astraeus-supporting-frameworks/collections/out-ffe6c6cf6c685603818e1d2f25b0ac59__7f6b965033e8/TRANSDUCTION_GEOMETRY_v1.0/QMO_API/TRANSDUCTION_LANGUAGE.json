@@ -1,0 +1,224 @@
+{
+  "schema": "MK43_TRANSDUCTION_LANGUAGE_V1",
+  "release": "0.2",
+  "generated_at_utc": "2026-08-11T20:37:48.864860+00:00",
+  "entries": [
+    {
+      "term": "Identity",
+      "handle": "@identity_invariant",
+      "definition": "Recoverable organizational identity represented conservatively by continuation ancestry class, transported chirality class, and invariant residue.",
+      "role": "identity",
+      "forbidden_conflations": [
+        "presentation",
+        "history",
+        "occupancy"
+      ],
+      "status": "PROMOTED",
+      "allowed_relations": [],
+      "forbidden_relations": [],
+      "semantic_type_version": "0.1"
+    },
+    {
+      "term": "Transport",
+      "handle": "@transport",
+      "definition": "Fixed-base motion through admissible state/fiber structure.",
+      "role": "operator",
+      "forbidden_conflations": [
+        "transduction"
+      ],
+      "status": "PROMOTED_RULE",
+      "allowed_relations": [
+        "ACTS_IN",
+        "PRESERVES_CANDIDATE"
+      ],
+      "forbidden_relations": [
+        "EQUALS_TRANSduction",
+        "EQUALS_PROJECTION"
+      ],
+      "semantic_type_version": "0.1"
+    },
+    {
+      "term": "Transduction",
+      "handle": "@transduction",
+      "definition": "Typed transformation that may include base/context/identity change plus state transformation.",
+      "role": "operator",
+      "forbidden_conflations": [
+        "transport",
+        "projection"
+      ],
+      "status": "PROMOTED",
+      "allowed_relations": [
+        "IS_MORPHISM_IN",
+        "MAY_CHANGE_BASE"
+      ],
+      "forbidden_relations": [
+        "EQUALS_TRANSPORT"
+      ],
+      "semantic_type_version": "0.1"
+    },
+    {
+      "term": "Resolution",
+      "handle": "@resolution",
+      "definition": "Readout/refinement structure controlling which inherited distinctions are distinguishable; higher Resolution forgets less in the current categorical model.",
+      "role": "readout",
+      "forbidden_conflations": [
+        "bandwidth",
+        "occupancy"
+      ],
+      "status": "PROMOTED",
+      "allowed_relations": [
+        "READS",
+        "REFINES"
+      ],
+      "forbidden_relations": [
+        "EQUALS_BANDWIDTH"
+      ],
+      "semantic_type_version": "0.1"
+    },
+    {
+      "term": "Bandwidth",
+      "handle": "@bandwidth",
+      "definition": "Available organizational/morphism freedom; operationally which admissible transport directions are currently supportable.",
+      "role": "capacity",
+      "forbidden_conflations": [
+        "resolution",
+        "occupancy"
+      ],
+      "status": "PROMOTED",
+      "allowed_relations": [
+        "CONSTRAINS",
+        "SELECTS_AVAILABLE_MORPHISMS_IN"
+      ],
+      "forbidden_relations": [
+        "EQUALS_RESOLUTION",
+        "EQUALS_OCCUPANCY"
+      ],
+      "semantic_type_version": "0.1"
+    },
+    {
+      "term": "Occupancy",
+      "handle": "@occupancy",
+      "definition": "The actually realized state/object/section among supportable possibilities.",
+      "role": "realization",
+      "forbidden_conflations": [
+        "bandwidth"
+      ],
+      "status": "PROMOTED",
+      "allowed_relations": [
+        "SELECTS_OBJECT_IN"
+      ],
+      "forbidden_relations": [
+        "EQUALS_BANDWIDTH"
+      ],
+      "semantic_type_version": "0.1"
+    },
+    {
+      "term": "Connection",
+      "handle": "@transduction_connection",
+      "definition": "Typed admissibility-aware rule selecting horizontal lifts for dependency arrows.",
+      "role": "transport structure",
+      "forbidden_conflations": [
+        "curvature",
+        "trajectory"
+      ],
+      "status": "PROMOTED",
+      "allowed_relations": [
+        "SELECTS_LIFT",
+        "GENERATES_TRANSPORT",
+        "HAS_COHERENCE_OBSTRUCTION"
+      ],
+      "forbidden_relations": [
+        "EQUALS_CURVATURE",
+        "EQUALS_TRAJECTORY"
+      ],
+      "semantic_type_version": "0.1"
+    },
+    {
+      "term": "Curvature",
+      "handle": "@transduction_curvature",
+      "definition": "Typed coherence/path-dependence defect between same-endpoint transported states.",
+      "role": "obstruction",
+      "forbidden_conflations": [
+        "descent defect",
+        "metric curvature"
+      ],
+      "status": "PROMOTED",
+      "allowed_relations": [
+        "AUDITS_PATH_COHERENCE"
+      ],
+      "forbidden_relations": [
+        "EQUALS_CONNECTION",
+        "EQUALS_DESCENT"
+      ],
+      "semantic_type_version": "0.1"
+    },
+    {
+      "term": "Descent",
+      "handle": "@transduction_descent",
+      "definition": "Local-to-global gluing architecture for compatible local admissibility/connection data.",
+      "role": "local-to-global",
+      "forbidden_conflations": [
+        "curvature"
+      ],
+      "status": "PROMOTED",
+      "allowed_relations": [
+        "GLUES_LOCAL_DATA"
+      ],
+      "forbidden_relations": [
+        "EQUALS_CURVATURE"
+      ],
+      "semantic_type_version": "0.1"
+    },
+    {
+      "term": "Holonomy",
+      "handle": "@holonomy_class",
+      "definition": "Net transport induced by a closed dependency path, stored up to the declared equivalence/conjugacy.",
+      "role": "diagnostic invariant",
+      "forbidden_conflations": [
+        "complete fabric identity"
+      ],
+      "status": "RETAINED_INVARIANT",
+      "allowed_relations": [
+        "DIAGNOSTIC_OF",
+        "DERIVED_FROM_CONNECTION"
+      ],
+      "forbidden_relations": [
+        "UNIVERSALLY_CLASSIFIES_COMPLETELY"
+      ],
+      "semantic_type_version": "0.1"
+    },
+    {
+      "term": "Fabric",
+      "handle": "@chirality_fabric",
+      "definition": "Strong candidate: distributed local admissibility data plus transition/gluing structure.",
+      "role": "global structure",
+      "forbidden_conflations": [
+        "connection",
+        "curvature"
+      ],
+      "status": "STRONG_CANDIDATE",
+      "allowed_relations": [],
+      "forbidden_relations": [],
+      "semantic_type_version": "0.1"
+    },
+    {
+      "term": "Persistence",
+      "handle": "@persistence",
+      "definition": "Preservation/recovery of organizational identity through admissible transport and recursive development.",
+      "role": "identity stability",
+      "forbidden_conflations": [
+        "stationarity",
+        "closure"
+      ],
+      "status": "PROMOTED",
+      "allowed_relations": [
+        "PRESERVES_IDENTITY"
+      ],
+      "forbidden_relations": [
+        "EQUALS_CLOSURE"
+      ],
+      "semantic_type_version": "0.1"
+    }
+  ],
+  "semantic_type_system": "@semantic_type_system"
+}

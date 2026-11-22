@@ -1,0 +1,84 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_PAIR_V1",
+  "a": "@continuation_operator",
+  "b": "@dm_mode0_network_selection_rule",
+  "radius": 3,
+  "interface": [
+    {
+      "handle": "@dm_hidden_state_embedding",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@dm_hidden_s3_network",
+      "distance_a": 3,
+      "distance_b": 1
+    },
+    {
+      "handle": "@inherited_state_bundle",
+      "distance_a": 1,
+      "distance_b": 3
+    },
+    {
+      "handle": "@admissibility",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@bandwidth",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_constraint_preserving_embedding_family",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_hidden_state_bundle",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@dm_runtime_transition_capacity",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@inheritance_morphism",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@continuity_redistribution",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_er_branch_readout_separation",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_formal_persistence_qualification",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_hidden_persistent_subset",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@resolution",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@white_core_mote_coupling",
+      "distance_a": 3,
+      "distance_b": 3
+    }
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry; exact-handle interface only"
+}

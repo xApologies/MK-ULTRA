@@ -1,0 +1,98 @@
+{
+  "handle": "@genlang_phrase_en_ar_en",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@genlang_phrase_en_ar_en",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 2,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 2,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@genlang_phrase_en_ar_en",
+        "relation": "LANGUAGE_APPROXIMATES",
+        "target": "@inheritance",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48119;CANONICAL_API_TYPED_LINE:48119"
+      },
+      {
+        "source": "@genlang_root_ar",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_phrase_en_ar_en",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48118;CANONICAL_API_TYPED_LINE:48118"
+      },
+      {
+        "source": "@genlang_root_en",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_phrase_en_ar_en",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48117;CANONICAL_API_TYPED_LINE:48117"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 411,
+        "source": "@genlang_phrase_en_ar_en",
+        "relation": "LANGUAGE_APPROXIMATES",
+        "target": "@inheritance",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48119;CANONICAL_API_TYPED_LINE:48119"
+      },
+      {
+        "id": 419,
+        "source": "@genlang_root_ar",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_phrase_en_ar_en",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48118;CANONICAL_API_TYPED_LINE:48118"
+      },
+      {
+        "id": 425,
+        "source": "@genlang_root_en",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_phrase_en_ar_en",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48117;CANONICAL_API_TYPED_LINE:48117"
+      }
+    ]
+  },
+  "address": "@genlang_phrase_en_ar_en",
+  "address_sha256": "a018e4d99e1fb4ae9cb5cd747631b0e99eedd23e3134c366afd248bf50a7b5d0"
+}

@@ -1,0 +1,25 @@
+{
+  "handle": "iteration://IT-XAPI-E094-BILLION-CEILING-FIXED-POINT",
+  "object_type": "bounded_iteration",
+  "status": "NO_NEW_STRUCTURE",
+  "domain": "ITERATION",
+  "namespace": "mk43://iteration",
+  "name": "IT-XAPI-E094-BILLION-CEILING-FIXED-POINT",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "BOUNDED_ITERATION",
+  "metadata": {
+    "id": "IT-XAPI-E094-BILLION-CEILING-FIXED-POINT",
+    "seed": "ALL_DM_OBJECTS",
+    "terminal_state": "NO_NEW_STRUCTURE",
+    "source_file": "live/checkpoints/E094/iterations/IT-XAPI-E094-BILLION-CEILING-FIXED-POINT.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_XAPI_ITERATION_RUN_V1\", \"run_id\": \"IT-XAPI-E094-BILLION-CEILING-FIXED-POINT\", \"checkpoint\": \"E094\", \"qmo_id\": \"QMO-XAPI-002\", \"seed_count\": 38, \"ceiling\": 1000000000, \"iterations_used\": 8, \"terminal_state\": \"NO_NEW_STRUCTURE\", \"wave_counts\": [38, 33, 54, 49, 48, 16, 8, 1, 1], \"runtime_seconds\": 0.00023395800053549465, \"all_pairs_runtime_seconds\": 0.3129467440003282, \"api43_self_runtime_seconds\": 0.04417365500012238, \"full_navigation_runtime_seconds\": 0.00162632699993992, \"note\": \"A one-billion iteration ceiling was permitted, but the finite semantic landscape reached fixed point after eight expansion waves. Continuing to the ceiling would only repeat an unchanged frontier.\"}"
+  },
+  "address": "iteration://IT-XAPI-E094-BILLION-CEILING-FIXED-POINT",
+  "address_sha256": "b7fdce18c7f8060c552305e030bf754ba6eb5a1e56b9b18f77f94fa2a07f1c9f"
+}

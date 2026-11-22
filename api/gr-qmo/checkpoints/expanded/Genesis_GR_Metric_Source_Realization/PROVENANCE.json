@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-31",
+  "inputs": [
+    {
+      "path": "3 | .zip",
+      "bytes": 364892365,
+      "sha256": "aae667101e8a285040f665d1fb489b67a8268a88062e30df292416c409c21bb2"
+    },
+    {
+      "path": "3 | Audit(2).zip",
+      "bytes": 7167311,
+      "sha256": "cfe77faccf174cb2500a9fd921af6e6f3c52be8df1eacca3feb42ce7ba172b87"
+    },
+    {
+      "path": "The_Atlas_of_Becoming_Foundational_Research_Report.pdf",
+      "bytes": 364365,
+      "sha256": "60ccf280ec8dfccc527a8bb8101a97b0110a2cbca0e098256cf8adf356df8ecb"
+    }
+  ],
+  "exact_evidence": [
+    {
+      "id": "S1",
+      "title": "Latest thirteen-point mathematical map",
+      "source": "3 | Audit(2).zip!GENESIS_GR_DROPIN_v1.2.1/GENESIS_GR_13_POINT_COMPLETE.md",
+      "sha256": "894bf16f8fbf1dfa83f2027898d1250e3179b1396de574914aad7df02e07a9ab",
+      "file": "evidence/S1.md"
+    },
+    {
+      "id": "S2",
+      "title": "Upstream compatibility contract",
+      "source": "3 | Audit(2).zip!GENESIS_GR_DROPIN_v1.2.1/DROP_IN_COMPATIBILITY.md",
+      "sha256": "a21f3379d68ecbc3bdcfc1c91e3d42d96466fc2476ae9fc203ad80216478779b",
+      "file": "evidence/S2.md"
+    },
+    {
+      "id": "S3",
+      "title": "Latest regularity audit",
+      "source": "3 | Audit(2).zip!GENESIS_GR_DROPIN_v1.2.1/AUDIT.md",
+      "sha256": "a2590408217b4ca2b96f0898478495d947be58cbbf7398f06256f9aaa3f83f79",
+      "file": "evidence/S3.md"
+    },
+    {
+      "id": "S4",
+      "title": "Earlier formalism and explicit construction axioms",
+      "source": "3 | Audit(2).zip!GENESIS_GR_DROPIN_v1.2.1/PRIOR_PASS/GENESIS_GR_v1_1/PRIOR/GENESIS_GR_v1/FORMALISM.md",
+      "sha256": "1b8221da5d7440534d64ba186b7bc7dd0da166a6c73ac1b5c04c18d66f99c7cc",
+      "file": "evidence/S4.md"
+    },
+    {
+      "id": "S5",
+      "title": "Explicit status of newly introduced axioms",
+      "source": "3 | Audit(2).zip!GENESIS_GR_DROPIN_v1.2.1/PRIOR_PASS/GENESIS_GR_v1_1/PRIOR/GENESIS_GR_v1/STATUS.md",
+      "sha256": "40556cb4af6bb75a2eff90702648299f027112e5953e862ba0ae08ea5faa59af",
+      "file": "evidence/S5.md"
+    },
+    {
+      "id": "S6",
+      "title": "Pathwise transport and retained records",
+      "source": "3 | Audit(2).zip!GENESIS_GR_DROPIN_v1.2.1/PRIOR_PASS/GENESIS_GR_v1_1/PRIOR/GENESIS_GR_v1/SOURCE_LIBRARY/Holonomy and Chirality.zip!HOLONOMY_CHIRALITY_V1_0_20260818/FORMAL/05_PARALLEL_TRANSPORT.md",
+      "sha256": "d28cee998d3d443cd993dc9742c7828a0b214870f98d645e6b10cde6054347e5",
+      "file": "evidence/S6.md"
+    },
+    {
+      "id": "S7",
+      "title": "Finite-to-smooth connection compatibility boundary",
+      "source": "3 | Audit(2).zip!GENESIS_GR_DROPIN_v1.2.1/PRIOR_PASS/GENESIS_GR_v1_1/PRIOR/GENESIS_GR_v1/SOURCE_LIBRARY/Holonomy and Chirality.zip!HOLONOMY_CHIRALITY_V1_0_20260818/FORMAL/13_RESIDUE_BUNDLE_CONNECTION.md",
+      "sha256": "06200d0c041646c28cf44112dd5911d44195aa8cb74c014b45eedd5ad147456b",
+      "file": "evidence/S7.md"
+    },
+    {
+      "id": "S8",
+      "title": "Finite source/flux and density assumption",
+      "source": "3 | Audit(2).zip!GENESIS_GR_DROPIN_v1.2.1/PRIOR_PASS/GENESIS_GR_v1_1/SOURCE_TENSOR.md",
+      "sha256": "bd3dbd8a9ffb9e4e2c2240a9587e8611a85375ada4d447fe1e482de755b2168c",
+      "file": "evidence/S8.md"
+    }
+  ],
+  "source_edits": false,
+  "repository_changes": false,
+  "search_scope": {
+    "audit_text_entries_indexed": 1244,
+    "unique_audit_text_hashes": 979,
+    "api43_canonical_markdown_scanned": true,
+    "not_full_mathematical_audit": true
+  },
+  "native_Q_R_implemented": false,
+  "native_flux_generation_implemented": false,
+  "native_physical_inverse_established": false,
+  "mathematical_result": "Conditional smooth metric/flux reconstruction; geometric-record inverse."
+}

@@ -1,0 +1,101 @@
+{
+  "stage": "R4",
+  "environment_manifold": {
+    "occupied_domain": "R4",
+    "history_layers": [
+      "T0",
+      "T1",
+      "T2",
+      "T3",
+      "T4",
+      "T5",
+      "T6",
+      "T7",
+      "R0",
+      "R1",
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "environmental_memory_density": 13,
+    "er_foam_record": [
+      "T0",
+      "T1",
+      "T2",
+      "T3",
+      "T4",
+      "T5",
+      "T6",
+      "T7",
+      "R0",
+      "R1",
+      "R2",
+      "R3",
+      "R4"
+    ]
+  },
+  "manifold_ecology": {
+    "inventory": {
+      "He": 8,
+      "Ne": 7,
+      "Ar": 6,
+      "Kr": 4,
+      "Xe": 3,
+      "N2": 25,
+      "CO2": 18,
+      "H2O": 22,
+      "CH4": 20
+    },
+    "equilibrium_anchor_network": [
+      "He",
+      "Ne",
+      "Ar",
+      "Kr",
+      "Xe"
+    ],
+    "pair_lock_network": [
+      "N2"
+    ],
+    "distributed_closure_network": [
+      "CO2",
+      "H2O"
+    ],
+    "central_closure_network": [
+      "CH4"
+    ]
+  },
+  "chirality_topology": {
+    "equilibrium": "stable",
+    "pair_lock": "stable",
+    "distributed_closure": "stable",
+    "central_closure": "stable"
+  },
+  "corridor_topology": [
+    "N2 corridor family",
+    "CO2-H2O corridor family",
+    "CH4-H2O corridor family"
+  ],
+  "ancestry_topology": {
+    "preserved": true,
+    "lineage_layers": [
+      "T0",
+      "T1",
+      "T2",
+      "T3",
+      "T4",
+      "T5",
+      "T6",
+      "T7",
+      "R0",
+      "R1",
+      "R2",
+      "R3",
+      "R4"
+    ]
+  },
+  "retention_topology": {
+    "inventory_retention": "113/113",
+    "corridor_retention": "preserved",
+    "ancestry_retention": "preserved"
+  }
+}

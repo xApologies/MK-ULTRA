@@ -1,0 +1,32 @@
+{
+  "schema": "ASTRAEUS_QMO_CANDIDATE_V1",
+  "qmo_id": "QMO-DM-BRIDGE-CAND-023",
+  "handle": "@dm_conditional_response_trace_residue_survival",
+  "canonical_name": "Conditional Hidden Response-Trace Residue Survival",
+  "status": "LIVE_CONDITIONAL_CANDIDATE",
+  "checkpoint": "E082",
+  "parents": [
+    "@dm_port_response_trace_invariant",
+    "@dm_projection_residue_survival",
+    "@boundary_projection"
+  ],
+  "working_assumptions": [
+    "WA-DM-E065-001",
+    "WA-DM-E082-001"
+  ],
+  "source_basis": [
+    "ATLAS_V36:84_TIME_SHELL_INVARIANT_TRANSPORT_CONTRACT.md",
+    "ATLAS_V36:225_V36_PROJECTION_RESIDUE_SURVIVAL_TEST.md",
+    "Time-Space Definition 1 Invariant Residue"
+  ],
+  "derivation": [
+    "The Time-Shell invariant transport contract explicitly includes topological organization among the recoverable invariants.",
+    "Invariant Residue is, by definition, the organizational information invariant under the admissible projection symmetry.",
+    "V36 allows the selected comparison to declare the exact residue-invariant inventory.",
+    "Under WA-DM-E082-001, I_Lambda(N)=tr(Lambda_N) is invariant under the selected projection symmetry.",
+    "E081 gives I_Lambda(N_full)>I_Lambda(N_vis); therefore an invariant-preserving bundle isomorphism cannot identify the two selected residue comparisons."
+  ],
+  "result": "Conditional on one explicit symmetry-action typing, the hidden response trace survives as declared invariant residue and separates the matched full/visible projection-residue bundles.",
+  "math": "I_Lambda(N)=tr(Lambda_N); I_Lambda(full)>I_Lambda(vis). If I_Lambda is G_Pi-invariant, then I_Lambda is admissible residue data and B_full^R not ~=_F B_vis^R under the declared invariant-preserving comparison.",
+  "boundary": "PD-DM-004 is operationally reduced to PD-DM-010; the full G_Pi action remains proof debt."
+}

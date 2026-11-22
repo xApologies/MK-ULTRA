@@ -1,0 +1,119 @@
+{
+  "handle": "@helicon_mode_readability",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Helicon Mode Readability",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 3,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 3,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 72,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 6,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@helicon_mode_readability",
+        "relation": "REPRESENTED_BY",
+        "target": "@spectral_coupling",
+        "graph_family": "representation",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@spectral_coupling REPRESENTS @helicon_mode_readability); rule=REPRESENTS→REPRESENTED_BY"
+      },
+      {
+        "source": "@helicon_mode_readability",
+        "relation": "FEEDS_BLACK_HOLE_MODEL",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_BLACK_HOLE_REVERSE_CRAWL; witness=@helicon_mode_readability-[REPRESENTED_BY]->@spectral_coupling | @spectral_coupling-[COMPOSED_DEPENDENCY]->@black_hole"
+      },
+      {
+        "source": "@helicon_mode_readability",
+        "relation": "GLOBALLY_FEEDS_BLACK_HOLE",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-53",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_REVERSE_CRAWL; witness=@helicon_mode_readability-[FEEDS_BLACK_HOLE_MODEL]->@black_hole"
+      },
+      {
+        "source": "@spectral_coupling",
+        "relation": "REPRESENTS",
+        "target": "@helicon_mode_readability",
+        "graph_family": "representation",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "recovery_pass": "RP-37",
+        "provenance": "DIRECT_TYPED_API:51532"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 2271,
+        "source": "@helicon_mode_readability",
+        "relation": "REPRESENTED_BY",
+        "target": "@spectral_coupling",
+        "layer": "API43",
+        "graph_family": "representation",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@spectral_coupling REPRESENTS @helicon_mode_readability); rule=REPRESENTS→REPRESENTED_BY"
+      },
+      {
+        "id": 12095,
+        "source": "@helicon_mode_readability",
+        "relation": "FEEDS_BLACK_HOLE_MODEL",
+        "target": "@black_hole",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP51_BLACK_HOLE_REVERSE_CRAWL; witness=@helicon_mode_readability-[REPRESENTED_BY]->@spectral_coupling | @spectral_coupling-[COMPOSED_DEPENDENCY]->@black_hole"
+      },
+      {
+        "id": 18261,
+        "source": "@helicon_mode_readability",
+        "relation": "GLOBALLY_FEEDS_BLACK_HOLE",
+        "target": "@black_hole",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_REVERSE_CRAWL; witness=@helicon_mode_readability-[FEEDS_BLACK_HOLE_MODEL]->@black_hole"
+      },
+      {
+        "id": 1054,
+        "source": "@spectral_coupling",
+        "relation": "REPRESENTS",
+        "target": "@helicon_mode_readability",
+        "layer": "API43",
+        "graph_family": "representation",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_TYPED_API:51532"
+      }
+    ]
+  },
+  "address": "@helicon_mode_readability",
+  "address_sha256": "54687e84765c7d317e8d6c031a0f4f4f71c9258f20b4cdad8d746fd72e8755d9"
+}

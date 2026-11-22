@@ -1,0 +1,18 @@
+{
+  "debt_id": "PD-DM-007",
+  "title": "UCM event-to-readable stress-energy nonannihilation witness",
+  "status": "ACTIVE_HIGHEST_LEVERAGE",
+  "priority": "CRITICAL",
+  "checkpoint_opened": "E074",
+  "discharges": "@dm_ucm_event_to_source_nonannihilation and replaces PD-DM-006 on the shortest UCM lane",
+  "related_handles": [
+    "@dm_ucm_source_domain_distinction",
+    "@universal_coupling",
+    "@energy_density",
+    "@stress_energy_tensor",
+    "@dm_stress_energy_separation_gate",
+    "@dm_dark_readout_defect"
+  ],
+  "question": "For one controlled hidden-network full/visible pair, prove that the recovered UCM event-to-readable-source projection preserves at least one nonzero hidden distinction: P_T(e_full) != P_T(e_vis).",
+  "trigger_to_reopen": "Immediate active frontier. Prefer a component-level witness (for example the already-derived hidden local energy-density direction) over deriving a complete closed-form UCM source operator."
+}

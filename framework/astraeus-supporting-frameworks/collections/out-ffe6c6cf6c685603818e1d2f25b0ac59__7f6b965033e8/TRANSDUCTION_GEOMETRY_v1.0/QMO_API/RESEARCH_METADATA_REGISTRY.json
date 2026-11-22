@@ -1,0 +1,84 @@
+{
+  "schema": "MK43_TRANSDUCTION_RESEARCH_METADATA_V1",
+  "record_count": 5,
+  "records": [
+    {
+      "handle": "@theory_chirality_fabric_as_admissibility_descent",
+      "record_type": "THEORY",
+      "status": "STRONG_CANDIDATE",
+      "claim": "Distributed chirality fabric may be modeled as local admissibility structures plus transition/gluing data.",
+      "support": [
+        "@transduction_descent",
+        "@transduction_connection",
+        "@analogy_moebius_gluing"
+      ],
+      "limitations": [
+        "Not yet proven equivalent to recovered canonical chirality formalism."
+      ],
+      "provenance": [
+        "L-308"
+      ]
+    },
+    {
+      "handle": "@analogy_moebius_gluing",
+      "record_type": "ANALOGY",
+      "status": "ACTIVE",
+      "source_domain": "Möbius band",
+      "target_domain": "chirality/transduction fabric",
+      "mapping": "Locally simple charts + nontrivial overlap transition -> globally nontrivial object.",
+      "useful_for": [
+        "descent",
+        "gluing",
+        "global-vs-local distinction"
+      ],
+      "breaks_when": [
+        "Used as proof that chirality fabric is literally Möbius."
+      ],
+      "provenance": [
+        "L-299",
+        "L-300"
+      ]
+    },
+    {
+      "handle": "@analogy_moebius_holonomy",
+      "record_type": "ANALOGY",
+      "status": "ACTIVE",
+      "source_domain": "Möbius closed traversal",
+      "target_domain": "connection holonomy",
+      "mapping": "Closed traversal changes local presentation while preserving coarse identity.",
+      "useful_for": [
+        "holonomy",
+        "history",
+        "presentation-vs-identity"
+      ],
+      "breaks_when": [
+        "Generalized to all loops/fabrics without operator-specific evidence."
+      ],
+      "provenance": [
+        "L-299",
+        "L-300"
+      ]
+    },
+    {
+      "handle": "@failed_classifier_holonomy_complete",
+      "record_type": "FAILED_PATH",
+      "status": "REJECTED_GENERALIZATION",
+      "claim": "Holonomy conjugacy data universally classify global fabrics.",
+      "failure_reason": "Holonomy is incomplete in general outside restricted classifier scopes.",
+      "replacement": "@fabric_signature + @classifier_scope",
+      "provenance": [
+        "L-286",
+        "L-293"
+      ]
+    },
+    {
+      "handle": "@heuristic_weakest_invariant_first",
+      "record_type": "HEURISTIC",
+      "status": "ACTIVE",
+      "claim": "Use the weakest invariant that resolves the current distinction; escalate only after demonstrated degeneracy.",
+      "provenance": [
+        "v39-v41 notes"
+      ]
+    }
+  ]
+}

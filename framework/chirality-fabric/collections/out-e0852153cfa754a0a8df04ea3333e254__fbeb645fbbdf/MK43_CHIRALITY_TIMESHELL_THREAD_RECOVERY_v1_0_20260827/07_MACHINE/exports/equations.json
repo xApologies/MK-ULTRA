@@ -1,0 +1,44 @@
+[
+  {
+    "id": "CRD-1",
+    "expression": "δx = f",
+    "interpretation": "Exact local reorientation closure in the CRD Z2 diagnostic.",
+    "status": "SOURCE CANDIDATE",
+    "provenance": "CRD v0.1"
+  },
+  {
+    "id": "CRD-2",
+    "expression": "K_χ = [f] ∈ H^1(G; Z2)",
+    "interpretation": "Cohomology-valued chirality-knot candidate.",
+    "status": "SOURCE CANDIDATE",
+    "provenance": "CRD v0.1"
+  },
+  {
+    "id": "CRD-3",
+    "expression": "Φ_χ(x;f) = Σ_e c_e [x_u XOR x_v ≠ f_e]",
+    "interpretation": "Capacity-weighted relaxation functional.",
+    "status": "SOURCE CANDIDATE",
+    "provenance": "CRD v0.1"
+  },
+  {
+    "id": "CRD-4",
+    "expression": "c_e = C(basin_u, basin_v, R_e, B_e) > 0",
+    "interpretation": "Symbolic capacity dependence; no physical calibration imposed.",
+    "status": "SOURCE CANDIDATE",
+    "provenance": "CRD v0.1"
+  },
+  {
+    "id": "QCD-CAND",
+    "expression": "Π_(χ→QCD): C6^χ → V_color^QCD",
+    "interpretation": "Placeholder for the unresolved Helicon/QFT constraint/projection.",
+    "status": "NEW FORMALIZATION / OPEN",
+    "provenance": "Astraeus formalization"
+  },
+  {
+    "id": "TS-WORK",
+    "expression": "χ_α^(n+1) = R_CRD(χ_α^n; local constraints, boundary interaction)",
+    "interpretation": "Schematic local post-T5 shell update.",
+    "status": "NEW FORMALIZATION / OPEN",
+    "provenance": "Astraeus formalization"
+  }
+]

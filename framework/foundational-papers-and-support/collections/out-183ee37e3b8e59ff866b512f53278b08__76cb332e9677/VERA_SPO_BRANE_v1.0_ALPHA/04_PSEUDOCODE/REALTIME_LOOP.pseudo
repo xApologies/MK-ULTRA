@@ -1,0 +1,17 @@
+FUNCTION REALTIME_LOOP(audio_stream, device_policy):
+    WHILE audio_stream.active:
+        frame ← audio_stream.NEXT_FRAME()
+        features ← LOW_LATENCY_FRONTEND(frame)
+        scene ← EVENT_CLASSIFIER(features)
+
+        decisions ← []
+        FOR event IN scene:
+            decisions.APPEND(VERA_GATE(event, device_policy, USER_STATE()))
+        END
+
+        params ← RESOLVE_OVERLAPPING_DECISIONS(decisions, device_policy)
+        output ← BOUNDED_DSP(frame, params)
+        EMIT(output)
+        EMIT_LIGHTWEIGHT_RECEIPT(decisions)  // no raw audio by default
+    END
+END

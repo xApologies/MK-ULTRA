@@ -1,0 +1,77 @@
+{
+  "handle": "@scalar_curvature",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@scalar_curvature",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@scalar_curvature",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@einstein_tensor",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:27907"
+      },
+      {
+        "source": "@ricci_curvature",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@scalar_curvature",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:27902"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 1047,
+        "source": "@scalar_curvature",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@einstein_tensor",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:27907"
+      },
+      {
+        "id": 1027,
+        "source": "@ricci_curvature",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@scalar_curvature",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:27902"
+      }
+    ]
+  },
+  "address": "@scalar_curvature",
+  "address_sha256": "524c427b636a3ca277761ed622922208a5e8e3c7f0206092562990639eb4ec04"
+}

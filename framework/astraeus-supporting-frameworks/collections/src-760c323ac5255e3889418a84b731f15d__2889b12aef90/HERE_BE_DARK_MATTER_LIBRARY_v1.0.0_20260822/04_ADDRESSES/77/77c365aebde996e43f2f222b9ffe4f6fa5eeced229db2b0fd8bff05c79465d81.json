@@ -1,0 +1,91 @@
+{
+  "handle": "@dm_conditional_ucm_stress_energy_witness",
+  "object_type": "qmo_derived_mathematical_object",
+  "status": "LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT",
+  "domain": "DM30",
+  "namespace": "mk43://dark-matter/live",
+  "name": "Conditional UCM Hidden Stress-Energy Witness",
+  "definition": "A component-level nonannihilation witness carrying the E063 positive hidden density direction through the recovered UCM event/source projection into a nonzero full-vs-visible stress-energy difference.",
+  "math": "Delta rho_H>0; WA-E075-001 => u^mu u^nu Delta T_U_mu_nu !=0 => Delta T_U !=0 => T_D^R!=0.",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E075",
+  "qmo_generated": true,
+  "proof_status": "DERIVED_OR_CONDITIONAL",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "LIVE_QMO_DERIVED",
+  "metadata": {
+    "payload": {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_conditional_ucm_stress_energy_witness",
+      "canonical_name": "Conditional UCM Hidden Stress-Energy Witness",
+      "type": "ConditionalReadableStressEnergySeparationWitness",
+      "status": "LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT",
+      "checkpoint": "E075",
+      "definition": "A component-level nonannihilation witness carrying the E063 positive hidden density direction through the recovered UCM event/source projection into a nonzero full-vs-visible stress-energy difference.",
+      "math": "Delta rho_H>0; WA-E075-001 => u^mu u^nu Delta T_U_mu_nu !=0 => Delta T_U !=0 => T_D^R!=0.",
+      "parents": [
+        "@dm_joint_hidden_network_witness",
+        "@dm_ucm_source_domain_distinction",
+        "@stress_energy_tensor"
+      ],
+      "working_assumptions": [
+        "WA-DM-E075-001"
+      ],
+      "proof_debt": [
+        "PD-DM-007"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    "direct_live_edges_out": [
+      {
+        "source": "@dm_conditional_ucm_stress_energy_witness",
+        "relation": "CONDITIONAL_ON",
+        "target": "@dm_ucm_event_to_source_nonannihilation",
+        "graph_family": "dark_matter_live",
+        "confidence": "medium",
+        "audit_status": "WORKING_ASSUMPTION",
+        "provenance": "WA-DM-E075-001",
+        "origin": "LIVE_LANDSCAPE",
+        "source_layer": "live"
+      },
+      {
+        "source": "@dm_conditional_ucm_stress_energy_witness",
+        "relation": "USES",
+        "target": "@energy_density",
+        "graph_family": "dark_matter_live",
+        "confidence": "medium",
+        "audit_status": "LIVE_CONDITIONAL",
+        "provenance": "CC-DM-E075-001",
+        "origin": "LIVE_LANDSCAPE",
+        "source_layer": "live"
+      },
+      {
+        "source": "@dm_conditional_ucm_stress_energy_witness",
+        "relation": "WITNESSES_CONDITIONALLY",
+        "target": "@stress_energy_tensor",
+        "graph_family": "dark_matter_live",
+        "confidence": "medium",
+        "audit_status": "LIVE_CONDITIONAL",
+        "provenance": "CC-DM-E075-001",
+        "origin": "LIVE_LANDSCAPE",
+        "source_layer": "live"
+      }
+    ],
+    "direct_live_edges_in": [
+      {
+        "source": "@dm_conditional_ucm_qualification_witness",
+        "relation": "CONDITIONAL_ON",
+        "target": "@dm_conditional_ucm_stress_energy_witness",
+        "graph_family": "dark_matter_live",
+        "confidence": "medium",
+        "audit_status": "LIVE_CONDITIONAL",
+        "provenance": "CC-DM-E076-001",
+        "origin": "LIVE_LANDSCAPE",
+        "source_layer": "live"
+      }
+    ]
+  },
+  "address": "@dm_conditional_ucm_stress_energy_witness",
+  "address_sha256": "77c365aebde996e43f2f222b9ffe4f6fa5eeced229db2b0fd8bff05c79465d81"
+}

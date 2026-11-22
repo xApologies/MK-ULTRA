@@ -1,0 +1,299 @@
+{
+  "inputs": [
+    {
+      "handle": "@dc_number_question_to_valuation_frontier_g01",
+      "kind": "dependency_graph"
+    }
+  ],
+  "roots": [
+    "@number_question",
+    "@number_object_readout_frontier"
+  ],
+  "member_qmos": [
+    "@closed_domain_unity",
+    "@formal_object",
+    "@it_number_object_readout_3",
+    "@number_object_readout_frontier",
+    "@number_ontology",
+    "@number_question",
+    "@number_valuation_codomain_frontier",
+    "@objectivity",
+    "@primitive_structural_zero",
+    "@resolution",
+    "@resolution_readout",
+    "@transduction"
+  ],
+  "member_edge_ids": [
+    "E-00277",
+    "E-00278",
+    "E-00279",
+    "E-00280",
+    "E-00281",
+    "E-00282",
+    "E-00283",
+    "E-00284",
+    "E-00285",
+    "E-00303",
+    "E-00321"
+  ],
+  "member_edges": [
+    {
+      "edge_id": "E-00277",
+      "source": "@number_question",
+      "relation": "ADVANCES_TO",
+      "target": "@number_object_readout_frontier",
+      "graph_family": "signature_role_and_number_return",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_007_ROLE_SEPARATION_AND_NUMBER_RETURN",
+        "R-025",
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "SELF_BUILD_PASS_005_SIGNATURE_REALIZATION",
+        "SELF_BUILD_PASS_006_SIGNATURE_ROLE_NORMALIZATION",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "QMO:@recovery_history_signature_quotient",
+        "QMO:@holonomy_history_signature"
+      ]
+    },
+    {
+      "edge_id": "E-00278",
+      "source": "@number_object_readout_frontier",
+      "relation": "USES",
+      "target": "@formal_object",
+      "graph_family": "signature_role_and_number_return",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_007_ROLE_SEPARATION_AND_NUMBER_RETURN",
+        "R-025",
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "SELF_BUILD_PASS_005_SIGNATURE_REALIZATION",
+        "SELF_BUILD_PASS_006_SIGNATURE_ROLE_NORMALIZATION",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "QMO:@recovery_history_signature_quotient",
+        "QMO:@holonomy_history_signature"
+      ]
+    },
+    {
+      "edge_id": "E-00279",
+      "source": "@number_object_readout_frontier",
+      "relation": "USES",
+      "target": "@resolution",
+      "graph_family": "signature_role_and_number_return",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_007_ROLE_SEPARATION_AND_NUMBER_RETURN",
+        "R-025",
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "SELF_BUILD_PASS_005_SIGNATURE_REALIZATION",
+        "SELF_BUILD_PASS_006_SIGNATURE_ROLE_NORMALIZATION",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "QMO:@recovery_history_signature_quotient",
+        "QMO:@holonomy_history_signature"
+      ]
+    },
+    {
+      "edge_id": "E-00280",
+      "source": "@number_object_readout_frontier",
+      "relation": "USES",
+      "target": "@resolution_readout",
+      "graph_family": "signature_role_and_number_return",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_007_ROLE_SEPARATION_AND_NUMBER_RETURN",
+        "R-025",
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "SELF_BUILD_PASS_005_SIGNATURE_REALIZATION",
+        "SELF_BUILD_PASS_006_SIGNATURE_ROLE_NORMALIZATION",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "QMO:@recovery_history_signature_quotient",
+        "QMO:@holonomy_history_signature"
+      ]
+    },
+    {
+      "edge_id": "E-00281",
+      "source": "@number_object_readout_frontier",
+      "relation": "USES",
+      "target": "@transduction",
+      "graph_family": "signature_role_and_number_return",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_007_ROLE_SEPARATION_AND_NUMBER_RETURN",
+        "R-025",
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "SELF_BUILD_PASS_005_SIGNATURE_REALIZATION",
+        "SELF_BUILD_PASS_006_SIGNATURE_ROLE_NORMALIZATION",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "QMO:@recovery_history_signature_quotient",
+        "QMO:@holonomy_history_signature"
+      ]
+    },
+    {
+      "edge_id": "E-00282",
+      "source": "@number_object_readout_frontier",
+      "relation": "USES",
+      "target": "@objectivity",
+      "graph_family": "signature_role_and_number_return",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_007_ROLE_SEPARATION_AND_NUMBER_RETURN",
+        "R-025",
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "SELF_BUILD_PASS_005_SIGNATURE_REALIZATION",
+        "SELF_BUILD_PASS_006_SIGNATURE_ROLE_NORMALIZATION",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "QMO:@recovery_history_signature_quotient",
+        "QMO:@holonomy_history_signature"
+      ]
+    },
+    {
+      "edge_id": "E-00283",
+      "source": "@number_object_readout_frontier",
+      "relation": "USES",
+      "target": "@primitive_structural_zero",
+      "graph_family": "signature_role_and_number_return",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_007_ROLE_SEPARATION_AND_NUMBER_RETURN",
+        "R-025",
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "SELF_BUILD_PASS_005_SIGNATURE_REALIZATION",
+        "SELF_BUILD_PASS_006_SIGNATURE_ROLE_NORMALIZATION",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "QMO:@recovery_history_signature_quotient",
+        "QMO:@holonomy_history_signature"
+      ]
+    },
+    {
+      "edge_id": "E-00284",
+      "source": "@number_object_readout_frontier",
+      "relation": "USES",
+      "target": "@closed_domain_unity",
+      "graph_family": "signature_role_and_number_return",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_007_ROLE_SEPARATION_AND_NUMBER_RETURN",
+        "R-025",
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "SELF_BUILD_PASS_005_SIGNATURE_REALIZATION",
+        "SELF_BUILD_PASS_006_SIGNATURE_ROLE_NORMALIZATION",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "QMO:@recovery_history_signature_quotient",
+        "QMO:@holonomy_history_signature"
+      ]
+    },
+    {
+      "edge_id": "E-00285",
+      "source": "@number_object_readout_frontier",
+      "relation": "CONSTRAINS",
+      "target": "@number_ontology",
+      "graph_family": "signature_role_and_number_return",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_007_ROLE_SEPARATION_AND_NUMBER_RETURN",
+        "R-025",
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "SELF_BUILD_PASS_005_SIGNATURE_REALIZATION",
+        "SELF_BUILD_PASS_006_SIGNATURE_ROLE_NORMALIZATION",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "QMO:@recovery_history_signature_quotient",
+        "QMO:@holonomy_history_signature"
+      ]
+    },
+    {
+      "edge_id": "E-00303",
+      "source": "@it_number_object_readout_3",
+      "relation": "HAS_ITERATION_SEED",
+      "target": "@number_object_readout_frontier",
+      "graph_family": "iteration_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_bounded_qmo_iteration",
+        "QMO:@number_object_readout_frontier",
+        "QMO:@bounded_recursive_iteration",
+        "QMO:@bounded_dependency_crawl",
+        "QMO:@it_number_object_readout_3_landscape"
+      ]
+    },
+    {
+      "edge_id": "E-00321",
+      "source": "@number_object_readout_frontier",
+      "relation": "ADVANCES_TO",
+      "target": "@number_valuation_codomain_frontier",
+      "graph_family": "number_valuation_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_008_VALUATION_ROLE_PROBE",
+        "R-027",
+        "BANDWIDTH_ALGEBRA::FORMAL/00_EXECUTIVE_SUMMARY.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "TRANSDUCTION_GEOMETRY::@classifier_scope",
+        "QMO:@dl_number_object_readout",
+        "QMO:@it_number_object_readout_3"
+      ]
+    }
+  ],
+  "statistics": {
+    "qmo_count": 12,
+    "edge_count": 11
+  },
+  "resolution_context": {
+    "operator": "@resolution",
+    "policy": "PRESERVE_MEMBER_RESOLUTION_STATE; NO_EXTRA_QUOTIENT_BY_LANDSCAPE",
+    "landscape_resolution": "QUERY_RELATIVE_AND_HISTORY_BEARING"
+  },
+  "bandwidth_context": {
+    "operator": "@bandwidth_algebra",
+    "policy": "REGISTERED_EDGE_AVAILABILITY_ONLY; LANDSCAPE_DOES_NOT_INVENT_AVAILABLE_TRANSFORMATIONS",
+    "landscape_bandwidth": "AVAILABLE_MEMBER_DEPENDENCY_STRUCTURE"
+  },
+  "landscape_id": "DL-b3ce12f27ed4",
+  "qmo_address": "@dc_number_question_to_valuation_frontier_l01",
+  "canonical_name": "Dependency Landscape: @dc_number_question_to_valuation_frontier_g01",
+  "status": "DERIVED_CLOSED_INTERNAL",
+  "construction": {
+    "operator": "@dependency_landscape",
+    "depth": 1,
+    "direction": "bidirectional",
+    "edge_policy": "REGISTERED_EDGES_ONLY",
+    "member_claim_promotion": false
+  },
+  "history": {
+    "policy": "APPEND_ONLY",
+    "created_in_api_release": "0.13.0",
+    "created_live_model_revision": "v0.26.0",
+    "parent_landscapes": [],
+    "parent_graphs": [
+      "@dc_number_question_to_valuation_frontier_g01"
+    ],
+    "parent_qmos": []
+  },
+  "provenance": [
+    "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+    "GENESIS_DIRECTION::2026-08-22",
+    "RUNTIME_REGISTER",
+    "QMO:@dc_number_question_to_valuation_frontier_g01"
+  ],
+  "semantic_guard": "Landscape membership preserves member status; registration does not promote member claims."
+}

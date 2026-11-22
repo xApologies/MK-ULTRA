@@ -1,0 +1,23 @@
+{
+  "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+  "certificate_id": "CC-DM-E070-001",
+  "checkpoint": "E070",
+  "object": "@dm_conditional_action_dark_readout_witness",
+  "decision": "CONDITIONAL_CLOSED_WITH_WORKING_ASSUMPTIONS",
+  "scope": "dark-readout factorization only",
+  "working_assumptions": [
+    "WA-DM-E064-002",
+    "WA-DM-E069-001"
+  ],
+  "checks": {
+    "density_lane_used": false,
+    "residue_lane_used": false,
+    "baseline_dm22_modified": false,
+    "physical_promotion": false
+  },
+  "limitations": [
+    "Does not prove a matched physical pair exists.",
+    "Does not prove the proxy realization is source-authoritative.",
+    "Does not by itself pass persistence/boundary/Q qualification gates."
+  ]
+}

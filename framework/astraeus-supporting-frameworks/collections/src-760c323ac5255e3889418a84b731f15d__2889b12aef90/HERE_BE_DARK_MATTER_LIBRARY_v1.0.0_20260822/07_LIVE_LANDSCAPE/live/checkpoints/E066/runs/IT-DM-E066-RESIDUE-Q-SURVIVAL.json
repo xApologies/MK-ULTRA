@@ -1,0 +1,15 @@
+{
+  "schema": "ASTRAEUS_DM_ITERATION_RUN_V1",
+  "run_id": "IT-DM-E066-RESIDUE-Q-SURVIVAL",
+  "checkpoint": "E066",
+  "seed": "@dm_projection_residue_survival",
+  "ceiling": 64,
+  "iterations_used": 3,
+  "terminal_state": "OPEN_FORK",
+  "open_next": "@dm_metric_action_selection",
+  "working_assumptions": [
+    "WA-DM-E065-001",
+    "WA-DM-E066-001"
+  ],
+  "note": "Chromatic representation and density calibration were not required for this branch."
+}

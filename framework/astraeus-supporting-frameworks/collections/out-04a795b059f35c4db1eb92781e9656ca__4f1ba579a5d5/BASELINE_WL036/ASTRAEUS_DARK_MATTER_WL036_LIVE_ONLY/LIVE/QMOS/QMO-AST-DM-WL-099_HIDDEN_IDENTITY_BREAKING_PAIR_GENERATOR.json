@@ -1,0 +1,27 @@
+{
+  "schema": "ASTRAEUS_HIDDEN_IDENTITY_PAIR_GENERATOR_V1",
+  "qmo_id": "QMO-AST-DM-WL-099",
+  "name": "Hidden Identity-Breaking Dark-Precursor Pair Generator",
+  "atlas_version": "WL-v215",
+  "work_layer": "WL-035",
+  "status": "SOURCE_COMPOSED_PAIR_GENERATOR",
+  "parent_promotions": 0,
+  "formal_pair": "HolPair_R={(x0,x1,gamma_H) | Read_R(x1) ~ Read_R(x0), Hol_Id(gamma_H) !~_Id id}",
+  "source_support": {
+    "D48": "same operative/readable endpoint class with nontrivial Identity Holonomy",
+    "T5": "closed operative loop does not imply Identity persistence",
+    "T6": "Resolution may hide the Identity break",
+    "atlas": "closed S3 History may project to same S2 presentation while carrying nontrivial chirality/Identity holonomy"
+  },
+  "provides": [
+    "same generic readable presentation",
+    "different formal History/Identity organization"
+  ],
+  "does_not_provide": [
+    "Dark Matter matter-readout equality M_R",
+    "gravity-readout inequality G_R",
+    "hidden-state embedding",
+    "physical dark-matter witness"
+  ],
+  "next_handle": "@time_shell_history_address"
+}

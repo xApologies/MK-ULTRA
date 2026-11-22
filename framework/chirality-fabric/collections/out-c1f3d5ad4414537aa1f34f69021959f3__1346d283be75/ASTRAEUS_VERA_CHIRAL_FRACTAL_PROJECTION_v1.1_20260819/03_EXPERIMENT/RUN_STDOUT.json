@@ -1,0 +1,75 @@
+{
+  "experiment_id": "CFP-001",
+  "status": "FINITE_MATHEMATICAL_TOY_COMPLETE__NO_PHYSICAL_PROMOTION",
+  "seed": 430056,
+  "finite_histories": 4096,
+  "shape_profile_degeneracy": {
+    "points": 4096,
+    "square_max_coordinate_difference_after_chirality_flip": 0.0,
+    "triangle_max_coordinate_difference_after_chirality_flip": 0.0,
+    "circle_max_coordinate_difference_after_chirality_flip": 0.0,
+    "statement": "The three constructed shape projections ignore the hidden chirality fiber by design; opposite hidden fibers are exactly profile-degenerate."
+  },
+  "z2_holonomy": {
+    "vertices": 4,
+    "edges": 6,
+    "cycle_rank": 3,
+    "edge_assignments": 64,
+    "gauge_classes": 8,
+    "holonomy_signatures": 8,
+    "assignments_per_class": [
+      8
+    ]
+  },
+  "projection_identifiability": {
+    "latent_difference": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "shape_readout_difference": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "shape_stack_rank": 4,
+    "shape_stack_nullity": 4,
+    "full_probe_rank": 8,
+    "full_probe_nullity": 0
+  },
+  "hidden_dimension": {
+    "middle_third_cantor_factor_dimension": 0.6309297535714574,
+    "occupancy_3_factor_dimension": 1.8927892607143724,
+    "chirality_1_factor_dimension": 0.6309297535714574,
+    "history_1_factor_dimension": 0.6309297535714574,
+    "latent_3_plus_1_plus_1_dimension": 3.154648767857287,
+    "projected_occupancy_dimension": 1.8927892607143724,
+    "hidden_chirality_history_dimension": 1.2618595071429148,
+    "dimension_drop_under_coordinate_projection": 1.2618595071429148,
+    "interpretation": "Exact self-similar product-set toy under standard Cantor-product assumptions; not a physical spacetime-dimension claim."
+  },
+  "branch_similarity_dimension": {
+    "branch_count": 4,
+    "common_contraction_ratio": 0.3333333333333333,
+    "similarity_dimension": 1.2618595071429148,
+    "condition": "This is the similarity dimension of the symbolic 4-branch rule. Equality with a geometric Hausdorff dimension requires an appropriate separation/injectivity hypothesis."
+  },
+  "E056_bridge": {
+    "tree_transverse_energy_fraction": 0.00021305963963369479,
+    "response_energy_missed_by_pc1": 0.02446705664866089,
+    "leverage_ratio": 114.83665649076548,
+    "pc1_response_residual": 0.1564194893504671,
+    "pc4_response_residual": 0.0002744127549108,
+    "pc12_response_residual": 5.6574077098447723e-08
+  },
+  "key_negative_result": "A tree has cycle rank zero. Loop holonomy cannot be recovered from the E056 merge tree itself; any dark-matter holonomy test must use a lifted transport square or a cyclic source graph.",
+  "key_positive_result": "Multiple profile maps constrain a preimage only to the extent that their stacked map shrinks the common kernel. Chirality-sensitive/transverse probes are required to recover hidden fiber coordinates intentionally erased by shape-only readouts."
+}

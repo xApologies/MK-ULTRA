@@ -1,0 +1,14 @@
+R08 Resolution / Readout Verifier
+F_AB != F_BA: True
+R0 aliases source order: True (0,)
+R1 aliases source order: True (('L', 'R'), -1, 0, 2)
+R2 aliases source order while showing seam: True (('L', 'R'), -1, 0, 2, 'q')
+R3 separates ordered provenance: True
+occupancy aliases distinct arrangement: True ((3, 4),)
+coarsening R3->R2 pass: True
+coarsening R2->R1 pass: True
+coarsening R1->R0 pass: True
+display permutation diagonal->row: (1, 0, 0, 1) -> (1, 1, 0, 0)
+display inverse recovery pass: True
+identity contract would flag mismatch: True
+visibility: {'R0_balance': {'balance': 1, 'local_chirality': 0, 'seam': 0, 'source_order': 0, 'witness': 0}, 'R1_chi': {'balance': 1, 'local_chirality': 1, 'seam': 0, 'source_order': 0, 'witness': 0}, 'R2_seam': {'balance': 1, 'local_chirality': 1, 'seam': 1, 'source_order': 0, 'witness': 0}, 'R3_full': {'balance': 1, 'local_chirality': 1, 'seam': 1, 'source_order': 1, 'witness': 1}, 'R_occ': {'balance': 0, 'local_chirality': 0, 'seam': 0, 'source_order': 0, 'witness': 0}}

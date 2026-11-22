@@ -1,0 +1,14 @@
+{
+  "schema": "ASTRAEUS_DM_ITERATION_RUN_V1",
+  "run_id": "IT-DM-E065-BOUNDARY-RESIDUE",
+  "checkpoint": "E065",
+  "seed": "@dm_hidden_boundary_contact",
+  "ceiling": 64,
+  "iterations_used": 4,
+  "terminal_state": "CONDITIONAL_CLOSED",
+  "open_next": "@dm_projection_residue_survival",
+  "working_assumptions": [
+    "WA-DM-E065-001"
+  ],
+  "note": "Stopped after typed boundary entry was obtained; did not recursively reopen hidden embedding."
+}

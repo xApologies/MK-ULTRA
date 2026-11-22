@@ -1,0 +1,72 @@
+{
+  "schema": "ASTRAEUS_RR_API_VALIDATION_V3",
+  "version": "0.3.0",
+  "tests": [
+    {
+      "name": "object_count_matches",
+      "passed": true,
+      "detail": "186"
+    },
+    {
+      "name": "edge_count_matches",
+      "passed": true,
+      "detail": "146"
+    },
+    {
+      "name": "theorem_count_matches",
+      "passed": true,
+      "detail": "3"
+    },
+    {
+      "name": "current_frontier",
+      "passed": true,
+      "detail": "@recovery_history_signature_minimality"
+    },
+    {
+      "name": "promoted_@witness_fiber_separation_criterion",
+      "passed": true,
+      "detail": "DERIVED_CLOSED_INTERNAL"
+    },
+    {
+      "name": "promoted_@core_witness_collision",
+      "passed": true,
+      "detail": "DERIVED_CLOSED_INTERNAL"
+    },
+    {
+      "name": "promoted_@recovery_discriminator",
+      "passed": true,
+      "detail": "DERIVED_CLOSED_INTERNAL"
+    },
+    {
+      "name": "promoted_@history_trace_counterexample_sufficiency",
+      "passed": true,
+      "detail": "DERIVED_CLOSED_INTERNAL"
+    },
+    {
+      "name": "core_candidate_counterexample",
+      "passed": true,
+      "detail": "CE-RW-001"
+    },
+    {
+      "name": "ce_replay",
+      "passed": true,
+      "detail": "{\"pass\": \"SELF_BUILD_PASS_003_RECOVERY_WITNESS\", \"counterexample\": \"CE-RW-001\", \"core_collision\": true, \"history_augmented_separation\": true, \"conclusion\": \"Unqualified core witness is not universally separating; an additional recovery discriminator is necessary on colliding fibers. Ordered History is sufficient for CE-RW-001; global minimality remains open.\", \"next_frontier\": \"@recovery_history_signature_minimality\"}"
+    },
+    {
+      "name": "db_synced",
+      "passed": true,
+      "detail": "DERIVED_CLOSED_INTERNAL"
+    },
+    {
+      "name": "fts_source_index_restored",
+      "passed": true,
+      "detail": "fts=28034, sections=27829, objects=187"
+    },
+    {
+      "name": "frontier_has_native_edges",
+      "passed": true,
+      "detail": "history holonomy/signature/discriminator linked"
+    }
+  ],
+  "passed": true
+}

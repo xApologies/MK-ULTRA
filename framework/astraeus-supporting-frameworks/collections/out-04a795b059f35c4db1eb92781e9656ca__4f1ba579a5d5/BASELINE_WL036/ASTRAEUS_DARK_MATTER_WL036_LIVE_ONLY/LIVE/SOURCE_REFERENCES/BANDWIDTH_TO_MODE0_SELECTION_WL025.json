@@ -1,0 +1,57 @@
+{
+  "schema": "ASTRAEUS_QMO_CROSS_CRAWL_V1",
+  "seeds": [
+    "@bandwidth"
+  ],
+  "targets": [
+    "@dm_mode0_network_selection_rule"
+  ],
+  "bidirectional": true,
+  "edge_count": 1659,
+  "reachable_count": 278,
+  "distance_histogram": {
+    "0": 1,
+    "1": 7,
+    "2": 33,
+    "3": 85,
+    "4": 152
+  },
+  "paths": {
+    "@bandwidth -> @dm_mode0_network_selection_rule": [
+      {
+        "from": "@bandwidth",
+        "relation": "CONSTRAINED_BY",
+        "to": "@dm_runtime_transition_capacity",
+        "traversal": "reverse",
+        "origin": "DARKMATTER_2.0",
+        "provenance": "DM2.0",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "ATLAS_DERIVED",
+        "confidence": "high"
+      },
+      {
+        "from": "@dm_runtime_transition_capacity",
+        "relation": "USES",
+        "to": "@dm_hidden_s3_network",
+        "traversal": "reverse",
+        "origin": "DARKMATTER_2.0",
+        "provenance": "DM2.0",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "ATLAS_DERIVED",
+        "confidence": "high"
+      },
+      {
+        "from": "@dm_hidden_s3_network",
+        "relation": "SELECTS_ACCESS_TO",
+        "to": "@dm_mode0_network_selection_rule",
+        "traversal": "reverse",
+        "origin": "DARKMATTER_2.0",
+        "provenance": "DM2.0",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "OPEN_HANDLE",
+        "confidence": "high"
+      }
+    ]
+  },
+  "guardrail": "Navigation evidence only. Composed paths are not direct theorems and no parent object is promoted."
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BRANE Request Envelope",
+  "type": "object",
+  "required": [
+    "operation",
+    "subject",
+    "report"
+  ],
+  "properties": {
+    "operation": {
+      "enum": [
+        "report",
+        "recover",
+        "compare",
+        "trace",
+        "audit"
+      ]
+    },
+    "subject": {
+      "type": "string",
+      "minLength": 1
+    },
+    "context": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "report": {
+      "type": "object",
+      "required": [
+        "format",
+        "language",
+        "depth"
+      ],
+      "properties": {
+        "format": {
+          "enum": [
+            "markdown"
+          ]
+        },
+        "language": {
+          "type": "string"
+        },
+        "depth": {
+          "enum": [
+            "complete",
+            "bounded",
+            "overview"
+          ]
+        },
+        "coverage_mode": {
+          "enum": [
+            "strict",
+            "annotated",
+            "structural_only"
+          ]
+        }
+      }
+    },
+    "options": {
+      "type": "object"
+    }
+  }
+}

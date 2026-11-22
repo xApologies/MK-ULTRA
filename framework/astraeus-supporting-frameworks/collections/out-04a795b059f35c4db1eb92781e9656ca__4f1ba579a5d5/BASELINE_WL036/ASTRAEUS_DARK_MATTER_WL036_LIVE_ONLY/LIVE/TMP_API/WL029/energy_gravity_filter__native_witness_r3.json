@@ -1,0 +1,42 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_PAIR_QUERY_V1",
+  "a": "@dm_energy_gravity_consistency_filter",
+  "b": "@dm_native_hidden_witness",
+  "radius": 3,
+  "a_node_count": 111,
+  "b_node_count": 21,
+  "interface": [
+    {
+      "handle": "@dm_stress_energy_separation_gate",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@energy_density",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@continuity_redistribution",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_hidden_state_bundle",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_runtime_transition_capacity",
+      "distance_a": 3,
+      "distance_b": 3
+    }
+  ],
+  "path_a_to_b": null,
+  "path_b_to_a": null,
+  "edge_policy": {
+    "timespace": "high-confidence direct/non-derived RP42 records",
+    "darkmatter": "high-confidence DM_DIRECT_EDGE_REGISTRY records",
+    "gluing": "exact handle equality only; no cross-edge is invented"
+  }
+}

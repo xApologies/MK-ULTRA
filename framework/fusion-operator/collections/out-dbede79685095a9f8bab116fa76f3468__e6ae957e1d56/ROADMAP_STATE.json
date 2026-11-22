@@ -1,0 +1,99 @@
+{
+  "roadmap": "CHIRALITY_FUSION_OPERATOR_ROADMAP_v1_0_20260825",
+  "version": "1.0",
+  "date": "2026-08-25",
+  "model_scope": "Chirality / Quantum Exploration Model",
+  "status": "ACTIVE",
+  "active_run": "R01",
+  "closed_runs": [],
+  "runs": [
+    {
+      "id": "R01",
+      "title": "Fusion Existence",
+      "status": "ACTIVE",
+      "depends_on": []
+    },
+    {
+      "id": "R02",
+      "title": "Subsystem Test",
+      "status": "QUEUED",
+      "depends_on": [
+        "R01"
+      ]
+    },
+    {
+      "id": "R03",
+      "title": "Entanglement Boundary",
+      "status": "QUEUED",
+      "depends_on": [
+        "R02"
+      ]
+    },
+    {
+      "id": "R04",
+      "title": "Superposition Structure",
+      "status": "QUEUED",
+      "depends_on": [
+        "R03"
+      ]
+    },
+    {
+      "id": "R05",
+      "title": "Null-Interface Algebra",
+      "status": "QUEUED",
+      "depends_on": [
+        "R04"
+      ]
+    },
+    {
+      "id": "R06",
+      "title": "Reversibility",
+      "status": "QUEUED",
+      "depends_on": [
+        "R05"
+      ]
+    },
+    {
+      "id": "R07",
+      "title": "Chirality Conservation",
+      "status": "QUEUED",
+      "depends_on": [
+        "R06"
+      ]
+    },
+    {
+      "id": "R08",
+      "title": "Resolution / Readout",
+      "status": "QUEUED",
+      "depends_on": [
+        "R07"
+      ]
+    },
+    {
+      "id": "R09",
+      "title": "Holonomy",
+      "status": "QUEUED",
+      "depends_on": [
+        "R08"
+      ]
+    },
+    {
+      "id": "R10",
+      "title": "Fusion of Fusion / Recursive Composition",
+      "status": "QUEUED",
+      "depends_on": [
+        "R09"
+      ]
+    }
+  ],
+  "crawl_rules": {
+    "sequential_default": true,
+    "no_random_walk": true,
+    "no_silent_promotion": true,
+    "girl_project_firewall": true,
+    "run_requires_vera_audit": true,
+    "run_requires_counterexample_ledger": true,
+    "run_requires_exit_verdict": true
+  },
+  "finish_checkpoint": "CHIRALITY FUSION OPERATOR MODEL v1.0 candidate"
+}

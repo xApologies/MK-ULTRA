@@ -1,0 +1,52 @@
+{
+  "handle": "@dm_source_backfilled_master_map",
+  "object_type": "qmo_derived_mathematical_object",
+  "status": "LIVE_DERIVED_CLOSED_MAP",
+  "domain": "DM30",
+  "namespace": "mk43://dark-matter/live",
+  "name": "Source-Backfilled Dark Matter Master Map",
+  "definition": "Crosswalk joining the recovered Archive.zip LaTeX spine to API 4.3, DM 2.2, and the existing XAPI fixed-point landscape without altering any parent source.",
+  "math": "19 source anchors; 51 direct source->handle links; 2689 source reachability pairs; exact density/metric constitutive anchor SRC-DM-019 reaches 149 handles.",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E097",
+  "qmo_generated": true,
+  "proof_status": "DERIVED_OR_CONDITIONAL",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "LIVE_QMO_DERIVED",
+  "metadata": {
+    "payload": {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_source_backfilled_master_map",
+      "canonical_name": "Source-Backfilled Dark Matter Master Map",
+      "type": "SourceXAPICrosswalk",
+      "status": "LIVE_DERIVED_CLOSED_MAP",
+      "checkpoint": "E097",
+      "definition": "Crosswalk joining the recovered Archive.zip LaTeX spine to API 4.3, DM 2.2, and the existing XAPI fixed-point landscape without altering any parent source.",
+      "math": "19 source anchors; 51 direct source->handle links; 2689 source reachability pairs; exact density/metric constitutive anchor SRC-DM-019 reaches 149 handles.",
+      "parents": [
+        "QMO-XAPI-002",
+        "ASTRAEUS_MK43_DARK_MATTER_LATEX_RECOVERY_20260822"
+      ],
+      "working_assumptions": [],
+      "proof_debt": [],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    "direct_live_edges_out": [
+      {
+        "source": "@dm_source_backfilled_master_map",
+        "relation": "DERIVED_FROM",
+        "target": "@dm_xapi_master_dependency_map",
+        "graph_family": "LIVE_SOURCE_BACKFILL",
+        "confidence": "medium",
+        "audit_status": "LIVE_DERIVED_CLOSED_MAP",
+        "provenance": "QMO-DM-SRC-XAPI-003",
+        "origin": "E097-E100",
+        "source_layer": "LIVE_OVERLAY"
+      }
+    ],
+    "direct_live_edges_in": []
+  },
+  "address": "@dm_source_backfilled_master_map",
+  "address_sha256": "30bb91994f4bc5895806749fa268b362129486cf8397753af5b14c37a9cfafaa"
+}

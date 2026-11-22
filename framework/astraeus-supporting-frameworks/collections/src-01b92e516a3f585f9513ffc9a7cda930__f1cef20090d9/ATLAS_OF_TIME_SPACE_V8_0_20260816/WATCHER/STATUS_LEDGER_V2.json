@@ -1,0 +1,23 @@
+{
+  "version": "2.0",
+  "checkpoint": "Transport Geometry / Chirality Connection Closure",
+  "standard_bundle_topology": {
+    "object": "S2 -> T5 -> S3",
+    "result": "T5_std ~= S3 x S2",
+    "status": "PROVED_UNDER_STANDARD_SO3_BUNDLE_HYPOTHESES"
+  },
+  "chirality_transport": {
+    "law": "nabla^chi_{x_tilde_dot} c = 0",
+    "field_map": "P_gamma^chi : C_alpha -> C_beta",
+    "status": "STRUCTURALLY_CLOSED"
+  },
+  "curvature_split": {
+    "equation": "F_chi = F_HH + F_HV + F_VV",
+    "status": "MATHEMATICALLY_CLOSED_PHYSICAL_INTERPRETATION_CANDIDATE"
+  },
+  "holonomy": {
+    "flat_S3_constraint": "nontrivial closed-loop holonomy requires curvature/defect/history/generalization",
+    "status": "PROVED_UNDER_STATED_HYPOTHESES"
+  },
+  "next_major_target": "Exact local QFT/GR representation maps rho_Q,p and rho_G,p"
+}

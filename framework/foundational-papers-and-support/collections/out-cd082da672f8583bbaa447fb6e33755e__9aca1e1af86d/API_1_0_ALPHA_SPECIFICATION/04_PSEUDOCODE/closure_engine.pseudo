@@ -1,0 +1,45 @@
+FUNCTION RecoverClosure(api, root, intent, context)
+    canonical_root := api.resolve(root)
+    graph := MutableDerivedGraph(root = canonical_root)
+    queue := DeterministicQueue()
+    queue.push(Node(canonical_root, depth=0, path=[canonical_root]))
+
+    WHILE queue.not_empty()
+        context.enforce_budgets()
+        node := queue.pop()
+        state_key := (node.handle, intent.direction, intent.scope)
+        IF context.visited.contains(state_key) THEN CONTINUE
+        context.visited.add(state_key)
+
+        provenance := api.recover_provenance(node.handle)
+        chirality := api.resolve_chirality(node, intent, provenance)
+        IF NOT api.admissible(node, intent, chirality, provenance) THEN
+            context.reject(node, "node inadmissible")
+            CONTINUE
+        END
+
+        equations := api.recover_equations(node.handle)
+        graph.add_node(node, chirality, provenance, equations)
+
+        IF TerminationPolicy.stop(node, intent, context) THEN CONTINUE
+
+        FOR EACH direction IN intent.allowed_directions
+            edges := api.neighbors(node.handle, direction)
+            FOR EACH edge IN CanonicalOrder(edges)
+                IF NOT RelationPolicy.allowed(edge, intent) THEN CONTINUE
+                child := Node(edge.other(node.handle), node.depth + 1, node.path + [edge.other])
+                IF CyclePolicy.reject(child, edge, context) THEN CONTINUE
+                child_provenance := api.recover_provenance(child.handle)
+                child_chirality := api.resolve_chirality(child, intent, child_provenance)
+                IF api.admissible(child, intent, child_chirality, child_provenance) THEN
+                    graph.add_direct_edge(edge)
+                    queue.push(child)
+                ELSE
+                    context.reject(edge, "continuation inadmissible")
+                END
+            END
+        END
+    END
+
+    RETURN graph
+END

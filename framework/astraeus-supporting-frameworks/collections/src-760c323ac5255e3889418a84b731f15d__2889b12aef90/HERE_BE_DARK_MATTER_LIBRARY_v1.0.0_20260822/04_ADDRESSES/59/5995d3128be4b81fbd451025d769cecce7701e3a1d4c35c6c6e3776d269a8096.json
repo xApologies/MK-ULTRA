@@ -1,0 +1,77 @@
+{
+  "handle": "@helicon_field_strength",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@helicon_field_strength",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 72,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 6,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@helicon_field_strength",
+        "relation": "REPRESENTED_BY",
+        "target": "@helicon_curvature",
+        "graph_family": "representation",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@helicon_curvature REPRESENTS @helicon_field_strength); rule=REPRESENTS→REPRESENTED_BY"
+      },
+      {
+        "source": "@helicon_curvature",
+        "relation": "REPRESENTS",
+        "target": "@helicon_field_strength",
+        "graph_family": "representation",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "recovery_pass": "RP-37",
+        "provenance": "DIRECT_TYPED_API:51524"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 2210,
+        "source": "@helicon_field_strength",
+        "relation": "REPRESENTED_BY",
+        "target": "@helicon_curvature",
+        "layer": "API43",
+        "graph_family": "representation",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@helicon_curvature REPRESENTS @helicon_field_strength); rule=REPRESENTS→REPRESENTED_BY"
+      },
+      {
+        "id": 626,
+        "source": "@helicon_curvature",
+        "relation": "REPRESENTS",
+        "target": "@helicon_field_strength",
+        "layer": "API43",
+        "graph_family": "representation",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_TYPED_API:51524"
+      }
+    ]
+  },
+  "address": "@helicon_field_strength",
+  "address_sha256": "5995d3128be4b81fbd451025d769cecce7701e3a1d4c35c6c6e3776d269a8096"
+}

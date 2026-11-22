@@ -1,0 +1,1852 @@
+{
+  "handle": "@conscious_coherence",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@conscious_coherence",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 156,
+    "api43_direct_in_count": 7,
+    "xapi_raw_out_count": 10,
+    "xapi_raw_in_count": 7,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 167,
+    "closure_in_reachability_count": 1,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@conscious_coherence",
+        "relation": "DEPENDS_TO",
+        "target": "@agency",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45068"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "DIRECTED_TO",
+        "target": "@agency",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45068"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@agency",
+        "graph_family": "audit",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45068"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@agency",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:28553;CANONICAL_API_UPSTREAM_FIELD:45176"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@agency",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "EDGE_LEDGER_LINE:45068;arrow_line:2756,prior_adjacency"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "USED_BY",
+        "target": "@agency",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:33694;CANONICAL_API_DOWNSTREAM_FIELD:45352"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@biological_organization",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@biological_organization FORMALLY_DEPENDS_ON @conscious_coherence); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@helicon",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@conscious_coherence -> @agency -> @helicon; relations=DEPENDS_TO + DEPENDS_TO; primitive_depth=2"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@coherent_helicon_propagation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@conscious_coherence -> @agency -> @helicon -> @coherent_helicon_propagation; relations=DEPENDS_TO + DEPENDS_TO + DEPENDS_TO; primitive_depth=3"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@curvature_binding",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@conscious_coherence -> @agency -> @helicon -> @curvature_binding; relations=DEPENDS_TO + DEPENDS_TO + ONTOLOGICALLY_DEPENDS_ON; primitive_depth=3"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@gravitational_helicon_mode",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@conscious_coherence -> @agency -> @helicon -> @gravitational_helicon_mode; relations=DEPENDS_TO + DEPENDS_TO + DEPENDS_TO; primitive_depth=3"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@graviton",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@conscious_coherence -> @agency -> @helicon -> @graviton; relations=DEPENDS_TO + DEPENDS_TO + DEPENDS_TO; primitive_depth=3"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@helicon_resonance",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@conscious_coherence -> @agency -> @helicon -> @helicon_resonance; relations=DEPENDS_TO + DEPENDS_TO + FORMALLY_DEPENDS_ON; primitive_depth=3"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@wake_stabilization_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@conscious_coherence -> @agency -> @helicon -> @wake_stabilization_equation; relations=DEPENDS_TO + DEPENDS_TO + DEPENDS_TO; primitive_depth=3"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@zer0_interaction",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@conscious_coherence -> @agency -> @helicon -> @zer0_interaction; relations=DEPENDS_TO + DEPENDS_TO + FORMALLY_DEPENDS_ON; primitive_depth=3"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@gravitational_self_coupling",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@conscious_coherence -> @agency -> @helicon -> @gravitational_helicon_mode -> @gravitational_self_coupling; relations=DEPENDS_TO + DEPENDS_TO + DEPENDS_TO + FORMALLY_DEPENDS_ON; primitive_depth=4"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@graviton_radiative_stability",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@conscious_coherence -> @agency -> @helicon -> @gravitational_helicon_mode -> @graviton_radiative_stability; relations=DEPENDS_TO + DEPENDS_TO + DEPENDS_TO + FORMALLY_DEPENDS_ON; primitive_depth=4"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@native_graviton_dispersion",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@conscious_coherence -> @agency -> @helicon -> @gravitational_helicon_mode -> @native_graviton_dispersion; relations=DEPENDS_TO + DEPENDS_TO + DEPENDS_TO + FORMALLY_DEPENDS_ON; primitive_depth=4"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@native_interaction_factorization",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@conscious_coherence -> @agency -> @helicon -> @gravitational_helicon_mode -> @native_interaction_factorization; relations=DEPENDS_TO + DEPENDS_TO + DEPENDS_TO + FORMALLY_DEPENDS_ON; primitive_depth=4"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@consciousness",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@conscious_coherence -> @agency -> @helicon -> @graviton -> @consciousness; relations=DEPENDS_TO + DEPENDS_TO + DEPENDS_TO + DEPENDS_TO; primitive_depth=4"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@continuity_perturbation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@conscious_coherence -> @agency -> @helicon -> @graviton -> @continuity_perturbation; relations=DEPENDS_TO + DEPENDS_TO + DEPENDS_TO + DEPENDS_TO; primitive_depth=4"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@time_shell",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@conscious_coherence -> @agency -> @helicon -> @graviton -> @time_shell; relations=DEPENDS_TO + DEPENDS_TO + DEPENDS_TO + DEPENDS_TO; primitive_depth=4"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@conscious_coherence -> @agency -> @helicon -> @graviton -> @black_hole; relations=DEPENDS_TO + DEPENDS_TO + DEPENDS_TO + FAMILY_DEPENDS_ON; primitive_depth=4"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@helicon_curvature",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@conscious_coherence -> @agency -> @helicon -> @helicon_resonance -> @helicon_curvature; relations=DEPENDS_TO + DEPENDS_TO + FORMALLY_DEPENDS_ON + FORMALLY_DEPENDS_ON; primitive_depth=4"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@rotational_helicon_mode",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@conscious_coherence -> @agency -> @helicon -> @helicon_resonance -> @rotational_helicon_mode; relations=DEPENDS_TO + DEPENDS_TO + FORMALLY_DEPENDS_ON + FORMALLY_DEPENDS_ON; primitive_depth=4"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@spectral_behavior",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@conscious_coherence -> @agency -> @helicon -> @helicon_resonance -> @spectral_behavior; relations=DEPENDS_TO + DEPENDS_TO + FORMALLY_DEPENDS_ON + ONTOLOGICALLY_DEPENDS_ON; primitive_depth=4"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "FEEDS_BLACK_HOLE_MODEL",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_BLACK_HOLE_REVERSE_CRAWL; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@black_hole"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@einstein_tensor",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@einstein_tensor"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@stress_energy_tensor",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@stress_energy_tensor"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@general_relativity",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@general_relativity"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@smooth_manifold",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@smooth_manifold"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@black_hole_information_closure",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@black_hole_information_closure"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@cosmology",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@cosmology"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@configuration_space_3_1_1",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@configuration_space_3_1_1"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@static_limit",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@static_limit"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@causal_boundary",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@causal_boundary"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@phase_structure_of_the_ism",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@phase_structure_of_the_ism"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@conformal_compactification",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@conformal_compactification"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@matter_coupling",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@matter_coupling"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@lorentzian_manifold",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@lorentzian_manifold"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@native_causal_order",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@native_causal_order"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@cosmological_constant",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@cosmological_constant"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@phase_gravitational_wave_equations",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@phase_gravitational_wave_equations"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@time_orientation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@time_orientation"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@time_shell_projection_operator",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@time_shell_projection_operator"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@spacetime",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@spacetime"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@gravity",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@gravity"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@schwarzschild_radius",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@schwarzschild_radius"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@pattern_recognition",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@pattern_recognition"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@native_constraint_closure",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@native_constraint_closure"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@einstein_field_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@einstein_field_equation"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@conscious_experience",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@conscious_experience"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@black_hole_region",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@black_hole_region"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@observer_relative_locality",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@observer_relative_locality"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@readable_space_time",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@readable_space_time"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@weak_field_metric_perturbation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@weak_field_metric_perturbation"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@levi_civita_connection",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@levi_civita_connection"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@future_null_infinity",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@future_null_infinity"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@native_probability_preservation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@native_probability_preservation"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@causal_structure",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@causal_structure"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@metric_tensor",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@metric_tensor"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@geometry",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@geometry"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@gravitational_radiation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@gravitational_radiation"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@riemann_tensor",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@riemann_tensor"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@differential_geometry",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@differential_geometry"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@metric_variation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@metric_variation"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@event_horizon",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_helicon_mode-[COMPOSED_DEPENDENCY]->@event_horizon"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@phase_structure",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@spectral_behavior-[COMPOSED_DEPENDENCY]->@phase_structure"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@metric_compatible_connection",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@black_hole-[COMPOSED_DEPENDENCY]->@metric_compatible_connection"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@tangent_vector",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@black_hole-[COMPOSED_DEPENDENCY]->@tangent_vector"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@topology_constraints",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@black_hole-[COMPOSED_DEPENDENCY]->@topology_constraints"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@tensor_field",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@black_hole-[COMPOSED_DEPENDENCY]->@tensor_field"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@metric_perturbation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@black_hole-[COMPOSED_DEPENDENCY]->@metric_perturbation"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@friedmann_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@black_hole-[COMPOSED_DEPENDENCY]->@friedmann_equation"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@ergosphere",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@black_hole-[COMPOSED_DEPENDENCY]->@ergosphere"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@schwarzschild_geometry",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@black_hole-[COMPOSED_DEPENDENCY]->@schwarzschild_geometry"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@friedmann_lemaitre_robertson_walker_spacetime",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@black_hole-[COMPOSED_DEPENDENCY]->@friedmann_lemaitre_robertson_walker_spacetime"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@conformal_structure",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@black_hole-[COMPOSED_DEPENDENCY]->@conformal_structure"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@ricci_scalar",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@black_hole-[COMPOSED_DEPENDENCY]->@ricci_scalar"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@einstein_hilbert_action",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@black_hole-[COMPOSED_DEPENDENCY]->@einstein_hilbert_action"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@scale_factor",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@black_hole-[COMPOSED_DEPENDENCY]->@scale_factor"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@riemann_curvature",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@black_hole-[COMPOSED_DEPENDENCY]->@riemann_curvature"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@hubble_parameter",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@black_hole-[COMPOSED_DEPENDENCY]->@hubble_parameter"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@tangent_bundle",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@black_hole-[COMPOSED_DEPENDENCY]->@tangent_bundle"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@acceleration_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@black_hole-[COMPOSED_DEPENDENCY]->@acceleration_equation"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@ergoregion",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@black_hole-[COMPOSED_DEPENDENCY]->@ergoregion"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@ricci_tensor",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@black_hole-[COMPOSED_DEPENDENCY]->@ricci_tensor"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@matter_action",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@black_hole-[COMPOSED_DEPENDENCY]->@matter_action"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@time_shell_projection",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@black_hole-[COMPOSED_DEPENDENCY]->@time_shell_projection"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@tangent_space",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@black_hole-[COMPOSED_DEPENDENCY]->@tangent_space"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@vacuum_field_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@black_hole-[COMPOSED_DEPENDENCY]->@vacuum_field_equation"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@projected_spacetime_metric",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@continuity_perturbation-[COMPOSED_DEPENDENCY]->@projected_spacetime_metric"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@propagation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@curvature_binding-[COMPOSED_DEPENDENCY]->@propagation"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@merger",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@time_shell-[COMPOSED_DEPENDENCY]->@merger"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@internal_experiential_map",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@time_shell-[COMPOSED_DEPENDENCY]->@internal_experiential_map"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@inspiral",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@time_shell-[COMPOSED_DEPENDENCY]->@inspiral"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@propagation_operator",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@time_shell-[COMPOSED_DEPENDENCY]->@propagation_operator"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@kerr_geometry",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@general_relativity-[COMPOSED_DEPENDENCY]->@kerr_geometry"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@gravitational_wave_energy_flux",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@time_shell_projection_operator-[COMPOSED_DEPENDENCY]->@gravitational_wave_energy_flux"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@linear_metric_perturbation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@time_shell_projection_operator-[COMPOSED_DEPENDENCY]->@linear_metric_perturbation"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@binary_inspiral",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@time_shell_projection_operator-[COMPOSED_DEPENDENCY]->@binary_inspiral"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@ringdown",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@time_shell_projection_operator-[COMPOSED_DEPENDENCY]->@ringdown"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@black_hole_horizon",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@time_shell_projection_operator-[COMPOSED_DEPENDENCY]->@black_hole_horizon"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@background_metric",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@time_shell_projection_operator-[COMPOSED_DEPENDENCY]->@background_metric"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@quasinormal_mode",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@time_shell_projection_operator-[COMPOSED_DEPENDENCY]->@quasinormal_mode"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@black_hole_perturbation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_radiation-[COMPOSED_DEPENDENCY]->@black_hole_perturbation"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@gravitational_wave",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_radiation-[COMPOSED_DEPENDENCY]->@gravitational_wave"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@white_state_core",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_radiation-[COMPOSED_DEPENDENCY]->@white_state_core"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@regge_wheeler_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_radiation-[COMPOSED_DEPENDENCY]->@regge_wheeler_equation"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@master_variable",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_radiation-[COMPOSED_DEPENDENCY]->@master_variable"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@critical_compression",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_radiation-[COMPOSED_DEPENDENCY]->@critical_compression"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@zerilli_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_radiation-[COMPOSED_DEPENDENCY]->@zerilli_equation"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@transverse_traceless_gauge",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_radiation-[COMPOSED_DEPENDENCY]->@transverse_traceless_gauge"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@spin_two_polarization",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_radiation-[COMPOSED_DEPENDENCY]->@spin_two_polarization"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@effective_potential",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_radiation-[COMPOSED_DEPENDENCY]->@effective_potential"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@quadrupole_formula",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_radiation-[COMPOSED_DEPENDENCY]->@quadrupole_formula"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@teukolsky_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_radiation-[COMPOSED_DEPENDENCY]->@teukolsky_equation"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@diffeomorphism_invariance",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@merger-[COMPOSED_DEPENDENCY]->@diffeomorphism_invariance"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@linearized_field_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@merger-[COMPOSED_DEPENDENCY]->@linearized_field_equation"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@vacuum_wave_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@merger-[COMPOSED_DEPENDENCY]->@vacuum_wave_equation"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@singularity",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@merger-[COMPOSED_DEPENDENCY]->@singularity"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@gauge_transformation_linearized",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@merger-[COMPOSED_DEPENDENCY]->@gauge_transformation_linearized"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@lorenz_gauge",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_wave-[COMPOSED_DEPENDENCY]->@lorenz_gauge"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@total_action",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_wave-[COMPOSED_DEPENDENCY]->@total_action"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@bounce_criterion",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_wave-[COMPOSED_DEPENDENCY]->@bounce_criterion"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@linearized_einstein_tensor",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_wave-[COMPOSED_DEPENDENCY]->@linearized_einstein_tensor"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@trace_reversal",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_wave-[COMPOSED_DEPENDENCY]->@trace_reversal"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@trapped_surface",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_radiation-[COMPOSED_DEPENDENCY]->@trapped_surface"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@raychaudhuri_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_radiation-[COMPOSED_DEPENDENCY]->@raychaudhuri_equation"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@cauchy_surface",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_radiation-[COMPOSED_DEPENDENCY]->@cauchy_surface"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@global_hyperbolicity",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_radiation-[COMPOSED_DEPENDENCY]->@global_hyperbolicity"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@jacobi_field",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_radiation-[COMPOSED_DEPENDENCY]->@jacobi_field"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@null_energy_condition",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_radiation-[COMPOSED_DEPENDENCY]->@null_energy_condition"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@closed_trapped_surface",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_radiation-[COMPOSED_DEPENDENCY]->@closed_trapped_surface"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@penrose_singularity_theorem",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_radiation-[COMPOSED_DEPENDENCY]->@penrose_singularity_theorem"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@geodesic_incompleteness",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_radiation-[COMPOSED_DEPENDENCY]->@geodesic_incompleteness"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@geodesic_deviation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_radiation-[COMPOSED_DEPENDENCY]->@geodesic_deviation"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@focusing_theorem",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_radiation-[COMPOSED_DEPENDENCY]->@focusing_theorem"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@conjugate_point",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_radiation-[COMPOSED_DEPENDENCY]->@conjugate_point"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@domain_of_dependence",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@gravitational_radiation-[COMPOSED_DEPENDENCY]->@domain_of_dependence"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@covariant_derivative",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@white_state_core-[COMPOSED_DEPENDENCY]->@covariant_derivative"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@energy_condition",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@white_state_core-[COMPOSED_DEPENDENCY]->@energy_condition"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@causal_future",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@white_state_core-[COMPOSED_DEPENDENCY]->@causal_future"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@vorticity_tensor",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@white_state_core-[COMPOSED_DEPENDENCY]->@vorticity_tensor"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@geodesic",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@white_state_core-[COMPOSED_DEPENDENCY]->@geodesic"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@inverse_metric",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@white_state_core-[COMPOSED_DEPENDENCY]->@inverse_metric"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@shear_tensor",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@white_state_core-[COMPOSED_DEPENDENCY]->@shear_tensor"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@parallel_transport",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@white_state_core-[COMPOSED_DEPENDENCY]->@parallel_transport"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@causal_character",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@white_state_core-[COMPOSED_DEPENDENCY]->@causal_character"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@null_curve",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@white_state_core-[COMPOSED_DEPENDENCY]->@null_curve"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@expansion_scalar",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@white_state_core-[COMPOSED_DEPENDENCY]->@expansion_scalar"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@congruence",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@white_state_core-[COMPOSED_DEPENDENCY]->@congruence"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@affine_connection",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@white_state_core-[COMPOSED_DEPENDENCY]->@affine_connection"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@line_element",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@white_state_core-[COMPOSED_DEPENDENCY]->@line_element"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "GLOBALLY_FEEDS_BLACK_HOLE",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-53",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_REVERSE_CRAWL; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@black_hole"
+      },
+      {
+        "source": "@conscious_coherence",
+        "relation": "BLACK_HOLE_CROSS_FAMILY_NODE",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-53",
+        "provenance": "DERIVED:RP53_CROSS_FAMILY_AUDIT; node participates in families=einstein,penrose"
+      },
+      {
+        "source": "@biological_organization",
+        "relation": "DEPENDS_TO",
+        "target": "@conscious_coherence",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45051"
+      },
+      {
+        "source": "@biological_organization",
+        "relation": "DIRECTED_TO",
+        "target": "@conscious_coherence",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45051"
+      },
+      {
+        "source": "@biological_organization",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@conscious_coherence",
+        "graph_family": "audit",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45051"
+      },
+      {
+        "source": "@biological_organization",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@conscious_coherence",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:33693;CANONICAL_API_UPSTREAM_FIELD:45351"
+      },
+      {
+        "source": "@biological_organization",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@conscious_coherence",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "EDGE_LEDGER_LINE:45051;arrow_line:2756,prior_adjacency"
+      },
+      {
+        "source": "@biological_organization",
+        "relation": "USED_BY",
+        "target": "@conscious_coherence",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:30884;CANONICAL_API_DOWNSTREAM_FIELD:45233"
+      },
+      {
+        "source": "@agency",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@conscious_coherence",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@conscious_coherence FORMALLY_DEPENDS_ON @agency); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 242,
+        "source": "@conscious_coherence",
+        "relation": "DEPENDS_TO",
+        "target": "@agency",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:45068"
+      },
+      {
+        "id": 243,
+        "source": "@conscious_coherence",
+        "relation": "DIRECTED_TO",
+        "target": "@agency",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45068"
+      },
+      {
+        "id": 244,
+        "source": "@conscious_coherence",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@agency",
+        "layer": "API43",
+        "graph_family": "audit",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45068"
+      },
+      {
+        "id": 245,
+        "source": "@conscious_coherence",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@agency",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:28553;CANONICAL_API_UPSTREAM_FIELD:45176"
+      },
+      {
+        "id": 246,
+        "source": "@conscious_coherence",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@agency",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "EDGE_LEDGER_LINE:45068;arrow_line:2756,prior_adjacency"
+      },
+      {
+        "id": 247,
+        "source": "@conscious_coherence",
+        "relation": "USED_BY",
+        "target": "@agency",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:33694;CANONICAL_API_DOWNSTREAM_FIELD:45352"
+      },
+      {
+        "id": 2119,
+        "source": "@conscious_coherence",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@biological_organization",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@biological_organization FORMALLY_DEPENDS_ON @conscious_coherence); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      },
+      {
+        "id": 11988,
+        "source": "@conscious_coherence",
+        "relation": "FEEDS_BLACK_HOLE_MODEL",
+        "target": "@black_hole",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP51_BLACK_HOLE_REVERSE_CRAWL; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@black_hole"
+      },
+      {
+        "id": 18151,
+        "source": "@conscious_coherence",
+        "relation": "GLOBALLY_FEEDS_BLACK_HOLE",
+        "target": "@black_hole",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_REVERSE_CRAWL; witness=@conscious_coherence-[COMPOSED_DEPENDENCY]->@black_hole"
+      },
+      {
+        "id": 18594,
+        "source": "@conscious_coherence",
+        "relation": "BLACK_HOLE_CROSS_FAMILY_NODE",
+        "target": "@black_hole",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP53_CROSS_FAMILY_AUDIT; node participates in families=einstein,penrose"
+      },
+      {
+        "id": 81,
+        "source": "@biological_organization",
+        "relation": "DEPENDS_TO",
+        "target": "@conscious_coherence",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:45051"
+      },
+      {
+        "id": 82,
+        "source": "@biological_organization",
+        "relation": "DIRECTED_TO",
+        "target": "@conscious_coherence",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45051"
+      },
+      {
+        "id": 83,
+        "source": "@biological_organization",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@conscious_coherence",
+        "layer": "API43",
+        "graph_family": "audit",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45051"
+      },
+      {
+        "id": 84,
+        "source": "@biological_organization",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@conscious_coherence",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:33693;CANONICAL_API_UPSTREAM_FIELD:45351"
+      },
+      {
+        "id": 85,
+        "source": "@biological_organization",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@conscious_coherence",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "EDGE_LEDGER_LINE:45051;arrow_line:2756,prior_adjacency"
+      },
+      {
+        "id": 86,
+        "source": "@biological_organization",
+        "relation": "USED_BY",
+        "target": "@conscious_coherence",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:30884;CANONICAL_API_DOWNSTREAM_FIELD:45233"
+      },
+      {
+        "id": 2140,
+        "source": "@agency",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@conscious_coherence",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@conscious_coherence FORMALLY_DEPENDS_ON @agency); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      }
+    ]
+  },
+  "address": "@conscious_coherence",
+  "address_sha256": "f2424887bf5bd2d0b6e3c3b433495409a9cf82cdaf58dc912e3a026e28e9d636"
+}

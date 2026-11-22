@@ -1,0 +1,79 @@
+{
+  "schema": "WL033_TG_GLUE_OBJECTS_V1",
+  "objects": [
+    {
+      "model_handle": "@transduction_descent",
+      "canonical_handle": "@transduction_descent",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "descent architecture",
+      "definition": "Local-to-global gluing architecture for connections/admissibility data.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-270"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@chirality_fabric",
+      "canonical_handle": "@chirality_fabric",
+      "identity_status": "CREATED",
+      "status": "STRONG_CANDIDATE",
+      "type": "distributed admissibility/gluing candidate",
+      "definition": "Candidate: local admissibility objects + overlap transition maps + descent compatibility.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-271",
+        "QMO_LEDGER_REGISTRY.json#L-276"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@gluing_class",
+      "canonical_handle": "@gluing_class",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_CANDIDATE",
+      "type": "equivalence class",
+      "definition": "Transition-data equivalence class under local reparameterization.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-280"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@gluing_data",
+      "canonical_handle": "@gluing_data",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_CANDIDATE",
+      "type": "transition data",
+      "definition": "Representative local transition maps plus their equivalence/gauge class for reconstruction and descent auditing.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-303",
+        "QMO_LEDGER_REGISTRY.json#L-305"
+      ],
+      "live_model_revision": "v41"
+    },
+    {
+      "model_handle": "@macro_descent_audit",
+      "canonical_handle": "@macro_descent_audit",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "derivation macro",
+      "definition": "Overlap-transition composition to descent/global-gluing disposition.",
+      "provenance": [
+        "v45"
+      ],
+      "live_model_revision": "v45"
+    },
+    {
+      "model_handle": "@admissibility_relation",
+      "canonical_handle": "@admissibility_relation",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "structural relation",
+      "definition": "Compatibility relation Adm_f(x,y) defining admissible continuation along dependency arrows.",
+      "provenance": [
+        "v50"
+      ],
+      "live_model_revision": "v50"
+    }
+  ]
+}

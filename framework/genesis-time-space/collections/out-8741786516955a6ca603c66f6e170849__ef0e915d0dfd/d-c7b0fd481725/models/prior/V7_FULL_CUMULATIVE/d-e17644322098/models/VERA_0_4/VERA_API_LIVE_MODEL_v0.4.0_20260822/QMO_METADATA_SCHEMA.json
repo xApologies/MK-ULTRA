@@ -1,0 +1,44 @@
+{
+  "schema": "ASTRAEUS_QMO_METADATA_SCHEMA_V1",
+  "qmo_name": "Queryable Mathematical Object",
+  "api_release": "0.7.0",
+  "live_model_revision": "v0.20.0",
+  "address_contract": {
+    "canonical_address": "The canonical @handle of the QMO.",
+    "address_is_object_identity_pointer": true,
+    "metadata_is_attached_to_address_not_a_second_mathematical_object": true,
+    "address_stable_across_metadata_revisions": true,
+    "aliases_resolve_to_canonical_qmo_address": true,
+    "library_lookup": "library/QMO_METADATA_LIBRARY.json[qmo_address]"
+  },
+  "required_record_fields": [
+    "qmo_address",
+    "canonical_name",
+    "type",
+    "status",
+    "branch",
+    "meaning",
+    "relations",
+    "provenance",
+    "recovery",
+    "revision"
+  ],
+  "principles": [
+    "qmo_is_query_address",
+    "api_executes_objects_live_model_explains_objects",
+    "metadata_never_replaces_mathematical_structure",
+    "meaning_revisions_are_append_only_in_history",
+    "provenance_and_closure_status_are_first_class_metadata",
+    "readout_and_underlying_structure_remain_distinct",
+    "runtime_mutations_must_sync_live_metadata",
+    "dependency_landscape_qmo_has_own_metadata_address",
+    "dependency_landscape_history_is_append_only",
+    "landscape_membership_does_not_promote_member_status",
+    "structural_command_metadata_is_separate_from_qmo_metadata",
+    "at_prefix_does_not_imply_qmo_without_registry_type",
+    "dependency_graph_qmo_has_own_metadata_address",
+    "dependency_chain_qmo_has_own_metadata_address",
+    "dependency_chain_history_is_append_only",
+    "closed_chain_subdomain_identity_uses_same_qmo_address"
+  ]
+}

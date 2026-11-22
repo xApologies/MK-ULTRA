@@ -1,0 +1,16 @@
+{
+  "source": "@local_energy_momentum_conservation",
+  "target": "@gravity",
+  "path": [
+    {
+      "source": "@local_energy_momentum_conservation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@gravity",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-51",
+      "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@local_energy_momentum_conservation-[COMPOSED_DEPENDENCY]->@metric_perturbation-[COMPOSED_DEPENDENCY]->@gravity"
+    }
+  ]
+}

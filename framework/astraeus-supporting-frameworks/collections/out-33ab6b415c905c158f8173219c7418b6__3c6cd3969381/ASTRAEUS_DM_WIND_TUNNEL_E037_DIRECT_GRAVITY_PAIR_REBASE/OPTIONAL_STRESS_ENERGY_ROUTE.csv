@@ -1,0 +1,4 @@
+gate,obligation,criterion,status,evidence
+S1,UCM dynamic event separation,same H target receives nonidentity response,PASS,E004
+S2,Pairwise readable-source separation Sep_T,P_T(e0) != P_T(e1),OPEN,P_T pair certificate not recovered
+S3,Fixed-GR downstream separation,T0 != T1 => g0 != g1 under same GR problem data,THEOREM_RECOVERED,r7 v28 File 180

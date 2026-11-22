@@ -1,0 +1,126 @@
+{
+  "handle": "@dl_s2_preimage_realization",
+  "seed": "@chain/s2_p",
+  "members": [
+    "@chain/s2_p",
+    "@chain/preimage_raw",
+    "@chain/invariant_fiber",
+    "@chain/resolution_domain",
+    "@chain/bandwidth_domain",
+    "@chain/history_decorated",
+    "@chain/torus_phase",
+    "@chain/lift_family",
+    "@chain/operative_lifts",
+    "@chain/connection",
+    "@chain/kor",
+    "@qmo/resolution",
+    "@qmo/bandwidth",
+    "@qmo/history",
+    "@qmo/holonomy_history_signature",
+    "@qmo/recovery_discriminator",
+    "@qmo/transduction_connection",
+    "@qmo/operative_lift_family",
+    "@qmo/resolution_quotiented_lift_family",
+    "@qmo/handoff_merge_fiber",
+    "@qmo/witness_fiber_separation"
+  ],
+  "edges": [
+    {
+      "source": "@chain/s2_p",
+      "relation": "PROGRESSES_TO",
+      "target": "@chain/preimage_raw"
+    },
+    {
+      "source": "@chain/preimage_raw",
+      "relation": "PROGRESSES_TO",
+      "target": "@chain/invariant_fiber"
+    },
+    {
+      "source": "@chain/invariant_fiber",
+      "relation": "PROGRESSES_TO",
+      "target": "@chain/resolution_domain"
+    },
+    {
+      "source": "@chain/resolution_domain",
+      "relation": "PROGRESSES_TO",
+      "target": "@chain/bandwidth_domain"
+    },
+    {
+      "source": "@chain/bandwidth_domain",
+      "relation": "PROGRESSES_TO",
+      "target": "@chain/history_decorated"
+    },
+    {
+      "source": "@chain/history_decorated",
+      "relation": "PROGRESSES_TO",
+      "target": "@chain/torus_phase"
+    },
+    {
+      "source": "@chain/torus_phase",
+      "relation": "PROGRESSES_TO",
+      "target": "@chain/lift_family"
+    },
+    {
+      "source": "@chain/lift_family",
+      "relation": "PROGRESSES_TO",
+      "target": "@chain/operative_lifts"
+    },
+    {
+      "source": "@chain/operative_lifts",
+      "relation": "PROGRESSES_TO",
+      "target": "@chain/connection"
+    },
+    {
+      "source": "@chain/connection",
+      "relation": "PROGRESSES_TO",
+      "target": "@chain/kor"
+    },
+    {
+      "source": "@qmo/resolution",
+      "relation": "CONSTRAINS",
+      "target": "@chain/resolution_domain"
+    },
+    {
+      "source": "@qmo/bandwidth",
+      "relation": "CONSTRAINS",
+      "target": "@chain/bandwidth_domain"
+    },
+    {
+      "source": "@qmo/history",
+      "relation": "DECORATES",
+      "target": "@chain/history_decorated"
+    },
+    {
+      "source": "@qmo/holonomy_history_signature",
+      "relation": "MAY_COMPRESS",
+      "target": "@chain/history_decorated"
+    },
+    {
+      "source": "@qmo/recovery_discriminator",
+      "relation": "SEPARATES_LINEAGE",
+      "target": "@chain/history_decorated"
+    },
+    {
+      "source": "@qmo/transduction_connection",
+      "relation": "TYPES",
+      "target": "@chain/connection"
+    },
+    {
+      "source": "@qmo/operative_lift_family",
+      "relation": "TYPES",
+      "target": "@chain/operative_lifts"
+    },
+    {
+      "source": "@qmo/resolution_quotiented_lift_family",
+      "relation": "AUDITS",
+      "target": "@chain/lift_family"
+    }
+  ],
+  "context": {
+    "Resolution": "@qmo/resolution",
+    "Bandwidth": "@qmo/bandwidth",
+    "History": "@qmo/history"
+  },
+  "closure_status": "OPEN_FORK_AT_CONNECTION",
+  "notes": "Landscape inclusion preserves member status; it does not promote open claims."
+}

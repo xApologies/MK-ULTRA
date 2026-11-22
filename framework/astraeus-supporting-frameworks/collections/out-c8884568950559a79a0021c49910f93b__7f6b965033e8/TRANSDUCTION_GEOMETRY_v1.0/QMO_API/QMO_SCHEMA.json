@@ -1,0 +1,43 @@
+{
+  "schema": "MK43_TRANSDUCTION_QMO_SCHEMA_V1",
+  "qmo_name": "Queryable Mathematical Object",
+  "identity": "@global_transduction_object",
+  "required_surfaces": {
+    "objects": "QMO_OBJECT_REGISTRY.json",
+    "edges": "QMO_EDGE_REGISTRY.json",
+    "equations": "QMO_EQUATION_REGISTRY.json",
+    "ledger": "QMO_LEDGER_REGISTRY.json",
+    "aliases": "ALIAS_REGISTRY.json",
+    "sqlite": "QMO.sqlite",
+    "canonical": "MK43_Transduction_API_CURRENT_CANONICAL.md",
+    "runtime": "LIVE_RUNTIME_STATE.md"
+  },
+  "node_contract": {
+    "required": [
+      "model_handle",
+      "canonical_handle",
+      "status",
+      "type",
+      "definition",
+      "provenance"
+    ]
+  },
+  "edge_contract": {
+    "required": [
+      "source",
+      "relation",
+      "target",
+      "graph_family",
+      "confidence",
+      "audit_status",
+      "provenance"
+    ]
+  },
+  "principles": [
+    "append_only_by_default",
+    "provenance_required",
+    "representation_does_not_replace_ancestry",
+    "legacy_components_may_be_reused_independently",
+    "candidate_status_is_not_canon_status"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "ASTRAEUS_PERTURBATION_REGISTRY_V1",
+  "policy": "SANDBOX_ONLY",
+  "scenarios": [
+    {
+      "scenario_id": "P-001",
+      "name": "readout_equals_structure",
+      "kind": "native_guard_stress",
+      "changes": [
+        {
+          "op": "assert_edge",
+          "source": "@resolution_readout",
+          "relation": "SAME_AS",
+          "target": "@formal_object"
+        }
+      ],
+      "expected": "Hard-guard conflict; propagate impact through objects depending on Resolution/Formal Object distinction."
+    },
+    {
+      "scenario_id": "P-002",
+      "name": "coarse_readout_erases_history",
+      "kind": "native_guard_stress",
+      "changes": [
+        {
+          "op": "assert_edge",
+          "source": "@resolution_readout",
+          "relation": "ERASES",
+          "target": "@history_trace"
+        }
+      ],
+      "expected": "Continuity conflict; invalidate recovery claims requiring retained History."
+    },
+    {
+      "scenario_id": "P-003",
+      "name": "pink_sky_readout_only",
+      "kind": "toy_analogy",
+      "toy_domain": "examples/PINK_SKY_TOY_DOMAIN.json",
+      "changes": [
+        {
+          "op": "set_attribute",
+          "object": "@toy_sky_readout",
+          "attribute": "color",
+          "value": "pink"
+        }
+      ],
+      "expected": "Readout-only change remains local unless an upstream constraint change is also asserted."
+    },
+    {
+      "scenario_id": "P-004",
+      "name": "pink_sky_constraint_change",
+      "kind": "toy_analogy",
+      "toy_domain": "examples/PINK_SKY_TOY_DOMAIN.json",
+      "changes": [
+        {
+          "op": "set_attribute",
+          "object": "@toy_environmental_constraints",
+          "attribute": "regime",
+          "value": "pink_sky_supporting"
+        }
+      ],
+      "expected": "Propagate through all structures depending on the altered environmental constraint; tree/bush identity is not predetermined but must be re-evaluated if its morphology depends on the same constraint."
+    }
+  ]
+}

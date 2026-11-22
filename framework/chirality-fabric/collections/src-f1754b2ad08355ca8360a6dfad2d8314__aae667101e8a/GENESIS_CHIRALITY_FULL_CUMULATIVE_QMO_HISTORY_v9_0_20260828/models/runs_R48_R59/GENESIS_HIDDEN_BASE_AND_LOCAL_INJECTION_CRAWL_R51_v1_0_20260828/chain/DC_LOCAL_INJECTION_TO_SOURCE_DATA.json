@@ -1,0 +1,12 @@
+{
+  "qmo_address": "@dc/local_injection_to_source_data",
+  "steps": [
+    "@r51/candidate_map_sieve",
+    "@r51/physical_candidate_maps"
+  ],
+  "branches": [
+    "@open/hidden_base_embedding_definition",
+    "@open/local_candidate_map_sieve_population"
+  ],
+  "terminal_state": "SOURCE_DATA_ROADBLOCK"
+}

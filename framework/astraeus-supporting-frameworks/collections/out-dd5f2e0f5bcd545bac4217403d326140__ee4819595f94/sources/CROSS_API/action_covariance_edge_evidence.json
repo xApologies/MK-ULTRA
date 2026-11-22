@@ -1,0 +1,232 @@
+[
+  {
+    "source": "@total_action",
+    "relation": "DEPENDS_TO",
+    "target": "@bounce_criterion",
+    "graph_family": "mixed",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-34",
+    "provenance": "DIRECT_API_LINE:45144"
+  },
+  {
+    "source": "@total_action",
+    "relation": "DIRECTED_TO",
+    "target": "@bounce_criterion",
+    "graph_family": "mixed",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-35",
+    "provenance": "CANONICAL_API_HANDLE_ARROW:45144"
+  },
+  {
+    "source": "@total_action",
+    "relation": "EXPLICIT_ARROW",
+    "target": "@bounce_criterion",
+    "graph_family": "mixed",
+    "confidence": "high",
+    "audit_status": "direct_source",
+    "recovery_pass": "RP-39",
+    "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45144"
+  },
+  {
+    "source": "@total_action",
+    "relation": "FORMALLY_DEPENDS_ON",
+    "target": "@bounce_criterion",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-36",
+    "provenance": "CANONICAL_API_UPSTREAM_FIELD:31013;CANONICAL_API_UPSTREAM_FIELD:45253"
+  },
+  {
+    "source": "@total_action",
+    "relation": "RECOVERED_DEPENDENCY",
+    "target": "@bounce_criterion",
+    "graph_family": "mixed",
+    "confidence": "medium",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-34",
+    "provenance": "EDGE_LEDGER_LINE:45144;prior_adjacency"
+  },
+  {
+    "source": "@total_action",
+    "relation": "USED_BY",
+    "target": "@bounce_criterion",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-36",
+    "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:44054;CANONICAL_API_DOWNSTREAM_FIELD:45856"
+  },
+  {
+    "source": "@metric_variation",
+    "relation": "DEPENDS_ON",
+    "target": "@einstein_hilbert_action",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-43",
+    "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:44"
+  },
+  {
+    "source": "@einstein_field_equation",
+    "relation": "DEPENDS_ON",
+    "target": "@metric_variation",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-43",
+    "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:45"
+  },
+  {
+    "source": "@stress_energy_tensor",
+    "relation": "DEPENDS_ON",
+    "target": "@matter_action",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-43",
+    "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:46"
+  },
+  {
+    "source": "@matter_action",
+    "relation": "FAMILY_DEPENDS_ON",
+    "target": "@einstein_field_equation",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-43",
+    "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:299"
+  },
+  {
+    "source": "@total_action",
+    "relation": "FAMILY_DEPENDS_ON",
+    "target": "@einstein_field_equation",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-43",
+    "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:300"
+  },
+  {
+    "source": "@metric_variation",
+    "relation": "FAMILY_DEPENDS_ON",
+    "target": "@einstein_field_equation",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-43",
+    "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:301"
+  },
+  {
+    "source": "@diffeomorphism_invariance",
+    "relation": "FAMILY_DEPENDS_ON",
+    "target": "@einstein_field_equation",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-43",
+    "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:308"
+  },
+  {
+    "source": "@noether_identity",
+    "relation": "FAMILY_DEPENDS_ON",
+    "target": "@einstein_field_equation",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-43",
+    "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:309"
+  },
+  {
+    "source": "@total_action",
+    "relation": "DEPENDS_ON",
+    "target": "@einstein_hilbert_action",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-43",
+    "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:579"
+  },
+  {
+    "source": "@total_action",
+    "relation": "DEPENDS_ON",
+    "target": "@matter_action",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-43",
+    "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:580"
+  },
+  {
+    "source": "@boundary_term",
+    "relation": "DEPENDS_ON",
+    "target": "@metric_variation",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-43",
+    "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:581"
+  },
+  {
+    "source": "@diffeomorphism_invariance",
+    "relation": "DEPENDS_ON",
+    "target": "@total_action",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-43",
+    "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:582"
+  },
+  {
+    "source": "@noether_identity",
+    "relation": "DEPENDS_ON",
+    "target": "@diffeomorphism_invariance",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-43",
+    "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:583"
+  },
+  {
+    "source": "@noether_charge",
+    "relation": "DEPENDS_ON",
+    "target": "@diffeomorphism_invariance",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-43",
+    "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:603"
+  },
+  {
+    "source": "@gauge_transformation_linearized",
+    "relation": "DEPENDS_ON",
+    "target": "@diffeomorphism_invariance",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-43",
+    "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:604"
+  },
+  {
+    "source": "@diffeomorphism_invariance",
+    "relation": "IMPLIES",
+    "target": "@noether_identity",
+    "graph_family": "mathematical",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-44",
+    "provenance": "DERIVED:RP44_GR_EDGE_CRAWL; Gauge symmetry yields differential identities."
+  },
+  {
+    "source": "@matter_action",
+    "relation": "GENERATES",
+    "target": "@stress_energy_tensor",
+    "graph_family": "mixed",
+    "confidence": "high",
+    "audit_status": "recovered",
+    "recovery_pass": "RP-45",
+    "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Metric variation of the matter action yields stress-energy."
+  }
+]

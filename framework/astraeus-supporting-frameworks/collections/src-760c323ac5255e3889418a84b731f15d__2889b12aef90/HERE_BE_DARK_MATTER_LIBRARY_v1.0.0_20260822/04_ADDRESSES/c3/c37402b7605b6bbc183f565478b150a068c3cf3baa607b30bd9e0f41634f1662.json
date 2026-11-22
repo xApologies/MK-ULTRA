@@ -1,0 +1,23 @@
+{
+  "handle": "promotion://promo_55fa958c514c154619ee2c59",
+  "object_type": "promotion_decision",
+  "status": "LIVE_CONDITIONAL_CLOSURE_ONLY",
+  "domain": "PROMOTION",
+  "namespace": "mk43://promotion",
+  "name": "E064 LIVE_CONDITIONAL_CLOSURE_ONLY",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E064",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "PROMOTION_LEDGER",
+  "metadata": {
+    "checkpoint": "E064",
+    "decision": "LIVE_CONDITIONAL_CLOSURE_ONLY",
+    "payload_json": "{\"checkpoint\": \"E064\", \"decision\": \"LIVE_CONDITIONAL_CLOSURE_ONLY\", \"parent_promotions\": 0, \"physical_promotions\": 0, \"canonical_parent_edge_promotions\": 0, \"live_conditional_objects\": [\"@dm_conditional_dark_readout_witness\"], \"closure_certificates\": [\"CC-DM-E064-001\"], \"candidate_qmos\": [\"QMO-DM-BRIDGE-CAND-005\"], \"working_assumptions\": [\"WA-DM-E064-001\", \"WA-DM-E064-002\", \"WA-DM-E064-003\"], \"proof_debt\": [\"PD-DM-001\", \"PD-DM-002\", \"PD-DM-003\"], \"reason\": \"Stable-abstraction fast forward closes a dark-readout factorization witness only conditionally; open interfaces remain explicit proof debt.\"}"
+  },
+  "address": "promotion://promo_55fa958c514c154619ee2c59",
+  "address_sha256": "c37402b7605b6bbc183f565478b150a068c3cf3baa607b30bd9e0f41634f1662"
+}

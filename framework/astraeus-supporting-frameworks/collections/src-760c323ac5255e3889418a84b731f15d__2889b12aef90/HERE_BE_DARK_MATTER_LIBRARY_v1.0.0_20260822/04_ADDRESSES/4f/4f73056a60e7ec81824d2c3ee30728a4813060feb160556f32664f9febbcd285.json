@@ -1,0 +1,26 @@
+{
+  "handle": "closure://CC-DM-E068-001",
+  "object_type": "closure_certificate",
+  "status": "DIAGNOSTIC_CLOSED",
+  "domain": "CLOSURE",
+  "namespace": "mk43://closure",
+  "name": "CC-DM-E068-001",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E068",
+  "qmo_generated": true,
+  "proof_status": "DIAGNOSTIC_CLOSED",
+  "empirical_status": "",
+  "provenance_class": "CLOSURE_CERTIFICATE",
+  "metadata": {
+    "id": "CC-DM-E068-001",
+    "object_handle": "@dm_live_qualification_cut",
+    "decision": "DIAGNOSTIC_CLOSED",
+    "checkpoint": "E068",
+    "source_file": "live/checkpoints/E068/closure/CC-DM-E068-001_CRITICAL_CUT_AUDIT.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_CLOSURE_CERTIFICATE_V1\", \"certificate_id\": \"CC-DM-E068-001\", \"checkpoint\": \"E068\", \"object\": \"@dm_live_qualification_cut\", \"decision\": \"DIAGNOSTIC_CLOSED\", \"scope\": \"live dependency/proof-debt prioritization\", \"checks\": {\"no_claim_promoted\": true, \"baseline_dm22_modified\": false, \"two_independent_middle_lanes_preserved\": true}, \"result\": \"Reprioritize active frontier to @dm_stress_active_action_fiber_nonempty; retain PD-DM-003 and PD-DM-004 as parallel branch debts.\"}"
+  },
+  "address": "closure://CC-DM-E068-001",
+  "address_sha256": "4f73056a60e7ec81824d2c3ee30728a4813060feb160556f32664f9febbcd285"
+}

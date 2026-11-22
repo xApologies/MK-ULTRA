@@ -1,0 +1,66 @@
+{
+  "handle": "@dm_source_er_effective_model_closure",
+  "object_type": "qmo_derived_mathematical_object",
+  "status": "LIVE_CLOSED_SOURCE_EFFECTIVE_EMPIRICAL_OPEN",
+  "domain": "DM30",
+  "namespace": "mk43://dark-matter/live",
+  "name": "Source-Effective ER Dark Matter Model Closure",
+  "definition": "Internal closure of the recovered source-effective Dark Matter branch: hidden/load-bearing ER geometry has an explicit network representation, density/metric and stress-energy/Einstein interfaces, large-scale coarse-graining, and galactic readout equations. External physical identification is not promoted.",
+  "math": "ER network W -> {g_ER, rho_ER/T_ER} -> Einstein/metric response -> {Phi_eff, v(r)}; exact source shell sector also has Delta mu !=0 => Delta phi !=0 => det g differs.",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E100",
+  "qmo_generated": true,
+  "proof_status": "DERIVED_OR_CONDITIONAL",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "LIVE_QMO_DERIVED",
+  "metadata": {
+    "payload": {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_source_er_effective_model_closure",
+      "canonical_name": "Source-Effective ER Dark Matter Model Closure",
+      "type": "SourceEffectiveModelClosure",
+      "status": "LIVE_CLOSED_SOURCE_EFFECTIVE_EMPIRICAL_OPEN",
+      "checkpoint": "E100",
+      "definition": "Internal closure of the recovered source-effective Dark Matter branch: hidden/load-bearing ER geometry has an explicit network representation, density/metric and stress-energy/Einstein interfaces, large-scale coarse-graining, and galactic readout equations. External physical identification is not promoted.",
+      "math": "ER network W -> {g_ER, rho_ER/T_ER} -> Einstein/metric response -> {Phi_eff, v(r)}; exact source shell sector also has Delta mu !=0 => Delta phi !=0 => det g differs.",
+      "parents": [
+        "@dm_source_density_geometry_calibration",
+        "@dm_source_er_gravitational_readout_chain",
+        "@dm_xapi_master_dependency_map"
+      ],
+      "working_assumptions": [],
+      "proof_debt": [
+        "PD-DM-015"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    "direct_live_edges_out": [
+      {
+        "source": "@dm_source_er_effective_model_closure",
+        "relation": "SOURCE_EFFECTIVE_REALIZATION_OF",
+        "target": "@dm_dark_matter_qualification_locus",
+        "graph_family": "LIVE_SOURCE_BACKFILL",
+        "confidence": "high",
+        "audit_status": "LIVE_SOURCE_EFFECTIVE_ALTERNATE_REALIZATION",
+        "provenance": "CC-DM-E100-001",
+        "origin": "E097-E100",
+        "source_layer": "LIVE_OVERLAY"
+      },
+      {
+        "source": "@dm_source_er_effective_model_closure",
+        "relation": "PRESERVES_REFINEMENT_BOUNDARY",
+        "target": "@dm_dark_matter_qualification_nonempty",
+        "graph_family": "LIVE_SOURCE_BACKFILL",
+        "confidence": "medium",
+        "audit_status": "LIVE_BOUNDARY_EDGE",
+        "provenance": "CC-DM-E100-001",
+        "origin": "E097-E100",
+        "source_layer": "LIVE_OVERLAY"
+      }
+    ],
+    "direct_live_edges_in": []
+  },
+  "address": "@dm_source_er_effective_model_closure",
+  "address_sha256": "60b5d529429ca9d27da80c5baff44f43f39e6e35e3bc0b62cf9cfd1c47a0231b"
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "ASTRAEUS_QMO_CANDIDATE_V1",
+  "qmo_id": "QMO-DM-BRIDGE-CAND-020",
+  "handle": "@dm_conditional_ucm_dynamic_event_witness",
+  "canonical_name": "Conditional UCM Dynamic-Event Separation Witness",
+  "status": "LIVE_CONDITIONAL_CANDIDATE",
+  "checkpoint": "E079",
+  "parents": [
+    "@dm_ucm_two_gate_factorization",
+    "@dm_hidden_s3_network",
+    "@universal_coupling"
+  ],
+  "working_assumptions": [
+    "WA-DM-E079-001"
+  ],
+  "derivation": [
+    "R4 full candidate family contains C_H absent from visible family.",
+    "R5 selects C_H in the full branch under the declared constrained selection premise.",
+    "R6 survivability and R7 persistence retain C_H in the resolved event record.",
+    "Therefore e_full=U_dyn(u_full) and e_vis=U_dyn(u_vis) differ."
+  ],
+  "result": "Conditional closure of UCM Gate 1: U_dyn(u_full) != U_dyn(u_vis).",
+  "boundary": "Gate 2 P_T(e_full) != P_T(e_vis) remains open."
+}

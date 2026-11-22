@@ -1,0 +1,10 @@
+digraph G {
+ rankdir=LR; node [shape=box];
+ C [label="Chirality Holonomy"];
+ D [label="Chirality Defect"];
+ S [label="Identity Sensitivity"];
+ A [label="Identity Action"];
+ X [label="Compensation"];
+ I [label="Total Identity Holonomy"];
+ C->D->S->A->X->I;
+}

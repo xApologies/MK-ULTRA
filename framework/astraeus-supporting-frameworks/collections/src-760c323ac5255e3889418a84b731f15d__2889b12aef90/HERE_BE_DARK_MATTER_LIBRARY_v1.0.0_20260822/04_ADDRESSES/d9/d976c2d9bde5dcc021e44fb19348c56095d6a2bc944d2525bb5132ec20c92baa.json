@@ -1,0 +1,343 @@
+{
+  "handle": "@phase_stress_energy",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Phase stress-energy",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 2,
+    "api43_direct_in_count": 9,
+    "xapi_raw_out_count": 3,
+    "xapi_raw_in_count": 15,
+    "live_out_count": 1,
+    "live_in_count": 7,
+    "closure_out_reachability_count": 148,
+    "closure_in_reachability_count": 2,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@phase_stress_energy",
+        "relation": "PROJECTS_TO",
+        "target": "@projected_stress_energy_sector",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-45",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Phase stress-energy projects to the readable stress-energy sector."
+      },
+      {
+        "source": "@phase_stress_energy",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@phase_metric",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@phase_metric FORMALLY_DEPENDS_ON @phase_stress_energy); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      },
+      {
+        "source": "@phase_metric",
+        "relation": "DEPENDS_TO",
+        "target": "@phase_stress_energy",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45116"
+      },
+      {
+        "source": "@phase_metric",
+        "relation": "DIRECTED_TO",
+        "target": "@phase_stress_energy",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45116"
+      },
+      {
+        "source": "@phase_metric",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@phase_stress_energy",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45116"
+      },
+      {
+        "source": "@phase_metric",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@phase_stress_energy",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:45687"
+      },
+      {
+        "source": "@phase_metric",
+        "relation": "INLINE_CHAIN",
+        "target": "@phase_stress_energy",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "CANONICAL_API_INLINE:638"
+      },
+      {
+        "source": "@phase_metric",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@phase_stress_energy",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "EDGE_LEDGER_LINE:45116;arrow_line:506"
+      },
+      {
+        "source": "@phase_metric",
+        "relation": "USED_BY",
+        "target": "@phase_stress_energy",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:45674"
+      },
+      {
+        "source": "@projected_stress_energy_sector",
+        "relation": "PROJECTED_FROM",
+        "target": "@phase_stress_energy",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@phase_stress_energy PROJECTS_TO @projected_stress_energy_sector); rule=PROJECTS_TO→PROJECTED_FROM"
+      },
+      {
+        "source": "@phasefield",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@phase_stress_energy",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@phasefield -> @phase_metric -> @phase_stress_energy; relations=DEPENDS_TO + DEPENDS_TO; primitive_depth=2"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 2043,
+        "source": "@phase_stress_energy",
+        "relation": "PROJECTS_TO",
+        "target": "@projected_stress_energy_sector",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Phase stress-energy projects to the readable stress-energy sector."
+      },
+      {
+        "id": 2247,
+        "source": "@phase_stress_energy",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@phase_metric",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@phase_metric FORMALLY_DEPENDS_ON @phase_stress_energy); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      },
+      {
+        "id": 19682,
+        "source": "@phase_stress_energy",
+        "relation": "PROJECTS_TO",
+        "target": "@projected_stress_energy_sector",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Phase stress-energy projects to the readable stress-energy sector."
+      },
+      {
+        "id": 891,
+        "source": "@phase_metric",
+        "relation": "DEPENDS_TO",
+        "target": "@phase_stress_energy",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:45116"
+      },
+      {
+        "id": 892,
+        "source": "@phase_metric",
+        "relation": "DIRECTED_TO",
+        "target": "@phase_stress_energy",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45116"
+      },
+      {
+        "id": 893,
+        "source": "@phase_metric",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@phase_stress_energy",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45116"
+      },
+      {
+        "id": 894,
+        "source": "@phase_metric",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@phase_stress_energy",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:45687"
+      },
+      {
+        "id": 895,
+        "source": "@phase_metric",
+        "relation": "INLINE_CHAIN",
+        "target": "@phase_stress_energy",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_INLINE:638"
+      },
+      {
+        "id": 896,
+        "source": "@phase_metric",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@phase_stress_energy",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "EDGE_LEDGER_LINE:45116;arrow_line:506"
+      },
+      {
+        "id": 897,
+        "source": "@phase_metric",
+        "relation": "USED_BY",
+        "target": "@phase_stress_energy",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:45674"
+      },
+      {
+        "id": 3094,
+        "source": "@projected_stress_energy_sector",
+        "relation": "PROJECTED_FROM",
+        "target": "@phase_stress_energy",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@phase_stress_energy PROJECTS_TO @projected_stress_energy_sector); rule=PROJECTS_TO→PROJECTED_FROM"
+      },
+      {
+        "id": 19328,
+        "source": "@phase_metric",
+        "relation": "DEPENDS_TO",
+        "target": "@phase_stress_energy",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:45116"
+      },
+      {
+        "id": 19329,
+        "source": "@phase_metric",
+        "relation": "DIRECTED_TO",
+        "target": "@phase_stress_energy",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45116"
+      },
+      {
+        "id": 19330,
+        "source": "@phase_metric",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@phase_stress_energy",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45116"
+      },
+      {
+        "id": 19331,
+        "source": "@phase_metric",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@phase_stress_energy",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:45687"
+      },
+      {
+        "id": 19332,
+        "source": "@phase_metric",
+        "relation": "INLINE_CHAIN",
+        "target": "@phase_stress_energy",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_INLINE:638"
+      },
+      {
+        "id": 19333,
+        "source": "@phase_metric",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@phase_stress_energy",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "EDGE_LEDGER_LINE:45116;arrow_line:506"
+      },
+      {
+        "id": 19334,
+        "source": "@phase_metric",
+        "relation": "USED_BY",
+        "target": "@phase_stress_energy",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:45674"
+      }
+    ]
+  },
+  "address": "@phase_stress_energy",
+  "address_sha256": "d976c2d9bde5dcc021e44fb19348c56095d6a2bc944d2525bb5132ec20c92baa"
+}

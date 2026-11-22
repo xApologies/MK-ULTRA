@@ -1,0 +1,63 @@
+{
+  "schema": "HERE_BE_DARK_MATTER_LIBRARY_MANIFEST_V1",
+  "title": "HERE BE DARK MATTER",
+  "version": "1.0.0",
+  "date": "2026-08-22",
+  "base_implementation": "MK43 Library 1.D compatible core schema + exhaustive metadata extension",
+  "runtime_included": false,
+  "closure_status": "SOURCE_EFFECTIVE_INTERNAL_MODEL_CLOSED_EMPIRICAL_VALIDATION_OPEN",
+  "counts": {
+    "objects": 3389,
+    "versions": 3389,
+    "address_metadata": 3389,
+    "aliases": 11,
+    "relations": 96256,
+    "models": 7,
+    "model_membership": 6813,
+    "qmo_registry": 38,
+    "landscape_registry": 33,
+    "iteration_registry": 33,
+    "closure_registry": 35,
+    "proof_debt_registry": 15,
+    "assumption_registry": 13,
+    "promotion_registry": 32,
+    "source_registry": 129,
+    "equation_registry": 503,
+    "chapter_registry": 101,
+    "reachability": 72564,
+    "source_reachability": 2689,
+    "file_registry": 759
+  },
+  "sqlite_integrity": "ok",
+  "source_hashes": {
+    "api43_zip": "0010a4de99d78748ede57670b3bca1df6185b7ba8dd0faf266cc3ba1a4ccf752",
+    "dm22_zip": "ee4819595f94a52565ab21c832c902ea4040e315f3f575b203c61e53740ed63a",
+    "archive_zip": "b9bc2b55a44d6cb7af2055675119b4f52442420dcd642686e2f180689680c167",
+    "library_alpha_1_0_zip": "7dd4311247b20744427de8ba447f726e5e113365c044333e7b53f85af299303a",
+    "library_official_1_d_zip": "5ce07b7c142c421520cf02fc2d3897bd758344da42a2d6eaafbb8f19acc8d6ce",
+    "live_v2_zip": "a675bcac4f0bcecd8362f36b89178df2f6bb4122c1444c58ff9fa3ccbfc40614",
+    "source_xapi_v2_zip": "4910af0dfa8a06f063e952c8e7e0516fffd8dc94ef658af6a87037f6573853ee"
+  },
+  "scope": {
+    "api43_parent_handles": 2384,
+    "dm22_baseline_handles": 38,
+    "live_qmo_derived_math_objects": 35,
+    "api43_typed_edge_records": 75432,
+    "xapi_raw_edge_records": 19815,
+    "xapi_reachability_pairs": 72564,
+    "source_anchors": 19,
+    "source_links": 51,
+    "source_reachability_pairs": 2689,
+    "latex_sources": 110,
+    "chapters": 101,
+    "recovered_equations": 503,
+    "recovery_hits": 490
+  },
+  "policies": {
+    "append_only_provenance": true,
+    "reachability_not_proof": true,
+    "historical_source_not_silent_promotion": true,
+    "dm22_rollback_immutable": true,
+    "api43_unmodified": true
+  }
+}

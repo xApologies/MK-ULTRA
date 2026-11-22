@@ -1,0 +1,67 @@
+{
+  "handle": "@dm_chirality_seed_byte_probe_basis",
+  "object_type": "qmo_derived_mathematical_object",
+  "status": "LIVE_SOURCE_RECOVERED",
+  "domain": "DM30",
+  "namespace": "mk43://dark-matter/live",
+  "name": "Recovered Chirality Seed / Byte Probe Basis",
+  "definition": "The Live Landscape probe basis is corrected: use two mirror chirality orientations (seed/byte) crossed, when useful, with six basin occupancy levels. Do not treat 1/7..6/7 as six byte identities.",
+  "math": "Seed_L=[[1,0],[0,1]], Seed_R=[[0,1],[1,0]] under 1={empty set},0=empty set; Byte_L=(Seed_L,Seed_R), Byte_R=(Seed_R,Seed_L); basin beta_k=k/7, k=1..6.",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E089",
+  "qmo_generated": true,
+  "proof_status": "DERIVED_OR_CONDITIONAL",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "LIVE_QMO_DERIVED",
+  "metadata": {
+    "payload": {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_chirality_seed_byte_probe_basis",
+      "canonical_name": "Recovered Chirality Seed / Byte Probe Basis",
+      "type": "RecoveredCrossDomainProbeBasis",
+      "status": "LIVE_SOURCE_RECOVERED",
+      "checkpoint": "E089",
+      "definition": "The Live Landscape probe basis is corrected: use two mirror chirality orientations (seed/byte) crossed, when useful, with six basin occupancy levels. Do not treat 1/7..6/7 as six byte identities.",
+      "math": "Seed_L=[[1,0],[0,1]], Seed_R=[[0,1],[1,0]] under 1={empty set},0=empty set; Byte_L=(Seed_L,Seed_R), Byte_R=(Seed_R,Seed_L); basin beta_k=k/7, k=1..6.",
+      "parents": [
+        "@chirality_seed",
+        "@left_chirality_seed",
+        "@right_chirality_seed",
+        "@chirality_byte",
+        "@energy_density"
+      ],
+      "working_assumptions": [],
+      "proof_debt": [],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    "direct_live_edges_out": [
+      {
+        "source": "@dm_chirality_seed_byte_probe_basis",
+        "relation": "LIFTS_TO",
+        "target": "@chirality_byte",
+        "graph_family": "live",
+        "confidence": "high",
+        "audit_status": "live_derived",
+        "provenance": "E089",
+        "origin": "LIVE_OVERLAY",
+        "source_layer": "LIVE"
+      }
+    ],
+    "direct_live_edges_in": [
+      {
+        "source": "@chirality_seed",
+        "relation": "SOURCE_RECOVERED_AS",
+        "target": "@dm_chirality_seed_byte_probe_basis",
+        "graph_family": "live",
+        "confidence": "high",
+        "audit_status": "live_derived",
+        "provenance": "E089",
+        "origin": "LIVE_OVERLAY",
+        "source_layer": "LIVE"
+      }
+    ]
+  },
+  "address": "@dm_chirality_seed_byte_probe_basis",
+  "address_sha256": "204b58bb1a660084be1e8a3008d1f64cd17a201ec554de261b957e73472588cb"
+}

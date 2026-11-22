@@ -1,0 +1,74 @@
+{
+  "experiment": "E051",
+  "candidate": "CAND-DM-LOCAL-S3-NERVE-MINCUT-054",
+  "title": "Bounded S3-Candidate Patch, Local Nerve, and Min-Cut Connectivity",
+  "status": "LOCAL CORRIDOR CONNECTIVITY AND NERVE WITNESS CLOSED; TOPOLOGICAL CHANNEL MULTIPLICITY CLOSED; PHYSICAL T_run MAGNITUDES OPEN",
+  "physical_dark_matter_witness": false,
+  "parent_promotions": 0,
+  "results": {
+    "bounded_patch_bbox": {
+      "x": [
+        13,
+        18
+      ],
+      "y": [
+        15,
+        17
+      ],
+      "z": [
+        14,
+        16
+      ]
+    },
+    "bounded_patch_preserves_global_merge_threshold": true,
+    "merge_threshold": 0.604379076252503,
+    "next_level_above_merge": 0.6067716271752466,
+    "merge_path": [
+      [
+        17,
+        16,
+        15
+      ],
+      [
+        17,
+        15,
+        15
+      ],
+      [
+        16,
+        15,
+        15
+      ],
+      [
+        15,
+        15,
+        15
+      ],
+      [
+        14,
+        15,
+        15
+      ],
+      [
+        14,
+        16,
+        15
+      ]
+    ],
+    "saddle": [
+      16,
+      15,
+      15
+    ],
+    "local_path_nerve": "U_A--U_M--U_B",
+    "nerve_is_interval": true,
+    "unit_capacity_comparator_only": true,
+    "physical_T_run_evaluated": false,
+    "unit_mincut_at_merge": 1,
+    "unit_mincut_at_0_60": 2,
+    "unit_mincut_at_0_58": 6,
+    "positive_hidden_network_response_conditional": true
+  },
+  "ruling": "The E048/E049 corridor seam is local to a small bounded patch. A three-neighborhood good-cover witness on the maximin path has interval nerve U_A--U_M--U_B. Unit-capacity max-flow/min-cut, used only as a topological comparator, shows the A-B support transitions from disconnected to a one-edge bottleneck at the merge threshold, then thickens to 2 and 6 edge-disjoint channels. Canonical T_run magnitudes remain unavailable; source mathematics supports only the conditional positive-capacity and positive-hidden-network response statements.",
+  "next_handle": "TRACK_THE_LOCAL_A_B_MINCUT_AND_NERVE_SKELETON_ACROSS_E043_HISTORY_DEPTHS_TO_TEST_HISTORY_PERSISTENCE_OF_THE_BOTTLENECK"
+}

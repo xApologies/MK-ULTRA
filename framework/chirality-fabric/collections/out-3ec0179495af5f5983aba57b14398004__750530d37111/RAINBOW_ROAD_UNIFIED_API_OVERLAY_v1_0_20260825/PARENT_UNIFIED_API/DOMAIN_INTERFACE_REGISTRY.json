@@ -1,0 +1,464 @@
+{
+  "schema": "MK43_UNIFIED_DOMAIN_INTERFACE_REGISTRY_V1",
+  "time_space": {
+    "handle_count": 271,
+    "source": "DM2.2 handle registry origin=TIMESPACE_4.3",
+    "active_role": "common projection/QFT/gravity interface substrate"
+  },
+  "dark_matter": {
+    "baseline_handle_count": 38,
+    "baseline_active_geometry": "S4 -> S3 -> S2",
+    "source_effective_closure": "@dm_source_er_effective_model_closure",
+    "strict_hidden_s3_status": "OPEN_OPTIONAL_REFINEMENT_NOT_REQUIRED_FOR_SOURCE_EFFECTIVE_CLOSURE",
+    "direct_dm_timespace_semantic_triples": 55,
+    "timespace_interface_handles": [
+      "@admissibility",
+      "@admissible_equivalence",
+      "@bandwidth",
+      "@boundary_projection",
+      "@chirality_space",
+      "@containment_volume",
+      "@continuity_redistribution",
+      "@diffeomorphism_invariance",
+      "@energy_density",
+      "@er_foam",
+      "@field_level_handoff_theorem",
+      "@galaxy",
+      "@graviton",
+      "@gravity",
+      "@inheritance_morphism",
+      "@inherited_state_bundle",
+      "@local_energy_momentum_conservation",
+      "@localized_persistent_topology",
+      "@matter_action",
+      "@matter_readable_organization",
+      "@metric_variation",
+      "@native_constraint_closure",
+      "@particle_readable_organization",
+      "@persistence",
+      "@persistent_boundary",
+      "@persistent_locus",
+      "@quantum_action_functional",
+      "@relational_history",
+      "@relationship",
+      "@residue_quantum_field_bundle",
+      "@resolution",
+      "@stress_energy_tensor",
+      "@time_shell",
+      "@total_action",
+      "@white_state_core"
+    ]
+  },
+  "higgs": {
+    "handle_count": 74,
+    "closure": "@higgs_work_layer_closure",
+    "closure_status": "NATIVE_HIGGS_WORK_LAYER_CLOSED__PHYSICAL_IDENTIFICATION_OPEN",
+    "shared_identity_handles_with_time_space": [
+      "@bandwidth",
+      "@boundary_projection",
+      "@chirality",
+      "@continuity_perturbation",
+      "@einstein_field_equation",
+      "@er_foam",
+      "@field_section",
+      "@genesis_field",
+      "@graviton",
+      "@gravity_matter_closure",
+      "@helicon",
+      "@helicon_spectral_operator",
+      "@matter_action",
+      "@matter_coupling",
+      "@persistence",
+      "@persistent_boundary",
+      "@projective_target_manifold",
+      "@residue_quantum_field_bundle",
+      "@resolution",
+      "@stress_energy_tensor",
+      "@time_shell",
+      "@time_shell_projection_operator",
+      "@weak_field_metric_perturbation"
+    ],
+    "shared_identity_count": 23
+  },
+  "junctions": [
+    {
+      "handle": "@stress_energy_tensor",
+      "domains": [
+        "API43",
+        "HIGGS_WORK_LAYER_V1_1",
+        "TIME_SPACE_4_3"
+      ],
+      "higgs_member": true,
+      "timespace_member": true,
+      "api43_member": true,
+      "direct_dm22_interface": true
+    },
+    {
+      "handle": "@einstein_field_equation",
+      "domains": [
+        "API43",
+        "HIGGS_WORK_LAYER_V1_1",
+        "TIME_SPACE_4_3"
+      ],
+      "higgs_member": true,
+      "timespace_member": true,
+      "api43_member": true,
+      "direct_dm22_interface": false
+    },
+    {
+      "handle": "@gravity",
+      "domains": [
+        "API43",
+        "TIME_SPACE_4_3"
+      ],
+      "higgs_member": false,
+      "timespace_member": true,
+      "api43_member": true,
+      "direct_dm22_interface": true
+    },
+    {
+      "handle": "@graviton",
+      "domains": [
+        "API43",
+        "HIGGS_WORK_LAYER_V1_1",
+        "TIME_SPACE_4_3"
+      ],
+      "higgs_member": true,
+      "timespace_member": true,
+      "api43_member": true,
+      "direct_dm22_interface": true
+    },
+    {
+      "handle": "@matter_action",
+      "domains": [
+        "API43",
+        "HIGGS_WORK_LAYER_V1_1",
+        "TIME_SPACE_4_3"
+      ],
+      "higgs_member": true,
+      "timespace_member": true,
+      "api43_member": true,
+      "direct_dm22_interface": true
+    },
+    {
+      "handle": "@matter_coupling",
+      "domains": [
+        "API43",
+        "HIGGS_WORK_LAYER_V1_1",
+        "TIME_SPACE_4_3"
+      ],
+      "higgs_member": true,
+      "timespace_member": true,
+      "api43_member": true,
+      "direct_dm22_interface": false
+    },
+    {
+      "handle": "@gravity_matter_closure",
+      "domains": [
+        "API43",
+        "HIGGS_WORK_LAYER_V1_1",
+        "TIME_SPACE_4_3"
+      ],
+      "higgs_member": true,
+      "timespace_member": true,
+      "api43_member": true,
+      "direct_dm22_interface": false
+    },
+    {
+      "handle": "@time_shell",
+      "domains": [
+        "API43",
+        "HIGGS_WORK_LAYER_V1_1",
+        "TIME_SPACE_4_3"
+      ],
+      "higgs_member": true,
+      "timespace_member": true,
+      "api43_member": true,
+      "direct_dm22_interface": true
+    },
+    {
+      "handle": "@time_shell_projection_operator",
+      "domains": [
+        "API43",
+        "HIGGS_WORK_LAYER_V1_1",
+        "TIME_SPACE_4_3"
+      ],
+      "higgs_member": true,
+      "timespace_member": true,
+      "api43_member": true,
+      "direct_dm22_interface": false
+    },
+    {
+      "handle": "@continuity_perturbation",
+      "domains": [
+        "API43",
+        "HIGGS_WORK_LAYER_V1_1",
+        "TIME_SPACE_4_3"
+      ],
+      "higgs_member": true,
+      "timespace_member": true,
+      "api43_member": true,
+      "direct_dm22_interface": false
+    },
+    {
+      "handle": "@er_foam",
+      "domains": [
+        "API43",
+        "HIGGS_WORK_LAYER_V1_1",
+        "TIME_SPACE_4_3"
+      ],
+      "higgs_member": true,
+      "timespace_member": true,
+      "api43_member": true,
+      "direct_dm22_interface": true
+    },
+    {
+      "handle": "@resolution",
+      "domains": [
+        "API43",
+        "HIGGS_WORK_LAYER_V1_1",
+        "TIME_SPACE_4_3"
+      ],
+      "higgs_member": true,
+      "timespace_member": true,
+      "api43_member": true,
+      "direct_dm22_interface": true
+    },
+    {
+      "handle": "@persistence",
+      "domains": [
+        "API43",
+        "HIGGS_WORK_LAYER_V1_1",
+        "TIME_SPACE_4_3"
+      ],
+      "higgs_member": true,
+      "timespace_member": true,
+      "api43_member": true,
+      "direct_dm22_interface": true
+    },
+    {
+      "handle": "@boundary_projection",
+      "domains": [
+        "API43",
+        "HIGGS_WORK_LAYER_V1_1",
+        "TIME_SPACE_4_3"
+      ],
+      "higgs_member": true,
+      "timespace_member": true,
+      "api43_member": true,
+      "direct_dm22_interface": true
+    },
+    {
+      "handle": "@residue_quantum_field_bundle",
+      "domains": [
+        "API43",
+        "HIGGS_WORK_LAYER_V1_1",
+        "TIME_SPACE_4_3"
+      ],
+      "higgs_member": true,
+      "timespace_member": true,
+      "api43_member": true,
+      "direct_dm22_interface": true
+    }
+  ],
+  "selected_bridge_paths": {
+    "higgs_to_time_space_directed": [
+      {
+        "source": "@higgs_field",
+        "relation": "HAS_ENVIRONMENTAL_ANCESTRY",
+        "target": "@genesis_field",
+        "reversed_for_navigation": false,
+        "layer": "HIGGS_WORK_LAYER",
+        "status": "ACCEPTED",
+        "provenance": [
+          "S-GENESIS",
+          "S-ENV"
+        ]
+      },
+      {
+        "source": "@genesis_field",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@time_space",
+        "reversed_for_navigation": false,
+        "layer": "API43_TYPED",
+        "status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@time_space FORMALLY_DEPENDS_ON @genesis_field); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      }
+    ],
+    "higgs_to_time_shell_directed": [
+      {
+        "source": "@higgs_field",
+        "relation": "HAS_ENVIRONMENTAL_ANCESTRY",
+        "target": "@genesis_field",
+        "reversed_for_navigation": false,
+        "layer": "HIGGS_WORK_LAYER",
+        "status": "ACCEPTED",
+        "provenance": [
+          "S-GENESIS",
+          "S-ENV"
+        ]
+      },
+      {
+        "source": "@genesis_field",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@time_shell",
+        "reversed_for_navigation": false,
+        "layer": "API43_TYPED",
+        "status": "derived",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@genesis_field-[COMPOSED_DEPENDENCY]->@bandwidth-[COMPOSED_DEPENDENCY]->@time_shell"
+      }
+    ],
+    "higgs_to_graviton_directed": [
+      {
+        "source": "@higgs_field",
+        "relation": "HAS_ENVIRONMENTAL_ANCESTRY",
+        "target": "@genesis_field",
+        "reversed_for_navigation": false,
+        "layer": "HIGGS_WORK_LAYER",
+        "status": "ACCEPTED",
+        "provenance": [
+          "S-GENESIS",
+          "S-ENV"
+        ]
+      },
+      {
+        "source": "@genesis_field",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@graviton",
+        "reversed_for_navigation": false,
+        "layer": "API43_TYPED",
+        "status": "derived",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@genesis_field-[COMPOSED_DEPENDENCY]->@chirality-[COMPOSED_DEPENDENCY]->@graviton"
+      }
+    ],
+    "dm_source_closure_to_gravity_directed": [
+      {
+        "source": "@dm_source_er_effective_model_closure",
+        "relation": "DECLARES_PARENT",
+        "target": "@dm_source_er_gravitational_readout_chain",
+        "reversed_for_navigation": false,
+        "layer": "DM_LIVE_DECLARED_PARENT",
+        "status": "LIVE_CLOSED_SOURCE_EFFECTIVE_EMPIRICAL_OPEN",
+        "provenance": "LIVE_OBJECT_REGISTRY:E100"
+      },
+      {
+        "source": "@dm_source_er_gravitational_readout_chain",
+        "relation": "READS_OUT_AS",
+        "target": "@gravity",
+        "reversed_for_navigation": false,
+        "layer": "LIVE",
+        "status": "LIVE_DERIVED_CLOSED_SOURCE_EFFECTIVE",
+        "provenance": "SRC-DM-009;SRC-DM-011;SRC-DM-015"
+      }
+    ],
+    "dm_source_closure_to_stress_energy_directed": [
+      {
+        "source": "@dm_source_er_effective_model_closure",
+        "relation": "DECLARES_PARENT",
+        "target": "@dm_source_er_gravitational_readout_chain",
+        "reversed_for_navigation": false,
+        "layer": "DM_LIVE_DECLARED_PARENT",
+        "status": "LIVE_CLOSED_SOURCE_EFFECTIVE_EMPIRICAL_OPEN",
+        "provenance": "LIVE_OBJECT_REGISTRY:E100"
+      },
+      {
+        "source": "@dm_source_er_gravitational_readout_chain",
+        "relation": "DECLARES_PARENT",
+        "target": "@stress_energy_tensor",
+        "reversed_for_navigation": false,
+        "layer": "DM_LIVE_DECLARED_PARENT",
+        "status": "LIVE_DERIVED_CLOSED_SOURCE_EFFECTIVE",
+        "provenance": "LIVE_OBJECT_REGISTRY:E099"
+      }
+    ],
+    "higgs_to_dm_source_closure_navigation": [
+      {
+        "source": "@higgs_field",
+        "relation": "HAS_ENVIRONMENTAL_ANCESTRY",
+        "target": "@genesis_field",
+        "reversed_for_navigation": false,
+        "layer": "HIGGS_WORK_LAYER",
+        "status": "ACCEPTED",
+        "provenance": [
+          "S-GENESIS",
+          "S-ENV"
+        ]
+      },
+      {
+        "source": "@genesis_field",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@time_shell",
+        "reversed_for_navigation": false,
+        "layer": "API43_TYPED",
+        "status": "derived",
+        "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@genesis_field-[COMPOSED_DEPENDENCY]->@bandwidth-[COMPOSED_DEPENDENCY]->@time_shell"
+      },
+      {
+        "source": "@time_shell",
+        "relation": "REVERSE(DECLARES_PARENT)",
+        "target": "@dm_source_density_geometry_calibration",
+        "reversed_for_navigation": true,
+        "layer": "DM_LIVE_DECLARED_PARENT",
+        "status": "LIVE_DERIVED_CLOSED_SOURCE_EFFECTIVE",
+        "provenance": "LIVE_OBJECT_REGISTRY:E098"
+      },
+      {
+        "source": "@dm_source_density_geometry_calibration",
+        "relation": "REVERSE(DECLARES_PARENT)",
+        "target": "@dm_source_er_effective_model_closure",
+        "reversed_for_navigation": true,
+        "layer": "DM_LIVE_DECLARED_PARENT",
+        "status": "LIVE_CLOSED_SOURCE_EFFECTIVE_EMPIRICAL_OPEN",
+        "provenance": "LIVE_OBJECT_REGISTRY:E100"
+      }
+    ],
+    "higgs_work_closure_to_dm_source_closure_navigation": [
+      {
+        "source": "@higgs_work_layer_closure",
+        "relation": "DEPENDS_ON",
+        "target": "@local_gravity_matter_closure",
+        "reversed_for_navigation": false,
+        "layer": "HIGGS_WORK_LAYER",
+        "status": "WORK_LAYER_ACCEPTED",
+        "provenance": [
+          "E024"
+        ]
+      },
+      {
+        "source": "@local_gravity_matter_closure",
+        "relation": "DEPENDS_ON",
+        "target": "@einstein_field_equation",
+        "reversed_for_navigation": false,
+        "layer": "HIGGS_WORK_LAYER",
+        "status": "WORK_LAYER_CONSTRUCTED",
+        "provenance": [
+          "E020",
+          "API43"
+        ]
+      },
+      {
+        "source": "@einstein_field_equation",
+        "relation": "REVERSE(DECLARES_PARENT)",
+        "target": "@dm_source_er_gravitational_readout_chain",
+        "reversed_for_navigation": true,
+        "layer": "DM_LIVE_DECLARED_PARENT",
+        "status": "LIVE_DERIVED_CLOSED_SOURCE_EFFECTIVE",
+        "provenance": "LIVE_OBJECT_REGISTRY:E099"
+      },
+      {
+        "source": "@dm_source_er_gravitational_readout_chain",
+        "relation": "REVERSE(DECLARES_PARENT)",
+        "target": "@dm_source_er_effective_model_closure",
+        "reversed_for_navigation": true,
+        "layer": "DM_LIVE_DECLARED_PARENT",
+        "status": "LIVE_CLOSED_SOURCE_EFFECTIVE_EMPIRICAL_OPEN",
+        "provenance": "LIVE_OBJECT_REGISTRY:E100"
+      }
+    ]
+  },
+  "interpretation": [
+    "Dark Matter is not collapsed to a single S3 object. Its immutable DM2.2 baseline explicitly uses active geometry S4 -> S3 -> S2.",
+    "The E100 source-effective Dark Matter closure bypasses strict hidden-S3 realization as an optional refinement and closes an ER-network -> density/metric/stress-energy -> Einstein/gravity readout branch.",
+    "Higgs and Dark Matter communicate through Time-Space/API43 identity anchors and registered dependency junctions rather than by inventing a direct Higgs<->Dark Matter primitive edge."
+  ]
+}

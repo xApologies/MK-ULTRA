@@ -1,0 +1,105 @@
+{
+  "schema": "ASTRAEUS_RAINBOW_ROAD_CANDIDATE_REGISTRY_V2",
+  "policy": "CANDIDATE_UNTIL_CERTIFIED; INTERNAL_CERTIFIED_DERIVATIONS_MAY_SELF_PROMOTE",
+  "candidates": [
+    {
+      "candidate_id": "SB-001-C1",
+      "handle": "@witness_bundle_core",
+      "status": "CONDITIONALLY_INSUFFICIENT",
+      "generated_by": "R-002",
+      "audit_status": "COUNTEREXAMPLE_FOUND_CE_RW_001",
+      "definition": "Candidate recovery witness containing formal address/provenance pointer + Identity Witness + transition token + invariant residue.",
+      "components": [
+        "@provenance",
+        "@identity_witness",
+        "@invariant_residue"
+      ],
+      "test": "Can this bundle uniquely select the correct fine lineage for every declared non-injective handoff fiber?",
+      "provenance": [
+        "SELF_BUILD_PASS_001",
+        "LIVE_MODEL::NF-005 OPEN"
+      ],
+      "result": "Fails when its retained fields are not History-separating; may still suffice for implementations whose Identity/Provenance witness already separates the fiber."
+    },
+    {
+      "candidate_id": "SB-001-C2",
+      "handle": "@witness_bundle_history_augmented",
+      "status": "SUFFICIENT_FOR_CE_RW_001",
+      "generated_by": "R-002",
+      "audit_status": "PARTIAL_PASS_NOT_MINIMAL",
+      "definition": "Core candidate plus explicit ordered History trace.",
+      "components": [
+        "@provenance",
+        "@identity_witness",
+        "@invariant_residue",
+        "@history_trace"
+      ],
+      "test": "Does adding ordered History resolve counterexamples where the core bundle is ambiguous?",
+      "provenance": [
+        "SELF_BUILD_PASS_001",
+        "LIVE_MODEL::NF-005 OPEN"
+      ],
+      "result": "Explicit ordered History separates CE-RW-001; global minimality remains open."
+    },
+    {
+      "candidate_id": "SB-001-C3",
+      "handle": "@witness_bundle_full_state_fallback",
+      "status": "FALLBACK_CANDIDATE",
+      "generated_by": "R-002",
+      "audit_status": "UNPROMOTED",
+      "definition": "Retain the fuller predecessor structural state when compressed provenance cannot guarantee unique lineage recovery.",
+      "components": [
+        "@formal_object",
+        "@provenance",
+        "@history_trace"
+      ],
+      "test": "Fallback upper bound on retained structure; not presumed minimal.",
+      "provenance": [
+        "SELF_BUILD_PASS_001",
+        "LIVE_MODEL::NF-005 OPEN"
+      ]
+    },
+    {
+      "candidate_id": "SB-001-C4",
+      "handle": "@fine_lineage_selector",
+      "status": "CONDITIONAL_CANDIDATE",
+      "generated_by": "R-003",
+      "audit_status": "REQUIRES_SEPARATING_WITNESS",
+      "definition": "A witness-mediated selector over a handoff merge fiber; it is not an inverse to q_ji and may be partial/context-dependent.",
+      "components": [
+        "@handoff_merge_fiber",
+        "@recovery_provenance_bundle"
+      ],
+      "test": "Can the selector recover the declared lineage without inventing distinctions absent from provenance?",
+      "provenance": [
+        "SELF_BUILD_PASS_001",
+        "LIVE_MODEL::NF-005 OPEN"
+      ],
+      "result": "Selector is well-defined only on fibers where the retained witness map is separating."
+    },
+    {
+      "candidate_id": "RR-CL-001",
+      "handle": "@history_bearing_return",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "generated_by": "RR-RUNTIME-001",
+      "audit_status": "SELF_PROMOTED_INTERNAL_CLOSURE",
+      "definition": "Return to a prior local presentation with retained distinct History.",
+      "test": "Validate against recovered Möbius History and continuity guards.",
+      "raw_basis": [
+        "LIVE_MODEL RR-006"
+      ]
+    },
+    {
+      "candidate_id": "RR-CL-002",
+      "handle": "@return_not_reset",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "generated_by": "RR-RUNTIME-001",
+      "audit_status": "SELF_PROMOTED_INTERNAL_CLOSURE",
+      "definition": "Local presentation recurrence does not erase traversal History.",
+      "test": "Validate presentation recurrence separately from History equivalence.",
+      "raw_basis": [
+        "LIVE_MODEL RR-006"
+      ]
+    }
+  ]
+}

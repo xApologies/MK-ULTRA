@@ -1,0 +1,25 @@
+{
+  "handle": "iteration://IT-DM-E089-CHIRALITY-PROBE-BASIS",
+  "object_type": "bounded_iteration",
+  "status": "SOURCE_PROBE_BASIS_RECOVERED",
+  "domain": "ITERATION",
+  "namespace": "mk43://iteration",
+  "name": "IT-DM-E089-CHIRALITY-PROBE-BASIS",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "BOUNDED_ITERATION",
+  "metadata": {
+    "id": "IT-DM-E089-CHIRALITY-PROBE-BASIS",
+    "seed": "@chirality_seed",
+    "terminal_state": "SOURCE_PROBE_BASIS_RECOVERED",
+    "source_file": "live/checkpoints/E089/runs/IT-DM-E089-CHIRALITY-PROBE-BASIS.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_ITERATION_RUN_V1\", \"run_id\": \"IT-DM-E089-CHIRALITY-PROBE-BASIS\", \"checkpoint\": \"E089\", \"seed\": \"@chirality_seed\", \"ceiling\": 64, \"iterations_used\": 5, \"terminal_state\": \"SOURCE_PROBE_BASIS_RECOVERED\", \"open_next\": \"@dm_chirality_seed_contrast_normal_form\", \"note\": \"Use recovered seed/byte arrangement as the next probe basis. Preserve seed, byte, and basin as distinct object classes.\"}"
+  },
+  "address": "iteration://IT-DM-E089-CHIRALITY-PROBE-BASIS",
+  "address_sha256": "3267e5cba84695d20c8baf2bd649313a0227c74f3bba09f1bce9c269160c739f"
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "ASTRAEUS_SOURCE_RECEIPT_V1",
+  "work_layer": "WL-027",
+  "atlas_through": "WL-v157",
+  "sources": [
+    {
+      "path": "../../../../../../out-dd5f2e0f5bcd545bac4217403d326140__ee4819595f94/DM22_HANDLE_REGISTRY.json",
+      "sha256": "0c63fb532d28dd243f69acb0dcdc8d7f7547187c2e89fd6f84e0969b5b9d5730"
+    },
+    {
+      "path": "../../../../FAST_EVIDENCE/DARK_MATTER_API_2.2_MATHEMATICAL_MAP.md",
+      "sha256": "501ae1c85effeab5dfe65bf1cfd3023bf1f82c7e0eaea547657ff294a5967ff1"
+    },
+    {
+      "path": "../../../../../../out-dd5f2e0f5bcd545bac4217403d326140__ee4819595f94/qmos/QMO-XAPI-CAND-001_INITIAL_DATA_WITNESS.json",
+      "sha256": "3b8dfc47e320e0696144bf0ff19d4698c3431f8851d647077c6a8670bc815399"
+    },
+    {
+      "path": "provenance://unavailable/content-sha256/0071c1d9d6a89c283f57a9c225857fa8f49a63f8caff86d83cca4a66896b0259/MK43_Ultra_API_CURRENT_CANONICAL.md",
+      "sha256": "0071c1d9d6a89c283f57a9c225857fa8f49a63f8caff86d83cca4a66896b0259"
+    }
+  ],
+  "api43_full_graph_parse": {
+    "json_plus_markdown_edge_records": 2119,
+    "method": "canonical JSON-line edge records plus RP43/RP44/RP45 markdown edge registry; exact relations preserved"
+  },
+  "key_lines": {
+    "initial_data_hamiltonian": 62328,
+    "initial_data_momentum": 62329,
+    "extrinsic_object": 60788,
+    "shift_object": 60858,
+    "cauchy_family_initial_data": 62064,
+    "efe_admits_kerr": 62496,
+    "kerr_to_gravity_path_anchor": "@kerr_geometry FAMILY_DEPENDS_ON @einstein_field_equation -> @einstein_field_equation REALIZES @gravity"
+  },
+  "guardrail": "Receipts establish source bytes and graph navigation only; no physical witness or parent promotion."
+}

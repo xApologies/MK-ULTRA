@@ -1,0 +1,48 @@
+{
+  "schema": "ASTRAEUS_QMO_CANDIDATE_V1",
+  "qmo_id": "QMO-DM-BRIDGE-CAND-002",
+  "handle": "@dm_constraint_pullback_embedding_problem",
+  "canonical_name": "Constraint-Pullback Hidden Embedding Problem",
+  "status": "OPEN_QMO_CANDIDATE_NOT_PROMOTED",
+  "provenance_class": [
+    "DM_2.2_SOURCE_DERIVED_INPUTS",
+    "CROSS_BRANCH_CANDIDATE_SYNTHESIS",
+    "EXTERNAL_ESTABLISHED_PULLBACK_CONSTRUCTION"
+  ],
+  "parents": [
+    "@dm_hidden_state_embedding",
+    "@dm_constraint_preserving_embedding_family",
+    "@dm_hidden_state_bundle",
+    "@inherited_state_bundle",
+    "@native_constraint_closure",
+    "@inheritance_morphism"
+  ],
+  "hypotheses": [
+    "pi_H:E_H^R->T_H is the typed hidden relational-state bundle candidate.",
+    "pi_E:E->T is the Time-Space Inherited State Bundle.",
+    "j_T:T_H->T is the base map appearing in the existing embedding law.",
+    "K_phys:=ker(C) is used only at the level already admitted by @dm_constraint_preserving_embedding_family.",
+    "All required smoothness/regularity for a bundle pullback remains an explicit typing obligation if not already supplied."
+  ],
+  "construction": {
+    "physical_constraint_locus": "K_phys := ker(C) subseteq E",
+    "pullback_target": "P_H^R := j_T^*(K_phys) = {(t,e) in T_H x K_phys | j_T(t)=pi_E(e)}",
+    "projections": [
+      "pr_H:P_H^R->T_H",
+      "pr_E:P_H^R->K_phys"
+    ],
+    "candidate_witness_family": "PEmb_H^R := {tilde_iota_H:E_H^R hookrightarrow P_H^R | pr_H o tilde_iota_H = pi_H; I o pr_E o tilde_iota_H = pr_E o tilde_iota_H o I_H}"
+  },
+  "derived_correspondence": {
+    "statement": "Under the stated typing hypotheses, Emb_H,phys^R and PEmb_H^R are canonically equivalent as witness sets.",
+    "forward": "iota_H |-> tilde_iota_H(x)=(pi_H(x), iota_H(x))",
+    "backward": "tilde_iota_H |-> iota_H=pr_E o tilde_iota_H",
+    "consequence": "Emb_H,phys^R nonempty iff PEmb_H^R nonempty. This retypes the question; it does not prove either set is nonempty."
+  },
+  "guardrails": [
+    "No new physical dark-matter claim.",
+    "No API 4.3 or DM 2.2 edge is inserted.",
+    "No assumption that K_phys is globally I-invariant beyond what a selected witness itself certifies.",
+    "No rank/dimension obstruction is asserted without source-authoritative fiber types."
+  ]
+}

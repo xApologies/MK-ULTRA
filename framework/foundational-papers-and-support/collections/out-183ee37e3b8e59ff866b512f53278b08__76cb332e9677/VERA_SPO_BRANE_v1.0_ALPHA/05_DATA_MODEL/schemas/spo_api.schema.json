@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "canonical_state_policy": {
+      "const": "READ_ONLY"
+    },
+    "contract_version": {
+      "const": "2.0"
+    },
+    "dimensions": {
+      "const": [
+        "Identity",
+        "Dependency",
+        "Chirality",
+        "RecursiveDepth",
+        "Provenance"
+      ],
+      "type": "array"
+    },
+    "domain_id": {
+      "default": "auditory-continuity",
+      "type": "string"
+    },
+    "fingerprint": {
+      "type": "string"
+    },
+    "internal_dimension": {
+      "const": 5
+    },
+    "module_role": {
+      "const": "API"
+    },
+    "object_id": {
+      "type": "string"
+    },
+    "rewrite_policy": {
+      "const": "DERIVED_ONLY"
+    },
+    "root_handle": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "object_id",
+    "module_role",
+    "contract_version",
+    "internal_dimension",
+    "canonical_state_policy",
+    "rewrite_policy",
+    "dimensions",
+    "root_handle",
+    "fingerprint"
+  ],
+  "title": "SPO API^5 Canonical Mapped Object",
+  "type": "object"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "QMO-AST-DM-WL-006_S4_CONTINUITY_CLOSURE_HORIZONTAL_HOLONOMY",
+  "work_layer": "WL-007",
+  "atlas": "WL-v131",
+  "date": "2026-08-17",
+  "status": "CONDITIONAL_EXTERNAL_MATH_SOURCE_COMPOSED_CANDIDATE_NOT_PARENT_PROMOTED",
+  "parents": [
+    "QMO-AST-DM-WL-005_T5_LOCAL_QFT_GR_S3_CONTINUITY_BRIDGE",
+    "QMO-AST-DM-WL-004_CROSS_RESOLUTION_FRAME_DRAG_TIME_SHELL",
+    "MK43 Chirality Landscape Version 1",
+    "Time-Space API 4.3 @S4 vertical-chain recovery",
+    "Chirality Corridor / sphere-corridor historical S4 suspension construction"
+  ],
+  "conditional_bundle_theorem": {
+    "hypothesis": "T5 is an ordinary locally trivial S2-bundle over S3 with standard O(3) or SO(3) sphere-bundle structure group",
+    "classification": "clutching class in pi_2(O(3)) or pi_2(SO(3))",
+    "result": "pi_2=0, hence the bare bundle is topologically trivial: T5~=S2xS3",
+    "scope": "EXTERNAL_ESTABLISHED_MATHEMATICS; does not apply if the MK43 fibration is generalized/singular/nonstandard"
+  },
+  "horizontal_transport": {
+    "source_target": "nabla^chi=nabla_V^chi+nabla_H^chi remains open typing in Version 1",
+    "finite_transport": "P_gamma^chi:chi_p->chi_q",
+    "closed_loop": "Hol_H(gamma)=P_gamma^chi:chi_p->chi_p for gamma(0)=gamma(1)=p",
+    "flatness_witness": "Hol_H(gamma)=id for all contractible loops in the flat defect-free case",
+    "nontriviality": "Hol_H(gamma)!=id witnesses non-flat/defect/generalized transport structure"
+  },
+  "black_hole_specialization": {
+    "anchor": "b_H->[H]_R->p_H in S3",
+    "fiber": "Sigma_H=pi^-1(p_H)~=S2",
+    "loop": "gamma_H closed and based at p_H",
+    "holonomy": "K_H^chi(gamma_H)=Hol_H(gamma_H)"
+  },
+  "s4_retyping": {
+    "candidate": "S4_cl:=Susp(S3)~=S4",
+    "role": "global continuity-closure / Time-Shell distribution representation, not total Time-Space",
+    "slice": "j_c:S3->S4_cl for c in (-1,1)",
+    "readout": "kappa_c=j_c o pi:T5->S4_cl",
+    "source_support": "historical S4 suspension mathematics + API @S4 -> recursive_stabilization adjacency; no source-authoritative whole-object identity claimed"
+  },
+  "dark_test": {
+    "matter_equivalence": "rho_Q,p_H,R(F0)=rho_Q,p_H,R(F1)",
+    "controlled_difference": "Hol_H^0(gamma_H)=id; Hol_H^1(gamma_H)!=id",
+    "gravity_separation": "rho_G,p_H,R(F0)!=rho_G,p_H,R(F1)",
+    "physical_admission": "requires downstream GR/frame observable mapping and null-model comparison"
+  },
+  "frame_factorization_target": "Hol_H(gamma_H) -> rho_G/frame representation -> FD_R -> accepted rotating-spacetime observable",
+  "hard_nonidentities": [
+    "S4_cl != T5",
+    "T5~=S2xS3 under ordinary bundle hypotheses != trivial connection/physics",
+    "Hol_H!=id != dark matter by itself",
+    "localized S2 Time Shell != global S4_cl closure",
+    "black-hole anchor != generic corridor requirement"
+  ],
+  "parent_promotions": 0
+}

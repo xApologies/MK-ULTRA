@@ -1,0 +1,1252 @@
+{
+  "schema": "MK43_TRANSDUCTION_QMO_OBJECT_REGISTRY_V1",
+  "object_count": 100,
+  "objects": [
+    {
+      "model_handle": "@genesis",
+      "canonical_handle": "@genesis",
+      "identity_status": "CREATED",
+      "status": "RECOVERED",
+      "type": "organizational field",
+      "definition": "Recursive self-inheriting organizational field.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-001",
+        "QMO_LEDGER_REGISTRY.json#L-002"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@resolution",
+      "canonical_handle": "@resolution",
+      "identity_status": "CREATED",
+      "status": "RECOVERED_PLUS_LIFT",
+      "type": "readout/refinement structure",
+      "definition": "Distinguishable organization; in GTG, a readout that preserves or forgets distinctions.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-003",
+        "QMO_LEDGER_REGISTRY.json#L-195",
+        "QMO_LEDGER_REGISTRY.json#L-234"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@bandwidth",
+      "canonical_handle": "@bandwidth",
+      "identity_status": "CREATED",
+      "status": "RECOVERED_PLUS_LIFT",
+      "type": "capacity/admissible-morphism structure",
+      "definition": "Available organizational freedom; in GTG, the currently supportable morphism/deformation family.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-004",
+        "QMO_LEDGER_REGISTRY.json#L-195",
+        "QMO_LEDGER_REGISTRY.json#L-220",
+        "QMO_LEDGER_REGISTRY.json#L-265"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@occupancy",
+      "canonical_handle": "@occupancy",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_CANDIDATE",
+      "type": "realized state",
+      "definition": "The actually realized object/section among supportable possibilities.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-195",
+        "QMO_LEDGER_REGISTRY.json#L-200",
+        "QMO_LEDGER_REGISTRY.json#L-234"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@chirality",
+      "canonical_handle": "@chirality",
+      "identity_status": "CREATED",
+      "status": "RECOVERED_PLUS_LIFT",
+      "type": "admissibility/orientation structure",
+      "definition": "Organizational chirality and transported chirality class used in identity and local admissibility.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-005",
+        "QMO_LEDGER_REGISTRY.json#L-194"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@persistence",
+      "canonical_handle": "@persistence",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_CANDIDATE",
+      "type": "identity-preservation criterion",
+      "definition": "Preservation/recovery of organizational identity under admissible development and transport.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-011",
+        "QMO_LEDGER_REGISTRY.json#L-200",
+        "QMO_LEDGER_REGISTRY.json#L-208",
+        "QMO_LEDGER_REGISTRY.json#L-258"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@transduction",
+      "canonical_handle": "@transduction",
+      "identity_status": "CREATED",
+      "status": "STRENGTHENED_CANDIDATE",
+      "type": "typed transformation",
+      "definition": "Inheritance-preserving change of realization; globally a morphism with base and fiber components.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-009",
+        "QMO_LEDGER_REGISTRY.json#L-218",
+        "QMO_LEDGER_REGISTRY.json#L-219"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@identity_invariant",
+      "canonical_handle": "@identity_invariant",
+      "identity_status": "CREATED",
+      "status": "MAJOR_RESULT",
+      "type": "identity tuple",
+      "definition": "Continuation ancestry class + transported chirality class + invariant residue.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-191"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@identity_orbit",
+      "canonical_handle": "@identity_orbit",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_CANDIDATE",
+      "type": "orbit",
+      "definition": "Admissible identity-preserving orbit of developmental/presentation states.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-207",
+        "QMO_LEDGER_REGISTRY.json#L-208"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@identity_stratum",
+      "canonical_handle": "@identity_stratum",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_CANDIDATE",
+      "type": "orbit-type stratum",
+      "definition": "Structural class containing identity orbits with common isotropy/invariant type.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-214",
+        "QMO_LEDGER_REGISTRY.json#L-216"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@identity_base",
+      "canonical_handle": "@identity_base",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "stratified moduli-like orbit space",
+      "definition": "Coarse global base of identity classes/strata.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-206"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@identity_groupoid",
+      "canonical_handle": "@identity_groupoid",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_CANDIDATE",
+      "type": "higher identity quotient",
+      "definition": "Full identity geometry retaining equivalence arrows and isotropy.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-211"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@dependency_category",
+      "canonical_handle": "@dependency_category",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_CANDIDATE",
+      "type": "typed category",
+      "definition": "Base category of dependency contexts and typed composable arrows.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-231"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@state_fiber",
+      "canonical_handle": "@state_fiber",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_CANDIDATE",
+      "type": "indexed state groupoid/category",
+      "definition": "Admissible state geometry F(U) over dependency context U.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-232"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@global_transduction_object",
+      "canonical_handle": "@global_transduction_object",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "total category",
+      "definition": "Grothendieck-construction-like total category assembling dependency contexts and indexed state geometries.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-230",
+        "QMO_LEDGER_REGISTRY.json#L-233"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@recursive_dependency_grammar",
+      "canonical_handle": "@recursive_dependency_grammar",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "generative grammar",
+      "definition": "Object + typed arrow + composition + identity + quotient/refinement across abstraction levels.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-222"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@stratum_graph",
+      "canonical_handle": "@stratum_graph",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_CANDIDATE",
+      "type": "directed typed graph",
+      "definition": "Graph of admissible identity-stratum transition classes.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-217",
+        "QMO_LEDGER_REGISTRY.json#L-224"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@typed_lift_architecture",
+      "canonical_handle": "@typed_lift_architecture",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_CANDIDATE",
+      "type": "lift architecture",
+      "definition": "Cartesian-style restriction lifts and cocartesian-style realization lifts by operator family.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-238",
+        "QMO_LEDGER_REGISTRY.json#L-239",
+        "QMO_LEDGER_REGISTRY.json#L-240"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@adjoint_transduction_audit",
+      "canonical_handle": "@adjoint_transduction_audit",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_CANDIDATE",
+      "type": "audit architecture",
+      "definition": "Unit/counit and defect framework for forward realization vs backward restriction/readback.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-246",
+        "QMO_LEDGER_REGISTRY.json#L-248",
+        "QMO_LEDGER_REGISTRY.json#L-249",
+        "QMO_LEDGER_REGISTRY.json#L-250"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@transduction_connection",
+      "canonical_handle": "@transduction_connection",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "connection-like structure",
+      "definition": "Typed admissibility-aware horizontal-lift selection rule.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-262",
+        "QMO_LEDGER_REGISTRY.json#L-263"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@transduction_curvature",
+      "canonical_handle": "@transduction_curvature",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "typed path-dependence defect",
+      "definition": "Coherence defect between same-endpoint connection-selected transports.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-254",
+        "QMO_LEDGER_REGISTRY.json#L-255",
+        "QMO_LEDGER_REGISTRY.json#L-264"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@transduction_descent",
+      "canonical_handle": "@transduction_descent",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "descent architecture",
+      "definition": "Local-to-global gluing architecture for connections/admissibility data.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-270"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@chirality_fabric",
+      "canonical_handle": "@chirality_fabric",
+      "identity_status": "CREATED",
+      "status": "STRONG_CANDIDATE",
+      "type": "distributed admissibility/gluing candidate",
+      "definition": "Candidate: local admissibility objects + overlap transition maps + descent compatibility.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-271",
+        "QMO_LEDGER_REGISTRY.json#L-276"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@component_salvage_protocol",
+      "canonical_handle": "@component_salvage_protocol",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "method",
+      "definition": "Decompose legacy mathematics into independently reusable components without whole-object lock-in.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-278",
+        "QMO_LEDGER_REGISTRY.json#L-279",
+        "QMO_LEDGER_REGISTRY.json#L-284"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@global_fabric_classifier",
+      "canonical_handle": "@global_fabric_classifier",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "classifier",
+      "definition": "Current classifier using local type, gluing class, and holonomy conjugacy data.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-280",
+        "QMO_LEDGER_REGISTRY.json#L-281",
+        "QMO_LEDGER_REGISTRY.json#L-282"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@gluing_class",
+      "canonical_handle": "@gluing_class",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_CANDIDATE",
+      "type": "equivalence class",
+      "definition": "Transition-data equivalence class under local reparameterization.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-280"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@holonomy_class",
+      "canonical_handle": "@holonomy_class",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_CANDIDATE",
+      "type": "conjugacy invariant",
+      "definition": "Conjugacy class of loop holonomy induced by gluing/connection transport.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-281"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@descent_defect",
+      "canonical_handle": "@descent_defect",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_AUDIT_OBJECT",
+      "type": "audit defect",
+      "definition": "Triple-overlap failure D_ijk = g_ij g_jk g_ki.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-272"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@evolution_descent_defect",
+      "canonical_handle": "@evolution_descent_defect",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_AUDIT_OBJECT",
+      "type": "audit defect",
+      "definition": "Mismatch between evolve-then-translate and translate-then-evolve.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-273"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@resolution_descent_defect",
+      "canonical_handle": "@resolution_descent_defect",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_AUDIT_OBJECT",
+      "type": "audit defect",
+      "definition": "Mismatch between Resolution readout and overlap translation.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-274"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@bandwidth_descent_defect",
+      "canonical_handle": "@bandwidth_descent_defect",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_AUDIT_OBJECT",
+      "type": "audit defect",
+      "definition": "Mismatch between translated available-morphism families across overlap.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-275"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@unit_defect",
+      "canonical_handle": "@unit_defect",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_AUDIT_OBJECT",
+      "type": "audit defect",
+      "definition": "Typed discrepancy between x and f* f! x.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-248",
+        "QMO_LEDGER_REGISTRY.json#L-250"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@counit_defect",
+      "canonical_handle": "@counit_defect",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_AUDIT_OBJECT",
+      "type": "audit defect",
+      "definition": "Typed discrepancy between f! f* y and y.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-249",
+        "QMO_LEDGER_REGISTRY.json#L-250"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@moebius_monodromy",
+      "canonical_handle": "@moebius_monodromy",
+      "identity_status": "CREATED",
+      "status": "STRENGTHENED_CANDIDATE",
+      "type": "holonomy special case",
+      "definition": "Closed-loop transport example preserving base identity while presentation/history may change.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-266"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@history",
+      "canonical_handle": "@history",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_CANDIDATE",
+      "type": "path/provenance ledger",
+      "definition": "Path through the total transduction object; layered projections recover fiber/orbit/stratum histories.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-226",
+        "QMO_LEDGER_REGISTRY.json#L-234"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@closure",
+      "canonical_handle": "@closure",
+      "identity_status": "CREATED",
+      "status": "STRENGTHENED_CANDIDATE",
+      "type": "stabilization/identity-formation candidate",
+      "definition": "Stabilization/retraction candidate; may preserve or form/select identity.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-201",
+        "QMO_LEDGER_REGISTRY.json#L-212"
+      ],
+      "live_model_revision": "v39"
+    },
+    {
+      "model_handle": "@fabric_signature",
+      "canonical_handle": "@fabric_signature",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "scope-aware classifier signature",
+      "definition": "Composite global-fabric classification signature containing local type, gluing, connection, holonomy, curvature, descent, topology and stratum metadata.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-289",
+        "QMO_LEDGER_REGISTRY.json#L-290"
+      ],
+      "live_model_revision": "v40"
+    },
+    {
+      "model_handle": "@classifier_scope",
+      "canonical_handle": "@classifier_scope",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "classification scope contract",
+      "definition": "Declares object class, equivalence relation, base, structure group/groupoid, Resolution, regularity and operative conditions for a classifier claim.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-291",
+        "QMO_LEDGER_REGISTRY.json#L-293"
+      ],
+      "live_model_revision": "v40"
+    },
+    {
+      "model_handle": "@fabric_equivalence_test",
+      "canonical_handle": "@fabric_equivalence_test",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_CANDIDATE",
+      "type": "classification audit",
+      "definition": "Scope-aware test determining whether two fabric signatures represent equivalent global fabrics under the declared classifier scope.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-288",
+        "QMO_LEDGER_REGISTRY.json#L-291"
+      ],
+      "live_model_revision": "v40"
+    },
+    {
+      "model_handle": "@high_recall_metadata",
+      "canonical_handle": "@high_recall_metadata",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "metadata policy",
+      "definition": "Capture formal and exploratory research metadata at high recall, preserving type/status/provenance.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-296"
+      ],
+      "live_model_revision": "v41"
+    },
+    {
+      "model_handle": "@transduction_language",
+      "canonical_handle": "@transduction_language",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "semantic language system",
+      "definition": "Queryable controlled vocabulary and semantic contract for the Transduction theory.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-297",
+        "QMO_LEDGER_REGISTRY.json#L-298"
+      ],
+      "live_model_revision": "v41"
+    },
+    {
+      "model_handle": "@typed_analogy_record",
+      "canonical_handle": "@typed_analogy_record",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "metadata schema",
+      "definition": "Typed analogy object preserving mapping, utility, break conditions, status and provenance.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-299",
+        "QMO_LEDGER_REGISTRY.json#L-300"
+      ],
+      "live_model_revision": "v41"
+    },
+    {
+      "model_handle": "@minimal_fabric_signature",
+      "canonical_handle": "@minimal_fabric_signature",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "classifier core",
+      "definition": "Minimal current fabric signature: LocalType + GluingData + ConnectionClass + ClassifierScope.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-304",
+        "QMO_LEDGER_REGISTRY.json#L-305"
+      ],
+      "live_model_revision": "v41"
+    },
+    {
+      "model_handle": "@gluing_data",
+      "canonical_handle": "@gluing_data",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_CANDIDATE",
+      "type": "transition data",
+      "definition": "Representative local transition maps plus their equivalence/gauge class for reconstruction and descent auditing.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-303",
+        "QMO_LEDGER_REGISTRY.json#L-305"
+      ],
+      "live_model_revision": "v41"
+    },
+    {
+      "model_handle": "@theory_chirality_fabric_as_admissibility_descent",
+      "canonical_handle": "@theory_chirality_fabric_as_admissibility_descent",
+      "identity_status": "CREATED",
+      "status": "STRONG_CANDIDATE",
+      "type": "theory candidate",
+      "definition": "Chirality Fabric may be modeled as local admissibility structures plus transition/gluing data.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-308"
+      ],
+      "live_model_revision": "v41"
+    },
+    {
+      "model_handle": "@analogy_moebius_gluing",
+      "canonical_handle": "@analogy_moebius_gluing",
+      "identity_status": "CREATED",
+      "status": "TYPED_ANALOGY",
+      "type": "analogy",
+      "definition": "M\u00f6bius gluing illustrates locally simple data with globally nontrivial transition structure.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-299",
+        "QMO_LEDGER_REGISTRY.json#L-300"
+      ],
+      "live_model_revision": "v41"
+    },
+    {
+      "model_handle": "@analogy_moebius_holonomy",
+      "canonical_handle": "@analogy_moebius_holonomy",
+      "identity_status": "CREATED",
+      "status": "TYPED_ANALOGY",
+      "type": "analogy",
+      "definition": "M\u00f6bius loop transport illustrates nontrivial holonomy with preserved base identity.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-299",
+        "QMO_LEDGER_REGISTRY.json#L-300"
+      ],
+      "live_model_revision": "v41"
+    },
+    {
+      "model_handle": "@analogy_moebius_identity_history",
+      "canonical_handle": "@analogy_moebius_identity_history",
+      "identity_status": "CREATED",
+      "status": "TYPED_ANALOGY",
+      "type": "analogy",
+      "definition": "M\u00f6bius recurrence illustrates same identity with changed presentation/history.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-299",
+        "QMO_LEDGER_REGISTRY.json#L-300"
+      ],
+      "live_model_revision": "v41"
+    },
+    {
+      "model_handle": "@semantic_type_system",
+      "canonical_handle": "@semantic_type_system",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "semantic type system",
+      "definition": "Weak type system constraining terminology, relations, status modality and forbidden conflations.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-310",
+        "QMO_LEDGER_REGISTRY.json#L-311"
+      ],
+      "live_model_revision": "v42"
+    },
+    {
+      "model_handle": "@language_sync_engine",
+      "canonical_handle": "@language_sync_engine",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "synchronization engine",
+      "definition": "Generates/checks semantic language entries against the live QMO object and edge graph.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-312"
+      ],
+      "live_model_revision": "v42"
+    },
+    {
+      "model_handle": "@semantic_contradiction_audit",
+      "canonical_handle": "@semantic_contradiction_audit",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "audit engine",
+      "definition": "Detects QMO relations or metadata that violate semantic type/conflation constraints.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-313"
+      ],
+      "live_model_revision": "v42"
+    },
+    {
+      "model_handle": "@language_missing",
+      "canonical_handle": "@language_missing",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_RULE",
+      "type": "coverage status",
+      "definition": "Marker for QMO objects lacking curated language entries.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-316"
+      ],
+      "live_model_revision": "v42"
+    },
+    {
+      "model_handle": "@language_orphan",
+      "canonical_handle": "@language_orphan",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_RULE",
+      "type": "coverage status",
+      "definition": "Marker for language terms lacking QMO mathematical handles unless explicitly exempted.",
+      "provenance": [
+        "QMO_LEDGER_REGISTRY.json#L-317"
+      ],
+      "live_model_revision": "v42"
+    },
+    {
+      "model_handle": "@transduction_compiler",
+      "canonical_handle": "@transduction_compiler",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "derivation compiler",
+      "definition": "Semantic/operator type checker and QMO admission gate.",
+      "provenance": [
+        "v43"
+      ],
+      "live_model_revision": "v43"
+    },
+    {
+      "model_handle": "@operator_signature",
+      "canonical_handle": "@operator_signature",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "operator type contract",
+      "definition": "Input/output/preservation/change/requirement contract for mathematical operators.",
+      "provenance": [
+        "v43"
+      ],
+      "live_model_revision": "v43"
+    },
+    {
+      "model_handle": "@derivation_error_taxonomy",
+      "canonical_handle": "@derivation_error_taxonomy",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "error taxonomy",
+      "definition": "Typed error classes for malformed or unresolved derivations.",
+      "provenance": [
+        "v43"
+      ],
+      "live_model_revision": "v43"
+    },
+    {
+      "model_handle": "@qmo_review_graph",
+      "canonical_handle": "@qmo_review_graph",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "review graph",
+      "definition": "Quarantine graph for unresolved or uncertain candidate derivations.",
+      "provenance": [
+        "v43"
+      ],
+      "live_model_revision": "v43"
+    },
+    {
+      "model_handle": "@failed_derivation",
+      "canonical_handle": "@failed_derivation",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "research metadata type",
+      "definition": "Recoverable rejected derivation with failing rule and provenance.",
+      "provenance": [
+        "v43"
+      ],
+      "live_model_revision": "v43"
+    },
+    {
+      "model_handle": "@derivation_path",
+      "canonical_handle": "@derivation_path",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "derivation object",
+      "definition": "Ordered compiler-witnessed path through QMO objects/operators.",
+      "provenance": [
+        "v44"
+      ],
+      "live_model_revision": "v44"
+    },
+    {
+      "model_handle": "@derivation_metadata_package",
+      "canonical_handle": "@derivation_metadata_package",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "metadata package",
+      "definition": "Automatically extracted typed metadata for a derivation path.",
+      "provenance": [
+        "v44"
+      ],
+      "live_model_revision": "v44"
+    },
+    {
+      "model_handle": "@derivation_salvage",
+      "canonical_handle": "@derivation_salvage",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "salvage method",
+      "definition": "Preserves valid prefixes/fragments of failed derivations.",
+      "provenance": [
+        "v44"
+      ],
+      "live_model_revision": "v44"
+    },
+    {
+      "model_handle": "@derivation_provenance_chain",
+      "canonical_handle": "@derivation_provenance_chain",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "provenance object",
+      "definition": "Step-level ordered provenance chain for a derivation.",
+      "provenance": [
+        "v44"
+      ],
+      "live_model_revision": "v44"
+    },
+    {
+      "model_handle": "@derivation_macro",
+      "canonical_handle": "@derivation_macro",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "higher-order derivation operator",
+      "definition": "Reusable typed abstraction of a compiler-valid derivation path.",
+      "provenance": [
+        "v45"
+      ],
+      "live_model_revision": "v45"
+    },
+    {
+      "model_handle": "@macro_dependency_graph",
+      "canonical_handle": "@macro_dependency_graph",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "dependency graph",
+      "definition": "Tracks macro expansion, use, composition, specialization and invalidation.",
+      "provenance": [
+        "v45"
+      ],
+      "live_model_revision": "v45"
+    },
+    {
+      "model_handle": "@transduction_reasoning_grammar",
+      "canonical_handle": "@transduction_reasoning_grammar",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "reasoning grammar",
+      "definition": "Grammar of admissible reusable derivation procedures over QMO objects.",
+      "provenance": [
+        "v45"
+      ],
+      "live_model_revision": "v45"
+    },
+    {
+      "model_handle": "@macro_connection_to_holonomy",
+      "canonical_handle": "@macro_connection_to_holonomy",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "derivation macro",
+      "definition": "Connection-selected closed-path transport to holonomy diagnostic.",
+      "provenance": [
+        "v45"
+      ],
+      "live_model_revision": "v45"
+    },
+    {
+      "model_handle": "@macro_path_curvature_audit",
+      "canonical_handle": "@macro_path_curvature_audit",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "derivation macro",
+      "definition": "Same-endpoint transport comparison to typed curvature defect.",
+      "provenance": [
+        "v45"
+      ],
+      "live_model_revision": "v45"
+    },
+    {
+      "model_handle": "@macro_descent_audit",
+      "canonical_handle": "@macro_descent_audit",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "derivation macro",
+      "definition": "Overlap-transition composition to descent/global-gluing disposition.",
+      "provenance": [
+        "v45"
+      ],
+      "live_model_revision": "v45"
+    },
+    {
+      "model_handle": "@trust_strata",
+      "canonical_handle": "@trust_strata",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "trust architecture",
+      "definition": "Classifies evidentiary role/ancestry strata without conflating them with truth ranking.",
+      "provenance": [
+        "v46"
+      ],
+      "live_model_revision": "v46"
+    },
+    {
+      "model_handle": "@circularity_audit",
+      "canonical_handle": "@circularity_audit",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "audit engine",
+      "definition": "Rejects promotion-bearing evidentiary cycles while permitting non-evidentiary graph cycles.",
+      "provenance": [
+        "v46"
+      ],
+      "live_model_revision": "v46"
+    },
+    {
+      "model_handle": "@status_monotonicity",
+      "canonical_handle": "@status_monotonicity",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "status rule",
+      "definition": "Prevents conclusions from exceeding unresolved/candidate premise status without independent discharge.",
+      "provenance": [
+        "v46"
+      ],
+      "live_model_revision": "v46"
+    },
+    {
+      "model_handle": "@trust_witness",
+      "canonical_handle": "@trust_witness",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "trust object",
+      "definition": "Explains trust stratum, evidence edges, unresolved/discharged dependencies, independence and provenance.",
+      "provenance": [
+        "v46"
+      ],
+      "live_model_revision": "v46"
+    },
+    {
+      "model_handle": "@trust_graph",
+      "canonical_handle": "@trust_graph",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "trust graph",
+      "definition": "Typed graph of evidentiary, dependency, descriptive, validation and discharge relations.",
+      "provenance": [
+        "v46"
+      ],
+      "live_model_revision": "v46"
+    },
+    {
+      "model_handle": "@dependency_cone",
+      "canonical_handle": "@dependency_cone",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "dependency object",
+      "definition": "Typed upstream/downstream dependency cone for a QMO handle.",
+      "provenance": [
+        "v47"
+      ],
+      "live_model_revision": "v47"
+    },
+    {
+      "model_handle": "@dependency_criticality",
+      "canonical_handle": "@dependency_criticality",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "dependency taxonomy",
+      "definition": "Classifies dependency edges by invalidation significance.",
+      "provenance": [
+        "v47"
+      ],
+      "live_model_revision": "v47"
+    },
+    {
+      "model_handle": "@support_multiplicity",
+      "canonical_handle": "@support_multiplicity",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "support structure",
+      "definition": "Tracks independent/alternative support routes.",
+      "provenance": [
+        "v47"
+      ],
+      "live_model_revision": "v47"
+    },
+    {
+      "model_handle": "@dependency_cut_set",
+      "canonical_handle": "@dependency_cut_set",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "resilience diagnostic",
+      "definition": "Candidate minimal upstream cut whose removal destroys all valid routes.",
+      "provenance": [
+        "v47"
+      ],
+      "live_model_revision": "v47"
+    },
+    {
+      "model_handle": "@dual_impact_status",
+      "canonical_handle": "@dual_impact_status",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "impact object",
+      "definition": "Separates mathematical-validity impact from trust/evidence impact.",
+      "provenance": [
+        "v47"
+      ],
+      "live_model_revision": "v47"
+    },
+    {
+      "model_handle": "@dependency_cone_snapshot",
+      "canonical_handle": "@dependency_cone_snapshot",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "snapshot object",
+      "definition": "Versioned dependency-cone snapshot for historical recoverability.",
+      "provenance": [
+        "v47"
+      ],
+      "live_model_revision": "v47"
+    },
+    {
+      "model_handle": "@impact_ledger",
+      "canonical_handle": "@impact_ledger",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "change ledger",
+      "definition": "Records propagation and revalidation effects of significant revisions.",
+      "provenance": [
+        "v47"
+      ],
+      "live_model_revision": "v47"
+    },
+    {
+      "model_handle": "@robustness_map",
+      "canonical_handle": "@robustness_map",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "resilience map",
+      "definition": "Layered map of mathematical, trust, semantic, recovery and reasoning robustness.",
+      "provenance": [
+        "v48"
+      ],
+      "live_model_revision": "v48"
+    },
+    {
+      "model_handle": "@robustness_signature",
+      "canonical_handle": "@robustness_signature",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "resilience signature",
+      "definition": "Multi-dimensional robustness profile combining redundancy, fragility, dependency cones and impact profile.",
+      "provenance": [
+        "v48"
+      ],
+      "live_model_revision": "v48"
+    },
+    {
+      "model_handle": "@bottleneck",
+      "canonical_handle": "@bottleneck",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "resilience concept",
+      "definition": "Scope-relative high-path-participation dependency with low bypass redundancy.",
+      "provenance": [
+        "v48"
+      ],
+      "live_model_revision": "v48"
+    },
+    {
+      "model_handle": "@choke_point",
+      "canonical_handle": "@choke_point",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "resilience concept",
+      "definition": "Bottleneck with high blast radius and low alternative support.",
+      "provenance": [
+        "v48"
+      ],
+      "live_model_revision": "v48"
+    },
+    {
+      "model_handle": "@bridge_point",
+      "canonical_handle": "@bridge_point",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "resilience concept",
+      "definition": "Architectural connector whose removal fragments graph regions.",
+      "provenance": [
+        "v48"
+      ],
+      "live_model_revision": "v48"
+    },
+    {
+      "model_handle": "@redundancy_vector",
+      "canonical_handle": "@redundancy_vector",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "resilience vector",
+      "definition": "Route, alternative-dependency, provenance and macro redundancy profile.",
+      "provenance": [
+        "v48"
+      ],
+      "live_model_revision": "v48"
+    },
+    {
+      "model_handle": "@fragility_vector",
+      "canonical_handle": "@fragility_vector",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "resilience vector",
+      "definition": "Single-point, unresolved, candidate, semantic, trust and blast-radius fragility profile.",
+      "provenance": [
+        "v48"
+      ],
+      "live_model_revision": "v48"
+    },
+    {
+      "model_handle": "@blast_radius",
+      "canonical_handle": "@blast_radius",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "impact metric",
+      "definition": "Typed downstream impact distribution for revision/rejection of a handle.",
+      "provenance": [
+        "v48"
+      ],
+      "live_model_revision": "v48"
+    },
+    {
+      "model_handle": "@research_priority_operator",
+      "canonical_handle": "@research_priority_operator",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_CANDIDATE",
+      "type": "research scheduler",
+      "definition": "Multi-objective operator selecting high-value unresolved mathematical targets.",
+      "provenance": [
+        "v49"
+      ],
+      "live_model_revision": "v49"
+    },
+    {
+      "model_handle": "@research_priority_vector",
+      "canonical_handle": "@research_priority_vector",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_CANDIDATE",
+      "type": "priority vector",
+      "definition": "Impact/fragility/discharge/redundancy/scope/recoverability/cost/circularity/novelty profile.",
+      "provenance": [
+        "v49"
+      ],
+      "live_model_revision": "v49"
+    },
+    {
+      "model_handle": "@research_pareto_frontier",
+      "canonical_handle": "@research_pareto_frontier",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_CANDIDATE",
+      "type": "priority structure",
+      "definition": "Non-dominated research targets under declared priority dimensions.",
+      "provenance": [
+        "v49"
+      ],
+      "live_model_revision": "v49"
+    },
+    {
+      "model_handle": "@research_queue",
+      "canonical_handle": "@research_queue",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_CANDIDATE",
+      "type": "research queue",
+      "definition": "Typed generated research actions.",
+      "provenance": [
+        "v49"
+      ],
+      "live_model_revision": "v49"
+    },
+    {
+      "model_handle": "@admissible_lift_family",
+      "canonical_handle": "@admissible_lift_family",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_CANDIDATE",
+      "type": "lift structure",
+      "definition": "Family LiftSet(f,x) of structurally admissible typed lifts before connection selection.",
+      "provenance": [
+        "v49"
+      ],
+      "live_model_revision": "v49"
+    },
+    {
+      "model_handle": "@lift_defect",
+      "canonical_handle": "@lift_defect",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_CANDIDATE",
+      "type": "lift audit",
+      "definition": "Typed failure/nonuniqueness/coherence disposition for lift existence.",
+      "provenance": [
+        "v49"
+      ],
+      "live_model_revision": "v49"
+    },
+    {
+      "model_handle": "@lift_coherence_audit",
+      "canonical_handle": "@lift_coherence_audit",
+      "identity_status": "CREATED",
+      "status": "PROMOTED_CANDIDATE",
+      "type": "lift audit",
+      "definition": "Compares composite lift with sequential lift up to declared equivalence.",
+      "provenance": [
+        "v49"
+      ],
+      "live_model_revision": "v49"
+    },
+    {
+      "model_handle": "@admissibility_relation",
+      "canonical_handle": "@admissibility_relation",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "structural relation",
+      "definition": "Compatibility relation Adm_f(x,y) defining admissible continuation along dependency arrows.",
+      "provenance": [
+        "v50"
+      ],
+      "live_model_revision": "v50"
+    },
+    {
+      "model_handle": "@formal_lift_family",
+      "canonical_handle": "@formal_lift_family",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "lift structure",
+      "definition": "Formal family LiftSet(f,x) of all structurally admissible lifts.",
+      "provenance": [
+        "v50"
+      ],
+      "live_model_revision": "v50"
+    },
+    {
+      "model_handle": "@operative_lift_family",
+      "canonical_handle": "@operative_lift_family",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "lift structure",
+      "definition": "Bandwidth-restricted subset of the formal lift family.",
+      "provenance": [
+        "v50"
+      ],
+      "live_model_revision": "v50"
+    },
+    {
+      "model_handle": "@resolution_quotiented_lift_family",
+      "canonical_handle": "@resolution_quotiented_lift_family",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "lift structure",
+      "definition": "Lift family modulo current Resolution/readout equivalence.",
+      "provenance": [
+        "v50"
+      ],
+      "live_model_revision": "v50"
+    },
+    {
+      "model_handle": "@lift_composition_coherence",
+      "canonical_handle": "@lift_composition_coherence",
+      "identity_status": "CREATED",
+      "status": "MAJOR_PROMOTION",
+      "type": "coherence audit",
+      "definition": "Compares sequential and composite structural lifting.",
+      "provenance": [
+        "v50"
+      ],
+      "live_model_revision": "v50"
+    }
+  ]
+}

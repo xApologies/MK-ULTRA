@@ -1,0 +1,35 @@
+{
+  "schema": "ASTRAEUS_QMO_CROSS_CRAWL_V1",
+  "seeds": [
+    "@dm_hidden_response_operator"
+  ],
+  "targets": [
+    "@galaxy"
+  ],
+  "bidirectional": false,
+  "edge_count": 1333,
+  "reachable_count": 29,
+  "distance_histogram": {
+    "0": 1,
+    "1": 2,
+    "2": 2,
+    "3": 5,
+    "4": 19
+  },
+  "paths": {
+    "@dm_hidden_response_operator -> @galaxy": [
+      {
+        "from": "@dm_hidden_response_operator",
+        "relation": "READS_OUT_AT",
+        "to": "@galaxy",
+        "traversal": "forward",
+        "origin": "DARKMATTER_2.0",
+        "provenance": "DM2.0",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "ATLAS_DERIVED",
+        "confidence": "high"
+      }
+    ]
+  },
+  "guardrail": "Navigation evidence only. Composed paths are not direct theorems and no parent object is promoted."
+}

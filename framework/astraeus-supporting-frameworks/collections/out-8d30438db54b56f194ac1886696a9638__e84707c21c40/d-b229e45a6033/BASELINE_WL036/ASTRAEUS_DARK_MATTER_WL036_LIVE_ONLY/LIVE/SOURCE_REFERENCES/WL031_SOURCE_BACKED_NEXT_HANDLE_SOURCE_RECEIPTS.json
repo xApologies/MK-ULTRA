@@ -1,0 +1,27 @@
+{
+  "schema": "ASTRAEUS_WL031_SOURCE_BACKED_NEXT_HANDLE_RECEIPTS_V1",
+  "date": "2026-08-17",
+  "policy": "read-only source/query receipts; no parent promotion",
+  "sources": {
+    "provenance://unavailable/path-sha256/a5d9fad3fef6ab07f6f2053af940a57e4857eea5235122929ea6af9d7707533d/MK43_Ultra_API_CURRENT_CANONICAL.md": "0071c1d9d6a89c283f57a9c225857fa8f49a63f8caff86d83cca4a66896b0259",
+    "provenance://unavailable/path-sha256/7da9e076556dc8eb91d6acf7bb2517fb3d48b5b85ae869dc31b280fd40c8959f/RP42_DEPENDENCY_INDEX.json": "3cb840b428ffc5a7ffd60e5a9617f5faf02fad42c652ed8da38563c15fb00e21",
+    "../../../../../../out-dd5f2e0f5bcd545bac4217403d326140__ee4819595f94/DM22_HANDLE_REGISTRY.json": "0c63fb532d28dd243f69acb0dcdc8d7f7547187c2e89fd6f84e0969b5b9d5730",
+    "../../../../../../out-dd5f2e0f5bcd545bac4217403d326140__ee4819595f94/registry/DM_DIRECT_EDGE_REGISTRY.json": "d0a3b0922fdc4b648c86c27080ce1c52a2d547ef35d62e40f69d78d566dbd69c",
+    "provenance://unavailable/path-sha256/93f0d5c3f399cf01252cea2e5887d8b1007073684ad830fcebff0c1b504c3367/api_qmo_source_runtime.py": "2ebc842780ac8fee4771265ef45c8eae19b9ae9691c49c5300f96f01c0dcb3e1"
+  },
+  "raw_queries": {
+    "source_backed_next_handle_rank_d5.json": "a47687b3dca8ff583c56b352fed55b6211ce79a0a4592ba513fb9c2a305790f1",
+    "cross_pair_admissible_continuation_embedding_r3.json": "6ef4789fd6f20f3f23e9402ee354ff37c83ab3aae359571472975e081784273d",
+    "cross_pair_occupancy_embedding_r3.json": "f1547536b89e710ba8834716d8bc4b3064460af812c926d8e69fd7551069d634",
+    "source_pair_containment_volume_densityopen_r3.json": "5f1f7050142bce7e0e74f4add8fdb574a702010608613a3e35a2313ae2fcf037",
+    "source_pair_transition_capacity_runtimecapacity_r3.json": "8f17b59538f7c0d63f5a294638dbfd5bb56dd08a2731f2b13b142b1e73739d1a",
+    "source_pair_native_unit_energy_hidden_s3_r3.json": "72e5de0a9f9f1e8b7089c6ac104d55b6c555828dde13b20da82b7b1244f583da",
+    "source_neighbors_recursive_depth.json": "84ab5a6fbcaa1bab68ec959d00735df04af5062b2f910e42ad6d562f5d6df7c9",
+    "source_neighbors_ordering.json": "ea00bb9cc220f2f7bbeff0573feece1ef8b6e8a92a3825f5ce93e9b0211c3ebd",
+    "source_neighbors_correspondence_registry.json": "b49661eed62424ed1492b32be82d5095144f756b8a282d7f33556034099f788c",
+    "source_pair_correspondence_action_r4.json": "af93cd86dd0dbd7b9df8c45571b3cea9e49c8a71557543f78eadc2b5332a9582",
+    "source_neighbors_global_inheritance.json": "826491db8c4d02520747e96b7ba6d94904e8eac02dfb244c76d9dd39f4cef839",
+    "source_neighbors_recursive_continuity.json": "126251fdd5203eb0663c86023173ce1b1ccfa0579b904dcafd9844fb2f117237"
+  },
+  "note": "Medium-confidence Time-Space edges are admitted only as source-backed navigation when the API itself marks them recovered/direct-source and provenance is non-derived."
+}

@@ -1,0 +1,181 @@
+{
+  "status": "PASS",
+  "count": 15,
+  "passed": 15,
+  "sympy_version": "1.14.0",
+  "python_version": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "scope": "Exact finite symbolic examples and checks of displayed derivations. No native physical inverse or total GR equivalence is certified.",
+  "checks": [
+    {
+      "name": "mixed_phase_equation_detects_missing_gradient_term",
+      "passed": true,
+      "scope": "Archived action versus printed equation, one active chromatic component",
+      "detail": {
+        "action_residual": "gamma",
+        "printed_residual": "0",
+        "not_a_full_gr_solution": "This is a comparison of matter equation expressions on a prescribed flat metric."
+      },
+      "seconds": 0.0274200439453125
+    },
+    {
+      "name": "mixed_chromatic_equation_detects_missing_phase_backreaction",
+      "passed": true,
+      "scope": "One active component; no claim of metric equation solution",
+      "detail": {
+        "action_chi_residual": "-2*c*gamma",
+        "printed_chi_residual": "0"
+      },
+      "seconds": 0.09744572639465332
+    },
+    {
+      "name": "mixed_stress_from_metric_variation",
+      "passed": true,
+      "scope": "Exact symbolic local variation, two active directions in four-dimensional metric",
+      "detail": {
+        "tested": "diagonal and offdiagonal metric-variation coefficients"
+      },
+      "seconds": 0.023336172103881836
+    },
+    {
+      "name": "ward_identity_variable_chromatic_metric",
+      "passed": true,
+      "scope": "Off-shell, nonlinear fields and nonconstant field-space metric",
+      "detail": {
+        "ward_identity": "nabla^mu T_mu,nu = sum_I EL_I partial_nu phi^I",
+        "variable_field_metric": true
+      },
+      "seconds": 0.789888858795166
+    },
+    {
+      "name": "ward_identity_curved_background",
+      "passed": true,
+      "scope": "Covariant divergence independently computed, not a coupled Einstein solution",
+      "detail": {
+        "curved_background": "diag(-1,exp(2t),exp(2t),exp(2t))",
+        "fields": [
+          "t",
+          "x"
+        ]
+      },
+      "seconds": 0.15116214752197266
+    },
+    {
+      "name": "potential_normalizations_are_not_silently_identified",
+      "passed": true,
+      "scope": "Source-variant distinction",
+      "detail": {
+        "half_potential_EL": "-t",
+        "full_potential_EL": "-2*t",
+        "choice": "Both action variants retained explicitly"
+      },
+      "seconds": 0.043918609619140625
+    },
+    {
+      "name": "chromatic_stress_sign_recheck",
+      "passed": true,
+      "scope": "Known source inconsistency, not automatically amended",
+      "detail": {
+        "action_energy": "3/2",
+        "printed_minus_L_energy": "1/2"
+      },
+      "seconds": 0.0030901432037353516
+    },
+    {
+      "name": "seven_component_source_construction",
+      "passed": true,
+      "scope": "General action construction with the source arity preserved",
+      "detail": {
+        "chromatic_components": 7,
+        "kinetic_matrix_size": [
+          8,
+          8
+        ]
+      },
+      "seconds": 0.0018873214721679688
+    },
+    {
+      "name": "unknown_covectors_prevent_unique_metric_factorization",
+      "passed": true,
+      "scope": "Actual archived ER metric formula with positive symmetric network weights",
+      "detail": {
+        "W1": "Matrix([[2, 1, 1, 1], [1, 2, 1, 1], [1, 1, 2, 1], [1, 1, 1, 2]])",
+        "W2": "Matrix([[1/2, 1/2, 1/2, 1/2], [1/2, 2, 1, 1], [1/2, 1, 2, 1], [1/2, 1, 1, 2]])",
+        "same_metric": "Minkowski",
+        "scope": "Admitted algebraic inputs, not proven full native solutions"
+      },
+      "seconds": 0.003377676010131836
+    },
+    {
+      "name": "same_metric_different_archived_graph_operators",
+      "passed": true,
+      "scope": "Uses exact L_ER=sum_j W_ij(f_i-f_j)",
+      "detail": {
+        "spectrum1": [
+          "0",
+          "4",
+          "4",
+          "4"
+        ],
+        "spectrum2": [
+          "0",
+          "2",
+          "7/2",
+          "7/2"
+        ],
+        "interpretation": "Not a site relabeling of the supplied graph operator; not a proof of full physical inequivalence"
+      },
+      "seconds": 0.003077983856201172
+    },
+    {
+      "name": "factorization_example_can_match_white_reference",
+      "passed": true,
+      "scope": "Compatibility of the displayed algebraic reference condition only",
+      "detail": {
+        "white_reference": "W=I, Xi=X0",
+        "not_claimed": "No native law selecting this Xi family is inferred"
+      },
+      "seconds": 0.028286457061767578
+    },
+    {
+      "name": "full_native_jacobian_includes_covector_derivatives",
+      "passed": true,
+      "scope": "Exact scalar family satisfying the ER metric formula",
+      "detail": {
+        "total_metric_derivative": "0",
+        "fixed_covector_piece": "Matrix([[2/r, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])"
+      },
+      "seconds": 0.012387275695800781
+    },
+    {
+      "name": "explicit_ER_action_term_cannot_be_omitted",
+      "passed": true,
+      "scope": "Illustrates E_W=(Dg)^*E_g+explicit_E_W",
+      "detail": {
+        "native_stationarity": "w-a=0",
+        "original_target_stationarity": "g=0",
+        "scope": "Finite-dimensional chain-rule illustration, not a proposed gravitational action"
+      },
+      "seconds": 0.0027251243591308594
+    },
+    {
+      "name": "matrix_variation_adjoint",
+      "passed": true,
+      "scope": "Exact symmetric matrix pairing",
+      "detail": {
+        "identity": "<E, Xi dW Xi^T> = <Xi^T E Xi, dW>"
+      },
+      "seconds": 0.04686379432678223
+    },
+    {
+      "name": "constant_graph_stationarity_is_not_local_field_stationarity",
+      "passed": true,
+      "scope": "Not an Einstein solution or no-go theorem for all native models",
+      "detail": {
+        "integrated_equation": "0",
+        "local_residual": "u-1/2",
+        "scope": "Function-space illustration of finite versus local variations"
+      },
+      "seconds": 0.029407739639282227
+    }
+  ]
+}

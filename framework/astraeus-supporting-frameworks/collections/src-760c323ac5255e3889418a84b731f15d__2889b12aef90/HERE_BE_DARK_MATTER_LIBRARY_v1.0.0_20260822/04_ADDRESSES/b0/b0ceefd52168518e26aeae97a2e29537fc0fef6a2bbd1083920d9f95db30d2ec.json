@@ -1,0 +1,78 @@
+{
+  "handle": "@dm_projection_residue_survival",
+  "object_type": "mathematical_object",
+  "status": "ATLAS_DERIVED_ACTIVE",
+  "domain": "DM22",
+  "namespace": "boundary",
+  "name": "Projection-Residue Survival Test",
+  "definition": "Tests whether matched full and visible-only constructions remain distinguishable after boundary projection and invariant-residue bundle construction.",
+  "math": "B_full^R not ~=_F B_vis^R is a sufficient field-bundle survival witness.",
+  "source_layer": "DM22",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "DM22",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 3,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 3,
+    "live_in_count": 6,
+    "closure_out_reachability_count": 207,
+    "closure_in_reachability_count": 3,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 1,
+    "aliases": [],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19790,
+        "source": "@dm_projection_residue_survival",
+        "relation": "DEPENDS_ON",
+        "target": "@boundary_projection",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19791,
+        "source": "@dm_projection_residue_survival",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_hidden_boundary_contact",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19792,
+        "source": "@dm_projection_residue_survival",
+        "relation": "DEPENDS_ON",
+        "target": "@residue_quantum_field_bundle",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19795,
+        "source": "@dm_q_survival",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_projection_residue_survival",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      }
+    ]
+  },
+  "address": "@dm_projection_residue_survival",
+  "address_sha256": "b0ceefd52168518e26aeae97a2e29537fc0fef6a2bbd1083920d9f95db30d2ec"
+}

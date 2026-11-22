@@ -1,0 +1,182 @@
+{
+  "handle": "@genlang_root_tor",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@genlang_root_tor",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 4,
+    "api43_direct_in_count": 3,
+    "xapi_raw_out_count": 4,
+    "xapi_raw_in_count": 3,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 1,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@genlang_root_tor",
+        "relation": "LANGUAGE_EXPRESSES",
+        "target": "@closure",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48048;CANONICAL_API_TYPED_LINE:48048"
+      },
+      {
+        "source": "@genlang_root_tor",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_phrase_vel_ve_tor",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48134;CANONICAL_API_TYPED_LINE:48134"
+      },
+      {
+        "source": "@genlang_root_tor",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_word_shator",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48073;CANONICAL_API_TYPED_LINE:48073"
+      },
+      {
+        "source": "@genlang_root_tor",
+        "relation": "GENERATED_BY",
+        "target": "@genlang_family_tor",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@genlang_family_tor GENERATES @genlang_root_tor); rule=GENERATES→GENERATED_BY"
+      },
+      {
+        "source": "@closure",
+        "relation": "MATHEMATICS_HAS_LANGUAGE_PROJECTION",
+        "target": "@genlang_root_tor",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48049;CANONICAL_API_TYPED_LINE:48049"
+      },
+      {
+        "source": "@genlang_family_tor",
+        "relation": "FAMILY_GENERATES_ROOT",
+        "target": "@genlang_root_tor",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48068;CANONICAL_API_TYPED_LINE:48068"
+      },
+      {
+        "source": "@genlang_family_tor",
+        "relation": "GENERATES",
+        "target": "@genlang_root_tor",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:48068"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 468,
+        "source": "@genlang_root_tor",
+        "relation": "LANGUAGE_EXPRESSES",
+        "target": "@closure",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48048;CANONICAL_API_TYPED_LINE:48048"
+      },
+      {
+        "id": 469,
+        "source": "@genlang_root_tor",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_phrase_vel_ve_tor",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48134;CANONICAL_API_TYPED_LINE:48134"
+      },
+      {
+        "id": 470,
+        "source": "@genlang_root_tor",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_word_shator",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48073;CANONICAL_API_TYPED_LINE:48073"
+      },
+      {
+        "id": 2182,
+        "source": "@genlang_root_tor",
+        "relation": "GENERATED_BY",
+        "target": "@genlang_family_tor",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@genlang_family_tor GENERATES @genlang_root_tor); rule=GENERATES→GENERATED_BY"
+      },
+      {
+        "id": 179,
+        "source": "@closure",
+        "relation": "MATHEMATICS_HAS_LANGUAGE_PROJECTION",
+        "target": "@genlang_root_tor",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48049;CANONICAL_API_TYPED_LINE:48049"
+      },
+      {
+        "id": 398,
+        "source": "@genlang_family_tor",
+        "relation": "FAMILY_GENERATES_ROOT",
+        "target": "@genlang_root_tor",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48068;CANONICAL_API_TYPED_LINE:48068"
+      },
+      {
+        "id": 399,
+        "source": "@genlang_family_tor",
+        "relation": "GENERATES",
+        "target": "@genlang_root_tor",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:48068"
+      }
+    ]
+  },
+  "address": "@genlang_root_tor",
+  "address_sha256": "791a86e9da1edafc42f7c502ad6c34c8ab9e5aee4dca3d824912cdf3de4bbd7a"
+}

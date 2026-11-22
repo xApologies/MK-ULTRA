@@ -1,0 +1,26 @@
+{
+  "schema": "ASTRAEUS_DM_FINITE_WITNESS_TEMPLATE_V1",
+  "witness_id": "WIT-AST-DM-003",
+  "date": "2026-08-17",
+  "work_layer_revision": "WL-020",
+  "status": "CONDITIONAL_TEMPLATE_NOT_PHYSICAL_WITNESS",
+  "primitive_pair": {
+    "C0": "C_z=(chi_plus,chi_minus)",
+    "C1": "R_i(C0)",
+    "source_rule": "orientation generates adjacency"
+  },
+  "incidence_branch": {
+    "control": "J(M_lat,e0)=0",
+    "test": "J(M_lat,e1)=1",
+    "condition": "Respond(M_lat,e1)!=M_lat",
+    "consequence": "R_U(M_lat,e0)!=R_U(M_lat,e1)"
+  },
+  "load_branch": {
+    "conditions": ["r_*>0", "Tcap_R(e_*)>0", "V_R>0", "v17 additive-channel realization admitted"],
+    "native_density_difference": "Delta rho_E^R=r_*Tcap_R(e_*)/V_R>0",
+    "readable_condition": "T_rho,R(Delta rho_E^R)!=0",
+    "consequence": "Delta T_U^R!=0"
+  },
+  "open_scale_bridge": "eta_ER/S3^R",
+  "dark_gates_open": ["same localized S2 matter/QFT readout", "galactic/S3 realization", "Gate B", "GR nondegeneracy", "observational admission"]
+}

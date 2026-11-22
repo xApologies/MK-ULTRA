@@ -1,0 +1,184 @@
+{
+  "handle": "@graviton",
+  "kind": "inherited_handle",
+  "title": "@graviton",
+  "status": "preserved_source_record",
+  "equation": null,
+  "source": "api/MK43_Ultra_API_FULL_CURRENT/MK43_Ultra_API_CURRENT_CANONICAL.md",
+  "hypotheses": [],
+  "outgoing": [
+    {
+      "relation": "BLACK_HOLE_CROSS_FAMILY_NODE",
+      "target": "@black_hole",
+      "origin": "original_API"
+    },
+    {
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@acceleration_equation",
+      "origin": "original_API"
+    },
+    {
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@affine_connection",
+      "origin": "original_API"
+    },
+    {
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@background_metric",
+      "origin": "original_API"
+    },
+    {
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@binary_inspiral",
+      "origin": "original_API"
+    },
+    {
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@black_hole",
+      "origin": "original_API"
+    },
+    {
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@black_hole_horizon",
+      "origin": "original_API"
+    },
+    {
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@black_hole_information_closure",
+      "origin": "original_API"
+    },
+    {
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@black_hole_perturbation",
+      "origin": "original_API"
+    },
+    {
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@black_hole_region",
+      "origin": "original_API"
+    },
+    {
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@bounce_criterion",
+      "origin": "original_API"
+    },
+    {
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@cauchy_surface",
+      "origin": "original_API"
+    }
+  ],
+  "incoming": [
+    {
+      "source": "@integration_genesis_gr_time_shell",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "origin": "additive_integration"
+    },
+    {
+      "source": "@black_hole",
+      "relation": "BLACK_HOLE_GLOBAL_REACHES",
+      "origin": "original_API"
+    },
+    {
+      "source": "@black_hole",
+      "relation": "BLACK_HOLE_MODEL_REACHES",
+      "origin": "original_API"
+    },
+    {
+      "source": "@LIGO_observation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "origin": "original_API"
+    },
+    {
+      "source": "@acceleration_equation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "origin": "original_API"
+    },
+    {
+      "source": "@accretion_disk",
+      "relation": "COMPOSED_DEPENDENCY",
+      "origin": "original_API"
+    },
+    {
+      "source": "@achronal_set",
+      "relation": "COMPOSED_DEPENDENCY",
+      "origin": "original_API"
+    },
+    {
+      "source": "@adjacency_lattice",
+      "relation": "COMPOSED_DEPENDENCY",
+      "origin": "original_API"
+    },
+    {
+      "source": "@adm_decomposition",
+      "relation": "COMPOSED_DEPENDENCY",
+      "origin": "original_API"
+    },
+    {
+      "source": "@adm_mass",
+      "relation": "COMPOSED_DEPENDENCY",
+      "origin": "original_API"
+    },
+    {
+      "source": "@admissible_continuation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "origin": "original_API"
+    },
+    {
+      "source": "@admissible_equivalence",
+      "relation": "COMPOSED_DEPENDENCY",
+      "origin": "original_API"
+    }
+  ],
+  "source_locations": [
+    {
+      "source": "api/MK43_Ultra_API_FULL_CURRENT/MK43_Ultra_API_CURRENT_CANONICAL.md",
+      "line": 6903
+    },
+    {
+      "source": "api/MK43_Ultra_API_FULL_CURRENT/MK43_Ultra_API_CURRENT_CANONICAL.md",
+      "line": 7092
+    },
+    {
+      "source": "api/MK43_Ultra_API_FULL_CURRENT/MK43_Ultra_API_CURRENT_CANONICAL.md",
+      "line": 7109
+    },
+    {
+      "source": "api/MK43_Ultra_API_FULL_CURRENT/MK43_Ultra_API_CURRENT_CANONICAL.md",
+      "line": 7317
+    },
+    {
+      "source": "api/MK43_Ultra_API_FULL_CURRENT/MK43_Ultra_API_CURRENT_CANONICAL.md",
+      "line": 7832
+    },
+    {
+      "source": "api/MK43_Ultra_API_FULL_CURRENT/MK43_Ultra_API_CURRENT_CANONICAL.md",
+      "line": 15517
+    },
+    {
+      "source": "api/MK43_Ultra_API_FULL_CURRENT/MK43_Ultra_API_CURRENT_CANONICAL.md",
+      "line": 15538
+    },
+    {
+      "source": "api/MK43_Ultra_API_FULL_CURRENT/MK43_Ultra_API_CURRENT_CANONICAL.md",
+      "line": 15667
+    },
+    {
+      "source": "api/MK43_Ultra_API_FULL_CURRENT/MK43_Ultra_API_CURRENT_CANONICAL.md",
+      "line": 15834
+    },
+    {
+      "source": "api/MK43_Ultra_API_FULL_CURRENT/MK43_Ultra_API_CURRENT_CANONICAL.md",
+      "line": 27526
+    },
+    {
+      "source": "api/MK43_Ultra_API_FULL_CURRENT/MK43_Ultra_API_CURRENT_CANONICAL.md",
+      "line": 33713
+    },
+    {
+      "source": "api/MK43_Ultra_API_FULL_CURRENT/MK43_Ultra_API_CURRENT_CANONICAL.md",
+      "line": 36838
+    }
+  ],
+  "truncation_limit": 12
+}

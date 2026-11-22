@@ -1,0 +1,42 @@
+{
+  "schema": "ASTRAEUS_DM_WORK_LAYER_QMO_V1",
+  "qmo_id": "QMO-AST-DM-WL-004",
+  "name": "Cross-Resolution Rotational Frame Section / Time-Shell Dragging Witness",
+  "status": "SOURCE_COMPOSED_CONDITIONAL_CANDIDATE_NOT_PARENT_PROMOTED",
+  "work_layer_revision": "WL-005",
+  "date": "2026-08-17",
+  "parents": [
+    "QMO-AST-DM-WL-002",
+    "QMO-AST-DM-WL-003",
+    "BandwidthAlgebra:BA-T1,BA-T4,BA-T7",
+    "BandwidthAlgebra:BA-D14,BA-D15,TimeShellSection",
+    "ResolutionLandscape:RL-T1,RL-T3",
+    "DM2.2:111_BLACK_HOLE_MARKED_STAR_ADDRESS",
+    "HeliconRecovery:rotational_frame_and_shear_roles",
+    "TimeSpaceAPI4.3:accepted_GR_frame_and_Kerr_objects"
+  ],
+  "anchor": "b_H -> [H]_R -> p_H in S3; Sigma_H=pi^-1(p_H)~=S2; B_H!=Sigma_H",
+  "bandwidth_family": "rho_R:A_B->A_B^R=A_B/K_R with rho_Ri=q_ji o rho_Rj",
+  "rotational_formal_element": "u_J in Rot subset/representation of admitted Bandwidth transformations, labeled by abstract conserved invariant J_*",
+  "cross_resolution_section": "u_R=rho_R(u_J), q_ji(u_Rj)=u_Ri when nontriviality survives quotienting",
+  "frame_bridge_open": "varphi_R:A_B^R->Aut(Fr(Sigma_R))",
+  "frame_drag_candidate": "FD_R=varphi_R(u_R) o varphi_R(u_0)^(-1)",
+  "shear": "Sh_R(a,b)=FD_R(b) o FD_R(a)^(-1)",
+  "vorticity_holonomy": "Vor_R(gamma)=Hol_gamma(FD_R)",
+  "dark_witness_candidate": "q_matter,R(DeltaW)=0_matter while Phi_FD,R(DeltaW)!=id",
+  "helicon_open_route": "self-corridor History -> bound Helicon rotational-frame organization -> Time-Shell frame transport -> gravity readout",
+  "downstream_gr_bridge_open": "Phi_GR,R:FD_R->accepted rotating-spacetime frame observable (e.g. admitted shift/local-frame/Kerr sector)",
+  "symbol_firewall": "Omega_BH^org from historical B_H tuple != Omega_H^Kerr horizon angular velocity unless a typed bridge is proved",
+  "guardrails": [
+    "one Bandwidth across Resolution != one identical observational profile",
+    "angular velocity != time",
+    "abstract J_* != Komar/Kerr/measured angular momentum until typed",
+    "FD_R != physical frame dragging until downstream GR map is typed",
+    "shear != vorticity != chirality",
+    "Time Shell != frame dragging",
+    "black hole != Bandwidth",
+    "Sigma_H != automatically operative galactic Time Shell",
+    "matter-null frame-non-null != automatically physical dark matter",
+    "no parent promotion"
+  ]
+}

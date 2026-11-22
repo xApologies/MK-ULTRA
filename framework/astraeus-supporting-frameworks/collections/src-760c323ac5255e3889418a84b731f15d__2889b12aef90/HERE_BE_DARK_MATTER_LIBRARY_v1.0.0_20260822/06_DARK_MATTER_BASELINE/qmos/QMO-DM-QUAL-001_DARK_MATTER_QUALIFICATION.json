@@ -1,0 +1,25 @@
+{
+  "schema": "MK43_QMO_V1",
+  "qmo_id": "QMO-DM-QUAL-001",
+  "name": "Dark-Matter Qualification Locus",
+  "mount_scope": [
+    "timespace_4_3",
+    "darkmatter_2_1"
+  ],
+  "status": "FORMALLY_DEFINED_EXISTENCE_OPEN",
+  "definition_handle": "@dm_dark_matter_qualification_locus",
+  "existence_target": "@dm_dark_matter_qualification_nonempty",
+  "conditions": [
+    "matched full/visible comparison under same external data",
+    "full state includes an admissible hidden multi-port S3 organization",
+    "formal persistence and boundary-contact gates pass",
+    "Q-handoff survival passes",
+    "M_R(full)=M_R(visible)",
+    "T_H=T_full-T_visible is nonzero",
+    "g_full != g_visible",
+    "Ein(g_full)=kappa T_full",
+    "Ein(g_visible)=kappa T_visible",
+    "hidden/visible stress-energy balance obeys the exchange-current identity"
+  ],
+  "closure_statement": "Dark matter is internally closed as a qualification definition; existence/nonemptiness is not proved."
+}

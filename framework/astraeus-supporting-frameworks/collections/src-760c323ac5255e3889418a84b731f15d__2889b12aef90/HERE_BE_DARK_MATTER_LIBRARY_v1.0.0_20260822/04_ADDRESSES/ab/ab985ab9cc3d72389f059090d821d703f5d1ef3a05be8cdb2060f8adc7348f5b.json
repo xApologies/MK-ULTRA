@@ -1,0 +1,26 @@
+{
+  "handle": "assumption://WA-DM-E080-001",
+  "object_type": "working_assumption",
+  "status": "SUPERSEDED_BY_WA-DM-E082-001_NARROWER_SYMMETRY_ACTION",
+  "domain": "ASSUMPTION",
+  "namespace": "mk43://assumption",
+  "name": "Port-Response Spectrum Included in Declared Residue Inventory",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E080",
+  "qmo_generated": false,
+  "proof_status": "CONDITIONAL",
+  "empirical_status": "",
+  "provenance_class": "WORKING_ASSUMPTION",
+  "metadata": {
+    "id": "WA-DM-E080-001",
+    "name": "Port-Response Spectrum Included in Declared Residue Inventory",
+    "status": "SUPERSEDED_BY_WA-DM-E082-001_NARROWER_SYMMETRY_ACTION",
+    "checkpoint": "E080",
+    "proof_debt": "PD-DM-004",
+    "payload_json": "{\"assumption_id\": \"WA-DM-E080-001\", \"name\": \"Port-Response Spectrum Included in Declared Residue Inventory\", \"status\": \"WORKING_ASSUMPTION\", \"checkpoint\": \"E080\", \"scope\": \"one matched full/visible Resolution-R boundary comparison using the selected E063 two-port hidden bridge\", \"statement\": \"Use the nonzero spectrum/rank of the hidden Schur/Kron port-response difference DeltaLambda_H as one declared invariant-residue discriminator, and require the boundary/projection comparison morphisms to preserve that discriminator.\", \"source_support\": [\"ATLAS_V36:194_V31_KRON_RESIDUAL_MONOTONICITY.md\", \"ATLAS_V36:225_V36_PROJECTION_RESIDUE_SURVIVAL_TEST.md\", \"@dm_hidden_response_operator\"], \"not_claimed\": [\"that every invariant residue contains graph spectra\", \"physical observability of the spectrum\", \"global injectivity of boundary projection\"], \"proof_debt\": \"PD-DM-004\"}"
+  },
+  "address": "assumption://WA-DM-E080-001",
+  "address_sha256": "ab985ab9cc3d72389f059090d821d703f5d1ef3a05be8cdb2060f8adc7348f5b"
+}

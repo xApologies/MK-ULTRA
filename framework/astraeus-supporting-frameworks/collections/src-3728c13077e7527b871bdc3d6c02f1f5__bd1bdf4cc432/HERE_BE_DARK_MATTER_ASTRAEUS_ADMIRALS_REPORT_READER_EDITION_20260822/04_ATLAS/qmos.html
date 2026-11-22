@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+
+<html lang="" xml:lang="" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8"/>
+<meta content="pandoc" name="generator"/>
+<meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
+<title>qmos</title>
+<style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+<style>
+:root { color-scheme: light dark; }
+body { max-width: 980px; margin: 0 auto; padding: 2.2rem 1.5rem 5rem; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 1.62; }
+h1,h2,h3,h4 { line-height: 1.2; margin-top: 1.8em; }
+h1 { border-bottom: 2px solid currentColor; padding-bottom: .25rem; }
+h2 { border-bottom: 1px solid color-mix(in srgb, currentColor 30%, transparent); padding-bottom: .2rem; }
+blockquote { border-left: 4px solid currentColor; padding-left: 1rem; margin-left: 0; opacity: .92; }
+pre, code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+pre { overflow-x: auto; padding: 1rem; border: 1px solid color-mix(in srgb, currentColor 20%, transparent); border-radius: 8px; }
+code { font-size: .92em; }
+table { border-collapse: collapse; width: 100%; overflow-x: auto; display: block; }
+th, td { border: 1px solid color-mix(in srgb, currentColor 25%, transparent); padding: .45rem .6rem; vertical-align: top; }
+a { color: inherit; text-decoration-thickness: .08em; }
+nav#TOC { padding: 1rem 1.2rem; border: 1px solid color-mix(in srgb, currentColor 25%, transparent); border-radius: 10px; }
+.reader-banner { border: 2px solid currentColor; border-radius: 12px; padding: .8rem 1rem; margin: 0 0 2rem; font-weight: 650; }
+mjx-container { max-width: 100%; }
+mjx-container[display="true"] { display: block; overflow-x: auto; overflow-y: hidden; padding: .45rem 0; margin: 1rem 0; }
+mjx-container svg { max-width: 100%; }
+.eq-source { font-size: .86rem; opacity: .75; margin-bottom: .25rem; }
+.eq-card { padding: .6rem .9rem; margin: .7rem 0 1.2rem; border-left: 3px solid color-mix(in srgb, currentColor 45%, transparent); }
+.render-fallback { font-family: Georgia, "Times New Roman", serif; white-space: pre-wrap; overflow-x: auto; }
+@media (max-width: 600px) { body { font-size: 17px; padding: 1.2rem .8rem 3rem; } }
+</style></head>
+<body><div class="reader-banner">READER EDITION — equations are pre-rendered as vector mathematics. No LaTeX renderer, plug-in, or internet connection is required.</div>
+<header id="title-block-header">
+<h1 class="title">qmos</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#qmos" id="toc-qmos">Qmos</a></li>
+</ul>
+</nav>
+<h1 id="qmos">Qmos</h1>
+<p>Records: <strong>38</strong></p>
+<table>
+<colgroup>
+<col style="width: 20%"/>
+<col style="width: 20%"/>
+<col style="width: 20%"/>
+<col style="width: 20%"/>
+<col style="width: 20%"/>
+</colgroup>
+<thead>
+<tr class="header">
+<th>qmo_id</th>
+<th>name</th>
+<th>status</th>
+<th>source_layer</th>
+<th>source_file</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>QMO-DM-MASTER-001</td>
+<td>Current Formal Dark-Matter Mathematical Object</td>
+<td>FORMALLY_CLOSED_WITH_OPEN_HANDLES</td>
+<td>baseline</td>
+<td>baseline/DM_2.2.0/registry/QMO_REGISTRY.json</td>
+</tr>
+<tr class="even">
+<td>QMO-DM-SELF-002</td>
+<td>Dark Matter API Recursive Self-Closure</td>
+<td>COMPLETED_AUDIT_SOURCE</td>
+<td>baseline</td>
+<td>baseline/DM_2.2.0/registry/QMO_REGISTRY.json</td>
+</tr>
+<tr class="odd">
+<td>QMO-XAPI-001</td>
+<td>Time-Space / Dark Matter Bidirectional Cross-Closure</td>
+<td>COMPLETED_CROSS_CRAWL</td>
+<td>baseline</td>
+<td>baseline/DM_2.2.0/registry/QMO_REGISTRY.json</td>
+</tr>
+<tr class="even">
+<td>QMO-XAPI-CAND-001</td>
+<td>Dark-Matter Nonemptiness as an Initial-Data Witness Problem</td>
+<td>OPEN_CANDIDATE_NOT_PROMOTED</td>
+<td>baseline</td>
+<td>baseline/DM_2.2.0/registry/QMO_REGISTRY.json</td>
+</tr>
+<tr class="odd">
+<td>QMO-DM-BRIDGE-CAND-002</td>
+<td>QMO-DM-BRIDGE-CAND-002_CONSTRAINT_PULLBACK_EMBEDDING</td>
+<td>OPEN_QMO_CANDIDATE_NOT_PROMOTED</td>
+<td>live_e062</td>
+<td>live/checkpoints/E062/qmos/QMO-DM-BRIDGE-CAND-002_CONSTRAINT_PULLBACK_EMBEDDING.json</td>
+</tr>
+<tr class="even">
+<td>QMO-DM-BRIDGE-CAND-003</td>
+<td>QMO-DM-BRIDGE-CAND-003_LOCAL_EMBEDDING_DESCENT_WITNESS</td>
+<td>OPEN_CROSS_BRANCH_CANDIDATE_NOT_PROMOTED</td>
+<td>live_e062</td>
+<td>live/checkpoints/E062/qmos/QMO-DM-BRIDGE-CAND-003_LOCAL_EMBEDDING_DESCENT_WITNESS.json</td>
+</tr>
+<tr class="odd">
+<td>QMO-DM-BRIDGE-CAND-004</td>
+<td>Native Density / UCM Readout Discrimination Witness</td>
+<td>OPEN_QMO_CANDIDATE_NOT_PROMOTED</td>
+<td>live_e063</td>
+<td>live/checkpoints/E063/qmos/QMO-DM-BRIDGE-CAND-004_UCM_READOUT_DISCRIMINATION.json</td>
+</tr>
+<tr class="even">
+<td>QMO-DM-BRIDGE-CAND-005</td>
+<td>Conditional Dark-Readout Factorization Witness</td>
+<td>CONDITIONAL_QMO_CLOSED_ON_WORKING_ASSUMPTIONS_NOT_PROMOTED</td>
+<td>live_e064</td>
+<td>live/checkpoints/E064/qmos/QMO-DM-BRIDGE-CAND-005_CONDITIONAL_DARK_READOUT_WITNESS.json</td>
+</tr>
+<tr class="odd">
+<td>QMO-DM-BRIDGE-CAND-006</td>
+<td>Conditional Hidden Boundary/Residue Seed</td>
+<td>LIVE_CONDITIONAL_CANDIDATE</td>
+<td>live_e065</td>
+<td>live/checkpoints/E065/qmos/QMO-DM-BRIDGE-CAND-006_BOUNDARY_RESIDUE_SEED.json</td>
+</tr>
+<tr class="even">
+<td>QMO-DM-BRIDGE-CAND-007</td>
+<td>Conditional Projection-Residue/Q Survival Witness</td>
+<td>LIVE_CONDITIONAL_CANDIDATE</td>
+<td>live_e066</td>
+<td>live/checkpoints/E066/qmos/QMO-DM-BRIDGE-CAND-007_Q_SURVIVAL.json</td>
+</tr>
+<tr class="odd">
+<td>QMO-DM-BRIDGE-CAND-008</td>
+<td>Stress-Active Covariant Hidden Action Nonemptiness</td>
+<td>OPEN_QMO_CANDIDATE_NOT_PROMOTED</td>
+<td>live_e067</td>
+<td>live/checkpoints/E067/qmos/QMO-DM-BRIDGE-CAND-008_STRESS_ACTIVE_ACTION_FIBER.json</td>
+</tr>
+<tr class="even">
+<td>QMO-DM-BRIDGE-CAND-009</td>
+<td>Live Qualification Critical-Cut Object</td>
+<td>DIAGNOSTIC_QMO_CANDIDATE</td>
+<td>live_e068</td>
+<td>live/checkpoints/E068/qmos/QMO-DM-BRIDGE-CAND-009_LIVE_QUALIFICATION_CUT.json</td>
+</tr>
+<tr class="odd">
+<td>QMO-DM-BRIDGE-CAND-010</td>
+<td>Conditional Scalar-Proxy Stress-Active Witness</td>
+<td>LIVE_CONDITIONAL_CANDIDATE</td>
+<td>live_010</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>QMO-DM-BRIDGE-CAND-011</td>
+<td>Conditional Action-Lane Dark Readout Witness</td>
+<td>LIVE_CONDITIONAL_CANDIDATE</td>
+<td>live_011</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>QMO-DM-BRIDGE-CAND-012</td>
+<td>Conditional Dark-Matter Qualification Witness</td>
+<td>LIVE_CONDITIONAL_CANDIDATE</td>
+<td>live_012</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>QMO-DM-BRIDGE-CAND-013</td>
+<td>Metric-Active Hidden Representation Witness</td>
+<td>OPEN_QMO_CANDIDATE_NOT_PROMOTED</td>
+<td>live_013</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>QMO-DM-BRIDGE-CAND-014</td>
+<td>Hidden-Network UCM Source-Domain Distinction</td>
+<td>LIVE_SOURCE_DERIVED_CANDIDATE</td>
+<td>live</td>
+<td>live/checkpoints/E073/qmos/QMO-DM-BRIDGE-CAND-014_UCM_SOURCE_DOMAIN_DISTINCTION.json</td>
+</tr>
+<tr class="even">
+<td>QMO-DM-BRIDGE-CAND-015</td>
+<td>UCM Event-to-Readable-Source Nonannihilation Gate</td>
+<td>OPEN_QMO_CANDIDATE_NOT_PROMOTED</td>
+<td>live</td>
+<td>live/checkpoints/E074/qmos/QMO-DM-BRIDGE-CAND-015_UCM_EVENT_TO_SOURCE_NONANNIHILATION.json</td>
+</tr>
+<tr class="odd">
+<td>QMO-DM-BRIDGE-CAND-016</td>
+<td>Conditional UCM Hidden Stress-Energy Witness</td>
+<td>LIVE_CONDITIONAL_CANDIDATE</td>
+<td>live</td>
+<td>live/checkpoints/E075/qmos/QMO-DM-BRIDGE-CAND-016_CONDITIONAL_UCM_STRESS_ENERGY.json</td>
+</tr>
+<tr class="even">
+<td>QMO-DM-BRIDGE-CAND-017</td>
+<td>Conditional UCM-Native Dark-Matter Qualification Witness</td>
+<td>LIVE_CONDITIONAL_CANDIDATE</td>
+<td>live</td>
+<td>live/checkpoints/E076/qmos/QMO-DM-BRIDGE-CAND-017_CONDITIONAL_UCM_QUALIFICATION.json</td>
+</tr>
+<tr class="odd">
+<td>QMO-DM-BRIDGE-CAND-018</td>
+<td>UCM Topology-Bearing Source-Scope Inclusion</td>
+<td>LIVE_SOURCE_DERIVED_CLOSED</td>
+<td>live</td>
+<td>live/checkpoints/E077/qmos/QMO-DM-BRIDGE-CAND-018_DM_UCM_TOPOLOGY_SOURCE_SCOPE_INCLUSION.json</td>
+</tr>
+<tr class="even">
+<td>QMO-DM-BRIDGE-CAND-019</td>
+<td>UCM Dynamic-Event / Readable-Source Two-Gate Factorization</td>
+<td>LIVE_SOURCE_DERIVED_DIAGNOSTIC_CLOSED</td>
+<td>live</td>
+<td>live/checkpoints/E078/qmos/QMO-DM-BRIDGE-CAND-019_DM_UCM_TWO_GATE_FACTORIZATION.json</td>
+</tr>
+<tr class="odd">
+<td>QMO-DM-BRIDGE-CAND-020</td>
+<td>Conditional UCM Dynamic-Event Separation Witness</td>
+<td>LIVE_CONDITIONAL_CANDIDATE</td>
+<td>live</td>
+<td>live/checkpoints/E079/qmos/QMO-DM-BRIDGE-CAND-020_DM_CONDITIONAL_UCM_DYNAMIC_EVENT_WITNESS.json</td>
+</tr>
+<tr class="even">
+<td>QMO-DM-BRIDGE-CAND-021</td>
+<td>Hidden Port-Response Spectrum Residue Discriminator</td>
+<td>LIVE_CONDITIONAL_CANDIDATE</td>
+<td>live</td>
+<td>live/checkpoints/E080/qmos/QMO-DM-BRIDGE-CAND-021_DM_RESPONSE_SPECTRUM_RESIDUE_DISCRIMINATOR.json</td>
+</tr>
+<tr class="odd">
+<td>QMO-DM-BRIDGE-CAND-022</td>
+<td>Hidden Port-Response Trace Invariant</td>
+<td>LIVE_DERIVED_CLOSED_INTERNAL</td>
+<td>live</td>
+<td>E081</td>
+</tr>
+<tr class="even">
+<td>QMO-DM-BRIDGE-CAND-023</td>
+<td>Conditional Hidden Response-Trace Residue Survival</td>
+<td>LIVE_CONDITIONAL_CANDIDATE</td>
+<td>live</td>
+<td>E082</td>
+</tr>
+<tr class="odd">
+<td>QMO-DM-BRIDGE-CAND-024</td>
+<td>Hidden Response-Trace Q-Handoff Survival Witness</td>
+<td>LIVE_CONDITIONAL_CANDIDATE</td>
+<td>live</td>
+<td>E083</td>
+</tr>
+<tr class="even">
+<td>QMO-DM-BRIDGE-CAND-025</td>
+<td>Conditional Event-Level Density / UCM Source Separation</td>
+<td>LIVE_CONDITIONAL_CANDIDATE</td>
+<td>live</td>
+<td>E084</td>
+</tr>
+<tr class="odd">
+<td>QMO-DM-BRIDGE-CAND-026</td>
+<td>Resolution-Profile Readout Factorization Gate</td>
+<td>LIVE_SOURCE_RECONCILED_DIAGNOSTIC</td>
+<td>LIVE</td>
+<td>live/checkpoints/E085/qmos/QMO-DM-BRIDGE-CAND-026_DM_DENSITY_PROFILE_READOUT_FACTORIZATION_GATE.json</td>
+</tr>
+<tr class="even">
+<td>QMO-DM-BRIDGE-CAND-027</td>
+<td>Explicit Two-Port Hidden Continuity Residual Witness</td>
+<td>LIVE_DERIVED_CLOSED_INTERNAL</td>
+<td>LIVE</td>
+<td>live/checkpoints/E086/qmos/QMO-DM-BRIDGE-CAND-027_DM_EXPLICIT_TWO_PORT_CONTINUITY_RESIDUAL_WITNESS.json</td>
+</tr>
+<tr class="odd">
+<td>QMO-DM-BRIDGE-CAND-028</td>
+<td>Two-Port Time-Shell Gravity Fiber Test</td>
+<td>LIVE_TYPED_OPEN_GATE</td>
+<td>LIVE</td>
+<td>live/checkpoints/E087/qmos/QMO-DM-BRIDGE-CAND-028_DM_TWO_PORT_TIMESHELL_GRAVITY_FIBER_TEST.json</td>
+</tr>
+<tr class="even">
+<td>QMO-DM-BRIDGE-CAND-029</td>
+<td>Conditional Direct Time-Shell Dark-Readout Witness</td>
+<td>LIVE_CONDITIONAL_CANDIDATE</td>
+<td>LIVE</td>
+<td>live/checkpoints/E088/qmos/QMO-DM-BRIDGE-CAND-029_DM_CONDITIONAL_DIRECT_TIMESHELL_DARK_READOUT_WITNESS.json</td>
+</tr>
+<tr class="odd">
+<td>QMO-DM-BRIDGE-CAND-030</td>
+<td>Recovered Chirality Seed / Byte Probe Basis</td>
+<td>LIVE_SOURCE_RECOVERED_PROBE_BASIS</td>
+<td>LIVE</td>
+<td>live/checkpoints/E089/qmos/QMO-DM-BRIDGE-CAND-030_DM_CHIRALITY_SEED_BYTE_PROBE_BASIS.json</td>
+</tr>
+<tr class="even">
+<td>QMO-DM-BRIDGE-CAND-031</td>
+<td>Chirality-Seed Mirror Contrast Normal Form</td>
+<td>LIVE_DERIVED_CLOSED_INTERNAL</td>
+<td>LIVE</td>
+<td>live/checkpoints/E090/qmos/QMO-DM-BRIDGE-CAND-031_DM_CHIRALITY_SEED_CONTRAST_NORMAL_FORM.json</td>
+</tr>
+<tr class="odd">
+<td>QMO-DM-BRIDGE-CAND-032</td>
+<td>Chirality-Byte / Basin Finite Probe Family</td>
+<td>LIVE_CONDITIONAL_DIAGNOSTIC</td>
+<td>LIVE</td>
+<td>live/checkpoints/E091/qmos/QMO-DM-BRIDGE-CAND-032_DM_CHIRALITY_BYTE_BASIN_PROBE_FAMILY.json</td>
+</tr>
+<tr class="even">
+<td>QMO-DM-BRIDGE-CAND-033</td>
+<td>Canonical Chirality-Seed Time-Shell Gravity Fiber Test</td>
+<td>LIVE_TYPED_OPEN_GATE_RETYPE</td>
+<td>LIVE</td>
+<td>live/checkpoints/E092/qmos/QMO-DM-BRIDGE-CAND-033_DM_CHIRALITY_SEED_TIMESHELL_GRAVITY_FIBER_TEST.json</td>
+</tr>
+<tr class="odd">
+<td>QMO-XAPI-002</td>
+<td>API 4.3 x Dark Matter 2.2 Exhaustive Combined Closure</td>
+<td>COMPLETED_FIXED_POINT_CROSS_CRAWL_NO_PARENT_PROMOTION</td>
+<td>live_xapi</td>
+<td>live/checkpoints/E093/qmo/QMO-XAPI-002.json</td>
+</tr>
+<tr class="even">
+<td>QMO-DM-SRC-XAPI-003</td>
+<td>Source-Backfilled ER Dark Matter Closure</td>
+<td>COMPLETED_SOURCE_EFFECTIVE_CLOSURE_EMPIRICAL_OPEN</td>
+<td>LIVE_SOURCE_BACKFILL</td>
+<td>ASTRAEUS_DM_E097_E100_SOURCE_CLOSURE_REPORT_20260822.md</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

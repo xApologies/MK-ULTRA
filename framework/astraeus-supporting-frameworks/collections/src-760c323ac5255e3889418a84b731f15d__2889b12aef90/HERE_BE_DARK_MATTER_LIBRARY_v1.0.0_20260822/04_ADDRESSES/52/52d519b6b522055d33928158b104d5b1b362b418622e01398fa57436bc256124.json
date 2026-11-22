@@ -1,0 +1,99 @@
+{
+  "handle": "@higher_order_helicon_modes",
+  "object_type": "mathematical_object",
+  "status": "indexed-unlinked",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Higher-Order Helicon Modes",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 2,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 4,
+    "xapi_raw_in_count": 0,
+    "live_out_count": 2,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 166,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@higher_order_helicon_modes",
+        "relation": "DERIVED_FROM",
+        "target": "@helicon",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "recovery_pass": "RP-38",
+        "provenance": "DIRECT_EQUATION_API:2679-2696"
+      },
+      {
+        "source": "@higher_order_helicon_modes",
+        "relation": "USES_OPERATOR",
+        "target": "@rotational_helicon_mode",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "recovery_pass": "RP-38",
+        "provenance": "DIRECT_EQUATION_API:2679-2696"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 643,
+        "source": "@higher_order_helicon_modes",
+        "relation": "DERIVED_FROM",
+        "target": "@helicon",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_EQUATION_API:2679-2696"
+      },
+      {
+        "id": 644,
+        "source": "@higher_order_helicon_modes",
+        "relation": "USES_OPERATOR",
+        "target": "@rotational_helicon_mode",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_EQUATION_API:2679-2696"
+      },
+      {
+        "id": 19213,
+        "source": "@higher_order_helicon_modes",
+        "relation": "DERIVED_FROM",
+        "target": "@helicon",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_EQUATION_API:2679-2696"
+      },
+      {
+        "id": 19214,
+        "source": "@higher_order_helicon_modes",
+        "relation": "USES_OPERATOR",
+        "target": "@rotational_helicon_mode",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_EQUATION_API:2679-2696"
+      }
+    ]
+  },
+  "address": "@higher_order_helicon_modes",
+  "address_sha256": "52d519b6b522055d33928158b104d5b1b362b418622e01398fa57436bc256124"
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+  "certificate_id": "CC-DM-E090-001",
+  "checkpoint": "E090",
+  "object": "@dm_chirality_seed_contrast_normal_form",
+  "decision": "CHIRALITY_SEED_CONTRAST_NORMAL_FORM_MATCH_CLOSED",
+  "scope": "recovered seed arrangement vs E063 two-port response normal form",
+  "checks": {
+    "source_seed_matrices_recovered": true,
+    "mirror_difference_computed": true,
+    "E063_response_matrix_exact_match_up_to_positive_scale": true,
+    "contrast_eigenmode_exact": true,
+    "whole_object_identity_claimed": false,
+    "physical_promotion": false,
+    "baseline_dm22_modified": false
+  },
+  "result": "The two-port response witness already used by the Live Landscape is algebraically the canonical chirality-seed contrast normal form up to w_eff>0."
+}

@@ -1,0 +1,114 @@
+{
+  "handle": "@dm_hidden_state_embedding",
+  "object_type": "mathematical_object",
+  "status": "OPEN_PRIMARY_HANDLE",
+  "domain": "DM22",
+  "namespace": "open",
+  "name": "Hidden S3 State Embedding into Inherited State Bundle",
+  "definition": "Primary open selection/existence problem after bidirectional cross-crawl: select a physical embedding from @dm_constraint_preserving_embedding_family. The family is typed; nonemptiness and a realized embedding remain open.",
+  "math": "Select iota_H∈Emb_H,phys^R. Required: pi_E∘iota_H=j_T∘pi_H; I∘iota_H=iota_H∘I_H; iota_H(E_H^R)⊆ker(C).",
+  "source_layer": "DM22",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "DM22",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 4,
+    "xapi_raw_in_count": 3,
+    "live_out_count": 4,
+    "live_in_count": 3,
+    "closure_out_reachability_count": 201,
+    "closure_in_reachability_count": 10,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 2,
+    "aliases": [
+      "@dm_boundary_gate",
+      "@dm_hidden_boundary_realization"
+    ],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19771,
+        "source": "@dm_hidden_state_embedding",
+        "relation": "CONSTRAINED_BY",
+        "target": "@inheritance_morphism",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19772,
+        "source": "@dm_hidden_state_embedding",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_constraint_preserving_embedding_family",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.2_CROSS_API"
+      },
+      {
+        "id": 19773,
+        "source": "@dm_hidden_state_embedding",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_hidden_state_bundle",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19774,
+        "source": "@dm_hidden_state_embedding",
+        "relation": "TARGETS",
+        "target": "@inherited_state_bundle",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19750,
+        "source": "@dm_formal_persistence_qualification",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_hidden_state_embedding",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19757,
+        "source": "@dm_hidden_persistent_subset",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_hidden_state_embedding",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19764,
+        "source": "@dm_hidden_s3_network",
+        "relation": "REQUIRES",
+        "target": "@dm_hidden_state_embedding",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.0"
+      }
+    ]
+  },
+  "address": "@dm_hidden_state_embedding",
+  "address_sha256": "5484439e2582c16852ba8da81879ba32755299b7a7fb1510d3f0735fb73c96ae"
+}

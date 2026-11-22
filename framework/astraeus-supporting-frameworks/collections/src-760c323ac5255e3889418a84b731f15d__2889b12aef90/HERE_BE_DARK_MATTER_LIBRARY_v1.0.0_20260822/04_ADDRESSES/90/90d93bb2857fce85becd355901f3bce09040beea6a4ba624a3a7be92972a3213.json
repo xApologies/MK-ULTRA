@@ -1,0 +1,56 @@
+{
+  "handle": "@coherence_criterion",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@coherence_criterion",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 0,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@cognitive_phase_mode",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@coherence_criterion",
+        "graph_family": "downstream-realization",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:3093->3095"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 190,
+        "source": "@cognitive_phase_mode",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@coherence_criterion",
+        "layer": "API43",
+        "graph_family": "downstream-realization",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:3093->3095"
+      }
+    ]
+  },
+  "address": "@coherence_criterion",
+  "address_sha256": "90d93bb2857fce85becd355901f3bce09040beea6a4ba624a3a7be92972a3213"
+}

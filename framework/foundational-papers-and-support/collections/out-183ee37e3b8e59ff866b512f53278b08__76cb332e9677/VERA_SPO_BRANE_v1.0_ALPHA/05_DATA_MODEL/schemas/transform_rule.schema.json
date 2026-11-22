@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "contexts": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "event_class": {
+      "type": "string"
+    },
+    "min_confidence": {
+      "maximum": 1,
+      "minimum": 0,
+      "type": "number"
+    },
+    "operation": {
+      "enum": [
+        "PRESERVE",
+        "ATTENUATE",
+        "TRANSFORM",
+        "EMPHASIZE"
+      ]
+    },
+    "parameters": {
+      "type": "object"
+    },
+    "preserve_semantics": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "required": {
+      "type": "boolean"
+    },
+    "rule_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "rule_id",
+    "event_class",
+    "operation",
+    "required"
+  ],
+  "title": "Transform Rule",
+  "type": "object"
+}

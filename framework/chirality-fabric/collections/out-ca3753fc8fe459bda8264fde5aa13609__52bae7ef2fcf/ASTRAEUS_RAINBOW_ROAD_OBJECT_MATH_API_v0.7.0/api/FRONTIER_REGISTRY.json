@@ -1,0 +1,118 @@
+{
+  "schema": "ASTRAEUS_RAINBOW_ROAD_FRONTIER_REGISTRY_V2",
+  "current_handle": "@recovery_history_signature_minimality",
+  "frontiers": [
+    {
+      "handle": "@object_resolution_recovery_witness_minimality",
+      "status": "PARENT_FRONTIER",
+      "priority": "P0",
+      "question": "What is the smallest recoverable provenance/witness structure that selects the correct fine-resolution lineage from a non-injective Resolution handoff without requiring the coarse readout itself to contain the suppressed structure?",
+      "native_branches": [
+        "transduction_geometry",
+        "bandwidth_algebra",
+        "resolution_readout",
+        "identity_through_history"
+      ],
+      "probe_branches": [
+        "holonomy_chirality"
+      ],
+      "candidate_outputs": [
+        "@witness_bundle_core",
+        "@witness_bundle_history_augmented",
+        "@witness_bundle_full_state_fallback",
+        "@fine_lineage_selector"
+      ],
+      "next_tests": [
+        "Construct explicit non-injective handoff fiber counterexamples",
+        "Test core witness bundle for unique/adequate lineage selection",
+        "Add History only when core witness fails",
+        "Use full predecessor state only as fallback upper bound",
+        "Test composition across R_k -> R_j -> R_i"
+      ]
+    },
+    {
+      "handle": "@recovery_witness_counterexample_crawl",
+      "status": "CLOSED_PASS_003",
+      "priority": "P0",
+      "question": "Can the smallest candidate witness bundle fail to distinguish two fine-resolution lineages in the same non-injective handoff fiber, and if so, exactly which additional structural component is necessary to repair the ambiguity?",
+      "native_branches": [
+        "resolution_readout",
+        "identity_through_history",
+        "transduction_geometry",
+        "bandwidth_algebra"
+      ],
+      "probe_branches": [
+        "holonomy_chirality"
+      ],
+      "candidate_outputs": [
+        "@witness_bundle_core",
+        "@witness_bundle_history_augmented",
+        "@witness_bundle_full_state_fallback",
+        "@fine_lineage_selector"
+      ],
+      "next_tests": [
+        "Construct same-coarse-readout/different-lineage pairs",
+        "Test core witness collision",
+        "Add History only if collision persists",
+        "Identify minimal repair component",
+        "Audit composition across chained handoffs"
+      ],
+      "result": "CE-RW-001 found: unqualified core witness is not universally sufficient; explicit History repairs this counterexample; minimal discriminator remains open."
+    },
+    {
+      "handle": "@recursive_domain_perturbation_stability",
+      "status": "RUNTIME_AUDIT_FRONTIER",
+      "priority": "P1",
+      "question": "Which local changes reclose locally, which require wider recursive reclosure, and which expose a hard closure defect inside Rainbow Road?",
+      "native_branches": [
+        "transduction_geometry",
+        "bandwidth_algebra",
+        "resolution_readout",
+        "identity_through_history",
+        "holonomy_chirality"
+      ],
+      "probe_branches": [
+        "rainbow_runtime"
+      ],
+      "candidate_outputs": [
+        "@recursive_impact_cone",
+        "@closure_equivariance_defect"
+      ],
+      "next_tests": [
+        "Run native hard-guard perturbations",
+        "Compare readout-only versus constraint perturbations",
+        "Track invalidated closure certificates",
+        "Require recovery witness on reclosure"
+      ]
+    },
+    {
+      "handle": "@recovery_history_signature_minimality",
+      "status": "ACTIVE",
+      "priority": "P0",
+      "question": "Can full ordered History be compressed to a smaller retained History/holonomy signature while remaining separating on every recovery-relevant handoff fiber and stable under admissible composition?",
+      "native_branches": [
+        "identity_through_history",
+        "holonomy_chirality",
+        "resolution_readout",
+        "transduction_geometry",
+        "bandwidth_algebra"
+      ],
+      "probe_branches": [
+        "rainbow_runtime"
+      ],
+      "candidate_outputs": [
+        "@history_holonomy",
+        "@holonomy_history_signature",
+        "@recovery_discriminator"
+      ],
+      "next_tests": [
+        "Query source-backed History Holonomy and D57 Holonomy History Signature",
+        "Construct pairs with same Identity Witness transformation but different History",
+        "Test candidate signature for fiber separation",
+        "Test composition across chained Resolution handoffs",
+        "Retain full ordered History as fallback whenever a quotient is not separating"
+      ]
+    }
+  ],
+  "runtime_handle": "@recursive_domain_perturbation_stability"
+}

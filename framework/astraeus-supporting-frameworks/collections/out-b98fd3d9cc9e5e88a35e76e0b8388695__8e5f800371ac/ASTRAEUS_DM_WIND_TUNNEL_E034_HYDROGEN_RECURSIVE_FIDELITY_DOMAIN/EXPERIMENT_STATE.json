@@ -1,0 +1,33 @@
+{
+  "experiment": "E034",
+  "candidate": "CAND-DM-HYDROGEN-RECURSIVE-FIDELITY-037",
+  "title": "Recursive Hydrogen Pipeline Fidelity Domain",
+  "status": "CONTROLLED RECONSTRUCTED SINGLE-H RECURSION; FORWARD LIMIT/FIDELITY MAPPED; REVERSE RECOVERY IDEMPOTENCE MAPPED",
+  "physical_dark_matter_witness": false,
+  "parent_promotions": 0,
+  "execution": {
+    "forward_full_pass": "T0->T7 reconstructed single-H operators + isolated R0->R7 identity/read-only manifold pass",
+    "environment_policy": "reset ER/environment memory each full pass to isolate manifold recursion",
+    "forward_max_cycles": 256,
+    "forward_cycles_executed": 256,
+    "convergence_threshold": 1e-10,
+    "consecutive_required": 8,
+    "reverse_cycles_each": 32,
+    "reverse_semantics": "ancestry-recovery retraction, explicitly not a global inverse"
+  },
+  "results": {
+    "chirality_rewritten_forward": false,
+    "chirality_max_abs_delta_final_vs_initial": 0.0,
+    "continuity_inventory_error_final": 0.0,
+    "first_pass_aggregate_motion": 12.751840734732669,
+    "last_pass_aggregate_motion": 0.000725373336006246,
+    "forward_converged_by_rule": false,
+    "forward_stop_cycle": 256,
+    "final_C_correlation_to_initial": 0.9515331982280943,
+    "final_shell_correlation_to_initial": 0.8942958540811243,
+    "reverse_from_source_idempotent": true,
+    "reverse_from_forward_terminal_recovers_source_after_one_pass": true
+  },
+  "ruling": "Repeated isolated-H forward traversal preserves the chirality field exactly and preserves total continuity inventory, while the mutable realization fields relax recursively toward a stable fidelity basin/fixed-point neighborhood. Reverse recovery behaves as a retraction onto the mounted H ancestry rather than a global inverse: the mounted source is idempotent, and the evolved terminal state returns to the source anchor in one recovery pass under the current reverse-recovery semantics.",
+  "next_handle": "INTERPRET_FORWARD_FIXED_POINT_AS_HYDROGEN_PIPELINE_FIDELITY_BASIN_AND_COMPARE_WITH_RESOLUTION_BANDWIDTH_ANCHOR"
+}

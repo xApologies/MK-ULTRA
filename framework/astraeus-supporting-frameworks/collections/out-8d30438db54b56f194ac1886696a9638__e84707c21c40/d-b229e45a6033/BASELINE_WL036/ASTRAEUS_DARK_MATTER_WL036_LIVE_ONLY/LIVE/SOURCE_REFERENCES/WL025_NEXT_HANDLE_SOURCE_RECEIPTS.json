@@ -1,0 +1,61 @@
+{
+  "schema": "ASTRAEUS_SOURCE_RECEIPT_V1",
+  "work_layer": "WL-025",
+  "atlas": "WL-v151",
+  "date": "2026-08-17",
+  "authoritative_local_sources": {
+    "dm22_canonical": {
+      "path": "provenance://unavailable/content-sha256/131ce093184ac57e691c7ede92218ec829fadade9bf875ef001fd6cd980f895e/DARK_MATTER_API_CURRENT_CANONICAL.md",
+      "sha256": "131ce093184ac57e691c7ede92218ec829fadade9bf875ef001fd6cd980f895e"
+    },
+    "dm22_handle_registry": {
+      "path": "../../../../../../out-dd5f2e0f5bcd545bac4217403d326140__ee4819595f94/DM22_HANDLE_REGISTRY.json",
+      "sha256": "0c63fb532d28dd243f69acb0dcdc8d7f7547187c2e89fd6f84e0969b5b9d5730"
+    },
+    "dm_object_registry": {
+      "path": "../../../../../../out-dd5f2e0f5bcd545bac4217403d326140__ee4819595f94/registry/DM_OBJECT_REGISTRY.json",
+      "sha256": "dde14b8407267c6c608bb8eef29a6ae248eac0ee37e4ec5ee4ff2f86ac2bf01f"
+    },
+    "constraint_registry": {
+      "path": "../../../../../../out-dd5f2e0f5bcd545bac4217403d326140__ee4819595f94/registry/CONSTRAINT_REGISTRY.json",
+      "sha256": "274f5f69b16b380b63e4a12caccb9f11ec4b3b40a9f81a89c2443e97d2afc4da"
+    },
+    "dm_api_tool": {
+      "path": "../../../../../../out-dd5f2e0f5bcd545bac4217403d326140__ee4819595f94/tools/dm_api.py",
+      "sha256": "9d5557f5d8b0fa936b969ac08e67b0a398f2903fd915abd86f14d5fe1dd3a6f4"
+    },
+    "api43_canonical": {
+      "path": "provenance://unavailable/content-sha256/0071c1d9d6a89c283f57a9c225857fa8f49a63f8caff86d83cca4a66896b0259/MK43_Ultra_API_CURRENT_CANONICAL.md",
+      "sha256": "0071c1d9d6a89c283f57a9c225857fa8f49a63f8caff86d83cca4a66896b0259"
+    }
+  },
+  "generated_navigation_receipts": [
+    "ACTION_TO_QUALIFICATION_WL025.json",
+    "BANDWIDTH_TO_MODE0_SELECTION_WL025.json",
+    "CHIRALITY_TO_MODE0_SELECTION_WL025.json",
+    "MODE0_SELECTION_TO_BLACK_HOLE_WL025.json",
+    "MODE0_SELECTION_TO_TIME_SHELL_WL025.json",
+    "MODE0_SELECTION_TO_UCM_WL025.json",
+    "MODE0_SELECTION_TO_dm_hidden_response_operator_WL025.json",
+    "MODE0_SELECTION_TO_dm_native_hidden_witness_WL025.json",
+    "MODE0_SELECTION_TO_galaxy_WL025.json",
+    "MODE0_SELECTION_TO_gravitational_self_coupling_WL025.json",
+    "MODE0_SELECTION_TO_gravity_WL025.json",
+    "ORIENTATION_TO_MODE0_SELECTION_WL025.json",
+    "QMO041_TO_ACTION_CAND_WL025.json",
+    "QMO041_TO_ACTION_WL025.json",
+    "QMO041_TO_V38NONZERO_WL025.json",
+    "QMO041_TO_V38QUOT_WL025.json",
+    "QMO052_TO_ACTION_CAND_WL025.json",
+    "QMO052_TO_ACTION_WL025.json",
+    "QMO052_TO_QUALIFICATION_CAND_WL025.json",
+    "QMO052_TO_QUALIFICATION_WL025.json",
+    "QMO052_TO_V38NONZERO_WL025.json",
+    "QMO052_TO_V38QUOT_WL025.json",
+    "RELATIONAL_HISTORY_TO_MODE0_SELECTION_WL025.json",
+    "RESOLUTION_TO_MODE0_SELECTION_WL025.json",
+    "V38_DARK_SOURCE_NONTRIVIALITY_CRAWL_WL025.json",
+    "V38_METRIC_VARIATION_QUOTIENT_CRAWL_WL025.json"
+  ],
+  "status_precedence_note": "For status, current DM22 canonical/DM22 handle registry/object registry/constraint registry supersede stale DM20 metadata returned by dm_api.py recover(). Direct-edge and composed navigation remain usable subject to provenance/edge-direction guardrails."
+}

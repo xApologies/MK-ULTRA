@@ -1,0 +1,1132 @@
+{
+  "api_address_count": 2384,
+  "chapter_ids": [
+    "V03-C04"
+  ],
+  "created_at": "2026-08-10T10:40:51.685716+00:00",
+  "database_sha256_after": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03",
+  "database_sha256_before": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03",
+  "database_unchanged": true,
+  "failed_queries": [],
+  "requested_handles": [
+    "@api_interpretation",
+    "@canonical_artifact",
+    "@canonical_identity",
+    "@canonical_object",
+    "@canonical_presentation_route",
+    "@classification",
+    "@compile_recovered_object",
+    "@correspondence_registry",
+    "@handle_invocation_contract",
+    "@mathematical_object",
+    "@mathematical_registry",
+    "@object_identity_rule",
+    "@prime_mathematical_object",
+    "@proof_dependency_graph",
+    "@provenance",
+    "@realization_graph",
+    "@recovery_handle_contract",
+    "@recovery_intermediate_representation",
+    "@representation_graph",
+    "@required_object_classes",
+    "@source_graph",
+    "@stable_handle_naming",
+    "@theorem_graph",
+    "@type_declaration",
+    "@version_record"
+  ],
+  "results": [
+    {
+      "artifacts": [
+        {
+          "bytes": 9629,
+          "path": "provenance://unavailable/content-sha256/0d5e105d03342c8e5e4f3af918e8391f3dd9d0fb6229a8662be983cb079c9f4d/api_interpretation_cbaa60372ed84e6dbf4b567bd859abc7.md",
+          "sha256": "0d5e105d03342c8e5e4f3af918e8391f3dd9d0fb6229a8662be983cb079c9f4d"
+        }
+      ],
+      "elapsed_seconds": 0.946562,
+      "ordinal": 0,
+      "requested_handle": "@api_interpretation",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/0d5e105d03342c8e5e4f3af918e8391f3dd9d0fb6229a8662be983cb079c9f4d/api_interpretation_cbaa60372ed84e6dbf4b567bd859abc7.md",
+          "rendered_realizations": 1,
+          "sha256": "0d5e105d03342c8e5e4f3af918e8391f3dd9d0fb6229a8662be983cb079c9f4d",
+          "size_bytes": 9629,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "cbaa60372ed84e6dbf4b567bd859abc7",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@api_interpretation",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V03_C04-0000",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9629,
+          "path": "provenance://unavailable/content-sha256/51385c0a6a36f43987a941731e6b7acfd3c63e6af28eb053b7654cd5ead7aa58/canonical_artifact_0515a215d86f4812a196186a83206da7.md",
+          "sha256": "51385c0a6a36f43987a941731e6b7acfd3c63e6af28eb053b7654cd5ead7aa58"
+        }
+      ],
+      "elapsed_seconds": 0.263084,
+      "ordinal": 1,
+      "requested_handle": "@canonical_artifact",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/51385c0a6a36f43987a941731e6b7acfd3c63e6af28eb053b7654cd5ead7aa58/canonical_artifact_0515a215d86f4812a196186a83206da7.md",
+          "rendered_realizations": 1,
+          "sha256": "51385c0a6a36f43987a941731e6b7acfd3c63e6af28eb053b7654cd5ead7aa58",
+          "size_bytes": 9629,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "0515a215d86f4812a196186a83206da7",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@canonical_artifact",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V03_C04-0001",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9629,
+          "path": "provenance://unavailable/content-sha256/ace0cf9217716008461284783a2aabf1b1193ede87ff27051d736cd08551dd2b/canonical_identity_b6fe84823d6249bd9a6e7f89b99a9d32.md",
+          "sha256": "ace0cf9217716008461284783a2aabf1b1193ede87ff27051d736cd08551dd2b"
+        }
+      ],
+      "elapsed_seconds": 0.253912,
+      "ordinal": 2,
+      "requested_handle": "@canonical_identity",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/ace0cf9217716008461284783a2aabf1b1193ede87ff27051d736cd08551dd2b/canonical_identity_b6fe84823d6249bd9a6e7f89b99a9d32.md",
+          "rendered_realizations": 1,
+          "sha256": "ace0cf9217716008461284783a2aabf1b1193ede87ff27051d736cd08551dd2b",
+          "size_bytes": 9629,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "b6fe84823d6249bd9a6e7f89b99a9d32",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@canonical_identity",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V03_C04-0002",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9565,
+          "path": "provenance://unavailable/content-sha256/5397234bb555408447c68b61301cb4b0917c26c0af93cf7ba2fb5044cdc105b7/canonical_object_0b0a1d0624034a4386dae77661d2bfb4.md",
+          "sha256": "5397234bb555408447c68b61301cb4b0917c26c0af93cf7ba2fb5044cdc105b7"
+        }
+      ],
+      "elapsed_seconds": 0.249327,
+      "ordinal": 3,
+      "requested_handle": "@canonical_object",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/5397234bb555408447c68b61301cb4b0917c26c0af93cf7ba2fb5044cdc105b7/canonical_object_0b0a1d0624034a4386dae77661d2bfb4.md",
+          "rendered_realizations": 1,
+          "sha256": "5397234bb555408447c68b61301cb4b0917c26c0af93cf7ba2fb5044cdc105b7",
+          "size_bytes": 9565,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "0b0a1d0624034a4386dae77661d2bfb4",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@canonical_object",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V03_C04-0003",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9949,
+          "path": "provenance://unavailable/content-sha256/1841e34374da4463d25cbe926bf70accd4f3d00c38260d38491ab7a63c5f4857/canonical_presentation_route_7371853c35f54d91b49cae1150344697.md",
+          "sha256": "1841e34374da4463d25cbe926bf70accd4f3d00c38260d38491ab7a63c5f4857"
+        }
+      ],
+      "elapsed_seconds": 0.256648,
+      "ordinal": 4,
+      "requested_handle": "@canonical_presentation_route",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/1841e34374da4463d25cbe926bf70accd4f3d00c38260d38491ab7a63c5f4857/canonical_presentation_route_7371853c35f54d91b49cae1150344697.md",
+          "rendered_realizations": 1,
+          "sha256": "1841e34374da4463d25cbe926bf70accd4f3d00c38260d38491ab7a63c5f4857",
+          "size_bytes": 9949,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "7371853c35f54d91b49cae1150344697",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@canonical_presentation_route",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V03_C04-0004",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9507,
+          "path": "provenance://unavailable/content-sha256/4e45ef21104f7b34283a977adf604301a4cee32d3508f885bebba680498bb2bf/classification_611f394550884454930e90b39ba65f29.md",
+          "sha256": "4e45ef21104f7b34283a977adf604301a4cee32d3508f885bebba680498bb2bf"
+        }
+      ],
+      "elapsed_seconds": 0.257264,
+      "ordinal": 5,
+      "requested_handle": "@classification",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/4e45ef21104f7b34283a977adf604301a4cee32d3508f885bebba680498bb2bf/classification_611f394550884454930e90b39ba65f29.md",
+          "rendered_realizations": 1,
+          "sha256": "4e45ef21104f7b34283a977adf604301a4cee32d3508f885bebba680498bb2bf",
+          "size_bytes": 9507,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "611f394550884454930e90b39ba65f29",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@classification",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V03_C04-0005",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9662,
+          "path": "provenance://unavailable/content-sha256/bdade8e4eb7237822f88208b49470fbdd99f3b73f347631762b98a8c93b48b33/compile_recovered_object_9b1443aff22444b3b57f86a5dbb74de7.md",
+          "sha256": "bdade8e4eb7237822f88208b49470fbdd99f3b73f347631762b98a8c93b48b33"
+        }
+      ],
+      "elapsed_seconds": 0.25197,
+      "ordinal": 6,
+      "requested_handle": "@compile_recovered_object",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/bdade8e4eb7237822f88208b49470fbdd99f3b73f347631762b98a8c93b48b33/compile_recovered_object_9b1443aff22444b3b57f86a5dbb74de7.md",
+          "rendered_realizations": 1,
+          "sha256": "bdade8e4eb7237822f88208b49470fbdd99f3b73f347631762b98a8c93b48b33",
+          "size_bytes": 9662,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "9b1443aff22444b3b57f86a5dbb74de7",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@compile_recovered_object",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V03_C04-0006",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 2340509,
+          "path": "provenance://unavailable/content-sha256/f644acfd6d569d3ed4015a8e9f6f1a5a28f67c0f4ab39c13a02c46df068f5310/correspondence_registry_228f047dffdd48a18091a7e84fbe5935.md",
+          "sha256": "f644acfd6d569d3ed4015a8e9f6f1a5a28f67c0f4ab39c13a02c46df068f5310"
+        }
+      ],
+      "elapsed_seconds": 0.289362,
+      "ordinal": 7,
+      "requested_handle": "@correspondence_registry",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/f644acfd6d569d3ed4015a8e9f6f1a5a28f67c0f4ab39c13a02c46df068f5310/correspondence_registry_228f047dffdd48a18091a7e84fbe5935.md",
+          "rendered_realizations": 1,
+          "sha256": "f644acfd6d569d3ed4015a8e9f6f1a5a28f67c0f4ab39c13a02c46df068f5310",
+          "size_bytes": 2340509,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "228f047dffdd48a18091a7e84fbe5935",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@correspondence_registry",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V03_C04-0007",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9886,
+          "path": "provenance://unavailable/content-sha256/65aaf309942c494004ae41546a106fcfe42fc3b1fac23309041c51d28d87a8aa/handle_invocation_contract_3637d09734c04af68c8a3a621004bccb.md",
+          "sha256": "65aaf309942c494004ae41546a106fcfe42fc3b1fac23309041c51d28d87a8aa"
+        }
+      ],
+      "elapsed_seconds": 0.254699,
+      "ordinal": 8,
+      "requested_handle": "@handle_invocation_contract",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/65aaf309942c494004ae41546a106fcfe42fc3b1fac23309041c51d28d87a8aa/handle_invocation_contract_3637d09734c04af68c8a3a621004bccb.md",
+          "rendered_realizations": 1,
+          "sha256": "65aaf309942c494004ae41546a106fcfe42fc3b1fac23309041c51d28d87a8aa",
+          "size_bytes": 9886,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "3637d09734c04af68c8a3a621004bccb",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@handle_invocation_contract",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V03_C04-0008",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 218019,
+          "path": "provenance://unavailable/content-sha256/adcc4666da001f1ff238571b3a60ddf27a43e7e73621caffa43f6e7ebbdcea50/mathematical_object_e0a99ee4ec1e424e9daeef70e42aebd6.md",
+          "sha256": "adcc4666da001f1ff238571b3a60ddf27a43e7e73621caffa43f6e7ebbdcea50"
+        }
+      ],
+      "elapsed_seconds": 0.255114,
+      "ordinal": 9,
+      "requested_handle": "@mathematical_object",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/adcc4666da001f1ff238571b3a60ddf27a43e7e73621caffa43f6e7ebbdcea50/mathematical_object_e0a99ee4ec1e424e9daeef70e42aebd6.md",
+          "rendered_realizations": 1,
+          "sha256": "adcc4666da001f1ff238571b3a60ddf27a43e7e73621caffa43f6e7ebbdcea50",
+          "size_bytes": 218019,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "e0a99ee4ec1e424e9daeef70e42aebd6",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@mathematical_object",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V03_C04-0009",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9726,
+          "path": "provenance://unavailable/content-sha256/58c7995a079815e8f79a6341c72750b2245545c3c8a4f672f9e75617695e3a1b/mathematical_registry_9a6a65c8555c42ad890268a03c8cf201.md",
+          "sha256": "58c7995a079815e8f79a6341c72750b2245545c3c8a4f672f9e75617695e3a1b"
+        }
+      ],
+      "elapsed_seconds": 0.253656,
+      "ordinal": 10,
+      "requested_handle": "@mathematical_registry",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/58c7995a079815e8f79a6341c72750b2245545c3c8a4f672f9e75617695e3a1b/mathematical_registry_9a6a65c8555c42ad890268a03c8cf201.md",
+          "rendered_realizations": 1,
+          "sha256": "58c7995a079815e8f79a6341c72750b2245545c3c8a4f672f9e75617695e3a1b",
+          "size_bytes": 9726,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "9a6a65c8555c42ad890268a03c8cf201",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@mathematical_registry",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V03_C04-0010",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9693,
+          "path": "provenance://unavailable/content-sha256/41891fa7b0c11c85f78a6abb65426c7bd0f4a3d4069cd2cfd407e06f386aa569/object_identity_rule_095535dcfd164492b5770869fdbe1d48.md",
+          "sha256": "41891fa7b0c11c85f78a6abb65426c7bd0f4a3d4069cd2cfd407e06f386aa569"
+        }
+      ],
+      "elapsed_seconds": 0.257794,
+      "ordinal": 11,
+      "requested_handle": "@object_identity_rule",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/41891fa7b0c11c85f78a6abb65426c7bd0f4a3d4069cd2cfd407e06f386aa569/object_identity_rule_095535dcfd164492b5770869fdbe1d48.md",
+          "rendered_realizations": 1,
+          "sha256": "41891fa7b0c11c85f78a6abb65426c7bd0f4a3d4069cd2cfd407e06f386aa569",
+          "size_bytes": 9693,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "095535dcfd164492b5770869fdbe1d48",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@object_identity_rule",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V03_C04-0011",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 520270,
+          "path": "provenance://unavailable/content-sha256/5b9a21c1eaef0c51bb849e3dba21e00b0e772f8c8004f79fd6e63017a6a3b6b0/prime_mathematical_object_bf7a587cd4844ca597043a7f94e3b1a8.md",
+          "sha256": "5b9a21c1eaef0c51bb849e3dba21e00b0e772f8c8004f79fd6e63017a6a3b6b0"
+        }
+      ],
+      "elapsed_seconds": 0.258473,
+      "ordinal": 12,
+      "requested_handle": "@prime_mathematical_object",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/5b9a21c1eaef0c51bb849e3dba21e00b0e772f8c8004f79fd6e63017a6a3b6b0/prime_mathematical_object_bf7a587cd4844ca597043a7f94e3b1a8.md",
+          "rendered_realizations": 1,
+          "sha256": "5b9a21c1eaef0c51bb849e3dba21e00b0e772f8c8004f79fd6e63017a6a3b6b0",
+          "size_bytes": 520270,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "bf7a587cd4844ca597043a7f94e3b1a8",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@prime_mathematical_object",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V03_C04-0012",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 520167,
+          "path": "provenance://unavailable/content-sha256/395dd7dd2f7a0bfa16ec14834e5a7423cdb8de41a4c2301cdcde39d1dab3c1ec/proof_dependency_graph_1cf83286d1c2436a9bcc56a3034a4c46.md",
+          "sha256": "395dd7dd2f7a0bfa16ec14834e5a7423cdb8de41a4c2301cdcde39d1dab3c1ec"
+        }
+      ],
+      "elapsed_seconds": 0.261471,
+      "ordinal": 13,
+      "requested_handle": "@proof_dependency_graph",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/395dd7dd2f7a0bfa16ec14834e5a7423cdb8de41a4c2301cdcde39d1dab3c1ec/proof_dependency_graph_1cf83286d1c2436a9bcc56a3034a4c46.md",
+          "rendered_realizations": 1,
+          "sha256": "395dd7dd2f7a0bfa16ec14834e5a7423cdb8de41a4c2301cdcde39d1dab3c1ec",
+          "size_bytes": 520167,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "1cf83286d1c2436a9bcc56a3034a4c46",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@proof_dependency_graph",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V03_C04-0013",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9373,
+          "path": "provenance://unavailable/content-sha256/7dbd395e7f1514011faf23a54ae3b758778ee9b423316918bcd8bb5a18c6b3c3/provenance_3ffd9a286a504bcbbc99d73bbc7b0a8f.md",
+          "sha256": "7dbd395e7f1514011faf23a54ae3b758778ee9b423316918bcd8bb5a18c6b3c3"
+        }
+      ],
+      "elapsed_seconds": 0.257417,
+      "ordinal": 14,
+      "requested_handle": "@provenance",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/7dbd395e7f1514011faf23a54ae3b758778ee9b423316918bcd8bb5a18c6b3c3/provenance_3ffd9a286a504bcbbc99d73bbc7b0a8f.md",
+          "rendered_realizations": 1,
+          "sha256": "7dbd395e7f1514011faf23a54ae3b758778ee9b423316918bcd8bb5a18c6b3c3",
+          "size_bytes": 9373,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "3ffd9a286a504bcbbc99d73bbc7b0a8f",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@provenance",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V03_C04-0014",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 457113,
+          "path": "provenance://unavailable/content-sha256/e00c119447a4321896cb57a52304f7b5b1a3521d045024d7fa472008ad61320e/realization_graph_35ccf23a86fd47fca0bc7787c3f479a6.md",
+          "sha256": "e00c119447a4321896cb57a52304f7b5b1a3521d045024d7fa472008ad61320e"
+        }
+      ],
+      "elapsed_seconds": 0.276979,
+      "ordinal": 15,
+      "requested_handle": "@realization_graph",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/e00c119447a4321896cb57a52304f7b5b1a3521d045024d7fa472008ad61320e/realization_graph_35ccf23a86fd47fca0bc7787c3f479a6.md",
+          "rendered_realizations": 1,
+          "sha256": "e00c119447a4321896cb57a52304f7b5b1a3521d045024d7fa472008ad61320e",
+          "size_bytes": 457113,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "35ccf23a86fd47fca0bc7787c3f479a6",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@realization_graph",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk43-master-outline-158",
+        "status": "complete"
+      },
+      "resumed_without_requery": true,
+      "reused_master_query": true,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9821,
+          "path": "provenance://unavailable/content-sha256/91f0b28c4637636153177867f099060f6a465a041a6813fa3061e0fc30dffbcd/recovery_handle_contract_80d0b1bd0fea45cca5428b7a0e455de3.md",
+          "sha256": "91f0b28c4637636153177867f099060f6a465a041a6813fa3061e0fc30dffbcd"
+        }
+      ],
+      "elapsed_seconds": 0.265846,
+      "ordinal": 16,
+      "requested_handle": "@recovery_handle_contract",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/91f0b28c4637636153177867f099060f6a465a041a6813fa3061e0fc30dffbcd/recovery_handle_contract_80d0b1bd0fea45cca5428b7a0e455de3.md",
+          "rendered_realizations": 1,
+          "sha256": "91f0b28c4637636153177867f099060f6a465a041a6813fa3061e0fc30dffbcd",
+          "size_bytes": 9821,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "80d0b1bd0fea45cca5428b7a0e455de3",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@recovery_handle_contract",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V03_C04-0016",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9849,
+          "path": "provenance://unavailable/content-sha256/9dd12a23a512e90cacc94020cb84b59faffba395cf078a2a35850f01b12951c6/recovery_intermediate_representation_1e714500693f4589bc992d05f9ee15f1.md",
+          "sha256": "9dd12a23a512e90cacc94020cb84b59faffba395cf078a2a35850f01b12951c6"
+        }
+      ],
+      "elapsed_seconds": 0.257499,
+      "ordinal": 17,
+      "requested_handle": "@recovery_intermediate_representation",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/9dd12a23a512e90cacc94020cb84b59faffba395cf078a2a35850f01b12951c6/recovery_intermediate_representation_1e714500693f4589bc992d05f9ee15f1.md",
+          "rendered_realizations": 1,
+          "sha256": "9dd12a23a512e90cacc94020cb84b59faffba395cf078a2a35850f01b12951c6",
+          "size_bytes": 9849,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "1e714500693f4589bc992d05f9ee15f1",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@recovery_intermediate_representation",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V03_C04-0017",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 422589,
+          "path": "provenance://unavailable/content-sha256/116409365bdb1d208fa50adaec2af47e44543bc185b671b663c26d21d8bd5fb8/representation_graph_91314d57d2c94139aa86fafad10c5990.md",
+          "sha256": "116409365bdb1d208fa50adaec2af47e44543bc185b671b663c26d21d8bd5fb8"
+        }
+      ],
+      "elapsed_seconds": 0.250651,
+      "ordinal": 18,
+      "requested_handle": "@representation_graph",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/116409365bdb1d208fa50adaec2af47e44543bc185b671b663c26d21d8bd5fb8/representation_graph_91314d57d2c94139aa86fafad10c5990.md",
+          "rendered_realizations": 1,
+          "sha256": "116409365bdb1d208fa50adaec2af47e44543bc185b671b663c26d21d8bd5fb8",
+          "size_bytes": 422589,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "91314d57d2c94139aa86fafad10c5990",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@representation_graph",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V03_C04-0018",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9789,
+          "path": "provenance://unavailable/content-sha256/2e96f44fe2b180f16c78ba565da1baa91e479ecc5819a1b10d1ea84a63fac8f5/required_object_classes_29d3517bfd4d4a3985a95c03443b8617.md",
+          "sha256": "2e96f44fe2b180f16c78ba565da1baa91e479ecc5819a1b10d1ea84a63fac8f5"
+        }
+      ],
+      "elapsed_seconds": 0.25455,
+      "ordinal": 19,
+      "requested_handle": "@required_object_classes",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/2e96f44fe2b180f16c78ba565da1baa91e479ecc5819a1b10d1ea84a63fac8f5/required_object_classes_29d3517bfd4d4a3985a95c03443b8617.md",
+          "rendered_realizations": 1,
+          "sha256": "2e96f44fe2b180f16c78ba565da1baa91e479ecc5819a1b10d1ea84a63fac8f5",
+          "size_bytes": 9789,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "29d3517bfd4d4a3985a95c03443b8617",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@required_object_classes",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V03_C04-0019",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9324,
+          "path": "provenance://unavailable/content-sha256/3803e9b0de9966a5ec0f54ea34256845a17ab90ee37338ca40b3fea842655e66/source_graph_996b5fcdd75649329f1d0eb1cb30156b.md",
+          "sha256": "3803e9b0de9966a5ec0f54ea34256845a17ab90ee37338ca40b3fea842655e66"
+        }
+      ],
+      "elapsed_seconds": 0.26042,
+      "ordinal": 20,
+      "requested_handle": "@source_graph",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/3803e9b0de9966a5ec0f54ea34256845a17ab90ee37338ca40b3fea842655e66/source_graph_996b5fcdd75649329f1d0eb1cb30156b.md",
+          "rendered_realizations": 1,
+          "sha256": "3803e9b0de9966a5ec0f54ea34256845a17ab90ee37338ca40b3fea842655e66",
+          "size_bytes": 9324,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "996b5fcdd75649329f1d0eb1cb30156b",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@source_graph",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V03_C04-0020",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9693,
+          "path": "provenance://unavailable/content-sha256/63d8a0c4d6c7d4f28b23693022ee1d7cde6bebc272ff60eb9ac0cd3659d3edd4/stable_handle_naming_8a9e86a6d3f94456a1374bafde74b327.md",
+          "sha256": "63d8a0c4d6c7d4f28b23693022ee1d7cde6bebc272ff60eb9ac0cd3659d3edd4"
+        }
+      ],
+      "elapsed_seconds": 0.259168,
+      "ordinal": 21,
+      "requested_handle": "@stable_handle_naming",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/63d8a0c4d6c7d4f28b23693022ee1d7cde6bebc272ff60eb9ac0cd3659d3edd4/stable_handle_naming_8a9e86a6d3f94456a1374bafde74b327.md",
+          "rendered_realizations": 1,
+          "sha256": "63d8a0c4d6c7d4f28b23693022ee1d7cde6bebc272ff60eb9ac0cd3659d3edd4",
+          "size_bytes": 9693,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "8a9e86a6d3f94456a1374bafde74b327",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@stable_handle_naming",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V03_C04-0021",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9343,
+          "path": "provenance://unavailable/content-sha256/dc1bcf678c9481b206ac88b68d89ab4467d1f7f240d2d5a1345f6c8baf0c023c/theorem_graph_663405b709e745ff8ee4fcb14496e243.md",
+          "sha256": "dc1bcf678c9481b206ac88b68d89ab4467d1f7f240d2d5a1345f6c8baf0c023c"
+        }
+      ],
+      "elapsed_seconds": 0.258259,
+      "ordinal": 22,
+      "requested_handle": "@theorem_graph",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/dc1bcf678c9481b206ac88b68d89ab4467d1f7f240d2d5a1345f6c8baf0c023c/theorem_graph_663405b709e745ff8ee4fcb14496e243.md",
+          "rendered_realizations": 1,
+          "sha256": "dc1bcf678c9481b206ac88b68d89ab4467d1f7f240d2d5a1345f6c8baf0c023c",
+          "size_bytes": 9343,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "663405b709e745ff8ee4fcb14496e243",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@theorem_graph",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V03_C04-0022",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9565,
+          "path": "provenance://unavailable/content-sha256/9df89c5e886bbdfd4a3dfb67ba5752e707babae89ee268afe6c74e411137ddc6/type_declaration_594f0be192864901b268962151dbcc16.md",
+          "sha256": "9df89c5e886bbdfd4a3dfb67ba5752e707babae89ee268afe6c74e411137ddc6"
+        }
+      ],
+      "elapsed_seconds": 0.258158,
+      "ordinal": 23,
+      "requested_handle": "@type_declaration",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/9df89c5e886bbdfd4a3dfb67ba5752e707babae89ee268afe6c74e411137ddc6/type_declaration_594f0be192864901b268962151dbcc16.md",
+          "rendered_realizations": 1,
+          "sha256": "9df89c5e886bbdfd4a3dfb67ba5752e707babae89ee268afe6c74e411137ddc6",
+          "size_bytes": 9565,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "594f0be192864901b268962151dbcc16",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@type_declaration",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V03_C04-0023",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9501,
+          "path": "provenance://unavailable/content-sha256/78d8d409cca0780106c1a1bf96a1e6b9df43fa0d099bde934f2da83cd038637b/version_record_b64bce7135834be89b7291690c061212.md",
+          "sha256": "78d8d409cca0780106c1a1bf96a1e6b9df43fa0d099bde934f2da83cd038637b"
+        }
+      ],
+      "elapsed_seconds": 0.251976,
+      "ordinal": 24,
+      "requested_handle": "@version_record",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/78d8d409cca0780106c1a1bf96a1e6b9df43fa0d099bde934f2da83cd038637b/version_record_b64bce7135834be89b7291690c061212.md",
+          "rendered_realizations": 1,
+          "sha256": "78d8d409cca0780106c1a1bf96a1e6b9df43fa0d099bde934f2da83cd038637b",
+          "size_bytes": 9501,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "b64bce7135834be89b7291690c061212",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@version_record",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V03_C04-0024",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    }
+  ],
+  "reused_master_queries": [
+    "@realization_graph"
+  ],
+  "runtime_info": {
+    "api_visible_to_runtime": false,
+    "direct_api_access": false,
+    "direct_library_access": false,
+    "downstream_role": "brane",
+    "manifest": {
+      "architecture": {
+        "composition_rule": "contract-compatible ports; no domain overlap required",
+        "domain_policy": "independent-port-domains",
+        "module_storage": "external-only",
+        "mounts_external": [
+          "ai",
+          "api",
+          "library"
+        ],
+        "owns": [
+          "private_qmo",
+          "port_registry",
+          "composition_mechanism"
+        ],
+        "private_objects": [
+          "qmo"
+        ],
+        "runtime_visibility": [
+          "brane"
+        ]
+      },
+      "build_version": "2.3.3",
+      "entrypoint": "mk43_brane:Brane",
+      "module_id": "mk43.brane",
+      "name": "MK43 BRANE 2.3.3",
+      "package": "mk43_brane",
+      "release_identity_separate": true,
+      "release_version": "2.3.3",
+      "role": "brane",
+      "runtime_identity_stable": true,
+      "schema_version": "1.0",
+      "version": "2.3.3"
+    },
+    "package_root": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/src",
+    "private_qmo_access": false,
+    "qmo_visible_to_runtime": false,
+    "root": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/mk43_brane_mount_qdzw8lyr",
+    "runtime_boundary": "Runtime -> BRANE",
+    "runtime_module_id": "mk43.runtime",
+    "runtime_version": "4.2.0",
+    "source": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/BRANE_3.1.zip",
+    "source_sha256": "ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e"
+  },
+  "runtime_validation": {
+    "boundary": {
+      "ai_owned_by": "BRANE",
+      "api_owned_by": "BRANE",
+      "library_owned_by": "BRANE",
+      "qmo_owned_by": "BRANE",
+      "runtime_accepts": "BRANE",
+      "runtime_rejects_direct_api": true
+    },
+    "errors": [],
+    "info": {
+      "api_visible_to_runtime": false,
+      "direct_api_access": false,
+      "direct_library_access": false,
+      "downstream_role": "brane",
+      "manifest": {
+        "architecture": {
+          "composition_rule": "contract-compatible ports; no domain overlap required",
+          "domain_policy": "independent-port-domains",
+          "module_storage": "external-only",
+          "mounts_external": [
+            "ai",
+            "api",
+            "library"
+          ],
+          "owns": [
+            "private_qmo",
+            "port_registry",
+            "composition_mechanism"
+          ],
+          "private_objects": [
+            "qmo"
+          ],
+          "runtime_visibility": [
+            "brane"
+          ]
+        },
+        "build_version": "2.3.3",
+        "entrypoint": "mk43_brane:Brane",
+        "module_id": "mk43.brane",
+        "name": "MK43 BRANE 2.3.3",
+        "package": "mk43_brane",
+        "release_identity_separate": true,
+        "release_version": "2.3.3",
+        "role": "brane",
+        "runtime_identity_stable": true,
+        "schema_version": "1.0",
+        "version": "2.3.3"
+      },
+      "package_root": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/src",
+      "private_qmo_access": false,
+      "qmo_visible_to_runtime": false,
+      "root": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/mk43_brane_mount_qdzw8lyr",
+      "runtime_boundary": "Runtime -> BRANE",
+      "runtime_module_id": "mk43.runtime",
+      "runtime_version": "4.2.0",
+      "source": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/BRANE_3.1.zip",
+      "source_sha256": "ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e"
+    },
+    "valid": true,
+    "warnings": []
+  },
+  "schema": "mk-ultra-tome-native-chapter-query-receipt-v1",
+  "successful_queries": [
+    "@api_interpretation",
+    "@canonical_artifact",
+    "@canonical_identity",
+    "@canonical_object",
+    "@canonical_presentation_route",
+    "@classification",
+    "@compile_recovered_object",
+    "@correspondence_registry",
+    "@handle_invocation_contract",
+    "@mathematical_object",
+    "@mathematical_registry",
+    "@object_identity_rule",
+    "@prime_mathematical_object",
+    "@proof_dependency_graph",
+    "@provenance",
+    "@realization_graph",
+    "@recovery_handle_contract",
+    "@recovery_intermediate_representation",
+    "@representation_graph",
+    "@required_object_classes",
+    "@source_graph",
+    "@stable_handle_naming",
+    "@theorem_graph",
+    "@type_declaration",
+    "@version_record"
+  ]
+}

@@ -1,0 +1,1006 @@
+% MK43 Dark Matter - Supporting Canonical Recovery
+% Recovery mode: source-preserving / no mathematical reconciliation performed.
+
+
+% ======================================================================
+% CHAPTER 3: Mathematical Preliminaries
+% SOURCE: chapters_1_5/chapters_1_5.tex
+% ======================================================================
+
+\chapter{Mathematical Preliminaries}
+
+\section{Differential Geometry}
+
+Spacetime $M$ is a four-dimensional Lorentzian manifold with metric $g_{\mu\nu}$ of signature $(-,+,+,+)$. 
+We use the Levi--Civita connection $\nabla_\mu$ and curvature tensors $R^\rho_{~\sigma\mu\nu}$, $R_{\mu\nu}$, and $R$.
+
+\section{Hilbert Spaces}
+
+We take the composite Hilbert space:
+\[
+\mathcal{H} = \mathcal{H}_\tau \otimes \mathcal{H}_\chi \otimes \mathcal{H}_{ER} \otimes \mathcal{H}_g.
+\]
+
+\section{Information Geometry}
+
+We use:
+
+\begin{itemize}
+  \item von Neumann entropy $S(\rho)$,
+  \item quantum Fisher information metric $F_{ij}$,
+  \item relative entropy $S(\rho\|\sigma)$,
+\end{itemize}
+
+all of which play a role in connecting entanglement to curvature.
+
+\section{Categorical \& Operadic Tools}
+
+Advanced versions of the theory rely on:
+
+\begin{itemize}
+  \item symmetric monoidal $\infty$-categories,
+  \item $\infty$-topoi,
+  \item operadic compositions,
+  \item derived stacks.
+\end{itemize}
+
+This chapter serves as minimal preparation for later appendices.
+
+% ======================================================================
+% CHAPTER 4: Phase Metric and Time as Geometry
+% SOURCE: chapters_1_5/chapters_1_5.tex
+% ======================================================================
+
+\chapter{Phase Metric and Time as Geometry}
+
+\section{Phase Metric Contribution}
+
+We postulate:
+\[
+g^{(\tau)}_{\mu\nu}
+=
+\alpha\, \partial_\mu \tau \partial_\nu \tau.
+\]
+
+Thus the total metric becomes:
+\[
+g_{\mu\nu} 
+= 
+g^{(0)}_{\mu\nu}
++ g^{(\tau)}_{\mu\nu}
++ g^{(\chi)}_{\mu\nu}
++ g^{(ER)}_{\mu\nu}.
+\]
+
+\section{Phase Action}
+
+\[
+S_\tau
+=
+-\frac{1}{2}\int d^4x \sqrt{-g}\left(
+\beta\, g^{\mu\nu}\partial_\mu\tau\partial_\nu\tau
++ V(\tau)
+\right).
+\]
+
+The equation of motion:
+\[
+\beta \Box \tau - V'(\tau) = 0.
+\]
+
+The associated stress-energy:
+\[
+T^{(\tau)}_{\mu\nu}
+=
+\beta\, \partial_\mu\tau\partial_\nu\tau
+-\frac{1}{2}g_{\mu\nu}
+\left(
+\beta g^{\rho\sigma}\partial_\rho\tau\partial_\sigma\tau
++ V(\tau)
+\right).
+\]
+
+% ======================================================================
+% CHAPTER 5: Chromatic Fields and Energy Bands
+% SOURCE: chapters_1_5/chapters_1_5.tex
+% ======================================================================
+
+\chapter{Chromatic Fields and Energy Bands}
+
+\section{Chromatic Lagrangian}
+
+\[
+\mathcal{L}_\chi
+=
+-\frac{1}{2}G^{ab}(\bm{\chi})\, g^{\mu\nu}\partial_\mu\chi_a\partial_\nu\chi_b
+- U(\bm{\chi}),
+\]
+
+with $G^{ab}$ the field-space metric and $U$ the self-interaction potential.
+
+\section{Stress-Energy Contribution}
+
+\[
+T^{(\chi)}_{\mu\nu}
+=
+G^{ab}\partial_\mu\chi_a\partial_\nu\chi_b
+- g_{\mu\nu}\mathcal{L}_\chi.
+\]
+
+\section{White-Band Limit}
+
+When the chromatic fields collapse into a symmetric configuration,
+\[
+\bm{\chi} \to 0,
+\]
+we approach the white-state configuration $\Wcore$, the maximally compressed energy state.
+
+% ======================================================================
+% CHAPTER 7: Phase--Chromatic Coupling
+% SOURCE: chapters_6_10/chapters_6_10.tex
+% ======================================================================
+
+\chapter{Phase--Chromatic Coupling}
+
+\section{Interaction Term}
+
+We introduce a coupling Lagrangian:
+\[
+\mathcal{L}_{\tau\chi}
+=
+-\gamma\,
+G^{ab}(\bm{\chi})\, 
+(\partial_\mu \tau)(\partial^\mu \chi_a)\chi_b .
+\]
+
+\section{Coupled Equations}
+
+Phase equation acquires a chromatic backreaction:
+\[
+\beta \Box \tau - V'(\tau)
+=
+\gamma\, G^{ab}\chi_b\,\Box\chi_a .
+\]
+
+Chromatic equations acquire phase modulation:
+\[
+\nabla_\mu(G^{ab}\partial^\mu\chi_b)
+- \partial^a U
+=
+\gamma\,(\partial_\mu\tau)(\partial^\mu\chi_a).
+\]
+
+% ======================================================================
+% CHAPTER 8: Planck-Scale Tunneling and Coherence
+% SOURCE: chapters_6_10/chapters_6_10.tex
+% ======================================================================
+
+\chapter{Planck-Scale Tunneling and Coherence}
+
+\section{Tunneling Regime}
+
+As $\lambda_\gamma\to \ell_P$, photon modes lose separability.  
+We describe tunneling amplitude:
+\[
+\mathcal{T} 
+\sim 
+\exp\left(-\frac{\Delta S}{\hbar}\right),
+\]
+where $\Delta S$ is the action separation between adjacent bead states.
+
+\section{Coherence Condition}
+
+Bead-lattice coherence requires:
+\[
+|\partial_\mu\tau| < \tau_c^{-1},
+\]
+ensuring phase gradients do not decohere chromatic coupling.
+
+\section{Gravity from Tunneling}
+
+In the coherent limit:
+\[
+G_{\mu\nu}^{(\text{eff})}
+\propto
+\langle \partial_\mu \tau \partial_\nu\tau \rangle_{\rm tunnel}.
+\]
+
+% ======================================================================
+% CHAPTER 9: White-State Core Dynamics
+% SOURCE: chapters_6_10/chapters_6_10.tex
+% ======================================================================
+
+\chapter{White-State Core Dynamics}
+
+\section{White-State Definition}
+
+The white-state core $\Wcore$ satisfies:
+\[
+\bm{\chi}=0,\qquad 
+\nabla_\mu \tau =0,\qquad 
+W_{ij}=\delta_{ij}.
+\]
+
+\section{Stability Condition}
+
+Linearizing perturbations:
+\[
+\delta \bm{\chi}=0,\qquad 
+\partial_\mu \delta\tau =0
+\]
+remains invariant under the evolution operator.
+
+\section{Core Geometry}
+
+Effective curvature:
+\[
+R_{\mu\nu}(\Wcore)
+=
+\Lambda_{\rm eff}\, g_{\mu\nu},
+\]
+with $\Lambda_{\rm eff}$ determined by chromatic vacuum energy.
+
+% ======================================================================
+% CHAPTER 10: Collapse, Bounce, and Nonsingular Evolution
+% SOURCE: chapters_6_10/chapters_6_10.tex
+% ======================================================================
+
+\chapter{Collapse, Bounce, and Nonsingular Evolution}
+
+\section{Collapse to $\Wcore$}
+
+Under extreme compression:
+\[
+\bm{\chi}\to 0,
+\qquad
+\partial_\mu\tau \to 0.
+\]
+
+\section{Bounce Condition}
+
+The bounce is triggered when:
+\[
+\rho_{\chi} + \rho_\tau + \rho_{ER}
+=
+\rho_{\rm crit},
+\]
+with $\rho_{\rm crit}$ finite.
+
+\section{Re-expansion}
+
+A new ER foam emerges:
+\[
+W_{ij}^{(\text{new})} \sim W_{ij}^{(\text{old})} + \epsilon_{ij},
+\]
+seeding the next cosmic cycle.
+
+% ======================================================================
+% CHAPTER 12: Cosmology with Chromatic Sectors
+% SOURCE: chapters_11_15_with_part/chapters_11_15_with_part.tex
+% ======================================================================
+
+\chapter{Cosmology with Chromatic Sectors}
+
+\section{Chromatic Energy Densities}
+
+The chromatic fields contribute separate energy densities
+\[
+  \rho_\chi =
+  \frac{1}{2} G^{ab} \dot{\chi}_a \dot{\chi}_b + U(\bm{\chi}),
+\]
+with pressures determined by the kinetic and potential balance.
+Different chromatic modes can redshift at different rates, leading to distinct cosmological eras dominated by different bands.
+
+\section{Chromatic Era Transitions}
+
+Transitions between chromatic-dominated eras correspond to changes in which $\chi_a$ carries the dominant fraction of $\rho_\chi$.
+Such transitions can imprint features in the expansion history and may leave signatures in primordial perturbations.
+
+\section{Approach to the White-State}
+
+As the universe contracts or energy becomes highly compressed, the chromatic amplitude vector $\bm{\chi}$ tends toward the symmetric configuration defining the white-state core.
+This behaviour is central to nonsingular cosmological cycles in MK--43 Ultra.
+
+% ======================================================================
+% CHAPTER 13: White-State Cores in Cosmological Bounces
+% SOURCE: chapters_11_15_with_part/chapters_11_15_with_part.tex
+% ======================================================================
+
+\chapter{White-State Cores in Cosmological Bounces}
+
+\section{Bounce Mechanism}
+
+In a contracting phase, the total energy density
+\[
+  \rho_{\mathrm{tot}} = \rho_\tau + \rho_\chi + \rho_{ER} + \rho_{\mathrm{m}}
+\]
+approaches a finite critical value $\rho_{\mathrm{crit}}$ as the white-state is approached.
+Rather than diverging, geometric and chromatic terms conspire to produce a minimal scale factor $a_{\mathrm{min}}$ at which
+\[
+  \dot{a} = 0, \qquad \ddot{a} > 0,
+\]
+implementing a bounce.
+
+\section{White-State as Nonsingular Attractor}
+
+The white-state core $\Wcore$ acts as a nonsingular attractor configuration in the space of cosmological solutions.
+Nearby trajectories in the phase--chromatic--ER configuration space are drawn into a neighbourhood of $\Wcore$ before re-expanding along new directions in field space after the bounce.
+
+\section{Entropy and Information Across the Bounce}
+
+Information associated with pre-bounce structures is not necessarily erased.
+Instead, it can be encoded in:
+
+\begin{itemize}
+  \item the ER network pattern at the bounce,
+  \item residual phase correlations,
+  \item the distribution of near-white chromatic perturbations.
+\end{itemize}
+
+Thus MK--43 Ultra allows for partial memory between cycles without requiring a singularity.
+
+% ======================================================================
+% CHAPTER 19: Complexity, Circuits, and Interior Growth
+% SOURCE: chapters_16_20_with_part/chapters_16_20_with_part.tex
+% ======================================================================
+
+\chapter{Complexity, Circuits, and Interior Growth}
+
+\section{ER Networks as Quantum Circuits}
+
+The ER network can be viewed as a graphical representation of a quantum circuit preparing the state of the universe from a simple reference.
+Nodes correspond to gates or tensors, and ER links carry entangled degrees of freedom.
+Circuit depth and gate counts define a notion of computational complexity for the state.
+
+\section{Complexity and White-State Interiors}
+
+For collapsing configurations, the growth of the interior region associated with a white-state core can be correlated with the growth of circuit complexity.
+As the system evolves toward $\Wcore$, the complexity of the state (as measured along an appropriate circuit) increases, even as the classical geometry appears to ``collapse.''
+This suggests a dual description in which interior volume or phase-space volume is related to computational complexity.
+
+\section{Complexity Geometry}
+
+We can formalise this by introducing a complexity metric on the space of unitaries acting on the combined Hilbert space, assigning costs to different generators corresponding to phase, chromatic, ER, and geometric transformations.
+Geodesics in this metric approximate optimal circuits, and their lengths define state complexity.
+In MK--43 Ultra, this complexity geometry is layered on top of the spacetime geometry encoded in $g_{\mu\nu}^{\mathrm{(eff)}}$.
+
+% ======================================================================
+% CHAPTER 20: Tensor Networks and Holographic Codes
+% SOURCE: chapters_16_20_with_part/chapters_16_20_with_part.tex
+% ======================================================================
+
+\chapter{Tensor Networks and Holographic Codes}
+
+\section{Tensor Network Realisation}
+
+A tensor network realisation of MK--43 Ultra associates a tensor to each node of the ER graph, with legs corresponding to ER links and physical indices corresponding to local degrees of freedom.
+The chromatic fields determine bond dimensions or weights, while the phase field modulates the network structure and boundary conditions.
+
+\section{Holographic Quantum Error-Correcting Codes}
+
+In holographic regimes, the tensor network can be interpreted as a quantum error-correcting code, with bulk logical information encoded redundantly in boundary degrees of freedom.
+The ER structure then enforces code constraints, and the white-state core can be seen as a fixed point of an entanglement renormalisation flow.
+
+\section{Towards a Unified Categorical Picture}
+
+The tensor network and code perspectives admit reformulation in higher-categorical language:
+objects as sectors (phase, chromatic, ER, geometric), 1-morphisms as couplings, and 2-morphisms as transformations between couplings.
+This points toward a unified categorical formulation of MK--43 Ultra, where geometry, information, and dynamics are different facets of a single structured object.
+
+% ======================================================================
+% CHAPTER 21: Sub-Planckian Phase Order and Gradient Dynamics
+% SOURCE: chapters_21_25_with_part/chapters_21_25_with_part.tex
+% ======================================================================
+
+\chapter{Sub-Planckian Phase Order and Gradient Dynamics}
+
+\section{Phase Order Below the Planck Scale}
+
+In MK--43 Ultra, the fundamental phase field $\tau(x)$ admits sub-Planckian structure described by gradients
+\[
+\nabla_\mu \tau,\qquad \nabla_\mu \nabla_\nu \tau,
+\]
+whose fluctuations encode local time-shell deformation.
+These gradients are well-defined even in regimes where classical spacetime is not, enabling the model to describe ordering far beneath $\ell_P$.
+
+\section{Gradient Dynamics and Stability}
+
+Define the phase-gradient magnitude
+\[
+\Phi^2 = g^{\mu\nu} \nabla_\mu \tau\, \nabla_\nu \tau.
+\]
+Sub-Planckian ordering stabilises when the local cost functional
+\[
+\mathcal{L}_\tau = \alpha\, \Phi^2 + \beta\, (\Box \tau)^2 + \gamma\, (\nabla \tau)^4
+\]
+is minimised.
+The coefficients $\alpha,\beta,\gamma$ are emergent from ER-foam couplings, ensuring that phase order inherits microstructure from entanglement patterns.
+
+% ======================================================================
+% CHAPTER 22: Entropy Currents on the Time-Phase Shell
+% SOURCE: chapters_21_25_with_part/chapters_21_25_with_part.tex
+% ======================================================================
+
+\chapter{Entropy Currents on the Time-Phase Shell}
+
+\section{Entropy as a Phase-Gradient Flow}
+
+Define a local entropy density $s(x)$ associated with coarse-grained ER links and chromatic fluctuations.
+Entropy current is defined by
+\[
+J^\mu_s = s\, u^\mu + \kappa\, \nabla^\mu \tau,
+\]
+combining bulk motion $u^\mu$ with intrinsic phase-gradient drift.
+In MK--43 Ultra, entropy is transported not only by matter/energy flux but by the geometry of the time-shell itself.
+
+\section{Conservation and Production}
+
+The entropy equation becomes
+\[
+\nabla_\mu J^\mu_s = \sigma \ge 0,
+\]
+where $\sigma$ arises from ER reconnections and chromatic diffusion.
+This term encodes \emph{geometric} entropy production at the sub-Planck scale.
+
+% ======================================================================
+% CHAPTER 23: Thermal Signatures of ER-Foam and Chromatic Modes
+% SOURCE: chapters_21_25_with_part/chapters_21_25_with_part.tex
+% ======================================================================
+
+\chapter{Thermal Signatures of ER-Foam and Chromatic Modes}
+
+\section{Temperature from ER Connectivity}
+
+Thermal fluctuations are characterised by ER-link variance:
+\[
+T \propto \langle (W_{ij} - \langle W\rangle)^2 \rangle.
+\]
+Regions with highly fluctuating ER connectivity exhibit higher effective temperature, linking microscale network disorder to macroscopic thermodynamic observables.
+
+\section{Chromatic Contributions}
+
+Each chromatic band contributes a thermal signature
+\[
+T_c = \lambda_c \langle (\chi_c - \langle\chi_c\rangle)^2\rangle,
+\]
+where $\lambda_c$ depends on the white-state proximity.
+Near $\Wcore$, chromatic variance collapses, raising effective temperature and driving thermalisation.
+
+% ======================================================================
+% CHAPTER 24: Phase-Driven Irreversibility and the Arrow of Time
+% SOURCE: chapters_21_25_with_part/chapters_21_25_with_part.tex
+% ======================================================================
+
+\chapter{Phase-Driven Irreversibility and the Arrow of Time}
+
+\section{Phase Monotonicity}
+
+Time orientation emerges from monotonic increase of integrated phase:
+\[
+\mathcal{T}(x) = \int \Phi\, d\Sigma,
+\]
+which cannot decrease due to ER-foam entropy production.
+Thus the arrow of time emerges from geometric and informational irreversibility.
+
+\section{Irreversibility from ER Reconnection}
+
+ER foams constantly restructure.
+Reconnection events are not microscopically reversible due to information loss into chromatic mixing.
+This produces a preferred temporal orientation even at the sub-Planck level.
+
+% ======================================================================
+% CHAPTER 25: Equilibrium, Fluctuations, and Phase-Stability Bands
+% SOURCE: chapters_21_25_with_part/chapters_21_25_with_part.tex
+% ======================================================================
+
+\chapter{Equilibrium, Fluctuations, and Phase-Stability Bands}
+
+\section{Phase-Stability Bands}
+
+Define stability bands by inequalities on the curvature of $\tau$:
+\[
+\Delta_i: \qquad a_i \le \Box \tau \le b_i.
+\]
+Within each band, fluctuations settle into metastable configurations defining local "phases" of the time-shell.
+
+\section{Phase Transitions}
+
+Crossing bands triggers phase transitions driven by chromatic rebalancing or ER density redistribution.
+These transitions define:
+\begin{enumerate}
+\item thermal bursts,
+\item chromatic realignments,
+\item local white-state precursor formation.
+\end{enumerate}
+
+\section{Equilibrium Conditions}
+
+Local equilibrium occurs when
+\[
+\nabla_\mu J^\mu_s = 0,\qquad \nabla_\mu \tau = \mathrm{const},
+\]
+signalling vanishing entropy production and stabilised time-shell curvature.
+
+% ======================================================================
+% CHAPTER 26: Phase-Gravitational Wave Equations
+% SOURCE: chapters_26_30_with_part/chapters_26_30_with_part.tex
+% ======================================================================
+
+\chapter{Phase-Gravitational Wave Equations}
+
+\section{Linearised Phase Metric}
+
+We consider perturbations around a background solution
+\[
+g_{\mu\nu} = \bar{g}_{\mu\nu} + h_{\mu\nu},\qquad
+\tau = \bar{\tau} + \delta\tau,
+\]
+with $|h_{\mu\nu}|\ll 1$ and $|\delta\tau|\ll 1$.
+To first order, the phase metric contribution becomes
+\[
+g^{(\tau)}_{\mu\nu}
+=
+\alpha\, \partial_\mu \tau\, \partial_\nu\tau
+\simeq
+\alpha\left(
+\partial_\mu \bar{\tau}\, \partial_\nu \delta\tau
++
+\partial_\mu \delta\tau\, \partial_\nu \bar{\tau}
+\right),
+\]
+neglecting second-order terms.
+
+\section{Wave Equations in MK--43 Ultra}
+
+The linearised Einstein equations with phase contributions can be written schematically as
+\[
+\delta G_{\mu\nu}
+=
+8\pi G\left(
+\delta T_{\mu\nu}^{(\tau)}
++
+\delta T_{\mu\nu}^{(\chi)}
++
+\delta T_{\mu\nu}^{(ER)}
+\right),
+\]
+where the phase perturbation obeys a modified wave equation
+\[
+\beta\, \Box\, \delta\tau
+- V''(\bar{\tau})\, \delta\tau
+=
+\mathcal{S}_{\tau}[h_{\mu\nu},\delta\chi_a,\delta W_{ij}],
+\]
+with $\mathcal{S}_{\tau}$ capturing couplings to metric, chromatic, and ER perturbations.
+
+\section{Gauge Choices and Physical Modes}
+
+In a suitable generalised transverse-traceless gauge adapted to the background phase field, physical propagating modes split into:
+\begin{itemize}
+  \item tensorial gravitational waves,
+  \item scalar phase waves,
+  \item coupled chromatic-ER excitations.
+\end{itemize}
+The precise mode spectrum depends on the background values of $\bar{\tau}$, $\bm{\chi}_0$, and the ER network.
+
+% ======================================================================
+% CHAPTER 27: Chromatic Signatures in Gravitational Radiation
+% SOURCE: chapters_26_30_with_part/chapters_26_30_with_part.tex
+% ======================================================================
+
+\chapter{Chromatic Signatures in Gravitational Radiation}
+
+\section{Chromatic Modulation of Wave Amplitudes}
+
+Chromatic fields affect the effective stress-energy driving gravitational waves.
+For a compact source with chromatic configuration $\chi_a$, the emitted waveform acquires corrections of the form
+\[
+h_{\mu\nu}(t)
+=
+h^{(0)}_{\mu\nu}(t)
++
+\sum_a \epsilon_a\, h^{(a)}_{\mu\nu}(t),
+\]
+where $\epsilon_a$ are small parameters encoding chromatic backreaction.
+These terms can, in principle, imprint subtle spectral or polarisation-dependent signatures.
+
+\section{Frequency-Dependent Effects}
+
+Chromatic couplings can lead to frequency-dependent dispersion of phase waves and mixed modes, modifying the standard dispersion relation
+\[
+\omega^2 = k^2 \quad \longrightarrow \quad
+\omega^2 = k^2 + \Delta\omega^2_{\tau,\chi,ER}(k),
+\]
+where $\Delta\omega^2_{\tau,\chi,ER}(k)$ encapsulates corrections from the MK--43 Ultra sectors.
+
+% ======================================================================
+% CHAPTER 28: Ringdown Spectra and Echoes in White-State Objects
+% SOURCE: chapters_26_30_with_part/chapters_26_30_with_part.tex
+% ======================================================================
+
+\chapter{Ringdown Spectra and Echoes in White-State Objects}
+
+\section{Quasinormal Modes with White-State Cores}
+
+For compact objects approaching the white-state configuration in their interiors, ringdown spectra are modified.
+Boundary conditions at the effective white-state radius $r_{\Wcore}$ lead to shifted quasinormal mode (QNM) frequencies
+\[
+\omega_n = \omega_n^{\mathrm{(GR)}} + \delta\omega_n^{(\Wcore)},
+\]
+where $\delta\omega_n^{(\Wcore)}$ depends on the interior phase and chromatic profiles and the ER connectivity across the would-be horizon region.
+
+\section{Gravitational Wave Echoes}
+
+Partially reflective effective boundaries near $r_{\Wcore}$ can produce late-time echoes in the waveform, with approximate time delays
+\[
+\Delta t_{\mathrm{echo}} \sim 2\int_{r_{\Wcore}}^{r_{\mathrm{peak}}} \frac{dr}{f(r)},
+\]
+where $f(r)$ depends on the effective radial potential.
+The existence and strength of such echoes provide an observational window into the white-state structure.
+
+% ======================================================================
+% CHAPTER 29: Compact Binary Coalescences in MK--43 Ultra
+% SOURCE: chapters_26_30_with_part/chapters_26_30_with_part.tex
+% ======================================================================
+
+\chapter{Compact Binary Coalescences in MK--43 Ultra}
+
+\section{Inspiral Phase}
+
+During inspiral, MK--43 Ultra reduces to GR to high accuracy in most regimes.
+Chromatic and phase corrections can be treated as small perturbations to the post-Newtonian dynamics, potentially leading to tiny dephasings relative to GR waveforms.
+
+\section{Merger and Post-Merger Regimes}
+
+Near merger, white-state interior formation and ER-foam restructuring can significantly modify the waveform.
+Post-merger relaxation into a white-state-supported remnant or complete white-state core can lead to altered ringdown spectra as described above.
+
+% ======================================================================
+% CHAPTER 31: Phase Evolution on Cosmological Horizons
+% SOURCE: chapters_31_35_with_part/chapters_31_35_with_part.tex
+% ======================================================================
+
+\chapter{Phase Evolution on Cosmological Horizons}
+
+\section{Horizon-Scale Phase Configuration}
+
+On cosmological scales, the phase field $\tau(x)$ admits coarse-grained configurations on and near particle and event horizons.
+Let $\mathcal{H}$ denote a cosmological horizon surface with induced metric $\gamma_{ab}$.
+We may define a horizon-restricted phase
+\[
+  \tau_{\mathcal{H}}(y) = \tau(x(y)),
+\]
+where $y^a$ are coordinates on $\mathcal{H}$ and $x(y)$ embeds $\mathcal{H}$ in spacetime.
+
+The gradient $\nabla_a \tau_{\mathcal{H}}$ encodes tangential variations of the time-shell along the horizon and plays a role in encoding boundary data for the bulk geometry.
+
+\section{Holographic Encoding of Phase Data}
+
+In MK--43 Ultra, the holographic principle manifests as a mapping:
+\[
+  \{\tau,\bm{\chi},W_{ij}\}_{\text{bulk region}} \;\longleftrightarrow\;
+  \{\tau_{\mathcal{H}},\bm{\chi}_{\mathcal{H}},W_{ab}^{(\mathcal{H})}\}_{\text{horizon}},
+\]
+where $W_{ab}^{(\mathcal{H})}$ is an induced ER connectivity on $\mathcal{H}$.
+Large-scale features of the bulk phase field and chromatic distribution are encoded in the horizon data, with entropy scaling as the horizon area.
+
+\section{Phase Alignment and Cosmic Acceleration}
+
+Effective dark-energy-like behaviour can emerge when the horizon-scale phase field aligns in such a way that its potential $V(\tau)$ dominates over kinetic and chromatic contributions.
+In such regimes, the Friedmann equations acquire a nearly constant vacuum-energy component, driving accelerated expansion.
+Phase realignments on horizon scales can therefore modulate cosmic acceleration without introducing ad hoc new fields beyond $\tau$ and the chromatic sector.
+
+% ======================================================================
+% CHAPTER 38: CMB Signatures from Phase and Chromatic Structure
+% SOURCE: chapters_36_40_with_part/chapters_36_40_with_part.tex
+% ======================================================================
+
+\chapter{CMB Signatures from Phase and Chromatic Structure}
+
+\section{Large-Scale Anomalies}
+Phase gradients imprint low-\(\ell\) CMB modes.
+
+\section{Polarisation Patterns}
+Chromatic mixing modifies E/B-mode balance.
+
+% ======================================================================
+% CHAPTER 41: Phase-Engineered Materials and Metastructures
+% SOURCE: chapters_41_45_with_part/chapters_41_45_with_part.tex
+% ======================================================================
+
+\chapter{Phase-Engineered Materials and Metastructures}
+
+\section{Phase-Responsive Lattices}
+Phase gradients induce controlled deformation:
+\[
+\delta x^i = \gamma^{ij}\,\partial_j \tau.
+\]
+
+\section{Chromatic Modulated Alloys}
+Chromatic fields enhance electron-cloud configurability:
+\[
+\rho_e = \rho_{e0} + \sum_a \lambda_a \chi_a.
+\]
+
+\section{Programmable Matter Principles}
+Metastructures respond to external phase inputs through:
+\[
+\Delta \mathcal{G} = \int V(\tau,\chi)\, d^3x.
+\]
+
+% ---------- CHAPTER 42 ----------
+
+% ======================================================================
+% CHAPTER 42: ER-Stabilized Energy Conduits and Micro-Wormhole Transport
+% SOURCE: chapters_41_45_with_part/chapters_41_45_with_part.tex
+% ======================================================================
+
+\chapter{ER-Stabilized Energy Conduits and Micro-Wormhole Transport}
+
+\section{Stabilized ER Radii}
+Micro–ER channels obey:
+\[
+R_{ER} = R_0 + \epsilon\, W_{IJ}.
+\]
+
+\section{Energy Transport Efficiency}
+Transmission efficiency:
+\[
+\eta = \exp(-\kappa\, \Delta L_{\mathrm{ER}}).
+\]
+
+% ---------- CHAPTER 43 ----------
+
+% ======================================================================
+% CHAPTER 45: Phase-Control Logic and Field Computing
+% SOURCE: chapters_41_45_with_part/chapters_41_45_with_part.tex
+% ======================================================================
+
+\chapter{Phase-Control Logic and Field Computing}
+
+\section{Phase-Based Logic Gates}
+Logical state encoded as:
+\[
+|0\rangle \leftrightarrow \tau=\tau_0,
+\quad
+|1\rangle \leftrightarrow \tau=\tau_1.
+\]
+
+\section{ER-Assisted Memory}
+Persistent memory:
+\[
+M_{IJ} = f(W_{IJ},\tau,\chi).
+\]
+
+\section{Field Computing Architecture}
+Total computational energy:
+\[
+E_{\mathrm{comp}} = \sum_i \alpha_i (\partial\tau)^2.
+\]
+
+% ======================================================================
+% CHAPTER 47: ER-Linked Planetary Energy Networks
+% SOURCE: chapters_46_50_with_part/chapters_46_50_with_part.tex
+% ======================================================================
+
+\chapter{ER-Linked Planetary Energy Networks}
+
+\section{Distributed ER Nodes}
+Planetary ER nodes satisfy:
+\[
+W_{IJ}^{\text{planet}} = \frac{1}{1 + d_{IJ}/L_{\mathrm{ER}}}.
+\]
+
+\section{Energy Redistribution}
+Energy flow through ER-links:
+\[
+P_{IJ} = \eta\, W_{IJ}(E_I - E_J).
+\]
+
+% ---------- CHAPTER 48 ----------
+
+% ======================================================================
+% CHAPTER 49: Geometric Infrastructure and Phase-Supported Architecture
+% SOURCE: chapters_46_50_with_part/chapters_46_50_with_part.tex
+% ======================================================================
+
+\chapter{Geometric Infrastructure and Phase-Supported Architecture}
+
+\section{Phase-Load Distribution}
+Structural load distributed via phase curvature:
+\[
+F^i_{\mathrm{eff}} = F^i - \beta\,\partial^i\tau.
+\]
+
+\section{Phase-Reinforced Materials}
+Materials achieve enhanced strength when:
+\[
+(\partial\tau)^2 > \tau_{\mathrm{crit}}.
+\]
+
+% ---------- CHAPTER 50 ----------
+
+% ======================================================================
+% CHAPTER 51: Interstellar Phase Fields and Medium Structure
+% SOURCE: chapters_51_55_with_part/chapters_51_55_with_part.tex
+% ======================================================================
+
+\chapter{Interstellar Phase Fields and Medium Structure}
+
+\section{Phase Structure of the ISM}
+The interstellar medium (ISM) carries a background phase:
+\[
+\tau_{\mathrm{ISM}}(x) = \tau_\infty + \delta\tau_{\mathrm{cloud}}(x).
+\]
+
+\section{Chromatic Charge of Molecular Clouds}
+Chromatic distribution modifies molecular densities:
+\[
+n(x) = n_0 + \sum_a \chi_a\,\eta_a(x).
+\]
+
+% ---------- CHAPTER 52 ----------
+
+% ======================================================================
+% CHAPTER 52: Stellar ER Architecture and Core Stabilization
+% SOURCE: chapters_51_55_with_part/chapters_51_55_with_part.tex
+% ======================================================================
+
+\chapter{Stellar ER Architecture and Core Stabilization}
+
+\section{Stellar ER Adjacency}
+Stellar interiors support dense ER connectivity:
+\[
+W_{IJ}^{\star} = \exp\!\left(-\frac{d_{IJ}}{\ell_\star}\right).
+\]
+
+\section{Phase-Regulated Fusion Stability}
+Fusion output modeled via:
+\[
+L_\star = L_0 + \alpha (\partial\tau_\star)^2.
+\]
+
+% ---------- CHAPTER 53 ----------
+
+% ======================================================================
+% CHAPTER 55: Cosmic Engineering and Mega-Scale Phase Structures
+% SOURCE: chapters_51_55_with_part/chapters_51_55_with_part.tex
+% ======================================================================
+
+\chapter{Cosmic Engineering and Mega-Scale Phase Structures}
+
+\section{Phase Megastructures}
+Large-scale structures sustained by:
+\[
+S = \int (\partial\tau)^2\, d^3x.
+\]
+
+\section{Macro-ER Networks}
+Connectivity over light-years:
+\[
+W_{IJ}^{\mathrm{mega}} = \frac{1}{1 + (d_{IJ}/\mathcal{L})^p }.
+\]
+
+% ======================================================================
+% CHAPTER 62: Meta-ER Connectivity Across Sequential Universes
+% SOURCE: chapters_61_65_with_part/chapters_61_65_with_part.tex
+% ======================================================================
+
+\chapter{Meta-ER Connectivity Across Sequential Universes}
+
+\section{Cross-Cycle ER Graph}
+Meta-connectivity:
+\[
+W^{(n\rightarrow n+1)}_{IJ} = \xi\, e^{-S_{IJ}/L_{\mathrm{meta}}}.
+\]
+
+\section{Information Linking}
+Inter-cycle memory:
+\[
+\mathcal{I}_{n+1} = \mathcal{I}_{n}\,W^{(n\rightarrow n+1)}.
+\]
+
+% ---------- CHAPTER 63 ----------
+
+% ======================================================================
+% CHAPTER 63: Higher-Dimensional Phase Embeddings and Extended Topology
+% SOURCE: chapters_61_65_with_part/chapters_61_65_with_part.tex
+% ======================================================================
+
+\chapter{Higher-Dimensional Phase Embeddings and Extended Topology}
+
+\section{Phase Embedding Map}
+Embedding:
+\[
+\iota: M_4 \hookrightarrow M_{4+k};\quad \iota^\ast \tau_{(higher)} = \tau_{(4D)}.
+\]
+
+\section{Topology Induction}
+Induced curvature:
+\[
+R_{4D} = R_{(4+k)} - K_{ab}K^{ab}.
+\]
+
+% ---------- CHAPTER 64 ----------
+
+% ======================================================================
+% CHAPTER 67: Neural ER-Adjacency and Cognitive State Geometry
+% SOURCE: chapters_66_70_with_part/chapters_66_70_with_part.tex
+% ======================================================================
+
+\chapter{Neural ER-Adjacency and Cognitive State Geometry}
+
+\section{Neural ER Graph}
+Cognitive adjacency:
+\[
+W_{ij}^{\mathrm{neural}} = e^{-d_{ij}/\ell_{\mathrm{syn}}}.
+\]
+
+\section{Cognitive Phase Modes}
+Neural activation encoded in:
+\[
+\phi(t) = \int \partial_t\tau_{\mathrm{brain}}\, dV.
+\]
+
+% ---------- CHAPTER 68 ----------
+
+% ======================================================================
+% CHAPTER 72: Cultural ER Networks and Information Flow Geometry
+% SOURCE: chapters_71_75_with_part/chapters_71_75_with_part.tex
+% ======================================================================
+
+\chapter{Cultural ER Networks and Information Flow Geometry}
+
+\section{Cultural Connectivity Graph}
+Cultural ER edges:
+\[
+W_{ij}^{\mathrm{cult}} = e^{-d_{ij}/L_{\mathrm{cult}}}.
+\]
+
+\section{Information Flow}
+Flow potential:
+\[
+\Phi_{\mathrm{flow}} = \int W^{\mathrm{cult}}_{ij}(I_i - I_j)\,dt.
+\]
+
+% ---------- CHAPTER 73 ----------
+
+% ======================================================================
+% CHAPTER 77: Market ER Networks and Transaction Connectivity
+% SOURCE: chapters_76_80_with_part/chapters_76_80_with_part.tex
+% ======================================================================
+
+\chapter{Market ER Networks and Transaction Connectivity}
+
+\section{Market Connectivity Graph}
+Transaction adjacency:
+\[
+W^{\mathrm{mkt}}_{ij} = e^{-d_{ij}/L_{\mathrm{mkt}}}.
+\]
+
+\section{Exchange Potential}
+Exchange rate:
+\[
+E_{ij} = W^{\mathrm{mkt}}_{ij}(V_i - V_j).
+\]
+
+% ---------- CHAPTER 78 ----------
+
+% ======================================================================
+% CHAPTER 80: Information Field Engineering and Phase-Based Computation
+% SOURCE: chapters_76_80_with_part/chapters_76_80_with_part.tex
+% ======================================================================
+
+\chapter{Information Field Engineering and Phase-Based Computation}
+
+\section{Field Encoding}
+Information stored in phase curvature:
+\[
+I = \int (\partial\tau)^2\, dV.
+\]
+
+\section{Computational Throughput}
+Throughput:
+\[
+\mathcal{T} = \gamma\,(\partial\tau_{\mathrm{proc}})^2.
+\]

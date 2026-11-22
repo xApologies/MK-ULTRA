@@ -1,0 +1,1368 @@
+{
+  "chapter_ids": [
+    "V02-C08"
+  ],
+  "chapters": [
+    {
+      "assigned_handle_count": 25,
+      "chapter_id": "V02-C08",
+      "handles": [
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@api_interpretation` — API interpretation",
+          "canonical_uri": "mk43://recover/core/api-interpretation",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.761559+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 67,
+            "english_units": 7,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@api_interpretation",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 33,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 172,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@api_interpretation",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 9629,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V02_C08\\api_interpretation_d875fe2ad5ca4a05896aa6b2b2a8e265.md",
+            "reused_master_query": false,
+            "sha256": "0b6c342c7e88a1cc44b6791f8fa482b271baa8c86d477ab4439f08226fc5ba54"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@conservation_of_information",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.772062+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 142,
+            "english_units": 94,
+            "equation_units": 4,
+            "evidence_diversity": 2,
+            "handle": "@conservation_of_information",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 3,
+            "recommended_priority": "P2",
+            "registered_dependencies": 8,
+            "run_id": "RP-05B",
+            "score": 76,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 2957,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 723,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:723"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1798,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1798"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1799,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1799"
+            }
+          ],
+          "handle": "@conservation_of_information",
+          "incoming_relation_types": {
+            "CONNECTS_TO": 2,
+            "RESOLVED_VERTICAL_CHAIN": 1,
+            "VERTICAL_CHAIN": 1
+          },
+          "native_report": {
+            "bytes": 2105860,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\conservation_of_information_64cfb35723df45dab167e5ca57782611.md",
+            "reused_master_query": true,
+            "sha256": "c0eab905321249091e6fb86c9dd14343106ec5d0f73e2ea01ad032e2fa575521"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "CONNECTS_TO": 2,
+            "RESOLVED_VERTICAL_CHAIN": 1,
+            "VERTICAL_CHAIN": 1
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@downstream_realization_graph` — Downstream realization graph",
+          "canonical_uri": "mk43://recover/core/downstream-realization-graph",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.774060+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 83,
+            "english_units": 0,
+            "equation_units": 0,
+            "evidence_diversity": 0,
+            "handle": "@downstream_realization_graph",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 12,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 170,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@downstream_realization_graph",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 9949,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V02_C08\\downstream_realization_graph_2c30ba76011b4ba68e01dca003447add.md",
+            "reused_master_query": false,
+            "sha256": "5570aeeedeb1dd61f2f0268a655b838e145c4e2731044dc0128ebf7f657b3e36"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@field_encoding` — Field Encoding",
+          "canonical_uri": "mk43://recover/field/field-encoding",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.777061+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 77,
+            "english_units": 3,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@field_encoding",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 3,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 22,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 254,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@field_encoding",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 9512,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V02_C08\\field_encoding_060c8c77f95e42379cd44f5f2735a505.md",
+            "reused_master_query": false,
+            "sha256": "f31c370b1b6f5d9de1e87bae439c023b732f2f3eb9bbf9f666b1b83ed54ff857"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@holographic_encoding` — Holographic Encoding",
+          "canonical_uri": "mk43://recover/information/holographic-encoding",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.882687+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 75,
+            "english_units": 6,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@holographic_encoding",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 4,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 32,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 244,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@holographic_encoding",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 9726,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\holographic_encoding_82d3025f940b45a3b2632ab1148e46c7.md",
+            "reused_master_query": true,
+            "sha256": "bc307d50153ccb0a26f8011e38c70987887eb6ed7b42e74fb01685de936afab7"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@holographic_encoding_of_phase_data` — Holographic Encoding of Phase Data",
+          "canonical_uri": "mk43://recover/information/holographic-encoding-of-phase-data",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.882687+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 72,
+            "english_units": 9,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@holographic_encoding_of_phase_data",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 39,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 227,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@holographic_encoding_of_phase_data",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 10175,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V02_C08\\holographic_encoding_of_phase_data_f437dd1fb947486990068709eebc7649.md",
+            "reused_master_query": false,
+            "sha256": "2cdf4e122a4750afc4a39460d50b836ef7db7cc02fe2b94efa9cefade70e2373"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@information_flow` — Information Flow",
+          "canonical_uri": "mk43://recover/information/information-flow",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.882687+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 119,
+            "english_units": 4,
+            "equation_units": 1,
+            "evidence_diversity": 2,
+            "handle": "@information_flow",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 3,
+            "recommended_priority": "P2",
+            "registered_dependencies": 5,
+            "run_id": "RP-05B",
+            "score": 37,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 2784,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            }
+          ],
+          "handle": "@information_flow",
+          "incoming_relation_types": {
+            "CONSTRAINS": 3
+          },
+          "native_report": {
+            "bytes": 692870,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\information_flow_75706eb6b9d740fbadeeb88f82b8ec8e.md",
+            "reused_master_query": true,
+            "sha256": "f30296ea5010a6006ca6bba5bf0ffecc55efc3650572f1313247196a608e0aad"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "CONSTRAINED_BY": 2
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@information_geometry` — Information = Geometry",
+          "canonical_uri": "mk43://recover/information/information-geometry",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.882687+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 103,
+            "english_units": 2,
+            "equation_units": 3,
+            "evidence_diversity": 2,
+            "handle": "@information_geometry",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 3,
+            "recommended_priority": "P2",
+            "registered_dependencies": 4,
+            "run_id": "RP-05B",
+            "score": 44,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 2842,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 722,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:722"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1798,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1798"
+            }
+          ],
+          "handle": "@information_geometry",
+          "incoming_relation_types": {
+            "INTERFACES_WITH": 2
+          },
+          "native_report": {
+            "bytes": 1168523,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\information_geometry_57d00a73820b46a5a5ed681b634f4690.md",
+            "reused_master_query": true,
+            "sha256": "23116cbec8cae7716574b8652125e0e99d209fc4b43513c0e783d39d9f5d1cea"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "INTERFACES_WITH": 2
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@information_geometry_contract` — Information Geometry Contract",
+          "canonical_uri": "mk43://recover/information/information-geometry-contract",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.882687+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 66,
+            "english_units": 6,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@information_geometry_contract",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 30,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 153,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@information_geometry_contract",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 10009,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V02_C08\\information_geometry_contract_c6f1855b4b774dbe9049329045b0dd30.md",
+            "reused_master_query": false,
+            "sha256": "7927fa04abd84ce440f5282da75561a06fc8bb58599bd0f890a8fc9f7e52f4bf"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@information_linking` — Information Linking",
+          "canonical_uri": "mk43://recover/information/information-linking",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.882687+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 68,
+            "english_units": 1,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@information_linking",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 15,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 210,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@information_linking",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 9695,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V02_C08\\information_linking_3d61cee523044230b8ef22b44aa1bbde.md",
+            "reused_master_query": false,
+            "sha256": "eb27cc175e92496371aa64a1de0e569a443e67fc0dac6548a523fd8ad9b54e67"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@information_loss",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.882687+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 206,
+            "english_units": 7,
+            "equation_units": 4,
+            "evidence_diversity": 2,
+            "handle": "@information_loss",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P2",
+            "registered_dependencies": 156,
+            "run_id": "RP-05B",
+            "score": 66,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 4063,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 721,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:721"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 723,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:723"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1960,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1960"
+            }
+          ],
+          "handle": "@information_loss",
+          "incoming_relation_types": {
+            "BLACK_HOLE_GLOBAL_REACHES": 1,
+            "BLACK_HOLE_MODEL_REACHES": 1,
+            "SUPPORTS": 1,
+            "SUPPORTS_FAMILY": 1
+          },
+          "native_report": {
+            "bytes": 2138359,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V02_C08\\information_loss_3f2c435a2a354b1ab458baa542046554.md",
+            "reused_master_query": false,
+            "sha256": "318ff8b3e5f9e668759e6b81c6c61e28df475ff14f92f5a88f8f9a8f56ffb947"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "BLACK_HOLE_CROSS_FAMILY_NODE": 1,
+            "COMPOSED_DEPENDENCY": 147,
+            "DEPENDS_ON": 1,
+            "FAMILY_DEPENDS_ON": 1,
+            "FEEDS_BLACK_HOLE_MODEL": 1,
+            "GLOBALLY_FEEDS_BLACK_HOLE": 1
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@information_recovery",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.882687+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 275,
+            "english_units": 52,
+            "equation_units": 5,
+            "evidence_diversity": 2,
+            "handle": "@information_recovery",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P2",
+            "registered_dependencies": 270,
+            "run_id": "RP-05B",
+            "score": 82,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 5205,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 721,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:721"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 723,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:723"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 732,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:732"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1960,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1960"
+            }
+          ],
+          "handle": "@information_recovery",
+          "incoming_relation_types": {
+            "BLACK_HOLE_GLOBAL_REACHES": 1,
+            "BLACK_HOLE_MODEL_REACHES": 1,
+            "SUPPORTS": 66,
+            "SUPPORTS_FAMILY": 1
+          },
+          "native_report": {
+            "bytes": 2689300,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V02_C08\\information_recovery_fce672af16c84e899887cc39cc549a22.md",
+            "reused_master_query": false,
+            "sha256": "cafc8ddd4033cd840065bb52866e9aa6655568a72490a1ee9643a1e2f463858b"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "BLACK_HOLE_CROSS_FAMILY_NODE": 1,
+            "COMPOSED_DEPENDENCY": 149,
+            "DEPENDS_ON": 47,
+            "FAMILY_DEPENDS_ON": 1,
+            "FEEDS_BLACK_HOLE_MODEL": 1,
+            "GLOBALLY_FEEDS_BLACK_HOLE": 1,
+            "RESOLVES_BRANCH": 1
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@interpretation` — Interpretation",
+          "canonical_uri": "mk43://recover/core/interpretation",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.883689+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 83,
+            "english_units": 2,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@interpretation",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 4,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 20,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 1191,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@interpretation",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 9516,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V02_C08\\interpretation_bae13ee5ac854bbcabe583e97166f315.md",
+            "reused_master_query": false,
+            "sha256": "b3f1d0d992fde22a8c267f8098f9daab3138e8283788c5df7f6b9e04dca091a5"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@matter_readable_organization` — Matter-Readable Organization",
+          "canonical_uri": "mk43://recover/dependency/matter-readable-organization",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.884689+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 225,
+            "english_units": 113,
+            "equation_units": 3,
+            "evidence_diversity": 2,
+            "handle": "@matter_readable_organization",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 3,
+            "recommended_priority": "P2",
+            "registered_dependencies": 49,
+            "run_id": "RP-05B",
+            "score": 69,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 3440,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 551,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:551"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 719,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:719"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1799,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1799"
+            }
+          ],
+          "handle": "@matter_readable_organization",
+          "incoming_relation_types": {
+            "BLACK_HOLE_GLOBAL_REACHES": 1,
+            "BLACK_HOLE_MODEL_REACHES": 1,
+            "COMPOSED_DEPENDENCY": 39,
+            "DEPENDS_TO": 1,
+            "DIRECTED_TO": 1,
+            "EXPLICIT_ARROW": 1,
+            "FORMALLY_DEPENDS_ON": 1,
+            "RECOVERED_DEPENDENCY": 1,
+            "USED_BY": 1,
+            "VERTICAL_CHAIN": 1
+          },
+          "native_report": {
+            "bytes": 361354,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\matter_readable_organization_c1b94a3a2aba443985d47ab139ca7a4f.md",
+            "reused_master_query": true,
+            "sha256": "340fc6dee9a25ffca5954681e0840620914610ed22fe671e9808aeea645be448"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "FORMALLY_SUPPORTS": 1
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@mutual_information_and_er_weights` — Mutual Information and ER Weights",
+          "canonical_uri": "mk43://recover/substrate/mutual-information-and-er-weights",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.885695+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 113,
+            "english_units": 1,
+            "equation_units": 2,
+            "evidence_diversity": 2,
+            "handle": "@mutual_information_and_er_weights",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P2",
+            "registered_dependencies": 2,
+            "run_id": "RP-05B",
+            "score": 31,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 2680,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 2204,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:2204"
+            }
+          ],
+          "handle": "@mutual_information_and_er_weights",
+          "incoming_relation_types": {
+            "CONNECTS_TO": 1
+          },
+          "native_report": {
+            "bytes": 761806,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V02_C08\\mutual_information_and_er_weights_057b31e23af0471a8ff2b9f7166002e5.md",
+            "reused_master_query": false,
+            "sha256": "def7da851fd2764e1dc3b46624c023dde13141f88a961ec8f77b61cd0d4054ed"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "CONNECTS_TO": 1
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@mutual_information_weighting` — Mutual-information weighting",
+          "canonical_uri": "mk43://recover/information/mutual-information-weighting",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.885695+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 66,
+            "english_units": 6,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@mutual_information_weighting",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 30,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 147,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@mutual_information_weighting",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 9977,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V02_C08\\mutual_information_weighting_a7fad60fc5bc4c54ad55425aa133ba24.md",
+            "reused_master_query": false,
+            "sha256": "d946f3853488f0f8425cb239ceb4026d46a2b0ddcd1cdf779e148af0f34286e8"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@observational_graph",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.886695+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 82,
+            "english_units": 45,
+            "equation_units": 1,
+            "evidence_diversity": 2,
+            "handle": "@observational_graph",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P2",
+            "registered_dependencies": 2,
+            "run_id": "RP-05B",
+            "score": 51,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 320,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 722,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:722"
+            }
+          ],
+          "handle": "@observational_graph",
+          "incoming_relation_types": {
+            "SPECIALIZES_AS": 1
+          },
+          "native_report": {
+            "bytes": 71982,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\observational_graph_18dcc42908d447e3bdaecda043845d48.md",
+            "reused_master_query": true,
+            "sha256": "047ac794a40ec9d7d0da7d0125b6f71fc7e9f55855f7e71d8da2410064b0de88"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "GENERALIZES": 1
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@particle_readable_organization` — Particle-Readable Organization",
+          "canonical_uri": "mk43://recover/dependency/particle-readable-organization",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.886695+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 156,
+            "english_units": 106,
+            "equation_units": 3,
+            "evidence_diversity": 2,
+            "handle": "@particle_readable_organization",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 4,
+            "recommended_priority": "P2",
+            "registered_dependencies": 21,
+            "run_id": "RP-05B",
+            "score": 70,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 3111,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 550,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:550"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 722,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:722"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1799,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1799"
+            }
+          ],
+          "handle": "@particle_readable_organization",
+          "incoming_relation_types": {
+            "COMPOSED_DEPENDENCY": 7,
+            "DEPENDS_TO": 1,
+            "DIRECTED_TO": 1,
+            "EXPLICIT_ARROW": 1,
+            "FORMALLY_DEPENDS_ON": 1,
+            "FORMALLY_SUPPORTS": 1,
+            "RECOVERED_DEPENDENCY": 1,
+            "USED_BY": 1
+          },
+          "native_report": {
+            "bytes": 345320,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V02_C08\\particle_readable_organization_7ec0a826751c4b09963df6a4aeb24cea.md",
+            "reused_master_query": false,
+            "sha256": "581795294b5eaf1e8ac587e381dd2eb97c0af96747c6dd36bd467266cd1730a6"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "DEPENDS_TO": 1,
+            "DIRECTED_TO": 1,
+            "EXPLICIT_ARROW": 1,
+            "FORMALLY_DEPENDS_ON": 1,
+            "FORMALLY_SUPPORTS": 1,
+            "RECOVERED_DEPENDENCY": 1,
+            "USED_BY": 1
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@readable_spacetime",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.889194+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 103,
+            "english_units": 47,
+            "equation_units": 7,
+            "evidence_diversity": 2,
+            "handle": "@readable_spacetime",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 1,
+            "recommended_priority": "P2",
+            "registered_dependencies": 2,
+            "run_id": "RP-05B",
+            "score": 78,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 1565,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 550,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:550"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 712,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:712"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 723,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:723"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 732,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:732"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1798,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1798"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1799,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1799"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 2203,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:2203"
+            }
+          ],
+          "handle": "@readable_space_time",
+          "incoming_relation_types": {
+            "DIRECTED_TO": 1,
+            "USED_BY": 1
+          },
+          "native_report": {
+            "bytes": 2194470,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\readable_space_time_b8b85d0e7cd5463e9508ff7b7366f35f.md",
+            "reused_master_query": true,
+            "sha256": "8ee476889fd89c7553c7b1a60fd91e1f5fd05fb7b75fb9ac27ecd14d5aa358e9"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@readable_spacetime",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.889194+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 103,
+            "english_units": 47,
+            "equation_units": 7,
+            "evidence_diversity": 2,
+            "handle": "@readable_spacetime",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 1,
+            "recommended_priority": "P2",
+            "registered_dependencies": 2,
+            "run_id": "RP-05B",
+            "score": 78,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 1565,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 550,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:550"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 712,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:712"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 723,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:723"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 732,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:732"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1798,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1798"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1799,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1799"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 2203,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:2203"
+            }
+          ],
+          "handle": "@readable_spacetime",
+          "incoming_relation_types": {
+            "DIRECTED_TO": 1,
+            "USED_BY": 1
+          },
+          "native_report": {
+            "bytes": 2194471,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V02_C08\\readable_spacetime_b1a41e5026544c088d0b701a6744f067.md",
+            "reused_master_query": false,
+            "sha256": "a3b4176a2348548cabc74e2634f3b89ae4f6be9b98898d2633761309ac489ef9"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@realization_expansion_operator",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.889194+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 22,
+            "english_units": 3,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@realization_expansion_operator",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 1,
+            "recommended_priority": "P1",
+            "registered_dependencies": 1,
+            "run_id": "RP-05B",
+            "score": 21,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 116,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@realization_expansion_operator",
+          "incoming_relation_types": {
+            "FORMALLY_DEPENDS_ON": 1
+          },
+          "native_report": {
+            "bytes": 9615,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V02_C08\\realization_expansion_operator_e43c38b2ab5a49b181905c1ed3dbf440.md",
+            "reused_master_query": false,
+            "sha256": "d79c47975156c927c1afb293929196628fb8de745ef2295b413c4b3307020b19"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@realization_graph",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.889194+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 85,
+            "english_units": 48,
+            "equation_units": 2,
+            "evidence_diversity": 2,
+            "handle": "@realization_graph",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P2",
+            "registered_dependencies": 2,
+            "run_id": "RP-05B",
+            "score": 58,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 331,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 550,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:550"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1798,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1798"
+            }
+          ],
+          "handle": "@realization_graph",
+          "incoming_relation_types": {
+            "SPECIALIZES_AS": 1
+          },
+          "native_report": {
+            "bytes": 457113,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\realization_graph_35ccf23a86fd47fca0bc7787c3f479a6.md",
+            "reused_master_query": true,
+            "sha256": "e00c119447a4321896cb57a52304f7b5b1a3521d045024d7fa472008ad61320e"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "GENERALIZES": 1
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@representation_graph",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.890197+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 82,
+            "english_units": 46,
+            "equation_units": 1,
+            "evidence_diversity": 2,
+            "handle": "@representation_graph",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P2",
+            "registered_dependencies": 2,
+            "run_id": "RP-05B",
+            "score": 51,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 320,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 1798,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1798"
+            }
+          ],
+          "handle": "@representation_graph",
+          "incoming_relation_types": {
+            "SPECIALIZES_AS": 1
+          },
+          "native_report": {
+            "bytes": 422589,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V02_C08\\representation_graph_f4e882a5ce014bacbb362e70ce64e4cf.md",
+            "reused_master_query": false,
+            "sha256": "52b4e2876dd4d48fe4009501c17917dd940a3c01a9930d3ca81099c84c29b03c"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "GENERALIZES": 1
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@semantic_graph",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.891197+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 78,
+            "english_units": 48,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@semantic_graph",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P1",
+            "registered_dependencies": 2,
+            "run_id": "RP-05B",
+            "score": 44,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 314,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@semantic_graph",
+          "incoming_relation_types": {
+            "SPECIALIZES_AS": 1
+          },
+          "native_report": {
+            "bytes": 9368,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V02_C08\\semantic_graph_e91dda577e65426bbcc5f268351f4d86.md",
+            "reused_master_query": false,
+            "sha256": "f5a4836feb8450cc876e1333b9c8154a634c5d20ccd500775720f5288ce291e0"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "GENERALIZES": 1
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@source_graph",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.891197+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 78,
+            "english_units": 50,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@source_graph",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P1",
+            "registered_dependencies": 2,
+            "run_id": "RP-05B",
+            "score": 44,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 318,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@source_graph",
+          "incoming_relation_types": {
+            "SPECIALIZES_AS": 1
+          },
+          "native_report": {
+            "bytes": 9324,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V02_C08\\source_graph_bbadb2c086a94429821be1eaeb2ccf6d.md",
+            "reused_master_query": false,
+            "sha256": "139009a5a282a9909d8270e26148fc144361bb222a4b197066758dee146f82d4"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "GENERALIZES": 1
+          }
+        }
+      ],
+      "title": "Information and Realization"
+    }
+  ],
+  "database_sha256": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03",
+  "database_unchanged": true,
+  "query_architecture": "Runtime -> BRANE -> API/QMO -> Library 4.1",
+  "query_receipt": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\native_query_receipt_V02_C08.json",
+  "schema": "mk-ultra-tome-native-evidence-digest-v1"
+}

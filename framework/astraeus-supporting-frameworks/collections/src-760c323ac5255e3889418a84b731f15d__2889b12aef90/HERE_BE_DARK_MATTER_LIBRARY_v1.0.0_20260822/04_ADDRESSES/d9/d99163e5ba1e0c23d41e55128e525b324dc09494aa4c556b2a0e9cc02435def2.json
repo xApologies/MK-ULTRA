@@ -1,0 +1,25 @@
+{
+  "handle": "iteration://IT-DM-E082-TRACE-TO-RESIDUE",
+  "object_type": "bounded_iteration",
+  "status": "CONDITIONAL_RESIDUE_SURVIVAL_CLOSED",
+  "domain": "ITERATION",
+  "namespace": "mk43://iteration",
+  "name": "IT-DM-E082-TRACE-TO-RESIDUE",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "BOUNDED_ITERATION",
+  "metadata": {
+    "id": "IT-DM-E082-TRACE-TO-RESIDUE",
+    "seed": "@dm_port_response_trace_invariant",
+    "terminal_state": "CONDITIONAL_RESIDUE_SURVIVAL_CLOSED",
+    "source_file": "IT-DM-E082-TRACE-TO-RESIDUE.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_ITERATION_RUN_V1\", \"run_id\": \"IT-DM-E082-TRACE-TO-RESIDUE\", \"checkpoint\": \"E082\", \"seed\": \"@dm_port_response_trace_invariant\", \"ceiling\": 128, \"iterations_used\": 4, \"terminal_state\": \"CONDITIONAL_RESIDUE_SURVIVAL_CLOSED\", \"open_next\": \"@dm_response_trace_q_handoff_witness\", \"note\": \"Stable abstraction boundary used only at the projection-symmetry action.\"}"
+  },
+  "address": "iteration://IT-DM-E082-TRACE-TO-RESIDUE",
+  "address_sha256": "d99163e5ba1e0c23d41e55128e525b324dc09494aa4c556b2a0e9cc02435def2"
+}

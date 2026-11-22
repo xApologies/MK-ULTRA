@@ -1,0 +1,87 @@
+[
+  {
+    "source": "@primitive/unbounded_environment",
+    "relation": "GAINS_DISTINCTION_VIA",
+    "target": "@primitive/first_fold"
+  },
+  {
+    "source": "@primitive/first_fold",
+    "relation": "ORIENTS_AS",
+    "target": "@qmo/oriented_dependency"
+  },
+  {
+    "source": "@qmo/two_ball_relation",
+    "relation": "SUPPORTS",
+    "target": "@qmo/shared_relational_resolution"
+  },
+  {
+    "source": "@qmo/two_ball_relation",
+    "relation": "SUPPORTS",
+    "target": "@qmo/shared_relational_bandwidth"
+  },
+  {
+    "source": "@qmo/shared_relational_resolution",
+    "relation": "READS",
+    "target": "@qmo/propagation_morphism"
+  },
+  {
+    "source": "@qmo/shared_relational_bandwidth",
+    "relation": "CONSTRAINS",
+    "target": "@qmo/propagation_morphism"
+  },
+  {
+    "source": "@qmo/rainbow_road",
+    "relation": "ROUTES",
+    "target": "@qmo/propagation_morphism"
+  },
+  {
+    "source": "@qmo/portal_token",
+    "relation": "FACTORIZES",
+    "target": "@qmo/rainbow_road"
+  },
+  {
+    "source": "@qmo/propagation_morphism",
+    "relation": "RESOLVES_AS",
+    "target": "@qmo/propagation_vector"
+  },
+  {
+    "source": "@qmo/propagation_morphism",
+    "relation": "RESOLVES_AS",
+    "target": "@qmo/propagation_scalar"
+  },
+  {
+    "source": "@qmo/propagation_morphism",
+    "relation": "RESOLVES_AS",
+    "target": "@qmo/propagation_vector_fiber"
+  },
+  {
+    "source": "@qmo/genesis_projection_operator",
+    "relation": "READS_ORGANIZATION_OF",
+    "target": "@qmo/propagation_morphism"
+  },
+  {
+    "source": "@qmo/house_inheritance",
+    "relation": "TESTS_IDENTITY_THROUGH",
+    "target": "@qmo/propagation_morphism"
+  },
+  {
+    "source": "@qmo/riemann_sphere_sandbox",
+    "relation": "TESTS_GEOMETRY_OF",
+    "target": "@qmo/propagation_morphism"
+  },
+  {
+    "source": "@qmo/fractal_projection_signature",
+    "relation": "TESTS_IDENTITY_PROFILE_OF",
+    "target": "@qmo/propagation_morphism"
+  },
+  {
+    "source": "@qmo/shared_relational_resolution",
+    "relation": "FEEDS",
+    "target": "@qmo/shared_relational_resolution_transport"
+  },
+  {
+    "source": "@qmo/rainbow_road",
+    "relation": "IMPLEMENTS",
+    "target": "@qmo/shared_relational_resolution_transport"
+  }
+]

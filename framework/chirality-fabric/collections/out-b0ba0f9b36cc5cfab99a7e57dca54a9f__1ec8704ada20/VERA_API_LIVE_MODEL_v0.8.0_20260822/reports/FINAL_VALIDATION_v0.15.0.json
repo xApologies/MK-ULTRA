@@ -1,0 +1,59 @@
+{
+  "schema": "ASTRAEUS_BLACK_RAINBOW_VALIDATION_V15",
+  "version": "0.15.0",
+  "date": "2026-08-22",
+  "passed": true,
+  "frontier": "@number_scale_reparameterization_frontier",
+  "live_model_revision": "v0.28.0",
+  "counts": {
+    "objects": 282,
+    "edges": 438,
+    "equations": 32,
+    "theorems": 13,
+    "candidates": 9,
+    "certificates": 75,
+    "metadata": 282,
+    "dependency_landscapes": 20,
+    "dependency_graphs": 4,
+    "dependency_chains": 2,
+    "iterations": 6,
+    "commands": 43,
+    "functions": 2,
+    "sources": 9
+  },
+  "db_mirror_counts": {
+    "objects": 282,
+    "edges": 438,
+    "equations": 32,
+    "theorems": 13,
+    "candidates": 9,
+    "sources": 9,
+    "qmo_metadata": 282,
+    "dependency_landscapes": 20,
+    "dependency_graphs": 4,
+    "dependency_chains": 2,
+    "iteration_runs": 6
+  },
+  "checks": {
+    "all_json_parse": true,
+    "unique_qmo_handles": true,
+    "qmo_metadata_bijection": true,
+    "all_edge_endpoints_registered_qmos": true,
+    "unique_edge_ids": true,
+    "landscape_members_registered": true,
+    "landscape_edges_registered": true,
+    "graph_chain_iteration_addresses_registered": true,
+    "candidate_addresses_registered": true,
+    "equation_theorem_legacy_symbolic_handles_allowed": true,
+    "source_archive_hashes_match_registry": true,
+    "current_frontier_registered": true,
+    "sqlite_core_mirrors_synced": true
+  },
+  "open_result": {
+    "handle": "@number_scale_reparameterization_frontier",
+    "bounded_crawl": "@it_number_scale_reparameterization_4",
+    "requested_passes": 4,
+    "terminal": "MAX_ITERATIONS",
+    "interpretation": "No licensed scale law closed within the requested registered-dependency horizon; frontier remains open."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "device_capability_fingerprint": {
+      "type": "string"
+    },
+    "fingerprint": {
+      "type": "string"
+    },
+    "policy_id": {
+      "type": "string"
+    },
+    "protected_events": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "rules": {
+      "items": {
+        "$ref": "transform_rule.schema.json"
+      },
+      "type": "array"
+    },
+    "spo_instance_fingerprint": {
+      "type": "string"
+    },
+    "unknown_default": {
+      "const": "PRESERVE"
+    },
+    "user_override": {
+      "const": true
+    }
+  },
+  "required": [
+    "policy_id",
+    "spo_instance_fingerprint",
+    "device_capability_fingerprint",
+    "rules",
+    "protected_events",
+    "unknown_default",
+    "user_override",
+    "fingerprint"
+  ],
+  "title": "Compiled Device Policy",
+  "type": "object"
+}

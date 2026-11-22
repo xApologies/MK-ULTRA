@@ -1,0 +1,103 @@
+{
+  "schema": "tome-publication-renderer-validation/v1",
+  "created_at": "2026-08-11T22:02:33.365358+00:00",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "engine": "KaTeX 0.16.22 -> HTML/CSS -> Playwright -> Microsoft Edge PDF",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_16_PREDICTIONS_AND_ENGINEERING_APPLICATIONS/MK_ULTRA_TOME_V16_C05_FIELD_CONTROL_AND_PHASE_ENGINEERING_MODELS.pdf",
+    "bytes": 156929,
+    "sha256": "ab6e5de29b45050ff8fb594a8d290a338dac53b7556a0935a409198831e56de4"
+  },
+  "actual_pages": 6,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V16-C05": 3
+  },
+  "chapter_validations": [
+    {
+      "chapter_id": "V16-C05",
+      "source_sha256": "3c29c66ac4483258f18a44ae814078e49a1b4f408c2eebc08ca682a145676609",
+      "page_start": 3,
+      "headings": 23,
+      "display_equations": 21,
+      "inline_equations": 0,
+      "equation_tags": 21,
+      "api_handles": 8,
+      "table_rows": 9,
+      "content_markers_present": true
+    }
+  ],
+  "engine_metrics": {
+    "renderer": "TOME_PUBLICATION_RENDERER_V1",
+    "katexVersion": "0.16.22",
+    "chapters": [
+      {
+        "id": "V16-C05",
+        "sourceBytes": 8660,
+        "paragraphs": 42,
+        "headings": 23,
+        "displayEquations": 21,
+        "inlineEquations": 0,
+        "tables": 1,
+        "tableRows": 8,
+        "listItems": 0,
+        "codeBlocks": 0,
+        "figures": 0
+      }
+    ],
+    "paragraphs": 42,
+    "headings": 23,
+    "displayEquations": 21,
+    "inlineEquations": 0,
+    "tables": 1,
+    "tableRows": 8,
+    "listItems": 0,
+    "blockQuotes": 0,
+    "codeBlocks": 0,
+    "figures": 0,
+    "mathLayout": {
+      "checked": 21,
+      "scaled": [],
+      "remainingOverflow": []
+    }
+  },
+  "raw_latex_guard": {
+    "result": "PASS",
+    "hits": [],
+    "commands_scanned": [
+      "frac",
+      "mathcal",
+      "mathrm",
+      "begin",
+      "end",
+      "left",
+      "right",
+      "longrightarrow",
+      "rightarrow",
+      "otimes",
+      "partial",
+      "nabla",
+      "mu",
+      "nu",
+      "sum",
+      "int",
+      "operatorname"
+    ]
+  },
+  "visual_qa": {
+    "result": "PASS",
+    "pages_rendered": 6,
+    "pages_inspected": 6,
+    "contact_sheets_inspected": 2,
+    "findings": [],
+    "inspection_note": "All six rendered pages were visually inspected after the inline-math publication correction. Cover, contents, all 21 equations, evidence register, pagination, and chapter text are legible with no clipping, overlap, raw LaTeX, or unintended blank pages."
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V16-C05": "3c29c66ac4483258f18a44ae814078e49a1b4f408c2eebc08ca682a145676609"
+  },
+  "source_hashes_after": {
+    "V16-C05": "3c29c66ac4483258f18a44ae814078e49a1b4f408c2eebc08ca682a145676609"
+  },
+  "sealed_chapter_content_change_count": 0
+}

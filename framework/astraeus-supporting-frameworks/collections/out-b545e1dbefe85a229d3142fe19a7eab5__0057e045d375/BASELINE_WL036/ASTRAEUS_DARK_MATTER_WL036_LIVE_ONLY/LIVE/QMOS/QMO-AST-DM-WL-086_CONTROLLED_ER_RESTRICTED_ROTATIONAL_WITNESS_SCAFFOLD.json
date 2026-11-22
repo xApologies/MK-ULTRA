@@ -1,0 +1,54 @@
+{
+  "schema": "ASTRAEUS_CONTROLLED_ER_RESTRICTED_ROTATIONAL_WITNESS_SCAFFOLD_V1",
+  "qmo_id": "QMO-AST-DM-WL-086",
+  "name": "Controlled Multi-Port ER-Restricted Rotational Witness Scaffold",
+  "atlas_version": "WL-v202",
+  "status": "CANDIDATE_SCAFFOLD_NO_NONEMPTY_WITNESS_YET",
+  "candidate_histories": {
+    "H0": "trivial/common-mode rotational History; selected holonomy identity",
+    "H1": "persistent nontrivial relative shear/holonomy History"
+  },
+  "candidate_source_fibers": {
+    "x0": "R_ERH(H0;R)",
+    "x1": "R_ERH(H1;R)"
+  },
+  "multiport_template": {
+    "ports": [
+      "A",
+      "B"
+    ],
+    "hidden": [
+      "C"
+    ],
+    "H0_edges": [
+      "e_AC"
+    ],
+    "H1_edges": [
+      "e_AC",
+      "e_BC"
+    ],
+    "prior_kron_result": "Lambda0=0; Lambda1=(1/2)[[1,-1],[-1,1]] for unit weights; c=(1,-1) gives Lambda1 c != 0",
+    "scope": "finite structural template only"
+  },
+  "qualification_test": {
+    "entry": "x0,x1 must be admitted ER-origin comparison states and pass the physical hidden-state embedding/persistence/Q/action gates required by DM_R",
+    "matter": "M_R(x0)=M_R(x1)",
+    "gravity": "G_R(x0)!=G_R(x1)",
+    "target": "@dm_dark_matter_qualification_nonempty",
+    "target_math": "DM_R != empty"
+  },
+  "next_pairwise_checks": [
+    "INCIDENCE: does the controlled H0/H1 History difference actually realize E_ER(H0) != E_ER(H1) or W_ER(H0) != W_ER(H1) through the source-native ingress?",
+    "MATTER: can the two admitted ER-origin states remain in one localized matter-readout equivalence class at Resolution R?",
+    "GRAVITY: does the already-recovered propagating/graviton/Time-Shell branch separate their gravity readouts?",
+    "EMBEDDING/ACTION: do the still-open physical embedding and metric-action selections admit this pair?"
+  ],
+  "finding": "The next dark-matter task is a controlled witness search, not another global dependency crawl. The API has supplied a concrete History-to-ER-Foam ingress, a component-shaped hidden-state fiber template, and a closed ER matter/gravity branch factorization; nonemptiness now reduces to finding one admitted pair satisfying the declared gates.",
+  "not_claimed": [
+    "The H0/H1 edge toggle is not yet derived from orientation History by the API.",
+    "The finite Kron response is not identified with gravity.",
+    "Matter-readout equality has not been established.",
+    "Metric-action selection and hidden-state embedding remain open.",
+    "No physical dark-matter witness has been found."
+  ]
+}

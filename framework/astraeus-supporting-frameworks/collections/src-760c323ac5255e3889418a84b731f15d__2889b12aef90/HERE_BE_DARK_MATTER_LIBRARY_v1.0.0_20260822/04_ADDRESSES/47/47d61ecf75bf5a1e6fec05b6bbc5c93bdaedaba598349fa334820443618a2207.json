@@ -1,0 +1,88 @@
+{
+  "handle": "@helicon_structural_tuple",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Helicon Structural Tuple",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 2,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 1,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 166,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@helicon_structural_tuple",
+        "relation": "REPRESENTS",
+        "target": "@helicon",
+        "graph_family": "representation",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "recovery_pass": "RP-37",
+        "provenance": "DIRECT_TYPED_API:51516"
+      },
+      {
+        "source": "@helicon",
+        "relation": "REPRESENTED_BY",
+        "target": "@helicon_structural_tuple",
+        "graph_family": "representation",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@helicon_structural_tuple REPRESENTS @helicon); rule=REPRESENTS→REPRESENTED_BY"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 642,
+        "source": "@helicon_structural_tuple",
+        "relation": "REPRESENTS",
+        "target": "@helicon",
+        "layer": "API43",
+        "graph_family": "representation",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_TYPED_API:51516"
+      },
+      {
+        "id": 19212,
+        "source": "@helicon_structural_tuple",
+        "relation": "REPRESENTS",
+        "target": "@helicon",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_TYPED_API:51516"
+      },
+      {
+        "id": 2219,
+        "source": "@helicon",
+        "relation": "REPRESENTED_BY",
+        "target": "@helicon_structural_tuple",
+        "layer": "API43",
+        "graph_family": "representation",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@helicon_structural_tuple REPRESENTS @helicon); rule=REPRESENTS→REPRESENTED_BY"
+      }
+    ]
+  },
+  "address": "@helicon_structural_tuple",
+  "address_sha256": "47d61ecf75bf5a1e6fec05b6bbc5c93bdaedaba598349fa334820443618a2207"
+}

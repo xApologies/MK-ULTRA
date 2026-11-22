@@ -1,0 +1,18 @@
+{
+  "schema": "ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1",
+  "landscape_id": "DL-DM-E082-TRACE-TO-RESIDUE",
+  "seed": "@dm_port_response_trace_invariant",
+  "status": "CONDITIONAL_FORWARD_CLOSURE",
+  "nodes": [
+    "@dm_port_response_trace_invariant",
+    "@boundary_projection",
+    "@dm_projection_residue_survival",
+    "@dm_conditional_response_trace_residue_survival"
+  ],
+  "terminal": {
+    "state": "CONDITIONAL_RESIDUE_SURVIVAL_CLOSED",
+    "iteration": 4,
+    "focus": "@dm_conditional_response_trace_residue_survival",
+    "reason": "One explicit trace comparator replaces the old generic residue-discriminator assumption; only its G_Pi action remains proof debt."
+  }
+}

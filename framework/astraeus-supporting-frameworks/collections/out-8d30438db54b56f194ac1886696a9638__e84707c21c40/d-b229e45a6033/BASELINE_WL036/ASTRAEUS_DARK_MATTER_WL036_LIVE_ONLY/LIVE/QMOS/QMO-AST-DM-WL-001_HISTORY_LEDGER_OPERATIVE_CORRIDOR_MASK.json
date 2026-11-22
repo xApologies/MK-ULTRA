@@ -1,0 +1,44 @@
+{
+  "schema": "ASTRAEUS_DM_WORK_LAYER_QMO_V1",
+  "qmo_id": "QMO-AST-DM-WL-001",
+  "name": "History Ledger to Operative Corridor Mask",
+  "status": "SOURCE_MATCHED_WORK_LAYER_TYPED_CANDIDATE_NOT_PARENT_PROMOTED",
+  "work_layer_revision": "WL-002",
+  "date": "2026-08-17",
+  "parents": [
+    "QMO-AST-DM-050",
+    "@dm_history_support_preorder",
+    "@universal_coupling",
+    "TransductionGeometry:G_active(R,B,E,chi,H)",
+    "TransductionGeometry:Conn_oper(...|H)"
+  ],
+  "static_object": "E_static = declared static candidate corridor/connection skeleton",
+  "operator": "A_R(e | H,E,B,chi) in {0,1}",
+  "operative_edge_set": "E_oper(H)={e in E_static | A_R(e | H,E,B,chi)=1}",
+  "incidence_readout": "J_R(M,e|H)=1 iff e is operatively active and Topology(M) intersects Corridor(e); else 0",
+  "source_direction": "History ledger -> operative admissibility / active connection -> corridor incidence",
+  "support_role": "S_R(e) remains a support/preorder object on a declared relationship; no source theorem currently establishes HistorySupport_R -> OperativeCorridorMask_R",
+  "conditional_result": "If H0,H1 produce an operative incidence flip for the same declared target and Respond is nontrivial, UCM responses differ without numerical K_R calibration; positive edge addition also admits v121 PSD Kron monotonicity.",
+  "rotational_test_pair": {
+    "H0": "common-mode / trivial relative radial transport",
+    "H1": "persistent nontrivial relative transport / shear / holonomy",
+    "same_matter_target": "H0 ~_(matter,R) H1",
+    "open_test": "determine whether E_oper(H0) != E_oper(H1)"
+  },
+  "bandwidth_subroute": "H -> B(U|H,E) -> available horizontal transport -> operative corridor incidence",
+  "guardrails": [
+    "does not close QMO-AST-DM-050",
+    "does not prove a specific galaxy realizes nontrivial history-dependent incidence",
+    "does not identify shear with chirality",
+    "does not identify rotation with dark matter",
+    "does not identify black hole with Bandwidth",
+    "same-matter and physical gravitational admission remain separate gates",
+    "no parent promotion"
+  ],
+  "source_paths": [
+    "MOUNTS/DARK_MATTER_API_2.2/DARK_MATTER_API_CURRENT_CANONICAL.md",
+    "MOUNTS/ASTRAEUS_MIND_AR-LM-002/ASTRAEUS_RECOVERY_MAX_AI_AR-LM-002/05_SOURCE_ARCHIVE/EXTRACTED/TRANSDUCTION_GEOMETRY_v1.0/QMO_API/MK43_Transduction_API_CURRENT_CANONICAL.md",
+    "MOUNTS/ASTRAEUS_DARK_MATTER_LIVE_0.14.0/atlas/V120/001_V120_HISTORY_CORRIDOR_INCIDENCE_ROUTE.md",
+    "MOUNTS/ASTRAEUS_DARK_MATTER_LIVE_0.14.0/atlas/V121/001_V121_KRON_EDGE_ADDITION_MONOTONICITY.md"
+  ]
+}

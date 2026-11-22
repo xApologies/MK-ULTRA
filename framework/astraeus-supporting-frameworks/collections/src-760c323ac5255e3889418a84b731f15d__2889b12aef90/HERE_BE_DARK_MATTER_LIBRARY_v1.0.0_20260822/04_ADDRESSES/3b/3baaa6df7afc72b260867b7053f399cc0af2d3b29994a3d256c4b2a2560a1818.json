@@ -1,0 +1,25 @@
+{
+  "handle": "landscape://DL-DM-E083-TRACE-Q-SURVIVAL",
+  "object_type": "dependency_landscape",
+  "status": "CONDITIONAL_Q_SURVIVAL_CLOSED",
+  "domain": "LANDSCAPE",
+  "namespace": "mk43://landscape",
+  "name": "DL-DM-E083-TRACE-Q-SURVIVAL",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "DEPENDENCY_LANDSCAPE",
+  "metadata": {
+    "id": "DL-DM-E083-TRACE-Q-SURVIVAL",
+    "seed": "@dm_conditional_response_trace_residue_survival",
+    "status": "CONDITIONAL_Q_SURVIVAL_CLOSED",
+    "source_file": "DL-DM-E083-TRACE-Q-SURVIVAL.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1\", \"landscape_id\": \"DL-DM-E083-TRACE-Q-SURVIVAL\", \"seed\": \"@dm_conditional_response_trace_residue_survival\", \"status\": \"CONDITIONAL_Q_SURVIVAL_CLOSED\", \"nodes\": [\"@dm_conditional_response_trace_residue_survival\", \"@dm_q_completion_family\", \"@dm_q_survival\", \"@dm_response_trace_q_handoff_witness\"], \"terminal\": {\"state\": \"CONDITIONAL_Q_SURVIVAL_CLOSED\", \"iteration\": 3, \"focus\": \"@dm_response_trace_q_handoff_witness\", \"reason\": \"DM 2.1/2.2 already proves residue-bundle distinctions cannot be erased merely by standard Q completion.\"}}"
+  },
+  "address": "landscape://DL-DM-E083-TRACE-Q-SURVIVAL",
+  "address_sha256": "3baaa6df7afc72b260867b7053f399cc0af2d3b29994a3d256c4b2a2560a1818"
+}

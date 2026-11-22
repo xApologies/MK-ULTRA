@@ -1,0 +1,50 @@
+PASS Sheared flat: selected native connection matches independent GR connection
+PASS Sheared flat: connection inverse
+PASS Sheared flat: full Riemann commutation
+PASS Sheared flat: Ricci and scalar commutation
+PASS Sheared flat: specified scalar curvature
+PASS Sheared flat: Einstein tensor commutation
+PASS Sheared flat: covariant derivative of vector
+PASS Sheared flat: composed covariant derivatives
+PASS Sheared flat: Genesis endpoint round trip
+PASS Sheared flat: GR endpoint round trip
+PASS Negative control: omitting derivative-of-frame is detected
+PASS Negative control: reject incompatible selected connection
+PASS Curved product: selected native connection matches independent GR connection
+PASS Curved product: connection inverse
+PASS Curved product: full Riemann commutation
+PASS Curved product: Ricci and scalar commutation
+PASS Curved product: specified scalar curvature
+PASS Curved product: Einstein tensor commutation
+PASS Curved product: covariant derivative of vector
+PASS Curved product: Genesis endpoint round trip
+PASS Curved product: GR endpoint round trip
+PASS Negative control: missing frame bracket changes curvature
+PASS FLRW: selected native connection matches independent GR connection
+PASS FLRW: connection inverse
+PASS FLRW: full Riemann commutation
+PASS FLRW: Ricci and scalar commutation
+PASS FLRW: specified scalar curvature
+PASS FLRW: Einstein tensor commutation
+PASS FLRW: full off-shell Einstein-source residual
+PASS FLRW: independent source gives expected temporal equation
+PASS FLRW: independent source gives expected spatial equation
+PASS FLRW: source divergence commutation
+Traceback (most recent call last):
+  File "../code/checks.py", line 137, in <module>
+    main();status='PASS'
+    ~~~~^^
+  File "../code/checks.py", line 108, in main
+    fixture('FLRW',coords,s.diag(1,1/a,1/a,1/a),eta,s.diag(rho,p,p,p),
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            ['a(t)>0 smooth; fixed oriented chart; rho(t), p(t) arbitrary smooth functions'],
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            6*(s.diff(a,t,2)/a+(s.diff(a,t)/a)**2))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "../code/checks.py", line 60, in fixture
+    check(name+': off-shell continuity residual',zero(divn[0]+s.diff(rho,x)+3*s.diff(a,x)/a*(rho+p)))
+                                                      ~~~~^^^
+  File "../code/translator.py", line 55, in __getitem__
+    return self.values.get(tuple(key), sp.S.Zero)
+                           ~~~~~^^^^^
+TypeError: 'int' object is not iterable

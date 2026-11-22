@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "name",
+    "role",
+    "version",
+    "contract_version",
+    "entrypoint",
+    "internal_dimension"
+  ],
+  "properties": {
+    "role": {
+      "enum": [
+        "ai",
+        "api",
+        "library"
+      ]
+    },
+    "internal_dimension": {
+      "const": 5
+    },
+    "canonical_state_policy": {
+      "const": "READ_ONLY"
+    },
+    "rewrite_policy": {
+      "const": "DERIVED_ONLY"
+    }
+  },
+  "additionalProperties": true
+}

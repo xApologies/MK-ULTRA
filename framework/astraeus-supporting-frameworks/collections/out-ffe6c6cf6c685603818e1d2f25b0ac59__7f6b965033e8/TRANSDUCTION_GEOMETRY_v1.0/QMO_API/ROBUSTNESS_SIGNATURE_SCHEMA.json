@@ -1,0 +1,24 @@
+{
+  "schema": "MK43_ROBUSTNESS_SIGNATURE_V1",
+  "fields": {
+    "redundancy": [
+      "route_redundancy",
+      "alternative_dependency_redundancy",
+      "provenance_redundancy",
+      "macro_redundancy"
+    ],
+    "fragility": [
+      "hard_single_points",
+      "unresolved_dependencies",
+      "candidate_dependency_count",
+      "semantic_version_sensitivity",
+      "trust_route_sensitivity",
+      "downstream_blast_radius"
+    ],
+    "impact": [
+      "math_status",
+      "trust_status",
+      "required_action"
+    ]
+  }
+}

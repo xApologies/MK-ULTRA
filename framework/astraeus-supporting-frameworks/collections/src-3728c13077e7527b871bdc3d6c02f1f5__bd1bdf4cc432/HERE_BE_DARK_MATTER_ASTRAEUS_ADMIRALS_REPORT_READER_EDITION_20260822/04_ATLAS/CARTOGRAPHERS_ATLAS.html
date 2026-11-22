@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+
+<html lang="" xml:lang="" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8"/>
+<meta content="pandoc" name="generator"/>
+<meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
+<title>CARTOGRAPHERS ATLAS</title>
+<style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+<style>
+:root { color-scheme: light dark; }
+body { max-width: 980px; margin: 0 auto; padding: 2.2rem 1.5rem 5rem; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 1.62; }
+h1,h2,h3,h4 { line-height: 1.2; margin-top: 1.8em; }
+h1 { border-bottom: 2px solid currentColor; padding-bottom: .25rem; }
+h2 { border-bottom: 1px solid color-mix(in srgb, currentColor 30%, transparent); padding-bottom: .2rem; }
+blockquote { border-left: 4px solid currentColor; padding-left: 1rem; margin-left: 0; opacity: .92; }
+pre, code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+pre { overflow-x: auto; padding: 1rem; border: 1px solid color-mix(in srgb, currentColor 20%, transparent); border-radius: 8px; }
+code { font-size: .92em; }
+table { border-collapse: collapse; width: 100%; overflow-x: auto; display: block; }
+th, td { border: 1px solid color-mix(in srgb, currentColor 25%, transparent); padding: .45rem .6rem; vertical-align: top; }
+a { color: inherit; text-decoration-thickness: .08em; }
+nav#TOC { padding: 1rem 1.2rem; border: 1px solid color-mix(in srgb, currentColor 25%, transparent); border-radius: 10px; }
+.reader-banner { border: 2px solid currentColor; border-radius: 12px; padding: .8rem 1rem; margin: 0 0 2rem; font-weight: 650; }
+mjx-container { max-width: 100%; }
+mjx-container[display="true"] { display: block; overflow-x: auto; overflow-y: hidden; padding: .45rem 0; margin: 1rem 0; }
+mjx-container svg { max-width: 100%; }
+.eq-source { font-size: .86rem; opacity: .75; margin-bottom: .25rem; }
+.eq-card { padding: .6rem .9rem; margin: .7rem 0 1.2rem; border-left: 3px solid color-mix(in srgb, currentColor 45%, transparent); }
+.render-fallback { font-family: Georgia, "Times New Roman", serif; white-space: pre-wrap; overflow-x: auto; }
+@media (max-width: 600px) { body { font-size: 17px; padding: 1.2rem .8rem 3rem; } }
+</style></head>
+<body><div class="reader-banner">READER EDITION — equations are pre-rendered as vector mathematics. No LaTeX renderer, plug-in, or internet connection is required.</div>
+<header id="title-block-header">
+<h1 class="title">CARTOGRAPHERS ATLAS</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#cartographers-atlas-live-object-commentary" id="toc-cartographers-atlas-live-object-commentary">CARTOGRAPHER’S ATLAS
+— LIVE OBJECT COMMENTARY</a>
+<ul>
+<li><a href="#dm_joint_hidden_network_witness" id="toc-dm_joint_hidden_network_witness"><span class="citation" data-cites="dm_joint_hidden_network_witness">@dm_joint_hidden_network_witness</span></a></li>
+<li><a href="#dm_conditional_dark_readout_witness" id="toc-dm_conditional_dark_readout_witness"><span class="citation" data-cites="dm_conditional_dark_readout_witness">@dm_conditional_dark_readout_witness</span></a></li>
+<li><a href="#dm_conditional_boundary_residue_seed" id="toc-dm_conditional_boundary_residue_seed"><span class="citation" data-cites="dm_conditional_boundary_residue_seed">@dm_conditional_boundary_residue_seed</span></a></li>
+<li><a href="#dm_conditional_q_handoff_distinction" id="toc-dm_conditional_q_handoff_distinction"><span class="citation" data-cites="dm_conditional_q_handoff_distinction">@dm_conditional_q_handoff_distinction</span></a></li>
+<li><a href="#dm_stress_active_action_fiber" id="toc-dm_stress_active_action_fiber"><span class="citation" data-cites="dm_stress_active_action_fiber">@dm_stress_active_action_fiber</span></a></li>
+<li><a href="#dm_conditional_scalar_stress_active_witness" id="toc-dm_conditional_scalar_stress_active_witness"><span class="citation" data-cites="dm_conditional_scalar_stress_active_witness">@dm_conditional_scalar_stress_active_witness</span></a></li>
+<li><a href="#dm_conditional_action_dark_readout_witness" id="toc-dm_conditional_action_dark_readout_witness"><span class="citation" data-cites="dm_conditional_action_dark_readout_witness">@dm_conditional_action_dark_readout_witness</span></a></li>
+<li><a href="#dm_conditional_qualification_witness" id="toc-dm_conditional_qualification_witness"><span class="citation" data-cites="dm_conditional_qualification_witness">@dm_conditional_qualification_witness</span></a></li>
+<li><a href="#dm_ucm_source_domain_distinction" id="toc-dm_ucm_source_domain_distinction"><span class="citation" data-cites="dm_ucm_source_domain_distinction">@dm_ucm_source_domain_distinction</span></a></li>
+<li><a href="#dm_ucm_event_to_source_nonannihilation" id="toc-dm_ucm_event_to_source_nonannihilation"><span class="citation" data-cites="dm_ucm_event_to_source_nonannihilation">@dm_ucm_event_to_source_nonannihilation</span></a></li>
+<li><a href="#dm_conditional_ucm_stress_energy_witness" id="toc-dm_conditional_ucm_stress_energy_witness"><span class="citation" data-cites="dm_conditional_ucm_stress_energy_witness">@dm_conditional_ucm_stress_energy_witness</span></a></li>
+<li><a href="#dm_conditional_ucm_qualification_witness" id="toc-dm_conditional_ucm_qualification_witness"><span class="citation" data-cites="dm_conditional_ucm_qualification_witness">@dm_conditional_ucm_qualification_witness</span></a></li>
+<li><a href="#dm_ucm_topology_source_scope_inclusion" id="toc-dm_ucm_topology_source_scope_inclusion"><span class="citation" data-cites="dm_ucm_topology_source_scope_inclusion">@dm_ucm_topology_source_scope_inclusion</span></a></li>
+<li><a href="#dm_ucm_two_gate_factorization" id="toc-dm_ucm_two_gate_factorization"><span class="citation" data-cites="dm_ucm_two_gate_factorization">@dm_ucm_two_gate_factorization</span></a></li>
+<li><a href="#dm_conditional_ucm_dynamic_event_witness" id="toc-dm_conditional_ucm_dynamic_event_witness"><span class="citation" data-cites="dm_conditional_ucm_dynamic_event_witness">@dm_conditional_ucm_dynamic_event_witness</span></a></li>
+<li><a href="#dm_response_spectrum_residue_discriminator" id="toc-dm_response_spectrum_residue_discriminator"><span class="citation" data-cites="dm_response_spectrum_residue_discriminator">@dm_response_spectrum_residue_discriminator</span></a></li>
+<li><a href="#dm_port_response_trace_invariant" id="toc-dm_port_response_trace_invariant"><span class="citation" data-cites="dm_port_response_trace_invariant">@dm_port_response_trace_invariant</span></a></li>
+<li><a href="#dm_conditional_response_trace_residue_survival" id="toc-dm_conditional_response_trace_residue_survival"><span class="citation" data-cites="dm_conditional_response_trace_residue_survival">@dm_conditional_response_trace_residue_survival</span></a></li>
+<li><a href="#dm_response_trace_q_handoff_witness" id="toc-dm_response_trace_q_handoff_witness"><span class="citation" data-cites="dm_response_trace_q_handoff_witness">@dm_response_trace_q_handoff_witness</span></a></li>
+<li><a href="#dm_conditional_event_density_source_separation" id="toc-dm_conditional_event_density_source_separation"><span class="citation" data-cites="dm_conditional_event_density_source_separation">@dm_conditional_event_density_source_separation</span></a></li>
+<li><a href="#dm_density_profile_readout_factorization_gate" id="toc-dm_density_profile_readout_factorization_gate"><span class="citation" data-cites="dm_density_profile_readout_factorization_gate">@dm_density_profile_readout_factorization_gate</span></a></li>
+<li><a href="#dm_explicit_two_port_continuity_residual_witness" id="toc-dm_explicit_two_port_continuity_residual_witness"><span class="citation" data-cites="dm_explicit_two_port_continuity_residual_witness">@dm_explicit_two_port_continuity_residual_witness</span></a></li>
+<li><a href="#dm_two_port_timeshell_gravity_fiber_test" id="toc-dm_two_port_timeshell_gravity_fiber_test"><span class="citation" data-cites="dm_two_port_timeshell_gravity_fiber_test">@dm_two_port_timeshell_gravity_fiber_test</span></a></li>
+<li><a href="#dm_conditional_direct_timeshell_dark_readout_witness" id="toc-dm_conditional_direct_timeshell_dark_readout_witness"><span class="citation" data-cites="dm_conditional_direct_timeshell_dark_readout_witness">@dm_conditional_direct_timeshell_dark_readout_witness</span></a></li>
+<li><a href="#dm_chirality_seed_byte_probe_basis" id="toc-dm_chirality_seed_byte_probe_basis"><span class="citation" data-cites="dm_chirality_seed_byte_probe_basis">@dm_chirality_seed_byte_probe_basis</span></a></li>
+<li><a href="#dm_chirality_seed_contrast_normal_form" id="toc-dm_chirality_seed_contrast_normal_form"><span class="citation" data-cites="dm_chirality_seed_contrast_normal_form">@dm_chirality_seed_contrast_normal_form</span></a></li>
+<li><a href="#dm_chirality_byte_basin_probe_family" id="toc-dm_chirality_byte_basin_probe_family"><span class="citation" data-cites="dm_chirality_byte_basin_probe_family">@dm_chirality_byte_basin_probe_family</span></a></li>
+<li><a href="#dm_chirality_seed_timeshell_gravity_fiber_test" id="toc-dm_chirality_seed_timeshell_gravity_fiber_test"><span class="citation" data-cites="dm_chirality_seed_timeshell_gravity_fiber_test">@dm_chirality_seed_timeshell_gravity_fiber_test</span></a></li>
+<li><a href="#dm_xapi_density_readout_factorization" id="toc-dm_xapi_density_readout_factorization"><span class="citation" data-cites="dm_xapi_density_readout_factorization">@dm_xapi_density_readout_factorization</span></a></li>
+<li><a href="#dm_xapi_energy_density_stress_corridor" id="toc-dm_xapi_energy_density_stress_corridor"><span class="citation" data-cites="dm_xapi_energy_density_stress_corridor">@dm_xapi_energy_density_stress_corridor</span></a></li>
+<li><a href="#dm_xapi_master_dependency_map" id="toc-dm_xapi_master_dependency_map"><span class="citation" data-cites="dm_xapi_master_dependency_map">@dm_xapi_master_dependency_map</span></a></li>
+<li><a href="#dm_source_backfilled_master_map" id="toc-dm_source_backfilled_master_map"><span class="citation" data-cites="dm_source_backfilled_master_map">@dm_source_backfilled_master_map</span></a></li>
+<li><a href="#dm_source_density_geometry_calibration" id="toc-dm_source_density_geometry_calibration"><span class="citation" data-cites="dm_source_density_geometry_calibration">@dm_source_density_geometry_calibration</span></a></li>
+<li><a href="#dm_source_er_gravitational_readout_chain" id="toc-dm_source_er_gravitational_readout_chain"><span class="citation" data-cites="dm_source_er_gravitational_readout_chain">@dm_source_er_gravitational_readout_chain</span></a></li>
+<li><a href="#dm_source_er_effective_model_closure" id="toc-dm_source_er_effective_model_closure"><span class="citation" data-cites="dm_source_er_effective_model_closure">@dm_source_er_effective_model_closure</span></a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="cartographers-atlas-live-object-commentary">CARTOGRAPHER’S ATLAS
+— LIVE OBJECT COMMENTARY</h1>
+<p>This atlas is not a replacement for the machine registry. It records
+how I currently read each of the 35 Live Landscape objects and what I
+think it contributed to the project.</p>
+<h2 id="dm_joint_hidden_network_witness"><span class="citation" data-cites="dm_joint_hidden_network_witness">@dm_joint_hidden_network_witness</span></h2>
+<p><strong>Checkpoint:</strong> E063<br/>
+<strong>Name:</strong> Joint Hidden-Network Load/Response Witness<br/>
+<strong>Type:</strong> ConditionalDualWitnessTheorem<br/>
+<strong>Status:</strong> LIVE_DERIVED_CLOSED_INTERNAL</p>
+<p><strong>Registry definition.</strong> Conditional theorem: a selected
+positive two-port hidden path satisfying the native-load assumptions has
+both nonzero hidden boundary response and nonzero supported native
+load.</p>
+<p><strong>My cartographic reading.</strong> This is the finite
+laboratory that made the rest of the project possible. It proves that
+one admitted hidden support can carry a nonzero boundary-response
+operator and a nonzero relational-load/density witness at the same time.
+I treat it as a minimal witness, not as a literal halo model.</p>
+<p><strong>Guardrail.</strong> It does not prove that the selected
+hidden support exists physically, nor that the toy normalization is a
+calibrated energy scale.</p>
+<p><strong>Parents.</strong> <code>@dm_hidden_response_operator</code>,
+<code>@dm_hidden_relational_load</code>,
+<code>@dm_native_hidden_witness</code></p>
+<p><strong>Proof debt.</strong> None recorded at this object.</p>
+<h2 id="dm_conditional_dark_readout_witness"><span class="citation" data-cites="dm_conditional_dark_readout_witness">@dm_conditional_dark_readout_witness</span></h2>
+<p><strong>Checkpoint:</strong> E064<br/>
+<strong>Name:</strong> Conditional Dark-Readout Factorization
+Witness<br/>
+<strong>Type:</strong> ConditionalFactorizationDefectWitness<br/>
+<strong>Status:</strong> LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT</p>
+<p><strong>Registry definition.</strong> A controlled full/visible pair
+that is identical under ordinary matter readout but separated by
+readable density -&gt; stress-energy -&gt; fixed-GR gravitational
+readout, conditional on registered working assumptions.</p>
+<p><strong>My cartographic reading.</strong> This object expresses the
+readout-relative definition of darkness: matched ordinary-matter readout
+with separated gravitational/geometry readout. It is conceptually
+central because it avoids defining dark matter by a new particle
+noun.</p>
+<p><strong>Guardrail.</strong> When conditional, it remains dependent on
+the working assumptions/proof debts listed below and is not an empirical
+dark-matter detection.</p>
+<p><strong>Parents.</strong>
+<code>@dm_joint_hidden_network_witness</code>,
+<code>@dm_native_density_to_readable_source</code>,
+<code>@dm_dark_readout_defect</code></p>
+<p><strong>Proof debt.</strong> <code>PD-DM-001</code>,
+<code>PD-DM-002</code>, <code>PD-DM-003</code></p>
+<h2 id="dm_conditional_boundary_residue_seed"><span class="citation" data-cites="dm_conditional_boundary_residue_seed">@dm_conditional_boundary_residue_seed</span></h2>
+<p><strong>Checkpoint:</strong> E065<br/>
+<strong>Name:</strong> Conditional Hidden Boundary/Residue Seed<br/>
+<strong>Type:</strong> ConditionalBoundaryResidueSeed<br/>
+<strong>Status:</strong> LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT</p>
+<p><strong>Registry definition.</strong> A selected hidden support,
+conditionally admitted through persistence into nonempty canonical
+boundary contact, yields a typed Persistent-Boundary projection/residue
+entry point.</p>
+<p><strong>My cartographic reading.</strong> This is the route from a
+hidden relational support into the Time-Space persistence/projection
+language. It matters when we ask whether hidden structure remains
+available after localization and boundary projection.</p>
+<p><strong>Guardrail.</strong> It does not by itself establish
+gravitational activity; residue survival and gravitational/source
+survival are distinct questions.</p>
+<p><strong>Parents.</strong>
+<code>@dm_joint_hidden_network_witness</code>,
+<code>@dm_hidden_boundary_contact</code>,
+<code>@boundary_projection</code>,
+<code>@residue_quantum_field_bundle</code></p>
+<p><strong>Proof debt.</strong> <code>PD-DM-001</code></p>
+<h2 id="dm_conditional_q_handoff_distinction"><span class="citation" data-cites="dm_conditional_q_handoff_distinction">@dm_conditional_q_handoff_distinction</span></h2>
+<p><strong>Checkpoint:</strong> E066<br/>
+<strong>Name:</strong> Conditional Projection-Residue/Q Handoff
+Distinction<br/>
+<strong>Type:</strong> ConditionalQHandoffDistinction<br/>
+<strong>Status:</strong> LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT</p>
+<p><strong>Registry definition.</strong> A matched full/visible pair
+whose declared invariant-residue comparison differs cannot be identified
+after standard Q completion by a Q-isomorphism preserving the
+residue-bundle constituent.</p>
+<p><strong>My cartographic reading.</strong> This object tests whether a
+hidden distinction that has survived into invariant residue can remain
+distinguishable after standard Q completion. I keep it as a
+representation-preservation cross-check.</p>
+<p><strong>Guardrail.</strong> It does not identify the hidden sector
+with any particular quantum field or physical particle.</p>
+<p><strong>Parents.</strong>
+<code>@dm_projection_residue_survival</code>,
+<code>@dm_q_survival</code>,
+<code>@dm_conditional_boundary_residue_seed</code></p>
+<p><strong>Proof debt.</strong> <code>PD-DM-001</code>,
+<code>PD-DM-004</code></p>
+<h2 id="dm_stress_active_action_fiber"><span class="citation" data-cites="dm_stress_active_action_fiber">@dm_stress_active_action_fiber</span></h2>
+<p><strong>Checkpoint:</strong> E067<br/>
+<strong>Name:</strong> Stress-Active Covariant Hidden Action Fiber<br/>
+<strong>Type:</strong> MetricVariationKernelComplement<br/>
+<strong>Status:</strong> LIVE_DERIVED_CLOSED_INTERNAL</p>
+<p><strong>Registry definition.</strong> Subset of the already-closed
+covariant hidden-action family whose metric variation generates nonzero
+hidden stress-energy.</p>
+<p><strong>My cartographic reading.</strong> This belongs to the
+action/field proxy lane. Its purpose was to show that we did not need a
+unique hidden action before testing whether a metric-active realization
+could exist. The lane was useful for scouting and later became secondary
+to the direct energy-density bridge.</p>
+<p><strong>Guardrail.</strong> It should not be read as a claim that the
+hidden object is literally a scalar field or that the proxy action is
+the physical dark-matter action.</p>
+<p><strong>Parents.</strong>
+<code>@dm_covariant_hidden_action_family</code>,
+<code>@dm_stress_energy_realization_family</code>,
+<code>@metric_variation</code></p>
+<p><strong>Proof debt.</strong> None recorded at this object.</p>
+<h2 id="dm_conditional_scalar_stress_active_witness"><span class="citation" data-cites="dm_conditional_scalar_stress_active_witness">@dm_conditional_scalar_stress_active_witness</span></h2>
+<p><strong>Checkpoint:</strong> E069<br/>
+<strong>Name:</strong> Conditional Scalar-Proxy Stress-Active
+Witness<br/>
+<strong>Type:</strong> ConditionalMetricActiveActionWitness<br/>
+<strong>Status:</strong> LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT</p>
+<p><strong>Registry definition.</strong> One conventional scalar
+realization supplies an explicit nonzero metric-variation witness on a
+selected hidden diagnostic sector, conditional on the
+representation/admissibility bridge.</p>
+<p><strong>My cartographic reading.</strong> This belongs to the
+action/field proxy lane. Its purpose was to show that we did not need a
+unique hidden action before testing whether a metric-active realization
+could exist. The lane was useful for scouting and later became secondary
+to the direct energy-density bridge.</p>
+<p><strong>Guardrail.</strong> It should not be read as a claim that the
+hidden object is literally a scalar field or that the proxy action is
+the physical dark-matter action.</p>
+<p><strong>Parents.</strong>
+<code>@dm_stress_active_action_fiber</code>,
+<code>@matter_action</code>, <code>@metric_variation</code>,
+<code>@klein_gordon_field</code></p>
+<p><strong>Proof debt.</strong> <code>PD-DM-006</code></p>
+<h2 id="dm_conditional_action_dark_readout_witness"><span class="citation" data-cites="dm_conditional_action_dark_readout_witness">@dm_conditional_action_dark_readout_witness</span></h2>
+<p><strong>Checkpoint:</strong> E070<br/>
+<strong>Name:</strong> Conditional Action-Lane Dark Readout
+Witness<br/>
+<strong>Type:</strong> ConditionalFactorizationDefectWitness<br/>
+<strong>Status:</strong> LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT</p>
+<p><strong>Registry definition.</strong> A matched full/visible pair
+separated by a metric-active hidden action but identical under ordinary
+matter readout lies in the dark-readout factorization defect,
+conditional on the proxy realization bridge.</p>
+<p><strong>My cartographic reading.</strong> This object expresses the
+readout-relative definition of darkness: matched ordinary-matter readout
+with separated gravitational/geometry readout. It is conceptually
+central because it avoids defining dark matter by a new particle
+noun.</p>
+<p><strong>Guardrail.</strong> When conditional, it remains dependent on
+the working assumptions/proof debts listed below and is not an empirical
+dark-matter detection.</p>
+<p><strong>Parents.</strong>
+<code>@dm_conditional_scalar_stress_active_witness</code>,
+<code>@dm_dark_readout_defect</code></p>
+<p><strong>Proof debt.</strong> <code>PD-DM-002</code>,
+<code>PD-DM-006</code></p>
+<h2 id="dm_conditional_qualification_witness"><span class="citation" data-cites="dm_conditional_qualification_witness">@dm_conditional_qualification_witness</span></h2>
+<p><strong>Checkpoint:</strong> E071<br/>
+<strong>Name:</strong> Conditional Dark-Matter Qualification
+Witness<br/>
+<strong>Type:</strong>
+ConditionalMatchedFullVisibleQualificationWitness<br/>
+<strong>Status:</strong> LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT</p>
+<p><strong>Registry definition.</strong> A single proof-debt-carrying
+matched full/visible tuple satisfying all predicates in the closed DM_R
+definition under four explicit working assumptions.</p>
+<p><strong>My cartographic reading.</strong> This object assembles the
+formal qualification predicates into one conditional tuple. Its value is
+diagnostic: it shows which missing gates are logically independent and
+which pieces already compose.</p>
+<p><strong>Guardrail.</strong> A conditional qualification witness is
+not an unconditional nonemptiness theorem and not an empirical
+identification.</p>
+<p><strong>Parents.</strong>
+<code>@dm_dark_matter_qualification_locus</code>,
+<code>@dm_conditional_action_dark_readout_witness</code>,
+<code>@dm_conditional_boundary_residue_seed</code>,
+<code>@dm_conditional_q_handoff_distinction</code></p>
+<p><strong>Proof debt.</strong> <code>PD-DM-001</code>,
+<code>PD-DM-002</code>, <code>PD-DM-004</code>,
+<code>PD-DM-006</code></p>
+<h2 id="dm_ucm_source_domain_distinction"><span class="citation" data-cites="dm_ucm_source_domain_distinction">@dm_ucm_source_domain_distinction</span></h2>
+<p><strong>Checkpoint:</strong> E073<br/>
+<strong>Name:</strong> Hidden-Network UCM Source-Domain
+Distinction<br/>
+<strong>Type:</strong> UCMSourceStateSeparationWitness<br/>
+<strong>Status:</strong> LIVE_SOURCE_DERIVED_CLOSED_AT_SOURCE_DOMAIN</p>
+<p><strong>Registry definition.</strong> A controlled full/visible UCM
+source-state pair distinguished by the already-established nonzero
+hidden network organization before readable source projection.</p>
+<p><strong>My cartographic reading.</strong> This closes only the
+upstream fact that the full and visible UCM source records differ when
+hidden topology is present. It forced the project to stop confusing
+input difference with output sensitivity.</p>
+<p><strong>Guardrail.</strong> Different source states can still map to
+the same event or readable source.</p>
+<p><strong>Parents.</strong>
+<code>@dm_joint_hidden_network_witness</code>,
+<code>@dm_hidden_s3_network</code>, <code>@universal_coupling</code></p>
+<p><strong>Proof debt.</strong> None recorded at this object.</p>
+<h2 id="dm_ucm_event_to_source_nonannihilation"><span class="citation" data-cites="dm_ucm_event_to_source_nonannihilation">@dm_ucm_event_to_source_nonannihilation</span></h2>
+<p><strong>Checkpoint:</strong> E074<br/>
+<strong>Name:</strong> UCM Event-to-Readable-Source Nonannihilation
+Gate<br/>
+<strong>Type:</strong> OpenSourceProjectionSensitivityGate<br/>
+<strong>Status:</strong> LIVE_OPEN_CANDIDATE</p>
+<p><strong>Registry definition.</strong> The exact remaining UCM
+compression question after hidden-network source-state separation: does
+the recovered event-to-readable-source map preserve at least one
+selected hidden distinction?</p>
+<p><strong>My cartographic reading.</strong> This is a correction
+object. It factors a vague UCM ‘sensitivity’ problem into dynamic-event
+survival and event-to-readable-source survival. I regard this as an
+important example of how the Live Landscape improves by splitting
+overcompressed bridges.</p>
+<p><strong>Guardrail.</strong> The factorization itself does not prove
+either gate is nonannihilating.</p>
+<p><strong>Parents.</strong>
+<code>@dm_ucm_source_domain_distinction</code>,
+<code>@stress_energy_tensor</code></p>
+<p><strong>Proof debt.</strong> <code>PD-DM-007</code></p>
+<h2 id="dm_conditional_ucm_stress_energy_witness"><span class="citation" data-cites="dm_conditional_ucm_stress_energy_witness">@dm_conditional_ucm_stress_energy_witness</span></h2>
+<p><strong>Checkpoint:</strong> E075<br/>
+<strong>Name:</strong> Conditional UCM Hidden Stress-Energy
+Witness<br/>
+<strong>Type:</strong>
+ConditionalReadableStressEnergySeparationWitness<br/>
+<strong>Status:</strong> LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT</p>
+<p><strong>Registry definition.</strong> A component-level
+nonannihilation witness carrying the E063 positive hidden density
+direction through the recovered UCM event/source projection into a
+nonzero full-vs-visible stress-energy difference.</p>
+<p><strong>My cartographic reading.</strong> This object is part of the
+Live Landscape’s incremental factorization of the Dark Matter problem.
+Its value is best understood from its parents, closure status, and
+associated proof debt.</p>
+<p><strong>Guardrail.</strong> It should not be read more strongly than
+its recorded status.</p>
+<p><strong>Parents.</strong>
+<code>@dm_joint_hidden_network_witness</code>,
+<code>@dm_ucm_source_domain_distinction</code>,
+<code>@stress_energy_tensor</code></p>
+<p><strong>Proof debt.</strong> <code>PD-DM-007</code></p>
+<h2 id="dm_conditional_ucm_qualification_witness"><span class="citation" data-cites="dm_conditional_ucm_qualification_witness">@dm_conditional_ucm_qualification_witness</span></h2>
+<p><strong>Checkpoint:</strong> E076<br/>
+<strong>Name:</strong> Conditional UCM-Native Dark-Matter Qualification
+Witness<br/>
+<strong>Type:</strong>
+ConditionalMatchedFullVisibleQualificationWitness<br/>
+<strong>Status:</strong> LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT</p>
+<p><strong>Registry definition.</strong> A complete conditional DM_R
+witness template whose stress-energy separation is supplied by the
+native UCM source lane rather than the E069 scalar proxy.</p>
+<p><strong>My cartographic reading.</strong> This object assembles the
+formal qualification predicates into one conditional tuple. Its value is
+diagnostic: it shows which missing gates are logically independent and
+which pieces already compose.</p>
+<p><strong>Guardrail.</strong> A conditional qualification witness is
+not an unconditional nonemptiness theorem and not an empirical
+identification.</p>
+<p><strong>Parents.</strong>
+<code>@dm_dark_matter_qualification_locus</code>,
+<code>@dm_conditional_ucm_stress_energy_witness</code>,
+<code>@dm_conditional_boundary_residue_seed</code>,
+<code>@dm_conditional_q_handoff_distinction</code></p>
+<p><strong>Proof debt.</strong> <code>PD-DM-001</code>,
+<code>PD-DM-002</code>, <code>PD-DM-004</code>,
+<code>PD-DM-007</code></p>
+<h2 id="dm_ucm_topology_source_scope_inclusion"><span class="citation" data-cites="dm_ucm_topology_source_scope_inclusion">@dm_ucm_topology_source_scope_inclusion</span></h2>
+<p><strong>Checkpoint:</strong> E077<br/>
+<strong>Name:</strong> UCM Topology-Bearing Source-Scope Inclusion<br/>
+<strong>Type:</strong> RecoveredProjectionScopeClosure<br/>
+<strong>Status:</strong> LIVE_SOURCE_DERIVED_CLOSED</p>
+<p><strong>Registry definition.</strong> The recovered UCM readable
+source projection has declared source-side inputs O, Chi, A, P, Rred, S,
+B. Thus UCM-internal adjacency/topology, chirality, persistence,
+redistribution, survivability/strain, and Bandwidth belong to the full
+UCM source ledger T_U rather than requiring a second independent
+beta_ext source branch.</p>
+<p><strong>My cartographic reading.</strong> This object is part of the
+Live Landscape’s incremental factorization of the Dark Matter problem.
+Its value is best understood from its parents, closure status, and
+associated proof debt.</p>
+<p><strong>Guardrail.</strong> It should not be read more strongly than
+its recorded status.</p>
+<p><strong>Parents.</strong> <code>@universal_coupling</code>,
+<code>@dm_hidden_s3_network</code>,
+<code>@stress_energy_tensor</code></p>
+<p><strong>Proof debt.</strong> None recorded at this object.</p>
+<h2 id="dm_ucm_two_gate_factorization"><span class="citation" data-cites="dm_ucm_two_gate_factorization">@dm_ucm_two_gate_factorization</span></h2>
+<p><strong>Checkpoint:</strong> E078<br/>
+<strong>Name:</strong> UCM Dynamic-Event / Readable-Source Two-Gate
+Factorization<br/>
+<strong>Type:</strong> DiagnosticFactorization<br/>
+<strong>Status:</strong> LIVE_SOURCE_DERIVED_DIAGNOSTIC_CLOSED</p>
+<p><strong>Registry definition.</strong> The previous single
+nonannihilation debt is decomposed into dynamic-event survival and
+event-to-readable-source fiber separation. Failure may occur at either
+gate.</p>
+<p><strong>My cartographic reading.</strong> This is a correction
+object. It factors a vague UCM ‘sensitivity’ problem into dynamic-event
+survival and event-to-readable-source survival. I regard this as an
+important example of how the Live Landscape improves by splitting
+overcompressed bridges.</p>
+<p><strong>Guardrail.</strong> The factorization itself does not prove
+either gate is nonannihilating.</p>
+<p><strong>Parents.</strong>
+<code>@dm_ucm_source_domain_distinction</code>,
+<code>@universal_coupling</code>,
+<code>@dm_ucm_event_to_source_nonannihilation</code></p>
+<p><strong>Proof debt.</strong> <code>PD-DM-008</code>,
+<code>PD-DM-009</code></p>
+<h2 id="dm_conditional_ucm_dynamic_event_witness"><span class="citation" data-cites="dm_conditional_ucm_dynamic_event_witness">@dm_conditional_ucm_dynamic_event_witness</span></h2>
+<p><strong>Checkpoint:</strong> E079<br/>
+<strong>Name:</strong> Conditional UCM Dynamic-Event Separation
+Witness<br/>
+<strong>Type:</strong> ConditionalDynamicEventSeparationWitness<br/>
+<strong>Status:</strong> LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT</p>
+<p><strong>Registry definition.</strong> Conditional closure of UCM Gate
+1: U_dyn(u_full) != U_dyn(u_vis).</p>
+<p><strong>My cartographic reading.</strong> This is a deliberately
+narrow Gate-1 witness showing how one full-only corridor can survive
+into a distinct UCM event under a scoped assumption. It was speed tape
+used to learn the topology of the proof obligation.</p>
+<p><strong>Guardrail.</strong> It is not a complete solution of UCM
+dynamics and remains conditional on the selected corridor-survival
+assumption.</p>
+<p><strong>Parents.</strong>
+<code>@dm_ucm_two_gate_factorization</code>,
+<code>@dm_hidden_s3_network</code>, <code>@universal_coupling</code></p>
+<p><strong>Proof debt.</strong> <code>PD-DM-008</code></p>
+<h2 id="dm_response_spectrum_residue_discriminator"><span class="citation" data-cites="dm_response_spectrum_residue_discriminator">@dm_response_spectrum_residue_discriminator</span></h2>
+<p><strong>Checkpoint:</strong> E080<br/>
+<strong>Name:</strong> Hidden Port-Response Spectrum Residue
+Discriminator<br/>
+<strong>Type:</strong> ConditionalResidueSpectralDiscriminator<br/>
+<strong>Status:</strong>
+LIVE_CONDITIONAL_CLOSED_WITH_NARROWED_PROOF_DEBT</p>
+<p><strong>Registry definition.</strong> The previously abstract residue
+discriminator can be instantiated by a concrete representation-invariant
+port-response spectral signature. Conditional on its inclusion in Inv at
+the boundary comparison, B_full^R is residue-distinguishable from
+B_vis^R and the closed Q-survival theorem carries the distinction into
+Q.</p>
+<p><strong>My cartographic reading.</strong> This is where the residue
+lane became concrete. Instead of saying ‘some hidden information
+survives,’ the project carried a specific response invariant. Trace was
+especially useful because it is simple and relabeling-invariant.</p>
+<p><strong>Guardrail.</strong> The invariant still needs the
+projection/residue map to preserve the relevant representation;
+invariance under port relabeling is not automatically invariance under
+every Time-Shell projection symmetry.</p>
+<p><strong>Parents.</strong> <code>@dm_hidden_response_operator</code>,
+<code>@dm_projection_residue_survival</code>,
+<code>@dm_q_survival</code></p>
+<p><strong>Proof debt.</strong> <code>PD-DM-001</code>,
+<code>PD-DM-004</code></p>
+<h2 id="dm_port_response_trace_invariant"><span class="citation" data-cites="dm_port_response_trace_invariant">@dm_port_response_trace_invariant</span></h2>
+<p><strong>Checkpoint:</strong> E081<br/>
+<strong>Name:</strong> Hidden Port-Response Trace Invariant<br/>
+<strong>Type:</strong> DerivedResponseTraceInvariant<br/>
+<strong>Status:</strong> LIVE_DERIVED_CLOSED_INTERNAL</p>
+<p><strong>Registry definition.</strong> The matched full/visible
+hidden-network pair has a state-level response invariant with
+tr(Lambda_full)&gt;tr(Lambda_vis), and this trace gap is independent of
+port naming/relabeling.</p>
+<p><strong>My cartographic reading.</strong> This is where the residue
+lane became concrete. Instead of saying ‘some hidden information
+survives,’ the project carried a specific response invariant. Trace was
+especially useful because it is simple and relabeling-invariant.</p>
+<p><strong>Guardrail.</strong> The invariant still needs the
+projection/residue map to preserve the relevant representation;
+invariance under port relabeling is not automatically invariance under
+every Time-Shell projection symmetry.</p>
+<p><strong>Parents.</strong> <code>@dm_hidden_response_operator</code>,
+<code>@dm_response_spectrum_residue_discriminator</code></p>
+<p><strong>Proof debt.</strong> <code>PD-DM-010</code></p>
+<h2 id="dm_conditional_response_trace_residue_survival"><span class="citation" data-cites="dm_conditional_response_trace_residue_survival">@dm_conditional_response_trace_residue_survival</span></h2>
+<p><strong>Checkpoint:</strong> E082<br/>
+<strong>Name:</strong> Conditional Hidden Response-Trace Residue
+Survival<br/>
+<strong>Type:</strong> ConditionalProjectionResidueSurvivalWitness<br/>
+<strong>Status:</strong>
+LIVE_CONDITIONAL_CLOSED_WITH_NARROWED_PROOF_DEBT</p>
+<p><strong>Registry definition.</strong> Conditional on one explicit
+symmetry-action typing, the hidden response trace survives as declared
+invariant residue and separates the matched full/visible
+projection-residue bundles.</p>
+<p><strong>My cartographic reading.</strong> This object is part of the
+Live Landscape’s incremental factorization of the Dark Matter problem.
+Its value is best understood from its parents, closure status, and
+associated proof debt.</p>
+<p><strong>Guardrail.</strong> It should not be read more strongly than
+its recorded status.</p>
+<p><strong>Parents.</strong>
+<code>@dm_port_response_trace_invariant</code>,
+<code>@dm_projection_residue_survival</code>,
+<code>@boundary_projection</code></p>
+<p><strong>Proof debt.</strong> <code>PD-DM-001</code>,
+<code>PD-DM-010</code></p>
+<h2 id="dm_response_trace_q_handoff_witness"><span class="citation" data-cites="dm_response_trace_q_handoff_witness">@dm_response_trace_q_handoff_witness</span></h2>
+<p><strong>Checkpoint:</strong> E083<br/>
+<strong>Name:</strong> Hidden Response-Trace Q-Handoff Survival
+Witness<br/>
+<strong>Type:</strong> ConditionalQHandoffSurvivalWitness<br/>
+<strong>Status:</strong> LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT</p>
+<p><strong>Registry definition.</strong> The response-trace distinction,
+once admitted into invariant residue, survives the standard Q completion
+without any chromatic dictionary or new field ontology.</p>
+<p><strong>My cartographic reading.</strong> This object tests whether a
+hidden distinction that has survived into invariant residue can remain
+distinguishable after standard Q completion. I keep it as a
+representation-preservation cross-check.</p>
+<p><strong>Guardrail.</strong> It does not identify the hidden sector
+with any particular quantum field or physical particle.</p>
+<p><strong>Parents.</strong>
+<code>@dm_conditional_response_trace_residue_survival</code>,
+<code>@dm_q_survival</code>, <code>@dm_q_completion_family</code></p>
+<p><strong>Proof debt.</strong> <code>PD-DM-001</code>,
+<code>PD-DM-010</code></p>
+<h2 id="dm_conditional_event_density_source_separation"><span class="citation" data-cites="dm_conditional_event_density_source_separation">@dm_conditional_event_density_source_separation</span></h2>
+<p><strong>Checkpoint:</strong> E084<br/>
+<strong>Name:</strong> Conditional Event-Level Density / UCM Source
+Separation<br/>
+<strong>Type:</strong> ConditionalEventSourceSeparationWitness<br/>
+<strong>Status:</strong>
+LIVE_CONDITIONAL_CLOSED_WITH_SINGLE_COMPONENT_PROOF_DEBT</p>
+<p><strong>Registry definition.</strong> UCM Gate 2 is conditionally
+closed on one event-level density component. The broad PD-DM-009 and the
+old density debt PD-DM-003 are narrowed/merged into PD-DM-011.</p>
+<p><strong>My cartographic reading.</strong> This object is part of the
+Live Landscape’s incremental factorization of the Dark Matter problem.
+Its value is best understood from its parents, closure status, and
+associated proof debt.</p>
+<p><strong>Guardrail.</strong> It should not be read more strongly than
+its recorded status.</p>
+<p><strong>Parents.</strong>
+<code>@dm_conditional_ucm_dynamic_event_witness</code>,
+<code>@energy_density</code>, <code>@stress_energy_tensor</code>,
+<code>@dm_ucm_two_gate_factorization</code></p>
+<p><strong>Proof debt.</strong> <code>PD-DM-008</code>,
+<code>PD-DM-011</code></p>
+<h2 id="dm_density_profile_readout_factorization_gate"><span class="citation" data-cites="dm_density_profile_readout_factorization_gate">@dm_density_profile_readout_factorization_gate</span></h2>
+<p><strong>Checkpoint:</strong> E085<br/>
+<strong>Name:</strong> Resolution-Profile Readout Factorization
+Gate<br/>
+<strong>Type:</strong> SourceReconciledReadoutFactorizationGate<br/>
+<strong>Status:</strong> LIVE_DIAGNOSTIC_SOURCE_ROUTE_CORRECTION</p>
+<p><strong>Registry definition.</strong> The E084 selected
+event-component scaffold is retained only as a local conditional
+shortcut; the source-grounded generic density/readout lane must use the
+Resolution-level profile factorization rather than a universal scalar
+rho_E map.</p>
+<p><strong>My cartographic reading.</strong> This object records a
+source correction: the generic density/readout path is a
+Resolution-level profile translation, not a universal one-step scalar
+map. It prevented a convenient local shortcut from being mistaken for
+the general source law.</p>
+<p><strong>Guardrail.</strong> It does not itself calibrate the profile
+into a readable stress-energy component.</p>
+<p><strong>Parents.</strong>
+<code>@dm_resolution_density_profile</code>,
+<code>@dm_native_density_to_readable_source</code>,
+<code>@energy_density</code>, <code>@time_shell</code></p>
+<p><strong>Proof debt.</strong> <code>PD-DM-011</code></p>
+<h2 id="dm_explicit_two_port_continuity_residual_witness"><span class="citation" data-cites="dm_explicit_two_port_continuity_residual_witness">@dm_explicit_two_port_continuity_residual_witness</span></h2>
+<p><strong>Checkpoint:</strong> E086<br/>
+<strong>Name:</strong> Explicit Two-Port Hidden Continuity Residual
+Witness<br/>
+<strong>Type:</strong> ExplicitFiniteContinuityResidualWitness<br/>
+<strong>Status:</strong> LIVE_DERIVED_CLOSED_INTERNAL</p>
+<p><strong>Registry definition.</strong> The selected two-port hidden
+network has an explicit readable-port state for which omission of the
+hidden S3 component changes native continuity redistribution.</p>
+<p><strong>My cartographic reading.</strong> This is one of the
+strongest internal finite results. The hidden network gives an explicit
+nonzero native continuity difference on the chiral contrast mode. It
+shows the hidden distinction exists in a native dynamical representation
+before later source interpretation.</p>
+<p><strong>Guardrail.</strong> It does not by itself prove that the
+Time-Shell gravity projection preserves the mode.</p>
+<p><strong>Parents.</strong>
+<code>@dm_joint_hidden_network_witness</code>,
+<code>@dm_hidden_response_operator</code>,
+<code>@continuity_perturbation</code></p>
+<p><strong>Proof debt.</strong> None recorded at this object.</p>
+<h2 id="dm_two_port_timeshell_gravity_fiber_test"><span class="citation" data-cites="dm_two_port_timeshell_gravity_fiber_test">@dm_two_port_timeshell_gravity_fiber_test</span></h2>
+<p><strong>Checkpoint:</strong> E087<br/>
+<strong>Name:</strong> Two-Port Time-Shell Gravity Fiber Test<br/>
+<strong>Type:</strong> TypedGravityProjectionFiberGate<br/>
+<strong>Status:</strong> LIVE_OPEN_TYPED_GATE</p>
+<p><strong>Registry definition.</strong> The direct hidden-network
+gravity question is reduced to one projection-fiber separation test on
+one explicit continuity-response pair.</p>
+<p><strong>My cartographic reading.</strong> This object compresses the
+direct gravity route to one fiber question: does an existing Time-Shell
+gravity map separate one explicit full/visible continuity pair? I kept
+it as an independent cross-check after the energy-density route became
+shorter.</p>
+<p><strong>Guardrail.</strong> It is an open/conditional projection
+test, not a new gravity model.</p>
+<p><strong>Parents.</strong>
+<code>@dm_explicit_two_port_continuity_residual_witness</code>,
+<code>@continuity_perturbation</code>,
+<code>@time_shell_projection_operator</code>,
+<code>@weak_field_metric_perturbation</code></p>
+<p><strong>Proof debt.</strong> <code>PD-DM-012</code></p>
+<h2 id="dm_conditional_direct_timeshell_dark_readout_witness"><span class="citation" data-cites="dm_conditional_direct_timeshell_dark_readout_witness">@dm_conditional_direct_timeshell_dark_readout_witness</span></h2>
+<p><strong>Checkpoint:</strong> E088<br/>
+<strong>Name:</strong> Conditional Direct Time-Shell Dark-Readout
+Witness<br/>
+<strong>Type:</strong>
+ConditionalDirectTimeShellDarkReadoutWitness<br/>
+<strong>Status:</strong>
+LIVE_CONDITIONAL_CLOSED_WITH_SINGLE_GRAVITY_FIBER_DEBT</p>
+<p><strong>Registry definition.</strong> A direct conditional
+dark-readout witness exists on the selected two-port Time-Shell gravity
+fiber without using the UCM event-density bridge, chromatic route, or
+residue/Q route.</p>
+<p><strong>My cartographic reading.</strong> This object expresses the
+readout-relative definition of darkness: matched ordinary-matter readout
+with separated gravitational/geometry readout. It is conceptually
+central because it avoids defining dark matter by a new particle
+noun.</p>
+<p><strong>Guardrail.</strong> When conditional, it remains dependent on
+the working assumptions/proof debts listed below and is not an empirical
+dark-matter detection.</p>
+<p><strong>Parents.</strong>
+<code>@dm_two_port_timeshell_gravity_fiber_test</code>,
+<code>@dm_dark_readout_defect</code>,
+<code>@matter_readable_organization</code></p>
+<p><strong>Proof debt.</strong> <code>PD-DM-002</code>,
+<code>PD-DM-012</code></p>
+<h2 id="dm_chirality_seed_byte_probe_basis"><span class="citation" data-cites="dm_chirality_seed_byte_probe_basis">@dm_chirality_seed_byte_probe_basis</span></h2>
+<p><strong>Checkpoint:</strong> E089<br/>
+<strong>Name:</strong> Recovered Chirality Seed / Byte Probe Basis<br/>
+<strong>Type:</strong> RecoveredCrossDomainProbeBasis<br/>
+<strong>Status:</strong> LIVE_SOURCE_RECOVERED</p>
+<p><strong>Registry definition.</strong> The Live Landscape probe basis
+is corrected: use two mirror chirality orientations (seed/byte) crossed,
+when useful, with six basin occupancy levels. Do not treat 1/7..6/7 as
+six byte identities.</p>
+<p><strong>My cartographic reading.</strong> This source-recovery object
+corrected the probe basis. The byte has two mirror orientations; the six
+1/7…6/7 values are basin/energy-density occupancies, not six byte
+identities. This correction made later wind-tunnel language precise.</p>
+<p><strong>Guardrail.</strong> It does not assert that basin index alone
+determines gravitational strength.</p>
+<p><strong>Parents.</strong> <code>@chirality_seed</code>,
+<code>@left_chirality_seed</code>, <code>@right_chirality_seed</code>,
+<code>@chirality_byte</code>, <code>@energy_density</code></p>
+<p><strong>Proof debt.</strong> None recorded at this object.</p>
+<h2 id="dm_chirality_seed_contrast_normal_form"><span class="citation" data-cites="dm_chirality_seed_contrast_normal_form">@dm_chirality_seed_contrast_normal_form</span></h2>
+<p><strong>Checkpoint:</strong> E090<br/>
+<strong>Name:</strong> Chirality-Seed Mirror Contrast Normal Form<br/>
+<strong>Type:</strong> RepresentationNormalFormMatch<br/>
+<strong>Status:</strong> LIVE_DERIVED_CLOSED_INTERNAL</p>
+<p><strong>Registry definition.</strong> The E063 two-port hidden
+response normal form is exactly a positive scalar multiple of the
+recovered chirality-seed mirror contrast. The E086 probe c_* is
+therefore the canonical nontrivial seed-contrast mode in this
+representation.</p>
+<p><strong>My cartographic reading.</strong> This is the exact
+normal-form bridge that made the hidden two-port witness feel native
+rather than arbitrary: the network response is a positive scalar
+multiple of the recovered chirality-seed contrast matrix.</p>
+<p><strong>Guardrail.</strong> It is a representation-level equality of
+normal forms, not an ontological identity between chirality and a graph
+Laplacian.</p>
+<p><strong>Parents.</strong>
+<code>@dm_chirality_seed_byte_probe_basis</code>,
+<code>@dm_joint_hidden_network_witness</code>,
+<code>@dm_explicit_two_port_continuity_residual_witness</code></p>
+<p><strong>Proof debt.</strong> None recorded at this object.</p>
+<h2 id="dm_chirality_byte_basin_probe_family"><span class="citation" data-cites="dm_chirality_byte_basin_probe_family">@dm_chirality_byte_basin_probe_family</span></h2>
+<p><strong>Checkpoint:</strong> E091<br/>
+<strong>Name:</strong> Chirality-Byte / Basin Finite Probe Family<br/>
+<strong>Type:</strong> ConditionalFiniteProbeFamily<br/>
+<strong>Status:</strong> LIVE_CONDITIONAL_DIAGNOSTIC</p>
+<p><strong>Registry definition.</strong> All six interior basin levels
+preserve a nonzero mirror chirality contrast under the diagnostic
+weighting. The family gives six explicit positive-amplitude inputs
+sharing one canonical chiral contrast direction.</p>
+<p><strong>My cartographic reading.</strong> This creates a finite
+six-level probe family over one canonical chiral contrast direction. It
+is useful for diagnostics and possible future parameter sweeps.</p>
+<p><strong>Guardrail.</strong> The scalar basin weighting was
+diagnostic; the source-authoritative native basin operator remains a
+separate typing issue.</p>
+<p><strong>Parents.</strong>
+<code>@dm_chirality_seed_contrast_normal_form</code>,
+<code>@chirality_byte</code>, <code>@energy_density</code></p>
+<p><strong>Proof debt.</strong> <code>PD-DM-013</code></p>
+<h2 id="dm_chirality_seed_timeshell_gravity_fiber_test"><span class="citation" data-cites="dm_chirality_seed_timeshell_gravity_fiber_test">@dm_chirality_seed_timeshell_gravity_fiber_test</span></h2>
+<p><strong>Checkpoint:</strong> E092<br/>
+<strong>Name:</strong> Canonical Chirality-Seed Time-Shell Gravity Fiber
+Test<br/>
+<strong>Type:</strong> CanonicalizedGravityProjectionFiberGate<br/>
+<strong>Status:</strong> LIVE_OPEN_TYPED_GATE_RETYPE</p>
+<p><strong>Registry definition.</strong> PD-DM-012 is retyped onto a
+canonical chirality-seed contrast input. The only direct-readout
+question remains whether the existing G_TS fiber separates this explicit
+persistent-continuity contrast rather than annihilating it.</p>
+<p><strong>My cartographic reading.</strong> This object compresses the
+direct gravity route to one fiber question: does an existing Time-Shell
+gravity map separate one explicit full/visible continuity pair? I kept
+it as an independent cross-check after the energy-density route became
+shorter.</p>
+<p><strong>Guardrail.</strong> It is an open/conditional projection
+test, not a new gravity model.</p>
+<p><strong>Parents.</strong>
+<code>@dm_chirality_seed_contrast_normal_form</code>,
+<code>@dm_explicit_two_port_continuity_residual_witness</code>,
+<code>@time_shell_projection_operator</code>,
+<code>@weak_field_metric_perturbation</code></p>
+<p><strong>Proof debt.</strong> <code>PD-DM-012</code></p>
+<h2 id="dm_xapi_density_readout_factorization"><span class="citation" data-cites="dm_xapi_density_readout_factorization">@dm_xapi_density_readout_factorization</span></h2>
+<p><strong>Checkpoint:</strong> E095<br/>
+<strong>Name:</strong> Native-Density Readout Factorization<br/>
+<strong>Type:</strong> OpenHandleFactorization<br/>
+<strong>Status:</strong> LIVE_DERIVED_NARROWED</p>
+<p><strong>Registry definition.</strong> The old
+native-density-to-readable-source problem factors into two source-closed
+structural steps plus one residual calibration/observer step.</p>
+<p><strong>My cartographic reading.</strong> This object decomposes the
+old readout problem into already-closed structural steps plus one
+residual calibration/observer gate. It is a map of proof debt rather
+than a new physical law.</p>
+<p><strong>Guardrail.</strong> The final calibration required source
+backfill; before E098 this object was not an unconditional readout
+theorem.</p>
+<p><strong>Parents.</strong>
+<code>@dm_native_density_to_readable_source</code>,
+<code>@dm_xapi_energy_density_stress_corridor</code>,
+<code>@dm_stress_energy_separation_gate</code></p>
+<p><strong>Proof debt.</strong> <code>PD-DM-014</code></p>
+<h2 id="dm_xapi_energy_density_stress_corridor"><span class="citation" data-cites="dm_xapi_energy_density_stress_corridor">@dm_xapi_energy_density_stress_corridor</span></h2>
+<p><strong>Checkpoint:</strong> E095<br/>
+<strong>Name:</strong> Dark-Matter Resolution Density -&gt;
+Stress-Energy Cross-API Corridor<br/>
+<strong>Type:</strong> TypedCrossAPIComponentRoute<br/>
+<strong>Status:</strong> LIVE_DERIVED_CLOSED_TYPED_ROUTE</p>
+<p><strong>Registry definition.</strong> The DM 2.2 Resolution-level
+hidden density profile directly REALIZES API 4.3 <span class="citation" data-cites="energy_density">@energy_density</span>, and API 4.3 <span class="citation" data-cites="energy_density">@energy_density</span>
+directly ENTERS <span class="citation" data-cites="stress_energy_tensor">@stress_energy_tensor</span>.
+Therefore the structural component route is already present across the
+two APIs.</p>
+<p><strong>My cartographic reading.</strong> This is the bridge the
+brute-force combined API crawl revealed. The DM Resolution density
+profile already realizes API 4.3 energy density, which already enters
+stress-energy. This removed the need to invent a special
+dark-matter-to-Einstein interface.</p>
+<p><strong>Guardrail.</strong> It is a structural typed route; a scalar
+component does not by itself reconstruct the complete stress-energy
+tensor.</p>
+<p><strong>Parents.</strong>
+<code>@dm_resolution_density_profile</code>,
+<code>@energy_density</code>, <code>@stress_energy_tensor</code></p>
+<p><strong>Proof debt.</strong> <code>PD-DM-014</code></p>
+<h2 id="dm_xapi_master_dependency_map"><span class="citation" data-cites="dm_xapi_master_dependency_map">@dm_xapi_master_dependency_map</span></h2>
+<p><strong>Checkpoint:</strong> E096<br/>
+<strong>Name:</strong> Dark Matter / API 4.3 Master Dependency Map<br/>
+<strong>Type:</strong> CrossAPIFixedPointMap<br/>
+<strong>Status:</strong> LIVE_DERIVED_CLOSED_MAP</p>
+<p><strong>Registry definition.</strong> Exhaustive fixed-point map of
+the baseline API 4.3 x DM 2.2 semantic environment, preserving every
+direct source relation and shortest closure path used for
+navigation.</p>
+<p><strong>My cartographic reading.</strong> This is the fixed-point
+cartographic object for API 4.3 × DM 2.2. Its scientific value is
+navigation and factorization: it shows which bridges are already encoded
+and which gaps are genuinely missing.</p>
+<p><strong>Guardrail.</strong> Reachability is not proof, identity, or
+physical realization.</p>
+<p><strong>Parents.</strong> <code>QMO-XAPI-002</code></p>
+<p><strong>Proof debt.</strong> None recorded at this object.</p>
+<h2 id="dm_source_backfilled_master_map"><span class="citation" data-cites="dm_source_backfilled_master_map">@dm_source_backfilled_master_map</span></h2>
+<p><strong>Checkpoint:</strong> E097<br/>
+<strong>Name:</strong> Source-Backfilled Dark Matter Master Map<br/>
+<strong>Type:</strong> SourceXAPICrosswalk<br/>
+<strong>Status:</strong> LIVE_DERIVED_CLOSED_MAP</p>
+<p><strong>Registry definition.</strong> Crosswalk joining the recovered
+Archive.zip LaTeX spine to API 4.3, DM 2.2, and the existing XAPI
+fixed-point landscape without altering any parent source.</p>
+<p><strong>My cartographic reading.</strong> This joins historical LaTeX
+source to the contemporary API/QMO universe without rewriting either
+one. It is the provenance bridge between discovery history and current
+dependency structure.</p>
+<p><strong>Guardrail.</strong> Historical formulas remain
+source-labeled; backfill is not silent promotion into current canon.</p>
+<p><strong>Parents.</strong> <code>QMO-XAPI-002</code>,
+<code>ASTRAEUS_MK43_DARK_MATTER_LATEX_RECOVERY_20260822</code></p>
+<p><strong>Proof debt.</strong> None recorded at this object.</p>
+<h2 id="dm_source_density_geometry_calibration"><span class="citation" data-cites="dm_source_density_geometry_calibration">@dm_source_density_geometry_calibration</span></h2>
+<p><strong>Checkpoint:</strong> E098<br/>
+<strong>Name:</strong> Source Density-to-Geometry Calibration
+Witness<br/>
+<strong>Type:</strong> SourceDeclaredShellConstitutiveWitness<br/>
+<strong>Status:</strong> LIVE_DERIVED_CLOSED_SOURCE_EFFECTIVE</p>
+<p><strong>Registry definition.</strong> Exact source-declared shell
+sector in which positive energy density is mapped to metric log-scale by
+m=ln(mu/mu0), phi=(1/2)ln det g, phi+alpha m=phi0.</p>
+<p><strong>My cartographic reading.</strong> This is the exact
+source-sector nonannihilation result that closed the last high-leverage
+internal density→geometry debt: unequal positive density gives unequal
+metric log-scale/determinant when alpha is nonzero.</p>
+<p><strong>Guardrail.</strong> It is sector-specific and not a universal
+empirical calibration for every regime.</p>
+<p><strong>Parents.</strong> <code>@energy_density</code>,
+<code>@time_shell</code>, <code>@projected_spacetime_metric</code></p>
+<p><strong>Proof debt.</strong> None recorded at this object.</p>
+<h2 id="dm_source_er_gravitational_readout_chain"><span class="citation" data-cites="dm_source_er_gravitational_readout_chain">@dm_source_er_gravitational_readout_chain</span></h2>
+<p><strong>Checkpoint:</strong> E099<br/>
+<strong>Name:</strong> Source ER Gravitational Readout Chain<br/>
+<strong>Type:</strong> SourceEffectiveDarkMatterChain<br/>
+<strong>Status:</strong> LIVE_DERIVED_CLOSED_SOURCE_EFFECTIVE</p>
+<p><strong>Registry definition.</strong> Recovered source chain from ER
+adjacency/energy density through effective geometry or ER stress-energy
+into Einstein/cosmological/galactic gravitational readout.</p>
+<p><strong>My cartographic reading.</strong> This is the recovered
+historical effective chain from ER adjacency/source structure to
+Einstein/cosmological/galactic gravitational readout. It is the
+strongest source-level map of the Dark Matter program.</p>
+<p><strong>Guardrail.</strong> Its coarse-graining and phenomenological
+potential still require quantitative parameterization and external
+validation.</p>
+<p><strong>Parents.</strong> <code>@er_network</code>,
+<code>@energy_density</code>, <code>@stress_energy_tensor</code>,
+<code>@einstein_field_equation</code>, <code>@gravity</code></p>
+<p><strong>Proof debt.</strong> <code>PD-DM-015</code></p>
+<h2 id="dm_source_er_effective_model_closure"><span class="citation" data-cites="dm_source_er_effective_model_closure">@dm_source_er_effective_model_closure</span></h2>
+<p><strong>Checkpoint:</strong> E100<br/>
+<strong>Name:</strong> Source-Effective ER Dark Matter Model
+Closure<br/>
+<strong>Type:</strong> SourceEffectiveModelClosure<br/>
+<strong>Status:</strong> LIVE_CLOSED_SOURCE_EFFECTIVE_EMPIRICAL_OPEN</p>
+<p><strong>Registry definition.</strong> Internal closure of the
+recovered source-effective Dark Matter branch: hidden/load-bearing ER
+geometry has an explicit network representation, density/metric and
+stress-energy/Einstein interfaces, large-scale coarse-graining, and
+galactic readout equations. External physical identification is not
+promoted.</p>
+<p><strong>My cartographic reading.</strong> This is the closure object.
+I interpret it as saying the internal source-effective mathematical
+question is answered: there is no longer a blank bridge from
+hidden/load-bearing ER structure to gravitational readout.</p>
+<p><strong>Guardrail.</strong> It explicitly does not promote real-world
+dark matter identification; empirical validation and strict hidden-S3
+refinement remain open.</p>
+<p><strong>Parents.</strong>
+<code>@dm_source_density_geometry_calibration</code>,
+<code>@dm_source_er_gravitational_readout_chain</code>,
+<code>@dm_xapi_master_dependency_map</code></p>
+<p><strong>Proof debt.</strong> <code>PD-DM-015</code></p>
+</body>
+</html>

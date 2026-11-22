@@ -1,0 +1,16 @@
+{
+  "source": "@angular_momentum_parameter",
+  "target": "@ergoregion",
+  "path": [
+    {
+      "source": "@angular_momentum_parameter",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@ergoregion",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-51",
+      "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@angular_momentum_parameter-[COMPOSED_DEPENDENCY]->@einstein_tensor-[COMPOSED_DEPENDENCY]->@ergoregion"
+    }
+  ]
+}

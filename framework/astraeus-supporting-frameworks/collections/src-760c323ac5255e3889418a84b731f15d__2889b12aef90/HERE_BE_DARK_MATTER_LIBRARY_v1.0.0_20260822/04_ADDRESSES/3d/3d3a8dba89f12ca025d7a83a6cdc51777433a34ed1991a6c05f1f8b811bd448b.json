@@ -1,0 +1,79 @@
+{
+  "handle": "@dm_ucm_source_domain_distinction",
+  "object_type": "qmo_derived_mathematical_object",
+  "status": "LIVE_SOURCE_DERIVED_CLOSED_AT_SOURCE_DOMAIN",
+  "domain": "DM30",
+  "namespace": "mk43://dark-matter/live",
+  "name": "Hidden-Network UCM Source-Domain Distinction",
+  "definition": "A controlled full/visible UCM source-state pair distinguished by the already-established nonzero hidden network organization before readable source projection.",
+  "math": "u_full=(O,Chi,A_full,P,Rred,S,B,...), u_vis=(O,Chi,A_vis,P,Rred,S,B,...), selected hidden support nontrivial => u_full != u_vis.",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E073",
+  "qmo_generated": true,
+  "proof_status": "DERIVED_OR_CONDITIONAL",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "LIVE_QMO_DERIVED",
+  "metadata": {
+    "payload": {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_ucm_source_domain_distinction",
+      "canonical_name": "Hidden-Network UCM Source-Domain Distinction",
+      "type": "UCMSourceStateSeparationWitness",
+      "status": "LIVE_SOURCE_DERIVED_CLOSED_AT_SOURCE_DOMAIN",
+      "checkpoint": "E073",
+      "definition": "A controlled full/visible UCM source-state pair distinguished by the already-established nonzero hidden network organization before readable source projection.",
+      "math": "u_full=(O,Chi,A_full,P,Rred,S,B,...), u_vis=(O,Chi,A_vis,P,Rred,S,B,...), selected hidden support nontrivial => u_full != u_vis.",
+      "parents": [
+        "@dm_joint_hidden_network_witness",
+        "@dm_hidden_s3_network",
+        "@universal_coupling"
+      ],
+      "working_assumptions": [
+        "WA-DM-E064-001"
+      ],
+      "proof_debt": [],
+      "physical_claim": false,
+      "baseline_mutation": false,
+      "boundary": "Readable stress-energy separation P_T(U_dyn(u_full)) != P_T(U_dyn(u_vis)) is not inferred here."
+    },
+    "direct_live_edges_out": [
+      {
+        "source": "@dm_ucm_source_domain_distinction",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_joint_hidden_network_witness",
+        "graph_family": "dark_matter_live",
+        "confidence": "high",
+        "audit_status": "LIVE_SOURCE_DERIVED",
+        "provenance": "E073",
+        "origin": "LIVE_LANDSCAPE",
+        "source_layer": "live"
+      },
+      {
+        "source": "@dm_ucm_source_domain_distinction",
+        "relation": "ENTERS_SOURCE_DOMAIN_OF",
+        "target": "@universal_coupling",
+        "graph_family": "dark_matter_live",
+        "confidence": "high",
+        "audit_status": "LIVE_SOURCE_DERIVED",
+        "provenance": "E073",
+        "origin": "LIVE_LANDSCAPE",
+        "source_layer": "live"
+      }
+    ],
+    "direct_live_edges_in": [
+      {
+        "source": "@dm_ucm_event_to_source_nonannihilation",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_ucm_source_domain_distinction",
+        "graph_family": "dark_matter_live",
+        "confidence": "high",
+        "audit_status": "LIVE_OPEN_CANDIDATE",
+        "provenance": "E074",
+        "origin": "LIVE_LANDSCAPE",
+        "source_layer": "live"
+      }
+    ]
+  },
+  "address": "@dm_ucm_source_domain_distinction",
+  "address_sha256": "3d3a8dba89f12ca025d7a83a6cdc51777433a34ed1991a6c05f1f8b811bd448b"
+}

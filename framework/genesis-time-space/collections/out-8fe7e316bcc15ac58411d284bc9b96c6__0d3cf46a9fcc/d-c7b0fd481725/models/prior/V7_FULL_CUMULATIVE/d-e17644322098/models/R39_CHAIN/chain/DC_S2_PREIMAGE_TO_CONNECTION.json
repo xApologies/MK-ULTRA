@@ -1,0 +1,74 @@
+{
+  "handle": "@dc_s2_preimage_to_connection",
+  "ordered_steps": [
+    {
+      "step": 0,
+      "address": "@chain/s2_p",
+      "name": "Fixed localized S2 address p",
+      "status": "SEED"
+    },
+    {
+      "step": 1,
+      "address": "@chain/preimage_raw",
+      "name": "Raw projection preimage \u03a0^{-1}(p)",
+      "status": "DERIVED_TYPE"
+    },
+    {
+      "step": 2,
+      "address": "@chain/invariant_fiber",
+      "name": "Invariant-compatible preimage",
+      "status": "FILTER"
+    },
+    {
+      "step": 3,
+      "address": "@chain/resolution_domain",
+      "name": "Resolution-visible distinctions on preimage",
+      "status": "FILTER"
+    },
+    {
+      "step": 4,
+      "address": "@chain/bandwidth_domain",
+      "name": "Bandwidth-supportable reorganizations",
+      "status": "FILTER"
+    },
+    {
+      "step": 5,
+      "address": "@chain/history_decorated",
+      "name": "History/provenance decorated representatives",
+      "status": "LIFT"
+    },
+    {
+      "step": 6,
+      "address": "@chain/torus_phase",
+      "name": "Local T2 Resolution phase chart",
+      "status": "LOCAL_MODEL"
+    },
+    {
+      "step": 7,
+      "address": "@chain/lift_family",
+      "name": "Formal lift family",
+      "status": "SOURCE_TYPED"
+    },
+    {
+      "step": 8,
+      "address": "@chain/operative_lifts",
+      "name": "Bandwidth-restricted lift family",
+      "status": "SOURCE_TYPED"
+    },
+    {
+      "step": 9,
+      "address": "@chain/connection",
+      "name": "Connection selection instance",
+      "status": "OPEN"
+    },
+    {
+      "step": 10,
+      "address": "@chain/kor",
+      "name": "KOR realization witness gate",
+      "status": "BLOCKED"
+    }
+  ],
+  "terminal": "@chain/connection",
+  "terminal_state": "OPEN_FORK",
+  "stop_reason": "Concrete connection selection instance is not supplied by the current chain; exact \u03a0^{-1}(p) population is also not enumerable from the generic address alone."
+}

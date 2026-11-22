@@ -1,0 +1,26 @@
+{
+  "experiment": "E055",
+  "candidate": "CAND-DM-WEIGHTED-TREE-REDUCTION-058",
+  "title": "Low-Dimensional Reduction of the Weighted Corridor Merge Tree",
+  "status": "WEIGHTED TREE EVOLUTION OVERWHELMINGLY ONE-DIMENSIONAL BUT NOT EXACT; FIXED TREE PLUS SHARED RELAXATION COORDINATE RECOVERED AS REDUCED MODEL",
+  "physical_dark_matter_witness": false,
+  "parent_promotions": 0,
+  "results": {
+    "weight_space_dimension": 14,
+    "peak_weights": 8,
+    "merge_weights": 6,
+    "combinatorial_tree_fixed": true,
+    "first_geometric_direction_squared_fraction": 0.9997869403603663,
+    "global_relative_rank1_residual": 0.014596562596497678,
+    "shared_coordinate_monotone_to_fixed_tree": true,
+    "stored_exact_Estar_weight_depths": [
+      13,
+      14,
+      15,
+      16
+    ],
+    "one_scalar_exact_state_description": false
+  },
+  "ruling": "Once the E054 combinatorial merge tree is fixed, the 14-dimensional vector of peak and merge weights evolves almost entirely along one Euclidean direction toward the driven fixed weighted tree. The first direction carries ~99.98% of squared displacement, but a small transverse residual remains, so the state is not literally one scalar. The correct reduced model is fixed tree + dominant shared History coordinate + small transverse corrections.",
+  "next_handle": "TEST_WHETHER_THE_REDUCED_WEIGHTED_TREE_COORDINATE_PREDICTS_THE_E043_DIRECT_FLOW_QUOTIENT_RESPONSE_AND_QUANTIFY_ANY_MISSING_TRANSVERSE_INFORMATION"
+}

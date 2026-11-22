@@ -1,0 +1,36 @@
+digraph Overlay {
+rankdir=LR;
+graph [label="Rainbow Road Unified API Overlay v1.0",labelloc=t,fontsize=20];
+node [shape=box,style="rounded,filled",fillcolor="white"];
+
+TS [label="Time-Space"];
+GF [label="Genesis Field"];
+R [label="Resolution"];
+B [label="Bandwidth"];
+PERS [label="Persistence"];
+CHI [label="Chirality"];
+ER [label="ER foam"];
+HEL [label="Helicon"];
+ROAD [label="Rainbow Road\n(overlay)",fillcolor="lavender"];
+PORT [label="Portals\n(overlay)",fillcolor="lavender"];
+SRH [label="S_RH\nOPEN Road->Helicon selector",fillcolor="moccasin"];
+PB [label="Persistent Boundary"];
+BP [label="Boundary Projection"];
+Q [label="QFT Handoff"];
+YM [label="Yang-Mills / QCD\nOPEN target",fillcolor="moccasin"];
+B6 [label="B6: R O Y G B V",fillcolor="lavender"];
+SU3 [label="SU(3) six directed\ntransition modes\nEXTERNAL candidate",fillcolor="aliceblue"];
+
+TS->GF->R->B->PERS->CHI->ER->HEL [label="native direct-source spine"];
+PORT->ROAD [label="compose"];
+ROAD->SRH [label="OPEN"];
+B6->PORT [label="route index"];
+CHI->SRH [label="constraint input"];
+SRH->HEL [label="select mode",style=dashed];
+PERS->PB;
+PB->BP;
+BP->Q;
+HEL->Q [label="projection/handoff\ncandidate path",style=dashed];
+Q->YM [label="rho_YM OPEN",style=dashed];
+B6->SU3 [label="candidate only",style=dashed];
+}

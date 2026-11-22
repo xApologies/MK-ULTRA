@@ -1,0 +1,25 @@
+{
+  "handle": "iteration://IT-DM-E087-DIRECT-GRAVITY-FIBER",
+  "object_type": "bounded_iteration",
+  "status": "OPEN_SINGLE_PROJECTION_FIBER_GATE",
+  "domain": "ITERATION",
+  "namespace": "mk43://iteration",
+  "name": "IT-DM-E087-DIRECT-GRAVITY-FIBER",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "BOUNDED_ITERATION",
+  "metadata": {
+    "id": "IT-DM-E087-DIRECT-GRAVITY-FIBER",
+    "seed": "@dm_explicit_two_port_continuity_residual_witness",
+    "terminal_state": "OPEN_SINGLE_PROJECTION_FIBER_GATE",
+    "source_file": "live/checkpoints/E087/runs/IT-DM-E087-DIRECT-GRAVITY-FIBER.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_ITERATION_RUN_V1\", \"run_id\": \"IT-DM-E087-DIRECT-GRAVITY-FIBER\", \"checkpoint\": \"E087\", \"seed\": \"@dm_explicit_two_port_continuity_residual_witness\", \"ceiling\": 128, \"iterations_used\": 5, \"terminal_state\": \"OPEN_SINGLE_PROJECTION_FIBER_GATE\", \"open_next\": \"@dm_two_port_timeshell_gravity_fiber_test\", \"note\": \"Do not derive a global gravity model. Attack only one selected full/visible fiber of the already-recovered Time-Shell projection channel.\"}"
+  },
+  "address": "iteration://IT-DM-E087-DIRECT-GRAVITY-FIBER",
+  "address_sha256": "9c5a2b4c2cdbb7201494fa290dc1b8d71c2dca6c19971514960d5f018b6cc891"
+}

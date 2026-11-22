@@ -1,0 +1,32 @@
+{
+  "experiment": "E054",
+  "candidate": "CAND-DM-CORRIDOR-MERGE-TREE-057",
+  "title": "History-Invariant Corridor Merge Tree",
+  "status": "NONFRESH CORRIDOR MERGE-TREE COMBINATORIAL TYPE INVARIANT E1-E16; WEIGHTS RELAX ON FIXED TREE",
+  "physical_dark_matter_witness": false,
+  "parent_promotions": 0,
+  "results": {
+    "nonfresh_history_states_tested": 16,
+    "strict_local_maxima_per_state": 8,
+    "secondary_branches": 7,
+    "abstract_merge_tree_same_E1_E16_and_Estar": true,
+    "root_coordinate_E1": [
+      14,
+      16,
+      16
+    ],
+    "root_coordinate_E2_Estar": [
+      14,
+      16,
+      15
+    ],
+    "embedded_peak_geometry_same_E2_E16_as_Estar": true,
+    "fixed_state_unique_merge_levels": 6,
+    "equal_level_polytomy_preserved": true,
+    "merge_tree_complete_state_invariant": false,
+    "merge_tree_combinatorial_type_invariant": true,
+    "merge_tree_weights_relax_with_history": true
+  },
+  "ruling": "The seven E053 local branches form one coherent finite superlevel merge tree. Its abstract nested-cluster structure is identical in every nonfresh History state E1-E16 and the driven fixed state E*. E1 has only a one-voxel root-location formation transient; from E2 onward the peak embedding also matches E*. History therefore evolves mainly as weights on a fixed branch/merge tree rather than by changing the combinatorial corridor architecture.",
+  "next_handle": "TEST_LOW_DIMENSIONAL_FACTORIZATION_OF_THE_WEIGHTED_CORRIDOR_MERGE_TREE_INTO_FIXED_TREE_PLUS_SHARED_HISTORY_RELAXATION_COORDINATE"
+}

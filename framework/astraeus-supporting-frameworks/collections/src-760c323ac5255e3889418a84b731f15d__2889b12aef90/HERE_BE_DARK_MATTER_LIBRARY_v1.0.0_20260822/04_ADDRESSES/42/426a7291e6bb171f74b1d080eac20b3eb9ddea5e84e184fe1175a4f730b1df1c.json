@@ -1,0 +1,77 @@
+{
+  "handle": "@mutual_information_and_er_weights",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@mutual_information_and_er_weights",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 167,
+    "closure_in_reachability_count": 1,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@mutual_information_and_er_weights",
+        "relation": "CONNECTS_TO",
+        "target": "@entanglement_entropy",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-45",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Mutual information constrains entanglement structure."
+      },
+      {
+        "source": "@entanglement_entropy",
+        "relation": "CONNECTS_TO",
+        "target": "@mutual_information_and_er_weights",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@mutual_information_and_er_weights CONNECTS_TO @entanglement_entropy); rule=CONNECTS_TO→CONNECTS_TO"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 2073,
+        "source": "@mutual_information_and_er_weights",
+        "relation": "CONNECTS_TO",
+        "target": "@entanglement_entropy",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Mutual information constrains entanglement structure."
+      },
+      {
+        "id": 3111,
+        "source": "@entanglement_entropy",
+        "relation": "CONNECTS_TO",
+        "target": "@mutual_information_and_er_weights",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@mutual_information_and_er_weights CONNECTS_TO @entanglement_entropy); rule=CONNECTS_TO→CONNECTS_TO"
+      }
+    ]
+  },
+  "address": "@mutual_information_and_er_weights",
+  "address_sha256": "426a7291e6bb171f74b1d080eac20b3eb9ddea5e84e184fe1175a4f730b1df1c"
+}

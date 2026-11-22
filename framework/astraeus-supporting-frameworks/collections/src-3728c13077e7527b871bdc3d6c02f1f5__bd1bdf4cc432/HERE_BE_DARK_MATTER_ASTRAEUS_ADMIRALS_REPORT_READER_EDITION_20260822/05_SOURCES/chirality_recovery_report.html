@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+
+<html lang="" xml:lang="" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8"/>
+<meta content="pandoc" name="generator"/>
+<meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
+<title>chirality recovery report</title>
+<style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+<style>
+:root { color-scheme: light dark; }
+body { max-width: 980px; margin: 0 auto; padding: 2.2rem 1.5rem 5rem; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 1.62; }
+h1,h2,h3,h4 { line-height: 1.2; margin-top: 1.8em; }
+h1 { border-bottom: 2px solid currentColor; padding-bottom: .25rem; }
+h2 { border-bottom: 1px solid color-mix(in srgb, currentColor 30%, transparent); padding-bottom: .2rem; }
+blockquote { border-left: 4px solid currentColor; padding-left: 1rem; margin-left: 0; opacity: .92; }
+pre, code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+pre { overflow-x: auto; padding: 1rem; border: 1px solid color-mix(in srgb, currentColor 20%, transparent); border-radius: 8px; }
+code { font-size: .92em; }
+table { border-collapse: collapse; width: 100%; overflow-x: auto; display: block; }
+th, td { border: 1px solid color-mix(in srgb, currentColor 25%, transparent); padding: .45rem .6rem; vertical-align: top; }
+a { color: inherit; text-decoration-thickness: .08em; }
+nav#TOC { padding: 1rem 1.2rem; border: 1px solid color-mix(in srgb, currentColor 25%, transparent); border-radius: 10px; }
+.reader-banner { border: 2px solid currentColor; border-radius: 12px; padding: .8rem 1rem; margin: 0 0 2rem; font-weight: 650; }
+mjx-container { max-width: 100%; }
+mjx-container[display="true"] { display: block; overflow-x: auto; overflow-y: hidden; padding: .45rem 0; margin: 1rem 0; }
+mjx-container svg { max-width: 100%; }
+.eq-source { font-size: .86rem; opacity: .75; margin-bottom: .25rem; }
+.eq-card { padding: .6rem .9rem; margin: .7rem 0 1.2rem; border-left: 3px solid color-mix(in srgb, currentColor 45%, transparent); }
+.render-fallback { font-family: Georgia, "Times New Roman", serif; white-space: pre-wrap; overflow-x: auto; }
+@media (max-width: 600px) { body { font-size: 17px; padding: 1.2rem .8rem 3rem; } }
+</style></head>
+<body><div class="reader-banner">READER EDITION — equations are pre-rendered as vector mathematics. No LaTeX renderer, plug-in, or internet connection is required.</div>
+<header id="title-block-header">
+<h1 class="title">chirality recovery report</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#master.zip-chirality-recovery-report" id="toc-master.zip-chirality-recovery-report">MASTER.zip — Chirality
+Recovery Report</a>
+<ul>
+<li><a href="#traversal" id="toc-traversal">Traversal</a></li>
+<li><a href="#high-value-chirality-artifacts-recovered" id="toc-high-value-chirality-artifacts-recovered">High-value chirality
+artifacts recovered</a></li>
+</ul></li>
+<li><a href="#recovered-chirality-canon" id="toc-recovered-chirality-canon">Recovered Chirality Canon</a>
+<ul>
+<li><a href="#chirality-is-not-merely-orientation" id="toc-chirality-is-not-merely-orientation">1. Chirality is not merely
+orientation</a></li>
+<li><a href="#primitive-existence-states" id="toc-primitive-existence-states">2. Primitive existence
+states</a></li>
+<li><a href="#chirality-seed" id="toc-chirality-seed">3. Chirality
+seed</a></li>
+<li><a href="#boundary-state-grammar" id="toc-boundary-state-grammar">4.
+Boundary-state grammar</a></li>
+<li><a href="#chirality-byte-canonical-states" id="toc-chirality-byte-canonical-states">5. Chirality byte canonical
+states</a></li>
+<li><a href="#chirality-byte-as-tiny-manifold" id="toc-chirality-byte-as-tiny-manifold">6. Chirality byte as tiny
+manifold</a></li>
+<li><a href="#occupancy-architecture" id="toc-occupancy-architecture">7.
+2×2×2 occupancy architecture</a></li>
+<li><a href="#chirality-is-physical-structure-before-symbolic-meaning" id="toc-chirality-is-physical-structure-before-symbolic-meaning">8.
+Chirality is physical structure before symbolic meaning</a></li>
+<li><a href="#er-foam-3-1-1-relation" id="toc-er-foam-3-1-1-relation">9.
+ER Foam / 3 + 1 + 1 relation</a></li>
+<li><a href="#blank-manifold-and-channel-structure" id="toc-blank-manifold-and-channel-structure">10. Blank manifold and
+channel structure</a></li>
+<li><a href="#chirality-byte-cpu-genesis-os" id="toc-chirality-byte-cpu-genesis-os">11. Chirality Byte CPU / Genesis
+OS</a></li>
+<li><a href="#basins-and-energy-density-occupancy-inside-chirality-topology" id="toc-basins-and-energy-density-occupancy-inside-chirality-topology">12.
+Basins and energy-density occupancy inside chirality topology</a></li>
+<li><a href="#gravity-relation-recovered" id="toc-gravity-relation-recovered">13. Gravity relation
+recovered</a></li>
+</ul></li>
+<li><a href="#compressed-recovery" id="toc-compressed-recovery">Compressed Recovery</a></li>
+<li><a href="#key-recovery-statement" id="toc-key-recovery-statement">Key Recovery Statement</a></li>
+</ul>
+</nav>
+<h1 id="master.zip-chirality-recovery-report">MASTER.zip — Chirality
+Recovery Report</h1>
+<p>Mode: recovery, not reconstruction.</p>
+<h2 id="traversal">Traversal</h2>
+<ul>
+<li>Source: <code>provenance://unavailable/path-sha256/c83fa4a7c4515caee544104fa8a1ddccd42530f2ca3e9c0b9e3319b78d806720/MASTER.zip</code></li>
+<li>Recursive archive pass: 3 archives traversed, including
+<code>.pages</code> package zips.</li>
+<li>Total extracted filesystem entries: 114 files.</li>
+<li>PDFs parsed: 32.</li>
+<li>PDFs containing <code>chirality/chiral</code> or adjacent recovery
+terms: 26.</li>
+</ul>
+<h2 id="high-value-chirality-artifacts-recovered">High-value chirality
+artifacts recovered</h2>
+<table>
+<colgroup>
+<col style="width: 50%"/>
+<col style="width: 50%"/>
+</colgroup>
+<thead>
+<tr class="header">
+<th>Artifact path</th>
+<th>Recovered role</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>MASTER/5 - Chirality Byte/MASTER.pdf</code></td>
+<td>Primary Chirality Byte canon snapshot: manifold runtime, environment
+inheritance, chirality byte, existence/non-existence, basins,
+energy-density storage.</td>
+</tr>
+<tr class="even">
+<td><code>MASTER/1/MASTER.pdf</code></td>
+<td>Chirality-byte as structured occupancy object; left/right byte pair;
+byte as 2×2×2 geometric object.</td>
+</tr>
+<tr class="odd">
+<td><code>MASTER/2/MASTER.pdf</code></td>
+<td>Physical state → occupancy → chirality byte; SSD analogy; canonical
+byte discovery; 2×2×2 occupancy cube.</td>
+</tr>
+<tr class="even">
+<td><code>MASTER/7/MASTER.pdf</code></td>
+<td>Chirality seed from ∅ and {∅}; arrangement over value; boundary
+grammar; chirality byte as admissible arrangement.</td>
+</tr>
+<tr class="odd">
+<td><code>MASTER/Astraeus Recovery 0/MASTER.pdf</code></td>
+<td>Chirality recovery: orientation upgraded to
+organizational/admissibility grammar.</td>
+</tr>
+<tr class="even">
+<td><code>MASTER/12/MASTER_1.pdf</code> and
+<code>MASTER/12/MASTER_2.pdf</code></td>
+<td>Chirality Byte CPU / distributed chirality field / runtime ecology /
+250-test lineage.</td>
+</tr>
+<tr class="odd">
+<td><code>MASTER/17 /MASTER.pdf</code></td>
+<td>Gravity reconstruction: Gravity = Chirality rejected; refined chain
+Distinction → Chirality → Organization → Persistence → Inheritance →
+Propagation → Gravity.</td>
+</tr>
+<tr class="even">
+<td><code>MASTER/18 | MK43U Recovery/MASTER.pdf</code></td>
+<td>Geometric Operating System: chirality byte fabric, admissibility
+engine, chirality as memory fabric.</td>
+</tr>
+<tr class="odd">
+<td><code>MASTER/6 - Outline/MASTER.pdf</code></td>
+<td>MK43 definition: Chirality = Structure; more specifically,
+admissible states of existence.</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<h1 id="recovered-chirality-canon">Recovered Chirality Canon</h1>
+<h2 id="chirality-is-not-merely-orientation">1. Chirality is not merely
+orientation</h2>
+<p>Recovered correction:</p>
+<pre class="text"><code>Previous interpretation:
+    Chirality = orientation
+
+Current interpretation:
+    Chirality = organizational grammar
+or:
+    admissibility grammar</code></pre>
+<p>Another artifact compresses it as:</p>
+<pre class="text"><code>Chirality = Structure
+More specifically:
+    Admissible States of Existence
+Question:
+    Is this structure allowed to exist?</code></pre>
+<p>Recovered status: chirality is deeper than handedness. Handedness is
+an expression of chirality, not the full meaning.</p>
+<hr/>
+<h2 id="primitive-existence-states">2. Primitive existence states</h2>
+<p>Recovered definitions:</p>
+<pre class="text"><code>0 = ∅
+1 = {∅}</code></pre>
+<p>Interpretation:</p>
+<pre class="text"><code>0 = no structure / nothing present / does not exist
+1 = structure exists / exists</code></pre>
+<p>Important recovered correction:</p>
+<pre class="text"><code>0 does not mean false.
+0 means nothing present.</code></pre>
+<p>This matches the image artifact supplied in-thread: ∅ is “does not
+exist,” while {∅} is “exists.”</p>
+<hr/>
+<h2 id="chirality-seed">3. Chirality seed</h2>
+<p>Recovered from <code>MASTER/7/MASTER.pdf</code>:</p>
+<pre class="text"><code>Primitive states:
+    ∅
+    {∅}
+were used as:
+    Does Not Exist
+    Exists
+respectively.
+
+Then organized into:
+    {∅} ∅
+    ∅   {∅}
+
+and
+
+    ∅   {∅}
+    {∅} ∅
+
+These became:
+    Right-handed Chirality
+    Left-handed Chirality
+
+Important realization:
+    The arrangement mattered more than the values.
+    Structure determines admissibility.</code></pre>
+<p>Recovered from the uploaded image:</p>
+<pre class="text"><code>Left-handed chirality seed:
+    counterclockwise orientation
+    mirrored existence/non-existence arrangement
+
+Right-handed chirality seed:
+    clockwise orientation
+    opposite mirrored arrangement
+
+Left and right chirality seeds are mirror reflections.</code></pre>
+<p>Recovery note: the seed is a 2×2 existence/non-existence arrangement.
+Its chirality is not the bit values alone; it is the oriented
+arrangement of existence states.</p>
+<hr/>
+<h2 id="boundary-state-grammar">4. Boundary-state grammar</h2>
+<p>Recovered:</p>
+<pre class="text"><code>Boundary states:
+    00
+    01
+    10
+    11
+
+Initially interpreted as:
+    Binary.
+
+Later interpreted as:
+    Distinction Grammar.
+
+These states became:
+    Recursive boundary structures.
+
+Used to generate:
+    Chirality
+    Distinction
+    Structure
+
+Important realization:
+    The information lives in arrangement, not count.</code></pre>
+<p>Recovery note: this is one of the bridges between ordinary binary and
+MK43 chirality grammar.</p>
+<hr/>
+<h2 id="chirality-byte-canonical-states">5. Chirality byte canonical
+states</h2>
+<p>Recovered canonical pair from multiple artifacts:</p>
+<pre class="text"><code>RIGHT = 01101001
+LEFT  = 10010110</code></pre>
+<p>Also recovered as:</p>
+<pre class="text"><code>R = 01101001
+L = 10010110</code></pre>
+<p>Recovered projection from <code>MASTER/1/MASTER.pdf</code>:</p>
+<pre class="text"><code>LEFT = 10010110
+
+Layer 0:
+    1 0
+    0 1
+Layer 1:
+    0 1
+    1 0
+
+RIGHT = 01101001
+
+Layer 0:
+    0 1
+    1 0
+Layer 1:
+    1 0
+    0 1</code></pre>
+<p>Recovered correction from
+<code>MASTER/5 - Chirality Byte/MASTER.pdf</code>:</p>
+<pre class="text"><code>WRONG:
+    01101001
+
+CORRECT:
+    01
+    10
+    10
+    01
+
+and mirror:
+    10
+    01
+    01
+    10</code></pre>
+<p>Interpretation of correction: the serial byte string is not the
+primary object. The 2×2×2 arrangement is primary. Serialization is a
+representation.</p>
+<hr/>
+<h2 id="chirality-byte-as-tiny-manifold">6. Chirality byte as tiny
+manifold</h2>
+<p>Recovered properties:</p>
+<pre class="text"><code>The object is not:
+    the serialization
+
+The object is:
+    the arrangement
+
+Key properties:
+    occupancy
+    adjacency
+    orientation
+    handedness
+
+The chirality byte preserves:
+    structure
+
+while allowing:
+    handedness inversion
+
+through diagonal swap operations.
+
+Major realization:
+    The chirality byte behaves like a tiny manifold.</code></pre>
+<p>Recovered organizational inheritance:</p>
+<pre class="text"><code>chirality seed
+    ↓
+chirality byte
+    ↓
+blank manifold
+    ↓
+atomic manifold
+    ↓
+molecular manifold
+    ↓
+environment manifold
+
+Structure inherits upward.</code></pre>
+<hr/>
+<h2 id="occupancy-architecture">7. 2×2×2 occupancy architecture</h2>
+<p>Recovered:</p>
+<pre class="text"><code>8 bits can be projected as a 2×2×2 structure.
+The byte is therefore readable as a tiny geometric object.
+The byte carries handedness, diagonal relation, complementarity,
+layer relation, projection rule, closure condition,
+and reversible left/right identity.</code></pre>
+<p>Recovered from another artifact:</p>
+<pre class="text"><code>Canonical Occupancy Cube:
+    Eight positions.
+Equivalent count:
+    2³ = 8
+
+The chirality byte naturally maps onto:
+    2×2×2 structure.</code></pre>
+<p>Recovered consequence:</p>
+<pre class="text"><code>Bit = distinguishable state
+Chirality seed = smallest handed relationship
+Chirality byte = smallest handed closure</code></pre>
+<hr/>
+<h2 id="chirality-is-physical-structure-before-symbolic-meaning">8.
+Chirality is physical structure before symbolic meaning</h2>
+<p>Recovered SSD/computation insight:</p>
+<pre class="text"><code>SSDs store charge states.
+Controller measures charge.
+Controller interprets charge → symbol.
+Information is recovered from state.
+Information is not stored as symbols.
+Information is stored as physical structure.</code></pre>
+<p>Recovered chirality-byte extension:</p>
+<pre class="text"><code>Traditional architecture focuses on:
+    Bit
+
+This thread focused on:
+    Physical State
+
+Question:
+    What exists before the bit?
+
+Answer:
+    Physical occupancy.
+
+The bit is merely a symbolic interpretation.</code></pre>
+<p>Recovered computer architecture chain:</p>
+<pre class="text"><code>physical state
+    ↓
+distinction
+    ↓
+chirality byte
+    ↓
+structured occupancy
+    ↓
+computation</code></pre>
+<hr/>
+<h2 id="er-foam-3-1-1-relation">9. ER Foam / 3 + 1 + 1 relation</h2>
+<p>Recovered from <code>MASTER/5 - Chirality Byte/MASTER.pdf</code>:</p>
+<pre class="text"><code>ER Foam is modeled as:
+    3 + 1 + 1
+
+Interpretation:
+    3  = occupancy structure
+    +1 = chirality
+    +1 = inheritance/history
+
+ER Foam acts as:
+    substrate
+not:
+    particle field</code></pre>
+<p>Recovered from <code>MASTER/12/MASTER_1.pdf</code>:</p>
+<pre class="text"><code>Environment does not contain ER Foam.
+Environment inherits ER Foam.
+ER Foam acts as runtime substrate.
+The manifold does not create structure.
+The manifold perturbs existing chirality organization within the substrate.</code></pre>
+<p>Recovery note: chirality is not added after geometry; it is one of
+the inherited structural layers in the runtime substrate.</p>
+<hr/>
+<h2 id="blank-manifold-and-channel-structure">10. Blank manifold and
+channel structure</h2>
+<p>Recovered blank manifold definition:</p>
+<pre class="text"><code>The blank manifold is:
+    recursive continuity scaffold
+
+Contains:
+    architecture
+    chirality admissibility
+    channel structure
+    scaling rules
+
+Does NOT contain:
+    hydrogen
+    oxygen
+    carbon
+    persistence
+    occupancy
+
+The scaffold comes first.
+Atoms come later.</code></pre>
+<p>Recovered channels:</p>
+<pre class="text"><code>T0  chirality substrate
+T1  chirality occupancy
+T2  adjacency topology
+T3  propagation topology
+T4  persistence emergence
+T5  proto-material density
+T6  classical continuity
+T7A core persistence
+T7B shell occupancy
+T7C closure equilibrium
+ancestry / closure reference</code></pre>
+<p>Recovery note: chirality occupies T0/T1 in the manifold architecture
+before adjacency, propagation, persistence, material density, and
+classical continuity.</p>
+<hr/>
+<h2 id="chirality-byte-cpu-genesis-os">11. Chirality Byte CPU / Genesis
+OS</h2>
+<p>Recovered from <code>MASTER/12/MASTER_1.pdf</code>:</p>
+<pre class="text"><code>Primitive:
+    Chirality Byte
+
+Canonical States:
+    R = 01101001
+    L = 10010110
+
+Structure:
+    2 × 2 × 2
+
+Bits are not removed.
+Bits remain.
+
+Architecture:
+    Bit
+    ↓
+    Byte
+    ↓
+    Structure
+    ↓
+    Identity
+
+The byte becomes the first stable topological object.</code></pre>
+<p>Recovered from
+<code>MASTER/18 | MK43U Recovery/MASTER.pdf</code>:</p>
+<pre class="text"><code>Core Components:
+    Chirality Byte Fabric
+    Admissibility Engine
+    Collapse Resolver
+    Shell Translation
+    Propagation Engine
+
+Cell State:
+    σ = admissibility
+    χ = chirality
+    ρ = persistence
+    λ = locality
+    τ = translation readiness</code></pre>
+<p>Recovered operating-system analogy:</p>
+<pre class="text"><code>Normal OS:
+    Memory
+    Files
+    Processes
+
+Genesis OS:
+    Distinction
+    Admissibility
+    Persistence
+    Propagation
+    Identity Resolution
+
+Kernel:
+    Distinction
+Scheduler:
+    Admissibility
+Memory:
+    Chirality Fabric
+Filesystem:
+    Structural Basins
+Runtime:
+    Persistent Topology Engine</code></pre>
+<hr/>
+<h2 id="basins-and-energy-density-occupancy-inside-chirality-topology">12.
+Basins and energy-density occupancy inside chirality topology</h2>
+<p>Recovered basin ladder:</p>
+<pre class="text"><code>1/7 = Red
+2/7 = Orange
+3/7 = Yellow
+4/7 = Green
+5/7 = Blue
+6/7 = Violet
+
+Bounded by:
+    0/7
+    7/7</code></pre>
+<p>Recovered correction:</p>
+<pre class="text"><code>The basin comes first.
+The decimal representation comes later.
+The decimal is representation.
+The basin is identity.</code></pre>
+<p>Recovered energy-density interpretation:</p>
+<pre class="text"><code>Basin voltages:
+    1/7 → 0.142857 V
+    2/7 → 0.2857 V
+    3/7 → 0.42857 V
+    4/7 → 0.57 V
+    5/7 → 0.7 V
+    6/7 → 0.857 V
+
+These are treated as energy density states.
+Energy density becomes structured occupancy inside chirality topology.</code></pre>
+<p>Recovered basin arithmetic:</p>
+<pre class="text"><code>Orange + Green → Yellow
+because:
+    (2/7 + 4/7)/2 = 3/7
+
+Red + Yellow → Orange
+because:
+    (1/7 + 3/7)/2 = 2/7</code></pre>
+<hr/>
+<h2 id="gravity-relation-recovered">13. Gravity relation recovered</h2>
+<p>Recovered from <code>MASTER/17 /MASTER.pdf</code>:</p>
+<pre class="text"><code>Original intuition:
+    Gravity = Chirality
+
+Rejected as too simple.
+
+Refined structure:
+    Distinction
+        ↓
+    Chirality
+        ↓
+    Organization
+        ↓
+    Persistence
+        ↓
+    Inheritance
+        ↓
+    Propagation
+        ↓
+    Gravity</code></pre>
+<p>Recovered location:</p>
+<pre class="text"><code>Gravity begins appearing near:
+    T5
+
+Reason:
+    Chirality already exists before T5.
+
+The major transition is:
+    Chirality → Persistent Chirality
+
+Gravity becomes associated with:
+    Propagation of persistent organization.</code></pre>
+<p>Recovered T0–T5 result:</p>
+<pre class="text"><code>T0–T4:
+    Chirality exists.
+    Organization exists.
+    Distinction exists.
+
+But:
+    Temporal inheritance not admitted.
+
+T5:
+    Time Shell
+
+Major transition:
+    Persistence becomes admissible.
+
+Result:
+    Organization becomes inheritable.
+
+This is the location where gravity begins appearing in the architecture.</code></pre>
+<hr/>
+<h1 id="compressed-recovery">Compressed Recovery</h1>
+<pre class="text"><code>∅
+    = does not exist / no structure present
+
+{∅}
+    = exists / structure present
+
+Existence arrangement
+    ↓
+Chirality seed
+    ↓
+Mirror handedness
+    ↓
+Chirality byte
+    ↓
+2×2×2 occupancy manifold
+    ↓
+Admissible arrangement
+    ↓
+Chirality fabric
+    ↓
+Blank manifold scaffold
+    ↓
+T0/T1 chirality substrate + occupancy
+    ↓
+Adjacency / propagation / persistence
+    ↓
+Energy-density basin occupancy
+    ↓
+Persistent organization
+    ↓
+Inherited propagation
+    ↓
+Gravity candidate architecture</code></pre>
+<h1 id="key-recovery-statement">Key Recovery Statement</h1>
+<p>Chirality in this archive is not conventional chirality alone. It is
+an existence/admissibility grammar built from ∅ and {∅}, organized into
+mirrored handed seeds, lifted into 2×2×2 chirality bytes, and then
+inherited upward as manifold/runtime structure. Its operational role is
+to determine admissible arrangement: what structure is allowed to exist,
+persist, propagate, and become recoverable.</p>
+</body>
+</html>

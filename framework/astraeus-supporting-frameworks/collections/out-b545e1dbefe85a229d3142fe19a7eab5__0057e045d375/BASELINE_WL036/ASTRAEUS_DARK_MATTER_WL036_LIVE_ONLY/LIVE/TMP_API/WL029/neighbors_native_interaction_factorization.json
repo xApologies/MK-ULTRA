@@ -1,0 +1,148 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_NEIGHBORS_V1",
+  "handle": "@native_interaction_factorization",
+  "incoming": [
+    [
+      "@admissibility",
+      {
+        "source": "@admissibility",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@native_interaction_factorization",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DEPENDSON:54037",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@gravitational_helicon_mode",
+      {
+        "source": "@gravitational_helicon_mode",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@native_interaction_factorization",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DEPENDSON:54039",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@orientation",
+      {
+        "source": "@orientation",
+        "relation": "DIRECTED_TO",
+        "target": "@native_interaction_factorization",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54790->54791",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@orientation",
+      {
+        "source": "@orientation",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@native_interaction_factorization",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DEPENDSON:54038",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@universal_coupling",
+      {
+        "source": "@universal_coupling",
+        "relation": "DIRECTED_TO",
+        "target": "@native_interaction_factorization",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54793->54794",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@universal_coupling",
+      {
+        "source": "@universal_coupling",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@native_interaction_factorization",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DEPENDSON:54040",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ]
+  ],
+  "outgoing": [
+    [
+      "@multiparticle_gravity",
+      {
+        "source": "@native_interaction_factorization",
+        "relation": "USED_BY",
+        "target": "@multiparticle_gravity",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_USEDBY:54044",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@scattering_audit",
+      {
+        "source": "@native_interaction_factorization",
+        "relation": "USED_BY",
+        "target": "@scattering_audit",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_USEDBY:54043",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@soft_graviton_limit",
+      {
+        "source": "@native_interaction_factorization",
+        "relation": "DIRECTED_TO",
+        "target": "@soft_graviton_limit",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54796->54797",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@soft_graviton_limit",
+      {
+        "source": "@native_interaction_factorization",
+        "relation": "USED_BY",
+        "target": "@soft_graviton_limit",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_USEDBY:54042",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ]
+  ]
+}

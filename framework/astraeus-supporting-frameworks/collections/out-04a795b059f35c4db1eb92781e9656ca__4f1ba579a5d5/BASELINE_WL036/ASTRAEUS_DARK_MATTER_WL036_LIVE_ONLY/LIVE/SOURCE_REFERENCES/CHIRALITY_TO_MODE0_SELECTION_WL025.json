@@ -1,0 +1,68 @@
+{
+  "schema": "ASTRAEUS_QMO_CROSS_CRAWL_V1",
+  "seeds": [
+    "@chirality"
+  ],
+  "targets": [
+    "@dm_mode0_network_selection_rule"
+  ],
+  "bidirectional": true,
+  "edge_count": 1659,
+  "reachable_count": 394,
+  "distance_histogram": {
+    "0": 1,
+    "1": 8,
+    "2": 66,
+    "3": 178,
+    "4": 141
+  },
+  "paths": {
+    "@chirality -> @dm_mode0_network_selection_rule": [
+      {
+        "from": "@chirality",
+        "relation": "DIRECTED_TO",
+        "to": "@native_constraint_closure",
+        "traversal": "forward",
+        "origin": "TIMESPACE_4.3_FULL_CANONICAL",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54805->54806",
+        "source_location": "source_snapshots/api43/MK43_Ultra_API_CURRENT_CANONICAL.md:57330",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@native_constraint_closure",
+        "relation": "USES_PARENT",
+        "to": "@dm_v75_parent_native_antecedent_relation",
+        "traversal": "reverse",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V75",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@dm_v75_parent_native_antecedent_relation",
+        "relation": "REPRESENTED_BY_CANDIDATE",
+        "to": "@dm_hidden_s3_network",
+        "traversal": "reverse",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V75",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@dm_hidden_s3_network",
+        "relation": "SELECTS_ACCESS_TO",
+        "to": "@dm_mode0_network_selection_rule",
+        "traversal": "reverse",
+        "origin": "DARKMATTER_2.0",
+        "provenance": "DM2.0",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "OPEN_HANDLE",
+        "confidence": "high"
+      }
+    ]
+  },
+  "guardrail": "Navigation evidence only. Composed paths are not direct theorems and no parent object is promoted."
+}

@@ -1,0 +1,114 @@
+{
+  "schema": "ASTRAEUS_RAINBOW_ROAD_OBJECT_MATH_API_SCHEMA_V7",
+  "api_name": "Astraeus Rainbow Road Object Mathematics API",
+  "version": "0.8.0",
+  "root_handle": "@rainbow_road_recursive_domain",
+  "purpose": "Queryable five-branch object mathematics operating as a dynamic recursive closure domain on Rainbow Road/Möbius presentation structure.",
+  "principles": [
+    "objects_before_number_ontology",
+    "native_five_branch_precedence",
+    "rainbow_road_is_runtime_domain",
+    "mobius_return_does_not_reset_history",
+    "recursive_closure_is_semantically_idempotent",
+    "history_remains_append_only",
+    "provenance_required",
+    "readout_does_not_replace_structure",
+    "recoverability_over_invertibility",
+    "bandwidth_and_resolution_remain_distinct",
+    "internal_certified_derivations_may_self_promote",
+    "domain_extensions_require_audit",
+    "perturbations_are_sandboxed",
+    "qmo_handle_is_metadata_address",
+    "api_and_live_model_are_synchronized_dual_surfaces",
+    "semantic_metadata_history_is_append_only",
+    "dependency_landscape_is_qmo",
+    "dependency_landscape_composition_is_recursive",
+    "landscape_member_status_is_preserved",
+    "dos_style_help_surface",
+    "typed_at_command_namespace",
+    "commands_are_structural_implementations_not_qmos_by_default",
+    "first_token_command_resolution_arguments_qmo_resolution",
+    "dependency_graph_is_qmo",
+    "dependency_chain_is_qmo",
+    "dependency_chain_history_is_append_only",
+    "closed_dependency_chain_may_define_subdomain",
+    "graph_landscape_chain_member_status_is_preserved"
+  ],
+  "required_surfaces": {
+    "objects": "OBJECT_REGISTRY.json",
+    "edges": "EDGE_REGISTRY.json",
+    "equations": "EQUATION_REGISTRY.json",
+    "theorems": "THEOREM_REGISTRY.json",
+    "aliases": "ALIAS_REGISTRY.json",
+    "rules": "DERIVATION_RULES.json",
+    "frontier": "FRONTIER_REGISTRY.json",
+    "sources": "SOURCE_REGISTRY.json",
+    "candidates": "CANDIDATE_REGISTRY.json",
+    "sqlite": "db/astraeus_math.sqlite",
+    "runtime": "runtime/astraeus_math_api.py",
+    "canonical": "canonical/ASTRAEUS_OBJECT_MATH_API_CANONICAL.md",
+    "domain": "DOMAIN_REGISTRY.json",
+    "closure": "CLOSURE_CONTRACT.json",
+    "certificates": "CLOSURE_CERTIFICATE_REGISTRY.json",
+    "perturbations": "PERTURBATION_REGISTRY.json",
+    "incompatibilities": "INCOMPATIBILITY_REGISTRY.json",
+    "road_runtime": "runtime/rainbow_road_runtime.py",
+    "qmo_metadata": "QMO_METADATA_REGISTRY.json",
+    "qmo_metadata_schema": "QMO_METADATA_SCHEMA.json",
+    "qmo_metadata_library": "library/QMO_METADATA_LIBRARY.json",
+    "api_live_model": "live_model/API_LIVE_MODEL.json",
+    "human_api_live_model": "live_model/ASTRAEUS_API_LIVE_MODEL.md",
+    "qmo_metadata_history": "live_model/QMO_METADATA_HISTORY.jsonl",
+    "dependency_landscapes": "DEPENDENCY_LANDSCAPE_REGISTRY.json",
+    "help": "HELP_REGISTRY.json",
+    "dependency_landscape_history": "live_model/DEPENDENCY_LANDSCAPE_HISTORY.jsonl",
+    "dependency_graphs": "DEPENDENCY_GRAPH_REGISTRY.json",
+    "dependency_chains": "DEPENDENCY_CHAIN_REGISTRY.json",
+    "qmo_types": "QMO_TYPE_REGISTRY.json",
+    "graph_types": "GRAPH_TYPE_REGISTRY.json",
+    "dependency_graph_history": "live_model/DEPENDENCY_GRAPH_HISTORY.jsonl",
+    "dependency_chain_history": "live_model/DEPENDENCY_CHAIN_HISTORY.jsonl"
+  },
+  "object_contract": {
+    "required": [
+      "handle",
+      "canonical_name",
+      "type",
+      "status",
+      "branch",
+      "definition",
+      "provenance"
+    ]
+  },
+  "edge_contract": {
+    "required": [
+      "edge_id",
+      "source",
+      "relation",
+      "target",
+      "status",
+      "provenance"
+    ]
+  },
+  "promotion_gate": {
+    "internal_derivation": "automatic when VALID Closure Certificate passes current domain contract",
+    "domain_extension": "Vera audit / explicit project decision",
+    "perturbation_branch": "never auto-overwrites canonical state"
+  },
+  "command_namespace": {
+    "registry": "api/COMMAND_REGISTRY.json",
+    "canonical_help": "@help",
+    "command_count": 43,
+    "command_qmo_separation": true,
+    "intentional_dual_role_addresses": [
+      "@dependency_graph",
+      "@dependency_landscape",
+      "@dependency_chain"
+    ]
+  },
+  "registries": {
+    "functions": "FUNCTION_REGISTRY.json",
+    "iterations": "ITERATION_REGISTRY.json",
+    "iteration_history": "live_model/ITERATION_HISTORY.jsonl"
+  }
+}

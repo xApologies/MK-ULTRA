@@ -1,0 +1,67 @@
+{
+  "schema": "ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1",
+  "landscape_id": "DL-DM-E065-BOUNDARY-RESIDUE-SEED",
+  "seed": "@dm_hidden_boundary_contact",
+  "status": "APPEND_ONLY_CONDITIONAL",
+  "nodes": [
+    "@dm_joint_hidden_network_witness",
+    "@dm_hidden_state_embedding",
+    "@dm_formal_persistence_qualification",
+    "@dm_hidden_persistent_subset",
+    "@dm_hidden_boundary_contact",
+    "@persistent_boundary",
+    "@boundary_projection",
+    "@projective_target_manifold",
+    "@residue_quantum_field_bundle",
+    "@dm_projection_residue_survival",
+    "@dm_q_completion_family",
+    "@dm_q_survival"
+  ],
+  "registered_route": [
+    [
+      "@dm_hidden_state_embedding",
+      "DEPENDS_ON",
+      "@dm_hidden_state_bundle"
+    ],
+    [
+      "@dm_formal_persistence_qualification",
+      "DEPENDS_ON",
+      "@dm_hidden_state_embedding"
+    ],
+    [
+      "@dm_hidden_persistent_subset",
+      "DEPENDS_ON",
+      "@dm_formal_persistence_qualification"
+    ],
+    [
+      "@dm_hidden_boundary_contact",
+      "DEPENDS_ON",
+      "@dm_hidden_persistent_subset"
+    ],
+    [
+      "@dm_hidden_boundary_contact",
+      "DEPENDS_ON",
+      "@persistent_boundary"
+    ],
+    [
+      "@dm_projection_residue_survival",
+      "DEPENDS_ON",
+      "@residue_quantum_field_bundle"
+    ],
+    [
+      "@dm_q_survival",
+      "DEPENDS_ON",
+      "@dm_q_completion_family"
+    ]
+  ],
+  "conditional_bridge": {
+    "assumption": "WA-DM-E065-001",
+    "result": "B_H^R≠∅ permits selection b_H and application of existing Π/Inv machinery."
+  },
+  "terminal": {
+    "state": "CONDITIONAL_CLOSED",
+    "iteration": 4,
+    "focus": "@dm_conditional_boundary_residue_seed",
+    "reason": "Boundary plumbing closes once nonempty contact is admitted; projection survival remains a separate gate."
+  }
+}

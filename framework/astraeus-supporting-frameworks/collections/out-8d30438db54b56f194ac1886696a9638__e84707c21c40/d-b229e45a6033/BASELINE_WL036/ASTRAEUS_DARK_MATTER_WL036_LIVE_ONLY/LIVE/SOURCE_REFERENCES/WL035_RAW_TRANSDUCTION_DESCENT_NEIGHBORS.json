@@ -1,0 +1,62 @@
+[
+  {
+    "edge_id": "E-0008",
+    "source": "@transduction_descent",
+    "relation": "GLUES_LOCAL_INSTANCES_OF",
+    "target": "@transduction_connection",
+    "graph_family": "categorical",
+    "confidence": "high",
+    "audit_status": "live_model_derived",
+    "provenance": "L-270;L-268"
+  },
+  {
+    "edge_id": "E-0043",
+    "source": "@transduction_descent",
+    "relation": "CONTRIBUTES_DEFECT_DATA_TO",
+    "target": "@fabric_signature",
+    "graph_family": "classification",
+    "confidence": "medium",
+    "audit_status": "live_model_derived",
+    "provenance": "L-290"
+  },
+  {
+    "edge_id": "E-0009",
+    "source": "@chirality_fabric",
+    "relation": "CANDIDATE_SUPPORTS",
+    "target": "@transduction_descent",
+    "graph_family": "categorical",
+    "confidence": "medium",
+    "audit_status": "live_model_derived",
+    "provenance": "L-271"
+  },
+  {
+    "edge_id": "E-0010",
+    "source": "@descent_defect",
+    "relation": "AUDITS",
+    "target": "@transduction_descent",
+    "graph_family": "audit",
+    "confidence": "high",
+    "audit_status": "live_model_derived",
+    "provenance": "L-272"
+  },
+  {
+    "edge_id": "E-0046",
+    "source": "@transduction_language",
+    "relation": "LANGUAGE_DEFINES",
+    "target": "@transduction_descent",
+    "graph_family": "language",
+    "confidence": "high",
+    "audit_status": "live_model_derived",
+    "provenance": "L-297;L-298"
+  },
+  {
+    "edge_id": "E-0048",
+    "source": "@analogy_moebius_gluing",
+    "relation": "ANALOGY_SUPPORTS",
+    "target": "@transduction_descent",
+    "graph_family": "research",
+    "confidence": "medium",
+    "audit_status": "live_model_derived",
+    "provenance": "L-300"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "schema": "ASTRAEUS_DM_WORK_LAYER_QMO_V1",
+  "qmo_id": "QMO-AST-DM-WL-015",
+  "name": "UCM Two-Stage Dynamic-Event / Source-Separation Gate",
+  "status": "SOURCE_COMPOSED_TYPE_REDUCTION_NOT_PARENT_PROMOTED",
+  "work_layer_revision": "WL-016",
+  "date": "2026-08-17",
+  "parent_factorization": "Pi_U=P_T o U_dyn on the common admissible domain",
+  "dynamic_gate": "Sep_dyn(x0,x1)=1 iff U_dyn(x0)!=U_dyn(x1)",
+  "source_gate": "Sep_T(e0,e1)=1 iff P_T(e0)!=P_T(e1)",
+  "theorem": "Pairwise UCM source separation requires the selected History pair to survive U_dyn and then survive the event-to-source projection P_T; global injectivity of P_T is unnecessary.",
+  "resolution_relation": "Pers_U(H0,H1) subseteq Pers_dyn(H0,H1) on the common domain",
+  "next_target": "one source-admitted rotational/shear History pair with same matter/QFT readout, Sep_dyn=1 and Sep_T=1",
+  "guardrails": [
+    "DeltaLambda != 0 does not itself prove UCM dynamic-event separation",
+    "dynamic-event separation does not itself prove source-tensor separation",
+    "changed UCM receiving response does not automatically imply changed stress-energy",
+    "P_T need not be globally injective",
+    "no scalar profile introduced",
+    "no Helicon horizontal transport required for this source-side reduction",
+    "no parent promotion"
+  ],
+  "source_refs": [
+    "DARK_MATTER_API_2.2:sources/ATLAS_V36/182_V29_UCM_DYNAMIC_EVENT_FACTORIZATION.md",
+    "DARK_MATTER_API_2.2:sources/ATLAS_V36/183_V29_ADJACENCY_INCIDENCE_SENSITIVITY.md",
+    "DARK_MATTER_API_2.2:sources/ATLAS_V36/178_V28_UCM_SOURCE_FIBER.md",
+    "DARK_MATTER_API_2.2:sources/ATLAS_V36/132_UCM_FULL_VS_VISIBLE_SOURCE_PROJECTION.md"
+  ]
+}

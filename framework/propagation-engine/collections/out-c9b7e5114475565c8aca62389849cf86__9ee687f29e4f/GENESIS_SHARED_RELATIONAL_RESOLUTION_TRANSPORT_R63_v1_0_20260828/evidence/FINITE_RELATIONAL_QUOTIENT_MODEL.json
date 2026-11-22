@@ -1,0 +1,88 @@
+{
+  "pair_object": "G12=(B1,B2;R12,B12,H12,O12)",
+  "relation_state_space": "Rel12",
+  "resolution": {
+    "definition": "R12 induces an equivalence relation ~_R12 on pair relational states and quotient q_R12:Rel12->Rel12/~_R12",
+    "coarse_example": {
+      "r0": 0,
+      "r1": 0,
+      "r2": 1,
+      "r3": 1,
+      "r4": 2,
+      "r5": 2
+    },
+    "fine_example": {
+      "r0": 0,
+      "r1": 1,
+      "r2": 2,
+      "r3": 3,
+      "r4": 4,
+      "r5": 5
+    }
+  },
+  "bandwidth": {
+    "definition": "B12 determines the currently admissible subset of Rainbow-Bus portal edges from a relational state.",
+    "bus_edges": [
+      {
+        "source": "r0",
+        "target": "r1",
+        "portal": "p01"
+      },
+      {
+        "source": "r1",
+        "target": "r2",
+        "portal": "p12"
+      },
+      {
+        "source": "r2",
+        "target": "r3",
+        "portal": "p23"
+      },
+      {
+        "source": "r3",
+        "target": "r4",
+        "portal": "p34"
+      },
+      {
+        "source": "r4",
+        "target": "r5",
+        "portal": "p45"
+      },
+      {
+        "source": "r1",
+        "target": "r0",
+        "portal": "p10"
+      },
+      {
+        "source": "r2",
+        "target": "r1",
+        "portal": "p21"
+      },
+      {
+        "source": "r3",
+        "target": "r2",
+        "portal": "p32"
+      }
+    ]
+  },
+  "history": {
+    "definition": "H12 is the ordered portal word/path, not merely the endpoint or its Resolution quotient.",
+    "same_endpoint_distinct_history": {
+      "endpoint": "r0",
+      "history_a": [],
+      "history_b": [
+        "p01",
+        "p10"
+      ]
+    }
+  },
+  "unresolved_propagation_example": {
+    "start": "r0",
+    "end": "r1",
+    "history": [
+      "p01"
+    ],
+    "coarse_same": true,
+    "fine_changed": true
+  }
+}

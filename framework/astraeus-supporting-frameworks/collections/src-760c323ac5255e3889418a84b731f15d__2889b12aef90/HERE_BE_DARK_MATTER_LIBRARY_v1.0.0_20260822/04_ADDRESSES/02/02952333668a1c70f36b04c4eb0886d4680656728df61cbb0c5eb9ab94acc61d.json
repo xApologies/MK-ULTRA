@@ -1,0 +1,182 @@
+{
+  "handle": "@noncompact_cauchy_surface",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@noncompact_cauchy_surface",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 3,
+    "api43_direct_in_count": 4,
+    "xapi_raw_out_count": 3,
+    "xapi_raw_in_count": 4,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 151,
+    "closure_in_reachability_count": 20,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@noncompact_cauchy_surface",
+        "relation": "SPECIALIZES",
+        "target": "@cauchy_surface",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-50",
+        "provenance": "ACCEPTED_MATHEMATICS:PENROSE_MINIMAL_MATHEMATICAL_CLOSURE"
+      },
+      {
+        "source": "@noncompact_cauchy_surface",
+        "relation": "FEEDS_BLACK_HOLE_MODEL",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_BLACK_HOLE_REVERSE_CRAWL; witness=@noncompact_cauchy_surface-[SPECIALIZES]->@cauchy_surface | @cauchy_surface-[COMPOSED_DEPENDENCY]->@black_hole"
+      },
+      {
+        "source": "@noncompact_cauchy_surface",
+        "relation": "GLOBALLY_FEEDS_BLACK_HOLE",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-53",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_REVERSE_CRAWL; witness=@noncompact_cauchy_surface-[FEEDS_BLACK_HOLE_MODEL]->@black_hole"
+      },
+      {
+        "source": "@penrose_singularity_theorem",
+        "relation": "DEPENDS_ON",
+        "target": "@noncompact_cauchy_surface",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-50",
+        "provenance": "ACCEPTED_MATHEMATICS:PENROSE_MINIMAL_MATHEMATICAL_CLOSURE"
+      },
+      {
+        "source": "@black_hole",
+        "relation": "REACHES_DEPENDENCY",
+        "target": "@noncompact_cauchy_surface",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-50",
+        "provenance": "DERIVED:RP50_PENROSE_TYPED_CRAWL; round=1; path=@black_hole->@penrose_singularity_theorem->@noncompact_cauchy_surface; relations=ENTRY_ROOT_FOR+DEPENDS_ON=>REACHES_DEPENDENCY"
+      },
+      {
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_MODEL_REACHES",
+        "target": "@noncompact_cauchy_surface",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_BLACK_HOLE_FORWARD_CRAWL; witness=@black_hole-[REACHES_DEPENDENCY]->@noncompact_cauchy_surface"
+      },
+      {
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_GLOBAL_REACHES",
+        "target": "@noncompact_cauchy_surface",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-53",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_FORWARD_CRAWL; witness=@black_hole-[REACHES_DEPENDENCY]->@noncompact_cauchy_surface"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 8606,
+        "source": "@noncompact_cauchy_surface",
+        "relation": "SPECIALIZES",
+        "target": "@cauchy_surface",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "ACCEPTED_MATHEMATICS:PENROSE_MINIMAL_MATHEMATICAL_CLOSURE"
+      },
+      {
+        "id": 12170,
+        "source": "@noncompact_cauchy_surface",
+        "relation": "FEEDS_BLACK_HOLE_MODEL",
+        "target": "@black_hole",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP51_BLACK_HOLE_REVERSE_CRAWL; witness=@noncompact_cauchy_surface-[SPECIALIZES]->@cauchy_surface | @cauchy_surface-[COMPOSED_DEPENDENCY]->@black_hole"
+      },
+      {
+        "id": 18339,
+        "source": "@noncompact_cauchy_surface",
+        "relation": "GLOBALLY_FEEDS_BLACK_HOLE",
+        "target": "@black_hole",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_REVERSE_CRAWL; witness=@noncompact_cauchy_surface-[FEEDS_BLACK_HOLE_MODEL]->@black_hole"
+      },
+      {
+        "id": 8607,
+        "source": "@penrose_singularity_theorem",
+        "relation": "DEPENDS_ON",
+        "target": "@noncompact_cauchy_surface",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "ACCEPTED_MATHEMATICS:PENROSE_MINIMAL_MATHEMATICAL_CLOSURE"
+      },
+      {
+        "id": 8841,
+        "source": "@black_hole",
+        "relation": "REACHES_DEPENDENCY",
+        "target": "@noncompact_cauchy_surface",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP50_PENROSE_TYPED_CRAWL; round=1; path=@black_hole->@penrose_singularity_theorem->@noncompact_cauchy_surface; relations=ENTRY_ROOT_FOR+DEPENDS_ON=>REACHES_DEPENDENCY"
+      },
+      {
+        "id": 11768,
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_MODEL_REACHES",
+        "target": "@noncompact_cauchy_surface",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP51_BLACK_HOLE_FORWARD_CRAWL; witness=@black_hole-[REACHES_DEPENDENCY]->@noncompact_cauchy_surface"
+      },
+      {
+        "id": 17920,
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_GLOBAL_REACHES",
+        "target": "@noncompact_cauchy_surface",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_FORWARD_CRAWL; witness=@black_hole-[REACHES_DEPENDENCY]->@noncompact_cauchy_surface"
+      }
+    ]
+  },
+  "address": "@noncompact_cauchy_surface",
+  "address_sha256": "02952333668a1c70f36b04c4eb0886d4680656728df61cbb0c5eb9ab94acc61d"
+}

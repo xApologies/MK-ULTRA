@@ -1,0 +1,172 @@
+{
+  "schema": "CRD_GENESIS_FIELD_Q3_VERIFICATION_v1_0",
+  "q3": {
+    "vertices": 8,
+    "edges": 12,
+    "connected_cluster_masks": 167,
+    "unique_nontrivial_connected_cut_moves": 103,
+    "cut_space_size": 128,
+    "cut_space_dimension": 7,
+    "cohomology_quotient_size": 32,
+    "H1_dimension": 5,
+    "seam_patterns": 4096,
+    "orientation_states_mod_global_flip": 128
+  },
+  "uniform_cluster_relaxation": {
+    "max_steps": 2,
+    "step_histogram": {
+      "0": 63,
+      "1": 3583,
+      "2": 450
+    },
+    "fixed_count": 63,
+    "coset_count": 32,
+    "coset_min_cost_histogram": {
+      "0": 1,
+      "1": 12,
+      "2": 18,
+      "3": 1
+    },
+    "cycles": 0,
+    "above_global_minimum_fixed_points": 0
+  },
+  "balanced_basin_fixture": {
+    "edge_basins": [
+      "R",
+      "B",
+      "Y",
+      "O",
+      "V",
+      "Y",
+      "G",
+      "G",
+      "R",
+      "B",
+      "O",
+      "V"
+    ],
+    "ordinal_test_weights": {
+      "R": 1,
+      "O": 2,
+      "Y": 3,
+      "G": 4,
+      "B": 5,
+      "V": 6
+    },
+    "max_steps": 2,
+    "step_histogram": {
+      "0": 42,
+      "1": 3431,
+      "2": 623
+    },
+    "fixed_count": 42,
+    "coset_count": 32,
+    "coset_min_cost_histogram": {
+      "0": 1,
+      "1": 2,
+      "4": 6,
+      "3": 4,
+      "2": 3,
+      "6": 6,
+      "5": 8,
+      "7": 2
+    },
+    "cycles": 0,
+    "above_global_minimum_fixed_points": 0,
+    "status": "verifier fixture only; not physical energy calibration"
+  },
+  "unweighted_defect_classes": {
+    "class_count": 32,
+    "minimum_frustration_class_histogram": {
+      "0": 1,
+      "1": 12,
+      "2": 18,
+      "3": 1
+    },
+    "minimum_residual_degeneracy_histogram": {
+      "0:1": 1,
+      "1:1": 12,
+      "2:4": 3,
+      "2:2": 15,
+      "3:8": 1
+    },
+    "unique_maximally_frustrated_class_minimum": 3
+  },
+  "history_nonconfluence_witness": {
+    "initial_residual_mask": 11,
+    "initial_weight": 3,
+    "final_residual_mask": 16,
+    "final_weight": 1,
+    "road_A_cluster_masks": [
+      11,
+      8
+    ],
+    "road_B_cluster_masks": [
+      1,
+      2
+    ],
+    "road_A_clusters": [
+      [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1,
+          1
+        ]
+      ]
+    ],
+    "road_B_clusters": [
+      [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    ],
+    "road_A_cost_sequence": [
+      3,
+      2,
+      1
+    ],
+    "road_B_cost_sequence": [
+      3,
+      2,
+      1
+    ]
+  },
+  "multiscale": {
+    "fine_vertices": 64,
+    "fine_edges": 144,
+    "coarse_vertices": 8,
+    "coarse_edges": 12,
+    "coherent_subspace_test_cases": 524288,
+    "potential_relation": "Phi_fine = 4 * Phi_coarse for byte-uniform states, lifted inter-byte seams, unit primitive weights",
+    "commutation_scope": "whole-byte cluster Portals on the byte-coherent subspace",
+    "arbitrary_fine_state": "not represented by coarse map; lost distinction is a Resolution effect, and missing micro-moves are a Bandwidth effect"
+  },
+  "verdict": "PASS"
+}

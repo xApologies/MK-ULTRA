@@ -1,0 +1,312 @@
+{
+  "handle": "@continuity_redistribution",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Continuity Redistribution",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 5,
+    "api43_direct_in_count": 4,
+    "xapi_raw_out_count": 9,
+    "xapi_raw_in_count": 8,
+    "live_out_count": 4,
+    "live_in_count": 4,
+    "closure_out_reachability_count": 1,
+    "closure_in_reachability_count": 16,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 4,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@continuity_redistribution",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@er_foam",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:16166"
+      },
+      {
+        "source": "@continuity_redistribution",
+        "relation": "MATHEMATICS_HAS_ARCHITECT_OPERATOR",
+        "target": "@genlang_operator_1e07893e",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48110;CANONICAL_API_TYPED_LINE:48110"
+      },
+      {
+        "source": "@continuity_redistribution",
+        "relation": "DIRECTED_TO",
+        "target": "@gravitational_self_coupling",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54745->54746"
+      },
+      {
+        "source": "@continuity_redistribution",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@gravitational_self_coupling",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DEPENDSON:53682"
+      },
+      {
+        "source": "@continuity_redistribution",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@graviton",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:27838"
+      },
+      {
+        "source": "@coherent_helicon_propagation",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@continuity_redistribution",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:27829"
+      },
+      {
+        "source": "@genlang_operator_1e07893e",
+        "relation": "ARCHITECT_OPERATOR_MAPS_TO",
+        "target": "@continuity_redistribution",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48109;CANONICAL_API_TYPED_LINE:48109"
+      },
+      {
+        "source": "@graviton",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@continuity_redistribution",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:16095"
+      },
+      {
+        "source": "@gravitational_self_coupling",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@continuity_redistribution",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@continuity_redistribution FORMALLY_DEPENDS_ON @gravitational_self_coupling); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 271,
+        "source": "@continuity_redistribution",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@er_foam",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:16166"
+      },
+      {
+        "id": 272,
+        "source": "@continuity_redistribution",
+        "relation": "MATHEMATICS_HAS_ARCHITECT_OPERATOR",
+        "target": "@genlang_operator_1e07893e",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48110;CANONICAL_API_TYPED_LINE:48110"
+      },
+      {
+        "id": 273,
+        "source": "@continuity_redistribution",
+        "relation": "DIRECTED_TO",
+        "target": "@gravitational_self_coupling",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54745->54746"
+      },
+      {
+        "id": 274,
+        "source": "@continuity_redistribution",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@gravitational_self_coupling",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_DEPENDSON:53682"
+      },
+      {
+        "id": 275,
+        "source": "@continuity_redistribution",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@graviton",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:27838"
+      },
+      {
+        "id": 19072,
+        "source": "@continuity_redistribution",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@er_foam",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:16166"
+      },
+      {
+        "id": 19073,
+        "source": "@continuity_redistribution",
+        "relation": "DIRECTED_TO",
+        "target": "@gravitational_self_coupling",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54745->54746"
+      },
+      {
+        "id": 19074,
+        "source": "@continuity_redistribution",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@gravitational_self_coupling",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_DEPENDSON:53682"
+      },
+      {
+        "id": 19075,
+        "source": "@continuity_redistribution",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@graviton",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:27838"
+      },
+      {
+        "id": 206,
+        "source": "@coherent_helicon_propagation",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@continuity_redistribution",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:27829"
+      },
+      {
+        "id": 405,
+        "source": "@genlang_operator_1e07893e",
+        "relation": "ARCHITECT_OPERATOR_MAPS_TO",
+        "target": "@continuity_redistribution",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48109;CANONICAL_API_TYPED_LINE:48109"
+      },
+      {
+        "id": 552,
+        "source": "@graviton",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@continuity_redistribution",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:16095"
+      },
+      {
+        "id": 2145,
+        "source": "@gravitational_self_coupling",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@continuity_redistribution",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@continuity_redistribution FORMALLY_DEPENDS_ON @gravitational_self_coupling); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      },
+      {
+        "id": 19038,
+        "source": "@coherent_helicon_propagation",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@continuity_redistribution",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:27829"
+      },
+      {
+        "id": 19160,
+        "source": "@graviton",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@continuity_redistribution",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:16095"
+      },
+      {
+        "id": 19719,
+        "source": "@dm_continuity_laplacian",
+        "relation": "REALIZES",
+        "target": "@continuity_redistribution",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19804,
+        "source": "@dm_runtime_transition_capacity",
+        "relation": "DEPENDS_ON",
+        "target": "@continuity_redistribution",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      }
+    ]
+  },
+  "address": "@continuity_redistribution",
+  "address_sha256": "194068a3fad114b0aa617131c5197eb195e133746d93a0aa6ab3d4f14b6f30b4"
+}

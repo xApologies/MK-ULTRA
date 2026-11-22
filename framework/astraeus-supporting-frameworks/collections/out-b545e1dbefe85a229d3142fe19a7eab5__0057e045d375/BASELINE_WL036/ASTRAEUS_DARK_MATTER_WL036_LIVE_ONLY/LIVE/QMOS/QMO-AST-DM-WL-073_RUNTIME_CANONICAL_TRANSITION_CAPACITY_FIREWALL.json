@@ -1,0 +1,142 @@
+{
+  "schema": "ASTRAEUS_RUNTIME_CANONICAL_TRANSITION_CAPACITY_FIREWALL_V1",
+  "qmo_id": "QMO-AST-DM-WL-073",
+  "name": "Runtime vs Canonical Transition Capacity Seam",
+  "atlas_version": "WL-v189",
+  "status": "TYPE_FIREWALL_EXPOSED_NO_IDENTIFICATION",
+  "timespace_object": {
+    "handle": "@transition_capacity",
+    "role": "canonical T entering @relationship -> @transition_capacity -> @containment_volume -> @energy_density",
+    "confidence": "source-backed recovered vertical corridor"
+  },
+  "darkmatter_object": {
+    "handle": "@dm_runtime_transition_capacity",
+    "type": "EdgeCapacityFunctional",
+    "math": "T_run(e)=sup_{Phi in F_run(G_*)} Phi(e)",
+    "definition": "maximum globally feasible continuity flow on an already-persistent relationship under active Time-Space constraints"
+  },
+  "exact_interface_radius3": [
+    {
+      "handle": "@containment_volume",
+      "distance_a": 1,
+      "distance_b": 2
+    },
+    {
+      "handle": "@dm_hidden_relational_load",
+      "distance_a": 2,
+      "distance_b": 1
+    },
+    {
+      "handle": "@relationship",
+      "distance_a": 1,
+      "distance_b": 2
+    },
+    {
+      "handle": "@resolution",
+      "distance_a": 2,
+      "distance_b": 1
+    },
+    {
+      "handle": "@dm_runtime_transition_capacity",
+      "distance_a": 3,
+      "distance_b": 0
+    },
+    {
+      "handle": "@transition_capacity",
+      "distance_a": 0,
+      "distance_b": 3
+    },
+    {
+      "handle": "@persistence",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@bandwidth",
+      "distance_a": 3,
+      "distance_b": 1
+    },
+    {
+      "handle": "@dm_hidden_state_bundle",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@dm_resolution_density_profile",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@energy_density",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@genesis_field",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@mote_chirality",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@mote_lattice",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@chirality",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@closure",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_history_support_preorder",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@genlang_root_rin",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@global_inheritance",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@native_unit_of_energy",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@persistent_recursive_topology",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@recoverability",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@recursive_continuity",
+      "distance_a": 3,
+      "distance_b": 3
+    }
+  ],
+  "finding": "The two capacity objects occupy a dense common neighborhood (relationship, containment volume, Resolution, persistence, hidden load, energy density) but the registered APIs expose no direct identity/translation edge between them. The correct next mathematical obligation is therefore a typed relation if one is ever required, not a name-based identification.",
+  "guardrails": [
+    "@dm_runtime_transition_capacity != @transition_capacity by notation",
+    "exact neighborhood overlap != equality",
+    "adjacency/relationship existence != positive capacity",
+    "Bandwidth saturation may yield zero runtime capacity"
+  ]
+}

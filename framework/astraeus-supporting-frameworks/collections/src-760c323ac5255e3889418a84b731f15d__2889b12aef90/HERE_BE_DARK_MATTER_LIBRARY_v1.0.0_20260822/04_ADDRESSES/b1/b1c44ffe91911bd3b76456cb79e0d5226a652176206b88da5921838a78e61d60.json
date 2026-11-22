@@ -1,0 +1,242 @@
+{
+  "handle": "@er_network",
+  "object_type": "mathematical_object",
+  "status": "indexed-unlinked",
+  "domain": "API43",
+  "namespace": "",
+  "name": "ER network",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 5,
+    "api43_direct_in_count": 3,
+    "xapi_raw_out_count": 7,
+    "xapi_raw_in_count": 3,
+    "live_out_count": 3,
+    "live_in_count": 1,
+    "closure_out_reachability_count": 4,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [
+      {
+        "id": 13,
+        "source_id": "SRC-DM-007",
+        "relation": "SOURCE_DEFINES",
+        "handle": "@er_network",
+        "status": "SOURCE_BACKFILL_ONLY",
+        "provenance": "chapters_6_10/chapters_6_10.tex:18-29"
+      },
+      {
+        "id": 36,
+        "source_id": "SRC-DM-014",
+        "relation": "SOURCE_COARSE_GRAINS",
+        "handle": "@er_network",
+        "status": "SOURCE_BACKFILL_ONLY",
+        "provenance": "chapters_31_35_with_part/chapters_31_35_with_part.tex:69-79"
+      }
+    ],
+    "source_reachability_anchor_count": 2,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@er_network",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@black_hole_information_closure",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DEPENDSON:54472"
+      },
+      {
+        "source": "@er_network",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@native_causal_order",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DEPENDSON:53954"
+      },
+      {
+        "source": "@er_network",
+        "relation": "DIRECTED_TO",
+        "target": "@native_graviton_dispersion",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54733->54734"
+      },
+      {
+        "source": "@er_network",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@native_graviton_dispersion",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DEPENDSON:53568"
+      },
+      {
+        "source": "@er_network",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@graviton_radiative_stability",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@er_network -> @native_graviton_dispersion -> @graviton_radiative_stability; relations=FORMALLY_DEPENDS_ON + FORMALLY_DEPENDS_ON; primitive_depth=2"
+      },
+      {
+        "source": "@black_hole_information_closure",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@er_network",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@er_network FORMALLY_DEPENDS_ON @black_hole_information_closure); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      },
+      {
+        "source": "@native_causal_order",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@er_network",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@er_network FORMALLY_DEPENDS_ON @native_causal_order); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      },
+      {
+        "source": "@native_graviton_dispersion",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@er_network",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@er_network FORMALLY_DEPENDS_ON @native_graviton_dispersion); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 340,
+        "source": "@er_network",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@black_hole_information_closure",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_DEPENDSON:54472"
+      },
+      {
+        "id": 341,
+        "source": "@er_network",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@native_causal_order",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_DEPENDSON:53954"
+      },
+      {
+        "id": 342,
+        "source": "@er_network",
+        "relation": "DIRECTED_TO",
+        "target": "@native_graviton_dispersion",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54733->54734"
+      },
+      {
+        "id": 343,
+        "source": "@er_network",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@native_graviton_dispersion",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_DEPENDSON:53568"
+      },
+      {
+        "id": 19099,
+        "source": "@er_network",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@black_hole_information_closure",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_DEPENDSON:54472"
+      },
+      {
+        "id": 19100,
+        "source": "@er_network",
+        "relation": "DIRECTED_TO",
+        "target": "@native_graviton_dispersion",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54733->54734"
+      },
+      {
+        "id": 19101,
+        "source": "@er_network",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@native_graviton_dispersion",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_DEPENDSON:53568"
+      },
+      {
+        "id": 2166,
+        "source": "@black_hole_information_closure",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@er_network",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@er_network FORMALLY_DEPENDS_ON @black_hole_information_closure); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      },
+      {
+        "id": 2167,
+        "source": "@native_causal_order",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@er_network",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@er_network FORMALLY_DEPENDS_ON @native_causal_order); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      },
+      {
+        "id": 2168,
+        "source": "@native_graviton_dispersion",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@er_network",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@er_network FORMALLY_DEPENDS_ON @native_graviton_dispersion); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      }
+    ]
+  },
+  "address": "@er_network",
+  "address_sha256": "b1c44ffe91911bd3b76456cb79e0d5226a652176206b88da5921838a78e61d60"
+}

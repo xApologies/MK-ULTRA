@@ -1,0 +1,19 @@
+{
+  "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+  "certificate_id": "CC-DM-E086-001",
+  "checkpoint": "E086",
+  "object": "@dm_explicit_two_port_continuity_residual_witness",
+  "decision": "EXPLICIT_TWO_PORT_CONTINUITY_RESIDUAL_CLOSED",
+  "scope": "fixed-support unsaturated two-port hidden response sector",
+  "checks": {
+    "two_port_DeltaLambda_source_backed": true,
+    "V27_response_identity_source_closed": true,
+    "selected_state_outside_kernel": true,
+    "nonzero_residual_derived": true,
+    "TT_admissibility_proved": false,
+    "gravity_projection_survival_proved": false,
+    "baseline_dm22_modified": false,
+    "physical_promotion": false
+  },
+  "result": "A concrete c_* gives a nonzero hidden-vs-visible native continuity residual without any density calibration, UCM source law, or residue/Q assumption."
+}

@@ -1,0 +1,16 @@
+digraph G {
+  graph [bgcolor="#07121f", rankdir=TB, pad=0.35, label="ATLAS PLATE XII — v4 CROSSROAD", labelloc=t, fontname="Helvetica", fontsize=22, fontcolor="#f2d58a"];
+  node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=12, fontcolor="#eaf7ff", color="#2a7892", fillcolor="#0d2233", penwidth=1.6];
+  edge [color="#58c4dd", fontcolor="#cdeef5", fontname="Helvetica", fontsize=10, penwidth=1.6];
+  carrier [label="T⁵_std ≅ S³ × S²\nMINIMAL CARRIER", color="#d4a84b", fillcolor="#27251f"];
+  conn [label="SMOOTH NONFLAT S³ CONNECTION\nF_H ≠ 0"];
+  memory [label="CORRIDOR HOLONOMY / HISTORY\n✓ survives"];
+  hom [label="HOMOGENEOUS HIDDEN LOAD"];
+  nogo [label="LOCAL HALO?\nNO — not without symmetry breaking", color="#c87171", fillcolor="#351e27"];
+  next [label="CROSSROAD J\nWHAT LOCALIZES H_D?", color="#d4a84b", fillcolor="#27251f"];
+  opts [label="η(p) profile | chirality texture | S²/black-hole anchor | CS/history | ER statistics | visible coupling"];
+  exotic [label="GENERALIZED / SINGULAR T⁵\nDEFERRED", style="rounded,dashed,filled", fillcolor="#111c26"];
+  carrier -> conn -> memory;
+  conn -> hom -> nogo -> next -> opts;
+  next -> exotic [style=dashed, label="only if smooth mechanisms fail"];
+}

@@ -1,0 +1,86 @@
+{
+  "schema": "ASTRAEUS_RAINBOW_ROAD_SOURCE_REGISTRY_V2",
+  "sources": [
+    {
+      "source_id": "transduction_geometry",
+      "name": "Transduction Geometry v1.0",
+      "role": "NATIVE_MATHEMATICS_BRANCH",
+      "priority": "NATIVE_FIRST",
+      "archive": "source_archives/TRANSDUCTION_GEOMETRY_v1.0(5).zip",
+      "sha256": "7f6b965033e809c6a1683d8e7deaa320da37cb456688138b666608e10e16be77",
+      "status": "LIVE_MOUNTED"
+    },
+    {
+      "source_id": "bandwidth_algebra",
+      "name": "Bandwidth Algebra v1.0",
+      "role": "NATIVE_MATHEMATICS_BRANCH",
+      "priority": "NATIVE_FIRST",
+      "archive": "source_archives/Bandwidth Algebra(3).zip",
+      "sha256": "2672e910b989db5d03ff419c3024f50c35b9e1ed9eb47ab720811177514f3b53",
+      "status": "LIVE_MOUNTED"
+    },
+    {
+      "source_id": "resolution_readout",
+      "name": "Resolution & Readout v1.0",
+      "role": "NATIVE_MATHEMATICS_BRANCH",
+      "priority": "NATIVE_FIRST",
+      "archive": "source_archives/Resolution Readout(2).zip",
+      "sha256": "b39d9d036ff1b856ade54fe48d5964812d174f0f531ea696e9526bb0792e9aab",
+      "status": "LIVE_MOUNTED"
+    },
+    {
+      "source_id": "identity_through_history",
+      "name": "Identity Through History v1.0",
+      "role": "NATIVE_MATHEMATICS_BRANCH",
+      "priority": "NATIVE_FIRST",
+      "archive": "source_archives/Identity Through History(2).zip",
+      "sha256": "45399cae67da80249d999e1aeb6fa1d6cb8c9dd32b0dcf6d8b715d032b6fc2b2",
+      "status": "LIVE_MOUNTED"
+    },
+    {
+      "source_id": "holonomy_chirality",
+      "name": "Holonomy & Chirality v1.0",
+      "role": "NATIVE_MATHEMATICS_BRANCH",
+      "priority": "NATIVE_FIRST",
+      "archive": "source_archives/Holonomy and Chirality(1).zip",
+      "sha256": "433e9a4ff681ddf33839530a67551db58d08ad99ea012f76adf00fc2d72d74a6",
+      "status": "LIVE_MOUNTED"
+    },
+    {
+      "source_id": "live_model",
+      "name": "Object/Resolution Live Model",
+      "role": "ACTIVE_LIVE_MODEL",
+      "priority": "LIVE",
+      "archive": "canonical/VERA_RAINBOW_ROAD_LIVE_MODEL.md",
+      "sha256": "9eb5cd7ae8f9f3c3664baa4d3084a262bf7437f5d1c2c22604a99af031bc9dde",
+      "status": "ACTIVE"
+    },
+    {
+      "source_id": "api43_architecture_specimen",
+      "name": "MK43 API 4.3 architecture specimen",
+      "role": "ARCHITECTURE_SPECIMEN_ONLY",
+      "priority": "REFERENCE_ONLY",
+      "archive": null,
+      "sha256": "0010a4de99d78748ede57670b3bca1df6185b7ba8dd0faf266cc3ba1a4ccf752",
+      "status": "INSPECTED_NOT_IMPORTED"
+    },
+    {
+      "source_id": "rainbow_road_domain_archive",
+      "name": "Rainbow Road source archive",
+      "role": "DOMAIN_SOURCE",
+      "priority": "LIVE_DOMAIN",
+      "archive": "supporting_sources/Rainbow_road(2).zip",
+      "sha256": "c9dbe0b4ee3bb7643c35d3bad9929165de50ebc14f49bfdc93376223cd155c9b",
+      "status": "LIVE_MOUNTED"
+    },
+    {
+      "source_id": "prime_foundation",
+      "name": "PRIME Dependency Foundations v0.1.1",
+      "role": "BOUNDARY_FOUNDATION_SUPPORT",
+      "priority": "SUPPORTING",
+      "archive": "supporting_sources/PRIME_DEPENDENCY_FOUNDATIONS_v0.1.1_SEED_TO_VERTEX_CLOSURE.md",
+      "sha256": "29ff4e333496593d45e39096d106feae1cb3846c253883d65ebb2b4c57eddde5",
+      "status": "LIVE_MOUNTED"
+    }
+  ]
+}

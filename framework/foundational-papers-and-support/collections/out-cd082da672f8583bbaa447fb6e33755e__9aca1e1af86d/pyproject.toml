@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mk43-ultra-api-1b"
+version = "1.0.0b1"
+description = "Executable BRANE API5 module preserving the complete MK43 Ultra API 4.3 canon"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

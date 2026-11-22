@@ -1,0 +1,29 @@
+{
+  "schema": "ASTRAEUS_DM_WORK_LAYER_QMO_V1",
+  "qmo_id": "QMO-AST-DM-WL-011",
+  "name": "Monotone Sector Visibility / Anchored Dark Resolution Band",
+  "status": "CONDITIONAL_ORDER_THEOREM_NOT_PARENT_PROMOTED",
+  "work_layer_revision": "WL-012",
+  "date": "2026-08-17",
+  "parents": [
+    "QMO-AST-DM-WL-010_SECTOR_RELATIVE_HOLONOMY_DARK_RESOLUTION_WINDOW",
+    "Resolution Landscape RL-L2/RL-T1/RL-T3",
+    "Cross-Resolution Bandwidth CRT1/CRT2",
+    "Chirality Landscape Version 1 local QFT/GR readouts",
+    "Dark Matter API D_R"
+  ],
+  "hypothesis": "For each sector s in {Q,G}, rho_s,Ri = q^s_ji o rho_s,Rj whenever Ri<=Rj.",
+  "visibility": "Pers_s(h;x)={R | rho_s,R(h.x)!=rho_s,R(x)}",
+  "theorem_1": "Pers_s is upward closed in every nested monotone Resolution filtration.",
+  "thresholds": "R_s^*=min Pers_s when the minimum exists.",
+  "theorem_2": "If R_G^*<R_Q^*, DarkRes={R | R_G^*<=R<R_Q^*}; if R_G^*>=R_Q^*, the sector-relative dark band is empty on the modeled chain.",
+  "anchor_specialization": "Use p_H in S3, Sigma_H=pi^-1(p_H)~=S2 and h_H=Hol_H(gamma_H) for the black-hole-anchored galactic branch.",
+  "guardrails": [
+    "sector-specific nested coarsening is an explicit hypothesis",
+    "order thresholds are not scalar profiles",
+    "Resolution is not dark matter by identity",
+    "readout identity is not formal destruction or additive zero",
+    "physical GR admission remains open",
+    "no parent promotion"
+  ]
+}

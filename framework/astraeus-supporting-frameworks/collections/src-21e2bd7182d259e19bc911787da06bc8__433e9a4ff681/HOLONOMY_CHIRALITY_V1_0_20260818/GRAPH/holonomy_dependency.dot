@@ -1,0 +1,15 @@
+digraph G {
+  rankdir=LR;
+  node [shape=box];
+  Chi [label="Chirality Fabric"];
+  Adm [label="Admissibility / Lift Family"];
+  B [label="Bandwidth Availability"];
+  Conn [label="Transduction Connection"];
+  PT [label="Selected Transport"];
+  H [label="History"];
+  Hol [label="Holonomy"];
+  K [label="Curvature / Path Defect"];
+  Id [label="Identity Sensitivity / Compensation"];
+  R [label="Resolution Visibility"];
+  Chi->Adm->B->Conn->PT->H->Hol->K->Id->R;
+}

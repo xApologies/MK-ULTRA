@@ -1,0 +1,179 @@
+{
+  "schema": "ASTRAEUS_DM_E063_CHECKPOINT_MANIFEST_V1",
+  "date": "2026-08-22",
+  "checkpoint": "E063",
+  "status": "FAST_FORWARD_LIVE_INTERNAL_CLOSURE_OPEN_READOUT_FRONTIER",
+  "source_release": "DM_2.2.0",
+  "foundation_return_gate": "@dm_hidden_state_embedding",
+  "active_seed": "@dm_native_hidden_witness",
+  "terminal": {
+    "state": "OPEN_FORK",
+    "iteration": 2,
+    "open_handles": [
+      "@dm_native_density_to_readable_source"
+    ],
+    "reason": "Registered dependency walk reached an explicitly open readout/transduction handle. Stop rather than invent its map."
+  },
+  "live_internal_closures": [
+    "@dm_joint_hidden_network_witness"
+  ],
+  "closure_certificates": [
+    "CC-DM-E063-001"
+  ],
+  "candidate_qmos": [
+    "QMO-DM-BRIDGE-CAND-004"
+  ],
+  "next_handle": "@dm_native_density_to_readable_source",
+  "parent_promotions": 0,
+  "physical_promotions": 0,
+  "baseline_hash_match": true,
+  "files": [
+    {
+      "path": "E063_MANIFEST.json",
+      "bytes": 5878,
+      "sha256": "f4a5c217588c70446535bd4278a21d89a8df9971b273c26eb9f28224cd668365"
+    },
+    {
+      "path": "audit/E063_VALIDATION.json",
+      "bytes": 2655,
+      "sha256": "e3ca382434b5e7987016f8da16abfef347b7f45794366d03236c7031e2572a26"
+    },
+    {
+      "path": "audit/FORWARD_EXPLORATION_POLICY.json",
+      "bytes": 827,
+      "sha256": "3339793b6d46b4b7bcdfd31f903a533f584ec9f4617e3b740d42e61a6656b474"
+    },
+    {
+      "path": "audit/RUNTIME_SMOKE_TESTS.json",
+      "bytes": 2674,
+      "sha256": "48bfce808774608a032aeed95eb7aa7f227d10e0f045fd2f0541f73ba4009ae3",
+      "source_sha256_before_publication": "304347e67f1eabf74619e55b6bd176a5c995c5fc8c60f398cb50f28eb2846930",
+      "publication_path_portability_edit": true
+    },
+    {
+      "path": "closure/CC-DM-E063-001_JOINT_WITNESS.json",
+      "bytes": 1431,
+      "sha256": "6123f43fa4bdeed0b93646f196b1eb43d724826b7d8a6affba135bc4f123eb90"
+    },
+    {
+      "path": "formal/E063_JOINT_MULTI_PORT_WITNESS_THEOREM.md",
+      "bytes": 2107,
+      "sha256": "0f1e63ad95475a53de2e1171f66542dee6f9f8620b57432f4e2d729bd5066485"
+    },
+    {
+      "path": "formal/LIVE_OBJECT_dm_joint_hidden_network_witness.json",
+      "bytes": 1006,
+      "sha256": "ffaf732bafd9255f84ada880d4fea089df57e88e2715db1c24e3d3e824478638"
+    },
+    {
+      "path": "landscapes/DL-DM-E063-READOUT-DISCRIMINATION.json",
+      "bytes": 3780,
+      "sha256": "3b0e20ee9219bee441ab8f63a509de35a32cc376d44de52ed7cfef88a45443ac"
+    },
+    {
+      "path": "qmos/QMO-DM-BRIDGE-CAND-004_UCM_READOUT_DISCRIMINATION.json",
+      "bytes": 2593,
+      "sha256": "1573b729bc467339d63c0e33a9e052581f2b710a71d9ecb5e667ae4933412e80"
+    },
+    {
+      "path": "reports/E063_FAST_FORWARD_READOUT_SCOUT.md",
+      "bytes": 4335,
+      "sha256": "e4853ccc60d77e30017177d612430f6afa8bd1114f2d6a256dc607d3746bf780"
+    },
+    {
+      "path": "runs/IT-DM-E063-NATIVE-WITNESS-READOUT.json",
+      "bytes": 4296,
+      "sha256": "266859043b2c4be28ec5318db68dd6604892391ee7b727ac29a5dd8c7d0d5601"
+    },
+    {
+      "path": "source_snapshots/166_HIDDEN_S3_TO_S2_SCHUR_REDUCTION.md",
+      "bytes": 5199,
+      "sha256": "e973ea55242e4ac58043c8a23754182ac6d5fc75d1f2696bd37c899da0d3ba6e"
+    },
+    {
+      "path": "source_snapshots/167_MODE0_PORT_ATTACHMENT_THEOREMS.md",
+      "bytes": 4887,
+      "sha256": "f4853a5127389ab7a8d47622dca06312dd589146360fc9add27778bdbcc3ea7a"
+    },
+    {
+      "path": "source_snapshots/178_V28_UCM_SOURCE_FIBER.md",
+      "bytes": 3054,
+      "sha256": "3de86c01f86f7f4238912536af85f86e25a589ac8d742d6b6bca5a8ab22d545a"
+    },
+    {
+      "path": "source_snapshots/184_V29_EQUILIBRIUM_NATIVE_LOAD_WITNESS.md",
+      "bytes": 4312,
+      "sha256": "5d74070cc817478dac7c506313d6ba140b0db4bb4865fb30b5e0e3e60c8ca91e"
+    },
+    {
+      "path": "source_snapshots/197_V31_UCM_SOURCE_DOMAIN_SEPARATION.md",
+      "bytes": 2507,
+      "sha256": "69f243b2600984652026cac9814a08e2123c1c0387b093456cd4ad855d7d1d56"
+    },
+    {
+      "path": "source_snapshots/199_V32_HIDDEN_BOUNDARY_RESPONSE_FORM.md",
+      "bytes": 2959,
+      "sha256": "a2e14ae9d2996c1f0d33bc968c3e8118efdf450c2772edd992f57cce6d46c0e9"
+    },
+    {
+      "path": "source_snapshots/201_V32_DENSITY_SEPARATION_WITNESS.md",
+      "bytes": 2738,
+      "sha256": "8ecfc75613901d4fc655d51381bc665f779a94d427dcae60eee25aa416c56179"
+    },
+    {
+      "path": "source_snapshots/205_V33_RESOLUTION_DENSITY_PROFILE.md",
+      "bytes": 1203,
+      "sha256": "6f5e5b414f2e57075c067bd560301551c5784642f5760b60f7cf11b34544f4b8"
+    },
+    {
+      "path": "source_snapshots/207_V33_DARK_NETWORK_WITNESS_PAIR.md",
+      "bytes": 983,
+      "sha256": "6cfd59bcdb94fc1fa8f96f186bbb8c0b1d427716d87947a8649cef43cace5827"
+    },
+    {
+      "path": "source_snapshots/218_V35_DENSITY_NETWORK_ADMISSIBILITY_FIBER.md",
+      "bytes": 1700,
+      "sha256": "9e1de617d3aa2ddb736f9a9f44d8699516192e5c4f6addb0700b2e182a1c2bfb"
+    },
+    {
+      "path": "source_snapshots/DM22_DM_DIRECT_EDGE_REGISTRY.json",
+      "bytes": 29533,
+      "sha256": "d0a3b0922fdc4b648c86c27080ce1c52a2d547ef35d62e40f69d78d566dbd69c"
+    },
+    {
+      "path": "source_snapshots/DM22_HANDLE_REGISTRY.json",
+      "bytes": 140725,
+      "sha256": "0c63fb532d28dd243f69acb0dcdc8d7f7547187c2e89fd6f84e0969b5b9d5730"
+    },
+    {
+      "path": "source_snapshots/DM22_OPEN_HANDLE_REGISTRY.json",
+      "bytes": 5292,
+      "sha256": "4db05dd27d9d5d4aa718481a8d76b51197ea700f0eb2ed8a6f4f9a9eb33ca1c5"
+    },
+    {
+      "path": "source_snapshots/DM22_RELATION_COMPOSITION_ALGEBRA.json",
+      "bytes": 1324,
+      "sha256": "c08daf0a5348549d7bc7621c05897106c4e107e943407144d0183810203bc618"
+    },
+    {
+      "path": "source_snapshots/RR_02_READOUT_FUNCTOR.md",
+      "bytes": 1088,
+      "sha256": "8438603179da24ea9fb146b17745401a09be50a7b92a0ff9ae6ddf94b624fa8c"
+    },
+    {
+      "path": "source_snapshots/RR_04_THEOREMS.md",
+      "bytes": 1363,
+      "sha256": "137673b3e8f10971dac24cb62a77f6b686291eba386754a84fc6fbcb08885847"
+    },
+    {
+      "path": "source_snapshots/RR_05_TIME_SHELL_INTERFACE.md",
+      "bytes": 1363,
+      "sha256": "c4de4329740d6a8c8eaa0927cc157fcf39ed86a8844c0f592401a1fcc65a4d6a"
+    },
+    {
+      "path": "witness/E063_TWO_PORT_TEST_VECTOR.json",
+      "bytes": 988,
+      "sha256": "e63061c130d3e41dcf6de7864b08e621e436bbea76cf23d1ca1c6749017370e3"
+    }
+  ]
+}

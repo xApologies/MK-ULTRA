@@ -1,0 +1,255 @@
+{
+  "handle": "@planck_landscape",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@planck_landscape",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 8,
+    "api43_direct_in_count": 3,
+    "xapi_raw_out_count": 7,
+    "xapi_raw_in_count": 3,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 2,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@planck_landscape",
+        "relation": "DEPENDS_TO",
+        "target": "@chirality_labelled_mote",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45120"
+      },
+      {
+        "source": "@planck_landscape",
+        "relation": "DIRECTED_TO",
+        "target": "@chirality_labelled_mote",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45120"
+      },
+      {
+        "source": "@planck_landscape",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@chirality_labelled_mote",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45120"
+      },
+      {
+        "source": "@planck_landscape",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@chirality_labelled_mote",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:45274"
+      },
+      {
+        "source": "@planck_landscape",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@chirality_labelled_mote",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "EDGE_LEDGER_LINE:45120;vertical_chain:1830,vertical_chain:27573"
+      },
+      {
+        "source": "@planck_landscape",
+        "relation": "USED_BY",
+        "target": "@chirality_labelled_mote",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:45709"
+      },
+      {
+        "source": "@planck_landscape",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@er_throat_incidence",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:27711"
+      },
+      {
+        "source": "@planck_landscape",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@er_throat_incidence",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@planck_landscape -> @chirality_labelled_mote -> @er_throat_incidence; relations=DEPENDS_TO + DEPENDS_TO; primitive_depth=2"
+      },
+      {
+        "source": "@persistent_recursive_topology",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@planck_landscape",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "DEPENDENCY_GRAPH_2_10.md:1574->1576"
+      },
+      {
+        "source": "@projection_admissibility",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@planck_landscape",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:27707"
+      },
+      {
+        "source": "@chirality_labelled_mote",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@planck_landscape",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@planck_landscape FORMALLY_DEPENDS_ON @chirality_labelled_mote); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 918,
+        "source": "@planck_landscape",
+        "relation": "DEPENDS_TO",
+        "target": "@chirality_labelled_mote",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:45120"
+      },
+      {
+        "id": 919,
+        "source": "@planck_landscape",
+        "relation": "DIRECTED_TO",
+        "target": "@chirality_labelled_mote",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45120"
+      },
+      {
+        "id": 920,
+        "source": "@planck_landscape",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@chirality_labelled_mote",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45120"
+      },
+      {
+        "id": 921,
+        "source": "@planck_landscape",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@chirality_labelled_mote",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:45274"
+      },
+      {
+        "id": 922,
+        "source": "@planck_landscape",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@chirality_labelled_mote",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "EDGE_LEDGER_LINE:45120;vertical_chain:1830,vertical_chain:27573"
+      },
+      {
+        "id": 923,
+        "source": "@planck_landscape",
+        "relation": "USED_BY",
+        "target": "@chirality_labelled_mote",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:45709"
+      },
+      {
+        "id": 924,
+        "source": "@planck_landscape",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@er_throat_incidence",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:27711"
+      },
+      {
+        "id": 889,
+        "source": "@persistent_recursive_topology",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@planck_landscape",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "DEPENDENCY_GRAPH_2_10.md:1574->1576"
+      },
+      {
+        "id": 944,
+        "source": "@projection_admissibility",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@planck_landscape",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:27707"
+      },
+      {
+        "id": 2252,
+        "source": "@chirality_labelled_mote",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@planck_landscape",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@planck_landscape FORMALLY_DEPENDS_ON @chirality_labelled_mote); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      }
+    ]
+  },
+  "address": "@planck_landscape",
+  "address_sha256": "9adc4d96755e160f4906b9fc1431eb558097926327e3454a59a1951a405b593d"
+}

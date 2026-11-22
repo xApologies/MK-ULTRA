@@ -1,0 +1,353 @@
+{
+  "schema": "ASTRAEUS_DEPENDENCY_GRAPH_REGISTRY_V1",
+  "api_release": "0.15.0",
+  "graph_count": 4,
+  "graphs": [
+    {
+      "inputs": [
+        {
+          "handle": "@object_resolution_recovery_witness_minimality",
+          "kind": "qmo"
+        },
+        {
+          "handle": "@recovery_witness_counterexample_crawl",
+          "kind": "qmo"
+        }
+      ],
+      "roots": [
+        "@object_resolution_recovery_witness_minimality",
+        "@recovery_witness_counterexample_crawl"
+      ],
+      "graph_type": "path",
+      "member_qmos": [
+        "@object_resolution_recovery_witness_minimality",
+        "@recovery_witness_counterexample_crawl"
+      ],
+      "member_edge_ids": [
+        "E-00114"
+      ],
+      "member_edges": [
+        {
+          "edge_id": "E-00114",
+          "source": "@object_resolution_recovery_witness_minimality",
+          "relation": "ADVANCES_TO",
+          "target": "@recovery_witness_counterexample_crawl",
+          "graph_family": "self_build",
+          "status": "SELF_BUILD_FRONTIER",
+          "confidence": "candidate",
+          "audit_status": "unpromoted",
+          "provenance": [
+            "SELF_BUILD_PASS_001",
+            "LIVE_MODEL::NF-006"
+          ]
+        }
+      ],
+      "statistics": {
+        "qmo_count": 2,
+        "edge_count": 1,
+        "path_found": true
+      },
+      "resolution_context": {
+        "operator": "@resolution",
+        "graph_resolution": "PATH_REGISTERED_DEPENDENCY_VIEW",
+        "depth": 1
+      },
+      "bandwidth_context": {
+        "operator": "@bandwidth_algebra",
+        "policy": "ONLY_CURRENTLY_REGISTERED_DEPENDENCY_EDGES_ARE_AVAILABLE"
+      },
+      "graph_id": "DG-d89a18fafa57",
+      "qmo_address": "@dc_recovery_witness_to_signature_g01",
+      "canonical_name": "Dependency Graph: @object_resolution_recovery_witness_minimality, @recovery_witness_counterexample_crawl",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "construction": {
+        "operator": "@dependency_graph",
+        "mode": "path",
+        "depth": 1,
+        "direction": "downstream",
+        "edge_policy": "REGISTERED_EDGES_ONLY",
+        "member_claim_promotion": false
+      },
+      "history": {
+        "policy": "APPEND_ONLY",
+        "created_in_api_release": "0.7.0",
+        "created_live_model_revision": "v0.20.0",
+        "parent_graphs": [],
+        "parent_qmos": [
+          "@object_resolution_recovery_witness_minimality",
+          "@recovery_witness_counterexample_crawl"
+        ]
+      },
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_graph",
+        "API_4.3::DEPENDENCY_GRAPH_IS_MATHEMATICAL_OBJECT",
+        "RUNTIME_REGISTER",
+        "QMO:@object_resolution_recovery_witness_minimality",
+        "QMO:@recovery_witness_counterexample_crawl"
+      ],
+      "semantic_guard": "Dependency Graph construction preserves registered member status and edge provenance; it does not infer missing edges."
+    },
+    {
+      "inputs": [
+        {
+          "handle": "@recovery_witness_counterexample_crawl",
+          "kind": "qmo"
+        },
+        {
+          "handle": "@recovery_history_signature_minimality",
+          "kind": "qmo"
+        }
+      ],
+      "roots": [
+        "@recovery_witness_counterexample_crawl",
+        "@recovery_history_signature_minimality"
+      ],
+      "graph_type": "path",
+      "member_qmos": [
+        "@recovery_history_signature_minimality",
+        "@recovery_witness_counterexample_crawl"
+      ],
+      "member_edge_ids": [
+        "E-00146"
+      ],
+      "member_edges": [
+        {
+          "edge_id": "E-00146",
+          "source": "@recovery_witness_counterexample_crawl",
+          "relation": "ADVANCES_TO",
+          "target": "@recovery_history_signature_minimality",
+          "graph_family": "recovery",
+          "status": "SELF_BUILD_FRONTIER",
+          "confidence": "high",
+          "audit_status": "closure_certified",
+          "provenance": [
+            "SELF_BUILD_PASS_003"
+          ]
+        }
+      ],
+      "statistics": {
+        "qmo_count": 2,
+        "edge_count": 1,
+        "path_found": true
+      },
+      "resolution_context": {
+        "operator": "@resolution",
+        "graph_resolution": "PATH_REGISTERED_DEPENDENCY_VIEW",
+        "depth": 1
+      },
+      "bandwidth_context": {
+        "operator": "@bandwidth_algebra",
+        "policy": "ONLY_CURRENTLY_REGISTERED_DEPENDENCY_EDGES_ARE_AVAILABLE"
+      },
+      "graph_id": "DG-88f33087524e",
+      "qmo_address": "@dc_recovery_witness_to_signature_g02",
+      "canonical_name": "Dependency Graph: @recovery_witness_counterexample_crawl, @recovery_history_signature_minimality",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "construction": {
+        "operator": "@dependency_graph",
+        "mode": "path",
+        "depth": 1,
+        "direction": "downstream",
+        "edge_policy": "REGISTERED_EDGES_ONLY",
+        "member_claim_promotion": false
+      },
+      "history": {
+        "policy": "APPEND_ONLY",
+        "created_in_api_release": "0.7.0",
+        "created_live_model_revision": "v0.20.0",
+        "parent_graphs": [],
+        "parent_qmos": [
+          "@recovery_witness_counterexample_crawl",
+          "@recovery_history_signature_minimality"
+        ]
+      },
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_graph",
+        "API_4.3::DEPENDENCY_GRAPH_IS_MATHEMATICAL_OBJECT",
+        "RUNTIME_REGISTER",
+        "QMO:@recovery_witness_counterexample_crawl",
+        "QMO:@recovery_history_signature_minimality"
+      ],
+      "semantic_guard": "Dependency Graph construction preserves registered member status and edge provenance; it does not infer missing edges."
+    },
+    {
+      "inputs": [
+        {
+          "handle": "@number_question",
+          "kind": "qmo"
+        },
+        {
+          "handle": "@number_object_readout_frontier",
+          "kind": "qmo"
+        }
+      ],
+      "roots": [
+        "@number_question",
+        "@number_object_readout_frontier"
+      ],
+      "graph_type": "path",
+      "member_qmos": [
+        "@number_object_readout_frontier",
+        "@number_question"
+      ],
+      "member_edge_ids": [
+        "E-00277"
+      ],
+      "member_edges": [
+        {
+          "edge_id": "E-00277",
+          "source": "@number_question",
+          "relation": "ADVANCES_TO",
+          "target": "@number_object_readout_frontier",
+          "graph_family": "signature_role_and_number_return",
+          "status": "DERIVED_INTERNAL",
+          "confidence": "high",
+          "audit_status": "closure_certified",
+          "provenance": [
+            "SELF_BUILD_PASS_007_ROLE_SEPARATION_AND_NUMBER_RETURN",
+            "R-025",
+            "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+            "SELF_BUILD_PASS_005_SIGNATURE_REALIZATION",
+            "SELF_BUILD_PASS_006_SIGNATURE_ROLE_NORMALIZATION",
+            "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+            "QMO:@recovery_history_signature_quotient",
+            "QMO:@holonomy_history_signature"
+          ]
+        }
+      ],
+      "statistics": {
+        "qmo_count": 2,
+        "edge_count": 1,
+        "path_found": true
+      },
+      "resolution_context": {
+        "operator": "@resolution",
+        "graph_resolution": "PATH_REGISTERED_DEPENDENCY_VIEW",
+        "depth": 1
+      },
+      "bandwidth_context": {
+        "operator": "@bandwidth_algebra",
+        "policy": "ONLY_CURRENTLY_REGISTERED_DEPENDENCY_EDGES_ARE_AVAILABLE"
+      },
+      "graph_id": "DG-31fd4bf51b27",
+      "qmo_address": "@dc_number_question_to_valuation_frontier_g01",
+      "canonical_name": "Dependency Graph: @number_question, @number_object_readout_frontier",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "construction": {
+        "operator": "@dependency_graph",
+        "mode": "path",
+        "depth": 1,
+        "direction": "downstream",
+        "edge_policy": "REGISTERED_EDGES_ONLY",
+        "member_claim_promotion": false
+      },
+      "history": {
+        "policy": "APPEND_ONLY",
+        "created_in_api_release": "0.13.0",
+        "created_live_model_revision": "v0.26.0",
+        "parent_graphs": [],
+        "parent_qmos": [
+          "@number_question",
+          "@number_object_readout_frontier"
+        ]
+      },
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_graph",
+        "API_4.3::DEPENDENCY_GRAPH_IS_MATHEMATICAL_OBJECT",
+        "RUNTIME_REGISTER",
+        "QMO:@number_question",
+        "QMO:@number_object_readout_frontier"
+      ],
+      "semantic_guard": "Dependency Graph construction preserves registered member status and edge provenance; it does not infer missing edges."
+    },
+    {
+      "inputs": [
+        {
+          "handle": "@number_object_readout_frontier",
+          "kind": "qmo"
+        },
+        {
+          "handle": "@number_valuation_codomain_frontier",
+          "kind": "qmo"
+        }
+      ],
+      "roots": [
+        "@number_object_readout_frontier",
+        "@number_valuation_codomain_frontier"
+      ],
+      "graph_type": "path",
+      "member_qmos": [
+        "@number_object_readout_frontier",
+        "@number_valuation_codomain_frontier"
+      ],
+      "member_edge_ids": [
+        "E-00321"
+      ],
+      "member_edges": [
+        {
+          "edge_id": "E-00321",
+          "source": "@number_object_readout_frontier",
+          "relation": "ADVANCES_TO",
+          "target": "@number_valuation_codomain_frontier",
+          "graph_family": "number_valuation_probe",
+          "status": "DERIVED_INTERNAL",
+          "confidence": "high",
+          "audit_status": "closure_certified",
+          "provenance": [
+            "SELF_BUILD_PASS_008_VALUATION_ROLE_PROBE",
+            "R-027",
+            "BANDWIDTH_ALGEBRA::FORMAL/00_EXECUTIVE_SUMMARY.md",
+            "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+            "TRANSDUCTION_GEOMETRY::@classifier_scope",
+            "QMO:@dl_number_object_readout",
+            "QMO:@it_number_object_readout_3"
+          ]
+        }
+      ],
+      "statistics": {
+        "qmo_count": 2,
+        "edge_count": 1,
+        "path_found": true
+      },
+      "resolution_context": {
+        "operator": "@resolution",
+        "graph_resolution": "PATH_REGISTERED_DEPENDENCY_VIEW",
+        "depth": 1
+      },
+      "bandwidth_context": {
+        "operator": "@bandwidth_algebra",
+        "policy": "ONLY_CURRENTLY_REGISTERED_DEPENDENCY_EDGES_ARE_AVAILABLE"
+      },
+      "graph_id": "DG-5034c594fd7b",
+      "qmo_address": "@dc_number_question_to_valuation_frontier_g02",
+      "canonical_name": "Dependency Graph: @number_object_readout_frontier, @number_valuation_codomain_frontier",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "construction": {
+        "operator": "@dependency_graph",
+        "mode": "path",
+        "depth": 1,
+        "direction": "downstream",
+        "edge_policy": "REGISTERED_EDGES_ONLY",
+        "member_claim_promotion": false
+      },
+      "history": {
+        "policy": "APPEND_ONLY",
+        "created_in_api_release": "0.13.0",
+        "created_live_model_revision": "v0.26.0",
+        "parent_graphs": [],
+        "parent_qmos": [
+          "@number_object_readout_frontier",
+          "@number_valuation_codomain_frontier"
+        ]
+      },
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_graph",
+        "API_4.3::DEPENDENCY_GRAPH_IS_MATHEMATICAL_OBJECT",
+        "RUNTIME_REGISTER",
+        "QMO:@number_object_readout_frontier",
+        "QMO:@number_valuation_codomain_frontier"
+      ],
+      "semantic_guard": "Dependency Graph construction preserves registered member status and edge provenance; it does not infer missing edges."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "a": "@noether_charge",
+  "b": "@black_hole_angular_momentum",
+  "radius": 2,
+  "a_node_count": 26,
+  "b_node_count": 42,
+  "interface": [
+    {
+      "handle": "@isometry",
+      "distance_a": 1,
+      "distance_b": 2
+    },
+    {
+      "handle": "@komar_angular_momentum",
+      "distance_a": 2,
+      "distance_b": 1
+    },
+    {
+      "handle": "@einstein_field_equation",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@killing_vector",
+      "distance_a": 2,
+      "distance_b": 2
+    }
+  ],
+  "path_a_to_b": [
+    {
+      "source": "@noether_charge",
+      "relation": "FAMILY_DEPENDS_ON",
+      "target": "@isometry",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-43",
+      "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:348"
+    },
+    {
+      "source": "@isometry",
+      "relation": "SUPPORTS",
+      "target": "@black_hole_angular_momentum",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-47",
+      "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=2; path=@isometry -> @killing_vector -> @black_hole_angular_momentum; relations=SUPPORTS + SUPPORTS => SUPPORTS"
+    }
+  ],
+  "direct_neighborhood_policy": "high-confidence non-derived/direct-source Time-Space API edges only",
+  "path_policy": "high-confidence registered + admissibly derived Time-Space API edges; directions preserved"
+}

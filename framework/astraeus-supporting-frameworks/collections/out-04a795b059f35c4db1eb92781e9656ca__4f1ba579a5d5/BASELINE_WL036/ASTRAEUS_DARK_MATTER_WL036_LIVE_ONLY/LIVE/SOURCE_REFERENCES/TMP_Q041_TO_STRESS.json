@@ -1,0 +1,57 @@
+{
+  "schema": "ASTRAEUS_QMO_CROSS_CRAWL_V1",
+  "seeds": [
+    "@qmo_ast_dm_041"
+  ],
+  "targets": [
+    "@stress_energy_tensor"
+  ],
+  "bidirectional": true,
+  "edge_count": 1659,
+  "reachable_count": 206,
+  "distance_histogram": {
+    "0": 1,
+    "1": 9,
+    "2": 30,
+    "3": 44,
+    "4": 122
+  },
+  "paths": {
+    "@qmo_ast_dm_041 -> @stress_energy_tensor": [
+      {
+        "from": "@qmo_ast_dm_041",
+        "relation": "REFINES",
+        "to": "@qmo_ast_dm_028",
+        "traversal": "forward",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V100_V108",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@qmo_ast_dm_028",
+        "relation": "TARGETS",
+        "to": "@dm_stress_energy_realization_family",
+        "traversal": "forward",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V92",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@dm_stress_energy_realization_family",
+        "relation": "REALIZES",
+        "to": "@stress_energy_tensor",
+        "traversal": "forward",
+        "origin": "DARKMATTER_2.1",
+        "provenance": "DM2.1",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "ATLAS_DERIVED",
+        "confidence": "high"
+      }
+    ]
+  },
+  "guardrail": "Navigation evidence only. Composed paths are not direct theorems and no parent object is promoted."
+}

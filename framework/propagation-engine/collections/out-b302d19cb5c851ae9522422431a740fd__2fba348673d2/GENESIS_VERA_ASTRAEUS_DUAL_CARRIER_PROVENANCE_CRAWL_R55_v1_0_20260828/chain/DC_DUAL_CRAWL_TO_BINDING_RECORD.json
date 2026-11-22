@@ -1,0 +1,12 @@
+{
+  "qmo_address": "@dc/dual_crawl_to_binding_record",
+  "steps": [
+    "Vera provenance crawl",
+    "Astraeus forward QMO crawl",
+    "intersection",
+    "historical schema recovery",
+    "@qmo/hidden_carrier_binding_record",
+    "@open/populate_hidden_carrier_binding_record"
+  ],
+  "terminal_state": "DATA_BINDING_ROADBLOCK"
+}

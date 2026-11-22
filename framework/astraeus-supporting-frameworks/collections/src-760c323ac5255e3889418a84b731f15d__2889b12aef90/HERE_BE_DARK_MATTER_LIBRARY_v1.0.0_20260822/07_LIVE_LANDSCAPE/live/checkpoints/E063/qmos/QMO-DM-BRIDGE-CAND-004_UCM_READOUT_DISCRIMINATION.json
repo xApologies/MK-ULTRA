@@ -1,0 +1,58 @@
+{
+  "schema": "ASTRAEUS_QMO_CANDIDATE_V1",
+  "qmo_id": "QMO-DM-BRIDGE-CAND-004",
+  "handle": "@dm_native_density_to_readable_source",
+  "canonical_name": "Native Density / UCM Readout Discrimination Witness",
+  "status": "OPEN_QMO_CANDIDATE_NOT_PROMOTED",
+  "checkpoint": "E063",
+  "strategy": "FAST_FORWARD_EXISTING_FRONTIER",
+  "problem": "Given an already-typed nonzero hidden load/response witness, determine whether the established readout architecture preserves at least one nonzero full-vs-visible distinction into the readable source sector.",
+  "foundation_return_gate": "@dm_hidden_state_embedding",
+  "source_backed_inputs": [
+    "@dm_joint_hidden_network_witness",
+    "@dm_native_hidden_witness",
+    "@dm_resolution_density_profile",
+    "@dm_hidden_response_operator",
+    "@energy_density",
+    "@stress_energy_tensor",
+    "@dm_stress_energy_separation_gate",
+    "@resolution",
+    "@bandwidth"
+  ],
+  "source_architecture": {
+    "resolution_readout": "Read_R = Realize_R o q_R",
+    "ucm_source_projection": "Pi_U(O,Chi,A,P,Rred,S,B)",
+    "ucm_fiber": "u ~_U v iff Pi_U(u)=Pi_U(v)",
+    "density_shortcut": "Delta rho_read[u] != 0 => Delta T_mn != 0"
+  },
+  "controlled_pair": {
+    "require_same_ordinary_matter_readout": true,
+    "full_state": "u_full carries the selected hidden multi-port response/load organization",
+    "visible_state": "u_vis omits that hidden organization under the declared ordinary S2 reconstruction",
+    "known_distinctions": [
+      "DeltaLambda_H != 0",
+      "Delta rho_H > 0 under the conditional witness assumptions"
+    ]
+  },
+  "two_probe_gate": [
+    {
+      "probe": "UCM_COMPONENT_SENSITIVITY",
+      "question": "Does Pi_U(u_full) != Pi_U(u_vis) for the controlled pair?",
+      "status": "OPEN; listing A/Rred/B as inputs does not prove nonconstancy."
+    },
+    {
+      "probe": "DENSITY_NONANNIHILATION",
+      "question": "Does T_rho,R,u(Delta boldrho_H^R) != 0 for at least one admitted readout/observer normalization?",
+      "status": "OPEN; sufficient for stress-energy separation, not tensor reconstruction."
+    }
+  ],
+  "success_condition": "Either source-backed probe returns a nonzero readable source distinction without adding an unlicensed transformation.",
+  "failure_condition": "Both probes are shown to identify/annihilate the controlled full-vs-visible distinction on the declared domain.",
+  "guardrails": [
+    "No invented Pi_U formula",
+    "No scalar->full-tensor reconstruction",
+    "No physical dark-matter promotion",
+    "No baseline mutation",
+    "Reverse graph traversal is navigation only"
+  ]
+}

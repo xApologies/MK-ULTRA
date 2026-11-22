@@ -1,0 +1,128 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_NEIGHBORS_V1",
+  "handle": "@adjacency_lattice",
+  "incoming": [
+    [
+      "@weighted_adjacency",
+      {
+        "source": "@weighted_adjacency",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@adjacency_lattice",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:27721",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ]
+  ],
+  "outgoing": [
+    [
+      "@er_foam",
+      {
+        "source": "@adjacency_lattice",
+        "relation": "DEPENDS_TO",
+        "target": "@er_foam",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45042",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@er_foam",
+      {
+        "source": "@adjacency_lattice",
+        "relation": "DIRECTED_TO",
+        "target": "@er_foam",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45042",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@er_foam",
+      {
+        "source": "@adjacency_lattice",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@er_foam",
+        "graph_family": "audit",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45042",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@er_foam",
+      {
+        "source": "@adjacency_lattice",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@er_foam",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:45421",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@er_foam",
+      {
+        "source": "@adjacency_lattice",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@er_foam",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "EDGE_LEDGER_LINE:45042;vertical_chain:1846,vertical_chain:27589",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@er_foam",
+      {
+        "source": "@adjacency_lattice",
+        "relation": "USED_BY",
+        "target": "@er_foam",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:45156",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@er_foam",
+      {
+        "source": "@adjacency_lattice",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@er_foam",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:27723",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ]
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry"
+}

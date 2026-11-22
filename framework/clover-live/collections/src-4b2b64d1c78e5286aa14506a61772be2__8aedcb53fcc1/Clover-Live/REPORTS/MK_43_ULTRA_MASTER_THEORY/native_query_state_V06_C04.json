@@ -1,0 +1,414 @@
+{
+  "api_address_count": 2384,
+  "chapter_ids": [
+    "V06-C04"
+  ],
+  "complete": true,
+  "created_at": "2026-08-10T18:43:01.519268+00:00",
+  "database_sha256_after": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03",
+  "database_sha256_before": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03",
+  "database_unchanged": true,
+  "failed_queries": [],
+  "next_handle": null,
+  "requested_handles": [
+    "@continuation_operator",
+    "@gauge_choices_and_physical_modes",
+    "@gauge_condition",
+    "@gauge_consistency",
+    "@gauge_transformation_linearized",
+    "@lorenz_gauge",
+    "@transverse_traceless_gauge"
+  ],
+  "results": [
+    {
+      "artifacts": [
+        {
+          "bytes": 2050184,
+          "path": "provenance://unavailable/content-sha256/268f5d3bda09451a9d61ca2fee56c189ee9ac9b4ddb60c1e34143c2d17f96df1/continuation_operator_83c0e3f4f64a4e8da71ece67701b8aa7.md",
+          "sha256": "268f5d3bda09451a9d61ca2fee56c189ee9ac9b4ddb60c1e34143c2d17f96df1"
+        }
+      ],
+      "elapsed_seconds": 1.274517,
+      "ordinal": 0,
+      "requested_handle": "@continuation_operator",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/268f5d3bda09451a9d61ca2fee56c189ee9ac9b4ddb60c1e34143c2d17f96df1/continuation_operator_83c0e3f4f64a4e8da71ece67701b8aa7.md",
+          "rendered_realizations": 1,
+          "sha256": "268f5d3bda09451a9d61ca2fee56c189ee9ac9b4ddb60c1e34143c2d17f96df1",
+          "size_bytes": 2050184,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "83c0e3f4f64a4e8da71ece67701b8aa7",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@continuation_operator",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V06_C04-0000",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 10083,
+          "path": "provenance://unavailable/content-sha256/223d12f880b90855594528f603401eb1f89f763da75a969743e4a472bf4ddd72/gauge_choices_and_physical_modes_72254946628a425d8ae4feebd4d66285.md",
+          "sha256": "223d12f880b90855594528f603401eb1f89f763da75a969743e4a472bf4ddd72"
+        }
+      ],
+      "elapsed_seconds": 0.253465,
+      "ordinal": 1,
+      "requested_handle": "@gauge_choices_and_physical_modes",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/223d12f880b90855594528f603401eb1f89f763da75a969743e4a472bf4ddd72/gauge_choices_and_physical_modes_72254946628a425d8ae4feebd4d66285.md",
+          "rendered_realizations": 1,
+          "sha256": "223d12f880b90855594528f603401eb1f89f763da75a969743e4a472bf4ddd72",
+          "size_bytes": 10083,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "72254946628a425d8ae4feebd4d66285",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@gauge_choices_and_physical_modes",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V06_C04-0001",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 1857118,
+          "path": "provenance://unavailable/content-sha256/4705718463a96b109cd122081db3740712cce694a141fd217e9b439d075382b4/gauge_condition_797c07d4c73641a283ff9008e1b1e568.md",
+          "sha256": "4705718463a96b109cd122081db3740712cce694a141fd217e9b439d075382b4"
+        }
+      ],
+      "elapsed_seconds": 0.568926,
+      "ordinal": 2,
+      "requested_handle": "@gauge_condition",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/4705718463a96b109cd122081db3740712cce694a141fd217e9b439d075382b4/gauge_condition_797c07d4c73641a283ff9008e1b1e568.md",
+          "rendered_realizations": 1,
+          "sha256": "4705718463a96b109cd122081db3740712cce694a141fd217e9b439d075382b4",
+          "size_bytes": 1857118,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "797c07d4c73641a283ff9008e1b1e568",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@gauge_condition",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V06_C04-0002",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 2669590,
+          "path": "provenance://unavailable/content-sha256/83780166f8754efb7ded7d0c2f57bfac5fb2f5e7152c38e2a8df0316a912dc49/gauge_consistency_be7011900a714f2f82a7bbab751ff2ad.md",
+          "sha256": "83780166f8754efb7ded7d0c2f57bfac5fb2f5e7152c38e2a8df0316a912dc49"
+        }
+      ],
+      "elapsed_seconds": 0.316461,
+      "ordinal": 3,
+      "requested_handle": "@gauge_consistency",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/83780166f8754efb7ded7d0c2f57bfac5fb2f5e7152c38e2a8df0316a912dc49/gauge_consistency_be7011900a714f2f82a7bbab751ff2ad.md",
+          "rendered_realizations": 1,
+          "sha256": "83780166f8754efb7ded7d0c2f57bfac5fb2f5e7152c38e2a8df0316a912dc49",
+          "size_bytes": 2669590,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "be7011900a714f2f82a7bbab751ff2ad",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@gauge_consistency",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk43-master-outline-023",
+        "status": "complete"
+      },
+      "resumed_without_requery": true,
+      "reused_master_query": true,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 2585614,
+          "path": "provenance://unavailable/content-sha256/082a0cbafc632eeef553d158dd1d20e658f782794d07df3d55c57fe3c34c0ef8/gauge_transformation_linearized_54df5a02a5fe4ed5bd83b8204326a2d2.md",
+          "sha256": "082a0cbafc632eeef553d158dd1d20e658f782794d07df3d55c57fe3c34c0ef8"
+        }
+      ],
+      "elapsed_seconds": 1.00179,
+      "ordinal": 4,
+      "requested_handle": "@gauge_transformation_linearized",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/082a0cbafc632eeef553d158dd1d20e658f782794d07df3d55c57fe3c34c0ef8/gauge_transformation_linearized_54df5a02a5fe4ed5bd83b8204326a2d2.md",
+          "rendered_realizations": 1,
+          "sha256": "082a0cbafc632eeef553d158dd1d20e658f782794d07df3d55c57fe3c34c0ef8",
+          "size_bytes": 2585614,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "54df5a02a5fe4ed5bd83b8204326a2d2",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@gauge_transformation_linearized",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V06_C04-0004",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 2589963,
+          "path": "provenance://unavailable/content-sha256/66505129ccf8422a81e7f0cf857e863847abc12920e4f8a4e8e147e79d41af79/lorenz_gauge_b6d11bf6593b48b9a55fe09fc0ccc0ee.md",
+          "sha256": "66505129ccf8422a81e7f0cf857e863847abc12920e4f8a4e8e147e79d41af79"
+        }
+      ],
+      "elapsed_seconds": 1.184444,
+      "ordinal": 5,
+      "requested_handle": "@lorenz_gauge",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/66505129ccf8422a81e7f0cf857e863847abc12920e4f8a4e8e147e79d41af79/lorenz_gauge_b6d11bf6593b48b9a55fe09fc0ccc0ee.md",
+          "rendered_realizations": 1,
+          "sha256": "66505129ccf8422a81e7f0cf857e863847abc12920e4f8a4e8e147e79d41af79",
+          "size_bytes": 2589963,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "b6d11bf6593b48b9a55fe09fc0ccc0ee",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@lorenz_gauge",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V06_C04-0005",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 2659713,
+          "path": "provenance://unavailable/content-sha256/8dbb2c7f742652233d7f7d3246556638d36b622a1dafab01f0ff9bef41fe5f5c/transverse_traceless_gauge_05d5672aaeec4c0b97c986611ed3fc99.md",
+          "sha256": "8dbb2c7f742652233d7f7d3246556638d36b622a1dafab01f0ff9bef41fe5f5c"
+        }
+      ],
+      "elapsed_seconds": 1.189572,
+      "ordinal": 6,
+      "requested_handle": "@transverse_traceless_gauge",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/8dbb2c7f742652233d7f7d3246556638d36b622a1dafab01f0ff9bef41fe5f5c/transverse_traceless_gauge_05d5672aaeec4c0b97c986611ed3fc99.md",
+          "rendered_realizations": 1,
+          "sha256": "8dbb2c7f742652233d7f7d3246556638d36b622a1dafab01f0ff9bef41fe5f5c",
+          "size_bytes": 2659713,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "05d5672aaeec4c0b97c986611ed3fc99",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@transverse_traceless_gauge",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V06_C04-0006",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    }
+  ],
+  "reused_master_queries": [
+    "@gauge_consistency"
+  ],
+  "runtime_info": {
+    "api_visible_to_runtime": false,
+    "direct_api_access": false,
+    "direct_library_access": false,
+    "downstream_role": "brane",
+    "manifest": {
+      "architecture": {
+        "composition_rule": "contract-compatible ports; no domain overlap required",
+        "domain_policy": "independent-port-domains",
+        "module_storage": "external-only",
+        "mounts_external": [
+          "ai",
+          "api",
+          "library"
+        ],
+        "owns": [
+          "private_qmo",
+          "port_registry",
+          "composition_mechanism"
+        ],
+        "private_objects": [
+          "qmo"
+        ],
+        "runtime_visibility": [
+          "brane"
+        ]
+      },
+      "build_version": "2.3.3",
+      "entrypoint": "mk43_brane:Brane",
+      "module_id": "mk43.brane",
+      "name": "MK43 BRANE 2.3.3",
+      "package": "mk43_brane",
+      "release_identity_separate": true,
+      "release_version": "2.3.3",
+      "role": "brane",
+      "runtime_identity_stable": true,
+      "schema_version": "1.0",
+      "version": "2.3.3"
+    },
+    "package_root": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/src",
+    "private_qmo_access": false,
+    "qmo_visible_to_runtime": false,
+    "root": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/mk43_brane_mount_ic0wwlrk",
+    "runtime_boundary": "Runtime -> BRANE",
+    "runtime_module_id": "mk43.runtime",
+    "runtime_version": "4.2.0",
+    "source": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/BRANE_3.1.zip",
+    "source_sha256": "ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e"
+  },
+  "runtime_validation": {
+    "boundary": {
+      "ai_owned_by": "BRANE",
+      "api_owned_by": "BRANE",
+      "library_owned_by": "BRANE",
+      "qmo_owned_by": "BRANE",
+      "runtime_accepts": "BRANE",
+      "runtime_rejects_direct_api": true
+    },
+    "errors": [],
+    "info": {
+      "api_visible_to_runtime": false,
+      "direct_api_access": false,
+      "direct_library_access": false,
+      "downstream_role": "brane",
+      "manifest": {
+        "architecture": {
+          "composition_rule": "contract-compatible ports; no domain overlap required",
+          "domain_policy": "independent-port-domains",
+          "module_storage": "external-only",
+          "mounts_external": [
+            "ai",
+            "api",
+            "library"
+          ],
+          "owns": [
+            "private_qmo",
+            "port_registry",
+            "composition_mechanism"
+          ],
+          "private_objects": [
+            "qmo"
+          ],
+          "runtime_visibility": [
+            "brane"
+          ]
+        },
+        "build_version": "2.3.3",
+        "entrypoint": "mk43_brane:Brane",
+        "module_id": "mk43.brane",
+        "name": "MK43 BRANE 2.3.3",
+        "package": "mk43_brane",
+        "release_identity_separate": true,
+        "release_version": "2.3.3",
+        "role": "brane",
+        "runtime_identity_stable": true,
+        "schema_version": "1.0",
+        "version": "2.3.3"
+      },
+      "package_root": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/src",
+      "private_qmo_access": false,
+      "qmo_visible_to_runtime": false,
+      "root": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/mk43_brane_mount_ic0wwlrk",
+      "runtime_boundary": "Runtime -> BRANE",
+      "runtime_module_id": "mk43.runtime",
+      "runtime_version": "4.2.0",
+      "source": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/BRANE_3.1.zip",
+      "source_sha256": "ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e"
+    },
+    "valid": true,
+    "warnings": []
+  },
+  "schema": "mk-ultra-tome-native-chapter-query-receipt-v1",
+  "successful_queries": [
+    "@continuation_operator",
+    "@gauge_choices_and_physical_modes",
+    "@gauge_condition",
+    "@gauge_consistency",
+    "@gauge_transformation_linearized",
+    "@lorenz_gauge",
+    "@transverse_traceless_gauge"
+  ]
+}

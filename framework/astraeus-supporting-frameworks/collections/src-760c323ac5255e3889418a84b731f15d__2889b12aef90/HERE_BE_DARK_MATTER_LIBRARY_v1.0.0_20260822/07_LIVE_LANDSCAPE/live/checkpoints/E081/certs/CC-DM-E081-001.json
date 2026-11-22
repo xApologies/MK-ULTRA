@@ -1,0 +1,17 @@
+{
+  "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+  "certificate_id": "CC-DM-E081-001",
+  "checkpoint": "E081",
+  "object": "@dm_port_response_trace_invariant",
+  "decision": "PORT_RESPONSE_TRACE_INVARIANCE_CLOSED",
+  "scope": "finite hidden port-response operator under structural relabeling",
+  "checks": {
+    "deltaLambda_psd_nonzero_source_backed": true,
+    "trace_gap_derived": true,
+    "port_relabeling_similarity_invariance_proved": true,
+    "full_projection_symmetry_action_typed": false,
+    "baseline_dm22_modified": false,
+    "physical_promotion": false
+  },
+  "result": "The E080 spectral idea is reduced to the simpler state-level trace discriminator tr(Lambda), which is invariant under port relabeling."
+}

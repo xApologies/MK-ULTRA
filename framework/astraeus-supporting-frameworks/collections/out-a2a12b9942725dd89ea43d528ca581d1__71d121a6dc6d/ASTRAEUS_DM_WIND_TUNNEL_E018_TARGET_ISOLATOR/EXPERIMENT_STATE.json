@@ -1,0 +1,29 @@
+{
+  "experiment": "E018",
+  "candidate": "CAND-DM-UCM-TARGET-ISOLATOR-021",
+  "title": "High-Response Endogenous Route Patch as UCM Target Isolator",
+  "status": "TARGET-ISOLATOR GEOMETRY CLOSURE / EXACT UCM RESPOND OPERATOR STILL NOT CLAIMED",
+  "physical_dark_matter_witness": false,
+  "parent_promotions": 0,
+  "selection": {
+    "criterion": "highest E016 route threshold admitting a 2x2x2 patch with conditioned route overlap=1 and fresh overlap=0; among those maximize the worst normalized independent H/O response",
+    "highest_strict_threshold": 0.3,
+    "target_patch_origin": [
+      15,
+      14,
+      14
+    ],
+    "conditioned_route_overlap": 1.0,
+    "fresh_route_overlap": 0.0,
+    "maximin_normalized_HO_response": 0.9506571536939946
+  },
+  "results": {
+    "all_local_ER_history_fields_nonzero_at_target": true,
+    "all_supported_H_O_probes_nonzero_at_target": true,
+    "strict_isolator_thresholds_with_at_least_one_patch": 30,
+    "tested_threshold_max": 0.3
+  },
+  "ruling": "A geometrically isolated target patch lies completely inside the endogenous H2-conditioned adjacency+corridor+persistence route fabric while lying completely outside the corresponding fresh route fabric, and all supported H/O probes respond nontrivially there to an independent chirality-history signal.",
+  "ucm_status": "This closes target-isolator/incidence geometry at sandbox level. E004 already supplies a nonidentity same-H target response globally; exact spatial source UCM Respond remains unimplemented.",
+  "next_handle": "JOIN_E018_TARGET_ISOLATOR_TO_E004_RESPOND_AND_E006_E007_GRAVITY_PRECURSOR"
+}

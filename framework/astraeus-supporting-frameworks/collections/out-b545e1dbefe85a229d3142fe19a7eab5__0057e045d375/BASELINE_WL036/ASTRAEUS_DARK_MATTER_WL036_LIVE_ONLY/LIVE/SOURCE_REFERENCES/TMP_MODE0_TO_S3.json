@@ -1,0 +1,46 @@
+{
+  "schema": "ASTRAEUS_QMO_CROSS_CRAWL_V1",
+  "seeds": [
+    "@dm_mode0_access_interface"
+  ],
+  "targets": [
+    "@dm_hidden_s3_network"
+  ],
+  "bidirectional": true,
+  "edge_count": 1659,
+  "reachable_count": 113,
+  "distance_histogram": {
+    "0": 1,
+    "1": 2,
+    "2": 5,
+    "3": 22,
+    "4": 83
+  },
+  "paths": {
+    "@dm_mode0_access_interface -> @dm_hidden_s3_network": [
+      {
+        "from": "@dm_mode0_access_interface",
+        "relation": "REQUIRES",
+        "to": "@dm_mode0_network_selection_rule",
+        "traversal": "forward",
+        "origin": "DARKMATTER_2.0",
+        "provenance": "DM2.0",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "OPEN_HANDLE",
+        "confidence": "high"
+      },
+      {
+        "from": "@dm_mode0_network_selection_rule",
+        "relation": "SELECTS_ACCESS_TO",
+        "to": "@dm_hidden_s3_network",
+        "traversal": "forward",
+        "origin": "DARKMATTER_2.0",
+        "provenance": "DM2.0",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "OPEN_HANDLE",
+        "confidence": "high"
+      }
+    ]
+  },
+  "guardrail": "Navigation evidence only. Composed paths are not direct theorems and no parent object is promoted."
+}

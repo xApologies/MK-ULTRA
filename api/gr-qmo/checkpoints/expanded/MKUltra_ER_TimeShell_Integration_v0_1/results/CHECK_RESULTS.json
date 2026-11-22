@@ -1,0 +1,300 @@
+{
+  "status": "PASS",
+  "passed": 48,
+  "total": 48,
+  "checks": [
+    {
+      "name": "Laplacian_row_sum",
+      "passed": true,
+      "scope": "recovered graph operator",
+      "detail": null
+    },
+    {
+      "name": "Laplacian_nonnegative",
+      "passed": true,
+      "scope": "finite fixture",
+      "detail": null
+    },
+    {
+      "name": "reject_negative_weights",
+      "passed": true,
+      "scope": "negative control",
+      "detail": null
+    },
+    {
+      "name": "self_loops_cancel_only_in_L",
+      "passed": true,
+      "scope": "not a license to discard loops from metric data",
+      "detail": null
+    },
+    {
+      "name": "quadratic_discrete_variation",
+      "passed": true,
+      "scope": "direct variation",
+      "detail": null
+    },
+    {
+      "name": "fixed_recurrence_symplectic",
+      "passed": true,
+      "scope": "linear phase-space map, not quantum norm",
+      "detail": null
+    },
+    {
+      "name": "fixed_native_invariant",
+      "passed": true,
+      "scope": "unforced fixed-weight invariant",
+      "detail": 9.020562075079397e-17
+    },
+    {
+      "name": "strict_oscillatory_bound",
+      "passed": true,
+      "scope": "positive nonzero modes bounded; zero mode may drift",
+      "detail": null
+    },
+    {
+      "name": "exact_memory_forced_N3",
+      "passed": true,
+      "scope": "causal elimination plus hidden initial data",
+      "detail": 3.552713678800501e-13
+    },
+    {
+      "name": "exact_memory_forced_N5",
+      "passed": true,
+      "scope": "causal elimination plus hidden initial data",
+      "detail": 2.842170943040401e-14
+    },
+    {
+      "name": "exact_memory_forced_N8",
+      "passed": true,
+      "scope": "causal elimination plus hidden initial data",
+      "detail": 2.3092638912203256e-14
+    },
+    {
+      "name": "Schur_response_block_inverse",
+      "passed": true,
+      "scope": "resolvent away from singular inverses",
+      "detail": null
+    },
+    {
+      "name": "Schur_determinant_factor",
+      "passed": true,
+      "scope": "algebraic characteristic factorization",
+      "detail": null
+    },
+    {
+      "name": "static_Kron_row_sum",
+      "passed": true,
+      "scope": "no added constant restoring term; not spin-2 proof",
+      "detail": null
+    },
+    {
+      "name": "low_frequency_inertia",
+      "passed": true,
+      "scope": "derived first-order frequency coefficient",
+      "detail": null
+    },
+    {
+      "name": "induced_inertia_positive",
+      "passed": true,
+      "scope": "finite fixture of proved positive form",
+      "detail": null
+    },
+    {
+      "name": "remainder_norm_bound",
+      "passed": true,
+      "scope": "Neumann-series controlled approximation",
+      "detail": null
+    },
+    {
+      "name": "same_shell_pair_different_successor",
+      "passed": true,
+      "scope": "counterexample for instantaneous boundary-state closure",
+      "detail": null
+    },
+    {
+      "name": "endpoint_observability_rank6",
+      "passed": true,
+      "scope": "three-node path, observing endpoint",
+      "detail": null
+    },
+    {
+      "name": "history_inverse_recovers_full_state",
+      "passed": true,
+      "scope": "observed-history inverse without separate hidden initial data",
+      "detail": null
+    },
+    {
+      "name": "center_observability_rank4",
+      "passed": true,
+      "scope": "two unobservable phase-space directions",
+      "detail": null
+    },
+    {
+      "name": "dark_mode_zero_shell_history",
+      "passed": true,
+      "scope": "nonzero native motion invisible to center port",
+      "detail": null
+    },
+    {
+      "name": "reject_false_inverse_dark_mode",
+      "passed": true,
+      "scope": "negative control",
+      "detail": null
+    },
+    {
+      "name": "ordered_memory_changing_foam",
+      "passed": true,
+      "scope": "conditional on retained changing W history",
+      "detail": null
+    },
+    {
+      "name": "changing_L_not_generically_commuting",
+      "passed": true,
+      "scope": "mode-mixing warning",
+      "detail": null
+    },
+    {
+      "name": "continuum_boundary_trace",
+      "passed": true,
+      "scope": "scalar coefficient only, not full tensor projector",
+      "detail": null
+    },
+    {
+      "name": "archived_scalar_prefactor_match",
+      "passed": true,
+      "scope": "normalization choice 8 pi G, Euclidean/spacelike branch",
+      "detail": null
+    },
+    {
+      "name": "lattice_boundary_kernel_a1.0",
+      "passed": true,
+      "scope": "infinite nearest-neighbor normal chain integral",
+      "detail": 0.0
+    },
+    {
+      "name": "lattice_boundary_kernel_a0.1",
+      "passed": true,
+      "scope": "infinite nearest-neighbor normal chain integral",
+      "detail": 5.551115123125783e-17
+    },
+    {
+      "name": "lattice_boundary_kernel_a0.025",
+      "passed": true,
+      "scope": "infinite nearest-neighbor normal chain integral",
+      "detail": 2.7755575615628914e-17
+    },
+    {
+      "name": "lattice_continuum_limit",
+      "passed": true,
+      "scope": "fixed p limit, not uniform near all poles",
+      "detail": null
+    },
+    {
+      "name": "finite_spacing_correction",
+      "passed": true,
+      "scope": "first relative correction",
+      "detail": null
+    },
+    {
+      "name": "new_edge_variation",
+      "passed": true,
+      "scope": "NEW proposed action, not recovered",
+      "detail": null
+    },
+    {
+      "name": "new_dynamic_branch_reversible",
+      "passed": true,
+      "scope": "full signed-amplitude state",
+      "detail": 3.469446951953614e-18
+    },
+    {
+      "name": "new_dynamic_weights_nonnegative",
+      "passed": true,
+      "scope": "weights are squares by construction",
+      "detail": null
+    },
+    {
+      "name": "new_dynamic_feedback_active",
+      "passed": true,
+      "scope": "nontrivial edge response",
+      "detail": null
+    },
+    {
+      "name": "new_dynamic_uniform_shift",
+      "passed": true,
+      "scope": "source constant-mode symmetry",
+      "detail": null
+    },
+    {
+      "name": "nonlinear_variational_map_symplectic",
+      "passed": true,
+      "scope": "regular discrete action; not exact continuous energy conservation",
+      "detail": null
+    },
+    {
+      "name": "breathing_backreaction_nontrivial",
+      "passed": true,
+      "scope": "NEW mode-preserving nonlinear branch",
+      "detail": null
+    },
+    {
+      "name": "breathing_inverse",
+      "passed": true,
+      "scope": "full branch state",
+      "detail": null
+    },
+    {
+      "name": "breathing_preserves_selected_spectral_projector",
+      "passed": true,
+      "scope": "NOT derivation of physical graviton projector",
+      "detail": null
+    },
+    {
+      "name": "white_edge_fixed_state",
+      "passed": true,
+      "scope": "off-diagonal W=0; may be unstable if astar>0",
+      "detail": null
+    },
+    {
+      "name": "breathing_zero_mode_no_bare_mass",
+      "passed": true,
+      "scope": "native Laplacian zero mode, not four-dimensional spin-2 proof",
+      "detail": null
+    },
+    {
+      "name": "nonlinear_branch_shell_memory_identity",
+      "passed": true,
+      "scope": "retains generated breathing history, not shell-only dynamics",
+      "detail": null
+    },
+    {
+      "name": "parametric_instability_negative_control",
+      "passed": true,
+      "scope": "eta alternates 1/2 and 7/2, both in (0,4); not asserted to be a trajectory of the breathing action",
+      "detail": "-17/4"
+    },
+    {
+      "name": "TT_symmetric_gradient_is_zero",
+      "passed": true,
+      "scope": "negative control for a tempting but NOT attributed source map",
+      "detail": null
+    },
+    {
+      "name": "TT_projector_rank_two",
+      "passed": true,
+      "scope": "prescribed Minkowski polarization construction only",
+      "detail": null
+    },
+    {
+      "name": "TT_projector_idempotent",
+      "passed": true,
+      "scope": "does not derive a native tensor projector",
+      "detail": null
+    }
+  ],
+  "seconds": 0.47236084938049316,
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "sympy": "1.14.0",
+  "scope": "Checks of recovered linear recurrence, derived elimination, and explicitly new native-depth candidate branches. No full MK Ultra or Einstein emergence certification."
+}

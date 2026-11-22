@@ -1,0 +1,33 @@
+{
+  "name": "MK43 Library 1.B",
+  "role": "library",
+  "version": "1.B.0",
+  "contract_version": "2.0",
+  "entrypoint": "mk43_library1b:create_module",
+  "internal_dimension": 5,
+  "canonical_state_policy": "READ_ONLY",
+  "rewrite_policy": "DERIVED_ONLY",
+  "chirality_model": "address-placement-neutral",
+  "provenance_model": "package-and-block-provenance",
+  "domain_ids": [
+    "generic"
+  ],
+  "capabilities": [
+    "recover",
+    "recover_batch",
+    "recover_model",
+    "recover_equations",
+    "recover_models",
+    "recover_analogies",
+    "recover_explanations",
+    "assemble_chunk",
+    "pull_qmo",
+    "add_address",
+    "add_many",
+    "add_package",
+    "replace_address",
+    "remove_address",
+    "purge_address",
+    "rollback_transaction"
+  ]
+}

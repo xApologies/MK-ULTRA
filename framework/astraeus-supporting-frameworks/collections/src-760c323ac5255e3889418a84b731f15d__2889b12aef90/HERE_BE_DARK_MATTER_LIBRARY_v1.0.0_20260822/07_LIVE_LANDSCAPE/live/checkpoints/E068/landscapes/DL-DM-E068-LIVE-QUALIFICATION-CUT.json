@@ -1,0 +1,39 @@
+{
+  "schema": "ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1",
+  "landscape_id": "DL-DM-E068-LIVE-QUALIFICATION-CUT",
+  "seed": "@dm_dark_matter_qualification_nonempty",
+  "status": "DIAGNOSTIC_APPEND_ONLY",
+  "lanes": {
+    "density_lane": [
+      "@dm_joint_hidden_network_witness",
+      "@dm_native_density_to_readable_source",
+      "@dm_conditional_dark_readout_witness",
+      "@dm_dark_matter_qualification_locus"
+    ],
+    "residue_lane": [
+      "@dm_conditional_boundary_residue_seed",
+      "@dm_projection_residue_survival",
+      "@dm_conditional_q_handoff_distinction",
+      "@dm_metric_action_selection",
+      "@dm_stress_active_action_fiber_nonempty",
+      "@dm_dark_matter_qualification_locus"
+    ]
+  },
+  "cut": {
+    "common": [
+      "hidden admissible realization / boundary entry",
+      "same ordinary matter-readout comparison class",
+      "nonzero metric-coupled hidden source"
+    ],
+    "alternative": [
+      "native-density readout nonannihilation",
+      "invariant-residue discriminator survival"
+    ]
+  },
+  "terminal": {
+    "state": "REPRIORITIZED_FRONTIER",
+    "iteration": 2,
+    "focus": "@dm_stress_active_action_fiber_nonempty",
+    "reason": "Action-side nonemptiness is shared by the canonical residue/Q path and downstream qualification, while density and residue survival can be pursued as parallel middle lanes."
+  }
+}

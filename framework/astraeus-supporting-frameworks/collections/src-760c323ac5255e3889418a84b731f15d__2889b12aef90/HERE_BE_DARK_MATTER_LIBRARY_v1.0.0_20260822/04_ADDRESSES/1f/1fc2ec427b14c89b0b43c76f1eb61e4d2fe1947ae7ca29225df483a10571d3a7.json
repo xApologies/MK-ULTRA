@@ -1,0 +1,25 @@
+{
+  "handle": "iteration://IT-DM-E068-CRITICAL-CUT",
+  "object_type": "bounded_iteration",
+  "status": "REPRIORITIZED_FRONTIER",
+  "domain": "ITERATION",
+  "namespace": "mk43://iteration",
+  "name": "IT-DM-E068-CRITICAL-CUT",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "BOUNDED_ITERATION",
+  "metadata": {
+    "id": "IT-DM-E068-CRITICAL-CUT",
+    "seed": "@dm_dark_matter_qualification_nonempty",
+    "terminal_state": "REPRIORITIZED_FRONTIER",
+    "source_file": "live/checkpoints/E068/runs/IT-DM-E068-CRITICAL-CUT.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_ITERATION_RUN_V1\", \"run_id\": \"IT-DM-E068-CRITICAL-CUT\", \"checkpoint\": \"E068\", \"seed\": \"@dm_dark_matter_qualification_nonempty\", \"ceiling\": 256, \"iterations_used\": 2, \"terminal_state\": \"REPRIORITIZED_FRONTIER\", \"open_next\": \"@dm_stress_active_action_fiber_nonempty\", \"note\": \"Diagnostic pass only; it re-ranked live proof debt without promoting any conditional lane.\"}"
+  },
+  "address": "iteration://IT-DM-E068-CRITICAL-CUT",
+  "address_sha256": "1fc2ec427b14c89b0b43c76f1eb61e4d2fe1947ae7ca29225df483a10571d3a7"
+}

@@ -1,0 +1,25 @@
+{
+  "handle": "iteration://IT-DM-E088-DIRECT-TIMESHELL-DARK-READOUT",
+  "object_type": "bounded_iteration",
+  "status": "CONDITIONAL_DARK_READOUT_CLOSED",
+  "domain": "ITERATION",
+  "namespace": "mk43://iteration",
+  "name": "IT-DM-E088-DIRECT-TIMESHELL-DARK-READOUT",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "BOUNDED_ITERATION",
+  "metadata": {
+    "id": "IT-DM-E088-DIRECT-TIMESHELL-DARK-READOUT",
+    "seed": "@dm_explicit_two_port_continuity_residual_witness",
+    "terminal_state": "CONDITIONAL_DARK_READOUT_CLOSED",
+    "source_file": "live/checkpoints/E088/runs/IT-DM-E088-DIRECT-TIMESHELL-DARK-READOUT.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_ITERATION_RUN_V1\", \"run_id\": \"IT-DM-E088-DIRECT-TIMESHELL-DARK-READOUT\", \"checkpoint\": \"E088\", \"seed\": \"@dm_explicit_two_port_continuity_residual_witness\", \"ceiling\": 128, \"iterations_used\": 4, \"terminal_state\": \"CONDITIONAL_DARK_READOUT_CLOSED\", \"open_next\": \"@dm_two_port_timeshell_gravity_fiber_test\", \"note\": \"PD-DM-012 becomes the highest-leverage direct-readout debt. Density/UCM and residue/Q lanes remain intact as independent cross-checks/qualification routes.\"}"
+  },
+  "address": "iteration://IT-DM-E088-DIRECT-TIMESHELL-DARK-READOUT",
+  "address_sha256": "8d7f2f87794b71a5d6962916f0b9e91b5543f21d87f850a7e210e4a65f0cb92d"
+}

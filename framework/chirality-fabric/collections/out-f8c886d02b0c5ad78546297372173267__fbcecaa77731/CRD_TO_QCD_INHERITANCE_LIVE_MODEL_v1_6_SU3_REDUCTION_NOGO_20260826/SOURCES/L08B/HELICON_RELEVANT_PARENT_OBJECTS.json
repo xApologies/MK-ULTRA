@@ -1,0 +1,286 @@
+[
+  {
+    "handle": "@er_foam",
+    "object_type": "mathematical_object",
+    "base_status": "active",
+    "domains": [
+      "API43",
+      "HIGGS_WORK_LAYER_V1_1",
+      "TIME_SPACE_4_3"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "ER Foam"
+      },
+      {
+        "source": "HIGGS_V1_1",
+        "name": "ER Foam"
+      }
+    ],
+    "definitions": [
+      {
+        "source": "HIGGS_V1_1",
+        "definition": "Inherited chirality-continuity substrate used by the Environment."
+      }
+    ],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@er_foam",
+          "name": "ER Foam",
+          "origin": "TIMESPACE_4.3",
+          "criticality": "critical",
+          "uri": null,
+          "parent_status": null,
+          "parent_upstream": "@adjacency_lattice, @chirality, @mote, @projection_admissibility",
+          "parent_downstream": "@helicon, @stable_er_foam_knot, @time_shell",
+          "source_occurrences": null,
+          "registry_line": 45418,
+          "occurrence_lines": [
+            6899,
+            7001,
+            7015,
+            7907,
+            7910,
+            8613,
+            8614,
+            8625,
+            14823,
+            14883,
+            15141,
+            15146,
+            15217,
+            15321,
+            15840,
+            27504,
+            32424,
+            35768,
+            35778,
+            35788
+          ]
+        }
+      },
+      {
+        "source": "HIGGS_OBJECT_REGISTRY",
+        "record": {
+          "model_handle": "@higgs_qmo",
+          "canonical_handle": "@er_foam",
+          "canonical_name": "ER Foam",
+          "aliases": [],
+          "status": "SOURCE_INHERITED",
+          "type": "StateSpace",
+          "definition": "Inherited chirality-continuity substrate used by the Environment.",
+          "symbols": [],
+          "equations": [],
+          "provenance": [
+            "S-ENV",
+            "S-PIPELINE1"
+          ],
+          "notes": []
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@helicon",
+    "object_type": "mathematical_object",
+    "base_status": "active",
+    "domains": [
+      "API43",
+      "HIGGS_WORK_LAYER_V1_1",
+      "TIME_SPACE_4_3"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "Helicon"
+      },
+      {
+        "source": "HIGGS_V1_1",
+        "name": "Helicon"
+      }
+    ],
+    "definitions": [
+      {
+        "source": "HIGGS_V1_1",
+        "definition": "A coherent admissible restructuring mode of the chirality/ER substrate. It is propagation/restructuring dominant, unlike the localized persistence-lock knot branch."
+      }
+    ],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@helicon",
+          "name": "Helicon",
+          "origin": "TIMESPACE_4.3",
+          "criticality": "critical",
+          "uri": null,
+          "parent_status": null,
+          "parent_upstream": "@agency, @curvature_binding_condition, @er_foam",
+          "parent_downstream": "@coherent_helicon_propagation, @gravitational_helicon_mode, @graviton, @wake_stabilization_equation",
+          "source_occurrences": null,
+          "registry_line": 45488,
+          "occurrence_lines": [
+            6902,
+            7070,
+            7082,
+            7858,
+            7859,
+            7860,
+            7861,
+            7862,
+            7863,
+            7864,
+            8690,
+            8691,
+            8692,
+            8693,
+            8694,
+            8695,
+            8696,
+            8697,
+            8698,
+            8699
+          ]
+        }
+      },
+      {
+        "source": "HIGGS_OBJECT_REGISTRY",
+        "record": {
+          "model_handle": "@higgs_qmo",
+          "canonical_handle": "@helicon",
+          "canonical_name": "Helicon",
+          "aliases": [],
+          "status": "SOURCE_REFERENCE",
+          "type": "ModeFamily",
+          "definition": "A coherent admissible restructuring mode of the chirality/ER substrate. It is propagation/restructuring dominant, unlike the localized persistence-lock knot branch.",
+          "symbols": [],
+          "equations": [],
+          "provenance": [
+            "S-HELICON"
+          ],
+          "notes": []
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@helicon_spectral_operator",
+    "object_type": "mathematical_object",
+    "base_status": "active",
+    "domains": [
+      "API43",
+      "HIGGS_WORK_LAYER_V1_1",
+      "TIME_SPACE_4_3"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "Helicon Spectral Operator"
+      },
+      {
+        "source": "HIGGS_V1_1",
+        "name": "Helicon Spectral Operator"
+      }
+    ],
+    "definitions": [
+      {
+        "source": "HIGGS_V1_1",
+        "definition": "L_H selects allowed coherent Helicon modes through L_H(H_alpha)=lambda_alpha H_alpha."
+      }
+    ],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@helicon_spectral_operator",
+          "name": "Helicon Spectral Operator",
+          "origin": "TIMESPACE_4.3",
+          "criticality": "context",
+          "uri": null,
+          "parent_status": null,
+          "parent_upstream": null,
+          "parent_downstream": null,
+          "source_occurrences": null,
+          "registry_line": null,
+          "occurrence_lines": []
+        }
+      },
+      {
+        "source": "HIGGS_OBJECT_REGISTRY",
+        "record": {
+          "model_handle": "@higgs_qmo",
+          "canonical_handle": "@helicon_spectral_operator",
+          "canonical_name": "Helicon Spectral Operator",
+          "aliases": [],
+          "status": "SOURCE_REFERENCE",
+          "type": "Operator",
+          "definition": "L_H selects allowed coherent Helicon modes through L_H(H_alpha)=lambda_alpha H_alpha.",
+          "symbols": [
+            "L_H",
+            "H_alpha",
+            "lambda_alpha"
+          ],
+          "equations": [
+            "EQ-H007"
+          ],
+          "provenance": [
+            "S-HELICON"
+          ],
+          "notes": []
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@higgs_helicon_sector",
+    "object_type": "StateSpace",
+    "base_status": "OPEN_CLASSIFICATION",
+    "domains": [
+      "HIGGS_WORK_LAYER_V1_1"
+    ],
+    "names": [
+      {
+        "source": "HIGGS_V1_1",
+        "name": "Higgs-Relevant Helicon Sector"
+      }
+    ],
+    "definitions": [
+      {
+        "source": "HIGGS_V1_1",
+        "definition": "The as-yet unclosed spectral subspace/mode family that must carry native Higgs order into the readable field branch without bypassing Helicon."
+      }
+    ],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "HIGGS_OBJECT_REGISTRY",
+        "record": {
+          "model_handle": "@higgs_qmo",
+          "canonical_handle": "@higgs_helicon_sector",
+          "canonical_name": "Higgs-Relevant Helicon Sector",
+          "aliases": [],
+          "status": "OPEN_CLASSIFICATION",
+          "type": "StateSpace",
+          "definition": "The as-yet unclosed spectral subspace/mode family that must carry native Higgs order into the readable field branch without bypassing Helicon.",
+          "symbols": [
+            "H_H"
+          ],
+          "equations": [],
+          "provenance": [
+            "S-HELICON",
+            "S-MASS3"
+          ],
+          "notes": [
+            "Exact selector Sigma_H is proof debt PD-HIGGS-001."
+          ]
+        }
+      }
+    ]
+  }
+]

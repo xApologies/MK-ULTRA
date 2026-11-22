@@ -1,0 +1,106 @@
+{
+  "schema": "ASTRAEUS_API_QMO_NATIVE_WITNESS_STRESS_GATE_V1",
+  "qmo_id": "QMO-AST-DM-WL-059",
+  "name": "Native Hidden Witness / Stress-Energy Separation / Qualification Interface",
+  "atlas_version": "WL-v174",
+  "status": "API_INTERFACE_EXPOSED_ACTION_SELECTION_LOOP_NOT_PARENT_PROMOTED",
+  "witness_stress_query": {
+    "schema": "ASTRAEUS_CROSS_API_PAIR_QUERY_V1",
+    "a": "@dm_native_hidden_witness",
+    "b": "@dm_stress_energy_separation_gate",
+    "radius": 3,
+    "a_node_count": 21,
+    "b_node_count": 70,
+    "interface": [
+      {
+        "handle": "@dm_resolution_density_profile",
+        "distance_a": 1,
+        "distance_b": 2
+      },
+      {
+        "handle": "@energy_density",
+        "distance_a": 2,
+        "distance_b": 1
+      },
+      {
+        "handle": "@dm_native_hidden_witness",
+        "distance_a": 0,
+        "distance_b": 3
+      },
+      {
+        "handle": "@dm_stress_energy_separation_gate",
+        "distance_a": 3,
+        "distance_b": 0
+      },
+      {
+        "handle": "@dm_hidden_relational_load",
+        "distance_a": 2,
+        "distance_b": 3
+      },
+      {
+        "handle": "@dm_native_density_to_readable_source",
+        "distance_a": 2,
+        "distance_b": 3
+      },
+      {
+        "handle": "@resolution",
+        "distance_a": 2,
+        "distance_b": 3
+      }
+    ],
+    "path_a_to_b": null,
+    "path_b_to_a": null,
+    "edge_policy": {
+      "timespace": "high-confidence direct/non-derived RP42 records",
+      "darkmatter": "high-confidence DM_DIRECT_EDGE_REGISTRY records",
+      "gluing": "exact handle equality only; no cross-edge is invented"
+    }
+  },
+  "witness_qualification_query": {
+    "schema": "ASTRAEUS_CROSS_API_PAIR_QUERY_V1",
+    "a": "@dm_native_hidden_witness",
+    "b": "@dm_dark_matter_qualification_nonempty",
+    "radius": 3,
+    "a_node_count": 21,
+    "b_node_count": 30,
+    "interface": [
+      {
+        "handle": "@dm_hidden_state_bundle",
+        "distance_a": 3,
+        "distance_b": 3
+      },
+      {
+        "handle": "@dm_runtime_transition_capacity",
+        "distance_a": 3,
+        "distance_b": 3
+      },
+      {
+        "handle": "@dm_stress_energy_separation_gate",
+        "distance_a": 3,
+        "distance_b": 3
+      }
+    ],
+    "path_a_to_b": null,
+    "path_b_to_a": null,
+    "edge_policy": {
+      "timespace": "high-confidence direct/non-derived RP42 records",
+      "darkmatter": "high-confidence DM_DIRECT_EDGE_REGISTRY records",
+      "gluing": "exact handle equality only; no cross-edge is invented"
+    }
+  },
+  "stress_gate": {
+    "handle": "@dm_stress_energy_separation_gate",
+    "name": "Stress-Energy Separation Gate",
+    "type": "SufficientTensorSeparationWitness",
+    "status": "ATLAS_DERIVED_ACTIVE",
+    "definition": "A nonzero readable density difference for the same observer is sufficient to prove the full and visible stress-energy tensors are unequal; it does not reconstruct the full tensor.",
+    "math": "Delta rho_read[u]=Delta T_mn u^m u^n != 0 => Delta T_mn != 0."
+  },
+  "finding": "The native witness and qualification landscapes meet the stress-energy branch. The witness/stress interface exposes density/readout handles, while the stress-energy realization family returns to the already-known atomic open @dm_metric_action_selection. Stop rather than invent a selector.",
+  "next_handle": "@dm_q_survival",
+  "guardrails": [
+    "stress-energy separation gate is sufficient, not tensor reconstruction",
+    "metric-action selection remains open",
+    "scalar density route is optional diagnostic, not native ontology"
+  ]
+}

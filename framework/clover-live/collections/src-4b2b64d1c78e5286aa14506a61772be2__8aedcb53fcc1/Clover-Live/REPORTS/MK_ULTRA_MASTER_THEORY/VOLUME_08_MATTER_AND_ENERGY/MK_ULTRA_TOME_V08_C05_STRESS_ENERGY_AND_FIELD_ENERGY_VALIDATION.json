@@ -1,0 +1,106 @@
+{
+  "schema": "tome-publication-renderer-validation/v1",
+  "created_at": "2026-08-10T20:59:53.421434+00:00",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "engine": "KaTeX 0.16.22 -> HTML/CSS -> Playwright -> Microsoft Edge PDF",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_08_MATTER_AND_ENERGY/MK_ULTRA_TOME_V08_C05_STRESS_ENERGY_AND_FIELD_ENERGY.pdf",
+    "bytes": 172217,
+    "sha256": "b558f2f51396f20f3c2dc04dd45fcfa27d007eed87126536b305fd9e663fa656"
+  },
+  "actual_pages": 7,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V08-C05": 3
+  },
+  "chapter_validations": [
+    {
+      "chapter_id": "V08-C05",
+      "source_sha256": "77d3403d538c8a89a650677d94943de34c6f634676384738071ec07dd62a157b",
+      "page_start": 3,
+      "headings": 23,
+      "display_equations": 21,
+      "inline_equations": 17,
+      "equation_tags": 21,
+      "api_handles": 31,
+      "table_rows": 32,
+      "content_markers_present": true
+    }
+  ],
+  "engine_metrics": {
+    "renderer": "TOME_PUBLICATION_RENDERER_V1",
+    "katexVersion": "0.16.22",
+    "chapters": [
+      {
+        "id": "V08-C05",
+        "sourceBytes": 13912,
+        "paragraphs": 42,
+        "headings": 23,
+        "displayEquations": 21,
+        "inlineEquations": 17,
+        "tables": 1,
+        "tableRows": 31,
+        "listItems": 0,
+        "codeBlocks": 0,
+        "figures": 0
+      }
+    ],
+    "paragraphs": 42,
+    "headings": 23,
+    "displayEquations": 21,
+    "inlineEquations": 17,
+    "tables": 1,
+    "tableRows": 31,
+    "listItems": 0,
+    "blockQuotes": 0,
+    "codeBlocks": 0,
+    "figures": 0,
+    "mathLayout": {
+      "checked": 21,
+      "scaled": [],
+      "remainingOverflow": []
+    }
+  },
+  "raw_latex_guard": {
+    "result": "PASS",
+    "hits": [],
+    "commands_scanned": [
+      "frac",
+      "mathcal",
+      "mathrm",
+      "begin",
+      "end",
+      "left",
+      "right",
+      "longrightarrow",
+      "rightarrow",
+      "otimes",
+      "partial",
+      "nabla",
+      "mu",
+      "nu",
+      "sum",
+      "int",
+      "operatorname"
+    ]
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V08-C05": "77d3403d538c8a89a650677d94943de34c6f634676384738071ec07dd62a157b"
+  },
+  "source_hashes_after": {
+    "V08-C05": "77d3403d538c8a89a650677d94943de34c6f634676384738071ec07dd62a157b"
+  },
+  "sealed_chapter_content_change_count": 0,
+  "visual_qa": {
+    "result": "PASS",
+    "scope": "ALL_7_PAGES",
+    "pages_inspected": 7,
+    "blank_pages": 0,
+    "clipped_text_or_math": 0,
+    "overlapping_elements": 0,
+    "unrendered_latex": 0,
+    "layout_defects": 0,
+    "inspection_method": "Poppler 120-DPI page render with full-document contact sheets"
+  }
+}

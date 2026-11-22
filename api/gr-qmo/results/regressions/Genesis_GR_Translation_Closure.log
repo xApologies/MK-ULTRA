@@ -1,0 +1,53 @@
+PASS Sheared flat: selected native connection matches independent GR connection
+PASS Sheared flat: connection inverse
+PASS Sheared flat: full Riemann commutation
+PASS Sheared flat: Ricci and scalar commutation
+PASS Sheared flat: specified scalar curvature
+PASS Sheared flat: Einstein tensor commutation
+PASS Sheared flat: affine geodesic operator commutation
+PASS Sheared flat: covariant derivative of vector
+PASS Sheared flat: composed covariant derivatives
+PASS Sheared flat: Genesis endpoint round trip
+PASS Sheared flat: GR endpoint round trip
+PASS Negative control: omitting derivative-of-frame is detected
+PASS Negative control: reject incompatible selected connection
+PASS Curved product: selected native connection matches independent GR connection
+PASS Curved product: connection inverse
+PASS Curved product: full Riemann commutation
+PASS Curved product: Ricci and scalar commutation
+PASS Curved product: specified scalar curvature
+PASS Curved product: Einstein tensor commutation
+PASS Curved product: affine geodesic operator commutation
+PASS Curved product: covariant derivative of vector
+PASS Curved product: Genesis endpoint round trip
+PASS Curved product: GR endpoint round trip
+PASS Curved product: native transport ODE
+PASS Curved product: translated transport ODE
+PASS Curved product: transport round trip
+PASS Curved product: reversed-path inverse
+PASS Negative control: missing frame bracket changes curvature
+PASS FLRW: selected native connection matches independent GR connection
+PASS FLRW: connection inverse
+PASS FLRW: full Riemann commutation
+PASS FLRW: Ricci and scalar commutation
+PASS FLRW: specified scalar curvature
+PASS FLRW: Einstein tensor commutation
+PASS FLRW: affine geodesic operator commutation
+PASS FLRW: full off-shell Einstein-source residual
+PASS FLRW: independent source gives expected temporal equation
+PASS FLRW: independent source gives expected spatial equation
+PASS FLRW: source divergence commutation
+PASS FLRW: off-shell continuity residual
+PASS FLRW: covariant derivative of vector
+PASS FLRW: Genesis endpoint round trip
+PASS FLRW: GR endpoint round trip
+PASS Mixed-variance round trips
+PASS Tensor product preservation
+PASS Contraction preservation
+PASS Negative control: illegal same-variance contraction
+PASS Negative control: singular anchor
+PASS Negative control: degenerate metric
+PASS Negative control: deficient flux probes
+PASS Negative control: asymmetric non-spin source
+PASS Native attachment is not fabricated
+

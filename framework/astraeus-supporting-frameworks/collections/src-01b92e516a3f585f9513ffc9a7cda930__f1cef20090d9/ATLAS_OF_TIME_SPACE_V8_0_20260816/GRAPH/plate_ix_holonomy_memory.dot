@@ -1,0 +1,14 @@
+digraph G {
+  graph [bgcolor="#07121f", rankdir=LR, pad=0.35, label="ATLAS PLATE IX — CORRIDOR HOLONOMY MEMORY", labelloc=t, fontname="Helvetica", fontsize=22, fontcolor="#f2d58a"];
+  node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=12, fontcolor="#eaf7ff", color="#2a7892", fillcolor="#0d2233", penwidth=1.6];
+  edge [color="#58c4dd", fontcolor="#cdeef5", fontname="Helvetica", fontsize=10, penwidth=1.6];
+  p0 [label="ADDRESS p\nSTATE (χ,H)"];
+  p1 [label="PATH γ₁\nparallel transport"];
+  p2 [label="PATH γ₂\nreturn branch"];
+  p3 [label="SAME ADDRESS p\nSTATE (χ',H')", fillcolor="#173548"];
+  hol [label="HOLONOMY\nP_ℓ = P exp(-∮ A_H)\nP_ℓ ≠ id", color="#d4a84b", fillcolor="#27251f"];
+  curv [label="LOCAL GENERATOR\nHol(∂Σ) ≈ 1 - ∫Σ F_H"];
+  p0 -> p1 -> p2 -> p3;
+  p3 -> hol [label="compare to start"];
+  curv -> hol;
+}

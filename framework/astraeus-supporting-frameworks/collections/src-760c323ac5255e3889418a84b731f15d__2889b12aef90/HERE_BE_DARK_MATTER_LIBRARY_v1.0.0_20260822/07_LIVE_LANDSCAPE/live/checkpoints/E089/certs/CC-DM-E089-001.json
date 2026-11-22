@@ -1,0 +1,19 @@
+{
+  "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+  "certificate_id": "CC-DM-E089-001",
+  "checkpoint": "E089",
+  "object": "@dm_chirality_seed_byte_probe_basis",
+  "decision": "CHIRALITY_PROBE_BASIS_RECOVERED_AND_SIX_STATE_AMBIGUITY_CORRECTED",
+  "scope": "source recovery / probe typing",
+  "checks": {
+    "seed_existence_states_recovered": true,
+    "left_right_seed_mirror_recovered": true,
+    "canonical_byte_pair_recovered": true,
+    "arrangement_primary_over_serialization": true,
+    "basin_ladder_recovered": true,
+    "six_basins_not_six_bytes": true,
+    "dark_matter_identity_claimed": false,
+    "baseline_dm22_modified": false
+  },
+  "result": "The correct finite test space is mirror chirality orientation plus basin occupancy, not six independent chirality-byte identities."
+}

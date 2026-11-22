@@ -1,0 +1,77 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_NEIGHBORS_V1",
+  "handle": "@critical_compression",
+  "incoming": [
+    [
+      "@white_state_core",
+      {
+        "source": "@white_state_core",
+        "relation": "DEPENDS_TO",
+        "target": "@critical_compression",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45147",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@white_state_core",
+      {
+        "source": "@white_state_core",
+        "relation": "DIRECTED_TO",
+        "target": "@critical_compression",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45147",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@white_state_core",
+      {
+        "source": "@white_state_core",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@critical_compression",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45147",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@white_state_core",
+      {
+        "source": "@white_state_core",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@critical_compression",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:45407",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@white_state_core",
+      {
+        "source": "@white_state_core",
+        "relation": "USED_BY",
+        "target": "@critical_compression",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:45884",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ]
+  ],
+  "outgoing": []
+}

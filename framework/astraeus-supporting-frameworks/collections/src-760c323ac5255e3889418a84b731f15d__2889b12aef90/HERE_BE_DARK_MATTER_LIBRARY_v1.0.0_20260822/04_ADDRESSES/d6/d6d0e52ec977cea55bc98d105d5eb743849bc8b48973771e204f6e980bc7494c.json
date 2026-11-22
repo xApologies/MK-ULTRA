@@ -1,0 +1,119 @@
+{
+  "handle": "@complex_plane",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@complex_plane",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 2,
+    "api43_direct_in_count": 2,
+    "xapi_raw_out_count": 2,
+    "xapi_raw_in_count": 2,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@complex_plane",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@riemann_sphere",
+        "graph_family": "source",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56027->56029"
+      },
+      {
+        "source": "@complex_plane",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@riemann_sphere",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "API_CODE_BLOCK:56029;CANONICAL_API_VERTICAL:56027->56029"
+      },
+      {
+        "source": "@complex_admissibility",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@complex_plane",
+        "graph_family": "source",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56025->56027"
+      },
+      {
+        "source": "@complex_admissibility",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@complex_plane",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "API_CODE_BLOCK:56027;CANONICAL_API_VERTICAL:56025->56027"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 234,
+        "source": "@complex_plane",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@riemann_sphere",
+        "layer": "API43",
+        "graph_family": "source",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56027->56029"
+      },
+      {
+        "id": 235,
+        "source": "@complex_plane",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@riemann_sphere",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:56029;CANONICAL_API_VERTICAL:56027->56029"
+      },
+      {
+        "id": 230,
+        "source": "@complex_admissibility",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@complex_plane",
+        "layer": "API43",
+        "graph_family": "source",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56025->56027"
+      },
+      {
+        "id": 231,
+        "source": "@complex_admissibility",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@complex_plane",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:56027;CANONICAL_API_VERTICAL:56025->56027"
+      }
+    ]
+  },
+  "address": "@complex_plane",
+  "address_sha256": "d6d0e52ec977cea55bc98d105d5eb743849bc8b48973771e204f6e980bc7494c"
+}

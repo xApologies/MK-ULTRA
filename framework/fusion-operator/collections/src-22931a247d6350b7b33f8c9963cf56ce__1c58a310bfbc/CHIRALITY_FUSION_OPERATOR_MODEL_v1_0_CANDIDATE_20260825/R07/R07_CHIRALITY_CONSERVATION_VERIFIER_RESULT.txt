@@ -1,0 +1,12 @@
+R07 Chirality Conservation Verifier
+pair, parity, signed_balance, unsigned_content, current_admissible
+LL, 1, 2, 2, False
+LR, -1, 0, 2, True
+RL, -1, 0, 2, True
+RR, 1, -2, 2, False
+Q_cardinality= 7
+mirror_involution_pass= True
+mirror_label_preservation_pass= True
+q_fixed= True
+LR_zero_balance_nonzero_content= True
+LL_RR_outside_current_domain= True

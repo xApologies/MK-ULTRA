@@ -1,0 +1,40 @@
+{
+  "schema": "ASTRAEUS_API_QMO_PAIR_LANDSCAPE_V1",
+  "qmo_id": "QMO-AST-DM-WL-026",
+  "name": "Hidden-State Embedding / Native Constraint Closure Pair Landscape",
+  "status": "API_COMPOSED_WORK_LAYER_LANDSCAPE_NOT_PARENT_PROMOTED",
+  "operation": "PAIRWISE_QMO_EXACT_HANDLE_GLUE",
+  "depth_each_side": 2,
+  "left": {
+    "api": "DARK_MATTER_API_2.2",
+    "seed": "@dm_hidden_state_embedding",
+    "nodes": 22,
+    "edges": 61,
+    "distance_histogram": {
+      "0": 1,
+      "1": 7,
+      "2": 14
+    }
+  },
+  "right": {
+    "api": "TIME_SPACE_API_4.3",
+    "seed": "@native_constraint_closure",
+    "nodes": 44,
+    "edges": 137,
+    "distance_histogram": {
+      "0": 1,
+      "1": 10,
+      "2": 33
+    }
+  },
+  "interface_count": 1,
+  "interface": [
+    {
+      "handle": "@native_constraint_closure",
+      "dm_distance": 2,
+      "timespace_distance": 0
+    }
+  ],
+  "composition": "exact-handle graph gluing only; edge directions/provenance remain inherited from their source APIs",
+  "guardrail": "Nonempty graph interface is not a proof that the open Dark Matter handle has a physical realization."
+}

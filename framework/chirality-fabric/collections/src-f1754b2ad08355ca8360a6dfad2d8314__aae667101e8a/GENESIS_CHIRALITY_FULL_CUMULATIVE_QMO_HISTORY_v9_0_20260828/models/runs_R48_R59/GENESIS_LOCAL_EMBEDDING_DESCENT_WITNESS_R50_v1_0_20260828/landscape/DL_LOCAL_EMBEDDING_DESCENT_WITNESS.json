@@ -1,0 +1,16 @@
+{
+  "qmo_address": "@dl/local_embedding_descent_witness",
+  "witness": {
+    "F_t": "TYPE_CLOSED",
+    "K_t": "TYPE_CLOSED",
+    "Eq_I_t": "TYPE_CLOSED",
+    "Sep_t": "TYPE_CLOSED_CONDITIONAL",
+    "s_t": "OPEN_CORE"
+  },
+  "theorem": "compatible local witnesses glue to global iota_H and every global iota_H restricts locally",
+  "next": [
+    "@open/local_hidden_fiber_injection",
+    "@open/hidden_base_embedding_injectivity"
+  ],
+  "status": "ROADBLOCK_REFINED"
+}

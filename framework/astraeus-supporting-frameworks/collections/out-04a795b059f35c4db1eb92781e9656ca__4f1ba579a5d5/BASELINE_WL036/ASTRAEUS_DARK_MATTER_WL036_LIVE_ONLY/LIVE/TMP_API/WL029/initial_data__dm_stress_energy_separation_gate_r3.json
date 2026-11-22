@@ -1,0 +1,247 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_PAIR_QUERY_V1",
+  "a": "@initial_data_set",
+  "b": "@dm_stress_energy_separation_gate",
+  "radius": 3,
+  "a_node_count": 66,
+  "b_node_count": 70,
+  "interface": [
+    {
+      "handle": "@einstein_field_equation",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@cauchy_problem",
+      "distance_a": 1,
+      "distance_b": 3
+    },
+    {
+      "handle": "@stress_energy_tensor",
+      "distance_a": 3,
+      "distance_b": 1
+    },
+    {
+      "handle": "@energy_condition",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@local_energy_momentum_conservation",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@matter_action",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@matter_coupling",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@metric_variation",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@angular_momentum_parameter",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@anti_de_sitter_spacetime",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@birkhoff_theorem",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@black_hole",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@boundary_term",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@boyer_lindquist_coordinates",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@charge_parameter",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@cosmological_constant",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@cosmology",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@de_sitter_spacetime",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@diffeomorphism_invariance",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dominant_energy_condition",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@eddington_finkelstein_coordinates",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@einstein_hilbert_action",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@einstein_tensor",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@friedmann_equation",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@friedmann_lemaitre_robertson_walker_spacetime",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@general_relativity",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@gibbons_hawking_york_term",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@kerr_geometry",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@kerr_newman_geometry",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@kruskal_szekeres_extension",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@linear_metric_perturbation",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@mass_parameter",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@maximal_extension",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@minkowski_spacetime",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@noether_identity",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@null_energy_condition",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@post_newtonian_expansion",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@reissner_nordstrom_geometry",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@schwarzschild_geometry",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@schwarzschild_radius",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@strong_energy_condition",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@total_action",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@trace_reversed_field_equation",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@vacuum_field_equation",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@vacuum_kasner_spacetime",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@weak_energy_condition",
+      "distance_a": 3,
+      "distance_b": 3
+    }
+  ],
+  "path_a_to_b": null,
+  "path_b_to_a": null,
+  "edge_policy": {
+    "timespace": "high-confidence direct/non-derived RP42 records",
+    "darkmatter": "high-confidence DM_DIRECT_EDGE_REGISTRY records",
+    "gluing": "exact handle equality only; no cross-edge is invented"
+  }
+}

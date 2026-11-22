@@ -1,0 +1,29 @@
+{
+  "schema": "ASTRAEUS_TRANSDUCTION_CONNECTION_EMBEDDING_SELECTION_V1",
+  "qmo_id": "QMO-AST-DM-WL-104",
+  "name": "Transduction Connection Embedding Selection Retype",
+  "atlas_version": "WL-v220",
+  "work_layer": "WL-035",
+  "status": "OPEN_SELECTOR_ROLE_NO_CROSS_SOURCE_EDGE",
+  "parent_promotions": 0,
+  "source_object": {
+    "handle": "@transduction_connection",
+    "definition": "typed, provenance-preserving, admissibility-aware selection rule for horizontal lifts"
+  },
+  "role_factorization": {
+    "H_EXIST": "Emb_H,phys^R nonempty",
+    "H_SELECT": "select physically realized iota_H from Emb_H,phys^R"
+  },
+  "null_results": [
+    "no frozen Transduction QMO path @transduction_connection -> @inherited_state_bundle",
+    "no frozen Transduction QMO path @transduction_connection -> @admissibility",
+    "no Dark Matter direct edge from @transduction_connection to @dm_hidden_state_embedding"
+  ],
+  "guardrails": [
+    "connection-selected lift != constraint-preserving hidden embedding",
+    "architectural role similarity != selector theorem",
+    "no OpenSlot closure",
+    "no parent promotion"
+  ],
+  "next_handle": "@transduction_descent"
+}

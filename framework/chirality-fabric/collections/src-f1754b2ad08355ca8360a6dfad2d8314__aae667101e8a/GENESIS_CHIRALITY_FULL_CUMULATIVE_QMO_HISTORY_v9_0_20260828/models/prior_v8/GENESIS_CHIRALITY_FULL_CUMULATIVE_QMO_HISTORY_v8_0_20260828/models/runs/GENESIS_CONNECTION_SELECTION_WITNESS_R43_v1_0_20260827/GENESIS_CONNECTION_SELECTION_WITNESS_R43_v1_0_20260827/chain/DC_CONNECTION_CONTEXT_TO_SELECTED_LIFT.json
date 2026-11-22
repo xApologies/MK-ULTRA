@@ -1,0 +1,13 @@
+{
+  "qmo_address": "@dc/connection_context_to_selected_lift",
+  "steps": [
+    "@r43/connection_context",
+    "@r43/operative_connection",
+    "@r43/watcher_rule",
+    "@r43/selection_witness",
+    "@r43/horizontal_candidate",
+    "@r43/domain_specific_preference",
+    "@open/domain_preference_or_state_instance"
+  ],
+  "terminal_state": "ROADBLOCK"
+}

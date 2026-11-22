@@ -1,0 +1,92 @@
+{
+  "handle": "@dm_conditional_scalar_stress_active_witness",
+  "object_type": "qmo_derived_mathematical_object",
+  "status": "LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT",
+  "domain": "DM30",
+  "namespace": "mk43://dark-matter/live",
+  "name": "Conditional Scalar-Proxy Stress-Active Witness",
+  "definition": "One conventional scalar realization supplies an explicit nonzero metric-variation witness on a selected hidden diagnostic sector, conditional on the representation/admissibility bridge.",
+  "math": "phi_H=k x, V=0, k!=0 => T^(phiH)_mu_nu != 0 => V_g(S_phiH)!=0 => S_H,act^cov nonempty (conditional).",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E069",
+  "qmo_generated": true,
+  "proof_status": "DERIVED_OR_CONDITIONAL",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "LIVE_QMO_DERIVED",
+  "metadata": {
+    "payload": {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_conditional_scalar_stress_active_witness",
+      "canonical_name": "Conditional Scalar-Proxy Stress-Active Witness",
+      "type": "ConditionalMetricActiveActionWitness",
+      "status": "LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT",
+      "checkpoint": "E069",
+      "definition": "One conventional scalar realization supplies an explicit nonzero metric-variation witness on a selected hidden diagnostic sector, conditional on the representation/admissibility bridge.",
+      "math": "phi_H=k x, V=0, k!=0 => T^(phiH)_mu_nu != 0 => V_g(S_phiH)!=0 => S_H,act^cov nonempty (conditional).",
+      "parents": [
+        "@dm_stress_active_action_fiber",
+        "@matter_action",
+        "@metric_variation",
+        "@klein_gordon_field"
+      ],
+      "working_assumptions": [
+        "WA-DM-E069-001"
+      ],
+      "proof_debt": [
+        "PD-DM-006"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    "direct_live_edges_out": [
+      {
+        "source": "@dm_conditional_scalar_stress_active_witness",
+        "relation": "CONDITIONAL_ON",
+        "target": "@dm_stress_active_action_fiber",
+        "graph_family": "LIVE_OVERLAY",
+        "confidence": null,
+        "audit_status": "LIVE_CONDITIONAL",
+        "provenance": "CC-DM-E069-001",
+        "origin": "E069",
+        "source_layer": "live_e069"
+      },
+      {
+        "source": "@dm_conditional_scalar_stress_active_witness",
+        "relation": "USES_REALIZATION_TARGET",
+        "target": "@klein_gordon_field",
+        "graph_family": "LIVE_OVERLAY",
+        "confidence": null,
+        "audit_status": "WORKING_ASSUMPTION",
+        "provenance": "WA-DM-E069-001",
+        "origin": "E069",
+        "source_layer": "live_e069"
+      },
+      {
+        "source": "@dm_conditional_scalar_stress_active_witness",
+        "relation": "USES_METRIC_VARIATION",
+        "target": "@stress_energy_tensor",
+        "graph_family": "LIVE_OVERLAY",
+        "confidence": null,
+        "audit_status": "LIVE_CONDITIONAL",
+        "provenance": "CC-DM-E069-001",
+        "origin": "E069",
+        "source_layer": "live_e069"
+      }
+    ],
+    "direct_live_edges_in": [
+      {
+        "source": "@dm_conditional_action_dark_readout_witness",
+        "relation": "CONDITIONAL_ON",
+        "target": "@dm_conditional_scalar_stress_active_witness",
+        "graph_family": "LIVE_OVERLAY",
+        "confidence": null,
+        "audit_status": "LIVE_CONDITIONAL",
+        "provenance": "CC-DM-E070-001",
+        "origin": "E070",
+        "source_layer": "live_e070"
+      }
+    ]
+  },
+  "address": "@dm_conditional_scalar_stress_active_witness",
+  "address_sha256": "e4790220e8eabc451223e8306db47bd286d2d5a8fae90227c3149151eade068b"
+}

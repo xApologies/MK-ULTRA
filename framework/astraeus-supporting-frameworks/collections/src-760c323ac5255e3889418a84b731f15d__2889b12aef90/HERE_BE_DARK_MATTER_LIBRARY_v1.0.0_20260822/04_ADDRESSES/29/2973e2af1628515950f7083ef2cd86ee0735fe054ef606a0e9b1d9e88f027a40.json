@@ -1,0 +1,77 @@
+{
+  "handle": "@weighted_adjacency",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@weighted_adjacency",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@weighted_adjacency",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@adjacency_lattice",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:27721"
+      },
+      {
+        "source": "@er_throat_incidence",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@weighted_adjacency",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:27715"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 1183,
+        "source": "@weighted_adjacency",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@adjacency_lattice",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:27721"
+      },
+      {
+        "id": 345,
+        "source": "@er_throat_incidence",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@weighted_adjacency",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:27715"
+      }
+    ]
+  },
+  "address": "@weighted_adjacency",
+  "address_sha256": "2973e2af1628515950f7083ef2cd86ee0735fe054ef606a0e9b1d9e88f027a40"
+}

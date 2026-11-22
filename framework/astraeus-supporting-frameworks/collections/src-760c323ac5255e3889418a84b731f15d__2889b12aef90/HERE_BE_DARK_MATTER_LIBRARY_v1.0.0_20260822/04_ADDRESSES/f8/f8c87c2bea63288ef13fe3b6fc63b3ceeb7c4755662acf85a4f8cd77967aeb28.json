@@ -1,0 +1,25 @@
+{
+  "handle": "iteration://IT-DM-E077-UCM-SOURCE-SCOPE",
+  "object_type": "bounded_iteration",
+  "status": "SOURCE_SCOPE_CLOSED",
+  "domain": "ITERATION",
+  "namespace": "mk43://iteration",
+  "name": "IT-DM-E077-UCM-SOURCE-SCOPE",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "BOUNDED_ITERATION",
+  "metadata": {
+    "id": "IT-DM-E077-UCM-SOURCE-SCOPE",
+    "seed": "@universal_coupling",
+    "terminal_state": "SOURCE_SCOPE_CLOSED",
+    "source_file": "live/registry",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_ITERATION_RUN_V1\", \"run_id\": \"IT-DM-E077-UCM-SOURCE-SCOPE\", \"checkpoint\": \"E077\", \"seed\": \"@universal_coupling\", \"ceiling\": 64, \"iterations_used\": 2, \"terminal_state\": \"SOURCE_SCOPE_CLOSED\", \"open_next\": \"@dm_ucm_two_gate_factorization\", \"note\": \"Recovered source scope closes a typing question without pretending source sensitivity.\"}"
+  },
+  "address": "iteration://IT-DM-E077-UCM-SOURCE-SCOPE",
+  "address_sha256": "f8c87c2bea63288ef13fe3b6fc63b3ceeb7c4755662acf85a4f8cd77967aeb28"
+}

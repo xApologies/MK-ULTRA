@@ -1,0 +1,63 @@
+{
+  "qmo_address": "@dl/portal_hidden_embedding_bridge",
+  "status": "CONDITIONAL_BRIDGE_CLOSED__SOURCE_EMBEDDING_OPEN",
+  "core_result": {
+    "portal_not_equal_hidden_edge": true,
+    "conditional_bridge": "e_H(p)=iota_H^{-1}(r(p)) iff r(p) in im(iota_H)",
+    "embedding_family_status": "ATLAS_DERIVED_CLOSED",
+    "embedding_selection_status": "OPEN_PRIMARY_HANDLE"
+  },
+  "members": [
+    "@r48/portal_token",
+    "@r48/portal_native_realization",
+    "@r48/hidden_edge_domain",
+    "@r48/embedding_family",
+    "@r48/hidden_embedding",
+    "@r48/portal_hidden_membership",
+    "@r48/portal_hidden_pullback",
+    "@r48/capacity_transfer",
+    "@open/dm_hidden_state_embedding"
+  ],
+  "edges": [
+    {
+      "source": "@r48/portal_token",
+      "relation": "REALIZES_AS",
+      "target": "@r48/portal_native_realization"
+    },
+    {
+      "source": "@r48/hidden_edge_domain",
+      "relation": "EMBEDS_VIA",
+      "target": "@r48/embedding_family"
+    },
+    {
+      "source": "@r48/embedding_family",
+      "relation": "REQUIRES_SELECTION",
+      "target": "@r48/hidden_embedding"
+    },
+    {
+      "source": "@r48/portal_native_realization",
+      "relation": "TESTED_BY",
+      "target": "@r48/portal_hidden_membership"
+    },
+    {
+      "source": "@r48/hidden_embedding",
+      "relation": "REQUIRED_BY",
+      "target": "@r48/portal_hidden_membership"
+    },
+    {
+      "source": "@r48/portal_hidden_membership",
+      "relation": "IF_TRUE_DEFINES",
+      "target": "@r48/portal_hidden_pullback"
+    },
+    {
+      "source": "@r48/portal_hidden_pullback",
+      "relation": "ENABLES",
+      "target": "@r48/capacity_transfer"
+    },
+    {
+      "source": "@r48/hidden_embedding",
+      "relation": "BLOCKED_AT",
+      "target": "@open/dm_hidden_state_embedding"
+    }
+  ]
+}

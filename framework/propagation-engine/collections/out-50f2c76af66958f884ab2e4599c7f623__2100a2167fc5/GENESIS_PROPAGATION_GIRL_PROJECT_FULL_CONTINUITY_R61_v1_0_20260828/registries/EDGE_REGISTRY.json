@@ -1,0 +1,92 @@
+[
+  {
+    "source": "@primitive/unbounded_environment",
+    "relation": "GAINS_DISTINCTION_VIA",
+    "target": "@primitive/first_fold",
+    "status": "ACTIVE"
+  },
+  {
+    "source": "@primitive/first_fold",
+    "relation": "ORIENTS_AS",
+    "target": "@qmo/oriented_dependency",
+    "status": "ACTIVE"
+  },
+  {
+    "source": "@qmo/two_ball_relation",
+    "relation": "CALIBRATES_WITH",
+    "target": "@qmo/diameter_calibration",
+    "status": "ACTIVE"
+  },
+  {
+    "source": "@qmo/two_ball_relation",
+    "relation": "ADMITS",
+    "target": "@qmo/common_mode_propagation",
+    "status": "ACTIVE"
+  },
+  {
+    "source": "@qmo/oriented_dependency",
+    "relation": "SUPPORTS",
+    "target": "@qmo/transport",
+    "status": "SOURCE_ALIGNED"
+  },
+  {
+    "source": "@qmo/transport",
+    "relation": "COMPOSES_AS",
+    "target": "@qmo/parallel_transport",
+    "status": "SOURCE_ALIGNED"
+  },
+  {
+    "source": "@qmo/parallel_transport",
+    "relation": "REALIZES",
+    "target": "@qmo/corridor_transport",
+    "status": "SOURCE_ALIGNED"
+  },
+  {
+    "source": "@qmo/identity_witness",
+    "relation": "CERTIFIES",
+    "target": "@qmo/propagation_morphism",
+    "status": "ACTIVE"
+  },
+  {
+    "source": "@qmo/corridor_transport",
+    "relation": "SOURCE_BACKS",
+    "target": "@qmo/propagation_morphism",
+    "status": "ACTIVE"
+  },
+  {
+    "source": "@qmo/genesis_projection_operator",
+    "relation": "READS_ORGANIZATION_OF",
+    "target": "@qmo/propagation_morphism",
+    "status": "DISTINCT_ROLE"
+  },
+  {
+    "source": "@qmo/propagation_morphism",
+    "relation": "RESOLVES_AS",
+    "target": "@qmo/propagation_vector",
+    "status": "CONDITIONAL"
+  },
+  {
+    "source": "@qmo/riemann_sphere_sandbox",
+    "relation": "TESTS",
+    "target": "@qmo/propagation_morphism_vector_bridge",
+    "status": "READY"
+  },
+  {
+    "source": "@qmo/house_inheritance_graph",
+    "relation": "TESTS",
+    "target": "@qmo/propagation_morphism_vector_bridge",
+    "status": "READY"
+  },
+  {
+    "source": "@qmo/fractal_projection_signature",
+    "relation": "TESTS",
+    "target": "@qmo/propagation_morphism_vector_bridge",
+    "status": "READY"
+  },
+  {
+    "source": "@qmo/portal_token",
+    "relation": "IMPLEMENTS_LOCAL_EVENT_FOR",
+    "target": "@qmo/propagation_morphism_vector_bridge",
+    "status": "READY"
+  }
+]

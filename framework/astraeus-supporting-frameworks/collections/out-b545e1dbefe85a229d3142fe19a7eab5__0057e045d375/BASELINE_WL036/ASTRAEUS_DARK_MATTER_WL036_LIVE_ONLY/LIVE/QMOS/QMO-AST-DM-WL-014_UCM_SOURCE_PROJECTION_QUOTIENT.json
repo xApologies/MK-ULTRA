@@ -1,0 +1,29 @@
+{
+  "schema": "ASTRAEUS_DM_WORK_LAYER_QMO_V1",
+  "qmo_id": "QMO-AST-DM-WL-014",
+  "name": "UCM Source-Projection Quotient / History Visibility Gate",
+  "status": "SOURCE_COMPOSED_ALGEBRAIC_GATE_NOT_PARENT_PROMOTED",
+  "work_layer_revision": "WL-015",
+  "date": "2026-08-17",
+  "parents": [
+    "QMO-AST-DM-WL-013_MINIMAL_HISTORY_INCIDENCE_KRON_WITNESS",
+    "UCM T_U=Pi_read^UCM",
+    "Atlas v17 T_D^R source projection",
+    "Atlas v24 hidden S3 -> S2 Schur reduction",
+    "Atlas v31 scalar-load no-go",
+    "Dark Matter API D_R"
+  ],
+  "equivalence": "L0~_(U,R)L1 iff Pi_U^R(L0)=Pi_U^R(L1)",
+  "quotient": "Q_U^R=L_U/~_(U,R)",
+  "history_visibility": "Vis_U^R(H0,H1)=1 iff [L0]_(U,R)!=[L1]_(U,R)",
+  "theorem": "Vis_U^R=1 iff the UCM source tensors differ in the common readout representation; equal matter plus same beta_ext plus GR nondegeneracy then yields a D_R pair.",
+  "next_relation": "R_HU^R subset HistoryPair_R x (Q_U^R x Q_U^R)",
+  "guardrails": [
+    "changed adjacency does not automatically imply changed stress-energy",
+    "equivalence kernel is not automatically linear",
+    "DeltaLambda is not DeltaT_U",
+    "DeltaT_U is not automatically observable Delta g",
+    "no scalar profile substitution",
+    "no parent promotion"
+  ]
+}

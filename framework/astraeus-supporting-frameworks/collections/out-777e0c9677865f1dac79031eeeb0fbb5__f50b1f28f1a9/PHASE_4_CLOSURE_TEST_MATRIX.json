@@ -1,0 +1,116 @@
+{
+  "name": "Pipeline 2 Phase 4 Closure Test Matrix",
+  "status": "phase4_completion_candidate",
+  "locked_domains": [
+    "T0",
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5",
+    "T6",
+    "T7",
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+  ],
+  "pass_condition": [
+    "manifolds preserve ancestry",
+    "valid topology survives",
+    "invalid topology suppresses",
+    "R7 does not destabilize valid structures",
+    "perturbations damp or expose explainable failure modes",
+    "no new behavior depends on hardcoded element rules"
+  ],
+  "required_tests": [
+    {
+      "id": "P4-A01",
+      "name": "Single hydrogen roundtrip",
+      "input": "H",
+      "path": "R0->R7->R0",
+      "required_result": "ancestry recovery and bounded drift"
+    },
+    {
+      "id": "P4-A02",
+      "name": "Triple hydrogen constrained topology",
+      "input": "H+H+H",
+      "path": "R0->R7",
+      "required_result": "invalid unrestricted H3 ecology suppressed; constrained pairwise topology may emerge if recoverable"
+    },
+    {
+      "id": "P4-A03",
+      "name": "Triple nitrogen constrained topology",
+      "input": "N+N+N",
+      "path": "R0->R7",
+      "required_result": "unrestricted N3 corridor proliferation suppressed; constrained pairwise topology may emerge if recoverable"
+    },
+    {
+      "id": "P4-A04",
+      "name": "Single C6H6 survivability",
+      "input": "C6H6",
+      "path": "R0->R7",
+      "required_result": "cyclic aromatic topology survives without disassembly"
+    },
+    {
+      "id": "P4-A05",
+      "name": "Dual C6H6 independence",
+      "input": "C6H6+C6H6",
+      "path": "R0->R7",
+      "required_result": "both aromatic manifolds remain independent; no artificial corridor forcing"
+    },
+    {
+      "id": "P4-A06",
+      "name": "Dual C6H6 roundtrip",
+      "input": "C6H6+C6H6",
+      "path": "R0->R7->R0",
+      "required_result": "both manifolds recover ancestry and remain independent"
+    },
+    {
+      "id": "P4-B01",
+      "name": "R7 oscillatory persistence",
+      "input": "R6-stabilized topology",
+      "path": "R7 repeated exposure",
+      "required_result": "valid topology survives; invalid topology exposes instability"
+    },
+    {
+      "id": "P4-C01",
+      "name": "Excitation spectra",
+      "input": "H,N,C6H6 and selected multi-manifold states",
+      "path": "R3/R4/R5/R6/R7 perturbation bands",
+      "required_result": "response classified as damped, recovered, persistent, amplified, metastable, resonant, or failure"
+    },
+    {
+      "id": "P4-C02",
+      "name": "Resonance modes",
+      "input": "R7-stable topology",
+      "path": "repeated oscillatory exposure",
+      "required_result": "stable, metastable, and unstable response bands identified"
+    },
+    {
+      "id": "P4-C03",
+      "name": "Oscillatory instability cascade",
+      "input": "stable and overoccupied topology states",
+      "path": "escalating R7/R6/R5 stress",
+      "required_result": "failure onset domain and ancestry state recorded"
+    },
+    {
+      "id": "P4-C04",
+      "name": "Chirality imbalance propagation",
+      "input": "single and multi-manifold topologies",
+      "path": "read-only chirality imbalance exposure",
+      "required_result": "imbalance propagation remains read-only, bounded, and explainable"
+    },
+    {
+      "id": "P4-C05",
+      "name": "Manifold stress-frequency behavior",
+      "input": "stable manifolds and resolved multi-manifold states",
+      "path": "single, repeated, alternating, escalating, and recovery-interval stress cycles",
+      "required_result": "fatigue, hysteresis, recovery, instability, or recursive topology fidelity amplification identified"
+    }
+  ]
+}

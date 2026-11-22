@@ -1,0 +1,38 @@
+{
+  "schema": "ASTRAEUS_API_QMO_PAIR_LANDSCAPE_V1",
+  "qmo_id": "QMO-AST-DM-WL-032",
+  "name": "Hidden-State Bundle / Native-Constraint Next-Handle Landscape",
+  "status": "API_COMPOSED_WORK_LAYER_LANDSCAPE_NOT_PARENT_PROMOTED",
+  "operation": "PAIRWISE_BIDIRECTIONAL_RADIUS1_EXACT_HANDLE_INTERSECTION",
+  "left": {
+    "seed": "@dm_hidden_state_bundle",
+    "radius": 1,
+    "reachable": 6
+  },
+  "right": {
+    "seed": "@native_constraint_closure",
+    "radius": 1,
+    "reachable": 12
+  },
+  "interface": [
+    {
+      "handle": "@dm_constraint_preserving_embedding_family",
+      "left_distance": 1,
+      "right_distance": 1
+    }
+  ],
+  "selected_next_handle": "@dm_constraint_preserving_embedding_family",
+  "open_handle_after_family": "@dm_hidden_state_embedding",
+  "family_dependencies": [
+    "@dm_hidden_state_bundle",
+    "@inheritance_morphism",
+    "@inherited_state_bundle",
+    "@native_constraint_closure"
+  ],
+  "interpretation": "Once the candidate is expressed in the hidden-state bundle seam, the API immediately exposes the constraint-preserving embedding family. The next open selection is an element of that family, @dm_hidden_state_embedding.",
+  "guardrails": [
+    "family graph presence != selected physical embedding",
+    "no new edge",
+    "no parent promotion"
+  ]
+}

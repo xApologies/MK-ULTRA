@@ -1,0 +1,108 @@
+{
+  "schema": "tome-publication-renderer-validation/v1",
+  "created_at": "2026-08-10T11:41:52.173624+00:00",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "engine": "KaTeX 0.16.22 -> HTML/CSS -> Playwright -> Microsoft Edge PDF",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_04_HELICON/MK_ULTRA_TOME_V04_C01_HELICON_IDENTITY_AND_STATE_SPACE.pdf",
+    "bytes": 200409,
+    "sha256": "ae7ef66351aebf678176d93c82002562b2eb1e616fcb534f017185806d15c17a"
+  },
+  "actual_pages": 8,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V04-C01": 3
+  },
+  "chapter_validations": [
+    {
+      "chapter_id": "V04-C01",
+      "source_sha256": "19ccbc9c7860e96c358d333431ff61eacab3acb790825d4bd28af490250eba70",
+      "page_start": 3,
+      "headings": 20,
+      "display_equations": 18,
+      "inline_equations": 8,
+      "equation_tags": 18,
+      "api_handles": 60,
+      "table_rows": 61,
+      "content_markers_present": true
+    }
+  ],
+  "engine_metrics": {
+    "renderer": "TOME_PUBLICATION_RENDERER_V1",
+    "katexVersion": "0.16.22",
+    "chapters": [
+      {
+        "id": "V04-C01",
+        "sourceBytes": 20248,
+        "paragraphs": 39,
+        "headings": 20,
+        "displayEquations": 18,
+        "inlineEquations": 8,
+        "tables": 1,
+        "tableRows": 60,
+        "listItems": 0,
+        "codeBlocks": 0,
+        "figures": 0
+      }
+    ],
+    "paragraphs": 39,
+    "headings": 20,
+    "displayEquations": 18,
+    "inlineEquations": 8,
+    "tables": 1,
+    "tableRows": 60,
+    "listItems": 0,
+    "blockQuotes": 0,
+    "codeBlocks": 0,
+    "figures": 0,
+    "mathLayout": {
+      "checked": 18,
+      "scaled": [],
+      "remainingOverflow": []
+    }
+  },
+  "raw_latex_guard": {
+    "result": "PASS",
+    "hits": [],
+    "commands_scanned": [
+      "frac",
+      "mathcal",
+      "mathrm",
+      "begin",
+      "end",
+      "left",
+      "right",
+      "longrightarrow",
+      "rightarrow",
+      "otimes",
+      "partial",
+      "nabla",
+      "mu",
+      "nu",
+      "sum",
+      "int",
+      "operatorname"
+    ]
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V04-C01": "19ccbc9c7860e96c358d333431ff61eacab3acb790825d4bd28af490250eba70"
+  },
+  "source_hashes_after": {
+    "V04-C01": "19ccbc9c7860e96c358d333431ff61eacab3acb790825d4bd28af490250eba70"
+  },
+  "sealed_chapter_content_change_count": 0,
+  "runtime_compatibility": {
+    "sealed_source_unchanged": true,
+    "macro": "\\mbox",
+    "expansion": "\\text{#1}",
+    "purpose": "KaTeX compatibility for one exact sealed notation label; renderer and source files remained byte-identical."
+  },
+  "visual_qa": {
+    "result": "PASS",
+    "pages_inspected": "ALL_8_PAGES",
+    "render_dpi": 110,
+    "defects": [],
+    "notes": "All pages visually inspected after Poppler rendering. No clipping, overlap, blank-page, equation-rendering, table-layout, or pagination defects observed."
+  }
+}

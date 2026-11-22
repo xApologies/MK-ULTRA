@@ -1,0 +1,17 @@
+object,source_statement,status
+Parallel transport,P_gamma:F(U)->F(V); composable paths require P_(g o f) ~ P_g o P_f,RECOVERED_LIVE_MODEL
+Path-dependence defect,"K(gamma1,gamma2;x)=Def(P_gamma1(x),P_gamma2(x))",RECOVERED_LIVE_MODEL
+Square defect,"K_square(x)=Def(P_(h o f)(x),P_(k o g)(x))",RECOVERED_LIVE_MODEL
+Flatness,K=0 for every same-endpoint pair under declared equivalence; not differential flatness,RECOVERED_LIVE_MODEL
+Connection,"Conn(f,x|R,B,H,E,chi) selects admissible lift lambda_f,x",PROMOTED_LIVE_MODEL_v0.1
+Path transport from connection,P_gamma^Conn=lambda_fn o ... o lambda_f1,PROMOTED_LIVE_MODEL_v0.1
+Connection curvature,"K_Conn(gamma1,gamma2;x)=Def(P_gamma1^Conn(x),P_gamma2^Conn(x))",PROMOTED_LIVE_MODEL_v0.1
+Connection flatness,same-endpoint selected transports agree,PROMOTED_CANDIDATE
+Watcher selector,ancestry -> chirality -> residue -> typing -> B/env/history -> minimal unsupported structure,RECOVERED_SELECTION_RULE
+Connection and Resolution,Conn acts upstairs; Resolution reads selected transport; R-conditioned connection only if admissibility/info changes declaratively,RECOVERED_LIVE_MODEL
+Connection and Bandwidth,Hor_Conn^B subset Hor_Conn; Bandwidth loss = loss of horizontal transport directions,RECOVERED_LIVE_MODEL
+Connection and History,History can alter operative lift admissibility; selected transport updates History,RECOVERED_LIVE_MODEL
+Möbius placement,Möbius monodromy = connection holonomy along Möbius dependency loop,RECOVERED_LIVE_MODEL
+Resolution holonomy projection,h_R=rho_R(h); visibility depends on survival under Resolution quotient,RECOVERED_FORMAL_S35
+Identity holonomy hiding,Resolution can hide nontrivial Identity Holonomy,RECOVERED_FORMAL_LEMMA_L23
+Canonical native lift selector,exact source-native selector on current Hydrogen instance,OPEN

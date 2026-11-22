@@ -1,0 +1,10 @@
+digraph G { graph [bgcolor="#07101f",rankdir=LR,pad="0.25",label="Atlas Plate XIX — Native Geometry vs Smooth Readout",labelloc=t,fontcolor="#e3b76f",fontsize=22]; node [shape=box,style="rounded,filled",fillcolor="#101d31",color="#d7a85b",fontcolor="white",fontname="Helvetica"]; edge [color="#70b7d8",fontcolor="#d9eaf2"];
+N [label="Native S3 continuity\n+ local Direction classes"];
+D [label="DirectionBundle(S3_cont)\n5D address/direction carrier"];
+U [label="Unit String\nell(c)=1"];
+Q [label="Resolution / Bandwidth\nquotients & admissibility"];
+S [label="Smooth realization"];
+UT [label="UT(S3) ~= S3 x S2"];
+CALC [label="Differential geometry / calculus\nQFT & GR readout"];
+N->D; D->U; U->Q; Q->S [label="transduction/readout"]; S->UT; UT->CALC;
+}

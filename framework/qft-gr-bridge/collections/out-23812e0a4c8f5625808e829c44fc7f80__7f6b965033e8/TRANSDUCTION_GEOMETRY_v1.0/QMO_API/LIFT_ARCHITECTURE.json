@@ -1,0 +1,21 @@
+{
+  "version": "0.2",
+  "admissibility": "Adm_f(x,y): y in F(V) is structurally admissible from x in F(U) along f:U->V",
+  "formal_lift_family": "LiftSet(f,x)={y in F(V)|Adm_f(x,y)}",
+  "operative_lift_family": "LiftSet_B(f,x) subseteq LiftSet(f,x)",
+  "connection_selection": "Conn_B(f,x) in LiftSet_B(f,x)",
+  "resolution_equivalence": "y1 ~_R y2 iff R(y1)=R(y2)",
+  "resolution_quotient": "LiftSet^R(f,x)=LiftSet(f,x)/~_R",
+  "ordering": [
+    "Dependency Category",
+    "State Fibers",
+    "Admissibility",
+    "Formal Lift Family",
+    "Bandwidth Restriction",
+    "Connection Selection",
+    "Transport",
+    "Holonomy/Curvature",
+    "Resolution Readout"
+  ],
+  "fibration_status": "CANDIDATE_ANALOGY_ONLY"
+}

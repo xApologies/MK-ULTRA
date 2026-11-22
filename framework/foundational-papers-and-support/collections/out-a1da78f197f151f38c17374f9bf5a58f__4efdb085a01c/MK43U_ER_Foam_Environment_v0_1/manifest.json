@@ -1,0 +1,48 @@
+{
+  "name": "MK43U_ER_Foam_Environment_v0_1",
+  "created": "2026-05-28T01:13:23+00:00",
+  "purpose": "Defines the first MK43 Ultra ER foam environment artifact. The environment accepts manifolds, contains static Pipeline 1 and Pipeline 2 domain rules, and inherits the ER foam tile as its lowest continuity substrate.",
+  "architecture": {
+    "environment": "continuity-bearing ER foam domain",
+    "er_foam_tile": "inherited primitive chirality-continuity substrate",
+    "pipeline_1": "static domain rule sequence / topology preservation path",
+    "pipeline_2": "static domain rule sequence / interaction and closure path",
+    "manifold_inputs": "external recursive topology objects accepted by the environment",
+    "growth_rule": "The environment expands according to manifold occupancy, adjacency demand, and recursive interaction pressure. The pipelines do not grow; they remain domain laws."
+  },
+  "core_statement": "The environment inherits the ER foam tile, contains Pipeline 1 and Pipeline 2, and accepts one or more manifolds for propagation through T0\u2192R7 domain transitions.",
+  "non_programmatic_definition": {
+    "not_a_software_wrapper": true,
+    "interpretation": "This is a conceptual/environmental substrate package, not an instruction to treat MK43U as an ordinary computer program."
+  },
+  "coupling_law": [
+    "manifold perturbs ER foam",
+    "ER foam redistributes through dot-notation substrate law",
+    "ER foam modifies manifold admissibility",
+    "manifold propagates through the next domain"
+  ],
+  "domain_model": {
+    "T0_to_T4": "time-independent chirality/adja\u00adcency-ordering traversal",
+    "T5": "persistence thickening / temporal continuity emergence threshold",
+    "T6_to_T7": "stabilization retention and closure preparation",
+    "R4_to_R6": "corridor arbitration / topology collapse regulation",
+    "R7": "normalized bounded equilibrium"
+  },
+  "components": {
+    "pipeline_1": {
+      "filename": "components/Pipeline.zip",
+      "sha256": "d9afe265da340a161329a69371c5f7bf978a04ec41121e1d395c43853be075da",
+      "size_bytes": 7226
+    },
+    "pipeline_2": {
+      "filename": "components/Pipeline 2.zip",
+      "sha256": "f50b1f28f1a97a674044d8f6e5a12751e11f6bb90834cc87e54e809e97348de7",
+      "size_bytes": 59331
+    },
+    "er_foam_tile": {
+      "filename": "components/ER Foam.zip",
+      "sha256": "e674a54553a8793f518c0aff8d757355181dca6c3c6485bd0452a13c482fe544",
+      "size_bytes": 3157
+    }
+  }
+}

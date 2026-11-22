@@ -1,0 +1,103 @@
+{
+  "qmo_address": "@dl/s2_preimage_recovery_specialization",
+  "status": "ACTIVE_DEPENDENCY_LANDSCAPE",
+  "members": [
+    "@r40/preimage_fiber",
+    "@r40/coarse_projection_map",
+    "@r40/witness_collision_test",
+    "@r40/fiber_separation_criterion",
+    "@r40/recovery_discriminator",
+    "@r40/full_history_candidate",
+    "@r40/holonomy_signature_candidate",
+    "@r40/operative_lift_family",
+    "@r40/connection_instance",
+    "@qmo/handoff_merge_fiber",
+    "@qmo/witness_fiber_separation_criterion",
+    "@qmo/recovery_discriminator",
+    "@qmo/history",
+    "@qmo/holonomy_history_signature",
+    "@qmo/operative_lift_family",
+    "@qmo/transduction_connection"
+  ],
+  "edges": [
+    {
+      "source": "@r40/preimage_fiber",
+      "relation": "ADVANCES_TO",
+      "target": "@r40/coarse_projection_map"
+    },
+    {
+      "source": "@r40/coarse_projection_map",
+      "relation": "ADVANCES_TO",
+      "target": "@r40/witness_collision_test"
+    },
+    {
+      "source": "@r40/witness_collision_test",
+      "relation": "ADVANCES_TO",
+      "target": "@r40/fiber_separation_criterion"
+    },
+    {
+      "source": "@r40/fiber_separation_criterion",
+      "relation": "ADVANCES_TO",
+      "target": "@r40/recovery_discriminator"
+    },
+    {
+      "source": "@r40/recovery_discriminator",
+      "relation": "ADVANCES_TO",
+      "target": "@r40/full_history_candidate"
+    },
+    {
+      "source": "@r40/full_history_candidate",
+      "relation": "ADVANCES_TO",
+      "target": "@r40/holonomy_signature_candidate"
+    },
+    {
+      "source": "@r40/holonomy_signature_candidate",
+      "relation": "ADVANCES_TO",
+      "target": "@r40/operative_lift_family"
+    },
+    {
+      "source": "@r40/operative_lift_family",
+      "relation": "ADVANCES_TO",
+      "target": "@r40/connection_instance"
+    },
+    {
+      "source": "@qmo/handoff_merge_fiber",
+      "relation": "SPECIALIZES_TO",
+      "target": "@r40/preimage_fiber"
+    },
+    {
+      "source": "@qmo/witness_fiber_separation_criterion",
+      "relation": "SPECIALIZES_TO",
+      "target": "@r40/fiber_separation_criterion"
+    },
+    {
+      "source": "@qmo/recovery_discriminator",
+      "relation": "SPECIALIZES_TO",
+      "target": "@r40/recovery_discriminator"
+    },
+    {
+      "source": "@qmo/history",
+      "relation": "SUPPLIES_CANDIDATE",
+      "target": "@r40/full_history_candidate"
+    },
+    {
+      "source": "@qmo/holonomy_history_signature",
+      "relation": "SUPPLIES_CANDIDATE",
+      "target": "@r40/holonomy_signature_candidate"
+    },
+    {
+      "source": "@qmo/operative_lift_family",
+      "relation": "TYPES",
+      "target": "@r40/operative_lift_family"
+    },
+    {
+      "source": "@qmo/transduction_connection",
+      "relation": "TYPES",
+      "target": "@r40/connection_instance"
+    }
+  ],
+  "history_policy": "APPEND_ONLY",
+  "resolution_context": "fiber-relative; retain distinctions needed for recovery",
+  "bandwidth_context": "registered/supportable transformations only",
+  "member_claim_promotion": false
+}

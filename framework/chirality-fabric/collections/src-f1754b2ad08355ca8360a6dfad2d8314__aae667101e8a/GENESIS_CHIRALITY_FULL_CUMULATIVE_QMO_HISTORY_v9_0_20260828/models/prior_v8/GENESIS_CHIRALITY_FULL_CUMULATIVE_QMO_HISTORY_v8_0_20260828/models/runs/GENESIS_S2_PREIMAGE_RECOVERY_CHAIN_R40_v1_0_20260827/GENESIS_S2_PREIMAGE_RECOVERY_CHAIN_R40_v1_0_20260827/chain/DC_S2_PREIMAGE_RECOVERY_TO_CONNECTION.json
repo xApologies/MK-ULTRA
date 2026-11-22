@@ -1,0 +1,57 @@
+{
+  "qmo_address": "@dc/s2_preimage_recovery_to_connection",
+  "seed": "@r40/preimage_fiber",
+  "steps": [
+    {
+      "step": 0,
+      "address": "@r40/preimage_fiber",
+      "status": "ACTIVE"
+    },
+    {
+      "step": 1,
+      "address": "@r40/coarse_projection_map",
+      "status": "TYPE_CLOSED"
+    },
+    {
+      "step": 2,
+      "address": "@r40/witness_collision_test",
+      "status": "CONDITIONAL_TEST"
+    },
+    {
+      "step": 3,
+      "address": "@r40/fiber_separation_criterion",
+      "status": "DERIVED_CLOSED_TYPE"
+    },
+    {
+      "step": 4,
+      "address": "@r40/recovery_discriminator",
+      "status": "DERIVED_TYPE"
+    },
+    {
+      "step": 5,
+      "address": "@r40/full_history_candidate",
+      "status": "SOURCE_SUPPORTED_CANDIDATE"
+    },
+    {
+      "step": 6,
+      "address": "@r40/holonomy_signature_candidate",
+      "status": "OPEN_FRONTIER"
+    },
+    {
+      "step": 7,
+      "address": "@r40/operative_lift_family",
+      "status": "TYPE_CLOSED"
+    },
+    {
+      "step": 8,
+      "address": "@r40/connection_instance",
+      "status": "OPEN_FORK"
+    }
+  ],
+  "terminal": {
+    "state": "OPEN_FORK",
+    "focus": "@r40/connection_instance"
+  },
+  "stop_reason": "Type-level recovery separation closes, but concrete collision data/minimal history signature and concrete connection instance remain open.",
+  "source_chain_reused": "@dc_recovery_witness_to_signature"
+}

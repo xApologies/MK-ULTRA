@@ -1,0 +1,83 @@
+{
+  "handle": "@dm_conditional_dark_readout_witness",
+  "object_type": "qmo_derived_mathematical_object",
+  "status": "LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT",
+  "domain": "DM30",
+  "namespace": "mk43://dark-matter/live",
+  "name": "Conditional Dark-Readout Factorization Witness",
+  "definition": "A controlled full/visible pair that is identical under ordinary matter readout but separated by readable density -> stress-energy -> fixed-GR gravitational readout, conditional on registered working assumptions.",
+  "math": "M_R(u_full)=M_R(u_vis), Delta rho_read!=0 => Delta T!=0 => g_full!=g_vis => (u_full,u_vis) in D_R.",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E064",
+  "qmo_generated": true,
+  "proof_status": "DERIVED_OR_CONDITIONAL",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "LIVE_QMO_DERIVED",
+  "metadata": {
+    "payload": {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_conditional_dark_readout_witness",
+      "canonical_name": "Conditional Dark-Readout Factorization Witness",
+      "type": "ConditionalFactorizationDefectWitness",
+      "status": "LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT",
+      "checkpoint": "E064",
+      "definition": "A controlled full/visible pair that is identical under ordinary matter readout but separated by readable density -> stress-energy -> fixed-GR gravitational readout, conditional on registered working assumptions.",
+      "math": "M_R(u_full)=M_R(u_vis), Delta rho_read!=0 => Delta T!=0 => g_full!=g_vis => (u_full,u_vis) in D_R.",
+      "parents": [
+        "@dm_joint_hidden_network_witness",
+        "@dm_native_density_to_readable_source",
+        "@dm_dark_readout_defect"
+      ],
+      "working_assumptions": [
+        "WA-DM-E064-001",
+        "WA-DM-E064-002",
+        "WA-DM-E064-003"
+      ],
+      "proof_debt": [
+        "PD-DM-001",
+        "PD-DM-002",
+        "PD-DM-003"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    "direct_live_edges_out": [
+      {
+        "source": "@dm_conditional_dark_readout_witness",
+        "relation": "CONDITIONAL_ON",
+        "target": "@dm_joint_hidden_network_witness",
+        "graph_family": "live_conditional",
+        "confidence": "conditional",
+        "audit_status": "LIVE_CONDITIONAL",
+        "provenance": "CC-DM-E064-001",
+        "origin": "E064",
+        "source_layer": "live_e064_conditional"
+      },
+      {
+        "source": "@dm_conditional_dark_readout_witness",
+        "relation": "USES_OPEN_INTERFACE",
+        "target": "@dm_native_density_to_readable_source",
+        "graph_family": "live_conditional",
+        "confidence": "conditional",
+        "audit_status": "WORKING_ASSUMPTION",
+        "provenance": "WA-DM-E064-003",
+        "origin": "E064",
+        "source_layer": "live_e064_conditional"
+      },
+      {
+        "source": "@dm_conditional_dark_readout_witness",
+        "relation": "WITNESSES_CONDITIONALLY",
+        "target": "@dm_dark_readout_defect",
+        "graph_family": "live_conditional",
+        "confidence": "conditional",
+        "audit_status": "LIVE_CONDITIONAL",
+        "provenance": "CC-DM-E064-001",
+        "origin": "E064",
+        "source_layer": "live_e064_conditional"
+      }
+    ],
+    "direct_live_edges_in": []
+  },
+  "address": "@dm_conditional_dark_readout_witness",
+  "address_sha256": "40d20f9750f43f228be704541574efbb71025ee9b4ec3c15304e5f34bb4efb07"
+}

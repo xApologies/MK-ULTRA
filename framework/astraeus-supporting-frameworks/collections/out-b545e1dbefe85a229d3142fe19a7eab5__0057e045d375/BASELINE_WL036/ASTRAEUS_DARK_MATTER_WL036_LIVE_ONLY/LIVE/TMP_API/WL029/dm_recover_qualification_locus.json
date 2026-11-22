@@ -1,0 +1,810 @@
+{
+  "handle": "@dm_dark_matter_qualification_locus",
+  "record": null,
+  "incoming": [
+    {
+      "source": "@dm_dark_matter_qualification_nonempty",
+      "relation": "DEPENDS_ON",
+      "target": "@dm_dark_matter_qualification_locus",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "OPEN_HANDLE",
+      "provenance": "DM2.1",
+      "origin": "DARKMATTER_2.1"
+    }
+  ],
+  "outgoing": [
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "CONSTRAINED_BY",
+      "target": "@dm_one_port_no_go",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.1",
+      "origin": "DARKMATTER_2.1"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "DEPENDS_ON",
+      "target": "@dm_dark_readout_defect",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.1",
+      "origin": "DARKMATTER_2.1"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "DEPENDS_ON",
+      "target": "@dm_energy_gravity_consistency_filter",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.1",
+      "origin": "DARKMATTER_2.1"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "DEPENDS_ON",
+      "target": "@dm_er_branch_readout_separation",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.2_CROSS_API",
+      "origin": "DARKMATTER_2.2"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "DEPENDS_ON",
+      "target": "@dm_hidden_s3_network",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.1",
+      "origin": "DARKMATTER_2.1"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "DEPENDS_ON",
+      "target": "@dm_hidden_sector_conservation",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.1",
+      "origin": "DARKMATTER_2.1"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "DEPENDS_ON",
+      "target": "@dm_q_survival",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.1",
+      "origin": "DARKMATTER_2.1"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "DEPENDS_ON",
+      "target": "@dm_stress_energy_realization_family",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.1",
+      "origin": "DARKMATTER_2.1"
+    }
+  ],
+  "composed_in": [],
+  "composed_out": [
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@admissibility",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@admissibility"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@admissible_equivalence",
+      "primitive_depth": 6,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_q_survival",
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@dm_hidden_persistent_subset",
+        "@dm_formal_persistence_qualification",
+        "@admissible_equivalence"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@bandwidth",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@black_hole",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_er_branch_readout_separation",
+        "@graviton",
+        "@black_hole"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@black_hole_information_closure",
+      "primitive_depth": 4,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_er_branch_readout_separation",
+        "@graviton",
+        "@black_hole",
+        "@black_hole_information_closure"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@boundary_projection",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_q_survival",
+        "@dm_projection_residue_survival",
+        "@boundary_projection"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@chirality",
+      "primitive_depth": 5,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@chirality_map",
+      "primitive_depth": 9,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@inheritance",
+        "@occupancy",
+        "@persistence_potential",
+        "@persistent_recursive_topology",
+        "@chirality_space",
+        "@chirality_map"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@chirality_space",
+      "primitive_depth": 8,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@inheritance",
+        "@occupancy",
+        "@persistence_potential",
+        "@persistent_recursive_topology",
+        "@chirality_space"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@chirality_transport",
+      "primitive_depth": 10,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@inheritance",
+        "@occupancy",
+        "@persistence_potential",
+        "@persistent_recursive_topology",
+        "@chirality_space",
+        "@chirality_map",
+        "@chirality_transport"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@coherent_continuation_class",
+      "primitive_depth": 7,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_q_survival",
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@dm_hidden_persistent_subset",
+        "@dm_formal_persistence_qualification",
+        "@admissible_equivalence",
+        "@coherent_continuation_class"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@coherent_helicon_propagation",
+      "primitive_depth": 4,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_er_branch_readout_separation",
+        "@er_foam",
+        "@helicon",
+        "@coherent_helicon_propagation"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@configuration_space_3_1_1",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_er_branch_readout_separation",
+        "@time_shell",
+        "@configuration_space_3_1_1"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@continuation_operator",
+      "primitive_depth": 11,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@inheritance",
+        "@occupancy",
+        "@persistence_potential",
+        "@persistent_recursive_topology",
+        "@time_space",
+        "@structured_temporal_manifold",
+        "@temporal_metric",
+        "@continuation_operator"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@continuity_perturbation",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_er_branch_readout_separation",
+        "@graviton",
+        "@continuity_perturbation"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@continuity_redistribution",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@continuity_redistribution"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@dm_formal_persistence_qualification",
+      "primitive_depth": 5,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_q_survival",
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@dm_hidden_persistent_subset",
+        "@dm_formal_persistence_qualification"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@dm_hidden_boundary_contact",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_q_survival",
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@dm_hidden_persistent_subset",
+      "primitive_depth": 4,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_q_survival",
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@dm_hidden_persistent_subset"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@dm_hidden_state_embedding",
+      "primitive_depth": 5,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_q_survival",
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@dm_hidden_persistent_subset",
+        "@dm_hidden_state_embedding"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@dm_local_capacity_envelope",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@dm_local_capacity_envelope"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@dm_metric_action_selection",
+      "primitive_depth": 2,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_stress_energy_realization_family",
+        "@dm_metric_action_selection"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@dm_projection_residue_survival",
+      "primitive_depth": 2,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_q_survival",
+        "@dm_projection_residue_survival"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@dm_q_completion_family",
+      "primitive_depth": 2,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_q_survival",
+        "@dm_q_completion_family"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@dm_runtime_transition_capacity",
+      "primitive_depth": 2,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@einstein_field_equation",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_hidden_sector_conservation",
+        "@local_energy_momentum_conservation",
+        "@einstein_field_equation"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@einstein_hilbert_action",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_stress_energy_realization_family",
+        "@metric_variation",
+        "@einstein_hilbert_action"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@einstein_tensor",
+      "primitive_depth": 4,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_hidden_sector_conservation",
+        "@local_energy_momentum_conservation",
+        "@einstein_field_equation",
+        "@einstein_tensor"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@er_foam",
+      "primitive_depth": 2,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_er_branch_readout_separation",
+        "@er_foam"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@field_level_handoff_theorem",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_q_survival",
+        "@dm_q_completion_family",
+        "@field_level_handoff_theorem"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@genesis_field",
+      "primitive_depth": 8,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_q_survival",
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@dm_hidden_persistent_subset",
+        "@dm_formal_persistence_qualification",
+        "@inheritance_morphism",
+        "@recursive_inheritance",
+        "@genesis_field"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@geometry",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_er_branch_readout_separation",
+        "@time_shell",
+        "@geometry"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@gravitational_helicon_mode",
+      "primitive_depth": 4,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_er_branch_readout_separation",
+        "@er_foam",
+        "@helicon",
+        "@gravitational_helicon_mode"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@gravitational_radiation",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_dark_readout_defect",
+        "@gravity",
+        "@gravitational_radiation"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@gravitational_self_coupling",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_er_branch_readout_separation",
+        "@time_shell",
+        "@gravitational_self_coupling"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@graviton",
+      "primitive_depth": 2,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_er_branch_readout_separation",
+        "@graviton"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@graviton_radiative_stability",
+      "primitive_depth": 4,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_er_branch_readout_separation",
+        "@time_shell",
+        "@native_constraint_closure",
+        "@graviton_radiative_stability"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@gravity",
+      "primitive_depth": 2,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_dark_readout_defect",
+        "@gravity"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@helicon",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_er_branch_readout_separation",
+        "@er_foam",
+        "@helicon"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@helicon_curvature",
+      "primitive_depth": 5,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_er_branch_readout_separation",
+        "@er_foam",
+        "@helicon",
+        "@helicon_resonance",
+        "@helicon_curvature"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@helicon_resonance",
+      "primitive_depth": 4,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_er_branch_readout_separation",
+        "@er_foam",
+        "@helicon",
+        "@helicon_resonance"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@inheritance",
+      "primitive_depth": 4,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@inheritance"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@inheritance_morphism",
+      "primitive_depth": 6,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_q_survival",
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@dm_hidden_persistent_subset",
+        "@dm_formal_persistence_qualification",
+        "@inheritance_morphism"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@inherited_state_bundle",
+      "primitive_depth": 12,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@inheritance",
+        "@occupancy",
+        "@persistence_potential",
+        "@persistent_recursive_topology",
+        "@time_space",
+        "@structured_temporal_manifold",
+        "@temporal_metric",
+        "@continuation_operator",
+        "@inherited_state_bundle"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@local_energy_momentum_conservation",
+      "primitive_depth": 2,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_hidden_sector_conservation",
+        "@local_energy_momentum_conservation"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@localized_persistent_topology",
+      "primitive_depth": 2,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_er_branch_readout_separation",
+        "@localized_persistent_topology"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@matter_action",
+      "primitive_depth": 2,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_stress_energy_realization_family",
+        "@matter_action"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@matter_coupling",
+      "primitive_depth": 4,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_hidden_sector_conservation",
+        "@local_energy_momentum_conservation",
+        "@einstein_field_equation",
+        "@matter_coupling"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@matter_readable_organization",
+      "primitive_depth": 2,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_dark_readout_defect",
+        "@matter_readable_organization"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@metric_compatible_connection",
+      "primitive_depth": 6,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_er_branch_readout_separation",
+        "@graviton",
+        "@black_hole",
+        "@spacetime",
+        "@readable_space_time",
+        "@metric_compatible_connection"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    }
+  ]
+}

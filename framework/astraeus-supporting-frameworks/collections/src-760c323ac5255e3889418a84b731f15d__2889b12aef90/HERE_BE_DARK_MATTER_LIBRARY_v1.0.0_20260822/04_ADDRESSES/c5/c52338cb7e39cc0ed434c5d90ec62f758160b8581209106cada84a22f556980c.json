@@ -1,0 +1,98 @@
+{
+  "handle": "@structural_distinction",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@structural_distinction",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 2,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 2,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@structural_distinction",
+        "relation": "ORIENTS_TO",
+        "target": "@oriented_inheritance",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:52380;CANONICAL_API_TYPED_LINE:52380"
+      },
+      {
+        "source": "@boundary",
+        "relation": "SUPPORTS",
+        "target": "@structural_distinction",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:52379;CANONICAL_API_TYPED_LINE:52379"
+      },
+      {
+        "source": "@occurrence",
+        "relation": "SUPPORTS",
+        "target": "@structural_distinction",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:52378;CANONICAL_API_TYPED_LINE:52378"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 1071,
+        "source": "@structural_distinction",
+        "relation": "ORIENTS_TO",
+        "target": "@oriented_inheritance",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:52380;CANONICAL_API_TYPED_LINE:52380"
+      },
+      {
+        "id": 118,
+        "source": "@boundary",
+        "relation": "SUPPORTS",
+        "target": "@structural_distinction",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:52379;CANONICAL_API_TYPED_LINE:52379"
+      },
+      {
+        "id": 801,
+        "source": "@occurrence",
+        "relation": "SUPPORTS",
+        "target": "@structural_distinction",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:52378;CANONICAL_API_TYPED_LINE:52378"
+      }
+    ]
+  },
+  "address": "@structural_distinction",
+  "address_sha256": "c52338cb7e39cc0ed434c5d90ec62f758160b8581209106cada84a22f556980c"
+}

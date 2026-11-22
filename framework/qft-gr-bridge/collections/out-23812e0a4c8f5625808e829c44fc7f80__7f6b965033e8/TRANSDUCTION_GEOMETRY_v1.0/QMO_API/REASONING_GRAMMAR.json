@@ -1,0 +1,22 @@
+{
+  "version": "0.1",
+  "primitive_operators": [
+    "@transport",
+    "@transduction",
+    "@resolution",
+    "@occupancy",
+    "@transduction_connection",
+    "@transduction_curvature"
+  ],
+  "macros": [
+    "@macro_connection_to_holonomy",
+    "@macro_path_curvature_audit",
+    "@macro_descent_audit"
+  ],
+  "rules": [
+    "typed_composition",
+    "expansion_preservation",
+    "scope_nonexpansion",
+    "provenance_retention"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "pass": "SELF_BUILD_PASS_006_SIGNATURE_ROLE_NORMALIZATION",
+  "status": "CLOSED_NORMALIZATION_BLOCKED_MINIMIZATION",
+  "input_frontier": "@holonomy_signature_field_redundancy_crawl",
+  "source_signature": "Sig_Hol(h)=(src,tgt,[h],Hol_Conn,Hol_chi,Hol_Id,scope,provenance)",
+  "normal_form": "<src(h),tgt(h);scope,provenance | [h],Hol_Conn,Hol_chi,Hol_Id>",
+  "closed_results": [
+    "@theorem_signature_envelope_normalization",
+    "@signature_information_relocation",
+    "@recovery_test_family_completeness_gap"
+  ],
+  "source_audit": "D57 [h] equivalence is not specified; [h]_Id exists elsewhere but is not identified with D57 [h]; [h]_Rec is later-derived and is not source-equivalent by default.",
+  "blocked_reason": "Exact field redundancy/kernel equality cannot be operationally certified against an abstract, uninstantiated Recovery Test Family.",
+  "next_frontier": "@recovery_test_family_instantiation",
+  "guards": [
+    "NO_INFORMATION_DELETION_BY_ENVELOPE_FACTORIZATION",
+    "NO_D57_[h]_IDENTIFICATION_WITHOUT_DERIVATION",
+    "NO_EXACT_FIELD_MINIMALITY_WITHOUT_TEST_BASIS"
+  ]
+}

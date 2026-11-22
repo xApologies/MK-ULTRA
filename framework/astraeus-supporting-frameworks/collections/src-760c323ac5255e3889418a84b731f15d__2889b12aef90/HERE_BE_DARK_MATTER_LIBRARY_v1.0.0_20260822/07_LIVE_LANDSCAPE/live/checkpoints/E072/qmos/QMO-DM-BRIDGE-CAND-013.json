@@ -1,0 +1,24 @@
+{
+  "schema": "ASTRAEUS_QMO_CANDIDATE_V1",
+  "qmo_id": "QMO-DM-BRIDGE-CAND-013",
+  "handle": "@dm_metric_active_representation_witness",
+  "canonical_name": "Metric-Active Hidden Representation Witness",
+  "status": "OPEN_QMO_CANDIDATE_NOT_PROMOTED",
+  "parents": [
+    "@dm_q_completion_family",
+    "@field_level_handoff_theorem",
+    "@dm_covariant_hidden_action_family",
+    "@dm_stress_active_action_fiber",
+    "@klein_gordon_field",
+    "@matter_action",
+    "@metric_variation"
+  ],
+  "candidate_definition": "Rep_g,act(Q_H):={(rho,S) | rho is an admissible realization of Q_H into a conventional field/action sector; S is covariant and Q-compatible; V_g(S)!=0}.",
+  "goal": "Rep_g,act(Q_H) nonempty. The E069 scalar proxy is one conditional candidate element; any other metric-active realization may replace it.",
+  "research_gain": "The action problem is no longer unique-action selection. The fastest source-backed target is one admissible representation/action pair with nonzero metric response.",
+  "guardrails": [
+    "No identity between Q_H and a scalar field.",
+    "No canonical edge added from Q_H to Klein-Gordon field without source/type audit.",
+    "No physical promotion."
+  ]
+}

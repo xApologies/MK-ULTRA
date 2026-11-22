@@ -1,0 +1,82 @@
+{
+  "a": "@isometry",
+  "b": "@orientation_history",
+  "radius": 2,
+  "a_node_count": 31,
+  "b_node_count": 5,
+  "interface": [],
+  "path_a_to_b": [
+    {
+      "source": "@isometry",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@smooth_manifold",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-46",
+      "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@isometry -> @metric_tensor -> @lorentzian_manifold -> @smooth_manifold; relations=DEPENDS_ON + DEPENDS_ON + DEPENDS_ON; primitive_depth=3"
+    },
+    {
+      "source": "@smooth_manifold",
+      "relation": "PROJECTED_FROM",
+      "target": "@persistent_recursive_topology",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-46",
+      "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@persistent_recursive_topology PROJECTS_TO @smooth_manifold); rule=PROJECTS_TO\u2192PROJECTED_FROM"
+    },
+    {
+      "source": "@persistent_recursive_topology",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@persistent_locus",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-46",
+      "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@persistent_recursive_topology -> @chirality_space -> @chirality_map -> @chirality_transport -> @persistent_locus; relations=DEPENDS_TO + DEPENDS_TO + DEPENDS_TO + DEPENDS_TO; primitive_depth=4"
+    },
+    {
+      "source": "@persistent_locus",
+      "relation": "FORMALLY_SUPPORTS",
+      "target": "@coherent_continuation_class",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-46",
+      "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@coherent_continuation_class FORMALLY_DEPENDS_ON @persistent_locus); rule=FORMALLY_DEPENDS_ON\u2192FORMALLY_SUPPORTS"
+    },
+    {
+      "source": "@coherent_continuation_class",
+      "relation": "FORMALLY_SUPPORTS",
+      "target": "@admissible_equivalence",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-46",
+      "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@admissible_equivalence FORMALLY_DEPENDS_ON @coherent_continuation_class); rule=FORMALLY_DEPENDS_ON\u2192FORMALLY_SUPPORTS"
+    },
+    {
+      "source": "@admissible_equivalence",
+      "relation": "FORMALLY_SUPPORTS",
+      "target": "@relational_history",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-46",
+      "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@relational_history FORMALLY_DEPENDS_ON @admissible_equivalence); rule=FORMALLY_DEPENDS_ON\u2192FORMALLY_SUPPORTS"
+    },
+    {
+      "source": "@relational_history",
+      "relation": "FORMALLY_SUPPORTS",
+      "target": "@orientation_history",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-46",
+      "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@orientation_history FORMALLY_DEPENDS_ON @relational_history); rule=FORMALLY_DEPENDS_ON\u2192FORMALLY_SUPPORTS"
+    }
+  ],
+  "direct_neighborhood_policy": "high-confidence non-derived/direct-source Time-Space API edges only",
+  "path_policy": "high-confidence registered + admissibly derived Time-Space API edges; directions preserved"
+}

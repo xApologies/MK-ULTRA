@@ -1,0 +1,19 @@
+{
+  "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+  "certificate_id": "CC-DM-E085-001",
+  "checkpoint": "E085",
+  "object": "@dm_density_profile_readout_factorization_gate",
+  "decision": "DENSITY_READOUT_ROUTE_RECONCILED_TO_PROFILE_FACTOR",
+  "scope": "native density/readout carrier typing",
+  "checks": {
+    "scalar_is_weighted_profile_compression_source_closed": true,
+    "scalar_not_universal_spatial_input_source_closed": true,
+    "profile_factorization_target_recovered": true,
+    "Beta_domain_closed": false,
+    "TimeShell_fidelity_closed": false,
+    "calibration_closed": false,
+    "baseline_dm22_modified": false,
+    "physical_promotion": false
+  },
+  "result": "PD-DM-011 is parked as a local event shortcut; a source-grounded generic attack must operate on the Resolution-level density profile chain."
+}

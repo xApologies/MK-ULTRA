@@ -1,0 +1,26 @@
+{
+  "source": "@local_energy_momentum_conservation",
+  "target": "@universal_coupling",
+  "path": [
+    {
+      "source": "@local_energy_momentum_conservation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@graviton_radiative_stability",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-51",
+      "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@local_energy_momentum_conservation-[COMPOSED_DEPENDENCY]->@metric_perturbation-[COMPOSED_DEPENDENCY]->@graviton_radiative_stability"
+    },
+    {
+      "source": "@graviton_radiative_stability",
+      "relation": "USED_BY",
+      "target": "@universal_coupling",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_USEDBY:54213"
+    }
+  ]
+}

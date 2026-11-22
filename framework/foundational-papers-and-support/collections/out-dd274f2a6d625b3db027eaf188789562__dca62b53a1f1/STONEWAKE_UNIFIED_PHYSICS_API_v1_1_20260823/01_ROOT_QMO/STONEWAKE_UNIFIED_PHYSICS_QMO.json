@@ -1,0 +1,74 @@
+{
+  "schema": "STONEWAKE_UNIFIED_PHYSICS_QMO_V1_1",
+  "qmo_id": "QMO-STONEWAKE-PHYSICS-001",
+  "handle": "@stonewake_physics",
+  "name": "STONEWAKE Unified Physics QMO",
+  "version": "1.1.0",
+  "date": "2026-08-23",
+  "native_state": {
+    "configuration": "3+1+1",
+    "readable_mechanics_projection": "1+3",
+    "organizing_principle": "chirality-first"
+  },
+  "mounted_mathematical_domains": [
+    "API43",
+    "DARK_MATTER",
+    "HIGGS",
+    "QFT_GR",
+    "RAINBOW_ROAD"
+  ],
+  "query_model": {
+    "root": "@stonewake_physics",
+    "router": "@rainbow_road",
+    "route_objects": [
+      "@chirality_corridor",
+      "@portal"
+    ],
+    "query_result": "LocalPhysicsQMO",
+    "runtime_handoff": "LocalPhysicsQMO -> reduced/local 1+3 physics realization -> readout -> Metal"
+  },
+  "counts": {
+    "objects": 2797,
+    "equations": 898,
+    "edges": 83398
+  },
+  "status_rule": "Source statuses are preserved. STONEWAKE_ENGINE_INTEGRATION edges organize the game engine but do not upgrade source proof/validation status.",
+  "single_qmo_rule": "The engine calls one root QMO. Domain records remain namespaced internally so source mathematics can coexist without silent identifier collision.",
+  "realization_layer": {
+    "status": "ACTIVE",
+    "sector_roots": [
+      "@sw_qft_sector",
+      "@sw_matter_sector",
+      "@sw_atomic_sector",
+      "@sw_molecular_sector",
+      "@sw_thermodynamics_sector",
+      "@sw_transport_sector",
+      "@sw_continuum_sector",
+      "@sw_fluid_sector",
+      "@sw_electromagnetic_sector",
+      "@sw_plasma_sector",
+      "@sw_optics_sector",
+      "@sw_acoustics_sector",
+      "@sw_material_sector",
+      "@sw_gravity_geometry_sector",
+      "@sw_wave_resonance_sector",
+      "@sw_chirality_sector",
+      "@sw_chemical_reaction_sector"
+    ],
+    "derived_templates": [
+      "plasma_channel",
+      "lightning_discharge",
+      "poison_cloud",
+      "thermal_front",
+      "phase_change",
+      "gravity_well",
+      "photon_resonance"
+    ],
+    "catalog_extensions": [
+      "@sw_periodic_table_extension",
+      "@sw_atomic_species_registry",
+      "@sw_molecular_species_registry"
+    ]
+  },
+  "edge_grind_rule": "Densify all admissible/related physics neighborhoods through typed sector hubs; never add arbitrary all-to-all edges."
+}

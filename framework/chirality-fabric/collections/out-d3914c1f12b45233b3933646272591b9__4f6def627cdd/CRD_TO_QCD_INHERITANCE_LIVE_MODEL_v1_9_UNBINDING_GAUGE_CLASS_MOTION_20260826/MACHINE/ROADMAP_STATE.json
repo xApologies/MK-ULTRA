@@ -1,0 +1,45 @@
+{
+  "package": "CRD_TO_QCD_INHERITANCE_LIVE_MODEL_v1_3_QMO_LITE_20260825",
+  "version": "1.9",
+  "active_run": "L08D1_BLOCKED_CONSTRUCTION",
+  "finish_line": "L09E",
+  "post_finish": "L10",
+  "source_correction": "MASTER_2: hard-stop B6 basins; environmental 142857 tail is not basin C6",
+  "retired": [
+    "L08 old C6->A2",
+    "L09B C6 compact lift"
+  ],
+  "retained": [
+    "L06 no-go",
+    "L07 target algebra only",
+    "L09A exact static gauge skeleton",
+    "D_P diagnostic conditional on source-derived U_e"
+  ],
+  "roadmap_batches": {
+    "A": [
+      "L06",
+      "L07",
+      "L08A"
+    ],
+    "B": [
+      "L08B",
+      "L08C"
+    ],
+    "C": [
+      "L09A",
+      "L09C",
+      "L09C1"
+    ],
+    "D": [
+      "L09D",
+      "L09E"
+    ],
+    "post_finish": [
+      "L10"
+    ]
+  },
+  "current_lily_pad": "L09A2",
+  "source_correction_L08C": "Road boundary carrier closed via Chirality Corridor; Helicon decoration carrier remains open",
+  "handoff_blocker": "TimeShellToQ source morphism absent",
+  "independent_closed_result": "L09A2 exact unbinding gauge-class motion"
+}

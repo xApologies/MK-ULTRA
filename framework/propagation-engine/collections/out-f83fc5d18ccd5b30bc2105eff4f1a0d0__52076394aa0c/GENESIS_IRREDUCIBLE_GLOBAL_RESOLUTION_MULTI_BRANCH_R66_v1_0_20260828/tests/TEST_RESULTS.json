@@ -1,0 +1,30 @@
+{
+  "T1_irreducible_face": {
+    "status": "PASS",
+    "statement": "Two systems can have identical vertices/edges yet differ by presence of the 2-simplex face; whole-system relational information is not reducible to pairwise boundary data."
+  },
+  "T2_r65_cover_correction": {
+    "status": "PASS_CORRECTION",
+    "statement": "The three boundary edges cover \u2202\u0394\u00b2, not the filled 2-simplex \u0394\u00b2. Therefore failure to reconstruct face-interior/global data from edge data is not, by itself, a failure of the sheaf axiom on a valid cover of \u0394\u00b2."
+  },
+  "T3_cellular_resolution": {
+    "status": "PASS_STRONG_CANDIDATE",
+    "statement": "Resolution naturally attaches to cells/simplices of multiple orders; higher-order system Resolution can live on higher cells while restricting to lower cells."
+  },
+  "T4_four_ball_dimensional_audit": {
+    "status": "FAIL_NAIVE_5D_CHART",
+    "statement": "A generic four-point Euclidean relational configuration already has 6 shape/separation degrees of freedom modulo rigid motion, before Resolution/History. Thus the R64 three-ball 5D chart cannot generalize as a universal system configuration chart."
+  },
+  "T5_ambient_vs_configuration_resolution": {
+    "status": "PASS_BRANCH_RESOLUTION",
+    "statement": "A 5D ambient/event carrier is compatible with arbitrarily high-dimensional N-object configuration/moduli spaces; system information is represented as tuples/sections over M5 rather than by forcing all system degrees into one 5D coordinate chart."
+  },
+  "T6_higher_order_global": {
+    "status": "PASS",
+    "statement": "For four objects, identical vertex/edge/face boundary data can still differ by presence of the 3-simplex, so irreducible global Resolution repeats at higher simplex order."
+  },
+  "T7_rainbow_section_transport": {
+    "status": "PASS_SYNTHESIS",
+    "statement": "Rainbow Road can transport cellular/simplicial Resolution sections under Bandwidth-admissible partial morphisms while Vera retains the ordered path word."
+  }
+}

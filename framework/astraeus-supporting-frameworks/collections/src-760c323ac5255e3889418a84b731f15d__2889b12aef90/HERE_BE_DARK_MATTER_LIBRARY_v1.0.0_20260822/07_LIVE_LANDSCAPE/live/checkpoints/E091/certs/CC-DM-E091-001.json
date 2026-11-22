@@ -1,0 +1,19 @@
+{
+  "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+  "certificate_id": "CC-DM-E091-001",
+  "checkpoint": "E091",
+  "object": "@dm_chirality_byte_basin_probe_family",
+  "decision": "SIX_BASIN_MIRROR_PROBE_FAMILY_CONDITIONALLY_CLOSED",
+  "scope": "diagnostic basin weighting over canonical chirality contrast",
+  "checks": {
+    "canonical_byte_pair_source_recovered": true,
+    "six_interior_basins_source_recovered": true,
+    "byte_vs_basin_identity_kept_distinct": true,
+    "diagnostic_weighting_explicit_assumption": true,
+    "all_six_weighted_contrasts_nonzero": true,
+    "source_authoritative_basin_operator_proved": false,
+    "physical_promotion": false,
+    "baseline_dm22_modified": false
+  },
+  "result": "The finite wind tunnel is six basin-indexed L/R mirror pairs with one common chiral contrast mode; the exact basin operator is nonblocking proof debt."
+}

@@ -1,0 +1,360 @@
+1394-
+1395-```text
+1396-operator GenesisAnnihilate G {
+1397-    input: ChiralityEigenstate
+1398-    output: ScaledMoteVacuum
+1399-}
+1400-```
+1401-
+1402-## Algebra 14.5 — Partial-Isometry Relations
+1403-
+1404-\[
+1405-\hat G\hat G^\dagger\lvert\Omega\rangle
+1406-=
+1407-\lvert\Omega\rangle,
+1408-\qquad
+1409-\hat G^\dagger\hat G\lvert\pm\rangle
+1410-=
+1411-\lvert\pm\rangle.
+1412-\]
+1413-
+1414-```text
+1415-G and G† implement partial isometries on the vacuum + single-mote sector.
+1416-```
+1417-
+1418:# 15. Infinity Spectrum
+1419-
+1420-## Definition 15.1 — Formal Infinity Class
+1421-
+1422-```text
+1423-Type: InfinityClass
+1424-Symbol: 𝕀_k
+1425-Index: k ∈ ℕ
+1426-Construction: formal; explicit set model not required in source
+1427-```
+1428-
+1429:## Axiom 15.2 — Infinity Spectrum Ordering
+1430-
+1431-\[
+1432-\mathfrak I_1\prec\mathfrak I_2\prec\cdots.
+1433-\]
+1434-
+1435-```text
+1436-invariant InfinitySpectrumOrder:
+1437-    for k < j: InfinityClass(k) ≺ InfinityClass(j)
+1438-```
+1439-
+1440-The relation \(\prec\) is interpreted in the source as strict cardinal-size ordering.
+1441-
+1442-# 16. Collapse Algebra
+1443-
+1444-## Definition 16.1 — Collapse Map
+1445-
+1446-\[
+1447-C_k:\mathfrak I_k\longrightarrow\mathcal H_{\mathrm{mote}}.
+1448-\]
+1449-
+1450-Recovered output form:
+1451-
+1452-\[
+1453-C_k(\mathfrak I_k)
+--
+6086-**Source:** `z054_block_a_epic/block_a.tex`
+6087-
+6088-**Recovered equations:**
+6089-
+6090-```latex
+6091-\Phi_i \circ \Pi_i = F_i(\Phi_{\mathrm{pre}})
+6092-```
+6093-
+6094-```latex
+6095-\mathfrak{a}(f,g,h) = (f \star g)\star h - f \star (g \star h)
+6096-```
+6097-
+6098-```latex
+6099-\langle fg \rangle \approx \langle f \rangle\, \langle g \rangle.
+6100-```
+6101-
+6102-## Branch Source — z055_BLOCK_A*
+6103-
+6104-**Chapters:** Foundational Prelude: The Origin Framework; Pre--Genesis Structures  
+6105-**Equation blocks:** 0  
+6106-**Source:** `z055_BLOCK_A*/block_a.tex`
+6107-
+6108-## Branch Source — z057_block_B
+6109-
+6110:**Chapters:** Genesis Algebra and the Mote; Infinity Spectrum and Collapse Algebra  
+6111-**Equation blocks:** 10  
+6112-**Source:** `z057_block_B/block_B.tex`
+6113-
+6114-**Recovery status:** Equation-bearing branch indexed; 10 expressions available for concept-level recursive recovery.
+6115-
+6116-# Full API Coverage Matrix
+6117-
+6118-```text
+6119-FOUNDATIONAL TYPES             recovered
+6120-FIELD ACTIONS                  recovered
+6121-ER ADJACENCY                   recovered
+6122-WHITE-STATE CORE               recovered
+6123-COLLAPSE / BOUNCE              recovered
+6124-INFORMATION GEOMETRY           recovered
+6125-PHASE THERMODYNAMICS           recovered
+6126-GRAVITATIONAL WAVES            recovered
+6127-HELICON SUBSYSTEM              recovered
+6128-GRAVITON PRESENTATION SPINE    recovered, theorem reconciliation open
+6129-APPLIED FIELD SYSTEMS          recovered
+6130-PLANETARY / STELLAR SYSTEMS    recovered
+6131-GALACTIC / CYCLE SYSTEMS       recovered
+6132-BIOLOGICAL / NEURAL SYSTEMS    recovered
+6133-CONSCIOUSNESS                  recovered as model chain
+6134-CIVILIZATIONAL SYSTEMS         recovered as adapters
+--
+7429-@neural_er_adjacency -> mk43://recover/cognition/neural-er-adjacency -> Neural ER Adjacency
+7430-@neural_phase_field -> mk43://recover/cognition/neural-phase-field -> Neural Phase Field
+7431-@pattern_recognition -> mk43://recover/cognition/pattern-recognition -> Pattern Recognition
+7432-@reflective_field -> mk43://recover/cognition/reflective-field -> Reflective Field
+7433-@reflective_operator -> mk43://recover/cognition/reflective-operator -> Reflective operator
+7434-@white_state_memory_imprint -> mk43://recover/cognition/white-state-memory-imprint -> White-state memory imprint
+7435-```
+7436-
+7437-### Namespace: `core`
+7438-
+7439-```text
+7440-@1_recovered_package_identity -> mk43://recover/core/1-recovered-package-identity -> 1. Recovered Package Identity
+7441-@adaptive_interface_field -> mk43://recover/core/adaptive-interface-field -> Adaptive interface field
+7442-@adaptive_phase_interface -> mk43://recover/core/adaptive-phase-interface -> Adaptive Phase Interface
+7443-@added_query_routes -> mk43://recover/core/added-query-routes -> Added query routes
+7444-@admissible_equivalence -> mk43://recover/core/admissible-equivalence -> Admissible Equivalence
+7445-@algebra_14_5_partial_isometry_relations -> mk43://recover/core/algebra-14-5-partial-isometry-relations -> Algebra 14.5 — Partial-Isometry Relations
+7446-@anchor_map -> mk43://recover/core/anchor-map -> Anchor map
+7447-@angular_reduction_map -> mk43://recover/core/angular-reduction-map -> Angular-reduction map
+7448-@api_contract -> mk43://recover/core/api-contract -> API contract
+7449-@api_endpoints_added -> mk43://recover/core/api-endpoints-added -> API Endpoints Added
+7450-@api_interpretation -> mk43://recover/core/api-interpretation -> API interpretation
+7451-@api_usage_examples -> mk43://recover/core/api-usage-examples -> API Usage Examples
+7452-@automatic_handle_generation -> mk43://recover/core/automatic-handle-generation -> Automatic Handle Generation
+7453:@axiom_15_2_infinity_spectrum_ordering -> mk43://recover/core/axiom-15-2-infinity-spectrum-ordering -> Axiom 15.2 — Infinity Spectrum Ordering
+7454-@axiom_3_2_chromatic_energy -> mk43://recover/core/axiom-3-2-chromatic-energy -> Axiom 3.2 — Chromatic Energy
+7455-@axiom_3_5_phase_invariance -> mk43://recover/core/axiom-3-5-phase-invariance -> Axiom 3.5 — Phase Invariance
+7456-@behavioral_divergence -> mk43://recover/core/behavioral-divergence -> Behavioral divergence
+7457-@behavioral_encoding -> mk43://recover/core/behavioral-encoding -> Behavioral encoding
+7458-@branch_source_z002c -> mk43://recover/core/branch-source-z002c -> Branch Source — z002C
+7459-@branch_source_z003b -> mk43://recover/core/branch-source-z003b -> Branch Source — z003B
+7460-@branch_source_z004a -> mk43://recover/core/branch-source-z004a -> Branch Source — z004A
+7461-@branch_source_z005blockbb -> mk43://recover/core/branch-source-z005blockbb -> Branch Source — z005blockbb
+7462-@branch_source_z006blockaz -> mk43://recover/core/branch-source-z006blockaz -> Branch Source — z006blockaz
+7463-@branch_source_z007blockay -> mk43://recover/core/branch-source-z007blockay -> Branch Source — z007blockay
+7464-@branch_source_z008blockax -> mk43://recover/core/branch-source-z008blockax -> Branch Source — z008blockax
+7465-@branch_source_z009blockaw -> mk43://recover/core/branch-source-z009blockaw -> Branch Source — z009blockaw
+7466-@branch_source_z010blockav -> mk43://recover/core/branch-source-z010blockav -> Branch Source — z010blockav
+7467-@branch_source_z011blockau -> mk43://recover/core/branch-source-z011blockau -> Branch Source — z011blockau
+7468-@branch_source_z012blockat -> mk43://recover/core/branch-source-z012blockat -> Branch Source — z012blockat
+7469-@branch_source_z013blockas -> mk43://recover/core/branch-source-z013blockas -> Branch Source — z013blockas
+7470-@branch_source_z014blockaq -> mk43://recover/core/branch-source-z014blockaq -> Branch Source — z014blockaq
+7471-@branch_source_z015blockap -> mk43://recover/core/branch-source-z015blockap -> Branch Source — z015blockap
+7472-@branch_source_z016blockao -> mk43://recover/core/branch-source-z016blockao -> Branch Source — z016blockao
+7473-@branch_source_z017blockan -> mk43://recover/core/branch-source-z017blockan -> Branch Source — z017blockan
+7474-@branch_source_z018blockal -> mk43://recover/core/branch-source-z018blockal -> Branch Source — z018blockal
+7475-@branch_source_z019blockak -> mk43://recover/core/branch-source-z019blockak -> Branch Source — z019blockak
+7476-@branch_source_z020blockaj -> mk43://recover/core/branch-source-z020blockaj -> Branch Source — z020blockaj
+7477-@branch_source_z021blockahepic -> mk43://recover/core/branch-source-z021blockahepic -> Branch Source — z021blockahepic
+--
+8708-@hilbert_space_and_creation_operator -> mk43://recover/core/hilbert-space-and-creation-operator -> Hilbert space and creation operator
+8709-@hilbert_spaces -> mk43://recover/core/hilbert-spaces -> Hilbert Spaces
+8710-@hilbert_spaces_and_density_operators -> mk43://recover/core/hilbert-spaces-and-density-operators -> Hilbert spaces and density operators
+8711-@historical_phase_oscillations -> mk43://recover/field/historical-phase-oscillations -> Historical Phase Oscillations
+8712-@holographic_encoding_of_phase_data -> mk43://recover/information/holographic-encoding-of-phase-data -> Holographic Encoding of Phase Data
+8713-@holographic_quantum_error_correcting_codes -> mk43://recover/information/holographic-quantum-error-correcting-codes -> Holographic Quantum Error-Correcting Codes
+8714-@holographic_transfer_law -> mk43://recover/substrate/holographic-transfer-law -> Holographic Transfer Law
+8715-@homogeneous_and_isotropic_ansatz -> mk43://recover/core/homogeneous-and-isotropic-ansatz -> Homogeneous and Isotropic Ansatz
+8716-@horizon_scale_phase_configuration -> mk43://recover/translation/horizon-scale-phase-configuration -> Horizon-Scale Phase Configuration
+8717-@hostile_overlap -> mk43://recover/core/hostile-overlap -> Hostile Overlap
+8718-@hypercoherence_geometry_of_the_upper_abyssalum -> mk43://recover/substrate/hypercoherence-geometry-of-the-upper-abyssalum -> Hypercoherence: Geometry of the Upper Abyssalum
+8719-@hypercoherent_agents -> mk43://recover/core/hypercoherent-agents -> Hypercoherent Agents
+8720-@hypercoherent_belief_structures -> mk43://recover/core/hypercoherent-belief-structures -> Hypercoherent Belief Structures
+8721-@hypercoherent_intelligence_reasoning_in_the_upper_abyssalum -> mk43://recover/substrate/hypercoherent-intelligence-reasoning-in-the-upper-abyssalum -> Hypercoherent Intelligence: Reasoning in the Upper Abyssalum
+8722-@hypercoherent_links -> mk43://recover/core/hypercoherent-links -> Hypercoherent Links
+8723-@hypercoherent_logic_communication_in_the_upper_abyssalum -> mk43://recover/substrate/hypercoherent-logic-communication-in-the-upper-abyssalum -> Hypercoherent Logic: Communication in the Upper Abyssalum
+8724-@hypercoherent_manifolds -> mk43://recover/geometry/hypercoherent-manifolds -> Hypercoherent Manifolds
+8725-@hypercoherent_propositions -> mk43://recover/core/hypercoherent-propositions -> Hypercoherent Propositions
+8726-@hyperdimensional_resonances -> mk43://recover/core/hyperdimensional-resonances -> Hyperdimensional Resonances
+8727-@hyperdomain_ecologies_an_expedition_into_living_geometry -> mk43://recover/biology/hyperdomain-ecologies-an-expedition-into-living-geometry -> Hyperdomain Ecologies: An Expedition into Living Geometry
+8728-@ice_vii_as_an_analogy -> mk43://recover/core/ice-vii-as-an-analogy -> Ice VII as an Analogy
+8729-@impact_diffusion -> mk43://recover/core/impact-diffusion -> Impact Diffusion
+8730-@imprints_from_previous_cycles -> mk43://recover/core/imprints-from-previous-cycles -> Imprints from Previous Cycles
+8731-@inertia_equilibrium_condition -> mk43://recover/core/inertia-equilibrium-condition -> Inertia Equilibrium Condition
+8732:@infinity_spectrum -> mk43://recover/genesis/infinity-spectrum -> Infinity Spectrum
+8733:@infinity_spectrum_and_collapse_algebra -> mk43://recover/genesis/infinity-spectrum-and-collapse-algebra -> Infinity Spectrum and Collapse Algebra
+8734:@infinity_spectrum_algebra_as_a_navigation_system -> mk43://recover/genesis/infinity-spectrum-algebra-as-a-navigation-system -> Infinity--Spectrum Algebra as a Navigation System
+8735:@infinity_spectrum_algebra_cartography_of_unbounded_depth -> mk43://recover/genesis/infinity-spectrum-algebra-cartography-of-unbounded-depth -> Infinity--Spectrum Algebra: Cartography of Unbounded Depth
+8736-@influence_on_civilizational_trajectories -> mk43://recover/civilization/influence-on-civilizational-trajectories -> Influence on Civilizational Trajectories
+8737-@information_geometry -> mk43://recover/information/information-geometry -> Information = Geometry
+8738-@information_field_engineering_and_phase_based_computation -> mk43://recover/information/information-field-engineering-and-phase-based-computation -> Information Field Engineering and Phase-Based Computation
+8739-@information_flow -> mk43://recover/information/information-flow -> Information Flow
+8740-@information_linking -> mk43://recover/information/information-linking -> Information Linking
+8741-@information_phase_fields_and_communication_efficiency -> mk43://recover/information/information-phase-fields-and-communication-efficiency -> Information Phase Fields and Communication Efficiency
+8742-@ingress_a_slow_walk_beneath_a_calm_sky -> mk43://recover/core/ingress-a-slow-walk-beneath-a-calm-sky -> Ingress: A Slow Walk Beneath a Calm Sky
+8743-@ingress_arrival_at_the_violet_corridor -> mk43://recover/core/ingress-arrival-at-the-violet-corridor -> Ingress: Arrival at the Violet Corridor
+8744-@ingress_entering_the_coupling_atrium -> mk43://recover/core/ingress-entering-the-coupling-atrium -> Ingress: Entering the Coupling Atrium
+8745-@ingress_entering_the_harmonic_layering_chamber -> mk43://recover/core/ingress-entering-the-harmonic-layering-chamber -> Ingress: Entering the Harmonic Layering Chamber
+8746-@ingress_entering_the_helicon_well -> mk43://recover/helicon/ingress-entering-the-helicon-well -> Ingress: Entering the Helicon Well
+8747-@ingress_the_shear_corridor_opens -> mk43://recover/helicon/ingress-the-shear-corridor-opens -> Ingress: The Shear Corridor Opens
+8748-@ingress_the_spectral_chamber_activates -> mk43://recover/helicon/ingress-the-spectral-chamber-activates -> Ingress: The Spectral Chamber Activates
+8749-@ingress_the_team_approaches_the_triadic_spire -> mk43://recover/core/ingress-the-team-approaches-the-triadic-spire -> Ingress: The Team Approaches the Triadic Spire
+8750-@ingress_the_team_enters_the_echo_chamber -> mk43://recover/core/ingress-the-team-enters-the-echo-chamber -> Ingress: The Team Enters the Echo Chamber
+8751-@ingress_the_team_enters_the_sovereign_deck -> mk43://recover/core/ingress-the-team-enters-the-sovereign-deck -> Ingress: The Team Enters the Sovereign Deck
+8752-@ingress_the_team_enters_the_trial_chamber -> mk43://recover/core/ingress-the-team-enters-the-trial-chamber -> Ingress: The Team Enters the Trial Chamber
+8753-@ingress_the_vaeld_in_tranquility_drift -> mk43://recover/core/ingress-the-vaeld-in-tranquility-drift -> Ingress: The Vaeld in Tranquility Drift
+8754-@ingress_threshold_of_the_spectral_confluence -> mk43://recover/helicon/ingress-threshold-of-the-spectral-confluence -> Ingress: Threshold of the Spectral Confluence
+8755-@inspiral_phase -> mk43://recover/field/inspiral-phase -> Inspiral Phase
+8756-@integrity_condition -> mk43://recover/core/integrity-condition -> Integrity Condition
+8757-@intelligent_curvature -> mk43://recover/gravity/intelligent-curvature -> Intelligent Curvature
+8758-@intelligent_flows -> mk43://recover/core/intelligent-flows -> Intelligent Flows
+8759-@intent_coupled_folding -> mk43://recover/core/intent-coupled-folding -> Intent-Coupled Folding
+--
+30463-downstream: none
+30464-source_occurrences: 2
+30465-```
+30466-
+30467-### `@awareness_evolution` — Awareness Evolution
+30468-
+30469-```text
+30470-uri: mk43://recover/core/awareness-evolution
+30471-status: indexed-unlinked
+30472-upstream: none
+30473-downstream: none
+30474-source_occurrences: 2
+30475-```
+30476-
+30477-### `@axiom_11_1_genesis_operation` — Axiom 11.1 — Genesis Operation
+30478-
+30479-```text
+30480-uri: mk43://recover/genesis/axiom-11-1-genesis-operation
+30481-status: indexed-unlinked
+30482-upstream: none
+30483-downstream: none
+30484-source_occurrences: 2
+30485-```
+30486-
+30487:### `@axiom_15_2_infinity_spectrum_ordering` — Axiom 15.2 — Infinity Spectrum Ordering
+30488-
+30489-```text
+30490-uri: mk43://recover/core/axiom-15-2-infinity-spectrum-ordering
+30491-status: indexed-unlinked
+30492-upstream: none
+30493-downstream: none
+30494-source_occurrences: 2
+30495-```
+30496-
+30497-### `@axiom_3_1_phase_geometry` — Axiom 3.1 — Phase Geometry
+30498-
+30499-```text
+30500-uri: mk43://recover/geometry/axiom-3-1-phase-geometry
+30501-status: indexed-unlinked
+30502-upstream: none
+30503-downstream: none
+30504-source_occurrences: 2
+30505-```
+30506-
+30507-### `@axiom_3_2_chromatic_energy` — Axiom 3.2 — Chromatic Energy
+30508-
+30509-```text
+30510-uri: mk43://recover/core/axiom-3-2-chromatic-energy
+30511-status: indexed-unlinked
+--
+37473-downstream: none
+37474-source_occurrences: 2
+37475-```
+37476-
+37477-### `@imprints_from_previous_cycles` — Imprints from Previous Cycles
+37478-
+37479-```text
+37480-uri: mk43://recover/core/imprints-from-previous-cycles
+37481-status: indexed-unlinked
+37482-upstream: none
+37483-downstream: none
+37484-source_occurrences: 1
+37485-```
+37486-
+37487-### `@inertia_equilibrium_condition` — Inertia Equilibrium Condition
+37488-
+37489-```text
+37490-uri: mk43://recover/core/inertia-equilibrium-condition
+37491-status: indexed-unlinked
+37492-upstream: none
+37493-downstream: none
+37494-source_occurrences: 1
+37495-```
+37496-
+37497:### `@infinity_spectrum` — Infinity Spectrum
+37498-
+37499-```text
+37500-uri: mk43://recover/genesis/infinity-spectrum
+37501-status: indexed-unlinked
+37502-upstream: none
+37503-downstream: none
+37504-source_occurrences: 8
+37505-```
+37506-
+37507:### `@infinity_spectrum_algebra_as_a_navigation_system` — Infinity--Spectrum Algebra as a Navigation System
+37508-
+37509-```text
+37510-uri: mk43://recover/genesis/infinity-spectrum-algebra-as-a-navigation-system
+37511-status: indexed-unlinked
+37512-upstream: none
+37513-downstream: none
+37514-source_occurrences: 1
+37515-```
+37516-
+37517:### `@infinity_spectrum_algebra_cartography_of_unbounded_depth` — Infinity--Spectrum Algebra: Cartography of Unbounded Depth
+37518-
+37519-```text
+37520-uri: mk43://recover/genesis/infinity-spectrum-algebra-cartography-of-unbounded-depth
+37521-status: indexed-unlinked
+37522-upstream: none
+37523-downstream: none
+37524-source_occurrences: 2
+37525-```
+37526-
+37527:### `@infinity_spectrum_and_collapse_algebra` — Infinity Spectrum and Collapse Algebra
+37528-
+37529-```text
+37530-uri: mk43://recover/genesis/infinity-spectrum-and-collapse-algebra
+37531-status: indexed-unlinked
+37532-upstream: none
+37533-downstream: none
+37534-source_occurrences: 2
+37535-```
+37536-
+37537-### `@infinityengine` — InfinityEngine
+37538-
+37539-```text
+37540-uri: mk43://recover/core/infinityengine
+37541-status: indexed-unlinked
+37542-upstream: none
+37543-downstream: none
+37544-source_occurrences: 2
+37545-```
+37546-
+37547-### `@influence_on_civilizational_trajectories` — Influence on Civilizational Trajectories
+37548-
+37549-```text
+37550-uri: mk43://recover/civilization/influence-on-civilizational-trajectories
+37551-status: indexed-unlinked
+--
+46086-@appendix_t — Appendix T
+46087-@appendix_u — Appendix U
+46088-@appendix_v — Appendix V
+46089-@appendix_w — Appendix W
+46090-@appendix_x — Appendix X
+46091-@appendix_y — Appendix Y
+46092-@appendix_z — Appendix Z
+46093-@approach_to_the_white_state — Approach to the White-State
+46094-@architectonics_of_intent_when_collective_intelligence_reshapes_the_abyssalum — Architectonics of Intent: When Collective Intelligence Reshapes the Abyssalum
+46095-@arrival_and_first_contact — Arrival and First Contact
+46096-@arrival_at_the_pre_genesis_manifold — Arrival at the Pre–Genesis Manifold
+46097-@arrival_first_contact_with_living_geometry — Arrival: First Contact with Living Geometry
+46098-@arrow_of_time — Arrow of Time
+46099-@ascendant_geometry_lifting_through_the_white_horizon — Ascendant Geometry: Lifting Through the White Horizon
+46100-@ascendant_resonances — Ascendant Resonances
+46101-@ascension_geometry_climbing_the_white_horizon — Ascension Geometry: Climbing the White Horizon

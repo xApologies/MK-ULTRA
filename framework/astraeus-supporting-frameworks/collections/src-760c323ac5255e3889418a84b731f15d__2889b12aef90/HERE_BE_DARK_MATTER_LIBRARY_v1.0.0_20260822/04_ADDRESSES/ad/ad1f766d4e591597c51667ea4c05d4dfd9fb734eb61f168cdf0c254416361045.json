@@ -1,0 +1,25 @@
+{
+  "handle": "landscape://DL-DM-E070-ACTION-DARK-READOUT",
+  "object_type": "dependency_landscape",
+  "status": "APPEND_ONLY_CONDITIONAL",
+  "domain": "LANDSCAPE",
+  "namespace": "mk43://landscape",
+  "name": "DL-DM-E070-ACTION-DARK-READOUT",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "DEPENDENCY_LANDSCAPE",
+  "metadata": {
+    "id": "DL-DM-E070-ACTION-DARK-READOUT",
+    "seed": "@dm_conditional_scalar_stress_active_witness",
+    "status": "APPEND_ONLY_CONDITIONAL",
+    "source_file": null,
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1\", \"landscape_id\": \"DL-DM-E070-ACTION-DARK-READOUT\", \"seed\": \"@dm_conditional_scalar_stress_active_witness\", \"status\": \"APPEND_ONLY_CONDITIONAL\", \"nodes\": [\"@dm_conditional_scalar_stress_active_witness\", \"@stress_energy_tensor\", \"@einstein_field_equation\", \"@dm_dark_readout_defect\", \"@dm_conditional_action_dark_readout_witness\", \"@dm_dark_matter_qualification_locus\"], \"terminal\": {\"state\": \"CONDITIONAL_DARK_READOUT_CLOSED\", \"iteration\": 3, \"focus\": \"@dm_dark_matter_qualification_locus\", \"reason\": \"Action lane reaches D_R without the density/readout or residue-discriminator middle lanes; qualification still requires hidden realization, matching, and persistence/boundary/Q gates.\"}}"
+  },
+  "address": "landscape://DL-DM-E070-ACTION-DARK-READOUT",
+  "address_sha256": "ad1f766d4e591597c51667ea4c05d4dfd9fb734eb61f168cdf0c254416361045"
+}

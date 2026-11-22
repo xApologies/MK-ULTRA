@@ -1,0 +1,66 @@
+{
+  "handle": "@dm_source_density_geometry_calibration",
+  "object_type": "qmo_derived_mathematical_object",
+  "status": "LIVE_DERIVED_CLOSED_SOURCE_EFFECTIVE",
+  "domain": "DM30",
+  "namespace": "mk43://dark-matter/live",
+  "name": "Source Density-to-Geometry Calibration Witness",
+  "definition": "Exact source-declared shell sector in which positive energy density is mapped to metric log-scale by m=ln(mu/mu0), phi=(1/2)ln det g, phi+alpha m=phi0.",
+  "math": "For mu_f,mu_v>0, alpha!=0, mu_f!=mu_v: Delta phi = -alpha ln(mu_f/mu_v) != 0 and det(g_f)/det(g_v)=(mu_f/mu_v)^(-2 alpha) != 1.",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E098",
+  "qmo_generated": true,
+  "proof_status": "DERIVED_OR_CONDITIONAL",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "LIVE_QMO_DERIVED",
+  "metadata": {
+    "payload": {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_source_density_geometry_calibration",
+      "canonical_name": "Source Density-to-Geometry Calibration Witness",
+      "type": "SourceDeclaredShellConstitutiveWitness",
+      "status": "LIVE_DERIVED_CLOSED_SOURCE_EFFECTIVE",
+      "checkpoint": "E098",
+      "definition": "Exact source-declared shell sector in which positive energy density is mapped to metric log-scale by m=ln(mu/mu0), phi=(1/2)ln det g, phi+alpha m=phi0.",
+      "math": "For mu_f,mu_v>0, alpha!=0, mu_f!=mu_v: Delta phi = -alpha ln(mu_f/mu_v) != 0 and det(g_f)/det(g_v)=(mu_f/mu_v)^(-2 alpha) != 1.",
+      "parents": [
+        "@energy_density",
+        "@time_shell",
+        "@projected_spacetime_metric"
+      ],
+      "working_assumptions": [
+        "SOURCE_SECTOR_CONDITIONS: mu>0, alpha!=0"
+      ],
+      "proof_debt": [],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    "direct_live_edges_out": [
+      {
+        "source": "@dm_source_density_geometry_calibration",
+        "relation": "SOURCE_SECTOR_SPECIALIZES",
+        "target": "@dm_native_density_to_readable_source",
+        "graph_family": "LIVE_SOURCE_BACKFILL",
+        "confidence": "high",
+        "audit_status": "LIVE_DERIVED_CLOSED_SOURCE_EFFECTIVE",
+        "provenance": "SRC-DM-019;CC-DM-E098-001",
+        "origin": "E097-E100",
+        "source_layer": "LIVE_OVERLAY"
+      },
+      {
+        "source": "@dm_source_density_geometry_calibration",
+        "relation": "MAPS_TO",
+        "target": "@projected_spacetime_metric",
+        "graph_family": "LIVE_SOURCE_BACKFILL",
+        "confidence": "high",
+        "audit_status": "LIVE_DERIVED_CLOSED_SOURCE_EFFECTIVE",
+        "provenance": "SRC-DM-019",
+        "origin": "E097-E100",
+        "source_layer": "LIVE_OVERLAY"
+      }
+    ],
+    "direct_live_edges_in": []
+  },
+  "address": "@dm_source_density_geometry_calibration",
+  "address_sha256": "97cbf95fbea1988739a7f48fee46f5757271e1850b0b7df23a2e8421581d9188"
+}

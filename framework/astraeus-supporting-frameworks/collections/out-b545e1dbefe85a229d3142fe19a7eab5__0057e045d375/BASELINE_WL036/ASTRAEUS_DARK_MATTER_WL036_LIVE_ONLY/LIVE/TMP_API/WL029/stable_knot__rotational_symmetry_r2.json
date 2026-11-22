@@ -1,0 +1,27 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_PAIR_QUERY_V1",
+  "a": "@stable_er_foam_knot",
+  "b": "@rotational_symmetry_constraint",
+  "radius": 2,
+  "a_node_count": 15,
+  "b_node_count": 26,
+  "interface": [
+    {
+      "handle": "@er_foam",
+      "distance_a": 1,
+      "distance_b": 2
+    },
+    {
+      "handle": "@helicon",
+      "distance_a": 2,
+      "distance_b": 1
+    }
+  ],
+  "path_a_to_b": null,
+  "path_b_to_a": null,
+  "edge_policy": {
+    "timespace": "high-confidence direct/non-derived RP42 records",
+    "darkmatter": "high-confidence DM_DIRECT_EDGE_REGISTRY records",
+    "gluing": "exact handle equality only; no cross-edge is invented"
+  }
+}

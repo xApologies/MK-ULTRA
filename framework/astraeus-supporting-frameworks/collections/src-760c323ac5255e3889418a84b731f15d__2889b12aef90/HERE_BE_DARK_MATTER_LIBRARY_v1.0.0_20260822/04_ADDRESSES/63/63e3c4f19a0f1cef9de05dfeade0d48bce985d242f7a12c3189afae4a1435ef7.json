@@ -1,0 +1,26 @@
+{
+  "handle": "closure://CC-DM-E091-001",
+  "object_type": "closure_certificate",
+  "status": "SIX_BASIN_MIRROR_PROBE_FAMILY_CONDITIONALLY_CLOSED",
+  "domain": "CLOSURE",
+  "namespace": "mk43://closure",
+  "name": "CC-DM-E091-001",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E091",
+  "qmo_generated": true,
+  "proof_status": "SIX_BASIN_MIRROR_PROBE_FAMILY_CONDITIONALLY_CLOSED",
+  "empirical_status": "",
+  "provenance_class": "CLOSURE_CERTIFICATE",
+  "metadata": {
+    "id": "CC-DM-E091-001",
+    "object_handle": "@dm_chirality_byte_basin_probe_family",
+    "decision": "SIX_BASIN_MIRROR_PROBE_FAMILY_CONDITIONALLY_CLOSED",
+    "checkpoint": "E091",
+    "source_file": "live/checkpoints/E091/certs/CC-DM-E091-001.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_CLOSURE_CERTIFICATE_V1\", \"certificate_id\": \"CC-DM-E091-001\", \"checkpoint\": \"E091\", \"object\": \"@dm_chirality_byte_basin_probe_family\", \"decision\": \"SIX_BASIN_MIRROR_PROBE_FAMILY_CONDITIONALLY_CLOSED\", \"scope\": \"diagnostic basin weighting over canonical chirality contrast\", \"checks\": {\"canonical_byte_pair_source_recovered\": true, \"six_interior_basins_source_recovered\": true, \"byte_vs_basin_identity_kept_distinct\": true, \"diagnostic_weighting_explicit_assumption\": true, \"all_six_weighted_contrasts_nonzero\": true, \"source_authoritative_basin_operator_proved\": false, \"physical_promotion\": false, \"baseline_dm22_modified\": false}, \"result\": \"The finite wind tunnel is six basin-indexed L/R mirror pairs with one common chiral contrast mode; the exact basin operator is nonblocking proof debt.\"}"
+  },
+  "address": "closure://CC-DM-E091-001",
+  "address_sha256": "63e3c4f19a0f1cef9de05dfeade0d48bce985d242f7a12c3189afae4a1435ef7"
+}

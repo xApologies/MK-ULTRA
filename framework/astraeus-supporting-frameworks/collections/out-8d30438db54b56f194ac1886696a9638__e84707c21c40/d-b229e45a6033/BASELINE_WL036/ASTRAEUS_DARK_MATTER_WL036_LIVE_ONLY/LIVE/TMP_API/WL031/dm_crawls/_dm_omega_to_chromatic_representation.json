@@ -1,0 +1,31 @@
+{
+  "start": "@dm_omega_to_chromatic_representation",
+  "depth": 4,
+  "handles": [
+    "@dm_chromatic_optional_branch",
+    "@dm_omega_to_chromatic_representation",
+    "@residue_quantum_field_bundle"
+  ],
+  "edges": [
+    {
+      "source": "@dm_omega_to_chromatic_representation",
+      "relation": "REPRESENTS_AS",
+      "target": "@dm_chromatic_optional_branch",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "OPTIONAL_OPEN_HANDLE",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@dm_chromatic_optional_branch",
+      "relation": "NOT_REQUIRED_FOR",
+      "target": "@residue_quantum_field_bundle",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "THEOREM",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0"
+    }
+  ]
+}

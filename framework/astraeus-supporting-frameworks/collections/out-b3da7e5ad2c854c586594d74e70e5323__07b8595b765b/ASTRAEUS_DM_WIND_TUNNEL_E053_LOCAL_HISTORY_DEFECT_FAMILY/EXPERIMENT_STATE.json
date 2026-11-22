@@ -1,0 +1,28 @@
+{
+  "experiment": "E053",
+  "candidate": "CAND-DM-LOCAL-HISTORY-DEFECT-FAMILY-056",
+  "title": "Local History-Created Corridor Defect Family",
+  "status": "SEVEN SECONDARY CORRIDOR BRANCHES ENUMERATED; ALL HISTORY-CREATED, ONE-EDGE BOTTLENECKED, AND PERSISTENT; DISCRETE GEOMETRY LOCKS BY E2",
+  "physical_dark_matter_witness": false,
+  "parent_promotions": 0,
+  "results": {
+    "strict_local_maxima_Estar": 8,
+    "global_root_coordinate": [
+      14,
+      16,
+      15
+    ],
+    "secondary_branch_count": 7,
+    "fresh_E0_corridor_null": true,
+    "all_secondary_peaks_strict_local_maxima_E1_E16": true,
+    "all_branches_unit_mincut_1_at_own_merge_E1_E16": true,
+    "all_branch_merge_strengths_monotone_to_Estar": true,
+    "all_branch_paths_equal_Estar_E2_E16": true,
+    "all_branch_cuts_equal_Estar_E2_E16": true,
+    "branch_error_first_PC_fraction": 0.9996341279473725,
+    "minimum_pairwise_branch_relaxation_correlation": 0.9958550477574635,
+    "physical_dark_matter_witness": false
+  },
+  "ruling": "The original E052 A-B throat is representative of a family. The E* corridor field contains seven secondary strict local-maximum branches. All are absent in the fresh zero-corridor state, all exist as strict maxima from E1 through E16, all merge to the root component through a unit-mincut bottleneck at their own widest-path threshold, and all merge strengths relax monotonically toward fixed values. After the E1 formation transient, every branch maximin path and merge cut is frozen from E2 onward. The branch strength errors are overwhelmingly governed by one shared relaxation coordinate. This is a local topographic defect family in the reconstructed substrate, not a physical dark-matter identification.",
+  "next_handle": "CONSTRUCT_THE_CORRIDOR_BRANCH_MERGE_TREE_AND_TEST_WHETHER_ITS_COMBINATORIAL_TYPE_IS_HISTORY_INVARIANT_AFTER_FORMATION"
+}

@@ -1,0 +1,236 @@
+{
+  "model": "GRC-1 v0.1 NEW proposed completion, not unchanged historical Genesis",
+  "checks": [
+    {
+      "name": "scalar decoder",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "pair product normalization",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "squared dominance identity with sigma positive",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "hyperbolic encoding decoder",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "nonvanishing Jacobian bound",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "inverse derivative",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "all ten metric components round trip",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "all sixteen pair products",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "eight-channel ER factorization",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "weight matrix symmetry",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "ten-dimensional full-rank Jacobian formula",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "variational adjoint",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "100 generated Lorentz metrics with positive weights",
+      "passed": true,
+      "scope": "numerical fixture family, numpy seed 43; not universal proof"
+    },
+    {
+      "name": "coordinate transition",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "coordinate cocycle",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "coordinate round trip",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "encoding scale is not a metric observable",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "reject noncanonical weights",
+      "passed": true,
+      "scope": "negative control"
+    },
+    {
+      "name": "reject Euclidean target",
+      "passed": true,
+      "scope": "negative control"
+    },
+    {
+      "name": "reject degenerate target",
+      "passed": true,
+      "scope": "negative control"
+    },
+    {
+      "name": "reject nonsymmetric target",
+      "passed": true,
+      "scope": "negative control"
+    },
+    {
+      "name": "reject singular transition",
+      "passed": true,
+      "scope": "negative control"
+    },
+    {
+      "name": "phase native round trip",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "phase target round trip",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "matter transformation determinant",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "seven-component kinetic metric factorization",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "positive kinetic completed square",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "matter Euler chain inversion",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "curved field encoder round trip",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "nontrivial mixed-phase lift",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "mixed-phase reconstruction",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "direct Z-connection equals coordinate connection",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "curved scalar curvature",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "full sourced Einstein equation all components",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "independent scalar energy density",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "phase Euler equation",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "all seven chromatic Euler equations",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "native mixed Lagrangian equals target Lagrangian",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "direct native phase action variation",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "direct native chromatic action variation",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "all components of stress conservation",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "regularity on curved solution",
+      "passed": true,
+      "scope": "exact symbolic identity"
+    },
+    {
+      "name": "extra independent action is detected",
+      "passed": true,
+      "scope": "negative control: independent extra action changes the target"
+    }
+  ],
+  "total": 43,
+  "passed": 43,
+  "elapsed_seconds": 1.71,
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "numpy": "2.3.5",
+  "numeric_family": {
+    "seed": 43,
+    "count": 100,
+    "max_absolute_roundtrip_error": 1.7763568394002505e-15
+  },
+  "limits": [
+    "Tests verify constructed examples and implementation identities, not a machine-checked general theorem.",
+    "The written theorem establishes the new action-defined branch; the archived native laws are not verified equivalent.",
+    "Smooth classical Lorentzian region only; no quantum or empirical validation."
+  ]
+}

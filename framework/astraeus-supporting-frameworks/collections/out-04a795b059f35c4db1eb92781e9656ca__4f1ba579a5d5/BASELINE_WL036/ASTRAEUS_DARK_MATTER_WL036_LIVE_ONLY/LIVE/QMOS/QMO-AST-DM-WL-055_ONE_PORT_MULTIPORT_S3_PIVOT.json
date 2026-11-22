@@ -1,0 +1,78 @@
+{
+  "schema": "ASTRAEUS_API_QMO_CONSTRAINT_PIVOT_V1",
+  "qmo_id": "QMO-AST-DM-WL-055",
+  "name": "One-Port No-Go / Multi-Port Hidden S3 Pivot",
+  "atlas_version": "WL-v170",
+  "status": "API_CONSTRAINT_FILTER_NEXT_HANDLE_NOT_PARENT_PROMOTED",
+  "one_port_record": {
+    "handle": "@dm_one_port_no_go",
+    "record": {
+      "handle": "@dm_one_port_no_go",
+      "name": "Free One-Port Hidden Appendage No-Go",
+      "origin": "DARKMATTER_2.0",
+      "namespace": "theorem",
+      "type": "NoGoTheorem",
+      "status": "ATLAS_DERIVED_CLOSED",
+      "criticality": "constraint",
+      "definition": "A free hidden connected component attached to only one readable port contributes zero effective Schur/Kron port operator.",
+      "math": "one readable port => Lambda_H=0 for a free hidden component.",
+      "source_refs": [
+        "ATLAS_V36:FORMAL/167_MODE0_PORT_ATTACHMENT_THEOREMS.md"
+      ]
+    },
+    "incoming": [
+      {
+        "source": "@dm_dark_matter_qualification_locus",
+        "relation": "CONSTRAINED_BY",
+        "target": "@dm_one_port_no_go",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1",
+        "origin": "DARKMATTER_2.1"
+      }
+    ],
+    "outgoing": [
+      {
+        "source": "@dm_one_port_no_go",
+        "relation": "CONSTRAINS",
+        "target": "@dm_hidden_s3_network",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "THEOREM",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0"
+      }
+    ],
+    "composed_in": [],
+    "composed_out": []
+  },
+  "hidden_network_record_summary": {
+    "handle": "@dm_hidden_s3_network",
+    "name": "Hidden S3 Multi-Port Continuity Network",
+    "origin": "DARKMATTER_2.0",
+    "namespace": "network",
+    "type": "DerivedNetworkCandidate",
+    "status": "ATLAS_DERIVED_ACTIVE",
+    "criticality": "critical",
+    "definition": "Candidate Mode-0-selected hidden continuity organization joining multiple localized S2 / black-hole ports within the established S3 continuity level. It is a derived subnetwork candidate, not a new dimension and not yet identified with dark matter.",
+    "math": "G_H^R=(V_H,E_H,w), with multi-port hidden connectivity; active geometry remains S4 -> S3 -> S2.",
+    "source_refs": [
+      "ATLAS_V36:FORMAL/150_V19_MASTER_SYNTHESIS.md",
+      "ATLAS_V36:FORMAL/168_V24_MASTER_SYNTHESIS.md",
+      "ATLAS_V36:FORMAL/227_V36_MASTER_SYNTHESIS.md"
+    ]
+  },
+  "registered_chain": [
+    "@dm_dark_matter_qualification_locus",
+    "@dm_one_port_no_go",
+    "@dm_hidden_s3_network"
+  ],
+  "finding": "DM2.2 closes the free one-port hidden appendage channel: one readable port implies Lambda_H=0 for a free hidden component. Therefore a single localized S2 rotational self-corridor is not sufficient in that specific free one-port Kron channel. The API redirects the candidate toward the registered multi-port @dm_hidden_s3_network.",
+  "next_handle": "@dm_hidden_s3_network",
+  "guardrails": [
+    "one-port theorem is channel-conditional; it is not a universal no-go for every possible local gravitational mechanism",
+    "@dm_hidden_s3_network is a derived candidate, not dark matter identity",
+    "hidden-state embedding remains open/frozen"
+  ]
+}

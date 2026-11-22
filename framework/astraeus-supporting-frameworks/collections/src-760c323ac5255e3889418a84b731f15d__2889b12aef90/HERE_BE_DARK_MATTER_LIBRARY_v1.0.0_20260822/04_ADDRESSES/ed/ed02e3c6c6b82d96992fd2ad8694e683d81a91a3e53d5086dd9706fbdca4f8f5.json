@@ -1,0 +1,64 @@
+{
+  "handle": "@dm_chirality_seed_contrast_normal_form",
+  "object_type": "qmo_derived_mathematical_object",
+  "status": "LIVE_DERIVED_CLOSED_INTERNAL",
+  "domain": "DM30",
+  "namespace": "mk43://dark-matter/live",
+  "name": "Chirality-Seed Mirror Contrast Normal Form",
+  "definition": "The E063 two-port hidden response normal form is exactly a positive scalar multiple of the recovered chirality-seed mirror contrast. The E086 probe c_* is therefore the canonical nontrivial seed-contrast mode in this representation.",
+  "math": "D_chi=[[1,-1],[-1,1]]; spec(D_chi)={0,2}; c_*=(1,-1)^T; D_chi c_*=2 c_*; DeltaLambda_H=w_eff D_chi, w_eff>0.",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E090",
+  "qmo_generated": true,
+  "proof_status": "DERIVED_OR_CONDITIONAL",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "LIVE_QMO_DERIVED",
+  "metadata": {
+    "payload": {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_chirality_seed_contrast_normal_form",
+      "canonical_name": "Chirality-Seed Mirror Contrast Normal Form",
+      "type": "RepresentationNormalFormMatch",
+      "status": "LIVE_DERIVED_CLOSED_INTERNAL",
+      "checkpoint": "E090",
+      "definition": "The E063 two-port hidden response normal form is exactly a positive scalar multiple of the recovered chirality-seed mirror contrast. The E086 probe c_* is therefore the canonical nontrivial seed-contrast mode in this representation.",
+      "math": "D_chi=[[1,-1],[-1,1]]; spec(D_chi)={0,2}; c_*=(1,-1)^T; D_chi c_*=2 c_*; DeltaLambda_H=w_eff D_chi, w_eff>0.",
+      "parents": [
+        "@dm_chirality_seed_byte_probe_basis",
+        "@dm_joint_hidden_network_witness",
+        "@dm_explicit_two_port_continuity_residual_witness"
+      ],
+      "working_assumptions": [],
+      "proof_debt": [],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    "direct_live_edges_out": [
+      {
+        "source": "@dm_chirality_seed_contrast_normal_form",
+        "relation": "REPRESENTATION_NORMAL_FORM_MATCH",
+        "target": "@dm_joint_hidden_network_witness",
+        "graph_family": "live",
+        "confidence": "high",
+        "audit_status": "live_derived",
+        "provenance": "E090",
+        "origin": "LIVE_OVERLAY",
+        "source_layer": "LIVE"
+      },
+      {
+        "source": "@dm_chirality_seed_contrast_normal_form",
+        "relation": "SELECTS_CONTRAST_MODE",
+        "target": "@dm_explicit_two_port_continuity_residual_witness",
+        "graph_family": "live",
+        "confidence": "high",
+        "audit_status": "live_derived",
+        "provenance": "E090",
+        "origin": "LIVE_OVERLAY",
+        "source_layer": "LIVE"
+      }
+    ],
+    "direct_live_edges_in": []
+  },
+  "address": "@dm_chirality_seed_contrast_normal_form",
+  "address_sha256": "ed02e3c6c6b82d96992fd2ad8694e683d81a91a3e53d5086dd9706fbdca4f8f5"
+}

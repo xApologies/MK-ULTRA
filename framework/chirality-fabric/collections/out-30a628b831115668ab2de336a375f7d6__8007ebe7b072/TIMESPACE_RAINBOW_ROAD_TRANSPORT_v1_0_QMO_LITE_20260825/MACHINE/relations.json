@@ -1,0 +1,79 @@
+[
+  {
+    "id": "E01",
+    "source": "T5",
+    "predicate": "fibers_over",
+    "target": "S3_BASE",
+    "status": "SOURCE_BACKED"
+  },
+  {
+    "id": "E02",
+    "source": "S2_FIBER",
+    "predicate": "fiber_of",
+    "target": "T5",
+    "status": "SOURCE_BACKED"
+  },
+  {
+    "id": "E03",
+    "source": "CORRIDOR",
+    "predicate": "restricts",
+    "target": "T5",
+    "status": "SOURCE_BACKED"
+  },
+  {
+    "id": "E04",
+    "source": "PORTAL",
+    "predicate": "uses_route",
+    "target": "CORRIDOR",
+    "status": "SOURCE_BACKED"
+  },
+  {
+    "id": "E05",
+    "source": "ROAD",
+    "predicate": "composes",
+    "target": "PORTAL",
+    "status": "NEW_DERIVATION"
+  },
+  {
+    "id": "E06",
+    "source": "ADDRESS",
+    "predicate": "may_project_via",
+    "target": "READOUT",
+    "status": "NEW_DERIVATION"
+  },
+  {
+    "id": "E07",
+    "source": "ADDRESS",
+    "predicate": "represented_by",
+    "target": "QREP",
+    "status": "WORK_LAYER_TARGET"
+  },
+  {
+    "id": "E08",
+    "source": "ADDRESS",
+    "predicate": "represented_by",
+    "target": "GREP",
+    "status": "WORK_LAYER_TARGET"
+  },
+  {
+    "id": "E09",
+    "source": "QREP",
+    "predicate": "transported_by",
+    "target": "UQ",
+    "status": "OPEN"
+  },
+  {
+    "id": "E10",
+    "source": "GREP",
+    "predicate": "transported_by",
+    "target": "UG",
+    "status": "OPEN"
+  },
+  {
+    "id": "E11",
+    "source": "QREP",
+    "predicate": "paired_by_common_ancestry",
+    "target": "GREP",
+    "status": "NEW_DERIVATION"
+  }
+]

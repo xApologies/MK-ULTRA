@@ -1,0 +1,43 @@
+{
+  "name": "Bandwidth Algebra",
+  "version": "1.0",
+  "handle": "@bandwidth_algebra",
+  "symbol": "A_B",
+  "definition": "Closure of Bandwidth-admissible typed transformation generators under admissible composition and identities.",
+  "source_definition_bandwidth": "Available Organizational Freedom",
+  "native_type": "typed partial path/category-like algebra",
+  "layers": {
+    "native": "typed path/category structure",
+    "ordered_capacity": "restriction/expansion lattice of Bandwidth states",
+    "optional_linearization": "path algebra over declared coefficient system"
+  },
+  "operators": [
+    "compose",
+    "identity",
+    "restrict",
+    "expand",
+    "join",
+    "meet",
+    "modify",
+    "resolution_quotient"
+  ],
+  "resolution_readout": {
+    "map": "rho_R : A_B -> A_B^R",
+    "quotient": "A_B^R = A_B / K_R",
+    "geometry": "Geo_R(B) = Spec_T(A_B / K_R)"
+  },
+  "dependencies_current_atlas": [
+    "@genesis_field",
+    "@time_space",
+    "@resolution"
+  ],
+  "downstream": [
+    "@chirality",
+    "@persistence",
+    "@corridor",
+    "@resolution_landscape",
+    "@unit_string_configuration_algebra"
+  ],
+  "status": "FORMAL_LIVE_MODEL_V1",
+  "calculus_native": false
+}

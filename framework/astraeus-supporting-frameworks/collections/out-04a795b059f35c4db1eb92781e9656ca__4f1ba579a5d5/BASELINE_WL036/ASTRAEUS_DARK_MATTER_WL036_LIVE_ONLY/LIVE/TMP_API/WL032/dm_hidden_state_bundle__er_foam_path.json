@@ -1,0 +1,20 @@
+{
+  "source": "@dm_hidden_state_bundle",
+  "target": "@er_foam",
+  "direct": null,
+  "composed": {
+    "source": "@dm_hidden_state_bundle",
+    "relation": "COMPOSED_DEPENDENCY",
+    "target": "@er_foam",
+    "primitive_depth": 5,
+    "shortest_path": [
+      "@dm_hidden_state_bundle",
+      "@resolution",
+      "@bandwidth",
+      "@persistence",
+      "@chirality",
+      "@er_foam"
+    ],
+    "status": "DERIVED_SELF_CLOSURE"
+  }
+}

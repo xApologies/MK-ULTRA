@@ -1,0 +1,22 @@
+{
+  "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+  "handle": "@dm_density_profile_readout_factorization_gate",
+  "canonical_name": "Resolution-Profile Readout Factorization Gate",
+  "type": "SourceReconciledReadoutFactorizationGate",
+  "status": "LIVE_DIAGNOSTIC_SOURCE_ROUTE_CORRECTION",
+  "checkpoint": "E085",
+  "definition": "The E084 selected event-component scaffold is retained only as a local conditional shortcut; the source-grounded generic density/readout lane must use the Resolution-level profile factorization rather than a universal scalar rho_E map.",
+  "math": "Delta boldrho_H^R -> Beta_R -> BasinOrg_R -> F_TS^B -> FieldIntensity_R -> C_rho,u -> Delta rho_read[u].",
+  "parents": [
+    "@dm_resolution_density_profile",
+    "@dm_native_density_to_readable_source",
+    "@energy_density",
+    "@time_shell"
+  ],
+  "working_assumptions": [],
+  "proof_debt": [
+    "PD-DM-011"
+  ],
+  "physical_claim": false,
+  "baseline_mutation": false
+}

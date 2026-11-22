@@ -1,0 +1,92 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_NEIGHBORS_V1",
+  "handle": "@cosmological_closure",
+  "incoming": [
+    [
+      "@time_space",
+      {
+        "source": "@time_space",
+        "relation": "DEPENDS_TO",
+        "target": "@cosmological_closure",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45140",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@time_space",
+      {
+        "source": "@time_space",
+        "relation": "DIRECTED_TO",
+        "target": "@cosmological_closure",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45140",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@time_space",
+      {
+        "source": "@time_space",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@cosmological_closure",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45140",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@time_space",
+      {
+        "source": "@time_space",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@cosmological_closure",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:34083;CANONICAL_API_UPSTREAM_FIELD:45386",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@time_space",
+      {
+        "source": "@time_space",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@cosmological_closure",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "EDGE_LEDGER_LINE:45140;arrow_line:1647,prior_adjacency",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@time_space",
+      {
+        "source": "@time_space",
+        "relation": "USED_BY",
+        "target": "@cosmological_closure",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:44004;CANONICAL_API_DOWNSTREAM_FIELD:45849",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ]
+  ],
+  "outgoing": [],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry"
+}

@@ -1,0 +1,1869 @@
+{
+  "schema": "GR_QMO_COMPLETE_RELEASE_MANIFEST_v1",
+  "version": "1.0.0",
+  "scope": "complete GR/QMO payload and active-graph integrity",
+  "excluded": [
+    "MANIFEST.json",
+    "__pycache__",
+    "*.pyc",
+    "reruns/"
+  ],
+  "file_count": 371,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 34,
+      "sha256": "ebd3052782b19f53724c9670486efa412ee4da5637ff1b2d2ff99c476f42f4bf"
+    },
+    {
+      "path": "00_START_HERE.md",
+      "bytes": 2678,
+      "sha256": "a8b45ffa9b38c01016695c90dea8c490d3ac4140d7064bf61ffa395908f2a0cd"
+    },
+    {
+      "path": "api/GR_QMO_API_FULL_CURRENT/ALIAS_REGISTRY.json",
+      "bytes": 422,
+      "sha256": "aa55f5a9f1f585cb46330c02c744fcd276d97c4b41a16ad5b9cd3c537ec8aacf"
+    },
+    {
+      "path": "api/GR_QMO_API_FULL_CURRENT/CHANGELOG_GR_QMO.md",
+      "bytes": 734,
+      "sha256": "f303ae46a926716508d3c1f73ab872cab78e3773675c9ffabd3d7e82e77755d7"
+    },
+    {
+      "path": "api/GR_QMO_API_FULL_CURRENT/GR_QMO_API_CURRENT_CANONICAL.md",
+      "bytes": 2045725,
+      "sha256": "f55ed9ccc72e177ab7969fac42fef1a5a32d8422b91c599213bbcf2198084c4c"
+    },
+    {
+      "path": "api/GR_QMO_API_FULL_CURRENT/GR_QMO_CHECKSUMS.sha256",
+      "bytes": 2541,
+      "sha256": "f403213cd7f69d813fd169bf96f483c804e949322dd6c7db9e7f73a220212db6"
+    },
+    {
+      "path": "api/GR_QMO_API_FULL_CURRENT/GR_QMO_DEPENDENCY_INDEX.json",
+      "bytes": 132376269,
+      "sha256": "5a4321f3c2b4458b1e6e507d4adfff934409a5898e03fa80ee16d6b27def6f1a"
+    },
+    {
+      "path": "api/GR_QMO_API_FULL_CURRENT/GR_QMO_RELEASE_MANIFEST.json",
+      "bytes": 325,
+      "sha256": "76c48f39f08968815e6bdb5b3f176a1269979676a7761de01aee531a3f19e6b5"
+    },
+    {
+      "path": "api/GR_QMO_API_FULL_CURRENT/GR_QMO_VALIDATION_REPORT.json",
+      "bytes": 428,
+      "sha256": "6ff2822b8d5156f5c74155a5b8d4d27f5f10afcd165bbe749012bb9272d151fb"
+    },
+    {
+      "path": "api/GR_QMO_API_FULL_CURRENT/HAWKING_EQUATION_REGISTRY.json",
+      "bytes": 6726,
+      "sha256": "223ddf411522444de72fd953e9cecb475fe931efc5fdd540e4787af2f8319ead"
+    },
+    {
+      "path": "api/GR_QMO_API_FULL_CURRENT/HAWKING_MECHANISM_REGISTRY.json",
+      "bytes": 1057,
+      "sha256": "0ff25fa6433c14bb3e14607b8aa5ba170781c98ba56950d678653da26318d5dd"
+    },
+    {
+      "path": "api/GR_QMO_API_FULL_CURRENT/HAWKING_OBJECT_REGISTRY.json",
+      "bytes": 12822,
+      "sha256": "934880d86e92bdc37ba44df2ddca1164af084f46bb5187bf3f1e552e4caf6aa7"
+    },
+    {
+      "path": "api/GR_QMO_API_FULL_CURRENT/HAWKING_SOURCE_REGISTRY.json",
+      "bytes": 1003,
+      "sha256": "6a28bff1fd993e28b22367f550a69cd5773f8777380acb5b3b3e8a42a44fdf99"
+    },
+    {
+      "path": "api/GR_QMO_API_FULL_CURRENT/PENROSE_EQUATION_REGISTRY.json",
+      "bytes": 4269,
+      "sha256": "a4bb0eba6ec6c5ac53fe12078e199e1d0aa80565279c3d4c70b0643b6be372d8"
+    },
+    {
+      "path": "api/GR_QMO_API_FULL_CURRENT/PENROSE_OBJECT_REGISTRY.json",
+      "bytes": 11347,
+      "sha256": "145f5b93968f1d3e4094e83c045181e1e60115564954de9fb1ffe6201b617bf7"
+    },
+    {
+      "path": "api/GR_QMO_API_FULL_CURRENT/PENROSE_THEOREM_REGISTRY.json",
+      "bytes": 943,
+      "sha256": "b61c401d68ff5233a43dd8782472122e9b96428ee250391a0baacaaca35fa161"
+    },
+    {
+      "path": "api/GR_QMO_API_FULL_CURRENT/SINGULARITY_MODE_ROUTING.json",
+      "bytes": 1276,
+      "sha256": "3eec43e9995ec9a08e8a90c991bcb34670e2586943c8ff9affd67a26a1177815"
+    },
+    {
+      "path": "api/GR_QMO_API_FULL_CURRENT/sources/general_relativity_rp43/MK43_GR_DEPENDENCY_GRAPH.json",
+      "bytes": 220594,
+      "sha256": "2db3b4f87a41c2f37d0c7b2358584485ed61142cd9a21a957982e1160c936ed5"
+    },
+    {
+      "path": "api/GR_QMO_API_FULL_CURRENT/sources/general_relativity_rp43/MK43_GR_DEPENDENCY_GRAPH_INTEGRATED.json",
+      "bytes": 221865,
+      "sha256": "ec7efa2ab22948f4500b153a60a3166888976a150b2316216b869ae85b46a53a"
+    },
+    {
+      "path": "api/GR_QMO_API_FULL_CURRENT/sources/general_relativity_rp43/MK43_GR_MATHEMATICAL_MODEL.md",
+      "bytes": 43645,
+      "sha256": "2015f1dd2978202a518e29e0d7e3da71ae7ec74488dc125dec8631b9295ee9ac"
+    },
+    {
+      "path": "api/GR_QMO_API_FULL_CURRENT/sources/general_relativity_rp43/VALIDATION_REPORT.md",
+      "bytes": 321,
+      "sha256": "1df0b3846e596b971d9134c79695e94c3c14f6d2aea47a3b066445d721731408"
+    },
+    {
+      "path": "api/GR_QMO_API_FULL_CURRENT/sources/genesis_language_v0.1/Grammar(10).pdf",
+      "bytes": 145919,
+      "sha256": "4814e50bbaf5a16c757991c5307d26f47afdc06e8ff6f5de0cfc9637d69d9961"
+    },
+    {
+      "path": "api/GR_QMO_API_FULL_CURRENT/sources/genesis_language_v0.1/Phonology(10).pdf",
+      "bytes": 127679,
+      "sha256": "dca0205f0bbcf1fffc41b0f8723f6d7e79a64ddb03c6911125d16996d0047b10"
+    },
+    {
+      "path": "api/GR_QMO_API_FULL_CURRENT/sources/genesis_language_v0.1/Root Family(10).pdf",
+      "bytes": 120655,
+      "sha256": "5b8d0d82c9b8f5ef13169820f76b0783f4a6b4a284f43735d78b92909b96680c"
+    },
+    {
+      "path": "api/GR_QMO_API_FULL_CURRENT/sources/genesis_language_v0.1/Rosetta(10).pdf",
+      "bytes": 3995,
+      "sha256": "54c24e94a2ac6652fd8a5280f2e6e19c8ad1f532c624f0ec3dfd044a3ac32aa2"
+    },
+    {
+      "path": "api/GR_QMO_API_FULL_CURRENT/sources/genesis_language_v0.1/Rules(10).pdf",
+      "bytes": 149572,
+      "sha256": "9bb3ca84f0cfacc989d63a852decbf1bc11cb8d10a114ba6187bd5b608df1fb2"
+    },
+    {
+      "path": "api/GR_QMO_API_FULL_CURRENT/sources/genesis_language_v0.1/Structure(10).pdf",
+      "bytes": 112105,
+      "sha256": "744d6b14045f345721b7a1eb29322f8f527604909905bed4ce04b595caee4b0b"
+    },
+    {
+      "path": "checkpoints/archives/Genesis_GR_Atlas_Application.zip",
+      "bytes": 344277,
+      "sha256": "b701a16faab18a1cd9c65715b8a090ac3cdbf27761d7a2cad789965d65e5a914"
+    },
+    {
+      "path": "checkpoints/archives/Genesis_GR_Endpoint_Closure_Assessment.zip",
+      "bytes": 880732,
+      "sha256": "5772748ff8d085fb57350a4fb1a252f22f783710c51ef7b4e41bcc12dceee932"
+    },
+    {
+      "path": "checkpoints/archives/Genesis_GR_Equality_Work.zip",
+      "bytes": 22725,
+      "sha256": "7e302be8fcdb0549e7c1b7dad7a11922c46894a52ed9e7ea7e31ce481974dc4b"
+    },
+    {
+      "path": "checkpoints/archives/Genesis_GR_Metric_Source_Realization.zip",
+      "bytes": 37842,
+      "sha256": "906e8e0b43f86d57318eadc163bb841e895b8df3450f372ba79b95cea9d2382b"
+    },
+    {
+      "path": "checkpoints/archives/Genesis_GR_Native_Equivalence_Analysis.zip",
+      "bytes": 121867,
+      "sha256": "d7460fd310ef67792dc015db56b502dc80529778e197c864e1914e738821ec1b"
+    },
+    {
+      "path": "checkpoints/archives/Genesis_GR_Native_ER_Attachment.zip",
+      "bytes": 484243,
+      "sha256": "976088fd65ba12cb9c036a0c75d1531d9a8a57f29dc8882b1eaa871f9f8196b6"
+    },
+    {
+      "path": "checkpoints/archives/Genesis_GR_Regular_Completion_v0_1.zip",
+      "bytes": 1199463,
+      "sha256": "98a2e73790a60e3204dc565e1c710c0c85f08795db7e1feb1555f96a658a0c24"
+    },
+    {
+      "path": "checkpoints/archives/Genesis_GR_Step_02.zip",
+      "bytes": 68057,
+      "sha256": "8ec7d9df70c25c000c41f5253afee901193af655752fdd442dc91be4d77d464c"
+    },
+    {
+      "path": "checkpoints/archives/Genesis_GR_Step_03.zip",
+      "bytes": 7300821,
+      "sha256": "feebf2777dc428e5e8d26f7fbd20a622a637906106abd3005559f4b54e7cf9d7"
+    },
+    {
+      "path": "checkpoints/archives/Genesis_GR_Translation_Closure.zip",
+      "bytes": 50692,
+      "sha256": "899e716ec0190c0f4d94ca68f48c965b6cecc177ef3fd07711eba2d37730219f"
+    },
+    {
+      "path": "checkpoints/archives/Genesis_GRC1_Faithful_Embedding_Audit_v0_1.zip",
+      "bytes": 2031887,
+      "sha256": "9e81d46ad7678954d98b41d9292b5f3e02e7ea7856d5687d6d12467f68fb4916"
+    },
+    {
+      "path": "checkpoints/archives/MK43_Graviton_TimeShell_Handoff_v0_1.zip",
+      "bytes": 558805,
+      "sha256": "4b0986b1b22b794c412219a53542af12fe3f09684d827fa464178ba3110ef232"
+    },
+    {
+      "path": "checkpoints/archives/MKUltra_Chirality_Energy_Mass_Bridge.zip",
+      "bytes": 1780765,
+      "sha256": "fd2a96197c1b300734b4bfa6024cabd40a7d9edba23af1c6bd77a807350373d2"
+    },
+    {
+      "path": "checkpoints/archives/MKUltra_ER_TimeShell_Integration_v0_1.zip",
+      "bytes": 2437515,
+      "sha256": "0b1a5fa3e8c0bebedf1a78268b669e6bec6a6b5d3e32ef6f0d2c02f891ded790"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Atlas_Application/CHECK_RESULTS.json",
+      "bytes": 3023,
+      "sha256": "88838cbea1e79f2eec38530f7a111128e6a8921856f27987e1e682ce3db510c9"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Atlas_Application/DERIVATION.md",
+      "bytes": 18810,
+      "sha256": "bf9af97b53f826737190ced6fffdd9d07071517e360b9287f1aecb25398644c7"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Atlas_Application/evidence/API_4_3_OPTIONAL_READOUT_EXACT.md",
+      "bytes": 2099,
+      "sha256": "2c781124d171265df08175b4c61315a44efc0a34c97869c4230c4878c5193779"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Atlas_Application/evidence/ATLAS_EXTRACTED_TEXT.txt",
+      "bytes": 141369,
+      "sha256": "70a13db085e4fb85de68c94842e8075a54287087d4fff1fd00b0a1a4485d9edb"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Atlas_Application/evidence/DROP_IN_COMPATIBILITY.md",
+      "bytes": 1068,
+      "sha256": "a21f3379d68ecbc3bdcfc1c91e3d42d96466fc2476ae9fc203ad80216478779b"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Atlas_Application/evidence/GENESIS_GR_13_POINT_COMPLETE.md",
+      "bytes": 5511,
+      "sha256": "894bf16f8fbf1dfa83f2027898d1250e3179b1396de574914aad7df02e07a9ab"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Atlas_Application/evidence/The_Atlas_of_Becoming_Foundational_Research_Report.pdf",
+      "bytes": 364365,
+      "sha256": "60ccf280ec8dfccc527a8bb8101a97b0110a2cbca0e098256cf8adf356df8ecb"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Atlas_Application/finite_atlas.py",
+      "bytes": 17032,
+      "sha256": "0cc7e55fbf41f8e2d60318452c4c6b1d7d3c08cfda3a6fe711304d7b1e2f38cc"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Atlas_Application/NATIVE_STATUS.json",
+      "bytes": 719,
+      "sha256": "16450ece0b0e5694041b7b09a09ec6f94db0d6aa73166d1b27316859e566a0db"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Atlas_Application/PROVENANCE.json",
+      "bytes": 1210,
+      "sha256": "aac1cb3f58e56666d5ca85a6aa6fe5d46fc892e748e2befc0802f86a8875ddf7"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Atlas_Application/README.md",
+      "bytes": 1708,
+      "sha256": "d53235177a08d1f507397ca185a55228e1b4d352f7c7d6aaa6dc9dafd4c0e0df"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Atlas_Application/SHA256SUMS.txt",
+      "bytes": 1116,
+      "sha256": "e6bdaaacf675378c9b99c1c8de3dd6d0ce5026715c7260cae4d5e395fbe3427e"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Atlas_Application/SOURCE_MAP.md",
+      "bytes": 2698,
+      "sha256": "77257735dff2129a1f681babfd5aa43f6ac20f92f496f6490764d897dbff1329"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Endpoint_Closure_Assessment/code/checks.py",
+      "bytes": 10410,
+      "sha256": "0c182b898e5fed1a9722f7e5e409276e3a72669080339cc528ef0e792763ea57"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Endpoint_Closure_Assessment/code/coupled_source.py",
+      "bytes": 5564,
+      "sha256": "f3b66514bef4e032692696bfbab9f46f63b3468a54c9e06c4b18b8068d51086e"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Endpoint_Closure_Assessment/DERIVATION.md",
+      "bytes": 23583,
+      "sha256": "7d0ab88af9dfdb8456129f7689107ce41e09c79922cc4ba8adb5600fc417ceb4"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Endpoint_Closure_Assessment/evidence/API43_ACTION_SOURCE.md",
+      "bytes": 10998,
+      "sha256": "7eed3e93debfcf3bff37f64dc06fd94c0488d4efe2102e8ad3e92b869108c719"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Endpoint_Closure_Assessment/evidence/API43_CANONICAL_UNCHANGED.md",
+      "bytes": 2032374,
+      "sha256": "0071c1d9d6a89c283f57a9c225857fa8f49a63f8caff86d83cca4a66896b0259"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Endpoint_Closure_Assessment/evidence/BOUNDED_SOURCE_SCAN.json",
+      "bytes": 35298,
+      "sha256": "19660abf676aa9ed193aa66a97d12e45ca73b3a209a67acabd0ae0db93f04bf0"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Endpoint_Closure_Assessment/prior_checkpoint/Genesis_GR_Native_ER_Attachment.zip",
+      "bytes": 484243,
+      "sha256": "976088fd65ba12cb9c036a0c75d1531d9a8a57f29dc8882b1eaa871f9f8196b6"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Endpoint_Closure_Assessment/PROVENANCE.json",
+      "bytes": 1280,
+      "sha256": "d91d95873168c04cd0ee451bf5b3afe6054c82f0b5c048b5a3db64346385c175"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Endpoint_Closure_Assessment/README.md",
+      "bytes": 1556,
+      "sha256": "638dd45226a195dea4d59055ea1225d2f4fe4fc9d441941d2df2be7f25d6d870"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Endpoint_Closure_Assessment/RECOVERY.md",
+      "bytes": 1769,
+      "sha256": "9b4e10bd8ce586334e272768aae7d59714d1290a88ecf1f2cc9500a4d366ce29"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Endpoint_Closure_Assessment/requirements.txt",
+      "bytes": 14,
+      "sha256": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Endpoint_Closure_Assessment/results/CHECK_RESULTS.json",
+      "bytes": 6007,
+      "sha256": "3507f6fff38ccd0f7c819f3dd022ef6a9aeda3bdc9465031840b3cd7364afbf2"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Endpoint_Closure_Assessment/results/EXECUTION_LOG.txt",
+      "bytes": 752,
+      "sha256": "b93aa08d0e8e08399e90f479c632a383ec1c27afdfcedf0213e80fc027459337"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Endpoint_Closure_Assessment/SHA256SUMS.txt",
+      "bytes": 1329,
+      "sha256": "a0167df9a1d7f2027a46b93bc819380a08cc0a661064463fbe58e60236723a43"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Endpoint_Closure_Assessment/STATUS.json",
+      "bytes": 1115,
+      "sha256": "4843392c29d8ab31f58e35e0995314bd507361eb34086cc392ba7dc8ca6af729"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Endpoint_Closure_Assessment/verify.py",
+      "bytes": 687,
+      "sha256": "d14f7d9b9f9a518d075db8613c630ed70b2c38628ee96c6b4f19698c92cd23d6"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Equality_Work/CHECK_RESULTS.json",
+      "bytes": 1286,
+      "sha256": "f965b2bbc2b4c2824f61121eb5b208a70cdfc4b8ee5d4e01d4d967a902899cb7"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Equality_Work/checks.py",
+      "bytes": 3506,
+      "sha256": "047c68d04a71dd3a8787a3e26cbcacbabc40005cdd9e7289ceaabd8ea153c14b"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Equality_Work/DERIVATION.md",
+      "bytes": 26092,
+      "sha256": "f1e82da1722a75969b7eb79af5187364f76e966ade9d24d326c7b66b13a4b77c"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Equality_Work/PROVENANCE.json",
+      "bytes": 3071,
+      "sha256": "95cb69a07dbdabc97570bdbdf4a4960e9dfcfc2de7b5962bcdfe80024ec560bd"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Equality_Work/README.md",
+      "bytes": 1325,
+      "sha256": "b6a9679e90de3c458d7317e5d9dc4da4e781bae8e4c30f65ac6179bc1b5bfcee"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Equality_Work/SHA256SUMS.txt",
+      "bytes": 484,
+      "sha256": "a7b95c9ca3b27a83fb87c15304881041e30a1142c02a02d74b80abb83f79c886"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Equality_Work/SOURCE_EXTRACTS.md",
+      "bytes": 25811,
+      "sha256": "d55fee25ad94116583311348def0b840bffcd04167cdfa869bc99a664b65d3ed"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Metric_Source_Realization/CHECK_RESULTS.json",
+      "bytes": 2940,
+      "sha256": "68c72a8616d1bab098b1f4b3e25d872d4b6330fb1feab8a47be5fb5cc114e5ac"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Metric_Source_Realization/checks.py",
+      "bytes": 7058,
+      "sha256": "f8e8d82ed6f63b74078aba73f44962068b0fa77399dfb80d2d6c63489a2e86b8"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Metric_Source_Realization/DERIVATION.md",
+      "bytes": 22236,
+      "sha256": "3498185e30bf2fd39c9301275222cbc2f3f32bbcc9dc095991c58fb18ed584aa"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Metric_Source_Realization/evidence/S1.md",
+      "bytes": 5511,
+      "sha256": "894bf16f8fbf1dfa83f2027898d1250e3179b1396de574914aad7df02e07a9ab"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Metric_Source_Realization/evidence/S2.md",
+      "bytes": 1068,
+      "sha256": "a21f3379d68ecbc3bdcfc1c91e3d42d96466fc2476ae9fc203ad80216478779b"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Metric_Source_Realization/evidence/S3.md",
+      "bytes": 1078,
+      "sha256": "a2590408217b4ca2b96f0898478495d947be58cbbf7398f06256f9aaa3f83f79"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Metric_Source_Realization/evidence/S4.md",
+      "bytes": 5717,
+      "sha256": "1b8221da5d7440534d64ba186b7bc7dd0da166a6c73ac1b5c04c18d66f99c7cc"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Metric_Source_Realization/evidence/S5.md",
+      "bytes": 921,
+      "sha256": "40556cb4af6bb75a2eff90702648299f027112e5953e862ba0ae08ea5faa59af"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Metric_Source_Realization/evidence/S6.md",
+      "bytes": 1313,
+      "sha256": "d28cee998d3d443cd993dc9742c7828a0b214870f98d645e6b10cde6054347e5"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Metric_Source_Realization/evidence/S7.md",
+      "bytes": 1494,
+      "sha256": "06200d0c041646c28cf44112dd5911d44195aa8cb74c014b45eedd5ad147456b"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Metric_Source_Realization/evidence/S8.md",
+      "bytes": 1809,
+      "sha256": "bd3dbd8a9ffb9e4e2c2240a9587e8611a85375ada4d447fe1e482de755b2168c"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Metric_Source_Realization/PROVENANCE.json",
+      "bytes": 3702,
+      "sha256": "e14ab005db1b6c355af4f91b21bebbd7ae2b6553b0528b394e7e205360c9ae42"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Metric_Source_Realization/README.md",
+      "bytes": 1289,
+      "sha256": "8fc3b33c37862e7a8e18797c83d39135acbb8d2bfaa44092d8e692da1b6bd67c"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Metric_Source_Realization/realization.py",
+      "bytes": 5386,
+      "sha256": "725adf7cc70c7ff4123ac36afb83cd3c94945fdfc0bcc1f35ab45b8515aed2c8"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Metric_Source_Realization/SHA256SUMS.txt",
+      "bytes": 1213,
+      "sha256": "096670248108649ad08bb3afba222355f2eca67dbcd35932d0c1d63fd33c59ab"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Metric_Source_Realization/SOURCE_EVIDENCE.md",
+      "bytes": 26623,
+      "sha256": "55aa3657caabcf802298666c0dc9b5f78f159eb65641761a3ddede862cab3ba1"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_Equivalence_Analysis/CHECK_RESULTS.json",
+      "bytes": 1655,
+      "sha256": "2527bf9bdf1c77e4e00d123d64cb5c33e57fce69ac4ff7d016930e3daded2add"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_Equivalence_Analysis/checks.py",
+      "bytes": 5784,
+      "sha256": "9dd5af397be0589c47d0b66bb928db74fef69c07de2f0ccd682cb43e6d331e3e"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_Equivalence_Analysis/DERIVATION.md",
+      "bytes": 23880,
+      "sha256": "da1bb98bfba1df202329bec1381b2ab6f0324b0deff114eb737e94bb7243f454"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_Equivalence_Analysis/evidence/S01_DROP_IN_COMPATIBILITY.md",
+      "bytes": 1068,
+      "sha256": "a21f3379d68ecbc3bdcfc1c91e3d42d96466fc2476ae9fc203ad80216478779b"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_Equivalence_Analysis/evidence/S02_GENESIS_GR_13_POINT_COMPLETE.md",
+      "bytes": 5511,
+      "sha256": "894bf16f8fbf1dfa83f2027898d1250e3179b1396de574914aad7df02e07a9ab"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_Equivalence_Analysis/evidence/S03_Transduction_Axioms_v0.3.md",
+      "bytes": 1377,
+      "sha256": "8542e834a1a1be44dc20d175ab3f268055ab02ba9e95c131a58cf1ca771d7e9c"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_Equivalence_Analysis/evidence/S04_Transduction_Definitions_v0.9.md",
+      "bytes": 8411,
+      "sha256": "50d57fff5525539bc20ab005b25c880c5d73d2912f9ece2ab028993ce89df7d9"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_Equivalence_Analysis/evidence/S05_Transduction_Theorems_v0.5.md",
+      "bytes": 2670,
+      "sha256": "d215bc4c8aa021096f067f6eee8762ca281aa273009a6ada8074b85ed432e992"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_Equivalence_Analysis/evidence/S06_Global_Descent_Underivability_Audit_v0.1.md",
+      "bytes": 746,
+      "sha256": "2861cc15795e3871fe120e3fbdf2a87645326e44b3e6b179c08dce1ed5c56bd9"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_Equivalence_Analysis/evidence/S07_S34_ALGEBRAIC_GEOMETRIC_TRANSLATOR_v0.1.md",
+      "bytes": 7055,
+      "sha256": "3b11e95aa09a25ce42335e084a319e395353c6eb57b9d0db89135bbbfdd1e0ad"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_Equivalence_Analysis/evidence/S08_01_HISTORY_PATH_ALGEBRA.md",
+      "bytes": 1422,
+      "sha256": "c83e9e3ebee71c0bae5557b177763fed1bef473b0d3c3c46870276323f1e268d"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_Equivalence_Analysis/evidence/S09_02_IDENTITY_WITNESS_TRANSPORT.md",
+      "bytes": 1541,
+      "sha256": "e2e96c66d775a58faea3046904a2960a0e230aaaa5136133f85d880a3a21010f"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_Equivalence_Analysis/evidence/S10_04_HISTORY_HOLONOMY.md",
+      "bytes": 1567,
+      "sha256": "eb1a48bb1205b9cfff6febe4a9d1ee279e0868ab14298b92fed22580b6f57869"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_Equivalence_Analysis/evidence/S11_FIELD_AND_EQUIVALENCE.md",
+      "bytes": 931,
+      "sha256": "489dd3f6ea3052bb2647bb8db21a8b7c634aef33ff7193d38f58a3d0d17aa911"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_Equivalence_Analysis/evidence/S12_R58_COMPLETE_HISTORY_EXHAUSTION.md",
+      "bytes": 7428,
+      "sha256": "1a162abd7192774fe2180f77abb967cf7fc038fd4321aed72ebd0c4e2cad4822"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_Equivalence_Analysis/evidence/S13_CANONICAL_PROVISIONAL_CLOSURE.md",
+      "bytes": 7627,
+      "sha256": "18a40cb542bced8c574715e5eea102ab4c732cfc7c9635817268e3caca68c5cf"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_Equivalence_Analysis/evidence/S14_VERA_RAINBOW_ROAD_LIVE_MODEL.md",
+      "bytes": 142127,
+      "sha256": "32818e5aab18998234b1859206b0f1634ed4e37e0c5a34618e788038d4ca4d0f"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_Equivalence_Analysis/PROVENANCE.json",
+      "bytes": 7571,
+      "sha256": "1432cbd9198835772f88703a67435d7f848af2a94bb87aaceffd4b5a10f02bb3"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_Equivalence_Analysis/README.md",
+      "bytes": 1264,
+      "sha256": "9d588f7b80e298c4a083ff85ecafc7ac193688259f413b1ad41affcef3dbeb0c"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_Equivalence_Analysis/RESULT.json",
+      "bytes": 1423,
+      "sha256": "4cd63e5cbab932af8f5fa96fbd2b7cb088de9cfc2d0727256ce03555eccdfa24"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_Equivalence_Analysis/SEARCH_SCOPE.json",
+      "bytes": 201578,
+      "sha256": "0ace105c71095983a1987c527ef2025f0b79977468159bf05b1b34429e23f21f"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_Equivalence_Analysis/SHA256SUMS.txt",
+      "bytes": 2195,
+      "sha256": "6796454e28f4457db2b4db93a03b24b0791bf97eb032b4387ff231a2126c4cf9"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_Equivalence_Analysis/SOURCE_EVIDENCE.md",
+      "bytes": 75096,
+      "sha256": "a4a163082eb73477330991b55a1a751a65afe6add20c59df131d14ded19e8241"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_ER_Attachment/BASE_CHECKPOINT.json",
+      "bytes": 276,
+      "sha256": "bda06b792cb31622d89df8aa1e51a2be852dd6f1aadf273bce8ec9827b5ca8cb"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_ER_Attachment/code/checks.py",
+      "bytes": 11540,
+      "sha256": "f4f639f62bef06d41313e419e6160244c8cfd69d6f25771a54f21477ca141617"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_ER_Attachment/code/er_attachment.py",
+      "bytes": 11083,
+      "sha256": "403f5f876f92436693e4ad312ebe79a5e9b39f0916ff633f0b1af9b32681f594"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_ER_Attachment/code/prior_translator.py",
+      "bytes": 14854,
+      "sha256": "22f1b82d674eaf43e4095f8725d84dceab61016c65094d50c265889f09f3abd3"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_ER_Attachment/DERIVATION.md",
+      "bytes": 25776,
+      "sha256": "e2b38e2bc8234920ddec46e0995f9de4a8838b5960a2a0038efc4c45efa599e9"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_ER_Attachment/evidence/API43_EXACT_EXCERPTS.md",
+      "bytes": 11049,
+      "sha256": "77a6c2e5079c68382d8183d94244f6a4a095300c71d97f7dd6901fe3e8b3976a"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_ER_Attachment/evidence/DATABASE_RECOVERY.json",
+      "bytes": 127871,
+      "sha256": "bf20471083eba24ebfff78ae455a478623d53f55248a73746bc1fcc2e5f97b52"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_ER_Attachment/evidence/SOURCE_MAP.json",
+      "bytes": 1122,
+      "sha256": "8ea336ba00bf91c913af857473fb7f35945a7c350f3b0cefb9896e436638690a"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_ER_Attachment/prior_checkpoint/Genesis_GR_Translation_Closure.zip",
+      "bytes": 50692,
+      "sha256": "899e716ec0190c0f4d94ca68f48c965b6cecc177ef3fd07711eba2d37730219f"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_ER_Attachment/README.md",
+      "bytes": 2157,
+      "sha256": "1b4189b9930b2890e594596f6d5bab234f5df54c472579f3c3950c42ff513ca2"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_ER_Attachment/RECOVERY_PROMPT.md",
+      "bytes": 1713,
+      "sha256": "30d8df2afb46dd20d36348eeaebd99b1b4bc250ba5400b824d44724fcd20c8c4"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_ER_Attachment/requirements.txt",
+      "bytes": 14,
+      "sha256": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_ER_Attachment/results/CHECK_RESULTS.json",
+      "bytes": 6453,
+      "sha256": "2ff31f259f1f277008114e7947cda05c60f4efa33829d399347e9f8d02e30d7b"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_ER_Attachment/results/DEVELOPMENT_RUN_01.json",
+      "bytes": 2112,
+      "sha256": "2b11f2a06edd2820e239ee102bde9e3afba8b4ad113abc5ebbd69f4bb99773fb"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_ER_Attachment/results/DEVELOPMENT_RUN_01.log",
+      "bytes": 1404,
+      "sha256": "14437a9603b536ce27c327cf84f8ff9d50ecf58b8cb9f3bd0f704a11614e818e"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_ER_Attachment/results/DEVELOPMENT_RUN_02.json",
+      "bytes": 3508,
+      "sha256": "22afd67b45ce67bf75bffab378cbe2cd5dee402d9978a25ce116e934fc5ffe7f"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_ER_Attachment/results/DEVELOPMENT_RUN_02.log",
+      "bytes": 1889,
+      "sha256": "e0d97e154c3ae59bdc8a5e5476bf642c7a95a654a13b82fb21256f1ddf4aef20"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_ER_Attachment/results/EXECUTION_LOG.txt",
+      "bytes": 2169,
+      "sha256": "b3b2cb57fd53d7a50133c4755b60c18ed62cee454152d702be11272797a025b0"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_ER_Attachment/SHA256SUMS.txt",
+      "bytes": 1996,
+      "sha256": "230e56a43ce87249793163aa8cc6fc0fc4f24e4951af90bab2a8c4963cd5001f"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_ER_Attachment/sources/MK43_Ultra_API_CURRENT_CANONICAL.md",
+      "bytes": 2032374,
+      "sha256": "0071c1d9d6a89c283f57a9c225857fa8f49a63f8caff86d83cca4a66896b0259"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_ER_Attachment/STATUS.json",
+      "bytes": 705,
+      "sha256": "6d75d8e872212634a807ff93f6c0f8765487159af2b682ec5305c690c22ff6dc"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Native_ER_Attachment/verify.py",
+      "bytes": 760,
+      "sha256": "fc2189b88adf7d6e9a6bcf728d08dfa5fd8b0f47083ce384d12f9050bb1909d7"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Regular_Completion_v0_1/code/checks.py",
+      "bytes": 9546,
+      "sha256": "e6a0d4b67611217dd428d45cf1734ebc107eb619f84b3adb69709f2c2fa002f0"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Regular_Completion_v0_1/code/previous_translator.py",
+      "bytes": 14854,
+      "sha256": "22f1b82d674eaf43e4095f8725d84dceab61016c65094d50c265889f09f3abd3"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Regular_Completion_v0_1/code/regular_completion.py",
+      "bytes": 7916,
+      "sha256": "b180fba1054f9ed653d48155ba3bb78d25f2245ae8b7cfb3d7d6d791b7fba217"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Regular_Completion_v0_1/CONTINUATION.md",
+      "bytes": 1635,
+      "sha256": "6bbcd7559258319caee9fd3b0daa91d55975a19d74c9ee0937c700fffc0677e6"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Regular_Completion_v0_1/evidence/API43_EXACT_EXCERPTS.md",
+      "bytes": 11049,
+      "sha256": "77a6c2e5079c68382d8183d94244f6a4a095300c71d97f7dd6901fe3e8b3976a"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Regular_Completion_v0_1/evidence/PRIOR_CLOSURE_ASSESSMENT.md",
+      "bytes": 23583,
+      "sha256": "7d0ab88af9dfdb8456129f7689107ce41e09c79922cc4ba8adb5600fc417ceb4"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Regular_Completion_v0_1/evidence/The_Atlas_of_Becoming_Foundational_Research_Report.pdf",
+      "bytes": 364365,
+      "sha256": "60ccf280ec8dfccc527a8bb8101a97b0110a2cbca0e098256cf8adf356df8ecb"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Regular_Completion_v0_1/MODEL_CHANGES.md",
+      "bytes": 3113,
+      "sha256": "39d67042b1830ec6697f60217296e10f21e46db769a08332678576828aa02234"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Regular_Completion_v0_1/prior/Genesis_GR_Endpoint_Closure_Assessment.zip",
+      "bytes": 880732,
+      "sha256": "5772748ff8d085fb57350a4fb1a252f22f783710c51ef7b4e41bcc12dceee932"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Regular_Completion_v0_1/PROVENANCE.json",
+      "bytes": 1912,
+      "sha256": "60cdaa6ece5614b3b65d7bc5c2c90a6bab59b90876da1e6b2859d47c170f9f3e"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Regular_Completion_v0_1/README.md",
+      "bytes": 2138,
+      "sha256": "ef318bddc5666a758b9efac20469df01b377f7402890504ab6eebe6fe6f55c58"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Regular_Completion_v0_1/REFERENCES.json",
+      "bytes": 1072,
+      "sha256": "7ff0b7bf89260a83f54623dc595ac691b1014414dbc56e5c356e40973b736e64"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Regular_Completion_v0_1/results/CHECK_RESULTS.json",
+      "bytes": 6072,
+      "sha256": "c21cce12b6fcbb706b7e2bbca42e7cebfb6165e880bcf5e436806092548f5c51"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Regular_Completion_v0_1/results/EXACT_SOLUTION.json",
+      "bytes": 419,
+      "sha256": "f66c2247845d703487e109ce84a7cc638f986e2894f48ba6aefedf85be9c41c1"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Regular_Completion_v0_1/results/EXECUTION_LOG.txt",
+      "bytes": 1592,
+      "sha256": "8f594b1b1f5040390b038684364e4d4c33846bef5edb663b185f0e4c28334dfa"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Regular_Completion_v0_1/results/TEST_HISTORY.json",
+      "bytes": 922,
+      "sha256": "4281c699c1dacced5fc8f06e74b7d08527e02946b0ea73c4250b382fdccef387"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Regular_Completion_v0_1/THEOREM.md",
+      "bytes": 25714,
+      "sha256": "c6dc0dc2c5786c6c9ffdc23cb02ff4f4cbfdbfaa26a739f2159c4268dcc17443"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Regular_Completion_v0_1/verify.py",
+      "bytes": 643,
+      "sha256": "d748231e11d6941979df324551a89bd5238115d887ccb60e5082d932fb6425a8"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_02/CHECK_RESULTS.json",
+      "bytes": 2629,
+      "sha256": "32ecf730b3200aae8a7264098df1b220394e606e3d49e072e8afef08402beb58"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_02/checks.py",
+      "bytes": 4902,
+      "sha256": "76d21d83a81dd902b2c197b47e150c19a276484537ef8c860c3bcc85623ef8a7"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_02/DERIVATION_STEP_02.md",
+      "bytes": 18413,
+      "sha256": "3bb766adf572328b2c1445c7067da2cd8278df1c005c0869c7408d4069dde9d7"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_02/evidence/equation_status_evidence.json",
+      "bytes": 4598,
+      "sha256": "267fc7e5490ca7cb6a131eb5a57564b368c8cee12d1b50883a68ed628e2a5a53"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_02/evidence/literal_operator_locations.json",
+      "bytes": 248,
+      "sha256": "9526025441a00c6bff5328c5bebeb794ff8bc32e81b2795a9bfc77d01016ee53"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_02/evidence/operator_equations.json",
+      "bytes": 15518,
+      "sha256": "312359be4767578c9183751dd539f8adc0828272710304b51a0ebfce28ee5e84"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_02/evidence/operator_objects.json",
+      "bytes": 45441,
+      "sha256": "977bbe127d04b0283b503acd079e07b5cd2f4034f5cf9acd50e32f748a16e6df"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_02/evidence/operator_search_hits.json",
+      "bytes": 12572,
+      "sha256": "dc2910e416482bada3e8e495ce718a68857f8da04281b43cf9f04cd13323ed87"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_02/evidence/SOURCE_EXCERPTS_STEP_02.md",
+      "bytes": 9142,
+      "sha256": "63aeffda3df0adcb1a79746706150cbac9fc608de1543a2910eaca247592f338"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_02/previous_checkpoint/DERIVATION.md",
+      "bytes": 26092,
+      "sha256": "f1e82da1722a75969b7eb79af5187364f76e966ade9d24d326c7b66b13a4b77c"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_02/previous_checkpoint/Genesis_GR_Equality_Work.zip",
+      "bytes": 22725,
+      "sha256": "7e302be8fcdb0549e7c1b7dad7a11922c46894a52ed9e7ea7e31ce481974dc4b"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_02/previous_checkpoint/SOURCE_EXTRACTS.md",
+      "bytes": 25811,
+      "sha256": "d55fee25ad94116583311348def0b840bffcd04167cdfa869bc99a664b65d3ed"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_02/PROVENANCE.json",
+      "bytes": 1526,
+      "sha256": "7db128aa362f8e031292d4da78aca55f20cb6108e0bc65d5b72494d56f901837"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_02/README.md",
+      "bytes": 1107,
+      "sha256": "0b24d85651c17115bd74ee79e4858905733fc9f569f47a341be6712da84d2d88"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_03/AUDIT_FINDINGS.md",
+      "bytes": 4030,
+      "sha256": "51adb27389a557b9706978b9fef9bce871035698217d4c97bbf7cc04a4f51e58"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_03/CHECK_RESULTS.json",
+      "bytes": 3687,
+      "sha256": "1776f18fa5675a06520f29719a03c54b012ceb983f6a3116b762783e2d378406"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_03/checks.py",
+      "bytes": 7418,
+      "sha256": "f113966b5980b5b41b8e7c821df7773a3ce0f3e03ffbf0175b1b9a292f18a007"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_03/DERIVATION_STEP_03.md",
+      "bytes": 27491,
+      "sha256": "9bb9a3bc41ad452ea55ddc5dc13078d517906ff899b2d3b8918157183674c54d"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_03/evidence/INPUT_INTEGRITY.json",
+      "bytes": 4930,
+      "sha256": "7a3b143db329223011609b1a29de342a42771b2933aaa57e5e140876bdbdfb7e"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_03/evidence/nested/Holonomy and Chirality/HOLONOMY_CHIRALITY_V1_0_20260818/FORMAL/18_HELICON_GAUGE_GRAVITY_INTERFACE.md",
+      "bytes": 1553,
+      "sha256": "065c337af047af53f51b4e02681a0d450d7539312532978e4cb00d6c6f6c1910"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_03/evidence/nested/Holonomy and Chirality/HOLONOMY_CHIRALITY_V1_0_20260818/FORMAL/19_THEOREMS_AND_PROOFS.md",
+      "bytes": 3799,
+      "sha256": "05a303a49d7e0b64c113f8644b8efbe33d55b66580c28758cedafe4aedadfa0f"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_03/evidence/nested/Resolution Readout/RESOLUTION_READOUT_V1_0_20260816/FORMAL/01_PRIMITIVES.md",
+      "bytes": 1567,
+      "sha256": "616f40f660b4156cccd7e803a109ea9e0d1d65d648cafb0082c9039aa8668db4"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_03/evidence/nested/Resolution Readout/RESOLUTION_READOUT_V1_0_20260816/FORMAL/02_READOUT_FUNCTOR.md",
+      "bytes": 1088,
+      "sha256": "8438603179da24ea9fb146b17745401a09be50a7b92a0ff9ae6ddf94b624fa8c"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_03/evidence/nested/Resolution Readout/RESOLUTION_READOUT_V1_0_20260816/FORMAL/04_THEOREMS.md",
+      "bytes": 1363,
+      "sha256": "137673b3e8f10971dac24cb62a77f6b686291eba386754a84fc6fbcb08885847"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_03/evidence/nested/Resolution Readout/RESOLUTION_READOUT_V1_0_20260816/FORMAL/05_TIME_SHELL_INTERFACE.md",
+      "bytes": 1363,
+      "sha256": "c4de4329740d6a8c8eaa0927cc157fcf39ed86a8844c0f592401a1fcc65a4d6a"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_03/evidence/nested/TRANSDUCTION_GEOMETRY_v1.0/TRANSDUCTION_GEOMETRY_v1.0/FORMAL_LAYER/Transduction_Theorems_v0.5.md",
+      "bytes": 2670,
+      "sha256": "d215bc4c8aa021096f067f6eee8762ca281aa273009a6ada8074b85ed432e992"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_03/evidence/NESTED_OPERATOR_SEARCH.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_03/evidence/SEARCH_SCOPE.json",
+      "bytes": 1419,
+      "sha256": "3831c9886497d223420710a391b20ad7d5e4af6b7e28914ee27ea64cb60270ce"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_03/evidence/SOURCE_EXCERPTS_STEP_03.md",
+      "bytes": 44874,
+      "sha256": "d3751dc443e1bb0ec22564a0acbf3a3a74142ab66a4c0b97de7521e44e78f41c"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_03/prior/Genesis_GR_Equality_Work.zip",
+      "bytes": 22725,
+      "sha256": "7e302be8fcdb0549e7c1b7dad7a11922c46894a52ed9e7ea7e31ce481974dc4b"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_03/prior/Genesis_GR_Step_02.zip",
+      "bytes": 68057,
+      "sha256": "8ec7d9df70c25c000c41f5253afee901193af655752fdd442dc91be4d77d464c"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_03/PROVENANCE.json",
+      "bytes": 1159,
+      "sha256": "6e4b646e779452d2466c09c0f19fa12b6b3dd33fa6e9c4069bca790689680f5d"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_03/README.md",
+      "bytes": 1926,
+      "sha256": "6d89b4614f21131e51252c254f403894ea1b246cc868f51a1f83bfe0c0266be4"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_03/SHA256SUMS.txt",
+      "bytes": 2355,
+      "sha256": "0b9266c95e0e298a36e0f013f59d5a79a1c8ae3dcfa6531a2872d9407ae8956d"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Step_03/source/3_Audit_2_original.zip",
+      "bytes": 7167311,
+      "sha256": "cfe77faccf174cb2500a9fd921af6e6f3c52be8df1eacca3feb42ce7ba172b87"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Translation_Closure/BASE_CHECKPOINT.json",
+      "bytes": 258,
+      "sha256": "dbaeb8edfb040be957bb0c801f6c04afbccff5118d3580e079d0699716bc9f5d"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Translation_Closure/code/checks.py",
+      "bytes": 10774,
+      "sha256": "c20c411f8242a4b3937df441ab2b530d0e99f86622b5a7f8ab531dbf751abecd"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Translation_Closure/code/translator.py",
+      "bytes": 14854,
+      "sha256": "22f1b82d674eaf43e4095f8725d84dceab61016c65094d50c265889f09f3abd3"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Translation_Closure/DERIVATION.md",
+      "bytes": 24519,
+      "sha256": "e349f7607dc3df20758c3a4b095ba417ccfca6e777788896f00f3bdba3821dc3"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Translation_Closure/evidence/S01_AUDIT.md",
+      "bytes": 1078,
+      "sha256": "a2590408217b4ca2b96f0898478495d947be58cbbf7398f06256f9aaa3f83f79"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Translation_Closure/evidence/S02_DROP_IN_COMPATIBILITY.md",
+      "bytes": 1068,
+      "sha256": "a21f3379d68ecbc3bdcfc1c91e3d42d96466fc2476ae9fc203ad80216478779b"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Translation_Closure/evidence/S03_GENESIS_GR_13_POINT_COMPLETE.md",
+      "bytes": 5511,
+      "sha256": "894bf16f8fbf1dfa83f2027898d1250e3179b1396de574914aad7df02e07a9ab"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Translation_Closure/evidence/S04_AUDIT_STATUS.md",
+      "bytes": 876,
+      "sha256": "6a4c33ea2c5c8a1880db0d1af4a545c9c588bcd83b6783605d424e5eac15f6b1"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Translation_Closure/evidence/S05_GEOMETRY.md",
+      "bytes": 2118,
+      "sha256": "420cc53426d84c2bafc93dac178015e0bbc04e802f379635a7295bde5413966a"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Translation_Closure/evidence/S06_FORMALISM.md",
+      "bytes": 5717,
+      "sha256": "1b8221da5d7440534d64ba186b7bc7dd0da166a6c73ac1b5c04c18d66f99c7cc"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Translation_Closure/evidence/S07_CONNECTION_SOURCE.md",
+      "bytes": 1956,
+      "sha256": "726623a97d9f862cc2912263e6a466c29f4a707acfaa990cbf8bc2c7909b3a8e"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Translation_Closure/evidence/S08_STATUS.md",
+      "bytes": 921,
+      "sha256": "40556cb4af6bb75a2eff90702648299f027112e5953e862ba0ae08ea5faa59af"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Translation_Closure/evidence/S09_SOURCE_TENSOR.md",
+      "bytes": 1809,
+      "sha256": "bd3dbd8a9ffb9e4e2c2240a9587e8611a85375ada4d447fe1e482de755b2168c"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Translation_Closure/evidence/SOURCE_MAP.json",
+      "bytes": 2457,
+      "sha256": "36519eac17b7d66cf5d903bb1877aa24dff8ba2ec64207e8b2e1c53c0e1fced1"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Translation_Closure/evidence/SOURCE_SCAN.json",
+      "bytes": 40420,
+      "sha256": "504341f017ca1e3c3ff651da985d04f61e48cf3a1cdd87e2d3f1862fe819c838"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Translation_Closure/README.md",
+      "bytes": 4174,
+      "sha256": "a926ff73943dca35a21b0f7385bd8970a73768c84932fe49cd6fc539c4b1f953"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Translation_Closure/requirements.txt",
+      "bytes": 14,
+      "sha256": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Translation_Closure/results/CHECK_RESULTS.json",
+      "bytes": 6742,
+      "sha256": "474aa55a8db839c1f69c836b9da59be8c719cb331cbde55c2dfe7f129dc27f5f"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Translation_Closure/results/DEVELOPMENT_RUN_01.json",
+      "bytes": 4177,
+      "sha256": "38d8de5d8fb059d85ed9cc839f4a4530ea365b5fd84fd7260da81d4d4427f75d"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Translation_Closure/results/DEVELOPMENT_RUN_01.log",
+      "bytes": 2763,
+      "sha256": "a0004c1a5cadab4b958b1376f2293b05946179c6972446fa501f48f63e6b8bc2"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Translation_Closure/results/EXECUTION_LOG.txt",
+      "bytes": 2473,
+      "sha256": "70e7e0b203ca7ea5eab57a3e0060b43a2fb72eba0d85d1b4d5b76899db7af93e"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Translation_Closure/SHA256SUMS.txt",
+      "bytes": 2260,
+      "sha256": "2483c0ab8bfa2f0985f816150cc8b1d429a1aaec2cfc385203408476e8ccaaf1"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Translation_Closure/SOURCE_ATTACHMENT_AUDIT.md",
+      "bytes": 3820,
+      "sha256": "ec932cd9a8ddc056d689e27cf7a5dd151ceb5c6e83ca7556efb5e96efa195c34"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Translation_Closure/STATUS.json",
+      "bytes": 1106,
+      "sha256": "8538ebf67bca936ebb7fb6d9fce3869c603110bcf2b286bdb2aa5feeb2b2f1da"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Translation_Closure/TRANSLATION_DICTIONARY.md",
+      "bytes": 3719,
+      "sha256": "448deae81a2e0ab82d70f01e07a58756bdc3e6962be1772c32be23c734ba8922"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GR_Translation_Closure/verify.py",
+      "bytes": 637,
+      "sha256": "0ecd56db6d52fdef45b0363ab75bf0ceb39c8266ce18e3342b8bb1540b6453f3"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GRC1_Faithful_Embedding_Audit_v0_1/code/checks.py",
+      "bytes": 10165,
+      "sha256": "1ee1e904a51dc1a74b093ec30eb5a956ddc3b01c2fbef31b9f1042da6a3064cd"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GRC1_Faithful_Embedding_Audit_v0_1/code/field_space_geometry.py",
+      "bytes": 2756,
+      "sha256": "c0e55dd866c92877adb7172eb926c59c20ec223e189ff2b004306fe15b7af79f"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GRC1_Faithful_Embedding_Audit_v0_1/code/gr_geometry_reference.py",
+      "bytes": 14854,
+      "sha256": "22f1b82d674eaf43e4095f8725d84dceab61016c65094d50c265889f09f3abd3"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GRC1_Faithful_Embedding_Audit_v0_1/code/grc1_reference.py",
+      "bytes": 7916,
+      "sha256": "b180fba1054f9ed653d48155ba3bb78d25f2245ae8b7cfb3d7d6d791b7fba217"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GRC1_Faithful_Embedding_Audit_v0_1/CONTINUATION.md",
+      "bytes": 2075,
+      "sha256": "42032bc649aa23190538908570fe365fd0d4b81b3e75e24de6508a986ab233f7"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GRC1_Faithful_Embedding_Audit_v0_1/EMBEDDING_VERDICT.json",
+      "bytes": 1119,
+      "sha256": "918b0b4bb27676f6037ceb0c82c41560f3e87ca2a2b09b4a88935f8034dbbe56"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GRC1_Faithful_Embedding_Audit_v0_1/evidence/API43_ACTION_SOURCE.md",
+      "bytes": 10998,
+      "sha256": "7eed3e93debfcf3bff37f64dc06fd94c0488d4efe2102e8ad3e92b869108c719"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GRC1_Faithful_Embedding_Audit_v0_1/evidence/API43_CANONICAL_UNCHANGED.md",
+      "bytes": 2032374,
+      "sha256": "0071c1d9d6a89c283f57a9c225857fa8f49a63f8caff86d83cca4a66896b0259"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GRC1_Faithful_Embedding_Audit_v0_1/evidence/Atlas_A3_page54.png",
+      "bytes": 152376,
+      "sha256": "284dcabdc714a27bf0fa5ed375070e14df2c8a2dd281f4de19b6cff79c572fa8"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GRC1_Faithful_Embedding_Audit_v0_1/evidence/Atlas_of_Becoming_UNCHANGED.pdf",
+      "bytes": 364365,
+      "sha256": "60ccf280ec8dfccc527a8bb8101a97b0110a2cbca0e098256cf8adf356df8ecb"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GRC1_Faithful_Embedding_Audit_v0_1/evidence/MODEL_CHANGES.md",
+      "bytes": 3113,
+      "sha256": "39d67042b1830ec6697f60217296e10f21e46db769a08332678576828aa02234"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GRC1_Faithful_Embedding_Audit_v0_1/evidence/THEOREM.md",
+      "bytes": 25714,
+      "sha256": "c6dc0dc2c5786c6c9ffdc23cb02ff4f4cbfdbfaa26a739f2159c4268dcc17443"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GRC1_Faithful_Embedding_Audit_v0_1/prior/Genesis_GR_Regular_Completion_v0_1.zip",
+      "bytes": 1199463,
+      "sha256": "98a2e73790a60e3204dc565e1c710c0c85f08795db7e1feb1555f96a658a0c24"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GRC1_Faithful_Embedding_Audit_v0_1/README.md",
+      "bytes": 1867,
+      "sha256": "3e31d79b2e093f72476439adcd65c2f853040cb12caca97fe0c16d912160f04d"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GRC1_Faithful_Embedding_Audit_v0_1/REFERENCES.json",
+      "bytes": 808,
+      "sha256": "4380a1fae8e719e41b2ee3d830d18d47d430c39a21265d219a407dfa7d720ce1"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GRC1_Faithful_Embedding_Audit_v0_1/REPORT.md",
+      "bytes": 24247,
+      "sha256": "a1b0986f0c28e6a31f2827f711ff8779d3281802c1df90cc06c8dcecaa624468"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GRC1_Faithful_Embedding_Audit_v0_1/results/CHECK_RESULTS.json",
+      "bytes": 6716,
+      "sha256": "c0c76fedd98c3d520c552160fa3903d0dca298dc7650c2192b01ff1c73b26bad"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GRC1_Faithful_Embedding_Audit_v0_1/results/EXECUTION_LOG.txt",
+      "bytes": 1729,
+      "sha256": "85367e21d71bb642675a03c8befb7473ba54763664f64abc09afb374d2cf17f6"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GRC1_Faithful_Embedding_Audit_v0_1/results/GRC1_RERUN_CHECK_RESULTS.json",
+      "bytes": 6073,
+      "sha256": "bad97adf420e3eaf2356504b53411a5ba11a0b9ca61997830a15a5737610f38d"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GRC1_Faithful_Embedding_Audit_v0_1/results/GRC1_RERUN_LOG.txt",
+      "bytes": 1592,
+      "sha256": "6f8a2cd33962fc800c345bed0e614ceebd461c86b2f038c013b473242a59e345"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GRC1_Faithful_Embedding_Audit_v0_1/SOURCE_MANIFEST.json",
+      "bytes": 2197,
+      "sha256": "366ca29b1da158b3f72f2906f301825a7321a31af2577d27cd25f0fc5c5004be"
+    },
+    {
+      "path": "checkpoints/expanded/Genesis_GRC1_Faithful_Embedding_Audit_v0_1/verify.py",
+      "bytes": 701,
+      "sha256": "23ffc90d3f554db71f235fe2b1c6ed4bc1798e8562ccb4f39571f04d756d4de2"
+    },
+    {
+      "path": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/code/checks.py",
+      "bytes": 8497,
+      "sha256": "786bc751e9e30f9020ba9a52d4ceda6965ef3421e19dca00ed8f0b6a8822babc"
+    },
+    {
+      "path": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/evidence/MK43_GR_MATHEMATICAL_MODEL.md",
+      "bytes": 43645,
+      "sha256": "2015f1dd2978202a518e29e0d7e3da71ae7ec74488dc125dec8631b9295ee9ac"
+    },
+    {
+      "path": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/evidence/MK43_Ultra_API_CURRENT_CANONICAL.md",
+      "bytes": 2032374,
+      "sha256": "0071c1d9d6a89c283f57a9c225857fa8f49a63f8caff86d83cca4a66896b0259"
+    },
+    {
+      "path": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/evidence/PRIOR_GRC1_THEOREM_UNCHANGED.md",
+      "bytes": 25714,
+      "sha256": "c6dc0dc2c5786c6c9ffdc23cb02ff4f4cbfdbfaa26a739f2159c4268dcc17443"
+    },
+    {
+      "path": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/evidence/PRIOR_SOURCE_TRACE_UNCHANGED.md",
+      "bytes": 15526,
+      "sha256": "db179993d6e586b7d72dd1aaea13ca5f950ad6b7210b432fe39fe5c70d5e47b1"
+    },
+    {
+      "path": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/evidence/SOURCE_EXCERPTS.md",
+      "bytes": 22223,
+      "sha256": "11d55be7efe79e1d91eb5d3731dca695c9f6757aafb8991f34b52d4d644a8df6"
+    },
+    {
+      "path": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/evidence/TOME_p447.png",
+      "bytes": 150410,
+      "sha256": "a6fcc1a1d031e0004f9ffe273da67762a7c95f303347f9622ad79d1dd7736e06"
+    },
+    {
+      "path": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/PROVENANCE.json",
+      "bytes": 1331,
+      "sha256": "dbffa53b11a562eebd22d205fce76d6ea14ea9722d0e639d48bfec9ef4835abc"
+    },
+    {
+      "path": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/README.md",
+      "bytes": 2026,
+      "sha256": "719780b38bddff32e8e88b65c4c92398635ff283d9b80eb4bd2387bf608c2a51"
+    },
+    {
+      "path": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/REPORT.md",
+      "bytes": 21213,
+      "sha256": "e4a147954b26c0cfd087f59d5499e674e7e2dd7046a500ae071e8d95eae8a1af"
+    },
+    {
+      "path": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/results/CHECK_RESULTS.json",
+      "bytes": 4376,
+      "sha256": "2490641ffbaca510468940a18d6e612b59807770aaf95a96746fc4e8ecea1e20"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/code/checks.py",
+      "bytes": 4658,
+      "sha256": "dffa56d5702b46c57563d4f4c75e05329b58db76811007ba51fe4743c2acc497"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/evidence/47_RAINBOW_ROAD_INFORMATION_TRANSPORT.md",
+      "bytes": 891,
+      "sha256": "1718e5bbc119b0672876ceb793e8520941db42ef0e9c0bd4c48d043b78176916"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/evidence/53_CHIRALITY_AS_ORDERED_GEOMETRY.md",
+      "bytes": 895,
+      "sha256": "ea3eec9fedd4e890ef744c99d4338f234d33869e17593d3b61733c653f9b3ce4"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/evidence/_mass 2(4).md",
+      "bytes": 79204,
+      "sha256": "63d1632d5cd1b8725cf0353b0ad841bd6d9062868b9805eddd78895124b7eabe"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/evidence/_mass(3).md",
+      "bytes": 69648,
+      "sha256": "9fd07edc00d4c2325267057df4278fd5ebe489ccfb209536f9a66bebc0dad6ee"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/evidence/_mass_b(4).txt",
+      "bytes": 48253,
+      "sha256": "bb4b551c6814e0def76f94e2170ee40bafd15c0897f517be0e891357d7c892c9"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/evidence/API43_CANONICAL.md",
+      "bytes": 2032374,
+      "sha256": "0071c1d9d6a89c283f57a9c225857fa8f49a63f8caff86d83cca4a66896b0259"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/evidence/API43_ENERGY_EXCERPTS.md",
+      "bytes": 5911,
+      "sha256": "5bb96c13b8bcb5a2a5cd90e9af783d8b2f78acf3ce9f8c50c0cbe1adb0ba1a8d"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/evidence/FINAL(1).pdf",
+      "bytes": 126393,
+      "sha256": "f9e99ef97ba9327464fb83bb4bde6d1092304fd65910f3530010b355f36c2b33"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/evidence/MK_ULTRA_CHIRALITY_BRIDGE_FULL_DIRECTOR_REPORT_v5(1).pdf",
+      "bytes": 254463,
+      "sha256": "a9a0436304558378b23591c2925b966e5947299bbc7e6adeb2c5833221e3f426"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/evidence/MK_ULTRA_CHIRALITY_BRIDGE_RECOVERY_REPORT_v1.0(1).pdf",
+      "bytes": 65382,
+      "sha256": "d8d8a3167476f550232b13cdd74235eecffd22abfdbc8c240694926ac3ede00b"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/evidence/pdf_renders/FINAL_p1.png",
+      "bytes": 158342,
+      "sha256": "3e73226feec5e783780be60e3d2fea6d8b26624bf13516d1faf9843927685ac5"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/evidence/pdf_renders/FINAL_p11.png",
+      "bytes": 129412,
+      "sha256": "bdcfea87a69202bbc79bd5327b195ee4d286b4d31f084408feccbba6ff5d0c4f"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/evidence/pdf_renders/FINAL_p7.png",
+      "bytes": 143618,
+      "sha256": "38f5344b7a36de605749ca712631d7e92458d3074278abf9a520df619badba9a"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/evidence/pdf_renders/FINAL_p8.png",
+      "bytes": 97649,
+      "sha256": "b7e0ae5077a4afd0a88acca049013c96fbf762af008f7f2539d811b030b0a1f8"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/evidence/pdf_renders/MK_ULTRA_CHIRALITY_BRIDGE_FULL_DIRECTOR_REPORT_v5_p26.png",
+      "bytes": 98640,
+      "sha256": "187485f62aae36018d1cb6a76ed57c3da563d043d672a47f3e6a73c82e10e81e"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/evidence/pdf_renders/MK_ULTRA_CHIRALITY_BRIDGE_FULL_DIRECTOR_REPORT_v5_p28.png",
+      "bytes": 114571,
+      "sha256": "6b28f6e150e4da5f2e5b65f97a623948f0d74cc6252cd19dc74c8ef2265403ed"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/evidence/pdf_renders/MK_ULTRA_CHIRALITY_BRIDGE_RECOVERY_REPORT_v1.0_p12.png",
+      "bytes": 195224,
+      "sha256": "20fc8144c4d56cd5a3f4b63b2194de3fad3f3378e30c9f8c17c1dc551e753181"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/evidence/pdf_renders/MK_ULTRA_CHIRALITY_BRIDGE_RECOVERY_REPORT_v1.0_p7.png",
+      "bytes": 195276,
+      "sha256": "8e5e28356408660a7c89ea4520aa32211b54681e033631bd5b39909ba2385374"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/PROVENANCE.json",
+      "bytes": 1091,
+      "sha256": "95de8e00a95de1c44fb096379f9363255216878c0e967614ee99f422e8a92401"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/README.md",
+      "bytes": 377,
+      "sha256": "e7c8f0964cec4d770163197e93560c8fe2099b11ebfe7d4ccb5ea9b14d736fb1"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/REPORT.md",
+      "bytes": 17893,
+      "sha256": "b4224d35c72cc1674788f3ddccdff33fb6e37e4c8e3909c26017f1197391f5fc"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/results/CHECK_RESULTS.json",
+      "bytes": 2832,
+      "sha256": "39d6ac77e05ae864011c755827fee98f73e3596c2c8d3cddcab3096790ecb348"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/verify.py",
+      "bytes": 485,
+      "sha256": "ff2178c2096c50f54b3d878dceee0cd1723c65b790f89a496554e2e8ed1555ab"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_ER_TimeShell_Integration_v0_1/00_START_HERE.md",
+      "bytes": 1883,
+      "sha256": "3242ee1cbe37f94ee190ef922d863ef8a491e6444ed182e3ca7fa2f1ee5293a2"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_ER_TimeShell_Integration_v0_1/code/checks.py",
+      "bytes": 11472,
+      "sha256": "4f7009e241156af2372366873e41c127b4a7f89f6abe7418efd4014c2579818d"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_ER_TimeShell_Integration_v0_1/code/er_shell.py",
+      "bytes": 8907,
+      "sha256": "d3251fd2f1cf9eed326efd1d4695aad4c49fee56b3f68ebd8a66e30103def7ea"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_ER_TimeShell_Integration_v0_1/evidence/05_TIME_SHELL_INTERFACE.md",
+      "bytes": 1363,
+      "sha256": "c4de4329740d6a8c8eaa0927cc157fcf39ed86a8844c0f592401a1fcc65a4d6a"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_ER_TimeShell_Integration_v0_1/evidence/07_TIME_SHELL_HISTORY_READOUT.md",
+      "bytes": 1770,
+      "sha256": "65b3340483a0ecc4241900642901e3830dad7bb8d763beb3aaa4224089e92b74"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_ER_TimeShell_Integration_v0_1/evidence/API43_CANONICAL_UNCHANGED.md",
+      "bytes": 2032374,
+      "sha256": "0071c1d9d6a89c283f57a9c225857fa8f49a63f8caff86d83cca4a66896b0259"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_ER_TimeShell_Integration_v0_1/evidence/EXTRACTION_RECORD.json",
+      "bytes": 816,
+      "sha256": "13f9b2e16c878d4f8cd410474f14889aef982e973e5a3218b647a0dd6abe92a9"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_ER_TimeShell_Integration_v0_1/evidence/SOURCE_EXCERPTS.md",
+      "bytes": 19126,
+      "sha256": "0cae3c6b4ac5340f3fb6f985c6b69af180d4f56223d7c8228210a450bc654665"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_ER_TimeShell_Integration_v0_1/INTEGRATION_STATUS.json",
+      "bytes": 1069,
+      "sha256": "3282b816573f66c3f8422d7c88617173830fb27a969a265a1057543138ec422d"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_ER_TimeShell_Integration_v0_1/MODEL_DECISIONS.md",
+      "bytes": 3241,
+      "sha256": "efe9f6c13fe570cad2a8890e5dccc2c87334c2f663fdd3e0bef68a99a12102b3"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_ER_TimeShell_Integration_v0_1/prior/Genesis_GRC1_Faithful_Embedding_Audit_v0_1.zip",
+      "bytes": 2031887,
+      "sha256": "9e81d46ad7678954d98b41d9292b5f3e02e7ea7856d5687d6d12467f68fb4916"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_ER_TimeShell_Integration_v0_1/PROVENANCE.json",
+      "bytes": 886,
+      "sha256": "f5fed56b104d29d7dad7e59e9db38b19698bc5a12bbda5d24bad8c86db203569"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_ER_TimeShell_Integration_v0_1/REPORT.md",
+      "bytes": 30667,
+      "sha256": "ed4f3eff8f88b6f107b537ca45bc669ee70de0d8d4ab07e52265d79429f7bcdf"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_ER_TimeShell_Integration_v0_1/requirements.txt",
+      "bytes": 36,
+      "sha256": "e8d6842ba96fabf557078206a8376e588652e45417c9c1de7723d96b4ec85aa3"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_ER_TimeShell_Integration_v0_1/results/CHECK_RESULTS.json",
+      "bytes": 8192,
+      "sha256": "9869b7e8a9496ce53eb0d84dd42c2dd7e1a8d0710237b69f6018e86e40e00277"
+    },
+    {
+      "path": "checkpoints/expanded/MKUltra_ER_TimeShell_Integration_v0_1/verify.py",
+      "bytes": 723,
+      "sha256": "bf508591eb9d5fa7ed13c0d3af036a33cc5dc51c2e1fed122a858a7e1989d68e"
+    },
+    {
+      "path": "CODEX_INSTALL.md",
+      "bytes": 906,
+      "sha256": "cde1a46fac392398f1ef5a750af8cd7f9f369c9b5e7a8e1aefbbaa5d4a491a1b"
+    },
+    {
+      "path": "CONTINUATION.md",
+      "bytes": 1414,
+      "sha256": "f3a998c6eb61c91f72287a725228b3280d2f9a6936e6987242fdaee281fc95e2"
+    },
+    {
+      "path": "examples/evaluated_handoff.py",
+      "bytes": 1812,
+      "sha256": "d66e25367db6b74bd9cc76a7dbb5e56adf4454b01f510cbd92ce05b831483c7a"
+    },
+    {
+      "path": "install.py",
+      "bytes": 2948,
+      "sha256": "762f383c45d0f54112720bc2209ee382fa45832ec621d9bad71a6c750032a984"
+    },
+    {
+      "path": "INSTALLATION_RECEIPT.md",
+      "bytes": 1357,
+      "sha256": "8e3e365cf937b0b11c6272e60a7c181d2a011af5d11c43043cd0c679900649e3"
+    },
+    {
+      "path": "INSTALLED_OBJECTS.md",
+      "bytes": 5145,
+      "sha256": "2addc09f51a488d5c51e47870f44ae9455124cd8d0c638656ad84034a1110093"
+    },
+    {
+      "path": "INTEGRATION_SPEC.md",
+      "bytes": 7551,
+      "sha256": "626babf369a3fc3c68ad19e5d7a7c60440a4e5c816ff13003621c08b714adfe0"
+    },
+    {
+      "path": "mk43.py",
+      "bytes": 2901,
+      "sha256": "83e685b242090f246d7d0476a103b916fe5d819a66136c32f0dcca1df949c41b"
+    },
+    {
+      "path": "mk43_integration/__init__.py",
+      "bytes": 99,
+      "sha256": "f4ab20963c407edd87d12d2460ae05510abea07e9dbc978191afe804cc704ca5"
+    },
+    {
+      "path": "mk43_integration/handoff.py",
+      "bytes": 8646,
+      "sha256": "ce8d3674b028a410510708514c68fc1b5bdb248b0cd1a5808e51bd37cd0e0ce2"
+    },
+    {
+      "path": "mk43_integration/translator.py",
+      "bytes": 14854,
+      "sha256": "22f1b82d674eaf43e4095f8725d84dceab61016c65094d50c265889f09f3abd3"
+    },
+    {
+      "path": "PUBLICATION.md",
+      "bytes": 2207,
+      "sha256": "9ebe38a376e4b1ad8e2a6e0fbaaca8f6b21e7c7197ff686f5abaaa5d12f4e5ae"
+    },
+    {
+      "path": "PUBLICATION_EDITION.json",
+      "bytes": 167603,
+      "sha256": "e8ce4b5bc6ae4ac1d35e4344e311adcb6c1a41e3213b8072a959b82f2a79a202"
+    },
+    {
+      "path": "registry/ACTIVE_API_MEMBERS.json",
+      "bytes": 4603,
+      "sha256": "0e550f6199a1e516d5d23b9320ccd77b01010b7ff74eb484b4c61f29c62b01d4"
+    },
+    {
+      "path": "registry/CHECKPOINTS.json",
+      "bytes": 5627,
+      "sha256": "969492e06e59cf73aeb334ef7737701b851439392335fc1595f85df66f3a5f1c"
+    },
+    {
+      "path": "registry/ENTRYPOINTS.json",
+      "bytes": 878,
+      "sha256": "84a5efacdc5415665d5077d718781662816a89df02c86ae1fa0ab3d6f5967ade"
+    },
+    {
+      "path": "registry/GR_QMO.sqlite",
+      "bytes": 50540544,
+      "sha256": "489db5fd4eaabd473774d3227454fb2222424b1179f93c652716511b1937a758"
+    },
+    {
+      "path": "registry/GRAVITY_AUDIT_INHERITED.json",
+      "bytes": 5218,
+      "sha256": "391d38629cffa5d63e786efcb6a98400d6a7cfebbbe2404dd77f115403ff98e8"
+    },
+    {
+      "path": "registry/INTEGRATION_DEPENDENCIES.json",
+      "bytes": 13383,
+      "sha256": "39de4261ff932b3939abcc4212ae97420e2a6a79a547acf209f3526737c5745b"
+    },
+    {
+      "path": "registry/INTEGRATION_OBJECTS.json",
+      "bytes": 7561,
+      "sha256": "9852cabff6466963eb473fba5c7c6d575365965404fe7d844af2a170a3cd273c"
+    },
+    {
+      "path": "registry/OMITTED_HISTORICAL_MATERIAL.json",
+      "bytes": 9084,
+      "sha256": "f2bc9cfb0b2190ded9b090ccb588ddd1929e6dcbcd311dc97f0b7cdb2808bc6e"
+    },
+    {
+      "path": "registry/QMO_MANIFEST.json",
+      "bytes": 836,
+      "sha256": "2f8343b8ae29438bef36ea7532b0ddbd9a93aef708c92145c1fa16489945440f"
+    },
+    {
+      "path": "registry/RECOVERY_BOUNDARY.json",
+      "bytes": 1103,
+      "sha256": "b0e2f3da1e138cfe95d7546a5bebeaf94cd02c05463565ea95f9ef0db6398369"
+    },
+    {
+      "path": "registry/RETIRED_API_4_3_CONNECTIONS.json",
+      "bytes": 3209,
+      "sha256": "4ab8b4dc5ba1c68438d6eea0a55f6ff91f30546ae3161aeb64e83d0ca4cbf669"
+    },
+    {
+      "path": "registry/SOURCE_FILES.json",
+      "bytes": 2631,
+      "sha256": "d60c187426e6d59a3e5e165a54fe6aa795f23214fc47e93e015bdfc76607124d"
+    },
+    {
+      "path": "requirements-tested.txt",
+      "bytes": 27,
+      "sha256": "c19638f75b5d9984b795de3647c23101b5617f90a74148a809ec49eaf92b21d2"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 107,
+      "sha256": "2a467f8c893c900a521051be38f7528d0336ec8e8475d7aa6440f1a550dee00c"
+    },
+    {
+      "path": "results/_legacy_original_installation/CHECKPOINT_PRESERVATION.json",
+      "bytes": 2188,
+      "sha256": "fc87ae11d3fb8d75ce65dd19b2a28b07bbb411f795a2d60e1fc5f17578ef5901"
+    },
+    {
+      "path": "results/_legacy_original_installation/DEMO.json",
+      "bytes": 478,
+      "sha256": "2cfea817801bf068cbcc9597a64b2930ad84362229093fe5c9aaf1c77de0d77c"
+    },
+    {
+      "path": "results/_legacy_original_installation/DEVELOPMENT_NOTES.md",
+      "bytes": 819,
+      "sha256": "01a993e5bc051c61deb5aa029b2e77ed587fa524a95afaa9ac6eedb08443ad62"
+    },
+    {
+      "path": "results/_legacy_original_installation/ENVIRONMENT.json",
+      "bytes": 204,
+      "sha256": "127cad074dc39982ed948ed61e12a882e9e6367e824b6352a2b180c3e1c3dd43"
+    },
+    {
+      "path": "results/_legacy_original_installation/INSTALLATION_TESTS.json",
+      "bytes": 5004,
+      "sha256": "39591844e48c877c837e40ccca51d4fe5ce6232337ce8ec5820d5c2e7c0f1c2b"
+    },
+    {
+      "path": "results/_legacy_original_installation/INSTALLATION_VALIDATION.json",
+      "bytes": 779,
+      "sha256": "16aa1a100d1f49959d8d030c9034c063baa714fa3645687441cee8f891356130"
+    },
+    {
+      "path": "results/_legacy_original_installation/INSTALLER_TESTS.json",
+      "bytes": 1017,
+      "sha256": "a8624daa629ef1af26123e4498520d7f37ecc6c18641782982fe5e5037b54362"
+    },
+    {
+      "path": "results/_legacy_original_installation/QUERY_GRAVITON.json",
+      "bytes": 4759,
+      "sha256": "c1ea99c86df6b669cb4062c413d637216c1cdb1a2fd0d8e0ffdce9aef019dd7b"
+    },
+    {
+      "path": "results/_legacy_original_installation/QUERY_INTEGRATION.json",
+      "bytes": 1289,
+      "sha256": "2acd4ed0318f1b94adf0dc28adf1f046895540d9c90b6cead0ce414124b9ff40"
+    },
+    {
+      "path": "results/_legacy_original_installation/QUERY_MASS.json",
+      "bytes": 727,
+      "sha256": "c051e9d8f7a8e23cd86bfd8cdd1bde23e8b49d341df538e9b7a15a73cc624807"
+    },
+    {
+      "path": "results/_legacy_original_installation/REGISTRY_REBUILD_TEST.json",
+      "bytes": 563,
+      "sha256": "b3ea6a5e0e8b9fde50abe4ccccaa992ca8967a597b13bb7da1a8198008aa8375"
+    },
+    {
+      "path": "results/_legacy_original_installation/regressions/Genesis_GR_Metric_Source_Realization.json",
+      "bytes": 2941,
+      "sha256": "f5e9e358009e5277692d19bcc8152334b4dc29d26a7ee36147f1d078a4537f35"
+    },
+    {
+      "path": "results/_legacy_original_installation/regressions/Genesis_GR_Metric_Source_Realization.log",
+      "bytes": 2942,
+      "sha256": "4d7ea5937330d45209fd9ae94c9561b2b4f1ee3c18bcaa7552b890a27cb6f2cc"
+    },
+    {
+      "path": "results/_legacy_original_installation/regressions/Genesis_GR_Regular_Completion_v0_1.json",
+      "bytes": 6073,
+      "sha256": "54bd90fbe969b6383b6f941c6dde094d55f29c93b5fc86fb434a73120848984e"
+    },
+    {
+      "path": "results/_legacy_original_installation/regressions/Genesis_GR_Regular_Completion_v0_1.log",
+      "bytes": 1593,
+      "sha256": "d4566fdf231b980748856606bb60cc6f344037cfd0bec4ea80afaa495eee0193"
+    },
+    {
+      "path": "results/_legacy_original_installation/regressions/Genesis_GR_Translation_Closure.json",
+      "bytes": 6744,
+      "sha256": "8e361cda1cfa1628825d2f8524fe61c9c989c4ad1ddceef0ba12cdbd46742107"
+    },
+    {
+      "path": "results/_legacy_original_installation/regressions/Genesis_GR_Translation_Closure.log",
+      "bytes": 2474,
+      "sha256": "4a3cb85e05ec603d3033f31d3b4d3297d604eb04f97a4f7db951f3d6391d8ee6"
+    },
+    {
+      "path": "results/_legacy_original_installation/regressions/MK43_Graviton_TimeShell_Handoff_v0_1.json",
+      "bytes": 4376,
+      "sha256": "2490641ffbaca510468940a18d6e612b59807770aaf95a96746fc4e8ecea1e20"
+    },
+    {
+      "path": "results/_legacy_original_installation/regressions/MK43_Graviton_TimeShell_Handoff_v0_1.log",
+      "bytes": 157,
+      "sha256": "5ddce0f6bfe047b2c5cedf397a19f3112f200964363113786e7be23145ceef60"
+    },
+    {
+      "path": "results/_legacy_original_installation/regressions/MKUltra_Chirality_Energy_Mass_Bridge.json",
+      "bytes": 2832,
+      "sha256": "39d6ac77e05ae864011c755827fee98f73e3596c2c8d3cddcab3096790ecb348"
+    },
+    {
+      "path": "results/_legacy_original_installation/regressions/MKUltra_Chirality_Energy_Mass_Bridge.log",
+      "bytes": 37,
+      "sha256": "78b683b56ccef0df43eb4f8ddb004cfd233be5e684b96082ad35c3da98df9d2f"
+    },
+    {
+      "path": "results/_legacy_original_installation/regressions/SUMMARY.json",
+      "bytes": 1091,
+      "sha256": "8752d1fe9c295af291b9a53f1e4f240f801b7690858bbe2881875b822682b5f7"
+    },
+    {
+      "path": "results/INSTALLATION_TESTS.json",
+      "bytes": 6181,
+      "sha256": "7f8bae22e9ca0adc8fd942f00a290eaf97f7355194183d085089a4ca697b10e8"
+    },
+    {
+      "path": "results/INSTALLATION_VALIDATION.json",
+      "bytes": 844,
+      "sha256": "64443d838f1189dea1bcef73f6b21fd866d6e23e333295399de00697c5fb4259"
+    },
+    {
+      "path": "results/QUERY_GRAVITON.json",
+      "bytes": 63728,
+      "sha256": "8e8252dce5455c761ca26534e9043b19d56362a8ff3224a4e30002b2b62df509"
+    },
+    {
+      "path": "results/QUERY_TIME_SHELL_PROJECTION.json",
+      "bytes": 52869,
+      "sha256": "263c7edaa2061e73dd6d20998887dc738ba6630690ce51df4ace80615290c622"
+    },
+    {
+      "path": "results/REGISTRY_REBUILD_TEST.json",
+      "bytes": 383,
+      "sha256": "4f18a5f2dceb3c0df85380ba3e2e7fa534e2ac4e7d28c7131d1a39eb5f09fddc"
+    },
+    {
+      "path": "results/regressions/Genesis_GR_Metric_Source_Realization.json",
+      "bytes": 2942,
+      "sha256": "87b707d3946b86ae5411209375724d825e1508c7835583b22f81e362af8085dc"
+    },
+    {
+      "path": "results/regressions/Genesis_GR_Metric_Source_Realization.log",
+      "bytes": 2943,
+      "sha256": "959ebe24e4e04650815dcb3f9ccd23a29559072a4e13046552495780b7cd525b"
+    },
+    {
+      "path": "results/regressions/Genesis_GR_Regular_Completion_v0_1.json",
+      "bytes": 6073,
+      "sha256": "431fec2b640b2fdd9bef3af44ae864173a0545acd05c6b2801543239fc99847f"
+    },
+    {
+      "path": "results/regressions/Genesis_GR_Regular_Completion_v0_1.log",
+      "bytes": 1593,
+      "sha256": "5daf0c4e2df65ffcd437aac8661bae84f5c67030fb89f02bdcf3a6a4522fec4d"
+    },
+    {
+      "path": "results/regressions/Genesis_GR_Translation_Closure.json",
+      "bytes": 6745,
+      "sha256": "bc02d0cc19cafbe2f6c16b48203e3b040207e5c510c7073f54f8fd389ca03fff"
+    },
+    {
+      "path": "results/regressions/Genesis_GR_Translation_Closure.log",
+      "bytes": 2474,
+      "sha256": "4a3cb85e05ec603d3033f31d3b4d3297d604eb04f97a4f7db951f3d6391d8ee6"
+    },
+    {
+      "path": "results/regressions/MK43_Graviton_TimeShell_Handoff_v0_1.json",
+      "bytes": 4376,
+      "sha256": "2490641ffbaca510468940a18d6e612b59807770aaf95a96746fc4e8ecea1e20"
+    },
+    {
+      "path": "results/regressions/MK43_Graviton_TimeShell_Handoff_v0_1.log",
+      "bytes": 157,
+      "sha256": "6b61cca934d32adc5e322c7ebc42f382278003ce0c442cace7e8cae0dc893ad0"
+    },
+    {
+      "path": "results/regressions/MKUltra_Chirality_Energy_Mass_Bridge.json",
+      "bytes": 2832,
+      "sha256": "39d6ac77e05ae864011c755827fee98f73e3596c2c8d3cddcab3096790ecb348"
+    },
+    {
+      "path": "results/regressions/MKUltra_Chirality_Energy_Mass_Bridge.log",
+      "bytes": 37,
+      "sha256": "78b683b56ccef0df43eb4f8ddb004cfd233be5e684b96082ad35c3da98df9d2f"
+    },
+    {
+      "path": "results/regressions/SUMMARY.json",
+      "bytes": 1090,
+      "sha256": "3753b5be91001700df6feab9f0b1bd2feaadd6cca1d782338b79d4f59d3a9c1e"
+    },
+    {
+      "path": "results/STATUS.json",
+      "bytes": 3131,
+      "sha256": "9693fe8a39421c8dbf771a99bdc9993481adc56d8c8c2306abaf4a91656918c9"
+    },
+    {
+      "path": "sources/_mass 2(4).md",
+      "bytes": 79204,
+      "sha256": "63d1632d5cd1b8725cf0353b0ad841bd6d9062868b9805eddd78895124b7eabe"
+    },
+    {
+      "path": "sources/_mass(3).md",
+      "bytes": 69648,
+      "sha256": "9fd07edc00d4c2325267057df4278fd5ebe489ccfb209536f9a66bebc0dad6ee"
+    },
+    {
+      "path": "sources/_mass_b(4).txt",
+      "bytes": 48253,
+      "sha256": "bb4b551c6814e0def76f94e2170ee40bafd15c0897f517be0e891357d7c892c9"
+    },
+    {
+      "path": "sources/FINAL(1).pdf",
+      "bytes": 126393,
+      "sha256": "f9e99ef97ba9327464fb83bb4bde6d1092304fd65910f3530010b355f36c2b33"
+    },
+    {
+      "path": "sources/gravity 3(20261031-234833).md",
+      "bytes": 33789,
+      "sha256": "86f731b58606abead8456d744ffe73092bf5f4f7e4bcd401da703e5a123ec44f"
+    },
+    {
+      "path": "sources/MK Ultra(10).pdf",
+      "bytes": 67402112,
+      "sha256": "cca59f71a28079fb6fc511df7b811a88b7e3fde97d84bc1f299c3f4b86b12e8d"
+    },
+    {
+      "path": "sources/MK43_Existing_Gravity_Source_Trace.md",
+      "bytes": 15526,
+      "sha256": "db179993d6e586b7d72dd1aaea13ca5f950ad6b7210b432fe39fe5c70d5e47b1"
+    },
+    {
+      "path": "sources/MK_ULTRA_CHIRALITY_BRIDGE_FULL_DIRECTOR_REPORT_v5(1).pdf",
+      "bytes": 254463,
+      "sha256": "a9a0436304558378b23591c2925b966e5947299bbc7e6adeb2c5833221e3f426"
+    },
+    {
+      "path": "sources/MK_ULTRA_CHIRALITY_BRIDGE_RECOVERY_REPORT_v1.0(1).pdf",
+      "bytes": 65382,
+      "sha256": "d8d8a3167476f550232b13cdd74235eecffd22abfdbc8c240694926ac3ede00b"
+    },
+    {
+      "path": "sources/The_Atlas_of_Becoming_Foundational_Research_Report.pdf",
+      "bytes": 364365,
+      "sha256": "60ccf280ec8dfccc527a8bb8101a97b0110a2cbca0e098256cf8adf356df8ecb"
+    },
+    {
+      "path": "tests/test_installation.py",
+      "bytes": 8184,
+      "sha256": "250a193f21e5118a851d67ec6ad9828e027d35c1636325c807564590f710a0e5"
+    },
+    {
+      "path": "tools/integrity.py",
+      "bytes": 7129,
+      "sha256": "cd833ef4eb64e0ecdc9d4fcf5d0519f909fed884bb856baec587720a74ae8903"
+    },
+    {
+      "path": "tools/rebuild_registry.py",
+      "bytes": 7105,
+      "sha256": "687b1a2a0ee7e1bde192e702eb9c7252ee4b2e6ebe555ff267d69c8d2858a4e7"
+    },
+    {
+      "path": "tools/run_regressions.py",
+      "bytes": 2894,
+      "sha256": "51fafff9a298bb2c4574365df187635772fa5b89cd7471796ac90f754693dc87"
+    },
+    {
+      "path": "tools/seal.py",
+      "bytes": 1038,
+      "sha256": "3bade70bc05f1e6b1e0124c5cc82e98a16186198512326c46d0f303dccd52388"
+    }
+  ]
+}

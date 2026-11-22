@@ -1,0 +1,40 @@
+{
+  "route": "Brane.handle -> Library.preview_transaction -> Library.commit_transaction",
+  "result": {
+    "status": "committed",
+    "operation": "library_transaction",
+    "transaction_id": "9493f9e745d94451955b3c6e5811f84d",
+    "receipt": {
+      "receipt_id": "e3fbb3df7366438481f4c09c194eb29e",
+      "operation": "ADD_PACKAGE",
+      "affected_handles": [
+        "@TimeSpaceModel",
+        "@TimeSpace",
+        "@S0",
+        "@GlobalTransformationRule",
+        "@ComplexAdmissibility",
+        "@RiemannCompactification",
+        "@S3",
+        "@RecursiveOrdering",
+        "@Geodesic",
+        "@UnitString",
+        "@S4",
+        "@RecursiveStabilization",
+        "@Continuation",
+        "@Persistence",
+        "@Recovery",
+        "@InformationConservation",
+        "@DotEvolutionOperators"
+      ],
+      "pre_state_hash": "c316909008275cfdb28aaab05c1261afe946dcc52b4c9e3590389182a1d1bf15",
+      "post_state_hash": "0ff4d7f747c900784de47f69baf459be338ed712cd8739b3746d72cdc8b1ab77",
+      "status": "committed",
+      "details": {}
+    }
+  },
+  "verified_handle": "@TimeSpace",
+  "recover_success": true,
+  "library_healthcheck": true,
+  "canonical_fingerprint": "0ff4d7f747c900784de47f69baf459be338ed712cd8739b3746d72cdc8b1ab77",
+  "database": "state/library.sqlite3"
+}

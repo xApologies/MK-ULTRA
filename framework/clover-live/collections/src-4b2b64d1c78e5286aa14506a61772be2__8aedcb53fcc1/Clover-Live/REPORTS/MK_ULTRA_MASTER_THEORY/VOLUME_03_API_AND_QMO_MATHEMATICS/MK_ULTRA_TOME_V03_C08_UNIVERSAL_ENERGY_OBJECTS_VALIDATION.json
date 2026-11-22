@@ -1,0 +1,102 @@
+{
+  "schema": "tome-publication-renderer-validation/v1",
+  "created_at": "2026-08-10T11:30:18.572724+00:00",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "engine": "KaTeX 0.16.22 -> HTML/CSS -> Playwright -> Microsoft Edge PDF",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_03_API_AND_QMO_MATHEMATICS/MK_ULTRA_TOME_V03_C08_UNIVERSAL_ENERGY_OBJECTS.pdf",
+    "bytes": 150281,
+    "sha256": "3a5630621c2bedc5838654dfab261cc89462f4b870d3d41f5d445a496e9dc0ff"
+  },
+  "actual_pages": 6,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V03-C08": 3
+  },
+  "chapter_validations": [
+    {
+      "chapter_id": "V03-C08",
+      "source_sha256": "d05e6be89f00dc59d70f5e39b4da3eb80724a8f452f164996ba6ca88858e25eb",
+      "page_start": 3,
+      "headings": 20,
+      "display_equations": 18,
+      "inline_equations": 18,
+      "equation_tags": 18,
+      "api_handles": 1,
+      "table_rows": 2,
+      "content_markers_present": true
+    }
+  ],
+  "engine_metrics": {
+    "renderer": "TOME_PUBLICATION_RENDERER_V1",
+    "katexVersion": "0.16.22",
+    "chapters": [
+      {
+        "id": "V03-C08",
+        "sourceBytes": 8915,
+        "paragraphs": 38,
+        "headings": 20,
+        "displayEquations": 18,
+        "inlineEquations": 18,
+        "tables": 1,
+        "tableRows": 1,
+        "listItems": 0,
+        "codeBlocks": 0,
+        "figures": 0
+      }
+    ],
+    "paragraphs": 38,
+    "headings": 20,
+    "displayEquations": 18,
+    "inlineEquations": 18,
+    "tables": 1,
+    "tableRows": 1,
+    "listItems": 0,
+    "blockQuotes": 0,
+    "codeBlocks": 0,
+    "figures": 0,
+    "mathLayout": {
+      "checked": 18,
+      "scaled": [],
+      "remainingOverflow": []
+    }
+  },
+  "raw_latex_guard": {
+    "result": "PASS",
+    "hits": [],
+    "commands_scanned": [
+      "frac",
+      "mathcal",
+      "mathrm",
+      "begin",
+      "end",
+      "left",
+      "right",
+      "longrightarrow",
+      "rightarrow",
+      "otimes",
+      "partial",
+      "nabla",
+      "mu",
+      "nu",
+      "sum",
+      "int",
+      "operatorname"
+    ]
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V03-C08": "d05e6be89f00dc59d70f5e39b4da3eb80724a8f452f164996ba6ca88858e25eb"
+  },
+  "source_hashes_after": {
+    "V03-C08": "d05e6be89f00dc59d70f5e39b4da3eb80724a8f452f164996ba6ca88858e25eb"
+  },
+  "sealed_chapter_content_change_count": 0,
+  "visual_qa": {
+    "result": "PASS",
+    "pages_inspected": "ALL_6_PAGES",
+    "render_dpi": 110,
+    "defects": [],
+    "notes": "All pages visually inspected after Poppler rendering. No clipping, overlap, blank-page, equation-rendering, table-layout, or pagination defects observed."
+  }
+}

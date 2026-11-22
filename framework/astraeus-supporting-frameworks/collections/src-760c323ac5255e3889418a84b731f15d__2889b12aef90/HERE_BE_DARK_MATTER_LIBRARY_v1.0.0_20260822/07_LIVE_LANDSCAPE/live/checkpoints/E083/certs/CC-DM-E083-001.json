@@ -1,0 +1,17 @@
+{
+  "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+  "certificate_id": "CC-DM-E083-001",
+  "checkpoint": "E083",
+  "object": "@dm_response_trace_q_handoff_witness",
+  "decision": "CONDITIONAL_TRACE_Q_SURVIVAL_CLOSED",
+  "scope": "standard Q completion preserving residue constituent",
+  "checks": {
+    "residue_bundle_separation_conditional_E082": true,
+    "Q_completion_nonempty_source_closed": true,
+    "Q_survival_theorem_source_closed": true,
+    "chromatic_dictionary_required": false,
+    "stress_energy_separation_proved": false,
+    "baseline_dm22_modified": false,
+    "physical_promotion": false
+  }
+}

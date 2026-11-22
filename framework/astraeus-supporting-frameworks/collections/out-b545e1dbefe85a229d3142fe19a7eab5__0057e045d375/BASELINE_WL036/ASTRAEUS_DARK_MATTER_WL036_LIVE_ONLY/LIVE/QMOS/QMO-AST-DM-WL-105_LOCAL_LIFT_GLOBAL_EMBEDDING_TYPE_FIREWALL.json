@@ -1,0 +1,19 @@
+{
+  "schema": "ASTRAEUS_LOCAL_LIFT_GLOBAL_EMBEDDING_FIREWALL_V1",
+  "qmo_id": "QMO-AST-DM-WL-105",
+  "name": "Local Lift vs Global Embedding Type Firewall",
+  "atlas_version": "WL-v221",
+  "work_layer": "WL-035",
+  "status": "TYPE_LEVEL_MISMATCH_IDENTIFIED",
+  "parent_promotions": 0,
+  "local_object": "LiftSet(f,x) = {y in F(V) | Adm_f(x,y)}",
+  "global_object": "iota_H:E_H^R -> E in Emb_H,phys^R",
+  "nonidentity": "connection-selected state lift != global hidden-state embedding map",
+  "repair_architecture": "@transduction_descent + Global Realization Object + Gluing Witness",
+  "guardrails": [
+    "do not promote state-level lift to bundle embedding",
+    "global realization existence is not guaranteed by Transduction definitions",
+    "no parent promotion"
+  ],
+  "next_handle": "@transduction_descent"
+}

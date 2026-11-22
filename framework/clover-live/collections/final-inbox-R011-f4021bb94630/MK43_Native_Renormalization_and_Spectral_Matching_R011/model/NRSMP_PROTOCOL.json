@@ -1,0 +1,19 @@
+{
+  "name": "Native Renormalization and Spectral Matching Protocol",
+  "abbreviation": "NRSMP",
+  "status": "formal matching protocol, not a new force law",
+  "steps": [
+    "diagonalize each hidden quadratic operator",
+    "compute readable residues for every hidden eigenmode",
+    "sort modes by physical threshold",
+    "match inherited readable coefficients at mu0",
+    "integrate out modes as the scale crosses each threshold",
+    "run inherited beta functions plus calculable hidden contributions",
+    "compute parameter-map rank and null relations",
+    "reserve unused observables as predictions"
+  ],
+  "classical_effective_Hessian": "A_eff(z)=A-B(K-zI)^(-1)B^dagger",
+  "one_loop_effective_action": "DeltaGamma_1=1/2 Tr_B log(K_B/mu^2)-Tr_F log(K_F/mu)+ghost terms",
+  "running": "mu dc_a/dmu=beta_a^inherited+beta_a^hidden(mu;spectrum,residues)",
+  "prediction_rule": "a quantity counts as predicted only if it was not used in matching or native-parameter calibration"
+}

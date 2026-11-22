@@ -1,0 +1,18 @@
+{
+  "schema": "ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1",
+  "landscape_id": "DL-DM-E083-TRACE-Q-SURVIVAL",
+  "seed": "@dm_conditional_response_trace_residue_survival",
+  "status": "CONDITIONAL_Q_SURVIVAL_CLOSED",
+  "nodes": [
+    "@dm_conditional_response_trace_residue_survival",
+    "@dm_q_completion_family",
+    "@dm_q_survival",
+    "@dm_response_trace_q_handoff_witness"
+  ],
+  "terminal": {
+    "state": "CONDITIONAL_Q_SURVIVAL_CLOSED",
+    "iteration": 3,
+    "focus": "@dm_response_trace_q_handoff_witness",
+    "reason": "DM 2.1/2.2 already proves residue-bundle distinctions cannot be erased merely by standard Q completion."
+  }
+}

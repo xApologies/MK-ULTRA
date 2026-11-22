@@ -1,0 +1,58 @@
+{
+  "schema": "ASTRAEUS_THEOREM_REGISTRY_V1",
+  "theorem_count": 3,
+  "theorems": [
+    {
+      "handle": "@theorem_resolution_handoff_fixed_bandwidth",
+      "title": "Resolution-Handoff Continuity Theorem — fixed Bandwidth",
+      "status": "DERIVED_CONDITIONAL",
+      "branch": "live_model",
+      "statement": "If Resolution handoff commutes, presentations share retained Formal Identity, the Identity Witness remains valid, and merged essential distinctions remain recoverable through provenance, then non-injective coarsening is structurally continuous under the declared contract.",
+      "assumptions": [
+        "rho_Ri = q_ji o rho_Rj",
+        "same retained formal object",
+        "valid Identity Witness",
+        "merged essential distinctions recoverable"
+      ],
+      "conclusion": "coarsening may change distinguishability without erasing canonical structure",
+      "provenance": [
+        "LIVE_MODEL::NF-005 §53.5"
+      ]
+    },
+    {
+      "handle": "@theorem_bandwidth_resolution_descent",
+      "title": "Bandwidth Modifier Resolution-Descent Condition",
+      "status": "DERIVED_CONDITIONAL",
+      "branch": "live_model",
+      "statement": "A typed Bandwidth modifier M descends to a well-defined Resolution readout map only if source Resolution equivalence is respected by the target readout: a~_R b implies M(a)~_R' M(b).",
+      "assumptions": [
+        "typed Bandwidth modifier",
+        "declared source/target Resolution equivalences"
+      ],
+      "conclusion": "induced readout map exists iff equivalence is respected",
+      "provenance": [
+        "LIVE_MODEL::NF-005 §53.7"
+      ]
+    },
+    {
+      "handle": "@theorem_witness_fiber_separation",
+      "title": "Recovery Witness Fiber-Separation Theorem",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "branch": "self_build",
+      "statement": "Let F_c be the fine-lineage fiber over one coarse Resolution handoff/readout c, and let W be the retained recovery-witness map on F_c. A witness-mediated recovery selector returns a unique declared fine lineage for every element of F_c if and only if W separates distinct recovery-relevant lineages on F_c (equivalently: W restricted to F_c has no collisions under the declared structural equivalence).",
+      "assumptions": [
+        "non-injective handoff fiber F_c is declared",
+        "recovery equivalence is declared",
+        "selector may use only retained witness data and may not invent suppressed structure"
+      ],
+      "conclusion": "Unique lineage recovery is equivalent to fiber separation by the retained witness; non-separating witness bundles are insufficient without an additional discriminator.",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "CE-RW-001",
+        "RESOLUTION_READOUT::S35",
+        "IDENTITY_THROUGH_HISTORY::D39-D49",
+        "HOLONOMY_CHIRALITY::HC-T8"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "run": "R62",
+  "status": "CLOSED_LOCAL_STRONG_GENESIS_MATHEMATICAL_CLOSURE",
+  "tests": {
+    "T1": "PASS",
+    "T2": "PASS_WITH_TYPED_BRANCH",
+    "T3": "PASS_WITH_INTRINSIC_BRANCH",
+    "T4": "PASS_SOURCE_TYPED",
+    "T5": "PASS"
+  },
+  "closure": {
+    "propagation_morphism": "closed locally",
+    "propagation_vector": "closed as Resolution-dependent readout class",
+    "new_fundamental_primitive_required": false
+  },
+  "branches": [
+    "@branch/transport_transduction",
+    "@branch/readout_type",
+    "@branch/s2_antipode"
+  ],
+  "roadblock": null,
+  "optional_next": "@qmo/propagation_readout_classifier",
+  "central_result": "Relationship propagates first. Motion is a resolved description of that propagation."
+}

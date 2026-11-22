@@ -1,0 +1,31 @@
+{
+  "schema": "ASTRAEUS_ER_THROAT_DARK_INGRESS_V1",
+  "qmo_id": "QMO-AST-DM-WL-096",
+  "name": "ER-Throat Incidence -> Dark Readout Ingress",
+  "atlas_version": "WL-v212",
+  "status": "CONTROLLED_PAIR_TEST_READY_NO_WITNESS_YET",
+  "parent_promotions": 0,
+  "source_chain": [
+    "@er_throat_incidence",
+    "@weighted_adjacency",
+    "@adjacency_lattice",
+    "@er_foam"
+  ],
+  "dm_interface_er_branch": [],
+  "dm_interface_nonempty": [],
+  "finding": "At radius 3, @er_throat_incidence meets the Dark Matter qualification-nonempty landscape only at @er_foam, while its ER-branch-readout landscape also exposes @weighted_adjacency and @adjacency_lattice. This localizes P023 Stage 1 to a pairwise incidence/weight comparison before entering the already-closed ER readout branch.",
+  "controlled_observation": {
+    "H0": "trivial/common-mode rotational History",
+    "H1": "persistent nontrivial relative orientation/shear/holonomy History",
+    "compare": [
+      "I_ER(H0)",
+      "I_ER(H1)",
+      "W_ER(H0)",
+      "W_ER(H1)"
+    ]
+  },
+  "pass": "I_ER(H0) != I_ER(H1) or W_ER(H0) != W_ER(H1), with both states source-admitted at the same declared local Resolution/Bandwidth constraints",
+  "null": "no incidence or weight separation; retain and pivot",
+  "next_action": "Run AST-DM-WL-P024. Do not enter hidden-state embedding/action/GR unless the incidence/weight pair separates.",
+  "current_next_handle": "@er_throat_incidence"
+}

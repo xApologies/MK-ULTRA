@@ -1,0 +1,39 @@
+{
+  "schema": "ASTRAEUS_DM_WORK_LAYER_QMO_V1",
+  "qmo_id": "QMO-AST-DM-WL-013",
+  "name": "Minimal History-Conditioned Hidden-Corridor / Kron Witness",
+  "status": "CONSTRUCTIVE_FINITE_MODEL_CLASS_WITNESS_NOT_PARENT_PROMOTED",
+  "work_layer_revision": "WL-014",
+  "date": "2026-08-17",
+  "parents": [
+    "QMO-AST-DM-WL-001_HISTORY_LEDGER_OPERATIVE_CORRIDOR_MASK",
+    "QMO-AST-DM-WL-011_MONOTONE_DARK_RESOLUTION_BAND",
+    "Atlas v121 Kron edge-addition monotonicity",
+    "Dark Matter API hidden S3 -> S2 Schur reduction"
+  ],
+  "addresses": {
+    "ports": ["A", "B"],
+    "hidden": ["C"]
+  },
+  "static_edges": ["e_AC", "e_BC"],
+  "H0": {
+    "operative_edges": ["e_AC"],
+    "Lambda": [[0, 0], [0, 0]]
+  },
+  "H1": {
+    "operative_edges": ["e_AC", "e_BC"],
+    "Lambda": [[0.5, -0.5], [-0.5, 0.5]]
+  },
+  "port_witness": [1, -1],
+  "result": "Lambda0*c=0 while Lambda1*c=(1,-1), and Lambda1-Lambda0 is PSD and nonzero.",
+  "structural_defect": "same declared matter port readout while reduced continuity operator differs",
+  "resolution_integration": "R_Lambda^*=R_d < R_Q^*=R_f in the three-Resolution witness, producing a pre-GR structural dark band",
+  "guardrails": [
+    "unit weights are normalization only",
+    "not a source-authoritative rotational galaxy instance",
+    "not physical gravity admission",
+    "DeltaLambda is not stress-energy",
+    "hidden address is not a particle",
+    "no parent promotion"
+  ]
+}

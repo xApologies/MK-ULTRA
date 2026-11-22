@@ -1,0 +1,16 @@
+digraph G {
+  graph [bgcolor="#07121f", rankdir=LR, pad=0.35, nodesep=0.45, ranksep=0.65, label="ATLAS PLATE VIII — MINIMAL S³ CONNECTION", labelloc=t, fontname="Helvetica", fontsize=22, fontcolor="#f2d58a"];
+  node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=12, fontcolor="#eaf7ff", color="#2a7892", fillcolor="#0d2233", penwidth=1.6];
+  edge [color="#58c4dd", fontcolor="#cdeef5", fontname="Helvetica", fontsize=10, penwidth=1.5];
+  S3 [label="S³ CONTINUITY BASE\nS³ ≅ SU(2)", fillcolor="#102b3d"];
+  A [label="HELICON / CHIRALITY CONNECTION\nA_H ∈ Ω¹(S³, g_H)"];
+  F [label="CURVATURE\nF_H = dA_H + A_H∧A_H", fillcolor="#173548"];
+  loop [label="CONTRACTIBLE LOOP ℓ\nHol_H(ℓ) ≠ 1 when F_H ≠ 0", fillcolor="#1b3148"];
+  T5 [label="5D TIME–SPACE CARRIER\nT⁵_std ≅ S³ × S²", color="#d4a84b", fillcolor="#27251f"];
+  S2a [label="LOCAL S² ADDRESS α\nQFT / GR / ER readout"];
+  S2b [label="LOCAL S² ADDRESS β\nQFT / GR / ER readout"];
+  S3 -> A -> F -> loop;
+  S3 -> T5 [label="base of"];
+  T5 -> S2a [label="fiber"];
+  T5 -> S2b [label="fiber"];
+}

@@ -1,0 +1,30 @@
+MK43 Ultra Pipeline 2 v0.3 — Runner Notes
+=========================================
+
+Do not use v0.3 to force coupling.
+Use v0.3 to test whether topology-specific coupling persists naturally.
+
+Core run pattern:
+    Pipeline 1 T0->T7
+    Pipeline 2 R0->R7
+    Optional reverse audit R7->R0->T7->T0
+    Repeat full cycle if testing equilibrium convergence.
+
+Minimum Phase 3 completion battery:
+    001: R0 identity audit
+    002: H+H controlled continuity exchange
+    003: H+H three full-cycle equilibrium
+    004: N+N corridor memory
+    005: N+N corridor-mediated transfer
+    006: C6H6 cyclic perturbation recovery
+    007: mixed pair hierarchy scan
+    008: A+B+C+D multi-manifold arbitration
+    009: reverse recovery audit
+
+Expected signatures:
+    H+H -> weak symmetric shell-sharing equilibrium
+    N+N -> bounded chirality corridor persistence
+    C6H6 -> distributed cyclic persistence ecology
+
+Failure is useful if interpretable.
+Uninterpretable loss of recursion, chirality recovery, or identity preservation means pipeline design failure.

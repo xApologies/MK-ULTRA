@@ -1,0 +1,28 @@
+{
+  "schema": "ASTRAEUS_HIDDEN_EMBEDDING_TYPED_LIFT_ROLE_V1",
+  "qmo_id": "QMO-AST-DM-WL-103",
+  "name": "Hidden Embedding Typed-Lift Role Match",
+  "atlas_version": "WL-v219",
+  "work_layer": "WL-035",
+  "status": "STRUCTURAL_ROLE_MATCH_NOT_IDENTITY",
+  "parent_promotions": 0,
+  "dark_matter_object": {
+    "handle": "@dm_constraint_preserving_embedding_family",
+    "family": "Emb_H,phys^R",
+    "open_question": "Emb_H,phys^R != empty, and if nonempty select physical iota_H"
+  },
+  "transduction_object": {
+    "handle": "@typed_lift_architecture",
+    "status": "PROMOTED_CANDIDATE",
+    "role": "cartesian-style restriction lifts and cocartesian-style forward realization lifts"
+  },
+  "role_match": "The DM bundle-map square over j_T has the shape of a typed forward realization with additional inheritance and constraint-kernel conditions.",
+  "guardrails": [
+    "role match != cross-source identity",
+    "iota_H is not declared cocartesian by source",
+    "typed lift architecture is not a proved canonical Grothendieck fibration/opfibration",
+    "no hidden embedding selected",
+    "no parent promotion"
+  ],
+  "next_handle": "@transduction_connection"
+}

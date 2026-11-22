@@ -1,0 +1,326 @@
+{
+  "schema": "ASTRAEUS_RAINBOW_ROAD_FRONTIER_REGISTRY_V2",
+  "current_handle": "@number_scale_reparameterization_frontier",
+  "frontiers": [
+    {
+      "handle": "@object_resolution_recovery_witness_minimality",
+      "status": "PARENT_FRONTIER",
+      "priority": "P0",
+      "question": "What is the smallest recoverable provenance/witness structure that selects the correct fine-resolution lineage from a non-injective Resolution handoff without requiring the coarse readout itself to contain the suppressed structure?",
+      "native_branches": [
+        "transduction_geometry",
+        "bandwidth_algebra",
+        "resolution_readout",
+        "identity_through_history"
+      ],
+      "probe_branches": [
+        "holonomy_chirality"
+      ],
+      "candidate_outputs": [
+        "@witness_bundle_core",
+        "@witness_bundle_history_augmented",
+        "@witness_bundle_full_state_fallback",
+        "@fine_lineage_selector"
+      ],
+      "next_tests": [
+        "Construct explicit non-injective handoff fiber counterexamples",
+        "Test core witness bundle for unique/adequate lineage selection",
+        "Add History only when core witness fails",
+        "Use full predecessor state only as fallback upper bound",
+        "Test composition across R_k -> R_j -> R_i"
+      ]
+    },
+    {
+      "handle": "@recovery_witness_counterexample_crawl",
+      "status": "CLOSED_PASS_003",
+      "priority": "P0",
+      "question": "Can the smallest candidate witness bundle fail to distinguish two fine-resolution lineages in the same non-injective handoff fiber, and if so, exactly which additional structural component is necessary to repair the ambiguity?",
+      "native_branches": [
+        "resolution_readout",
+        "identity_through_history",
+        "transduction_geometry",
+        "bandwidth_algebra"
+      ],
+      "probe_branches": [
+        "holonomy_chirality"
+      ],
+      "candidate_outputs": [
+        "@witness_bundle_core",
+        "@witness_bundle_history_augmented",
+        "@witness_bundle_full_state_fallback",
+        "@fine_lineage_selector"
+      ],
+      "next_tests": [
+        "Construct same-coarse-readout/different-lineage pairs",
+        "Test core witness collision",
+        "Add History only if collision persists",
+        "Identify minimal repair component",
+        "Audit composition across chained handoffs"
+      ],
+      "result": "CE-RW-001 found: unqualified core witness is not universally sufficient; explicit History repairs this counterexample; minimal discriminator remains open."
+    },
+    {
+      "handle": "@recursive_domain_perturbation_stability",
+      "status": "RUNTIME_AUDIT_FRONTIER",
+      "priority": "P1",
+      "question": "Which local changes reclose locally, which require wider recursive reclosure, and which expose a hard closure defect inside Rainbow Road?",
+      "native_branches": [
+        "transduction_geometry",
+        "bandwidth_algebra",
+        "resolution_readout",
+        "identity_through_history",
+        "holonomy_chirality"
+      ],
+      "probe_branches": [
+        "rainbow_runtime"
+      ],
+      "candidate_outputs": [
+        "@recursive_impact_cone",
+        "@closure_equivariance_defect"
+      ],
+      "next_tests": [
+        "Run native hard-guard perturbations",
+        "Compare readout-only versus constraint perturbations",
+        "Track invalidated closure certificates",
+        "Require recovery witness on reclosure"
+      ]
+    },
+    {
+      "handle": "@recovery_history_signature_minimality",
+      "status": "CLOSED_PASS_004",
+      "priority": "P0",
+      "question": "Can full ordered History be compressed to a smaller retained History/holonomy signature while remaining separating on every recovery-relevant handoff fiber and stable under admissible composition?",
+      "native_branches": [
+        "identity_through_history",
+        "holonomy_chirality",
+        "resolution_readout",
+        "transduction_geometry",
+        "bandwidth_algebra"
+      ],
+      "probe_branches": [
+        "rainbow_runtime"
+      ],
+      "candidate_outputs": [
+        "@history_holonomy",
+        "@holonomy_history_signature",
+        "@recovery_discriminator"
+      ],
+      "next_tests": [
+        "Query source-backed History Holonomy and D57 Holonomy History Signature",
+        "Construct pairs with same Identity Witness transformation but different History",
+        "Test candidate signature for fiber separation",
+        "Test composition across chained Resolution handoffs",
+        "Retain full ordered History as fallback whenever a quotient is not separating"
+      ],
+      "result": "Abstract minimal compositional recovery signature closed as the quotient of History by Recovery Context Equivalence. Finite/source-field realization remains open."
+    },
+    {
+      "handle": "@holonomy_signature_realization_test",
+      "status": "CLOSED_PASS_005",
+      "priority": "P0",
+      "question": "Does the source-backed Holonomy History Signature scaffold realize the abstract Recovery History Signature Quotient, and which of its fields are necessary, redundant, or insufficient for recovery-fiber separation and composition?",
+      "native_branches": [
+        "holonomy_chirality",
+        "identity_through_history",
+        "resolution_readout",
+        "transduction_geometry",
+        "bandwidth_algebra"
+      ],
+      "probe_branches": [
+        "rainbow_runtime"
+      ],
+      "candidate_outputs": [
+        "@holonomy_history_signature",
+        "@recovery_history_signature_quotient",
+        "@recovery_signature_composition"
+      ],
+      "next_tests": [
+        "Project source Sig_Hol fields individually and in subsets",
+        "Construct same-subsignature/different-recovery-class counterexamples",
+        "Test whether [h] is required or merely defeats compression",
+        "Test induced signature composition across chained handoffs",
+        "Retain abstract quotient as gold-standard recovery class when finite tuple is not separating"
+      ],
+      "result": "Concrete realization criterion closed: exact minimal realization iff signature kernel equals Recovery Context Equivalence. Current source Sig_Hol remains an uncertified scaffold."
+    },
+    {
+      "handle": "@holonomy_signature_field_redundancy_crawl",
+      "status": "PARKED_OPTIONAL_OPTIMIZATION",
+      "priority": "P0",
+      "question": "Which subtuple/projection of Sig_Hol=(src,tgt,[h],Hol_Conn,Hol_chi,Hol_Id,scope,provenance) has kernel exactly equal to Recovery Context Equivalence, if any?",
+      "native_branches": [
+        "holonomy_chirality",
+        "identity_through_history",
+        "resolution_readout",
+        "transduction_geometry",
+        "bandwidth_algebra"
+      ],
+      "probe_branches": [
+        "rainbow_runtime"
+      ],
+      "candidate_outputs": [
+        "@holonomy_history_signature",
+        "@signature_underresolution_defect",
+        "@signature_overresolution_defect"
+      ],
+      "next_tests": [
+        "Do not perform arbitrary field deletion",
+        "Use typed envelope normalization",
+        "Instantiate recovery test basis",
+        "Return to payload kernel testing only after test basis exists"
+      ],
+      "result": "D57 field minimization is optional unless Sig_Hol is explicitly assigned the minimal recovery-selector implementation role."
+    },
+    {
+      "handle": "@recovery_test_family_instantiation",
+      "status": "PARKED_IMPLEMENTATION_FRONTIER",
+      "priority": "P0",
+      "question": "Which explicit source- and continuity-contract-aligned recovery tests must be instantiated so concrete History-signature projections can be attacked for underresolution without pretending the chosen basis is already complete?",
+      "native_branches": [
+        "identity_through_history",
+        "holonomy_chirality",
+        "resolution_readout",
+        "transduction_geometry",
+        "bandwidth_algebra"
+      ],
+      "probe_branches": [
+        "rainbow_runtime"
+      ],
+      "candidate_outputs": [
+        "@recovery_test_family",
+        "@recovery_discriminator",
+        "@history_trace",
+        "@identity_witness"
+      ],
+      "next_tests": [
+        "Recover mandatory recovery obligations from source and hard continuity guards",
+        "Register a typed core test basis",
+        "Construct counterexamples against the basis",
+        "Search for a completeness defect rather than assert completeness",
+        "Resume D57 field projection only after the test basis is operational"
+      ],
+      "result": "Still useful for concrete implementation of Sig_Rec, but no longer blocks foundational work after signature-role separation."
+    },
+    {
+      "handle": "@number_object_readout_frontier",
+      "status": "CLOSED_PASS_008",
+      "priority": "P0",
+      "question": "Given a recoverable mathematical object and its Resolution/Transduction presentations, what structural condition makes a resulting object/readout function numerically rather than merely qualitatively, without assuming counting, arithmetic, coordinate magnitude, or numeral semantics?",
+      "native_branches": [
+        "transduction_geometry",
+        "bandwidth_algebra",
+        "resolution_readout",
+        "identity_through_history",
+        "holonomy_chirality"
+      ],
+      "probe_branches": [
+        "rainbow_runtime",
+        "prime_dependency"
+      ],
+      "candidate_outputs": [
+        "@number_ontology",
+        "@objectivity",
+        "@formal_object",
+        "@resolution_readout",
+        "@primitive_structural_zero",
+        "@closed_domain_unity"
+      ],
+      "next_tests": [
+        "Build a Dependency Landscape around object/readout/transduction rather than arithmetic",
+        "Separate object identity from readout role",
+        "Search for structural properties unique to numerical use rather than generic classification",
+        "Use perturbation probes against candidate numerical roles",
+        "Do not promote counting-domain or address hypotheses without a new derivation"
+      ],
+      "result": "Native corpus supplies a concrete numerical-use exemplar: formal Bandwidth object -> Resolution/readout -> optional scalar valuation. This proves object-before-scalarization ordering but exposes numerical-codomain circularity."
+    },
+    {
+      "handle": "@number_valuation_codomain_frontier",
+      "status": "CLOSED_PASS_009",
+      "priority": "P0",
+      "question": "What internal structure on an uninterpreted valuation-output domain V makes its elements function numerically rather than as ordinal, nominal, or otherwise qualitative summary labels, without assuming a conventional number system in the codomain?",
+      "native_branches": [
+        "bandwidth_algebra",
+        "resolution_readout",
+        "transduction_geometry",
+        "identity_through_history",
+        "holonomy_chirality"
+      ],
+      "probe_branches": [
+        "rainbow_runtime",
+        "prime_dependency"
+      ],
+      "candidate_outputs": [
+        "@foundational_valuation_lift",
+        "@numerical_role_as_valuation_output",
+        "@valuation_readout_role",
+        "@classifier_readout_role"
+      ],
+      "next_tests": [
+        "Build a Dependency Landscape around valuation/readout/classifier roles",
+        "Construct qualitative ordered/classifier counterexamples to avoid equating order with number",
+        "Test whether structural reparameterization/scale freedom is the missing numerical condition",
+        "Preserve object-first provenance and do not predeclare V numerical"
+      ],
+      "result": "The notebook recovered a source-backed unit-normalization realization: many distinct configurations may share ell(c)=1. This proves a non-counting role for a 1-labeled valuation and supplies a normalization anchor for the next number test."
+    },
+    {
+      "handle": "@number_unit_normalization_frontier",
+      "status": "CLOSED_PASS_010_011",
+      "priority": "P0",
+      "question": "Can a family of valuation-output objects acquire a numerical role by being related to a recoverable normalization/unit object, with values defined through structure-preserving transduction relative to that unit, without importing arithmetic division, counting, or a pre-existing numerical codomain?",
+      "native_branches": [
+        "bandwidth_algebra",
+        "transduction_geometry",
+        "resolution_readout",
+        "identity_through_history"
+      ],
+      "probe_branches": [
+        "rainbow_runtime",
+        "prime_dependency"
+      ],
+      "candidate_outputs": [
+        "@unit_value_role",
+        "@foundational_valuation_lift",
+        "@closed_domain_unity",
+        "@unit_closed_unity_nonidentity_guard"
+      ],
+      "next_tests": [
+        "Use valuation-fiber quotient to separate value role from source-object identity",
+        "Use source Bandwidth capacity order as order-without-scalar counterexample",
+        "Test unit/order-preserving reparameterizations",
+        "Advance only to relative transport/scale structure without importing arithmetic"
+      ],
+      "result": "Unit normalization was retained as a valid non-counting anchor, but valuation fibers/quotients are generic to all readouts and native Bandwidth order exists before optional scalarization. Unit + quotient + order therefore do not close numerical role; reparameterization freedom becomes the next discriminator."
+    },
+    {
+      "handle": "@number_scale_reparameterization_frontier",
+      "status": "ACTIVE",
+      "priority": "P0",
+      "question": "What additional structure on a valuation-fiber quotient with a distinguished unit constrains admissible reparameterizations enough for outputs to acquire a genuinely numerical role, without importing conventional numbers, division, counting, or predeclared arithmetic operations?",
+      "native_branches": [
+        "bandwidth_algebra",
+        "transduction_geometry",
+        "resolution_readout",
+        "identity_through_history"
+      ],
+      "probe_branches": [
+        "rainbow_runtime",
+        "prime_dependency"
+      ],
+      "candidate_outputs": [
+        "@relative_value_transport",
+        "@unit_order_reparameterization_stabilizer",
+        "@numerical_role_as_valuation_output"
+      ],
+      "next_tests": [
+        "Construct presentation-independent relative transport between value classes",
+        "Require compatibility with valuation fibers, unit anchor, and provenance",
+        "Test composition/concatenation only as an unnamed transport law; do not call it addition",
+        "Classify which reparameterizations remain admissible",
+        "Build counterexamples where order/unit survive but quantitative statements do not"
+      ]
+    }
+  ],
+  "runtime_handle": "@recursive_domain_perturbation_stability"
+}

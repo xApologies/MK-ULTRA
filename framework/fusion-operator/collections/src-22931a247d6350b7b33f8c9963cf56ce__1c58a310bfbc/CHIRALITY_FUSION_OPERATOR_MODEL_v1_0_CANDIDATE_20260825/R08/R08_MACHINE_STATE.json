@@ -1,0 +1,34 @@
+{
+  "run": "R08",
+  "title": "Resolution / Readout",
+  "status": "CLOSED",
+  "classification": "FORMAL-PROFILE-PERSISTENT / RESOLUTION-RELATIVE / COARSENING-ALIASABLE / BANDWIDTH-SEPARATED",
+  "formal_record": "F_full=(Q,lambda_Q,A_F,B_F,q,X_F,W_G,eta_F,Inv_F)",
+  "readout_architecture": "Read_R = Realize_R o q_R",
+  "resolution_equivalence": "F ~_R G iff q_R(F)=q_R(G)",
+  "illustrative_chain": [
+    "R0_balance",
+    "R1_chi",
+    "R2_seam",
+    "R3_full"
+  ],
+  "nonmonotone_branch": "R_occ",
+  "current_exact_counts": {
+    "null_loci": 3,
+    "existence_loci": 4,
+    "carrier_loci": 7
+  },
+  "r07_chirality": {
+    "parity": -1,
+    "signed_balance": 0,
+    "local_content": 2
+  },
+  "core_laws": [
+    "readout loss != formal destruction",
+    "refinement revelation != formal creation",
+    "same readout != same formal provenance when Read_R is noninjective",
+    "Resolution distinguishability != Bandwidth availability",
+    "visual mismatch != corruption without a declared readout contract"
+  ],
+  "next": "R09 \u2014 Holonomy"
+}

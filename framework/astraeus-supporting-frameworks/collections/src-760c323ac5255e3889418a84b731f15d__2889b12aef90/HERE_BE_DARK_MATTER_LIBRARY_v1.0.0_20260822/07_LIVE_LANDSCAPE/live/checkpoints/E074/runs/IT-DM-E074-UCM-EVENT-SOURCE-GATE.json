@@ -1,0 +1,11 @@
+{
+  "schema": "ASTRAEUS_DM_ITERATION_RUN_V1",
+  "run_id": "IT-DM-E074-UCM-EVENT-SOURCE-GATE",
+  "checkpoint": "E074",
+  "seed": "@dm_ucm_source_domain_distinction",
+  "ceiling": 128,
+  "iterations_used": 2,
+  "terminal_state": "OPEN_FORK_EVENT_TO_SOURCE_SENSITIVITY",
+  "open_next": "@dm_ucm_event_to_source_nonannihilation",
+  "note": "Exact source-projection compression gate isolated; action-selection lane parked as an alternate representation route."
+}

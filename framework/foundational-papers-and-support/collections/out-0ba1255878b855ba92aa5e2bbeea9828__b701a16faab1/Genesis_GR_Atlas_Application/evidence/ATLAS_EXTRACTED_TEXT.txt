@@ -1,0 +1,2590 @@
+PDF PAGE 1
+RESEARCH REPORT / FOUNDATIONAL PROGRAM
+The Atlas
+of Becoming
+Structural identity, transformation histories,
+information recovery, proof and provenance
+Research Notes 001–030
+Complete foundational research submission
+Prepared by Vera
+Research collaboration and Path Hypothesis contribution: Genesis
+31 October 2026
+·
+Notebook checkpoint v2.5.0
+Submission status. The thirty-note foundational research program is completed and consolidated. The
+proposed Atlas Engine is specified and prototyped in parts, not yet an integrated release. Independent
+peer review remains outstanding.
+
+
+PDF PAGE 2
+Contents
+1
+Executive summary
+1
+1.1
+How to read this report . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2
+2
+The question: when is a changing thing still the same thing?
+4
+2.1
+A triangle, three answers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+2.2
+A history does not follow from resemblance . . . . . . . . . . . . . . . . . . . . . . .
+4
+2.3
+Why the path matters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+2.4
+The guiding commitments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+3
+Persistence, restoration, and the mathematical meaning of a witness
+7
+3.1
+Persistence is a statement about the entire route
+. . . . . . . . . . . . . . . . . . . .
+7
+3.2
+The role of a functor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+3.3
+The preservation category . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+3.4
+Evidence that preservation occurred . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+3.5
+What this chapter establishes—and what it does not . . . . . . . . . . . . . . . . . .
+9
+4
+A history is not its result
+10
+4.1
+The simplest loss of historical information . . . . . . . . . . . . . . . . . . . . . . . .
+10
+4.2
+Why order must be retained . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+4.3
+Proofs have histories too . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+4.4
+The three layers a reader should keep separate
+. . . . . . . . . . . . . . . . . . . . .
+11
+4.5
+From historical preservation to research integrity
+. . . . . . . . . . . . . . . . . . .
+12
+5
+What can be recovered from incomplete information?
+13
+5.1
+The difference between losing information and losing access to it . . . . . . . . . .
+13
+5.2
+How much auxiliary information is needed? . . . . . . . . . . . . . . . . . . . . . . .
+14
+5.3
+Recovering a feature without recovering the whole state
+. . . . . . . . . . . . . . .
+14
+5.4
+The historical recoverability criterion . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14
+5.5
+A canonical result is not a canonical history
+. . . . . . . . . . . . . . . . . . . . . . .
+15
+VERA · 31 OCT 2026
+i
+
+
+PDF PAGE 3
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+6
+Causality, chronology, and multiple valid histories
+16
+6.1
+A list of events is not a causal explanation
+. . . . . . . . . . . . . . . . . . . . . . . .
+16
+6.2
+How two serializations can agree . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+16
+6.3
+When order truly does not change the result . . . . . . . . . . . . . . . . . . . . . . .
+17
+6.4
+Merging causal records without inventing a contradiction
+. . . . . . . . . . . . . .
+17
+6.5
+Chronology and information have different jobs
+. . . . . . . . . . . . . . . . . . . .
+18
+7
+When proofs of equivalence disagree
+19
+7.1
+Another level above paths . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+7.2
+The coherence boundary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+19
+7.3
+A deliberately small experiment with three events . . . . . . . . . . . . . . . . . . .
+20
+7.4
+Four events and the geometry of local proof relations
+. . . . . . . . . . . . . . . . .
+20
+7.5
+What the finite tests do not establish . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+21
+8
+Partial operations and why admissibility comes first
+22
+8.1
+Two operations that sometimes commute . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+8.2
+State-dependent exchange . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+8.3
+Why a local certificate needs its context . . . . . . . . . . . . . . . . . . . . . . . . . .
+23
+8.4
+An example that records the difference between intermediate states . . . . . . . .
+23
+9
+Observational equivalence and the safe loss of detail
+25
+9.1
+What if the full state cannot be seen?
+. . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+9.2
+Strong transition congruence
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+9.3
+Constructing the smallest sufficient observation . . . . . . . . . . . . . . . . . . . . .
+26
+9.4
+A six-state experiment—and a useful mistake
+. . . . . . . . . . . . . . . . . . . . . .
+26
+9.5
+Why “minimal” is always relative . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+10 How much information does a history require?
+28
+10.1 Counting distinguishable possibilities . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+10.2 Side information changes the bound . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+28
+10.3 Trace theory: remembering causal equivalence . . . . . . . . . . . . . . . . . . . . .
+29
+10.4 The four-event trace experiment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+10.5 Three separate compression goals
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+10.6 Why trace equivalence cannot be assumed everywhere . . . . . . . . . . . . . . . .
+30
+10.7 A deeper finding about information . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+VERA · 31 OCT 2026
+ii
+
+
+PDF PAGE 4
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+11 Revision, proof transport, and mathematical trust
+32
+11.1 Mathematical documents change after proofs are written . . . . . . . . . . . . . . .
+32
+11.2 A proof translated to a new theory is a new artifact . . . . . . . . . . . . . . . . . . .
+32
+11.3 Incomplete translation is not failed mathematics . . . . . . . . . . . . . . . . . . . .
+33
+11.4 A small independent checker
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+34
+11.5 What the checker can and cannot certify . . . . . . . . . . . . . . . . . . . . . . . . .
+34
+12 The proposed Atlas Engine
+35
+12.1 Turning the research into a system . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+12.2 A practical data architecture . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+35
+12.3 A reference record, explained in ordinary language
+. . . . . . . . . . . . . . . . . .
+36
+12.4 Release requirements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+36
+12.5 A coherent next build sequence . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+37
+13 An end-to-end case study: the history of a mathematical claim
+38
+13.1 Why the report needs a complete example . . . . . . . . . . . . . . . . . . . . . . . .
+38
+13.2 Stage one: define the mathematical objects . . . . . . . . . . . . . . . . . . . . . . . .
+38
+13.3 Stage two: construct a checkable witness . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+13.4 Stage three: preserve the actual event history . . . . . . . . . . . . . . . . . . . . . .
+39
+13.5 Stage four: a later observer requests less information . . . . . . . . . . . . . . . . .
+39
+13.6 Stage five: the transformation law is revised . . . . . . . . . . . . . . . . . . . . . . .
+40
+13.7 Stage six: a proof translator proposes an update . . . . . . . . . . . . . . . . . . . . .
+40
+13.8 Stage seven: audit the entire episode . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+40
+13.9 What this demonstration proves about the project
+. . . . . . . . . . . . . . . . . . .
+41
+14 Findings, originality, and limitations
+42
+14.1 The findings I would defend . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+42
+14.2 What is mathematically established, and what is architectural . . . . . . . . . . . .
+43
+14.3 The originality question . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+43
+14.4 The status of verification . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+44
+14.5 Scope restrictions a reader must not miss . . . . . . . . . . . . . . . . . . . . . . . . .
+44
+14.6 An assessment in the style of a mathematical research examination
+. . . . . . . .
+44
+15 Conclusions and final submission
+46
+15.1 The answer to the founding question
+. . . . . . . . . . . . . . . . . . . . . . . . . . .
+46
+VERA · 31 OCT 2026
+iii
+
+
+PDF PAGE 5
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+15.2 What the completed foundational program delivers
+. . . . . . . . . . . . . . . . . .
+46
+15.3 Final reflection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+47
+A Mathematical statements and proof reference
+48
+A.1 Preservation through a functor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+48
+A.2 Recoverability of a linear input . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+48
+A.3 Recovery of a history class . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+49
+A.4 The uniform finite coding bound . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+49
+A.5 Contextual swapping of partial transformations . . . . . . . . . . . . . . . . . . . . .
+49
+A.6 Causal order and path-independent evaluation . . . . . . . . . . . . . . . . . . . . .
+50
+A.7 Finite stable observation refinement . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+50
+A.8 Proof reuse under a version change . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+50
+A.9 A formal checker does not establish historical truth
+. . . . . . . . . . . . . . . . . .
+51
+A.10 A statement about proof equality that remains conditional . . . . . . . . . . . . . .
+51
+B The thirty-note research record
+52
+C
+Experimental and verification record
+56
+C.1
+How the experiments were used
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+56
+C.2
+Errors that were worth retaining . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+57
+C.3
+What a stronger reproducibility audit would require . . . . . . . . . . . . . . . . . .
+58
+D Glossary for the independent reader
+59
+E
+Source provenance, literature, and submission notes
+62
+E.1
+Primary source . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+62
+E.2
+Foundational mathematics consulted or compared . . . . . . . . . . . . . . . . . . .
+62
+E.3
+Acknowledgment of scope and assessment . . . . . . . . . . . . . . . . . . . . . . . .
+63
+VERA · 31 OCT 2026
+iv
+
+
+PDF PAGE 6
+Chapter 1
+Executive summary
+The Atlas of Becoming began with a deceptively simple question: What does it mean for some-
+thing to remain itself while becoming something else? Over thirty research notes, the question
+evolved into a precise investigation of mathematical identity, transformation, persistence, in-
+formation loss, proof, and historical record. This report presents the resulting foundations as
+a single readable account. It is intended for a mathematically literate reader, but it explains
+the central ideas before introducing formal notation.
+The project’s most important finding is a separation of things that are often treated as
+though they were identical. Two objects may have the same structure without sharing a
+history. Two histories may produce the same result without having the same intermediate
+steps. Two proofs may establish the same mathematical claim without being the same proof.
+And a mathematically correct proof does not, by itself, certify that a claimed historical event
+occurred.
+These are not philosophical distinctions alone. They can be expressed by specific mathematical
+constructions and tested in concrete cases. The Atlas uses categories and functors to describe
+preservation of structure; directed paths and causal partial orders to describe recorded trans-
+formations; linear algebra and finite counting to study what can be recovered; rewriting and
+trace theory to compare histories; and versioned certificates to distinguish genuine verification
+from assertions of verification.
+The research produced the following principal results:
+1. Structural identity is relative to a chosen structure. A triangle can change its lengths
+without changing its abstract connectivity. The answer to “is it the same?” depends on
+whether we mean geometry, graph structure, topology, or some other specified invariant.
+2. Persistence is stronger than restoration. A feature can be present at the beginning
+and end of a history while disappearing between them. Equal endpoint measurements
+do not prove unbroken transport.
+3. The mathematical result does not uniquely identify the path. Distinct ordered histo-
+ries can have the same evaluated transformation or the same final state. Preserving the
+path requires an additional historical record.
+4. Recoverability admits exact criteria. In a finite-dimensional linear setting, a transfor-
+mation output together with an auxiliary record reconstructs the input precisely when
+their kernels have trivial intersection. For arbitrary histories, exact recovery is charac-
+terized by whether different target histories can produce identical retained evidence.
+VERA · 31 OCT 2026
+1
+
+
+PDF PAGE 7
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+5. Causal order differs from recorded order. Several valid serializations may express
+the same partial order; the absence of a causal relation, however, does not establish that
+the corresponding transformations commute.
+6. Safe interchange is conditional. Two operations may be exchangeable at one state and
+not at another. For partial operations, admissibility and the equality of the reached states
+must both be checked.
+7. A minimal sufficient observation can be constructed for finite deterministic sys-
+tems. Iteratively separating states that differ in enabledness or future observable behav-
+ior yields the coarsest stable refinement of an initial observation.
+8. Proof checking, version migration, and historical authentication have different
+trust requirements. A small checker can validate a formal derivation relative to stated
+rules and assumptions. It cannot establish authorship, timing, or occurrence without
+independent evidence.
+These conclusions are supported by proofs of conditional propositions, counterexamples, and
+finite computational experiments. For example, a four-event experiment examined all 24 pos-
+sible execution orders and the 16 shortest derivations that reverse their order. A separate
+observational-refinement example showed why one pass of an algorithm was insufficient: the
+actual stable refinement required a second pass. Such tests confirm the examples, not the gen-
+eral theory; the general claims stand or fall by their mathematical arguments.
+What was completed: the foundational research program through Research Note 030; a con-
+solidated specification; multiple proof sketches and complete elementary proofs; finite ver-
+ification experiments; a proof-record prototype; and an archival notebook that records the
+project’s evolution. What was not completed: an integrated, release-ready Atlas Engine; a
+fully formalized general higher-category coherence theory; a complete authentication system;
+or independent peer review. The principal mathematical ingredients are largely established
+work. The project’s distinctive aim is their careful integration into a reproducible, provenance-
+preserving architecture. The originality of that integration remains to be evaluated against the
+broader literature.
+The central conclusion can be stated without specialized vocabulary:
+Knowing what something became is not the same as knowing how it became
+that way. The history, the result, the justification, and the evidence for the
+history must be kept distinguishable.
+This report is a foundational research submission, not a declaration of a proven new uni-
+versal theory or a completed software product. It supplies the definitions and arguments nec-
+essary for another researcher to understand, challenge, reproduce, and extend the work.
+1.1 How to read this report
+The first three chapters explain the problem and its most accessible examples. The middle chap-
+ters present the principal mathematics and the experiments that tested it. The final chapters
+VERA · 31 OCT 2026
+2
+
+
+PDF PAGE 8
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+assess what is established, identify the limits, and specify the next engineering step. A tech-
+nical appendix collects the most important propositions; a research-note index shows where
+each of the thirty notes contributes. Citations to “RN” refer to the corresponding numbered
+research note in the authoritative notebook. Terms that may be unfamiliar are defined when
+they first appear and collected in a glossary.
+The presentation is intentionally different from the notebook. A notebook records discovery,
+corrections, unsuccessful ideas, and detailed experiments. A research report reorganizes that
+work so another person can follow the argument. Neither is a substitute for the other.
+VERA · 31 OCT 2026
+3
+
+
+PDF PAGE 9
+Chapter 2
+The question: when is a changing thing
+still the same thing?
+2.1 A triangle, three answers
+Imagine drawing a triangle on paper, then stretching the paper. The angles and lengths change,
+but it still has three corners and three sides connected in a cycle. Is it the same triangle? A
+geometer concerned with congruence might answer no. Someone considering the incidence
+graph—the abstract record of which vertices connect to which other vertices—might answer
+yes. Someone concerned only with topology might go further: the outline of any nondegener-
+ate triangle is topologically a circle.
+The triangle has not delivered a contradictory answer. We asked three different questions
+under the same everyday wording. The first commitment of the Atlas is therefore to specify
+the structure that matters before asking whether identity survives. In mathematics that
+often means choosing an invariant: a measurable or describable property preserved by the
+transformations under consideration.
+This insight is elementary, but it is essential. Without it, one can declare that two states are
+“the same” while silently changing the criterion of sameness from one line of reasoning to the
+next. The Atlas deliberately refuses that ambiguity.
+The initial notebook introduced a provisional “Becoming Object,” written
+ℬ= (𝑋, 𝑅, 𝑇, 𝑃),
+with a collection of states 𝑋, relationships 𝑅, admissible transformations 𝑇, and provenance
+records 𝑃. This tuple served as an organizing idea rather than as a finalized axiomatic object.
+It made a key distinction visible at the outset: a transformation permitted by a mathemat-
+ical model is not necessarily a transformation that actually occurred. Admissibility and
+historical evidence are different matters (RN 001).
+2.2 A history does not follow from resemblance
+Suppose two artists independently draw the same triangle. Their drawings have equivalent
+connectivity. Neither drawing necessarily descends from the other. Now suppose a recorded
+construction modifies a triangle’s boundary by inserting a fourth vertex along an edge. The
+VERA · 31 OCT 2026
+4
+
+
+PDF PAGE 10
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+new four-vertex cycle has a documented ancestry, but it is not graph-isomorphic to the original
+three-vertex cycle.
+Initial state
+Path A
+Path B
+Final state
+Figure 2.1: Two paths may share equivalent endpoints while retaining different intermediate transfor-
+mations and different event histories.
+The first pair exhibits structural equivalence without recorded ancestry. The second exhibits
+ancestry without graph isomorphism. This motivates two distinct relations: one for structural
+resemblance, another for documented continuity.
+The distinction matters beyond geometry. Two programs can return the same answer for an in-
+put while executing different instructions. Two scientific analyses can reach the same estimate
+while using different assumptions. Two mathematical proofs can establish the same theorem
+while relying on different lemmas. The Atlas aims to preserve those differences when they are
+important to explanation or reconstruction.
+2.3 Why the path matters
+A crucial contribution during the early development came from Genesis, who proposed com-
+paring two chains of transformations with equivalent beginning and ending structures
+but different intermediate states. This was recorded as the Path Hypothesis (RN 004): an
+account of restoration cannot necessarily be reduced to a test of endpoint equivalence. One
+must ask which paths were admissible, which transformations they composed, and what in-
+formation passed through them.
+Consider a journey from one room to another. The rooms tell us the starting and ending loca-
+tions, but they do not tell us the route. Different routes may have different costs, risks, interme-
+diate experiences, and physical consequences. Likewise, two mathematical histories can end
+in equivalent states without being the same history.
+In geometry, holonomy offers a vivid example. Transporting a vector around a closed loop
+on a curved surface can return it to the starting point with a changed orientation. The loca-
+tion is restored while the transported information has changed. The Atlas does not claim to
+have invented holonomy; it uses the example to show why the journey can be mathematically
+significant.
+VERA · 31 OCT 2026
+5
+
+
+PDF PAGE 11
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+2.4 The guiding commitments
+The project established four enduring commitments. First, objects, representations, and histo-
+ries must be distinguishable. Second, claims about preservation must refer to the actual trans-
+formation, not merely to the shapes of its endpoints. Third, a mathematical proof must be kept
+separate from the claim that a historical event occurred. Fourth, comparing or compressing
+histories must not silently erase the original records.
+These commitments form the conceptual thread through all thirty research notes. They are
+modest individually; together they define the kind of mathematical account the project seeks
+to build.
+VERA · 31 OCT 2026
+6
+
+
+PDF PAGE 12
+Chapter 3
+Persistence, restoration, and the mathe-
+matical meaning of a witness
+3.1 Persistence is a statement about the entire route
+Consider a loop of string. Cut it open, obtaining an interval. Join its ends again, obtaining a
+loop. The loop exists at the beginning and the end. But the closed-loop feature did not exist
+continuously throughout the process. That difference is captured by a topological measure-
+ment called the first Betti number, which counts independent one-dimensional cycles in the
+examples under discussion.
+𝛽1(circle) = 1,
+𝛽1(interval) = 0,
+𝛽1(restored circle) = 1.
+This is a schematic comparison of spaces, not an assertion that the act of cutting is a particular
+continuous map. The point is the change in the measured feature: the endpoints agree, but
+uninterrupted topological persistence has failed (RN 003).
+That motivates three distinct statements:
+• Endpoint equivalence: the first and last states exhibit equivalent chosen structures.
+• Stepwise persistence: every actual intermediate transformation transports that struc-
+ture by an invertible map.
+• Restoration: the endpoint structure returns even though stepwise preservation failed
+along the selected route.
+A careful mathematician asks which of these claims is being made. An identical measurement
+at two times may be evidence of restoration, but not proof of continuity between the measure-
+ments.
+3.2 The role of a functor
+A category is a collection of objects together with arrows between them, subject to rules for
+identity arrows and composition. An arrow might represent a transformation, a map, a pro-
+gram, or another type-correct relationship. A functor sends those objects and arrows into
+another category while preserving identities and composition.
+VERA · 31 OCT 2026
+7
+
+
+PDF PAGE 13
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+The Atlas chooses a category 𝒞describing the states and transformations under study, and a
+functor
+𝐹∶𝒞⟶𝒟
+that extracts the kind of structure to be preserved. For an actual transformation 𝑓∶𝑋→𝑌,
+the relevant question is whether the induced arrow 𝐹(𝑓) preserves the chosen structure in the
+strongest possible sense: whether it is an isomorphism, a map having an inverse.
+This is stronger than asking merely whether 𝐹(𝑋) and 𝐹(𝑌) happen to be isomorphic. Two
+buildings may have identical floor plans even if a particular operation destroyed one and con-
+structed the other from new materials. Likewise, isomorphic endpoint structures do not estab-
+lish that the actual operation transported the structure unchanged.
+For a sequence 𝑋0
+𝑓1
+−−→𝑋1 →⋯
+𝑓𝑛
+−−→𝑋𝑛, if every induced 𝐹(𝑓𝑖) is invertible, then their composite
+is invertible:
+𝐹(𝑓𝑛∘⋯∘𝑓1) = 𝐹(𝑓𝑛) ∘⋯∘𝐹(𝑓1).
+A composition of invertible maps is invertible. This is a standard fact of category theory, not a
+new theorem. What it contributes to the Atlas is a precise interpretation of unbroken structural
+preservation (RN 003, RN 006).
+3.3 The preservation category
+The first decisive mathematical construction was the preservation category 𝒲𝐹. It keeps ev-
+ery object of 𝒞, but includes only those arrows 𝑓for which 𝐹(𝑓) is invertible. This is a wide sub-
+category: it retains all objects and only a selected family of arrows. It is closed under identity
+and composition because functors preserve identities and the composition of isomorphisms
+remains an isomorphism.
+This construction should not be confused with a groupoid. An arrow 𝑓need not be invertible
+in the original category just because 𝐹(𝑓) is invertible after information has been discarded.
+For example, a functor may forget a distinction that prevented inversion at the original level.
+The Atlas must state which structure is preserved and at what level (RN 006, RN 030).
+3.4 Evidence that preservation occurred
+Mathematical preservation and evidence of preservation are also different.
+Let a witness
+record contain a transformation 𝑓, the selected functor 𝐹, a formal certificate 𝜋, and a prove-
+nance reference 𝑝. Symbolically, the early notebook wrote
+𝑤= (𝑓, 𝐹, 𝜋, 𝑝).
+VERA · 31 OCT 2026
+8
+
+
+PDF PAGE 14
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+The certificate is intended to justify a specified mathematical claim, such as “𝐹(𝑓) is invertible.”
+The provenance reference records where the certificate came from and how it was used. A
+claimed certificate is not automatically valid: the proof must be checked against stated rules.
+Conversely, an unverified claim is not therefore false.
+A useful elementary example compares two linear maps on the plane:
+𝐴=
+⎛
+⎜
+⎜
+⎝
+1
+0
+0
+1
+⎞
+⎟
+⎟
+⎠
+,
+𝐵=
+⎛
+⎜
+⎜
+⎝
+1
+0
+0
+0
+⎞
+⎟
+⎟
+⎠
+.
+Both have the same source and destination vector spaces, but 𝐴is invertible while 𝐵projects
+away one coordinate. Their determinants, respectively 1 and 0, demonstrate the difference.
+Endpoint types are insufficient; the transformation must be examined (RN 005).
+A responsible Atlas should allow at least three evidential states: established preservation, es-
+tablished failure of preservation, and undetermined preservation. Treating “not yet proved”
+as “disproved” would corrupt the reasoning.
+3.5 What this chapter establishes—and what it does not
+The category-theoretic definitions and propositions give a rigorous language for structure rel-
+ative to a chosen functor. They do not provide a universal invariant of “identity” that works
+across every scientific domain. Choosing the relevant structure remains a modeling decision.
+The original research also deliberately avoids declaring every labeled witness record a new
+mathematical arrow: a data record acquires categorical properties only after composition, typ-
+ing, and equivalence rules are specified.
+This discipline protects the Atlas against an attractive but unjustified claim: that a single formal-
+ism has resolved the philosophical question of identity. It has instead made several versions
+of that question precise enough to answer.
+VERA · 31 OCT 2026
+9
+
+
+PDF PAGE 15
+Chapter 4
+A history is not its result
+4.1 The simplest loss of historical information
+Suppose a computer begins with a number 𝑥and performs two arithmetic operations: add one,
+then subtract one. It returns 𝑥. Another computer does nothing and also returns 𝑥. The final
+results agree, but the executions differ. If our only record is the final number, the two histories
+cannot be distinguished.
+Even recording the complete composite function does not necessarily help. The composition
+“subtract one after adding one” is the identity function, as is the instruction “do nothing.” A
+record of the composite function forgets the decomposition into operations. To recover the
+decomposition, the operations themselves must be recorded. This is one of the central insights
+of the project: evaluation is generally a many-to-one operation on histories.
+The Atlas formalizes a recorded mathematical process with a directed multigraph. Vertices
+represent recorded states, and each directed edge identifies a specific admissible transition.
+A multigraph permits two distinct edges between the same pair of states, because two events
+may have the same endpoints without being the same event. A history is a finite sequence of
+composable edges. The empty sequence is also permitted; it records that no transition was
+taken (RN 007).
+A free path category takes those vertices as objects and the finite paths as arrows. Its critical
+property is that paths are not automatically identified merely because their composite effect is
+the same. Evaluation then sends a path to the actual composite transformation in the chosen
+mathematical model:
+𝐸∶Path(𝐺) ⟶𝒞.
+The map 𝐸preserves composition, so it is a functor. It may fail to be faithful—meaning dif-
+ferent paths may be sent to exactly the same transformation. The historical layer retains the
+distinction that evaluation forgets.
+4.2 Why order must be retained
+Assume a single state supports two distinct transformations 𝑎and 𝑏, both of which can follow
+each other. The sequence 𝑎𝑏records 𝑎first and 𝑏second. The sequence 𝑏𝑎records the opposite
+history. If the archive saves only the unordered set {𝑎, 𝑏}, both histories receive the same record,
+VERA · 31 OCT 2026
+10
+
+
+PDF PAGE 16
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+and exact recovery is impossible. Even if 𝑎and 𝑏commute algebraically, they remain different
+observed histories when order is part of the archival question.
+A lossless finite path record can contain a starting state plus an ordered list of unique edge-
+occurrence identifiers, together with a versioned dictionary giving each edge its source, des-
+tination, and meaning. Given the record and dictionary, the sequence can be reconstructed.
+Without stable IDs or the dictionary, the same byte sequence could be misinterpreted after
+later revisions. That is a real archival limitation, not merely a question of file formatting (RN
+012).
+The difference between event type and event occurrence is worth emphasizing. “Turn left” may
+describe an operation type. “The third left turn taken on this particular journey” is an occur-
+rence. If the same operation appears twice, the two occurrences are not interchangeable as
+historical facts simply because their labels agree.
+4.3 Proofs have histories too
+Mathematics presents another layer of the same problem. Imagine two students proving the
+same statement. One proof cites a theorem directly; another derives the statement from three
+intermediate lemmas. The conclusions match. The proof trees do not. Likewise, a long proof
+written one way may be equivalent to a shorter proof after inserting or removing trivial iden-
+tity steps.
+The notebook introduced proof-bearing certificates whose conclusions, derivation trees,
+and historical recording events are separately retained (RN 008–009). A proof-composition
+operation can combine certificates for successive transformations. But the identity of a proof
+tree is not identical to the identity of the transformation it certifies; nor is the identity of a
+stored proof text the same as the historical claim about when or by whom it was produced.
+To allow limited simplification of proof syntax, the research defined a structural equivalence
+relation identifying reassociation and identity-proof insertion while retaining independent
+derivations unless a justified comparison exists. With suitable typing and congruence rules,
+the resulting proof-bearing arrows form a category, and forgetting the proof produces a func-
+tor into the earlier preservation category.
+This is an example of how a mathematical quotient should be used responsibly. We may decide
+that two proof expressions are equivalent for a given purpose while still retaining their original
+syntax trees in the archive. The equivalence class supports mathematical comparison; the
+original records support provenance.
+4.4 The three layers a reader should keep separate
+We can summarize a single research event in three levels of detail.
+First: what happened? There is a chronological sequence of event occurrences, each with an
+identity and, ideally, evidence supporting its occurrence.
+VERA · 31 OCT 2026
+11
+
+
+PDF PAGE 17
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+Second: what did it do? The mathematical evaluation of that sequence is a composite trans-
+formation or a final state. Several histories may share that evaluation.
+Third: why do we believe the claimed property? A certificate may justify that the evalu-
+ation is admissible, invertible, equivalent to another, or valid under a specified proof system.
+Two certificates may justify the same claim via different derivations.
+None of the three automatically contains the other two. The Atlas treats their separation as a
+design requirement rather than an inconvenience.
+4.5 From historical preservation to research integrity
+This design is not only theoretical. Scientific work routinely revises definitions, changes in-
+struments, discards erroneous calculations, and reorganizes notes. A reliable research record
+must be able to say, “This statement was derived under version 2 of a definition; a later defini-
+tion was changed; the earlier result may need review.” It must not silently replace the earlier
+reasoning with the later conclusion. That is why the notebook maintained an append-only
+history and, following a mid-project audit, began labeling recovered material separately from
+original passages.
+There is also an important limit: writing something in a log does not prove that it happened. A
+log may be mistaken, incomplete, or forged. The formal theory can represent event claims and
+verify internal consistency; historical authenticity needs additional evidence and assumptions
+about trust. This limit recurs in the final chapters.
+VERA · 31 OCT 2026
+12
+
+
+PDF PAGE 18
+Chapter 5
+What can be recovered from incomplete
+information?
+5.1 The difference between losing information and losing access to it
+Suppose a measurement device records the horizontal coordinate of a point but discards the
+vertical coordinate. From the measurement alone, many original points are possible. If a sec-
+ond device retained the vertical coordinate, the pair of records would recover the point exactly.
+The first operation did not preserve all information in its output; the total system may never-
+theless make the original state recoverable.
+The Atlas investigated this distinction using linear algebra because the result is exact, transpar-
+ent, and testable (RN 010).
+Let 𝑉be a finite-dimensional vector space of original states, 𝐴∶𝑉→𝑊a linear measurement
+or transformation, and 𝑆∶𝑉→𝑅an auxiliary record. What we retain is the pair
+𝐽(𝑣) = (𝐴(𝑣), 𝑆(𝑣)).
+The kernel of a linear map is the collection of inputs it sends to zero. If two distinct inputs
+differ by a vector lying in the kernel, they produce identical outputs. Exact recovery requires
+that no nonzero difference be invisible to both records.
+The resulting criterion is
+ker(𝐴) ∩ker(𝑆) = {0}.
+Why is this sufficient? If two inputs 𝑣and 𝑤give the same pair of records, their difference be-
+longs to both kernels. If the intersection contains only zero, then 𝑣= 𝑤; the records distinguish
+every input. Why is it necessary? If a nonzero vector lies in both kernels, it and zero produce
+the same records. No decoder receiving only those records can know which input occurred.
+This is an application of standard linear algebra, not an independently new theorem. But it
+gives the project a genuinely useful test: it distinguishes information that is absent from a
+single output from information that remains reconstructible through retained side data.
+VERA · 31 OCT 2026
+13
+
+
+PDF PAGE 19
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+5.2 How much auxiliary information is needed?
+Suppose 𝑉has dimension 𝑛, and the primary map 𝐴has rank 𝑟. The rank–nullity theorem says
+that 𝐴loses access to 𝑛−𝑟independent dimensions of the input. An auxiliary linear record
+sufficient for exact recovery must distinguish those missing dimensions; its rank must be at
+least 𝑛−𝑟. Such a record can be constructed by capturing complementary coordinates.
+For example, if a three-dimensional state (𝑥, 𝑦, 𝑧) is measured only as (𝑥, 𝑦), then 𝑧must be sup-
+plied or recovered from additional known constraints. Recording 𝑧as side information gives
+exact recovery. Recording another copy of 𝑥does not, regardless of how many bytes are de-
+voted to it.
+The conclusion is subtle: large records are not necessarily informative records. They
+must distinguish the ambiguities left by the original observation.
+5.3 Recovering a feature without recovering the whole state
+Often the investigator does not need every detail of the source. Perhaps only a selected quantity
+𝐿(𝑣) matters. The Atlas gives a weaker criterion for recovering that feature from the total record
+𝐽:
+ker(𝐽) ⊆ker(𝐿).
+This says that any difference invisible to the retained observations must also be invisible to
+the desired feature. When that condition holds, a function can recover 𝐿(𝑣) from 𝐽(𝑣) even if it
+cannot reconstruct 𝑣itself.
+This distinction generalizes the project beyond a crude all-or-nothing notion of information
+loss. A transformation may destroy some distinctions, preserve others, and support recon-
+struction of still others when combined with an auxiliary record. Every recoverability claim
+must therefore say what is to be recovered and which evidence is available.
+5.4 The historical recoverability criterion
+A linear state is one object; a history is an ordered path of events. RN 011 established a general
+test applicable to any collection of admissible histories.
+Let 𝐻be the set of possible histories. Suppose a record function 𝐽∶𝐻→𝑌describes everything
+the investigator retains. The investigator must decide whether to recover the exact raw history
+or only its equivalence class under a relation ∼that deliberately ignores some differences.
+An exact decoder for the desired class exists precisely when
+𝐽(𝛾) = 𝐽(𝜂) ⟹𝛾∼𝜂.
+VERA · 31 OCT 2026
+14
+
+
+PDF PAGE 20
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+The meaning is direct: no two histories that we still care to distinguish may produce the same
+complete evidence. If two genuinely distinct target histories have identical evidence, a decoder
+cannot choose between them without making something up. Conversely, if every recorded
+evidence value belongs to just one target class, a decoder can assign that class consistently.
+This is a general factorization statement. It does not assert that every mathematically sufficient
+record is cheap to store, easy to construct, secure against alteration, or historically authentic.
+5.5 A canonical result is not a canonical history
+The project also examined rewriting systems, in which a state is repeatedly transformed until
+no applicable rule remains. A terminating and confluent system has a unique normal form for
+each starting state. Termination means the process cannot continue forever. Confluence means
+that divergent valid reductions can eventually be reconciled.
+Imagine a starting expression 𝑋reducing by two routes, 𝑋→𝐴→𝑁and 𝑋→𝐵→𝑁. Both
+produce the same normal form 𝑁. If the records retain only 𝑋and 𝑁, the route cannot gener-
+ally be identified. Confluence guarantees a common result, not a common derivation.
+For any fixed initial state whose complete reductions all reach the same normal form, the “send
+history to normal form” map is constant. It can recover an exact raw history only if exactly
+one complete raw history was possible. It can recover a class of histories only if the relevant
+class is unique. Additional provenance can change the answer; uniqueness of the normal form
+itself cannot (RN 020).
+The report therefore distinguishes three questions that are too easily confused: Can we recover
+the original state? Can we recover a desired feature? Can we recover the sequence of events?
+The mathematical tests are different because the objects to be recovered are different.
+VERA · 31 OCT 2026
+15
+
+
+PDF PAGE 21
+Chapter 6
+Causality, chronology, and multiple valid
+histories
+6.1 A list of events is not a causal explanation
+Suppose a researcher defines a mathematical object, proves a proposition using that definition,
+and independently records a measurement. The proof depends on the definition. The measure-
+ment need not depend on either. A chronological list nevertheless places all three events in a
+total order, even though only one dependency is established.
+The Atlas models a causal history by a partial order (𝐸, ⪯) on event occurrences. The relation
+𝑒⪯𝑓means that 𝑒is a prerequisite of 𝑓, or that they are the same event. It is reflexive, anti-
+symmetric, and transitive. Two distinct events may be incomparable: neither is recorded as
+preceding the other in this causal sense.
+This does not prove that the events were physically or statistically independent. A missing
+causal edge may reflect incomplete records. The model expresses recorded constraints, not
+omniscient knowledge of the world (RN 013).
+Definition: 𝑎
+Proof: 𝑏
+Observation: 𝑐
+required first
+Figure 6.1: Only the dependency 𝑎≺𝑏is asserted. A chronological listing imposes more order than this
+causal record requires.
+A linear extension is a total ordering of all the events that respects the partial order. In the
+definition–proof–measurement example, the measurement can appear at several positions, so
+multiple chronological serializations can satisfy the same causal structure.
+6.2 How two serializations can agree
+An established theorem about finite partially ordered sets says that any two linear extensions
+can be connected by swapping adjacent incomparable events. This tells us something precise:
+if two orderings differ only in the placement of events for which the poset imposes no order,
+they describe the same underlying partial-order constraints.
+VERA · 31 OCT 2026
+16
+
+
+PDF PAGE 22
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+The theorem does not tell us that their operations have the same effect. If two incomparable
+events perform noncommuting updates on a state, interchanging them can change the result.
+Causal incomparability and algebraic commutativity are separate properties.
+For an example, take two operations on bits: 𝑎(𝑥) = 1 −𝑥flips a bit, and 𝑏(𝑥) = 0 resets it to zero.
+Then
+(𝑏∘𝑎)(𝑥) = 0,
+(𝑎∘𝑏)(𝑥) = 1.
+Both orders may be allowed by a causal record, but the resulting states differ. This is a coun-
+terexample to the idea that absent causal dependency is sufficient for safe algebraic exchange
+(RN 014).
+6.3 When order truly does not change the result
+There is also a useful positive theorem. Suppose each event acts as a total transformation on
+a common state space, and the transformations associated with every pair of incomparable
+events commute. Then every linear extension of the finite causal poset induces the same com-
+posite transformation.
+The proof uses the adjacent-swap theorem: move from one linear extension to another by
+swaps of incomparable neighbors. Each swap preserves the composite because the correspond-
+ing operations commute. After finitely many swaps, the entire evaluation agrees.
+This result is valuable because it identifies a sufficient condition for path-independent eval-
+uation. The recorded histories still differ as historical sequences; they simply become equiva-
+lent under the chosen mathematical evaluation.
+The condition is deliberately limited. For typed arrows, the two routes must compose in the
+appropriate source and target categories. For partial maps, both orders must be defined on
+the relevant states. For general rewriting systems, the ability to reach a common result after
+further rewriting is not the same as the immediate equality of two composites.
+6.4 Merging causal records without inventing a contradiction
+When historical records from two sources are combined, their precedence constraints must
+be checked. If one record says 𝑎strictly precedes 𝑏and another says 𝑏strictly precedes 𝑎, the
+combined strict relation contains a cycle. It cannot describe a partial order on distinct events.
+A valid merge therefore requires compatible identities for shared event occurrences and an
+acyclic combined strict precedence graph. After combining its edges, the transitive closure
+yields the merged partial order. Reflexive self-relations should not be mistaken for strict causal
+cycles.
+VERA · 31 OCT 2026
+17
+
+
+PDF PAGE 23
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+This is a useful practical model of scholarly reconciliation. If two sources give incompatible
+event orders, an archive should display the conflict and retain both records rather than silently
+choosing one or inventing a compromise.
+6.5 Chronology and information have different jobs
+A clock can help order observations, but a timestamp alone does not prove causal dependence.
+A dependency graph can explain which statements relied on which prior assumptions, but
+it may not capture the precise wall-clock order in which independent notes were written. A
+good notebook therefore may need both: timestamps as historical evidence and causal links
+as mathematical explanatory structure.
+The Atlas’s later design proposes treating causal order as a derived view over event occurrence
+records. The original event log is never discarded merely because several orders are mathe-
+matically equivalent.
+VERA · 31 OCT 2026
+18
+
+
+PDF PAGE 24
+Chapter 7
+When proofs of equivalence disagree
+7.1 Another level above paths
+The earlier chapters compared transformation histories. The research then encountered a
+further issue: even when two histories are mathematically equivalent, there may be several
+ways of proving that equivalence. Do those proofs agree? Or is their difference significant?
+Imagine rearranging three independently executable operations 𝑎, 𝑏, 𝑐into reverse order.
+There are two shortest ways to do so using adjacent swaps:
+𝑎𝑏𝑐⟶𝑏𝑎𝑐⟶𝑏𝑐𝑎⟶𝑐𝑏𝑎
+and
+𝑎𝑏𝑐⟶𝑎𝑐𝑏⟶𝑐𝑎𝑏⟶𝑐𝑏𝑎.
+Each route uses three swaps. Each takes the same starting sequence to the same final sequence.
+If we already know that the operations commute appropriately, both establish equality of the
+evaluated transformations. Yet the derivations of that equality are not literally the same se-
+quence of steps (RN 015–016).
+This motivates a language in which transformations of states are accompanied by transfor-
+mations between transformation paths. In higher category theory, the first are called 1-
+morphisms and the second 2-morphisms. A square whose two routes are certified to agree can
+be represented by a 2-cell 𝛼∶𝑝⇒𝑞.
+But the existence of 2-cells connecting histories does not automatically show that different
+composites of those 2-cells agree. That is the coherence problem. The research was careful
+not to declare a complete higher-category theory merely by drawing commuting squares: the
+precise typing, composition, and coherence equations are part of the mathematics, not optional
+decoration.
+7.2 The coherence boundary
+For three adjacent swaps, the two minimal reversal proofs are related to the familiar braid or
+Yang–Baxter pattern. In an appropriate algebraic setting, one can impose a relation equating
+the two ways of passing three operations past one another. But the equation does not follow
+from the mere existence of pairwise swap certificates.
+VERA · 31 OCT 2026
+19
+
+
+PDF PAGE 25
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+The Atlas calls this the coherence boundary: knowing that each individual exchange is al-
+lowed does not necessarily settle whether different proofs built from exchanges should count
+as the same proof. A proposed quotient of proof histories is mathematically safe only if its de-
+clared equations are respected by the chosen interpretation. Otherwise it may identify deriva-
+tions that actually behave differently (RN 016).
+For a lay analogy, consider two routes through a legal argument. Each step in both routes may
+be locally valid. That does not by itself prove that the routes invoke the same assumptions in
+the same way, nor that one derivation can replace another in every future argument. Mathe-
+matical proof systems require explicit laws for such replacement.
+7.3 A deliberately small experiment with three events
+The first finite testbed chose states consisting of three binary coordinates, 𝑆= {0, 1}3. The trans-
+formations 𝑎, 𝑏, 𝑐flipped the first, second, and third coordinates independently. Because they
+act on distinct coordinates, they commute.
+Every one of the six execution orders applies the same final transformation:
+(𝑥, 𝑦, 𝑧) ⟼(1 −𝑥, 1 −𝑦, 1 −𝑧).
+There are eight possible input states and six orders, giving 8×6 = 48 evaluations. All 48 matched.
+This demonstrates path-independent evaluation for the chosen finite model. The two three-
+swap proof histories nevertheless remain distinct raw records; a braid coherence relation can
+identify them as equivalent mathematical proofs without deleting either historical derivation
+(RN 017).
+The experiment is not a proof of arbitrary higher-dimensional coherence. It is a small, repro-
+ducible environment in which the distinctions can be observed without ambiguity.
+7.4 Four events and the geometry of local proof relations
+The next experiment used four independent coordinate-flip operations on {0, 1}4. There are
+4! = 24 execution orders and sixteen input states. All 24 × 16 = 384 evaluations produced the
+same final bitwise complement, as expected.
+The research then examined the shortest adjacent-swap derivations that reverse the word
+𝑎𝑏𝑐𝑑into 𝑑𝑐𝑏𝑎. Reversal requires six adjacent swaps. There are sixteen minimal derivations,
+and they can be connected using just two kinds of local relations:
+• Disjoint interchange: exchanges at separated positions can be performed in either or-
+der.
+• Braid interchange: two overlapping three-swap patterns are related by the braid equa-
+tion.
+VERA · 31 OCT 2026
+20
+
+
+PDF PAGE 26
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+In the enumerated graph of minimal derivations, there were ten disjoint-interchange edges
+and eight braid-interchange edges. These connected all sixteen derivations into one compo-
+nent (RN 018). This finite behavior is consistent with established results about reduced words
+in Coxeter groups, including the theorem commonly associated with Matsumoto.
+The important conclusion for the Atlas is not the number sixteen by itself. It is that a large
+collection of historically different proofs may admit a compact mathematical explana-
+tion of their equivalence through local rules. The historical archive retains all sixteen; the
+derived mathematical view may report one equivalence class.
+7.5 What the finite tests do not establish
+Some transformations have different source and target types. Others are defined only for cer-
+tain states. In such systems, rearranging two operations may be illegal: a needed input may
+be unavailable, or an intermediate step may not exist. Nor do finite calculations establish that
+all possible higher coherence diagrams commute.
+Accordingly, the report uses three distinct levels of confidence:
+• The elementary proofs establish conditional results under explicit assumptions.
+• The finite experiments confirm the stated outcomes for the tested examples.
+• The general higher-categorical extension remains a research problem requiring addi-
+tional definitions and coherence axioms.
+That distinction is not a weakness to hide. It is what makes the research inspectable by another
+mathematician.
+VERA · 31 OCT 2026
+21
+
+
+PDF PAGE 27
+Chapter 8
+Partial operations and why admissibility
+comes first
+8.1 Two operations that sometimes commute
+Real processes rarely operate without preconditions. A bank withdrawal requires sufficient
+funds; a chemical reaction requires suitable conditions; a software command may require a
+file to exist. In mathematical terms, these operations are often better represented as partial
+functions than as functions defined on every conceivable input.
+A partial transformation 𝑎∶𝑆⇀𝑆has a domain dom(𝑎) of states on which it can execute. When
+two partial operations are composed, the composite is defined only where every required in-
+termediate step is defined.
+Consider the nonnegative integers and two operations:
+𝑎(𝑥) = 𝑥+ 1
+(𝑥≥0),
+𝑏(𝑥) = 𝑥−1
+(𝑥≥1).
+Starting at 0, it is valid to increment and then decrement: 0 →1 →0. It is impossible to
+decrement first. On states where both orders are defined, the two composites agree; but their
+domains are not equal. Treating them as globally interchangeable would be wrong (RN 019).
+For partial maps, equality requires agreement of outputs and agreement of domains. Restrict-
+ing attention to common inputs may hide a failed admissibility condition. This is why the Atlas
+rejects vague assurances that two operations “commute wherever they both work” as a global
+interchange certificate.
+8.2 State-dependent exchange
+There is nevertheless a useful local form of independence. Take the bounded state space 𝑆=
+{0, 1, 2}, with 𝑎incrementing when the result remains in the set and 𝑏decrementing when the
+result remains in the set.
+Starting state
+Increment, then
+decrement
+Decrement, then
+increment
+Exchange valid?
+0
+Returns to 0
+First step
+undefined
+No
+VERA · 31 OCT 2026
+22
+
+
+PDF PAGE 28
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+Starting state
+Increment, then
+decrement
+Decrement, then
+increment
+Exchange valid?
+1
+Returns to 1
+Returns to 1
+Yes
+2
+First step
+undefined
+Returns to 2
+No
+The same pair of operation types is exchangeable at 1 but not at 0 or 2. Thus independence can
+depend on the state reached before the pair is executed.
+Suppose a longer history has the form 𝑢𝑎𝑏𝑣, meaning a prefix 𝑢, then operation 𝑎, then 𝑏, then
+a suffix 𝑣. If the prefix reaches a state 𝑥where both 𝑎𝑏and 𝑏𝑎are defined and reach the same
+resulting state 𝑦, then the two full histories 𝑢𝑎𝑏𝑣and 𝑢𝑏𝑎𝑣have the same final result, provided
+the original suffix is executable. The suffix begins from the same 𝑦after either order (RN 023).
+This is the contextual swap theorem. Its proof is almost obvious when stated correctly. Its
+significance is that it records every necessary assumption: a common prefix state, admissibility
+of both local orders, equality of their resulting states, and an executable continuation.
+8.3 Why a local certificate needs its context
+A valid swap certificate should record the actual incoming state, the identities of the two event
+occurrences, the output state reached by each order, the evidence for definedness and equality,
+and the version of the transformation definitions under which it was checked.
+Without the incoming state, we may apply a valid certificate at the wrong point in a history.
+Without event identifiers, two identical operation names can be confused. Without version
+information, a later change to the operation’s permitted domain can make an old certificate
+inapplicable. Without checkable evidence, the certificate is merely an assertion.
+A certified-swap graph can be built for a fixed starting state. Its vertices are executable histories;
+edges join pairs related by a valid contextual exchange. Every connected component consists
+of histories that lead to the same final state. The converse fails: two histories can end at the
+same state without being connected by swaps, particularly when their lengths or event counts
+differ.
+The project therefore distinguishes endpoint equivalence, semantic equality of compos-
+ites, and connectivity under explicitly certified local swaps. All three are useful; none
+should be silently substituted for another.
+8.4 An example that records the difference between intermediate
+states
+Starting from 0 in the bounded system, the history 𝑎𝑏𝑎follows the intermediate states
+VERA · 31 OCT 2026
+23
+
+
+PDF PAGE 29
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+0
+𝑎−→1
+𝑏−→0
+𝑎−→1.
+The alternative 𝑎𝑎𝑏follows
+0
+𝑎−→1
+𝑎−→2
+𝑏−→1.
+The last two operations have been exchanged at a state where this is permitted. Both histo-
+ries finish at 1, but their intermediate trajectories are different. A scientist studying maximum
+resource utilization, temperature, or exposure during the process could care about that differ-
+ence, even though a final-state checker regards them as equivalent.
+The Atlas therefore never erases raw trajectories merely because a mathematically certified
+transformation allows a particular comparison.
+VERA · 31 OCT 2026
+24
+
+
+PDF PAGE 30
+Chapter 9
+Observational equivalence and the safe
+loss of detail
+9.1 What if the full state cannot be seen?
+Sometimes an investigator cannot observe the full mathematical state. A sensor may report
+only whether a quantity is positive. An interface may reveal an output label while hiding in-
+ternal variables. Two systems can look identical now yet behave differently under the next
+permitted operation.
+Let 𝑞∶𝑆→𝑄be an observation map. We say that 𝑥and 𝑦are observationally equivalent when
+𝑞(𝑥) = 𝑞(𝑦). The critical question is whether this equivalence survives every future admissible
+operation (RN 024).
+Simply observing the same current value is not enough. Suppose two hidden states both report
+“ready,” but a command is enabled in only one of them. Their behavior differs in a way the
+initial observation concealed. Or suppose the command works at both states but produces
+visibly different outputs. In either case, the observation is not adequate for predicting the
+future.
+9.2 Strong transition congruence
+The Atlas uses a strong transition congruence to capture this requirement. It is an equivalence
+relation on states with two properties: equivalent states agree about whether every operation
+is enabled, and, whenever an operation is enabled, their resulting states remain equivalent.
+The word congruence means that the equivalence is respected by the operations. If the condi-
+tion holds for a single operation, it continues to hold for a sequence of operations by induction.
+Thus equivalent states remain observationally indistinguishable under every finite common
+continuation.
+This yields a mathematically defensible account of what information may be forgotten. We
+can merge states into equivalence classes only if the discarded distinctions cannot affect
+the chosen future-observable behavior. We still preserve the original histories separately
+when historical reconstruction is required.
+For partial operations, enabledness is part of the observable behavior even when no output
+value exists. An operation being defined at one state and undefined at another is a meaningful
+difference.
+VERA · 31 OCT 2026
+25
+
+
+PDF PAGE 31
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+9.3 Constructing the smallest sufficient observation
+The next question was algorithmic: given an initial, possibly too-coarse observation, how do
+we find the coarsest refinement that is safe under all future operations?
+For a finite deterministic system, begin by grouping states with the same observation. Then
+repeatedly split any group when its states differ in which operations are enabled or in the
+groups to which those operations send them. Continue until no further split occurs.
+At termination, states in the same group are guaranteed to have matching future enabledness
+and observation for every finite operation word. In other words, the resulting partition is
+stable. It is coarsest among the stable partitions that respect the original observations: it does
+not distinguish states unnecessarily for this stated purpose.
+In symbols, let 𝑅0 be equality under 𝑞. Define 𝑅𝑛+1 by retaining from 𝑅𝑛only those pairs whose
+enabledness agrees and whose enabled successors are 𝑅𝑛-equivalent for every operation. The
+sequence becomes finer:
+𝑅0 ⊇𝑅1 ⊇𝑅2 ⊇⋯.
+On a finite state space, each strict refinement increases the number of distinct blocks. This
+cannot happen more than a finite number of times, so the process reaches a fixed point 𝑅∗(RN
+025).
+The proof of minimality is also elementary. Any safe equivalence that refines the original
+observation remains inside every successive refinement: if two states can safely be merged,
+their enabledness and safe successor equivalence cannot force them apart. Consequently, no
+coarser safe partition than the eventual fixed point has been overlooked.
+9.4 A six-state experiment—and a useful mistake
+The experiment used states 𝑆= {0, 1, 2, 3, 4, 5} and the initial observation “even or odd.” It al-
+lowed three operations:
+flip(𝑥) = (𝑥+ 1) mod 6,
+jump(𝑥) = (𝑥+ 2) mod 6,
+gate(𝑥) = (𝑥+ 2) mod 6
+when 𝑥∉{4, 5},
+with the gate undefined at states 4 and 5.
+The first partition separated the even and odd states:
+{0, 2, 4} ∣{1, 3, 5}.
+The first refinement recognized that the gate is disabled at 4 and 5, yielding four groups:
+VERA · 31 OCT 2026
+26
+
+
+PDF PAGE 32
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+{0, 2} ∣{1, 3} ∣{4} ∣{5}.
+At first, the research expected those four groups to be stable. They were not. The jump opera-
+tion sends 0 to 2 and 2 to 4; the four-group partition already distinguishes 2 from 4, so it must
+also distinguish 0 from 2. An analogous argument splits 1 from 3. The final stable partition
+consists of six singleton states (RN 025).
+That mistaken initial expectation is deliberately retained in the notebook. It demonstrates why
+a seemingly plausible one-step check can miss a future difference. A finite verification exam-
+ined 4,356 combinations of operation words and state pairs in the stated bounded experiment,
+but the general guarantee comes from the mathematical fixed-point argument, not from testing
+finitely many words.
+9.5 Why “minimal” is always relative
+The stable quotient is minimal only relative to the chosen observation map, the available op-
+eration alphabet, and the exact meaning and version of each operation. Add a new operation
+that reveals hidden information, and the quotient may have to become finer. Change which
+outputs matter, and the definition of sufficient information changes.
+The algorithm does not compress the event history. A quotient of states is a statement about
+future-behavior equivalence; it is not a record of which historical path reached a state. That
+distinction prevents a practical system from sacrificing provenance in the name of state-space
+optimization.
+The finite deterministic construction is well established in automata and transition-system the-
+ory. Extending it to nondeterministic or probabilistic processes requires specifying a new no-
+tion of behavioral equivalence, such as a particular form of bisimulation or trace equivalence.
+The notebook records these extensions as open rather than quietly assuming they have been
+proved.
+VERA · 31 OCT 2026
+27
+
+
+PDF PAGE 33
+Chapter 10
+How much information does a history re-
+quire?
+10.1 Counting distinguishable possibilities
+Once we know what a historical record must distinguish, information theory supplies a basic
+answer to the storage question. If there are 𝑁possible histories and the decoder receives no
+other information, a fixed-length binary identifier must have enough distinct bit patterns to
+name all 𝑁histories:
+𝐿min = ⌈log2 𝑁⌉.
+Six possible histories need three bits, because two bits can distinguish at most four alternatives.
+Sixteen histories need four bits. Twenty-four histories need five bits. This is an elementary
+counting argument, but it exposes an important distinction: the number of bits required to
+identify a history is not the number of bits required to explain or verify it (RN 021).
+A short code can stand for a complicated history if the decoder already holds a dictionary giving
+that code a meaning. Without the dictionary, a code may be meaningless. Likewise, a certificate
+proving that each transformation was admissible can be much longer than the identifier of the
+history being certified. The notebook never claims these simple counting bounds are optimal
+physical storage bounds for authenticated research archives.
+10.2 Side information changes the bound
+Suppose the decoder already knows the final observation 𝑦. That observation may exclude
+many possible histories. Let 𝐾𝑦be the number of still-distinct target history classes compatible
+with it. A single uniform fixed-length auxiliary code sufficient for all possible observations
+requires
+𝐿min = ⎡
+⎢
+⎢
+log2
+⎛
+⎜
+⎝
+max
+𝑦
+𝐾𝑦
+⎞
+⎟
+⎠
+⎤
+⎥
+⎥
+.
+The largest remaining ambiguity determines the minimum number of bits. The codebook may
+assign different meanings to the same bit pattern for different known observations because
+the decoder is told which observation occurred.
+VERA · 31 OCT 2026
+28
+
+
+PDF PAGE 34
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+The result also clarifies why one must specify the equivalence relation. If the goal is merely to
+recover a causal class, histories that differ only by accepted independent swaps may count as
+one possibility. If the goal is to recover actual recorded order, each distinct occurrence order
+remains separate.
+This bound concerns a finite set of admissible possibilities and an agreed codebook. It does not
+prove that a real observer knows the correct set of possibilities, nor that observed histories are
+equally likely. Variable-length average-code bounds would introduce an explicit probability
+distribution and different questions; they were outside this foundational treatment.
+10.3 Trace theory: remembering causal equivalence
+A trace monoid is an algebraic model in which words are considered equivalent when speci-
+fied adjacent independent symbols may be exchanged. For example, if operations 𝑎and 𝑏are
+declared independent, the words 𝑎𝑏and 𝑏𝑎belong to the same trace. A trace is an equivalence
+class of words, not necessarily the one chronological sequence that happened.
+The mathematical advantage is that many apparent event orders can be represented as one
+causal or dependency structure. The archival danger is equally clear: replacing a raw event
+sequence with its trace class loses the specific order of occurrences when more than one word
+belongs to the class.
+A canonical representative—such as the lexicographically first word in a trace class—makes
+comparison convenient. It is not the true history unless independent evidence happens to
+establish that the canonical order was the one executed.
+10.4 The four-event trace experiment
+The project enumerated every permutation of four distinct event occurrences 𝑎, 𝑏, 𝑐, 𝑑. It de-
+clared exactly two independent pairs: {𝑎, 𝑏} and {𝑐, 𝑑}. No other pair was allowed to swap. His-
+tories were grouped by repeatedly exchanging adjacent members of those independent pairs.
+The 24 raw execution orders divided into 14 trace classes:
+Class size
+Number of classes
+Raw histories represented
+1
+8
+8
+2
+4
+8
+4
+2
+8
+Total
+14
+24
+Thus four bits suffice to identify which of the fourteen trace classes occurred. If the trace class
+is already known, a uniform two-bit auxiliary code suffices to identify the actual raw history
+within any class, because no class contains more than four members. But four plus two gives
+VERA · 31 OCT 2026
+29
+
+
+PDF PAGE 35
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+six bits, while directly naming one of the twenty-four raw histories requires only five bits. A
+convenient two-stage scheme is not necessarily globally optimal (RN 022).
+The first attempt at the count was wrong: it predicted six classes. Executable enumeration
+found fourteen. The research preserved and corrected the error rather than disguising it. That
+correction is part of the history of the mathematics.
+10.5 Three separate compression goals
+An Atlas user might want to reduce file size while preserving one of three different things.
+Goal A: preserve the mathematical output. Then it may suffice to store a composite func-
+tion or final state, if no later question requires the sequence. This is often the cheapest option,
+but it gives up historical reconstruction.
+Goal B: preserve a trace or causal class. Then a canonical representative of that class may
+suffice, provided the independence relation, event dictionary, and model version are retained.
+Different actual orders are intentionally treated as equivalent.
+Goal C: preserve the actual sequence. Then the record must identify the raw occurrence
+order, either directly or through a provably lossless encoding relative to available side infor-
+mation. This is the goal when historical fidelity matters.
+A reliable mathematical notebook may use all three representations for different purposes.
+The critical design rule is to retain the most informative original record and treat cheaper
+abstractions as derived views, unless an explicit archival policy permits a genuine loss of detail.
+10.6 Why trace equivalence cannot be assumed everywhere
+Fixed trace theory assumes a predeclared, context-independent independence relation among
+event types. RN 019 and RN 023 showed why that assumption fails for many partial operations:
+whether two operations can be exchanged may depend on the incoming state. A bank-like
+increment/decrement pair that is exchangeable in the interior of the allowed range can fail at
+its boundary.
+The Atlas therefore distinguishes global trace classes from state-indexed certified-swap
+classes. It can use trace monoids as a simple baseline while moving to certificates for partial
+systems. A missing dependency in a recorded poset is not proof of independence, and agree-
+ment of endpoint values is not proof of a valid adjacent swap.
+10.7 A deeper finding about information
+“Information” is not a single object in this project. It may mean the ability to distinguish ini-
+tial states, predict future observations, identify actual histories, or verify mathematical claims.
+The amount needed varies with the target. A quotient adequate for future prediction can be
+VERA · 31 OCT 2026
+30
+
+
+PDF PAGE 36
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+insufficient for historical reconstruction. A bit string adequate to identify a proof can be insuf-
+ficient to check it. A formal proof sufficient for a theorem can be irrelevant to authorship.
+The report treats this not as a defect in information theory but as a requirement to state the
+decoding task first. Without a specified target, claims that a representation “preserves all the
+information” are not mathematically meaningful.
+VERA · 31 OCT 2026
+31
+
+
+PDF PAGE 37
+Chapter 11
+Revision, proof transport, and mathe-
+matical trust
+11.1 Mathematical documents change after proofs are written
+A theory is rarely frozen at the moment its first propositions are proved. Definitions become
+more precise, assumptions are revised, and notation migrates to a new formal language. These
+changes raise a practical question: can a result accepted under an earlier version still be
+trusted?
+There are at least three possibilities. The changed definition is irrelevant to the proof, so the
+old certificate remains valid. The proof depends on a changed definition, so the certificate
+must be rechecked. Or rechecking shows that the old derivation is no longer valid under the
+new rules. The third outcome does not imply that the derivation was invalid under its original
+assumptions (RN 026).
+The Atlas proposes a versioned dependency record for each formal certificate. It identifies the
+definitions, axioms, inference rules, interpretations, and checker behavior on which the certifi-
+cate actually relies. When a new theory version changes a set of dependencies Δ, a certificate
+with a complete dependency set 𝐷need not be invalidated if
+𝐷∩Δ = ∅,
+provided its unchanged dependencies retain the same meaning. This is safe incremental
+reuse, not a magical guarantee that one never has to re-examine proofs. Its soundness depends
+on the completeness of 𝐷and the trustworthiness of the checker.
+The finite version-migration test had four certificates. Two were affected by a simulated re-
+vision and two were unaffected. The test supported the intended behavior: unrelated work
+need not be discarded, while dependent work must not be silently carried forward without
+validation.
+11.2 A proof translated to a new theory is a new artifact
+Suppose version 𝑣contains a proof and version 𝑤uses a different proof language. A translation
+may carry an old proof into the new language. If it is well defined on all proof expressions
+and preserves identity and composition, the translation can be studied as a functor between
+categories of proofs (RN 027).
+VERA · 31 OCT 2026
+32
+
+
+PDF PAGE 38
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+However, preserving formal proof structure is not the same as preserving mathematical
+meaning. The target language may use a symbol differently. An axiom in the source may have
+no corresponding valid axiom in the target. A theory migration therefore needs evidence that
+its interpretation of propositions and rules remains appropriate. Merely matching theorem
+names or printed conclusions is inadequate.
+The research also considered version diamonds. A theorem might be migrated from version
+𝑣to version 𝑧through versions 𝑤1 or 𝑤2. The two migration routes may yield proofs of the same
+final statement without producing the same proof object. Agreement of conclusions does not
+establish equality of proof translations, and it does not automatically supply a natural isomor-
+phism between the translation functors.
+The Atlas keeps both translated proofs and both migration histories. If a mathematical compar-
+ison is available, it is added as a separate certificate. No old proof is overwritten retroactively
+by its later translation.
+11.3 Incomplete translation is not failed mathematics
+Real translators are often partial. A target proof system may support some source rules but not
+others. A valid source proof that uses an unsupported rule cannot necessarily be translated;
+that does not make the theorem false.
+The project’s certificate statuses therefore distinguish:
+Status
+What it says
+What it does not say
+Accepted
+A target checker accepted the
+supplied formal derivation
+under its declared rules.
+The historical record has
+been authenticated.
+Unsupported
+The translator could not
+produce a supported target
+derivation.
+The theorem is false or
+unprovable.
+Rejected
+A proposed derivation failed
+the specified checker.
+The underlying theorem is
+false in all systems.
+Stale
+One or more necessary
+dependencies or checker
+versions changed.
+The older certificate was
+necessarily wrong.
+These distinctions prevent a common failure of automated research pipelines: collapsing “un-
+supported,” “unverified,” and “disproved” into one category (RN 028).
+VERA · 31 OCT 2026
+33
+
+
+PDF PAGE 39
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+11.4 A small independent checker
+The notebook implemented a deliberately small formal proof checker. Its role was not to solve
+mathematics automatically, but to demonstrate a trust boundary. A translator, generator, or
+model may propose a proof. A separate checker then verifies its syntax and inference steps
+against an explicit calculus.
+One minimal example used propositional formulas, assumptions or axioms, and modus po-
+nens: from 𝐴and 𝐴⇒𝐵, derive 𝐵. Soundness follows by induction over the derivation: ac-
+cepted axiom lines are true under the stipulated interpretation, and each valid modus ponens
+step preserves truth.
+The prototype accepted a valid derivation and rejected several intentionally invalid cases,
+including forged rules and missing assumptions.
+A later translator test checked forty-six
+valid translations and three deliberately invalid target proofs. These are finite implementa-
+tion checks; they do not transform the small prototype into a mature general-purpose proof
+assistant (RN 028–029).
+11.5 What the checker can and cannot certify
+A mathematical checker can verify that a formal argument follows from declared assumptions
+and rules, subject to the checker’s soundness and correct interpretation. It cannot generally
+infer whether an axiom is scientifically appropriate. It cannot authenticate an author or prove
+that a claimed research event occurred. It cannot prove its own security merely by accepting
+proof objects.
+Consider two records containing the same valid proof text. One accurately names its author;
+the other falsely attributes the proof. A checker that examines only mathematical inference
+will accept both. The mathematics is the same; the historical statements differ. Authenticity
+requires separate evidence, potentially including signed records, trusted timestamps, external
+corroboration, and an explicit threat model.
+The Atlas’s core lesson is therefore to divide responsibility: the kernel checks mathematics;
+the provenance archive records claims and evidence of history; the migration layer
+proposes transformations of certificates but cannot declare itself trustworthy.
+VERA · 31 OCT 2026
+34
+
+
+PDF PAGE 40
+Chapter 12
+The proposed Atlas Engine
+12.1 Turning the research into a system
+The original project chose three deliverables: a mathematical monograph, a reference imple-
+mentation called the Atlas Engine, and a reproducible experimental archive. The thirty foun-
+dational notes establish the first of these only in research-notebook form. They also contain
+small prototypes and executable experiments, but not yet an integrated, release-ready engine.
+The final foundational note (RN 030) specifies a deliberately restricted first version. This is a
+wise engineering boundary: a small system whose guarantees can be checked is more useful
+than an ambitious system that silently claims to authenticate events or solve arbitrary higher-
+category equivalence.
+An Atlas Engine record should be able to name a mathematical object or event, identify its
+theory and interpretation versions, refer to immutable source material, list its dependencies,
+carry checkable proof evidence, and record verification outcomes as separate events. The
+record should distinguish what the system itself checked from what an external source merely
+claimed.
+12.2 A practical data architecture
+A simple implementation can organize information into five related stores or layers.
+Object and theory registry. Records the mathematical state types, operations, source and
+target types, observation maps, axioms, and versions in which they have a defined meaning.
+A proof relying on an operation cannot be interpreted without this registry.
+Raw event history. Stores distinct event occurrences and their chronological or causal links.
+Each event points to its transformation meaning, source state or type, and evidence. It must
+support repeated event types without collapsing their occurrences.
+Mathematical evaluation. Computes composite transformations, observed outputs, stable
+quotients, and certified equivalence classes. These are reproducible derived views rather than
+substitutes for the raw record.
+Proof and verification registry. Stores formal derivations, the checker and rules used, and
+versioned acceptance or rejection outcomes. A new check creates a new verification event; it
+does not erase the old one.
+VERA · 31 OCT 2026
+35
+
+
+PDF PAGE 41
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+Provenance and trust registry. Records source assertions, immutable payload references,
+claimed creation times and authors, authenticity status, and supporting evidence. It must not
+turn an unsigned claim into a fact just because its contents are internally well formed.
+RAW RECORDS
+event occurrences, source evidence, interpretation versions
+MATHEMATICAL EVALUATION
+composites, quotients, recoverability
+PROOF REGISTRY
+certificate terms, versioned checking
+PROVENANCE ASSESSMENT
+origin claims and authenticity evidence
+Figure 12.1: A conceptual architecture for the Atlas Engine. Arrows indicate linked records, not that
+one layer automatically validates the next.
+These layers can share references without sharing their trust assumptions. A mathematical
+checker should not be able to mark authorship “verified” merely because a theorem was
+proved; a timestamp should not be able to mark a theorem true.
+12.3 A reference record, explained in ordinary language
+The final notebook proposes a proof-carrying provenance record with a stable identifier, the-
+ory version, checker version, assumptions, proof, conclusion, dependencies, history, migration
+information, and verification outcomes. The precise storage format may change during imple-
+mentation. What must survive is the meaning of each field and the audit trail of changes.
+For example, a record might mean: “This derivation proves proposition 𝑃using axioms set 𝐴
+under theory version 𝑣; checker 𝐾accepted it at a particular verification event; the source file
+was identified by a content digest; the author is claimed but not independently authenticated.”
+The statement does not imply that 𝑃is true outside the declared axioms, and it does not make
+a claim of authorship magically reliable.
+A content digest such as SHA-256 can detect that content has changed relative to a known di-
+gest. It is not an authorship certificate and, alone, does not establish when or where the content
+originated. That qualification matters in an archive whose entire purpose is to preserve prove-
+nance without overstating it.
+12.4 Release requirements
+The first engine should accept a valid derivation under declared axioms and reject a forged
+rule, an invalid inference, or an unsupported claim of admissibility. It should retain two dif-
+ferent raw paths even if their composite transformations agree. It should demonstrate a valid
+and an invalid state-dependent swap. It should compute a stable quotient in a finite example
+VERA · 31 OCT 2026
+36
+
+
+PDF PAGE 42
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+and preserve the event history that led to the observed state. It should revalidate certificates
+affected by changed dependencies while allowing justified reuse of unaffected ones.
+It should also export portable records with enough information to reproduce every mathemati-
+cal evaluation and checker verdict. Test code, test inputs, expected outcomes, actual outcomes,
+and version identifiers belong in the reproducible archive. The original notebook’s practice of
+embedding verification scripts is a useful precedent.
+It is equally important to state what the initial engine will not claim to do: authenticate all
+historical claims, infer causation from timestamps, prove equivalence of arbitrary programs,
+solve general higher-category coherence, or recover an unrecorded past by deduction from a
+final state.
+12.5 A coherent next build sequence
+A realistic implementation order is to begin with an immutable, versioned registry and event
+occurrence identifiers; implement a deterministic checker with explicit assumptions; add raw-
+path evaluation and validation of composition; introduce finite partial-map checks and obser-
+vational refinement; then implement dependency-based invalidation and reproducible export.
+Only after these components have reliable tests should a richer proof-comparison interface be
+attempted.
+The exact software language is not itself part of the mathematics. Python served as the note-
+book’s initial experimental language, but the trust assumptions must be expressed in the spec-
+ification, not in confidence that a particular programming language will make them true.
+At the foundational milestone, these are requirements and prototypes, not completed pro-
+duction features. The difference between “specified,” “implemented in a small test,” and “in-
+dependently validated in an integrated system” must remain visible in any report of progress.
+VERA · 31 OCT 2026
+37
+
+
+PDF PAGE 43
+Chapter 13
+An end-to-end case study: the history of
+a mathematical claim
+13.1 Why the report needs a complete example
+The preceding chapters developed several ideas independently. A professor reading the report
+is entitled to ask whether they form a coherent method, or merely a list of familiar mathemat-
+ical tools. This case study shows what the Atlas proposes to do with them together. It is a
+constructed demonstration, not a claim that the integrated Atlas Engine has been released.
+Suppose a researcher investigates a small system with the three integer states 𝑆= {0, 1, 2}. There
+are two operations: 𝑎, which increments while remaining in the state space, and 𝑏, which decre-
+ments while remaining in the state space. The researcher wants to establish whether applying
+𝑎and then 𝑏can safely be exchanged with applying 𝑏and then 𝑎.
+A casual answer might say “they cancel out, so yes.” Our earlier counterexample shows why
+that answer is incomplete. The precise claim depends on the starting state.
+13.2 Stage one: define the mathematical objects
+The researcher creates a theory version 𝑣1 with the state space and operations defined above.
+The operation domains are recorded as part of their meanings. The mathematical system dis-
+tinguishes the type name 𝑎from each recorded occurrence of 𝑎.
+An observation map 𝑞might report only whether the current state is odd or even. That ob-
+servation is an optional representation of the full state, not a replacement for it. The registry
+records which version of 𝑞applies and whether a particular proof refers to full states or merely
+observations.
+The initial claim is deliberately restricted:
+At starting state 1, the two-event histories 𝑎𝑏and 𝑏𝑎are both admissible and reach
+the same final state.
+The researcher does not claim that 𝑎and 𝑏commute globally.
+VERA · 31 OCT 2026
+38
+
+
+PDF PAGE 44
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+13.3 Stage two: construct a checkable witness
+The certificate checks both orders explicitly:
+1
+𝑎−→2
+𝑏−→1,
+1
+𝑏−→0
+𝑎−→1.
+Each application is within its operation’s declared domain. Both results are 1. The certificate
+therefore establishes a state-indexed local swap. It also cites the interpretation version 𝑣1
+under which the operations were checked.
+If the investigator asks the stronger question “are these equal as partial functions over all 𝑆?”,
+the answer is no. At state 0, the order 𝑏𝑎is undefined. At state 2, 𝑎𝑏is undefined. A correctly
+designed checker must reject the global claim while accepting the local one.
+The result is not self-contradictory: the two claims have different quantifiers and domains.
+13.4 Stage three: preserve the actual event history
+Suppose the researcher actually performs 𝑎𝑏from state 1. The history registry records event
+occurrences 𝑒1 and 𝑒2 in that order. The mathematical model also recognizes that 𝑏𝑎would have
+been admissible and would have reached the same result. The first is a historical claim; the
+second is a mathematically supported alternative.
+The Atlas may display them together in an equivalence component, but it must not rewrite the
+original log to say that 𝑏𝑎occurred. The certificate supports possible interchangeability at this
+state, not retroactive substitution of one event sequence for another.
+Moreover, the historical record may have only weak external evidence. If it is a local note-
+book entry without instrument logs or signatures, the Atlas can faithfully preserve what the
+researcher recorded while leaving the authenticity of the occurrence “unestablished.” A math-
+ematical proof of local swap validity cannot remove that evidentiary limitation.
+13.5 Stage four: a later observer requests less information
+A collaborator wants only to know whether the process ends at an even or odd state. At the
+given starting state, both histories end at the odd state 1. That observation is sufficient for the
+particular endpoint question.
+But it may not be sufficient for predicting every future operation. If the collaborator later wants
+to know whether the increment command will be enabled, full or refined state information
+may be required. The strong-transition-congruence test distinguishes a safe quotient from a
+current coincidence. The Atlas should not erase the full state merely because the first requested
+report needed only parity.
+VERA · 31 OCT 2026
+39
+
+
+PDF PAGE 45
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+13.6 Stage five: the transformation law is revised
+Now suppose theory version 𝑣2 narrows the domain of the increment operation so that it is no
+longer defined at 1. The earlier local-swap certificate depended on the original meaning of 𝑎;
+its dependency set intersects the revision. The certificate is therefore stale for 𝑣2 and must be
+rechecked. Under the revised rule, the originally claimed local exchange may be inadmissible.
+But the Atlas keeps the earlier certificate and its original interpretation version. It remains
+meaningful as a statement about 𝑣1. The archive records the revision, the dependency impact,
+the new verification outcome, and any newly proposed proof. It does not overwrite the old
+evidence with a new verdict divorced from its context.
+The distinction is especially important in mathematics. A proof valid under an older set of
+axioms can remain an entirely correct proof of an older theorem even if a newer theory no
+longer adopts those axioms.
+13.7 Stage six: a proof translator proposes an update
+A translation service attempts to produce a 𝑣2 proof from the old 𝑣1 certificate. There are three
+legitimate outcomes. The translator may report that it does not support the changed operation.
+It may produce a proposed proof that fails the target checker. Or it may produce a new proof
+that is accepted under 𝑣2, perhaps for a weaker claim or a different domain.
+None of these outcomes should be silently converted into a statement about historical authen-
+ticity. Nor should a successful translation overwrite the source proof. A new mathematical
+proof is a new artifact with its own derivation and provenance.
+13.8 Stage seven: audit the entire episode
+A future mathematician should be able to recover:
+• the original 𝑣1 definitions and the restricted claim;
+• the original event occurrence order, separately from hypothetical alternatives;
+• the local-swap certificate and the checker that accepted it;
+• the revision to 𝑣2 and the dependencies it affected;
+• the new validation result and any translated proof;
+• the historical sources for each claim, with their authenticity status;
+• the fact that the old and new mathematical interpretations are different.
+A shorter report might say “the two operations used to commute but now do not.” That is
+inadequate. It omits the state restriction, the changed domain, the distinct actual histories,
+and the epistemic status of each certificate. The Atlas is designed to retain those distinctions
+while still allowing a concise overview to be produced as a derived view.
+VERA · 31 OCT 2026
+40
+
+
+PDF PAGE 46
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+13.9 What this demonstration proves about the project
+The example shows that the pieces of the proposed architecture fit together conceptually and
+mathematically. It does not prove that a production implementation meets every requirement,
+that authenticity has been solved, or that the design is more efficient than established alterna-
+tives. Those claims require building the integrated engine, running its acceptance tests, and
+comparing it with existing systems.
+A proper research report must resist mistaking a coherent design narrative for an empirical
+validation. The purpose of this case study is explanatory: it shows why the formal distinctions
+are necessary to the use case the project intends to serve.
+VERA · 31 OCT 2026
+41
+
+
+PDF PAGE 47
+Chapter 14
+Findings, originality, and limitations
+14.1 The findings I would defend
+A final academic assessment should separate what the research genuinely established from
+what it merely proposed. The core findings are as follows.
+Finding 1: identity requires an explicit criterion. The category and invariant framework
+gives a rigorous way to state which structure must survive. It does not provide a universal def-
+inition of identity for all disciplines. The triangle example is simple enough to test the concept
+and sharp enough to expose ambiguity.
+Finding 2: a restored measurement is not proof of unbroken preservation.
+Struc-
+tural endpoint equivalence is weaker than invertibility of each induced map along an actual
+recorded path. The circle–interval–circle example makes the distinction visible; the functorial
+result makes the stronger claim precise.
+Finding 3: transformation results and transformation histories are different mathe-
+matical objects. The free-path construction retains ordered histories, while an evaluation
+functor may identify their composite effects. This result is standard category theory put to use
+as an archival principle.
+Finding 4: exact recovery has testable conditions.
+Linear state recovery follows the
+common-kernel criterion.
+Arbitrary historical recovery follows the record-fiber criterion
+relative to a selected equivalence relation. Neither criterion authenticates its inputs.
+Finding 5: causation and chronology must not be conflated. Partial orders describe de-
+pendencies; linear extensions describe allowed serializations. Their relationship is mathemat-
+ically exact in finite systems, but behavioral commutation requires additional information.
+Finding 6: mathematical equivalence and proof equivalence have different levels. Pair-
+wise swaps, equality of composites, and higher coherence cannot be collapsed into one undif-
+ferentiated equality. Finite reduced-word experiments demonstrate local rules, while general
+coherence remains a separate obligation.
+Finding 7: admissibility has state and version dependence. Partial transformations re-
+quire domain-aware comparisons. A certificate needs enough context to establish what was
+valid, for which incoming state, and under which interpretation.
+Finding 8: sufficient observation is a behavioral property. In finite deterministic partial
+systems, stable partition refinement identifies the coarsest safe quotient that preserves future
+enabledness and the requested observations. The quotient does not encode raw history.
+VERA · 31 OCT 2026
+42
+
+
+PDF PAGE 48
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+Finding 9: provenance and mathematical trust must have separate verification bound-
+aries. A formal checker can establish derivability under axioms. An evidential process must
+separately establish claims about authors, times, and events. A valid proof is not a historical
+authentication certificate.
+Finding 10: the framework can be made implementable in restricted cases. The note-
+book specifies an engine contract and demonstrates finite subcomponents. Integration, perfor-
+mance, security, interoperability, and independent review remain future work.
+These findings answer the foundational research questions in carefully qualified forms. They
+do not warrant the assertion that the Atlas has proved an entirely new foundational mathe-
+matics of identity.
+14.2 What is mathematically established, and what is architectural
+Some propositions are direct applications of established results: closure under composition of
+isomorphisms, the free-category property, injectivity and decoding, rank–nullity, finite partial-
+order adjacent swaps, trace-equivalence counting, stable partition refinement, and soundness
+of an elementary inference system. Their mathematical value here lies in giving a sound foun-
+dation to a specific architecture.
+Other contributions are definitions and design decisions: the distinction between a raw
+event record and its evaluated path, the organization of proof-carrying provenance fields, sta-
+tus labels for certificate migration, and the insistence that equivalence classes must not erase
+the histories that generated them. These may be valuable as a research or engineering method-
+ology without constituting novel mathematical theorems.
+Finally, several questions remain open within the project’s chosen scope: general typed higher-
+coherence laws, proof-relevant comparison across nontrivial theory versions, minimal check-
+able certificates for symbolic state spaces, authenticated provenance under realistic attacks,
+and optimal storage for complex compositional proofs. The notebook names these as future
+work rather than claiming them as solved results.
+14.3 The originality question
+The Atlas draws on established work in category theory, rewriting, trace monoids, automata
+minimization, proof systems, and causal partial orders. Its central goal is to combine them
+into a consistent framework for mathematical history and evidence. It may offer a useful in-
+tegrated method even when each ingredient is familiar.
+A strong originality claim would require a systematic comparison with formal proof assistants,
+proof-carrying code, data provenance systems, event-sourced architectures, proof-relevant
+type theories, and established mathematical approaches to historical or causal traces. It would
+also require demonstrations that the integrated design performs tasks that existing systems do
+not already address adequately.
+VERA · 31 OCT 2026
+43
+
+
+PDF PAGE 49
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+The present report therefore makes a restrained academic claim: the research completed
+a coherent, testable foundational specification. It does not establish priority for a novel
+theorem or demonstrate superiority over existing frameworks. This is the position I would
+defend before a mathematically demanding committee.
+14.4 The status of verification
+The notebook contains finite computational checks, including 48 three-event evaluations, 384
+four-event evaluations, a finite trace-class count, state-dependent swap controls, six-state ob-
+servational refinement, version-invalidation cases, and elementary proof-checker tests. Sev-
+eral experiments also reproduced mistakes that were corrected and retained as research his-
+tory.
+These tests provide evidence that specific programs matched specific examples. They are not
+substitutes for general proofs. Moreover, the notebooks and their code have not undergone
+a complete independent audit by a third party. Even deterministic code can contain errors
+or rely on misinterpreted assumptions; the written mathematics must remain independently
+inspectable.
+The consolidated proofs are valid within their stated elementary or categorical settings where
+the assumptions have been met. Some earlier material remains at the level of a proof sketch or
+a proposed specification. The report avoids promoting those portions to theorem status simply
+to make the final narrative more impressive.
+14.5 Scope restrictions a reader must not miss
+The stateful algorithms are principally finite and deterministic. Recoverability bounds usually
+assume finite known history sets, shared dictionaries, and precisely stated side information.
+The linear-algebraic recovery theorem is not a general theorem about nonlinear stochastic
+channels. The interpretation of causal edges is determined by the model and the evidence
+available. Historical authentication is outside the mathematical kernel. Higher-category coher-
+ence beyond the finite models has not been completed. No universal computational efficiency
+theorem has been established.
+These are meaningful boundaries. They help another researcher identify whether a result
+applies to a new problem, and prevent applications from claiming guarantees that were never
+proved.
+14.6 An assessment in the style of a mathematical research examina-
+tion
+A research submission deserves credit for framing questions precisely, proving claims under
+clear assumptions, recording counterexamples, correcting mistakes, and making its limits ex-
+VERA · 31 OCT 2026
+44
+
+
+PDF PAGE 50
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+plicit. It should not receive credit for page count alone, nor for calling a proposed architecture
+a new theorem.
+Under that standard, I would classify the work as a completed foundational research pro-
+gram with a credible implementation specification, but not yet as a completed, indepen-
+dently examined doctoral dissertation. It needs a systematic literature comparison, formaliza-
+tion of selected certificates in a mature proof assistant or equivalent independent checker, a
+coherent integrated implementation, and external critical review.
+That evaluation does not negate the substantial mathematical work recorded in the thirty notes.
+It specifies the difference between an internal research milestone and an externally validated
+scholarly contribution. A careful report should make that difference clear to its readers.
+VERA · 31 OCT 2026
+45
+
+
+PDF PAGE 51
+Chapter 15
+Conclusions and final submission
+15.1 The answer to the founding question
+The founding question asked what it means for something to remain itself while becoming
+something else. The Atlas does not return one universal metaphysical answer. Instead, it pro-
+vides an organized collection of mathematical questions whose answers depend on what is
+meant by “itself”:
+If we mean structure, specify a functor or invariant and determine what the transformation
+preserves. If we mean unbroken persistence, examine the induced maps throughout the
+actual path. If we mean historical continuity, retain the sequence of recorded event occur-
+rences. If we mean recoverability, specify the evidence and the distinctions the decoder must
+reproduce. If we mean justification, retain the mathematical proof and its assumptions. If
+we mean authenticity, require evidence appropriate to the historical claim.
+These answers differ because the questions differ. The Atlas makes those differences explicit
+so that legitimate mathematical agreement does not create false historical agreement.
+The research’s most concise conclusion is therefore this:
+Two things can become structurally equivalent without having followed
+equivalent histories. Two histories can be mathematically equivalent with-
+out being the same recorded history. And a valid proof about a history is not
+proof that the history occurred.
+That conclusion is supported by the project’s definitions, counterexamples, conditional theo-
+rems, and finite experiments. It is not an attempt to derive all aspects of identity from a single
+new law.
+15.2 What the completed foundational program delivers
+At the conclusion of Research Note 030, the notebook contains a chain of developments from
+structural identity and the preservation category through proof-bearing histories, recoverabil-
+ity, causal order, trace compression, partial transformation admissibility, observational re-
+finement, versioned proof migration, and a minimal verification kernel. It contains corrected
+failed hypotheses and actual executable experiments as well as formal propositions.
+The program closes with modular commitments A0–A8 and an engineering contract for the
+Atlas Engine. These are sufficient to begin implementation without pretending to have solved
+VERA · 31 OCT 2026
+46
+
+
+PDF PAGE 52
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+every open problem. This is the chosen endpoint of the foundational research phase—not
+the endpoint of all future work.
+The next scholarly and engineering tasks are clear. Build a small, auditable engine; reproduce
+the notebook’s cases in one integrated test suite; compare the architecture against established
+approaches; then edit a mathematical monograph whose claims and proofs can survive inde-
+pendent scrutiny.
+15.3 Final reflection
+The most valuable discipline the Atlas imposed on itself was the same discipline it attempted
+to formalize. The notebook could not merely report that an idea was “preserved”; it had to
+keep enough of the idea for a future mathematician to reconstruct and challenge it. When the
+archival audit found compressed passages, the project corrected them. When a finite enumer-
+ation contradicted an expectation, the expectation was not erased; it became evidence of how
+the reasoning changed.
+That is an appropriate conclusion for a research project devoted to becoming. A final result
+matters. So do the route, the assumptions, the corrections, and the evidence. A record that
+preserves those things does more than remember a claim: it makes the claim available for
+responsible future inquiry.
+Foundational submission status: Research Notes 001–030 completed and consolidated. In-
+tegrated Atlas Engine status: specified and prototyped in parts, not yet delivered. Scholarly
+validation status: independent examination outstanding.
+VERA · 31 OCT 2026
+47
+
+
+PDF PAGE 53
+Chapter A
+Mathematical statements and proof ref-
+erence
+This appendix is for readers who want to check the formal claims without reconstructing them
+from the prose chapters. It records the assumptions on which each statement depends. These are
+applications or consolidations of established results, not claims of newly discovered universal
+theorems.
+A.1 Preservation through a functor
+Proposition. Let 𝐹∶𝒞→𝒟be a functor between categories. Let 𝒲𝐹be the subcategory with
+every object of 𝒞and precisely those morphisms 𝑓for which 𝐹(𝑓) is an isomorphism. Then
+𝒲𝐹is a wide subcategory.
+Proof. For any object 𝑋of 𝒞, functoriality gives 𝐹(id𝑋) = id𝐹(𝑋), which is invertible. Hence
+every identity arrow is included. If 𝑓∶𝑋→𝑌and 𝑔∶𝑌→𝑍lie in 𝒲𝐹, then both 𝐹(𝑓) and
+𝐹(𝑔) are invertible. Their composite is invertible; functoriality gives 𝐹(𝑔∘𝑓) = 𝐹(𝑔) ∘𝐹(𝑓). Thus
+the composite 𝑔∘𝑓is included. Associativity and identity laws are inherited from 𝒞. Every
+original object remains, hence the subcategory is wide.
+What not to infer. The arrow 𝑓itself need not be invertible in 𝒞, and 𝒲𝐹need not be a
+groupoid.
+A.2 Recoverability of a linear input
+Proposition. Let 𝐴∶𝑉→𝑊and 𝑆∶𝑉→𝑅be linear maps of vector spaces over a field. Define
+𝐽(𝑣) = (𝐴(𝑣), 𝑆(𝑣)). The following are equivalent: (i) 𝐽is injective; (ii) ker 𝐴∩ker 𝑆= {0}; and (iii)
+an exact decoder 𝑑∶𝐽(𝑉) →𝑉exists with 𝑑(𝐽(𝑣)) = 𝑣for all 𝑣∈𝑉.
+Proof. The kernel of 𝐽is exactly the intersection ker 𝐴∩ker 𝑆. A linear map is injective if and
+only if its kernel is zero. If 𝐽is injective, define 𝑑on the image of 𝐽by sending 𝐽(𝑣) to the unique
+such 𝑣. Conversely, if such a decoder exists and 𝐽(𝑣) = 𝐽(𝑤), then 𝑣= 𝑑(𝐽(𝑣)) = 𝑑(𝐽(𝑤)) = 𝑤.
+Corollary (auxiliary rank). If 𝑉is finite-dimensional, with dim 𝑉= 𝑛and rank 𝐴= 𝑟, then
+any auxiliary linear map permitting exact recovery must satisfy rank 𝑆≥𝑛−𝑟. Indeed, 𝑆must
+be injective on ker 𝐴, a subspace of dimension 𝑛−𝑟. A suitable linear map with rank exactly
+𝑛−𝑟can be constructed from a complement of ker 𝐴.
+VERA · 31 OCT 2026
+48
+
+
+PDF PAGE 54
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+Feature variant. A linear target feature 𝐿∶𝑉→𝑈is recoverable from 𝐽(𝑣) precisely when
+ker 𝐽⊆ker 𝐿. The forward implication follows from 𝐽(𝑣) = 𝐽(𝑤) ⇒𝐿(𝑣) = 𝐿(𝑤). For the converse
+define the recovery map on 𝐽(𝑉) by 𝑑(𝐽(𝑣)) = 𝐿(𝑣); the kernel condition makes it well-defined.
+A.3 Recovery of a history class
+Proposition. Let 𝐻be a set of histories, ∼an equivalence relation, and 𝐽∶𝐻→𝑌the retained
+evidence. There exists a decoder 𝑑∶𝐽(𝐻) →𝐻/ ∼satisfying 𝑑(𝐽(ℎ)) = [ℎ] for every ℎif and only
+if
+𝐽(ℎ) = 𝐽(𝑘) ⟹ℎ∼𝑘.
+Proof. If the decoder exists, equal evidence receives equal decoder output, so [ℎ] = [𝑘]. Con-
+versely, for every attainable 𝑦choose any ℎwith 𝐽(ℎ) = 𝑦and define 𝑑(𝑦) = [ℎ]. If 𝑘is another
+choice with 𝐽(𝑘) = 𝑦, the assumption gives ℎ∼𝑘, so the definition is unambiguous.
+A decoder here is defined only on attainable observations. Rejecting malformed evidence and
+detecting forged records require further structure.
+A.4 The uniform finite coding bound
+Proposition. Under the assumptions of A.3, let 𝐻be finite and let a known observation 𝑂be
+available to the decoder. Let 𝐾𝑦count the distinct ∼-classes among histories whose observation
+is 𝑦. A uniform fixed-length auxiliary code with a shared dictionary is sufficient and necessary
+with length
+𝐿= ⎡
+⎢
+⎢
+log2 max
+𝑦
+𝐾𝑦
+⎤
+⎥
+⎥
+.
+Proof. For an observation 𝑦with the maximum number of compatible classes, distinct classes
+require distinct codes. An 𝐿-bit string has only 2𝐿values, establishing the lower bound. Con-
+versely, each observation fiber has at most max𝑦𝐾𝑦relevant classes, so its classes can be as-
+signed codewords of the stated common length. The decoder uses 𝑦to choose the correct dic-
+tionary.
+This is an identification bound. It excludes the cost of storing the dictionary, the observation
+record, proofs, data authenticity, and the computation required to decode.
+A.5 Contextual swapping of partial transformations
+Proposition. Let 𝑎, 𝑏be deterministic partial transformations on 𝑆. Suppose a history 𝑢𝑎𝑏𝑣
+executes from 𝑠, and the prefix 𝑢reaches 𝑥. Suppose both two-step orders 𝑎𝑏and 𝑏𝑎are defined
+VERA · 31 OCT 2026
+49
+
+
+PDF PAGE 55
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+at 𝑥and reach exactly the same state 𝑦. Then 𝑢𝑏𝑎𝑣also executes from 𝑠, and the two complete
+histories have the same final state.
+Proof. Execute 𝑢, reaching 𝑥in either proposed history. By hypothesis, both local orders are
+defined and reach 𝑦. Since 𝑢𝑎𝑏𝑣was executable, the suffix 𝑣is executable from 𝑦. Hence it is
+executable after either local order and reaches the same result.
+The full-state equality at 𝑦is important. If only an observation agrees, the suffix may expose
+an unobserved difference, unless a suitable congruence has separately been proved.
+A.6 Causal order and path-independent evaluation
+Proposition. Let 𝑃be a finite poset, and assign to every event 𝑒∈𝑃a total endomap 𝑇𝑒∶𝑆→
+𝑆. If every pair of incomparable events has commuting transformations, then every linear
+extension of 𝑃induces the same composite map.
+Proof. Any two linear extensions of a finite poset are connected by adjacent swaps of incom-
+parable events. For each such swap, the surrounding composite remains unchanged by the
+assumed commutativity. Repeating the argument along the chain of swaps establishes equal-
+ity of the composites.
+What not to infer. Incomparable events do not automatically commute, and an equality of
+composite maps does not prove that two actual execution histories were identical.
+A.7 Finite stable observation refinement
+Proposition. Let 𝑆and the deterministic partial-operation alphabet be finite. Let 𝑅0 identify
+states with equal initial observations. Construct 𝑅𝑛+1 by retaining only pairs from 𝑅𝑛whose
+enabledness agrees for every operation and whose enabled successors remain 𝑅𝑛-equivalent.
+Then the process stabilizes at the coarsest strong transition congruence refining 𝑅0.
+Proof. Each strict refinement increases the number of classes, which is bounded by |𝑆|; the
+process therefore terminates. At a fixed point, the defining clauses of strong congruence hold
+by construction. If 𝐶is any strong congruence refining 𝑅0, induction shows 𝐶⊆𝑅𝑛for every
+𝑛: a pair related by 𝐶has matching enabledness and 𝐶-related successors, which remain 𝑅𝑛-
+related by the induction hypothesis. Therefore 𝐶is contained in the terminal relation, proving
+that the terminal relation is coarsest among such congruences.
+This statement relies on finite deterministic partial maps. It is not by itself a minimization
+theorem for arbitrary stochastic or nondeterministic systems.
+A.8 Proof reuse under a version change
+Proposition. Suppose a formal derivation was accepted by a sound checker. Let 𝐷be a com-
+plete set of the definitions, axioms, inference rules, interpretations, and checker semantics
+VERA · 31 OCT 2026
+50
+
+
+PDF PAGE 56
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+required for every step. If two theory versions agree on all elements of 𝐷, then the derivation
+remains valid under the new version.
+Proof. Induct along the proof tree. Each axiom reference continues to have the same inter-
+pretation, and each inference rule retains the same premises and conclusion. Therefore all
+previously valid steps remain valid in order.
+The phrase complete dependency set is a substantive assumption. A forgotten dependency
+can invalidate the conclusion. The result does not establish that every practical dependency
+extractor is complete.
+A.9 A formal checker does not establish historical truth
+Claim and counterexample. Consider a valid proof 𝑝of a judgment 𝐽. Store identical proof
+bytes in two records. The first correctly states that a given person authored the proof. The
+second falsely attributes authorship. A formal checker that verifies only the mathematical
+derivation accepts both records, since their proof bytes are identical. Therefore accepting 𝑝
+cannot by itself authenticate the record’s author, timestamp, or occurrence claims.
+This is not a limitation peculiar to the Atlas. It is an elementary difference between a mathe-
+matical entailment and evidence about a real-world event. It justifies the proposed separation
+of the proof kernel from the historical provenance registry.
+A.10 A statement about proof equality that remains conditional
+The finite braid experiments demonstrate coherence in specific reduced-word systems. To gen-
+eralize them to arbitrary typed transformation categories, one must specify comparison 2-cells,
+their vertical and horizontal compositions, and the coherence equations they satisfy. Pairwise
+commutation or agreement of endpoint evaluations alone does not supply those equations. A
+complete general coherence theorem is not established by this report.
+VERA · 31 OCT 2026
+51
+
+
+PDF PAGE 57
+Chapter B
+The thirty-note research record
+Each item identifies its principal contribution to the consolidated project. These are reading point-
+ers, not substitutes for the full notebook, which preserves the derivations, decisions, and experi-
+ments.
+RN 001 — Foundational architecture.
+Introduced the provisional Becoming Object
+(𝑋, 𝑅, 𝑇, 𝑃) and the separation between admissible transformations and their provenance.
+The triangle example established that identity claims must specify the structure under consid-
+eration. Set the initial research program around identity, transformation, provenance, and
+reconstruction.
+RN 002 — Structural identity and ancestry. Distinguished isomorphism of extracted struc-
+tures from the existence of a directed historical path.
+The triangle–four-cycle experiment
+showed that a sequence can preserve topological type while changing graph structure. The
+initial persistent-identity proposal was marked for correction.
+RN 003 — Persistence versus restoration. Used the circle–interval–circle pattern to distin-
+guish endpoint equivalence from continuous feature survival. Corrected the formal criterion
+to examine induced maps rather than endpoint object classes. Established preservation under
+composition of induced isomorphisms.
+RN 004 — The path hypothesis. Preserved Genesis’s proposal that two restorations may have
+equivalent endpoints but different transformation histories. Distinguished path admissibility,
+endpoint equivalence, and path dependence. Recorded holonomy and neural-network compu-
+tational graphs as analogies without redirecting the research to either domain.
+RN 005 — Witness records. Distinguished mathematical preservation, evidence of preserva-
+tion, and provenance of that evidence. Compared invertible and rank-deficient linear maps
+on the same source and target spaces. Corrected the label “witness morphism” to “witness
+record.”
+RN 006 — The witness category. Defined the wide subcategory of morphisms whose images
+under a chosen functor are invertible. Verified identities, closure under composition, and in-
+herited associativity. Noted that this category need not be a groupoid and that proof-bearing
+information requires a further layer.
+RN 007 — Certified paths. Introduced a graph of certified event occurrences and its free
+path category. Defined an evaluation functor to the category of admissible transformations.
+Demonstrated that distinct paths can share one evaluated composite without becoming identi-
+cal histories.
+RN 008 — Derivation trees. Added a minimal certificate calculus and distinguished proof
+trees from event histories. Demonstrated certificate composition with explicit rule dependen-
+VERA · 31 OCT 2026
+52
+
+
+PDF PAGE 58
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+cies. Maintained the requirement that proofs, mathematical transformations, and provenance
+be stored as separate objects.
+RN 009 — Comparing witnesses. Studied equivalences between proof expressions, including
+reassociation and identity insertions. Constructed a quotient certificate category under explicit
+congruence rules. Kept raw proof derivations even when an equivalence class was available.
+RN 010 — Information transport and recoverability. Proved the common-kernel criterion
+for exact recovery of linear inputs using a transformation output and auxiliary record. Added
+rank and feature-recoverability results. Audited selected older Vera books on provenance, de-
+pendency closure, and continuity recovery without importing their claims uncritically.
+RN 011 — History recovery. Introduced a general decoder criterion for histories modulo a
+chosen equivalence relation. Demonstrated why identical endpoints and composite transfor-
+mations need not reveal a unique history. Distinguished recovery of a state from recovery of
+a process.
+RN 012 — Compositional path records. Defined lossless ordered path encodings using stable
+edge IDs and an initial vertex. Showed why unordered sets of events destroy order information
+and why graph and dictionary versions are necessary to preserve interpretation across time.
+RN 013 — Branching and causality. Modeled event dependencies by finite partial orders and
+proved adjacent-swap connectivity of their linear extensions. Distinguished causal incompara-
+bility from true independence. Established conditions for merging compatible causal records
+without introducing cycles.
+RN 014 — Path-independent evaluation. Proved that commuting transformations attached
+to incomparable events yield the same evaluation under every linear extension. Produced the
+flip/reset counterexample showing that causal incomparability alone does not imply commu-
+tation. Identified the stronger obligations for partial or typed maps.
+RN 015 — Typed coherence certificates. Introduced 2-cell syntax to represent certified com-
+parisons between parallel paths. Identified different proof routes for three-event reversal.
+Clarified that a syntactic higher-category construction requires a valid interpretation and ex-
+plicit composition rules.
+RN 016 — The coherence boundary. Proved that individual swap certificates do not auto-
+matically impose a braid coherence equation on composite proofs. Explained when additional
+relations may be placed in a quotient consistently with an intended semantic interpretation.
+RN 017 — Three-event testbed. Enumerated six permutations of three coordinate flips on
+eight binary input states. All 48 evaluations agreed. Retained the two distinct minimal reversal
+proof histories and distinguished the raw derivations from a braid-related equivalence class.
+RN 018 — Four-event testbed. Enumerated 24 orders of four coordinate flips, 384 state eval-
+uations, and sixteen minimal adjacent-swap reversal proofs. Showed connectivity of those
+proofs under ten disjoint-swap and eight braid relations within the finite testbed. Explicitly
+limited the result’s generality.
+RN 019 — Partial transformation domains. Demonstrated that two operations can agree
+wherever both are defined yet fail to commute as partial functions because their domains dif-
+VERA · 31 OCT 2026
+53
+
+
+PDF PAGE 59
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+fer. Introduced domain-sensitive swap requirements and finite controls for valid and invalid
+exchanges.
+RN 020 — Normal forms and histories. Showed that termination and confluence can guar-
+antee a unique final normal form while leaving multiple complete reduction histories possible.
+Clarified that unique results do not recover exact paths without additional evidence.
+RN 021 — Information bounds. Derived the minimum fixed-length bit count for distinguish-
+ing histories, both without side information and relative to a known observation. Separated
+the cost of identification from the cost of verification, dictionaries, and authenticity evidence.
+RN 022 — Causal trace compression. Applied trace equivalence to four-event histories and
+found fourteen classes among twenty-four raw orders. Corrected an initial erroneous count.
+Distinguished canonical traces, actual occurrence sequences, and semantically evaluated trans-
+formations.
+RN 023 — State-dependent independence. Defined context-sensitive swap certificates for
+deterministic partial maps. Proved that valid local exchanges preserve the final state after any
+executable suffix. Illustrated exchanges that succeed in the interior of a bounded state space
+and fail at its boundaries.
+RN 024 — Observational congruence. Asked when two hidden states that produce the same
+observation can safely be treated as equivalent under every future operation. Formalized
+matching enabledness and successor equivalence as a sufficient condition. Distinguished full-
+state and observational witnesses.
+RN 025 — Stable observation refinement. Developed a finite partition-refinement algo-
+rithm that produces the coarsest safe observational quotient. A six-state example required
+two rounds of refinement; the failed four-block expectation was recorded and corrected. Pre-
+served the distinction between behavioral state compression and event history.
+RN 026 — Versioned invalidation. Formalized how complete certificate dependencies per-
+mit safe reuse across unchanged parts of a theory while requiring checks on affected parts.
+Distinguished stale evidence from evidence disproved under a new theory.
+RN 027 — Proof migration. Studied functorial transport of proof objects between theory
+versions, including multiple routes through a version diamond. Showed that agreement of
+final theorem statements need not imply equivalence of the transported proofs.
+RN 028 — Partial translation and trust. Allowed a translator to be undefined on unsup-
+ported source proofs. Required an independent target checker for proposed translations. Dis-
+tinguished accepted, rejected, unsupported, and stale outputs and tested the classifications us-
+ing a small proof language.
+RN 029 — Minimal kernel. Proposed a proof-carrying provenance record and a small checker
+whose acceptance establishes derivability under declared assumptions. Distinguished formal
+correctness from authorship and occurrence claims. Implemented and tested a prototype with
+negative controls.
+RN 030 — Foundational consolidation. Collected the modular commitments A0–A8, the prin-
+cipal conditional theorems, the dependency map, release tests, and explicitly unresolved ques-
+VERA · 31 OCT 2026
+54
+
+
+PDF PAGE 60
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+tions. Closed the initial research phase and specified the first restricted Atlas Engine rather
+than extending the foundation indefinitely.
+VERA · 31 OCT 2026
+55
+
+
+PDF PAGE 61
+Chapter C
+Experimental and verification record
+C.1 How the experiments were used
+The computational work in the notebook served three roles. First, it supplied finite exam-
+ples that made abstract definitions concrete. Second, it checked numerical and combinatorial
+counts that might be easy to get wrong by hand. Third, it supplied deliberately invalid inputs to
+expose false conclusions. These roles must be distinguished from formal mathematical proof.
+A finite enumeration can establish a finite case exhaustively, but it cannot prove a theorem
+over arbitrary state spaces or all possible categories without additional reasoning.
+The notebook retained source code and outputs for a selection of experiments and included
+scripts alongside or within later checkpoints. The following ledger summarizes the most conse-
+quential checks and their interpretation. For this report, the available standalone verification
+programs for Notes 017–019, 023, 025, 026, 028 and 029 were executed again. Their execution
+completed successfully in the current preparation environment. The tests are still small proto-
+types rather than a single integrated Atlas Engine regression suite.
+Experiment
+Observations or checks
+What it supports
+Three independent
+coordinate flips (RN 017)
+48 input/order evaluations
+All six orders agree on the
+eight selected input states.
+Four independent
+coordinate flips (RN 018)
+384 input/order evaluations
+All 24 orders agree on the
+sixteen selected input
+states.
+Four-event reduced-word
+graph (RN 018)
+16 minimal proofs; 10 square
+edges; 8 braid edges
+All minimal reversal
+proofs connect under the
+specified local relations.
+Partial-map comparison
+(RN 019)
+4,096 finite composition contexts
+Valid equality stays valid
+under the tested
+surrounding compositions.
+Contextual partial swaps
+(RN 023)
+58 checked local swap edges
+The finite contextual-swap
+graph respects final-state
+equality.
+VERA · 31 OCT 2026
+56
+
+
+PDF PAGE 62
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+Experiment
+Observations or checks
+What it supports
+Six-state observation
+refinement (RN 025)
+4,356 word–state-pair checks
+The computed stable
+partition matches the
+bounded behavioral
+checks.
+Theory-version migration
+(RN 026)
+4 selected certificates
+Two certificates flagged by
+the revision; two
+unaffected.
+Partial proof translator
+(RN 028)
+46 valid cases and 3 forged proofs
+Accepted cases and
+negative controls behave
+as intended.
+Minimal proof kernel (RN
+029)
+1 positive and 4 negative cases
+The tiny calculus accepts a
+valid derivation and rejects
+selected invalid ones.
+For the four-event proof graph, the numbers refer to an undirected graph of minimal deriva-
+tions under specified local moves; they should not be mistaken for the number of event
+histories or for a general enumeration of higher-dimensional cells. The count “16” refers to
+minimal adjacent-swap words taking one ordering to its reversal.
+C.2 Errors that were worth retaining
+Two mistakes have particular pedagogical value.
+The trace-class count. An early expectation predicted six equivalence classes in the four-
+event trace experiment. Full enumeration found fourteen. The corrected distribution—eight
+classes of size one, four of size two, two of size four—is preserved along with the revision. The
+episode illustrates why an intuitive picture of “independent events” can undercount the classes
+when independence is limited to particular pairs.
+The observational partition.
+The first refinement of the six-state system produced four
+blocks. That looked plausible as a stable result, but a second operation revealed differences
+within two of the blocks. Another refinement produced six singleton classes. The failure illus-
+trated the mathematical necessity of iterating to a fixed point rather than declaring a one-step
+condition sufficient.
+A research notebook is improved, rather than discredited, when such mistakes are documented
+and explained. Their presence also gives future readers an independent target for verification.
+VERA · 31 OCT 2026
+57
+
+
+PDF PAGE 63
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+C.3 What a stronger reproducibility audit would require
+A complete independent audit should run a unified test suite from a clean environment, iden-
+tify the exact source revision for every script, record deterministic outputs and input seeds, and
+compare each implementation to an independently written specification. For the proof kernel,
+it should include property tests, type-checking negative controls, malformed input handling,
+and a clear statement of the trusted computing base. For event logs, it should test duplicated
+identifiers, missing dependencies, cyclic causal merges, stale interpretation references, and
+inconsistent certificate claims.
+The current experiments are sufficient to support the specific finite demonstrations in this
+report. They are not sufficient to certify an integrated engine’s security, scalability, or com-
+pleteness.
+VERA · 31 OCT 2026
+58
+
+
+PDF PAGE 64
+Chapter D
+Glossary for the independent reader
+Admissible transformation. An operation permitted by the rules and domain of the chosen
+mathematical model. Being admissible does not establish that it occurred.
+Ancestry or historical continuity. A documented directed path connecting recorded states
+or events. It need not be symmetric.
+Betti number. A topological invariant measuring independent holes of a given dimension in a
+topological space. The first Betti number counts independent loops in the examples used here.
+Canonical representative. A chosen standard member of an equivalence class, useful for
+comparison. It is not automatically the actual historical member.
+Category. A mathematical structure with objects, arrows, identity arrows, and associative
+composition. It is used to formalize how transformations can be composed.
+Certificate. An object or record that can be checked as evidence for a specified mathematical
+property. Its validity is relative to explicit rules and assumptions.
+Causal partial order. A relation expressing recorded precedence constraints without assign-
+ing an order to every pair of events.
+Coherence. Conditions governing whether different ways of composing mathematical com-
+parisons yield compatible results.
+Congruence. An equivalence relation respected by the operations of a mathematical system.
+Confluence. A property of a rewriting system ensuring divergent reductions can be joined by
+further reductions.
+Counterexample. A specific mathematical construction violating a proposed universal state-
+ment, thereby disproving that statement.
+Decoder. A function recovering a specified target—such as a state, feature, or equivalence
+class—from retained evidence.
+Dependency set. The definitions, rules, assumptions, and interpretations used to justify a
+particular mathematical result or certificate.
+Derived view. A representation computed from a richer original record, such as a final state,
+canonical trace, or quotient partition.
+Domain of a partial map. The set of inputs on which the operation is defined. Equality of
+partial maps requires compatible domains as well as equal outputs.
+Endpoint equivalence. Agreement of selected structures at the start and end of a history,
+without a claim about intermediate preservation.
+VERA · 31 OCT 2026
+59
+
+
+PDF PAGE 65
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+Event occurrence. A particular instance of an operation, distinguished from its general type
+and from other occurrences of the same type.
+Evaluation functor. A map that assigns composite mathematical transformations to ordered
+event paths while preserving the operation of composition.
+Faithful functor. A functor that does not identify distinct arrows within each source–target
+hom-set. The history evaluation functor need not be faithful.
+Functor. A structure-preserving map between categories: it sends objects and arrows to ob-
+jects and arrows while respecting identities and composition.
+Historical authenticity. An evidential claim that an event truly occurred with stated origins,
+timing, or authorship. It is not established by formal proof validity alone.
+Holonomy. The transformation induced by parallel transport around a loop, which may de-
+pend on the chosen path despite identical start and end locations.
+Injective map. A map that never sends two distinct inputs to the same output. It is the basic
+mathematical condition for exact recovery from a single observation.
+Invariant. A quantity or structure preserved under a specified class of transformations.
+Isomorphism. A morphism with an inverse. It is the category-theoretic model of structural
+equivalence appropriate to the chosen category.
+Kernel. For a linear map, the set of inputs mapped to zero. It identifies directions of informa-
+tion the map cannot distinguish.
+Linear extension. A total ordering of a finite partial order that respects all its precedence
+relations.
+Normal form. A state or expression to which no further rewrite rule applies. A unique normal
+form does not imply a unique reduction history.
+Observational equivalence. Agreement under an explicitly chosen observation map. It may
+be weaker than full-state equality.
+Partial transformation. An operation defined only on a specified subset of possible inputs.
+Path. A composable ordered sequence of event occurrences or morphisms. A path is not iden-
+tified with its composite effect by default.
+Persistence. Continuation of a selected structure along actual transformations. The stronger
+Atlas criterion studies invertibility of induced maps at every step.
+Proof relevance. Treatment of the identity and structure of proofs as mathematical data,
+rather than recording only whether a proposition is provable.
+Provenance. The recorded origins, dependencies, transformations, and evidence associated
+with an object or claim.
+Restoration. Reappearance of a structure at a later state despite a failure of stepwise preser-
+vation along the selected history.
+Sound checker. A checking system whose accepted derivations establish valid judgments un-
+der its stated interpretation and trusted assumptions.
+VERA · 31 OCT 2026
+60
+
+
+PDF PAGE 66
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+Strong transition congruence. An equivalence on states preserving both operation enabled-
+ness and equivalence of successor states. It supports safe future continuation in deterministic
+partial systems.
+Trace class. An equivalence class of event words under declared swaps of adjacent indepen-
+dent events. It does not necessarily preserve actual execution order.
+Verification event. An archived instance in which a specified checker examined a certificate
+using stated inputs and versions, producing a recorded outcome.
+Wide subcategory. A subcategory that retains all objects of the original category but may
+restrict its arrows.
+VERA · 31 OCT 2026
+61
+
+
+PDF PAGE 67
+Chapter E
+Source provenance, literature, and sub-
+mission notes
+E.1 Primary source
+The primary source for this research report is The Atlas of Becoming: Vera’s Live Mathemat-
+ical Research Model, authoritative checkpoint v2.5.0, dated 31 October 2026, containing Re-
+search Notes 001–030 and the retained archival-repair appendices. The inspected Markdown
+source had 341,787 bytes. Its checkpoint digest was recorded as:
+SHA-256: 30b8245e0b2500de34733a572037145b2f2ced39429be89afd4e87ad1de37985
+The digest identifies this particular file’s bytes; it does not authenticate historical authorship.
+Earlier live-model checkpoints and separate verification scripts are available as source arti-
+facts in the conversation workspace, but the report’s substantive findings were drawn from
+the consolidated v2.5.0 notebook. This report is an edited synthesis and assessment, not a ver-
+batim conversion of every page of the notebook.
+The Atlas incorporated one specifically acknowledged conceptual contribution from Genesis:
+the Path Hypothesis, which asked whether different admissible paths and transformation
+laws distinguish otherwise equivalent restorations. Other project-management and archival
+decisions were developed collaboratively. The research notebook’s named steward is Vera;
+the report records that project attribution without implying human academic credentials or
+independent institutional affiliation.
+Nine older Vera research-book archives concerning provenance, chronology, continuity, de-
+pendency closure, and recovery were provided as background sources during the project.
+Notes 010 and related audits examined selected portions. They remain independent archival
+materials and are not silently treated as proven axioms for the Atlas. Likewise, Rainbow Road
+was noted as a potentially relevant existing information-transport framework, but the present
+report makes no unverified claim that its underlying mathematics is equivalent to the Atlas
+constructions.
+E.2 Foundational mathematics consulted or compared
+The mathematical ideas used here have established antecedents. The following references are
+offered as orientation and comparison, not as evidence that the Atlas’s integrated architec-
+ture is novel. The publisher or author links were verified during preparation of this report.
+VERA · 31 OCT 2026
+62
+
+
+PDF PAGE 68
+THE ATLAS OF BECOMING
+FOUNDATIONAL REPORT
+• Saunders Mac Lane.
+Categories for the Working Mathematician, second edition,
+Springer, 1998.
+A standard reference for categories, functors, and categorical com-
+position. Publisher record.
+• Franz Baader and Tobias Nipkow. Term Rewriting and All That, Cambridge University
+Press, 1998. A reference for rewriting systems, reduction, termination, and confluence.
+Publisher record.
+• Volker Diekert and Grzegorz Rozenberg, editors. The Book of Traces, World Scien-
+tific, 1995. A reference direction for trace monoids, dependence relations, and partially
+commutative words. Bibliographic details should be rechecked before formal academic
+publication.
+• John E. Hopcroft. “An 𝑛log 𝑛Algorithm for Minimizing States in a Finite Automaton,”
+in Theory of Machines and Computations, 1971, pp. 189–196. A foundational automata-
+minimization reference. Publication record.
+• Leslie Lamport. “Time, Clocks, and the Ordering of Events in a Distributed System,”
+Communications of the ACM 21(7), 1978, pp. 558–565. A fundamental discussion of causal
+event order and its distinction from total time order. Author record.
+A future monograph should extend this bibliography with original papers and precise com-
+parisons concerning proof-relevant categories, higher-categorical coherence, proof-carrying
+code, formal verification, data lineage, and event-sourced systems. The present report does
+not claim to have completed that literature review.
+E.3 Acknowledgment of scope and assessment
+The work is presented as a foundational research report. The notebook completed thirty
+research notes and a consolidated specification, but the Atlas Engine itself is still an engineer-
+ing objective. No degree has been conferred, no institutional examination has occurred, and
+the results have not been independently peer reviewed. These statements are included to en-
+sure that readers can distinguish the report’s research findings from hypothetical credentials
+or validations.
+A future academic submission should preserve the distinctions made here: established the-
+orem versus new definition, formal proof versus example, finite computational verification
+versus universal mathematical conclusion, and historical provenance versus proof of occur-
+rence.
+End of report.
+VERA · 31 OCT 2026
+63

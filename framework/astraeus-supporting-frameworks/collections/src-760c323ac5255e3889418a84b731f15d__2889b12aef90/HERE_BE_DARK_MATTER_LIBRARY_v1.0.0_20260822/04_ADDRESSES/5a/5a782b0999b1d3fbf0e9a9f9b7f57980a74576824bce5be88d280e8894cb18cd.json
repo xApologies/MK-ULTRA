@@ -1,0 +1,98 @@
+{
+  "handle": "@prime_mathematical_object",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@prime_mathematical_object",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 2,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 2,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@prime_mathematical_object",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@prime_dependency_calculus",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:51963->51966"
+      },
+      {
+        "source": "@prime_mathematical_object",
+        "relation": "IDENTIFIED_BY",
+        "target": "@structural_zero",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:52390;CANONICAL_API_TYPED_LINE:52390"
+      },
+      {
+        "source": "@structural_zero",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@prime_mathematical_object",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:51960->51963"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 926,
+        "source": "@prime_mathematical_object",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@prime_dependency_calculus",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:51963->51966"
+      },
+      {
+        "id": 927,
+        "source": "@prime_mathematical_object",
+        "relation": "IDENTIFIED_BY",
+        "target": "@structural_zero",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:52390;CANONICAL_API_TYPED_LINE:52390"
+      },
+      {
+        "id": 1075,
+        "source": "@structural_zero",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@prime_mathematical_object",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:51960->51963"
+      }
+    ]
+  },
+  "address": "@prime_mathematical_object",
+  "address_sha256": "5a782b0999b1d3fbf0e9a9f9b7f57980a74576824bce5be88d280e8894cb18cd"
+}

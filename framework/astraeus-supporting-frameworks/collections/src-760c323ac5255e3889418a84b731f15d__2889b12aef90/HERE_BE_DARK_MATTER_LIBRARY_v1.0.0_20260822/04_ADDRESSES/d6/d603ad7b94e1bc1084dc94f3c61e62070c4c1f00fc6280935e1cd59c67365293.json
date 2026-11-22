@@ -1,0 +1,88 @@
+{
+  "handle": "@chromatic_stress_energy",
+  "object_type": "mathematical_object",
+  "status": "indexed-unlinked",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Chromatic stress-energy",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 2,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 1,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 147,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@chromatic_stress_energy",
+        "relation": "CONTRIBUTES_TO",
+        "target": "@stress_energy_tensor",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-45",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Chromatic stress-energy contributes to the readable tensor."
+      },
+      {
+        "source": "@stress_energy_tensor",
+        "relation": "RECEIVES_CONTRIBUTION_FROM",
+        "target": "@chromatic_stress_energy",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@chromatic_stress_energy CONTRIBUTES_TO @stress_energy_tensor); rule=CONTRIBUTES_TO→RECEIVES_CONTRIBUTION_FROM"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 2045,
+        "source": "@chromatic_stress_energy",
+        "relation": "CONTRIBUTES_TO",
+        "target": "@stress_energy_tensor",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Chromatic stress-energy contributes to the readable tensor."
+      },
+      {
+        "id": 19684,
+        "source": "@chromatic_stress_energy",
+        "relation": "CONTRIBUTES_TO",
+        "target": "@stress_energy_tensor",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Chromatic stress-energy contributes to the readable tensor."
+      },
+      {
+        "id": 3096,
+        "source": "@stress_energy_tensor",
+        "relation": "RECEIVES_CONTRIBUTION_FROM",
+        "target": "@chromatic_stress_energy",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@chromatic_stress_energy CONTRIBUTES_TO @stress_energy_tensor); rule=CONTRIBUTES_TO→RECEIVES_CONTRIBUTION_FROM"
+      }
+    ]
+  },
+  "address": "@chromatic_stress_energy",
+  "address_sha256": "d603ad7b94e1bc1084dc94f3c61e62070c4c1f00fc6280935e1cd59c67365293"
+}

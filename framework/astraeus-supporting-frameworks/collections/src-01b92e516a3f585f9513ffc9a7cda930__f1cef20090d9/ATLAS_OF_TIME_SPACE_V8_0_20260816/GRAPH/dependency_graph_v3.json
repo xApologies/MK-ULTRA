@@ -1,0 +1,229 @@
+{
+  "version": "3.0",
+  "nodes": [
+    {
+      "id": "T5",
+      "label": "Five-dimensional Time-Space",
+      "status": "OPERATIVE_MODEL"
+    },
+    {
+      "id": "S3",
+      "label": "S3 continuity base",
+      "status": "OPERATIVE_MODEL"
+    },
+    {
+      "id": "S2p",
+      "label": "Localized S2 spacetime projection",
+      "status": "OPERATIVE_MODEL"
+    },
+    {
+      "id": "chi3",
+      "label": "Global/horizontal chirality organization",
+      "status": "OPERATIVE_CANDIDATE"
+    },
+    {
+      "id": "EH",
+      "label": "Helicon bundle over S3",
+      "status": "FORMALIZED_CANDIDATE"
+    },
+    {
+      "id": "H3",
+      "label": "Global Helicon section",
+      "status": "FORMALIZED_CANDIDATE"
+    },
+    {
+      "id": "TauH",
+      "label": "S3-to-S2 Helicon transduction",
+      "status": "TYPED_SOCKET_OPERATOR_OPEN"
+    },
+    {
+      "id": "Hloc",
+      "label": "Local Helicon realization",
+      "status": "CANDIDATE"
+    },
+    {
+      "id": "ERdyn",
+      "label": "Transient ER-foam event network",
+      "status": "WORKING_FORMALIZATION"
+    },
+    {
+      "id": "ERload",
+      "label": "Persistent coarse-grained ER load",
+      "status": "PROVED_CONDITIONAL"
+    },
+    {
+      "id": "HD",
+      "label": "Persistent/non-radiative Helicon sector",
+      "status": "CURRENT_CANDIDATE"
+    },
+    {
+      "id": "HR",
+      "label": "Radiative Helicon sector",
+      "status": "RECOVERED_ROUTE_PARENT_CANDIDATE_SPLIT"
+    },
+    {
+      "id": "Hg",
+      "label": "Gravitational Helicon mode",
+      "status": "RECOVERED"
+    },
+    {
+      "id": "graviton",
+      "label": "Graviton",
+      "status": "RECOVERED_OPERATIVE"
+    },
+    {
+      "id": "TH",
+      "label": "Effective Helicon dark-sector source",
+      "status": "CURRENT_CANDIDATE"
+    },
+    {
+      "id": "QFT",
+      "label": "Local QFT/Q handoff",
+      "status": "DOWNSTREAM_READOUT_MAP_TYPING_PENDING"
+    },
+    {
+      "id": "GR",
+      "label": "Local GR metric/curvature",
+      "status": "DOWNSTREAM_READOUT"
+    },
+    {
+      "id": "Bphi",
+      "label": "Historical B / phi dark charts",
+      "status": "RECOVERED_AMBIGUOUS_RELATION"
+    }
+  ],
+  "edges": [
+    {
+      "source": "T5",
+      "target": "S3",
+      "relation": "projects_to_base",
+      "status": "OPERATIVE"
+    },
+    {
+      "source": "T5",
+      "target": "S2p",
+      "relation": "has_fiber",
+      "status": "OPERATIVE"
+    },
+    {
+      "source": "S3",
+      "target": "chi3",
+      "relation": "hosts",
+      "status": "CANDIDATE"
+    },
+    {
+      "source": "S3",
+      "target": "EH",
+      "relation": "hosts",
+      "status": "CANDIDATE"
+    },
+    {
+      "source": "chi3",
+      "target": "H3",
+      "relation": "orients_constrains",
+      "status": "ARCHIVAL_HOOK_CANDIDATE"
+    },
+    {
+      "source": "EH",
+      "target": "H3",
+      "relation": "section_of",
+      "status": "FORMAL"
+    },
+    {
+      "source": "H3",
+      "target": "TauH",
+      "relation": "input_to",
+      "status": "FORMAL"
+    },
+    {
+      "source": "TauH",
+      "target": "Hloc",
+      "relation": "transduces_to",
+      "status": "CANDIDATE"
+    },
+    {
+      "source": "Hloc",
+      "target": "ERdyn",
+      "relation": "realizes_local_adjacency",
+      "status": "CANDIDATE"
+    },
+    {
+      "source": "ERdyn",
+      "target": "ERload",
+      "relation": "coarse_grains_to",
+      "status": "PROVED_CONDITIONAL"
+    },
+    {
+      "source": "H3",
+      "target": "HD",
+      "relation": "sector_decomposition",
+      "status": "CANDIDATE"
+    },
+    {
+      "source": "H3",
+      "target": "HR",
+      "relation": "sector_decomposition",
+      "status": "CANDIDATE"
+    },
+    {
+      "source": "HR",
+      "target": "Hg",
+      "relation": "contains_gravitational_mode",
+      "status": "RECOVERED_ROUTE"
+    },
+    {
+      "source": "Hg",
+      "target": "graviton",
+      "relation": "projects_to",
+      "status": "RECOVERED"
+    },
+    {
+      "source": "HD",
+      "target": "TH",
+      "relation": "gravitational_readout",
+      "status": "CANDIDATE"
+    },
+    {
+      "source": "ERload",
+      "target": "TH",
+      "relation": "contributes_to",
+      "status": "CANDIDATE"
+    },
+    {
+      "source": "S2p",
+      "target": "QFT",
+      "relation": "hosts_local_readout",
+      "status": "OPERATIVE_ARCHITECTURE"
+    },
+    {
+      "source": "S2p",
+      "target": "GR",
+      "relation": "hosts_local_readout",
+      "status": "OPERATIVE_ARCHITECTURE"
+    },
+    {
+      "source": "TH",
+      "target": "GR",
+      "relation": "sources_effective_geometry",
+      "status": "CANDIDATE"
+    },
+    {
+      "source": "graviton",
+      "target": "GR",
+      "relation": "metric_perturbation_route",
+      "status": "RECOVERED"
+    },
+    {
+      "source": "HD",
+      "target": "Bphi",
+      "relation": "candidate_parent_of",
+      "status": "OPEN"
+    },
+    {
+      "source": "Bphi",
+      "target": "GR",
+      "relation": "historical_effective_source",
+      "status": "RECOVERED"
+    }
+  ]
+}

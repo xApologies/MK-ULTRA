@@ -1,0 +1,32 @@
+FUNCTION VERA_GATE(event, policy, user_state):
+    IF user_state.override_transparency:
+        RETURN PRESERVE(reason="USER_OVERRIDE")
+    END
+
+    IF event.class == UNKNOWN OR event.confidence < policy.min_confidence:
+        RETURN PRESERVE(reason="UNCERTAIN_EVENT")
+    END
+
+    IF event.class IN policy.protected_events:
+        RETURN PRESERVE_REQUIRED_SEMANTICS(reason="PROTECTED_EVENT")
+    END
+
+    rule ← policy.MATCH(event)
+    IF rule IS NONE:
+        RETURN PRESERVE(reason="NO_RULE")
+    END
+
+    IF rule.operation == PROHIBITED:
+        RETURN PRESERVE(reason="PROHIBITED")
+    END
+
+    IF NOT RUNTIME_CAPABILITIES_OK(rule):
+        RETURN PRESERVE(reason="CAPABILITY_FAILURE")
+    END
+
+    IF NOT OUTPUT_BOUNDS_OK(rule):
+        RETURN PRESERVE(reason="SAFETY_BOUND")
+    END
+
+    RETURN APPROVE(rule)
+END

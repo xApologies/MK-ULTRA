@@ -1,0 +1,87 @@
+{
+  "handle": "@persistent_topology",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@persistent_topology",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 2,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 2,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@persistent_topology",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@native_constraint_closure",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DEPENDSON:54134"
+      },
+      {
+        "source": "@persistent_topology",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@graviton_radiative_stability",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@persistent_topology -> @native_constraint_closure -> @graviton_radiative_stability; relations=FORMALLY_DEPENDS_ON + FORMALLY_DEPENDS_ON; primitive_depth=2"
+      },
+      {
+        "source": "@native_constraint_closure",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@persistent_topology",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@persistent_topology FORMALLY_DEPENDS_ON @native_constraint_closure); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 890,
+        "source": "@persistent_topology",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@native_constraint_closure",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_DEPENDSON:54134"
+      },
+      {
+        "id": 2246,
+        "source": "@native_constraint_closure",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@persistent_topology",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@persistent_topology FORMALLY_DEPENDS_ON @native_constraint_closure); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      }
+    ]
+  },
+  "address": "@persistent_topology",
+  "address_sha256": "774b0efcab74e81ab95329eee0f6ae84b206f1e7214f180ef3b5d3ff1df374e1"
+}

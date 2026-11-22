@@ -1,0 +1,172 @@
+{
+  "handle": "@classical_geometry_from_er_foam",
+  "object_type": "mathematical_object",
+  "status": "indexed-unlinked",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Classical Geometry from ER Foam",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 3,
+    "api43_direct_in_count": 3,
+    "xapi_raw_out_count": 4,
+    "xapi_raw_in_count": 3,
+    "live_out_count": 1,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 1,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@classical_geometry_from_er_foam",
+        "relation": "REALIZES",
+        "target": "@differential_geometry",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-45",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Readable classical geometry emerges from the ER substrate."
+      },
+      {
+        "source": "@classical_geometry_from_er_foam",
+        "relation": "FEEDS_BLACK_HOLE_MODEL",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-52",
+        "provenance": "DERIVED:RP52_HAWKING_REVERSE_CRAWL; witness=@classical_geometry_from_er_foam-[REALIZES]->@differential_geometry | @differential_geometry-[SUPPORTS]->@black_hole"
+      },
+      {
+        "source": "@classical_geometry_from_er_foam",
+        "relation": "GLOBALLY_FEEDS_BLACK_HOLE",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-53",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_REVERSE_CRAWL; witness=@classical_geometry_from_er_foam-[FEEDS_BLACK_HOLE_MODEL]->@black_hole"
+      },
+      {
+        "source": "@differential_geometry",
+        "relation": "REALIZED_BY",
+        "target": "@classical_geometry_from_er_foam",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@classical_geometry_from_er_foam REALIZES @differential_geometry); rule=REALIZES→REALIZED_BY"
+      },
+      {
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_MODEL_REACHES",
+        "target": "@classical_geometry_from_er_foam",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_BLACK_HOLE_FORWARD_CRAWL; witness=@black_hole-[COMPOSED_DEPENDENCY]->@differential_geometry | @differential_geometry-[REALIZED_BY]->@classical_geometry_from_er_foam"
+      },
+      {
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_GLOBAL_REACHES",
+        "target": "@classical_geometry_from_er_foam",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-53",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_FORWARD_CRAWL; witness=@black_hole-[BLACK_HOLE_MODEL_REACHES]->@classical_geometry_from_er_foam"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 2021,
+        "source": "@classical_geometry_from_er_foam",
+        "relation": "REALIZES",
+        "target": "@differential_geometry",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Readable classical geometry emerges from the ER substrate."
+      },
+      {
+        "id": 17646,
+        "source": "@classical_geometry_from_er_foam",
+        "relation": "FEEDS_BLACK_HOLE_MODEL",
+        "target": "@black_hole",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP52_HAWKING_REVERSE_CRAWL; witness=@classical_geometry_from_er_foam-[REALIZES]->@differential_geometry | @differential_geometry-[SUPPORTS]->@black_hole"
+      },
+      {
+        "id": 18139,
+        "source": "@classical_geometry_from_er_foam",
+        "relation": "GLOBALLY_FEEDS_BLACK_HOLE",
+        "target": "@black_hole",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_REVERSE_CRAWL; witness=@classical_geometry_from_er_foam-[FEEDS_BLACK_HOLE_MODEL]->@black_hole"
+      },
+      {
+        "id": 19669,
+        "source": "@classical_geometry_from_er_foam",
+        "relation": "REALIZES",
+        "target": "@differential_geometry",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Readable classical geometry emerges from the ER substrate."
+      },
+      {
+        "id": 3074,
+        "source": "@differential_geometry",
+        "relation": "REALIZED_BY",
+        "target": "@classical_geometry_from_er_foam",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@classical_geometry_from_er_foam REALIZES @differential_geometry); rule=REALIZES→REALIZED_BY"
+      },
+      {
+        "id": 11600,
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_MODEL_REACHES",
+        "target": "@classical_geometry_from_er_foam",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP51_BLACK_HOLE_FORWARD_CRAWL; witness=@black_hole-[COMPOSED_DEPENDENCY]->@differential_geometry | @differential_geometry-[REALIZED_BY]->@classical_geometry_from_er_foam"
+      },
+      {
+        "id": 17746,
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_GLOBAL_REACHES",
+        "target": "@classical_geometry_from_er_foam",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_FORWARD_CRAWL; witness=@black_hole-[BLACK_HOLE_MODEL_REACHES]->@classical_geometry_from_er_foam"
+      }
+    ]
+  },
+  "address": "@classical_geometry_from_er_foam",
+  "address_sha256": "c20b757620ccc68432c5ea0bbc72b1bb1c5285a999347793e07ad38b07faf219"
+}

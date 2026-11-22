@@ -1,0 +1,20 @@
+digraph G {
+ graph [bgcolor="#07111e", rankdir=TB, pad=0.4, label="ATLAS PLATE V — HELICON RADIATIVE / DARK-SECTOR SPLIT", labelloc=t, fontcolor="#f3d48b", fontsize=24];
+ node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=12, color="#a7c7d9", fillcolor="#0c2033", fontcolor="#e8f2f7", penwidth=1.4];
+ edge [color="#87bad1", fontcolor="#dcecf2", fontname="Helvetica", fontsize=10, penwidth=1.5];
+ H [label="H₃\nS³ Helicon continuity state", shape=ellipse, color="#f3d48b", fillcolor="#17344a", penwidth=2.4];
+ D [label="H_D\npersistent / non-radiative candidate", fillcolor="#25283d"];
+ R [label="δH_R\npropagating / radiative sector", fillcolor="#263c3b"];
+ ER [label="transient ER ensemble\n⟨W⟩ persistent load"];
+ DM [label="T^H_{μν}\ndark-matter-like effective source"];
+ Hg [label="gravitational Helicon mode H_g"];
+ gr [label="graviton"];
+ dh [label="continuity perturbation → h_{μν}"];
+ geom [label="local S² GR geometry"];
+ H -> D [label="sector decomposition"];
+ H -> R [label="sector decomposition"];
+ D -> ER -> DM -> geom;
+ R -> Hg -> gr -> dh -> geom;
+ crit [label="dark criterion:\nρ_vis(H_D)=0\nρ_G(H_D)≠0", fillcolor="#3a2730", color="#e5a8b4"];
+ D -> crit [style=dashed];
+}

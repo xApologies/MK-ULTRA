@@ -1,0 +1,14 @@
+{
+  "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+  "certificate_id": "CC-DM-E068-001",
+  "checkpoint": "E068",
+  "object": "@dm_live_qualification_cut",
+  "decision": "DIAGNOSTIC_CLOSED",
+  "scope": "live dependency/proof-debt prioritization",
+  "checks": {
+    "no_claim_promoted": true,
+    "baseline_dm22_modified": false,
+    "two_independent_middle_lanes_preserved": true
+  },
+  "result": "Reprioritize active frontier to @dm_stress_active_action_fiber_nonempty; retain PD-DM-003 and PD-DM-004 as parallel branch debts."
+}

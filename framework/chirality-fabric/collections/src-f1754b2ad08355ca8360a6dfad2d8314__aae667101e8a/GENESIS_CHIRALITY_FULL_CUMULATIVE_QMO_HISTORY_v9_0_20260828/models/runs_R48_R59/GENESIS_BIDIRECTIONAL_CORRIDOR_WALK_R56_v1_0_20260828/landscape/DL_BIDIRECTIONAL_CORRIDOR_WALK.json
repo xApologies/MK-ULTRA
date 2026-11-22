@@ -1,0 +1,62 @@
+{
+  "qmo_address": "@dl/bidirectional_corridor_walk",
+  "operators": [
+    "Reach+",
+    "Reach-",
+    "HistFib",
+    "Corr",
+    "ProvJoin"
+  ],
+  "start": "@qmo/portal_generator",
+  "targets": [
+    "@r54/selection_result",
+    "@r54/localization_mask",
+    "@r54/hidden_carrier_pullback"
+  ],
+  "walks": {
+    "@r54/selection_result": {
+      "forward_count": 10,
+      "backward_count": 11,
+      "intersection_count": 10,
+      "intersection": [
+        "@qmo/portal_generator",
+        "@r54/portal_native_realization",
+        "@r54/hidden_membership_test",
+        "@r54/hidden_carrier_pullback",
+        "@r54/projection_residue",
+        "@r54/runtime_capacity",
+        "@r54/history_support",
+        "@r54/localization_mask",
+        "@r54/watcher",
+        "@r54/selection_result"
+      ]
+    },
+    "@r54/localization_mask": {
+      "forward_count": 10,
+      "backward_count": 9,
+      "intersection_count": 8,
+      "intersection": [
+        "@qmo/portal_generator",
+        "@r54/portal_native_realization",
+        "@r54/hidden_membership_test",
+        "@r54/hidden_carrier_pullback",
+        "@r54/projection_residue",
+        "@r54/runtime_capacity",
+        "@r54/history_support",
+        "@r54/localization_mask"
+      ]
+    },
+    "@r54/hidden_carrier_pullback": {
+      "forward_count": 10,
+      "backward_count": 5,
+      "intersection_count": 4,
+      "intersection": [
+        "@qmo/portal_generator",
+        "@r54/portal_native_realization",
+        "@r54/hidden_membership_test",
+        "@r54/hidden_carrier_pullback"
+      ]
+    }
+  },
+  "status": "CLOSED_TOOL"
+}

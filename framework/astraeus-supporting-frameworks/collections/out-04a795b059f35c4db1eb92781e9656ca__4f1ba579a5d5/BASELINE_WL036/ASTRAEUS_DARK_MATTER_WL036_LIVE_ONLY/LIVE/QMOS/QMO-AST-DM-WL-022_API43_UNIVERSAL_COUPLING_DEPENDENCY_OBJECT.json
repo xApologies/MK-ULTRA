@@ -1,0 +1,1218 @@
+{
+  "schema": "ASTRAEUS_API_QMO_V1",
+  "qmo_id": "QMO-AST-DM-WL-022",
+  "name": "Time-Space 4.3 Universal-Coupling Dependency QMO",
+  "status": "API_GENERATED_WORK_LAYER_OBJECT_NOT_PARENT_PROMOTED",
+  "operation": "BIDIRECTIONAL_RADIUS_CRAWL_PRESERVE_EDGE_DIRECTION",
+  "api_scope": [
+    "TIME_SPACE_API_4.3"
+  ],
+  "seed": "@universal_coupling",
+  "radius": 3,
+  "source_policy": "high-confidence non-derived registered Time-Space edges only; original direction and provenance preserved",
+  "node_count": 33,
+  "edge_record_count": 96,
+  "distance_histogram": {
+    "0": 1,
+    "1": 2,
+    "2": 10,
+    "3": 20
+  },
+  "nodes": [
+    {
+      "handle": "@universal_coupling",
+      "distance": 0
+    },
+    {
+      "handle": "@graviton_radiative_stability",
+      "distance": 1
+    },
+    {
+      "handle": "@native_interaction_factorization",
+      "distance": 1
+    },
+    {
+      "handle": "@admissibility",
+      "distance": 2
+    },
+    {
+      "handle": "@effective_masslessness",
+      "distance": 2
+    },
+    {
+      "handle": "@gravitational_helicon_mode",
+      "distance": 2
+    },
+    {
+      "handle": "@multiparticle_gravity",
+      "distance": 2
+    },
+    {
+      "handle": "@native_constraint_closure",
+      "distance": 2
+    },
+    {
+      "handle": "@native_graviton_dispersion",
+      "distance": 2
+    },
+    {
+      "handle": "@orientation",
+      "distance": 2
+    },
+    {
+      "handle": "@scattering_audit",
+      "distance": 2
+    },
+    {
+      "handle": "@soft_graviton_limit",
+      "distance": 2
+    },
+    {
+      "handle": "@spin_2_projection",
+      "distance": 2
+    },
+    {
+      "handle": "@anomaly_freedom",
+      "distance": 3
+    },
+    {
+      "handle": "@chirality",
+      "distance": 3
+    },
+    {
+      "handle": "@coherent_helicon_propagation",
+      "distance": 3
+    },
+    {
+      "handle": "@continuity_conservation",
+      "distance": 3
+    },
+    {
+      "handle": "@er_network",
+      "distance": 3
+    },
+    {
+      "handle": "@gauge_consistency",
+      "distance": 3
+    },
+    {
+      "handle": "@gravitational_self_coupling",
+      "distance": 3
+    },
+    {
+      "handle": "@gravitational_wave_propagation",
+      "distance": 3
+    },
+    {
+      "handle": "@graviton",
+      "distance": 3
+    },
+    {
+      "handle": "@helicon",
+      "distance": 3
+    },
+    {
+      "handle": "@helicon_spectral_operator",
+      "distance": 3
+    },
+    {
+      "handle": "@native_causal_order",
+      "distance": 3
+    },
+    {
+      "handle": "@persistent_recursive_topology",
+      "distance": 3
+    },
+    {
+      "handle": "@persistent_topology",
+      "distance": 3
+    },
+    {
+      "handle": "@radiative_stability",
+      "distance": 3
+    },
+    {
+      "handle": "@readable_graviton_projection",
+      "distance": 3
+    },
+    {
+      "handle": "@smooth_manifold",
+      "distance": 3
+    },
+    {
+      "handle": "@spin_two_polarization",
+      "distance": 3
+    },
+    {
+      "handle": "@time_shell",
+      "distance": 3
+    },
+    {
+      "handle": "@volume_form",
+      "distance": 3
+    }
+  ],
+  "edges": [
+    {
+      "source": "@admissibility",
+      "relation": "DIRECTED_TO",
+      "target": "@native_causal_order",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54778->54779",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@admissibility",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@native_causal_order",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DEPENDSON:53952",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@admissibility",
+      "relation": "DIRECTED_TO",
+      "target": "@native_constraint_closure",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54799->54800",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@admissibility",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@native_constraint_closure",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DEPENDSON:54131",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@admissibility",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@native_interaction_factorization",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DEPENDSON:54037",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@chirality",
+      "relation": "DIRECTED_TO",
+      "target": "@native_constraint_closure",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54805->54806",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@chirality",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@native_constraint_closure",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DEPENDSON:54133",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@coherent_helicon_propagation",
+      "relation": "DEPENDS_TO",
+      "target": "@gravitational_helicon_mode",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45065",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@coherent_helicon_propagation",
+      "relation": "DIRECTED_TO",
+      "target": "@gravitational_helicon_mode",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-35",
+      "provenance": "CANONICAL_API_HANDLE_ARROW:45065",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@coherent_helicon_propagation",
+      "relation": "EXPLICIT_ARROW",
+      "target": "@gravitational_helicon_mode",
+      "graph_family": "audit",
+      "confidence": "high",
+      "audit_status": "direct_source",
+      "recovery_pass": "RP-39",
+      "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45065",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@coherent_helicon_propagation",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@gravitational_helicon_mode",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_UPSTREAM_FIELD:45463",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@coherent_helicon_propagation",
+      "relation": "RECOVERED_DEPENDENCY",
+      "target": "@gravitational_helicon_mode",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "EDGE_LEDGER_LINE:45065;branch_contract",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@coherent_helicon_propagation",
+      "relation": "USED_BY",
+      "target": "@gravitational_helicon_mode",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:45338",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@continuity_conservation",
+      "relation": "DIRECTED_TO",
+      "target": "@native_constraint_closure",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54802->54803",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@continuity_conservation",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@native_constraint_closure",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DEPENDSON:54132",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@er_network",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@native_causal_order",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DEPENDSON:53954",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@er_network",
+      "relation": "DIRECTED_TO",
+      "target": "@native_graviton_dispersion",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54733->54734",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@er_network",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@native_graviton_dispersion",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DEPENDSON:53568",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@gravitational_helicon_mode",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@gravitational_self_coupling",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DEPENDSON:53683",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@gravitational_helicon_mode",
+      "relation": "DEPENDS_TO",
+      "target": "@graviton",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45082",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@gravitational_helicon_mode",
+      "relation": "DIRECTED_TO",
+      "target": "@graviton",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-35",
+      "provenance": "CANONICAL_API_HANDLE_ARROW:45082",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@gravitational_helicon_mode",
+      "relation": "EXPLICIT_ARROW",
+      "target": "@graviton",
+      "graph_family": "audit",
+      "confidence": "high",
+      "audit_status": "direct_source",
+      "recovery_pass": "RP-39",
+      "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45082",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@gravitational_helicon_mode",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@graviton",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_UPSTREAM_FIELD:45477",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@gravitational_helicon_mode",
+      "relation": "PROJECTS_TO",
+      "target": "@graviton",
+      "graph_family": "realization",
+      "confidence": "high",
+      "audit_status": "direct_api_recovery",
+      "recovery_pass": "RP-38",
+      "provenance": "DIRECT_TYPED_API:51480-51486",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@gravitational_helicon_mode",
+      "relation": "RECOVERED_DEPENDENCY",
+      "target": "@graviton",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "EDGE_LEDGER_LINE:45082;canonical_roadmap,vertical_chain:1959,vertical_chain:27702",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@gravitational_helicon_mode",
+      "relation": "USED_BY",
+      "target": "@graviton",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:45464",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@gravitational_helicon_mode",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@graviton_radiative_stability",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DEPENDSON:54208",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@gravitational_helicon_mode",
+      "relation": "DIRECTED_TO",
+      "target": "@native_graviton_dispersion",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54736->54737",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@gravitational_helicon_mode",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@native_graviton_dispersion",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DEPENDSON:53567",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@gravitational_helicon_mode",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@native_interaction_factorization",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DEPENDSON:54039",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@graviton",
+      "relation": "DEPENDS_TO",
+      "target": "@time_shell",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45086",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@graviton",
+      "relation": "DIRECTED_TO",
+      "target": "@time_shell",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-35",
+      "provenance": "CANONICAL_API_HANDLE_ARROW:45086",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@graviton",
+      "relation": "EXPLICIT_ARROW",
+      "target": "@time_shell",
+      "graph_family": "audit",
+      "confidence": "high",
+      "audit_status": "direct_source",
+      "recovery_pass": "RP-39",
+      "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45086",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@graviton",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@time_shell",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_UPSTREAM_FIELD:43933;CANONICAL_API_UPSTREAM_FIELD:45834",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@graviton",
+      "relation": "RECOVERED_DEPENDENCY",
+      "target": "@time_shell",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "EDGE_LEDGER_LINE:45086;arrow_line:27135,canonical_roadmap,prior_adjacency",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@graviton",
+      "relation": "USED_BY",
+      "target": "@time_shell",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:36844;CANONICAL_API_DOWNSTREAM_FIELD:45478",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@graviton_radiative_stability",
+      "relation": "DIRECTED_TO",
+      "target": "@effective_masslessness",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54823->54824",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@graviton_radiative_stability",
+      "relation": "USED_BY",
+      "target": "@effective_masslessness",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_USEDBY:54211",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@graviton_radiative_stability",
+      "relation": "DIRECTED_TO",
+      "target": "@spin_2_projection",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54826->54827",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@graviton_radiative_stability",
+      "relation": "USED_BY",
+      "target": "@spin_2_projection",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_USEDBY:54212",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@graviton_radiative_stability",
+      "relation": "USED_BY",
+      "target": "@universal_coupling",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_USEDBY:54213",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@helicon",
+      "relation": "DEPENDS_TO",
+      "target": "@coherent_helicon_propagation",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45090",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@helicon",
+      "relation": "DIRECTED_TO",
+      "target": "@coherent_helicon_propagation",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-35",
+      "provenance": "CANONICAL_API_HANDLE_ARROW:45090",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@helicon",
+      "relation": "EXPLICIT_ARROW",
+      "target": "@coherent_helicon_propagation",
+      "graph_family": "audit",
+      "confidence": "high",
+      "audit_status": "direct_source",
+      "recovery_pass": "RP-39",
+      "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45090",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@helicon",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@coherent_helicon_propagation",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_UPSTREAM_FIELD:45337",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@helicon",
+      "relation": "RECOVERED_DEPENDENCY",
+      "target": "@coherent_helicon_propagation",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "EDGE_LEDGER_LINE:45090;branch_contract",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@helicon",
+      "relation": "USED_BY",
+      "target": "@coherent_helicon_propagation",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:45492",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@helicon",
+      "relation": "DEPENDS_TO",
+      "target": "@gravitational_helicon_mode",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45091",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@helicon",
+      "relation": "DIRECTED_TO",
+      "target": "@gravitational_helicon_mode",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-35",
+      "provenance": "CANONICAL_API_HANDLE_ARROW:45091",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@helicon",
+      "relation": "EXPLICIT_ARROW",
+      "target": "@gravitational_helicon_mode",
+      "graph_family": "audit",
+      "confidence": "high",
+      "audit_status": "direct_source",
+      "recovery_pass": "RP-39",
+      "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45091",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@helicon",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@gravitational_helicon_mode",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_UPSTREAM_FIELD:45463",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@helicon",
+      "relation": "RECOVERED_DEPENDENCY",
+      "target": "@gravitational_helicon_mode",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "EDGE_LEDGER_LINE:45091;canonical_roadmap",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@helicon",
+      "relation": "TRANSDUCES_TO",
+      "target": "@gravitational_helicon_mode",
+      "graph_family": "realization",
+      "confidence": "high",
+      "audit_status": "direct_api_recovery",
+      "recovery_pass": "RP-38",
+      "provenance": "DIRECT_TYPED_API:51480-51486",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@helicon",
+      "relation": "USED_BY",
+      "target": "@gravitational_helicon_mode",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:45492",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@helicon",
+      "relation": "DEPENDS_TO",
+      "target": "@graviton",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45092",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@helicon",
+      "relation": "DIRECTED_TO",
+      "target": "@graviton",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-35",
+      "provenance": "CANONICAL_API_HANDLE_ARROW:45092",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@helicon",
+      "relation": "EXPLICIT_ARROW",
+      "target": "@graviton",
+      "graph_family": "audit",
+      "confidence": "high",
+      "audit_status": "direct_source",
+      "recovery_pass": "RP-39",
+      "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45092",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@helicon",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@graviton",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_UPSTREAM_FIELD:36843;CANONICAL_API_UPSTREAM_FIELD:45477",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@helicon",
+      "relation": "USED_BY",
+      "target": "@graviton",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:36934;CANONICAL_API_DOWNSTREAM_FIELD:45492",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@helicon_spectral_operator",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@native_graviton_dispersion",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DEPENDSON:53569",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@native_causal_order",
+      "relation": "DIRECTED_TO",
+      "target": "@graviton",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54787->54788",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@native_constraint_closure",
+      "relation": "USED_BY",
+      "target": "@anomaly_freedom",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_USEDBY:54138",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@native_constraint_closure",
+      "relation": "DIRECTED_TO",
+      "target": "@gauge_consistency",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54811->54812",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@native_constraint_closure",
+      "relation": "USED_BY",
+      "target": "@gauge_consistency",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_USEDBY:54137",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@native_constraint_closure",
+      "relation": "DIRECTED_TO",
+      "target": "@graviton_radiative_stability",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54820->54821",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@native_constraint_closure",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@graviton_radiative_stability",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DEPENDSON:54209",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@native_constraint_closure",
+      "relation": "DIRECTED_TO",
+      "target": "@readable_graviton_projection",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54814->54815",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@native_constraint_closure",
+      "relation": "USED_BY",
+      "target": "@readable_graviton_projection",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_USEDBY:54139",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@native_graviton_dispersion",
+      "relation": "DIRECTED_TO",
+      "target": "@effective_masslessness",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54739->54740",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@native_graviton_dispersion",
+      "relation": "USED_BY",
+      "target": "@effective_masslessness",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_USEDBY:53572",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@native_graviton_dispersion",
+      "relation": "DIRECTED_TO",
+      "target": "@gravitational_wave_propagation",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54742->54743",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@native_graviton_dispersion",
+      "relation": "USED_BY",
+      "target": "@gravitational_wave_propagation",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_USEDBY:53573",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@native_graviton_dispersion",
+      "relation": "USED_BY",
+      "target": "@graviton",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_USEDBY:53571",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@native_graviton_dispersion",
+      "relation": "DIRECTED_TO",
+      "target": "@graviton_radiative_stability",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54817->54818",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@native_graviton_dispersion",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@graviton_radiative_stability",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DEPENDSON:54207",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@native_graviton_dispersion",
+      "relation": "USED_BY",
+      "target": "@radiative_stability",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_USEDBY:53574",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@native_interaction_factorization",
+      "relation": "USED_BY",
+      "target": "@multiparticle_gravity",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_USEDBY:54044",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@native_interaction_factorization",
+      "relation": "USED_BY",
+      "target": "@scattering_audit",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_USEDBY:54043",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@native_interaction_factorization",
+      "relation": "DIRECTED_TO",
+      "target": "@soft_graviton_limit",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54796->54797",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@native_interaction_factorization",
+      "relation": "USED_BY",
+      "target": "@soft_graviton_limit",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_USEDBY:54042",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@orientation",
+      "relation": "DIRECTED_TO",
+      "target": "@native_interaction_factorization",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54790->54791",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@orientation",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@native_interaction_factorization",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DEPENDSON:54038",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@persistent_recursive_topology",
+      "relation": "DIRECTED_TO",
+      "target": "@native_constraint_closure",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54808->54809",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@persistent_topology",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@native_constraint_closure",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DEPENDSON:54134",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@time_shell",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@gravitational_self_coupling",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DEPENDSON:53684",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@time_shell",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@native_causal_order",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DEPENDSON:53955",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@time_shell",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@native_constraint_closure",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DEPENDSON:54135",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@universal_coupling",
+      "relation": "DIRECTED_TO",
+      "target": "@native_interaction_factorization",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54793->54794",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@universal_coupling",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@native_interaction_factorization",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DEPENDSON:54040",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@volume_form",
+      "relation": "DEPENDS_ON",
+      "target": "@orientation",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-43",
+      "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:136",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@orientation",
+      "relation": "FAMILY_DEPENDS_ON",
+      "target": "@smooth_manifold",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-43",
+      "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:228",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@volume_form",
+      "relation": "FAMILY_DEPENDS_ON",
+      "target": "@smooth_manifold",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-43",
+      "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:229",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@graviton",
+      "relation": "PROJECTS_TO",
+      "target": "@readable_graviton_projection",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-45",
+      "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; The native graviton becomes readable through the graviton projection.",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@persistent_recursive_topology",
+      "relation": "PROJECTS_TO",
+      "target": "@smooth_manifold",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-45",
+      "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Persistent native topology is represented by readable smooth-manifold structure.",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@spin_two_polarization",
+      "relation": "CORRESPONDS_TO",
+      "target": "@spin_2_projection",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-45",
+      "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Readable spin-2 polarization corresponds to MK43 spin-2 projection.",
+      "api_origin": "TIME_SPACE_API_4.3"
+    },
+    {
+      "source": "@spin_2_projection",
+      "relation": "REALIZES",
+      "target": "@graviton",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-45",
+      "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; The spin-2 projection realizes the readable graviton sector.",
+      "api_origin": "TIME_SPACE_API_4.3"
+    }
+  ],
+  "source_receipts": {
+    "RP42_DEPENDENCY_INDEX.sha256": "3cb840b428ffc5a7ffd60e5a9617f5faf02fad42c652ed8da38563c15fb00e21",
+    "canonical_api.sha256": "0071c1d9d6a89c283f57a9c225857fa8f49a63f8caff86d83cca4a66896b0259"
+  },
+  "guardrail": "This QMO is a query/crawl object. It adds no handle and no edge to either parent API."
+}

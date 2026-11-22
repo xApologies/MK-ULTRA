@@ -1,0 +1,20 @@
+{
+  "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+  "handle": "@dm_ucm_event_to_source_nonannihilation",
+  "canonical_name": "UCM Event-to-Readable-Source Nonannihilation Gate",
+  "type": "OpenSourceProjectionSensitivityGate",
+  "status": "LIVE_OPEN_CANDIDATE",
+  "checkpoint": "E074",
+  "definition": "The exact remaining UCM compression question after hidden-network source-state separation: does the recovered event-to-readable-source map preserve at least one selected hidden distinction?",
+  "math": "Pi_U=P_T o U_dyn; seek Delta T_U=P_T(U_dyn(u_f))-P_T(U_dyn(u_v)) != 0.",
+  "parents": [
+    "@dm_ucm_source_domain_distinction",
+    "@stress_energy_tensor"
+  ],
+  "working_assumptions": [],
+  "proof_debt": [
+    "PD-DM-007"
+  ],
+  "physical_claim": false,
+  "baseline_mutation": false
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "CRD",
+    "name": "Frozen CRD",
+    "symbol": "R_CRD",
+    "kind": "upstream_dynamics",
+    "status": "FROZEN",
+    "definition": "Frozen Genesis-Field Chirality Relaxation Dynamics."
+  },
+  {
+    "id": "SIG_CRD",
+    "name": "CRD Behavioral Signature",
+    "symbol": "Sigma_CRD",
+    "kind": "signature",
+    "status": "CLOSED",
+    "definition": "Cooperative response, relaxation, closure, invariant residue, History, R/B admissibility."
+  },
+  {
+    "id": "HELICON",
+    "name": "Helicon/Transduction Layer",
+    "symbol": "H",
+    "kind": "transduction",
+    "status": "SOURCE_ARCHITECTURE",
+    "definition": "Upstream-to-readable transduction layer."
+  },
+  {
+    "id": "Q_HANDOFF",
+    "name": "Quantum-Field Handoff",
+    "symbol": "Q",
+    "kind": "handoff",
+    "status": "PARTIAL",
+    "definition": "Canonical structured field handoff; complete upstream morphism/intertwining remains open."
+  },
+  {
+    "id": "YM_SPACE",
+    "name": "Yang-Mills Physical Configuration Space",
+    "symbol": "C_YM",
+    "kind": "configuration_space",
+    "status": "COMPARISON_TARGET",
+    "definition": "Gauge-equivalence classes of admissible gauge connections."
+  },
+  {
+    "id": "YM_EVOLUTION",
+    "name": "Yang-Mills Evolution",
+    "symbol": "R_YM",
+    "kind": "downstream_dynamics",
+    "status": "COMPARISON_TARGET",
+    "definition": "Declared downstream gauge-field evolution on physical configuration space."
+  },
+  {
+    "id": "PI_YM",
+    "name": "CRD-to-Yang-Mills Readout",
+    "symbol": "Pi_YM",
+    "kind": "inheritance_map",
+    "status": "OPEN",
+    "definition": "Composite physical readout/inheritance map from frozen CRD to Yang-Mills physical states."
+  },
+  {
+    "id": "IMITATION",
+    "name": "QCD-as-CRD Imitation Contract",
+    "symbol": "D_imit",
+    "kind": "test_contract",
+    "status": "CLOSED_FORMAL",
+    "definition": "Exact/approximate commuting test comparing upstream-first versus downstream-first evolution."
+  },
+  {
+    "id": "QCD",
+    "name": "QCD Specialization",
+    "symbol": "QCD",
+    "kind": "specialization",
+    "status": "FUTURE_QUALIFIED",
+    "definition": "Future specialization of the Yang-Mills target; not recovered as native MK43 content in current Tome audit."
+  },
+  {
+    "id": "GLUEBALL",
+    "name": "Glueball Test Object",
+    "symbol": "G_ball",
+    "kind": "test_object",
+    "status": "LOCKED",
+    "definition": "Future pure-gauge/self-bound QCD test object after inheritance map and QCD source layer close."
+  }
+]

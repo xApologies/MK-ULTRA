@@ -1,0 +1,113 @@
+{
+  "schema": "tome-publication-renderer-validation/v1",
+  "created_at": "2026-08-11T00:17:54.932733+00:00",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "engine": "KaTeX 0.16.22 -> HTML/CSS -> Playwright -> Microsoft Edge PDF",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_09_UNIVERSAL_COUPLING/MK_ULTRA_TOME_V09_C05_GRAVITY_MATTER_AND_FIELD_COUPLING.pdf",
+    "bytes": 157259,
+    "sha256": "fca10ecfa4413d51e73253c05c61c9de9f7f9a0addce76c1aa8fc9c151bea308"
+  },
+  "actual_pages": 6,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V09-C05": 3
+  },
+  "chapter_validations": [
+    {
+      "chapter_id": "V09-C05",
+      "source_sha256": "f69d410e806c341d7cf6c5229745450e4d59421dd54e1f09b49f9fae5d1faad8",
+      "page_start": 3,
+      "headings": 24,
+      "display_equations": 21,
+      "inline_equations": 1,
+      "equation_tags": 21,
+      "api_handles": 5,
+      "table_rows": 6,
+      "content_markers_present": true
+    }
+  ],
+  "engine_metrics": {
+    "renderer": "TOME_PUBLICATION_RENDERER_V1",
+    "katexVersion": "0.16.22",
+    "chapters": [
+      {
+        "id": "V09-C05",
+        "sourceBytes": 8892,
+        "paragraphs": 43,
+        "headings": 24,
+        "displayEquations": 21,
+        "inlineEquations": 1,
+        "tables": 1,
+        "tableRows": 5,
+        "listItems": 0,
+        "codeBlocks": 0,
+        "figures": 0
+      }
+    ],
+    "paragraphs": 43,
+    "headings": 24,
+    "displayEquations": 21,
+    "inlineEquations": 1,
+    "tables": 1,
+    "tableRows": 5,
+    "listItems": 0,
+    "blockQuotes": 0,
+    "codeBlocks": 0,
+    "figures": 0,
+    "mathLayout": {
+      "checked": 21,
+      "scaled": [],
+      "remainingOverflow": []
+    }
+  },
+  "raw_latex_guard": {
+    "result": "PASS",
+    "hits": [],
+    "commands_scanned": [
+      "frac",
+      "mathcal",
+      "mathrm",
+      "begin",
+      "end",
+      "left",
+      "right",
+      "longrightarrow",
+      "rightarrow",
+      "otimes",
+      "partial",
+      "nabla",
+      "mu",
+      "nu",
+      "sum",
+      "int",
+      "operatorname"
+    ]
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V09-C05": "f69d410e806c341d7cf6c5229745450e4d59421dd54e1f09b49f9fae5d1faad8"
+  },
+  "source_hashes_after": {
+    "V09-C05": "f69d410e806c341d7cf6c5229745450e4d59421dd54e1f09b49f9fae5d1faad8"
+  },
+  "sealed_chapter_content_change_count": 0,
+  "render_compatibility": {
+    "sealed_source_changed": false,
+    "sealed_source_sha256": "bff4f0c3543e2c561b56180baa55ccfa4faaac24ca3aa0a908102caee76fbfb7",
+    "temporary_render_source_sha256": "f69d410e806c341d7cf6c5229745450e4d59421dd54e1f09b49f9fae5d1faad8",
+    "change": "Layout-only restoration of inline-math delimiters around J_a^{nu}; wording and mathematical content preserved",
+    "renderer_changed": false
+  },
+  "visual_qa": {
+    "result": "PASS",
+    "scope": "ALL_6_PAGES",
+    "pages_inspected": 6,
+    "blank_pages": 0,
+    "clipped_text_or_math": 0,
+    "overlapping_elements": 0,
+    "unrendered_latex": 0,
+    "layout_defects": 0,
+    "inspection_method": "Poppler 120-DPI page render with full-document contact sheet"
+  }
+}

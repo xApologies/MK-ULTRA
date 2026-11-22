@@ -1,0 +1,43 @@
+{
+  "T1_presheaf_restrictions": {
+    "status": "PASS",
+    "statement": "Edge-to-vertex restriction maps are well-defined and compatible on incidence."
+  },
+  "T2_local_compatibility": {
+    "status": "PASS",
+    "compatible_edge_families": 64,
+    "statement": "Compatible local edge sections are exactly those agreeing on shared vertices."
+  },
+  "T3_independent_global_state": {
+    "status": "FAIL_SHEAF_UNIQUENESS",
+    "statement": "If R123 contains an independent global variable invisible to the edge cover, each compatible edge family has multiple global extensions; the sheaf uniqueness axiom fails.",
+    "extensions_per_compatible_family": 2
+  },
+  "T4_derived_global_state": {
+    "status": "PASS_SHEAF_TOY_MODEL",
+    "statement": "If the whole-system state is determined by compatible local data through a declared gluing law, each compatible edge family has a unique global extension.",
+    "extensions_per_compatible_family": 1
+  },
+  "T5_bandwidth_subobject": {
+    "status": "PASS_AS_SUBPRESHEAF_CANDIDATE",
+    "statement": "Bandwidth can restrict the admissible global sections/transport moves without changing the underlying restriction maps."
+  },
+  "T6_rainbow_road_action": {
+    "status": "PASS_AS_SECTION_TRANSPORT_MODEL",
+    "statement": "Portal moves can be modeled as partial morphisms between admissible global sections; Road is their composable History-bearing path.",
+    "sample": {
+      "12": {
+        "admissible": true,
+        "target": "(('b', 'b', 0), ('b', 'b', 1), ('b', 'b', 0), 1)"
+      },
+      "23": {
+        "admissible": true,
+        "target": "(('b', 'b', 1), ('b', 'b', 0), ('b', 'b', 0), 1)"
+      },
+      "31": {
+        "admissible": false,
+        "target": null
+      }
+    }
+  }
+}

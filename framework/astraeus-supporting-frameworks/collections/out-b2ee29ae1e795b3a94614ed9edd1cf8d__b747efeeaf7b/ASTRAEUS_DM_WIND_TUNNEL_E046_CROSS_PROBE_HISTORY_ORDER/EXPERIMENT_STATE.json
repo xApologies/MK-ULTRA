@@ -1,0 +1,21 @@
+{
+  "experiment": "E046",
+  "candidate": "CAND-DM-CROSS-PROBE-HISTORY-ORDER-049",
+  "title": "Cross-Probe Ordering of the Multi-History Saturation Orbit",
+  "status": "RAW RESPONSE-STRENGTH ORDER REJECTED; WITHIN-VIEW SATURATION-DISTANCE ORDER CLOSED ACROSS ALL H/O VIEWS",
+  "physical_dark_matter_witness": false,
+  "parent_promotions": 0,
+  "results": {
+    "probe_views_tested": 7,
+    "raw_response_magnitude_monotone_all_views": false,
+    "distance_to_saturated_representative_monotone_all_views": true,
+    "adjacent_transitions_with_nonoverlapping_cross_probe_normalized_envelopes": 16,
+    "total_adjacent_transitions": 16,
+    "maximum_all_pair_cross_view_separated_prefix_depth": 16,
+    "topographic_substrate_basin_depth_E044": 6,
+    "common_H_O_readout_topography_basin_depth_E045": 7,
+    "late_exact_state_continues_converging_inside_stable_topography": true
+  },
+  "ruling": "History depth does not monotonically increase raw response magnitude; that scalar is rejected. However, for every fixed H/O probe view, normalized Euclidean distance to the saturated E16 readout decreases monotonically across the entire controlled orbit. This defines a probe-family order of convergence rather than a universal scalar clock. Together with E044/E045 it separates topographic basin entry from continued microstate relaxation inside the basin.",
+  "next_handle": "STOP_NEW_HISTORY_WRITES_AND_TEST_PERSISTENCE_RELAXATION_OF_THE_SATURATED_ER_STATE_UNDER_SOURCE_VALID_NO_NEW_WRITE_OR_READ_ONLY_EVOLUTION"
+}

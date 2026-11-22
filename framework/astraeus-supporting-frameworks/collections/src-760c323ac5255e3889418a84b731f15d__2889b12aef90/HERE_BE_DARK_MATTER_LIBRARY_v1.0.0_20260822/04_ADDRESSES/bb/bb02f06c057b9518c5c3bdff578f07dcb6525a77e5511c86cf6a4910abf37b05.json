@@ -1,0 +1,341 @@
+{
+  "handle": "@spin_2_projection",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Spin 2 Projection",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 7,
+    "api43_direct_in_count": 6,
+    "xapi_raw_out_count": 8,
+    "xapi_raw_in_count": 8,
+    "live_out_count": 1,
+    "live_in_count": 2,
+    "closure_out_reachability_count": 146,
+    "closure_in_reachability_count": 466,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 16,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@spin_2_projection",
+        "relation": "REALIZES",
+        "target": "@graviton",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-45",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; The spin-2 projection realizes the readable graviton sector."
+      },
+      {
+        "source": "@spin_2_projection",
+        "relation": "CORRESPONDS_TO",
+        "target": "@spin_two_polarization",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@spin_two_polarization CORRESPONDS_TO @spin_2_projection); rule=CORRESPONDS_TO→CORRESPONDS_TO"
+      },
+      {
+        "source": "@spin_2_projection",
+        "relation": "PROJECTS_TO",
+        "target": "@metric_perturbation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-47",
+        "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=1; path=@spin_2_projection -> @graviton -> @metric_perturbation; relations=REALIZES + PROJECTS_TO => PROJECTS_TO"
+      },
+      {
+        "source": "@spin_2_projection",
+        "relation": "PROJECTS_TO",
+        "target": "@readable_graviton_projection",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-47",
+        "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=1; path=@spin_2_projection -> @graviton -> @readable_graviton_projection; relations=REALIZES + PROJECTS_TO => PROJECTS_TO"
+      },
+      {
+        "source": "@spin_2_projection",
+        "relation": "PROJECTS_TO",
+        "target": "@time_shell_projection",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-47",
+        "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=2; path=@spin_2_projection -> @graviton -> @time_shell_projection; relations=REALIZES + PROJECTS_TO => PROJECTS_TO"
+      },
+      {
+        "source": "@spin_2_projection",
+        "relation": "FEEDS_BLACK_HOLE_MODEL",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-52",
+        "provenance": "DERIVED:RP52_HAWKING_REVERSE_CRAWL; witness=@spin_2_projection-[REALIZES]->@graviton | @graviton-[FAMILY_DEPENDS_ON]->@black_hole"
+      },
+      {
+        "source": "@spin_2_projection",
+        "relation": "GLOBALLY_FEEDS_BLACK_HOLE",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-53",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_REVERSE_CRAWL; witness=@spin_2_projection-[FEEDS_BLACK_HOLE_MODEL]->@black_hole"
+      },
+      {
+        "source": "@graviton_radiative_stability",
+        "relation": "DIRECTED_TO",
+        "target": "@spin_2_projection",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54826->54827"
+      },
+      {
+        "source": "@graviton_radiative_stability",
+        "relation": "USED_BY",
+        "target": "@spin_2_projection",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_USEDBY:54212"
+      },
+      {
+        "source": "@spin_two_polarization",
+        "relation": "CORRESPONDS_TO",
+        "target": "@spin_2_projection",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-45",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Readable spin-2 polarization corresponds to MK43 spin-2 projection."
+      },
+      {
+        "source": "@graviton",
+        "relation": "REALIZED_BY",
+        "target": "@spin_2_projection",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@spin_2_projection REALIZES @graviton); rule=REALIZES→REALIZED_BY"
+      },
+      {
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_MODEL_REACHES",
+        "target": "@spin_2_projection",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_BLACK_HOLE_FORWARD_CRAWL; witness=@black_hole-[COMPOSED_DEPENDENCY]->@graviton | @graviton-[REALIZED_BY]->@spin_2_projection"
+      },
+      {
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_GLOBAL_REACHES",
+        "target": "@spin_2_projection",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-53",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_FORWARD_CRAWL; witness=@black_hole-[BLACK_HOLE_MODEL_REACHES]->@spin_2_projection"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 2080,
+        "source": "@spin_2_projection",
+        "relation": "REALIZES",
+        "target": "@graviton",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; The spin-2 projection realizes the readable graviton sector."
+      },
+      {
+        "id": 3113,
+        "source": "@spin_2_projection",
+        "relation": "CORRESPONDS_TO",
+        "target": "@spin_two_polarization",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@spin_two_polarization CORRESPONDS_TO @spin_2_projection); rule=CORRESPONDS_TO→CORRESPONDS_TO"
+      },
+      {
+        "id": 3426,
+        "source": "@spin_2_projection",
+        "relation": "PROJECTS_TO",
+        "target": "@metric_perturbation",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=1; path=@spin_2_projection -> @graviton -> @metric_perturbation; relations=REALIZES + PROJECTS_TO => PROJECTS_TO"
+      },
+      {
+        "id": 3427,
+        "source": "@spin_2_projection",
+        "relation": "PROJECTS_TO",
+        "target": "@readable_graviton_projection",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=1; path=@spin_2_projection -> @graviton -> @readable_graviton_projection; relations=REALIZES + PROJECTS_TO => PROJECTS_TO"
+      },
+      {
+        "id": 4508,
+        "source": "@spin_2_projection",
+        "relation": "PROJECTS_TO",
+        "target": "@time_shell_projection",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=2; path=@spin_2_projection -> @graviton -> @time_shell_projection; relations=REALIZES + PROJECTS_TO => PROJECTS_TO"
+      },
+      {
+        "id": 17655,
+        "source": "@spin_2_projection",
+        "relation": "FEEDS_BLACK_HOLE_MODEL",
+        "target": "@black_hole",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP52_HAWKING_REVERSE_CRAWL; witness=@spin_2_projection-[REALIZES]->@graviton | @graviton-[FAMILY_DEPENDS_ON]->@black_hole"
+      },
+      {
+        "id": 18443,
+        "source": "@spin_2_projection",
+        "relation": "GLOBALLY_FEEDS_BLACK_HOLE",
+        "target": "@black_hole",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_REVERSE_CRAWL; witness=@spin_2_projection-[FEEDS_BLACK_HOLE_MODEL]->@black_hole"
+      },
+      {
+        "id": 19694,
+        "source": "@spin_2_projection",
+        "relation": "REALIZES",
+        "target": "@graviton",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; The spin-2 projection realizes the readable graviton sector."
+      },
+      {
+        "id": 564,
+        "source": "@graviton_radiative_stability",
+        "relation": "DIRECTED_TO",
+        "target": "@spin_2_projection",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54826->54827"
+      },
+      {
+        "id": 565,
+        "source": "@graviton_radiative_stability",
+        "relation": "USED_BY",
+        "target": "@spin_2_projection",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_USEDBY:54212"
+      },
+      {
+        "id": 2079,
+        "source": "@spin_two_polarization",
+        "relation": "CORRESPONDS_TO",
+        "target": "@spin_2_projection",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Readable spin-2 polarization corresponds to MK43 spin-2 projection."
+      },
+      {
+        "id": 3114,
+        "source": "@graviton",
+        "relation": "REALIZED_BY",
+        "target": "@spin_2_projection",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@spin_2_projection REALIZES @graviton); rule=REALIZES→REALIZED_BY"
+      },
+      {
+        "id": 11851,
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_MODEL_REACHES",
+        "target": "@spin_2_projection",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP51_BLACK_HOLE_FORWARD_CRAWL; witness=@black_hole-[COMPOSED_DEPENDENCY]->@graviton | @graviton-[REALIZED_BY]->@spin_2_projection"
+      },
+      {
+        "id": 18007,
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_GLOBAL_REACHES",
+        "target": "@spin_2_projection",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_FORWARD_CRAWL; witness=@black_hole-[BLACK_HOLE_MODEL_REACHES]->@spin_2_projection"
+      },
+      {
+        "id": 19170,
+        "source": "@graviton_radiative_stability",
+        "relation": "DIRECTED_TO",
+        "target": "@spin_2_projection",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54826->54827"
+      },
+      {
+        "id": 19171,
+        "source": "@graviton_radiative_stability",
+        "relation": "USED_BY",
+        "target": "@spin_2_projection",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_USEDBY:54212"
+      }
+    ]
+  },
+  "address": "@spin_2_projection",
+  "address_sha256": "bb02f06c057b9518c5c3bdff578f07dcb6525a77e5511c86cf6a4910abf37b05"
+}

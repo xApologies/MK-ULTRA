@@ -1,0 +1,252 @@
+{
+  "P-001": {
+    "changed_handles": [
+      "@formal_object",
+      "@resolution_readout"
+    ],
+    "impact_layers": {
+      "0": [
+        "@formal_object",
+        "@resolution_readout"
+      ],
+      "1": [
+        "@bandwidth_modifier",
+        "@bandwidth_resolution_interface_defect",
+        "@formal_identity",
+        "@history_trace",
+        "@object_mathematics",
+        "@provenance",
+        "@rainbow_road_recursive_domain"
+      ],
+      "2": [
+        "@bandwidth_algebra",
+        "@bandwidth_domain_repair",
+        "@closed_domain_unity",
+        "@domain_extension_proposal",
+        "@dynamic_recursive_closure",
+        "@history_bearing_return",
+        "@holonomy_record",
+        "@identity_witness",
+        "@mobius_orientation_handoff",
+        "@mobius_recursive_carrier",
+        "@number_ontology",
+        "@primitive_structural_zero",
+        "@provenance_repair",
+        "@reclosure_branch",
+        "@recovery_provenance_bundle",
+        "@resolution_blind_core",
+        "@resolution_repair",
+        "@strong_resolution_handoff_continuity",
+        "@transduction"
+      ],
+      "3": [
+        "@bandwidth_compose",
+        "@bandwidth_expand",
+        "@bandwidth_identity",
+        "@bandwidth_join",
+        "@bandwidth_meet",
+        "@bandwidth_modify",
+        "@bandwidth_resolution_quotient",
+        "@bandwidth_restrict",
+        "@closure_certificate",
+        "@closure_equivariance_defect",
+        "@eventual_recoverability",
+        "@fine_lineage_selector",
+        "@global_transduction_object",
+        "@handoff_merge_fiber",
+        "@invariant_residue",
+        "@mobius_probe",
+        "@object_resolution_recovery_witness_minimality",
+        "@perturbation_probe",
+        "@rainbow_road_probe",
+        "@return_not_reset",
+        "@semantic_closure_fixed_point",
+        "@weak_resolution_handoff_coherence"
+      ],
+      "4": [
+        "@bandwidth",
+        "@cross_resolution_section",
+        "@dependency_category",
+        "@high_recall_metadata",
+        "@history",
+        "@internal_self_promotion",
+        "@language_sync_engine",
+        "@occupancy",
+        "@recovery_witness_counterexample_crawl",
+        "@recursive_impact_cone",
+        "@resolution",
+        "@resolution_handoff",
+        "@semantic_contradiction_audit",
+        "@state_fiber",
+        "@structural_discontinuity",
+        "@witness_bundle_core",
+        "@witness_bundle_full_state_fallback",
+        "@witness_bundle_history_augmented"
+      ]
+    },
+    "hard_guard_conflicts": [
+      {
+        "guard_id": "G-001",
+        "relation": "SAME_AS",
+        "left": "@resolution_readout",
+        "right": "@formal_object",
+        "reason": "Readout may suppress structure and must not replace the recoverable formal object."
+      }
+    ],
+    "certificates_requiring_revalidation": [
+      "CERT-RR-001",
+      "CERT-RR-002"
+    ],
+    "canonical_mutation": false,
+    "scenario_id": "P-001",
+    "name": "readout_equals_structure",
+    "kind": "native_guard_stress",
+    "expected": "Hard-guard conflict; propagate impact through objects depending on Resolution/Formal Object distinction."
+  },
+  "P-002": {
+    "changed_handles": [
+      "@history_trace",
+      "@resolution_readout"
+    ],
+    "impact_layers": {
+      "0": [
+        "@history_trace",
+        "@resolution_readout"
+      ],
+      "1": [
+        "@bandwidth_modifier",
+        "@bandwidth_resolution_interface_defect",
+        "@formal_object",
+        "@history_bearing_return",
+        "@rainbow_road_recursive_domain",
+        "@recovery_provenance_bundle"
+      ],
+      "2": [
+        "@bandwidth_algebra",
+        "@bandwidth_domain_repair",
+        "@closed_domain_unity",
+        "@domain_extension_proposal",
+        "@dynamic_recursive_closure",
+        "@fine_lineage_selector",
+        "@formal_identity",
+        "@handoff_merge_fiber",
+        "@identity_witness",
+        "@invariant_residue",
+        "@mobius_orientation_handoff",
+        "@mobius_recursive_carrier",
+        "@object_mathematics",
+        "@object_resolution_recovery_witness_minimality",
+        "@primitive_structural_zero",
+        "@provenance",
+        "@provenance_repair",
+        "@reclosure_branch",
+        "@resolution_repair",
+        "@return_not_reset",
+        "@transduction"
+      ],
+      "3": [
+        "@bandwidth_compose",
+        "@bandwidth_expand",
+        "@bandwidth_identity",
+        "@bandwidth_join",
+        "@bandwidth_meet",
+        "@bandwidth_modify",
+        "@bandwidth_resolution_quotient",
+        "@bandwidth_restrict",
+        "@closure_certificate",
+        "@closure_equivariance_defect",
+        "@global_transduction_object",
+        "@holonomy_record",
+        "@number_ontology",
+        "@perturbation_probe",
+        "@recovery_witness_counterexample_crawl",
+        "@resolution_blind_core",
+        "@resolution_handoff",
+        "@semantic_closure_fixed_point",
+        "@strong_resolution_handoff_continuity",
+        "@witness_bundle_core",
+        "@witness_bundle_full_state_fallback",
+        "@witness_bundle_history_augmented"
+      ],
+      "4": [
+        "@bandwidth",
+        "@cross_resolution_section",
+        "@dependency_category",
+        "@eventual_recoverability",
+        "@high_recall_metadata",
+        "@history",
+        "@internal_self_promotion",
+        "@language_sync_engine",
+        "@mobius_probe",
+        "@occupancy",
+        "@rainbow_road_probe",
+        "@recursive_impact_cone",
+        "@resolution",
+        "@semantic_contradiction_audit",
+        "@state_fiber",
+        "@weak_resolution_handoff_coherence"
+      ]
+    },
+    "hard_guard_conflicts": [
+      {
+        "guard_id": "G-003",
+        "relation": "ERASES",
+        "left": "@resolution_readout",
+        "right": "@history_trace",
+        "reason": "Resolution may hide History but cannot silently erase canonical recoverable History."
+      }
+    ],
+    "certificates_requiring_revalidation": [
+      "CERT-RR-001",
+      "CERT-RR-002"
+    ],
+    "canonical_mutation": false,
+    "scenario_id": "P-002",
+    "name": "coarse_readout_erases_history",
+    "kind": "native_guard_stress",
+    "expected": "Continuity conflict; invalidate recovery claims requiring retained History."
+  },
+  "P-003": {
+    "changed_handles": [
+      "@toy_sky_readout"
+    ],
+    "impact_layers": {
+      "0": [
+        "@toy_sky_readout"
+      ]
+    },
+    "note": "Changing only the sky label does not entail a plant rewrite. Changing an upstream shared constraint can place both sky and plant-dependent structures inside the same recursive impact cone; their actual reclosed values require separate admissible rules.",
+    "canonical_mutation": false,
+    "scenario_id": "P-003",
+    "name": "pink_sky_readout_only",
+    "kind": "toy_analogy",
+    "expected": "Readout-only change remains local unless an upstream constraint change is also asserted."
+  },
+  "P-004": {
+    "changed_handles": [
+      "@toy_environmental_constraints"
+    ],
+    "impact_layers": {
+      "0": [
+        "@toy_environmental_constraints"
+      ],
+      "1": [
+        "@toy_ecological_constraints",
+        "@toy_optical_rules"
+      ],
+      "2": [
+        "@toy_plant_morphology",
+        "@toy_sky_readout"
+      ],
+      "3": [
+        "@toy_tree_label"
+      ]
+    },
+    "note": "Changing only the sky label does not entail a plant rewrite. Changing an upstream shared constraint can place both sky and plant-dependent structures inside the same recursive impact cone; their actual reclosed values require separate admissible rules.",
+    "canonical_mutation": false,
+    "scenario_id": "P-004",
+    "name": "pink_sky_constraint_change",
+    "kind": "toy_analogy",
+    "expected": "Propagate through all structures depending on the altered environmental constraint; tree/bush identity is not predetermined but must be re-evaluated if its morphology depends on the same constraint."
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "handle": "@dm_hidden_response_operator",
+  "object_type": "mathematical_object",
+  "status": "ATLAS_DERIVED_ACTIVE",
+  "domain": "DM22",
+  "namespace": "projection",
+  "name": "Hidden S3 to S2 Response Operator",
+  "definition": "Effective S2-port operator obtained by eliminating hidden S3 interior coordinates from the continuity Laplacian.",
+  "math": "Lambda_N=L_PP-L_PI L_II^{-1} L_IP; DeltaLambda_H=Lambda_full-Lambda_vis.",
+  "source_layer": "DM22",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "DM22",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 2,
+    "xapi_raw_in_count": 2,
+    "live_out_count": 2,
+    "live_in_count": 6,
+    "closure_out_reachability_count": 1,
+    "closure_in_reachability_count": 1,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [
+      "@dm_lambda_h"
+    ],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19762,
+        "source": "@dm_hidden_response_operator",
+        "relation": "READS_OUT_AT",
+        "target": "@galaxy",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19763,
+        "source": "@dm_hidden_response_operator",
+        "relation": "SCHUR_REDUCES",
+        "target": "@dm_continuity_laplacian",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19755,
+        "source": "@dm_hidden_boundary_response_form",
+        "relation": "DESCENDS_FROM",
+        "target": "@dm_hidden_response_operator",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19786,
+        "source": "@dm_native_hidden_witness",
+        "relation": "CONTAINS",
+        "target": "@dm_hidden_response_operator",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      }
+    ]
+  },
+  "address": "@dm_hidden_response_operator",
+  "address_sha256": "00b7c176e863544177cec682bcb23476aed198632066a82712aab04775938bfa"
+}

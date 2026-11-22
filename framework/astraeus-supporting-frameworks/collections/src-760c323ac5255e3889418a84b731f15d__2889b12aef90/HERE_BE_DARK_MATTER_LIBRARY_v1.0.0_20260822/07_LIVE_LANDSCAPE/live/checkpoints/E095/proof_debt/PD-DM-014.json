@@ -1,0 +1,26 @@
+{
+  "debt_id": "PD-DM-014",
+  "title": "Readable energy-density component calibration / observer normalization",
+  "status": "ACTIVE_NARROWED_COMPONENT_GATE",
+  "priority": "HIGH",
+  "checkpoint_opened": "E095",
+  "discharges": "residual part of @dm_native_density_to_readable_source after cross-API structural factorization",
+  "related_handles": [
+    "@dm_resolution_density_profile",
+    "@energy_density",
+    "@stress_energy_tensor",
+    "@dm_stress_energy_separation_gate"
+  ],
+  "question": "For one declared Resolution cell and one fixed normalized readable observer, type/calibrate the already-registered energy-density realization so a nonzero native Delta rho component is certified as a nonzero readable T_mn u^m u^n component.",
+  "closed_parts": [
+    "DM profile REALIZES API energy density",
+    "API energy density ENTERS stress-energy tensor",
+    "one nonzero readable density component suffices to separate stress-energy tensors"
+  ],
+  "not_required": [
+    "full tensor reconstruction from a scalar",
+    "new gravity mechanism",
+    "new matter action selection"
+  ],
+  "trigger_to_reopen": "Only if quantitative/readable normalization is required for unconditional qualification."
+}

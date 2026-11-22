@@ -1,0 +1,81 @@
+{
+  "handle": "@dm_conditional_response_trace_residue_survival",
+  "object_type": "qmo_derived_mathematical_object",
+  "status": "LIVE_CONDITIONAL_CLOSED_WITH_NARROWED_PROOF_DEBT",
+  "domain": "DM30",
+  "namespace": "mk43://dark-matter/live",
+  "name": "Conditional Hidden Response-Trace Residue Survival",
+  "definition": "Conditional on one explicit symmetry-action typing, the hidden response trace survives as declared invariant residue and separates the matched full/visible projection-residue bundles.",
+  "math": "I_Lambda(N)=tr(Lambda_N); I_Lambda(full)>I_Lambda(vis). If I_Lambda is G_Pi-invariant, then I_Lambda is admissible residue data and B_full^R not ~=_F B_vis^R under the declared invariant-preserving comparison.",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E082",
+  "qmo_generated": true,
+  "proof_status": "DERIVED_OR_CONDITIONAL",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "LIVE_QMO_DERIVED",
+  "metadata": {
+    "payload": {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_conditional_response_trace_residue_survival",
+      "canonical_name": "Conditional Hidden Response-Trace Residue Survival",
+      "type": "ConditionalProjectionResidueSurvivalWitness",
+      "status": "LIVE_CONDITIONAL_CLOSED_WITH_NARROWED_PROOF_DEBT",
+      "checkpoint": "E082",
+      "definition": "Conditional on one explicit symmetry-action typing, the hidden response trace survives as declared invariant residue and separates the matched full/visible projection-residue bundles.",
+      "math": "I_Lambda(N)=tr(Lambda_N); I_Lambda(full)>I_Lambda(vis). If I_Lambda is G_Pi-invariant, then I_Lambda is admissible residue data and B_full^R not ~=_F B_vis^R under the declared invariant-preserving comparison.",
+      "parents": [
+        "@dm_port_response_trace_invariant",
+        "@dm_projection_residue_survival",
+        "@boundary_projection"
+      ],
+      "working_assumptions": [
+        "WA-DM-E065-001",
+        "WA-DM-E082-001"
+      ],
+      "proof_debt": [
+        "PD-DM-001",
+        "PD-DM-010"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    "direct_live_edges_out": [
+      {
+        "source": "@dm_conditional_response_trace_residue_survival",
+        "relation": "USES",
+        "target": "@dm_port_response_trace_invariant",
+        "graph_family": "dark_matter_live",
+        "confidence": "high",
+        "audit_status": "LIVE_DERIVED",
+        "provenance": "E082",
+        "origin": "LIVE_LANDSCAPE",
+        "source_layer": "live"
+      },
+      {
+        "source": "@dm_conditional_response_trace_residue_survival",
+        "relation": "CONDITIONALLY_SUPPORTS",
+        "target": "@dm_projection_residue_survival",
+        "graph_family": "dark_matter_live",
+        "confidence": "medium",
+        "audit_status": "CONDITIONAL_DERIVATION",
+        "provenance": "WA-DM-E082-001",
+        "origin": "LIVE_LANDSCAPE",
+        "source_layer": "live"
+      },
+      {
+        "source": "@dm_conditional_response_trace_residue_survival",
+        "relation": "CONDITIONALLY_SUPPORTS",
+        "target": "@dm_response_trace_q_handoff_witness",
+        "graph_family": "dark_matter_live",
+        "confidence": "medium",
+        "audit_status": "CONDITIONAL_DERIVATION",
+        "provenance": "WA-DM-E082-001",
+        "origin": "LIVE_LANDSCAPE",
+        "source_layer": "live"
+      }
+    ],
+    "direct_live_edges_in": []
+  },
+  "address": "@dm_conditional_response_trace_residue_survival",
+  "address_sha256": "9a0537568d71c2fde853f4b9fb72d3795e24744771278e73c2d8f4fbac815670"
+}

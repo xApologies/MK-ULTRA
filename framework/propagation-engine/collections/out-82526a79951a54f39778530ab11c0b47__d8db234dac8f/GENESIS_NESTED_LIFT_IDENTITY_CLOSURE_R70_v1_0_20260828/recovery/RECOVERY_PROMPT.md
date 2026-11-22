@@ -1,0 +1,4 @@
+ですね
+Recover GENESIS_NESTED_LIFT_IDENTITY_CLOSURE_R70_v1_0_20260828.
+Status: CLOSED_TO_RESIDUAL_FIBER_BRANCH
+Next: @qmo/inverse_limit_projection_identity

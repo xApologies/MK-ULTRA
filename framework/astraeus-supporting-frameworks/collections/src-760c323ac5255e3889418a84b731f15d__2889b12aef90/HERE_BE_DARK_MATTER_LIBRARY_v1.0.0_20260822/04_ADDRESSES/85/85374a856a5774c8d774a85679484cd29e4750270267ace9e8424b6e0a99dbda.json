@@ -1,0 +1,78 @@
+{
+  "handle": "@dm_hidden_sector_conservation",
+  "object_type": "mathematical_object",
+  "status": "ATLAS_DERIVED_CLOSED",
+  "domain": "DM22",
+  "namespace": "readout",
+  "name": "Hidden-Sector Conservation / Exchange Law",
+  "definition": "Covariant hidden/visible exchange identity implied by total stress-energy conservation after a full/visible source decomposition is defined.",
+  "math": "T_full=T_vis+T_H, ∇_μ T_full^{μν}=0. Define J^ν:=∇_μ T_vis^{μν}; then ∇_μ T_H^{μν}=-J^ν. If J^ν=0, the hidden sector is separately conserved.",
+  "source_layer": "DM22",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "DM22",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 2,
+    "xapi_raw_in_count": 2,
+    "live_out_count": 2,
+    "live_in_count": 2,
+    "closure_out_reachability_count": 159,
+    "closure_in_reachability_count": 3,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 1,
+    "aliases": [],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19766,
+        "source": "@dm_hidden_sector_conservation",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_stress_energy_realization_family",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19767,
+        "source": "@dm_hidden_sector_conservation",
+        "relation": "DEPENDS_ON",
+        "target": "@local_energy_momentum_conservation",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19732,
+        "source": "@dm_dark_matter_qualification_locus",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_hidden_sector_conservation",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19810,
+        "source": "@dm_stress_energy_separation_gate",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_hidden_sector_conservation",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      }
+    ]
+  },
+  "address": "@dm_hidden_sector_conservation",
+  "address_sha256": "85374a856a5774c8d774a85679484cd29e4750270267ace9e8424b6e0a99dbda"
+}

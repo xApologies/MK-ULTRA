@@ -1,0 +1,119 @@
+{
+  "handle": "@genlang_root_ar",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@genlang_root_ar",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 3,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 3,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@genlang_root_ar",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_phrase_en_ar_en",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48118;CANONICAL_API_TYPED_LINE:48118"
+      },
+      {
+        "source": "@genlang_root_ar",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_word_kai_ar_en_rin",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48088;CANONICAL_API_TYPED_LINE:48088"
+      },
+      {
+        "source": "@genlang_root_ar",
+        "relation": "LANGUAGE_EXPRESSES",
+        "target": "@inheritance",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48050;CANONICAL_API_TYPED_LINE:48050"
+      },
+      {
+        "source": "@inheritance",
+        "relation": "MATHEMATICS_HAS_LANGUAGE_PROJECTION",
+        "target": "@genlang_root_ar",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48051;CANONICAL_API_TYPED_LINE:48051"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 419,
+        "source": "@genlang_root_ar",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_phrase_en_ar_en",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48118;CANONICAL_API_TYPED_LINE:48118"
+      },
+      {
+        "id": 420,
+        "source": "@genlang_root_ar",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_word_kai_ar_en_rin",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48088;CANONICAL_API_TYPED_LINE:48088"
+      },
+      {
+        "id": 421,
+        "source": "@genlang_root_ar",
+        "relation": "LANGUAGE_EXPRESSES",
+        "target": "@inheritance",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48050;CANONICAL_API_TYPED_LINE:48050"
+      },
+      {
+        "id": 656,
+        "source": "@inheritance",
+        "relation": "MATHEMATICS_HAS_LANGUAGE_PROJECTION",
+        "target": "@genlang_root_ar",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48051;CANONICAL_API_TYPED_LINE:48051"
+      }
+    ]
+  },
+  "address": "@genlang_root_ar",
+  "address_sha256": "805e876caf41de47eeb2542994ddd348872a871bd309e7ee485f538cd5fc7ee2"
+}

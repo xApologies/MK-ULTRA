@@ -1,0 +1,90 @@
+{
+  "origin": [
+    15,
+    14,
+    14
+  ],
+  "route_threshold": 0.3,
+  "conditioned_route_overlap": 1.0,
+  "fresh_route_overlap": 0.0,
+  "worst_normalized_HO_response": 0.9506571536939946,
+  "local_environment_fields": [
+    {
+      "field": "adj",
+      "L2_delta_in_target": 0.3215022457524414,
+      "L1_delta_in_target": 0.8873912299979093,
+      "max_abs_delta_in_target": 0.1476037532610495,
+      "nonzero": true
+    },
+    {
+      "field": "corridor",
+      "L2_delta_in_target": 0.7626226334552322,
+      "L1_delta_in_target": 2.1485078047614774,
+      "max_abs_delta_in_target": 0.2980732006371732,
+      "nonzero": true
+    },
+    {
+      "field": "persistent",
+      "L2_delta_in_target": 0.3192591691546601,
+      "L1_delta_in_target": 0.9004789706097169,
+      "max_abs_delta_in_target": 0.1225589036367276,
+      "nonzero": true
+    },
+    {
+      "field": "chirality_history",
+      "L2_delta_in_target": 0.1135500234149179,
+      "L1_delta_in_target": 0.3207938268653472,
+      "max_abs_delta_in_target": 0.0432506599297549,
+      "nonzero": true
+    }
+  ],
+  "probe_responses": [
+    {
+      "probe": "H_mean_abs",
+      "family": "Hydrogen",
+      "independent_chirality_response_at_target": 0.2763040065765381,
+      "normalized_to_probe_peak": 0.9506571292877196,
+      "nonzero": true
+    },
+    {
+      "probe": "H_l2_norm",
+      "family": "Hydrogen",
+      "independent_chirality_response_at_target": 0.3012653589248657,
+      "normalized_to_probe_peak": 0.950882852077484,
+      "nonzero": true
+    },
+    {
+      "probe": "H_max_abs",
+      "family": "Hydrogen",
+      "independent_chirality_response_at_target": 0.3207938373088836,
+      "normalized_to_probe_peak": 0.9511389136314392,
+      "nonzero": true
+    },
+    {
+      "probe": "H_semantic_shell_env",
+      "family": "Hydrogen",
+      "independent_chirality_response_at_target": 0.3146485090255737,
+      "normalized_to_probe_peak": 0.9513815641403198,
+      "nonzero": true
+    },
+    {
+      "probe": "O_mean_abs",
+      "family": "Oxygen",
+      "independent_chirality_response_at_target": 0.1487310230731964,
+      "normalized_to_probe_peak": 0.9511388540267944,
+      "nonzero": true
+    },
+    {
+      "probe": "O_l2_norm",
+      "family": "Oxygen",
+      "independent_chirality_response_at_target": 0.0856144279241561,
+      "normalized_to_probe_peak": 0.9511388540267944,
+      "nonzero": true
+    }
+  ],
+  "global_same_H_response": {
+    "continuity_L2": 0.0036081662333576,
+    "shell_L2": 0.0021395938100588,
+    "continuity_net_change": 0.0
+  }
+}

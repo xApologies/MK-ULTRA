@@ -1,0 +1,272 @@
+[
+  {
+    "address": "@object/chirality_tile",
+    "name": "Chirality Tile",
+    "object_type": "native geometric position",
+    "status": "CURRENT",
+    "definition": "One intrinsic tile position carrying occupancy and, if occupied, local chromatic/energy-density state plus relations.",
+    "authority": "Genesis live",
+    "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+    "notes": "Coordinates are optional charts."
+  },
+  {
+    "address": "@object/chirality_seed",
+    "name": "Chirality Seed",
+    "object_type": "2x2 native domain",
+    "status": "CURRENT",
+    "definition": "Four chirality tiles arranged as TL,TR,BL,BR.",
+    "authority": "Genesis live",
+    "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+    "notes": "Right/left occupancy profiles retained."
+  },
+  {
+    "address": "@object/chirality_byte_bite",
+    "name": "Chirality Byte/Bite",
+    "object_type": "2x2x2 set-lifted domain",
+    "status": "WORKING",
+    "definition": "Three-dimensional set lift of a seed; displayed as two seed layers.",
+    "authority": "Genesis live",
+    "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+    "notes": "Exact set-lift rule and spelling remain open."
+  },
+  {
+    "address": "@object/chirality_block",
+    "name": "Chirality Block",
+    "object_type": "4x4x4 native domain",
+    "status": "CURRENT",
+    "definition": "Native three-dimensional domain with 64 tile positions; current toy profile half occupied.",
+    "authority": "Genesis live",
+    "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+    "notes": "Not canonically an array/tree of bytes."
+  },
+  {
+    "address": "@object/chirality_fabric",
+    "name": "Chirality Fabric",
+    "object_type": "recursive domain",
+    "status": "OPEN_CONSTRUCTION",
+    "definition": "Larger recursive organization of chirality blocks/domains.",
+    "authority": "Genesis live",
+    "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+    "notes": "Update law required."
+  },
+  {
+    "address": "@object/genesis_field",
+    "name": "Genesis Field",
+    "object_type": "organizational field",
+    "status": "PARENT_CANON",
+    "definition": "Sandbox/domain in which chirality structures are admitted and probed.",
+    "authority": "Genesis Field source",
+    "source_ref": "@source/genesis_field",
+    "notes": "Independent source reservoir."
+  },
+  {
+    "address": "@object/time_space",
+    "name": "Time-Space",
+    "object_type": "upstream organizational domain",
+    "status": "LOCKED",
+    "definition": "Upstream organizational object; distinct from downstream spacetime.",
+    "authority": "Genesis live",
+    "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+    "notes": "Do not collapse into spacetime."
+  },
+  {
+    "address": "@object/spacetime",
+    "name": "spacetime",
+    "object_type": "projected/readable realization",
+    "status": "LOCKED",
+    "definition": "Downstream realization after Helicon, Graviton, and Time-Shell handoff.",
+    "authority": "Genesis live",
+    "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+    "notes": "Lowercase spelling used to distinguish."
+  },
+  {
+    "address": "@object/resolution",
+    "name": "Resolution",
+    "object_type": "organizational discernibility",
+    "status": "LOCKED",
+    "definition": "Determines which distinctions/readouts are available.",
+    "authority": "Parent sources",
+    "source_ref": "@source/five_books",
+    "notes": "Distinct from Bandwidth."
+  },
+  {
+    "address": "@object/bandwidth",
+    "name": "Bandwidth",
+    "object_type": "available organizational freedom",
+    "status": "LOCKED",
+    "definition": "Determines which transformations/lifts/generators are available.",
+    "authority": "Parent sources",
+    "source_ref": "@source/five_books",
+    "notes": "Not canonically a count of two colors."
+  },
+  {
+    "address": "@object/persistence",
+    "name": "Persistence",
+    "object_type": "recoverable organizational identity",
+    "status": "LOCKED",
+    "definition": "Identity recoverable through admissible continuation.",
+    "authority": "Time-Space formal stack",
+    "source_ref": "09_SOURCE_SNAPSHOTS/TIMESPACE_FORMAL_STACK/02_Axioms.md",
+    "notes": "Distinct from mere existence."
+  },
+  {
+    "address": "@object/history",
+    "name": "History",
+    "object_type": "ordered provenance",
+    "status": "LOCKED",
+    "definition": "Retained ordered structural provenance; does not require clock time.",
+    "authority": "Genesis v9",
+    "source_ref": "09_SOURCE_SNAPSHOTS/GENESIS_CHIRALITY_v9/CANONICAL_FULL_CUMULATIVE_STATE_v9.md",
+    "notes": "Winding is one component, not all History."
+  },
+  {
+    "address": "@object/chirality_space",
+    "name": "Chirality Space",
+    "object_type": "admissibility space",
+    "status": "FORMAL_STACK",
+    "definition": "Smooth admissibility space Omega for chirality organization.",
+    "authority": "Time-Space formal stack",
+    "source_ref": "09_SOURCE_SNAPSHOTS/TIMESPACE_FORMAL_STACK/00_Primitives.md",
+    "notes": "Handedness is a projection profile."
+  },
+  {
+    "address": "@object/time_shell",
+    "name": "Local Time Shell",
+    "object_type": "persistent local domain",
+    "status": "LOCKED",
+    "definition": "Locally persistent organizational domain carrying localized temporal ordering from T5 onward.",
+    "authority": "Genesis live + v9",
+    "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+    "notes": "Each shell can carry local chirality update sequencing."
+  },
+  {
+    "address": "@object/color_domain",
+    "name": "Six-Color Domain",
+    "object_type": "toy chromatic basin set",
+    "status": "CURRENT_TOY",
+    "definition": "R,O,Y,G,B,V available on occupied tiles.",
+    "authority": "Genesis live",
+    "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+    "notes": "Not QCD color."
+  },
+  {
+    "address": "@object/color_charge",
+    "name": "Resolved Local Color Charge",
+    "object_type": "multiscale readout",
+    "status": "CURRENT_TOY",
+    "definition": "Truncated-mean resolved color at tile/seed/byte/block domain scales.",
+    "authority": "Genesis live",
+    "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+    "notes": "Telemetry/readout role active; deeper state role open."
+  },
+  {
+    "address": "@object/energy_density",
+    "name": "Local Energy Density",
+    "object_type": "local occupied-state quantity",
+    "status": "RECOVERED_API",
+    "definition": "Energy density associated with occupied chirality state; colors investigated as basin/readout.",
+    "authority": "Unified API recovery",
+    "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+    "notes": "Exact map to colors open."
+  },
+  {
+    "address": "@object/native_energy",
+    "name": "Native Energy",
+    "object_type": "persistence-difference unit",
+    "status": "RECOVERED_API",
+    "definition": "Minimum admissible persistence difference.",
+    "authority": "Unified API recovery",
+    "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+    "notes": "Originally discovered by QMO closure from unit strength + energy density."
+  },
+  {
+    "address": "@object/local_torus",
+    "name": "Local Seed Torus",
+    "object_type": "T2 local configuration space",
+    "status": "STRONG_CANDIDATE",
+    "definition": "Product of two cyclic color coordinates for the two occupied seed tiles.",
+    "authority": "R36-R37",
+    "source_ref": "09_SOURCE_SNAPSHOTS/GENESIS_CHIRALITY_v9/R37_T2_LOCAL_CONTINUITY.md",
+    "notes": "Local only."
+  },
+  {
+    "address": "@object/geometric_adjacency",
+    "name": "Geometric Adjacency",
+    "object_type": "native update substrate",
+    "status": "V9_LOCK",
+    "definition": "Time-independent native chirality update/possibility relation.",
+    "authority": "Genesis Chirality v9",
+    "source_ref": "09_SOURCE_SNAPSHOTS/GENESIS_CHIRALITY_v9/CANONICAL_FULL_CUMULATIVE_STATE_v9.md",
+    "notes": "Raw adjacency alone is commutative under fixed transfer."
+  },
+  {
+    "address": "@object/relationship",
+    "name": "Relationship",
+    "object_type": "propagation primitive",
+    "status": "PROPAGATION_LOCK",
+    "definition": "Relationship propagates first; motion is a readout.",
+    "authority": "Propagation v8",
+    "source_ref": "09_SOURCE_SNAPSHOTS/PROPAGATION_v8/CANONICAL_FULL_CONTINUITY_v8.md",
+    "notes": "Central statement preserved verbatim."
+  },
+  {
+    "address": "@object/connection",
+    "name": "Connection / Lift Selector",
+    "object_type": "transport selector",
+    "status": "CANDIDATE_ARCHITECTURE",
+    "definition": "Selects a horizontal/operative transport from Bandwidth-filtered candidates or retains residual multiplicity.",
+    "authority": "R33 + five books",
+    "source_ref": "09_SOURCE_SNAPSHOTS/GENESIS_CHIRALITY_v9/R33_CONNECTION_LIFT.md",
+    "notes": "Not yet numerically specified."
+  },
+  {
+    "address": "@object/watcher",
+    "name": "Watcher",
+    "object_type": "admissibility/selection auditor",
+    "status": "CANDIDATE_ARCHITECTURE",
+    "definition": "Applies ancestry, chirality, residue, typing, Bandwidth/environment/History, and minimal-extra-structure checks.",
+    "authority": "Genesis v9",
+    "source_ref": "09_SOURCE_SNAPSHOTS/GENESIS_CHIRALITY_v9/CANONICAL_FULL_CUMULATIVE_STATE_v9.md",
+    "notes": "May return tie/failure."
+  },
+  {
+    "address": "@object/recursive_closure",
+    "name": "Recursive Closure",
+    "object_type": "closure operator",
+    "status": "FORMAL_STACK",
+    "definition": "Idempotent closure recovery on recursive continuity states.",
+    "authority": "Time-Space formal stack",
+    "source_ref": "09_SOURCE_SNAPSHOTS/TIMESPACE_FORMAL_STACK/05_Interface_Definitions.md",
+    "notes": "Specific tile law not supplied."
+  },
+  {
+    "address": "@object/domain_generator_map",
+    "name": "Domain Generator Map",
+    "object_type": "open map",
+    "status": "R88_OPEN",
+    "definition": "Maps closed domain geometry, environmental admissibility, and Bandwidth to available generators.",
+    "authority": "Propagation v8",
+    "source_ref": "09_SOURCE_SNAPSHOTS/PROPAGATION_v8/CANONICAL_FULL_CONTINUITY_v8.md",
+    "notes": "Branch A/B unresolved."
+  },
+  {
+    "address": "@object/helicon_q_handoff",
+    "name": "Helicon/Time-Shell to Q Handoff",
+    "object_type": "open partial map",
+    "status": "L08D1_BLOCKER",
+    "definition": "Source-respecting construction from Helicon/Time-Shell sector into canonical local Q field object.",
+    "authority": "CRD->QCD v1.8",
+    "source_ref": "09_SOURCE_SNAPSHOTS/CRD_QCD_v1_8/README.md",
+    "notes": "Must not assume SU(3)."
+  },
+  {
+    "address": "@object/qcd_comparison",
+    "name": "QCD Comparison Target",
+    "object_type": "external comparison",
+    "status": "EXTERNAL_COMPARISON",
+    "definition": "Non-Abelian SU(3) gauge-theory structure used only after native chirality algebra is derived.",
+    "authority": "Conventional QCD",
+    "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+    "notes": "No identity claim."
+  }
+]

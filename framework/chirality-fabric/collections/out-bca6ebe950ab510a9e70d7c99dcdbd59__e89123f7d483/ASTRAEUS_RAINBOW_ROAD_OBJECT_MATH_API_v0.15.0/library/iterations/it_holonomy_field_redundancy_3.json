@@ -1,0 +1,188 @@
+{
+  "function": "@bounded_dependency_crawl",
+  "mode": "landscape",
+  "seed": "@holonomy_signature_field_redundancy_crawl",
+  "requested_iteration_bound": 3,
+  "actual_iterations_executed": 3,
+  "target": null,
+  "terminal": {
+    "state": "MAX_ITERATIONS",
+    "focus": null,
+    "reason": "requested finite iteration horizon reached",
+    "iteration": 3
+  },
+  "visited": [
+    "@history_holonomy",
+    "@holonomy_history_signature",
+    "@holonomy_signature_field_redundancy_crawl",
+    "@holonomy_signature_realization_audit",
+    "@holonomy_signature_realization_test",
+    "@recovery_context_equivalence",
+    "@recovery_discriminator",
+    "@recovery_history_signature_minimality",
+    "@recovery_history_signature_quotient",
+    "@recovery_signature_composition",
+    "@recovery_test_family",
+    "@recovery_witness_counterexample_crawl",
+    "@signature_kernel_equivalence",
+    "@signature_overresolution_defect",
+    "@signature_realization_criterion",
+    "@signature_underresolution_defect",
+    "@theorem_recovery_context_quotient",
+    "@theorem_recovery_signature_realization"
+  ],
+  "member_edge_ids": [
+    "E-00146",
+    "E-00147",
+    "E-00148",
+    "E-00149",
+    "E-00210",
+    "E-00216",
+    "E-00217",
+    "E-00219",
+    "E-00221",
+    "E-00224",
+    "E-00225",
+    "E-00226",
+    "E-00227",
+    "E-00232",
+    "E-00233",
+    "E-00234",
+    "E-00235",
+    "E-00236",
+    "E-00239",
+    "E-00240",
+    "E-00241",
+    "E-00242",
+    "E-00243",
+    "E-00244",
+    "E-00245",
+    "E-00246"
+  ],
+  "steps": [
+    {
+      "iteration": 1,
+      "frontier_in": [
+        "@holonomy_signature_field_redundancy_crawl"
+      ],
+      "new_qmos": [
+        "@holonomy_history_signature",
+        "@holonomy_signature_realization_test",
+        "@signature_overresolution_defect",
+        "@signature_underresolution_defect"
+      ],
+      "edge_ids": [
+        "E-00243",
+        "E-00244",
+        "E-00245",
+        "E-00246"
+      ]
+    },
+    {
+      "iteration": 2,
+      "frontier_in": [
+        "@holonomy_history_signature",
+        "@holonomy_signature_realization_test",
+        "@signature_overresolution_defect",
+        "@signature_underresolution_defect"
+      ],
+      "new_qmos": [
+        "@history_holonomy",
+        "@holonomy_signature_realization_audit",
+        "@recovery_history_signature_minimality",
+        "@recovery_history_signature_quotient",
+        "@signature_kernel_equivalence"
+      ],
+      "edge_ids": [
+        "E-00148",
+        "E-00224",
+        "E-00225",
+        "E-00226",
+        "E-00227",
+        "E-00232",
+        "E-00234",
+        "E-00235",
+        "E-00240",
+        "E-00242",
+        "E-00243",
+        "E-00244",
+        "E-00245",
+        "E-00246"
+      ]
+    },
+    {
+      "iteration": 3,
+      "frontier_in": [
+        "@history_holonomy",
+        "@holonomy_signature_realization_audit",
+        "@recovery_history_signature_minimality",
+        "@recovery_history_signature_quotient",
+        "@signature_kernel_equivalence"
+      ],
+      "new_qmos": [
+        "@recovery_context_equivalence",
+        "@recovery_discriminator",
+        "@recovery_signature_composition",
+        "@recovery_test_family",
+        "@recovery_witness_counterexample_crawl",
+        "@signature_realization_criterion",
+        "@theorem_recovery_context_quotient",
+        "@theorem_recovery_signature_realization"
+      ],
+      "edge_ids": [
+        "E-00146",
+        "E-00147",
+        "E-00148",
+        "E-00149",
+        "E-00210",
+        "E-00216",
+        "E-00217",
+        "E-00219",
+        "E-00221",
+        "E-00224",
+        "E-00226",
+        "E-00227",
+        "E-00232",
+        "E-00233",
+        "E-00234",
+        "E-00235",
+        "E-00236",
+        "E-00239",
+        "E-00240",
+        "E-00241",
+        "E-00242"
+      ]
+    }
+  ],
+  "history_policy": "APPEND_ONLY",
+  "domain": "@black_rainbow_closed_landscape",
+  "run_id": "IT-89db1e4e1196",
+  "qmo_address": "@it_holonomy_field_redundancy_3",
+  "canonical_name": "Bounded Iteration: @holonomy_signature_field_redundancy_crawl",
+  "status": "DERIVED_ITERATION_RUN",
+  "materialized_qmo": "@it_holonomy_field_redundancy_3_landscape",
+  "domain_state": "OPEN_RESULT",
+  "construction": {
+    "operator": "@bounded_recursive_iteration",
+    "specialization": "@bounded_dependency_crawl",
+    "finite_horizon": 3,
+    "mode": "landscape",
+    "direction": "bidirectional",
+    "target": null
+  },
+  "history": {
+    "policy": "APPEND_ONLY",
+    "created_in_api_release": "0.10.0",
+    "created_live_model_revision": "v0.23.0",
+    "requested_bound": 3,
+    "actual_iterations": 3
+  },
+  "provenance": [
+    "GENESIS_DIRECTION::2026-08-22_bounded_qmo_iteration",
+    "QMO:@holonomy_signature_field_redundancy_crawl",
+    "QMO:@bounded_recursive_iteration",
+    "QMO:@bounded_dependency_crawl",
+    "QMO:@it_holonomy_field_redundancy_3_landscape"
+  ],
+  "semantic_guard": "Iteration bound N is a ceiling. Early termination is canonical. Registered dependencies only; member claims are not promoted by iteration."
+}

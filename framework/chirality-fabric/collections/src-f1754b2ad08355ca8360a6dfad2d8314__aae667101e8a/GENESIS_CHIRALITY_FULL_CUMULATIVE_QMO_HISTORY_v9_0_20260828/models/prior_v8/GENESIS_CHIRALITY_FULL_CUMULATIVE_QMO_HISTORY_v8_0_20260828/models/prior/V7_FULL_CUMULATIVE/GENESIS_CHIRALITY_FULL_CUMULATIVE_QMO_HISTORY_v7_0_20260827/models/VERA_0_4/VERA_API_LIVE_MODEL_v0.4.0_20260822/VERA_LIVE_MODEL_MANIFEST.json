@@ -1,0 +1,198 @@
+{
+  "schema": "VERA_API_LIVE_MODEL_RELEASE_V4",
+  "version": "0.4.0",
+  "date": "2026-08-22",
+  "api_release": "0.7.0",
+  "live_model_revision": "v0.20.0",
+  "qmo_address_count": 199,
+  "dependency_graph_count": 2,
+  "dependency_landscape_count": 6,
+  "dependency_chain_count": 1,
+  "semantic_role": "Separate QMO-addressed semantic/audit/recovery model for the Astraeus API",
+  "files": [
+    {
+      "path": "API_COMMAND_HISTORY.jsonl",
+      "bytes": 920,
+      "sha256": "155ab4755a479dc917c73afafcab2a771034b95394ae394e5729a3af10c14684"
+    },
+    {
+      "path": "API_LIVE_MODEL.json",
+      "bytes": 7115,
+      "sha256": "b863325941e03f8a9cee6561982d027d8392495b1cf7ce12204d2bc750dd2c5d"
+    },
+    {
+      "path": "ASTRAEUS_API_LIVE_MODEL.md",
+      "bytes": 37664,
+      "sha256": "d3805d4373f10180753c7e710c75cc17383a22b4313771da2989f646417f1848"
+    },
+    {
+      "path": "COMMAND_REGISTRY.json",
+      "bytes": 15461,
+      "sha256": "50080689b8f2bb5fe36445a22d22be9ff67cb33619fc81f77a2d4f2e6cc1d20e"
+    },
+    {
+      "path": "CURRENT_RELEASE_MANIFEST.json",
+      "bytes": 16139,
+      "sha256": "413fcac823c2969ac49627d680b655aafe57e9d76dc9d714a7367d7a3c4da21a"
+    },
+    {
+      "path": "DEPENDENCY_CHAIN_HISTORY.jsonl",
+      "bytes": 1276,
+      "sha256": "b58a1f68ab5986bf7723afbfb69cf95bb6ea69bddff3cba3f4498de7adf85e6c"
+    },
+    {
+      "path": "DEPENDENCY_CHAIN_REGISTRY.json",
+      "bytes": 3717,
+      "sha256": "442893ec63f8123f3e46440412ff8d4563b9fe21a304a2294542556bd98c5ea7"
+    },
+    {
+      "path": "DEPENDENCY_CHAIN_VALIDATION.json",
+      "bytes": 8029,
+      "sha256": "f0165399b56a315ae2cb698085098aaf9b8ffe6c866dff4b425b6761d45a03b6"
+    },
+    {
+      "path": "DEPENDENCY_GRAPH_HISTORY.jsonl",
+      "bytes": 802,
+      "sha256": "c299eb95e3de6abb0eded6a767c4459fe21ba0326cf31b4500a6c9b00e971227"
+    },
+    {
+      "path": "DEPENDENCY_GRAPH_REGISTRY.json",
+      "bytes": 5702,
+      "sha256": "fe7bf79580c4c60ee1532973c3056944c8590b92ea7acf85f0627899d747037c"
+    },
+    {
+      "path": "DEPENDENCY_LANDSCAPE_HISTORY.jsonl",
+      "bytes": 3367,
+      "sha256": "21898de8cc4caa61e40213c969bf81d3fdafc60ed7fc8f1b3ee216a06c95ce10"
+    },
+    {
+      "path": "DEPENDENCY_LANDSCAPE_REGISTRY.json",
+      "bytes": 61223,
+      "sha256": "0544cc87b9cfd632a47a64eac6d03e82d241b17655fc3365f6ef21004336ae71"
+    },
+    {
+      "path": "DEPENDENCY_LANDSCAPE_VALIDATION.json",
+      "bytes": 34165,
+      "sha256": "0776204717417ccf4da0e3ae1b491757718aba6d71e3bdb91dcdb44a1056e44e",
+      "source_sha256_before_publication": "6ff0b70d6fe6fb5192beda44695993bf0d8365c11efc3ce64537a161ef8cbb1f",
+      "publication_path_portability_edit": true
+    },
+    {
+      "path": "DOMAIN_REGISTRY.json",
+      "bytes": 2228,
+      "sha256": "63c17e9103c63b12fc68368932aa39207e2ce22262199a4b359b3b704e7e3a2e"
+    },
+    {
+      "path": "GRAPH_TYPE_REGISTRY.json",
+      "bytes": 1231,
+      "sha256": "5fc733aecb6b7c9dd63d3bffa57b05ae1106a7dbf73b8ad5330a524b748fd30b"
+    },
+    {
+      "path": "HELP_REGISTRY.json",
+      "bytes": 15057,
+      "sha256": "8b1f87a05762e0f46dc054010566515f0156362b7b4dc656a4331bcd94bb7f98"
+    },
+    {
+      "path": "LINEAGE.json",
+      "bytes": 1843,
+      "sha256": "da198a588a2c5707d832467819684004b07a627db75203798c7463a3bcc1ea1c"
+    },
+    {
+      "path": "LIVE_RUNTIME_STATE.json",
+      "bytes": 1297,
+      "sha256": "23b4d786a2ed0a0a6c872a461de4d7371ccf852d1f07e5c567dc446c3f401580"
+    },
+    {
+      "path": "PREDECESSOR_REFERENCES.json",
+      "bytes": 1363,
+      "sha256": "4292df20275e12b29530e29ce5b35d3a19e704fb03d4fdbd6fb1bc6fbd559867"
+    },
+    {
+      "path": "QMO_ADDRESS_INDEX.json",
+      "bytes": 5915,
+      "sha256": "db01bc9bc08179e3affbe5c08f4759f8198e78aea6ad417131aed0cce61db287"
+    },
+    {
+      "path": "QMO_LIVE_MODEL_VALIDATION.json",
+      "bytes": 13799,
+      "sha256": "77522d55011a7d8a5088edf743af0700323a6eaefac652b0cd38333a1a35113e",
+      "source_sha256_before_publication": "1f3a4fa8150fbd84009436573da69718fb2be98ea26bc50ac633e093c41e415e",
+      "publication_path_portability_edit": true
+    },
+    {
+      "path": "QMO_METADATA_HISTORY.jsonl",
+      "bytes": 67051,
+      "sha256": "3eace7e434a03c92a99464b75f56b5caf68233f6efadf0665a9bf40862b209a1"
+    },
+    {
+      "path": "QMO_METADATA_LIBRARY.json",
+      "bytes": 430902,
+      "sha256": "0a58e98730d98624d215e9e9a1c9716bea4d3f7e67f338c6653e4eedc2d092c2"
+    },
+    {
+      "path": "QMO_METADATA_REGISTRY.json",
+      "bytes": 425613,
+      "sha256": "8db6e9e47cd0f6ace04228dc7166368b6ed617bcb0d439261ce9b902f7a86f43"
+    },
+    {
+      "path": "QMO_METADATA_SCHEMA.json",
+      "bytes": 1635,
+      "sha256": "d9b9f576dd41220149bbb7e838aded7e69cddfc024b36f7d275210c6df1ec321"
+    },
+    {
+      "path": "QMO_TYPE_REGISTRY.json",
+      "bytes": 2065,
+      "sha256": "c346705d424d195b8aac7ac1ba62ce04bde1895b8d72e6195f2222fd5ab1ea39"
+    },
+    {
+      "path": "VERA_RAINBOW_ROAD_LIVE_MODEL.md",
+      "bytes": 142127,
+      "sha256": "32818e5aab18998234b1859206b0f1634ed4e37e0c5a34618e788038d4ca4d0f"
+    },
+    {
+      "path": "dependency_chains/dc_recovery_witness_to_signature.json",
+      "bytes": 3212,
+      "sha256": "508cf25d839517559dbb4b6b551d81656cae6a44b730ca02dedd78db7c7cb740"
+    },
+    {
+      "path": "dependency_graphs/dc_recovery_witness_to_signature_g01.json",
+      "bytes": 2499,
+      "sha256": "860506f7b6585e5e0437099e9158fe851a2deb8fa03ce9b72e5ed87548b20b81"
+    },
+    {
+      "path": "dependency_graphs/dc_recovery_witness_to_signature_g02.json",
+      "bytes": 2413,
+      "sha256": "ab74cb2078fe4b0b2b4dd095e0bc31919f0d453fe0233bdeb3e40e22e7911eed"
+    },
+    {
+      "path": "dependency_landscapes/dc_recovery_witness_to_signature_l01.json",
+      "bytes": 4583,
+      "sha256": "e1b6e04ce77bef8fd5c55e701cb704c21a18478d79e669fe3d5f7d81a3712a79"
+    },
+    {
+      "path": "dependency_landscapes/dc_recovery_witness_to_signature_l02.json",
+      "bytes": 6224,
+      "sha256": "18efdf02dfa4380952834c1900ef4d28e8aab23ce88be88066ff4f27125a5140"
+    },
+    {
+      "path": "dependency_landscapes/dl_history_resolution_bridge.json",
+      "bytes": 15840,
+      "sha256": "5b7548183aba3bdb5cf9b518dc0b3b85cf04674f26b477ae2b44ef2aee57a221"
+    },
+    {
+      "path": "dependency_landscapes/dl_history_signature.json",
+      "bytes": 5444,
+      "sha256": "420c2c71017007480663e294a0da77c98b59b0cddea96a00876a54b448a23d79"
+    },
+    {
+      "path": "dependency_landscapes/dl_recovery_progression_graphs.json",
+      "bytes": 6221,
+      "sha256": "24afbaf6315efbf8e648df206f052972f3200a6cdacdb95f52ac5c5ec7432943"
+    },
+    {
+      "path": "dependency_landscapes/dl_resolution_recovery.json",
+      "bytes": 15277,
+      "sha256": "3f00704214d34b134ca1ed7b8c8820711f56a349dd0fec20422f481ba94bdb57"
+    }
+  ]
+}

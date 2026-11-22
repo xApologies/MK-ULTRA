@@ -1,0 +1,49 @@
+# v1.2 -> v1.3 Authority / Supersession Map
+
+## Governing correction
+
+`MASTER_2.pdf` is authoritative for the Rainbow structural-basin semantics used in this work layer.
+
+The v1.2 provisional assumption that the repeating `142857` grammar defines a six-state cyclic Road order is incompatible with the source correction.
+
+## Retired results
+
+- v1.2 L08 `Six Road lanes -> A2 root system` is **WITHDRAWN / INVALIDATED BY SOURCE CORRECTION**.
+- v1.2 L09B `C6 compact SU(3) generator lift` is **WITHDRAWN / INVALIDATED BY SOURCE CORRECTION**.
+- Any representative basin-to-root ordering derived from that C6 assumption is non-authoritative and may not be used downstream.
+
+The exact retired artifacts are preserved under `HISTORY/RETIRED_C6/` for provenance.
+
+## Retained results
+
+- L06 direct-route no-go.
+- L07 downstream SU(3) target/complement mathematics, with upstream realization still unproved.
+- L09A exact CRD `Z2` cochain -> restricted SU(3) gauge-orbit embedding and its gauge-fixing interpretation.
+- The general physicality discriminator `D_P`, **provided** its link variables are later derived from actual source-supported Road/Helicon projection rather than the retired C6 lift.
+
+## New active route
+
+`B6 structural basins -> actual Road state -> S_RH -> Helicon -> boundary/Q projection -> invariant residue -> structure-group reduction test -> gauge-invariant physicality -> naturality/imitation verdict`.
+
+
+## L08B typing refinement — 2026-08-26
+
+The older shorthand `S_RH:(X,H,chi,B6)->Helicon mode sector` is refined, not discarded, to:
+
+`S_RH : R_adm ⇉ H_Hel`.
+
+The refinement makes explicit that:
+- the input is a complete admitted Road state;
+- the codomain is the source-allowed Helicon spectral mode family;
+- the selector is generally set-valued;
+- unique-mode choice is not source-derived;
+- basin/History direct spectral dependence remains open.
+
+
+## L08C projection correction — 2026-08-26
+
+Retired inference:
+`Pi` can be treated as an unspecified six-basin→three-color quotient.
+
+Replacement:
+`Pi:dXi->dXi/G_Pi` is the Time-Space boundary quotient. A candidate feature descends only by a `G_Pi`-invariance/fiber-constancy witness. Direct basin-label reduction is not source-derived.

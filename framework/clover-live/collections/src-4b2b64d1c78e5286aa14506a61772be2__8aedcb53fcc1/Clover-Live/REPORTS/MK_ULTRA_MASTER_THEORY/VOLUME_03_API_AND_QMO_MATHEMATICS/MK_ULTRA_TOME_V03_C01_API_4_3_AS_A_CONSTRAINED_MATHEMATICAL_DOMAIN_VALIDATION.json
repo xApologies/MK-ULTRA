@@ -1,0 +1,111 @@
+{
+  "schema": "tome-publication-renderer-validation/v1",
+  "created_at": "2026-08-10T07:05:33.840561+00:00",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "engine": "KaTeX 0.16.22 -> HTML/CSS -> Playwright -> Microsoft Edge PDF",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_03_API_AND_QMO_MATHEMATICS/MK_ULTRA_TOME_V03_C01_API_4_3_AS_A_CONSTRAINED_MATHEMATICAL_DOMAIN.pdf",
+    "bytes": 161364,
+    "sha256": "3c2710635214960a5a9d35ed2341a6498c6f778761683a38adaa41c6bb16fdd8"
+  },
+  "actual_pages": 7,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V03-C01": 3
+  },
+  "chapter_validations": [
+    {
+      "chapter_id": "V03-C01",
+      "source_sha256": "6d71fe9386881281e0d320856452bd81d85ed2b98c085cc5b15490975cae5d5d",
+      "page_start": 3,
+      "headings": 20,
+      "display_equations": 18,
+      "inline_equations": 29,
+      "equation_tags": 18,
+      "api_handles": 1,
+      "table_rows": 2,
+      "content_markers_present": true
+    }
+  ],
+  "engine_metrics": {
+    "renderer": "TOME_PUBLICATION_RENDERER_V1",
+    "katexVersion": "0.16.22",
+    "chapters": [
+      {
+        "id": "V03-C01",
+        "sourceBytes": 13052,
+        "paragraphs": 69,
+        "headings": 20,
+        "displayEquations": 18,
+        "inlineEquations": 29,
+        "tables": 1,
+        "tableRows": 1,
+        "listItems": 0,
+        "codeBlocks": 0,
+        "figures": 0
+      }
+    ],
+    "paragraphs": 69,
+    "headings": 20,
+    "displayEquations": 18,
+    "inlineEquations": 29,
+    "tables": 1,
+    "tableRows": 1,
+    "listItems": 0,
+    "blockQuotes": 0,
+    "codeBlocks": 0,
+    "figures": 0,
+    "mathLayout": {
+      "checked": 18,
+      "scaled": [],
+      "remainingOverflow": []
+    }
+  },
+  "raw_latex_guard": {
+    "result": "PASS",
+    "hits": [],
+    "commands_scanned": [
+      "frac",
+      "mathcal",
+      "mathrm",
+      "begin",
+      "end",
+      "left",
+      "right",
+      "longrightarrow",
+      "rightarrow",
+      "otimes",
+      "partial",
+      "nabla",
+      "mu",
+      "nu",
+      "sum",
+      "int",
+      "operatorname"
+    ]
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V03-C01": "6d71fe9386881281e0d320856452bd81d85ed2b98c085cc5b15490975cae5d5d"
+  },
+  "source_hashes_after": {
+    "V03-C01": "6d71fe9386881281e0d320856452bd81d85ed2b98c085cc5b15490975cae5d5d"
+  },
+  "sealed_chapter_content_change_count": 0,
+  "visual_qa": {
+    "result": "PASS",
+    "pages_inspected": "ALL_7_PAGES",
+    "full_size_pages_inspected": [
+      7
+    ],
+    "defects": [],
+    "checks": [
+      "title page, contents page, running headers, and folios are consistent",
+      "API address, graph, registry, constraint, query, and persistence sections remain legible",
+      "all eighteen displayed equations render without clipping or overflow",
+      "typed-edge and status distinctions remain visually clear",
+      "the Library 4.1 native evidence register remains legible",
+      "no overlap, truncation, raw LaTeX, or malformed glyphs were observed"
+    ]
+  }
+}

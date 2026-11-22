@@ -1,0 +1,182 @@
+{
+  "handle": "@genlang_root_tal",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@genlang_root_tal",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 4,
+    "api43_direct_in_count": 3,
+    "xapi_raw_out_count": 4,
+    "xapi_raw_in_count": 3,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 1,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@genlang_root_tal",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_phrase_rin_tal_ael",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48121;CANONICAL_API_TYPED_LINE:48121"
+      },
+      {
+        "source": "@genlang_root_tal",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_word_talrin",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48091;CANONICAL_API_TYPED_LINE:48091"
+      },
+      {
+        "source": "@genlang_root_tal",
+        "relation": "LANGUAGE_EXPRESSES",
+        "target": "@stabilization_operator",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48054;CANONICAL_API_TYPED_LINE:48054"
+      },
+      {
+        "source": "@genlang_root_tal",
+        "relation": "GENERATED_BY",
+        "target": "@genlang_family_tal",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@genlang_family_tal GENERATES @genlang_root_tal); rule=GENERATES→GENERATED_BY"
+      },
+      {
+        "source": "@genlang_family_tal",
+        "relation": "FAMILY_GENERATES_ROOT",
+        "target": "@genlang_root_tal",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48067;CANONICAL_API_TYPED_LINE:48067"
+      },
+      {
+        "source": "@genlang_family_tal",
+        "relation": "GENERATES",
+        "target": "@genlang_root_tal",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:48067"
+      },
+      {
+        "source": "@stabilization_operator",
+        "relation": "MATHEMATICS_HAS_LANGUAGE_PROJECTION",
+        "target": "@genlang_root_tal",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48055;CANONICAL_API_TYPED_LINE:48055"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 465,
+        "source": "@genlang_root_tal",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_phrase_rin_tal_ael",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48121;CANONICAL_API_TYPED_LINE:48121"
+      },
+      {
+        "id": 466,
+        "source": "@genlang_root_tal",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_word_talrin",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48091;CANONICAL_API_TYPED_LINE:48091"
+      },
+      {
+        "id": 467,
+        "source": "@genlang_root_tal",
+        "relation": "LANGUAGE_EXPRESSES",
+        "target": "@stabilization_operator",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48054;CANONICAL_API_TYPED_LINE:48054"
+      },
+      {
+        "id": 2181,
+        "source": "@genlang_root_tal",
+        "relation": "GENERATED_BY",
+        "target": "@genlang_family_tal",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@genlang_family_tal GENERATES @genlang_root_tal); rule=GENERATES→GENERATED_BY"
+      },
+      {
+        "id": 396,
+        "source": "@genlang_family_tal",
+        "relation": "FAMILY_GENERATES_ROOT",
+        "target": "@genlang_root_tal",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48067;CANONICAL_API_TYPED_LINE:48067"
+      },
+      {
+        "id": 397,
+        "source": "@genlang_family_tal",
+        "relation": "GENERATES",
+        "target": "@genlang_root_tal",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:48067"
+      },
+      {
+        "id": 1058,
+        "source": "@stabilization_operator",
+        "relation": "MATHEMATICS_HAS_LANGUAGE_PROJECTION",
+        "target": "@genlang_root_tal",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48055;CANONICAL_API_TYPED_LINE:48055"
+      }
+    ]
+  },
+  "address": "@genlang_root_tal",
+  "address_sha256": "a7c3650338d1596f5369a7f80b0ad2583c79d5bb7f87fc5f8c739334f79c5fe2"
+}

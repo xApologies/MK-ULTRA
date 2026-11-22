@@ -1,0 +1,32 @@
+digraph LM001 {
+  rankdir=LR;
+  node [shape=box, style=rounded];
+  "P0" [label="Prime Boundary 0|0"];
+  "ADDR" [label="Boundary Address"];
+  "FABR" [label="Global Chirality Fabric"];
+  "S4" [label="S4 Time-Space"];
+  "S3" [label="S3 Continuity Carrier"];
+  "S2" [label="Localized S2 Address"];
+  "W" [label="S3 Corridor / Cobordism"];
+  "TG" [label="Transduction Geometry"];
+  "ER" [label="ER Foam"];
+  "H" [label="Helicon"];
+  "QFT" [label="QFT Readout"];
+  "G" [label="Graviton/Continuity"];
+  "GR" [label="GR Readout"];
+  "P0" -> "ADDR" [label="generates"];
+  "ADDR" -> "FABR" [label="localizes/glues"];
+  "FABR" -> "S3" [label="geometric realization"];
+  "S3" -> "S2" [label="contains boundaries"];
+  "S2" -> "W" [label="bounds"];
+  "W" -> "S2" [label="targets"];
+  "FABR" -> "TG" [label="typed by"];
+  "FABR" -> "ER" [label="admissibility/adjacency"];
+  "ER" -> "H" [label="supports"];
+  "H" -> "QFT" [label="spectral readout"];
+  "H" -> "G" [label="gravitational mode"];
+  "G" -> "GR" [label="Time-Shell projection"];
+  "W" -> "QFT" [label="rho_Q / U_Q"];
+  "W" -> "GR" [label="rho_G / U_G"];
+  "S3" -> "S4" [label="slice/embedded in"];
+}

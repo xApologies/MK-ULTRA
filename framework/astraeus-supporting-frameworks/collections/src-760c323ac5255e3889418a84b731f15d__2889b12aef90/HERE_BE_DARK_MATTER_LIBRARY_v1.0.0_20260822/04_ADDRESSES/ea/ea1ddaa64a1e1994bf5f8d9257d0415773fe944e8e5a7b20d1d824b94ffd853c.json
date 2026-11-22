@@ -1,0 +1,45 @@
+{
+  "handle": "@dm_local_capacity_envelope",
+  "object_type": "mathematical_object",
+  "status": "ATLAS_DERIVED_ACTIVE",
+  "domain": "DM22",
+  "namespace": "capacity",
+  "name": "Local Constitutive Capacity Envelope",
+  "definition": "Local upper envelope on runtime transition capacity induced by the recovered continuity-flow relation and admissible endpoint-state range.",
+  "math": "U_ij^+=kappa_ij A_ij DeltaC_ij^+; T_run(e_ij)<=U_ij^+.",
+  "source_layer": "DM22",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "DM22",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 0,
+    "live_out_count": 1,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19779,
+        "source": "@dm_local_capacity_envelope",
+        "relation": "BOUNDS",
+        "target": "@dm_runtime_transition_capacity",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      }
+    ]
+  },
+  "address": "@dm_local_capacity_envelope",
+  "address_sha256": "ea1ddaa64a1e1994bf5f8d9257d0415773fe944e8e5a7b20d1d824b94ffd853c"
+}

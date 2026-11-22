@@ -1,0 +1,17 @@
+{
+  "schema": "ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1",
+  "landscape_id": "DL-DM-E081-TRACE-INVARIANT",
+  "seed": "@dm_hidden_response_operator",
+  "status": "INTERNAL_MATH_CLOSED",
+  "nodes": [
+    "@dm_hidden_response_operator",
+    "@dm_port_response_trace_invariant",
+    "@dm_projection_residue_survival"
+  ],
+  "terminal": {
+    "state": "OPEN_SINGLE_SYMMETRY_ACTION_TYPE",
+    "iteration": 3,
+    "focus": "@dm_port_response_trace_invariant",
+    "reason": "The discriminator is now state-level and renaming-invariant; only the projection-symmetry action on this representation remains to be typed."
+  }
+}

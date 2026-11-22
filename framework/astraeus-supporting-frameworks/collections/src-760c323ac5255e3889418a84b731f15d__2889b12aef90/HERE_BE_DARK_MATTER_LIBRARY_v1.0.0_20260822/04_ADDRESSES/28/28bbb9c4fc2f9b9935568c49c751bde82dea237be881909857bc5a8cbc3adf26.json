@@ -1,0 +1,28 @@
+{
+  "handle": "source://anchor/SRC-DM-019",
+  "object_type": "source_anchor",
+  "status": "source",
+  "domain": "SOURCE",
+  "namespace": "mk43://source/anchor",
+  "name": "Exact bead energy-density to Time-Shell metric-scale constitutive relation",
+  "definition": "",
+  "math": "",
+  "source_layer": "ARCHIVE_SOURCE",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "HISTORICAL_PEER_REVIEW_EQUATION",
+  "metadata": {
+    "source_id": "SRC-DM-019",
+    "title": "Exact bead energy-density to Time-Shell metric-scale constitutive relation",
+    "source_path": "peer_review_with_appendices.tex",
+    "line_start": 34,
+    "line_end": 48,
+    "source_class": "HISTORICAL_PEER_REVIEW_EQUATION",
+    "source_sha256": "bc4e7297611a0b950ebee4d06452c50aa82373030078b53645a5ea12b5a14d30",
+    "text": "Each bead $i$ carries log-energy $m_i = \\ln(\\mu_i/\\mu_0)$, metric log-scale \n$\\varphi_i = \\tfrac{1}{2}\\ln(\\det g^{(i)}_{ab})$, time phase $\\theta_i$, and \nadjacency edges $b_{ij}$ defining local geometry.\n\n\\section{Time-Shell Geometry}\nThe time shell is the 2D hypersurface of the present moment. Its induced metric:\n\\[\nh_{ab} = \\partial_a X^\\mu \\partial_b X^\\nu g_{\\mu\\nu},\n\\]\ndetermines spacetime curvature. The constitutive relation linking energy density \nand geometric scale is:\n\\[\n\\varphi + \\alpha m = \\varphi_0.\n\\]\n"
+  },
+  "address": "source://anchor/SRC-DM-019",
+  "address_sha256": "28bbb9c4fc2f9b9935568c49c751bde82dea237be881909857bc5a8cbc3adf26"
+}

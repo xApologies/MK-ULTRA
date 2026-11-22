@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "parent_api_sha256": "563f19343591b422c3dcbe90a7a9ca9315c183e2e674300100a8e1ab2f46896e",
+  "sqlite_integrity": "ok",
+  "crawl_fixed_point_iteration": 8,
+  "seed_handles_present": 14,
+  "seed_handles_expected": 14,
+  "counts_metadata": {
+    "canonical_handles": 1459,
+    "namespace_object_instances": 3316,
+    "strict_source_edge_witnesses": 160057,
+    "canonical_typed_edge_triples": 79624,
+    "derived_self_closure_pairs": 1733204,
+    "equations": 163
+  },
+  "counts_sqlite": {
+    "nodes": 1459,
+    "source_edge_witnesses": 160057,
+    "canonical_edges": 79624,
+    "closure_edges": 1733204,
+    "object_instances": 3316,
+    "equations": 163
+  },
+  "higgs_handles_in_component": [
+    "@canonical_higgs_configuration",
+    "@finite_higgs_mass_coupling",
+    "@higgs_field",
+    "@higgs_helicon_sector",
+    "@higgs_mass_matrix_correspondence",
+    "@higgs_order_excitation",
+    "@higgs_order_graph",
+    "@higgs_physical_boundary_audit",
+    "@higgs_sector_bundle",
+    "@higgs_work_layer_closure",
+    "@native_higgs_order_field",
+    "@native_higgs_order_space",
+    "@native_higgs_order_state",
+    "@native_to_projected_higgs_map",
+    "@projected_higgs_field",
+    "@projected_higgs_vacuum"
+  ],
+  "dark_matter_handles_in_component": [
+    "@dark_matter_as_load_bearing_geometry",
+    "@dark_matter_bridges_and_transport",
+    "@dark_matter_formalization",
+    "@dark_matter_geometry",
+    "@dm_dark_matter_qualification_locus",
+    "@dm_dark_matter_qualification_nonempty",
+    "@er_bridges_and_dark_matter_geometry"
+  ],
+  "time_space_present": true,
+  "consciousness_present": true,
+  "parent_mutation": "none",
+  "note": "Self-closed reachability was used as acceleration/verification; primitive/source strict edges preserve graph structure and provenance."
+}

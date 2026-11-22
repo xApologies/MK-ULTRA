@@ -1,0 +1,23 @@
+{
+  "experiment": "E052",
+  "candidate": "CAND-DM-HISTORY-PERSISTENT-MINCUT-SKELETON-055",
+  "title": "History-Persistent Local Min-Cut Skeleton",
+  "status": "LOCAL A-B BOTTLENECK SKELETON ABSENT AT E0, CREATED AT E1, AND EXACTLY PERSISTENT THROUGH E16; MERGE LEVEL RELAXES TO E*",
+  "physical_dark_matter_witness": false,
+  "parent_promotions": 0,
+  "results": {
+    "fresh_E0_positive_corridor_support": false,
+    "nonfresh_states_tested": 16,
+    "merge_path_identical_E1_E16": true,
+    "merge_cut_identical_E1_E16": true,
+    "unit_mincut_at_own_merge_always_1": true,
+    "unit_mincut_at_0_60_always_2": true,
+    "unit_mincut_at_0_58_always_6": true,
+    "merge_threshold_monotone_to_Estar": true,
+    "E1_merge_threshold": 0.6069518491234811,
+    "E_star_merge_threshold": 0.604379076252503,
+    "local_skeleton_signature_invariant_from_depth": 1
+  },
+  "ruling": "The E051 A-B bottleneck is not a final-state accident. It is absent in the fresh zero-corridor environment, appears after the first endogenous H2 History write, and then retains exactly the same maximin path, one-edge merge cut, and 1->2->6 unit-connectivity hierarchy through E16. History changes the normalized merge level, which monotonically relaxes toward the driven fixed-state value. Thus the local defect has an exact combinatorial skeleton plus a relaxing scalar strength coordinate.",
+  "next_handle": "ENUMERATE_OTHER_DOMINANT_CORRIDOR_LOBE_PAIRS_IN_ESTAR_AND_TEST_WHETHER_HISTORY_CREATED_PERSISTENT_MINCUT_SKELETONS_FORM_A_LOCAL_DEFECT_FAMILY"
+}

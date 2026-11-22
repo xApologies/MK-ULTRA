@@ -1,0 +1,100 @@
+{
+  "name": "Admiral's Rosetta Bridge",
+  "revision": "R018",
+  "canonical_composition": "B_Adm^(N) = R_M o U_ENV^(N) o (A_A1 x ... x A_AN)",
+  "foundation": {
+    "temporal_manifold": "T",
+    "continuation": "C:T->T",
+    "inherited_bundle": "pi_E:E->T",
+    "inheritance": "I:E->E",
+    "chirality_space": "Omega",
+    "chirality_map": "chi:E->Omega",
+    "chirality_transport": "tau:Omega->Omega",
+    "persistent_locus": "Xi={xi|exists n>=1:I^n(xi)~xi}"
+  },
+  "handoff": {
+    "object": [
+      "M",
+      "F",
+      "pi_F",
+      "h",
+      "nabla",
+      "R_nabla",
+      "Gamma",
+      "A",
+      "P",
+      "S"
+    ],
+    "class": "Quantum-Field Input Class"
+  },
+  "prime_observer": {
+    "state": "Psi_n=H(t_n)",
+    "update": "U_PO=R_c o O o iota_T",
+    "conditional_consistency": "U_PO o H = H o C",
+    "recursive_system": "J"
+  },
+  "atomic_map": {
+    "forward": "A_A:Q_A->X_A",
+    "reverse": "R_A:X_A->Q_A/~_A",
+    "carrier_fields": [
+      "source projection",
+      "set lift",
+      "chirality field",
+      "closure channels",
+      "ancestry"
+    ]
+  },
+  "environment": {
+    "configuration": "3+1+1",
+    "intrinsic_domains": [
+      "T0",
+      "T1",
+      "T2",
+      "T3",
+      "T4",
+      "T5",
+      "T6",
+      "T7"
+    ],
+    "relational_domains": [
+      "R0",
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "R7"
+    ],
+    "traversal": "U_ENV^(N)=U_R o (U_T x ... x U_T)",
+    "chirality_access_R": "read-only"
+  },
+  "molecular_relation": {
+    "fields": [
+      "component carriers",
+      "corridor graph",
+      "occupancy",
+      "relation chirality",
+      "ancestry",
+      "persistence"
+    ],
+    "identity_rule": "molecular identity resides in persistent relation topology"
+  },
+  "witnesses": {
+    "hydrogen": "formal anchor",
+    "atomic_generalization": [
+      "H",
+      "O",
+      "Kr"
+    ],
+    "water_6H_5O": "3H2O + O2",
+    "water_6H_6O": "3H2O + O3"
+  },
+  "status": {
+    "formal_bridge": "complete",
+    "mathematical_interface": "complete",
+    "constructive_water_witness": "complete under stated realizations",
+    "experimental_validation": "open",
+    "unique_numerical_operator": "open"
+  }
+}

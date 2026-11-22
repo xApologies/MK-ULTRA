@@ -1,0 +1,42 @@
+{
+  "tests": [
+    {
+      "id": "CT-001",
+      "statement": "Bandwidth equals Occupancy",
+      "result": "REJECT",
+      "errors": [
+        "E_CONFLATION"
+      ]
+    },
+    {
+      "id": "CT-002",
+      "statement": "Coarse readout uniquely reconstructs fine parent without provenance",
+      "result": "REJECT",
+      "errors": [
+        "E_INVENTED_STRUCTURE"
+      ]
+    },
+    {
+      "id": "CT-003",
+      "statement": "Chirality Fabric candidate inserted as canon",
+      "result": "REJECT",
+      "errors": [
+        "E_STATUS"
+      ]
+    },
+    {
+      "id": "CT-004",
+      "statement": "Connection induces characteristic class without bundle structure",
+      "result": "REVIEW_REQUIRED",
+      "errors": [
+        "E_UNRESOLVED"
+      ]
+    },
+    {
+      "id": "CT-005",
+      "statement": "dependency -> connection lift -> transport -> holonomy",
+      "result": "PASS",
+      "errors": []
+    }
+  ]
+}

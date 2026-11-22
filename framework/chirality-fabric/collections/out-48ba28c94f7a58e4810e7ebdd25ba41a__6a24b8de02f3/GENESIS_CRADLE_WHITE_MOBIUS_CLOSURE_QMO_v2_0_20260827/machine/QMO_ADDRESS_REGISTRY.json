@@ -1,0 +1,503 @@
+{
+  "qmo_objects": [
+    {
+      "qmo_address": "@admiral",
+      "canonical_name": "Admiral Readout",
+      "object_type": "observer_object",
+      "status": "INTERPRETIVE_CANON"
+    },
+    {
+      "qmo_address": "@basin_blue",
+      "canonical_name": "Blue Basin Anchor",
+      "object_type": "basin_anchor",
+      "status": "LOCKED"
+    },
+    {
+      "qmo_address": "@basin_green",
+      "canonical_name": "Green Basin Anchor",
+      "object_type": "basin_anchor",
+      "status": "LOCKED"
+    },
+    {
+      "qmo_address": "@basin_orange",
+      "canonical_name": "Orange Basin Anchor",
+      "object_type": "basin_anchor",
+      "status": "LOCKED"
+    },
+    {
+      "qmo_address": "@basin_red",
+      "canonical_name": "Red Basin Anchor",
+      "object_type": "basin_anchor",
+      "status": "LOCKED"
+    },
+    {
+      "qmo_address": "@basin_violet",
+      "canonical_name": "Violet Basin Anchor",
+      "object_type": "basin_anchor",
+      "status": "LOCKED"
+    },
+    {
+      "qmo_address": "@basin_yellow",
+      "canonical_name": "Yellow Basin Anchor",
+      "object_type": "basin_anchor",
+      "status": "LOCKED"
+    },
+    {
+      "qmo_address": "@central_white_fiber",
+      "canonical_name": "Central White Fiber",
+      "object_type": "special_locus",
+      "status": "PROVED_WITHIN_R3_MODEL"
+    },
+    {
+      "qmo_address": "@cradle",
+      "canonical_name": "Cradle",
+      "object_type": "primitive_structure",
+      "status": "LOCKED"
+    },
+    {
+      "qmo_address": "@cradle_reversal",
+      "canonical_name": "Cradle Reversal",
+      "object_type": "involution",
+      "status": "PROVED"
+    },
+    {
+      "qmo_address": "@fold_1",
+      "canonical_name": "First Fold",
+      "object_type": "boundary",
+      "status": "LOCKED"
+    },
+    {
+      "qmo_address": "@fusion_operator",
+      "canonical_name": "Fusion Operator",
+      "object_type": "downstream_operator",
+      "status": "REPOSITIONED_CONDITIONAL"
+    },
+    {
+      "qmo_address": "@genesis_field",
+      "canonical_name": "Genesis Field",
+      "object_type": "domain",
+      "status": "LOCKED"
+    },
+    {
+      "qmo_address": "@midpoint_readout",
+      "canonical_name": "Cradle Midpoint Readout",
+      "object_type": "operation",
+      "status": "CANDIDATE_CLOSED_ON_WHITE"
+    },
+    {
+      "qmo_address": "@mobius_band",
+      "canonical_name": "Rainbow Road Möbius Band",
+      "object_type": "topological_carrier",
+      "status": "DERIVED_EXTENSION"
+    },
+    {
+      "qmo_address": "@mobius_complement",
+      "canonical_name": "Möbius Spectral Complement",
+      "object_type": "involution",
+      "status": "PROVED_WITHIN_R3_MODEL"
+    },
+    {
+      "qmo_address": "@neon_negative",
+      "canonical_name": "Negative Neon Continuation",
+      "object_type": "oriented_interval",
+      "status": "DERIVED"
+    },
+    {
+      "qmo_address": "@neon_positive",
+      "canonical_name": "Positive Neon Continuation",
+      "object_type": "oriented_interval",
+      "status": "DERIVED"
+    },
+    {
+      "qmo_address": "@ordered_cradle",
+      "canonical_name": "Ordered Occupied Cradle",
+      "object_type": "carrier",
+      "status": "DERIVED"
+    },
+    {
+      "qmo_address": "@rainbow_structure",
+      "canonical_name": "Rainbow Structural Object",
+      "object_type": "structural_object",
+      "status": "LOCKED"
+    },
+    {
+      "qmo_address": "@su2_target",
+      "canonical_name": "SU(2) Target Comparison",
+      "object_type": "comparison_target",
+      "status": "NOT_DERIVED"
+    },
+    {
+      "qmo_address": "@tiger_cub",
+      "canonical_name": "Tiger-Cub Mathematical Object",
+      "object_type": "probe_object",
+      "status": "INTERPRETIVE_CANON"
+    },
+    {
+      "qmo_address": "@v4_closure",
+      "canonical_name": "Klein Four Closure",
+      "object_type": "symmetry_group",
+      "status": "PROVED_CLOSURE"
+    },
+    {
+      "qmo_address": "@white_carrier",
+      "canonical_name": "White Superposition Carrier",
+      "object_type": "carrier",
+      "status": "WORKING_CLOSED"
+    }
+  ],
+  "equations": [
+    {
+      "qmo_address": "@eq/fold1",
+      "name": "First fold",
+      "status": "LOCKED"
+    },
+    {
+      "qmo_address": "@eq/cradle",
+      "name": "Cradle",
+      "status": "LOCKED"
+    },
+    {
+      "qmo_address": "@eq/structural_identification",
+      "name": "Structural identification",
+      "status": "WORKING"
+    },
+    {
+      "qmo_address": "@eq/basin_anchors",
+      "name": "Basin anchors",
+      "status": "LOCKED"
+    },
+    {
+      "qmo_address": "@eq/white_carrier",
+      "name": "White carrier",
+      "status": "WORKING_CLOSED"
+    },
+    {
+      "qmo_address": "@eq/midpoint",
+      "name": "Midpoint readout",
+      "status": "CANDIDATE_CLOSED_ON_WHITE"
+    },
+    {
+      "qmo_address": "@eq/reversal",
+      "name": "Cradle reversal",
+      "status": "PROVED"
+    },
+    {
+      "qmo_address": "@eq/mobius",
+      "name": "Möbius complement",
+      "status": "PROVED_WITHIN_R3_MODEL"
+    },
+    {
+      "qmo_address": "@eq/mobius_lift",
+      "name": "Möbius lift",
+      "status": "PROVED_WITHIN_R3_MODEL"
+    },
+    {
+      "qmo_address": "@eq/neon_minus",
+      "name": "Negative neon extent",
+      "status": "DERIVED"
+    },
+    {
+      "qmo_address": "@eq/neon_plus",
+      "name": "Positive neon extent",
+      "status": "DERIVED"
+    },
+    {
+      "qmo_address": "@eq/commutation",
+      "name": "Commutation",
+      "status": "PROVED"
+    },
+    {
+      "qmo_address": "@eq/v4",
+      "name": "Klein four closure",
+      "status": "PROVED_CLOSURE"
+    },
+    {
+      "qmo_address": "@eq/central",
+      "name": "Central fiber",
+      "status": "PROVED_WITHIN_R3_MODEL"
+    },
+    {
+      "qmo_address": "@eq/fusion_bridge",
+      "name": "Fusion backreaction bridge",
+      "status": "OPEN"
+    }
+  ],
+  "theorems": [
+    {
+      "qmo_address": "@thm/periodic_orbit",
+      "name": "Periodic orbit",
+      "status": "PINNED_PROVED"
+    },
+    {
+      "qmo_address": "@thm/reachability_closure",
+      "name": "Cradle reachability closure",
+      "status": "PINNED_PROVED_CONDITIONAL"
+    },
+    {
+      "qmo_address": "@thm/white_midpoint_closure",
+      "name": "White midpoint closure",
+      "status": "PROVED"
+    },
+    {
+      "qmo_address": "@thm/mobius_midpoint_automorphism",
+      "name": "Möbius complement preserves midpoint",
+      "status": "PROVED_WITHIN_R3_MODEL"
+    },
+    {
+      "qmo_address": "@thm/v4_closure",
+      "name": "V4 symmetry closure",
+      "status": "PROVED_CLOSURE"
+    },
+    {
+      "qmo_address": "@thm/central_fiber_reduction",
+      "name": "Central fiber reduction",
+      "status": "PROVED_WITHIN_R3_MODEL"
+    }
+  ],
+  "open_questions": [
+    {
+      "qmo_address": "@open/cradle_recursive_realizability",
+      "priority": 1,
+      "question": "Prove lawful Cradle recurrence/self-inheritance while preserving identity and boundary distinction.",
+      "status": "OPEN"
+    },
+    {
+      "qmo_address": "@open/midpoint_foundation",
+      "priority": 1,
+      "question": "Derive or reject the midpoint law from more primitive Genesis axioms.",
+      "status": "OPEN"
+    },
+    {
+      "qmo_address": "@open/tile_update_semantics",
+      "priority": 1,
+      "question": "Determine whether relational readout labels only the relation or updates endpoint occupancies.",
+      "status": "OPEN"
+    },
+    {
+      "qmo_address": "@open/continuous_generator",
+      "priority": 2,
+      "question": "Derive, if possible, an additional genuinely continuous transformation that enlarges V₄.",
+      "status": "OPEN"
+    },
+    {
+      "qmo_address": "@open/fusion_placement",
+      "priority": 2,
+      "question": "Precisely type Fusion downstream of native Cradle communication and closure.",
+      "status": "OPEN"
+    },
+    {
+      "qmo_address": "@open/neon_parameterization",
+      "priority": 2,
+      "question": "Complete oriented neon state parameterization over Rainbow Road/Möbius carrier.",
+      "status": "OPEN"
+    }
+  ],
+  "chronology": [
+    {
+      "qmo_address": "@chron/001",
+      "sequence_no": 1,
+      "phase": "Cradle recovery",
+      "verdict": "RECOVERED"
+    },
+    {
+      "qmo_address": "@chron/002",
+      "sequence_no": 2,
+      "phase": "TOME recovery",
+      "verdict": "RECOVERED"
+    },
+    {
+      "qmo_address": "@chron/003",
+      "sequence_no": 3,
+      "phase": "Genesis language",
+      "verdict": "MOUNTED"
+    },
+    {
+      "qmo_address": "@chron/004",
+      "sequence_no": 4,
+      "phase": "Hack R1",
+      "verdict": "PARTIAL_FAIL"
+    },
+    {
+      "qmo_address": "@chron/005",
+      "sequence_no": 5,
+      "phase": "Hack R2",
+      "verdict": "PARTIAL_FAIL"
+    },
+    {
+      "qmo_address": "@chron/006",
+      "sequence_no": 6,
+      "phase": "White carrier",
+      "verdict": "ADVANCE"
+    },
+    {
+      "qmo_address": "@chron/007",
+      "sequence_no": 7,
+      "phase": "Möbius/neon",
+      "verdict": "ADVANCE"
+    },
+    {
+      "qmo_address": "@chron/008",
+      "sequence_no": 8,
+      "phase": "Hack R3",
+      "verdict": "CLOSURE"
+    }
+  ],
+  "sources": [
+    {
+      "qmo_address": "@source/001",
+      "filename": "ASTRAEUS_HACK_SU2_FUSION_UPDATE_AUDIT_20260827.md",
+      "role": "Astraeus Hack R1 report",
+      "sha256": "1e3231876bb5f68958b2ec4b622901f6f15da0530f37b22fa1b251b00d71cf66"
+    },
+    {
+      "qmo_address": "@source/002",
+      "filename": "ASTRAEUS_CRADLE_FULL_HACK_R2_20260827.md",
+      "role": "Astraeus Hack R2 report",
+      "sha256": "d2edd2003172402ee148adada33f0530a6947f69f02ef04a021d2bc01e826e1a"
+    },
+    {
+      "qmo_address": "@source/003",
+      "filename": "ASTRAEUS_WHITE_MOBIUS_CRADLE_FULL_HACK_R3_20260827.md",
+      "role": "Astraeus Hack R3 closure report",
+      "sha256": "0e8bb3cc13f228d3d8d9ba069502d70bb67a42db62400db7eb3cdb1b8d37f58d"
+    },
+    {
+      "qmo_address": "@source/004",
+      "filename": "GENESIS_CRADLE_SU2_NOTEBOOK_CHECKPOINT_v1_0_20260827.zip",
+      "role": "Prior notebook checkpoint",
+      "sha256": "81ac5fa122d7448c6326cdf268bd28bada99b471d906c230cfe406d73b41b4df"
+    },
+    {
+      "qmo_address": "@source/005",
+      "filename": "MASTER_2(1).pdf",
+      "role": "Rainbow Thread master canon",
+      "sha256": "beaf68d1fc739b9129b3bce853d8d0aa76824e1d75fd1053534f753372d87275"
+    },
+    {
+      "qmo_address": "@source/006",
+      "filename": "corridor(2).md",
+      "role": "Chirality Corridor earlier working formalization",
+      "sha256": "2e2509cc615de96a972cb9b8cb474b6f4508b921475846887922831bfd95bdb6"
+    },
+    {
+      "qmo_address": "@source/007",
+      "filename": "corridor(3).md",
+      "role": "Chirality Corridor current working formalization",
+      "sha256": "2e2509cc615de96a972cb9b8cb474b6f4508b921475846887922831bfd95bdb6"
+    },
+    {
+      "qmo_address": "@source/008",
+      "filename": "Archive(2).zip",
+      "role": "Cradle screenshot recovery archive",
+      "sha256": "d39601edd06f977b77b2c4460dd7bd6f0f1a09da6631e1d7dcd82191550111c2"
+    },
+    {
+      "qmo_address": "@source/009",
+      "filename": "Archive(3).zip",
+      "role": "TOME Chapter 1 + Chapter 2 Movement 1",
+      "sha256": "54c147b196c62dbae855a30cdc949dc3a312352b95fc113905e5acecd2b7f25c"
+    },
+    {
+      "qmo_address": "@source/010",
+      "filename": "FUSION OPERATOR | CANDIDATE(2).zip",
+      "role": "Fusion Operator candidate corpus",
+      "sha256": "1c58a310bfbc0ad7d362cf86aea1566944396238fdb9b84faf09017c247f9ff0"
+    },
+    {
+      "qmo_address": "@source/011",
+      "filename": "6 | Unified Rainbow Road Overlay(2).zip",
+      "role": "Unified Rainbow Road overlay",
+      "sha256": "750530d37111b5133577aca9dca523d276cc9bbce586ceebb7250ad1b4234bed"
+    },
+    {
+      "qmo_address": "@source/012",
+      "filename": "Rainbow_road(1).zip",
+      "role": "Rainbow Road / Möbius / spectrum corpus",
+      "sha256": "c9dbe0b4ee3bb7643c35d3bad9929165de50ebc14f49bfdc93376223cd155c9b"
+    },
+    {
+      "qmo_address": "@source/013",
+      "filename": "Genesis Field(1).zip",
+      "role": "Genesis Field mathematics",
+      "sha256": "70842b96edf7e9ab742b0ada0ccf66202024ce18ece71dc45e50add1ae937728"
+    },
+    {
+      "qmo_address": "@source/014",
+      "filename": "Bandwidth Algebra(2).zip",
+      "role": "Bandwidth Algebra",
+      "sha256": "2672e910b989db5d03ff419c3024f50c35b9e1ed9eb47ab720811177514f3b53"
+    },
+    {
+      "qmo_address": "@source/015",
+      "filename": "Holonomy and Chirality(3).zip",
+      "role": "Holonomy and Chirality",
+      "sha256": "433e9a4ff681ddf33839530a67551db58d08ad99ea012f76adf00fc2d72d74a6"
+    },
+    {
+      "qmo_address": "@source/016",
+      "filename": "TRANSDUCTION_GEOMETRY_v1.0(2).zip",
+      "role": "Transduction Geometry",
+      "sha256": "7f6b965033e809c6a1683d8e7deaa320da37cb456688138b666608e10e16be77"
+    },
+    {
+      "qmo_address": "@source/017",
+      "filename": "Identity Through History(3).zip",
+      "role": "Identity Through History",
+      "sha256": "45399cae67da80249d999e1aeb6fa1d6cb8c9dd32b0dcf6d8b715d032b6fc2b2"
+    },
+    {
+      "qmo_address": "@source/018",
+      "filename": "Resolution Readout(3).zip",
+      "role": "Resolution & Readout",
+      "sha256": "b39d9d036ff1b856ade54fe48d5964812d174f0f531ea696e9526bb0792e9aab"
+    },
+    {
+      "qmo_address": "@source/019",
+      "filename": "3 | Genesis Sandbox(1).zip",
+      "role": "Genesis Sandbox",
+      "sha256": "f407deca8422b330d4685b44e1b5d8a34d16f8d8b379cdec102aa63b6cd4e226"
+    },
+    {
+      "qmo_address": "@source/020",
+      "filename": "Domains.pdf",
+      "role": "Genesis language domains",
+      "sha256": "6f1dfc8a72f4996b660b43a08353eee4e6562f93692d0bc85764c826a0035bfd"
+    },
+    {
+      "qmo_address": "@source/021",
+      "filename": "Grammar.pdf",
+      "role": "Genesis language grammar",
+      "sha256": "4814e50bbaf5a16c757991c5307d26f47afdc06e8ff6f5de0cfc9637d69d9961"
+    },
+    {
+      "qmo_address": "@source/022",
+      "filename": "Rosetta.pdf",
+      "role": "Genesis language Rosetta",
+      "sha256": "54c24e94a2ac6652fd8a5280f2e6e19c8ad1f532c624f0ec3dfd044a3ac32aa2"
+    },
+    {
+      "qmo_address": "@source/023",
+      "filename": "Root Family.pdf",
+      "role": "Genesis root families",
+      "sha256": "5b8d0d82c9b8f5ef13169820f76b0783f4a6b4a284f43735d78b92909b96680c"
+    },
+    {
+      "qmo_address": "@source/024",
+      "filename": "Rules.pdf",
+      "role": "Genesis language rules",
+      "sha256": "9bb3ca84f0cfacc989d63a852decbf1bc11cb8d10a114ba6187bd5b608df1fb2"
+    },
+    {
+      "qmo_address": "@source/025",
+      "filename": "Structure.pdf",
+      "role": "Genesis language structure",
+      "sha256": "744d6b14045f345721b7a1eb29322f8f527604909905bed4ce04b595caee4b0b"
+    },
+    {
+      "qmo_address": "@source/026",
+      "filename": "Phonology.pdf",
+      "role": "Genesis language phonology",
+      "sha256": "dca0205f0bbcf1fffc41b0f8723f6d7e79a64ddb03c6911125d16996d0047b10"
+    }
+  ]
+}

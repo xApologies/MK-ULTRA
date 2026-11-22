@@ -1,0 +1,54 @@
+{
+  "schema": "ASTRAEUS_RECOVERY_ANOMALY_LEDGER_R3",
+  "date": "2026-08-18",
+  "anomalies": [
+    {
+      "id": "R3-CONT-001",
+      "severity": "LOW_RECOVERY_INDEX_GAP",
+      "scope": "baseline changelog index only",
+      "finding": "WL-022 is absent as a CHANGELOG heading even though its journal entry and Atlas v146 artifact are present.",
+      "evidence": {
+        "changelog_heading_present": false,
+        "journal_entry_exists": true,
+        "atlas_v146_exists": true
+      },
+      "ruling": "Do not edit the authoritative baseline. Restore WL-022 in the R3 recovery chapter index and preserve the original CHANGELOG unchanged.",
+      "frontier_impact": "NONE"
+    },
+    {
+      "id": "R3-CONT-002",
+      "severity": "LOW_LEGACY_NUMBER_COLLISION",
+      "scope": "baseline protocol registry",
+      "finding": "Two distinct historical protocol files both carry AST-DM-WL-P016.",
+      "evidence": [
+        "API_NEXT_HANDLE_WALK.md",
+        "INITIAL_DATA_ROTATIONAL_HANDLE_CRAWL.md"
+      ],
+      "ruling": "Preserve both source files. In recovery references, disambiguate P016 by filename/title. Do not silently renumber historical artifacts.",
+      "frontier_impact": "NONE; active protocol is P029"
+    },
+    {
+      "id": "R3-CONT-003",
+      "severity": "LOW_STALE_METADATA_FIELD",
+      "scope": "checkpoint metadata field precedence",
+      "finding": "CHECKPOINT_METADATA.current_primary_test describes the earlier History->InfinityClass source search, while the same checkpoint and later decisive surfaces set current_next_handle to GLOBAL_RANK_FRESH_NON_LOOPING.",
+      "evidence": {
+        "current_primary_test": "Source search for History -> I_k or explicitly equivalent collapse/creation input; no C_k(H) invention.",
+        "current_next_handle": "GLOBAL_RANK_FRESH_NON_LOOPING",
+        "qmo117_next": "GLOBAL_RANK_FRESH_NON_LOOPING",
+        "watcher_next": "GLOBAL_RANK_FRESH_NON_LOOPING"
+      },
+      "ruling": "Treat current_primary_test as preserved branch-history text, not the resume pointer. Resume pointer precedence is current_next_handle/QMO117/Atlas233/P029.",
+      "frontier_impact": "NONE"
+    },
+    {
+      "id": "R3-CONT-004",
+      "severity": "WRAPPER_LABEL_ONLY",
+      "scope": "R2 wrapper mount registry schema label",
+      "finding": "The R2 wrapper retained schema label ASTRAEUS_SOURCE_MOUNT_REGISTRY_R1 despite R2 recovery thickening.",
+      "evidence": "LIVE/MOUNT_REGISTRY.json in R2",
+      "ruling": "R3 regenerates the wrapper registry label and audit fields without changing source archives or baseline.",
+      "frontier_impact": "NONE"
+    }
+  ]
+}

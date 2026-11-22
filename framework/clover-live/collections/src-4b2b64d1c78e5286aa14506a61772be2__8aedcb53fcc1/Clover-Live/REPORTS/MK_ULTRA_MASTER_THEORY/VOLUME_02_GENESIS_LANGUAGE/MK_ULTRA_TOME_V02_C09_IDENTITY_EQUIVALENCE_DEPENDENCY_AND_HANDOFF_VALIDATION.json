@@ -1,0 +1,112 @@
+{
+  "schema": "tome-publication-renderer-validation/v1",
+  "created_at": "2026-08-10T03:51:08.572370+00:00",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "engine": "KaTeX 0.16.22 -> HTML/CSS -> Playwright -> Microsoft Edge PDF",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_02_GENESIS_LANGUAGE/MK_ULTRA_TOME_V02_C09_IDENTITY_EQUIVALENCE_DEPENDENCY_AND_HANDOFF.pdf",
+    "bytes": 179689,
+    "sha256": "c0c4a72f93c3e20f1a6399d9e493897d002b97ef1ad206e2c02582ffab9806c5"
+  },
+  "actual_pages": 8,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V02-C09": 3
+  },
+  "chapter_validations": [
+    {
+      "chapter_id": "V02-C09",
+      "source_sha256": "50d80b284ec8e7faec421ead92425914410a982736f60ee2b63e6595f6183734",
+      "page_start": 3,
+      "headings": 20,
+      "display_equations": 18,
+      "inline_equations": 19,
+      "equation_tags": 18,
+      "api_handles": 25,
+      "table_rows": 26,
+      "content_markers_present": true
+    }
+  ],
+  "engine_metrics": {
+    "renderer": "TOME_PUBLICATION_RENDERER_V1",
+    "katexVersion": "0.16.22",
+    "chapters": [
+      {
+        "id": "V02-C09",
+        "sourceBytes": 16570,
+        "paragraphs": 69,
+        "headings": 20,
+        "displayEquations": 18,
+        "inlineEquations": 19,
+        "tables": 1,
+        "tableRows": 25,
+        "listItems": 0,
+        "codeBlocks": 0,
+        "figures": 0
+      }
+    ],
+    "paragraphs": 69,
+    "headings": 20,
+    "displayEquations": 18,
+    "inlineEquations": 19,
+    "tables": 1,
+    "tableRows": 25,
+    "listItems": 0,
+    "blockQuotes": 0,
+    "codeBlocks": 0,
+    "figures": 0,
+    "mathLayout": {
+      "checked": 18,
+      "scaled": [],
+      "remainingOverflow": []
+    }
+  },
+  "raw_latex_guard": {
+    "result": "PASS",
+    "hits": [],
+    "commands_scanned": [
+      "frac",
+      "mathcal",
+      "mathrm",
+      "begin",
+      "end",
+      "left",
+      "right",
+      "longrightarrow",
+      "rightarrow",
+      "otimes",
+      "partial",
+      "nabla",
+      "mu",
+      "nu",
+      "sum",
+      "int",
+      "operatorname"
+    ]
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V02-C09": "50d80b284ec8e7faec421ead92425914410a982736f60ee2b63e6595f6183734"
+  },
+  "source_hashes_after": {
+    "V02-C09": "50d80b284ec8e7faec421ead92425914410a982736f60ee2b63e6595f6183734"
+  },
+  "sealed_chapter_content_change_count": 0,
+  "visual_qa": {
+    "result": "PASS",
+    "pages_inspected": "ALL_8_PAGES",
+    "full_size_pages_inspected": [
+      7,
+      8
+    ],
+    "defects": [],
+    "checks": [
+      "headers and continuous page numbers",
+      "chapter and section hierarchy",
+      "all displayed and inline mathematics",
+      "prose line wrapping and margins",
+      "25-row native evidence register",
+      "no clipping, overlap, exposed LaTeX, black squares, or unreadable glyphs"
+    ]
+  }
+}

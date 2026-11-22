@@ -1,0 +1,1695 @@
+[
+  {
+    "handle": "@geometric",
+    "object_type": "mathematical_object",
+    "base_status": "active",
+    "domains": [
+      "API43",
+      "TIME_SPACE_4_3"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "Geometric"
+      }
+    ],
+    "definitions": [],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@geometric",
+          "name": "Geometric",
+          "origin": "TIMESPACE_4.3",
+          "criticality": "context",
+          "uri": null,
+          "parent_status": null,
+          "parent_upstream": null,
+          "parent_downstream": null,
+          "source_occurrences": null,
+          "registry_line": null,
+          "occurrence_lines": []
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@admissible_continuation",
+    "object_type": "mathematical_object",
+    "base_status": "active",
+    "domains": [
+      "API43",
+      "TIME_SPACE_4_3"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "Admissible Continuation"
+      }
+    ],
+    "definitions": [],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@admissible_continuation",
+          "name": "Admissible Continuation",
+          "origin": "TIMESPACE_4.3",
+          "criticality": "critical",
+          "uri": null,
+          "parent_status": null,
+          "parent_upstream": "none",
+          "parent_downstream": "@inherited_state_bundle",
+          "source_occurrences": null,
+          "registry_line": 45159,
+          "occurrence_lines": [
+            16410,
+            28508,
+            45043,
+            45159,
+            45519,
+            47472,
+            56037,
+            56077,
+            56135,
+            56237,
+            56544,
+            56566,
+            56607,
+            56791,
+            57159,
+            57169,
+            57210,
+            57211,
+            57217,
+            57218
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@inherited_state_bundle",
+    "object_type": "mathematical_object",
+    "base_status": "active",
+    "domains": [
+      "API43",
+      "TIME_SPACE_4_3"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "Inherited State Bundle"
+      }
+    ],
+    "definitions": [],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@inherited_state_bundle",
+          "name": "Inherited State Bundle",
+          "origin": "TIMESPACE_4.3",
+          "criticality": "critical",
+          "uri": null,
+          "parent_status": null,
+          "parent_upstream": "@admissible_continuation, @continuation_operator",
+          "parent_downstream": "@inheritance_morphism",
+          "source_occurrences": null,
+          "registry_line": 45516,
+          "occurrence_lines": [
+            7597,
+            16394,
+            16411,
+            27477,
+            37768,
+            45043,
+            45069,
+            45098,
+            45163,
+            45373,
+            45512,
+            45516,
+            47495,
+            56997,
+            57159,
+            57169,
+            57219,
+            57220,
+            57221,
+            57222
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@inheritance_morphism",
+    "object_type": "mathematical_object",
+    "base_status": "active",
+    "domains": [
+      "API43",
+      "TIME_SPACE_4_3"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "Inheritance Morphism"
+      }
+    ],
+    "definitions": [],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@inheritance_morphism",
+          "name": "Inheritance Morphism",
+          "origin": "TIMESPACE_4.3",
+          "criticality": "critical",
+          "uri": null,
+          "parent_status": null,
+          "parent_upstream": "@inherited_state_bundle",
+          "parent_downstream": "@recursive_inheritance",
+          "source_occurrences": null,
+          "registry_line": 45509,
+          "occurrence_lines": [
+            7596,
+            16395,
+            27478,
+            37758,
+            45097,
+            45098,
+            45509,
+            45520,
+            45764,
+            47494,
+            56996,
+            57159,
+            57169,
+            57872,
+            57873,
+            57874,
+            57875,
+            57876,
+            57877,
+            57878
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@recursive_inheritance",
+    "object_type": "mathematical_object",
+    "base_status": "active",
+    "domains": [
+      "API43",
+      "TIME_SPACE_4_3"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "Recursive Inheritance"
+      }
+    ],
+    "definitions": [],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@recursive_inheritance",
+          "name": "Recursive Inheritance",
+          "origin": "TIMESPACE_4.3",
+          "criticality": "context",
+          "uri": null,
+          "parent_status": null,
+          "parent_upstream": "@chirality_transport, @cognitive_state_geometry, @genesis_field, @inheritance_morphism",
+          "parent_downstream": "@genesis_field",
+          "source_occurrences": null,
+          "registry_line": 45761,
+          "occurrence_lines": []
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@resolution",
+    "object_type": "mathematical_object",
+    "base_status": "active",
+    "domains": [
+      "API43",
+      "HIGGS_WORK_LAYER_V1_1",
+      "TIME_SPACE_4_3"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "Resolution"
+      },
+      {
+        "source": "HIGGS_V1_1",
+        "name": "Resolution"
+      }
+    ],
+    "definitions": [
+      {
+        "source": "HIGGS_V1_1",
+        "definition": "Distinguishable organization at a recursive depth."
+      }
+    ],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@resolution",
+          "name": "Resolution",
+          "origin": "TIMESPACE_4.3",
+          "criticality": "critical",
+          "uri": null,
+          "parent_status": null,
+          "parent_upstream": "@genesis_field",
+          "parent_downstream": "@bandwidth",
+          "source_occurrences": null,
+          "registry_line": 45775,
+          "occurrence_lines": [
+            7771,
+            26666,
+            27002,
+            27003,
+            27482,
+            30753,
+            36534,
+            41848,
+            44942,
+            44966,
+            45078,
+            45130,
+            45225,
+            45450,
+            45775,
+            47510,
+            50921,
+            50926,
+            50977,
+            50980
+          ]
+        }
+      },
+      {
+        "source": "HIGGS_OBJECT_REGISTRY",
+        "record": {
+          "model_handle": "@higgs_qmo",
+          "canonical_handle": "@resolution",
+          "canonical_name": "Resolution",
+          "aliases": [],
+          "status": "SOURCE_MODEL",
+          "type": "Functional",
+          "definition": "Distinguishable organization at a recursive depth.",
+          "symbols": [],
+          "equations": [],
+          "provenance": [
+            "S-GENESIS"
+          ],
+          "notes": []
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@bandwidth",
+    "object_type": "mathematical_object",
+    "base_status": "active",
+    "domains": [
+      "API43",
+      "HIGGS_WORK_LAYER_V1_1",
+      "TIME_SPACE_4_3"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "Bandwidth"
+      },
+      {
+        "source": "HIGGS_V1_1",
+        "name": "Bandwidth"
+      }
+    ],
+    "definitions": [
+      {
+        "source": "HIGGS_V1_1",
+        "definition": "Available organizational freedom / remaining capacity for distinguishable organization."
+      }
+    ],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@bandwidth",
+          "name": "Bandwidth",
+          "origin": "TIMESPACE_4.3",
+          "criticality": "critical",
+          "uri": null,
+          "parent_status": null,
+          "parent_upstream": "@resolution",
+          "parent_downstream": "@inheritance, @persistence",
+          "source_occurrences": null,
+          "registry_line": 45222,
+          "occurrence_lines": [
+            7758,
+            26730,
+            27004,
+            27005,
+            27483,
+            30748,
+            40083,
+            41854,
+            44930,
+            44965,
+            45049,
+            45050,
+            45130,
+            45222,
+            45505,
+            45624,
+            45779,
+            47476,
+            50922,
+            50932
+          ]
+        }
+      },
+      {
+        "source": "HIGGS_OBJECT_REGISTRY",
+        "record": {
+          "model_handle": "@higgs_qmo",
+          "canonical_handle": "@bandwidth",
+          "canonical_name": "Bandwidth",
+          "aliases": [],
+          "status": "SOURCE_MODEL",
+          "type": "Functional",
+          "definition": "Available organizational freedom / remaining capacity for distinguishable organization.",
+          "symbols": [],
+          "equations": [],
+          "provenance": [
+            "S-GENESIS"
+          ],
+          "notes": []
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@persistence",
+    "object_type": "mathematical_object",
+    "base_status": "active",
+    "domains": [
+      "API43",
+      "HIGGS_WORK_LAYER_V1_1",
+      "TIME_SPACE_4_3"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "Persistence"
+      },
+      {
+        "source": "HIGGS_V1_1",
+        "name": "Persistence Functional"
+      }
+    ],
+    "definitions": [
+      {
+        "source": "HIGGS_V1_1",
+        "definition": "Canonical quantity evaluated on admissible identity classes; vacuum normalized to zero in the Mass construction."
+      }
+    ],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@persistence",
+          "name": "Persistence",
+          "origin": "TIMESPACE_4.3",
+          "criticality": "critical",
+          "uri": null,
+          "parent_status": null,
+          "parent_upstream": "@bandwidth",
+          "parent_downstream": "@chirality",
+          "source_occurrences": null,
+          "registry_line": 45621,
+          "occurrence_lines": [
+            7768,
+            16413,
+            16427,
+            26845,
+            27010,
+            27011,
+            27198,
+            27486,
+            30754,
+            32423,
+            40078,
+            40088,
+            40098,
+            44940,
+            44964,
+            45050,
+            45105,
+            45110,
+            45111,
+            45226
+          ]
+        }
+      },
+      {
+        "source": "HIGGS_OBJECT_REGISTRY",
+        "record": {
+          "model_handle": "@higgs_qmo",
+          "canonical_handle": "@persistence",
+          "canonical_name": "Persistence Functional",
+          "aliases": [],
+          "status": "SOURCE_CLOSED",
+          "type": "Functional",
+          "definition": "Canonical quantity evaluated on admissible identity classes; vacuum normalized to zero in the Mass construction.",
+          "symbols": [
+            "Pers"
+          ],
+          "equations": [],
+          "provenance": [
+            "S-MASS3"
+          ],
+          "notes": []
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@chirality",
+    "object_type": "mathematical_object",
+    "base_status": "active",
+    "domains": [
+      "API43",
+      "HIGGS_WORK_LAYER_V1_1",
+      "TIME_SPACE_4_3"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "Chirality"
+      },
+      {
+        "source": "HIGGS_V1_1",
+        "name": "Chirality"
+      }
+    ],
+    "definitions": [
+      {
+        "source": "HIGGS_V1_1",
+        "definition": "Organizational handedness/admissibility structure carried through the inherited substrate and read by the Higgs-local order state through its chirality-gradient component."
+      }
+    ],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@chirality",
+          "name": "Chirality",
+          "origin": "TIMESPACE_4.3",
+          "criticality": "critical",
+          "uri": null,
+          "parent_status": null,
+          "parent_upstream": "@persistence",
+          "parent_downstream": "@er_foam",
+          "source_occurrences": null,
+          "registry_line": 45264,
+          "occurrence_lines": [
+            6898,
+            6977,
+            6991,
+            7291,
+            7787,
+            7788,
+            7789,
+            7790,
+            7791,
+            8393,
+            14847,
+            15143,
+            15322,
+            16396,
+            16397,
+            16398,
+            16412,
+            16426,
+            27015,
+            27173
+          ]
+        }
+      },
+      {
+        "source": "HIGGS_OBJECT_REGISTRY",
+        "record": {
+          "model_handle": "@higgs_qmo",
+          "canonical_handle": "@chirality",
+          "canonical_name": "Chirality",
+          "aliases": [],
+          "status": "SOURCE_INHERITED",
+          "type": "State",
+          "definition": "Organizational handedness/admissibility structure carried through the inherited substrate and read by the Higgs-local order state through its chirality-gradient component.",
+          "symbols": [],
+          "equations": [],
+          "provenance": [
+            "S-PIPELINE1",
+            "S-CORRIDOR"
+          ],
+          "notes": []
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@chirality_transport",
+    "object_type": "mathematical_object",
+    "base_status": "active",
+    "domains": [
+      "API43",
+      "TIME_SPACE_4_3"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "Chirality Transport"
+      }
+    ],
+    "definitions": [],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@chirality_transport",
+          "name": "Chirality Transport",
+          "origin": "TIMESPACE_4.3",
+          "criticality": "critical",
+          "uri": null,
+          "parent_status": null,
+          "parent_upstream": "@chirality_map",
+          "parent_downstream": "@persistent_locus, @recursive_inheritance",
+          "source_occurrences": null,
+          "registry_line": 45292,
+          "occurrence_lines": [
+            7790,
+            16398,
+            16426,
+            27490,
+            32478,
+            45057,
+            45059,
+            45060,
+            45282,
+            45292,
+            45652,
+            45764,
+            47481,
+            56832,
+            57344,
+            57345,
+            57346,
+            57347,
+            57348,
+            57349
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@persistent_locus",
+    "object_type": "mathematical_object",
+    "base_status": "active",
+    "domains": [
+      "API43",
+      "TIME_SPACE_4_3"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "Persistent Locus"
+      }
+    ],
+    "definitions": [],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@persistent_locus",
+          "name": "Persistent Locus",
+          "origin": "TIMESPACE_4.3",
+          "criticality": "critical",
+          "uri": null,
+          "parent_status": null,
+          "parent_upstream": "@chirality_transport, @coherent_continuation_class",
+          "parent_downstream": "@persistent_boundary",
+          "source_occurrences": null,
+          "registry_line": 45649,
+          "occurrence_lines": [
+            7915,
+            16399,
+            27495,
+            40128,
+            45059,
+            45064,
+            45114,
+            45296,
+            45331,
+            45638,
+            45649,
+            47503,
+            48326,
+            57056,
+            57360,
+            57361,
+            57362,
+            57363,
+            57364,
+            57365
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@persistent_boundary",
+    "object_type": "mathematical_object",
+    "base_status": "active",
+    "domains": [
+      "API43",
+      "HIGGS_WORK_LAYER_V1_1",
+      "TIME_SPACE_4_3"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "Persistent Boundary"
+      },
+      {
+        "source": "HIGGS_V1_1",
+        "name": "Persistent Boundary"
+      }
+    ],
+    "definitions": [
+      {
+        "source": "HIGGS_V1_1",
+        "definition": "Boundary of the Persistent Locus; canonical interface between persistent organization and surrounding inherited environment."
+      }
+    ],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@persistent_boundary",
+          "name": "Persistent Boundary",
+          "origin": "TIMESPACE_4.3",
+          "criticality": "critical",
+          "uri": null,
+          "parent_status": null,
+          "parent_upstream": "@persistent_locus",
+          "parent_downstream": "@projection_admissibility",
+          "source_occurrences": null,
+          "registry_line": 45635,
+          "occurrence_lines": [
+            7914,
+            16400,
+            27496,
+            40108,
+            45112,
+            45114,
+            45635,
+            45653,
+            45722,
+            47502,
+            47673,
+            47825,
+            48024,
+            48025,
+            48177,
+            57054,
+            57666,
+            58059,
+            58060,
+            58061
+          ]
+        }
+      },
+      {
+        "source": "HIGGS_OBJECT_REGISTRY",
+        "record": {
+          "model_handle": "@higgs_qmo",
+          "canonical_handle": "@persistent_boundary",
+          "canonical_name": "Persistent Boundary",
+          "aliases": [],
+          "status": "SOURCE_CLOSED",
+          "type": "StateSpace",
+          "definition": "Boundary of the Persistent Locus; canonical interface between persistent organization and surrounding inherited environment.",
+          "symbols": [],
+          "equations": [],
+          "provenance": [
+            "S-CORRIDOR"
+          ],
+          "notes": []
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@boundary_projection",
+    "object_type": "mathematical_object",
+    "base_status": "indexed-unlinked",
+    "domains": [
+      "API43",
+      "HIGGS_WORK_LAYER_V1_1",
+      "TIME_SPACE_4_3"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "Boundary Projection"
+      },
+      {
+        "source": "HIGGS_V1_1",
+        "name": "Boundary Projection"
+      }
+    ],
+    "definitions": [
+      {
+        "source": "HIGGS_V1_1",
+        "definition": "Pi : dXi -> M, mapping persistent-boundary organization onto the Projective Target Manifold while invariant residue is retained."
+      }
+    ],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@boundary_projection",
+          "name": "Boundary Projection",
+          "origin": "TIMESPACE_4.3",
+          "criticality": "critical",
+          "uri": "mk43://recover/kernel/lemma/boundary-projection",
+          "parent_status": "indexed-unlinked",
+          "parent_upstream": "none",
+          "parent_downstream": "none",
+          "source_occurrences": "86",
+          "registry_line": 31058,
+          "occurrence_lines": [
+            16401,
+            16415,
+            16428,
+            31058,
+            46161
+          ]
+        }
+      },
+      {
+        "source": "HIGGS_OBJECT_REGISTRY",
+        "record": {
+          "model_handle": "@higgs_qmo",
+          "canonical_handle": "@boundary_projection",
+          "canonical_name": "Boundary Projection",
+          "aliases": [],
+          "status": "SOURCE_CLOSED",
+          "type": "Map",
+          "definition": "Pi : dXi -> M, mapping persistent-boundary organization onto the Projective Target Manifold while invariant residue is retained.",
+          "symbols": [
+            "Pi"
+          ],
+          "equations": [],
+          "provenance": [
+            "S-CORRIDOR",
+            "S-TS-DEF"
+          ],
+          "notes": []
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@residue_quantum_field_bundle",
+    "object_type": "mathematical_object",
+    "base_status": "indexed-unlinked",
+    "domains": [
+      "API43",
+      "HIGGS_WORK_LAYER_V1_1",
+      "TIME_SPACE_4_3"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "Residue / Quantum Field Bundle"
+      },
+      {
+        "source": "HIGGS_V1_1",
+        "name": "Residue / Quantum Field Bundle"
+      }
+    ],
+    "definitions": [
+      {
+        "source": "HIGGS_V1_1",
+        "definition": "The smooth complex bundle F -> M assembled from invariant projection residue and used as the QFT-compatible field substrate."
+      }
+    ],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@residue_quantum_field_bundle",
+          "name": "Residue / Quantum Field Bundle",
+          "origin": "TIMESPACE_4.3",
+          "criticality": "critical",
+          "uri": "mk43://recover/kernel/primitive/residue-quantum-field-bundle",
+          "parent_status": "indexed-unlinked",
+          "parent_upstream": "none",
+          "parent_downstream": "none",
+          "source_occurrences": "113",
+          "registry_line": 41838,
+          "occurrence_lines": [
+            16403,
+            41838,
+            47166
+          ]
+        }
+      },
+      {
+        "source": "HIGGS_OBJECT_REGISTRY",
+        "record": {
+          "model_handle": "@higgs_qmo",
+          "canonical_handle": "@residue_quantum_field_bundle",
+          "canonical_name": "Residue / Quantum Field Bundle",
+          "aliases": [],
+          "status": "SOURCE_CLOSED",
+          "type": "Bundle",
+          "definition": "The smooth complex bundle F -> M assembled from invariant projection residue and used as the QFT-compatible field substrate.",
+          "symbols": [
+            "F",
+            "pi_F"
+          ],
+          "equations": [],
+          "provenance": [
+            "S-TS-DEF",
+            "S-TS-THM"
+          ],
+          "notes": []
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@time_shell",
+    "object_type": "mathematical_object",
+    "base_status": "active",
+    "domains": [
+      "API43",
+      "HIGGS_WORK_LAYER_V1_1",
+      "TIME_SPACE_4_3"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "Time Shell"
+      },
+      {
+        "source": "HIGGS_V1_1",
+        "name": "Time Shell"
+      }
+    ],
+    "definitions": [
+      {
+        "source": "HIGGS_V1_1",
+        "definition": "Dynamic persistent-boundary / projection interface through which boundary organization becomes readable. In the Environment chronology, sustained temporal continuity begins downstream of the pre-Time-Shell regime."
+      }
+    ],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@time_shell",
+          "name": "Time Shell",
+          "origin": "TIMESPACE_4.3",
+          "criticality": "critical",
+          "uri": null,
+          "parent_status": null,
+          "parent_upstream": "@er_foam, @graviton",
+          "parent_downstream": "@geometry, @gravity",
+          "source_occurrences": null,
+          "registry_line": 45831,
+          "occurrence_lines": [
+            6901,
+            7046,
+            7060,
+            7302,
+            7926,
+            7927,
+            9147,
+            9148,
+            9149,
+            9150,
+            9151,
+            14811,
+            15140,
+            15206,
+            15320,
+            15837,
+            26964,
+            27019,
+            27528,
+            36844
+          ]
+        }
+      },
+      {
+        "source": "HIGGS_OBJECT_REGISTRY",
+        "record": {
+          "model_handle": "@higgs_qmo",
+          "canonical_handle": "@time_shell",
+          "canonical_name": "Time Shell",
+          "aliases": [],
+          "status": "SOURCE_CLOSED",
+          "type": "StateSpace",
+          "definition": "Dynamic persistent-boundary / projection interface through which boundary organization becomes readable. In the Environment chronology, sustained temporal continuity begins downstream of the pre-Time-Shell regime.",
+          "symbols": [],
+          "equations": [],
+          "provenance": [
+            "S-CORRIDOR",
+            "S-ENV"
+          ],
+          "notes": []
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@er_foam",
+    "object_type": "mathematical_object",
+    "base_status": "active",
+    "domains": [
+      "API43",
+      "HIGGS_WORK_LAYER_V1_1",
+      "TIME_SPACE_4_3"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "ER Foam"
+      },
+      {
+        "source": "HIGGS_V1_1",
+        "name": "ER Foam"
+      }
+    ],
+    "definitions": [
+      {
+        "source": "HIGGS_V1_1",
+        "definition": "Inherited chirality-continuity substrate used by the Environment."
+      }
+    ],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@er_foam",
+          "name": "ER Foam",
+          "origin": "TIMESPACE_4.3",
+          "criticality": "critical",
+          "uri": null,
+          "parent_status": null,
+          "parent_upstream": "@adjacency_lattice, @chirality, @mote, @projection_admissibility",
+          "parent_downstream": "@helicon, @stable_er_foam_knot, @time_shell",
+          "source_occurrences": null,
+          "registry_line": 45418,
+          "occurrence_lines": [
+            6899,
+            7001,
+            7015,
+            7907,
+            7910,
+            8613,
+            8614,
+            8625,
+            14823,
+            14883,
+            15141,
+            15146,
+            15217,
+            15321,
+            15840,
+            27504,
+            32424,
+            35768,
+            35778,
+            35788
+          ]
+        }
+      },
+      {
+        "source": "HIGGS_OBJECT_REGISTRY",
+        "record": {
+          "model_handle": "@higgs_qmo",
+          "canonical_handle": "@er_foam",
+          "canonical_name": "ER Foam",
+          "aliases": [],
+          "status": "SOURCE_INHERITED",
+          "type": "StateSpace",
+          "definition": "Inherited chirality-continuity substrate used by the Environment.",
+          "symbols": [],
+          "equations": [],
+          "provenance": [
+            "S-ENV",
+            "S-PIPELINE1"
+          ],
+          "notes": []
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@helicon",
+    "object_type": "mathematical_object",
+    "base_status": "active",
+    "domains": [
+      "API43",
+      "HIGGS_WORK_LAYER_V1_1",
+      "TIME_SPACE_4_3"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "Helicon"
+      },
+      {
+        "source": "HIGGS_V1_1",
+        "name": "Helicon"
+      }
+    ],
+    "definitions": [
+      {
+        "source": "HIGGS_V1_1",
+        "definition": "A coherent admissible restructuring mode of the chirality/ER substrate. It is propagation/restructuring dominant, unlike the localized persistence-lock knot branch."
+      }
+    ],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@helicon",
+          "name": "Helicon",
+          "origin": "TIMESPACE_4.3",
+          "criticality": "critical",
+          "uri": null,
+          "parent_status": null,
+          "parent_upstream": "@agency, @curvature_binding_condition, @er_foam",
+          "parent_downstream": "@coherent_helicon_propagation, @gravitational_helicon_mode, @graviton, @wake_stabilization_equation",
+          "source_occurrences": null,
+          "registry_line": 45488,
+          "occurrence_lines": [
+            6902,
+            7070,
+            7082,
+            7858,
+            7859,
+            7860,
+            7861,
+            7862,
+            7863,
+            7864,
+            8690,
+            8691,
+            8692,
+            8693,
+            8694,
+            8695,
+            8696,
+            8697,
+            8698,
+            8699
+          ]
+        }
+      },
+      {
+        "source": "HIGGS_OBJECT_REGISTRY",
+        "record": {
+          "model_handle": "@higgs_qmo",
+          "canonical_handle": "@helicon",
+          "canonical_name": "Helicon",
+          "aliases": [],
+          "status": "SOURCE_REFERENCE",
+          "type": "ModeFamily",
+          "definition": "A coherent admissible restructuring mode of the chirality/ER substrate. It is propagation/restructuring dominant, unlike the localized persistence-lock knot branch.",
+          "symbols": [],
+          "equations": [],
+          "provenance": [
+            "S-HELICON"
+          ],
+          "notes": []
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@helicon_spectral_operator",
+    "object_type": "mathematical_object",
+    "base_status": "active",
+    "domains": [
+      "API43",
+      "HIGGS_WORK_LAYER_V1_1",
+      "TIME_SPACE_4_3"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "Helicon Spectral Operator"
+      },
+      {
+        "source": "HIGGS_V1_1",
+        "name": "Helicon Spectral Operator"
+      }
+    ],
+    "definitions": [
+      {
+        "source": "HIGGS_V1_1",
+        "definition": "L_H selects allowed coherent Helicon modes through L_H(H_alpha)=lambda_alpha H_alpha."
+      }
+    ],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@helicon_spectral_operator",
+          "name": "Helicon Spectral Operator",
+          "origin": "TIMESPACE_4.3",
+          "criticality": "context",
+          "uri": null,
+          "parent_status": null,
+          "parent_upstream": null,
+          "parent_downstream": null,
+          "source_occurrences": null,
+          "registry_line": null,
+          "occurrence_lines": []
+        }
+      },
+      {
+        "source": "HIGGS_OBJECT_REGISTRY",
+        "record": {
+          "model_handle": "@higgs_qmo",
+          "canonical_handle": "@helicon_spectral_operator",
+          "canonical_name": "Helicon Spectral Operator",
+          "aliases": [],
+          "status": "SOURCE_REFERENCE",
+          "type": "Operator",
+          "definition": "L_H selects allowed coherent Helicon modes through L_H(H_alpha)=lambda_alpha H_alpha.",
+          "symbols": [
+            "L_H",
+            "H_alpha",
+            "lambda_alpha"
+          ],
+          "equations": [
+            "EQ-H007"
+          ],
+          "provenance": [
+            "S-HELICON"
+          ],
+          "notes": []
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@higgs_field",
+    "object_type": "Field",
+    "base_status": "NATIVE_CLOSED__READABLE_INTERFACE_TYPED",
+    "domains": [
+      "HIGGS_WORK_LAYER_V1_1"
+    ],
+    "names": [
+      {
+        "source": "HIGGS_V1_1",
+        "name": "Higgs Field"
+      }
+    ],
+    "definitions": [
+      {
+        "source": "HIGGS_V1_1",
+        "definition": "The environment-wide order field whose local state conditions whether inherited chirality/ER organization remains freely expressive or stabilizes into bounded persistent closure. Mass is not inserted by the field; Native Mass is the vacuum-relative Persistence retained by the lock selected under that order. The readable QFT Higgs field is the downstream projected realization target."
+      }
+    ],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "HIGGS_OBJECT_REGISTRY",
+        "record": {
+          "model_handle": "@higgs_qmo",
+          "canonical_handle": "@higgs_field",
+          "canonical_name": "Higgs Field",
+          "aliases": [
+            "Higgs",
+            "native Higgs field"
+          ],
+          "status": "NATIVE_CLOSED__READABLE_INTERFACE_TYPED",
+          "type": "Field",
+          "definition": "The environment-wide order field whose local state conditions whether inherited chirality/ER organization remains freely expressive or stabilizes into bounded persistent closure. Mass is not inserted by the field; Native Mass is the vacuum-relative Persistence retained by the lock selected under that order. The readable QFT Higgs field is the downstream projected realization target.",
+          "symbols": [],
+          "equations": [],
+          "provenance": [
+            "S-MASS3",
+            "S-ENV",
+            "S-DOT",
+            "S-GENESIS",
+            "S-TS-DEF",
+            "S-TS-THM"
+          ],
+          "notes": []
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@higgs_helicon_sector",
+    "object_type": "StateSpace",
+    "base_status": "OPEN_CLASSIFICATION",
+    "domains": [
+      "HIGGS_WORK_LAYER_V1_1"
+    ],
+    "names": [
+      {
+        "source": "HIGGS_V1_1",
+        "name": "Higgs-Relevant Helicon Sector"
+      }
+    ],
+    "definitions": [
+      {
+        "source": "HIGGS_V1_1",
+        "definition": "The as-yet unclosed spectral subspace/mode family that must carry native Higgs order into the readable field branch without bypassing Helicon."
+      }
+    ],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "HIGGS_OBJECT_REGISTRY",
+        "record": {
+          "model_handle": "@higgs_qmo",
+          "canonical_handle": "@higgs_helicon_sector",
+          "canonical_name": "Higgs-Relevant Helicon Sector",
+          "aliases": [],
+          "status": "OPEN_CLASSIFICATION",
+          "type": "StateSpace",
+          "definition": "The as-yet unclosed spectral subspace/mode family that must carry native Higgs order into the readable field branch without bypassing Helicon.",
+          "symbols": [
+            "H_H"
+          ],
+          "equations": [],
+          "provenance": [
+            "S-HELICON",
+            "S-MASS3"
+          ],
+          "notes": [
+            "Exact selector Sigma_H is proof debt PD-HIGGS-001."
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@canonical_qft_handoff_object",
+    "object_type": "Object",
+    "base_status": "SOURCE_CLOSED",
+    "domains": [
+      "HIGGS_WORK_LAYER_V1_1"
+    ],
+    "names": [
+      {
+        "source": "HIGGS_V1_1",
+        "name": "Canonical Quantum-Field Handoff Object"
+      }
+    ],
+    "definitions": [
+      {
+        "source": "HIGGS_V1_1",
+        "definition": "The Time-Space handoff object containing M, F, Hermitian geometry, connection, curvature, field sections, observables, spectral projections, and action."
+      }
+    ],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "HIGGS_OBJECT_REGISTRY",
+        "record": {
+          "model_handle": "@higgs_qmo",
+          "canonical_handle": "@canonical_qft_handoff_object",
+          "canonical_name": "Canonical Quantum-Field Handoff Object",
+          "aliases": [],
+          "status": "SOURCE_CLOSED",
+          "type": "Object",
+          "definition": "The Time-Space handoff object containing M, F, Hermitian geometry, connection, curvature, field sections, observables, spectral projections, and action.",
+          "symbols": [],
+          "equations": [],
+          "provenance": [
+            "S-TS-DEF",
+            "S-TS-THM"
+          ],
+          "notes": []
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@dm_chirality_seed_byte_probe_basis",
+    "object_type": "qmo_derived_mathematical_object",
+    "base_status": "LIVE_SOURCE_RECOVERED",
+    "domains": [
+      "DARK_MATTER_LIVE_E100",
+      "DARK_MATTER_SOURCE_EFFECTIVE"
+    ],
+    "names": [
+      {
+        "source": "DM_LIVE_E100",
+        "name": "Recovered Chirality Seed / Byte Probe Basis"
+      }
+    ],
+    "definitions": [
+      {
+        "source": "DM_LIVE_E100",
+        "definition": "The Live Landscape probe basis is corrected: use two mirror chirality orientations (seed/byte) crossed, when useful, with six basin occupancy levels. Do not treat 1/7..6/7 as six byte identities."
+      }
+    ],
+    "math_variants": [
+      {
+        "source": "DM_LIVE_E100",
+        "math": "Seed_L=[[1,0],[0,1]], Seed_R=[[0,1],[1,0]] under 1={empty set},0=empty set; Byte_L=(Seed_L,Seed_R), Byte_R=(Seed_R,Seed_L); basin beta_k=k/7, k=1..6."
+      },
+      {
+        "source": "HERE_BE_DARK_MATTER_LIBRARY_CANONICAL_MATH",
+        "math": "Seed_L=[[1,0],[0,1]], Seed_R=[[0,1],[1,0]] under 1={empty set},0=empty set; Byte_L=(Seed_L,Seed_R), Byte_R=(Seed_R,Seed_L); basin beta_k=k/7, k=1..6."
+      }
+    ],
+    "variant_records": [
+      {
+        "source": "DM_LIVE_OBJECT_REGISTRY",
+        "record": {
+          "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+          "handle": "@dm_chirality_seed_byte_probe_basis",
+          "canonical_name": "Recovered Chirality Seed / Byte Probe Basis",
+          "type": "RecoveredCrossDomainProbeBasis",
+          "status": "LIVE_SOURCE_RECOVERED",
+          "checkpoint": "E089",
+          "definition": "The Live Landscape probe basis is corrected: use two mirror chirality orientations (seed/byte) crossed, when useful, with six basin occupancy levels. Do not treat 1/7..6/7 as six byte identities.",
+          "math": "Seed_L=[[1,0],[0,1]], Seed_R=[[0,1],[1,0]] under 1={empty set},0=empty set; Byte_L=(Seed_L,Seed_R), Byte_R=(Seed_R,Seed_L); basin beta_k=k/7, k=1..6.",
+          "parents": [
+            "@chirality_seed",
+            "@left_chirality_seed",
+            "@right_chirality_seed",
+            "@chirality_byte",
+            "@energy_density"
+          ],
+          "working_assumptions": [],
+          "proof_debt": [],
+          "physical_claim": false,
+          "baseline_mutation": false
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@dm_chirality_byte_basin_probe_family",
+    "object_type": "qmo_derived_mathematical_object",
+    "base_status": "LIVE_CONDITIONAL_DIAGNOSTIC",
+    "domains": [
+      "DARK_MATTER_LIVE_E100",
+      "DARK_MATTER_SOURCE_EFFECTIVE"
+    ],
+    "names": [
+      {
+        "source": "DM_LIVE_E100",
+        "name": "Chirality-Byte / Basin Finite Probe Family"
+      }
+    ],
+    "definitions": [
+      {
+        "source": "DM_LIVE_E100",
+        "definition": "All six interior basin levels preserve a nonzero mirror chirality contrast under the diagnostic weighting. The family gives six explicit positive-amplitude inputs sharing one canonical chiral contrast direction."
+      }
+    ],
+    "math_variants": [
+      {
+        "source": "DM_LIVE_E100",
+        "math": "For k=1..6: D_k=(k/7)D_chi; D_k c_*=2(k/7)c_* !=0; ||2(k/7)c_*||^2=8(k/7)^2."
+      },
+      {
+        "source": "HERE_BE_DARK_MATTER_LIBRARY_CANONICAL_MATH",
+        "math": "For k=1..6: D_k=(k/7)D_chi; D_k c_*=2(k/7)c_* !=0; ||2(k/7)c_*||^2=8(k/7)^2."
+      }
+    ],
+    "variant_records": [
+      {
+        "source": "DM_LIVE_OBJECT_REGISTRY",
+        "record": {
+          "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+          "handle": "@dm_chirality_byte_basin_probe_family",
+          "canonical_name": "Chirality-Byte / Basin Finite Probe Family",
+          "type": "ConditionalFiniteProbeFamily",
+          "status": "LIVE_CONDITIONAL_DIAGNOSTIC",
+          "checkpoint": "E091",
+          "definition": "All six interior basin levels preserve a nonzero mirror chirality contrast under the diagnostic weighting. The family gives six explicit positive-amplitude inputs sharing one canonical chiral contrast direction.",
+          "math": "For k=1..6: D_k=(k/7)D_chi; D_k c_*=2(k/7)c_* !=0; ||2(k/7)c_*||^2=8(k/7)^2.",
+          "parents": [
+            "@dm_chirality_seed_contrast_normal_form",
+            "@chirality_byte",
+            "@energy_density"
+          ],
+          "working_assumptions": [
+            "WA-DM-E091-001"
+          ],
+          "proof_debt": [
+            "PD-DM-013"
+          ],
+          "physical_claim": false,
+          "baseline_mutation": false
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@dm_omega_to_chromatic_representation",
+    "object_type": "mathematical_object",
+    "base_status": "OPTIONAL_OPEN_HANDLE",
+    "domains": [
+      "DARK_MATTER_2_2"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "Chirality-Space to Chromatic/Basin Representation"
+      }
+    ],
+    "definitions": [],
+    "math_variants": [
+      {
+        "source": "HERE_BE_DARK_MATTER_LIBRARY_CANONICAL_MATH",
+        "math": "R_OmegaC^R subseteq Omega x X_C^R | requirements: Do not identify chirality-space elements with chromatic components by shared notation.; Any transported representation must satisfy the appropriate equivariance/commutation condition.; Not required by the primary residue-bundle branch."
+      }
+    ],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@dm_omega_to_chromatic_representation",
+          "name": "Chirality-Space to Chromatic/Basin Representation",
+          "origin": "DARKMATTER_2.2",
+          "namespace": "open",
+          "type": "OpenRepresentationRelation",
+          "status": "OPTIONAL_OPEN_HANDLE",
+          "criticality": "optional",
+          "definition": "Typed unresolved object promoted from the Master Dark-Matter QMO. It remains mathematically open; promotion makes the unknown queryable rather than solved.",
+          "math": "R_OmegaC^R subseteq Omega x X_C^R | requirements: Do not identify chirality-space elements with chromatic components by shared notation.; Any transported representation must satisfy the appropriate equivariance/commutation condition.; Not required by the primary residue-bundle branch.",
+          "source_refs": [
+            "QMO_RUNTIME_v0.3:formal/OPEN_SLOT_REGISTRY.json"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@dm_chromatic_optional_branch",
+    "object_type": "mathematical_object",
+    "base_status": "OPTIONAL_NOT_CRITICAL_PATH",
+    "domains": [
+      "DARK_MATTER_2_2"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "Optional Chromatic/Basin Representation Branch"
+      }
+    ],
+    "definitions": [],
+    "math_variants": [
+      {
+        "source": "HERE_BE_DARK_MATTER_LIBRARY_CANONICAL_MATH",
+        "math": "E --chi--> Omega --R_{OmegaC}^R--> X_C^R; R_{OmegaC}^R remains open."
+      }
+    ],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@dm_chromatic_optional_branch",
+          "name": "Optional Chromatic/Basin Representation Branch",
+          "origin": "DARKMATTER_2.2",
+          "namespace": "representation",
+          "type": "OptionalRepresentationBranch",
+          "status": "OPTIONAL_NOT_CRITICAL_PATH",
+          "criticality": "optional",
+          "definition": "Historical/downstream chromatic or basin representation route. It is not required for the current persistent-boundary / residue-bundle critical path.",
+          "math": "E --chi--> Omega --R_{OmegaC}^R--> X_C^R; R_{OmegaC}^R remains open.",
+          "source_refs": [
+            "ATLAS_V36:FORMAL/220_V36_NATIVE_CHIRALITY_FACTORIZATION.md",
+            "ATLAS_V36:FORMAL/223_V36_CHROMATIC_BRANCH_OPTIONALITY.md"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@relational_history",
+    "object_type": "mathematical_object",
+    "base_status": "active",
+    "domains": [
+      "API43",
+      "TIME_SPACE_4_3"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "Relational History"
+      }
+    ],
+    "definitions": [],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@relational_history",
+          "name": "Relational History",
+          "origin": "TIMESPACE_4.3",
+          "criticality": "critical",
+          "uri": null,
+          "parent_status": null,
+          "parent_upstream": "@orientation_history",
+          "parent_downstream": "@admissible_equivalence",
+          "source_occurrences": null,
+          "registry_line": 45768,
+          "occurrence_lines": [
+            27492,
+            41798,
+            45106,
+            45129,
+            45169,
+            45604,
+            45768,
+            47509,
+            47675,
+            47827,
+            48028,
+            48029,
+            48131,
+            48183,
+            57092,
+            57616,
+            57651,
+            58009,
+            58010,
+            58011
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@native_constraint_closure",
+    "object_type": "mathematical_object",
+    "base_status": "active",
+    "domains": [
+      "API43",
+      "TIME_SPACE_4_3"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "Native Constraint Closure"
+      }
+    ],
+    "definitions": [],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@native_constraint_closure",
+          "name": "Native Constraint Closure",
+          "origin": "TIMESPACE_4.3",
+          "criticality": "cross_api_import",
+          "uri": null,
+          "parent_status": null,
+          "parent_upstream": null,
+          "parent_downstream": null,
+          "source_occurrences": null,
+          "registry_line": null,
+          "occurrence_lines": [
+            54121,
+            54209,
+            54708,
+            54800,
+            54803,
+            54806,
+            54809,
+            54811,
+            54814,
+            54820,
+            54946,
+            57030,
+            57214,
+            57215,
+            57331,
+            57332,
+            57463,
+            57464,
+            57962,
+            57963,
+            57964,
+            57965,
+            57966,
+            57967,
+            57968,
+            58090,
+            58092,
+            58306
+          ]
+        }
+      }
+    ]
+  }
+]

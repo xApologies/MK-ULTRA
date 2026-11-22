@@ -1,0 +1,50 @@
+{
+  "requirements": [
+    "higher_order_relations",
+    "repeated_history_between_same_endpoints",
+    "directed_composable_transport",
+    "local_resolution_data",
+    "bandwidth_restriction",
+    "projection_readout"
+  ],
+  "candidates": {
+    "abstract_simplicial_complex": {
+      "higher_order_relations": 1,
+      "repeated_history_between_same_endpoints": 0,
+      "directed_composable_transport": 0,
+      "local_resolution_data": 0,
+      "bandwidth_restriction": 0,
+      "projection_readout": 0
+    },
+    "simplicial_set": {
+      "higher_order_relations": 1,
+      "repeated_history_between_same_endpoints": 1,
+      "directed_composable_transport": 0,
+      "local_resolution_data": 0,
+      "bandwidth_restriction": 0,
+      "projection_readout": 0
+    },
+    "cellular_sheaf_cosheaf": {
+      "higher_order_relations": 1,
+      "repeated_history_between_same_endpoints": 0,
+      "directed_composable_transport": 0,
+      "local_resolution_data": 1,
+      "bandwidth_restriction": 1,
+      "projection_readout": 1
+    },
+    "fibered_category_over_simplicial_base": {
+      "higher_order_relations": 1,
+      "repeated_history_between_same_endpoints": 1,
+      "directed_composable_transport": 1,
+      "local_resolution_data": 1,
+      "bandwidth_restriction": 1,
+      "projection_readout": 1
+    }
+  },
+  "scores": {
+    "abstract_simplicial_complex": 1,
+    "simplicial_set": 2,
+    "cellular_sheaf_cosheaf": 4,
+    "fibered_category_over_simplicial_base": 6
+  }
+}

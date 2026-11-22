@@ -1,0 +1,45 @@
+{
+  "handle": "@boundary_projection",
+  "object_type": "mathematical_object",
+  "status": "indexed-unlinked",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Boundary Projection",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 0,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 2,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 4,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 1,
+    "aliases": [],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19790,
+        "source": "@dm_projection_residue_survival",
+        "relation": "DEPENDS_ON",
+        "target": "@boundary_projection",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      }
+    ]
+  },
+  "address": "@boundary_projection",
+  "address_sha256": "5310ce840ec75508f98afc9cc65841fd58e7bcde33689c86c5ff8fe8c7470147"
+}

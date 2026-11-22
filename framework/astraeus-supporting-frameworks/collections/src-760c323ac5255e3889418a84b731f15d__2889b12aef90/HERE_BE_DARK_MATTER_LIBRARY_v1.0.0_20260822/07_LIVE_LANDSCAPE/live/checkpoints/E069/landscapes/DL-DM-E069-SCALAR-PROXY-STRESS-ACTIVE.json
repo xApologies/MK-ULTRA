@@ -1,0 +1,30 @@
+{
+  "schema": "ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1",
+  "landscape_id": "DL-DM-E069-SCALAR-PROXY-STRESS-ACTIVE",
+  "seed": "@dm_stress_active_action_fiber_nonempty",
+  "status": "APPEND_ONLY_CONDITIONAL",
+  "nodes": [
+    "@dm_stress_active_action_fiber_nonempty",
+    "@dm_stress_active_action_fiber",
+    "@dm_covariant_hidden_action_family",
+    "@dm_q_completion_family",
+    "@field_level_handoff_theorem",
+    "@quantum_action_functional",
+    "@matter_action",
+    "@metric_variation",
+    "@klein_gordon_field",
+    "@stress_energy_tensor",
+    "@dm_conditional_scalar_stress_active_witness"
+  ],
+  "registered_observation": "DM/API edges reach Q action, matter action, metric variation, and scalar-field realization neighborhoods, but no registered edge identifies the hidden Q sector with a scalar field.",
+  "conditional_bridge": {
+    "assumption": "WA-DM-E069-001",
+    "result": "A standard metric-sensitive scalar action supplies one conditional element of the stress-active fiber."
+  },
+  "terminal": {
+    "state": "CONDITIONAL_CLOSED_OPEN_REPRESENTATION_BRIDGE",
+    "iteration": 3,
+    "focus": "@dm_metric_active_representation_witness",
+    "reason": "Metric variation closes on the proxy; the missing object is now the Q-compatible realization bridge, not the stress tensor formula."
+  }
+}

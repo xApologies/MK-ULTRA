@@ -1,0 +1,161 @@
+{
+  "handle": "@chromaticfield",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@chromaticfield",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 6,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 6,
+    "xapi_raw_in_count": 0,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 1,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@chromaticfield",
+        "relation": "DEPENDS_TO",
+        "target": "@backreaction_on_geometry",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45061"
+      },
+      {
+        "source": "@chromaticfield",
+        "relation": "DIRECTED_TO",
+        "target": "@backreaction_on_geometry",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45061"
+      },
+      {
+        "source": "@chromaticfield",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@backreaction_on_geometry",
+        "graph_family": "audit",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45061"
+      },
+      {
+        "source": "@chromaticfield",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@backreaction_on_geometry",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:30743;CANONICAL_API_UPSTREAM_FIELD:45218"
+      },
+      {
+        "source": "@chromaticfield",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@backreaction_on_geometry",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "EDGE_LEDGER_LINE:45061;prior_adjacency"
+      },
+      {
+        "source": "@chromaticfield",
+        "relation": "USED_BY",
+        "target": "@backreaction_on_geometry",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:32774;CANONICAL_API_DOWNSTREAM_FIELD:45303"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 172,
+        "source": "@chromaticfield",
+        "relation": "DEPENDS_TO",
+        "target": "@backreaction_on_geometry",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:45061"
+      },
+      {
+        "id": 173,
+        "source": "@chromaticfield",
+        "relation": "DIRECTED_TO",
+        "target": "@backreaction_on_geometry",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45061"
+      },
+      {
+        "id": 174,
+        "source": "@chromaticfield",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@backreaction_on_geometry",
+        "layer": "API43",
+        "graph_family": "audit",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45061"
+      },
+      {
+        "id": 175,
+        "source": "@chromaticfield",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@backreaction_on_geometry",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:30743;CANONICAL_API_UPSTREAM_FIELD:45218"
+      },
+      {
+        "id": 176,
+        "source": "@chromaticfield",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@backreaction_on_geometry",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "EDGE_LEDGER_LINE:45061;prior_adjacency"
+      },
+      {
+        "id": 177,
+        "source": "@chromaticfield",
+        "relation": "USED_BY",
+        "target": "@backreaction_on_geometry",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:32774;CANONICAL_API_DOWNSTREAM_FIELD:45303"
+      }
+    ]
+  },
+  "address": "@chromaticfield",
+  "address_sha256": "25566fa09d6b878629f0ffb080a86b1bb3a17567b9d34481c85a7ed68526336b"
+}

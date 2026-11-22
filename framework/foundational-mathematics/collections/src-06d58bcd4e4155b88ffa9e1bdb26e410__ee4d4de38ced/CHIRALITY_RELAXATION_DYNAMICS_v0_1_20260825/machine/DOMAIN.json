@@ -1,0 +1,720 @@
+{
+  "schema": "CRD_DOMAIN_v0_1",
+  "vertices": [
+    {
+      "id": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "layer": 0,
+      "domain": 0,
+      "row": 0,
+      "col": 0,
+      "byte": "10010110",
+      "orientation_class": "A"
+    },
+    {
+      "id": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "layer": 0,
+      "domain": 0,
+      "row": 0,
+      "col": 1,
+      "byte": "01101001",
+      "orientation_class": "B"
+    },
+    {
+      "id": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "layer": 0,
+      "domain": 0,
+      "row": 1,
+      "col": 0,
+      "byte": "01101001",
+      "orientation_class": "B"
+    },
+    {
+      "id": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "layer": 0,
+      "domain": 0,
+      "row": 1,
+      "col": 1,
+      "byte": "10010110",
+      "orientation_class": "A"
+    },
+    {
+      "id": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "layer": 0,
+      "domain": 1,
+      "row": 0,
+      "col": 0,
+      "byte": "01101001",
+      "orientation_class": "B"
+    },
+    {
+      "id": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "layer": 0,
+      "domain": 1,
+      "row": 0,
+      "col": 1,
+      "byte": "10010110",
+      "orientation_class": "A"
+    },
+    {
+      "id": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "layer": 0,
+      "domain": 1,
+      "row": 1,
+      "col": 0,
+      "byte": "10010110",
+      "orientation_class": "A"
+    },
+    {
+      "id": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "layer": 0,
+      "domain": 1,
+      "row": 1,
+      "col": 1,
+      "byte": "01101001",
+      "orientation_class": "B"
+    },
+    {
+      "id": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "layer": 1,
+      "domain": 0,
+      "row": 0,
+      "col": 0,
+      "byte": "10010110",
+      "orientation_class": "A"
+    },
+    {
+      "id": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "layer": 1,
+      "domain": 0,
+      "row": 0,
+      "col": 1,
+      "byte": "01101001",
+      "orientation_class": "B"
+    },
+    {
+      "id": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "layer": 1,
+      "domain": 0,
+      "row": 1,
+      "col": 0,
+      "byte": "01101001",
+      "orientation_class": "B"
+    },
+    {
+      "id": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "layer": 1,
+      "domain": 0,
+      "row": 1,
+      "col": 1,
+      "byte": "10010110",
+      "orientation_class": "A"
+    },
+    {
+      "id": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "layer": 1,
+      "domain": 1,
+      "row": 0,
+      "col": 0,
+      "byte": "01101001",
+      "orientation_class": "B"
+    },
+    {
+      "id": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "layer": 1,
+      "domain": 1,
+      "row": 0,
+      "col": 1,
+      "byte": "10010110",
+      "orientation_class": "A"
+    },
+    {
+      "id": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "layer": 1,
+      "domain": 1,
+      "row": 1,
+      "col": 0,
+      "byte": "10010110",
+      "orientation_class": "A"
+    },
+    {
+      "id": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "layer": 1,
+      "domain": 1,
+      "row": 1,
+      "col": 1,
+      "byte": "01101001",
+      "orientation_class": "B"
+    }
+  ],
+  "edges": [
+    {
+      "u": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "v": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "category": "intra_domain_axial",
+      "baseline_relation": "complement",
+      "fusion_mirror_candidate_conditional": true
+    },
+    {
+      "u": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "v": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "category": "intra_domain_axial",
+      "baseline_relation": "complement",
+      "fusion_mirror_candidate_conditional": true
+    },
+    {
+      "u": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "v": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "category": "intra_domain_axial",
+      "baseline_relation": "complement",
+      "fusion_mirror_candidate_conditional": true
+    },
+    {
+      "u": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "v": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "category": "intra_domain_axial",
+      "baseline_relation": "complement",
+      "fusion_mirror_candidate_conditional": true
+    },
+    {
+      "u": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "v": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "category": "intra_domain_axial",
+      "baseline_relation": "complement",
+      "fusion_mirror_candidate_conditional": true
+    },
+    {
+      "u": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "v": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "category": "intra_domain_axial",
+      "baseline_relation": "complement",
+      "fusion_mirror_candidate_conditional": true
+    },
+    {
+      "u": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "v": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "category": "intra_domain_axial",
+      "baseline_relation": "complement",
+      "fusion_mirror_candidate_conditional": true
+    },
+    {
+      "u": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "v": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "category": "intra_domain_axial",
+      "baseline_relation": "complement",
+      "fusion_mirror_candidate_conditional": true
+    },
+    {
+      "u": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "v": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "category": "intra_domain_axial",
+      "baseline_relation": "complement",
+      "fusion_mirror_candidate_conditional": true
+    },
+    {
+      "u": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "v": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "category": "intra_domain_axial",
+      "baseline_relation": "complement",
+      "fusion_mirror_candidate_conditional": true
+    },
+    {
+      "u": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "v": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "category": "intra_domain_axial",
+      "baseline_relation": "complement",
+      "fusion_mirror_candidate_conditional": true
+    },
+    {
+      "u": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "v": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "category": "intra_domain_axial",
+      "baseline_relation": "complement",
+      "fusion_mirror_candidate_conditional": true
+    },
+    {
+      "u": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "v": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "category": "intra_domain_axial",
+      "baseline_relation": "complement",
+      "fusion_mirror_candidate_conditional": true
+    },
+    {
+      "u": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "v": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "category": "intra_domain_axial",
+      "baseline_relation": "complement",
+      "fusion_mirror_candidate_conditional": true
+    },
+    {
+      "u": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "v": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "category": "intra_domain_axial",
+      "baseline_relation": "complement",
+      "fusion_mirror_candidate_conditional": true
+    },
+    {
+      "u": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "v": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "category": "intra_domain_axial",
+      "baseline_relation": "complement",
+      "fusion_mirror_candidate_conditional": true
+    },
+    {
+      "u": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "v": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "category": "inter_domain_bridge",
+      "baseline_relation": "same",
+      "fusion_mirror_candidate_conditional": false
+    },
+    {
+      "u": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "v": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "category": "inter_domain_bridge",
+      "baseline_relation": "same",
+      "fusion_mirror_candidate_conditional": false
+    },
+    {
+      "u": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "v": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "category": "inter_domain_bridge",
+      "baseline_relation": "same",
+      "fusion_mirror_candidate_conditional": false
+    },
+    {
+      "u": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "v": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "category": "inter_domain_bridge",
+      "baseline_relation": "same",
+      "fusion_mirror_candidate_conditional": false
+    },
+    {
+      "u": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "v": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "category": "inter_layer_alignment",
+      "baseline_relation": "same",
+      "fusion_mirror_candidate_conditional": false
+    },
+    {
+      "u": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "v": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "category": "inter_layer_alignment",
+      "baseline_relation": "same",
+      "fusion_mirror_candidate_conditional": false
+    },
+    {
+      "u": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "v": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "category": "inter_layer_alignment",
+      "baseline_relation": "same",
+      "fusion_mirror_candidate_conditional": false
+    },
+    {
+      "u": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "v": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "category": "inter_layer_alignment",
+      "baseline_relation": "same",
+      "fusion_mirror_candidate_conditional": false
+    },
+    {
+      "u": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "v": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "category": "inter_layer_alignment",
+      "baseline_relation": "same",
+      "fusion_mirror_candidate_conditional": false
+    },
+    {
+      "u": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "v": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "category": "inter_layer_alignment",
+      "baseline_relation": "same",
+      "fusion_mirror_candidate_conditional": false
+    },
+    {
+      "u": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "v": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "category": "inter_layer_alignment",
+      "baseline_relation": "same",
+      "fusion_mirror_candidate_conditional": false
+    },
+    {
+      "u": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "category": "inter_layer_alignment",
+      "baseline_relation": "same",
+      "fusion_mirror_candidate_conditional": false
+    }
+  ],
+  "parameters": {
+    "Resolution": "per address / edge threshold slot",
+    "Bandwidth": "per address / edge freedom slot",
+    "basin": "one of R,O,Y,G,B,V; capacity semantics unresolved",
+    "persistence": "evaluated after/through declared relaxation dynamics",
+    "history": "append-only event/provenance word"
+  },
+  "unresolved": [
+    "whether A/B byte complement is exactly the source-authoritative mirror map",
+    "exact inter-layer physical map",
+    "exact basin-to-capacity/energy calibration",
+    "Fusion Backreaction Lift physical law"
+  ]
+}

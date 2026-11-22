@@ -1,0 +1,29 @@
+{
+  "read": [
+    "PULL",
+    "PULL_MANY",
+    "PULL_QMO",
+    "PULL_MODEL"
+  ],
+  "write": [
+    "ADD_ONE",
+    "ADD_MANY",
+    "ADD_PACKAGE",
+    "APPEND",
+    "REPLACE",
+    "REMOVE",
+    "PURGE"
+  ],
+  "transaction": [
+    "PREVIEW",
+    "VALIDATE",
+    "COMMIT",
+    "ROLLBACK"
+  ],
+  "recovery_scales": [
+    "OBJECT",
+    "SUBGRAPH",
+    "MODEL",
+    "DOMAIN"
+  ]
+}

@@ -1,0 +1,1265 @@
+{
+  "schema": "MK43_HIGGS_WORK_OBJECT_REGISTRY_V1_1",
+  "count": 74,
+  "objects": [
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@higgs_field",
+      "canonical_name": "Higgs Field",
+      "aliases": [
+        "Higgs",
+        "native Higgs field"
+      ],
+      "status": "NATIVE_CLOSED__READABLE_INTERFACE_TYPED",
+      "type": "Field",
+      "definition": "The environment-wide order field whose local state conditions whether inherited chirality/ER organization remains freely expressive or stabilizes into bounded persistent closure. Mass is not inserted by the field; Native Mass is the vacuum-relative Persistence retained by the lock selected under that order. The readable QFT Higgs field is the downstream projected realization target.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "S-MASS3",
+        "S-ENV",
+        "S-DOT",
+        "S-GENESIS",
+        "S-TS-DEF",
+        "S-TS-THM"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@native_higgs_order_field",
+      "canonical_name": "Native Higgs Order Field",
+      "aliases": [
+        "H_nat",
+        "native order field"
+      ],
+      "status": "DERIVED_CLOSED",
+      "type": "Field",
+      "definition": "A QMO-local field over admissible Environment addresses: H_nat : A_E -> N_H. It re-expresses the source-defined environmental order space N_4 without making the corridor label T4 part of the physical definition.",
+      "symbols": [
+        "H_nat",
+        "A_E",
+        "N_H"
+      ],
+      "equations": [
+        "EQ-H001"
+      ],
+      "provenance": [
+        "S-MASS3",
+        "S-CORRIDOR",
+        "S-ENV"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@native_higgs_order_space",
+      "canonical_name": "Native Higgs Order Space",
+      "aliases": [
+        "N_H",
+        "N_4",
+        "T4 order space"
+      ],
+      "status": "SOURCE_RETYPED_CLOSED",
+      "type": "StateSpace",
+      "definition": "N_H := N_4. An order state records persistence bias, chirality gradient, closure asymmetry, resolution-separation pressure, and knot-admissibility gain. N_H is a semantic retyping of the source N_4 for a Higgs-local QMO, not a new source object.",
+      "symbols": [
+        "N_H",
+        "N_4"
+      ],
+      "equations": [
+        "EQ-H002"
+      ],
+      "provenance": [
+        "S-MASS3"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@native_higgs_order_state",
+      "canonical_name": "Native Higgs Order State",
+      "aliases": [
+        "eta",
+        "order state"
+      ],
+      "status": "SOURCE_RETYPED_CLOSED",
+      "type": "State",
+      "definition": "An element eta of N_H. Its value conditions stabilization, admissibility, bounded closure, and therefore the selected localized persistence lock.",
+      "symbols": [
+        "eta"
+      ],
+      "equations": [],
+      "provenance": [
+        "S-MASS3"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@environment_address_space",
+      "canonical_name": "Environment Address Space",
+      "aliases": [
+        "A_E"
+      ],
+      "status": "DERIVED_CLOSED",
+      "type": "StateSpace",
+      "definition": "The QMO-local set A_E of admissible local Environment addresses at which inherited organization, chirality, Resolution, Bandwidth, and recursive ordering are jointly readable. It is typed from the existing Chirality Address / Environment machinery rather than assumed to be ordinary XYZ coordinates.",
+      "symbols": [
+        "A_E"
+      ],
+      "equations": [],
+      "provenance": [
+        "S-CORRIDOR",
+        "S-ENV"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@environment",
+      "canonical_name": "Environment",
+      "aliases": [],
+      "status": "SOURCE_CLOSED",
+      "type": "Field",
+      "definition": "The recursive continuity context that inherits ER foam, contains the pipeline domain laws, accepts manifold inputs, and expands with manifold ecology.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "S-ENV"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@genesis_field",
+      "canonical_name": "Genesis Field",
+      "aliases": [],
+      "status": "SOURCE_MODEL",
+      "type": "Field",
+      "definition": "The recursively self-expressing field-container. Resolution distinguishes organization and Bandwidth supplies available organizational freedom across recursive depth.",
+      "symbols": [
+        "G",
+        "R_d",
+        "B_d"
+      ],
+      "equations": [
+        "EQ-G001"
+      ],
+      "provenance": [
+        "S-GENESIS"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@resolution",
+      "canonical_name": "Resolution",
+      "aliases": [],
+      "status": "SOURCE_MODEL",
+      "type": "Functional",
+      "definition": "Distinguishable organization at a recursive depth.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "S-GENESIS"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@bandwidth",
+      "canonical_name": "Bandwidth",
+      "aliases": [],
+      "status": "SOURCE_MODEL",
+      "type": "Functional",
+      "definition": "Available organizational freedom / remaining capacity for distinguishable organization.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "S-GENESIS"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@er_foam",
+      "canonical_name": "ER Foam",
+      "aliases": [],
+      "status": "SOURCE_INHERITED",
+      "type": "StateSpace",
+      "definition": "Inherited chirality-continuity substrate used by the Environment.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "S-ENV",
+        "S-PIPELINE1"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@chirality",
+      "canonical_name": "Chirality",
+      "aliases": [],
+      "status": "SOURCE_INHERITED",
+      "type": "State",
+      "definition": "Organizational handedness/admissibility structure carried through the inherited substrate and read by the Higgs-local order state through its chirality-gradient component.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "S-PIPELINE1",
+        "S-CORRIDOR"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@dot_notation",
+      "canonical_name": "Dot Notation Evolution Grammar",
+      "aliases": [],
+      "status": "SOURCE_CLOSED",
+      "type": "Language",
+      "definition": "Pre-Genesis-language recursive topology operator grammar. In the Higgs-native corridor the source sequence is inherit -> stabilize -> close.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "S-DOT",
+        "S-GENLANG"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@inherit_operator",
+      "canonical_name": "Inherit Operator",
+      "aliases": [],
+      "status": "SOURCE_CLOSED",
+      "type": "Operator",
+      "definition": "Dot operator .\u00b7. Preserve prior continuity adjacency during recursive stage propagation.",
+      "symbols": [
+        ".\u00b7"
+      ],
+      "equations": [],
+      "provenance": [
+        "S-DOT",
+        "S-MASS3"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@stabilize_operator",
+      "canonical_name": "Conditioned Stabilization Operator",
+      "aliases": [],
+      "status": "SOURCE_CLOSED",
+      "type": "Operator",
+      "definition": "The order-conditioned stabilization family Stabilize^eta : E -> E. Stabilization means drift resistance, inertial lock, and recursive persistence retention.",
+      "symbols": [
+        "Stabilize^eta",
+        ".\u00b0."
+      ],
+      "equations": [],
+      "provenance": [
+        "S-MASS3",
+        "S-DOT"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@bounded_closure_operator",
+      "canonical_name": "Conditioned Bounded Closure Operator",
+      "aliases": [],
+      "status": "SOURCE_CLOSED",
+      "type": "Operator",
+      "definition": "The order-conditioned bounded closure family Close^eta : A^eta -> E. Closure realizes bounded convergence rather than hard collapse.",
+      "symbols": [
+        "Close^eta",
+        "\u00b7\u00b0\u00b7"
+      ],
+      "equations": [],
+      "provenance": [
+        "S-MASS3",
+        "S-DOT"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@knot_admissibility_domain",
+      "canonical_name": "Conditioned Knot-Admissibility Domain",
+      "aliases": [],
+      "status": "SOURCE_CLOSED",
+      "type": "StateSpace",
+      "definition": "A^eta: the states whose stabilized organization admits bounded non-destructive closure under order state eta.",
+      "symbols": [
+        "A^eta"
+      ],
+      "equations": [],
+      "provenance": [
+        "S-MASS3",
+        "S-PIPELINE1"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@conditioned_lock_selector",
+      "canonical_name": "Conditioned Persistence-Lock Selector",
+      "aliases": [],
+      "status": "SOURCE_CLOSED",
+      "type": "Map",
+      "definition": "P_lock^eta selects bounded persistent closure when the stabilized state belongs to A^eta and returns the native vacuum otherwise.",
+      "symbols": [
+        "P_lock^eta"
+      ],
+      "equations": [
+        "EQ-H003"
+      ],
+      "provenance": [
+        "S-MASS3"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@localized_persistence_lock",
+      "canonical_name": "Localized Persistence Lock",
+      "aliases": [],
+      "status": "SOURCE_CLOSED",
+      "type": "State",
+      "definition": "A non-vacuum bounded persistence-bearing state selected by conditioned stabilization and bounded closure.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "S-MASS3"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@persistence",
+      "canonical_name": "Persistence Functional",
+      "aliases": [],
+      "status": "SOURCE_CLOSED",
+      "type": "Functional",
+      "definition": "Canonical quantity evaluated on admissible identity classes; vacuum normalized to zero in the Mass construction.",
+      "symbols": [
+        "Pers"
+      ],
+      "equations": [],
+      "provenance": [
+        "S-MASS3"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@native_vacuum",
+      "canonical_name": "Native Vacuum Reference",
+      "aliases": [],
+      "status": "SOURCE_CLOSED",
+      "type": "State",
+      "definition": "The distinguished vacuum identity 0_E with Pers([0_E]) = 0.",
+      "symbols": [
+        "0_E"
+      ],
+      "equations": [],
+      "provenance": [
+        "S-MASS3"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@native_mass",
+      "canonical_name": "Native Mass",
+      "aliases": [],
+      "status": "SOURCE_CLOSED",
+      "type": "Functional",
+      "definition": "Vacuum-relative Persistence carried by the localized persistence lock selected under an inherited order state.",
+      "symbols": [
+        "Mass_eta"
+      ],
+      "equations": [
+        "EQ-H004"
+      ],
+      "provenance": [
+        "S-MASS3"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@massless_sector",
+      "canonical_name": "Native Massless Sector",
+      "aliases": [],
+      "status": "SOURCE_CLOSED",
+      "type": "StateSpace",
+      "definition": "Identity classes whose vacuum-order conditioned lock is equivalent to the native vacuum.",
+      "symbols": [
+        "U_0"
+      ],
+      "equations": [],
+      "provenance": [
+        "S-MASS3"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@massive_sector",
+      "canonical_name": "Native Massive Sector",
+      "aliases": [],
+      "status": "SOURCE_CLOSED",
+      "type": "StateSpace",
+      "definition": "Identity classes whose vacuum-order conditioned lock is non-vacuum and therefore carries positive Native Mass.",
+      "symbols": [
+        "U_+"
+      ],
+      "equations": [],
+      "provenance": [
+        "S-MASS3"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@native_vacuum_order",
+      "canonical_name": "Native Higgs Vacuum Order",
+      "aliases": [],
+      "status": "SOURCE_DECLARED_INTERFACE",
+      "type": "State",
+      "definition": "The selected native vacuum order eta_vac in N_H.",
+      "symbols": [
+        "eta_vac"
+      ],
+      "equations": [],
+      "provenance": [
+        "S-MASS3"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@higgs_order_graph",
+      "canonical_name": "Higgs Order Configuration Graph",
+      "aliases": [],
+      "status": "SOURCE_DECLARED_INTERFACE",
+      "type": "StateSpace",
+      "definition": "G_eta=(V_eta,A_eta,d_eta), the graph of admissible native order configurations.",
+      "symbols": [
+        "G_eta"
+      ],
+      "equations": [],
+      "provenance": [
+        "S-MASS3"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@higgs_order_excitation",
+      "canonical_name": "Finite Native Higgs Excitation",
+      "aliases": [],
+      "status": "SOURCE_DECLARED_INTERFACE",
+      "type": "Map",
+      "definition": "A finite admissible edge eta -> eta_prime in the native order graph.",
+      "symbols": [
+        "h",
+        "eta",
+        "eta_prime"
+      ],
+      "equations": [
+        "EQ-H005"
+      ],
+      "provenance": [
+        "S-MASS3"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@finite_higgs_mass_coupling",
+      "canonical_name": "Finite Higgs\u2013Mass Coupling",
+      "aliases": [],
+      "status": "SOURCE_DECLARED_INTERFACE",
+      "type": "Functional",
+      "definition": "Finite readable mass response per order-graph distance for an admissible order excitation.",
+      "symbols": [
+        "g_hX"
+      ],
+      "equations": [
+        "EQ-H006"
+      ],
+      "provenance": [
+        "S-MASS3"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@helicon",
+      "canonical_name": "Helicon",
+      "aliases": [],
+      "status": "SOURCE_REFERENCE",
+      "type": "ModeFamily",
+      "definition": "A coherent admissible restructuring mode of the chirality/ER substrate. It is propagation/restructuring dominant, unlike the localized persistence-lock knot branch.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "S-HELICON"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@helicon_spectral_operator",
+      "canonical_name": "Helicon Spectral Operator",
+      "aliases": [],
+      "status": "SOURCE_REFERENCE",
+      "type": "Operator",
+      "definition": "L_H selects allowed coherent Helicon modes through L_H(H_alpha)=lambda_alpha H_alpha.",
+      "symbols": [
+        "L_H",
+        "H_alpha",
+        "lambda_alpha"
+      ],
+      "equations": [
+        "EQ-H007"
+      ],
+      "provenance": [
+        "S-HELICON"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@higgs_helicon_sector",
+      "canonical_name": "Higgs-Relevant Helicon Sector",
+      "aliases": [],
+      "status": "OPEN_CLASSIFICATION",
+      "type": "StateSpace",
+      "definition": "The as-yet unclosed spectral subspace/mode family that must carry native Higgs order into the readable field branch without bypassing Helicon.",
+      "symbols": [
+        "H_H"
+      ],
+      "equations": [],
+      "provenance": [
+        "S-HELICON",
+        "S-MASS3"
+      ],
+      "notes": [
+        "Exact selector Sigma_H is proof debt PD-HIGGS-001."
+      ]
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@persistent_boundary",
+      "canonical_name": "Persistent Boundary",
+      "aliases": [],
+      "status": "SOURCE_CLOSED",
+      "type": "StateSpace",
+      "definition": "Boundary of the Persistent Locus; canonical interface between persistent organization and surrounding inherited environment.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "S-CORRIDOR"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@time_shell",
+      "canonical_name": "Time Shell",
+      "aliases": [],
+      "status": "SOURCE_CLOSED",
+      "type": "StateSpace",
+      "definition": "Dynamic persistent-boundary / projection interface through which boundary organization becomes readable. In the Environment chronology, sustained temporal continuity begins downstream of the pre-Time-Shell regime.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "S-CORRIDOR",
+        "S-ENV"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@boundary_projection",
+      "canonical_name": "Boundary Projection",
+      "aliases": [],
+      "status": "SOURCE_CLOSED",
+      "type": "Map",
+      "definition": "Pi : dXi -> M, mapping persistent-boundary organization onto the Projective Target Manifold while invariant residue is retained.",
+      "symbols": [
+        "Pi"
+      ],
+      "equations": [],
+      "provenance": [
+        "S-CORRIDOR",
+        "S-TS-DEF"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@projective_target_manifold",
+      "canonical_name": "Projective Target Manifold",
+      "aliases": [],
+      "status": "SOURCE_CLOSED",
+      "type": "StateSpace",
+      "definition": "The target manifold M on which projected residue / quantum-field structure is organized.",
+      "symbols": [
+        "M"
+      ],
+      "equations": [],
+      "provenance": [
+        "S-TS-DEF"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@invariant_residue",
+      "canonical_name": "Invariant Residue",
+      "aliases": [],
+      "status": "SOURCE_CLOSED",
+      "type": "State",
+      "definition": "F_p = Inv(Pi^{-1}(p)): organizational information preserved under admissible projection.",
+      "symbols": [
+        "F_p"
+      ],
+      "equations": [],
+      "provenance": [
+        "S-CORRIDOR",
+        "S-TS-DEF"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@residue_quantum_field_bundle",
+      "canonical_name": "Residue / Quantum Field Bundle",
+      "aliases": [],
+      "status": "SOURCE_CLOSED",
+      "type": "Bundle",
+      "definition": "The smooth complex bundle F -> M assembled from invariant projection residue and used as the QFT-compatible field substrate.",
+      "symbols": [
+        "F",
+        "pi_F"
+      ],
+      "equations": [],
+      "provenance": [
+        "S-TS-DEF",
+        "S-TS-THM"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@canonical_qft_handoff_object",
+      "canonical_name": "Canonical Quantum-Field Handoff Object",
+      "aliases": [],
+      "status": "SOURCE_CLOSED",
+      "type": "Object",
+      "definition": "The Time-Space handoff object containing M, F, Hermitian geometry, connection, curvature, field sections, observables, spectral projections, and action.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "S-TS-DEF",
+        "S-TS-THM"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@higgs_sector_bundle",
+      "canonical_name": "Higgs-Sector Bundle",
+      "aliases": [],
+      "status": "SOURCE_DECLARED_INTERFACE",
+      "type": "Bundle",
+      "definition": "F_H, the Higgs-sector bundle of the completed QFT handoff object.",
+      "symbols": [
+        "F_H"
+      ],
+      "equations": [],
+      "provenance": [
+        "S-MASS3",
+        "S-TS-DEF"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@native_to_projected_higgs_map",
+      "canonical_name": "Native-to-Projected Higgs Map",
+      "aliases": [],
+      "status": "SOURCE_DECLARED_INTERFACE_OPEN_CONSTRUCTION",
+      "type": "Map",
+      "definition": "Project_H : N_H -> Sections(F_H). The dependency direction is native order -> projected Higgs field, not the reverse. The map is source-typed; its exact Helicon/Time-Shell construction remains to be factored.",
+      "symbols": [
+        "Project_H"
+      ],
+      "equations": [
+        "EQ-H008"
+      ],
+      "provenance": [
+        "S-MASS3",
+        "S-TS-DEF"
+      ],
+      "notes": [
+        "Exact construction is downstream proof debt; type is source-declared."
+      ]
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@projected_higgs_field",
+      "canonical_name": "Projected Higgs Field",
+      "aliases": [],
+      "status": "TYPED_REALIZATION_TARGET",
+      "type": "Field",
+      "definition": "A section of the Higgs-sector bundle F_H obtained as the readable QFT realization of a native Higgs order state.",
+      "symbols": [
+        "Phi_H"
+      ],
+      "equations": [],
+      "provenance": [
+        "S-MASS3",
+        "S-TS-THM"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@projected_higgs_vacuum",
+      "canonical_name": "Projected Higgs Vacuum",
+      "aliases": [],
+      "status": "SOURCE_DECLARED_INTERFACE",
+      "type": "State",
+      "definition": "Phi_0 = Project_H(eta_vac).",
+      "symbols": [
+        "Phi_0"
+      ],
+      "equations": [
+        "EQ-H009"
+      ],
+      "provenance": [
+        "S-MASS3"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@readable_mass_translation",
+      "canonical_name": "Readable Mass Translation",
+      "aliases": [],
+      "status": "SOURCE_DECLARED_INTERFACE",
+      "type": "Map",
+      "definition": "T_mass maps the total Native Mass spectrum into nonnegative readable mass while preserving/reflection zero and strict order.",
+      "symbols": [
+        "T_mass"
+      ],
+      "equations": [],
+      "provenance": [
+        "S-MASS3"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@projected_mode_space",
+      "canonical_name": "Projected Mode Space",
+      "aliases": [],
+      "status": "SOURCE_DECLARED_INTERFACE",
+      "type": "StateSpace",
+      "definition": "Orthogonal projected inner-product mode space H_mode = H_0 direct-sum over mass-homogeneous sectors H_alpha.",
+      "symbols": [
+        "H_mode",
+        "H_0",
+        "H_alpha"
+      ],
+      "equations": [],
+      "provenance": [
+        "S-MASS3"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@native_mass_operator",
+      "canonical_name": "Native Mass Operator",
+      "aliases": [],
+      "status": "SOURCE_DECLARED_INTERFACE",
+      "type": "Operator",
+      "definition": "Spectral operator built from Native Mass values on mass-homogeneous projected mode sectors.",
+      "symbols": [
+        "Mhat_native"
+      ],
+      "equations": [],
+      "provenance": [
+        "S-MASS3"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@higgs_mass_matrix_correspondence",
+      "canonical_name": "Higgs Mass-Matrix Correspondence",
+      "aliases": [],
+      "status": "OPEN_CORRESPONDENCE",
+      "type": "Condition",
+      "definition": "The downstream equality Mhat_read^2 = Hhat_Higgs^2(Phi_0). It is a correspondence/calibration obligation and does not redefine Native Mass or the native Higgs order field.",
+      "symbols": [],
+      "equations": [
+        "EQ-H010"
+      ],
+      "provenance": [
+        "S-MASS3"
+      ],
+      "notes": [
+        "Proof debt PD-HIGGS-002."
+      ]
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@persistence_thickening_threshold",
+      "canonical_name": "Persistence-Thickening / Readable-Time Threshold",
+      "aliases": [],
+      "status": "SOURCE_BOUNDARY",
+      "type": "Condition",
+      "definition": "The downstream threshold at which bounded shell redistribution and sustained temporal continuity begin to emerge; retained only as a boundary marker for the Higgs-local domain.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "S-ENV",
+        "S-DOT",
+        "S-PIPELINE1"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_qmo",
+      "canonical_handle": "@historical_t4_label",
+      "canonical_name": "Historical Corridor Label T4",
+      "aliases": [],
+      "status": "HISTORICAL_SOURCE_LABEL",
+      "type": "AliasRecord",
+      "definition": "Source compatibility label for the native Higgs-order regime. It is retained for provenance and does not appear in the physical definition of the Higgs field.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "S-PIPELINE1",
+        "S-MASS3"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_work_qmo",
+      "canonical_handle": "@field_section",
+      "canonical_name": "Field Section",
+      "aliases": [],
+      "status": "EXTERNAL_API43_REFERENCE",
+      "type": "Field",
+      "definition": "Smooth field section in the QFT handoff.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "API43:0010a4de99d78748ede57670b3bca1df6185b7ba8dd0faf266cc3ba1a4ccf752"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_work_qmo",
+      "canonical_handle": "@matter_action",
+      "canonical_name": "Matter Action",
+      "aliases": [],
+      "status": "EXTERNAL_API43_REFERENCE",
+      "type": "Action",
+      "definition": "Action for nongravitational fields.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "API43:0010a4de99d78748ede57670b3bca1df6185b7ba8dd0faf266cc3ba1a4ccf752"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_work_qmo",
+      "canonical_handle": "@stress_energy_tensor",
+      "canonical_name": "Stress-Energy Tensor",
+      "aliases": [],
+      "status": "EXTERNAL_API43_REFERENCE",
+      "type": "Tensor",
+      "definition": "Metric variation of matter action.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "API43:0010a4de99d78748ede57670b3bca1df6185b7ba8dd0faf266cc3ba1a4ccf752"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_work_qmo",
+      "canonical_handle": "@matter_coupling",
+      "canonical_name": "Matter Coupling",
+      "aliases": [],
+      "status": "EXTERNAL_API43_REFERENCE",
+      "type": "Coupling",
+      "definition": "Coupling of geometry to stress-energy.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "API43:0010a4de99d78748ede57670b3bca1df6185b7ba8dd0faf266cc3ba1a4ccf752"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_work_qmo",
+      "canonical_handle": "@gravity_matter_closure",
+      "canonical_name": "Gravity-Matter Closure",
+      "aliases": [],
+      "status": "EXTERNAL_API43_REFERENCE",
+      "type": "Closure",
+      "definition": "Registered meeting object for matter coupling and gravity requirements.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "API43:0010a4de99d78748ede57670b3bca1df6185b7ba8dd0faf266cc3ba1a4ccf752"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_work_qmo",
+      "canonical_handle": "@einstein_field_equation",
+      "canonical_name": "Einstein Field Equation",
+      "aliases": [],
+      "status": "EXTERNAL_API43_REFERENCE",
+      "type": "EquationObject",
+      "definition": "Curvature-matter field equation.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "API43:0010a4de99d78748ede57670b3bca1df6185b7ba8dd0faf266cc3ba1a4ccf752"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_work_qmo",
+      "canonical_handle": "@graviton",
+      "canonical_name": "Graviton",
+      "aliases": [],
+      "status": "EXTERNAL_API43_REFERENCE",
+      "type": "Mode",
+      "definition": "Downstream gravity projection-mode object.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "API43:0010a4de99d78748ede57670b3bca1df6185b7ba8dd0faf266cc3ba1a4ccf752"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_work_qmo",
+      "canonical_handle": "@continuity_perturbation",
+      "canonical_name": "Continuity Perturbation",
+      "aliases": [],
+      "status": "EXTERNAL_API43_REFERENCE",
+      "type": "Perturbation",
+      "definition": "Intermediate native gravity perturbation.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "API43:0010a4de99d78748ede57670b3bca1df6185b7ba8dd0faf266cc3ba1a4ccf752"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_work_qmo",
+      "canonical_handle": "@time_shell_projection_operator",
+      "canonical_name": "Time-Shell Projection Operator",
+      "aliases": [],
+      "status": "EXTERNAL_API43_REFERENCE",
+      "type": "Operator",
+      "definition": "Projection operator carrying continuity perturbation to readable metric perturbation.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "API43:0010a4de99d78748ede57670b3bca1df6185b7ba8dd0faf266cc3ba1a4ccf752"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_work_qmo",
+      "canonical_handle": "@weak_field_metric_perturbation",
+      "canonical_name": "Weak-Field Metric Perturbation",
+      "aliases": [],
+      "status": "EXTERNAL_API43_REFERENCE",
+      "type": "Tensor",
+      "definition": "Readable weak-field metric perturbation.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "API43:0010a4de99d78748ede57670b3bca1df6185b7ba8dd0faf266cc3ba1a4ccf752"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_work_qmo",
+      "canonical_handle": "@canonical_higgs_configuration",
+      "canonical_name": "Canonical-Order Higgs Configuration",
+      "aliases": [],
+      "status": "WORK_LAYER_DERIVED",
+      "type": "Field",
+      "definition": "Phi_can := Project_H(eta_can), kept distinct from Phi_0.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "E015",
+        "S-MASS3"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_work_qmo",
+      "canonical_handle": "@canonical_positive_lock",
+      "canonical_name": "Canonical Positive T4 Lock",
+      "aliases": [],
+      "status": "WORK_LAYER_WITNESS",
+      "type": "State",
+      "definition": "The E014 canonical-order non-vacuum T4 lock witness.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "E014"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_work_qmo",
+      "canonical_handle": "@canonical_zero_lock",
+      "canonical_name": "Canonical Zero T4 Lock",
+      "aliases": [],
+      "status": "WORK_LAYER_CONTROL",
+      "type": "State",
+      "definition": "The E014 canonical-order vacuum-equivalent control.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "E014"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_work_qmo",
+      "canonical_handle": "@local_positive_mode",
+      "canonical_name": "Local Positive Projected Mode",
+      "aliases": [],
+      "status": "WORK_LAYER_CONSTRUCTED",
+      "type": "Mode",
+      "definition": "One-dimensional local projected mode sector representing the positive-lock class.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "E016"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_work_qmo",
+      "canonical_handle": "@local_zero_mode",
+      "canonical_name": "Local Zero Projected Mode",
+      "aliases": [],
+      "status": "WORK_LAYER_CONSTRUCTED",
+      "type": "Mode",
+      "definition": "One-dimensional local projected mode sector representing the zero-lock class.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "E016"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_work_qmo",
+      "canonical_handle": "@local_matter_realization_map",
+      "canonical_name": "Local Matter Realization Map",
+      "aliases": [],
+      "status": "WORK_LAYER_CONSTRUCTED",
+      "type": "Map",
+      "definition": "R_+ : {u_+} -> F_adm mapping the positive local mode to one admissible abstract matter field state.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "E019"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_work_qmo",
+      "canonical_handle": "@local_positive_matter_state",
+      "canonical_name": "Local Positive Matter State",
+      "aliases": [],
+      "status": "WORK_LAYER_CONSTRUCTED",
+      "type": "FieldState",
+      "definition": "Abstract admissible matter/QFT field state psi_+; no scalar/spinor/gauge identity assigned.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "E019"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_work_qmo",
+      "canonical_handle": "@local_positive_matter_action",
+      "canonical_name": "Local Positive Matter Action",
+      "aliases": [],
+      "status": "WORK_LAYER_CONSTRUCTED",
+      "type": "Action",
+      "definition": "Generic matter action evaluated on psi_+.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "E019"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_work_qmo",
+      "canonical_handle": "@local_positive_stress_energy",
+      "canonical_name": "Local Positive Stress-Energy",
+      "aliases": [],
+      "status": "WORK_LAYER_CONSTRUCTED",
+      "type": "Tensor",
+      "definition": "Hilbert stress-energy of the local positive matter state, with one lock-sensitive positive observer contraction.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "E019"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_work_qmo",
+      "canonical_handle": "@local_positive_matter_coupling",
+      "canonical_name": "Local Positive Matter Coupling",
+      "aliases": [],
+      "status": "WORK_LAYER_CONSTRUCTED",
+      "type": "Coupling",
+      "definition": "Local matter coupling carrying the E019 source into the API gravity-matter closure junction.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "E020"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_work_qmo",
+      "canonical_handle": "@local_gravity_matter_closure",
+      "canonical_name": "Local Gravity-Matter Closure",
+      "aliases": [],
+      "status": "WORK_LAYER_CONSTRUCTED",
+      "type": "ClosureWitness",
+      "definition": "One local instance of the API gravity-matter closure junction.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "E020"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_work_qmo",
+      "canonical_handle": "@local_continuity_perturbation",
+      "canonical_name": "Local Continuity Perturbation",
+      "aliases": [],
+      "status": "WORK_LAYER_CONSTRUCTED",
+      "type": "Perturbation",
+      "definition": "Selected local perturbation in the Graviton branch used for the readable closure test.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "E021"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_work_qmo",
+      "canonical_handle": "@local_graviton_metric",
+      "canonical_name": "Local Graviton Metric Perturbation",
+      "aliases": [],
+      "status": "WORK_LAYER_CONSTRUCTED",
+      "type": "Tensor",
+      "definition": "h^G_mn := Pi_T(deltaC_+) in the declared weak-field comparison.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "E021"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_work_qmo",
+      "canonical_handle": "@local_component_match_timelike",
+      "canonical_name": "Timelike Higgs-Gravity Component Match",
+      "aliases": [],
+      "status": "WORK_LAYER_CLOSED",
+      "type": "Witness",
+      "definition": "Timelike observer contraction of the local Einstein/Graviton residual vanishes.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "E021"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_work_qmo",
+      "canonical_handle": "@local_component_match_spacelike",
+      "canonical_name": "Spacelike Higgs-Gravity Component Match",
+      "aliases": [],
+      "status": "WORK_LAYER_CLOSED",
+      "type": "Witness",
+      "definition": "Independent orthogonal spacelike contraction of the local Einstein/Graviton residual vanishes.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "E022"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_work_qmo",
+      "canonical_handle": "@higgs_physical_boundary_audit",
+      "canonical_name": "Higgs Physical Boundary Audit",
+      "aliases": [],
+      "status": "AUDIT_CLOSED",
+      "type": "Audit",
+      "definition": "Classifies eta/vacuum, Standard Model, mass-matrix, numerical and empirical debts without expanding the roadmap.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "E023"
+      ],
+      "notes": []
+    },
+    {
+      "model_handle": "@higgs_work_qmo",
+      "canonical_handle": "@higgs_work_layer_closure",
+      "canonical_name": "Higgs Work-Layer Closure",
+      "aliases": [],
+      "status": "WORK_LAYER_CLOSED__PHYSICAL_IDENTIFICATION_OPEN",
+      "type": "Closure",
+      "definition": "Integrated E001-E024 work-layer closure. Physical identification remains explicitly open.",
+      "symbols": [],
+      "equations": [],
+      "provenance": [
+        "E024"
+      ],
+      "notes": []
+    }
+  ]
+}

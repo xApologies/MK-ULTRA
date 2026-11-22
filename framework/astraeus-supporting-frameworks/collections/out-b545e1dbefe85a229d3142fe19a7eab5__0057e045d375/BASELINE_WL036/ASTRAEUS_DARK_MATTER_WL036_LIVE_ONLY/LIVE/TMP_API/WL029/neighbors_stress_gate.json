@@ -1,0 +1,63 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_NEIGHBORS_V1",
+  "handle": "@dm_stress_energy_separation_gate",
+  "incoming": [],
+  "outgoing": [
+    [
+      "@dm_hidden_sector_conservation",
+      {
+        "source": "@dm_stress_energy_separation_gate",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_hidden_sector_conservation",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1",
+        "origin": "DARKMATTER_2.1",
+        "origin_api": "DARKMATTER_2.1"
+      }
+    ],
+    [
+      "@dm_stress_energy_realization_family",
+      {
+        "source": "@dm_stress_energy_separation_gate",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_stress_energy_realization_family",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1",
+        "origin": "DARKMATTER_2.1",
+        "origin_api": "DARKMATTER_2.1"
+      }
+    ],
+    [
+      "@energy_density",
+      {
+        "source": "@dm_stress_energy_separation_gate",
+        "relation": "USES",
+        "target": "@energy_density",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      }
+    ],
+    [
+      "@stress_energy_tensor",
+      {
+        "source": "@dm_stress_energy_separation_gate",
+        "relation": "USES",
+        "target": "@stress_energy_tensor",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      }
+    ]
+  ]
+}

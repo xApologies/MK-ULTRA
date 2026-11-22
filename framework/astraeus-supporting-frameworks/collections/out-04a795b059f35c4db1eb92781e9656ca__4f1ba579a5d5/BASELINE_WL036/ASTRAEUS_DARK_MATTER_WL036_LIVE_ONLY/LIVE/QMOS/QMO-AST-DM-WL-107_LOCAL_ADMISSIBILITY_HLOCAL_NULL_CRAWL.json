@@ -1,0 +1,20 @@
+{
+  "schema": "ASTRAEUS_LOCAL_ADMISSIBILITY_HLOCAL_NULL_CRAWL_V1",
+  "qmo_id": "QMO-AST-DM-WL-107",
+  "name": "Local Admissibility H-LOCAL Null Crawl",
+  "atlas_version": "WL-v223",
+  "work_layer": "WL-035",
+  "status": "FOUNDATIONAL_LOOP_NO_LOCAL_HIDDEN_INSTANCE",
+  "parent_promotions": 0,
+  "selected_handle": "@local_admissibility",
+  "source_neighborhood": "@local_admissibility -> @global_inheritance",
+  "pair_target": "@dm_hidden_state_embedding",
+  "result": "radius-5 overlap reaches familiar foundational/hidden-bundle handles but exposes no DM-specific local cover, transition family, local embedding candidates, descent data, or gluing witness",
+  "guardrails": [
+    "dependency overlap != hidden local realization data",
+    "local_admissibility name != Transduction Adm_f instance by identity",
+    "foundational loop != OpenSlot closure",
+    "no parent promotion"
+  ],
+  "branch_disposition": "stop; global rank or pivot to another OpenSlot"
+}

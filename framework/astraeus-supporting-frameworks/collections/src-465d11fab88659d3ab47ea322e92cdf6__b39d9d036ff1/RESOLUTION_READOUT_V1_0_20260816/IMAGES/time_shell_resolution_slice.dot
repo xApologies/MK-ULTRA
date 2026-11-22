@@ -1,0 +1,15 @@
+digraph G {
+ graph [bgcolor="#07101f", rankdir=TB, pad="0.3", label="Time-Shell Resolution Address — Candidate", labelloc=t, fontcolor="#e3b76f", fontsize=22];
+ node [shape=box, style="rounded,filled", fillcolor="#101d31", color="#d7a85b", fontcolor="white", fontname="Helvetica"];
+ edge [color="#70b7d8", fontcolor="#d9eaf2", fontname="Helvetica"];
+ P [label="Persistent boundary state\nx in dXi"];
+ TS [label="Time-Shell translation\nPi_TS"];
+ ORD [label="Readable ordering address\no* (e.g. clock marker)"];
+ R1 [label="Resolution R1\ncoarse distinctions"];
+ R2 [label="Resolution R2\nfiner distinctions"];
+ D1 [label="TSAddr(o*,R1)"];
+ D2 [label="TSAddr(o*,R2)"];
+ P->TS->ORD;
+ ORD->R1->D1;
+ ORD->R2->D2;
+}

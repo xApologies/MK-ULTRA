@@ -1,0 +1,166 @@
+{
+  "all_passed": true,
+  "named_checks": 29,
+  "sympy_version": "1.14.0",
+  "scope": "Algebraic and geometric verification only. Synthetic fixtures, not independently generated MK43 native solutions.",
+  "curved_fixture": {
+    "coordinates": [
+      "t",
+      "r",
+      "y",
+      "z"
+    ],
+    "regular_domain": "r > -1",
+    "bar_metric": "Matrix([[-1, 0, 0, 0], [0, 1, 0, 0], [0, 0, (r**2 + 1)**2, 0], [0, 0, 0, 1]])",
+    "metric": "Matrix([[-r**2 - 1, 0, 0, 0], [0, 1, 0, 0], [0, 0, (r**2 + 1)**2, 0], [0, 0, 0, (r + 1)**2]])",
+    "bar_scalar_curvature": "-4/(r**2 + 1)",
+    "scalar_curvature": "2*(-7*r**3 - 4*r**2 - 6*r - 3)/(r**5 + r**4 + 2*r**3 + 2*r**2 + r + 1)"
+  },
+  "checks": [
+    {
+      "name": "mode_left_inverse",
+      "passed": true,
+      "scope": "synthetic isometry"
+    },
+    {
+      "name": "mode_image_right_inverse",
+      "passed": true,
+      "scope": "synthetic isometry"
+    },
+    {
+      "name": "image_projector_idempotence",
+      "passed": true,
+      "scope": "synthetic isometry"
+    },
+    {
+      "name": "image_projector_self_adjoint",
+      "passed": true,
+      "scope": "synthetic isometry"
+    },
+    {
+      "name": "mode_norm_preserved",
+      "passed": true,
+      "scope": "synthetic isometry"
+    },
+    {
+      "name": "outside_image_detected",
+      "passed": true,
+      "scope": "negative control"
+    },
+    {
+      "name": "operator_intertwining",
+      "passed": true,
+      "scope": "synthetic operator transport"
+    },
+    {
+      "name": "operator_composition",
+      "passed": true,
+      "scope": "synthetic operator transport"
+    },
+    {
+      "name": "operator_commutator",
+      "passed": true,
+      "scope": "synthetic operator transport"
+    },
+    {
+      "name": "matrix_element_preserved",
+      "passed": true,
+      "scope": "synthetic operator transport"
+    },
+    {
+      "name": "native_recurrence_transports",
+      "passed": true,
+      "scope": "update depth, not physical time"
+    },
+    {
+      "name": "correction_preserves_sector",
+      "passed": true,
+      "scope": "synthetic block-preserving correction"
+    },
+    {
+      "name": "lock_does_not_appear",
+      "passed": true,
+      "scope": "synthetic mass-protection condition"
+    },
+    {
+      "name": "readable_constraint_preserved",
+      "passed": true,
+      "scope": "synthetic constraint intertwining"
+    },
+    {
+      "name": "fixed_point_resolvent_solution",
+      "passed": true,
+      "scope": "synthetic linear fixed-point fixture"
+    },
+    {
+      "name": "fixed_point_source_derivative",
+      "passed": true,
+      "scope": "synthetic derivative verification"
+    },
+    {
+      "name": "feedback_is_not_omittable",
+      "passed": true,
+      "scope": "negative control"
+    },
+    {
+      "name": "singular_feedback_detected",
+      "passed": true,
+      "scope": "negative control; inverse not assumed"
+    },
+    {
+      "name": "metric_encode_decode",
+      "passed": true,
+      "scope": "GRC-1 component representation"
+    },
+    {
+      "name": "encoding_derivative",
+      "passed": true,
+      "scope": "GRC-1 differential dictionary"
+    },
+    {
+      "name": "representation_jacobian_nonzero",
+      "passed": true,
+      "scope": "GRC-1 regularity"
+    },
+    {
+      "name": "exact_connection_difference_all_64",
+      "passed": true,
+      "scope": "independent curved geometric fixture"
+    },
+    {
+      "name": "exact_curvature_difference_all_256",
+      "passed": true,
+      "scope": "independent curved geometric fixture"
+    },
+    {
+      "name": "reference_is_genuinely_curved",
+      "passed": true,
+      "scope": "curved geometric fixture; Rbar=-4/(1+r^2)"
+    },
+    {
+      "name": "bianchi_all_four_components",
+      "passed": true,
+      "scope": "geometric identity, not a matter-solution test"
+    },
+    {
+      "name": "dropping_quadratic_connection_terms_detected",
+      "passed": true,
+      "scope": "negative control"
+    },
+    {
+      "name": "arbitrary_input_not_claimed_vacuum_solution",
+      "passed": true,
+      "scope": "negative control; no T=G/kappa construction"
+    },
+    {
+      "name": "tt_keeps_two_polarizations",
+      "passed": true,
+      "scope": "standard algebra on admitted tensor input"
+    },
+    {
+      "name": "tt_does_not_preserve_arbitrary_metric_content",
+      "passed": true,
+      "scope": "negative control"
+    }
+  ]
+}

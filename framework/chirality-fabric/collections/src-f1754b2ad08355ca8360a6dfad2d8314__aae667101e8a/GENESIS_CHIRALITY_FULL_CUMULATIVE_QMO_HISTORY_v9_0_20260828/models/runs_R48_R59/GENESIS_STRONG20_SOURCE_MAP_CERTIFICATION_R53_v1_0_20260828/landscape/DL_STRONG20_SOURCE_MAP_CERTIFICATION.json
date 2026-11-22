@@ -1,0 +1,35 @@
+{
+  "qmo_address": "@dl/strong20_source_map_certification",
+  "candidate_count": 20,
+  "counts": {
+    "INSUFFICIENT_SOURCE_DATA": 15,
+    "TYPE_PASS_TO_S_t_phys__NO_REALIZED_MAP": 2,
+    "INSUFFICIENT_OR_WRONG_CODOMAIN": 3
+  },
+  "best_candidates": [
+    {
+      "handle": "@dm_constraint_preserving_embedding_family",
+      "classification": "TYPE_PASS_TO_S_t_phys__NO_REALIZED_MAP",
+      "gates": [
+        "PASS_TYPE",
+        "PASS_TYPE",
+        "PASS_TYPE",
+        "PASS_TYPE",
+        "PASS_TYPE"
+      ]
+    },
+    {
+      "handle": "@dm_hidden_state_embedding",
+      "classification": "TYPE_PASS_TO_S_t_phys__NO_REALIZED_MAP",
+      "gates": [
+        "PASS_TYPE",
+        "PASS_TYPE",
+        "PASS_TYPE",
+        "PASS_TYPE",
+        "PASS_TYPE"
+      ]
+    }
+  ],
+  "closure": "strong candidates reconverge on typed embedding branch; no realized map found",
+  "next": "@qmo/conditional_hidden_carrier_pipeline"
+}

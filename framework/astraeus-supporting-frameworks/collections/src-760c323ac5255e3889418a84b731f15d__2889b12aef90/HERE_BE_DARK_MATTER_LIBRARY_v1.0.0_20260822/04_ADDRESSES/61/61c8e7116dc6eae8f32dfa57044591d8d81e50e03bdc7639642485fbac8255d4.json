@@ -1,0 +1,67 @@
+{
+  "handle": "@helicon_kernel_derivation",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Helicon Kernel Derivation",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 0,
+    "xapi_raw_in_count": 2,
+    "live_out_count": 0,
+    "live_in_count": 1,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@helicon",
+        "relation": "REQUIRES_AUDIT",
+        "target": "@helicon_kernel_derivation",
+        "graph_family": "audit",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "recovery_pass": "RP-37",
+        "provenance": "DIRECT_TYPED_API:51574"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 615,
+        "source": "@helicon",
+        "relation": "REQUIRES_AUDIT",
+        "target": "@helicon_kernel_derivation",
+        "layer": "API43",
+        "graph_family": "audit",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_TYPED_API:51574"
+      },
+      {
+        "id": 19201,
+        "source": "@helicon",
+        "relation": "REQUIRES_AUDIT",
+        "target": "@helicon_kernel_derivation",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_TYPED_API:51574"
+      }
+    ]
+  },
+  "address": "@helicon_kernel_derivation",
+  "address_sha256": "61c8e7116dc6eae8f32dfa57044591d8d81e50e03bdc7639642485fbac8255d4"
+}

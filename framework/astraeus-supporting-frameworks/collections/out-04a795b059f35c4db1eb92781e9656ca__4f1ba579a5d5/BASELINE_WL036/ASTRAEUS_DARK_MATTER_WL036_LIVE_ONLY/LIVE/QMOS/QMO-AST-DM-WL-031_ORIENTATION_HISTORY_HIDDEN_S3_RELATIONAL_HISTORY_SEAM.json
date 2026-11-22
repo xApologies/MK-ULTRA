@@ -1,0 +1,40 @@
+{
+  "schema": "ASTRAEUS_API_QMO_PAIR_LANDSCAPE_V1",
+  "qmo_id": "QMO-AST-DM-WL-031",
+  "name": "Orientation-History / Hidden-S3 Network Seam Landscape",
+  "status": "API_COMPOSED_WORK_LAYER_LANDSCAPE_NOT_PARENT_PROMOTED",
+  "operation": "PAIRWISE_BIDIRECTIONAL_RADIUS2_EXACT_HANDLE_INTERSECTION",
+  "left": {
+    "seed": "@orientation_history",
+    "api_role": "TIME_SPACE_API_4.3",
+    "radius": 2,
+    "reachable": 11
+  },
+  "right": {
+    "seed": "@dm_hidden_s3_network",
+    "api_role": "DARK_MATTER_API_2.2",
+    "radius": 2,
+    "reachable": 29
+  },
+  "interface": [
+    {
+      "handle": "@dm_hidden_state_bundle",
+      "left_distance": 2,
+      "right_distance": 1
+    },
+    {
+      "handle": "@relational_history",
+      "left_distance": 1,
+      "right_distance": 2
+    }
+  ],
+  "selected_next_handle": "@relational_history",
+  "api_attachment": "@dm_hidden_state_bundle DEPENDS_ON @relational_history and @dm_hidden_s3_network (DM2.1 direct-edge registry).",
+  "interpretation": "The rotational-History side and hidden-S3-network side meet through relational History. This makes @relational_history the next handle to crawl, not a new manually invented bridge.",
+  "guardrails": [
+    "intersection != realization",
+    "reverse navigation != reverse dependency",
+    "no new edge",
+    "no parent promotion"
+  ]
+}

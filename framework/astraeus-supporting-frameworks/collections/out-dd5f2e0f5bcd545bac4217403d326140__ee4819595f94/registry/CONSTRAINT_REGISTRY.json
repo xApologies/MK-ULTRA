@@ -1,0 +1,37 @@
+[
+  {
+    "handle": "@dm_direct_cycle_gravity_no_go",
+    "status": "ATLAS_DERIVED_CLOSED",
+    "scope": "Pure divergence-free circulation in the direct deltaC gravity channel.",
+    "statement": "Direct gravitational source contribution vanishes.",
+    "branch_effect": "Prunes direct circulation-as-source shortcut only."
+  },
+  {
+    "handle": "@dm_hidden_sector_conservation",
+    "status": "ATLAS_DERIVED_CLOSED",
+    "scope": "Any defined decomposition T_full=T_vis+T_H with total covariant conservation.",
+    "statement": "∇_μ T_H^{μν}=-J^ν where J^ν=∇_μ T_vis^{μν}.",
+    "branch_effect": "Closes the balance-law form; does not choose T_H."
+  },
+  {
+    "handle": "@dm_local_continuity_response_coefficient",
+    "status": "ATLAS_DERIVED_CLOSED",
+    "scope": "Continuity Laplacian definition.",
+    "statement": "L_N uses w_e=kappa_ij A_ij; runtime transition capacity is a separate saturation ceiling.",
+    "branch_effect": "Removes the DM1 child circular dependency."
+  },
+  {
+    "handle": "@dm_one_port_no_go",
+    "status": "ATLAS_DERIVED_CLOSED",
+    "scope": "Free hidden connected component attached to only one readable port.",
+    "statement": "Effective Schur/Kron port response vanishes.",
+    "branch_effect": "Prunes isolated one-port mechanism only."
+  },
+  {
+    "handle": "@dm_q_survival",
+    "status": "ATLAS_DERIVED_CLOSED",
+    "scope": "Q-completions whose morphisms preserve the residue-bundle constituent.",
+    "statement": "Non-isomorphic full/visible residue bundles cannot be identified by a Q-isomorphism that restricts to a residue-bundle isomorphism.",
+    "branch_effect": "Closes field-handoff survival after bundle-level survival."
+  }
+]

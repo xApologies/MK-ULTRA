@@ -1,0 +1,77 @@
+{
+  "T1": {
+    "initial_distance": 2.320371352727497,
+    "common_mode_distance": 2.320371352727497,
+    "common_mode_error": 0.0,
+    "relative_update_distance": 2.1055675125136624,
+    "relative_distance_change": -0.2148038402138348,
+    "verdict": "PASS"
+  },
+  "T2": {
+    "before": [
+      "House",
+      "Room",
+      "Sofa",
+      "Pillow",
+      "Pillow"
+    ],
+    "after": [
+      "House",
+      "Room",
+      "Floor",
+      "Pillow",
+      "Pillow"
+    ],
+    "identity_terminal_before": [
+      "Pillow",
+      "Pillow"
+    ],
+    "identity_terminal_after": [
+      "Pillow",
+      "Pillow"
+    ],
+    "same_identity_closure": true,
+    "base_context_changed": true,
+    "source_typing": "TRANSDUCTION_if_Sofa_vs_Floor_is_declared_base_context; TRANSPORT_if_both_are_states_inside_one_fixed_Room_base_context",
+    "verdict": "PASS_WITH_TYPED_BRANCH"
+  },
+  "T3": {
+    "theta_initial": 2.0751885100717655,
+    "theta_common_rotation": 2.0751885100717655,
+    "common_rotation_error": 0.0,
+    "theta_after_relative_update": 1.8852974397779425,
+    "relative_change": -0.18989107029382302,
+    "local_vector_status": "AVAILABLE_AWAY_FROM_ANTIPODE_VIA_TANGENT_LOG_MAP",
+    "antipode_status": "BRANCH_NONUNIQUE_GEODESIC_DIRECTION",
+    "verdict": "PASS_WITH_INTRINSIC_BRANCH"
+  },
+  "T4": {
+    "projection_operator": "Pi = sum_d I_d B_d R_d O_d C_d",
+    "propagation_morphism": "Prop_gamma : relational occupancy state X -> relational occupancy state Y",
+    "composition_pattern": "C_alpha_beta = Pi_beta o P_W o L_alpha",
+    "role_separation": {
+      "L_alpha": "select/realize admissible lift",
+      "P_W": "transport/propagation through corridor",
+      "Pi_beta": "project/read out organizational state at target"
+    },
+    "commutation_claim": "NOT_ASSUMED",
+    "verdict": "PASS_SOURCE_TYPED"
+  },
+  "T5": {
+    "composable": true,
+    "portal_word": [
+      "p1",
+      "p2",
+      "p3"
+    ],
+    "source": "x0",
+    "target": "x3",
+    "history_preserved": [
+      "p1",
+      "p2",
+      "p3"
+    ],
+    "endpoint_only_is_insufficient": true,
+    "verdict": "PASS"
+  }
+}

@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+
+<html lang="" xml:lang="" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8"/>
+<meta content="pandoc" name="generator"/>
+<meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
+<title>landscapes</title>
+<style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+<style>
+:root { color-scheme: light dark; }
+body { max-width: 980px; margin: 0 auto; padding: 2.2rem 1.5rem 5rem; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 1.62; }
+h1,h2,h3,h4 { line-height: 1.2; margin-top: 1.8em; }
+h1 { border-bottom: 2px solid currentColor; padding-bottom: .25rem; }
+h2 { border-bottom: 1px solid color-mix(in srgb, currentColor 30%, transparent); padding-bottom: .2rem; }
+blockquote { border-left: 4px solid currentColor; padding-left: 1rem; margin-left: 0; opacity: .92; }
+pre, code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+pre { overflow-x: auto; padding: 1rem; border: 1px solid color-mix(in srgb, currentColor 20%, transparent); border-radius: 8px; }
+code { font-size: .92em; }
+table { border-collapse: collapse; width: 100%; overflow-x: auto; display: block; }
+th, td { border: 1px solid color-mix(in srgb, currentColor 25%, transparent); padding: .45rem .6rem; vertical-align: top; }
+a { color: inherit; text-decoration-thickness: .08em; }
+nav#TOC { padding: 1rem 1.2rem; border: 1px solid color-mix(in srgb, currentColor 25%, transparent); border-radius: 10px; }
+.reader-banner { border: 2px solid currentColor; border-radius: 12px; padding: .8rem 1rem; margin: 0 0 2rem; font-weight: 650; }
+mjx-container { max-width: 100%; }
+mjx-container[display="true"] { display: block; overflow-x: auto; overflow-y: hidden; padding: .45rem 0; margin: 1rem 0; }
+mjx-container svg { max-width: 100%; }
+.eq-source { font-size: .86rem; opacity: .75; margin-bottom: .25rem; }
+.eq-card { padding: .6rem .9rem; margin: .7rem 0 1.2rem; border-left: 3px solid color-mix(in srgb, currentColor 45%, transparent); }
+.render-fallback { font-family: Georgia, "Times New Roman", serif; white-space: pre-wrap; overflow-x: auto; }
+@media (max-width: 600px) { body { font-size: 17px; padding: 1.2rem .8rem 3rem; } }
+</style></head>
+<body><div class="reader-banner">READER EDITION — equations are pre-rendered as vector mathematics. No LaTeX renderer, plug-in, or internet connection is required.</div>
+<header id="title-block-header">
+<h1 class="title">landscapes</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#landscapes" id="toc-landscapes">Landscapes</a></li>
+</ul>
+</nav>
+<h1 id="landscapes">Landscapes</h1>
+<p>Records: <strong>33</strong></p>
+<table>
+<colgroup>
+<col style="width: 25%"/>
+<col style="width: 25%"/>
+<col style="width: 25%"/>
+<col style="width: 25%"/>
+</colgroup>
+<thead>
+<tr class="header">
+<th>id</th>
+<th>seed</th>
+<th>status</th>
+<th>source_file</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>DL-DM-E062-HIDDEN-EMBEDDING</td>
+<td><span class="citation" data-cites="dm_hidden_state_embedding">@dm_hidden_state_embedding</span></td>
+<td>APPEND_ONLY</td>
+<td>live/checkpoints/E062/landscapes/DL-DM-E062-HIDDEN-EMBEDDING.json</td>
+</tr>
+<tr class="even">
+<td>DL-DM-E063-READOUT-DISCRIMINATION</td>
+<td><span class="citation" data-cites="dm_native_hidden_witness">@dm_native_hidden_witness</span></td>
+<td>BOUNDED_OPEN_FRONTIER</td>
+<td>live/checkpoints/E063/landscapes/DL-DM-E063-READOUT-DISCRIMINATION.json</td>
+</tr>
+<tr class="odd">
+<td>DL-DM-E064-CONDITIONAL-DARK-READOUT</td>
+<td><span class="citation" data-cites="dm_joint_hidden_network_witness">@dm_joint_hidden_network_witness</span></td>
+<td>CONDITIONAL_FORWARD_LANDSCAPE</td>
+<td>live/checkpoints/E064/landscapes/DL-DM-E064-CONDITIONAL-DARK-READOUT.json</td>
+</tr>
+<tr class="even">
+<td>DL-DM-E065-BOUNDARY-RESIDUE-SEED</td>
+<td><span class="citation" data-cites="dm_hidden_boundary_contact">@dm_hidden_boundary_contact</span></td>
+<td>APPEND_ONLY_CONDITIONAL</td>
+<td>live/checkpoints/E065/landscapes/DL-DM-E065-BOUNDARY-RESIDUE-SEED.json</td>
+</tr>
+<tr class="odd">
+<td>DL-DM-E066-RESIDUE-Q-SURVIVAL</td>
+<td><span class="citation" data-cites="dm_projection_residue_survival">@dm_projection_residue_survival</span></td>
+<td>APPEND_ONLY_CONDITIONAL</td>
+<td>live/checkpoints/E066/landscapes/DL-DM-E066-RESIDUE-Q-SURVIVAL.json</td>
+</tr>
+<tr class="even">
+<td>DL-DM-E067-STRESS-ACTIVE-ACTION</td>
+<td><span class="citation" data-cites="dm_metric_action_selection">@dm_metric_action_selection</span></td>
+<td>APPEND_ONLY</td>
+<td>live/checkpoints/E067/landscapes/DL-DM-E067-STRESS-ACTIVE-ACTION.json</td>
+</tr>
+<tr class="odd">
+<td>DL-DM-E068-LIVE-QUALIFICATION-CUT</td>
+<td><span class="citation" data-cites="dm_dark_matter_qualification_nonempty">@dm_dark_matter_qualification_nonempty</span></td>
+<td>DIAGNOSTIC_APPEND_ONLY</td>
+<td>live/checkpoints/E068/landscapes/DL-DM-E068-LIVE-QUALIFICATION-CUT.json</td>
+</tr>
+<tr class="even">
+<td>DL-DM-E069-SCALAR-PROXY-STRESS-ACTIVE</td>
+<td><span class="citation" data-cites="dm_stress_active_action_fiber_nonempty">@dm_stress_active_action_fiber_nonempty</span></td>
+<td>APPEND_ONLY_CONDITIONAL</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DL-DM-E070-ACTION-DARK-READOUT</td>
+<td><span class="citation" data-cites="dm_conditional_scalar_stress_active_witness">@dm_conditional_scalar_stress_active_witness</span></td>
+<td>APPEND_ONLY_CONDITIONAL</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DL-DM-E071-CONDITIONAL-QUALIFICATION-ASSEMBLY</td>
+<td><span class="citation" data-cites="dm_dark_matter_qualification_locus">@dm_dark_matter_qualification_locus</span></td>
+<td>APPEND_ONLY_CONDITIONAL</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DL-DM-E072-PROOF-DEBT-COMPRESSION</td>
+<td><span class="citation" data-cites="dm_dark_matter_qualification_nonempty">@dm_dark_matter_qualification_nonempty</span></td>
+<td>DIAGNOSTIC_APPEND_ONLY</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DL-DM-E073-UCM-SOURCE-DOMAIN</td>
+<td><span class="citation" data-cites="dm_joint_hidden_network_witness">@dm_joint_hidden_network_witness</span></td>
+<td>APPEND_ONLY_SOURCE_DOMAIN_CLOSURE</td>
+<td>live/registry</td>
+</tr>
+<tr class="odd">
+<td>DL-DM-E074-UCM-EVENT-SOURCE-GATE</td>
+<td><span class="citation" data-cites="dm_ucm_source_domain_distinction">@dm_ucm_source_domain_distinction</span></td>
+<td>DIAGNOSTIC_APPEND_ONLY</td>
+<td>live/registry</td>
+</tr>
+<tr class="even">
+<td>DL-DM-E075-UCM-COMPONENT-WITNESS</td>
+<td><span class="citation" data-cites="dm_joint_hidden_network_witness">@dm_joint_hidden_network_witness</span></td>
+<td>APPEND_ONLY_CONDITIONAL</td>
+<td>live/registry</td>
+</tr>
+<tr class="odd">
+<td>DL-DM-E076-UCM-QUALIFICATION-RERANK</td>
+<td><span class="citation" data-cites="dm_dark_matter_qualification_locus">@dm_dark_matter_qualification_locus</span></td>
+<td>DIAGNOSTIC_APPEND_ONLY</td>
+<td>live/registry</td>
+</tr>
+<tr class="even">
+<td>DL-DM-E077-UCM-SOURCE-SCOPE</td>
+<td><span class="citation" data-cites="universal_coupling">@universal_coupling</span></td>
+<td>SOURCE_ARCHAEOLOGY_CLOSED</td>
+<td>live/registry</td>
+</tr>
+<tr class="odd">
+<td>DL-DM-E078-UCM-TWO-GATE</td>
+<td><span class="citation" data-cites="dm_ucm_source_domain_distinction">@dm_ucm_source_domain_distinction</span></td>
+<td>DIAGNOSTIC_SPLIT_CLOSED</td>
+<td>live/registry</td>
+</tr>
+<tr class="even">
+<td>DL-DM-E079-R4R7-EVENT-WITNESS</td>
+<td><span class="citation" data-cites="dm_ucm_dynamic_event_survival">@dm_ucm_dynamic_event_survival</span></td>
+<td>CONDITIONAL_FORWARD_CLOSURE</td>
+<td>live/registry</td>
+</tr>
+<tr class="odd">
+<td>DL-DM-E080-RESPONSE-SPECTRUM-RESIDUE</td>
+<td><span class="citation" data-cites="dm_hidden_response_operator">@dm_hidden_response_operator</span></td>
+<td>CONDITIONAL_DISCRIMINATOR_CLOSURE</td>
+<td>live/registry</td>
+</tr>
+<tr class="even">
+<td>DL-DM-E081-TRACE-INVARIANT</td>
+<td><span class="citation" data-cites="dm_hidden_response_operator">@dm_hidden_response_operator</span></td>
+<td>INTERNAL_MATH_CLOSED</td>
+<td>DL-DM-E081-TRACE-INVARIANT.json</td>
+</tr>
+<tr class="odd">
+<td>DL-DM-E082-TRACE-TO-RESIDUE</td>
+<td><span class="citation" data-cites="dm_port_response_trace_invariant">@dm_port_response_trace_invariant</span></td>
+<td>CONDITIONAL_FORWARD_CLOSURE</td>
+<td>DL-DM-E082-TRACE-TO-RESIDUE.json</td>
+</tr>
+<tr class="even">
+<td>DL-DM-E083-TRACE-Q-SURVIVAL</td>
+<td><span class="citation" data-cites="dm_conditional_response_trace_residue_survival">@dm_conditional_response_trace_residue_survival</span></td>
+<td>CONDITIONAL_Q_SURVIVAL_CLOSED</td>
+<td>DL-DM-E083-TRACE-Q-SURVIVAL.json</td>
+</tr>
+<tr class="odd">
+<td>DL-DM-E084-EVENT-DENSITY-GATE</td>
+<td><span class="citation" data-cites="dm_conditional_ucm_dynamic_event_witness">@dm_conditional_ucm_dynamic_event_witness</span></td>
+<td>CONDITIONAL_GATE_2_CLOSURE</td>
+<td>DL-DM-E084-EVENT-DENSITY-GATE.json</td>
+</tr>
+<tr class="even">
+<td>DL-DM-E085-PROFILE-READOUT-ROUTE</td>
+<td><span class="citation" data-cites="dm_native_density_to_readable_source">@dm_native_density_to_readable_source</span></td>
+<td>SOURCE_ROUTE_RECONCILED</td>
+<td>live/checkpoints/E085/landscapes/DL-DM-E085-PROFILE-READOUT-ROUTE.json</td>
+</tr>
+<tr class="odd">
+<td>DL-DM-E086-EXPLICIT-CONTINUITY-RESIDUAL</td>
+<td><span class="citation" data-cites="dm_hidden_response_operator">@dm_hidden_response_operator</span></td>
+<td>INTERNAL_MATH_CLOSED</td>
+<td>live/checkpoints/E086/landscapes/DL-DM-E086-EXPLICIT-CONTINUITY-RESIDUAL.json</td>
+</tr>
+<tr class="even">
+<td>DL-DM-E087-DIRECT-GRAVITY-FIBER</td>
+<td><span class="citation" data-cites="dm_explicit_two_port_continuity_residual_witness">@dm_explicit_two_port_continuity_residual_witness</span></td>
+<td>OPEN_SINGLE_PROJECTION_FIBER_GATE</td>
+<td>live/checkpoints/E087/landscapes/DL-DM-E087-DIRECT-GRAVITY-FIBER.json</td>
+</tr>
+<tr class="odd">
+<td>DL-DM-E088-DIRECT-TIMESHELL-DARK-READOUT</td>
+<td><span class="citation" data-cites="dm_explicit_two_port_continuity_residual_witness">@dm_explicit_two_port_continuity_residual_witness</span></td>
+<td>CONDITIONAL_DARK_READOUT_CLOSED</td>
+<td>live/checkpoints/E088/landscapes/DL-DM-E088-DIRECT-TIMESHELL-DARK-READOUT.json</td>
+</tr>
+<tr class="even">
+<td>DL-DM-E089-CHIRALITY-PROBE-BASIS</td>
+<td><span class="citation" data-cites="chirality_seed">@chirality_seed</span></td>
+<td>SOURCE_RECOVERY_CLOSED</td>
+<td>live/checkpoints/E089/landscapes/DL-DM-E089-CHIRALITY-PROBE-BASIS.json</td>
+</tr>
+<tr class="odd">
+<td>DL-DM-E090-CHIRALITY-CONTRAST-NORMAL-FORM</td>
+<td><span class="citation" data-cites="dm_chirality_seed_byte_probe_basis">@dm_chirality_seed_byte_probe_basis</span></td>
+<td>INTERNAL_MATH_CLOSED</td>
+<td>live/checkpoints/E090/landscapes/DL-DM-E090-CHIRALITY-CONTRAST-NORMAL-FORM.json</td>
+</tr>
+<tr class="even">
+<td>DL-DM-E091-CHIRALITY-BASIN-WIND-TUNNEL</td>
+<td><span class="citation" data-cites="chirality_byte">@chirality_byte</span></td>
+<td>CONDITIONAL_FINITE_SWEEP_CLOSED</td>
+<td>live/checkpoints/E091/landscapes/DL-DM-E091-CHIRALITY-BASIN-WIND-TUNNEL.json</td>
+</tr>
+<tr class="odd">
+<td>DL-DM-E092-CHIRALITY-TIMESHELL-GRAVITY-FIBER</td>
+<td><span class="citation" data-cites="chirality_seed">@chirality_seed</span></td>
+<td>OPEN_SINGLE_CANONICAL_PROJECTION_FIBER_GATE</td>
+<td>live/checkpoints/E092/landscapes/DL-DM-E092-CHIRALITY-TIMESHELL-GRAVITY-FIBER.json</td>
+</tr>
+<tr class="even">
+<td>DL-XAPI-E093-E096-DM43-COMBINED</td>
+<td>ALL_DM_OBJECTS</td>
+<td>FIXED_POINT_MAPPED</td>
+<td>live/checkpoints/E093/landscapes/DL-XAPI-E093-E096-DM43-COMBINED.json</td>
+</tr>
+<tr class="odd">
+<td>DL-DM-SRC-XAPI-E097-E100</td>
+<td>SRC-DM-019 + ER source spine</td>
+<td>CLOSED_SOURCE_EFFECTIVE_MAP</td>
+<td>ASTRAEUS_DM_E097_E100_SOURCE_CLOSURE_REPORT_20260822.md</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

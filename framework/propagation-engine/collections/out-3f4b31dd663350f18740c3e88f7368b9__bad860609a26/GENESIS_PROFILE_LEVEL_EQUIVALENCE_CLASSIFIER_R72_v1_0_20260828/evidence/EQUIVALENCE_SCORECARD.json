@@ -1,0 +1,50 @@
+{
+  "requirements": [
+    "preserve_closedness",
+    "preserve_recursive_incidence",
+    "permit_coordinate_deformation",
+    "distinguish_history",
+    "commute_with_projection_tower",
+    "support_higher_order_cells"
+  ],
+  "candidates": {
+    "geometric_congruence": {
+      "preserve_closedness": 1,
+      "preserve_recursive_incidence": 1,
+      "permit_coordinate_deformation": 0,
+      "distinguish_history": 0,
+      "commute_with_projection_tower": 1,
+      "support_higher_order_cells": 1
+    },
+    "homeomorphism_only": {
+      "preserve_closedness": 1,
+      "preserve_recursive_incidence": 0,
+      "permit_coordinate_deformation": 1,
+      "distinguish_history": 0,
+      "commute_with_projection_tower": 1,
+      "support_higher_order_cells": 0
+    },
+    "simplicial_cellular_isomorphism": {
+      "preserve_closedness": 1,
+      "preserve_recursive_incidence": 1,
+      "permit_coordinate_deformation": 1,
+      "distinguish_history": 0,
+      "commute_with_projection_tower": 1,
+      "support_higher_order_cells": 1
+    },
+    "history_decorated_tower_isomorphism": {
+      "preserve_closedness": 1,
+      "preserve_recursive_incidence": 1,
+      "permit_coordinate_deformation": 1,
+      "distinguish_history": 1,
+      "commute_with_projection_tower": 1,
+      "support_higher_order_cells": 1
+    }
+  },
+  "scores": {
+    "geometric_congruence": 4,
+    "homeomorphism_only": 3,
+    "simplicial_cellular_isomorphism": 5,
+    "history_decorated_tower_isomorphism": 6
+  }
+}

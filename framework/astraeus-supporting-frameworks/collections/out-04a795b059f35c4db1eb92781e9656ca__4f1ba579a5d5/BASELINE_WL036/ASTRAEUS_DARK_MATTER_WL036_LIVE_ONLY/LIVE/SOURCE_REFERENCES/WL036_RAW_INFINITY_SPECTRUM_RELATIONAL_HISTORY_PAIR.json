@@ -1,0 +1,29 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_PAIR_V1",
+  "a": "@infinity_spectrum",
+  "b": "@relational_history",
+  "radius": 4,
+  "interface": [
+    {
+      "handle": "@mote_chirality",
+      "distance_a": 4,
+      "distance_b": 3
+    },
+    {
+      "handle": "@mote_hilbert_space",
+      "distance_a": 3,
+      "distance_b": 4
+    },
+    {
+      "handle": "@mote",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@mote_ensemble",
+      "distance_a": 4,
+      "distance_b": 4
+    }
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry; exact-handle interface only"
+}

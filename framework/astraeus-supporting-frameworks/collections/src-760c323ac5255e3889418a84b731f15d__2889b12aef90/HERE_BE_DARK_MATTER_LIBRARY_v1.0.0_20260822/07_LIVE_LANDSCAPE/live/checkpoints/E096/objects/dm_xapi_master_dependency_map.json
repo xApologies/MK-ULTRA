@@ -1,0 +1,17 @@
+{
+  "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+  "handle": "@dm_xapi_master_dependency_map",
+  "canonical_name": "Dark Matter / API 4.3 Master Dependency Map",
+  "type": "CrossAPIFixedPointMap",
+  "status": "LIVE_DERIVED_CLOSED_MAP",
+  "checkpoint": "E096",
+  "definition": "Exhaustive fixed-point map of the baseline API 4.3 x DM 2.2 semantic environment, preserving every direct source relation and shortest closure path used for navigation.",
+  "math": "|V|=2422; |E_sem|=6489; |Cl(E_sem)|=72564; DM->API reachability pairs=4391; API->DM pairs=0.",
+  "parents": [
+    "QMO-XAPI-002"
+  ],
+  "working_assumptions": [],
+  "proof_debt": [],
+  "physical_claim": false,
+  "baseline_mutation": false
+}

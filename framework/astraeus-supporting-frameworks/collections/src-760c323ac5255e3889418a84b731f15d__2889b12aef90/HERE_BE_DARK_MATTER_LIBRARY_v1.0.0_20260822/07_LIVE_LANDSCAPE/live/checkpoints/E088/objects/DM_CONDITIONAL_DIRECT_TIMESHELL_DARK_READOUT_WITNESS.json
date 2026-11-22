@@ -1,0 +1,25 @@
+{
+  "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+  "handle": "@dm_conditional_direct_timeshell_dark_readout_witness",
+  "canonical_name": "Conditional Direct Time-Shell Dark-Readout Witness",
+  "type": "ConditionalDirectTimeShellDarkReadoutWitness",
+  "status": "LIVE_CONDITIONAL_CLOSED_WITH_SINGLE_GRAVITY_FIBER_DEBT",
+  "checkpoint": "E088",
+  "definition": "A direct conditional dark-readout witness exists on the selected two-port Time-Shell gravity fiber without using the UCM event-density bridge, chromatic route, or residue/Q route.",
+  "math": "M_R(N_full)=M_R(N_vis) and G_TS(-Lambda_full c_*)!=G_TS(-Lambda_vis c_*) => (N_full,N_vis,c_*) in D_G^R subset of the selected dark-readout comparison class.",
+  "parents": [
+    "@dm_two_port_timeshell_gravity_fiber_test",
+    "@dm_dark_readout_defect",
+    "@matter_readable_organization"
+  ],
+  "working_assumptions": [
+    "WA-DM-E064-002",
+    "WA-DM-E088-001"
+  ],
+  "proof_debt": [
+    "PD-DM-002",
+    "PD-DM-012"
+  ],
+  "physical_claim": false,
+  "baseline_mutation": false
+}

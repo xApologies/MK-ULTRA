@@ -1,0 +1,46 @@
+{
+  "schema": "ASTRAEUS_QMO_CROSS_CRAWL_V1",
+  "seeds": [
+    "@qmo_ast_dm_041"
+  ],
+  "targets": [
+    "@dm_v38_dark_source_nontriviality"
+  ],
+  "bidirectional": true,
+  "edge_count": 1659,
+  "reachable_count": 206,
+  "distance_histogram": {
+    "0": 1,
+    "1": 9,
+    "2": 30,
+    "3": 44,
+    "4": 122
+  },
+  "paths": {
+    "@qmo_ast_dm_041 -> @dm_v38_dark_source_nontriviality": [
+      {
+        "from": "@qmo_ast_dm_041",
+        "relation": "REFINES",
+        "to": "@dm_metric_action_selection",
+        "traversal": "forward",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V100_V108",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@dm_metric_action_selection",
+        "relation": "CONSTRAINS",
+        "to": "@dm_v38_dark_source_nontriviality",
+        "traversal": "reverse",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V37_V39",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      }
+    ]
+  },
+  "guardrail": "Navigation evidence only. Composed paths are not direct theorems and no parent object is promoted."
+}

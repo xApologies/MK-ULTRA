@@ -1,0 +1,106 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_PATH_QUERY_V1",
+  "source": "@orientation_history",
+  "target": "@gravity",
+  "path": [
+    {
+      "source": "@orientation_history",
+      "relation": "DEPENDS_TO",
+      "target": "@relational_history",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45106",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@relational_history",
+      "relation": "DEPENDS_TO",
+      "target": "@admissible_equivalence",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45129",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@admissible_equivalence",
+      "relation": "DEPENDS_TO",
+      "target": "@coherent_continuation_class",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45044",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@coherent_continuation_class",
+      "relation": "DEPENDS_TO",
+      "target": "@persistent_locus",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45064",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@persistent_locus",
+      "relation": "DEPENDS_TO",
+      "target": "@persistent_boundary",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45114",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@persistent_boundary",
+      "relation": "DEPENDS_TO",
+      "target": "@projection_admissibility",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45112",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@projection_admissibility",
+      "relation": "DEPENDS_TO",
+      "target": "@er_foam",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45122",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@er_foam",
+      "relation": "DEPENDS_TO",
+      "target": "@time_shell",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45075",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@time_shell",
+      "relation": "DEPENDS_TO",
+      "target": "@gravity",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45137",
+      "origin_api": "TIMESPACE_4.3"
+    }
+  ]
+}

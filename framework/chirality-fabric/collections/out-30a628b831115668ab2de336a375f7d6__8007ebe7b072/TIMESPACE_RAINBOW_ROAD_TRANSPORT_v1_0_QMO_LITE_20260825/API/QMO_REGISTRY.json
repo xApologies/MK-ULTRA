@@ -1,0 +1,71 @@
+{
+  "schema": "TIMESPACE_TRANSPORT_QMO_LITE_v1_0",
+  "database": "DATABASE/transport.sqlite3",
+  "api": "API/mini_qmo_api.py",
+  "addresses": [
+    {
+      "qmo_id": "Q_T5",
+      "uri": "qmo://timespace/T5",
+      "name": "Five-Dimensional Time-Space",
+      "status": "CURRENT_WORK_LAYER"
+    },
+    {
+      "qmo_id": "Q_ADDRESS",
+      "uri": "qmo://timespace/address",
+      "name": "Time-Space Address",
+      "status": "NEW_DERIVATION"
+    },
+    {
+      "qmo_id": "Q_CORRIDOR",
+      "uri": "qmo://timespace/corridor",
+      "name": "Chirality Corridor",
+      "status": "SOURCE_BACKED_WORK_LAYER"
+    },
+    {
+      "qmo_id": "Q_PORTAL",
+      "uri": "qmo://timespace/portal",
+      "name": "Portal Transaction",
+      "status": "SOURCE_BACKED_WORK_LAYER"
+    },
+    {
+      "qmo_id": "Q_ROAD",
+      "uri": "qmo://timespace/rainbow-road",
+      "name": "Rainbow Road",
+      "status": "NEW_DERIVATION"
+    },
+    {
+      "qmo_id": "Q_QREP",
+      "uri": "qmo://timespace/representation/qft",
+      "name": "Local QFT Representation",
+      "status": "OPEN_TYPED_TARGET"
+    },
+    {
+      "qmo_id": "Q_GREP",
+      "uri": "qmo://timespace/representation/gr",
+      "name": "Local GR Representation",
+      "status": "OPEN_TYPED_TARGET"
+    },
+    {
+      "qmo_id": "Q_UQ",
+      "uri": "qmo://timespace/transport/U_Q",
+      "name": "Induced QFT Transport",
+      "status": "OPEN"
+    },
+    {
+      "qmo_id": "Q_UG",
+      "uri": "qmo://timespace/transport/U_G",
+      "name": "Induced GR Transport",
+      "status": "OPEN"
+    },
+    {
+      "qmo_id": "Q_RQG",
+      "uri": "qmo://timespace/bridge/qft-gr-common-ancestry",
+      "name": "QFT-GR Common Ancestry",
+      "status": "NEW_DERIVATION"
+    }
+  ],
+  "open": [
+    "qmo://timespace/transport/U_Q",
+    "qmo://timespace/transport/U_G"
+  ]
+}

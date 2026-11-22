@@ -1,0 +1,22 @@
+{
+  "schema": "ASTRAEUS_ER_REPRESENTATION_SEAM_RETYPE_V1",
+  "qmo_id": "QMO-AST-DM-WL-112",
+  "name": "P024 Representation Seam Retype after Mote-Creation Recovery",
+  "atlas_version": "WL-v228",
+  "work_layer": "WL-036",
+  "status": "SOURCE_SIDE_REALIZATION_EXISTS_HISTORY_INGRESS_OPEN",
+  "parent_promotions": 0,
+  "prior_status": "WL-v213 REPRESENTATION_SEAM_OPEN because no canonical @mote -> @chirality_labelled_mote map was recovered.",
+  "new_status": "The source corpus does contain an explicit operator-level description that @white_core_mote_coupling converts abstract source degrees into concrete chirality-labelled mote states. This narrows but does not close P024.",
+  "p024_stage_A": {
+    "modern_mote_to_labelled_semantics": "SOURCE-SUPPORTED through white-core/collapse narrative, without direct canonical handle edge",
+    "H0_H1_to_source_degree_I_k": "OPEN / UNTYPED",
+    "ER_incidence_comparison": "NOT YET EVALUATED"
+  },
+  "disposition": "Do not return to ER incidence until an API/source object supplies the History-to-source-degree ingress. Return to next-handle ranking rather than inventing C_k(H).",
+  "primary_open_slots_unchanged": [
+    "@dm_hidden_state_embedding",
+    "@dm_metric_action_selection",
+    "@dm_dark_matter_qualification_nonempty"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "schema": "tome-publication-renderer-validation/v1",
+  "created_at": "2026-08-10T13:42:01.705074+00:00",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "engine": "KaTeX 0.16.22 -> HTML/CSS -> Playwright -> Microsoft Edge PDF",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_05_TIME_SHELL/MK_ULTRA_TOME_V05_C04_CHIRALITY_COUPLED_LOCALIZATION.pdf",
+    "bytes": 161469,
+    "sha256": "ad80b751853a7ce664ca4c07153d127f96f86f61ddc502f979c4e0b983e561d2"
+  },
+  "actual_pages": 6,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V05-C04": 3
+  },
+  "chapter_validations": [
+    {
+      "chapter_id": "V05-C04",
+      "source_sha256": "ec5166f184b025c1ed8f95900a49778f4ac91e2007e0318659e13bb59a4b8c2f",
+      "page_start": 3,
+      "headings": 18,
+      "display_equations": 17,
+      "inline_equations": 5,
+      "equation_tags": 17,
+      "api_handles": 11,
+      "table_rows": 12,
+      "content_markers_present": true
+    }
+  ],
+  "engine_metrics": {
+    "renderer": "TOME_PUBLICATION_RENDERER_V1",
+    "katexVersion": "0.16.22",
+    "chapters": [
+      {
+        "id": "V05-C04",
+        "sourceBytes": 9584,
+        "paragraphs": 31,
+        "headings": 18,
+        "displayEquations": 17,
+        "inlineEquations": 5,
+        "tables": 1,
+        "tableRows": 11,
+        "listItems": 0,
+        "codeBlocks": 0,
+        "figures": 0
+      }
+    ],
+    "paragraphs": 31,
+    "headings": 18,
+    "displayEquations": 17,
+    "inlineEquations": 5,
+    "tables": 1,
+    "tableRows": 11,
+    "listItems": 0,
+    "blockQuotes": 0,
+    "codeBlocks": 0,
+    "figures": 0,
+    "mathLayout": {
+      "checked": 17,
+      "scaled": [],
+      "remainingOverflow": []
+    }
+  },
+  "raw_latex_guard": {
+    "result": "PASS",
+    "hits": [],
+    "commands_scanned": [
+      "frac",
+      "mathcal",
+      "mathrm",
+      "begin",
+      "end",
+      "left",
+      "right",
+      "longrightarrow",
+      "rightarrow",
+      "otimes",
+      "partial",
+      "nabla",
+      "mu",
+      "nu",
+      "sum",
+      "int",
+      "operatorname"
+    ]
+  },
+  "visual_qa": {
+    "result": "PASS",
+    "pages_inspected": "ALL_6_PAGES",
+    "findings": {
+      "clipping": 0,
+      "overlap": 0,
+      "blank_pages": 0,
+      "unreadable_text": 0,
+      "math_layout_failures": 0
+    }
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V05-C04": "ec5166f184b025c1ed8f95900a49778f4ac91e2007e0318659e13bb59a4b8c2f"
+  },
+  "source_hashes_after": {
+    "V05-C04": "ec5166f184b025c1ed8f95900a49778f4ac91e2007e0318659e13bb59a4b8c2f"
+  },
+  "sealed_chapter_content_change_count": 0
+}

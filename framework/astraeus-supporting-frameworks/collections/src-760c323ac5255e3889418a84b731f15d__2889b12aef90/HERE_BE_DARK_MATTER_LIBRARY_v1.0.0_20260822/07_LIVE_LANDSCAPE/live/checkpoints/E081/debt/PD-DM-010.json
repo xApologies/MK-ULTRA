@@ -1,0 +1,15 @@
+{
+  "debt_id": "PD-DM-010",
+  "title": "Projection-symmetry action on hidden port-response representation",
+  "status": "ACTIVE_RESIDUE_SYMMETRY_TYPING",
+  "priority": "HIGH",
+  "checkpoint_opened": "E081",
+  "discharges": "@dm_projection_symmetry_response_action",
+  "related_handles": [
+    "@dm_port_response_trace_invariant",
+    "@dm_projection_residue_survival",
+    "@boundary_projection"
+  ],
+  "question": "On the selected Resolution-R boundary realization, does the admissible projection-symmetry action carry the hidden port-response operator by similarity/conjugacy so that the trace/spectral class is preserved?",
+  "trigger_to_reopen": "Recover or type one representation rho_Pi:G_Pi->GL(Vbar_H) with Lambda(g.x)=rho_Pi(g)Lambda(x)rho_Pi(g)^(-1), or a weaker trace-preservation contract sufficient for the selected comparator."
+}

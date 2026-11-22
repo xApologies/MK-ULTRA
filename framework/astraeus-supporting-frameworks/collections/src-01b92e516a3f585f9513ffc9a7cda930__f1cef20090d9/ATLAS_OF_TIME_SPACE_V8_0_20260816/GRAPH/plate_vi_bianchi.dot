@@ -1,0 +1,18 @@
+digraph G {
+ graph [bgcolor="#07111e", rankdir=LR, pad=0.4, label="ATLAS PLATE VI — LOCAL S² SOURCE CLOSURE", labelloc=t, fontcolor="#f3d48b", fontsize=24];
+ node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=12, color="#a7c7d9", fillcolor="#0c2033", fontcolor="#e8f2f7", penwidth=1.4];
+ edge [color="#87bad1", fontcolor="#dcecf2", fontname="Helvetica", fontsize=10, penwidth=1.5];
+ S3 [label="S³ Helicon / continuity load"];
+ H [label="Θ_H,p\nlocal gravitational transduction"];
+ TH [label="T^H_{μν}"];
+ vis [label="T^vis_{μν}\nordinary local matter/radiation"];
+ sum [label="T^tot_{μν}=T^vis_{μν}+T^H_{μν}", fillcolor="#193a38"];
+ G [label="G_{μν}[g_p]\nlocal Einstein tensor", fillcolor="#183349"];
+ B [label="∇^μ G_{μν}=0\n⇒ ∇^μ T^tot_{μν}=0", color="#f3d48b", penwidth=2.2];
+ J [label="exchange current J^H_ν\n∇T_vis=J ; ∇T_H=-J", fillcolor="#302a3b"];
+ S3 -> H -> TH -> sum;
+ vis -> sum;
+ sum -> G [label="8πG"];
+ G -> B;
+ TH -> J [style=dashed]; vis -> J [style=dashed]; J -> B [style=dashed];
+}

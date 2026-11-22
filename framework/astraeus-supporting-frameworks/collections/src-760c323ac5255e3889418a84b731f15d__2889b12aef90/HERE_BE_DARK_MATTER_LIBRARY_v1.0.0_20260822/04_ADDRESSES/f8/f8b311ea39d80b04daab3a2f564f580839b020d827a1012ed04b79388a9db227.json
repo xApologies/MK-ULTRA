@@ -1,0 +1,258 @@
+{
+  "handle": "@conservation_of_information",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Conservation Of Information",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 4,
+    "api43_direct_in_count": 4,
+    "xapi_raw_out_count": 6,
+    "xapi_raw_in_count": 7,
+    "live_out_count": 2,
+    "live_in_count": 3,
+    "closure_out_reachability_count": 159,
+    "closure_in_reachability_count": 17,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@conservation_of_information",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@global_inheritance",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56485->56487"
+      },
+      {
+        "source": "@conservation_of_information",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@global_inheritance",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "API_CODE_BLOCK:56487;API_CODE_BLOCK:56522;API_CODE_BLOCK:56578;CANONICAL_API_VERTICAL:56485->56487;CANONICAL_API_VERTICAL:56520->56522;CANONICAL_API_VERTICAL:56576->56578"
+      },
+      {
+        "source": "@conservation_of_information",
+        "relation": "CONNECTS_TO",
+        "target": "@black_hole_information_problem",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@black_hole_information_problem CONNECTS_TO @conservation_of_information); rule=CONNECTS_TO→CONNECTS_TO"
+      },
+      {
+        "source": "@conservation_of_information",
+        "relation": "CONNECTS_TO",
+        "target": "@quantum_information_geometry_in_mk_43_ultra",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-47",
+        "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=1; path=@conservation_of_information -> @black_hole_information_problem -> @quantum_information_geometry_in_mk_43_ultra; relations=CONNECTS_TO + CONNECTS_TO => CONNECTS_TO"
+      },
+      {
+        "source": "@time_space",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@conservation_of_information",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56483->56485"
+      },
+      {
+        "source": "@time_space",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@conservation_of_information",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "API_CODE_BLOCK:56485;CANONICAL_API_VERTICAL:56483->56485"
+      },
+      {
+        "source": "@black_hole_information_problem",
+        "relation": "CONNECTS_TO",
+        "target": "@conservation_of_information",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-45",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; The problem directly concerns conservation of information."
+      },
+      {
+        "source": "@quantum_information_geometry_in_mk_43_ultra",
+        "relation": "CONNECTS_TO",
+        "target": "@conservation_of_information",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-47",
+        "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=1; path=@quantum_information_geometry_in_mk_43_ultra -> @black_hole_information_problem -> @conservation_of_information; relations=CONNECTS_TO + CONNECTS_TO => CONNECTS_TO"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 248,
+        "source": "@conservation_of_information",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@global_inheritance",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56485->56487"
+      },
+      {
+        "id": 249,
+        "source": "@conservation_of_information",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@global_inheritance",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:56487;API_CODE_BLOCK:56522;API_CODE_BLOCK:56578;CANONICAL_API_VERTICAL:56485->56487;CANONICAL_API_VERTICAL:56520->56522;CANONICAL_API_VERTICAL:56576->56578"
+      },
+      {
+        "id": 3108,
+        "source": "@conservation_of_information",
+        "relation": "CONNECTS_TO",
+        "target": "@black_hole_information_problem",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@black_hole_information_problem CONNECTS_TO @conservation_of_information); rule=CONNECTS_TO→CONNECTS_TO"
+      },
+      {
+        "id": 3164,
+        "source": "@conservation_of_information",
+        "relation": "CONNECTS_TO",
+        "target": "@quantum_information_geometry_in_mk_43_ultra",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=1; path=@conservation_of_information -> @black_hole_information_problem -> @quantum_information_geometry_in_mk_43_ultra; relations=CONNECTS_TO + CONNECTS_TO => CONNECTS_TO"
+      },
+      {
+        "id": 19049,
+        "source": "@conservation_of_information",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@global_inheritance",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56485->56487"
+      },
+      {
+        "id": 19050,
+        "source": "@conservation_of_information",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@global_inheritance",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:56487;API_CODE_BLOCK:56522;API_CODE_BLOCK:56578;CANONICAL_API_VERTICAL:56485->56487;CANONICAL_API_VERTICAL:56520->56522;CANONICAL_API_VERTICAL:56576->56578"
+      },
+      {
+        "id": 1121,
+        "source": "@time_space",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@conservation_of_information",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56483->56485"
+      },
+      {
+        "id": 1122,
+        "source": "@time_space",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@conservation_of_information",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:56485;CANONICAL_API_VERTICAL:56483->56485"
+      },
+      {
+        "id": 2067,
+        "source": "@black_hole_information_problem",
+        "relation": "CONNECTS_TO",
+        "target": "@conservation_of_information",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; The problem directly concerns conservation of information."
+      },
+      {
+        "id": 3157,
+        "source": "@quantum_information_geometry_in_mk_43_ultra",
+        "relation": "CONNECTS_TO",
+        "target": "@conservation_of_information",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=1; path=@quantum_information_geometry_in_mk_43_ultra -> @black_hole_information_problem -> @conservation_of_information; relations=CONNECTS_TO + CONNECTS_TO => CONNECTS_TO"
+      },
+      {
+        "id": 19455,
+        "source": "@time_space",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@conservation_of_information",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56483->56485"
+      },
+      {
+        "id": 19456,
+        "source": "@time_space",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@conservation_of_information",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:56485;CANONICAL_API_VERTICAL:56483->56485"
+      },
+      {
+        "id": 19689,
+        "source": "@black_hole_information_problem",
+        "relation": "CONNECTS_TO",
+        "target": "@conservation_of_information",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; The problem directly concerns conservation of information."
+      }
+    ]
+  },
+  "address": "@conservation_of_information",
+  "address_sha256": "f8b311ea39d80b04daab3a2f564f580839b020d827a1012ed04b79388a9db227"
+}

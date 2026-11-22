@@ -1,0 +1,25 @@
+{
+  "handle": "iteration://IT-DM-E083-TRACE-Q-SURVIVAL",
+  "object_type": "bounded_iteration",
+  "status": "CONDITIONAL_Q_SURVIVAL_CLOSED",
+  "domain": "ITERATION",
+  "namespace": "mk43://iteration",
+  "name": "IT-DM-E083-TRACE-Q-SURVIVAL",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "BOUNDED_ITERATION",
+  "metadata": {
+    "id": "IT-DM-E083-TRACE-Q-SURVIVAL",
+    "seed": "@dm_conditional_response_trace_residue_survival",
+    "terminal_state": "CONDITIONAL_Q_SURVIVAL_CLOSED",
+    "source_file": "IT-DM-E083-TRACE-Q-SURVIVAL.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_ITERATION_RUN_V1\", \"run_id\": \"IT-DM-E083-TRACE-Q-SURVIVAL\", \"checkpoint\": \"E083\", \"seed\": \"@dm_conditional_response_trace_residue_survival\", \"ceiling\": 64, \"iterations_used\": 3, \"terminal_state\": \"CONDITIONAL_Q_SURVIVAL_CLOSED\", \"open_next\": \"@dm_event_density_component_survival\", \"note\": \"No new field model introduced; Q survival is inherited from the already-closed DM 2.1/2.2 theorem.\"}"
+  },
+  "address": "iteration://IT-DM-E083-TRACE-Q-SURVIVAL",
+  "address_sha256": "3bca35437679ffa44530e759a6012e5482b2e3e6cd6149b2a1b428df8dfa5a4e"
+}

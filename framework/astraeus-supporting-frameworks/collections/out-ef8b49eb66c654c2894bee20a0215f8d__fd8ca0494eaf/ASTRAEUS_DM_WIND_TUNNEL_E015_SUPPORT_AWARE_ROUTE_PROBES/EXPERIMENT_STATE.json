@@ -1,0 +1,33 @@
+{
+  "experiment": "E015",
+  "candidate": "CAND-DM-SUPPORT-AWARE-ROUTE-MEMORY-018",
+  "title": "Support-Aware Hydrogen/Oxygen Test of Persistent Rainbow-Bus Route Memory",
+  "status": "CONTROLLED CORRECTION OF E014 / ROUTE-MEMORY CROSS-PROBE RESULT",
+  "physical_dark_matter_witness": false,
+  "parent_promotions": 0,
+  "E014_diagnosis": {
+    "E014_all_test_failure_source": "O_max_abs had exactly zero activation on the selected 2x2x2 local tile.",
+    "zero_support_probe": "O_max_abs",
+    "zero_support_sites": 8,
+    "meaning": "A zero-support local probe cannot test route placement in that cell; zero response is a null measurement, not route-memory annihilation."
+  },
+  "valid_local_probes": [
+    "H_mean_abs",
+    "H_l2_norm",
+    "H_max_abs",
+    "H_semantic_shell_env",
+    "O_mean_abs",
+    "O_l2_norm"
+  ],
+  "results": {
+    "same_readout_route_family_pairs": 92,
+    "all_pairs_nonzero_under_every_locally_supported_test": true,
+    "all_individual_supported_tests_nonzero": true,
+    "total_supported_pair_tests": 2208,
+    "global_min_L2": 0.0552359034226512,
+    "median_pair_min_L2": 0.2378516384218613
+  },
+  "ruling": "After applying the precondition that a probe must have nonzero local support on the tested ER tile, all 92 same-readout persistent route-family pairs remain distinguishable under every supported Hydrogen/Oxygen probe projection, both route-memory encodings, and both ER chirality-index conventions.",
+  "boundary": "The route-family memory response rule remains a controlled work-layer diagnostic, not a canonical Portal/UCM law.",
+  "next_handle": "COMPARE_ROUTE_FAMILY_MEMORY_WITH_ENDOGENOUS_ER_HISTORY_AND_UCM_RESPOND"
+}

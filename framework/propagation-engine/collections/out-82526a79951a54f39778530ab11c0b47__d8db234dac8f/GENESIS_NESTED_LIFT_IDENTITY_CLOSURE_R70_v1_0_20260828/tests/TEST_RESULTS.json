@@ -1,0 +1,18 @@
+{
+  "T1_compact_nested_nonempty": {
+    "status": "PASS",
+    "statement": "Nested nonempty compact admissible lift sets have nonempty intersection in the compact setting."
+  },
+  "T2_singleton_closure": {
+    "status": "PASS",
+    "statement": "If admissible lift sets separate/shrink to one point, the projection seed plus recursive constraints reconstructs a unique identity."
+  },
+  "T3_residual_fiber": {
+    "status": "PASS_BRANCH",
+    "statement": "Closedness alone does not force uniqueness; a nested compact lift tower may retain a non-singleton residual identity fiber."
+  },
+  "T4_information_loss_refinement": {
+    "status": "PASS",
+    "statement": "A single shadow can be lossy while the shadow plus complete compatible lift/refinement data is lossless relative to the chosen identity class."
+  }
+}

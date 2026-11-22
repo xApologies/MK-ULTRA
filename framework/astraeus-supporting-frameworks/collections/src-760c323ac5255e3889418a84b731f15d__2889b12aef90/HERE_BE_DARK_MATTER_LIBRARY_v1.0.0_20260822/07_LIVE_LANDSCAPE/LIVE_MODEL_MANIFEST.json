@@ -1,0 +1,62 @@
+{
+  "schema": "ASTRAEUS_DARK_MATTER_API_LIVE_MANIFEST_V10",
+  "artifact": "ASTRAEUS_DARK_MATTER_API_LIVE_v1.0.0_20260822.zip",
+  "model_release": "v2.0.0",
+  "baseline_release": "DM_2.2.0",
+  "live_api_version": "2.2.0+live.e096",
+  "current_checkpoint": "E100",
+  "current_frontier": "@dm_xapi_density_component_calibration",
+  "highest_leverage_proof_debt": "PD-DM-014",
+  "status": "APPEND_ONLY_LIVE_LANDSCAPE_XAPI_FIXED_POINT_DENSITY_STRESS_CORRIDOR_CLOSED",
+  "baseline_sha256": "ee4819595f94a52565ab21c832c902ea4040e315f3f575b203c61e53740ed63a",
+  "validation": {
+    "baseline_hash_match": true,
+    "dm22_validation": "PASS 16/16",
+    "e089": "PASS_CHIRALITY_SOURCE_RECOVERY",
+    "e090": "PASS_NORMAL_FORM_MATCH",
+    "e091": "PASS_CONDITIONAL_FINITE_BASIN_SWEEP",
+    "e092": "PASS_CANONICAL_RETYPE_GATE_OPEN",
+    "parent_promotions": 0,
+    "physical_promotions": 0,
+    "canonical_edge_promotions": 0,
+    "db_counts": {
+      "edges": 951,
+      "qmos": 37,
+      "landscapes": 32,
+      "iterations": 32,
+      "live_objects": 31,
+      "closure_certificates": 31,
+      "proof_debt": 14,
+      "working_assumptions": 13
+    }
+  },
+  "policy": {
+    "stable_abstraction_boundary": true,
+    "primary_frontier": "PD-DM-012",
+    "finite_sweep": "six basin-indexed L/R chirality mirror pairs",
+    "parked_representation_debt": "PD-DM-013",
+    "do_not_claim_gravity_equals_chirality": true,
+    "do_not_reopen_chirality_foundation": true
+  },
+  "package_sha256_record": "../ASTRAEUS_DARK_MATTER_API_LIVE_v1.0.0_20260822_SHA256.txt",
+  "xapi_qmo": "QMO-XAPI-002",
+  "xapi_closure_stats": {
+    "primitive_pairs": 6489,
+    "closure_pairs": 72564,
+    "growth_factor": 11.182616736014793,
+    "max_shortest_path_depth": 18,
+    "cross_dm_to_api_pairs": 4391,
+    "cross_api_to_dm_pairs": 0,
+    "api43_self_primitive_pairs": 6399,
+    "api43_self_closure_pairs": 68054,
+    "api43_self_growth_factor": 10.635099234255353,
+    "dm22_source_validated_primitive_pairs": 315,
+    "dm22_source_validated_fixed_point_pairs": 5769,
+    "dm22_source_validated_growth_factor": 18.314285714285713
+  },
+  "api_version": "2.2.0+live.e100",
+  "closure_class": "SOURCE_EFFECTIVE_INTERNAL_CLOSURE",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "closure_qmo": "QMO-DM-SRC-XAPI-003",
+  "source_xapi_landscape": "ASTRAEUS_DM_SOURCE_XAPI_COMBINED_LIVE_LANDSCAPE_v2.0.0_20260822.zip"
+}

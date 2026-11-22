@@ -1,0 +1,161 @@
+{
+  "handle": "@exponential_null_coordinate_relation",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@exponential_null_coordinate_relation",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 3,
+    "api43_direct_in_count": 3,
+    "xapi_raw_out_count": 3,
+    "xapi_raw_in_count": 3,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 156,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@exponential_null_coordinate_relation",
+        "relation": "GENERATES",
+        "target": "@bogoliubov_transformation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-52",
+        "provenance": "DIRECT_SOURCE:HAWKING_MINIMAL_MATHEMATICAL_CLOSURE"
+      },
+      {
+        "source": "@exponential_null_coordinate_relation",
+        "relation": "FEEDS_BLACK_HOLE_MODEL",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-52",
+        "provenance": "DERIVED:RP52_HAWKING_REVERSE_CRAWL; witness=@exponential_null_coordinate_relation-[GENERATES]->@bogoliubov_transformation | @bogoliubov_transformation-[COMPOSED_DEPENDENCY]->@black_hole"
+      },
+      {
+        "source": "@exponential_null_coordinate_relation",
+        "relation": "GLOBALLY_FEEDS_BLACK_HOLE",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-53",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_REVERSE_CRAWL; witness=@exponential_null_coordinate_relation-[FEEDS_BLACK_HOLE_MODEL]->@black_hole"
+      },
+      {
+        "source": "@event_horizon",
+        "relation": "INDUCES",
+        "target": "@exponential_null_coordinate_relation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-52",
+        "provenance": "DIRECT_SOURCE:HAWKING_MINIMAL_MATHEMATICAL_CLOSURE"
+      },
+      {
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_MODEL_REACHES",
+        "target": "@exponential_null_coordinate_relation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-52",
+        "provenance": "DERIVED:RP52_HAWKING_FORWARD_CRAWL; witness=@black_hole-[DEPENDS_ON]->@event_horizon | @event_horizon-[INDUCES]->@exponential_null_coordinate_relation"
+      },
+      {
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_GLOBAL_REACHES",
+        "target": "@exponential_null_coordinate_relation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-53",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_FORWARD_CRAWL; witness=@black_hole-[BLACK_HOLE_MODEL_REACHES]->@exponential_null_coordinate_relation"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 17615,
+        "source": "@exponential_null_coordinate_relation",
+        "relation": "GENERATES",
+        "target": "@bogoliubov_transformation",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_SOURCE:HAWKING_MINIMAL_MATHEMATICAL_CLOSURE"
+      },
+      {
+        "id": 17647,
+        "source": "@exponential_null_coordinate_relation",
+        "relation": "FEEDS_BLACK_HOLE_MODEL",
+        "target": "@black_hole",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP52_HAWKING_REVERSE_CRAWL; witness=@exponential_null_coordinate_relation-[GENERATES]->@bogoliubov_transformation | @bogoliubov_transformation-[COMPOSED_DEPENDENCY]->@black_hole"
+      },
+      {
+        "id": 18207,
+        "source": "@exponential_null_coordinate_relation",
+        "relation": "GLOBALLY_FEEDS_BLACK_HOLE",
+        "target": "@black_hole",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_REVERSE_CRAWL; witness=@exponential_null_coordinate_relation-[FEEDS_BLACK_HOLE_MODEL]->@black_hole"
+      },
+      {
+        "id": 17614,
+        "source": "@event_horizon",
+        "relation": "INDUCES",
+        "target": "@exponential_null_coordinate_relation",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_SOURCE:HAWKING_MINIMAL_MATHEMATICAL_CLOSURE"
+      },
+      {
+        "id": 17632,
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_MODEL_REACHES",
+        "target": "@exponential_null_coordinate_relation",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP52_HAWKING_FORWARD_CRAWL; witness=@black_hole-[DEPENDS_ON]->@event_horizon | @event_horizon-[INDUCES]->@exponential_null_coordinate_relation"
+      },
+      {
+        "id": 17804,
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_GLOBAL_REACHES",
+        "target": "@exponential_null_coordinate_relation",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_FORWARD_CRAWL; witness=@black_hole-[BLACK_HOLE_MODEL_REACHES]->@exponential_null_coordinate_relation"
+      }
+    ]
+  },
+  "address": "@exponential_null_coordinate_relation",
+  "address_sha256": "826d111888abd930bd31151c2d8fe79c314b2e84359d71d00ce4ca3a7ad5435e"
+}

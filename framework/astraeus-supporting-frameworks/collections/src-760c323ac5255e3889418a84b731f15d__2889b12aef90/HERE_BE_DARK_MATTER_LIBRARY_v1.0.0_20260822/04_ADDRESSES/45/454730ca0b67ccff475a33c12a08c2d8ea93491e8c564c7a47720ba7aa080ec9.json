@@ -1,0 +1,25 @@
+{
+  "handle": "landscape://DL-DM-E082-TRACE-TO-RESIDUE",
+  "object_type": "dependency_landscape",
+  "status": "CONDITIONAL_FORWARD_CLOSURE",
+  "domain": "LANDSCAPE",
+  "namespace": "mk43://landscape",
+  "name": "DL-DM-E082-TRACE-TO-RESIDUE",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "DEPENDENCY_LANDSCAPE",
+  "metadata": {
+    "id": "DL-DM-E082-TRACE-TO-RESIDUE",
+    "seed": "@dm_port_response_trace_invariant",
+    "status": "CONDITIONAL_FORWARD_CLOSURE",
+    "source_file": "DL-DM-E082-TRACE-TO-RESIDUE.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1\", \"landscape_id\": \"DL-DM-E082-TRACE-TO-RESIDUE\", \"seed\": \"@dm_port_response_trace_invariant\", \"status\": \"CONDITIONAL_FORWARD_CLOSURE\", \"nodes\": [\"@dm_port_response_trace_invariant\", \"@boundary_projection\", \"@dm_projection_residue_survival\", \"@dm_conditional_response_trace_residue_survival\"], \"terminal\": {\"state\": \"CONDITIONAL_RESIDUE_SURVIVAL_CLOSED\", \"iteration\": 4, \"focus\": \"@dm_conditional_response_trace_residue_survival\", \"reason\": \"One explicit trace comparator replaces the old generic residue-discriminator assumption; only its G_Pi action remains proof debt.\"}}"
+  },
+  "address": "landscape://DL-DM-E082-TRACE-TO-RESIDUE",
+  "address_sha256": "454730ca0b67ccff475a33c12a08c2d8ea93491e8c564c7a47720ba7aa080ec9"
+}

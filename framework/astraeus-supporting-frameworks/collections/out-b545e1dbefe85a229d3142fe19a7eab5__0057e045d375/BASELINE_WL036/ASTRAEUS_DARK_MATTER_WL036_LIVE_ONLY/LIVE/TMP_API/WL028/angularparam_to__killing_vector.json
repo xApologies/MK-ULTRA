@@ -1,0 +1,26 @@
+{
+  "source": "@angular_momentum_parameter",
+  "target": "@killing_vector",
+  "path": [
+    {
+      "source": "@angular_momentum_parameter",
+      "relation": "FAMILY_DEPENDS_ON",
+      "target": "@einstein_field_equation",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-43",
+      "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:379"
+    },
+    {
+      "source": "@einstein_field_equation",
+      "relation": "SUPPORTS",
+      "target": "@killing_vector",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-50",
+      "provenance": "DERIVED:RP50_PENROSE_TYPED_CRAWL; round=2; path=@einstein_field_equation->@general_relativity->@killing_vector; relations=SUPPORTS+SUPPORTS=>SUPPORTS"
+    }
+  ]
+}

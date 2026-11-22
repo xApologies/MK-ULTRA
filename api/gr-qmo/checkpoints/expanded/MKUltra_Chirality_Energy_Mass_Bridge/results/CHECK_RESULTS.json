@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "check_count": 15,
+  "sympy_version": "1.14.0",
+  "scope": "Exact algebra and explicitly labeled examples only; no empirical or full native-interface validation.",
+  "checks": [
+    {
+      "name": "lock_filtered_mass_difference",
+      "passed": true,
+      "scope": "Common lock selector and fixed vacuum/unit; both endpoints mass-admissible."
+    },
+    {
+      "name": "lock_formation_equals_mass_number",
+      "passed": true,
+      "scope": "Conditional on an admissible vacuum-to-lock formation history."
+    },
+    {
+      "name": "history_composition",
+      "passed": true,
+      "scope": "Algebraic telescoping, not physical dynamics."
+    },
+    {
+      "name": "history_reverse_sign",
+      "passed": true,
+      "scope": "A reversed physical history is usable only if independently admissible."
+    },
+    {
+      "name": "closed_history_zero_net_change",
+      "passed": true,
+      "scope": "Zero net change does not imply zero state inventory."
+    },
+    {
+      "name": "full_change_lock_plus_remainder",
+      "passed": true,
+      "scope": "Remainder is bookkeeping; no nonnegativity or physical kinetic-energy claim."
+    },
+    {
+      "name": "full_history_energy_not_all_mass",
+      "passed": true,
+      "scope": "Illustrative values: total persistence changes with fixed locked persistence."
+    },
+    {
+      "name": "T4_to_T5_shell_correction",
+      "passed": true,
+      "scope": "Requires Core5(Form5(K))~K and actual admissible K-to-Y history."
+    },
+    {
+      "name": "negative_shell_correction_allowed",
+      "passed": true,
+      "scope": "Illustrates the explicitly signed shell correction, not a physical solution."
+    },
+    {
+      "name": "five_factor_exact_difference",
+      "passed": true,
+      "scope": "Exact finite product identity, order-dependent attribution; no differential approximation."
+    },
+    {
+      "name": "linear_rest_calibration",
+      "passed": true,
+      "scope": "Checks a matching condition, does not derive its physical value."
+    },
+    {
+      "name": "monotone_mass_map_not_enough",
+      "passed": true,
+      "scope": "Tm(M)=M^2 is zero-reflecting/strictly increasing on nonnegative inputs; Te(e)=e does not match c=1, eps=1."
+    },
+    {
+      "name": "scalar_cycle_does_not_fix_transport",
+      "passed": true,
+      "scope": "Noncommuting transport can retain path information even when the endpoint scalar change is zero."
+    },
+    {
+      "name": "rest_density_does_not_determine_stress",
+      "passed": true,
+      "scope": "Algebraic underdetermination: one scalar does not determine a symmetric tensor."
+    },
+    {
+      "name": "mode_spectral_mass_shell_identity",
+      "passed": true,
+      "scope": "Spectral interface identity only; no identification with history energy or a physical clock."
+    }
+  ]
+}

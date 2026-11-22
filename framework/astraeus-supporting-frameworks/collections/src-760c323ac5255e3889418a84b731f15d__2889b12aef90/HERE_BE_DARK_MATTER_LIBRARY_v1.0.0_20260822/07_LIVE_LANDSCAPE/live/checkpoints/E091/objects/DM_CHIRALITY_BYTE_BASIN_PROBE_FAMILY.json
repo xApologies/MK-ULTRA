@@ -1,0 +1,23 @@
+{
+  "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+  "handle": "@dm_chirality_byte_basin_probe_family",
+  "canonical_name": "Chirality-Byte / Basin Finite Probe Family",
+  "type": "ConditionalFiniteProbeFamily",
+  "status": "LIVE_CONDITIONAL_DIAGNOSTIC",
+  "checkpoint": "E091",
+  "definition": "All six interior basin levels preserve a nonzero mirror chirality contrast under the diagnostic weighting. The family gives six explicit positive-amplitude inputs sharing one canonical chiral contrast direction.",
+  "math": "For k=1..6: D_k=(k/7)D_chi; D_k c_*=2(k/7)c_* !=0; ||2(k/7)c_*||^2=8(k/7)^2.",
+  "parents": [
+    "@dm_chirality_seed_contrast_normal_form",
+    "@chirality_byte",
+    "@energy_density"
+  ],
+  "working_assumptions": [
+    "WA-DM-E091-001"
+  ],
+  "proof_debt": [
+    "PD-DM-013"
+  ],
+  "physical_claim": false,
+  "baseline_mutation": false
+}

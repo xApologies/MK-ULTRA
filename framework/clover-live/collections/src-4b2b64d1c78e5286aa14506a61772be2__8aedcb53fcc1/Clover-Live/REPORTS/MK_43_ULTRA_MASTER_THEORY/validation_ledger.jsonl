@@ -1,0 +1,739 @@
+{"check": "Library database hash before and after native queries", "result": "PASS", "validation_id": "VAL-001", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Native runtime validation", "result": "PASS", "validation_id": "VAL-002", "value": {"boundary": {"ai_owned_by": "BRANE", "api_owned_by": "BRANE", "library_owned_by": "BRANE", "qmo_owned_by": "BRANE", "runtime_accepts": "BRANE", "runtime_rejects_direct_api": true}, "errors": [], "info": {"api_visible_to_runtime": false, "direct_api_access": false, "direct_library_access": false, "downstream_role": "brane", "manifest": {"architecture": {"composition_rule": "contract-compatible ports; no domain overlap required", "domain_policy": "independent-port-domains", "module_storage": "external-only", "mounts_external": ["ai", "api", "library"], "owns": ["private_qmo", "port_registry", "composition_mechanism"], "private_objects": ["qmo"], "runtime_visibility": ["brane"]}, "build_version": "2.3.3", "entrypoint": "mk43_brane:Brane", "module_id": "mk43.brane", "name": "MK43 BRANE 2.3.3", "package": "mk43_brane", "release_identity_separate": true, "release_version": "2.3.3", "role": "brane", "runtime_identity_stable": true, "schema_version": "1.0", "version": "2.3.3"}, "package_root": "provenance://unavailable/path-sha256/f2bc90487e8d27d2aad8c0697c6258cc26e57e22c12c0fcde35fc9b7e7d39c0f/src", "private_qmo_access": false, "qmo_visible_to_runtime": false, "root": "provenance://unavailable/path-sha256/c7b44356a903f61fd0f7cbda6b8d639ac272725e58b787698836daaa0c602858/mk43_brane_mount_upzlb733", "runtime_boundary": "Runtime -> BRANE", "runtime_module_id": "mk43.runtime", "runtime_version": "4.2.0", "source": "provenance://unavailable/path-sha256/db059f0ae8a8b8244b361339cd55e74b265062aaca35d550ed83d790c54cb98b/BRANE_3.1.zip", "source_sha256": "ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e"}, "valid": true, "warnings": []}}
+{"check": "Native query failures", "result": "PASS", "validation_id": "VAL-003", "value": []}
+{"check": "All API handles assigned to chapters", "result": "PASS", "validation_id": "VAL-004", "value": 2384}
+{"check": "Complete Genesis Language query family represented", "result": "PASS", "validation_id": "VAL-005", "value": 82}
+{"check": "First substantive chapter completed", "result": "PASS", "validation_id": "VAL-006", "value": {"path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\VOLUME_01_FOUNDATIONS\\V01_C01_WHAT_IS_MK_43_ULTRA.md", "sha256": "b0183622e9fef05390234311933b61f4f6dd1cca3316e88b9b7e93167619e462", "word_count": 4429}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V01-C02-QUERY", "value": 105}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V01-C02-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V01-C02-HASH", "value": "9736678393a7edc0607c3f55b22ef4acb85c8cf5336e1e83ebe4a83f83fcd96e"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V01-C02-REGISTER", "value": 105}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V01-C03-QUERY", "value": 128}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V01-C03-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V01-C03-HASH", "value": "3a93df4c86e38c972229cf43ad22f2b108487b6e982b0fbd46fbfec4193c9a0b"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V01-C03-REGISTER", "value": 128}
+{"check": "Checkpoint PDF structural and visual validation", "result": "PASS", "validation_id": "V01-C02-C03-PDF", "value": {"blank_pages": 0, "minimum_extracted_text_characters": 373, "pages": 21, "sha256": "6fd7b78e1352c0493273585fb7adabefac85a3ed10fa52953e5bf4e9a3c34b36", "visual_inspection": "PASS_ALL_21_PAGES"}}
+{"check": "Sequential chapter boundary", "result": "PASS", "validation_id": "V01-C02-C03-SEQUENCE", "value": "V01-C01,V01-C02,V01-C03 complete; V01-C04 next"}
+{"check": "Library 4.1 and completed V01-C01 preserved", "result": "PASS", "validation_id": "V01-C02-C03-PROTECTED", "value": {"V01-C01_sha256": "b0183622e9fef05390234311933b61f4f6dd1cca3316e88b9b7e93167619e462", "database_sidecars": [], "library_sha256": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V01-C04-QUERY", "value": 131}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V01-C04-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V01-C04-HASH", "value": "856dfaa93199b1a724ae053fe48f9a36f1e79fe0f6a910e5227716d23517c60a"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V01-C04-REGISTER", "value": 131}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V01-C05-QUERY", "value": 125}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V01-C05-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V01-C05-HASH", "value": "6995811daff42d30e79707c9a8a1bdfabda6c46513c7809e5bb36977b13b2b06"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V01-C05-REGISTER", "value": 125}
+{"check": "Checkpoint PDF structural and visual validation", "result": "PASS", "validation_id": "V01-C04-C05-PDF", "value": {"blank_pages": 0, "minimum_extracted_text_characters": 362, "pages": 21, "sha256": "dc01aba3a3b735c7ead6f2f1f3d73de81e79deadf20fc6e33e02af03f2a576ae", "visual_inspection": "PASS_ALL_21_PAGES"}}
+{"check": "Sequential chapter boundary", "result": "PASS", "validation_id": "V01-C04-C05-SEQUENCE", "value": "V01-C01 through V01-C05 complete; V01-C06 next"}
+{"check": "Library 4.1 and completed chapters preserved", "result": "PASS", "validation_id": "V01-C04-C05-PROTECTED", "value": {"chapter_hashes": {"V01-C01": "b0183622e9fef05390234311933b61f4f6dd1cca3316e88b9b7e93167619e462", "V01-C02": "9736678393a7edc0607c3f55b22ef4acb85c8cf5336e1e83ebe4a83f83fcd96e", "V01-C03": "3a93df4c86e38c972229cf43ad22f2b108487b6e982b0fbd46fbfec4193c9a0b", "V01-C04": "856dfaa93199b1a724ae053fe48f9a36f1e79fe0f6a910e5227716d23517c60a", "V01-C05": "6995811daff42d30e79707c9a8a1bdfabda6c46513c7809e5bb36977b13b2b06"}, "database_sidecars": [], "library_sha256": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V01-C06-QUERY", "value": 169}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V01-C06-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V01-C06-HASH", "value": "248e9970cf66d4d87fd7759b4c8c8cba11463f62597e1edadc35d4a34c591ad0"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V01-C06-REGISTER", "value": 169}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V01-C07-QUERY", "value": 111}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V01-C07-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V01-C07-HASH", "value": "6809f8283bcd036e5a761ffb213bd4cf345c169619ee6d41cf8457e4cba3c234"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V01-C07-REGISTER", "value": 111}
+{"check": "Checkpoint PDF structural and visual validation", "result": "PASS", "validation_id": "V01-C06-C07-PDF", "value": {"blank_pages": 0, "minimum_extracted_text_characters": 369, "pages": 22, "sha256": "0d00c0eb0d0d61f9e32006d49a735efc9cc93db5bb972a492e8b95c32fdaf4f9", "visual_inspection": "PASS_ALL_22_PAGES"}}
+{"check": "Sequential chapter boundary", "result": "PASS", "validation_id": "V01-C06-C07-SEQUENCE", "value": "V01-C01 through V01-C07 complete; V01-C08 next"}
+{"check": "Library 4.1 and completed chapters preserved", "result": "PASS", "validation_id": "V01-C06-C07-PROTECTED", "value": {"chapter_hashes": {"V01-C01": "b0183622e9fef05390234311933b61f4f6dd1cca3316e88b9b7e93167619e462", "V01-C02": "9736678393a7edc0607c3f55b22ef4acb85c8cf5336e1e83ebe4a83f83fcd96e", "V01-C03": "3a93df4c86e38c972229cf43ad22f2b108487b6e982b0fbd46fbfec4193c9a0b", "V01-C04": "856dfaa93199b1a724ae053fe48f9a36f1e79fe0f6a910e5227716d23517c60a", "V01-C05": "6995811daff42d30e79707c9a8a1bdfabda6c46513c7809e5bb36977b13b2b06", "V01-C06": "248e9970cf66d4d87fd7759b4c8c8cba11463f62597e1edadc35d4a34c591ad0", "V01-C07": "6809f8283bcd036e5a761ffb213bd4cf345c169619ee6d41cf8457e4cba3c234"}, "database_sidecars": [], "library_sha256": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V01-C08-QUERY", "value": 116}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V01-C08-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V01-C08-HASH", "value": "58aa70c9f11331b085c9d12bad97f4bbadd699268104aa554da13718ceb66cd8"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V01-C08-REGISTER", "value": 116}
+{"check": "Volume I completion PDF structural and visual validation", "result": "PASS", "validation_id": "V01-C08-PDF", "value": {"blank_pages": 0, "minimum_extracted_text_characters": 374, "pages": 11, "sha256": "b2d03356c272e49d7a4789c9fa8e901f9dca5b8bba28978f03946bcb12aa946e", "visual_inspection": "PASS_ALL_11_PAGES"}}
+{"check": "Sequential chapter boundary", "result": "PASS", "validation_id": "V01-C08-SEQUENCE", "value": "V01-C01 through V01-C08 complete; V02-C01 next"}
+{"check": "Library 4.1 and completed chapters preserved", "result": "PASS", "validation_id": "V01-C08-PROTECTED", "value": {"chapter_hashes": {"V01-C01": "b0183622e9fef05390234311933b61f4f6dd1cca3316e88b9b7e93167619e462", "V01-C02": "9736678393a7edc0607c3f55b22ef4acb85c8cf5336e1e83ebe4a83f83fcd96e", "V01-C03": "3a93df4c86e38c972229cf43ad22f2b108487b6e982b0fbd46fbfec4193c9a0b", "V01-C04": "856dfaa93199b1a724ae053fe48f9a36f1e79fe0f6a910e5227716d23517c60a", "V01-C05": "6995811daff42d30e79707c9a8a1bdfabda6c46513c7809e5bb36977b13b2b06", "V01-C06": "248e9970cf66d4d87fd7759b4c8c8cba11463f62597e1edadc35d4a34c591ad0", "V01-C07": "6809f8283bcd036e5a761ffb213bd4cf345c169619ee6d41cf8457e4cba3c234", "V01-C08": "58aa70c9f11331b085c9d12bad97f4bbadd699268104aa554da13718ceb66cd8"}, "database_sidecars": [], "library_sha256": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}}
+{"check": "All planned Volume I chapters complete", "result": "PASS", "validation_id": "V01-COMPLETE", "value": {"completed_chapters": 8, "next_volume": "V02", "volume_id": "V01"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V02-C01-QUERY", "value": 82}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V02-C01-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V02-C01-HASH", "value": "e4ea3e78569f3c7abddc1878f1670b5bc60f99b1a5de9162ba76cc85e3a0f393"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V02-C01-REGISTER", "value": 82}
+{"check": "Math-aware renderer corrected, visually qualified, and frozen", "result": "PASS", "validation_id": "TOME-PUBLICATION-RENDERER-V1-FREEZE", "value": "KaTeX 0.16.22 -> HTML/CSS -> Playwright -> Microsoft Edge PDF; raw-LaTeX guard and display-overflow gate enabled"}
+{"check": "Exact sealed V01-C01 through V01-C08 publication render", "result": "PASS", "validation_id": "VOLUME-I-CORRECTED-MATH-RENDER", "value": {"pages": 81, "sha256": "b6cfc61f3e86100e9b42295eea2cdf539b9c3a288fab833439e2ce98b338bced", "source_changes": 0, "visual_qa": "ALL_81_PAGES"}}
+{"check": "V02-C01 typeset publication and native evidence register", "result": "PASS", "validation_id": "V02-C01-PUBLICATION-RENDER", "value": {"pages": 11, "sha256": "783bba73d0ef25fb41ddf00ff341726371d553185d60c1617b4d5c711a2541fc", "source_changes": 0, "visual_qa": "ALL_11_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V02-C02-QUERY", "value": 23}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V02-C02-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V02-C02-HASH", "value": "491dd48642f8550b86b7cfbc3a8c36b01a04a6a1fc63dc8f24c5a3d30abc40bd"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V02-C02-REGISTER", "value": 23}
+{"check": "V02-C02 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V02-C02-PUBLICATION-RENDER", "value": {"pages": 10, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "d1e9dffee39e213d4337511b216f71a32877b8ee9d2c2e5d38d2a4e5d8cda990", "source_changes": 0, "visual_qa": "ALL_10_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V02-C03-QUERY", "value": 20}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V02-C03-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V02-C03-HASH", "value": "acddc0017647bf81bb261925294f2435d3e5372fa81064028d2afccf09ca04a2"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V02-C03-REGISTER", "value": 20}
+{"check": "V02-C03 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V02-C03-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "57f6a5cb8083c6d9b7d86f3194680eefaaf7bb88c496f1c12a2cbbfe1c6ba138", "source_changes": 0, "visual_qa": "ALL_7_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V02-C04-QUERY", "value": 23}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V02-C04-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V02-C04-HASH", "value": "2c8ddba12ea216fc2e6f17557ec7d6fbf249bdde277242210db44cbdfffbdc1a"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V02-C04-REGISTER", "value": 23}
+{"check": "V02-C04 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V02-C04-PUBLICATION-RENDER", "value": {"pages": 9, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "d8dbc29f27797586e298387339cac3c78660bd7816643500557104a6430cc391", "source_changes": 0, "visual_qa": "ALL_9_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V02-C05-QUERY", "value": 25}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V02-C05-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V02-C05-HASH", "value": "e92134c58b3662e4ce4431feb7611af2d1878175def4b7d205115c56bff45aa6"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V02-C05-REGISTER", "value": 25}
+{"check": "V02-C05 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V02-C05-PUBLICATION-RENDER", "value": {"pages": 9, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "4528c9f677fda554ddea396d2b19afd4cbdc1a6433615dcdcd2ad0a2c86b9fda", "source_changes": 0, "visual_qa": "ALL_9_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V02-C06-QUERY", "value": 25}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V02-C06-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V02-C06-HASH", "value": "e9cfcf18b8c51b26e5c0adbc84c84579518f68c63165f1a089ff0bf775568ad1"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V02-C06-REGISTER", "value": 25}
+{"check": "V02-C06 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V02-C06-PUBLICATION-RENDER", "value": {"pages": 8, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "968bdd5ec70d61e1e04d8e108ae09d6d6fe35c407634dc3797ee7012e93d0387", "source_changes": 0, "visual_qa": "ALL_8_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V02-C07-QUERY", "value": 25}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V02-C07-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V02-C07-HASH", "value": "7120ca621cda44a5e2de46779f0142214d8579cef92d2ab5956d79adeaea7e95"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V02-C07-REGISTER", "value": 25}
+{"check": "V02-C07 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V02-C07-PUBLICATION-RENDER", "value": {"pages": 8, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "626352503087086f641b67bb260b55ca76b13ae04ae0278213f92bf975f8b4d0", "source_changes": 0, "visual_qa": "ALL_8_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V02-C08-QUERY", "value": 25}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V02-C08-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V02-C08-HASH", "value": "2d5d71617e77d48828478f964e3a313d90080c29f7cd2fec3229601a3ebb1021"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V02-C08-REGISTER", "value": 25}
+{"check": "V02-C08 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V02-C08-PUBLICATION-RENDER", "value": {"pages": 8, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "e6eaab3b81b46572a52283a7fde2b1e2c83ec6a0e7165838a6ee591d4dbfdf0c", "source_changes": 0, "visual_qa": "ALL_8_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V02-C09-QUERY", "value": 25}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V02-C09-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V02-C09-HASH", "value": "50d80b284ec8e7faec421ead92425914410a982736f60ee2b63e6595f6183734"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V02-C09-REGISTER", "value": 25}
+{"check": "V02-C09 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V02-C09-PUBLICATION-RENDER", "value": {"pages": 8, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "c0c4a72f93c3e20f1a6399d9e493897d002b97ef1ad206e2c02582ffab9806c5", "source_changes": 0, "visual_qa": "ALL_8_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V02-C10-QUERY", "value": 25}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V02-C10-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V02-C10-HASH", "value": "e49113479faab6a6071bf58638df837c73d1c56295181668b89328bca4a4aeb2"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V02-C10-REGISTER", "value": 25}
+{"check": "V02-C10 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V02-C10-PUBLICATION-RENDER", "value": {"pages": 8, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "a09720bb42704f194f4fd8c62b5ade2d6ffe59a98bd168222ee3b1608b544b0a", "source_changes": 0, "visual_qa": "ALL_8_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V02-C11-QUERY", "value": 25}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V02-C11-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V02-C11-HASH", "value": "7508e2a0bdbb992dfbfcbcb5807b09635c459d30bab5a0975491248b36eb6202"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V02-C11-REGISTER", "value": 25}
+{"check": "V02-C11 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V02-C11-PUBLICATION-RENDER", "value": {"pages": 8, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "b4746b94249719fcc28ba5e6ccb1497c5ea36266bdbf7e71ab0d3c116e3b5011", "source_changes": 0, "visual_qa": "ALL_8_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V02-C12-QUERY", "value": 25}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V02-C12-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V02-C12-HASH", "value": "0397c14c906a0255a84879734c842601f2a2b7454f46a0f6fc12c2f848f68368"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V02-C12-REGISTER", "value": 25}
+{"check": "V02-C12 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V02-C12-PUBLICATION-RENDER", "value": {"pages": 8, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "9855aa7d750e86cfe219b0f4156ab0b951b94e2185b3a01bc4e42618bd3d6537", "source_changes": 0, "visual_qa": "ALL_8_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V02-C13-QUERY", "value": 64}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V02-C13-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V02-C13-HASH", "value": "4abdcd764abb960299b4a1bcdb030bb2ddd332325abb129e7754afa7f67b7a99"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V02-C13-REGISTER", "value": 64}
+{"check": "V02-C13 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V02-C13-PUBLICATION-RENDER", "value": {"pages": 9, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "cc94ed286b067441cd994687266acaf12a418bbe4a59517d609733323f00ce1e", "source_changes": 0, "visual_qa": "ALL_9_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V02-C14-QUERY", "value": 77}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V02-C14-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V02-C14-HASH", "value": "c4a2219c93cb6c7f1063c779b7b593a566a9c6ddef4d51b7a22250abccfe33bc"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V02-C14-REGISTER", "value": 77}
+{"check": "V02-C14 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V02-C14-PUBLICATION-RENDER", "value": {"pages": 10, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "1be91862f2f97b57f445b3f544c7e6f72836fc5ffc5e57b211f51b58cfefb6af", "source_changes": 0, "visual_qa": "ALL_10_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V02-C15-QUERY", "value": 14}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V02-C15-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V02-C15-HASH", "value": "5e70d40de71d00d006d57f296b57a2d342def8e28a0e23f6bc866769d693e396"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V02-C15-REGISTER", "value": 14}
+{"check": "V02-C15 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V02-C15-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "8f9041764be7ab18fddac8a3edc64deb6d8b0754354b925710b71a6cfed60610", "source_changes": 0, "visual_qa": "ALL_7_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V03-C01-QUERY", "value": 1}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V03-C01-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V03-C01-HASH", "value": "6d71fe9386881281e0d320856452bd81d85ed2b98c085cc5b15490975cae5d5d"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V03-C01-REGISTER", "value": 1}
+{"check": "V03-C01 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V03-C01-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "3c2710635214960a5a9d35ed2341a6498c6f778761683a38adaa41c6bb16fdd8", "source_changes": 0, "visual_qa": "ALL_7_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V03-C02-QUERY", "value": 25}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V03-C02-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V03-C02-HASH", "value": "90036efd2c6ae482520c0a45838cd560020fedec4b8ce6837908672922f9518e"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V03-C02-REGISTER", "value": 25}
+{"check": "V03-C02 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V03-C02-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "ff34dccbbb6f93cfa6e4f7a0d7e80a6cf3ebde67d4fe81e011c5a304fe59146f", "source_changes": 0, "visual_qa": "ALL_7_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V03-C03-QUERY", "value": 6}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V03-C03-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V03-C03-HASH", "value": "30ad542d4e77a8126cdfc8830912beed32ce80ba46b170283f0550a06c26a513"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V03-C03-REGISTER", "value": 6}
+{"check": "V03-C03 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V03-C03-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "0afd2405c3767f60b70e806e67d147bcd5ea0ccbed7c5449324e09175d9867c9", "source_changes": 0, "visual_qa": "ALL_7_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V03-C04-QUERY", "value": 25}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V03-C04-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V03-C04-HASH", "value": "c0aac261c2c4eda1ed81d6497d900456c028fb1993e80265c395d9ea18ac2277"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V03-C04-REGISTER", "value": 25}
+{"check": "V03-C04 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V03-C04-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "aa2031d43726afba2cb39049926a2a94479f002f9f72a869b477c4edb76d05c7", "source_changes": 0, "visual_qa": "ALL_7_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V03-C05-QUERY", "value": 1}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V03-C05-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V03-C05-HASH", "value": "a30611a21c99dfb5124970d63fd93d63417dd08ac5d7d7e6e807b9ee849f9421"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V03-C05-REGISTER", "value": 1}
+{"check": "V03-C05 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V03-C05-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "72b7f41afcb7ae821436fb960e6ded61bd2765000d0eae61d0288169db30b0a6", "source_changes": 0, "visual_qa": "ALL_6_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V03-C06-QUERY", "value": 1}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V03-C06-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V03-C06-HASH", "value": "e3f330907a04b1c5f3ec9b1f539b8e3b80d5965040e6f5e3d6abcd6917be4e9a"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V03-C06-REGISTER", "value": 1}
+{"check": "V03-C06 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V03-C06-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "e08c03b707db2bc66a158b5610c35ed36ef4eb4bee216f02b7db8c996451c80e", "source_changes": 0, "visual_qa": "ALL_6_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V03-C07-QUERY", "value": 1}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V03-C07-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V03-C07-HASH", "value": "3deca1c267a51b958e573cb539e91e383c75b0e8da434f60e4f36d0464ae63eb"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V03-C07-REGISTER", "value": 1}
+{"check": "V03-C07 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V03-C07-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "026a34d9ea552c244c50a0505b964a22e424d982bd802f399533545535907bfd", "source_changes": 0, "visual_qa": "ALL_6_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V03-C08-QUERY", "value": 1}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V03-C08-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V03-C08-HASH", "value": "d05e6be89f00dc59d70f5e39b4da3eb80724a8f452f164996ba6ca88858e25eb"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V03-C08-REGISTER", "value": 1}
+{"check": "V03-C08 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V03-C08-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "3a5630621c2bedc5838654dfab261cc89462f4b870d3d41f5d445a496e9dc0ff", "source_changes": 0, "visual_qa": "ALL_6_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V03-C09-QUERY", "value": 0}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V03-C09-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V03-C09-HASH", "value": "7a6d26acca4c29427aec67f5c192c6d21984b9c6d4be40846784d6c05af15bb1"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V03-C09-REGISTER", "value": 0}
+{"check": "V03-C09 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V03-C09-PUBLICATION-RENDER", "value": {"pages": 5, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "606a15b515fa2b969624e8f142b9a5b3b96a8ded9cf4570c677292121d278fe1", "source_changes": 0, "visual_qa": "ALL_5_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V04-C01-QUERY", "value": 60}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V04-C01-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V04-C01-HASH", "value": "19ccbc9c7860e96c358d333431ff61eacab3acb790825d4bd28af490250eba70"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V04-C01-REGISTER", "value": 60}
+{"check": "V04-C01 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V04-C01-PUBLICATION-RENDER", "value": {"pages": 8, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "ae7ef66351aebf678176d93c82002562b2eb1e616fcb534f017185806d15c17a", "source_changes": 0, "visual_qa": "ALL_8_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V04-C02-QUERY", "value": 1}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V04-C02-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V04-C02-HASH", "value": "d56d807d6da7332a0ba64c77a83287dc5021e454c963af5290e2abbdeaf653e9"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V04-C02-REGISTER", "value": 1}
+{"check": "V04-C02 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V04-C02-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "7379e5a820471bc06165ac7421ef686271f414e0c6294f2f4e0861cf14ffd0c2", "source_changes": 0, "visual_qa": "ALL_6_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V04-C03-QUERY", "value": 6}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V04-C03-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V04-C03-HASH", "value": "ca437217028b6eca45799d6c0f3446675b83614111ed2e477c6e2505f481103c"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V04-C03-REGISTER", "value": 6}
+{"check": "V04-C03 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V04-C03-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "f302a3e22295a91ce802dc9c85ef40b8f203ca5f1b1c1e31cfd3a6d033b8fca6", "source_changes": 0, "visual_qa": "ALL_6_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V04-C04-QUERY", "value": 7}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V04-C04-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V04-C04-HASH", "value": "cc40859b668b9d908fba570fad2852970cf16e1d337b15696f36f1b628b9be0a"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V04-C04-REGISTER", "value": 7}
+{"check": "V04-C04 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V04-C04-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "352c67eb0c08f40311b2c92d1b62761e40e1f043820e7c0043ed0b68005f82fb", "source_changes": 0, "visual_qa": "ALL_6_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V04-C05-QUERY", "value": 0}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V04-C05-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V04-C05-HASH", "value": "984ea29bba9409ec6f099ee70fe83f86315b8a158cb55a5bf8289ca4b04fdbe6"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V04-C05-REGISTER", "value": 0}
+{"check": "V04-C05 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V04-C05-PUBLICATION-RENDER", "value": {"pages": 5, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "9d3234ae9aee2cbc9e0347cc3bee54a0a00458eb4f99c27a1db10fc1d6693d89", "source_changes": 0, "visual_qa": "ALL_5_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V04-C06-QUERY", "value": 0}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V04-C06-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V04-C06-HASH", "value": "7db8deaa18dbc6689c6ccbc19eba173fb9e7c9f4d882f3d331c807ce529c11d3"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V04-C06-REGISTER", "value": 0}
+{"check": "V04-C06 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V04-C06-PUBLICATION-RENDER", "value": {"pages": 5, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "a3d20240e9c6d0b0fb208143a1a3739f161356d458d4701509e11523432a8c7d", "source_changes": 0, "visual_qa": "ALL_5_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V04-C07-QUERY", "value": 9}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V04-C07-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V04-C07-HASH", "value": "44221d104a450c6ca7be29f61931b855876adc93b689aef80a7b92a98e0d3941"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V04-C07-REGISTER", "value": 9}
+{"check": "V04-C07 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V04-C07-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "52a08a61fdb739db182b7ee63330915c38b10edf38459eaf2fd35f7caae981ac", "source_changes": 0, "visual_qa": "ALL_6_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V04-C08-QUERY", "value": 2}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V04-C08-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V04-C08-HASH", "value": "2ea43dbcc2b84459a5a18d76a067748f40b3462ff30bdcacaaa794093e2973e5"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V04-C08-REGISTER", "value": 2}
+{"check": "V04-C08 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V04-C08-PUBLICATION-RENDER", "value": {"pages": 5, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "f639e16059c372af099485cd0e051587750aa3efc0d8bec6bdaf7042ebf83537", "source_changes": 0, "visual_qa": "ALL_5_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V05-C01-QUERY", "value": 13}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V05-C01-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V05-C01-HASH", "value": "c81ba06348f543eb4c003deeed98a6b71938d9d7cdcc3006c59db0432413be79"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V05-C01-REGISTER", "value": 13}
+{"check": "V05-C01 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V05-C01-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "fb5fa1b613797aeb1e7ffad7343e6b220d06f706170764471f9ec1e5b60344e5", "source_changes": 0, "visual_qa": "ALL_6_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V05-C02-QUERY", "value": 6}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V05-C02-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V05-C02-HASH", "value": "147929a59a71f18398e120538dc5fefdc8d6de9e33ef95384b0c2ff896103dd5"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V05-C02-REGISTER", "value": 6}
+{"check": "V05-C02 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V05-C02-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "1b0e26cf1ae4bfcf12aa1613973a5cd7057d76b95672f181efca710fd81fef6e", "source_changes": 0, "visual_qa": "ALL_6_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V05-C03-QUERY", "value": 8}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V05-C03-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V05-C03-HASH", "value": "4c2f44b5683427b61b04f9345483586a32a5d581f9339438410e13008adc426f"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V05-C03-REGISTER", "value": 8}
+{"check": "V05-C03 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V05-C03-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "128969207d0250536d179e49c9e477f603d56defaa20e8bc34b9693788b1db77", "source_changes": 0, "visual_qa": "ALL_6_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V05-C04-QUERY", "value": 11}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V05-C04-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V05-C04-HASH", "value": "ec5166f184b025c1ed8f95900a49778f4ac91e2007e0318659e13bb59a4b8c2f"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V05-C04-REGISTER", "value": 11}
+{"check": "V05-C04 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V05-C04-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "ad80b751853a7ce664ca4c07153d127f96f86f61ddc502f979c4e0b983e561d2", "source_changes": 0, "visual_qa": "ALL_6_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V05-C05-QUERY", "value": 4}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V05-C05-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V05-C05-HASH", "value": "cce09f2910b132e088b54f845fc6aef1b19fa61a90e967ed8222c3e1eeebac45"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V05-C05-REGISTER", "value": 4}
+{"check": "V05-C05 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V05-C05-PUBLICATION-RENDER", "value": {"pages": 5, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "41f62f3503230e86194fac4721ce47dfb326f96162f12697969b9de74d28f419", "source_changes": 0, "visual_qa": "ALL_5_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V05-C06-QUERY", "value": 6}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V05-C06-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V05-C06-HASH", "value": "adef70db8d336a8f2521de2123e3505d58f567c164259086f640fc337871c6c5"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V05-C06-REGISTER", "value": 6}
+{"check": "V05-C06 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V05-C06-PUBLICATION-RENDER", "value": {"pages": 5, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "170ca5db084906e3f06ae0bff52ab01074fb325ac6c2edd46721697de18cd680", "source_changes": 0, "visual_qa": "ALL_5_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V05-C07-QUERY", "value": 7}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V05-C07-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V05-C07-HASH", "value": "42a57791bbb38345449dff55b88949cbe0df5c58bf9257c6bae8530e3545752e"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V05-C07-REGISTER", "value": 7}
+{"check": "V05-C07 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V05-C07-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "c4858e9b8848179a8225ca18791e69987f10574ca7c7649a7894ea3763ec68f1", "source_changes": 0, "visual_qa": "ALL_6_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V05-C08-QUERY", "value": 5}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V05-C08-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V05-C08-HASH", "value": "fc3d903a0f0d91fe7a681ead3c99a5990630d8d43652c32068b2663634c002ac"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V05-C08-REGISTER", "value": 5}
+{"check": "V05-C08 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V05-C08-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "f00065173ceb936915d9c322855517b3b57fc8b142ddb9bb43e023f80c4f55f7", "source_changes": 0, "visual_qa": "ALL_6_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V06-C01-QUERY", "value": 131}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V06-C01-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V06-C01-HASH", "value": "bbe0ed8fe61299cc384681aa74072ee4db4c72569b75b565e42df6934e8c79dd"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V06-C01-REGISTER", "value": 131}
+{"check": "V06-C01 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V06-C01-PUBLICATION-RENDER", "value": {"pages": 12, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "98536dd238151fa7afd2f5e7ebeddfe774a61f2d2f4d7628e4aa217a4179447f", "source_changes": 0, "visual_qa": "ALL_12_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V06-C02-QUERY", "value": 5}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V06-C02-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V06-C02-HASH", "value": "b50114d8d2a13edd616a4822538ec1f20e8270ce64cb2b90059b784505e8e169"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V06-C02-REGISTER", "value": 5}
+{"check": "V06-C02 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V06-C02-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "dd062e36b25cb54d75120999da81606507e732a3fddd1e9e340ab342db1ed280", "source_changes": 0, "visual_qa": "ALL_7_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V06-C03-QUERY", "value": 11}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V06-C03-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V06-C03-HASH", "value": "96cbcb58f12c675d2afda2ab21f9376639f2caf3634ef05fcec71b5e3a2cbfda"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V06-C03-REGISTER", "value": 11}
+{"check": "V06-C03 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V06-C03-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "d8f76db87a1a9a7421782b79ecd548f986aafeb8a9cec5f5224e176b8ee89897", "source_changes": 0, "visual_qa": "ALL_7_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V06-C04-QUERY", "value": 7}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V06-C04-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V06-C04-HASH", "value": "6ebea64b239956864371d83d728dbdae36211b17d175ef489180b2bcd0f753a6"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V06-C04-REGISTER", "value": 7}
+{"check": "V06-C04 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V06-C04-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "fa1732f0a7159c622ab1038212a3bde4c8b1a09b8a4490ac758b320364482e5f", "source_changes": 0, "visual_qa": "ALL_7_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V06-C05-QUERY", "value": 8}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V06-C05-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V06-C05-HASH", "value": "34ff2a958c523343277f525b2d3d65d448614d74e1e5928759093c71cb857dc6"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V06-C05-REGISTER", "value": 8}
+{"check": "V06-C05 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V06-C05-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "88b76e757677f1ba5be0e007e399557cc4118343f92dd90608d9e6c91f197a79", "source_changes": 0, "visual_qa": "ALL_7_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V06-C06-QUERY", "value": 3}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V06-C06-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V06-C06-HASH", "value": "564b38b4bc24a44daeeb8b37a4d967a2b7c0d6ed79d3c61d0196238aaa9101db"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V06-C06-REGISTER", "value": 3}
+{"check": "V06-C06 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V06-C06-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "3151d9a1e2d0edf69351ac6520a493095d3fb9f22651ef6f873cd1c43fd2627c", "source_changes": 0, "visual_qa": "ALL_6_PAGES"}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V06-C07-QUERY", "value": 10}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V06-C07-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V06-C07-HASH", "value": "8801f889e8549ae9fac65d4d003e9df0c070e3ad2345410087d3204f3ec24e57"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V06-C07-REGISTER", "value": 10}
+{"check": "V06-C07 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V06-C07-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "3eda9e4f8380ac349030ef11be7fa3e3a526da39aa93d92456c23a3021d5ceda", "source_changes": 0, "visual_qa": 7}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V06-C08-QUERY", "value": 7}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V06-C08-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V06-C08-HASH", "value": "80594837bdbb3a808a1c1e4e3d0503d7f2d9333641914899e7cb2cba3c6b237d"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V06-C08-REGISTER", "value": 7}
+{"check": "V06-C08 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V06-C08-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "c9264d9df7d6e0735a40ee7a675687cc236fc1e596fa9600aec2e0a84c6fae3e", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V07-C01-QUERY", "value": 62}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V07-C01-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V07-C01-HASH", "value": "6506e6a00764cdce659296de10d351343f5bbf97bd727dd48d436c71c939ad70"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V07-C01-REGISTER", "value": 62}
+{"check": "V07-C01 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V07-C01-PUBLICATION-RENDER", "value": {"pages": 9, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "d291915f9021c58c61592309c66766b2efa604e3ddab3b59f1722bee703c0352", "source_changes": 0, "visual_qa": 9}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V07-C02-QUERY", "value": 3}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V07-C02-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V07-C02-HASH", "value": "c110dff046386e2f3d0a95be926e136a230dd7c6048814e06a3af52e94ffb24a"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V07-C02-REGISTER", "value": 3}
+{"check": "V07-C02 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V07-C02-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "6ff9fec65245b9e863a80abc0a115c89851be40411605c9f33662f0e4f5d24d7", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V07-C03-QUERY", "value": 2}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V07-C03-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V07-C03-HASH", "value": "fa9e9b4e652863de428aa809016bc6d417048ba70acf3b5e84f17667ce3012c0"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V07-C03-REGISTER", "value": 2}
+{"check": "V07-C03 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V07-C03-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "0336c252927ef605118696cb1a930dce0d3d10ef0a199a4fe1fa2aad3ae047e8", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V07-C04-QUERY", "value": 36}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V07-C04-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V07-C04-HASH", "value": "0592600519157434ccbf91d907504fff8e50d4beecbcc8a24789601b7f0363b0"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V07-C04-REGISTER", "value": 36}
+{"check": "V07-C04 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V07-C04-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "5dcef5cef2d9657572d777e51a01c1291dbd3fe31a6852877570ab7ae9fc85e7", "source_changes": 0, "visual_qa": 7}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V07-C05-QUERY", "value": 16}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V07-C05-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V07-C05-HASH", "value": "dec62c2842dd0414bfea8cdd883aff9290fa519e72217c752be3939238d91153"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V07-C05-REGISTER", "value": 16}
+{"check": "V07-C05 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V07-C05-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "a7b40590bfd01edf164726afc4d71ddf45cefcabff18b0a62f8f5797726ac7f2", "source_changes": 0, "visual_qa": 7}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V07-C06-QUERY", "value": 5}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V07-C06-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V07-C06-HASH", "value": "020388a73daca4a440970a7140d38b2d11ed142ad758ec71cf4c35c6e9db4042"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V07-C06-REGISTER", "value": 5}
+{"check": "V07-C06 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V07-C06-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "03ef3c96d64825c35b3400c52b20e49f3b027548096a51cbde78ab6d72e3d8ba", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V07-C07-QUERY", "value": 5}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V07-C07-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V07-C07-HASH", "value": "98f3ae3f12db6840fd215a8e847099aed656963eefeb2f4520be35fb943b7588"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V07-C07-REGISTER", "value": 5}
+{"check": "V07-C07 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V07-C07-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "e530b27fc719b7114180721f0f89166fd7d18a78b65aebffd35f6222ea2b594a", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V07-C08-QUERY", "value": 0}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V07-C08-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V07-C08-HASH", "value": "af7ee89a7d65fa76ecc681b426053694af758d3adf3eae1e1d9537834c602f88"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V07-C08-REGISTER", "value": 0}
+{"check": "V07-C08 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V07-C08-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "12d7363ebac558dbff35a94fc96b31c9c3eb22da90d509368f57e6e5909b4cc7", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V07-C09-QUERY", "value": 3}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V07-C09-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V07-C09-HASH", "value": "957f025a8fe2cb77653fa34d2cbe7177ce53eb83fd2ec93835ea3d03631f1495"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V07-C09-REGISTER", "value": 3}
+{"check": "V07-C09 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V07-C09-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "bbea53baccd6c1906f8d72d52e04f936e6e481a013c6492085fddcab9fceb273", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V07-C10-QUERY", "value": 1}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V07-C10-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V07-C10-HASH", "value": "6dc28637b190033b7daa636e1ab5f67d01595186a1ec5fa047bc9e17c543f5b1"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V07-C10-REGISTER", "value": 1}
+{"check": "V07-C10 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V07-C10-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "9499fbc603ee941ce197e81db97c06cec16893790da4c9ec4c68a0b2a9ae029e", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V08-C01-QUERY", "value": 8}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V08-C01-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V08-C01-HASH", "value": "aa98a8340adfe04d7a03994d0202138e0b608c7df9efc868c28436affd1bc637"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V08-C01-REGISTER", "value": 8}
+{"check": "V08-C01 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V08-C01-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "93cef8d9116656d03a4a63bdbd05b52c87f976e8b64f368a9a5ed16e34d1d9f4", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V08-C02-QUERY", "value": 9}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V08-C02-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V08-C02-HASH", "value": "315038690a647baa3c38c0c277d61f0a0ed57df76064b162a447a668f9a20ee0"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V08-C02-REGISTER", "value": 9}
+{"check": "V08-C02 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V08-C02-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "c6aa456df01c01cd629733783d8696e5102da8dca0a637515a72a5c979dedf7a", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V08-C03-QUERY", "value": 20}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V08-C03-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V08-C03-HASH", "value": "6d889ea1f92cf031a43b897fda9859c9fed8c941e43b03b1f250b5a0359ea8f7"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V08-C03-REGISTER", "value": 20}
+{"check": "V08-C03 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V08-C03-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "687f3e93d3e2073396f12c83e8ee3c4edfef47a23b1eb6a65a395ffbce52656c", "source_changes": 0, "visual_qa": 7}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V08-C04-QUERY", "value": 7}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V08-C04-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V08-C04-HASH", "value": "8265147a14cfeb17aaba63bae5501c2fe691f84485277fcadb22456f05165ab9"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V08-C04-REGISTER", "value": 7}
+{"check": "V08-C04 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V08-C04-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "372c8a80243841309f8fe8a5800792dc1dbadf6bab45eca9b30b2696c0554d16", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V08-C05-QUERY", "value": 31}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V08-C05-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V08-C05-HASH", "value": "77d3403d538c8a89a650677d94943de34c6f634676384738071ec07dd62a157b"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V08-C05-REGISTER", "value": 31}
+{"check": "V08-C05 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V08-C05-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "b558f2f51396f20f3c2dc04dd45fcfa27d007eed87126536b305fd9e663fa656", "source_changes": 0, "visual_qa": 7}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V08-C06-QUERY", "value": 17}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V08-C06-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V08-C06-HASH", "value": "618554065c9b1d8fab597fca724313f24ab0dbb5b62e565f9e1f54e2aee18d90"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V08-C06-REGISTER", "value": 17}
+{"check": "V08-C06 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V08-C06-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "5326d4ade8865bd627678d9a4e31b8f357bcd9933b02995c2f39fb634a8c4059", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V08-C07-QUERY", "value": 6}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V08-C07-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V08-C07-HASH", "value": "73493a7601be8170334f8cc25692e28f8c1da14a97b124c3d2a48f1a6adecac2"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V08-C07-REGISTER", "value": 6}
+{"check": "V08-C07 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V08-C07-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "c8f376de51feef1988fdb12d3c5c12077a34fa40e30c77f4ef181cc63536c4e2", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V09-C01-QUERY", "value": 11}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V09-C01-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V09-C01-HASH", "value": "e22a7403fb0a4b6a2054a1746ce82d8c6453c60984637d8f05da33cc93ab9e66"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V09-C01-REGISTER", "value": 11}
+{"check": "V09-C01 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V09-C01-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "9fc6ffd6f7f247631892b1597fcd842d989b961cef03c4df376315c2e917d45a", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V09-C02-QUERY", "value": 0}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V09-C02-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V09-C02-HASH", "value": "cce23f5e26f3abb6d74de79b541ce8e771e79cdb80b7d94829c996e6347628b6"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V09-C02-REGISTER", "value": 0}
+{"check": "V09-C02 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V09-C02-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "39b21b95fb87037e81522c25a3db783bc85c45c33041dc0fb0428e800dfbea28", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V09-C03-QUERY", "value": 0}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V09-C03-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V09-C03-HASH", "value": "37de2c98b519d579f4a916e86536dd00de6cae48d87dcad00cf738d3e4e7ecda"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V09-C03-REGISTER", "value": 0}
+{"check": "V09-C03 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V09-C03-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "2ee53a66715006646b9c379b0f549dd64d49633d0be5c4edb874672c1ec98814", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V09-C04-QUERY", "value": 0}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V09-C04-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V09-C04-HASH", "value": "426c454dd5c2f2f0e6b2224854d7ce490a99ce0d913b3bc98e762f1b01762c66"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V09-C04-REGISTER", "value": 0}
+{"check": "V09-C04 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V09-C04-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "1a1fe4ae1f3071ee246a451d24064147a8587dda2489573d0401f7878807b0b7", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V09-C05-QUERY", "value": 5}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V09-C05-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V09-C05-HASH", "value": "bff4f0c3543e2c561b56180baa55ccfa4faaac24ca3aa0a908102caee76fbfb7"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V09-C05-REGISTER", "value": 5}
+{"check": "V09-C05 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V09-C05-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "fca10ecfa4413d51e73253c05c61c9de9f7f9a0addce76c1aa8fc9c151bea308", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V09-C06-QUERY", "value": 1}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V09-C06-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V09-C06-HASH", "value": "3cf219ff3cdbf071d74d9eeab68abf8bbc1a49bbfe25cb43680e79a75d50580d"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V09-C06-REGISTER", "value": 1}
+{"check": "V09-C06 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V09-C06-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "eae7080b1c54b58b872ffa0dfa3ff5ebc1bbf7db52290efa67c9567b5bae162f", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V09-C07-QUERY", "value": 0}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V09-C07-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V09-C07-HASH", "value": "ef84f240549305e7b093ec56db33f0ff20b5f30272bd30d6e76aadffaa4feb03"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V09-C07-REGISTER", "value": 0}
+{"check": "V09-C07 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V09-C07-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "0c6dd5a14284fb08e047b91de5eac86f100b656db6c68a59363270d788b660c7", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V10-C01-QUERY", "value": 34}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V10-C01-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V10-C01-HASH", "value": "fc8a340e201f82d78b65b75e9290b88a002af6b59d65ae74daa641cd5cc3f12d"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V10-C01-REGISTER", "value": 34}
+{"check": "V10-C01 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V10-C01-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "95a7c4bd1dc9bf73ace7e836cd9ab370d2fc02b403c59b1b565b57d6b957a809", "source_changes": 0, "visual_qa": 7}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V10-C02-QUERY", "value": 9}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V10-C02-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V10-C02-HASH", "value": "2df2529819ee15a3dd17ba4825f0666c440d6e07fedd7b8858b45f8f45d0f6e4"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V10-C02-REGISTER", "value": 9}
+{"check": "V10-C02 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V10-C02-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "fcc7e5d23db059dbfd75e4d3e178e39246475082e536b85877ef604ea914eae3", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V10-C03-QUERY", "value": 7}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V10-C03-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V10-C03-HASH", "value": "6e659bd1b32d01fe631166322ffa8482a82ce111c9ae035ebf20c4e11c4169d0"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V10-C03-REGISTER", "value": 7}
+{"check": "V10-C03 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V10-C03-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "f98d98d2dc0cdb07591487d93caba86c1b014672fc6cbddc03dc87ee8cee0ec5", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V10-C04-QUERY", "value": 5}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V10-C04-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V10-C04-HASH", "value": "dcba3cfc3bf09b209b207403fe48cc42d04419f3a4cee4e76fa670e95d85fd02"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V10-C04-REGISTER", "value": 5}
+{"check": "V10-C04 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V10-C04-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "e370912d72d63155920994e77f5da73d5168bd712dc673568e916a988e97d5c1", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V10-C05-QUERY", "value": 6}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V10-C05-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V10-C05-HASH", "value": "708c638e80a33b3b8129735a4450dd5a17b90483bbc7b76fe4f9500dd65d2937"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V10-C05-REGISTER", "value": 6}
+{"check": "V10-C05 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V10-C05-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "e7361be3a47d6f1f614f830735da40d6df1b7b25d86673d50d52f4084e1b7403", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V10-C06-QUERY", "value": 4}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V10-C06-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V10-C06-HASH", "value": "2c0d4a824830274b71af2626940ad143f923d5167836d515f1e86b00d9ea9a2d"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V10-C06-REGISTER", "value": 4}
+{"check": "V10-C06 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V10-C06-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "9a09cd74f6be7cdc4d552cecd71d5222d7c63587ef80522eec9988b7f84f29a9", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V11-C01-QUERY", "value": 21}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V11-C01-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V11-C01-HASH", "value": "43f0226743e205441c43d01c43250c25c6e5f98808f3800c9e15e0416c9f1888"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V11-C01-REGISTER", "value": 21}
+{"check": "V11-C01 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V11-C01-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "f9582c8b16f67250393962d76816b309f80265b0adcca82721442bec2d1403ac", "source_changes": 0, "visual_qa": 7}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V11-C02-QUERY", "value": 11}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V11-C02-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V11-C02-HASH", "value": "5603b5c1f94a706803adf64716f3d1d1721bc836ada7046301cbd5e49b8e5712"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V11-C02-REGISTER", "value": 11}
+{"check": "V11-C02 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V11-C02-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "aba5640dda273dbf4c034dfdab3e78fa493f7c515b5440052ce1da64d5817604", "source_changes": 0, "visual_qa": 7}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V11-C03-QUERY", "value": 15}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V11-C03-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V11-C03-HASH", "value": "0197521019390fd29d6ed9546506506949a263a2cd52525dcfd51b8cca3eacfd"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V11-C03-REGISTER", "value": 15}
+{"check": "V11-C03 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V11-C03-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "c8f028499478a57c8285e69e94e93d8c14012fe20adb089f3d45821ab7d33b45", "source_changes": 0, "visual_qa": 7}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V11-C04-QUERY", "value": 27}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V11-C04-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V11-C04-HASH", "value": "4350c252c5c6c41f0038a16b0ba1a89f3f39fd8f9368ad9a6bf035a17ac78bc4"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V11-C04-REGISTER", "value": 27}
+{"check": "V11-C04 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V11-C04-PUBLICATION-RENDER", "value": {"pages": 8, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "232f467893be3f1bab3b828a006498be86e2813c5dbf1b938b97cc142e7a19e9", "source_changes": 0, "visual_qa": 8}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V11-C05-QUERY", "value": 19}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V11-C05-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V11-C05-HASH", "value": "1b4a46e0e72ccdea34a7f736726eeb57426a4132a003c3f686facbda272f3a2c"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V11-C05-REGISTER", "value": 19}
+{"check": "V11-C05 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V11-C05-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "d6349a9dad79d7365ea85776db5e7f8ad3c4e1ecf1d027eb14774ef591dece1b", "source_changes": 0, "visual_qa": 7}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V11-C06-QUERY", "value": 12}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V11-C06-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V11-C06-HASH", "value": "8aae69f9dc82f3995d8d23c6199290e889a3afab08ab7dc7e923f2c42727838c"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V11-C06-REGISTER", "value": 12}
+{"check": "V11-C06 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V11-C06-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "586e0227f0000ed8209738de7bca1e3d5faa321659c7f1529ad326a2d69783f4", "source_changes": 0, "visual_qa": 7}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V11-C07-QUERY", "value": 8}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V11-C07-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V11-C07-HASH", "value": "55765c9d1d20011885508782cc5784c7472b3727a22cd7c0cfe0e45c2c76354e"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V11-C07-REGISTER", "value": 8}
+{"check": "V11-C07 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V11-C07-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "2404187b79a007dbd74e3713f5be357b16ff264515976fd6aad6dbabf9ea12e4", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V12-C01-QUERY", "value": 8}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V12-C01-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V12-C01-HASH", "value": "15c1c3d058637e46ada5516839417a1cfbd4977d2dafa76136d897c79dad8045"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V12-C01-REGISTER", "value": 8}
+{"check": "V12-C01 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V12-C01-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "799b0a36e4e43a019de1d5fda352e7ebab0a12b92f3ca8c91658a8a73608269a", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V12-C02-QUERY", "value": 0}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V12-C02-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V12-C02-HASH", "value": "7da2e7a5bacecce13d68411cd9bcdcedfaebdf444638ed2ed795e8a30fc900cb"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V12-C02-REGISTER", "value": 0}
+{"check": "V12-C02 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V12-C02-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "a140edf52e2485f9d6b55a360645ae0a220d6a05690121fbbf9c972bf566a90b", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V12-C03-QUERY", "value": 1}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V12-C03-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V12-C03-HASH", "value": "62a1658bb61860a0e93ab622380a1d093bab824acb2e427a3a17284ca09c48ff"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V12-C03-REGISTER", "value": 1}
+{"check": "V12-C03 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V12-C03-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "d7b7fc1c62ae28b354fb51a699f2f91b33ef587f65821eeddd4e0c7f1d7bc4c5", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V12-C04-QUERY", "value": 15}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V12-C04-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V12-C04-HASH", "value": "3a2c07c1e071a4a2e36bf8fc46475b42ce51ee3085f6f3992c41c6594b5dcfde"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V12-C04-REGISTER", "value": 15}
+{"check": "V12-C04 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V12-C04-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "573b54be59146ad320452bd04068380fd020c0635410ced977a02d4a86aaf173", "source_changes": 0, "visual_qa": 7}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V12-C05-QUERY", "value": 0}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V12-C05-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V12-C05-HASH", "value": "6649dc0761948b9cedd83f4fc57822c55e3c794ed1dc93c4ec16b97e5603b96a"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V12-C05-REGISTER", "value": 0}
+{"check": "V12-C05 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V12-C05-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "59bb9c3201e6087e8f1594499bad7f112ffd3d7388a1e3387fa0dcb69151cd9c", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V12-C06-QUERY", "value": 0}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V12-C06-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V12-C06-HASH", "value": "c2708415ec42380a78a2deecef6d161c8825a1e136d6858a4c46acf271c11570"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V12-C06-REGISTER", "value": 0}
+{"check": "V12-C06 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V12-C06-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "edc11ee1daef448417ed87da590525f8e7525c1e9d26f6cad6b5cf5a3d3d0628", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V13-C01-QUERY", "value": 8}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V13-C01-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V13-C01-HASH", "value": "477641ec579b8d5b58ec7846878dcddcbc818326f54632e25332833248d792c9"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V13-C01-REGISTER", "value": 8}
+{"check": "V13-C01 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V13-C01-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "bbac8e5ae47edfc95b92877b4f5f871a149012ca0742dd1b8e7fdf3e48d22e14", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V13-C02-QUERY", "value": 12}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V13-C02-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V13-C02-HASH", "value": "cd6cee341e8ea3bd074c40b48028a17cc7d110e2bd83f8c7ebcdd5223a6f2ee2"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V13-C02-REGISTER", "value": 12}
+{"check": "V13-C02 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V13-C02-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "672a634b472835dbc1af7a680758a7606710eacf834468c0e665398f6435c5f2", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V13-C03-QUERY", "value": 10}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V13-C03-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V13-C03-HASH", "value": "b1a9108c2e0cdd754886b683cb0686de877f8a389d4e4054776b33f86a04bd61"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V13-C03-REGISTER", "value": 10}
+{"check": "V13-C03 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V13-C03-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "c0aed966437323d07b34a3790a6f14eacca8e378ae1103f501def4cf385051fa", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V13-C04-QUERY", "value": 25}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V13-C04-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V13-C04-HASH", "value": "f88b3db7f8917fe078262434b21856cecb71a3c0e89f1ff369d5328d7fe97660"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V13-C04-REGISTER", "value": 25}
+{"check": "V13-C04 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V13-C04-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "7dfd2070651b4467316ba82ba4f3dbe9891312a99fd7f484dfe0b3510ed189e7", "source_changes": 0, "visual_qa": 7}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V13-C05-QUERY", "value": 9}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V13-C05-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V13-C05-HASH", "value": "e4d491fbb82f15a60eed4b81ef9631b92c018890a0e146c785f0fd8181e659cd"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V13-C05-REGISTER", "value": 9}
+{"check": "V13-C05 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V13-C05-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "9e4cf5adc09ea1d96c032ad77f80e35d84e02810a2f3357e290a27db4bccbb29", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V13-C06-QUERY", "value": 1}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V13-C06-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V13-C06-HASH", "value": "0573633769396acb1f2cf4cef118f2df434698b76f9efd85df1fd16f76194cef"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V13-C06-REGISTER", "value": 1}
+{"check": "V13-C06 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V13-C06-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "61455341a51e95301308059bc5850b8e568c5f9db3f8449c1c78d4b4a7dd550e", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V14-C01-QUERY", "value": 23}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V14-C01-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V14-C01-HASH", "value": "0b22146521c69faafb163cb4209c5561db2225cc9b8afdb79ab52cc4d7963712"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V14-C01-REGISTER", "value": 23}
+{"check": "V14-C01 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V14-C01-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "cbd2b26242bb96c8780d38a18a46aacff234ca716b79d6dc08790c497f18e869", "source_changes": 0, "visual_qa": 7}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V14-C02-QUERY", "value": 17}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V14-C02-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V14-C02-HASH", "value": "ed77e19b5ebaee87fc80b528e5877a5ebc7186e9eda5cd26cbc479112d53a091"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V14-C02-REGISTER", "value": 17}
+{"check": "V14-C02 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V14-C02-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "04c76747a0eed8b5fa65b9973fe1ebc5020fc337f7b0af618e1c45bb54866459", "source_changes": 0, "visual_qa": 7}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V14-C03-QUERY", "value": 18}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V14-C03-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V14-C03-HASH", "value": "5e1eb98428529c47069b73bfe969c78074d59ba17dcea3cd6bda65abc52b8f9f"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V14-C03-REGISTER", "value": 18}
+{"check": "V14-C03 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V14-C03-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "3e78c4f7a0d91b21e17be1cbe0117184d5261270c4f57fbab5f3dea42a516cb9", "source_changes": 0, "visual_qa": 7}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V14-C04-QUERY", "value": 8}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V14-C04-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V14-C04-HASH", "value": "da1d33cca1aa564c53a250510d2dec827201ae8f36c3e4e37e81022f75fe7b62"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V14-C04-REGISTER", "value": 8}
+{"check": "V14-C04 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V14-C04-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "129e182102f164f2ce3ae4d0477f22c3b234795b5bef19200c302a48cc9243e7", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V14-C05-QUERY", "value": 4}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V14-C05-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V14-C05-HASH", "value": "321166cbc0c34635f0f88263ff374c32828867b3eb338118ed2699f0b1fe51fc"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V14-C05-REGISTER", "value": 4}
+{"check": "V14-C05 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V14-C05-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "c1773594dcfa39df0bfd5daf249dbe2ede76e33cca8b7e8dbe18cc2028c3d498", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V14-C06-QUERY", "value": 10}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V14-C06-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V14-C06-HASH", "value": "f1b758fcc9b2a0d8d960a42f3c88b1378a5f3a792f211b6ff080fe666e6249a0"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V14-C06-REGISTER", "value": 10}
+{"check": "V14-C06 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V14-C06-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "cc758c99a3cceaf43be6ba2ba8a0e2edd330ab92490fdf56e36933086f82a2b0", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V14-C07-QUERY", "value": 6}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V14-C07-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V14-C07-HASH", "value": "541facbec246d46f6e25fcaec6b0b13e71ab330ec298285745040cf6d7e4be6e"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V14-C07-REGISTER", "value": 6}
+{"check": "V14-C07 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V14-C07-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "338a4e45ab4988c498ad98ff25fe18dc167d07c4f97fc36977deb7053623a4ba", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V14-C08-QUERY", "value": 2}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V14-C08-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V14-C08-HASH", "value": "e38170335a8e581d3484a30aa009efbfd2c3d09144bb7b0faf53c4d3194dd90d"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V14-C08-REGISTER", "value": 2}
+{"check": "V14-C08 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V14-C08-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "b3fd823ee4433b6961b850cccbf277d707c13b019f35985e64ba80808306c1d6", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V15-C01-QUERY", "value": 0}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V15-C01-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V15-C01-HASH", "value": "fc334a0f312a2929267583002d8c7a44f7762d71399851708ecce5afb7608335"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V15-C01-REGISTER", "value": 0}
+{"check": "V15-C01 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V15-C01-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "04bb6b5ba59bfcde05b48be83b477e5f8e1539c49fc7bd2a000d423ba88ed5a8", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V15-C02-QUERY", "value": 0}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V15-C02-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V15-C02-HASH", "value": "e80ca04b8a576dda5832d0ae1c2531d4b0830bca3cb92bc759822c35f0bdc85b"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V15-C02-REGISTER", "value": 0}
+{"check": "V15-C02 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V15-C02-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "9e33b2600834d3a6cd5ab3360ecee3aab597c34e1a00a453db1431e8bde3f4f4", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V15-C03-QUERY", "value": 9}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V15-C03-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V15-C03-HASH", "value": "773a435934db55a8783eaea372b12b926232b18a19eb1f41387b0d7f3b0d8965"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V15-C03-REGISTER", "value": 9}
+{"check": "V15-C03 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V15-C03-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "c2911aeb7481a2b8557dfc03e08bcb8e2d7b2e85a31ac97a9bf2b47442d49fb9", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V15-C04-QUERY", "value": 2}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V15-C04-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V15-C04-HASH", "value": "0ec18f48b1ffc015822ffea0e28b856d4f5837980517bfa92f5d1fff812c4da2"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V15-C04-REGISTER", "value": 2}
+{"check": "V15-C04 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V15-C04-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "57af5a050134570c60949a48c09a59a6999e0818aa9f4a8497c9067c1f4fd9d8", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V15-C05-QUERY", "value": 3}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V15-C05-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V15-C05-HASH", "value": "e3377134bbed7f7870e1958ffea57ba91e314be0eaec94ca178a73be9bacf4dd"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V15-C05-REGISTER", "value": 3}
+{"check": "V15-C05 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V15-C05-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "99aea4355472ca11f3af9e0ab4e1ef231989d5364db708e7b59e189b706373f9", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V15-C06-QUERY", "value": 6}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V15-C06-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V15-C06-HASH", "value": "1495a3a96219e352525e0f18dbe3bd28a4569df3e0807163baac66c24a3670fa"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V15-C06-REGISTER", "value": 6}
+{"check": "V15-C06 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V15-C06-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "b15a77c5f6be8e5e8738ef8b0d64d6a7397141853fc2559ae539b2e9212948c8", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V15-C07-QUERY", "value": 0}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V15-C07-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V15-C07-HASH", "value": "6928ada17d484f5ec18a46b00c9373b3bd88ddd69bf71e168ef398ed3ea3d102"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V15-C07-REGISTER", "value": 0}
+{"check": "V15-C07 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V15-C07-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "413b63e7a014709f605a5de68d9c8c6b179e1ea256b60cf57c2fa451d4ec909e", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V16-C01-QUERY", "value": 3}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V16-C01-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V16-C01-HASH", "value": "29f099d294976b78a230fd209c65dd0c62fc800f326dc0fec29b7d3952aa1dc2"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V16-C01-REGISTER", "value": 3}
+{"check": "V16-C01 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V16-C01-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "db675b4a84173d8389d29ac2c34c4eb909717d367470e21d0fca16d16333cf78", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V16-C02-QUERY", "value": 0}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V16-C02-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V16-C02-HASH", "value": "202b882f3a31c7ff312f32ebdcd8b1875e14a97c9255807cb43bdec6cdab24c3"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V16-C02-REGISTER", "value": 0}
+{"check": "V16-C02 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V16-C02-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "f89a747d6cb212952a6a327f2d4739929ceac02a45f24e056d3f18de4a325e6f", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V16-C03-QUERY", "value": 0}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V16-C03-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V16-C03-HASH", "value": "24b4d15cd108432a530e8981234197e2061d3e86b50a352ba7928be83bd9e58d"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V16-C03-REGISTER", "value": 0}
+{"check": "V16-C03 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V16-C03-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "d1f861c99150e588eb1b620aa5ffd85e9f47368750115fd815f1f3720b55e7ba", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V16-C04-QUERY", "value": 0}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V16-C04-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V16-C04-HASH", "value": "7a358fe8cdf3a345145edd332878a513fcff2b1191d8b4e5a50010b373446d02"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V16-C04-REGISTER", "value": 0}
+{"check": "V16-C04 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V16-C04-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "6f6af4615a416f40bbd2e5842f31fee17ae0b6118e7dbd1c0bca34e0f174aa05", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V16-C05-QUERY", "value": 8}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V16-C05-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V16-C05-HASH", "value": "3c29c66ac4483258f18a44ae814078e49a1b4f408c2eebc08ca682a145676609"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V16-C05-REGISTER", "value": 8}
+{"check": "V16-C05 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V16-C05-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "ab6e5de29b45050ff8fb594a8d290a338dac53b7556a0935a409198831e56de4", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V16-C06-QUERY", "value": 7}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V16-C06-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V16-C06-HASH", "value": "bea187d5c1bc9eda8536f21dab6446260d2aaecadadf74879257cb924ad905f9"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V16-C06-REGISTER", "value": 7}
+{"check": "V16-C06 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V16-C06-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "64dbb7e588b3b8843269c655a20ebd6c4291878ea379794098e100a3af30614d", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V16-C07-QUERY", "value": 0}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V16-C07-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V16-C07-HASH", "value": "4e6d322bee93343286ffb1f734b2299f65d869fcc579fa7d3de3ee34810126fc"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V16-C07-REGISTER", "value": 0}
+{"check": "V16-C07 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V16-C07-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "d7be7cb7dcbff2c767ff546e3055e8e88dfa0ca0565c069f5184e3fb8160f639", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V16-C08-QUERY", "value": 0}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V16-C08-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V16-C08-HASH", "value": "4a9ab984a003d4d8d080acecec6d9e6f951bb811018c0b6354e830e8e2e89f4f"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V16-C08-REGISTER", "value": 0}
+{"check": "V16-C08 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V16-C08-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "e37c0c0c7238dbff6f774d9be89cbf968f0adb35f968474428364209b138f57e", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V17-C01-QUERY", "value": 9}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V17-C01-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V17-C01-HASH", "value": "38ef4736f9395b1704ceca2afacbaf0b31c64169eccbf935c01b4bf9255493c7"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V17-C01-REGISTER", "value": 9}
+{"check": "V17-C01 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V17-C01-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "2356e10b99fdecc9a79ce4284fe612a5621ebe06b811a892342d81c0bece422e", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V17-C02-QUERY", "value": 8}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V17-C02-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V17-C02-HASH", "value": "a4df177d9e90eea075b76b61af75854933ff397b2f583aca8fb06e8a8e7deb3e"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V17-C02-REGISTER", "value": 8}
+{"check": "V17-C02 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V17-C02-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "b8e8a6de36d57d2d5e27a1d5ed12310deaeca080977c9f25bbdf796d6946e2de", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V17-C03-QUERY", "value": 16}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V17-C03-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V17-C03-HASH", "value": "583736ffe9d303671d41bdd334da34e7d6ae78ca87e7d29c8eef659bbbf11ec1"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V17-C03-REGISTER", "value": 16}
+{"check": "V17-C03 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V17-C03-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "fd484621c706b614292187d5ac9cccb71ee958f05498dbfc7cd3da3add067e66", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V17-C04-QUERY", "value": 10}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V17-C04-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V17-C04-HASH", "value": "f8a95bf2e6aa94087ddebb9bce9a70b8f6e8f8c5d979ae24b2bd415f5fe3a83a"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V17-C04-REGISTER", "value": 10}
+{"check": "V17-C04 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V17-C04-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "0a0dc1c837726e36bd8943f890facd923ab7d7ce471607ea3f802e544ea068f7", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V17-C05-QUERY", "value": 6}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V17-C05-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V17-C05-HASH", "value": "753baf7ac9ca7251ed916587e82a5ae7ef4015df8a9d06990c7ed47f48c0ca68"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V17-C05-REGISTER", "value": 6}
+{"check": "V17-C05 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V17-C05-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "28919ca1c4ed8dfb717eae919128691a2e3099c1bba03f35fc98b08e18d38b44", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V17-C06-QUERY", "value": 6}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V17-C06-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V17-C06-HASH", "value": "077b361517ab448223ec041ebe0afd593e6edbe00056125a97aead85800fd3a0"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V17-C06-REGISTER", "value": 6}
+{"check": "V17-C06 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V17-C06-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "612de431ee35bfa52f574b41c9f921bd1fd44ccd65e8e08376a50cf3354dd5d3", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V18-C01-QUERY", "value": 18}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V18-C01-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V18-C01-HASH", "value": "5be1ed27e528232f53613fa4ea9c6a140374add27e1a43c2a61bcc9465ac06e4"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V18-C01-REGISTER", "value": 18}
+{"check": "V18-C01 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V18-C01-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "4c7e48a8bd64eb45bb2bed9c43b25ffbc658a7d53e92ab04fdf671899ff9f0f9", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V18-C02-QUERY", "value": 26}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V18-C02-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V18-C02-HASH", "value": "17dfc5a6e5d4806a8ca58126d09d61abe87e03d0b3b3aae17b51ab9258cb7419"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V18-C02-REGISTER", "value": 26}
+{"check": "V18-C02 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V18-C02-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "b358699b855224dbb2f63985aed6a41cf09d5b03e0a63a896dc4eeeee47ba09d", "source_changes": 0, "visual_qa": 7}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V18-C03-QUERY", "value": 29}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V18-C03-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V18-C03-HASH", "value": "5e2f52da2b38c23381d5388202955ea312155f8783ab5540353b8ef5227ba059"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V18-C03-REGISTER", "value": 29}
+{"check": "V18-C03 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V18-C03-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "27be794b13e52eceeeed295e43eb4504ecbc0b71f6164d4c958062f9ce209578", "source_changes": 0, "visual_qa": 7}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V18-C04-QUERY", "value": 18}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V18-C04-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V18-C04-HASH", "value": "4d6d498a80bf7b4de6eaac7555c6ebf4979cbeef97dd9bb811dddd2d196be8da"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V18-C04-REGISTER", "value": 18}
+{"check": "V18-C04 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V18-C04-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "232c90e99532e562706cc89ee5cb38111f27ffedb8931867c7faafd2fa822509", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V18-C05-QUERY", "value": 15}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V18-C05-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V18-C05-HASH", "value": "e8aff9e0ecea9867a1d7fcb0f0d877cc2f822a5563fe9d59e72654b46661214c"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V18-C05-REGISTER", "value": 15}
+{"check": "V18-C05 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V18-C05-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "93530e443c98a5197203d504dfb59a709122d466300a8cd33637c8ea838d3311", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V18-C06-QUERY", "value": 23}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V18-C06-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V18-C06-HASH", "value": "c876e7893939781f546093c90a773f180f675346e75f9c0c4517e3ddd8dcd9a7"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V18-C06-REGISTER", "value": 23}
+{"check": "V18-C06 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V18-C06-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "6f821901e59b3c923e74c498790b90213723f98373b8b91048d2ad2f0a6e1fb4", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V18-C07-QUERY", "value": 32}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V18-C07-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V18-C07-HASH", "value": "d3882469c3f31339427085157d766d34e00b597f7ba11ab2ee49269ed6f64f4f"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V18-C07-REGISTER", "value": 32}
+{"check": "V18-C07 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V18-C07-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "fe7b4731db446825fb527c2c6171dcf2e6f5b30e6a4345dbd479ccc9bd387426", "source_changes": 0, "visual_qa": 7}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V18-C08-QUERY", "value": 16}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V18-C08-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V18-C08-HASH", "value": "af265d44e502251331d3cbe0df4beb20b406a42dce958b5c2abbf3e9f030f59e"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V18-C08-REGISTER", "value": 16}
+{"check": "V18-C08 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V18-C08-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "e862053eea8c10d885f43b9c466481d8755aaf6dfa2d3dc72e9cb0190f0e1958", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V18-C09-QUERY", "value": 33}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V18-C09-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V18-C09-HASH", "value": "f849fa6985416f181d8ffd243f7e5bbfc3cda1b08b6273cbc23c1457971e04f1"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V18-C09-REGISTER", "value": 33}
+{"check": "V18-C09 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V18-C09-PUBLICATION-RENDER", "value": {"pages": 7, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "6834b862173fe8cefe52075a347872898dd0d94ae77c753c83c3bf9b34ceba5d", "source_changes": 0, "visual_qa": 7}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V18-C10-QUERY", "value": 17}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V18-C10-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V18-C10-HASH", "value": "521ed266c8f95a9c1c6cdcc18d9661c25d8da390848936c5fb194d4faf362d84"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V18-C10-REGISTER", "value": 17}
+{"check": "V18-C10 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V18-C10-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "b0dcdafe14efd05480d1873e6d9e62a6924d67c58d7355454949de32d56d893b", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V18-C11-QUERY", "value": 17}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V18-C11-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V18-C11-HASH", "value": "5615b2277a191f725bc1e752df9613931ca01e67d6d4b8ed26b45fe6c575bf64"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V18-C11-REGISTER", "value": 17}
+{"check": "V18-C11 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V18-C11-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "b3f662648a13f88a6b4447cd8581dd382101cf5f2d0e3492acc525c2015f90c1", "source_changes": 0, "visual_qa": 6}}
+{"check": "Assigned native queries", "result": "PASS", "validation_id": "V18-C12-QUERY", "value": 24}
+{"check": "Library database unchanged", "result": "PASS", "validation_id": "V18-C12-LIBRARY", "value": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03"}
+{"check": "Chapter sealed SHA-256", "result": "PASS", "validation_id": "V18-C12-HASH", "value": "01294a745b51dcdd137037da58e55c64eadc964e3d9373e28ab06d44895b839f"}
+{"check": "Assigned handles represented in chapter register", "result": "PASS", "validation_id": "V18-C12-REGISTER", "value": 24}
+{"check": "V18-C12 frozen-renderer publication and visual QA", "result": "PASS", "validation_id": "V18-C12-PUBLICATION-RENDER", "value": {"pages": 6, "renderer": "TOME_PUBLICATION_RENDERER_V1", "sha256": "38afd01eadab0142bf2ca8c253527389b7804f776da0a50b47ff0b987461c581", "source_changes": 0, "visual_qa": 6}}

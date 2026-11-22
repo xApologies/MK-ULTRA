@@ -1,0 +1,32 @@
+{
+  "a": "@shift_vector",
+  "b": "@komar_angular_momentum",
+  "radius": 2,
+  "a_node_count": 20,
+  "b_node_count": 19,
+  "interface": [],
+  "path_a_to_b": [
+    {
+      "source": "@shift_vector",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@einstein_field_equation",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-46",
+      "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@shift_vector -> @cauchy_problem -> @einstein_field_equation; relations=FAMILY_DEPENDS_ON + DEPENDS_ON; primitive_depth=2"
+    },
+    {
+      "source": "@einstein_field_equation",
+      "relation": "SUPPORTS",
+      "target": "@komar_angular_momentum",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-50",
+      "provenance": "DERIVED:RP50_PENROSE_TYPED_CRAWL; round=2; path=@einstein_field_equation->@general_relativity->@komar_angular_momentum; relations=SUPPORTS+SUPPORTS=>SUPPORTS"
+    }
+  ],
+  "direct_neighborhood_policy": "high-confidence non-derived/direct-source Time-Space API edges only",
+  "path_policy": "high-confidence registered + admissibly derived Time-Space API edges; directions preserved"
+}

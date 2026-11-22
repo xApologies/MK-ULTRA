@@ -1,0 +1,22 @@
+{
+  "experiment": "E006",
+  "candidate": "CAND-DM-EDGE-FLOW-RANK2-010",
+  "title": "Native Edge-Flow to Symmetric Rank-Two Continuity Tensor",
+  "status": "WORK-LAYER TYPE CLOSURE; EXACT PHYSICAL A_g STILL OPEN",
+  "constructor": "C2 = sum_e L_e (n_e tensor n_e)",
+  "anisotropic_component": "C2_0 = C2 - tr(C2)/3 I",
+  "source_basis": [
+    "Phase III continuity flow Phi_ij on admissible edges",
+    "Tensor Pipeline local flow Phi_ij = Coupling_ij exp(-d_ij/lambda_adj)",
+    "Dependency graph delta C -> tensor-mode admissibility -> TT -> Pi_T -> h_mn"
+  ],
+  "results": {
+    "all_12_endogenous_field_lift_cases_anisotropic": true,
+    "all_validation_tests_pass": true,
+    "all_cases_have_nonzero_TT_diagnostic_for_some_direction": true
+  },
+  "ruling": "Rank-two continuity representation seam closed at mathematical/work-layer type level; gravitational helicon-mode selection remains open.",
+  "next_handle": "RECOVER_GRAVITATIONAL_HELICON_MODE_SELECTION_ON_C2",
+  "physical_dark_matter_witness": false,
+  "parent_promotions": 0
+}

@@ -1,0 +1,20 @@
+digraph G {
+  graph [bgcolor="#07121f", rankdir=LR, pad=0.35, label="ATLAS PLATE X — HOMOGENEOUS VS LOCALIZED HIDDEN LOAD", labelloc=t, fontname="Helvetica", fontsize=22, fontcolor="#f2d58a"];
+  node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=12, fontcolor="#eaf7ff", color="#2a7892", fillcolor="#0d2233", penwidth=1.6];
+  edge [color="#58c4dd", fontcolor="#cdeef5", fontname="Helvetica", fontsize=10, penwidth=1.6];
+  subgraph cluster_h { label="HOMOGENEOUS TEST"; color="#36566a"; fontcolor="#cdeef5";
+    hk [label="A_κ = κ θ"];
+    fk [label="F_κ = κ(κ-1) θ∧θ"];
+    ik [label="I₂(p) = constant"];
+    no [label="NO LOCALIZED HALO\nunder equivariant readout", color="#c87171", fillcolor="#351e27"];
+    hk -> fk -> ik -> no;
+  }
+  subgraph cluster_l { label="LOCALIZATION SOCKET"; color="#6f5e36"; fontcolor="#f2d58a";
+    eta [label="η : S³ → ℝ"];
+    ae [label="A_η = η θ"];
+    fe [label="F_η = dη∧θ + η(η-1) θ∧θ"];
+    load [label="ADDRESS-DEPENDENT LOAD\nI₂[η](p)", color="#d4a84b", fillcolor="#27251f"];
+    eta -> ae -> fe -> load;
+  }
+  no -> eta [style=dashed, label="symmetry breaking required"];
+}

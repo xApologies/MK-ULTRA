@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TraversalPolicy",
+  "type": "object",
+  "required": [
+    "policy_id",
+    "major_branch_limit",
+    "edge_budget",
+    "node_budget",
+    "depth_budget",
+    "continuation_enabled",
+    "deterministic_seed"
+  ],
+  "properties": {
+    "policy_id": {
+      "type": "string"
+    },
+    "major_branch_limit": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "edge_budget": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "node_budget": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "depth_budget": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "time_budget_ms": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "continuation_enabled": {
+      "type": "boolean"
+    },
+    "deterministic_seed": {
+      "type": "integer"
+    },
+    "ranking_weights": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "number"
+      }
+    }
+  },
+  "additionalProperties": false
+}

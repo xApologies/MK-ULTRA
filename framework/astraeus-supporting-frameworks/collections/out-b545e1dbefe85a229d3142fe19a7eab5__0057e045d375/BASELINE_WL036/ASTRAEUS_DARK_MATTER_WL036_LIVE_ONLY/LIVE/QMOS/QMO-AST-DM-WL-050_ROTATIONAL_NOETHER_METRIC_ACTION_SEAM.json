@@ -1,0 +1,57 @@
+{
+  "schema": "ASTRAEUS_API_QMO_CROSS_LANDSCAPE_GLUE_V1",
+  "qmo_id": "QMO-AST-DM-WL-050",
+  "name": "Rotational Noether / Dark Metric-Action Exact-Handle Seam",
+  "atlas_version": "WL-v165",
+  "status": "CROSS_QMO_EXACT_HANDLE_GLUE_OPEN_SELECTOR_REMAINS_OPEN",
+  "parents": [
+    "QMO-AST-DM-WL-049",
+    "QMO-AST-DM-WL-027"
+  ],
+  "noether_angular_interface": [
+    "@diffeomorphism_invariance",
+    "@einstein_field_equation",
+    "@noether_identity",
+    "@total_action"
+  ],
+  "metric_action_total_interface": [
+    {
+      "handle": "@total_action",
+      "dm_distance": 2,
+      "timespace_distance": 0
+    },
+    {
+      "handle": "@diffeomorphism_invariance",
+      "dm_distance": 2,
+      "timespace_distance": 1
+    },
+    {
+      "handle": "@matter_action",
+      "dm_distance": 2,
+      "timespace_distance": 1
+    },
+    {
+      "handle": "@metric_variation",
+      "dm_distance": 2,
+      "timespace_distance": 2
+    },
+    {
+      "handle": "@stress_energy_tensor",
+      "dm_distance": 2,
+      "timespace_distance": 2
+    }
+  ],
+  "exact_shared_seam": [
+    "@diffeomorphism_invariance",
+    "@total_action"
+  ],
+  "interpretation": "The API-generated rotational conserved-charge landscape and the existing Dark Matter metric-action-selection landscape meet exactly at @diffeomorphism_invariance and @total_action. This is a constrained dependency seam, not a selector theorem. It tells the next-handle crawl where rotational conservation enters the already-open action branch.",
+  "guardrails": [
+    "@dm_metric_action_selection remains OPEN",
+    "exact-handle gluing creates no new parent edge",
+    "stationary action does not select an action-family member",
+    "Noether symmetry does not by itself prove a dark hidden action",
+    "parent promotions = 0"
+  ],
+  "next_handle": "@noether_identity"
+}

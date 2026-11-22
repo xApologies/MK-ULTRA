@@ -1,0 +1,42 @@
+{
+  "schema": "ASTRAEUS_DEPENDENCY_LANDSCAPE_V1",
+  "landscape_id": "DL-DM-E064-CONDITIONAL-DARK-READOUT",
+  "checkpoint": "E064",
+  "seed": "@dm_joint_hidden_network_witness",
+  "status": "CONDITIONAL_FORWARD_LANDSCAPE",
+  "working_assumptions": [
+    "WA-DM-E064-001",
+    "WA-DM-E064-002",
+    "WA-DM-E064-003"
+  ],
+  "route": [
+    {
+      "node": "@dm_joint_hidden_network_witness",
+      "role": "nonzero native hidden density/response witness"
+    },
+    {
+      "node": "@dm_native_density_to_readable_source",
+      "role": "speed-taped local transduction gate; globally open"
+    },
+    {
+      "node": "@energy_density",
+      "role": "readable density component"
+    },
+    {
+      "node": "@stress_energy_tensor",
+      "role": "tensor separation target via ATLAS 201 and API43 ENTERS edge"
+    },
+    {
+      "node": "@dm_dark_readout_defect",
+      "role": "factorization-defect classifier"
+    },
+    {
+      "node": "@gravity",
+      "role": "fixed-GR separated gravitational readout"
+    }
+  ],
+  "derived_implication": "same ordinary readout + nonannihilated hidden density => stress-energy separation => fixed-GR gravity separation => D_R nonempty",
+  "next_frontier": "@dm_native_density_to_readable_source",
+  "next_frontier_mode": "PROOF_DEBT_DISCHARGE_OR_ALTERNATE_FORWARD_LANE",
+  "note": "The landscape intentionally permits a working-assumption bridge across the open density transduction while preserving it as proof debt rather than a canonical API edge."
+}

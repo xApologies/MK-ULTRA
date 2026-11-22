@@ -1,0 +1,41 @@
+flowchart TB
+  T5["Five-dimensional Time-Space"]
+  S3["S3 continuity base"]
+  S2p["Localized S2 spacetime projection"]
+  chi3["Global/horizontal chirality organization"]
+  EH["Helicon bundle over S3"]
+  H3["Global Helicon section"]
+  TauH["S3-to-S2 Helicon transduction"]
+  Hloc["Local Helicon realization"]
+  ERdyn["Transient ER-foam event network"]
+  ERload["Persistent coarse-grained ER load"]
+  HD["Persistent/non-radiative Helicon sector"]
+  HR["Radiative Helicon sector"]
+  Hg["Gravitational Helicon mode"]
+  graviton["Graviton"]
+  TH["Effective Helicon dark-sector source"]
+  QFT["Local QFT/Q handoff"]
+  GR["Local GR metric/curvature"]
+  Bphi["Historical B / phi dark charts"]
+  T5 -->|projects_to_base| S3
+  T5 -->|has_fiber| S2p
+  S3 -->|hosts| chi3
+  S3 -->|hosts| EH
+  chi3 -->|orients_constrains| H3
+  EH -->|section_of| H3
+  H3 -->|input_to| TauH
+  TauH -->|transduces_to| Hloc
+  Hloc -->|realizes_local_adjacency| ERdyn
+  ERdyn -->|coarse_grains_to| ERload
+  H3 -->|sector_decomposition| HD
+  H3 -->|sector_decomposition| HR
+  HR -->|contains_gravitational_mode| Hg
+  Hg -->|projects_to| graviton
+  HD -->|gravitational_readout| TH
+  ERload -->|contributes_to| TH
+  S2p -->|hosts_local_readout| QFT
+  S2p -->|hosts_local_readout| GR
+  TH -->|sources_effective_geometry| GR
+  graviton -->|metric_perturbation_route| GR
+  HD -->|candidate_parent_of| Bphi
+  Bphi -->|historical_effective_source| GR

@@ -1,0 +1,25 @@
+{
+  "handle": "iteration://IT-DM-E065-BOUNDARY-RESIDUE",
+  "object_type": "bounded_iteration",
+  "status": "CONDITIONAL_CLOSED",
+  "domain": "ITERATION",
+  "namespace": "mk43://iteration",
+  "name": "IT-DM-E065-BOUNDARY-RESIDUE",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "BOUNDED_ITERATION",
+  "metadata": {
+    "id": "IT-DM-E065-BOUNDARY-RESIDUE",
+    "seed": "@dm_hidden_boundary_contact",
+    "terminal_state": "CONDITIONAL_CLOSED",
+    "source_file": "live/checkpoints/E065/runs/IT-DM-E065-BOUNDARY-RESIDUE.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_ITERATION_RUN_V1\", \"run_id\": \"IT-DM-E065-BOUNDARY-RESIDUE\", \"checkpoint\": \"E065\", \"seed\": \"@dm_hidden_boundary_contact\", \"ceiling\": 64, \"iterations_used\": 4, \"terminal_state\": \"CONDITIONAL_CLOSED\", \"open_next\": \"@dm_projection_residue_survival\", \"working_assumptions\": [\"WA-DM-E065-001\"], \"note\": \"Stopped after typed boundary entry was obtained; did not recursively reopen hidden embedding.\"}"
+  },
+  "address": "iteration://IT-DM-E065-BOUNDARY-RESIDUE",
+  "address_sha256": "34f10e39e9c9350bb3f519300027681c007b46715f643263c385c3fe320dd5cf"
+}

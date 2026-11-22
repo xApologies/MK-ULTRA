@@ -1,0 +1,207 @@
+{
+  "schema": "MK43_HIGGS_WORK_EQUATION_REGISTRY_V1_1",
+  "count": 19,
+  "equations": [
+    {
+      "equation_handle": "EQ-H001",
+      "owner": "@native_higgs_order_field",
+      "status": "DERIVED_CLOSED",
+      "expression": "H_nat : A_E -> N_H ; a |-> eta(a)",
+      "meaning": "Native Higgs order field over admissible Environment addresses.",
+      "provenance": [
+        "S-MASS3",
+        "S-CORRIDOR",
+        "S-ENV"
+      ]
+    },
+    {
+      "equation_handle": "EQ-H002",
+      "owner": "@native_higgs_order_space",
+      "status": "SOURCE_RETYPED_CLOSED",
+      "expression": "N_H := N_4",
+      "meaning": "Higgs-local semantic retyping of the source native environmental order space.",
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "equation_handle": "EQ-H003",
+      "owner": "@conditioned_lock_selector",
+      "status": "SOURCE_CLOSED",
+      "expression": "P_lock^eta(X) = Close^eta(Stabilize^eta(X)) if Stabilize^eta(X) in A^eta, else 0_E",
+      "meaning": "Order-conditioned bounded persistence-lock selection. The full source corridor additionally inherits the incoming state before this selector.",
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "equation_handle": "EQ-H004",
+      "owner": "@native_mass",
+      "status": "SOURCE_CLOSED",
+      "expression": "Mass_eta([X]) = Pers([P_lock^eta(X)]) - Pers([0_E])",
+      "meaning": "Native Mass is vacuum-relative Persistence of the selected lock.",
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "equation_handle": "EQ-H005",
+      "owner": "@higgs_order_excitation",
+      "status": "SOURCE_DECLARED_INTERFACE",
+      "expression": "h : eta -> eta_prime",
+      "meaning": "Finite native Higgs-like excitation as an edge in the admissible order graph.",
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "equation_handle": "EQ-H006",
+      "owner": "@finite_higgs_mass_coupling",
+      "status": "SOURCE_DECLARED_INTERFACE",
+      "expression": "g_hX = [T_mass(Mass_eta_prime([X])) - T_mass(Mass_eta([X]))] / d_eta(eta,eta_prime)",
+      "meaning": "Finite Higgs\u2013Mass coupling without derivative calculus.",
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "equation_handle": "EQ-H007",
+      "owner": "@helicon_spectral_operator",
+      "status": "SOURCE_REFERENCE",
+      "expression": "L_H(H_alpha) = lambda_alpha H_alpha",
+      "meaning": "Allowed coherent Helicon restructuring mode.",
+      "provenance": [
+        "S-HELICON"
+      ]
+    },
+    {
+      "equation_handle": "EQ-H008",
+      "owner": "@native_to_projected_higgs_map",
+      "status": "SOURCE_DECLARED_INTERFACE_OPEN_CONSTRUCTION",
+      "expression": "Project_H : N_H -> Sections(F_H)",
+      "meaning": "Typed native-order to readable Higgs-sector field map. Exact factorization remains open.",
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "equation_handle": "EQ-H009",
+      "owner": "@projected_higgs_vacuum",
+      "status": "SOURCE_DECLARED_INTERFACE",
+      "expression": "Phi_0 = Project_H(eta_vac)",
+      "meaning": "Readable Higgs vacuum as image of the selected native vacuum order.",
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "equation_handle": "EQ-H010",
+      "owner": "@higgs_mass_matrix_correspondence",
+      "status": "OPEN_CORRESPONDENCE",
+      "expression": "Mhat_read^2 = Hhat_Higgs^2(Phi_0)",
+      "meaning": "Exact downstream mass-matrix correspondence obligation.",
+      "provenance": [
+        "S-MASS3"
+      ]
+    },
+    {
+      "equation_handle": "EQ-G001",
+      "owner": "@genesis_field",
+      "status": "SOURCE_MODEL",
+      "expression": "G = G * SUM[d=0..INF](R_d * B_d)",
+      "meaning": "Genesis Field self-inherited accumulation across recursive depth.",
+      "provenance": [
+        "S-GENESIS"
+      ]
+    },
+    {
+      "equation_handle": "EQ-H011",
+      "owner": "@higgs_field",
+      "status": "DERIVED_INTERFACE_TARGET",
+      "expression": "Project_H ?= Pi_H o Sigma_H",
+      "meaning": "Required Helicon-before-QFT factorization target. Sigma_H is the exact Higgs-relevant Helicon selector and is not yet source-closed.",
+      "provenance": [
+        "S-HELICON",
+        "S-MASS3",
+        "S-CORRIDOR"
+      ]
+    },
+    {
+      "equation_handle": "EQ-W019-001",
+      "owner": "@local_matter_realization_map",
+      "status": "WORK_LAYER_CONSTRUCTED",
+      "expression": "R_+ : {u_+} -> F_adm ; u_+ |-> psi_+",
+      "meaning": "One local matter-realization map; no global inverse or field identity claimed.",
+      "provenance": [
+        "E019",
+        "TOME67"
+      ]
+    },
+    {
+      "equation_handle": "EQ-W019-002",
+      "owner": "@local_positive_matter_action",
+      "status": "WORK_LAYER_CONSTRUCTED",
+      "expression": "S_m[g,psi_+] = integral L_m(g,psi_+,nabla psi_+) sqrt(-g) d^4x",
+      "meaning": "Generic matter action at the local realization.",
+      "provenance": [
+        "E019",
+        "TOME67"
+      ]
+    },
+    {
+      "equation_handle": "EQ-W019-003",
+      "owner": "@local_positive_stress_energy",
+      "status": "WORK_LAYER_CONSTRUCTED",
+      "expression": "T^+_mn = -(2/sqrt(-g)) delta S_m / delta g^(mn)",
+      "meaning": "Hilbert stress-energy of the local matter state.",
+      "provenance": [
+        "E019",
+        "TOME67"
+      ]
+    },
+    {
+      "equation_handle": "EQ-W019-004",
+      "owner": "@local_positive_stress_energy",
+      "status": "WORK_LAYER_REALIZATION_CONDITION",
+      "expression": "v^m v^n T^+_mn = rho_lock > 0",
+      "meaning": "Lock-sensitive observer component normalization for the positive local witness.",
+      "provenance": [
+        "E017",
+        "E019"
+      ]
+    },
+    {
+      "equation_handle": "EQ-W021-001",
+      "owner": "@local_graviton_metric",
+      "status": "EXACT_SOURCE_FORMAT__WORK_LAYER_INSTANCE",
+      "expression": "h^G_mn = Pi_T(deltaC_+)",
+      "meaning": "Local instance of the exact Time-Shell projection form.",
+      "provenance": [
+        "E021",
+        "TOME58"
+      ]
+    },
+    {
+      "equation_handle": "EQ-W021-002",
+      "owner": "@local_component_match_timelike",
+      "status": "WORK_LAYER_CLOSED",
+      "expression": "C_u = v^m v^n (G^(1)_mn[h^G] - kappa DeltaT^+_mn) = 0",
+      "meaning": "First local readable Einstein/Graviton component match.",
+      "provenance": [
+        "E021",
+        "TOME62"
+      ]
+    },
+    {
+      "equation_handle": "EQ-W022-001",
+      "owner": "@local_component_match_spacelike",
+      "status": "WORK_LAYER_CLOSED",
+      "expression": "C_s = s^m s^n (G^(1)_mn[h^G] - kappa DeltaT^+_mn) = 0 ; v.s=0",
+      "meaning": "Second independent linear component match.",
+      "provenance": [
+        "E022",
+        "TOME62"
+      ]
+    }
+  ]
+}

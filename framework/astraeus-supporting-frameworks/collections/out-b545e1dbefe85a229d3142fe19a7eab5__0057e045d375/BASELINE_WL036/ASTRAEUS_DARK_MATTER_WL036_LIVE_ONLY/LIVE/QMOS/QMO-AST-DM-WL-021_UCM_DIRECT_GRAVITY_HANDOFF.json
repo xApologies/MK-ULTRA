@@ -1,0 +1,41 @@
+{
+  "schema": "ASTRAEUS_DM_WORK_LAYER_QMO_V1",
+  "qmo_id": "QMO-AST-DM-WL-021",
+  "name": "UCM Direct Gravity Handoff for S3 History-Bearing Galaxy Candidate",
+  "status": "SOURCE_GROUNDED_ARCHITECTURAL_REBASE_NOT_PARENT_PROMOTED",
+  "work_layer_revision": "WL-022",
+  "date": "2026-08-17",
+  "input_pair": "X_k^R = Complete_UCM(M_g(H_k;R), E_g, C_fixed), k in {0,1}",
+  "ucm_operator": "U_UCM(M|E)=Stabilize_R6(Resolve_R5(Corridors_R4(R_ER(Perturb(M,E))))) with R7 persistence ledger",
+  "gravity_handoff": "UniversalCouplingEvent -> readable graviton projection -> continuity perturbation -> Time-Shell projection -> weak-field metric perturbation -> projected spacetime metric -> gravity",
+  "dark_condition": "Read_Q^R(X0)=Read_Q^R(X1) while Read_G^R(X0)!=Read_G^R(X1)",
+  "stagewise_gates": [
+    "Sep_P",
+    "Sep_ER",
+    "Sep_R4",
+    "Sep_R5",
+    "Sep_R6",
+    "Sep_G"
+  ],
+  "retypes": {
+    "j_U^R": "runtime completion/experimental constructor, not a new gravity law",
+    "density_telemetry_route": "optional sufficient component diagnostic, not primary gravity bottleneck",
+    "kappa_S3^R": "open provenance/identity problem but not required merely to feed an already-defined S3-History persistent manifold through UCM"
+  },
+  "quantized_graviton": "API 4.3 registers @native_graviton_quantization -> @native_probability_preservation -> @readable_graviton_projection; preserve native-vs-readable representation distinction",
+  "gravity_audit_provenance": {
+    "uploaded_audit": "Gravity Audit v2.0 criteria/checklist; not by itself a completed results ledger",
+    "api_rp28": "historical item 12 NOT_YET_TESTED_EXTERNAL_DATA",
+    "later_tome": "program-level compatibility with LIGO outputs recorded; no publication-grade numerical fit statistic exposed in current retrieved passage"
+  },
+  "parent_qmo_050": "OPEN",
+  "parent_promotions": 0,
+  "guardrails": [
+    "UCM universality does not prove the selected History survives the UCM transaction",
+    "same matter readout must be enforced at the declared Resolution",
+    "different UCM event does not imply different gravity readout without Sep_G",
+    "native quantized graviton object != readable h_mn",
+    "program-level LIGO compatibility record != a new numerical external validation performed by this work layer",
+    "physical dark matter remains unestablished"
+  ]
+}

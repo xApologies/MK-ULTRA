@@ -1,0 +1,36 @@
+{
+  "schema": "ASTRAEUS_DM_WORK_LAYER_QMO_V1",
+  "qmo_id": "QMO-AST-DM-WL-003",
+  "name": "Rotational S2 Self-Corridor / S3-Class Hidden History",
+  "status": "SOURCE_MATCHED_WORK_LAYER_TYPED_CANDIDATE_NOT_PARENT_PROMOTED",
+  "work_layer_revision": "WL-004",
+  "date": "2026-08-17",
+  "parents": [
+    "ChiralityCorridor:Sections 7-12,13,15,17,19-22",
+    "QMO-AST-DM-WL-001",
+    "CAND-ROT-SHEAR-HISTORY-DM-001",
+    "ResolutionReadout",
+    "IdentityThroughHistory",
+    "TransductionGeometry"
+  ],
+  "source_hash": "2e2509cc615de96a972cb9b8cb474b6f4508b921475846887922831bfd95bdb6",
+  "localized_domain": "Sigma_g ~= S2 (D2 used only as a local/readout toy chart)",
+  "history_map": "F_g:S2 x I_H -> A4",
+  "history_object": "W_g^3(H)=accumulated ordered family of S2 states; S3-class, not automatically literal S3",
+  "relative_transport": "S_ab(H)=rho_b(H) o rho_a(H)^(-1)",
+  "shear_condition": "S_ab(H)!=id",
+  "holonomy_condition": "Hol_gamma(H)!=id for nontrivial closed orientation memory",
+  "hidden_history_condition": "q_matter,R(H0)=q_matter,R(H1) while [W_g^3(H0)] != [W_g^3(H1)] in the History/holonomy/admissibility class",
+  "dark_admission_gate": "Require separately that the same difference is gravity-non-null / produces a distinct admitted gravitational response",
+  "incidence_route": "H -> self-corridor/operative relation -> E_oper(H) -> J_R",
+  "critical_guardrail": "Rigid set-level rotation of an unlabeled symmetric S2 may leave Sigma_h=Sigma_g as a set; nontriviality must reside in transported state/chirality/residue/relative transport/holonomy/ordering data.",
+  "black_hole_role": "Optional galactic anchor specialization; not required by the generic corridor definition",
+  "guardrails": [
+    "rotation != dark matter",
+    "S3-class history != automatically S3 topology",
+    "matter-null != automatically gravity-non-null",
+    "rigid rotation alone does not establish a nontrivial corridor",
+    "corridor source does not prove a physical dark-matter realization",
+    "no parent promotion"
+  ]
+}

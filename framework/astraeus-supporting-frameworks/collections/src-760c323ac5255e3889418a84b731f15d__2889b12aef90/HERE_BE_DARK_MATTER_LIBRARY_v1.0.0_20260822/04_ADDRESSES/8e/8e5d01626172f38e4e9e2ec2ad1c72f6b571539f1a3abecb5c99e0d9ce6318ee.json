@@ -1,0 +1,236 @@
+{
+  "handle": "@gravitational_wave_propagation",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Gravitational Wave Propagation",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 3,
+    "api43_direct_in_count": 5,
+    "xapi_raw_out_count": 4,
+    "xapi_raw_in_count": 7,
+    "live_out_count": 1,
+    "live_in_count": 2,
+    "closure_out_reachability_count": 147,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@gravitational_wave_propagation",
+        "relation": "REALIZES",
+        "target": "@gravitational_wave",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-45",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; The propagation handle realizes gravitational-wave transport."
+      },
+      {
+        "source": "@gravitational_wave_propagation",
+        "relation": "FEEDS_BLACK_HOLE_MODEL",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-52",
+        "provenance": "DERIVED:RP52_HAWKING_REVERSE_CRAWL; witness=@gravitational_wave_propagation-[REALIZES]->@gravitational_wave | @gravitational_wave-[FEEDS_BLACK_HOLE_MODEL]->@black_hole"
+      },
+      {
+        "source": "@gravitational_wave_propagation",
+        "relation": "GLOBALLY_FEEDS_BLACK_HOLE",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-53",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_REVERSE_CRAWL; witness=@gravitational_wave_propagation-[FEEDS_BLACK_HOLE_MODEL]->@black_hole"
+      },
+      {
+        "source": "@native_graviton_dispersion",
+        "relation": "DIRECTED_TO",
+        "target": "@gravitational_wave_propagation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54742->54743"
+      },
+      {
+        "source": "@native_graviton_dispersion",
+        "relation": "USED_BY",
+        "target": "@gravitational_wave_propagation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_USEDBY:53573"
+      },
+      {
+        "source": "@gravitational_wave",
+        "relation": "REALIZED_BY",
+        "target": "@gravitational_wave_propagation",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@gravitational_wave_propagation REALIZES @gravitational_wave); rule=REALIZES→REALIZED_BY"
+      },
+      {
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_MODEL_REACHES",
+        "target": "@gravitational_wave_propagation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_BLACK_HOLE_FORWARD_CRAWL; witness=@black_hole-[DEPENDS_ON]->@spacetime | @spacetime-[SUPPORTS]->@gravitational_wave | @gravitational_wave-[REALIZED_BY]->@gravitational_wave_propagation"
+      },
+      {
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_GLOBAL_REACHES",
+        "target": "@gravitational_wave_propagation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-53",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_FORWARD_CRAWL; witness=@black_hole-[BLACK_HOLE_MODEL_REACHES]->@gravitational_wave_propagation"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 2091,
+        "source": "@gravitational_wave_propagation",
+        "relation": "REALIZES",
+        "target": "@gravitational_wave",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; The propagation handle realizes gravitational-wave transport."
+      },
+      {
+        "id": 17648,
+        "source": "@gravitational_wave_propagation",
+        "relation": "FEEDS_BLACK_HOLE_MODEL",
+        "target": "@black_hole",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP52_HAWKING_REVERSE_CRAWL; witness=@gravitational_wave_propagation-[REALIZES]->@gravitational_wave | @gravitational_wave-[FEEDS_BLACK_HOLE_MODEL]->@black_hole"
+      },
+      {
+        "id": 18248,
+        "source": "@gravitational_wave_propagation",
+        "relation": "GLOBALLY_FEEDS_BLACK_HOLE",
+        "target": "@black_hole",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_REVERSE_CRAWL; witness=@gravitational_wave_propagation-[FEEDS_BLACK_HOLE_MODEL]->@black_hole"
+      },
+      {
+        "id": 19697,
+        "source": "@gravitational_wave_propagation",
+        "relation": "REALIZES",
+        "target": "@gravitational_wave",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; The propagation handle realizes gravitational-wave transport."
+      },
+      {
+        "id": 769,
+        "source": "@native_graviton_dispersion",
+        "relation": "DIRECTED_TO",
+        "target": "@gravitational_wave_propagation",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54742->54743"
+      },
+      {
+        "id": 770,
+        "source": "@native_graviton_dispersion",
+        "relation": "USED_BY",
+        "target": "@gravitational_wave_propagation",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_USEDBY:53573"
+      },
+      {
+        "id": 3121,
+        "source": "@gravitational_wave",
+        "relation": "REALIZED_BY",
+        "target": "@gravitational_wave_propagation",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@gravitational_wave_propagation REALIZES @gravitational_wave); rule=REALIZES→REALIZED_BY"
+      },
+      {
+        "id": 11690,
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_MODEL_REACHES",
+        "target": "@gravitational_wave_propagation",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP51_BLACK_HOLE_FORWARD_CRAWL; witness=@black_hole-[DEPENDS_ON]->@spacetime | @spacetime-[SUPPORTS]->@gravitational_wave | @gravitational_wave-[REALIZED_BY]->@gravitational_wave_propagation"
+      },
+      {
+        "id": 17839,
+        "source": "@black_hole",
+        "relation": "BLACK_HOLE_GLOBAL_REACHES",
+        "target": "@gravitational_wave_propagation",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_FORWARD_CRAWL; witness=@black_hole-[BLACK_HOLE_MODEL_REACHES]->@gravitational_wave_propagation"
+      },
+      {
+        "id": 19260,
+        "source": "@native_graviton_dispersion",
+        "relation": "DIRECTED_TO",
+        "target": "@gravitational_wave_propagation",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54742->54743"
+      },
+      {
+        "id": 19261,
+        "source": "@native_graviton_dispersion",
+        "relation": "USED_BY",
+        "target": "@gravitational_wave_propagation",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_USEDBY:53573"
+      }
+    ]
+  },
+  "address": "@gravitational_wave_propagation",
+  "address_sha256": "8e5d01626172f38e4e9e2ec2ad1c72f6b571539f1a3abecb5c99e0d9ce6318ee"
+}

@@ -1,0 +1,412 @@
+{
+  "schema": "ASTRAEUS_API_QMO_HANDLE_CASCADE_V1",
+  "qmo_id": "QMO-AST-DM-WL-042",
+  "name": "Rotational History -> GR Initial-Data / Kerr Next-Handle Cascade",
+  "atlas_version": "WL-v157",
+  "status": "API_NAVIGATION_LANDSCAPE_NOT_PHYSICAL_REALIZATION_NOT_PARENT_PROMOTED",
+  "candidate_input": "CAND-ROT-SHEAR-HISTORY-DM-001 / @orientation_history navigation seed",
+  "paths": {
+    "@orientation_history -> @initial_data_set": [
+      {
+        "from": "@orientation_history",
+        "relation": "DEPENDS_TO",
+        "to": "@relational_history",
+        "api_line": 58008,
+        "source_form": "json_registry",
+        "provenance": "DIRECT_API_LINE:45106",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@relational_history",
+        "relation": "DEPENDS_TO",
+        "to": "@admissible_equivalence",
+        "api_line": 58206,
+        "source_form": "json_registry",
+        "provenance": "DIRECT_API_LINE:45129",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@admissible_equivalence",
+        "relation": "DEPENDS_TO",
+        "to": "@coherent_continuation_class",
+        "api_line": 57226,
+        "source_form": "json_registry",
+        "provenance": "DIRECT_API_LINE:45044",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@coherent_continuation_class",
+        "relation": "DEPENDS_TO",
+        "to": "@persistent_locus",
+        "api_line": 57400,
+        "source_form": "json_registry",
+        "provenance": "DIRECT_API_LINE:45064",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@persistent_locus",
+        "relation": "DEPENDS_TO",
+        "to": "@persistent_boundary",
+        "api_line": 58073,
+        "source_form": "json_registry",
+        "provenance": "DIRECT_API_LINE:45114",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@persistent_boundary",
+        "relation": "DEPENDS_TO",
+        "to": "@projection_admissibility",
+        "api_line": 58059,
+        "source_form": "json_registry",
+        "provenance": "DIRECT_API_LINE:45112",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@projection_admissibility",
+        "relation": "DEPENDS_TO",
+        "to": "@er_foam",
+        "api_line": 58139,
+        "source_form": "json_registry",
+        "provenance": "DIRECT_API_LINE:45122",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@er_foam",
+        "relation": "RELATED_TO",
+        "to": "@helicon",
+        "api_line": 57170,
+        "source_form": "json_registry",
+        "provenance": null,
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@helicon",
+        "relation": "DEPENDS_TO",
+        "to": "@graviton",
+        "api_line": 57808,
+        "source_form": "json_registry",
+        "provenance": "DIRECT_API_LINE:45092",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@graviton",
+        "relation": "VERTICAL_CHAIN",
+        "to": "@readable_space_time",
+        "api_line": 57755,
+        "source_form": "json_registry",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:27374->27376",
+        "audit_status": "recovered",
+        "confidence": "medium"
+      },
+      {
+        "from": "@readable_space_time",
+        "relation": "SUPPORTS",
+        "to": "@general_relativity",
+        "api_line": 62626,
+        "source_form": "markdown_edge_registry",
+        "provenance": null,
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@general_relativity",
+        "relation": "CONTAINS_BRANCH",
+        "to": "@initial_data_set",
+        "api_line": 62604,
+        "source_form": "markdown_edge_registry",
+        "provenance": null,
+        "audit_status": "recovered",
+        "confidence": "high"
+      }
+    ],
+    "@orientation_history -> @kerr_geometry": [
+      {
+        "from": "@orientation_history",
+        "relation": "DEPENDS_TO",
+        "to": "@relational_history",
+        "api_line": 58008,
+        "source_form": "json_registry",
+        "provenance": "DIRECT_API_LINE:45106",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@relational_history",
+        "relation": "DEPENDS_TO",
+        "to": "@admissible_equivalence",
+        "api_line": 58206,
+        "source_form": "json_registry",
+        "provenance": "DIRECT_API_LINE:45129",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@admissible_equivalence",
+        "relation": "DEPENDS_TO",
+        "to": "@coherent_continuation_class",
+        "api_line": 57226,
+        "source_form": "json_registry",
+        "provenance": "DIRECT_API_LINE:45044",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@coherent_continuation_class",
+        "relation": "DEPENDS_TO",
+        "to": "@persistent_locus",
+        "api_line": 57400,
+        "source_form": "json_registry",
+        "provenance": "DIRECT_API_LINE:45064",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@persistent_locus",
+        "relation": "DEPENDS_TO",
+        "to": "@persistent_boundary",
+        "api_line": 58073,
+        "source_form": "json_registry",
+        "provenance": "DIRECT_API_LINE:45114",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@persistent_boundary",
+        "relation": "DEPENDS_TO",
+        "to": "@projection_admissibility",
+        "api_line": 58059,
+        "source_form": "json_registry",
+        "provenance": "DIRECT_API_LINE:45112",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@projection_admissibility",
+        "relation": "DEPENDS_TO",
+        "to": "@er_foam",
+        "api_line": 58139,
+        "source_form": "json_registry",
+        "provenance": "DIRECT_API_LINE:45122",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@er_foam",
+        "relation": "RELATED_TO",
+        "to": "@helicon",
+        "api_line": 57170,
+        "source_form": "json_registry",
+        "provenance": null,
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@helicon",
+        "relation": "DEPENDS_TO",
+        "to": "@graviton",
+        "api_line": 57808,
+        "source_form": "json_registry",
+        "provenance": "DIRECT_API_LINE:45092",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@graviton",
+        "relation": "FAMILY_DEPENDS_ON",
+        "to": "@black_hole",
+        "api_line": 61940,
+        "source_form": "markdown_edge_registry",
+        "provenance": "ACCEPTED_MATHEMATICS",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@black_hole",
+        "relation": "DEPENDS_ON",
+        "to": "@einstein_field_equation",
+        "api_line": 62269,
+        "source_form": "markdown_edge_registry",
+        "provenance": "ACCEPTED_MATHEMATICS",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@einstein_field_equation",
+        "relation": "ADMITS",
+        "to": "@kerr_geometry",
+        "api_line": 62496,
+        "source_form": "markdown_edge_registry",
+        "provenance": null,
+        "audit_status": "recovered",
+        "confidence": "high"
+      }
+    ],
+    "@initial_data_set -> @extrinsic_curvature": [
+      {
+        "from": "@initial_data_set",
+        "relation": "DEPENDS_ON",
+        "to": "@hamiltonian_constraint",
+        "api_line": 62328,
+        "source_form": "markdown_edge_registry",
+        "provenance": "ACCEPTED_MATHEMATICS",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@hamiltonian_constraint",
+        "relation": "DEPENDS_ON",
+        "to": "@gauss_equation",
+        "api_line": 61882,
+        "source_form": "markdown_edge_registry",
+        "provenance": "ACCEPTED_MATHEMATICS",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@gauss_equation",
+        "relation": "DEPENDS_ON",
+        "to": "@extrinsic_curvature",
+        "api_line": 62326,
+        "source_form": "markdown_edge_registry",
+        "provenance": "ACCEPTED_MATHEMATICS",
+        "audit_status": null,
+        "confidence": null
+      }
+    ],
+    "@initial_data_set -> @shift_vector": [
+      {
+        "from": "@initial_data_set",
+        "relation": "DEPENDS_ON",
+        "to": "@hamiltonian_constraint",
+        "api_line": 62328,
+        "source_form": "markdown_edge_registry",
+        "provenance": "ACCEPTED_MATHEMATICS",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@hamiltonian_constraint",
+        "relation": "DEPENDS_ON",
+        "to": "@shift_vector",
+        "api_line": 61790,
+        "source_form": "markdown_edge_registry",
+        "provenance": "ACCEPTED_MATHEMATICS",
+        "audit_status": null,
+        "confidence": null
+      }
+    ],
+    "@initial_data_set -> @kerr_geometry": [
+      {
+        "from": "@initial_data_set",
+        "relation": "FAMILY_DEPENDS_ON",
+        "to": "@cauchy_problem",
+        "api_line": 62064,
+        "source_form": "markdown_edge_registry",
+        "provenance": "ACCEPTED_MATHEMATICS",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@cauchy_problem",
+        "relation": "DEPENDS_ON",
+        "to": "@einstein_field_equation",
+        "api_line": 62266,
+        "source_form": "markdown_edge_registry",
+        "provenance": "ACCEPTED_MATHEMATICS",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@einstein_field_equation",
+        "relation": "ADMITS",
+        "to": "@kerr_geometry",
+        "api_line": 62496,
+        "source_form": "markdown_edge_registry",
+        "provenance": null,
+        "audit_status": "recovered",
+        "confidence": "high"
+      }
+    ],
+    "@shift_vector -> @kerr_geometry": [
+      {
+        "from": "@shift_vector",
+        "relation": "FAMILY_DEPENDS_ON",
+        "to": "@cauchy_problem",
+        "api_line": 62060,
+        "source_form": "markdown_edge_registry",
+        "provenance": "ACCEPTED_MATHEMATICS",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@cauchy_problem",
+        "relation": "DEPENDS_ON",
+        "to": "@einstein_field_equation",
+        "api_line": 62266,
+        "source_form": "markdown_edge_registry",
+        "provenance": "ACCEPTED_MATHEMATICS",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@einstein_field_equation",
+        "relation": "ADMITS",
+        "to": "@kerr_geometry",
+        "api_line": 62496,
+        "source_form": "markdown_edge_registry",
+        "provenance": null,
+        "audit_status": "recovered",
+        "confidence": "high"
+      }
+    ],
+    "@kerr_geometry -> @gravity": [
+      {
+        "from": "@kerr_geometry",
+        "relation": "FAMILY_DEPENDS_ON",
+        "to": "@einstein_field_equation",
+        "api_line": 62111,
+        "source_form": "markdown_edge_registry",
+        "provenance": "ACCEPTED_MATHEMATICS",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@einstein_field_equation",
+        "relation": "REALIZES",
+        "to": "@gravity",
+        "api_line": 62622,
+        "source_form": "markdown_edge_registry",
+        "provenance": null,
+        "audit_status": "recovered",
+        "confidence": "high"
+      }
+    ]
+  },
+  "api_objects": {
+    "@extrinsic_curvature": "Embedding curvature of a slice",
+    "@shift_vector": "Spatial relabeling between slices",
+    "@initial_data_set": "Spatial metric and extrinsic curvature with matter data",
+    "@kerr_geometry": "accepted rotating black-hole geometry branch"
+  },
+  "next_handle": "@extrinsic_curvature",
+  "next_handle_status": "NAVIGATION/INSERTION HANDLE, NOT A NEW DARK-MATTER OPEN SLOT",
+  "reason": "The API-supplied initial-data witness route reaches extrinsic curvature through both Hamiltonian/Gauss and momentum/Codazzi structure. For a rotational/shear candidate, this is the smallest accepted GR initial-data object worth querying next; no identification of S3 History with extrinsic curvature is asserted.",
+  "parallel_handle": "@shift_vector",
+  "parallel_reason": "API initial-data/ADM landscape exposes shift vector and a forward path into the Cauchy/Einstein/Kerr branch; retain as a conventional rotational-readout navigation handle without calling it frame dragging by definition.",
+  "guardrails": [
+    "dependency path != type-identification",
+    "@orientation_history -> GR path is navigation only",
+    "Helicon horizontal transport remains untyped; no horizontal transport theorem is inferred from graph connectivity",
+    "Kerr branch is accepted downstream comparison structure, not proof the dark candidate is Kerr",
+    "parent promotions = 0"
+  ]
+}

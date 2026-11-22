@@ -1,0 +1,174 @@
+{
+  "handle": "@containment_volume",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Containment Volume",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 2,
+    "api43_direct_in_count": 2,
+    "xapi_raw_out_count": 4,
+    "xapi_raw_in_count": 5,
+    "live_out_count": 2,
+    "live_in_count": 3,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 3,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 2,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@containment_volume",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@energy_density",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56464->56466"
+      },
+      {
+        "source": "@containment_volume",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@energy_density",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "API_CODE_BLOCK:56466;API_CODE_BLOCK:56600;CANONICAL_API_VERTICAL:56464->56466;CANONICAL_API_VERTICAL:56598->56600"
+      },
+      {
+        "source": "@transition_capacity",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@containment_volume",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56462->56464"
+      },
+      {
+        "source": "@transition_capacity",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@containment_volume",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "API_CODE_BLOCK:56464;API_CODE_BLOCK:56598;CANONICAL_API_VERTICAL:56462->56464;CANONICAL_API_VERTICAL:56596->56598"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 250,
+        "source": "@containment_volume",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@energy_density",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56464->56466"
+      },
+      {
+        "id": 251,
+        "source": "@containment_volume",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@energy_density",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:56466;API_CODE_BLOCK:56600;CANONICAL_API_VERTICAL:56464->56466;CANONICAL_API_VERTICAL:56598->56600"
+      },
+      {
+        "id": 19051,
+        "source": "@containment_volume",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@energy_density",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56464->56466"
+      },
+      {
+        "id": 19052,
+        "source": "@containment_volume",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@energy_density",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:56466;API_CODE_BLOCK:56600;CANONICAL_API_VERTICAL:56464->56466;CANONICAL_API_VERTICAL:56598->56600"
+      },
+      {
+        "id": 1158,
+        "source": "@transition_capacity",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@containment_volume",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56462->56464"
+      },
+      {
+        "id": 1159,
+        "source": "@transition_capacity",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@containment_volume",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:56464;API_CODE_BLOCK:56598;CANONICAL_API_VERTICAL:56462->56464;CANONICAL_API_VERTICAL:56596->56598"
+      },
+      {
+        "id": 19476,
+        "source": "@transition_capacity",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@containment_volume",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56462->56464"
+      },
+      {
+        "id": 19477,
+        "source": "@transition_capacity",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@containment_volume",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:56464;API_CODE_BLOCK:56598;CANONICAL_API_VERTICAL:56462->56464;CANONICAL_API_VERTICAL:56596->56598"
+      },
+      {
+        "id": 19759,
+        "source": "@dm_hidden_relational_load",
+        "relation": "USES",
+        "target": "@containment_volume",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      }
+    ]
+  },
+  "address": "@containment_volume",
+  "address_sha256": "cdacd56e5739890663f8b61369510b5672869b74de05442cb746b8521f5f4bee"
+}

@@ -1,0 +1,25 @@
+{
+  "handle": "iteration://IT-DM-E073-UCM-SOURCE-DOMAIN",
+  "object_type": "bounded_iteration",
+  "status": "SOURCE_DOMAIN_DISTINCTION_CLOSED",
+  "domain": "ITERATION",
+  "namespace": "mk43://iteration",
+  "name": "IT-DM-E073-UCM-SOURCE-DOMAIN",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "BOUNDED_ITERATION",
+  "metadata": {
+    "id": "IT-DM-E073-UCM-SOURCE-DOMAIN",
+    "seed": "@dm_joint_hidden_network_witness",
+    "terminal_state": "SOURCE_DOMAIN_DISTINCTION_CLOSED",
+    "source_file": "live/registry",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_ITERATION_RUN_V1\", \"run_id\": \"IT-DM-E073-UCM-SOURCE-DOMAIN\", \"checkpoint\": \"E073\", \"seed\": \"@dm_joint_hidden_network_witness\", \"ceiling\": 64, \"iterations_used\": 2, \"terminal_state\": \"SOURCE_DOMAIN_DISTINCTION_CLOSED\", \"open_next\": \"@dm_ucm_event_to_source_nonannihilation\", \"note\": \"Separates source-domain distinction from readable-source separation instead of conflating them.\"}"
+  },
+  "address": "iteration://IT-DM-E073-UCM-SOURCE-DOMAIN",
+  "address_sha256": "1596ced78d435c4b0c7b7ba4db81d914532a58e29a987687d83afce0418870ce"
+}

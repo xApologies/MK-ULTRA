@@ -1,0 +1,30 @@
+{
+  "run": "R02",
+  "status": "CLOSED",
+  "classification": "MODEL_Q_QUOTIENT_FUSION",
+  "refinement": "weak quotient Fusion with provenance-recoverable overlapping source images",
+  "source_embeddings": {
+    "j_A_injective": true,
+    "j_B_injective": true,
+    "intersection": "{q}",
+    "union_is_Q": true
+  },
+  "recovery": {
+    "inverse_on_A_image": true,
+    "inverse_on_B_image": true,
+    "canonical_total_retraction_to_A": "NOT_SUPPLIED",
+    "canonical_total_retraction_to_B": "NOT_SUPPLIED",
+    "bare_carrier_ordered_decomposition": "NONCANONICAL",
+    "construction_witness_recovery": true
+  },
+  "factorization": {
+    "finite_cartesian_product": false,
+    "disjoint_union": false,
+    "hilbert_tensor": "NOT_TYPED_YET",
+    "independent_factors": false
+  },
+  "strong_factor_erasure": false,
+  "quantum_entanglement": "UNRESOLVED_R03",
+  "superposition": "UNRESOLVED_R04",
+  "next_run": "R03"
+}

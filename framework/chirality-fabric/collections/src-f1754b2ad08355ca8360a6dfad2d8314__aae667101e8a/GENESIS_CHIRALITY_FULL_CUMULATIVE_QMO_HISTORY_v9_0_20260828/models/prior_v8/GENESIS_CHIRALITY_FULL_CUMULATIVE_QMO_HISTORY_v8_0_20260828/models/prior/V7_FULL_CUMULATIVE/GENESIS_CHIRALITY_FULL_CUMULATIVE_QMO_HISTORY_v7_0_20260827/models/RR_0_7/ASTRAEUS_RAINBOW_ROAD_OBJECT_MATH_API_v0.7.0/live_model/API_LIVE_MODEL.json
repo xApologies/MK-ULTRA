@@ -1,0 +1,142 @@
+{
+  "schema": "ASTRAEUS_API_LIVE_MODEL_V1",
+  "api_identity": {
+    "name": "Astraeus Rainbow Road Object Mathematics API",
+    "release": "0.7.0",
+    "root_handle": "@rainbow_road_recursive_domain",
+    "mathematical_domain": "RAINBOW_ROAD",
+    "carrier": "MOBIUS",
+    "live_model_revision": "v0.20.0"
+  },
+  "semantic_contract": {
+    "api_role": "execute/query mathematical objects and recursive closure",
+    "live_model_role": "store the meaning, state, provenance, lineage, audit status, and recovery metadata of the API and every QMO",
+    "qmo_address_rule": "canonical @handle is both query address and metadata address",
+    "metadata_does_not_replace_object": true,
+    "history_append_only": true,
+    "return_is_not_reset": true,
+    "dependency_landscape_rule": "A Dependency Landscape is a QMO with its own metadata address, History, Resolution context, Bandwidth context, and preserved member provenance/status.",
+    "command_namespace_rule": "First-token @addresses may be structural API commands; QMO @addresses are mathematical objects resolved in argument/object contexts. Command identity does not imply QMO identity.",
+    "help_command": "@help",
+    "dependency_graph_rule": "A Dependency Graph is a focused QMO view over registered dependency structure; construction preserves status and does not invent edges.",
+    "dependency_chain_rule": "A Dependency Chain is an ordered history-bearing QMO that recursively resolves graph/landscape/QMO states until closure, fork, defect, or step boundary. A closed chain may define a closed subdomain under the same QMO address."
+  },
+  "inventory": {
+    "qmo_addresses": 199,
+    "typed_edges": 190,
+    "equations": 15,
+    "theorems": 3,
+    "candidates": 6,
+    "sources": 9,
+    "dependency_landscapes": 6,
+    "structural_commands": 37,
+    "dependency_graphs": 2,
+    "dependency_chains": 1
+  },
+  "runtime_state": {
+    "api_release": "0.7.0",
+    "live_model_revision": "v0.20.0",
+    "root_handle": "@rainbow_road_recursive_domain",
+    "current_frontier": "@recovery_history_signature_minimality",
+    "self_build_pass": "003_RECOVERY_WITNESS",
+    "object_count": 199,
+    "edge_count": 190,
+    "equation_count": 15,
+    "theorem_count": 3,
+    "candidate_count": 6,
+    "promotion_policy": "CERTIFIED_INTERNAL_AUTO_PROMOTION; DOMAIN_EXTENSION_VERA_GATE",
+    "native_corpus_status": "FIVE_BRANCH_LIVE",
+    "domain": "RAINBOW_ROAD",
+    "carrier": "MOBIUS",
+    "recursive_closure": "ACTIVE",
+    "road_orientation": "WHITE_SUPERPOSE",
+    "road_history_token": "RRH-bc7705935863",
+    "perturbation_mode": "SANDBOX_ONLY",
+    "qmo_metadata_model": "ACTIVE",
+    "qmo_address_count": 199,
+    "metadata_history": "APPEND_ONLY",
+    "metadata_sync": "REQUIRED_ON_CANONICAL_MUTATION",
+    "dependency_landscape_model": "ACTIVE",
+    "dependency_landscape_count": 6,
+    "help_surface": "@help",
+    "command_namespace": "ACTIVE",
+    "command_count": 37,
+    "command_registry": "api/COMMAND_REGISTRY.json",
+    "dependency_graph_model": "ACTIVE_V1",
+    "dependency_graph_count": 2,
+    "dependency_chain_model": "ACTIVE_V1",
+    "dependency_chain_count": 1,
+    "qmo_type_registry": "api/QMO_TYPE_REGISTRY.json",
+    "graph_type_registry": "api/GRAPH_TYPE_REGISTRY.json"
+  },
+  "domain_registry": {
+    "schema": "ASTRAEUS_RAINBOW_ROAD_DOMAIN_V1",
+    "version": "0.7.0",
+    "active_domain": {
+      "handle": "@rainbow_road_recursive_domain",
+      "name": "Rainbow Road Dynamic Recursive Closure Domain",
+      "lower_boundary_object": "@primitive_structural_zero",
+      "whole_domain_closure_object": "@closed_domain_unity",
+      "carrier": "@mobius_recursive_carrier",
+      "mathematics_root": "@object_mathematics",
+      "native_branches": [
+        "transduction_geometry",
+        "bandwidth_algebra",
+        "resolution_readout",
+        "identity_through_history",
+        "holonomy_chirality"
+      ],
+      "closure_operator": "@dynamic_recursive_closure",
+      "history_policy": "RETURN_DOES_NOT_RESET_HISTORY",
+      "local_presentations": [
+        "WHITE_SUPERPOSE",
+        "BLACK_NEON"
+      ],
+      "presentation_handoff": {
+        "operator": "H",
+        "law": "H changes local orientation/readout; H^2 returns local presentation class while retained History may differ."
+      },
+      "interpretation_guard": "The Möbius/Rainbow architecture is the runtime domain for this project model; it is not claimed as a physical proof about the external universe.",
+      "landscape_constructor": "@dependency_landscape",
+      "landscape_qmo_policy": "Dependency graphs/landscapes generated from registered QMO structure may be closed back into Rainbow Road as history-bearing QMOs; inclusion preserves member status.",
+      "dependency_graph_constructor": "@dependency_graph",
+      "dependency_chain_constructor": "@dependency_chain",
+      "dependency_chain_policy": "A chain is an ordered history-bearing QMO. If its terminal state is CLOSED_FIXED_POINT and all declared subdomain closure obligations pass, the same QMO address may be registered as a closed subdomain; open/forked chains remain objects but not domains."
+    },
+    "semantic_state": {
+      "closure_condition": "Cl_RR(X) ~= X under current domain equivalence",
+      "history_condition": "History may append even when the semantic object set is at closure.",
+      "reopen_on": [
+        "Bandwidth availability change",
+        "Resolution regime change",
+        "new mounted source",
+        "new licensed internal derivation rule",
+        "approved domain extension"
+      ]
+    },
+    "closed_subdomains": []
+  },
+  "current_frontier": "@recovery_history_signature_minimality",
+  "storage_surfaces": {
+    "operational_objects": "api/OBJECT_REGISTRY.json",
+    "qmo_metadata": "library/QMO_METADATA_LIBRARY.json",
+    "metadata_registry": "api/QMO_METADATA_REGISTRY.json",
+    "metadata_history": "live_model/QMO_METADATA_HISTORY.jsonl",
+    "human_live_model": "live_model/ASTRAEUS_API_LIVE_MODEL.md",
+    "sqlite_metadata_table": "qmo_metadata",
+    "dependency_landscape_registry": "api/DEPENDENCY_LANDSCAPE_REGISTRY.json",
+    "dependency_landscape_history": "live_model/DEPENDENCY_LANDSCAPE_HISTORY.jsonl",
+    "dependency_landscape_library": "library/dependency_landscapes/",
+    "command_registry": "api/COMMAND_REGISTRY.json",
+    "command_history": "live_model/API_COMMAND_HISTORY.jsonl",
+    "dependency_graph_registry": "api/DEPENDENCY_GRAPH_REGISTRY.json",
+    "dependency_graph_history": "live_model/DEPENDENCY_GRAPH_HISTORY.jsonl",
+    "dependency_graph_library": "library/dependency_graphs/",
+    "dependency_chain_registry": "api/DEPENDENCY_CHAIN_REGISTRY.json",
+    "dependency_chain_history": "live_model/DEPENDENCY_CHAIN_HISTORY.jsonl",
+    "dependency_chain_library": "library/dependency_chains/",
+    "qmo_type_registry": "api/QMO_TYPE_REGISTRY.json",
+    "graph_type_registry": "api/GRAPH_TYPE_REGISTRY.json"
+  },
+  "sync_rule": "Any canonical object-state mutation must update current QMO metadata and append a metadata-history event. Semantic definition changes never delete earlier metadata events."
+}

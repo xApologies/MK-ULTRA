@@ -1,0 +1,23 @@
+{
+  "handle": "promotion://promo_2487ba7bb08509134caeb3ed",
+  "object_type": "promotion_decision",
+  "status": "LIVE_CONDITIONAL_UCM_QUALIFICATION_ASSEMBLY_ONLY",
+  "domain": "PROMOTION",
+  "namespace": "mk43://promotion",
+  "name": "E076 LIVE_CONDITIONAL_UCM_QUALIFICATION_ASSEMBLY_ONLY",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E076",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "PROMOTION_LEDGER",
+  "metadata": {
+    "checkpoint": "E076",
+    "decision": "LIVE_CONDITIONAL_UCM_QUALIFICATION_ASSEMBLY_ONLY",
+    "payload_json": "{\"checkpoint\": \"E076\", \"decision\": \"LIVE_CONDITIONAL_UCM_QUALIFICATION_ASSEMBLY_ONLY\", \"parent_promotions\": 0, \"physical_promotions\": 0, \"canonical_parent_edge_promotions\": 0, \"live_conditional_objects\": [\"@dm_conditional_ucm_qualification_witness\"], \"closure_certificates\": [\"CC-DM-E076-001\"], \"candidate_qmos\": [\"QMO-DM-BRIDGE-CAND-017\"], \"reason\": \"Full conditional DM_R predicate assembly now uses UCM-native source projection instead of the scalar proxy; unconditional nonemptiness remains open.\"}"
+  },
+  "address": "promotion://promo_2487ba7bb08509134caeb3ed",
+  "address_sha256": "4768bccbfbf1ec0c27ee99b3f9f562a56ad564098fbd32c3d57326665eece80d"
+}

@@ -1,0 +1,463 @@
+{
+  "schema": "RAINBOW_ROAD_UNIFIED_API_OVERLAY_ANALYSIS_V1",
+  "parent_sha256": "b111c2674dde2e3c69ddab6b2cafb0e389c82c4e444d62bc3c0057cc4c508e23",
+  "parent_release": "1.0.0",
+  "parent_counts": {
+    "unified_objects": 3457,
+    "edge_records": 96527,
+    "equations": 522,
+    "proof_debt": 21,
+    "qmos": 40,
+    "closures": 37,
+    "models": 10,
+    "api43_handles": 2384,
+    "timespace43_handles": 271,
+    "dm22_handles": 38,
+    "dm_live_e100_objects": 35,
+    "higgs_handles": 74,
+    "higgs_timespace_shared_identity_handles": 23,
+    "dm_timespace_direct_semantic_triples": 55,
+    "typed_directed_reachability_pairs": 458099,
+    "navigation_directed_reachability_pairs": 458099
+  },
+  "source_spine": [
+    {
+      "source": "@time_space",
+      "target": "@genesis_field",
+      "relation": "EXPLICIT_ARROW",
+      "layer": "API43_TYPED",
+      "status": "direct_source",
+      "trust_class": "TYPED_SOURCE_GRAPH",
+      "confidence": "high"
+    },
+    {
+      "source": "@genesis_field",
+      "target": "@resolution",
+      "relation": "EXPLICIT_ARROW",
+      "layer": "API43_TYPED",
+      "status": "direct_source",
+      "trust_class": "TYPED_SOURCE_GRAPH",
+      "confidence": "high"
+    },
+    {
+      "source": "@resolution",
+      "target": "@bandwidth",
+      "relation": "EXPLICIT_ARROW",
+      "layer": "API43_TYPED",
+      "status": "direct_source",
+      "trust_class": "TYPED_SOURCE_GRAPH",
+      "confidence": "high"
+    },
+    {
+      "source": "@bandwidth",
+      "target": "@persistence",
+      "relation": "EXPLICIT_ARROW",
+      "layer": "API43_TYPED",
+      "status": "direct_source",
+      "trust_class": "TYPED_SOURCE_GRAPH",
+      "confidence": "high"
+    },
+    {
+      "source": "@persistence",
+      "target": "@chirality",
+      "relation": "EXPLICIT_ARROW",
+      "layer": "API43_TYPED",
+      "status": "direct_source",
+      "trust_class": "TYPED_SOURCE_GRAPH",
+      "confidence": "high"
+    },
+    {
+      "source": "@chirality",
+      "target": "@er_foam",
+      "relation": "EXPLICIT_ARROW",
+      "layer": "API43_TYPED",
+      "status": "direct_source",
+      "trust_class": "TYPED_SOURCE_GRAPH",
+      "confidence": "high"
+    },
+    {
+      "source": "@er_foam",
+      "target": "@helicon",
+      "relation": "EXPLICIT_ARROW",
+      "layer": "API43_TYPED",
+      "status": "direct_source",
+      "trust_class": "TYPED_SOURCE_GRAPH",
+      "confidence": "high"
+    }
+  ],
+  "rr_core_anchors": [
+    "@geometric",
+    "@inherited_state_bundle",
+    "@admissible_continuation",
+    "@inheritance_morphism",
+    "@recursive_inheritance",
+    "@chirality_space",
+    "@chirality",
+    "@chirality_transport",
+    "@resolution",
+    "@bandwidth",
+    "@persistence",
+    "@persistent_locus",
+    "@persistent_boundary",
+    "@projection_admissibility",
+    "@native_constraint_closure",
+    "@relational_history",
+    "@admissible_equivalence",
+    "@genesis_field",
+    "@time_space"
+  ],
+  "directed_reachable_total": 641,
+  "navigation_reachable_total": 860,
+  "parent_object_total": 3457,
+  "directed_domain_coverage": [
+    {
+      "domain": "API43",
+      "reached": 626,
+      "total": 2384,
+      "fraction": 0.2625838926174497
+    },
+    {
+      "domain": "DARK_MATTER_2_2",
+      "reached": 11,
+      "total": 38,
+      "fraction": 0.2894736842105263
+    },
+    {
+      "domain": "DARK_MATTER_LIVE_E100",
+      "reached": 0,
+      "total": 35,
+      "fraction": 0.0
+    },
+    {
+      "domain": "DARK_MATTER_SOURCE_EFFECTIVE",
+      "reached": 0,
+      "total": 35,
+      "fraction": 0.0
+    },
+    {
+      "domain": "HIGGS_WORK_LAYER_V1_1",
+      "reached": 26,
+      "total": 74,
+      "fraction": 0.35135135135135137
+    },
+    {
+      "domain": "MODEL_META",
+      "reached": 0,
+      "total": 10,
+      "fraction": 0.0
+    },
+    {
+      "domain": "QMO_META",
+      "reached": 0,
+      "total": 199,
+      "fraction": 0.0
+    },
+    {
+      "domain": "SOURCE_BACKFILL",
+      "reached": 0,
+      "total": 733,
+      "fraction": 0.0
+    },
+    {
+      "domain": "TIME_SPACE_4_3",
+      "reached": 237,
+      "total": 271,
+      "fraction": 0.8745387453874539
+    },
+    {
+      "domain": "UNIFIED",
+      "reached": 0,
+      "total": 1,
+      "fraction": 0.0
+    }
+  ],
+  "navigation_domain_coverage": [
+    {
+      "domain": "API43",
+      "reached": 714,
+      "total": 2384,
+      "fraction": 0.29949664429530204
+    },
+    {
+      "domain": "DARK_MATTER_2_2",
+      "reached": 38,
+      "total": 38,
+      "fraction": 1.0
+    },
+    {
+      "domain": "DARK_MATTER_LIVE_E100",
+      "reached": 35,
+      "total": 35,
+      "fraction": 1.0
+    },
+    {
+      "domain": "DARK_MATTER_SOURCE_EFFECTIVE",
+      "reached": 35,
+      "total": 35,
+      "fraction": 1.0
+    },
+    {
+      "domain": "HIGGS_WORK_LAYER_V1_1",
+      "reached": 72,
+      "total": 74,
+      "fraction": 0.972972972972973
+    },
+    {
+      "domain": "MODEL_META",
+      "reached": 0,
+      "total": 10,
+      "fraction": 0.0
+    },
+    {
+      "domain": "QMO_META",
+      "reached": 0,
+      "total": 199,
+      "fraction": 0.0
+    },
+    {
+      "domain": "SOURCE_BACKFILL",
+      "reached": 19,
+      "total": 733,
+      "fraction": 0.02592087312414734
+    },
+    {
+      "domain": "TIME_SPACE_4_3",
+      "reached": 253,
+      "total": 271,
+      "fraction": 0.933579335793358
+    },
+    {
+      "domain": "UNIFIED",
+      "reached": 0,
+      "total": 1,
+      "fraction": 0.0
+    }
+  ],
+  "missing_timespace_navigation": [
+    "@complex_residue_structure",
+    "@correspondence_to_known_quantum_field_theory",
+    "@dark_bridge_topologies",
+    "@dark_matter_as_load_bearing_geometry",
+    "@dark_matter_bridges_and_transport",
+    "@dark_matter_formalization",
+    "@er_bridges_and_dark_matter_geometry",
+    "@er_throat",
+    "@framework_integrity_theorem",
+    "@hermitian_connection",
+    "@hermitian_metric",
+    "@localized_er_foam_knot",
+    "@observable_algebra",
+    "@projection_residue",
+    "@projection_residue_bundle",
+    "@quantum_field_deduction",
+    "@spectral_projection_rule",
+    "@superposition_closure"
+  ],
+  "missing_timespace_statuses": {
+    "@complex_residue_structure": "indexed-unlinked",
+    "@correspondence_to_known_quantum_field_theory": "indexed-unlinked",
+    "@dark_bridge_topologies": "indexed-unlinked",
+    "@dark_matter_as_load_bearing_geometry": "indexed-unlinked",
+    "@dark_matter_bridges_and_transport": "indexed-unlinked",
+    "@dark_matter_formalization": "indexed-unlinked",
+    "@er_bridges_and_dark_matter_geometry": "indexed-unlinked",
+    "@er_throat": "indexed-unlinked",
+    "@framework_integrity_theorem": "indexed-unlinked",
+    "@hermitian_connection": "indexed-unlinked",
+    "@hermitian_metric": "indexed-unlinked",
+    "@localized_er_foam_knot": "indexed-unlinked",
+    "@observable_algebra": "indexed-unlinked",
+    "@projection_residue": "indexed-unlinked",
+    "@projection_residue_bundle": "indexed-unlinked",
+    "@quantum_field_deduction": "indexed-unlinked",
+    "@spectral_projection_rule": "indexed-unlinked",
+    "@superposition_closure": "indexed-unlinked"
+  },
+  "missing_higgs_navigation": [
+    "@canonical_zero_lock",
+    "@local_zero_mode"
+  ],
+  "missing_higgs_statuses": {
+    "@canonical_zero_lock": "WORK_LAYER_CONTROL",
+    "@local_zero_mode": "WORK_LAYER_CONSTRUCTED"
+  },
+  "shortest_navigation_paths": {
+    "@helicon": [
+      {
+        "source": "@inherited_state_bundle",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@helicon",
+        "layer": "API43_TYPED",
+        "status": "derived",
+        "direction": "forward"
+      }
+    ],
+    "@boundary_projection": [
+      {
+        "source": "@persistent_boundary",
+        "relation": "READ_OUT_BY",
+        "target": "@boundary_projection",
+        "layer": "HIGGS_WORK_LAYER",
+        "status": "ACCEPTED",
+        "direction": "forward"
+      }
+    ],
+    "@higgs_field": [
+      {
+        "source": "@genesis_field",
+        "relation": "REVERSE(HAS_ENVIRONMENTAL_ANCESTRY)",
+        "target": "@higgs_field",
+        "layer": "HIGGS_WORK_LAYER",
+        "status": "ACCEPTED",
+        "direction": "reverse"
+      }
+    ],
+    "@canonical_qft_handoff_object": [
+      {
+        "source": "@genesis_field",
+        "relation": "REVERSE(HAS_ENVIRONMENTAL_ANCESTRY)",
+        "target": "@higgs_field",
+        "layer": "HIGGS_WORK_LAYER",
+        "status": "ACCEPTED",
+        "direction": "reverse"
+      },
+      {
+        "source": "@higgs_field",
+        "relation": "HAS_PROJECTION_INTERFACE",
+        "target": "@canonical_qft_handoff_object",
+        "layer": "HIGGS_WORK_LAYER",
+        "status": "ACCEPTED",
+        "direction": "forward"
+      }
+    ],
+    "@dm_source_er_effective_model_closure": [
+      {
+        "source": "@inherited_state_bundle",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@gravity",
+        "layer": "API43_TYPED",
+        "status": "derived",
+        "direction": "forward"
+      },
+      {
+        "source": "@gravity",
+        "relation": "REVERSE(READS_OUT_AS)",
+        "target": "@dm_source_er_gravitational_readout_chain",
+        "layer": "LIVE",
+        "status": "LIVE_DERIVED_CLOSED_SOURCE_EFFECTIVE",
+        "direction": "reverse"
+      },
+      {
+        "source": "@dm_source_er_gravitational_readout_chain",
+        "relation": "REVERSE(DECLARES_PARENT)",
+        "target": "@dm_source_er_effective_model_closure",
+        "layer": "DM_LIVE_DECLARED_PARENT",
+        "status": "LIVE_CLOSED_SOURCE_EFFECTIVE_EMPIRICAL_OPEN",
+        "direction": "reverse"
+      }
+    ],
+    "@gravity": [
+      {
+        "source": "@inherited_state_bundle",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@gravity",
+        "layer": "API43_TYPED",
+        "status": "derived",
+        "direction": "forward"
+      }
+    ],
+    "@matter_action": [
+      {
+        "source": "@inherited_state_bundle",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@matter_action",
+        "layer": "API43_TYPED",
+        "status": "derived",
+        "direction": "forward"
+      }
+    ]
+  },
+  "interface_registry_summary": {
+    "time_space": {
+      "handle_count": 271,
+      "source": "DM2.2 handle registry origin=TIMESPACE_4.3",
+      "active_role": "common projection/QFT/gravity interface substrate"
+    },
+    "dark_matter": {
+      "baseline_handle_count": 38,
+      "baseline_active_geometry": "S4 -> S3 -> S2",
+      "source_effective_closure": "@dm_source_er_effective_model_closure",
+      "strict_hidden_s3_status": "OPEN_OPTIONAL_REFINEMENT_NOT_REQUIRED_FOR_SOURCE_EFFECTIVE_CLOSURE",
+      "direct_dm_timespace_semantic_triples": 55,
+      "timespace_interface_handles": [
+        "@admissibility",
+        "@admissible_equivalence",
+        "@bandwidth",
+        "@boundary_projection",
+        "@chirality_space",
+        "@containment_volume",
+        "@continuity_redistribution",
+        "@diffeomorphism_invariance",
+        "@energy_density",
+        "@er_foam",
+        "@field_level_handoff_theorem",
+        "@galaxy",
+        "@graviton",
+        "@gravity",
+        "@inheritance_morphism",
+        "@inherited_state_bundle",
+        "@local_energy_momentum_conservation",
+        "@localized_persistent_topology",
+        "@matter_action",
+        "@matter_readable_organization",
+        "@metric_variation",
+        "@native_constraint_closure",
+        "@particle_readable_organization",
+        "@persistence",
+        "@persistent_boundary",
+        "@persistent_locus",
+        "@quantum_action_functional",
+        "@relational_history",
+        "@relationship",
+        "@residue_quantum_field_bundle",
+        "@resolution",
+        "@stress_energy_tensor",
+        "@time_shell",
+        "@total_action",
+        "@white_state_core"
+      ]
+    },
+    "higgs": {
+      "handle_count": 74,
+      "closure": "@higgs_work_layer_closure",
+      "closure_status": "NATIVE_HIGGS_WORK_LAYER_CLOSED__PHYSICAL_IDENTIFICATION_OPEN",
+      "shared_identity_handles_with_time_space": [
+        "@bandwidth",
+        "@boundary_projection",
+        "@chirality",
+        "@continuity_perturbation",
+        "@einstein_field_equation",
+        "@er_foam",
+        "@field_section",
+        "@genesis_field",
+        "@graviton",
+        "@gravity_matter_closure",
+        "@helicon",
+        "@helicon_spectral_operator",
+        "@matter_action",
+        "@matter_coupling",
+        "@persistence",
+        "@persistent_boundary",
+        "@projective_target_manifold",
+        "@residue_quantum_field_bundle",
+        "@resolution",
+        "@stress_energy_tensor",
+        "@time_shell",
+        "@time_shell_projection_operator",
+        "@weak_field_metric_perturbation"
+      ],
+      "shared_identity_count": 23
+    }
+  },
+  "conclusion": "RAINBOW_ROAD_PORTAL_OVERLAY_STRUCTURALLY_FITS_UNIFIED_API__PHYSICAL_HELICON_SELECTOR_AND_QCD_REPRESENTATION_OPEN"
+}

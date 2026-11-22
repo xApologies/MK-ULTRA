@@ -1,0 +1,24 @@
+{
+  "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+  "handle": "@dm_conditional_action_dark_readout_witness",
+  "canonical_name": "Conditional Action-Lane Dark Readout Witness",
+  "type": "ConditionalFactorizationDefectWitness",
+  "status": "LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT",
+  "checkpoint": "E070",
+  "definition": "A matched full/visible pair separated by a metric-active hidden action but identical under ordinary matter readout lies in the dark-readout factorization defect, conditional on the proxy realization bridge.",
+  "math": "M_R(u_f)=M_R(u_v), T_H!=0 => T_f!=T_v => g_f!=g_v => (u_f,u_v) in D_R.",
+  "parents": [
+    "@dm_conditional_scalar_stress_active_witness",
+    "@dm_dark_readout_defect"
+  ],
+  "working_assumptions": [
+    "WA-DM-E064-002",
+    "WA-DM-E069-001"
+  ],
+  "proof_debt": [
+    "PD-DM-002",
+    "PD-DM-006"
+  ],
+  "physical_claim": false,
+  "baseline_mutation": false
+}

@@ -1,0 +1,59 @@
+{
+  "schema": "GENESIS_QMO_S4_RECURSIVE_ORGANIZATION_V1",
+  "version": "0.1.0",
+  "status": "STRONG_CANDIDATE",
+  "root_handle": "@s4_recursive_organization",
+  "objects": [
+    {
+      "handle": "@s4_recursive_organization",
+      "type": "constraint_manifold",
+      "status": "SOURCE_RECOVERED_PLUS_NEW_LIFT",
+      "definition": "S4 = {(X,Y,Z,W,V) in R5 : X^2+Y^2+Z^2+W^2+V^2=1}, semantically typed by recovered Time Structure sources as organization of S3 recursive ordering."
+    },
+    {
+      "handle": "@s34_inherited_suspension_lift",
+      "type": "partial_transduction_lift",
+      "status": "NEW_CANDIDATE_PROVED_WELL_TYPED",
+      "definition": "L_34(q,nu)=(sqrt(1-nu^2) q,nu), q in S3, nu in [-1,1]."
+    },
+    {
+      "handle": "@s43_local_recovery",
+      "type": "local_recovery_map",
+      "status": "NEW_CANDIDATE_PROVED",
+      "definition": "Pi_43(Q)=(X,Y,Z,W)/sqrt(1-V^2) for |V|<1; Pi_43 o L_34 = id_S3."
+    },
+    {
+      "handle": "@s4_constraint_weights",
+      "type": "normalized_squared_coordinate_family",
+      "status": "NEW_DERIVED_OBJECT",
+      "definition": "p_i=Q_i^2 with sum_i p_i=1; interpreted only as structural constraint weights."
+    },
+    {
+      "handle": "@s4_pole_history_guard",
+      "type": "identity_recovery_guard",
+      "status": "NEW_REQUIRED_GUARD",
+      "definition": "At V=+/-1 coordinate-only recovery of the inherited S3 state is impossible; surviving identity requires History/ancestry witness, declared identity change, or exclusion of exact poles."
+    }
+  ],
+  "equations": {
+    "E_S4": "X^2+Y^2+Z^2+W^2+V^2=1",
+    "E_L34": "L_34(q,nu)=(sqrt(1-nu^2)q,nu)",
+    "E_NESTED": "Q4(n,tau,sigma)=(cos(sigma)cos(tau)n_x,cos(sigma)cos(tau)n_y,cos(sigma)cos(tau)n_z,cos(sigma)sin(tau),sin(sigma))",
+    "E_PI43": "Pi_43(Q)=(X,Y,Z,W)/sqrt(1-V^2), |V|<1",
+    "E_WEIGHTS": "p_X+p_Y+p_Z+p_W+p_V=1"
+  },
+  "relations": [
+    ["@S3", "lifted_by", "@s34_inherited_suspension_lift"],
+    ["@s34_inherited_suspension_lift", "realizes", "@s4_recursive_organization"],
+    ["@s4_recursive_organization", "locally_recovers_via", "@s43_local_recovery"],
+    ["@s4_recursive_organization", "has_derived_readout", "@s4_constraint_weights"],
+    ["@s43_local_recovery", "guarded_at_poles_by", "@s4_pole_history_guard"]
+  ],
+  "provenance": {
+    "Time_Structure.zip_sha256": "e830400ebbf7e3ee935fa326d7618c8648fcf00695c96842dc0f1cd687ae5ed4",
+    "4-Sphere.pdf_sha256": "d971b75e0e5f74d37dad61f9aee8169e6ac083ebb1d43184b6330798e246772d",
+    "Unit_of_Time.pdf_sha256": "fe2247859c0d7bac4b2a588173979db75073ce3d7e688d9f5b2c8a868eba80b0",
+    "i.pdf_sha256": "eb49ac9ae155fa118dde620208a5038486182383ec89eed8a0a3276f54dabc98",
+    "unified_api_sha256": "56cd2a9a77b418fc24357f70e8c041e65816026131b05b1544f3ea39938b261e"
+  }
+}

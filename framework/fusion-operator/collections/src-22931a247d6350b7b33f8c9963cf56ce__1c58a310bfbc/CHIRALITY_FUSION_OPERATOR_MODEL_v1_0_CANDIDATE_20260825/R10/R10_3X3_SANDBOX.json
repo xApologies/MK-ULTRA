@@ -1,0 +1,54 @@
+{
+  "exact_uniform_3x3": {
+    "seed_count": 9,
+    "chirality_roster": {
+      "L": 9,
+      "R": 0
+    },
+    "nearest_neighbor_candidates": 12,
+    "admissible_current_nn_edges": 0,
+    "diagonal_candidates": 8,
+    "admissible_current_diagonal_edges": 0,
+    "fusion_graph_components": 9,
+    "status": "NO CURRENT FUSION STARTS"
+  },
+  "derived_checkerboard_diagnostic": {
+    "chirality_roster": {
+      "L": 5,
+      "R": 4
+    },
+    "nearest_neighbor_chirality_compatible_edges": 12,
+    "diagonal_chirality_compatible_edges": 0,
+    "primitive_null_ports_per_seed": 2,
+    "full_grid_port_injective_status": "NOT CERTIFIED: degree 3/4 exceeds port capacity",
+    "maximal_connected_snake": {
+      "edges": 8,
+      "carrier_classes": 28,
+      "null_classes": 10,
+      "existence_classes": 18,
+      "degree_multiset": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "order_variants_tested": 4,
+      "same_structural_partition": true,
+      "history_words_equal_under_R09_exact_word_equivalence": false
+    },
+    "plaquette_2x2": {
+      "edges": 4,
+      "carrier_classes": 12,
+      "null_classes": 4,
+      "existence_classes": 8,
+      "all_vertices_port_saturated": true,
+      "order_variants_tested": 3,
+      "same_structural_partition": true
+    }
+  }
+}

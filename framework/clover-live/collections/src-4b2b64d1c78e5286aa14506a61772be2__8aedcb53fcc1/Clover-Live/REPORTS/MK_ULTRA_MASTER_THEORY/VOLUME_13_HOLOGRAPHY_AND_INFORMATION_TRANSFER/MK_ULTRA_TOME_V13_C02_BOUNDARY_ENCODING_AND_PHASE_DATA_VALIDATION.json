@@ -1,0 +1,110 @@
+{
+  "schema": "tome-publication-renderer-validation/v1",
+  "created_at": "2026-08-11T16:37:31.124658+00:00",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "engine": "KaTeX 0.16.22 -> HTML/CSS -> Playwright -> Microsoft Edge PDF",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_13_HOLOGRAPHY_AND_INFORMATION_TRANSFER/MK_ULTRA_TOME_V13_C02_BOUNDARY_ENCODING_AND_PHASE_DATA.pdf",
+    "bytes": 159793,
+    "sha256": "672a634b472835dbc1af7a680758a7606710eacf834468c0e665398f6435c5f2"
+  },
+  "actual_pages": 6,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V13-C02": 3
+  },
+  "chapter_validations": [
+    {
+      "chapter_id": "V13-C02",
+      "source_sha256": "732b5845cb8c2dfbe52fec48db13fe914751fd65da719e8a72990778e15384ef",
+      "page_start": 3,
+      "headings": 23,
+      "display_equations": 21,
+      "inline_equations": 0,
+      "equation_tags": 21,
+      "api_handles": 12,
+      "table_rows": 14,
+      "content_markers_present": true
+    }
+  ],
+  "engine_metrics": {
+    "renderer": "TOME_PUBLICATION_RENDERER_V1",
+    "katexVersion": "0.16.22",
+    "chapters": [
+      {
+        "id": "V13-C02",
+        "sourceBytes": 10316,
+        "paragraphs": 42,
+        "headings": 23,
+        "displayEquations": 21,
+        "inlineEquations": 0,
+        "tables": 1,
+        "tableRows": 13,
+        "listItems": 0,
+        "codeBlocks": 0,
+        "figures": 0
+      }
+    ],
+    "paragraphs": 42,
+    "headings": 23,
+    "displayEquations": 21,
+    "inlineEquations": 0,
+    "tables": 1,
+    "tableRows": 13,
+    "listItems": 0,
+    "blockQuotes": 0,
+    "codeBlocks": 0,
+    "figures": 0,
+    "mathLayout": {
+      "checked": 21,
+      "scaled": [],
+      "remainingOverflow": []
+    }
+  },
+  "raw_latex_guard": {
+    "result": "PASS",
+    "hits": [],
+    "commands_scanned": [
+      "frac",
+      "mathcal",
+      "mathrm",
+      "begin",
+      "end",
+      "left",
+      "right",
+      "longrightarrow",
+      "rightarrow",
+      "otimes",
+      "partial",
+      "nabla",
+      "mu",
+      "nu",
+      "sum",
+      "int",
+      "operatorname"
+    ]
+  },
+  "visual_qa": {
+    "result": "PASS",
+    "pages_rendered": 6,
+    "pages_inspected": 6,
+    "contact_sheets_inspected": 2,
+    "findings": [],
+    "inspection_note": "All six rendered pages were visually inspected. Cover, contents, equations, evidence table, pagination, and chapter text are legible with no clipping, overlap, raw LaTeX, or unintended blank pages."
+  },
+  "sealed_source_provenance": {
+    "path": "REPORTS/MK_43_ULTRA_MASTER_THEORY/VOLUME_13_HOLOGRAPHY_AND_INFORMATION_TRANSFER/V13_C02_BOUNDARY_ENCODING_AND_PHASE_DATA.md",
+    "sha256": "cd6cee341e8ea3bd074c40b48028a17cc7d110e2bd83f8c7ebcdd5223a6f2ee2",
+    "unchanged": true,
+    "render_only_source_sha256": "732b5845cb8c2dfbe52fec48db13fe914751fd65da719e8a72990778e15384ef",
+    "render_only_transformation": "One inline Sigma/partial-Sigma expression was represented with equivalent Unicode glyphs to satisfy the frozen renderer raw-LaTeX guard; display mathematics and sealed chapter content were unchanged."
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V13-C02": "732b5845cb8c2dfbe52fec48db13fe914751fd65da719e8a72990778e15384ef"
+  },
+  "source_hashes_after": {
+    "V13-C02": "732b5845cb8c2dfbe52fec48db13fe914751fd65da719e8a72990778e15384ef"
+  },
+  "sealed_chapter_content_change_count": 0
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "ASTRAEUS_P024_REPRESENTATION_STOP_V1",
+  "qmo_id": "QMO-AST-DM-WL-097",
+  "name": "ER-Throat Pair Test Representation Seam Stop",
+  "atlas_version": "WL-v213",
+  "work_layer": "WL-035",
+  "status": "REPRESENTATION_SEAM_OPEN",
+  "parent_promotions": 0,
+  "inputs": {
+    "H0": "common-mode/trivial relative orientation History",
+    "H1": "persistent nontrivial shear/holonomy History"
+  },
+  "required_chain": [
+    "@mote",
+    "@chirality_labelled_mote",
+    "@er_throat_incidence",
+    "@weighted_adjacency"
+  ],
+  "finding": "No source-typed @mote -> @chirality_labelled_mote representation/equivalence map is recovered for the controlled pair. P024 stops before incidence evaluation.",
+  "not_a_null": "No statement I0=I1 or I0!=I1 is available.",
+  "next_handle": "@holonomy_class",
+  "guardrails": [
+    "do not invent mote representation",
+    "do not import experimental neighbor convention",
+    "ER incidence not evaluated",
+    "no parent promotion"
+  ]
+}

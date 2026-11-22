@@ -1,0 +1,127 @@
+{
+  "status": "FAIL",
+  "named_checks": 23,
+  "passed": 22,
+  "checks": [
+    {
+      "name": "Archived-field W -> metric -> W, all ten entries",
+      "passed": true,
+      "scope": ""
+    },
+    {
+      "name": "Symmetric target -> weights -> target algebraic identity",
+      "passed": true,
+      "scope": "Not a certification of nonnegative target coverage"
+    },
+    {
+      "name": "Unknown native weight signs are not certified",
+      "passed": true,
+      "scope": ""
+    },
+    {
+      "name": "Reference white metric is recovered, not overcounted",
+      "passed": true,
+      "scope": ""
+    },
+    {
+      "name": "Reference subtraction equals original additive formula",
+      "passed": true,
+      "scope": ""
+    },
+    {
+      "name": "Reject negative native edge weights",
+      "passed": true,
+      "scope": "Negative control"
+    },
+    {
+      "name": "Reject nonsymmetric native adjacency",
+      "passed": true,
+      "scope": "Negative control"
+    },
+    {
+      "name": "Reject unique inverse with singular covectors",
+      "passed": true,
+      "scope": "Negative control"
+    },
+    {
+      "name": "Reject zero-coupling inverse",
+      "passed": true,
+      "scope": "Negative control"
+    },
+    {
+      "name": "Entrywise nonnegativity is not misread as PSD",
+      "passed": true,
+      "scope": ""
+    },
+    {
+      "name": "Lorentzian target with negative recovered edge is not admitted",
+      "passed": true,
+      "scope": ""
+    },
+    {
+      "name": "Fixed-network target consistency detects spatially varying weights",
+      "passed": true,
+      "scope": ""
+    },
+    {
+      "name": "ER weight recovery is coordinate covariant",
+      "passed": true,
+      "scope": ""
+    },
+    {
+      "name": "Five-channel kernel element annihilates metric contribution",
+      "passed": true,
+      "scope": ""
+    },
+    {
+      "name": "Distinct positive networks have the same recovered metric",
+      "passed": true,
+      "scope": "This is not a full physical collision without all native source/dynamics checks"
+    },
+    {
+      "name": "Rectangular representative plus remainder recovers network",
+      "passed": true,
+      "scope": ""
+    },
+    {
+      "name": "Five-channel linear kernel has dimension five",
+      "passed": true,
+      "scope": ""
+    },
+    {
+      "name": "Three spacetime readouts separate all fifteen constant graph weights",
+      "passed": true,
+      "scope": ""
+    },
+    {
+      "name": "Overcomplete constant network is recovered without a side record",
+      "passed": true,
+      "scope": ""
+    },
+    {
+      "name": "Recovered graph reproduces the entire symbolic metric field",
+      "passed": true,
+      "scope": ""
+    },
+    {
+      "name": "Constant network recovery preserves native nonnegative symmetry",
+      "passed": true,
+      "scope": ""
+    },
+    {
+      "name": "A single deficient snapshot does not masquerade as a complete inverse",
+      "passed": true,
+      "scope": "Negative control"
+    },
+    {
+      "name": "exception",
+      "passed": false,
+      "scope": "TypeError(\"Cannot set values of <class 'sympy.matrices.immutable.ImmutableDenseMatrix'>\")"
+    }
+  ],
+  "observations": [],
+  "elapsed_seconds": 2.8523493349999853,
+  "python": "3.13.5",
+  "sympy": "1.14.0",
+  "scope": "Exact algebra of recovered API metric contributions, source-derived phase stress, and constructed continuum fixtures. No full native Q_R evaluator, independent ER action closure, or global physical equivalence."
+}

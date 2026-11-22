@@ -1,0 +1,122 @@
+{
+  "handle": "@dm_runtime_transition_capacity",
+  "object_type": "mathematical_object",
+  "status": "ATLAS_DERIVED_ACTIVE",
+  "domain": "DM22",
+  "namespace": "capacity",
+  "name": "Runtime Transition Capacity",
+  "definition": "Maximum globally feasible continuity flow supported by an already-persistent relationship under the active Time-Space constraints.",
+  "math": "T_run(e)=sup_{Phi in F_run(G_*)} Phi(e).",
+  "source_layer": "DM22",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "DM22",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 5,
+    "xapi_raw_in_count": 3,
+    "live_out_count": 5,
+    "live_in_count": 3,
+    "closure_out_reachability_count": 192,
+    "closure_in_reachability_count": 14,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 4,
+    "aliases": [],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19801,
+        "source": "@dm_runtime_transition_capacity",
+        "relation": "CONSTRAINED_BY",
+        "target": "@bandwidth",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19802,
+        "source": "@dm_runtime_transition_capacity",
+        "relation": "CONSTRAINED_BY",
+        "target": "@resolution",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19803,
+        "source": "@dm_runtime_transition_capacity",
+        "relation": "DEPENDS_ON",
+        "target": "@admissibility",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19804,
+        "source": "@dm_runtime_transition_capacity",
+        "relation": "DEPENDS_ON",
+        "target": "@continuity_redistribution",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19805,
+        "source": "@dm_runtime_transition_capacity",
+        "relation": "SATURATION_GUARDS",
+        "target": "@dm_continuity_laplacian",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED_CLOSED",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19760,
+        "source": "@dm_hidden_relational_load",
+        "relation": "USES",
+        "target": "@dm_runtime_transition_capacity",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19765,
+        "source": "@dm_hidden_s3_network",
+        "relation": "USES",
+        "target": "@dm_runtime_transition_capacity",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19779,
+        "source": "@dm_local_capacity_envelope",
+        "relation": "BOUNDS",
+        "target": "@dm_runtime_transition_capacity",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      }
+    ]
+  },
+  "address": "@dm_runtime_transition_capacity",
+  "address_sha256": "7a0f4322edbcdd3b5761b797a19e640eb40bc4f82bc764ad066278d2f9348793"
+}

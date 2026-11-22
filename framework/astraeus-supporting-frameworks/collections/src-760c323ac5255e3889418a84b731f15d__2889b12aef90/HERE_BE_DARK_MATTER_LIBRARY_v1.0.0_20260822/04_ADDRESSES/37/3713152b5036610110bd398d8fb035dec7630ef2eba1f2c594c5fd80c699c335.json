@@ -1,0 +1,163 @@
+{
+  "handle": "@recursive_continuity",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Recursive Continuity",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 2,
+    "api43_direct_in_count": 2,
+    "xapi_raw_out_count": 4,
+    "xapi_raw_in_count": 4,
+    "live_out_count": 2,
+    "live_in_count": 2,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@recursive_continuity",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@persistence",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56508->56510"
+      },
+      {
+        "source": "@recursive_continuity",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@persistence",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "API_CODE_BLOCK:56510;CANONICAL_API_VERTICAL:56508->56510"
+      },
+      {
+        "source": "@global_inheritance",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@recursive_continuity",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56506->56508"
+      },
+      {
+        "source": "@global_inheritance",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@recursive_continuity",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "API_CODE_BLOCK:56508;CANONICAL_API_VERTICAL:56506->56508"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 982,
+        "source": "@recursive_continuity",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@persistence",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56508->56510"
+      },
+      {
+        "id": 983,
+        "source": "@recursive_continuity",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@persistence",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:56510;CANONICAL_API_VERTICAL:56508->56510"
+      },
+      {
+        "id": 19377,
+        "source": "@recursive_continuity",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@persistence",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56508->56510"
+      },
+      {
+        "id": 19378,
+        "source": "@recursive_continuity",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@persistence",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:56510;CANONICAL_API_VERTICAL:56508->56510"
+      },
+      {
+        "id": 508,
+        "source": "@global_inheritance",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@recursive_continuity",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56506->56508"
+      },
+      {
+        "id": 509,
+        "source": "@global_inheritance",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@recursive_continuity",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:56508;CANONICAL_API_VERTICAL:56506->56508"
+      },
+      {
+        "id": 19133,
+        "source": "@global_inheritance",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@recursive_continuity",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56506->56508"
+      },
+      {
+        "id": 19134,
+        "source": "@global_inheritance",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@recursive_continuity",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:56508;CANONICAL_API_VERTICAL:56506->56508"
+      }
+    ]
+  },
+  "address": "@recursive_continuity",
+  "address_sha256": "3713152b5036610110bd398d8fb035dec7630ef2eba1f2c594c5fd80c699c335"
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "ASTRAEUS_S3_HISTORY_STATE_SPACE_IDENTITY_WITNESS_SEAM_V1",
+  "qmo_id": "QMO-AST-DM-WL-101",
+  "name": "S3 History State Space / Identity Witness Seam",
+  "atlas_version": "WL-v217",
+  "work_layer": "WL-035",
+  "status": "CROSS_SOURCE_INSTANCE_CANDIDATE",
+  "parent_promotions": 0,
+  "identity_open_task": "Specify the exact History state space carried by the S3 continuity domain.",
+  "dm_candidate": {
+    "handle": "@dm_hidden_state_bundle",
+    "bundle": "pi_H:E_H^R->T_H",
+    "fiber": "R_H(t)=(V_t,E_t,w_t,chi_t,H_t)_R",
+    "status": "ATLAS_DERIVED_ACTIVE"
+  },
+  "identity_witness": {
+    "symbol": "W_Id(x,y;h)",
+    "meaning": "recoverable same-Identity-class witness under declared invariant contract",
+    "transport": "T_Id(h2 o h1)=T_Id(h2)oT_Id(h1)"
+  },
+  "finding": "The DM2.2 hidden relational-state bundle is a strong instance candidate for the S3 History-state-space role, but no source identity/equivalence is promoted.",
+  "next_handle": "@history_transport",
+  "guardrails": [
+    "candidate role match != cross-source identity",
+    "@history_transport remains BRACED",
+    "hidden-state bundle != physical embedding",
+    "no parent promotion"
+  ]
+}

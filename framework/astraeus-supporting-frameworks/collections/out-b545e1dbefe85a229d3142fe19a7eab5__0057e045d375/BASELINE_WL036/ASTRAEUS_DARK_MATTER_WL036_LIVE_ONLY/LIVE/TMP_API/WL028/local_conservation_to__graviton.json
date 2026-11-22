@@ -1,0 +1,16 @@
+{
+  "source": "@local_energy_momentum_conservation",
+  "target": "@graviton",
+  "path": [
+    {
+      "source": "@local_energy_momentum_conservation",
+      "relation": "DEPENDS_ON",
+      "target": "@graviton",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-47",
+      "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=5; path=@local_energy_momentum_conservation -> @einstein_field_equation -> @graviton; relations=DEPENDS_ON + GOVERNS => DEPENDS_ON"
+    }
+  ]
+}

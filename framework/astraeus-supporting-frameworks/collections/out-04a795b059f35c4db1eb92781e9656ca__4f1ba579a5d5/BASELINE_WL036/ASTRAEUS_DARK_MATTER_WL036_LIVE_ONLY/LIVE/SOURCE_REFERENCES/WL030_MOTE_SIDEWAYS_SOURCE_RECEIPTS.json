@@ -1,0 +1,42 @@
+{
+  "schema": "ASTRAEUS_SOURCE_RECEIPTS_WL030_V1",
+  "work_layer": "WL-030",
+  "atlas": "v182",
+  "date": "2026-08-17",
+  "sources": [
+    {
+      "path": "provenance://unavailable/content-sha256/0071c1d9d6a89c283f57a9c225857fa8f49a63f8caff86d83cca4a66896b0259/MK43_Ultra_API_CURRENT_CANONICAL.md",
+      "sha256": "0071c1d9d6a89c283f57a9c225857fa8f49a63f8caff86d83cca4a66896b0259",
+      "roles": [
+        "@mote/@mote_lattice/@mote_chirality/@mote_configuration_space/@mote_hilbert_space definitions",
+        "RP23 cross-handle edges",
+        "persistence/closure chain"
+      ]
+    },
+    {
+      "path": "provenance://unavailable/content-sha256/3cb840b428ffc5a7ffd60e5a9617f5faf02fad42c652ed8da38563c15fb00e21/RP42_DEPENDENCY_INDEX.json",
+      "sha256": "3cb840b428ffc5a7ffd60e5a9617f5faf02fad42c652ed8da38563c15fb00e21",
+      "role": "high-confidence Time-Space dependency edges"
+    },
+    {
+      "path": "../../../../../out-dd5f2e0f5bcd545bac4217403d326140__ee4819595f94/registry/DM_DIRECT_EDGE_REGISTRY.json",
+      "sha256": "d0a3b0922fdc4b648c86c27080ce1c52a2d547ef35d62e40f69d78d566dbd69c",
+      "role": "Dark Matter direct-edge runtime"
+    },
+    {
+      "path": "../../../../../out-dd5f2e0f5bcd545bac4217403d326140__ee4819595f94/cross_crawl/DM21_TO_TS43.json",
+      "sha256": "54513843cae9c9329b91d52a23ec53ae397e1a566d2e90e1947b56c7db728189",
+      "role": "open-handle cross-API ranking"
+    }
+  ],
+  "canonical_line_windows": {
+    "mote_record": "39107-39115",
+    "mote_lattice": "49060-49120",
+    "mote_chirality": "49331-49410",
+    "mote_configuration_space": "49780-49840",
+    "mote_hilbert_space": "49887-49930",
+    "cross_handle_edges": "50970-51010"
+  },
+  "raw_query_receipt": "../TMP_API/WL030_MOTE_SIDEWAYS_API_RAW.json",
+  "guardrail": "source mounts read-only; receipts record paths/hashes and work-layer queries only"
+}

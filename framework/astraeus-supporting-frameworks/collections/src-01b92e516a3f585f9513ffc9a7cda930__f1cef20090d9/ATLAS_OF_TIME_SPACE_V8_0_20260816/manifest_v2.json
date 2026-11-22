@@ -1,0 +1,845 @@
+{
+  "name": "Atlas of Time-Space",
+  "version": "2.0",
+  "date": "2026-08-16",
+  "file_count": 165,
+  "files": [
+    {
+      "path": "API/ATLAS_QUERY_ROUTES.md",
+      "bytes": 793,
+      "sha256": "ce490a7297875426084b31ed4c67884c6895aceee6109650ab2773aeab85e978"
+    },
+    {
+      "path": "CARTOGRAPHY/IMAGE_NOTE_POLICY.md",
+      "bytes": 591,
+      "sha256": "133fc60fcd7264172261d97e747f03b68186102047c11addba6789c92f540f9b"
+    },
+    {
+      "path": "CARTOGRAPHY/PLATE_II_SEMANTICS.md",
+      "bytes": 608,
+      "sha256": "d7620bf336f3079aa7ffded9e1b56e8d10daae2d25a24744ece21f1dbc48e05c"
+    },
+    {
+      "path": "CARTOGRAPHY/PLATE_I_SEMANTICS.md",
+      "bytes": 1332,
+      "sha256": "87b150683a96e842b7d6a3808ae04941caeb4b27e0b3a521ebbea55e94a288a4"
+    },
+    {
+      "path": "CARTOGRAPHY/SYMBOL_KEY.md",
+      "bytes": 898,
+      "sha256": "b5e9f6619d85586ae0b6a64f3a5f462c607d29a58c4008c903ea30906508bfb9"
+    },
+    {
+      "path": "CARTOGRAPHY/VERSION_0_ROADMAP.md",
+      "bytes": 853,
+      "sha256": "527ed5cb27c1e50c2df8be406b52821e471cfdb5ebbe53bf27f44621db78f877"
+    },
+    {
+      "path": "FORMAL/00_MASTER_GEOMETRY.md",
+      "bytes": 1024,
+      "sha256": "6e8babaeb18f66849f1751089676e61bbb12757efc8495f8427e5a6ff59efa53"
+    },
+    {
+      "path": "FORMAL/01_FIBRATION_AND_ADDRESS_ATLAS.md",
+      "bytes": 1277,
+      "sha256": "5b189a5e744b2d6b362a2421843ed7f58735123d2d4dd84ec9423965eab96e00"
+    },
+    {
+      "path": "FORMAL/02_CHIRALITY_FIELD_AND_CONNECTION.md",
+      "bytes": 1207,
+      "sha256": "a5003faea4729ed708e08199faf194f173ae9fa1a49dcff54a6b252bc6853a5f"
+    },
+    {
+      "path": "FORMAL/03_LOCAL_S2_PHYSICS.md",
+      "bytes": 773,
+      "sha256": "8e53711d45b0c22691a4868a37023408dcbe4c1e1529801134dc47cf8b3e5def"
+    },
+    {
+      "path": "FORMAL/04_CORRIDORS_AS_PULLBACKS.md",
+      "bytes": 1336,
+      "sha256": "ba09840b66d55acfb6b88ab923e9764255f8d53bf35f672185fed40237ba41cd"
+    },
+    {
+      "path": "FORMAL/05_BOUNDARY_TIME_SHELL_ADDRESS.md",
+      "bytes": 1157,
+      "sha256": "c730d0ccf88b9513934fac5cdd3520ed1edce100c6b451626ac99ab08e1475d9"
+    },
+    {
+      "path": "FORMAL/06_LOCAL_QFT_GR_BRIDGE.md",
+      "bytes": 936,
+      "sha256": "357b903e2b63e7930cd82f1fad87e4882100d1657bd79b883e26075ea4c915d5"
+    },
+    {
+      "path": "FORMAL/07_GRAVITON_ROUTE.md",
+      "bytes": 795,
+      "sha256": "78d7a57db75125dda72acb4fe245168a911a80a83ac27e65c038f3dee25cef97"
+    },
+    {
+      "path": "FORMAL/08_ER_FOAM_LOCAL_PLACEMENT.md",
+      "bytes": 708,
+      "sha256": "cdfe575d6620f436e353d4dc0bdda1bcdb4694bb40d205f315b6881793d160fd"
+    },
+    {
+      "path": "FORMAL/09_ENERGY_TRANSDUCTION_INVARIANT.md",
+      "bytes": 1141,
+      "sha256": "04b29929a5b4b4780d201e8d32b600c3b7da367b3d922c4e625630237dc5006d"
+    },
+    {
+      "path": "FORMAL/10_RESOLUTION_SCALE_AND_LOCALIZATION.md",
+      "bytes": 937,
+      "sha256": "5694453f9f412cf45c6f1ce94bcd8d33c2ce00e9f8d4403777fa3898c1366f8f"
+    },
+    {
+      "path": "FORMAL/11_MASTER_EQUATION_SHEET.md",
+      "bytes": 1177,
+      "sha256": "ed9c663cc35228e32aa3032b8d6a2d3fd7c8cd18089b8ea03ba151e25cbc53e8"
+    },
+    {
+      "path": "FORMAL/12_OPEN_MATHEMATICAL_OBLIGATIONS.md",
+      "bytes": 1874,
+      "sha256": "f72222489af1fdd500dfd47d5424613e4f3186187de7410ad38145daabf2f866"
+    },
+    {
+      "path": "FORMAL/13_CHIRALITY_STATE_SPACE.md",
+      "bytes": 3720,
+      "sha256": "88c26a1dd0d85608bfbc2a3a97806b10b02c64f89562afea51a3cf2290bb302d"
+    },
+    {
+      "path": "FORMAL/14_CHIRALITY_TRANSPORT_CONNECTION.md",
+      "bytes": 3840,
+      "sha256": "9d340970920739e6f7122cb2eff59cd6bcd4c844c7d0f9b7116e39e5ecaa27eb"
+    },
+    {
+      "path": "FORMAL/15_PATH_GROUPOID_AND_CORRIDOR_FUNCTOR.md",
+      "bytes": 2662,
+      "sha256": "85c4e23b3513c7562a6f4b0ec877874d6613300dd54ebbaf3b179b95ee473b2d"
+    },
+    {
+      "path": "FORMAL/16_HOLONOMY_AND_CURVATURE.md",
+      "bytes": 3038,
+      "sha256": "b79ba707c95e623c9a0db7ca39fb66ff56fb6c218715743587fd2535a04e9b35"
+    },
+    {
+      "path": "FORMAL/17_HORIZONTAL_VERTICAL_CURVATURE_SPLIT.md",
+      "bytes": 3090,
+      "sha256": "476e93ccfc634faf1b869938344cfe1997da82c08a005a5c6ad840bb5cb6b16e"
+    },
+    {
+      "path": "FORMAL/18_STANDARD_BUNDLE_TRIVIALITY_AND_MINIMAL_TOPOLOGY.md",
+      "bytes": 2328,
+      "sha256": "de6c1a940b4772cb1f3f5ae7c3aac22c7288c0655686e29347edb1cb5a51e0a3"
+    },
+    {
+      "path": "FORMAL/19_FIRST_CARTOGRAPHIC_THEOREMS.md",
+      "bytes": 2744,
+      "sha256": "ae0a6e9a3dfce74690692a17ef4ccccaa2c3d774ea5cc1546617155d3e5f5079"
+    },
+    {
+      "path": "FORMAL/20_PHASE_AND_INTERFERENCE_SOCKET.md",
+      "bytes": 1467,
+      "sha256": "34853ab487f290859f0868a1d39310530732afe6d50c38817717be4ec6c45006"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/API/API_QUERY_CHIRALITY.md",
+      "bytes": 1804,
+      "sha256": "1ac378cd6de0191f4e8c23fa6312a564f7f2d7fc80c7e831d9c417fa5beea05b"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/API/chirality_bridge_subgraph.json",
+      "bytes": 131447,
+      "sha256": "620c89a3c424839cdd84b44eea733fa62238081d3bbe385a2f86a760f99ee4a9"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/API/chirality_direct_edges.json",
+      "bytes": 2866,
+      "sha256": "fe3fe50f361c0e5d627c53c70f2ff28fc9cdb5fac046ee04d12641d11f40e2ca"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/CHECKPOINTS/CHECKPOINT_LM001.md",
+      "bytes": 1284,
+      "sha256": "2380ba89ef88bbeda8fd5e5f7a25867cfeecea524f630fabda464c86eb43bb8d"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/CHECKPOINTS/CHECKPOINT_LM002.md",
+      "bytes": 469,
+      "sha256": "1f7acde220d624ec9b4b269e2d56979e25f116dbb6894a20e9d2137dac3b107b"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/CHECKPOINTS/CHECKPOINT_VERSION_1.md",
+      "bytes": 561,
+      "sha256": "eeb3ef7982246635d27ffbdb68901b27e06b93d3014c80a1b56e3e4ebf30284a"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/CHECKPOINTS/FILE_MANIFEST.json",
+      "bytes": 13634,
+      "sha256": "21618c8e7722ed26e7e940186159bfa85e00e31ac400b7b6ef79e61170e34345",
+      "source_sha256_before_publication": "0666d4eacfa87fd94fa3c2d4610bcb81982372ff3a013d53c7b22ce10ba4823f",
+      "publication_path_portability_edit": true
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/CHECKPOINTS/FILE_MANIFEST_LM002.json",
+      "bytes": 14969,
+      "sha256": "febc22781b738e7df3cc4ce7de2c95e798d49d44a8a37b1746b7b4c0589ae3de",
+      "source_sha256_before_publication": "423039078a9016bfd2ea90b504d91cf298335c0b675b8680eb0b0670514b03d3",
+      "publication_path_portability_edit": true
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/CHECKPOINTS/FILE_MANIFEST_VERSION_1.json",
+      "bytes": 16889,
+      "sha256": "98695939713380c26138e738630d23ba104fea7fdc3c87a4c59ea2397034de4d",
+      "source_sha256_before_publication": "05a68cc6ea9235aea0cf6a68ac31879327bec3fc9dae917bb62d94dabd606259",
+      "publication_path_portability_edit": true
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/CHECKPOINTS/WATCHER_VALIDATION.json",
+      "bytes": 315,
+      "sha256": "dc968d20ac843b877f0cdd242ec7411afd67a927bc22b85c4a91a0df5876be71"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/DIAGRAMS/LM001_DEPENDENCY_GRAPH.dot",
+      "bytes": 1145,
+      "sha256": "51d67762f7da797edfe8f4cb7c284299b2dd7426bd226dc62974a9328fe710f0"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/DIAGRAMS/LM001_DEPENDENCY_GRAPH.mmd",
+      "bytes": 766,
+      "sha256": "f4adb3205e1c974ac4dd12e1d802745d9a55f529b964e04547376b762bba7d50"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/DIAGRAMS/LM001_DEPENDENCY_GRAPH.png",
+      "bytes": 96025,
+      "sha256": "23a68db494278886eb02ebe7a8e29033a64e3220460d3e8260dae6f447f9c6a0"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/DIAGRAMS/LM001_DEPENDENCY_GRAPH.svg",
+      "bytes": 13879,
+      "sha256": "baedef9123729a4302b5a0c3e7fbcd87f97f59b2e434de91f9d5ecea54acd6ae"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/FORMAL/CHIRALITY_ADDRESS_COBORDISM.md",
+      "bytes": 2296,
+      "sha256": "66816387391399fa1a0672031734944582889ec2ffb167699074aeab6a7129fb"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/FORMAL/DEPENDENCY_GRAPH.json",
+      "bytes": 2269,
+      "sha256": "bcb56b048689089f30836fcbbf6bd5fa9a0bab65d94dd932bd94aec6def1b309"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/FORMAL/ENERGY_TRANSDUCTION_INVARIANT.md",
+      "bytes": 6429,
+      "sha256": "bc689c2ec4a4f8633f8390b5087ed16954fdaec616257273c842c3ca3b3fae8f"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/FORMAL/EQUATION_REGISTRY.json",
+      "bytes": 3669,
+      "sha256": "8515e8e6f4abcd2d4324187dbe69944a62558a19fb28c6a2126b365c62bc0187"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/FORMAL/MODEL_SCHEMA.json",
+      "bytes": 1019,
+      "sha256": "e43344e99095b178965d8842218a21787b24ec0f0f7ed28cfee452b8843ee6ad"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/FORMAL/QFT_GR_REPRESENTATION_BRIDGE.md",
+      "bytes": 2407,
+      "sha256": "6ad5895ab3c17d877994e33a8132b28e3d026fb56a82e3a0a424c62f487c0d62"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/FORMAL/STATUS_LEDGER.json",
+      "bytes": 2436,
+      "sha256": "000b29f6ca806ab15789b1a191f3be447a152ec0ccbb3e9c1372bb19f8515bb0"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/FORMAL/TIMESPACE_S2_OVER_S3_FIBRATION.md",
+      "bytes": 4627,
+      "sha256": "c937a1a823bf25b9e59a5b2fde7e323cb927d67ce399f9ad68f21c1b0f520074"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/LIVE_MODEL/CHANGELOG.md",
+      "bytes": 2247,
+      "sha256": "fb5ce2f30fe1474d14846ee5e799c0a60c16df3232cd625df38fbc13178171a6"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/LIVE_MODEL/CURRENT_STATE.md",
+      "bytes": 4976,
+      "sha256": "1e7e1dff626a34dc68622840ab2d937d79b1238591f4c6502b397818440197ae"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/LIVE_MODEL/DECISION_LOG.md",
+      "bytes": 3461,
+      "sha256": "eb615494873dc883c257e1c93424af422553680b78506a4b0c65a27075b77a64"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/README.md",
+      "bytes": 1594,
+      "sha256": "3ad124c6328cdce086ed8bcceca4e52e758015239d9e72423f670df5f81d071f"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/RELEASE/VERSION_1.md",
+      "bytes": 1124,
+      "sha256": "62a028f96dc83fd3b1d12e6bf70640d6a8ee380bcd4ba7e5671d9b170ea13af3"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/REPORTS/00_FULL_INTEGRATION_REPORT.md",
+      "bytes": 15036,
+      "sha256": "987e064c88182a7988217be11919fe35a3d96b5e54c21f1f47cb7890921fbb30"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/REPORTS/01_WATCHER_AUDIT.md",
+      "bytes": 6508,
+      "sha256": "303e2e64342a5049075b4d2ec94d13c1b743d72aea2dcfa680b3593acdde3cb5"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/REPORTS/02_PRIME_BOUNDARY_ADDRESS.md",
+      "bytes": 1164,
+      "sha256": "6a5c93ffb7366fc37342ec0dbb67944eb033fe82ccde5e3eb20a1b677ad5fd3f"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/REPORTS/03_SPHERE_CORRIDOR_GEOMETRY.md",
+      "bytes": 1357,
+      "sha256": "fc65117bef7b9d61aa049023d9a4e08369117908427471dfea01b5a68e98b351"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/REPORTS/04_DOUBLE_SLIT_RECOVERY_NOTE.md",
+      "bytes": 1734,
+      "sha256": "27226b6c56c45fc44d8e2965e27e48b48522e7f5a4df29296edfe73dde148ca5"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/REPORTS/05_NEXT_WORK_PROGRAM.md",
+      "bytes": 3071,
+      "sha256": "ab79e5b727ce0a6803f8d375a94d79cfa3371fdf17f240b2ab51cc3d803209e8"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/REPORTS/06_ENERGY_TRANSDUCTION_DEFINITION.md",
+      "bytes": 3050,
+      "sha256": "e4263f0949ec15e6655c4138d0a3bf33d60ecd806a7bd2eeca62b304a4e606c7"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/REPORTS/07_WATCHER_ENERGY_AUDIT.md",
+      "bytes": 1856,
+      "sha256": "7c87e7291d462e090ad5691ffec79720600962dbb4ef3f045447fda4d0c6f972"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/REPORTS/08_FIVE_DIMENSIONAL_TIMESPACE_CORRECTION.md",
+      "bytes": 2627,
+      "sha256": "8e949b6239352077e7f37f7cb7db84a3473215c13cc1a3837c2b210be9a168ac"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/REPORTS/09_WATCHER_VERSION_1_AUDIT.md",
+      "bytes": 2491,
+      "sha256": "37b1dcecc66a559f6f51f06dc3f4d1be18fb5f731e145d05c68ae7a355c06794"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/00_canonical/CANONICAL_STATEMENT.md",
+      "bytes": 1469,
+      "sha256": "bfc42640020fd2ab8f4ea00bcad19edc2d187c12d244a884c4296098e0bd2b3f"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/01_definitions/D01_FOUNDATIONAL_SPINE.md",
+      "bytes": 786,
+      "sha256": "10233050aa26c5d65ab9d9286006de712005b1a056c23b75a8a96e45e168ae72"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/01_definitions/D02_FIELD_HANDOFF.md",
+      "bytes": 875,
+      "sha256": "cb2b13a6a3448ebfa2bfea326d44608f71a8c18995335c5383c43a174523e2b7"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/01_definitions/D03_PRIME_OBSERVER_SYSTEM.md",
+      "bytes": 970,
+      "sha256": "5eea8155520879784eafaca1620d5ffc53c51e7b9468700f256eb8fc8f28b6ac"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/01_definitions/D04_ATOMIC_CARRIER.md",
+      "bytes": 718,
+      "sha256": "e44a64705e8c9b00e642108b343e7c68a750244c8f1d3920f77246f632481e5c"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/01_definitions/D05_ENVIRONMENT_AND_DOMAINS.md",
+      "bytes": 1030,
+      "sha256": "6444b2c3ff04d4564d3f96bfe336b16fbf78279cd2063a2f07a6cef327d3a6a8"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/01_definitions/D06_DOT_GRAMMAR.md",
+      "bytes": 387,
+      "sha256": "f50fd54b4ed58a6f7b68b1fa7f589c147629f5f3d32e21f088c6b3e7687d6c9b"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/01_definitions/D07_MOLECULAR_RELATION_MANIFOLD.md",
+      "bytes": 710,
+      "sha256": "41f481908a2afc8b15f81b94a84130bc79b53d8988739c1a11f033a9708f8399"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/02_maps/M01_FORWARD_AND_REVERSE_MAPS.md",
+      "bytes": 613,
+      "sha256": "aff98a789a3eb9627e3c415449146c908a3b6c67f52dff4e7ea9c576bfcc83ef"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/02_maps/M02_COMMUTING_DIAGRAM.md",
+      "bytes": 713,
+      "sha256": "9bd6726d3d895433f7c03ff8b82b433ffb9208763a706bf13d23665f8b043500"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/02_maps/M03_PRIME_OBSERVER_CONSISTENCY.md",
+      "bytes": 627,
+      "sha256": "79d8d8fa0d723e2a0460f1e55f16192a57cadf204616bab595c4e46ff290c7cf"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/03_theorems/T01_ATOMIC_CARRIER_PROPOSITION.md",
+      "bytes": 484,
+      "sha256": "0a384074bffd61a483023676a34c718ba13e1cfb0f6c1e92746598efb751d3e4"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/03_theorems/T02_IDENTITY_PRESERVATION_THEOREM.md",
+      "bytes": 820,
+      "sha256": "57e3ad605d428f057014f9e02f53120e4d9d56f504135d49d974fac3c94732d9"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/03_theorems/T03_MOLECULAR_COMPOSITION_THEOREM.md",
+      "bytes": 899,
+      "sha256": "247fac8e81792a50a658c5695562cb53b04bee3560d1278a4c042fdb9e4aff98"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/03_theorems/T04_ROSETTA_BRIDGE_CLOSURE.md",
+      "bytes": 1137,
+      "sha256": "3d16cc72cf39f91462940c97463b0b8ba4a644c7768e01efa6ea3de787cdfa46"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/03_theorems/T05_HYDROGEN_ANCHOR_COROLLARY.md",
+      "bytes": 425,
+      "sha256": "96ed443cd3ae4b9a0e0059bf17af88580f2df97b3bdf03ad5d21993a8028129e"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/03_theorems/T06_WATER_COMPOSITION_COROLLARY.md",
+      "bytes": 544,
+      "sha256": "b7af41b672ed763bbfc8c8432718dd4ec5ac58b174d3240c3413c56d9e97a1b4"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/04_witnesses/W01_HYDROGEN.md",
+      "bytes": 457,
+      "sha256": "27ff9622842e6feb45e3c2a3c05ebee782ce7e7a6cf4d5dfcc15cdca9f56173d"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/04_witnesses/W02_ATOMIC_GENERALIZATION.md",
+      "bytes": 280,
+      "sha256": "4ab128dd5be8fd4e1e5872f2d4beef47a9a01bb65ccc1c0fa157a95000aef35d"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/04_witnesses/W03_WATER_6H_5O.md",
+      "bytes": 654,
+      "sha256": "8b616c59af40446d20c6012cd4c82ef6b125321a59720af63b846897b2321fdc"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/04_witnesses/W04_WATER_6H_6O.md",
+      "bytes": 367,
+      "sha256": "7c87f29cfced089c6864d89d7117d16e2c0367d7ab630d4520c5a088b2ec939c"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/05_audit/PROOF_STATUS.md",
+      "bytes": 1270,
+      "sha256": "b6941416b09af7ca816076b4a887870c9e2c536f0d8f5d53dcad98598e500775"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/05_audit/SOURCE_INCONSISTENCIES.md",
+      "bytes": 629,
+      "sha256": "fb9849f160e3321b5211cb1e1b4f1c5e970ec992a9993a9350bdeecaa85811a7"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/05_audit/STATUS_MATRIX.csv",
+      "bytes": 560,
+      "sha256": "b0f5b63beb80eaa5668b6cf1f64425ec7e7d91376e65915622e3d4ab6494de10"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/05_audit/WATCHER_AUDIT.md",
+      "bytes": 985,
+      "sha256": "9d5f37054ec4181a207134027926d06c08ecb7706c8e287b7191ae0b524c41c9"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/06_diagrams/ASCII_BRIDGE.md",
+      "bytes": 817,
+      "sha256": "20bdc6238995d60deb25df3896eaa7c8abd284686a436fda36b0ef76a0c6e0a4"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/07_machine/BRIDGE_OBJECT.json",
+      "bytes": 2193,
+      "sha256": "10f73c0a86c28033c765c29091f16f922171591a45512f97e43f7ca391c9de3c"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/09_tests/VALIDATION.json",
+      "bytes": 393,
+      "sha256": "8a1092bd7f69253c7c9e1a80d4f31d1a4cd9eb0f0a27474e308bfbe7633d774d"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/COMPLETE_FORMAL_REPORT.md",
+      "bytes": 18064,
+      "sha256": "fabda2179dfe54f9f04e08eef0f663756bbd05d3fce5b9519649cc9e20eafb43"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/README.md",
+      "bytes": 997,
+      "sha256": "3c1e983fcb5a0132bf12f7627c379756f09dbb311025355c5933aab63e6e0397"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/BRIDGE_CORE/manifest.json",
+      "bytes": 8240,
+      "sha256": "d2657d82c651c928a7b469c7e0316cc598cafe7c9b044fc73e87fc24940c5b5e",
+      "source_sha256_before_publication": "2845001896eb04131c72736bbcde9b0be807411bffcfb41ff3f9d93437e69f02",
+      "publication_path_portability_edit": true
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/EXACT/MK43U_Atomic_Profile_Pipeline_v0.1.pdf",
+      "bytes": 7085,
+      "sha256": "be0020af16c7419c96931a81380dd614d7041c75488060aa1ed7f55409423485"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/EXACT/MK43U_ER_Foam_Time_Shell_Equation.pdf",
+      "bytes": 4895,
+      "sha256": "682666a69724ea86a5c6ed69c5ab23e2e45c15cd85b494351fa711149c344eaf"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/EXACT/MK43U_ER_Foam_Time_Shell_Equation.txt",
+      "bytes": 3287,
+      "sha256": "92c63cb3a910fa4dfe24a0f29449b30525ee1e88abfbf503fc033cd7cbe0cf5a"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/EXACT/MK43U_Quantum_Wave_Observation_Equations_ASCII.pdf",
+      "bytes": 7036,
+      "sha256": "92f8aac518c29c88e5ebbd6089749f9460d7a77e6fcbcf9c644e658569dc5856"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/EXACT/MK43U_Recursive_Equations_ASCII.pdf",
+      "bytes": 4248,
+      "sha256": "f929b404b09a52d81f7e32edfcd7ba68e4d949a4d0aab0abba6dacd38038703c"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/EXACT/MK_Ultra_Readers_Companion_20260816.pdf",
+      "bytes": 626518,
+      "sha256": "7918d5213804cf8abd5a8113eb5a1df5d45722f66c06bcb3f6e8b8f578b9a9fa"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/EXACT/PRIME_DEPENDENCY_FOUNDATIONS_v0.1.md",
+      "bytes": 23645,
+      "sha256": "915be232f0901c4247b2063f5e58e4504bd5ae65a7899b04b3e9c8583de65186"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/EXACT/corridor_source_20260816.md",
+      "bytes": 14163,
+      "sha256": "2e2509cc615de96a972cb9b8cb474b6f4508b921475846887922831bfd95bdb6"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/PACKAGES/ER_FOAM_FULL_20260816.zip",
+      "bytes": 8504,
+      "sha256": "0f343f13ebea82d091353d8e5f233c5c26e742869340f2f059c9a8ce9d904f0e"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/PACKAGES/MK43_API_4.3_20260816.zip",
+      "bytes": 7630835,
+      "sha256": "0010a4de99d78748ede57670b3bca1df6185b7ba8dd0faf266cc3ba1a4ccf752"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/PACKAGES/TRANSDUCTION_GEOMETRY_v1.0.zip",
+      "bytes": 3398136,
+      "sha256": "7f6b965033e809c6a1683d8e7deaa320da37cb456688138b666608e10e16be77"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/SOURCE_HASHES.sha256",
+      "bytes": 5980,
+      "sha256": "681e03cf6e0dc9158708860c866f510db94b5a4853edb1b427e30c7c16168694"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/SOURCE_MANIFEST.json",
+      "bytes": 2537,
+      "sha256": "6665087d5f9206d6814afcdd3a9ccd7f94e0a87aa198ce914148d6373c677588"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/SOURCE_POINTERS.md",
+      "bytes": 494,
+      "sha256": "bed610ab74bea0089d18650672095a2148fe06665474cf45096165b046ac7c19"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/TRANSDUCTION_CORE/CORRIDOR_INTEGRATION_NOTE_S32.md",
+      "bytes": 1173,
+      "sha256": "77ed60ad75e8328e8ddd65b300827cfdbdbed5233569e417eea307d7d2dda94f"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/TRANSDUCTION_CORE/FORMAL_LAYER__Transduction_Definitions_v0.9.md",
+      "bytes": 8411,
+      "sha256": "50d57fff5525539bc20ab005b25c880c5d73d2912f9ece2ab028993ce89df7d9"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/TRANSDUCTION_CORE/FORMAL_LAYER__Transduction_Theorems_v0.5.md",
+      "bytes": 2670,
+      "sha256": "d215bc4c8aa021096f067f6eee8762ca281aa273009a6ada8074b85ed432e992"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/TRANSDUCTION_CORE/LIVE_MODEL__MK43_Transduction_Live_Model_Report_v62.md",
+      "bytes": 675324,
+      "sha256": "4e954b7cdeba1929bac762b4e7194282f2f3085b58ef0a36cc84c2e920d35426"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/TRANSDUCTION_CORE/S33_BANDWIDTH_ALGEBRA_v0.1.md",
+      "bytes": 6343,
+      "sha256": "a8f0eacc51c115cacf0120c191976aa66e5d93a55655754ac25dc1cf60abe613"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/TRANSDUCTION_CORE/S34_ALGEBRAIC_GEOMETRIC_TRANSLATOR_v0.1.md",
+      "bytes": 7055,
+      "sha256": "3b11e95aa09a25ce42335e084a319e395353c6eb57b9d0db89135bbbfdd1e0ad"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/TRANSDUCTION_CORE/S35_RESOLUTION_LANDSCAPE_v0.1.md",
+      "bytes": 5013,
+      "sha256": "589f925d721330507daa137afaaac8fb8352deb0bc06c878aea1f8d1cc2a94df"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/SOURCES/TRANSDUCTION_CORE/S36_UNIFIED_TRANSDUCTION_OBJECT_v0.1.md",
+      "bytes": 4537,
+      "sha256": "b1bc360de22524aebb2827935e0f0268ab697eeaefa83c2ba06e2cf7435071ae"
+    },
+    {
+      "path": "FOUNDATION/BASE_CHIRALITY_LANDSCAPE_V1/manifest.json",
+      "bytes": 16889,
+      "sha256": "98695939713380c26138e738630d23ba104fea7fdc3c87a4c59ea2397034de4d",
+      "source_sha256_before_publication": "05a68cc6ea9235aea0cf6a68ac31879327bec3fc9dae917bb62d94dabd606259",
+      "publication_path_portability_edit": true
+    },
+    {
+      "path": "GRAPH/atlas_plate_ii_connection.dot",
+      "bytes": 1849,
+      "sha256": "f4d98f8d94fb121a7d152e582b32eb62ce69d6cb9b4e1d67499d57e78e4bcf5f"
+    },
+    {
+      "path": "GRAPH/atlas_plate_ii_connection.svg",
+      "bytes": 16084,
+      "sha256": "4fa17092b2326724b4a266764a9b6ab129ed8393783b8b812e43392ea1083a0b"
+    },
+    {
+      "path": "GRAPH/dependency_graph.dot",
+      "bytes": 1610,
+      "sha256": "fa11a3bf5e9e1b9f2e409a2f4097cfc45923e7ff3511632346a769305a36b614"
+    },
+    {
+      "path": "GRAPH/dependency_graph.json",
+      "bytes": 3302,
+      "sha256": "8e1c04d78cb5ad6643c2deb74954d4509af8444d5fca447b21f8f4150389ee22"
+    },
+    {
+      "path": "GRAPH/dependency_graph.mmd",
+      "bytes": 1278,
+      "sha256": "c1e6beaf2ef8db0bacc27d0bd45e4e5b29614866f1efc85ccc624ce7d1ace936"
+    },
+    {
+      "path": "GRAPH/dependency_graph.png",
+      "bytes": 156624,
+      "sha256": "e9f8f3f8f0e417acb66e908e5748b1fca40e2d82d9e7aa9988ce44ebff0c8a08"
+    },
+    {
+      "path": "GRAPH/dependency_graph.svg",
+      "bytes": 18587,
+      "sha256": "65d1b26fe71232662d8db1d7977aecfb701b6bd6c02f0f3e75bac7b6e70d5388"
+    },
+    {
+      "path": "IMAGES/CONCEPT_NOTES/02_V2_GENERATED_CONCEPT_BOARD_UNTRUSTED_TEXT.png",
+      "bytes": 2441867,
+      "sha256": "ef54cd57e3555cb454fb2ef355af48521d82122eea97dd3f5ad38b231941f5e7"
+    },
+    {
+      "path": "IMAGES/PLATES/00_VERSION_0_ROADMAP.png",
+      "bytes": 2991790,
+      "sha256": "e384c8042927960ed3d1fe7589bacdb5dfab7d0c79dee6541e4d6523cfcaa1e9"
+    },
+    {
+      "path": "IMAGES/PLATES/01_ATLAS_PLATE_I_V1_0.png",
+      "bytes": 3016251,
+      "sha256": "c1b8d2a9ba5157b8b4345ec19d15c315f5f6b607de46c1e6958af029c965287c"
+    },
+    {
+      "path": "IMAGES/PLATES/02_ATLAS_PLATE_II_CONNECTION_GEOMETRY.png",
+      "bytes": 132748,
+      "sha256": "3fba376455459c6aadc4139d6924e9f29c7d4be44111f77c20a4da7cec866014"
+    },
+    {
+      "path": "IMAGES/README.md",
+      "bytes": 715,
+      "sha256": "be6cd69f5e70d6e8e12163197d802c16ece7f39f13cce5ae43e16e90bf24b18f"
+    },
+    {
+      "path": "IMAGES/REFERENCE/PRE_ATLAS_5D_STRUCTURE_REFERENCE.jpeg",
+      "bytes": 384093,
+      "sha256": "b59e7fe54110fe3aa3d7b37ecd9a8e6759bbd318bd6cc145a9e9bfa0ceefce0c"
+    },
+    {
+      "path": "LIVE_MODEL/CHANGELOG.md",
+      "bytes": 1584,
+      "sha256": "0b6816e75c76c7eb593fc5dc35e52cd0dca9ab178b74b07f34c1ba03495ad66c"
+    },
+    {
+      "path": "LIVE_MODEL/CURRENT_STATE.md",
+      "bytes": 3898,
+      "sha256": "a2ec2f09ef822ba7dfbd2a13966a8e283c7e34bd10ed9660c40da75e47351f63"
+    },
+    {
+      "path": "LIVE_MODEL/CURRENT_STATE_V2.md",
+      "bytes": 935,
+      "sha256": "5a41916e809e32e586d4c3e735f12c3016a7b305c1050d9e8597110e5e94050a"
+    },
+    {
+      "path": "LIVE_MODEL/DECISION_LOG.md",
+      "bytes": 1184,
+      "sha256": "27885f45500d65976076090325c16a25c431ae30d657c9ca5a6764133337bdda"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2558,
+      "sha256": "57a0c99df7a7729e028c5a4cc7b70557fb6731c02bfbfd62ab5fe8531e1540c1"
+    },
+    {
+      "path": "RELEASE/CHECKPOINT.md",
+      "bytes": 318,
+      "sha256": "1f866874e12d9c2604940c2b07a14c7cb80e40791910bf9914c2c1f0dc686233"
+    },
+    {
+      "path": "RELEASE/VERSION_1_0.md",
+      "bytes": 1239,
+      "sha256": "70ecba6ca13b5175710ed00c15932991fe2a1163d577ddd6d4bdc2313111d96b"
+    },
+    {
+      "path": "RELEASE/VERSION_2_0.md",
+      "bytes": 922,
+      "sha256": "097eb6c46f64a9ed4bd19608566dfb579259bf3f1a3e306a4d208682100ae610"
+    },
+    {
+      "path": "ROADMAP/DEVELOPMENT_ROADMAP.md",
+      "bytes": 2488,
+      "sha256": "c9d9aac318b4b6ef81d251d3c5738a5d4035db905a6f89bb35fbbb6a42b81d1b"
+    },
+    {
+      "path": "ROADMAP/DEVELOPMENT_ROADMAP_V2.md",
+      "bytes": 1662,
+      "sha256": "88e2969e3921cf64d2f1694813330435c7d57f6d7d8f2f131092b42db6793821"
+    },
+    {
+      "path": "ROADMAP/MAJOR_CROSSROADS.md",
+      "bytes": 1352,
+      "sha256": "40e031b1889c6edad5e63ec64a16198c4b47ce8daa159bd50c4d2fee6a0b1ba1"
+    },
+    {
+      "path": "ROADMAP/MAJOR_CROSSROADS_V2.md",
+      "bytes": 1372,
+      "sha256": "0da9461f8f4387f3dd338c600839e14d1582a62f9fa1326d68b7f2faa3f997c7"
+    },
+    {
+      "path": "SOURCES/KEY_SOURCES/4.3(20260816-121617).zip",
+      "bytes": 7630835,
+      "sha256": "0010a4de99d78748ede57670b3bca1df6185b7ba8dd0faf266cc3ba1a4ccf752"
+    },
+    {
+      "path": "SOURCES/KEY_SOURCES/Atomic Profile(8).pdf",
+      "bytes": 7085,
+      "sha256": "be0020af16c7419c96931a81380dd614d7041c75488060aa1ed7f55409423485"
+    },
+    {
+      "path": "SOURCES/KEY_SOURCES/Er Foam Full.zip",
+      "bytes": 8504,
+      "sha256": "0f343f13ebea82d091353d8e5f233c5c26e742869340f2f059c9a8ce9d904f0e"
+    },
+    {
+      "path": "SOURCES/KEY_SOURCES/MK43U_Quantum_Wave_Observation_Equations_ASCII(8).pdf",
+      "bytes": 7036,
+      "sha256": "92f8aac518c29c88e5ebbd6089749f9460d7a77e6fcbcf9c644e658569dc5856"
+    },
+    {
+      "path": "SOURCES/KEY_SOURCES/MK43U_Recursive_Equations_ASCII(8).pdf",
+      "bytes": 4248,
+      "sha256": "f929b404b09a52d81f7e32edfcd7ba68e4d949a4d0aab0abba6dacd38038703c"
+    },
+    {
+      "path": "SOURCES/KEY_SOURCES/PRIME 2(20260816-125933).md",
+      "bytes": 23645,
+      "sha256": "915be232f0901c4247b2063f5e58e4504bd5ae65a7899b04b3e9c8583de65186"
+    },
+    {
+      "path": "SOURCES/KEY_SOURCES/Phase 1-7(5).pdf",
+      "bytes": 9527,
+      "sha256": "44d0b4bf2e6ea014a68f3cd75d6460b72f1a7d4822d21b5d86a477f389d12205"
+    },
+    {
+      "path": "SOURCES/KEY_SOURCES/Phase 8-13(5).pdf",
+      "bytes": 13668,
+      "sha256": "1fddaf7d0818cdd69e3b8851b1d940e83c0795ee9898c4be07c9f84855fd020a"
+    },
+    {
+      "path": "SOURCES/KEY_SOURCES/Pipeline 2(20260816-145754).zip",
+      "bytes": 59331,
+      "sha256": "f50b1f28f1a97a674044d8f6e5a12751e11f6bb90834cc87e54e809e97348de7"
+    },
+    {
+      "path": "SOURCES/KEY_SOURCES/Pipeline(20260816-145753).zip",
+      "bytes": 7226,
+      "sha256": "d9afe265da340a161329a69371c5f7bf978a04ec41121e1d395c43853be075da"
+    },
+    {
+      "path": "SOURCES/KEY_SOURCES/Roadmap(4).pdf",
+      "bytes": 5518,
+      "sha256": "7977c1a25b9867cdb564111f9362938ba506664c294b0c073fe6d5cbac12e8c1"
+    },
+    {
+      "path": "SOURCES/KEY_SOURCES/TRANSDUCTION_GEOMETRY_v1.0(5).zip",
+      "bytes": 3398136,
+      "sha256": "7f6b965033e809c6a1683d8e7deaa320da37cb456688138b666608e10e16be77"
+    },
+    {
+      "path": "SOURCES/KEY_SOURCES/corridor(5).md",
+      "bytes": 14163,
+      "sha256": "2e2509cc615de96a972cb9b8cb474b6f4508b921475846887922831bfd95bdb6"
+    },
+    {
+      "path": "SOURCES/KEY_SOURCES/gravity 3(9).md",
+      "bytes": 33789,
+      "sha256": "86f731b58606abead8456d744ffe73092bf5f4f7e4bcd401da703e5a123ec44f"
+    },
+    {
+      "path": "SOURCES/POINTERS/LARGE_SOURCE_POINTERS.md",
+      "bytes": 424,
+      "sha256": "45450f681038764e54e9c732f289e8617c0df09cfd8d1a9cf8517292587612ee"
+    },
+    {
+      "path": "SOURCES/PROVENANCE.md",
+      "bytes": 384,
+      "sha256": "57faf235b026a33fd6926104c31aef064687f39c0c61812818568857f96a5e44"
+    },
+    {
+      "path": "SOURCES/SOURCE_MANIFEST.json",
+      "bytes": 5788,
+      "sha256": "e6cdaf580bf3229aece99d00c04fdead8b49fd8edea58c3ca45ba51908348029",
+      "source_sha256_before_publication": "0269dad43d601d194766cdbf15fcaf1f3d10bfd687804433e33a4612249b4a4d",
+      "publication_path_portability_edit": true
+    },
+    {
+      "path": "WATCHER/STATUS_LEDGER.json",
+      "bytes": 1473,
+      "sha256": "9f31311ccfe10550bf4fec6cde345a116fe3b3ed0d14e815e8dbb99bee2a0dc5"
+    },
+    {
+      "path": "WATCHER/STATUS_LEDGER_V2.json",
+      "bytes": 829,
+      "sha256": "698010a6a07231e1be6a9a98e568fa645eee23c7494989b34519f936f524bb2f"
+    },
+    {
+      "path": "WATCHER/WATCHER_AUDIT_V1_0.md",
+      "bytes": 2508,
+      "sha256": "a85b581e517704cd1514cc7bfc17d4c69870aa172e63244012cf4624600b855f"
+    },
+    {
+      "path": "WATCHER/WATCHER_AUDIT_V2_0.md",
+      "bytes": 3007,
+      "sha256": "6369839900190be73ddf60dfdefe2e816380317349f96e0a4f80ecb82d56fec7"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 28733,
+      "sha256": "ea7a49dcbb165fbe5fd9662d7d11acd7735e746b77114a63fe6c251564b54197"
+    }
+  ]
+}

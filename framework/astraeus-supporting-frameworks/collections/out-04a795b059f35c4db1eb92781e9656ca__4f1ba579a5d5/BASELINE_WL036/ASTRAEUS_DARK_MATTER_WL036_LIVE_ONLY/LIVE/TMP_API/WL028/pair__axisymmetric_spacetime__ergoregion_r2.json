@@ -1,0 +1,22 @@
+{
+  "a": "@axisymmetric_spacetime",
+  "b": "@ergoregion",
+  "radius": 2,
+  "a_node_count": 17,
+  "b_node_count": 45,
+  "interface": [],
+  "path_a_to_b": [
+    {
+      "source": "@axisymmetric_spacetime",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@ergoregion",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-51",
+      "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=2; witness=@axisymmetric_spacetime-[COMPOSED_DEPENDENCY]->@einstein_tensor-[COMPOSED_DEPENDENCY]->@ergoregion"
+    }
+  ],
+  "direct_neighborhood_policy": "high-confidence non-derived/direct-source Time-Space API edges only",
+  "path_policy": "high-confidence registered + admissibly derived Time-Space API edges; directions preserved"
+}

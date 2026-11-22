@@ -1,0 +1,57 @@
+{
+  "handle": "@dm_chirality_byte_basin_probe_family",
+  "object_type": "qmo_derived_mathematical_object",
+  "status": "LIVE_CONDITIONAL_DIAGNOSTIC",
+  "domain": "DM30",
+  "namespace": "mk43://dark-matter/live",
+  "name": "Chirality-Byte / Basin Finite Probe Family",
+  "definition": "All six interior basin levels preserve a nonzero mirror chirality contrast under the diagnostic weighting. The family gives six explicit positive-amplitude inputs sharing one canonical chiral contrast direction.",
+  "math": "For k=1..6: D_k=(k/7)D_chi; D_k c_*=2(k/7)c_* !=0; ||2(k/7)c_*||^2=8(k/7)^2.",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E091",
+  "qmo_generated": true,
+  "proof_status": "DERIVED_OR_CONDITIONAL",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "LIVE_QMO_DERIVED",
+  "metadata": {
+    "payload": {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_chirality_byte_basin_probe_family",
+      "canonical_name": "Chirality-Byte / Basin Finite Probe Family",
+      "type": "ConditionalFiniteProbeFamily",
+      "status": "LIVE_CONDITIONAL_DIAGNOSTIC",
+      "checkpoint": "E091",
+      "definition": "All six interior basin levels preserve a nonzero mirror chirality contrast under the diagnostic weighting. The family gives six explicit positive-amplitude inputs sharing one canonical chiral contrast direction.",
+      "math": "For k=1..6: D_k=(k/7)D_chi; D_k c_*=2(k/7)c_* !=0; ||2(k/7)c_*||^2=8(k/7)^2.",
+      "parents": [
+        "@dm_chirality_seed_contrast_normal_form",
+        "@chirality_byte",
+        "@energy_density"
+      ],
+      "working_assumptions": [
+        "WA-DM-E091-001"
+      ],
+      "proof_debt": [
+        "PD-DM-013"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    "direct_live_edges_out": [],
+    "direct_live_edges_in": [
+      {
+        "source": "@chirality_byte",
+        "relation": "CONDITIONAL_BASIN_WEIGHTING",
+        "target": "@dm_chirality_byte_basin_probe_family",
+        "graph_family": "live_conditional",
+        "confidence": "medium",
+        "audit_status": "conditional",
+        "provenance": "WA-DM-E091-001",
+        "origin": "LIVE_OVERLAY",
+        "source_layer": "LIVE_CONDITIONAL"
+      }
+    ]
+  },
+  "address": "@dm_chirality_byte_basin_probe_family",
+  "address_sha256": "f7247a58e259d7e428f1dfd58345b840599efeff343f5db96e6f0581a3527b5f"
+}

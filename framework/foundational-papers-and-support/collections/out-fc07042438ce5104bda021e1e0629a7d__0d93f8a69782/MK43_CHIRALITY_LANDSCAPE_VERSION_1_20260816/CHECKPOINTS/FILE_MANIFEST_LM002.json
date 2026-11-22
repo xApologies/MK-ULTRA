@@ -1,0 +1,415 @@
+{
+  "version": "LM-002",
+  "created": "2026-08-16",
+  "files": [
+    {
+      "path": "API/API_QUERY_CHIRALITY.md",
+      "bytes": 1804,
+      "sha256": "1ac378cd6de0191f4e8c23fa6312a564f7f2d7fc80c7e831d9c417fa5beea05b"
+    },
+    {
+      "path": "API/chirality_bridge_subgraph.json",
+      "bytes": 131447,
+      "sha256": "620c89a3c424839cdd84b44eea733fa62238081d3bbe385a2f86a760f99ee4a9"
+    },
+    {
+      "path": "API/chirality_direct_edges.json",
+      "bytes": 2866,
+      "sha256": "fe3fe50f361c0e5d627c53c70f2ff28fc9cdb5fac046ee04d12641d11f40e2ca"
+    },
+    {
+      "path": "CHECKPOINTS/CHECKPOINT_LM001.md",
+      "bytes": 1284,
+      "sha256": "2380ba89ef88bbeda8fd5e5f7a25867cfeecea524f630fabda464c86eb43bb8d"
+    },
+    {
+      "path": "CHECKPOINTS/CHECKPOINT_LM002.md",
+      "bytes": 469,
+      "sha256": "1f7acde220d624ec9b4b269e2d56979e25f116dbb6894a20e9d2137dac3b107b"
+    },
+    {
+      "path": "CHECKPOINTS/FILE_MANIFEST.json",
+      "bytes": 13634,
+      "sha256": "69c745eb5553bc3ee969b98176d00451a76dce9d791521da7413ad80d247c8dc",
+      "source_sha256_before_publication": "0666d4eacfa87fd94fa3c2d4610bcb81982372ff3a013d53c7b22ce10ba4823f",
+      "publication_path_portability_edit": true
+    },
+    {
+      "path": "CHECKPOINTS/WATCHER_VALIDATION.json",
+      "bytes": 315,
+      "sha256": "dc968d20ac843b877f0cdd242ec7411afd67a927bc22b85c4a91a0df5876be71"
+    },
+    {
+      "path": "DIAGRAMS/LM001_DEPENDENCY_GRAPH.dot",
+      "bytes": 1145,
+      "sha256": "51d67762f7da797edfe8f4cb7c284299b2dd7426bd226dc62974a9328fe710f0"
+    },
+    {
+      "path": "DIAGRAMS/LM001_DEPENDENCY_GRAPH.mmd",
+      "bytes": 766,
+      "sha256": "f4adb3205e1c974ac4dd12e1d802745d9a55f529b964e04547376b762bba7d50"
+    },
+    {
+      "path": "DIAGRAMS/LM001_DEPENDENCY_GRAPH.png",
+      "bytes": 96025,
+      "sha256": "23a68db494278886eb02ebe7a8e29033a64e3220460d3e8260dae6f447f9c6a0"
+    },
+    {
+      "path": "DIAGRAMS/LM001_DEPENDENCY_GRAPH.svg",
+      "bytes": 13879,
+      "sha256": "baedef9123729a4302b5a0c3e7fbcd87f97f59b2e434de91f9d5ecea54acd6ae"
+    },
+    {
+      "path": "FORMAL/CHIRALITY_ADDRESS_COBORDISM.md",
+      "bytes": 2296,
+      "sha256": "66816387391399fa1a0672031734944582889ec2ffb167699074aeab6a7129fb"
+    },
+    {
+      "path": "FORMAL/DEPENDENCY_GRAPH.json",
+      "bytes": 2269,
+      "sha256": "bcb56b048689089f30836fcbbf6bd5fa9a0bab65d94dd932bd94aec6def1b309"
+    },
+    {
+      "path": "FORMAL/ENERGY_TRANSDUCTION_INVARIANT.md",
+      "bytes": 6429,
+      "sha256": "bc689c2ec4a4f8633f8390b5087ed16954fdaec616257273c842c3ca3b3fae8f"
+    },
+    {
+      "path": "FORMAL/EQUATION_REGISTRY.json",
+      "bytes": 2318,
+      "sha256": "4d8c8505c36e9df51e1e735aa5b26971d5e9d0cd4f3846fa1457e840335124ca"
+    },
+    {
+      "path": "FORMAL/MODEL_SCHEMA.json",
+      "bytes": 1019,
+      "sha256": "e43344e99095b178965d8842218a21787b24ec0f0f7ed28cfee452b8843ee6ad"
+    },
+    {
+      "path": "FORMAL/QFT_GR_REPRESENTATION_BRIDGE.md",
+      "bytes": 2407,
+      "sha256": "6ad5895ab3c17d877994e33a8132b28e3d026fb56a82e3a0a424c62f487c0d62"
+    },
+    {
+      "path": "FORMAL/STATUS_LEDGER.json",
+      "bytes": 1708,
+      "sha256": "b12a785dbd0b9a7a08a86942b8b4a3e6d5809c15a2a522105eb26091879e674f"
+    },
+    {
+      "path": "LIVE_MODEL/CHANGELOG.md",
+      "bytes": 1273,
+      "sha256": "269ed0e6585c72b3c0f33dc82da17644512d00d0483c0100ab5a71bed060bbb5"
+    },
+    {
+      "path": "LIVE_MODEL/CURRENT_STATE.md",
+      "bytes": 6232,
+      "sha256": "4c61db6ba844d296b5d6021de9304366827943b1fae1e5b53223aa71469e4066"
+    },
+    {
+      "path": "LIVE_MODEL/DECISION_LOG.md",
+      "bytes": 2326,
+      "sha256": "064da71d7d791b4ddd8204b2d267976a5e9dee297a7910f6e065f3529b10f3e1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2919,
+      "sha256": "9b93eb040f93e190be21133448d6f8f4c0a3b81a450fc5ee473c121229e606ef"
+    },
+    {
+      "path": "REPORTS/00_FULL_INTEGRATION_REPORT.md",
+      "bytes": 15036,
+      "sha256": "987e064c88182a7988217be11919fe35a3d96b5e54c21f1f47cb7890921fbb30"
+    },
+    {
+      "path": "REPORTS/01_WATCHER_AUDIT.md",
+      "bytes": 6508,
+      "sha256": "303e2e64342a5049075b4d2ec94d13c1b743d72aea2dcfa680b3593acdde3cb5"
+    },
+    {
+      "path": "REPORTS/02_PRIME_BOUNDARY_ADDRESS.md",
+      "bytes": 1164,
+      "sha256": "6a5c93ffb7366fc37342ec0dbb67944eb033fe82ccde5e3eb20a1b677ad5fd3f"
+    },
+    {
+      "path": "REPORTS/03_SPHERE_CORRIDOR_GEOMETRY.md",
+      "bytes": 1357,
+      "sha256": "fc65117bef7b9d61aa049023d9a4e08369117908427471dfea01b5a68e98b351"
+    },
+    {
+      "path": "REPORTS/04_DOUBLE_SLIT_RECOVERY_NOTE.md",
+      "bytes": 1734,
+      "sha256": "27226b6c56c45fc44d8e2965e27e48b48522e7f5a4df29296edfe73dde148ca5"
+    },
+    {
+      "path": "REPORTS/05_NEXT_WORK_PROGRAM.md",
+      "bytes": 3071,
+      "sha256": "ab79e5b727ce0a6803f8d375a94d79cfa3371fdf17f240b2ab51cc3d803209e8"
+    },
+    {
+      "path": "REPORTS/06_ENERGY_TRANSDUCTION_DEFINITION.md",
+      "bytes": 3050,
+      "sha256": "e4263f0949ec15e6655c4138d0a3bf33d60ecd806a7bd2eeca62b304a4e606c7"
+    },
+    {
+      "path": "REPORTS/07_WATCHER_ENERGY_AUDIT.md",
+      "bytes": 1856,
+      "sha256": "7c87e7291d462e090ad5691ffec79720600962dbb4ef3f045447fda4d0c6f972"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/00_canonical/CANONICAL_STATEMENT.md",
+      "bytes": 1469,
+      "sha256": "bfc42640020fd2ab8f4ea00bcad19edc2d187c12d244a884c4296098e0bd2b3f"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/01_definitions/D01_FOUNDATIONAL_SPINE.md",
+      "bytes": 786,
+      "sha256": "10233050aa26c5d65ab9d9286006de712005b1a056c23b75a8a96e45e168ae72"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/01_definitions/D02_FIELD_HANDOFF.md",
+      "bytes": 875,
+      "sha256": "cb2b13a6a3448ebfa2bfea326d44608f71a8c18995335c5383c43a174523e2b7"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/01_definitions/D03_PRIME_OBSERVER_SYSTEM.md",
+      "bytes": 970,
+      "sha256": "5eea8155520879784eafaca1620d5ffc53c51e7b9468700f256eb8fc8f28b6ac"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/01_definitions/D04_ATOMIC_CARRIER.md",
+      "bytes": 718,
+      "sha256": "e44a64705e8c9b00e642108b343e7c68a750244c8f1d3920f77246f632481e5c"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/01_definitions/D05_ENVIRONMENT_AND_DOMAINS.md",
+      "bytes": 1030,
+      "sha256": "6444b2c3ff04d4564d3f96bfe336b16fbf78279cd2063a2f07a6cef327d3a6a8"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/01_definitions/D06_DOT_GRAMMAR.md",
+      "bytes": 387,
+      "sha256": "f50fd54b4ed58a6f7b68b1fa7f589c147629f5f3d32e21f088c6b3e7687d6c9b"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/01_definitions/D07_MOLECULAR_RELATION_MANIFOLD.md",
+      "bytes": 710,
+      "sha256": "41f481908a2afc8b15f81b94a84130bc79b53d8988739c1a11f033a9708f8399"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/02_maps/M01_FORWARD_AND_REVERSE_MAPS.md",
+      "bytes": 613,
+      "sha256": "aff98a789a3eb9627e3c415449146c908a3b6c67f52dff4e7ea9c576bfcc83ef"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/02_maps/M02_COMMUTING_DIAGRAM.md",
+      "bytes": 713,
+      "sha256": "9bd6726d3d895433f7c03ff8b82b433ffb9208763a706bf13d23665f8b043500"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/02_maps/M03_PRIME_OBSERVER_CONSISTENCY.md",
+      "bytes": 627,
+      "sha256": "79d8d8fa0d723e2a0460f1e55f16192a57cadf204616bab595c4e46ff290c7cf"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/03_theorems/T01_ATOMIC_CARRIER_PROPOSITION.md",
+      "bytes": 484,
+      "sha256": "0a384074bffd61a483023676a34c718ba13e1cfb0f6c1e92746598efb751d3e4"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/03_theorems/T02_IDENTITY_PRESERVATION_THEOREM.md",
+      "bytes": 820,
+      "sha256": "57e3ad605d428f057014f9e02f53120e4d9d56f504135d49d974fac3c94732d9"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/03_theorems/T03_MOLECULAR_COMPOSITION_THEOREM.md",
+      "bytes": 899,
+      "sha256": "247fac8e81792a50a658c5695562cb53b04bee3560d1278a4c042fdb9e4aff98"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/03_theorems/T04_ROSETTA_BRIDGE_CLOSURE.md",
+      "bytes": 1137,
+      "sha256": "3d16cc72cf39f91462940c97463b0b8ba4a644c7768e01efa6ea3de787cdfa46"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/03_theorems/T05_HYDROGEN_ANCHOR_COROLLARY.md",
+      "bytes": 425,
+      "sha256": "96ed443cd3ae4b9a0e0059bf17af88580f2df97b3bdf03ad5d21993a8028129e"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/03_theorems/T06_WATER_COMPOSITION_COROLLARY.md",
+      "bytes": 544,
+      "sha256": "b7af41b672ed763bbfc8c8432718dd4ec5ac58b174d3240c3413c56d9e97a1b4"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/04_witnesses/W01_HYDROGEN.md",
+      "bytes": 457,
+      "sha256": "27ff9622842e6feb45e3c2a3c05ebee782ce7e7a6cf4d5dfcc15cdca9f56173d"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/04_witnesses/W02_ATOMIC_GENERALIZATION.md",
+      "bytes": 280,
+      "sha256": "4ab128dd5be8fd4e1e5872f2d4beef47a9a01bb65ccc1c0fa157a95000aef35d"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/04_witnesses/W03_WATER_6H_5O.md",
+      "bytes": 654,
+      "sha256": "8b616c59af40446d20c6012cd4c82ef6b125321a59720af63b846897b2321fdc"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/04_witnesses/W04_WATER_6H_6O.md",
+      "bytes": 367,
+      "sha256": "7c87f29cfced089c6864d89d7117d16e2c0367d7ab630d4520c5a088b2ec939c"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/05_audit/PROOF_STATUS.md",
+      "bytes": 1270,
+      "sha256": "b6941416b09af7ca816076b4a887870c9e2c536f0d8f5d53dcad98598e500775"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/05_audit/SOURCE_INCONSISTENCIES.md",
+      "bytes": 629,
+      "sha256": "fb9849f160e3321b5211cb1e1b4f1c5e970ec992a9993a9350bdeecaa85811a7"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/05_audit/STATUS_MATRIX.csv",
+      "bytes": 560,
+      "sha256": "b0f5b63beb80eaa5668b6cf1f64425ec7e7d91376e65915622e3d4ab6494de10"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/05_audit/WATCHER_AUDIT.md",
+      "bytes": 985,
+      "sha256": "9d5f37054ec4181a207134027926d06c08ecb7706c8e287b7191ae0b524c41c9"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/06_diagrams/ASCII_BRIDGE.md",
+      "bytes": 817,
+      "sha256": "20bdc6238995d60deb25df3896eaa7c8abd284686a436fda36b0ef76a0c6e0a4"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/07_machine/BRIDGE_OBJECT.json",
+      "bytes": 2193,
+      "sha256": "10f73c0a86c28033c765c29091f16f922171591a45512f97e43f7ca391c9de3c"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/09_tests/VALIDATION.json",
+      "bytes": 393,
+      "sha256": "8a1092bd7f69253c7c9e1a80d4f31d1a4cd9eb0f0a27474e308bfbe7633d774d"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/COMPLETE_FORMAL_REPORT.md",
+      "bytes": 18064,
+      "sha256": "fabda2179dfe54f9f04e08eef0f663756bbd05d3fce5b9519649cc9e20eafb43"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/README.md",
+      "bytes": 997,
+      "sha256": "3c1e983fcb5a0132bf12f7627c379756f09dbb311025355c5933aab63e6e0397"
+    },
+    {
+      "path": "SOURCES/BRIDGE_CORE/manifest.json",
+      "bytes": 8217,
+      "sha256": "a2f691b4f14a93205a91f6a832ba2bb54514b6cd05d3df4aa6841a163a2b551b",
+      "source_sha256_before_publication": "2845001896eb04131c72736bbcde9b0be807411bffcfb41ff3f9d93437e69f02",
+      "publication_path_portability_edit": true
+    },
+    {
+      "path": "SOURCES/EXACT/MK43U_Atomic_Profile_Pipeline_v0.1.pdf",
+      "bytes": 7085,
+      "sha256": "be0020af16c7419c96931a81380dd614d7041c75488060aa1ed7f55409423485"
+    },
+    {
+      "path": "SOURCES/EXACT/MK43U_Quantum_Wave_Observation_Equations_ASCII.pdf",
+      "bytes": 7036,
+      "sha256": "92f8aac518c29c88e5ebbd6089749f9460d7a77e6fcbcf9c644e658569dc5856"
+    },
+    {
+      "path": "SOURCES/EXACT/MK43U_Recursive_Equations_ASCII.pdf",
+      "bytes": 4248,
+      "sha256": "f929b404b09a52d81f7e32edfcd7ba68e4d949a4d0aab0abba6dacd38038703c"
+    },
+    {
+      "path": "SOURCES/EXACT/MK_Ultra_Readers_Companion_20260816.pdf",
+      "bytes": 626518,
+      "sha256": "7918d5213804cf8abd5a8113eb5a1df5d45722f66c06bcb3f6e8b8f578b9a9fa"
+    },
+    {
+      "path": "SOURCES/EXACT/PRIME_DEPENDENCY_FOUNDATIONS_v0.1.md",
+      "bytes": 23645,
+      "sha256": "915be232f0901c4247b2063f5e58e4504bd5ae65a7899b04b3e9c8583de65186"
+    },
+    {
+      "path": "SOURCES/EXACT/corridor_source_20260816.md",
+      "bytes": 14163,
+      "sha256": "2e2509cc615de96a972cb9b8cb474b6f4508b921475846887922831bfd95bdb6"
+    },
+    {
+      "path": "SOURCES/PACKAGES/MK43_API_4.3_20260816.zip",
+      "bytes": 7630835,
+      "sha256": "0010a4de99d78748ede57670b3bca1df6185b7ba8dd0faf266cc3ba1a4ccf752"
+    },
+    {
+      "path": "SOURCES/PACKAGES/TRANSDUCTION_GEOMETRY_v1.0.zip",
+      "bytes": 3398136,
+      "sha256": "7f6b965033e809c6a1683d8e7deaa320da37cb456688138b666608e10e16be77"
+    },
+    {
+      "path": "SOURCES/SOURCE_HASHES.sha256",
+      "bytes": 1146,
+      "sha256": "127f4eb129cfedcc5553dce96b4340806180a5f41aaadacbf362be2a79ed43a7"
+    },
+    {
+      "path": "SOURCES/SOURCE_MANIFEST.json",
+      "bytes": 2537,
+      "sha256": "6665087d5f9206d6814afcdd3a9ccd7f94e0a87aa198ce914148d6373c677588"
+    },
+    {
+      "path": "SOURCES/SOURCE_POINTERS.md",
+      "bytes": 494,
+      "sha256": "bed610ab74bea0089d18650672095a2148fe06665474cf45096165b046ac7c19"
+    },
+    {
+      "path": "SOURCES/TRANSDUCTION_CORE/CORRIDOR_INTEGRATION_NOTE_S32.md",
+      "bytes": 1173,
+      "sha256": "77ed60ad75e8328e8ddd65b300827cfdbdbed5233569e417eea307d7d2dda94f"
+    },
+    {
+      "path": "SOURCES/TRANSDUCTION_CORE/FORMAL_LAYER__Transduction_Definitions_v0.9.md",
+      "bytes": 8411,
+      "sha256": "50d57fff5525539bc20ab005b25c880c5d73d2912f9ece2ab028993ce89df7d9"
+    },
+    {
+      "path": "SOURCES/TRANSDUCTION_CORE/FORMAL_LAYER__Transduction_Theorems_v0.5.md",
+      "bytes": 2670,
+      "sha256": "d215bc4c8aa021096f067f6eee8762ca281aa273009a6ada8074b85ed432e992"
+    },
+    {
+      "path": "SOURCES/TRANSDUCTION_CORE/LIVE_MODEL__MK43_Transduction_Live_Model_Report_v62.md",
+      "bytes": 675324,
+      "sha256": "4e954b7cdeba1929bac762b4e7194282f2f3085b58ef0a36cc84c2e920d35426"
+    },
+    {
+      "path": "SOURCES/TRANSDUCTION_CORE/S33_BANDWIDTH_ALGEBRA_v0.1.md",
+      "bytes": 6343,
+      "sha256": "a8f0eacc51c115cacf0120c191976aa66e5d93a55655754ac25dc1cf60abe613"
+    },
+    {
+      "path": "SOURCES/TRANSDUCTION_CORE/S34_ALGEBRAIC_GEOMETRIC_TRANSLATOR_v0.1.md",
+      "bytes": 7055,
+      "sha256": "3b11e95aa09a25ce42335e084a319e395353c6eb57b9d0db89135bbbfdd1e0ad"
+    },
+    {
+      "path": "SOURCES/TRANSDUCTION_CORE/S35_RESOLUTION_LANDSCAPE_v0.1.md",
+      "bytes": 5013,
+      "sha256": "589f925d721330507daa137afaaac8fb8352deb0bc06c878aea1f8d1cc2a94df"
+    },
+    {
+      "path": "SOURCES/TRANSDUCTION_CORE/S36_UNIFIED_TRANSDUCTION_OBJECT_v0.1.md",
+      "bytes": 4537,
+      "sha256": "b1bc360de22524aebb2827935e0f0268ab697eeaefa83c2ba06e2cf7435071ae"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 13925,
+      "sha256": "631d1ba013f6e51ea5aa5221962d7ca2259ab3776a45df3eeddbd3a0440ce571"
+    }
+  ]
+}

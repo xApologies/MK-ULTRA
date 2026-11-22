@@ -1,0 +1,30 @@
+{
+  "schema": "ASTRAEUS_DM_WORK_LAYER_QMO_V1",
+  "qmo_id": "QMO-AST-DM-WL-017",
+  "name": "Rotation-Adjacency Relational Load / Density Gate",
+  "status": "CONDITIONAL_SOURCE_COMPOSED_NOT_PARENT_PROMOTED",
+  "work_layer_revision": "WL-018",
+  "date": "2026-08-17",
+  "assumptions": [
+    "v17 additive-channel realization",
+    "one newly admitted edge e_*",
+    "r_*>0",
+    "Tcap_R(e_*)>0",
+    "V_R>0"
+  ],
+  "theorem": "Delta rho_E^R = r_* Tcap_R(e_*)/V_R > 0 for the controlled one-edge difference.",
+  "readable_gate": "If T_rho,R(Delta rho_E^R)!=0 then Delta T_U^R!=0 by parent v32 density-separation theorem.",
+  "bandwidth_firewall": "If Tcap_R(e_*)=0 from channel saturation, the edge contributes zero relational-transition load even if adjacency exists.",
+  "source_refs": [
+    "DARK_MATTER_API_2.2:sources/ATLAS_V36/126_BANDWIDTH_TO_TRANSITION_CAPACITY_TYPED_BRIDGE.md",
+    "DARK_MATTER_API_2.2:sources/ATLAS_V36/133_RELATIONSHIP_ADJACENCY_ENERGY_REALIZATION.md",
+    "DARK_MATTER_API_2.2:sources/ATLAS_V36/201_V32_DENSITY_SEPARATION_WITNESS.md"
+  ],
+  "guardrails": [
+    "scalar density is downstream component readout, not native ontology",
+    "additive-channel realization is candidate",
+    "T_rho,R remains open",
+    "same matter readout and GR response remain open",
+    "no parent promotion"
+  ]
+}

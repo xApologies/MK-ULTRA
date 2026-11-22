@@ -1,0 +1,98 @@
+{
+  "handle": "@genlang_family_sera",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@genlang_family_sera",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 2,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 2,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 1,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@genlang_family_sera",
+        "relation": "FAMILY_GENERATES_ROOT",
+        "target": "@genlang_root_sera",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48069;CANONICAL_API_TYPED_LINE:48069"
+      },
+      {
+        "source": "@genlang_family_sera",
+        "relation": "GENERATES",
+        "target": "@genlang_root_sera",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:48069"
+      },
+      {
+        "source": "@genlang_root_sera",
+        "relation": "GENERATED_BY",
+        "target": "@genlang_family_sera",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@genlang_family_sera GENERATES @genlang_root_sera); rule=GENERATES→GENERATED_BY"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 392,
+        "source": "@genlang_family_sera",
+        "relation": "FAMILY_GENERATES_ROOT",
+        "target": "@genlang_root_sera",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48069;CANONICAL_API_TYPED_LINE:48069"
+      },
+      {
+        "id": 393,
+        "source": "@genlang_family_sera",
+        "relation": "GENERATES",
+        "target": "@genlang_root_sera",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:48069"
+      },
+      {
+        "id": 2179,
+        "source": "@genlang_root_sera",
+        "relation": "GENERATED_BY",
+        "target": "@genlang_family_sera",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@genlang_family_sera GENERATES @genlang_root_sera); rule=GENERATES→GENERATED_BY"
+      }
+    ]
+  },
+  "address": "@genlang_family_sera",
+  "address_sha256": "c0efe6c09fb0f2ff050219c449b19617e95a4e62593e4c188ede6c46429af365"
+}

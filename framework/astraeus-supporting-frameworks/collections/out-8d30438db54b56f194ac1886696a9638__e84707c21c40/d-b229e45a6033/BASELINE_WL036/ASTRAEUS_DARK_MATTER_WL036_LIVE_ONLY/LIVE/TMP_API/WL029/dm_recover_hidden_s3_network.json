@@ -1,0 +1,973 @@
+{
+  "handle": "@dm_hidden_s3_network",
+  "record": {
+    "handle": "@dm_hidden_s3_network",
+    "name": "Hidden S3 Multi-Port Continuity Network",
+    "origin": "DARKMATTER_2.0",
+    "namespace": "network",
+    "type": "DerivedNetworkCandidate",
+    "status": "ATLAS_DERIVED_ACTIVE",
+    "criticality": "critical",
+    "definition": "Candidate Mode-0-selected hidden continuity organization joining multiple localized S2 / black-hole ports within the established S3 continuity level. It is a derived subnetwork candidate, not a new dimension and not yet identified with dark matter.",
+    "math": "G_H^R=(V_H,E_H,w), with multi-port hidden connectivity; active geometry remains S4 -> S3 -> S2.",
+    "source_refs": [
+      "ATLAS_V36:FORMAL/150_V19_MASTER_SYNTHESIS.md",
+      "ATLAS_V36:FORMAL/168_V24_MASTER_SYNTHESIS.md",
+      "ATLAS_V36:FORMAL/227_V36_MASTER_SYNTHESIS.md"
+    ]
+  },
+  "incoming": [
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "DEPENDS_ON",
+      "target": "@dm_hidden_s3_network",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.1",
+      "origin": "DARKMATTER_2.1"
+    },
+    {
+      "source": "@dm_direct_cycle_gravity_no_go",
+      "relation": "CONSTRAINS",
+      "target": "@dm_hidden_s3_network",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "THEOREM",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@dm_hidden_state_bundle",
+      "relation": "DEPENDS_ON",
+      "target": "@dm_hidden_s3_network",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.1",
+      "origin": "DARKMATTER_2.1"
+    },
+    {
+      "source": "@dm_mode0_network_selection_rule",
+      "relation": "SELECTS_ACCESS_TO",
+      "target": "@dm_hidden_s3_network",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "OPEN_HANDLE",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@dm_one_port_no_go",
+      "relation": "CONSTRAINS",
+      "target": "@dm_hidden_s3_network",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "THEOREM",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0"
+    }
+  ],
+  "outgoing": [
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "REQUIRES",
+      "target": "@dm_hidden_state_embedding",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "OPEN_HANDLE",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "USES",
+      "target": "@dm_runtime_transition_capacity",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0"
+    }
+  ],
+  "composed_in": [
+    {
+      "source": "@dm_constraint_preserving_embedding_family",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@dm_hidden_s3_network",
+      "primitive_depth": 2,
+      "shortest_path": [
+        "@dm_constraint_preserving_embedding_family",
+        "@dm_hidden_state_bundle",
+        "@dm_hidden_s3_network"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    }
+  ],
+  "composed_out": [
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@admissibility",
+      "primitive_depth": 2,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@admissibility"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@bandwidth",
+      "primitive_depth": 2,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@black_hole",
+      "primitive_depth": 8,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality",
+        "@er_foam",
+        "@helicon",
+        "@graviton",
+        "@black_hole"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@black_hole_information_closure",
+      "primitive_depth": 9,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality",
+        "@er_foam",
+        "@helicon",
+        "@graviton",
+        "@black_hole",
+        "@black_hole_information_closure"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@chirality",
+      "primitive_depth": 4,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@chirality_map",
+      "primitive_depth": 8,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@inheritance",
+        "@occupancy",
+        "@persistence_potential",
+        "@persistent_recursive_topology",
+        "@chirality_space",
+        "@chirality_map"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@chirality_space",
+      "primitive_depth": 7,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@inheritance",
+        "@occupancy",
+        "@persistence_potential",
+        "@persistent_recursive_topology",
+        "@chirality_space"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@chirality_transport",
+      "primitive_depth": 9,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@inheritance",
+        "@occupancy",
+        "@persistence_potential",
+        "@persistent_recursive_topology",
+        "@chirality_space",
+        "@chirality_map",
+        "@chirality_transport"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@coherent_helicon_propagation",
+      "primitive_depth": 7,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality",
+        "@er_foam",
+        "@helicon",
+        "@coherent_helicon_propagation"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@configuration_space_3_1_1",
+      "primitive_depth": 7,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality",
+        "@er_foam",
+        "@time_shell",
+        "@configuration_space_3_1_1"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@continuation_operator",
+      "primitive_depth": 10,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@inheritance",
+        "@occupancy",
+        "@persistence_potential",
+        "@persistent_recursive_topology",
+        "@time_space",
+        "@structured_temporal_manifold",
+        "@temporal_metric",
+        "@continuation_operator"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@continuity_perturbation",
+      "primitive_depth": 8,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality",
+        "@er_foam",
+        "@helicon",
+        "@graviton",
+        "@continuity_perturbation"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@continuity_redistribution",
+      "primitive_depth": 2,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@continuity_redistribution"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@dm_local_capacity_envelope",
+      "primitive_depth": 2,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@dm_local_capacity_envelope"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@einstein_field_equation",
+      "primitive_depth": 9,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality",
+        "@er_foam",
+        "@helicon",
+        "@graviton",
+        "@black_hole",
+        "@einstein_field_equation"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@einstein_hilbert_action",
+      "primitive_depth": 11,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality",
+        "@er_foam",
+        "@helicon",
+        "@graviton",
+        "@black_hole",
+        "@einstein_field_equation",
+        "@metric_variation",
+        "@einstein_hilbert_action"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@einstein_tensor",
+      "primitive_depth": 10,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality",
+        "@er_foam",
+        "@helicon",
+        "@graviton",
+        "@black_hole",
+        "@einstein_field_equation",
+        "@einstein_tensor"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@er_foam",
+      "primitive_depth": 5,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality",
+        "@er_foam"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@genesis_field",
+      "primitive_depth": 8,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@inheritance",
+        "@occupancy",
+        "@persistence_potential",
+        "@persistent_recursive_topology",
+        "@time_space",
+        "@genesis_field"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@geometry",
+      "primitive_depth": 7,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality",
+        "@er_foam",
+        "@time_shell",
+        "@geometry"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@gravitational_helicon_mode",
+      "primitive_depth": 7,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality",
+        "@er_foam",
+        "@helicon",
+        "@gravitational_helicon_mode"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@gravitational_radiation",
+      "primitive_depth": 8,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality",
+        "@er_foam",
+        "@time_shell",
+        "@gravity",
+        "@gravitational_radiation"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@gravitational_self_coupling",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@continuity_redistribution",
+        "@gravitational_self_coupling"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@graviton",
+      "primitive_depth": 7,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality",
+        "@er_foam",
+        "@helicon",
+        "@graviton"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@graviton_radiative_stability",
+      "primitive_depth": 4,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@admissibility",
+        "@native_constraint_closure",
+        "@graviton_radiative_stability"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@gravity",
+      "primitive_depth": 7,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality",
+        "@er_foam",
+        "@time_shell",
+        "@gravity"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@helicon",
+      "primitive_depth": 6,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality",
+        "@er_foam",
+        "@helicon"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@helicon_curvature",
+      "primitive_depth": 8,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality",
+        "@er_foam",
+        "@helicon",
+        "@helicon_resonance",
+        "@helicon_curvature"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@helicon_resonance",
+      "primitive_depth": 7,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality",
+        "@er_foam",
+        "@helicon",
+        "@helicon_resonance"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@inheritance",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@inheritance"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@inheritance_morphism",
+      "primitive_depth": 12,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@inheritance",
+        "@occupancy",
+        "@persistence_potential",
+        "@persistent_recursive_topology",
+        "@time_space",
+        "@structured_temporal_manifold",
+        "@temporal_metric",
+        "@continuation_operator",
+        "@inherited_state_bundle",
+        "@inheritance_morphism"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@inherited_state_bundle",
+      "primitive_depth": 11,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@inheritance",
+        "@occupancy",
+        "@persistence_potential",
+        "@persistent_recursive_topology",
+        "@time_space",
+        "@structured_temporal_manifold",
+        "@temporal_metric",
+        "@continuation_operator",
+        "@inherited_state_bundle"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@localized_persistent_topology",
+      "primitive_depth": 7,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality",
+        "@er_foam",
+        "@stable_er_foam_knot",
+        "@localized_persistent_topology"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@matter_action",
+      "primitive_depth": 11,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality",
+        "@er_foam",
+        "@helicon",
+        "@graviton",
+        "@black_hole",
+        "@einstein_field_equation",
+        "@stress_energy_tensor",
+        "@matter_action"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@matter_coupling",
+      "primitive_depth": 10,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality",
+        "@er_foam",
+        "@helicon",
+        "@graviton",
+        "@black_hole",
+        "@einstein_field_equation",
+        "@matter_coupling"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@matter_readable_organization",
+      "primitive_depth": 9,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality",
+        "@er_foam",
+        "@stable_er_foam_knot",
+        "@localized_persistent_topology",
+        "@particle_readable_organization",
+        "@matter_readable_organization"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@metric_compatible_connection",
+      "primitive_depth": 11,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality",
+        "@er_foam",
+        "@helicon",
+        "@graviton",
+        "@black_hole",
+        "@spacetime",
+        "@readable_space_time",
+        "@metric_compatible_connection"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@metric_perturbation",
+      "primitive_depth": 11,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality",
+        "@er_foam",
+        "@helicon",
+        "@graviton",
+        "@black_hole",
+        "@spacetime",
+        "@readable_space_time",
+        "@metric_perturbation"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@metric_tensor",
+      "primitive_depth": 11,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality",
+        "@er_foam",
+        "@helicon",
+        "@graviton",
+        "@black_hole",
+        "@einstein_field_equation",
+        "@einstein_tensor",
+        "@metric_tensor"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@metric_variation",
+      "primitive_depth": 10,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality",
+        "@er_foam",
+        "@helicon",
+        "@graviton",
+        "@black_hole",
+        "@einstein_field_equation",
+        "@metric_variation"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@native_constraint_closure",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@admissibility",
+        "@native_constraint_closure"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@native_graviton_dispersion",
+      "primitive_depth": 8,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality",
+        "@er_foam",
+        "@helicon",
+        "@gravitational_helicon_mode",
+        "@native_graviton_dispersion"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@occupancy",
+      "primitive_depth": 4,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@inheritance",
+        "@occupancy"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@particle_readable_organization",
+      "primitive_depth": 8,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality",
+        "@er_foam",
+        "@stable_er_foam_knot",
+        "@localized_persistent_topology",
+        "@particle_readable_organization"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@persistence",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@persistence_potential",
+      "primitive_depth": 5,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@inheritance",
+        "@occupancy",
+        "@persistence_potential"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@persistent_boundary",
+      "primitive_depth": 11,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@inheritance",
+        "@occupancy",
+        "@persistence_potential",
+        "@persistent_recursive_topology",
+        "@chirality_space",
+        "@chirality_map",
+        "@chirality_transport",
+        "@persistent_locus",
+        "@persistent_boundary"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@persistent_locus",
+      "primitive_depth": 10,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@inheritance",
+        "@occupancy",
+        "@persistence_potential",
+        "@persistent_recursive_topology",
+        "@chirality_space",
+        "@chirality_map",
+        "@chirality_transport",
+        "@persistent_locus"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@persistent_recursive_topology",
+      "primitive_depth": 6,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@inheritance",
+        "@occupancy",
+        "@persistence_potential",
+        "@persistent_recursive_topology"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@phase_gravitational_wave_equations",
+      "primitive_depth": 8,
+      "shortest_path": [
+        "@dm_hidden_s3_network",
+        "@dm_runtime_transition_capacity",
+        "@bandwidth",
+        "@persistence",
+        "@chirality",
+        "@er_foam",
+        "@time_shell",
+        "@geometry",
+        "@phase_gravitational_wave_equations"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    }
+  ]
+}

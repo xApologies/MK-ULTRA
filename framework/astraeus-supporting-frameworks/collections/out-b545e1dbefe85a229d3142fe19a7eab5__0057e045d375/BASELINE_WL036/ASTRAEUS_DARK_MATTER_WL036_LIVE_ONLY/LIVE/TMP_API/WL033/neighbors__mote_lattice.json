@@ -1,0 +1,67 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_NEIGHBORS_V1",
+  "handle": "@mote_lattice",
+  "incoming": [
+    [
+      "@mote",
+      {
+        "source": "@mote",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_lattice",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:49472->49473",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@resolution",
+      {
+        "source": "@resolution",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_lattice",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50977->50978",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ]
+  ],
+  "outgoing": [
+    [
+      "@mote_configuration_space",
+      {
+        "source": "@mote_lattice",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_configuration_space",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50117->50118",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@mote_occupancy_function",
+      {
+        "source": "@mote_lattice",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_occupancy_function",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:49475->49476",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ]
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry"
+}

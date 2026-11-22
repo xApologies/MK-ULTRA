@@ -1,0 +1,119 @@
+{
+  "handle": "@white_core_mote_coupling",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@white_core_mote_coupling",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 3,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 3,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@white_core_mote_coupling",
+        "relation": "DIRECTED_TO",
+        "target": "@mote",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50147->50148"
+      },
+      {
+        "source": "@mote_collapse_profile",
+        "relation": "DIRECTED_TO",
+        "target": "@white_core_mote_coupling",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50141->50142"
+      },
+      {
+        "source": "@mote_creation_operator",
+        "relation": "DIRECTED_TO",
+        "target": "@white_core_mote_coupling",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50144->50145"
+      },
+      {
+        "source": "@white_state_core",
+        "relation": "DIRECTED_TO",
+        "target": "@white_core_mote_coupling",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50138->50139"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 1184,
+        "source": "@white_core_mote_coupling",
+        "relation": "DIRECTED_TO",
+        "target": "@mote",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50147->50148"
+      },
+      {
+        "id": 740,
+        "source": "@mote_collapse_profile",
+        "relation": "DIRECTED_TO",
+        "target": "@white_core_mote_coupling",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50141->50142"
+      },
+      {
+        "id": 745,
+        "source": "@mote_creation_operator",
+        "relation": "DIRECTED_TO",
+        "target": "@white_core_mote_coupling",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50144->50145"
+      },
+      {
+        "id": 1194,
+        "source": "@white_state_core",
+        "relation": "DIRECTED_TO",
+        "target": "@white_core_mote_coupling",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50138->50139"
+      }
+    ]
+  },
+  "address": "@white_core_mote_coupling",
+  "address_sha256": "afb8b7d56a82d021e3b791809d041bcbe613a52983d9cd7d0324395c532ec151"
+}

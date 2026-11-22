@@ -1,0 +1,119 @@
+{
+  "handle": "@resonance_alignment",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@resonance_alignment",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 2,
+    "api43_direct_in_count": 2,
+    "xapi_raw_out_count": 2,
+    "xapi_raw_in_count": 2,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 72,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 6,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@resonance_alignment",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@helicon_resonance",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:27785"
+      },
+      {
+        "source": "@resonance_alignment",
+        "relation": "CONSTRAINS",
+        "target": "@wake_evolution",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "recovery_pass": "RP-38",
+        "provenance": "DIRECT_EQUATION_API:2660-2677"
+      },
+      {
+        "source": "@wake_evolution",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@resonance_alignment",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:27780"
+      },
+      {
+        "source": "@wake_evolution",
+        "relation": "CONSTRAINED_BY",
+        "target": "@resonance_alignment",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@resonance_alignment CONSTRAINS @wake_evolution); rule=CONSTRAINS→CONSTRAINED_BY"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 1025,
+        "source": "@resonance_alignment",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@helicon_resonance",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:27785"
+      },
+      {
+        "id": 1026,
+        "source": "@resonance_alignment",
+        "relation": "CONSTRAINS",
+        "target": "@wake_evolution",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_EQUATION_API:2660-2677"
+      },
+      {
+        "id": 1167,
+        "source": "@wake_evolution",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@resonance_alignment",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:27780"
+      },
+      {
+        "id": 2265,
+        "source": "@wake_evolution",
+        "relation": "CONSTRAINED_BY",
+        "target": "@resonance_alignment",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@resonance_alignment CONSTRAINS @wake_evolution); rule=CONSTRAINS→CONSTRAINED_BY"
+      }
+    ]
+  },
+  "address": "@resonance_alignment",
+  "address_sha256": "5f6461a965e09e73f60b5bf7d629e1b6d4b456c6e5f8f81fe5541ac9f5ee21e5"
+}

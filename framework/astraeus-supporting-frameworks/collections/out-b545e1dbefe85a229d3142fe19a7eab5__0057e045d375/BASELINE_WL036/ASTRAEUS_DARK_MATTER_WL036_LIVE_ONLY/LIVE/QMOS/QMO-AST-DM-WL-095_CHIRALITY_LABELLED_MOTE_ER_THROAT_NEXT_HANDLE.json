@@ -1,0 +1,117 @@
+{
+  "schema": "ASTRAEUS_CHIRALITY_LABELLED_MOTE_ER_INCIDENCE_HANDLE_V1",
+  "qmo_id": "QMO-AST-DM-WL-095",
+  "name": "Chirality-Labelled Mote -> ER-Throat Incidence Next Handle",
+  "atlas_version": "WL-v211",
+  "status": "NEXT_HANDLE_RECOVERED",
+  "parent_promotions": 0,
+  "direct_source_chain": [
+    "@chirality_labelled_mote",
+    "@er_throat_incidence",
+    "@weighted_adjacency",
+    "@adjacency_lattice",
+    "@er_foam"
+  ],
+  "orientation_history_source_backed_path": {
+    "nodes": [
+      "@orientation_history",
+      "@relational_history",
+      "@admissible_equivalence",
+      "@coherent_continuation_class",
+      "@persistent_locus",
+      "@persistent_boundary",
+      "@projection_admissibility",
+      "@planck_landscape",
+      "@er_throat_incidence"
+    ],
+    "edges": [
+      {
+        "source": "@orientation_history",
+        "relation": "DEPENDS_TO",
+        "target": "@relational_history",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45106"
+      },
+      {
+        "source": "@relational_history",
+        "relation": "DEPENDS_TO",
+        "target": "@admissible_equivalence",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45129"
+      },
+      {
+        "source": "@admissible_equivalence",
+        "relation": "DEPENDS_TO",
+        "target": "@coherent_continuation_class",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45044"
+      },
+      {
+        "source": "@coherent_continuation_class",
+        "relation": "DEPENDS_TO",
+        "target": "@persistent_locus",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45064"
+      },
+      {
+        "source": "@persistent_locus",
+        "relation": "DEPENDS_TO",
+        "target": "@persistent_boundary",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45114"
+      },
+      {
+        "source": "@persistent_boundary",
+        "relation": "DEPENDS_TO",
+        "target": "@projection_admissibility",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45112"
+      },
+      {
+        "source": "@projection_admissibility",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@planck_landscape",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:27707"
+      },
+      {
+        "source": "@planck_landscape",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@er_throat_incidence",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:27711"
+      }
+    ]
+  },
+  "finding": "The API already owns an ER-assembly corridor from the chirality-labelled-mote handle. The immediate observation handle for the controlled rotational witness is therefore @er_throat_incidence, not a newly invented mote adjacency operator.",
+  "next_handle": "@er_throat_incidence",
+  "guardrails": [
+    "path existence != H0/H1 separation",
+    "orientation history reaching Planck/ER incidence != proof that rotation changes the selected incidence state",
+    "medium-confidence vertical-chain edges retain source-backed status"
+  ]
+}

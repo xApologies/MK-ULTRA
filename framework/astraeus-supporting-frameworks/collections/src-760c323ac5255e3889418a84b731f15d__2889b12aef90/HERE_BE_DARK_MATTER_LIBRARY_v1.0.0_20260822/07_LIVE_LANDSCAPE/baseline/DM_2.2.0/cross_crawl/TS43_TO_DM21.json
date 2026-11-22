@@ -1,0 +1,257 @@
+{
+  "schema": "MK43_CROSS_CRAWL_TS43_TO_DM21_V1",
+  "source_api": "Time-Space 4.3",
+  "target_api": "Dark Matter 2.1",
+  "direct_interface_handle_count": 27,
+  "dm_object_count": 35,
+  "dm_objects_reached": 35,
+  "distance_histogram": {
+    "1": 23,
+    "2": 9,
+    "3": 3
+  },
+  "coverage": {
+    "@dm_chromatic_optional_branch": 1,
+    "@dm_continuity_laplacian": 1,
+    "@dm_dark_matter_qualification_locus": 2,
+    "@dm_dark_matter_qualification_nonempty": 3,
+    "@dm_dark_readout_defect": 1,
+    "@dm_direct_cycle_gravity_no_go": 3,
+    "@dm_energy_gravity_consistency_filter": 1,
+    "@dm_formal_persistence_qualification": 1,
+    "@dm_hidden_boundary_contact": 1,
+    "@dm_hidden_boundary_response_form": 2,
+    "@dm_hidden_persistent_subset": 1,
+    "@dm_hidden_relational_load": 1,
+    "@dm_hidden_response_operator": 1,
+    "@dm_hidden_s3_network": 2,
+    "@dm_hidden_sector_conservation": 1,
+    "@dm_hidden_state_bundle": 1,
+    "@dm_hidden_state_embedding": 1,
+    "@dm_history_support_preorder": 1,
+    "@dm_history_to_continuity_strength": 2,
+    "@dm_local_capacity_envelope": 2,
+    "@dm_local_continuity_response_coefficient": 1,
+    "@dm_metric_action_selection": 1,
+    "@dm_mode0_access_interface": 1,
+    "@dm_mode0_network_selection_rule": 2,
+    "@dm_native_density_to_readable_source": 2,
+    "@dm_native_hidden_witness": 2,
+    "@dm_omega_to_chromatic_representation": 1,
+    "@dm_one_port_no_go": 3,
+    "@dm_projection_residue_survival": 1,
+    "@dm_q_completion_family": 1,
+    "@dm_q_survival": 2,
+    "@dm_resolution_density_profile": 1,
+    "@dm_runtime_transition_capacity": 1,
+    "@dm_stress_energy_realization_family": 1,
+    "@dm_stress_energy_separation_gate": 1
+  },
+  "novel_cross_branch_hub_count": 20,
+  "top_novel_cross_branch_hubs": [
+    {
+      "handle": "@mote",
+      "branch_count": 6,
+      "distance_sum": 12,
+      "branches": {
+        "chromatic": 2,
+        "network": 2,
+        "readout": 2,
+        "state_persistence": 2,
+        "load": 2,
+        "mode0": 2
+      }
+    },
+    {
+      "handle": "@mote_closure",
+      "branch_count": 5,
+      "distance_sum": 9,
+      "branches": {
+        "chromatic": 2,
+        "network": 1,
+        "state_persistence": 2,
+        "load": 2,
+        "history": 2
+      }
+    },
+    {
+      "handle": "@mote_lattice",
+      "branch_count": 4,
+      "distance_sum": 5,
+      "branches": {
+        "network": 1,
+        "state_persistence": 1,
+        "load": 1,
+        "history": 2
+      }
+    },
+    {
+      "handle": "@closure",
+      "branch_count": 4,
+      "distance_sum": 7,
+      "branches": {
+        "network": 2,
+        "state_persistence": 2,
+        "load": 2,
+        "history": 1
+      }
+    },
+    {
+      "handle": "@native_constraint_closure",
+      "branch_count": 4,
+      "distance_sum": 7,
+      "branches": {
+        "chromatic": 2,
+        "network": 1,
+        "readout": 2,
+        "history": 2
+      }
+    },
+    {
+      "handle": "@recoverability",
+      "branch_count": 4,
+      "distance_sum": 7,
+      "branches": {
+        "network": 2,
+        "state_persistence": 2,
+        "load": 2,
+        "history": 1
+      }
+    },
+    {
+      "handle": "@mote_ensemble",
+      "branch_count": 4,
+      "distance_sum": 8,
+      "branches": {
+        "network": 2,
+        "readout": 2,
+        "state_persistence": 2,
+        "load": 2
+      }
+    },
+    {
+      "handle": "@geodesic",
+      "branch_count": 3,
+      "distance_sum": 5,
+      "branches": {
+        "network": 2,
+        "readout": 1,
+        "state_persistence": 2
+      }
+    },
+    {
+      "handle": "@native_causal_order",
+      "branch_count": 3,
+      "distance_sum": 5,
+      "branches": {
+        "network": 1,
+        "readout": 2,
+        "state_persistence": 2
+      }
+    },
+    {
+      "handle": "@mote_diagonal_rule",
+      "branch_count": 3,
+      "distance_sum": 6,
+      "branches": {
+        "network": 2,
+        "state_persistence": 2,
+        "load": 2
+      }
+    },
+    {
+      "handle": "@mote_occupancy_function",
+      "branch_count": 3,
+      "distance_sum": 6,
+      "branches": {
+        "network": 2,
+        "state_persistence": 2,
+        "load": 2
+      }
+    },
+    {
+      "handle": "@planck_landscape",
+      "branch_count": 3,
+      "distance_sum": 6,
+      "branches": {
+        "chromatic": 2,
+        "state_persistence": 2,
+        "history": 2
+      }
+    },
+    {
+      "handle": "@smooth_manifold",
+      "branch_count": 3,
+      "distance_sum": 6,
+      "branches": {
+        "chromatic": 2,
+        "network": 2,
+        "history": 2
+      }
+    },
+    {
+      "handle": "@unit_string",
+      "branch_count": 3,
+      "distance_sum": 6,
+      "branches": {
+        "network": 2,
+        "readout": 2,
+        "state_persistence": 2
+      }
+    },
+    {
+      "handle": "@cosmology",
+      "branch_count": 2,
+      "distance_sum": 3,
+      "branches": {
+        "network": 2,
+        "readout": 1
+      }
+    },
+    {
+      "handle": "@general_relativity",
+      "branch_count": 2,
+      "distance_sum": 3,
+      "branches": {
+        "readout": 1,
+        "load": 2
+      }
+    },
+    {
+      "handle": "@S0",
+      "branch_count": 2,
+      "distance_sum": 4,
+      "branches": {
+        "network": 2,
+        "state_persistence": 2
+      }
+    },
+    {
+      "handle": "@adjacency_lattice",
+      "branch_count": 2,
+      "distance_sum": 4,
+      "branches": {
+        "network": 2,
+        "readout": 2
+      }
+    },
+    {
+      "handle": "@native_probability_preservation",
+      "branch_count": 2,
+      "distance_sum": 4,
+      "branches": {
+        "network": 2,
+        "readout": 2
+      }
+    },
+    {
+      "handle": "@ringdown",
+      "branch_count": 2,
+      "distance_sum": 4,
+      "branches": {
+        "readout": 2,
+        "mode0": 2
+      }
+    }
+  ]
+}

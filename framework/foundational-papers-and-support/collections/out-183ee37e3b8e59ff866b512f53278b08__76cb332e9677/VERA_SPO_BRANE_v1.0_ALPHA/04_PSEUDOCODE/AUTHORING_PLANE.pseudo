@@ -1,0 +1,16 @@
+FUNCTION AUTHOR_PROFILE_PACKAGE(human_input):
+    normalized ← EXTERNAL_AI.NORMALIZE(human_input)
+
+    FOR fact IN normalized:
+        IF fact.was_not_supplied AND fact.is_clinical_or_person_specific:
+            MARK_UNKNOWN(fact)
+        END
+    END
+
+    pkg ← BUILD_STRUCTURED_PACKAGE(normalized)
+    ASSERT pkg.protected_cues IS EXPLICIT
+    ASSERT pkg.user_control IS EXPLICIT
+    ASSERT pkg.unknowns ARE PRESERVED
+    pkg.provenance ← CREATE_PROVENANCE(human_input, normalized)
+    RETURN pkg
+END

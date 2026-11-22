@@ -1,0 +1,91 @@
+{
+  "chapter_ids": [
+    "V13-C06"
+  ],
+  "chapters": [
+    {
+      "assigned_handle_count": 1,
+      "chapter_id": "V13-C06",
+      "handles": [
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@conservation_of_information",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.772062+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 142,
+            "english_units": 94,
+            "equation_units": 4,
+            "evidence_diversity": 2,
+            "handle": "@conservation_of_information",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 3,
+            "recommended_priority": "P2",
+            "registered_dependencies": 8,
+            "run_id": "RP-05B",
+            "score": 76,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 2957,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 723,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:723"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1798,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1798"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1799,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1799"
+            }
+          ],
+          "handle": "@conservation_of_information",
+          "incoming_relation_types": {
+            "CONNECTS_TO": 2,
+            "RESOLVED_VERTICAL_CHAIN": 1,
+            "VERTICAL_CHAIN": 1
+          },
+          "native_report": {
+            "bytes": 2105860,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\conservation_of_information_64cfb35723df45dab167e5ca57782611.md",
+            "reused_master_query": true,
+            "sha256": "c0eab905321249091e6fb86c9dd14343106ec5d0f73e2ea01ad032e2fa575521"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "CONNECTS_TO": 2,
+            "RESOLVED_VERTICAL_CHAIN": 1,
+            "VERTICAL_CHAIN": 1
+          }
+        }
+      ],
+      "title": "Information Conservation Across Projections"
+    }
+  ],
+  "database_sha256": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03",
+  "database_unchanged": true,
+  "query_architecture": "Runtime -> BRANE -> API/QMO -> Library 4.1",
+  "query_receipt": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\native_query_receipt_V13_C06.json",
+  "schema": "mk-ultra-tome-native-evidence-digest-v1"
+}

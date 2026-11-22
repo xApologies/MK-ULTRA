@@ -1,0 +1,56 @@
+{
+  "handle": "@quantum_action_functional",
+  "object_type": "mathematical_object",
+  "status": "indexed-unlinked",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Quantum Action Functional",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 0,
+    "xapi_raw_in_count": 2,
+    "live_out_count": 0,
+    "live_in_count": 2,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 7,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 3,
+    "aliases": [],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19725,
+        "source": "@dm_covariant_hidden_action_family",
+        "relation": "DEPENDS_ON",
+        "target": "@quantum_action_functional",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.2_CROSS_API"
+      },
+      {
+        "id": 19783,
+        "source": "@dm_metric_action_selection",
+        "relation": "DEPENDS_ON",
+        "target": "@quantum_action_functional",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.1"
+      }
+    ]
+  },
+  "address": "@quantum_action_functional",
+  "address_sha256": "427192cef96890065f4b74d221bda5616d95c908580d8c431ed9c7e5f825c5fa"
+}

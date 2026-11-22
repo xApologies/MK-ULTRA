@@ -1,0 +1,120 @@
+{
+  "handle": "@chirality_history",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Chirality History",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 2,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 4,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 2,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 1,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@chirality_history",
+        "relation": "DIRECTED_TO",
+        "target": "@configuration_space_3_1_1",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54832->54833"
+      },
+      {
+        "source": "@chirality_history",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@configuration_space_3_1_1",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DEPENDSON:54292"
+      },
+      {
+        "source": "@configuration_space_3_1_1",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@chirality_history",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@chirality_history FORMALLY_DEPENDS_ON @configuration_space_3_1_1); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 134,
+        "source": "@chirality_history",
+        "relation": "DIRECTED_TO",
+        "target": "@configuration_space_3_1_1",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54832->54833"
+      },
+      {
+        "id": 135,
+        "source": "@chirality_history",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@configuration_space_3_1_1",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_DEPENDSON:54292"
+      },
+      {
+        "id": 19001,
+        "source": "@chirality_history",
+        "relation": "DIRECTED_TO",
+        "target": "@configuration_space_3_1_1",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54832->54833"
+      },
+      {
+        "id": 19002,
+        "source": "@chirality_history",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@configuration_space_3_1_1",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_DEPENDSON:54292"
+      },
+      {
+        "id": 2128,
+        "source": "@configuration_space_3_1_1",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@chirality_history",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@chirality_history FORMALLY_DEPENDS_ON @configuration_space_3_1_1); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      }
+    ]
+  },
+  "address": "@chirality_history",
+  "address_sha256": "a02b59ade75f474fc290da655d177c3b7126cf40f31f0b92a0483fd1e20a1df9"
+}

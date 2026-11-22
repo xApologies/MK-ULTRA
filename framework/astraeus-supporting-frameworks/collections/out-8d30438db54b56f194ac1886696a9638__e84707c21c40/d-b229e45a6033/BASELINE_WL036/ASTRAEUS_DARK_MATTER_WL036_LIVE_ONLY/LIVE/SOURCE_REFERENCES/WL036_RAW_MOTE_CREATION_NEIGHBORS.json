@@ -1,0 +1,68 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_NEIGHBORS_V1",
+  "handle": "@mote_creation_operator",
+  "incoming": [
+    [
+      "@zero_state",
+      {
+        "source": "@zero_state",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_creation_operator",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:49466->49467;CANONICAL_API_MULTILINE_ARROW:50108->50109",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ]
+  ],
+  "outgoing": [
+    [
+      "@genesis_partial_isometry",
+      {
+        "source": "@mote_creation_operator",
+        "relation": "DIRECTED_TO",
+        "target": "@genesis_partial_isometry",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50111->50112",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@mote",
+      {
+        "source": "@mote_creation_operator",
+        "relation": "DIRECTED_TO",
+        "target": "@mote",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:49469->49470",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@white_core_mote_coupling",
+      {
+        "source": "@mote_creation_operator",
+        "relation": "DIRECTED_TO",
+        "target": "@white_core_mote_coupling",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50144->50145",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ]
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry"
+}

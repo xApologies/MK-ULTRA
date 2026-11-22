@@ -1,0 +1,38 @@
+{
+  "schema": "PINK_SKY_TOY_DOMAIN_V1",
+  "status": "ANALOGY_ONLY_NOT_PHYSICS",
+  "objects": {
+    "@toy_environmental_constraints": {
+      "regime": "baseline"
+    },
+    "@toy_optical_rules": {
+      "depends_on": [
+        "@toy_environmental_constraints"
+      ]
+    },
+    "@toy_ecological_constraints": {
+      "depends_on": [
+        "@toy_environmental_constraints"
+      ]
+    },
+    "@toy_sky_readout": {
+      "color": "blue",
+      "depends_on": [
+        "@toy_optical_rules"
+      ]
+    },
+    "@toy_plant_morphology": {
+      "form": "tree",
+      "depends_on": [
+        "@toy_ecological_constraints"
+      ]
+    },
+    "@toy_tree_label": {
+      "label": "tree",
+      "depends_on": [
+        "@toy_plant_morphology"
+      ]
+    }
+  },
+  "interpretation": "Changing only the sky label does not entail a plant rewrite. Changing an upstream shared constraint can place both sky and plant-dependent structures inside the same recursive impact cone; their actual reclosed values require separate admissible rules."
+}

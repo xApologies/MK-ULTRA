@@ -1,0 +1,26 @@
+{
+  "handle": "debt://PD-DM-012",
+  "object_type": "proof_debt",
+  "status": "BYPASSED_ON_SHORTEST_ENERGY_DENSITY_ROUTE",
+  "domain": "PROOF_DEBT",
+  "namespace": "mk43://proof-debt",
+  "name": "Selected two-port continuity residual through Time-Shell gravity fiber",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E087",
+  "qmo_generated": false,
+  "proof_status": "BYPASSED_ON_SHORTEST_ENERGY_DENSITY_ROUTE",
+  "empirical_status": "",
+  "provenance_class": "PROOF_DEBT",
+  "metadata": {
+    "id": "PD-DM-012",
+    "title": "Selected two-port continuity residual through Time-Shell gravity fiber",
+    "status": "BYPASSED_ON_SHORTEST_ENERGY_DENSITY_ROUTE",
+    "priority": "RETURN_GATE",
+    "checkpoint_opened": "E087",
+    "payload_json": "{\"debt_id\": \"PD-DM-012\", \"title\": \"Selected two-port continuity residual through Time-Shell gravity fiber\", \"status\": \"BYPASSED_ON_SHORTEST_ENERGY_DENSITY_ROUTE\", \"priority\": \"RETURN_GATE\", \"checkpoint_opened\": \"E087\", \"discharges\": \"@dm_two_port_timeshell_gravity_fiber_test\", \"related_handles\": [\"@dm_explicit_two_port_continuity_residual_witness\", \"@continuity_perturbation\", \"@time_shell_projection_operator\", \"@weak_field_metric_perturbation\", \"@dm_chirality_seed_contrast_normal_form\", \"@dm_chirality_seed_timeshell_gravity_fiber_test\"], \"question\": \"For c_*=(1,-1)^T and the matched full/visible reduced operators, are the native continuity inputs -Lambda_full c_* and -Lambda_vis c_* separated by the recovered composite gravity map G_TS = Pi_T o A_g?\", \"trigger_to_reopen\": \"Type/test only the selected gravity fiber: establish G_TS(-Lambda_full c_*) != G_TS(-Lambda_vis c_*). Do not derive the full A_g or global Pi_T kernel unless this selected test requires it.\", \"retype_checkpoint\": \"E092\", \"canonical_input_note\": \"E090/E092 identify the selected two-port contrast normal form as w_eff times the recovered chirality-seed mirror contrast. The debt is still the same G_TS separation question, now on a source-grounded canonical input.\", \"note\": \"Direct Time-Shell gravity-fiber test remains valid but is no longer required for the shortest energy-density/Einstein route.\"}"
+  },
+  "address": "debt://PD-DM-012",
+  "address_sha256": "3d3a7cdfe901ee884c6d35a522ac4444e23f0396210faafd17cd872485f8c7de"
+}

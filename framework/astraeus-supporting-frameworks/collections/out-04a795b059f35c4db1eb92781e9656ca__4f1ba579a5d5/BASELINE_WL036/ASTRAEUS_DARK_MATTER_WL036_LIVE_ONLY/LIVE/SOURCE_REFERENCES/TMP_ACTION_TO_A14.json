@@ -1,0 +1,23 @@
+{
+  "schema": "ASTRAEUS_QMO_CROSS_CRAWL_V1",
+  "seeds": [
+    "@dm_metric_action_selection"
+  ],
+  "targets": [
+    "@quantum_action_principle"
+  ],
+  "bidirectional": true,
+  "edge_count": 1659,
+  "reachable_count": 231,
+  "distance_histogram": {
+    "0": 1,
+    "1": 14,
+    "2": 27,
+    "3": 69,
+    "4": 120
+  },
+  "paths": {
+    "@dm_metric_action_selection -> @quantum_action_principle": null
+  },
+  "guardrail": "Navigation evidence only. Composed paths are not direct theorems and no parent object is promoted."
+}

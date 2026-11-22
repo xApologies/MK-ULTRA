@@ -1,0 +1,85 @@
+{
+  "schema": "ASTRAEUS_CONTAINMENT_VOLUME_NATIVE_DENSITY_READOUT_SEAM_V1",
+  "qmo_id": "QMO-AST-DM-WL-072",
+  "name": "Containment Volume / Native Density Readout Seam",
+  "atlas_version": "WL-v188",
+  "status": "SOURCE_BACKED_DENSITY_SEAM_OPEN_READOUT_TRANSDUCTION",
+  "timespace_energy_density": {
+    "corridor": "@relationship -> @transition_capacity -> @containment_volume -> @energy_density",
+    "math": "rho_E = R*T/V"
+  },
+  "darkmatter_objects": {
+    "@dm_hidden_relational_load": "L_H(U)=sum_{e in E_H(U)} r(e) T_run(e); rho_H(U)=L_H(U)/V(U)",
+    "@dm_resolution_density_profile": "rho_{H,a}^R=L_H(U_a)/V_a; Delta boldrho_H^R=(Delta rho_{H,a}^R)_a; REALIZES @energy_density",
+    "@dm_native_density_to_readable_source": "T_rho,R : DensityProfile_R -> ReadableSource_R; OPEN"
+  },
+  "exact_interface_radius3": [
+    {
+      "handle": "@dm_hidden_relational_load",
+      "distance_a": 1,
+      "distance_b": 2
+    },
+    {
+      "handle": "@dm_resolution_density_profile",
+      "distance_a": 2,
+      "distance_b": 1
+    },
+    {
+      "handle": "@energy_density",
+      "distance_a": 1,
+      "distance_b": 2
+    },
+    {
+      "handle": "@containment_volume",
+      "distance_a": 0,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_native_density_to_readable_source",
+      "distance_a": 3,
+      "distance_b": 0
+    },
+    {
+      "handle": "@dm_native_hidden_witness",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@dm_runtime_transition_capacity",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_stress_energy_separation_gate",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@relationship",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@resolution",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@bandwidth",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@persistence",
+      "distance_a": 3,
+      "distance_b": 3
+    }
+  ],
+  "finding": "The APIs already meet on relationship/load, containment volume and energy-density structure. Therefore the open density handle is not asking whether a native density object exists; it is the typed readable transduction/calibration that must preserve a claimed nonzero component distinction without reconstructing a full tensor from one scalar.",
+  "guardrails": [
+    "native density profile != readable source",
+    "energy density != full stress-energy tensor",
+    "REALIZES @energy_density != closure of T_rho,R",
+    "regional scalar != universal inverse profile"
+  ]
+}

@@ -1,0 +1,23 @@
+PASS Archived-field W -> metric -> W, all ten entries
+PASS Symmetric target -> weights -> target algebraic identity
+PASS Unknown native weight signs are not certified
+PASS Reference white metric is recovered, not overcounted
+PASS Reference subtraction equals original additive formula
+PASS Reject negative native edge weights
+PASS Reject nonsymmetric native adjacency
+PASS Reject unique inverse with singular covectors
+PASS Reject zero-coupling inverse
+PASS Entrywise nonnegativity is not misread as PSD
+PASS Lorentzian target with negative recovered edge is not admitted
+FAIL Fixed-network target consistency detects spatially varying weights
+Traceback (most recent call last):
+  File "../code/checks.py", line 125, in <module>
+    try:main();status='PASS'
+        ~~~~^^
+  File "../code/checks.py", line 65, in main
+    check('Fixed-network target consistency detects spatially varying weights',dv['fixed_network_check']=='VARIES_ON_CHART')
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "../code/checks.py", line 14, in check
+    if not passed:raise AssertionError(name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Fixed-network target consistency detects spatially varying weights

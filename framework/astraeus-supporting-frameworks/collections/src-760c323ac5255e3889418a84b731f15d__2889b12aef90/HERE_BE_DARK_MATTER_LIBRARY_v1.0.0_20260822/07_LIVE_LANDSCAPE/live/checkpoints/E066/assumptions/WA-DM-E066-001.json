@@ -1,0 +1,19 @@
+{
+  "assumption_id": "WA-DM-E066-001",
+  "name": "Invariant-Residue Discriminator Survival",
+  "status": "WORKING_ASSUMPTION",
+  "checkpoint": "E066",
+  "scope": "one declared full/visible Resolution-R boundary comparison inventory",
+  "statement": "Let at least one declared invariant-residue discriminator r_H induced by the selected hidden witness survive boundary projection so that r_H(B_full^R) != r_H(B_vis^R), and require the comparison morphisms to preserve that declared discriminator.",
+  "source_support": [
+    "@dm_projection_residue_survival",
+    "@dm_native_hidden_witness",
+    "@dm_conditional_boundary_residue_seed"
+  ],
+  "not_claimed": [
+    "global injectivity of projection",
+    "identity of r_H with density or Lambda_H without an explicit representation map",
+    "physical observability"
+  ],
+  "proof_debt": "PD-DM-004"
+}

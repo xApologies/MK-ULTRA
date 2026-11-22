@@ -1,0 +1,103 @@
+{
+  "schema": "tome-publication-renderer-validation/v1",
+  "created_at": "2026-08-11T03:25:39.711121+00:00",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "engine": "KaTeX 0.16.22 -> HTML/CSS -> Playwright -> Microsoft Edge PDF",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_11_COSMOLOGY/MK_ULTRA_TOME_V11_C04_COSMIC_CYCLES_AND_INHERITANCE.pdf",
+    "bytes": 176554,
+    "sha256": "232f467893be3f1bab3b828a006498be86e2813c5dbf1b938b97cc142e7a19e9"
+  },
+  "actual_pages": 8,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V11-C04": 3
+  },
+  "chapter_validations": [
+    {
+      "chapter_id": "V11-C04",
+      "source_sha256": "4350c252c5c6c41f0038a16b0ba1a89f3f39fd8f9368ad9a6bf035a17ac78bc4",
+      "page_start": 3,
+      "headings": 24,
+      "display_equations": 22,
+      "inline_equations": 0,
+      "equation_tags": 21,
+      "api_handles": 27,
+      "table_rows": 56,
+      "content_markers_present": true
+    }
+  ],
+  "engine_metrics": {
+    "renderer": "TOME_PUBLICATION_RENDERER_V1",
+    "katexVersion": "0.16.22",
+    "chapters": [
+      {
+        "id": "V11-C04",
+        "sourceBytes": 16415,
+        "paragraphs": 44,
+        "headings": 24,
+        "displayEquations": 22,
+        "inlineEquations": 0,
+        "tables": 2,
+        "tableRows": 54,
+        "listItems": 0,
+        "codeBlocks": 0,
+        "figures": 0
+      }
+    ],
+    "paragraphs": 44,
+    "headings": 24,
+    "displayEquations": 22,
+    "inlineEquations": 0,
+    "tables": 2,
+    "tableRows": 54,
+    "listItems": 0,
+    "blockQuotes": 0,
+    "codeBlocks": 0,
+    "figures": 0,
+    "mathLayout": {
+      "checked": 22,
+      "scaled": [],
+      "remainingOverflow": []
+    }
+  },
+  "raw_latex_guard": {
+    "result": "PASS",
+    "hits": [],
+    "commands_scanned": [
+      "frac",
+      "mathcal",
+      "mathrm",
+      "begin",
+      "end",
+      "left",
+      "right",
+      "longrightarrow",
+      "rightarrow",
+      "otimes",
+      "partial",
+      "nabla",
+      "mu",
+      "nu",
+      "sum",
+      "int",
+      "operatorname"
+    ]
+  },
+  "visual_qa": {
+    "result": "PASS",
+    "pages_rendered": 8,
+    "pages_inspected": 8,
+    "contact_sheets_inspected": 2,
+    "findings": [],
+    "inspection_note": "All eight rendered pages were visually inspected. Cover, contents, equations, tables, pagination, and chapter text are legible with no clipping, overlap, raw LaTeX, or unintended blank pages."
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V11-C04": "4350c252c5c6c41f0038a16b0ba1a89f3f39fd8f9368ad9a6bf035a17ac78bc4"
+  },
+  "source_hashes_after": {
+    "V11-C04": "4350c252c5c6c41f0038a16b0ba1a89f3f39fd8f9368ad9a6bf035a17ac78bc4"
+  },
+  "sealed_chapter_content_change_count": 0
+}

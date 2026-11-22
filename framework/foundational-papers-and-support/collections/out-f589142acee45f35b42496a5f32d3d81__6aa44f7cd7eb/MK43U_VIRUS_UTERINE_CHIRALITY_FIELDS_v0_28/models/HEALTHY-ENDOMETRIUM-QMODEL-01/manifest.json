@@ -1,0 +1,101 @@
+{
+  "boundaries": [
+    "not a literal solved quantum state of a tumor or virus",
+    "not a QCD calculation",
+    "not a patient-specific field",
+    "not evidence that a virus disrupts a tumor"
+  ],
+  "files": {
+    "MIDPLANE_CHIRALITY.png": {
+      "bytes": 46887,
+      "sha256": "6dda2b5d0db79ce12b9293d6736585ff3fbab87cca35d211b1b19dd6721e0bbd"
+    },
+    "README.md": {
+      "bytes": 779,
+      "sha256": "ca4a7fddffad9708f6cb3de0de306ba8a43a66bc29b6524649911786c83de54e"
+    },
+    "atomic_profile.json": {
+      "bytes": 1816,
+      "sha256": "632e007647ee991f2c1b4b36d0f0a7c6e31d2fefdce667f126fc3f94bfd689eb"
+    },
+    "chirality_field_3p1p1_32x32x32x2x2.npy": {
+      "bytes": 524416,
+      "sha256": "4b62bbada6912aa10d34ef764427d6998a7346940d450c5d6e87108e709787de"
+    },
+    "chirality_scalar_32x32x32.npy": {
+      "bytes": 131200,
+      "sha256": "38600fb6ec4c0f519bd824dcd3b5e61b9c92af2b0265b30dbd24a4be14ea3dae"
+    },
+    "chirality_statecode_32x32x32.npy": {
+      "bytes": 32896,
+      "sha256": "32b420d28b53553c4ac19d2856dcb1fd6672926c15daefe775e7ba9516a815ef"
+    },
+    "mass_density_32x32x32.npy": {
+      "bytes": 131200,
+      "sha256": "a5dc14e9c9a3529e446743e199ae0c12d75419a6b77eb002d048783b32c3f981"
+    },
+    "occupancy_32x32x32.npy": {
+      "bytes": 131200,
+      "sha256": "71f9da563ccf4003a05f7d4251180a93adc6ac84c0e545734b511f4b88b8b72c"
+    },
+    "persistence_32x32x32.npy": {
+      "bytes": 131200,
+      "sha256": "e125cc6766f23d8100e56cdf8e79b8ad3806604b9dc36eb9739b49dfa3572d43"
+    },
+    "pipeline_stage_fields_T0_T7.npz": {
+      "bytes": 436884,
+      "sha256": "8a907b34333258634b363e88f5ddb597a607f61d61ed8c889e98a403d0a23032"
+    },
+    "quantum_atomic_model.json": {
+      "bytes": 92514,
+      "sha256": "c39f1930bab3776890e4a613142bfb5bff93d0ddc243a8610dfc04fb1fed58e4"
+    },
+    "resolution_32x32x32.npy": {
+      "bytes": 131200,
+      "sha256": "bed8d5617e618f9b1a0e7db4146dca65d3274c8d7db5717261ba9d953c244a4d"
+    },
+    "setlift_5d_32x32x32x2.npy": {
+      "bytes": 2883712,
+      "sha256": "942f8daf4fb8d0d46ebc635bbd4fd29cea31fb8298a2174827e404d561313f4e"
+    },
+    "source_4d_32x32x32.npy": {
+      "bytes": 1441920,
+      "sha256": "f7c7c838765481b3b5db660f7696a817587836ddb1f742f21f558b2a2f3e12f7"
+    }
+  },
+  "model_id": "HEALTHY-ENDOMETRIUM-QMODEL-01",
+  "schema": "MK43U_QUANTUM_CHIRALITY_PACKAGE_V0_1",
+  "summary": {
+    "chirality_field_shape": [
+      32,
+      32,
+      32,
+      2,
+      2
+    ],
+    "chirality_max": 0.13327215611934662,
+    "chirality_min": -1.0,
+    "grid_n": 32,
+    "left_weight": 37.05073165893555,
+    "model_id": "HEALTHY-ENDOMETRIUM-QMODEL-01",
+    "occupied_voxels": 246,
+    "persistent_voxels": 53,
+    "persistent_weight": 28.78803253173828,
+    "quantum_resolution_status": "hybrid_exact_small_molecule_plus_experimental_macromolecular_reference",
+    "right_weight": 22.169612884521484,
+    "setlift_shape": [
+      11,
+      32,
+      32,
+      32,
+      2
+    ],
+    "source_shape": [
+      11,
+      32,
+      32,
+      32
+    ],
+    "unresolved_persistence_weight": 30.43231201171875
+  }
+}

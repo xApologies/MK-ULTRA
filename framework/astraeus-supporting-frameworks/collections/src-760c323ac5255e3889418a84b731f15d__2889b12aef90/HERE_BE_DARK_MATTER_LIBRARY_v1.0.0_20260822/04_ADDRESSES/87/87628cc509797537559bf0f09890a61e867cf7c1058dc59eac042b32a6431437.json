@@ -1,0 +1,184 @@
+{
+  "handle": "@projected_gr_inheritance",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Projected Gr Inheritance",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 4,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 7,
+    "xapi_raw_in_count": 2,
+    "live_out_count": 3,
+    "live_in_count": 1,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@projected_gr_inheritance",
+        "relation": "DIRECTED_TO",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54766->54767"
+      },
+      {
+        "source": "@projected_gr_inheritance",
+        "relation": "DIRECTED_TO",
+        "target": "@cosmology",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54769->54770"
+      },
+      {
+        "source": "@projected_gr_inheritance",
+        "relation": "DIRECTED_TO",
+        "target": "@newtonian_gravity",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54760->54761"
+      },
+      {
+        "source": "@projected_gr_inheritance",
+        "relation": "DIRECTED_TO",
+        "target": "@post_newtonian_gravity",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54763->54764"
+      },
+      {
+        "source": "@time_shell",
+        "relation": "DIRECTED_TO",
+        "target": "@projected_gr_inheritance",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54757->54758"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 928,
+        "source": "@projected_gr_inheritance",
+        "relation": "DIRECTED_TO",
+        "target": "@black_hole",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54766->54767"
+      },
+      {
+        "id": 929,
+        "source": "@projected_gr_inheritance",
+        "relation": "DIRECTED_TO",
+        "target": "@cosmology",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54769->54770"
+      },
+      {
+        "id": 930,
+        "source": "@projected_gr_inheritance",
+        "relation": "DIRECTED_TO",
+        "target": "@newtonian_gravity",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54760->54761"
+      },
+      {
+        "id": 931,
+        "source": "@projected_gr_inheritance",
+        "relation": "DIRECTED_TO",
+        "target": "@post_newtonian_gravity",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54763->54764"
+      },
+      {
+        "id": 19347,
+        "source": "@projected_gr_inheritance",
+        "relation": "DIRECTED_TO",
+        "target": "@black_hole",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54766->54767"
+      },
+      {
+        "id": 19348,
+        "source": "@projected_gr_inheritance",
+        "relation": "DIRECTED_TO",
+        "target": "@newtonian_gravity",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54760->54761"
+      },
+      {
+        "id": 19349,
+        "source": "@projected_gr_inheritance",
+        "relation": "DIRECTED_TO",
+        "target": "@post_newtonian_gravity",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54763->54764"
+      },
+      {
+        "id": 1106,
+        "source": "@time_shell",
+        "relation": "DIRECTED_TO",
+        "target": "@projected_gr_inheritance",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54757->54758"
+      },
+      {
+        "id": 19446,
+        "source": "@time_shell",
+        "relation": "DIRECTED_TO",
+        "target": "@projected_gr_inheritance",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54757->54758"
+      }
+    ]
+  },
+  "address": "@projected_gr_inheritance",
+  "address_sha256": "87628cc509797537559bf0f09890a61e867cf7c1058dc59eac042b32a6431437"
+}

@@ -1,0 +1,77 @@
+{
+  "handle": "@gauge_consistency",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@gauge_consistency",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 2,
+    "xapi_raw_out_count": 0,
+    "xapi_raw_in_count": 2,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@native_constraint_closure",
+        "relation": "DIRECTED_TO",
+        "target": "@gauge_consistency",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54811->54812"
+      },
+      {
+        "source": "@native_constraint_closure",
+        "relation": "USED_BY",
+        "target": "@gauge_consistency",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_USEDBY:54137"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 761,
+        "source": "@native_constraint_closure",
+        "relation": "DIRECTED_TO",
+        "target": "@gauge_consistency",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54811->54812"
+      },
+      {
+        "id": 762,
+        "source": "@native_constraint_closure",
+        "relation": "USED_BY",
+        "target": "@gauge_consistency",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_USEDBY:54137"
+      }
+    ]
+  },
+  "address": "@gauge_consistency",
+  "address_sha256": "154a60dcbdac2371f9ee798bae48d1f0dc81373b3e7386a1960e0ba27a8776e5"
+}

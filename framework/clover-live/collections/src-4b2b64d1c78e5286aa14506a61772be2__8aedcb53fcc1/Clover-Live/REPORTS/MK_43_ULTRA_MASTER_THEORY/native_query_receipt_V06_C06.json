@@ -1,0 +1,250 @@
+{
+  "api_address_count": 2384,
+  "chapter_ids": [
+    "V06-C06"
+  ],
+  "created_at": "2026-08-10T18:53:22.037394+00:00",
+  "database_sha256_after": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03",
+  "database_sha256_before": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03",
+  "database_unchanged": true,
+  "failed_queries": [],
+  "requested_handles": [
+    "@backreaction",
+    "@creation_operator",
+    "@stabilization_operator"
+  ],
+  "results": [
+    {
+      "artifacts": [
+        {
+          "bytes": 2684690,
+          "path": "provenance://unavailable/content-sha256/49e5e93651ac09c6716cbf610bfb7b88d97c195fe99b7073129a92431fd6d47c/backreaction_ca374f3c375a4d2ebdb88da4aba70806.md",
+          "sha256": "49e5e93651ac09c6716cbf610bfb7b88d97c195fe99b7073129a92431fd6d47c"
+        }
+      ],
+      "elapsed_seconds": 2.045815,
+      "ordinal": 0,
+      "requested_handle": "@backreaction",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/49e5e93651ac09c6716cbf610bfb7b88d97c195fe99b7073129a92431fd6d47c/backreaction_ca374f3c375a4d2ebdb88da4aba70806.md",
+          "rendered_realizations": 1,
+          "sha256": "49e5e93651ac09c6716cbf610bfb7b88d97c195fe99b7073129a92431fd6d47c",
+          "size_bytes": 2684690,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "ca374f3c375a4d2ebdb88da4aba70806",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@backreaction",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V06_C06-0000",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 10536,
+          "path": "provenance://unavailable/content-sha256/f0685df1caee27c6704b26f64bfbf12569d8201f3e0043c0db89092623002a00/creation_operator_a8fe3a3bf41c4ab2a3aa361b856a79e0.md",
+          "sha256": "f0685df1caee27c6704b26f64bfbf12569d8201f3e0043c0db89092623002a00"
+        }
+      ],
+      "elapsed_seconds": 0.329875,
+      "ordinal": 1,
+      "requested_handle": "@creation_operator",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/f0685df1caee27c6704b26f64bfbf12569d8201f3e0043c0db89092623002a00/creation_operator_a8fe3a3bf41c4ab2a3aa361b856a79e0.md",
+          "rendered_realizations": 1,
+          "sha256": "f0685df1caee27c6704b26f64bfbf12569d8201f3e0043c0db89092623002a00",
+          "size_bytes": 10536,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "a8fe3a3bf41c4ab2a3aa361b856a79e0",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@creation_operator",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V06_C06-0001",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 9816,
+          "path": "provenance://unavailable/content-sha256/2777186155266114c21209d3b4f2df32158a47907f9b6f7251266a59831d9328/stabilization_operator_d109c695301d46e190458ff2fb5efe72.md",
+          "sha256": "2777186155266114c21209d3b4f2df32158a47907f9b6f7251266a59831d9328"
+        }
+      ],
+      "elapsed_seconds": 0.301806,
+      "ordinal": 2,
+      "requested_handle": "@stabilization_operator",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/2777186155266114c21209d3b4f2df32158a47907f9b6f7251266a59831d9328/stabilization_operator_d109c695301d46e190458ff2fb5efe72.md",
+          "rendered_realizations": 1,
+          "sha256": "2777186155266114c21209d3b4f2df32158a47907f9b6f7251266a59831d9328",
+          "size_bytes": 9816,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "d109c695301d46e190458ff2fb5efe72",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@stabilization_operator",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V06_C06-0002",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    }
+  ],
+  "reused_master_queries": [],
+  "runtime_info": {
+    "api_visible_to_runtime": false,
+    "direct_api_access": false,
+    "direct_library_access": false,
+    "downstream_role": "brane",
+    "manifest": {
+      "architecture": {
+        "composition_rule": "contract-compatible ports; no domain overlap required",
+        "domain_policy": "independent-port-domains",
+        "module_storage": "external-only",
+        "mounts_external": [
+          "ai",
+          "api",
+          "library"
+        ],
+        "owns": [
+          "private_qmo",
+          "port_registry",
+          "composition_mechanism"
+        ],
+        "private_objects": [
+          "qmo"
+        ],
+        "runtime_visibility": [
+          "brane"
+        ]
+      },
+      "build_version": "2.3.3",
+      "entrypoint": "mk43_brane:Brane",
+      "module_id": "mk43.brane",
+      "name": "MK43 BRANE 2.3.3",
+      "package": "mk43_brane",
+      "release_identity_separate": true,
+      "release_version": "2.3.3",
+      "role": "brane",
+      "runtime_identity_stable": true,
+      "schema_version": "1.0",
+      "version": "2.3.3"
+    },
+    "package_root": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/src",
+    "private_qmo_access": false,
+    "qmo_visible_to_runtime": false,
+    "root": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/mk43_brane_mount_2rqje5nk",
+    "runtime_boundary": "Runtime -> BRANE",
+    "runtime_module_id": "mk43.runtime",
+    "runtime_version": "4.2.0",
+    "source": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/BRANE_3.1.zip",
+    "source_sha256": "ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e"
+  },
+  "runtime_validation": {
+    "boundary": {
+      "ai_owned_by": "BRANE",
+      "api_owned_by": "BRANE",
+      "library_owned_by": "BRANE",
+      "qmo_owned_by": "BRANE",
+      "runtime_accepts": "BRANE",
+      "runtime_rejects_direct_api": true
+    },
+    "errors": [],
+    "info": {
+      "api_visible_to_runtime": false,
+      "direct_api_access": false,
+      "direct_library_access": false,
+      "downstream_role": "brane",
+      "manifest": {
+        "architecture": {
+          "composition_rule": "contract-compatible ports; no domain overlap required",
+          "domain_policy": "independent-port-domains",
+          "module_storage": "external-only",
+          "mounts_external": [
+            "ai",
+            "api",
+            "library"
+          ],
+          "owns": [
+            "private_qmo",
+            "port_registry",
+            "composition_mechanism"
+          ],
+          "private_objects": [
+            "qmo"
+          ],
+          "runtime_visibility": [
+            "brane"
+          ]
+        },
+        "build_version": "2.3.3",
+        "entrypoint": "mk43_brane:Brane",
+        "module_id": "mk43.brane",
+        "name": "MK43 BRANE 2.3.3",
+        "package": "mk43_brane",
+        "release_identity_separate": true,
+        "release_version": "2.3.3",
+        "role": "brane",
+        "runtime_identity_stable": true,
+        "schema_version": "1.0",
+        "version": "2.3.3"
+      },
+      "package_root": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/src",
+      "private_qmo_access": false,
+      "qmo_visible_to_runtime": false,
+      "root": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/mk43_brane_mount_2rqje5nk",
+      "runtime_boundary": "Runtime -> BRANE",
+      "runtime_module_id": "mk43.runtime",
+      "runtime_version": "4.2.0",
+      "source": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/BRANE_3.1.zip",
+      "source_sha256": "ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e"
+    },
+    "valid": true,
+    "warnings": []
+  },
+  "schema": "mk-ultra-tome-native-chapter-query-receipt-v1",
+  "successful_queries": [
+    "@backreaction",
+    "@creation_operator",
+    "@stabilization_operator"
+  ]
+}

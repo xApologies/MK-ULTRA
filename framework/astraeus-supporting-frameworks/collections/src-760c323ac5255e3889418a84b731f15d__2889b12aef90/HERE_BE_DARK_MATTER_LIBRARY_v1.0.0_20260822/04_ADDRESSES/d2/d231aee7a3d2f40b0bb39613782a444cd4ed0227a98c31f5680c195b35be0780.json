@@ -1,0 +1,77 @@
+{
+  "handle": "@configuration_space",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@configuration_space",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@configuration_space",
+        "relation": "MATHEMATICS_HAS_LANGUAGE_PROJECTION",
+        "target": "@genlang_root_kai",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48045;CANONICAL_API_TYPED_LINE:48045"
+      },
+      {
+        "source": "@genlang_root_kai",
+        "relation": "LANGUAGE_EXPRESSES",
+        "target": "@configuration_space",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48044;CANONICAL_API_TYPED_LINE:48044"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 236,
+        "source": "@configuration_space",
+        "relation": "MATHEMATICS_HAS_LANGUAGE_PROJECTION",
+        "target": "@genlang_root_kai",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48045;CANONICAL_API_TYPED_LINE:48045"
+      },
+      {
+        "id": 437,
+        "source": "@genlang_root_kai",
+        "relation": "LANGUAGE_EXPRESSES",
+        "target": "@configuration_space",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48044;CANONICAL_API_TYPED_LINE:48044"
+      }
+    ]
+  },
+  "address": "@configuration_space",
+  "address_sha256": "d231aee7a3d2f40b0bb39613782a444cd4ed0227a98c31f5680c195b35be0780"
+}

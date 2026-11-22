@@ -1,0 +1,57 @@
+{
+  "schema": "ASTRAEUS_QMO_CROSS_CRAWL_V1",
+  "seeds": [
+    "@dm_mode0_network_selection_rule"
+  ],
+  "targets": [
+    "@galaxy"
+  ],
+  "bidirectional": true,
+  "edge_count": 1659,
+  "reachable_count": 205,
+  "distance_histogram": {
+    "0": 1,
+    "1": 2,
+    "2": 12,
+    "3": 61,
+    "4": 129
+  },
+  "paths": {
+    "@dm_mode0_network_selection_rule -> @galaxy": [
+      {
+        "from": "@dm_mode0_network_selection_rule",
+        "relation": "SELECTS_ACCESS_TO",
+        "to": "@dm_hidden_s3_network",
+        "traversal": "forward",
+        "origin": "DARKMATTER_2.0",
+        "provenance": "DM2.0",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "OPEN_HANDLE",
+        "confidence": "high"
+      },
+      {
+        "from": "@dm_hidden_s3_network",
+        "relation": "TARGETS",
+        "to": "@qmo_ast_dm_029",
+        "traversal": "reverse",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V93_V98",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@qmo_ast_dm_029",
+        "relation": "REPRESENTS",
+        "to": "@galaxy",
+        "traversal": "forward",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V93_V98",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      }
+    ]
+  },
+  "guardrail": "Navigation evidence only. Composed paths are not direct theorems and no parent object is promoted."
+}

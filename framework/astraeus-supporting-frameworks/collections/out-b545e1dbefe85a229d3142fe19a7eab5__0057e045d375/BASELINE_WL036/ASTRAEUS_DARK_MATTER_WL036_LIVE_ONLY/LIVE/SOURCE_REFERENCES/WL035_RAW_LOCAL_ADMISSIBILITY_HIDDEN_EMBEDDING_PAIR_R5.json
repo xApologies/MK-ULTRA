@@ -1,0 +1,819 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_PAIR_V1",
+  "a": "@local_admissibility",
+  "b": "@dm_hidden_state_embedding",
+  "radius": 5,
+  "interface": [
+    {
+      "handle": "@persistence",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@resolution",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@dm_hidden_state_bundle",
+      "distance_a": 4,
+      "distance_b": 1
+    },
+    {
+      "handle": "@global_inheritance",
+      "distance_a": 1,
+      "distance_b": 4
+    },
+    {
+      "handle": "@dm_hidden_state_embedding",
+      "distance_a": 5,
+      "distance_b": 0
+    },
+    {
+      "handle": "@local_admissibility",
+      "distance_a": 0,
+      "distance_b": 5
+    },
+    {
+      "handle": "@bandwidth",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@chirality",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_history_support_preorder",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@persistent_recursive_topology",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@relationship",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@time_space",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@admissible_continuation",
+      "distance_a": 4,
+      "distance_b": 2
+    },
+    {
+      "handle": "@conservation_of_information",
+      "distance_a": 2,
+      "distance_b": 4
+    },
+    {
+      "handle": "@continuation_operator",
+      "distance_a": 4,
+      "distance_b": 2
+    },
+    {
+      "handle": "@dm_runtime_transition_capacity",
+      "distance_a": 4,
+      "distance_b": 2
+    },
+    {
+      "handle": "@native_constraint_closure",
+      "distance_a": 4,
+      "distance_b": 2
+    },
+    {
+      "handle": "@recursive_continuity",
+      "distance_a": 2,
+      "distance_b": 4
+    },
+    {
+      "handle": "@relational_history",
+      "distance_a": 4,
+      "distance_b": 2
+    },
+    {
+      "handle": "@dm_constraint_preserving_embedding_family",
+      "distance_a": 5,
+      "distance_b": 1
+    },
+    {
+      "handle": "@dm_hidden_s3_network",
+      "distance_a": 5,
+      "distance_b": 1
+    },
+    {
+      "handle": "@inherited_state_bundle",
+      "distance_a": 5,
+      "distance_b": 1
+    },
+    {
+      "handle": "@closure",
+      "distance_a": 3,
+      "distance_b": 4
+    },
+    {
+      "handle": "@dm_hidden_relational_load",
+      "distance_a": 4,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_resolution_density_profile",
+      "distance_a": 4,
+      "distance_b": 3
+    },
+    {
+      "handle": "@genesis_field",
+      "distance_a": 4,
+      "distance_b": 3
+    },
+    {
+      "handle": "@genlang_root_rin",
+      "distance_a": 3,
+      "distance_b": 4
+    },
+    {
+      "handle": "@inheritance",
+      "distance_a": 4,
+      "distance_b": 3
+    },
+    {
+      "handle": "@mote_chirality",
+      "distance_a": 4,
+      "distance_b": 3
+    },
+    {
+      "handle": "@mote_lattice",
+      "distance_a": 4,
+      "distance_b": 3
+    },
+    {
+      "handle": "@native_unit_of_energy",
+      "distance_a": 3,
+      "distance_b": 4
+    },
+    {
+      "handle": "@ordering",
+      "distance_a": 4,
+      "distance_b": 3
+    },
+    {
+      "handle": "@recoverability",
+      "distance_a": 3,
+      "distance_b": 4
+    },
+    {
+      "handle": "@time_shell",
+      "distance_a": 4,
+      "distance_b": 3
+    },
+    {
+      "handle": "@admissible_equivalence",
+      "distance_a": 5,
+      "distance_b": 2
+    },
+    {
+      "handle": "@recursive_inheritance",
+      "distance_a": 5,
+      "distance_b": 2
+    },
+    {
+      "handle": "@recursive_stabilization",
+      "distance_a": 2,
+      "distance_b": 5
+    },
+    {
+      "handle": "@chirality_space",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@conscious_experience",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@cosmological_closure",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@dm_history_to_continuity_strength",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@er_foam",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@genlang_phrase_rin_tal_ael",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@genlang_root_ael",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@genlang_root_en",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@genlang_root_sera",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@genlang_word_relrin",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@graviton",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@helicon_orientation",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@invariant_interval",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@mote",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@mote_closure",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@mote_configuration_space",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@occupancy",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@orientation",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@persistence_potential",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@planck_landscape",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@structured_temporal_manifold",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@transition_capacity",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@zer0_interaction",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@S0",
+      "distance_a": 5,
+      "distance_b": 3
+    },
+    {
+      "handle": "@S4",
+      "distance_a": 3,
+      "distance_b": 5
+    },
+    {
+      "handle": "@admissibility",
+      "distance_a": 5,
+      "distance_b": 3
+    },
+    {
+      "handle": "@anomaly_freedom",
+      "distance_a": 5,
+      "distance_b": 3
+    },
+    {
+      "handle": "@continuity_conservation",
+      "distance_a": 5,
+      "distance_b": 3
+    },
+    {
+      "handle": "@continuity_redistribution",
+      "distance_a": 5,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_continuity_laplacian",
+      "distance_a": 5,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_er_branch_readout_separation",
+      "distance_a": 5,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_local_capacity_envelope",
+      "distance_a": 5,
+      "distance_b": 3
+    },
+    {
+      "handle": "@gauge_consistency",
+      "distance_a": 5,
+      "distance_b": 3
+    },
+    {
+      "handle": "@genlang_phrase_sha_da_rel",
+      "distance_a": 5,
+      "distance_b": 3
+    },
+    {
+      "handle": "@genlang_root_rel",
+      "distance_a": 5,
+      "distance_b": 3
+    },
+    {
+      "handle": "@geodesic",
+      "distance_a": 5,
+      "distance_b": 3
+    },
+    {
+      "handle": "@graviton_radiative_stability",
+      "distance_a": 5,
+      "distance_b": 3
+    },
+    {
+      "handle": "@native_causal_order",
+      "distance_a": 5,
+      "distance_b": 3
+    },
+    {
+      "handle": "@orientation_history",
+      "distance_a": 5,
+      "distance_b": 3
+    },
+    {
+      "handle": "@persistent_topology",
+      "distance_a": 5,
+      "distance_b": 3
+    },
+    {
+      "handle": "@readable_graviton_projection",
+      "distance_a": 5,
+      "distance_b": 3
+    },
+    {
+      "handle": "@recursive_ordering",
+      "distance_a": 5,
+      "distance_b": 3
+    },
+    {
+      "handle": "@temporal_metric",
+      "distance_a": 5,
+      "distance_b": 3
+    },
+    {
+      "handle": "@unit_string",
+      "distance_a": 5,
+      "distance_b": 3
+    },
+    {
+      "handle": "@chirality_map",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@chirality_occupancy_cube",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@configuration_space_3_1_1",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@conservation_of_recoverable_structure",
+      "distance_a": 4,
+      "distance_b": 5
+    },
+    {
+      "handle": "@containment_volume",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@correspondence_registry",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@dm_local_continuity_response_coefficient",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@dm_native_density_to_readable_source",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@dm_native_hidden_witness",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@energy_density",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@general_energy",
+      "distance_a": 4,
+      "distance_b": 5
+    },
+    {
+      "handle": "@genlang_aspect_ta",
+      "distance_a": 4,
+      "distance_b": 5
+    },
+    {
+      "handle": "@genlang_family_rin",
+      "distance_a": 4,
+      "distance_b": 5
+    },
+    {
+      "handle": "@genlang_operator_0df59a22",
+      "distance_a": 4,
+      "distance_b": 5
+    },
+    {
+      "handle": "@genlang_operator_edec7353",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@genlang_phrase_en_ar_en",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@genlang_phrase_vel_ve_tor",
+      "distance_a": 4,
+      "distance_b": 5
+    },
+    {
+      "handle": "@genlang_root_ar",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@genlang_root_da",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@genlang_root_gen",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@genlang_root_sha",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@genlang_root_tor",
+      "distance_a": 4,
+      "distance_b": 5
+    },
+    {
+      "handle": "@genlang_root_vel",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@genlang_word_aelrin",
+      "distance_a": 4,
+      "distance_b": 5
+    },
+    {
+      "handle": "@genlang_word_darin",
+      "distance_a": 4,
+      "distance_b": 5
+    },
+    {
+      "handle": "@genlang_word_kai_ar_en_rin",
+      "distance_a": 4,
+      "distance_b": 5
+    },
+    {
+      "handle": "@genlang_word_sharin",
+      "distance_a": 4,
+      "distance_b": 5
+    },
+    {
+      "handle": "@genlang_word_talrin",
+      "distance_a": 4,
+      "distance_b": 5
+    },
+    {
+      "handle": "@genlang_word_verin",
+      "distance_a": 4,
+      "distance_b": 5
+    },
+    {
+      "handle": "@geometry",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@gravitational_helicon_mode",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@gravitational_self_coupling",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@gravity",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@matter_readable_organization",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@mote_diagonal_rule",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@mote_ensemble",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@mote_hilbert_space",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@mote_identity",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@mote_occupancy_function",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@native_graviton_dispersion",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@native_interaction_factorization",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@native_probability_preservation",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@projected_gr_inheritance",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@projection_admissibility",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@recursive_depth",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@weak_field_metric_perturbation",
+      "distance_a": 5,
+      "distance_b": 4
+    },
+    {
+      "handle": "@adjacency_lattice",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@api_endpoints_added",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@black_hole",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@chirality_labelled_mote",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@cognitive_coherence_field",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@cognitive_persistence",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@coherence_condition",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@consciousness",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@continuity_perturbation",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@dm_omega_to_chromatic_representation",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@er_throat_incidence",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@genlang_family_ael",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@genlang_family_en",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@genlang_family_sera",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@genlang_phrase_gen_kor_en",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@genlang_root_tal",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@genlang_word_genkoren",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@genlang_word_koren",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@genlang_word_shator",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@helicon",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@helicon_substrate",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@holographic_transfer_law",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@list_of_figures",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@metric_perturbation",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@mote_creation_operator",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@occurrence",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@phase_gravitational_wave_equations",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@re_expansion",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@readable_space_time",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@recursive_chirality_evolution_field",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@smooth_manifold",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@stable_er_foam_knot",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@time_shell_projection",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@volume_form",
+      "distance_a": 5,
+      "distance_b": 5
+    },
+    {
+      "handle": "@white_core_mote_coupling",
+      "distance_a": 5,
+      "distance_b": 5
+    }
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry; exact-handle interface only"
+}

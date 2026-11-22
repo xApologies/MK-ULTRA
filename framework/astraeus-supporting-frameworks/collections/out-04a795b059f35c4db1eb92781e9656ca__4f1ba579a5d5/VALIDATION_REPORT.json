@@ -1,0 +1,50 @@
+{
+  "schema": "ASTRAEUS_DARK_MATTER_R5_VALIDATION_V1",
+  "date": "2026-08-18",
+  "status": "PASS",
+  "frontier_consistency": "WL-038/v247/QMO-131/P031",
+  "architecture_status": "CLOSED_TO_NONEMPTINESS_TEST",
+  "parent_promotions": 0,
+  "physical_dark_matter_witness": "NOT_ESTABLISHED",
+  "atlas_sequence": {
+    "start": 126,
+    "end": 247,
+    "unique": 122,
+    "missing": []
+  },
+  "qmo_sequence": {
+    "start": 1,
+    "end": 131,
+    "unique": 131,
+    "missing": []
+  },
+  "source_archive_crc": {
+    "BANDWIDTH_ALGEBRA_v1.0.zip": "PASS",
+    "DARK_MATTER_API_2.2.zip": "PASS",
+    "IDENTITY_THROUGH_HISTORY_v1.0.zip": "PASS",
+    "RAINBOW_ROAD.zip": "PASS",
+    "RESOLUTION_READOUT_v1.0.zip": "PASS",
+    "TIME_SPACE_API_4.3.zip": "PASS",
+    "TRANSDUCTION_GEOMETRY_v1.0.zip": "PASS"
+  },
+  "source_reconciliation": {
+    "dm22_v15_readout_factorization": "RECOVERED_PARENT_SOURCE",
+    "dm22_corridor_pullback_s2xi": "RECOVERED_PARENT_SOURCE",
+    "corridor_time_shell_lift_and_boundary_transport": "RECOVERED_SHARED_SOURCE",
+    "generic_network_embedding": "OPEN_PARENT",
+    "generic_network_to_persistent_boundary_relation": "OPEN_PARENT"
+  },
+  "expected_final_zip_crc": "PASS",
+  "expected_final_internal_checksum_verification": "PASS",
+  "controlled_files": 864,
+  "controlled_missing": 0,
+  "controlled_hash_mismatches": 0,
+  "final_zip_crc": "PASS",
+  "final_zip_internal_checksum_verification": "PASS",
+  "final_zip_expected_entries": 866,
+  "notes": [
+    "The package was rebuilt after finalizing this validation record and then re-tested externally.",
+    "No parent API object was modified or promoted.",
+    "Architecture closure is corridor-branch closure to a nonemptiness/witness problem, not a physical dark-matter discovery."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+  "handle": "@dm_conditional_q_handoff_distinction",
+  "canonical_name": "Conditional Projection-Residue/Q Handoff Distinction",
+  "type": "ConditionalQHandoffDistinction",
+  "status": "LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT",
+  "checkpoint": "E066",
+  "definition": "A matched full/visible pair whose declared invariant-residue comparison differs cannot be identified after standard Q completion by a Q-isomorphism preserving the residue-bundle constituent.",
+  "math": "r_H(B_full^R)≠r_H(B_vis^R) => B_full^R not~=_F B_vis^R => Q_full not~=_Q Q_vis (for residue-preserving Q morphisms).",
+  "parents": [
+    "@dm_projection_residue_survival",
+    "@dm_q_survival",
+    "@dm_conditional_boundary_residue_seed"
+  ],
+  "working_assumptions": [
+    "WA-DM-E065-001",
+    "WA-DM-E066-001"
+  ],
+  "proof_debt": [
+    "PD-DM-001",
+    "PD-DM-004"
+  ],
+  "physical_claim": false,
+  "baseline_mutation": false
+}

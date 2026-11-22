@@ -1,0 +1,130 @@
+{
+  "handle": "@helicon_substrate",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Helicon Substrate",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 3,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 3,
+    "xapi_raw_in_count": 2,
+    "live_out_count": 0,
+    "live_in_count": 1,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 53,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 6,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@helicon_substrate",
+        "relation": "REALIZED_BY",
+        "target": "@er_foam",
+        "graph_family": "realization",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@er_foam REALIZES @helicon_substrate); rule=REALIZES→REALIZED_BY"
+      },
+      {
+        "source": "@helicon_substrate",
+        "relation": "FEEDS_BLACK_HOLE_MODEL",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-51",
+        "provenance": "DERIVED:RP51_BLACK_HOLE_REVERSE_CRAWL; witness=@helicon_substrate-[REALIZED_BY]->@er_foam | @er_foam-[COMPOSED_DEPENDENCY]->@black_hole"
+      },
+      {
+        "source": "@helicon_substrate",
+        "relation": "GLOBALLY_FEEDS_BLACK_HOLE",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-53",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_REVERSE_CRAWL; witness=@helicon_substrate-[FEEDS_BLACK_HOLE_MODEL]->@black_hole"
+      },
+      {
+        "source": "@er_foam",
+        "relation": "REALIZES",
+        "target": "@helicon_substrate",
+        "graph_family": "realization",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "recovery_pass": "RP-37",
+        "provenance": "DIRECT_TYPED_API:51474"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 2163,
+        "source": "@helicon_substrate",
+        "relation": "REALIZED_BY",
+        "target": "@er_foam",
+        "layer": "API43",
+        "graph_family": "realization",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@er_foam REALIZES @helicon_substrate); rule=REALIZES→REALIZED_BY"
+      },
+      {
+        "id": 12098,
+        "source": "@helicon_substrate",
+        "relation": "FEEDS_BLACK_HOLE_MODEL",
+        "target": "@black_hole",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP51_BLACK_HOLE_REVERSE_CRAWL; witness=@helicon_substrate-[REALIZED_BY]->@er_foam | @er_foam-[COMPOSED_DEPENDENCY]->@black_hole"
+      },
+      {
+        "id": 18264,
+        "source": "@helicon_substrate",
+        "relation": "GLOBALLY_FEEDS_BLACK_HOLE",
+        "target": "@black_hole",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_REVERSE_CRAWL; witness=@helicon_substrate-[FEEDS_BLACK_HOLE_MODEL]->@black_hole"
+      },
+      {
+        "id": 325,
+        "source": "@er_foam",
+        "relation": "REALIZES",
+        "target": "@helicon_substrate",
+        "layer": "API43",
+        "graph_family": "realization",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_TYPED_API:51474"
+      },
+      {
+        "id": 19084,
+        "source": "@er_foam",
+        "relation": "REALIZES",
+        "target": "@helicon_substrate",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_TYPED_API:51474"
+      }
+    ]
+  },
+  "address": "@helicon_substrate",
+  "address_sha256": "2d376058f9d7d76680d6d22144b335d3be40915497c70d22bee03742d5ac3d0d"
+}

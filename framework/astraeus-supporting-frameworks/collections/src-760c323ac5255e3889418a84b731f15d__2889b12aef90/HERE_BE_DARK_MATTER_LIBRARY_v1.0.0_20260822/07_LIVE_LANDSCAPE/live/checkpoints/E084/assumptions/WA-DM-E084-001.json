@@ -1,0 +1,21 @@
+{
+  "assumption_id": "WA-DM-E084-001",
+  "name": "Selected Event-Level Density Component Nonannihilation",
+  "status": "WORKING_ASSUMPTION",
+  "checkpoint": "E084",
+  "scope": "the E079 controlled full/visible UCM event pair and the V31 native event-load readout rho_E:E_U->R",
+  "statement": "For the selected event pair e_full,e_vis, let the readable density component of P_T be zero-reflecting on the nonzero native event-load difference: Delta rho_E != 0 => rho[P_T(e_full);u]-rho[P_T(e_vis);u] != 0 for one fixed readable normalized observer u.",
+  "source_support": [
+    "ATLAS_V36:196_V31_SCALAR_LOAD_TO_STRESS_ENERGY_NO_GO.md types rho_E on admissible UCM source/event states",
+    "ATLAS_V36:200_V32_ENERGY_STRESS_HANDLE_RECOVERY.md recovers @energy_density ENTERS @stress_energy_tensor",
+    "ATLAS_V36:201_V32_DENSITY_SEPARATION_WITNESS.md proves one nonzero readable density component implies distinct stress tensors",
+    "E079 conditional event separation"
+  ],
+  "not_claimed": [
+    "P_T factors through rho_E globally",
+    "full tensor reconstruction from a scalar",
+    "equation of state",
+    "physical calibration or dark-matter identity"
+  ],
+  "proof_debt": "PD-DM-011"
+}

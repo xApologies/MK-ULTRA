@@ -1,0 +1,56 @@
+{
+  "schema": "ASTRAEUS_MOTE_ADJACENCY_ER_ASSEMBLY_API_GAP_V1",
+  "qmo_id": "QMO-AST-DM-WL-088",
+  "name": "Mote-Lattice Adjacency and ER-Foam Assembly API-Exposed Gap",
+  "atlas_version": "WL-v204",
+  "status": "API_EXPOSED_P022_STAGE1_GAP_NOT_SOLVED",
+  "dark_target": "@dm_dark_matter_qualification_nonempty",
+  "controlled_test": "AST-DM-WL-P022",
+  "source_grounded_input": {
+    "primitive_rotation": "R_i(C_z)=C_i",
+    "primitive_adjacency_rule": "e_ij exists iff A(s_i,s_j,rho_ij)=1",
+    "meaning": "finite orientation can generate/change primitive chirality-cell adjacency"
+  },
+  "api_exposed_open_items": [
+    "[OPEN] Define adjacency edges on the eight-site mote lattice explicitly.",
+    "[OPEN] Derive ER-foam assembly rules from mote adjacency."
+  ],
+  "api_handles": {
+    "first": "@mote_lattice",
+    "state_space": "@mote_configuration_space",
+    "aggregate": "@mote_ensemble",
+    "target_incidence": "@er_throat_incidence",
+    "target_weight": "@weighted_adjacency",
+    "target_substrate": "@er_foam"
+  },
+  "registered_context": [
+    "@mote_lattice -> @mote_configuration_space",
+    "@mote_lattice -> @mote_occupancy_function",
+    "@mote_configuration_space -> @mote_chirality",
+    "@mote_ensemble -> @er_foam",
+    "@chirality_labelled_mote -> @er_throat_incidence",
+    "@er_throat_incidence -> @weighted_adjacency -> @adjacency_lattice -> @er_foam"
+  ],
+  "finding": "The first controlled-witness gap is now localized below the hidden-state embedding: the API itself says the eight-site mote adjacency and the ER-foam assembly rule from mote adjacency remain open. Primitive orientation-generated adjacency is source-grounded, but its inheritance into the selected ER-throat-incidence/weighted-adjacency realization cannot be asserted until this API-exposed assembly gap is filled or a stronger source is recovered.",
+  "next_handle": "@mote_lattice",
+  "next_question": "What API-constrained adjacency object on the eight-site mote lattice carries finite relative-orientation/admissibility differences into a multi-mote assembly without inventing a new parent law?",
+  "p022_stage1": "BLOCKED_AT_API_EXPOSED_MOTE_ADJACENCY_ASSEMBLY_GAP",
+  "guardrails": [
+    "primitive chirality cell != canonical mote by identity",
+    "mote-lattice adjacency != ER-throat incidence until an assembly/realization map is typed",
+    "mote ensemble -> ER foam dependency != a derivation of the missing assembly rule",
+    "primitive adjacency difference != selected galaxy/ER witness",
+    "no hidden-state embedding, action selector, matter-null condition, or gravity separation is promoted"
+  ],
+  "parent_promotions": 0,
+  "receipts": [
+    "MK43_Ultra_API_CURRENT_CANONICAL.md:49794-49802",
+    "MK43_Ultra_API_CURRENT_CANONICAL.md:50056-50068",
+    "MK43_Ultra_API_CURRENT_CANONICAL.md:50162-50175",
+    "LIVE/TMP_API/WL032/neighbors__mote_lattice_wl032_stage1.json",
+    "LIVE/TMP_API/WL032/neighbors__mote_configuration_space_wl032_stage1.json",
+    "LIVE/TMP_API/WL032/neighbors__mote_ensemble_wl032_stage1.json",
+    "LIVE/TMP_API/WL032/neighbors__er_throat_incidence_wl032_stage1.json",
+    "LIVE/TMP_API/WL032/neighbors__weighted_adjacency_wl032_stage1.json"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "schema": "MK43_UNIFIED_MODEL_REGISTRY_V1",
+  "count": 10,
+  "models": [
+    {
+      "model_handle": "model://api43",
+      "root_handle": "@general_relativity",
+      "name": "MK43 API 4.3 Parent Universe",
+      "package_hash": "modelhash_6621d9a7cb6bb7c0742f5d9e",
+      "version": 1,
+      "status": "active",
+      "metadata_json": "{\"role\": \"API43\"}"
+    },
+    {
+      "model_handle": "model://dm22",
+      "root_handle": "@dm_hidden_s3_network",
+      "name": "Dark Matter API 2.2 Baseline",
+      "package_hash": "modelhash_3f440be321bb7cb476bfe389",
+      "version": 1,
+      "status": "active",
+      "metadata_json": "{\"role\": \"DM22\"}"
+    },
+    {
+      "model_handle": "model://dm30",
+      "root_handle": "@dm_source_er_effective_model_closure",
+      "name": "HERE BE DARK MATTER API 3.0",
+      "package_hash": "modelhash_04c089d036f2cd0a3374feee",
+      "version": 1,
+      "status": "active",
+      "metadata_json": "{\"role\": \"DM30\"}"
+    },
+    {
+      "model_handle": "model://live",
+      "root_handle": "@dm_source_er_effective_model_closure",
+      "name": "Dark Matter Live Landscape through E100",
+      "package_hash": "modelhash_71afdffe26dac48b458ed69f",
+      "version": 1,
+      "status": "active",
+      "metadata_json": "{\"role\": \"LIVE\"}"
+    },
+    {
+      "model_handle": "model://qmo",
+      "root_handle": "qmo://QMO-DM-SRC-XAPI-003",
+      "name": "QMO Registry",
+      "package_hash": "modelhash_65882b086d9b383fbf7a9645",
+      "version": 1,
+      "status": "active",
+      "metadata_json": "{\"role\": \"QMO\"}"
+    },
+    {
+      "model_handle": "model://source-backfill",
+      "root_handle": "source://anchor/SRC-001",
+      "name": "Historical Source Backfill",
+      "package_hash": "modelhash_e895824c68b2fd2ab020e07b",
+      "version": 1,
+      "status": "active",
+      "metadata_json": "{\"role\": \"SOURCE\"}"
+    },
+    {
+      "model_handle": "model://here-be-dark-matter",
+      "root_handle": "@dm_source_er_effective_model_closure",
+      "name": "HERE BE DARK MATTER Exhaustive Library",
+      "package_hash": "modelhash_63becce7717999b4f4eef5a7",
+      "version": 1,
+      "status": "active",
+      "metadata_json": "{\"role\": \"ALL\"}"
+    },
+    {
+      "model_handle": "model://timespace43",
+      "root_handle": "@time_space",
+      "name": "Time-Space 4.3 Interface Substrate",
+      "version": 1,
+      "status": "active",
+      "metadata_json": "{\"role\": \"TIME_SPACE_4_3\", \"derivation\": \"271 parent handles explicitly tagged TIMESPACE_4.3 in DM2.2 handle registry\"}"
+    },
+    {
+      "model_handle": "model://higgs-work-v1.1",
+      "root_handle": "@higgs_field",
+      "name": "MK43 Higgs Work-Layer QMO API v1.1",
+      "version": 1,
+      "status": "active",
+      "metadata_json": "{\"role\": \"HIGGS\", \"closure\": \"NATIVE_HIGGS_WORK_LAYER_CLOSED__PHYSICAL_IDENTIFICATION_OPEN\"}"
+    },
+    {
+      "model_handle": "model://mk43-unified-v1",
+      "root_handle": "@mk43_unified_qmo",
+      "name": "MK43 Ultra Unified Queryable Mathematical Object API v1.0",
+      "version": 1,
+      "status": "active",
+      "metadata_json": "{\"role\": \"UNIFIED\", \"policy\": \"federated immutable-parent mount; shared canonical handles unify identity; edge direction/provenance preserved\"}"
+    }
+  ]
+}

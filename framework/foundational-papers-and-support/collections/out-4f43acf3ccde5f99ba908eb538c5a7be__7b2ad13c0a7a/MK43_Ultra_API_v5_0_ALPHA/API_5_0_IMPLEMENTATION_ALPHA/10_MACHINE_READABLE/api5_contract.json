@@ -1,0 +1,40 @@
+{
+  "schema": "mk43.api5.contract.v1",
+  "release": "5.0-alpha",
+  "brane_contract_version": "2.0",
+  "module": "API5",
+  "internal_dimension": 5,
+  "canonical_state_policy": "READ_ONLY",
+  "rewrite_policy": "DERIVED_ONLY",
+  "dimensions": [
+    "identity",
+    "dependency",
+    "chirality",
+    "recursive_depth",
+    "provenance"
+  ],
+  "required_methods": [
+    "dimension_model",
+    "fork_request_context",
+    "canonical_fingerprint",
+    "healthcheck",
+    "resolve",
+    "neighbors",
+    "recover_closure",
+    "recover_equations",
+    "recover_provenance",
+    "resolve_chirality",
+    "admissible",
+    "validate_graph"
+  ],
+  "canonical_counts": {
+    "handles": 2384,
+    "typed_edge_records": 75432
+  },
+  "admission_policy": {
+    "direct_edge": "explicit canonical relation syntax only",
+    "alias": "canonical alias groups only",
+    "composed_path": "retained as path and never silently promoted to direct edge",
+    "fabricated_edge": "rejected"
+  }
+}

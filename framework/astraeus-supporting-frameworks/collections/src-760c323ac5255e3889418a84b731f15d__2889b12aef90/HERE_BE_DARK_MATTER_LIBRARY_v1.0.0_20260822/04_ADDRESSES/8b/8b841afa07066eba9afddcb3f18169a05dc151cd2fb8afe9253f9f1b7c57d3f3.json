@@ -1,0 +1,56 @@
+{
+  "handle": "@genesis_phonology",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@genesis_phonology",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 0,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@genesis_phonology",
+        "relation": "DIRECTED_TO",
+        "target": "@genesis_root_system",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:55708->55709"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 374,
+        "source": "@genesis_phonology",
+        "relation": "DIRECTED_TO",
+        "target": "@genesis_root_system",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:55708->55709"
+      }
+    ]
+  },
+  "address": "@genesis_phonology",
+  "address_sha256": "8b841afa07066eba9afddcb3f18169a05dc151cd2fb8afe9253f9f1b7c57d3f3"
+}

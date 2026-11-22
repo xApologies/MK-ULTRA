@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "table": "objects",
+      "rows": 2397,
+      "same_contents": true
+    },
+    {
+      "table": "edges",
+      "rows": 75460,
+      "same_contents": true
+    },
+    {
+      "table": "occurrences",
+      "rows": 12260,
+      "same_contents": true
+    },
+    {
+      "table": "checkpoints",
+      "rows": 14,
+      "same_contents": true
+    },
+    {
+      "table": "meta",
+      "rows": 8,
+      "same_contents": true
+    }
+  ],
+  "scope": "relational content equality; SQLite file layout need not be byte-identical"
+}

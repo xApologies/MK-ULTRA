@@ -1,0 +1,27 @@
+{
+  "run": "L08C-CORR",
+  "verdict": "SOURCE_CORRECTION_ROAD_BOUNDARY_CARRIER_CLOSED_HELICON_CARRIER_OPEN",
+  "road_sector": "corridor-backed admitted Road",
+  "source_maps": {
+    "lift": "L_alpha : Sigma_alpha -> dXi_alpha",
+    "transport": "P_W : dXi_alpha -> dXi_beta",
+    "corridor": "C_alpha_beta = Pi_beta o P_W o L_alpha",
+    "road_carrier": "iota_R(Gamma)=b_Gamma"
+  },
+  "closed": [
+    "Road-only Persistent-Boundary carrier",
+    "boundary carriage of chi, Inv, R, B, O as Chirality Address data"
+  ],
+  "still_open": [
+    "G_Pi descent of chi/R/B/O as readable fields",
+    "Road History endpoint descent",
+    "basin telemetry descent",
+    "Helicon mode decoration/readout carrier",
+    "W_3"
+  ],
+  "unchanged_no_go": [
+    "direct B6->C3 quotient",
+    "automatic rank-3/SU3 handoff"
+  ],
+  "active_run": "L09C1"
+}

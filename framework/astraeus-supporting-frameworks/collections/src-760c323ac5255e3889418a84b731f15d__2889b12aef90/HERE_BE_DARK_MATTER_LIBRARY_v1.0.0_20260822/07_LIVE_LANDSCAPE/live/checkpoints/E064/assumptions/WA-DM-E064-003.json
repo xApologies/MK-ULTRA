@@ -1,0 +1,19 @@
+{
+  "assumption_id": "WA-DM-E064-003",
+  "name": "Density Readout Nonannihilation",
+  "status": "WORKING_ASSUMPTION",
+  "checkpoint": "E064",
+  "scope": "selected positive hidden-density component under one declared readable observer/normalization",
+  "statement": "Let the open native-to-readable density transduction T_rho,R,u be defined on the selected diagnostic sector and preserve at least one positive hidden density distinction: Delta rho_H > 0 implies Delta rho_read := T_rho,R,u(Delta rho_H) != 0.",
+  "source_support": [
+    "@dm_native_density_to_readable_source",
+    "ATLAS 201 Density Separation Witness",
+    "@energy_density ENTERS @stress_energy_tensor"
+  ],
+  "not_claimed": [
+    "global injectivity of T_rho,R,u",
+    "full tensor reconstruction",
+    "calibrated physical units"
+  ],
+  "proof_debt": "PD-DM-003"
+}

@@ -1,0 +1,24 @@
+{
+  "experiment": "E008",
+  "candidate": "CAND-DM-CROSS-PROBE-SUBSTRATE-MEMORY-012",
+  "title": "Hydrogen/Oxygen Cross-Probe of H2-Conditioned ER History",
+  "status": "CONTROLLED CROSS-PROBE SANDBOX RESULT / NOT PHYSICAL DARK-MATTER WITNESS",
+  "physical_dark_matter_witness": false,
+  "parent_promotions": 0,
+  "basis": "Use E003 endogenous H2-conditioned ER history and test whether a second independently mounted Oxygen probe also sees a response.",
+  "result": {
+    "all_hydrogen_projection_response_fields_nonzero": true,
+    "all_oxygen_projection_response_fields_nonzero": true,
+    "oxygen_continuity_L2_range": [
+      5.7040683321818095,
+      7.656087088407281
+    ],
+    "hydrogen_continuity_L2_range": [
+      5.69041732890153,
+      11.084303457180372
+    ]
+  },
+  "interpretation": "The H2-conditioned ER history is not only visible to the original H probe family. Oxygen, mounted from an independent source manifold, also registers nonzero continuity/shell/corridor/persistence response differences under source-neutral activation projections.",
+  "water_boundary": "H2O is source-located by prior deep manifest but not mounted in the active sandbox; no H2O traversal is claimed.",
+  "next_handle": "MOUNT_H2O_SOURCE_OR_RUN_OXYGEN_TRIADIC_DUAL_MEMORY_COMPARISON"
+}

@@ -1,0 +1,20 @@
+FUNCTION Resolve(subject)
+    normalized := ConservativeNormalize(subject)
+    candidates := OrderedSet()
+    candidates.add_if_present(ExactHandle(subject))
+    candidates.add_all(ExactAlias(subject))
+    candidates.add_if_present(ExactHandle(normalized))
+    candidates.add_all(ExactNameIndex(normalized))
+    IF candidates.size = 1 THEN RETURN candidates.first
+    IF candidates.size = 0 THEN RAISE UnknownSubject(subject)
+    RAISE AmbiguousSubject(subject, candidates)
+END
+
+FUNCTION RecoverProvenance(handle)
+    records := OrderedSet()
+    records.add_all(ObjectRegistryProvenance(handle))
+    records.add_all(CanonicalLineReferences(handle))
+    records.add_all(IncidentEdgeProvenance(handle))
+    records.add_all(RecoveryPassReferences(handle))
+    RETURN SortByAuthorityThenSource(records)
+END

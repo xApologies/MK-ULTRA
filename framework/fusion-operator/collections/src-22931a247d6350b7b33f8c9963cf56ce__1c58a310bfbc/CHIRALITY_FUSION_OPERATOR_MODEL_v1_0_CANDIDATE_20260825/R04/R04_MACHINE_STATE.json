@@ -1,0 +1,32 @@
+{
+  "run": "R04",
+  "status": "CLOSED",
+  "classification": "SUPERPOSITION_QUANTUM_STATE_LAYER_CURRENT_QUOTIENT_FUSION_NOT_GENERATOR",
+  "chirality_basis": [
+    "|L>",
+    "|R>"
+  ],
+  "joint_basis": [
+    "|LL>",
+    "|LR>",
+    "|RL>",
+    "|RR>"
+  ],
+  "single_seed_source_superposition": "(|L>+|R>)/sqrt(2) modulo unresolved sign/orientation naming map",
+  "general_joint_state": "sum_xy c_xy |xy>, sum |c_xy|^2=1",
+  "bell_like": "(|LR>+exp(i phi)|RL>)/sqrt(2)",
+  "fusion_implies_superposition": false,
+  "superposition_implies_fusion": false,
+  "bare_Q_superposition": "NOT_TYPED",
+  "hybrid_object": "(Q, eta_F, Inv_F, W_AB, rho_AB)",
+  "decoration_lift": "carrier Fusion plus identity bookkeeping on rho_AB; not physical quantum dynamics",
+  "native_fused_hilbert": "CONDITIONAL_UNPROVED",
+  "candidate_encoding": "V_F: H_AB -> H_F, V_F^dagger V_F = I",
+  "old_sketch": "CARRIER_GLUING_DIAGRAM_WITH_INTERFACE_MARKER_NOT_COMPLETE_QUANTUM_STATE",
+  "phase_readout": {
+    "chirality_basis": "phase-hidden for Bell-like LR/RL populations",
+    "interference_basis": "P(B+)=(1+cos phi)/2, P(B-)=(1-cos phi)/2",
+    "holonomy_identity": "UNRESOLVED_R09"
+  },
+  "next_run": "R05"
+}

@@ -1,0 +1,101 @@
+{
+  "schema": "MK43_UNIFIED_API_SELF_CLOSURE_R5_AUDIT_V1",
+  "qmo_id": "QMO-MK43-UNIFIED-V2-R5-002",
+  "parent_qmo_id": "QMO-MK43-UNIFIED-V2-001",
+  "parent_mutation": false,
+  "canonical_handles": 4717,
+  "parent_unique_pairs": 68101,
+  "final_reachability_pairs": 1801388,
+  "derived_edges": 1733287,
+  "max_shortest_distance": 15,
+  "iterations": [
+    {
+      "pass": 1,
+      "max_path_length_covered": 2,
+      "new_composed_edges": 354160,
+      "cumulative_pairs": 422261,
+      "terminal": "EXPANDED"
+    },
+    {
+      "pass": 2,
+      "max_path_length_covered": 4,
+      "new_composed_edges": 1167407,
+      "cumulative_pairs": 1589668,
+      "terminal": "EXPANDED"
+    },
+    {
+      "pass": 3,
+      "max_path_length_covered": 8,
+      "new_composed_edges": 206220,
+      "cumulative_pairs": 1795888,
+      "terminal": "EXPANDED"
+    },
+    {
+      "pass": 4,
+      "max_path_length_covered": 16,
+      "new_composed_edges": 5500,
+      "cumulative_pairs": 1801388,
+      "terminal": "EXPANDED"
+    },
+    {
+      "pass": 5,
+      "max_path_length_covered": 32,
+      "new_composed_edges": 0,
+      "cumulative_pairs": 1801388,
+      "terminal": "NO_NEW_STRUCTURE"
+    }
+  ],
+  "weak_component_count": 3196,
+  "largest_weak_components": [
+    1459,
+    16,
+    13,
+    11,
+    8,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "strong_component_count": 3429,
+  "largest_strong_components": [
+    1260,
+    14,
+    6,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "integrity": {
+    "sqlite_quick_check": "ok",
+    "foreign_key_issues": 0,
+    "construction_invariant_parent_overlap": 0,
+    "closure_complete": true
+  },
+  "policy": "Derived edges are generated only for parent-strict reachable pairs absent from the parent pair set. No bridge is fabricated across disconnected or directionally unreachable components. COMPOSED_DEPENDENCY means reachability, not theorem entailment."
+}

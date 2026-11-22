@@ -1,0 +1,16 @@
+{
+  "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+  "certificate_id": "CC-DM-E072-001",
+  "checkpoint": "E072",
+  "object": "@dm_metric_active_representation_witness",
+  "decision": "DIAGNOSTIC_CLOSED_OPEN_EXISTENCE",
+  "scope": "proof-debt compression and next-frontier selection",
+  "checks": {
+    "conditional_qualification_witness_exists_in_live_layer": true,
+    "unconditional_qualification_open": true,
+    "density_debt_not_required_on_current_action_lane": true,
+    "baseline_dm22_modified": false,
+    "physical_promotion": false
+  },
+  "result": "Current shortest conditional qualification route carries PD-DM-001, PD-DM-002, PD-DM-004, and PD-DM-006. Next active frontier is the Q-compatible metric-active representation witness."
+}

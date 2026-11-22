@@ -1,0 +1,21 @@
+{
+  "status": "PASS: local symbolic checks only",
+  "sympy_version": "1.14.0",
+  "phase_Euler_Lagrange": "beta*Derivative(tau(x), (x, 2)) - Derivative(V(tau(x)), tau(x))/2",
+  "phase_result": "beta*Box(tau) - V_prime(tau)/2, for the isolated displayed phase action",
+  "chromatic_Hilbert_diagonal_components": [
+    "(-2*U + a0*v0**2 - a1*v1**2 - a2*v2**2 - a3*v3**2)/(2*a0)",
+    "(-2*U - a0*v0**2 + a1*v1**2 - a2*v2**2 - a3*v3**2)/(2*a1)",
+    "(-2*U - a0*v0**2 - a1*v1**2 + a2*v2**2 - a3*v3**2)/(2*a2)",
+    "(-2*U - a0*v0**2 - a1*v1**2 - a2*v2**2 + a3*v3**2)/(2*a3)"
+  ],
+  "homogeneous_chromatic_energy_correct": "U + v0**2/2",
+  "homogeneous_chromatic_energy_archived": "-U + 3*v0**2/2",
+  "invertible_equation_multiplier_determinant": "6",
+  "singular_reparametrization": "x=q^3 is bijective, but DP=0 at q=0; S(x)=x has no critical point while S(q^3)=q^3 does.",
+  "limitations": [
+    "Not a proof of a native projection, a GR lift, native gauge identification, nonlinear closure, or empirical agreement.",
+    "The diagonal scalar calculation checks coefficients and signs; the report supplies the general tensor derivation.",
+    "Cross-couplings and ER terms are not silently set to zero in the total theory; the phase check isolates the archived S_tau contribution."
+  ]
+}

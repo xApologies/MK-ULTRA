@@ -1,0 +1,116 @@
+{
+  "manifold_name": "Hydrogen Recursive Topology Manifold v2",
+  "classification": "H",
+  "version": "section3_hydrogen_v2.0",
+  "source": "Quantum hydrogen/protium model transformed through Atomic Profile Pipeline v0.1 and projected into Manifold_blank accommodation substrate.",
+  "derivation_note": "This is not configured to force water or any target product. It corrects the v1 under-binding issue by representing the incomplete 1s^1 occupancy as an explicit mixed-closure admissibility topology, derived from the quantum model and Atomic Profile variables.",
+  "atomic_profile_basis": {
+    "external_quantum_structure": {
+      "atomic_number": 1,
+      "dominant_isotope": "protium",
+      "nucleus": "1 proton, no neutron",
+      "electron_configuration": "1s^1",
+      "valence_electrons": 1,
+      "primary_quantum_behavior": [
+        "spherical 1s occupancy envelope",
+        "incomplete one-electron shell closure",
+        "strong H2 pair admissibility",
+        "broad mixed bonding compatibility as a minimal closure assistant"
+      ],
+      "QCD_note": "proton persistence represented as bounded core persistence basin; no literal quark/gluon simulation is encoded."
+    },
+    "pipeline_mapping": {
+      "core_persistence_variable": "single-proton compact bounded persistence basin",
+      "shell_occupancy_structure_variable": "smooth spherical 1s occupancy envelope",
+      "occupancy_load_variable": "one-electron load plus explicit open-shell vacancy pressure",
+      "core_shell_coupling_variable": "minimal proton-electron closure with accessible shell boundary",
+      "chirality_admissibility_variable": "near-neutral hydrogen chirality with explicit asymmetric open-face support",
+      "closure_topology_variable": "balanced H2 pair closure and heteroatomic mixed closure admissibility"
+    }
+  },
+  "dimensions": {
+    "spatial": [
+      32,
+      32,
+      32
+    ],
+    "source_projection_4d_shape": [
+      13,
+      32,
+      32,
+      32
+    ],
+    "setlift_5d_shape": [
+      13,
+      32,
+      32,
+      32,
+      2
+    ],
+    "chirality_shape": [
+      32,
+      32,
+      32
+    ],
+    "channel_count": 13,
+    "chirality_lift_axis": "last axis; index 0 = right branch, index 1 = left branch"
+  },
+  "channel_order": [
+    "core_persistence_protium",
+    "shell_occupancy_1s",
+    "open_shell_vacancy_1s1",
+    "occupancy_load_1e",
+    "core_shell_coupling",
+    "chirality_abs_admissibility",
+    "pair_closure_topology_H2",
+    "mixed_closure_admissibility",
+    "mixed_anchor_lobe",
+    "polarization_shell",
+    "closure_topology",
+    "redistribution_resistance",
+    "environment_admissibility"
+  ],
+  "expected_audit_behavior": [
+    "3H should still reject stable H3 and prefer H2 + H or equivalent pair-plus-residual behavior",
+    "hydrogen should no longer be purely isolated in oxygen-rich tests",
+    "mixed O-H corridor candidates should become more recoverable than v1 when oxygen provides an admissible basin",
+    "hydrogen should remain a minimal closure assistant rather than becoming carbon-like topology-generative or nitrogen-like saturation-locking"
+  ],
+  "blank_manifold_inspection": {
+    "uploaded_blank_zip": "Manifold_blank.zip",
+    "observed_npy_files": [
+      {
+        "path": "MK43U_Blank_Manifold_Template_v0_1/blank_source_4d_32x32x32.npy",
+        "shape": [
+          11,
+          32,
+          32,
+          32
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "MK43U_Blank_Manifold_Template_v0_1/blank_setlift_5d_32x32x32x2.npy",
+        "shape": [
+          11,
+          32,
+          32,
+          32,
+          2
+        ],
+        "dtype": "float32"
+      },
+      {
+        "path": "MK43U_Blank_Manifold_Template_v0_1/chirality_statecode_32x32x32.npy",
+        "shape": [
+          32,
+          32,
+          32
+        ],
+        "dtype": "uint8"
+      }
+    ],
+    "blank_file_count": 6
+  },
+  "caution": "This is an MK43 Ultra topology-equivalent manifold projection artifact, not a validated physical simulation of hydrogen atom quantum mechanics."
+}

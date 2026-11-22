@@ -1,0 +1,203 @@
+{
+  "handle": "@structural_zero",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@structural_zero",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 4,
+    "api43_direct_in_count": 4,
+    "xapi_raw_out_count": 4,
+    "xapi_raw_in_count": 4,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 4,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@structural_zero",
+        "relation": "CONTAINS",
+        "target": "@boundary",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:52376;CANONICAL_API_TYPED_LINE:52376"
+      },
+      {
+        "source": "@structural_zero",
+        "relation": "GENERATES",
+        "target": "@occurrence",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:52375;CANONICAL_API_TYPED_LINE:52375"
+      },
+      {
+        "source": "@structural_zero",
+        "relation": "GENERATES",
+        "target": "@prime_dependency_calculus",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:52391;CANONICAL_API_TYPED_LINE:52391"
+      },
+      {
+        "source": "@structural_zero",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@prime_mathematical_object",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:51960->51963"
+      },
+      {
+        "source": "@prime_mathematical_object",
+        "relation": "IDENTIFIED_BY",
+        "target": "@structural_zero",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:52390;CANONICAL_API_TYPED_LINE:52390"
+      },
+      {
+        "source": "@boundary",
+        "relation": "CONTAINED_IN",
+        "target": "@structural_zero",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@structural_zero CONTAINS @boundary); rule=CONTAINS→CONTAINED_IN"
+      },
+      {
+        "source": "@occurrence",
+        "relation": "GENERATED_BY",
+        "target": "@structural_zero",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@structural_zero GENERATES @occurrence); rule=GENERATES→GENERATED_BY"
+      },
+      {
+        "source": "@prime_dependency_calculus",
+        "relation": "GENERATED_BY",
+        "target": "@structural_zero",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@structural_zero GENERATES @prime_dependency_calculus); rule=GENERATES→GENERATED_BY"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 1072,
+        "source": "@structural_zero",
+        "relation": "CONTAINS",
+        "target": "@boundary",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:52376;CANONICAL_API_TYPED_LINE:52376"
+      },
+      {
+        "id": 1073,
+        "source": "@structural_zero",
+        "relation": "GENERATES",
+        "target": "@occurrence",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:52375;CANONICAL_API_TYPED_LINE:52375"
+      },
+      {
+        "id": 1074,
+        "source": "@structural_zero",
+        "relation": "GENERATES",
+        "target": "@prime_dependency_calculus",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:52391;CANONICAL_API_TYPED_LINE:52391"
+      },
+      {
+        "id": 1075,
+        "source": "@structural_zero",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@prime_mathematical_object",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:51960->51963"
+      },
+      {
+        "id": 927,
+        "source": "@prime_mathematical_object",
+        "relation": "IDENTIFIED_BY",
+        "target": "@structural_zero",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:52390;CANONICAL_API_TYPED_LINE:52390"
+      },
+      {
+        "id": 2273,
+        "source": "@boundary",
+        "relation": "CONTAINED_IN",
+        "target": "@structural_zero",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@structural_zero CONTAINS @boundary); rule=CONTAINS→CONTAINED_IN"
+      },
+      {
+        "id": 2274,
+        "source": "@occurrence",
+        "relation": "GENERATED_BY",
+        "target": "@structural_zero",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@structural_zero GENERATES @occurrence); rule=GENERATES→GENERATED_BY"
+      },
+      {
+        "id": 2275,
+        "source": "@prime_dependency_calculus",
+        "relation": "GENERATED_BY",
+        "target": "@structural_zero",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@structural_zero GENERATES @prime_dependency_calculus); rule=GENERATES→GENERATED_BY"
+      }
+    ]
+  },
+  "address": "@structural_zero",
+  "address_sha256": "79e3a2445a4fabba2b9530f0e7f38bded81a4ebeba816c9ee7b26d151a4dea82"
+}

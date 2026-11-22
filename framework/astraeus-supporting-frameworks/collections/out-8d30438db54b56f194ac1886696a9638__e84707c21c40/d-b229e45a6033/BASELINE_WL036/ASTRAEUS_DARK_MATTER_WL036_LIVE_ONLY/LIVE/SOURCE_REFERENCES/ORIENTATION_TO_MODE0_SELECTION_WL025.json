@@ -1,0 +1,68 @@
+{
+  "schema": "ASTRAEUS_QMO_CROSS_CRAWL_V1",
+  "seeds": [
+    "@orientation_history"
+  ],
+  "targets": [
+    "@dm_mode0_network_selection_rule"
+  ],
+  "bidirectional": true,
+  "edge_count": 1659,
+  "reachable_count": 160,
+  "distance_histogram": {
+    "0": 1,
+    "1": 2,
+    "2": 11,
+    "3": 32,
+    "4": 114
+  },
+  "paths": {
+    "@orientation_history -> @dm_mode0_network_selection_rule": [
+      {
+        "from": "@orientation_history",
+        "relation": "DEPENDS_TO",
+        "to": "@relational_history",
+        "traversal": "forward",
+        "origin": "TIMESPACE_4.3_FULL_CANONICAL",
+        "provenance": "DIRECT_API_LINE:45106",
+        "source_location": "source_snapshots/api43/MK43_Ultra_API_CURRENT_CANONICAL.md:58008",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@relational_history",
+        "relation": "DEPENDS_ON",
+        "to": "@dm_hidden_state_bundle",
+        "traversal": "reverse",
+        "origin": "DARKMATTER_2.1",
+        "provenance": "DM2.1",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "ATLAS_DERIVED",
+        "confidence": "high"
+      },
+      {
+        "from": "@dm_hidden_state_bundle",
+        "relation": "DEPENDS_ON",
+        "to": "@dm_hidden_s3_network",
+        "traversal": "forward",
+        "origin": "DARKMATTER_2.1",
+        "provenance": "DM2.1",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "ATLAS_DERIVED",
+        "confidence": "high"
+      },
+      {
+        "from": "@dm_hidden_s3_network",
+        "relation": "SELECTS_ACCESS_TO",
+        "to": "@dm_mode0_network_selection_rule",
+        "traversal": "reverse",
+        "origin": "DARKMATTER_2.0",
+        "provenance": "DM2.0",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "OPEN_HANDLE",
+        "confidence": "high"
+      }
+    ]
+  },
+  "guardrail": "Navigation evidence only. Composed paths are not direct theorems and no parent object is promoted."
+}

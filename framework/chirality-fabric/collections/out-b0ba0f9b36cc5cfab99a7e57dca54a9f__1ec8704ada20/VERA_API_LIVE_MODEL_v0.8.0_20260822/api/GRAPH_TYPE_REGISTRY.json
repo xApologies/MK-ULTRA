@@ -1,0 +1,36 @@
+{
+  "schema": "ASTRAEUS_GRAPH_TYPE_REGISTRY_V1",
+  "api_release": "0.8.0",
+  "implemented_dependency_graph_modes": [
+    {
+      "mode": "path",
+      "definition": "Shortest registered dependency path between two QMO/graph roots; existing edge orientation is preserved."
+    },
+    {
+      "mode": "induced",
+      "definition": "All registered dependency edges whose endpoints lie in the selected/expanded member set."
+    },
+    {
+      "mode": "ego",
+      "definition": "Depth-bounded dependency neighborhood around one or more roots under an explicit direction policy."
+    }
+  ],
+  "higher_order_graph_objects": [
+    {
+      "type": "dependency_landscape",
+      "definition": "Recursive/merged graph from QMO, Dependency Graph, and/or Dependency Landscape inputs."
+    },
+    {
+      "type": "dependency_chain",
+      "definition": "Ordered recursion of crawl -> graph -> landscape -> resolved QMO steps, with append-only History and terminal closure/fork state."
+    }
+  ],
+  "semantic_views": [
+    "provenance",
+    "resolution/handoff",
+    "bandwidth/availability",
+    "history/witness",
+    "closure/certificate"
+  ],
+  "guard": "Specialized semantic views filter registered structure; they do not invent edges."
+}

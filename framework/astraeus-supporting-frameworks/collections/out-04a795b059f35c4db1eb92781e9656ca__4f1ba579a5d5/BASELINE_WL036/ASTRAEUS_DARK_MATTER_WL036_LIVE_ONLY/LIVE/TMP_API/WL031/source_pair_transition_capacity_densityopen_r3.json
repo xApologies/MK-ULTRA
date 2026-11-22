@@ -1,0 +1,79 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_PAIR_V1",
+  "a": "@transition_capacity",
+  "b": "@dm_native_density_to_readable_source",
+  "radius": 3,
+  "interface": [
+    {
+      "handle": "@dm_hidden_relational_load",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@energy_density",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@resolution",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@containment_volume",
+      "distance_a": 1,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_resolution_density_profile",
+      "distance_a": 3,
+      "distance_b": 1
+    },
+    {
+      "handle": "@relationship",
+      "distance_a": 1,
+      "distance_b": 3
+    },
+    {
+      "handle": "@persistence",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@bandwidth",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_hidden_state_bundle",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_runtime_transition_capacity",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_stress_energy_separation_gate",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@genesis_field",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@mote_chirality",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@mote_lattice",
+      "distance_a": 3,
+      "distance_b": 3
+    }
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry; exact-handle interface only"
+}

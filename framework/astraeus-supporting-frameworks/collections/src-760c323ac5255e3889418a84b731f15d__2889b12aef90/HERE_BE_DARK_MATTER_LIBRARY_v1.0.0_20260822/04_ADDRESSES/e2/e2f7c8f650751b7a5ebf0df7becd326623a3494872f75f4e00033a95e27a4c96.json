@@ -1,0 +1,78 @@
+{
+  "handle": "@dm_continuity_laplacian",
+  "object_type": "mathematical_object",
+  "status": "ATLAS_DERIVED_ACTIVE",
+  "domain": "DM22",
+  "namespace": "network",
+  "name": "Selected Continuity Graph Laplacian",
+  "definition": "Finite algebraic realization of continuity redistribution on a selected network support.",
+  "math": "L_N=B_N W_N B_N^T; deltaC=-L_N c.",
+  "source_layer": "DM22",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "DM22",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 2,
+    "xapi_raw_in_count": 2,
+    "live_out_count": 2,
+    "live_in_count": 2,
+    "closure_out_reachability_count": 8,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19719,
+        "source": "@dm_continuity_laplacian",
+        "relation": "REALIZES",
+        "target": "@continuity_redistribution",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19720,
+        "source": "@dm_continuity_laplacian",
+        "relation": "USES",
+        "target": "@dm_local_continuity_response_coefficient",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19763,
+        "source": "@dm_hidden_response_operator",
+        "relation": "SCHUR_REDUCES",
+        "target": "@dm_continuity_laplacian",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19805,
+        "source": "@dm_runtime_transition_capacity",
+        "relation": "SATURATION_GUARDS",
+        "target": "@dm_continuity_laplacian",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED_CLOSED",
+        "provenance": "DM2.0"
+      }
+    ]
+  },
+  "address": "@dm_continuity_laplacian",
+  "address_sha256": "e2f7c8f650751b7a5ebf0df7becd326623a3494872f75f4e00033a95e27a4c96"
+}

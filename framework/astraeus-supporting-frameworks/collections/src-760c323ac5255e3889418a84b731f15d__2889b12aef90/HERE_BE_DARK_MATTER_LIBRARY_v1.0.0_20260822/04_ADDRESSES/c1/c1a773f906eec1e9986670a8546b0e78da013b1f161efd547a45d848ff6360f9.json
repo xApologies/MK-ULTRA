@@ -1,0 +1,77 @@
+{
+  "handle": "@dm_ucm_event_to_source_nonannihilation",
+  "object_type": "qmo_derived_mathematical_object",
+  "status": "LIVE_OPEN_CANDIDATE",
+  "domain": "DM30",
+  "namespace": "mk43://dark-matter/live",
+  "name": "UCM Event-to-Readable-Source Nonannihilation Gate",
+  "definition": "The exact remaining UCM compression question after hidden-network source-state separation: does the recovered event-to-readable-source map preserve at least one selected hidden distinction?",
+  "math": "Pi_U=P_T o U_dyn; seek Delta T_U=P_T(U_dyn(u_f))-P_T(U_dyn(u_v)) != 0.",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E074",
+  "qmo_generated": true,
+  "proof_status": "DERIVED_OR_CONDITIONAL",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "LIVE_QMO_DERIVED",
+  "metadata": {
+    "payload": {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_ucm_event_to_source_nonannihilation",
+      "canonical_name": "UCM Event-to-Readable-Source Nonannihilation Gate",
+      "type": "OpenSourceProjectionSensitivityGate",
+      "status": "LIVE_OPEN_CANDIDATE",
+      "checkpoint": "E074",
+      "definition": "The exact remaining UCM compression question after hidden-network source-state separation: does the recovered event-to-readable-source map preserve at least one selected hidden distinction?",
+      "math": "Pi_U=P_T o U_dyn; seek Delta T_U=P_T(U_dyn(u_f))-P_T(U_dyn(u_v)) != 0.",
+      "parents": [
+        "@dm_ucm_source_domain_distinction",
+        "@stress_energy_tensor"
+      ],
+      "working_assumptions": [],
+      "proof_debt": [
+        "PD-DM-007"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    "direct_live_edges_out": [
+      {
+        "source": "@dm_ucm_event_to_source_nonannihilation",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_ucm_source_domain_distinction",
+        "graph_family": "dark_matter_live",
+        "confidence": "high",
+        "audit_status": "LIVE_OPEN_CANDIDATE",
+        "provenance": "E074",
+        "origin": "LIVE_LANDSCAPE",
+        "source_layer": "live"
+      },
+      {
+        "source": "@dm_ucm_event_to_source_nonannihilation",
+        "relation": "TARGETS",
+        "target": "@stress_energy_tensor",
+        "graph_family": "dark_matter_live",
+        "confidence": "high",
+        "audit_status": "LIVE_OPEN_CANDIDATE",
+        "provenance": "E074",
+        "origin": "LIVE_LANDSCAPE",
+        "source_layer": "live"
+      }
+    ],
+    "direct_live_edges_in": [
+      {
+        "source": "@dm_conditional_ucm_stress_energy_witness",
+        "relation": "CONDITIONAL_ON",
+        "target": "@dm_ucm_event_to_source_nonannihilation",
+        "graph_family": "dark_matter_live",
+        "confidence": "medium",
+        "audit_status": "WORKING_ASSUMPTION",
+        "provenance": "WA-DM-E075-001",
+        "origin": "LIVE_LANDSCAPE",
+        "source_layer": "live"
+      }
+    ]
+  },
+  "address": "@dm_ucm_event_to_source_nonannihilation",
+  "address_sha256": "c1a773f906eec1e9986670a8546b0e78da013b1f161efd547a45d848ff6360f9"
+}

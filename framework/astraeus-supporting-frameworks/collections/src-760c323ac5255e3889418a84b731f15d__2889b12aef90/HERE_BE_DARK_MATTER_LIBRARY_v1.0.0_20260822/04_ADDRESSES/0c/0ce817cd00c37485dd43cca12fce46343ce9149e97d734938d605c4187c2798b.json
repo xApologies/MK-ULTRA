@@ -1,0 +1,26 @@
+{
+  "handle": "qmo://QMO-DM-BRIDGE-CAND-028",
+  "object_type": "qmo",
+  "status": "LIVE_TYPED_OPEN_GATE",
+  "domain": "QMO",
+  "namespace": "mk43://qmo",
+  "name": "Two-Port Time-Shell Gravity Fiber Test",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "QMO_REGISTRY",
+  "metadata": {
+    "qmo_id": "QMO-DM-BRIDGE-CAND-028",
+    "name": "Two-Port Time-Shell Gravity Fiber Test",
+    "status": "LIVE_TYPED_OPEN_GATE",
+    "source_layer": "LIVE",
+    "source_file": "live/checkpoints/E087/qmos/QMO-DM-BRIDGE-CAND-028_DM_TWO_PORT_TIMESHELL_GRAVITY_FIBER_TEST.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_QMO_CANDIDATE_V1\", \"qmo_id\": \"QMO-DM-BRIDGE-CAND-028\", \"handle\": \"@dm_two_port_timeshell_gravity_fiber_test\", \"canonical_name\": \"Two-Port Time-Shell Gravity Fiber Test\", \"status\": \"LIVE_TYPED_OPEN_GATE\", \"checkpoint\": \"E087\", \"parents\": [\"@dm_explicit_two_port_continuity_residual_witness\", \"@continuity_perturbation\", \"@time_shell_projection_operator\", \"@weak_field_metric_perturbation\"], \"source_basis\": [\"ATLAS_V36:174_V27_TIME_SHELL_GRAVITY_TRANSMISSION_GATE.md\", \"ATLAS_V36:83_TIME_SHELL_TYPED_PROJECTION_NAMESPACE.md\", \"ATLAS_V36:88_TIME_SHELL_GRAVITY_CHANNEL.md\", \"API4.3:@continuity_perturbation -> @time_shell_projection_operator\"], \"derivation\": [\"The recovered gravity chain requires a gravitational/tensor admissibility stage A_g before Time-Shell projection.\", \"Where typed, define G_TS = Pi_T o A_g.\", \"V27 gives the exact nonlinearity-safe criterion: hidden-network gravity distinction at c_P occurs iff G_TS(-Lambda_full c_P) != G_TS(-Lambda_vis c_P).\", \"E086 supplies the concrete contrast state c_* with -Lambda_full c_* != -Lambda_vis c_*.\"], \"result\": \"The direct hidden-network gravity question is reduced to one projection-fiber separation test on one explicit continuity-response pair.\", \"math\": \"x_full=-Lambda_full c_*; x_vis=-Lambda_vis c_*; x_full!=x_vis. Test x_full not~_G x_vis where x~_G y iff G_TS(x)=G_TS(y).\", \"boundary\": \"Distinct native continuity inputs do not guarantee distinct gravity outputs. No linearity or injectivity of A_g/Pi_T is assumed.\", \"physical_claim\": false}"
+  },
+  "address": "qmo://QMO-DM-BRIDGE-CAND-028",
+  "address_sha256": "0ce817cd00c37485dd43cca12fce46343ce9149e97d734938d605c4187c2798b"
+}

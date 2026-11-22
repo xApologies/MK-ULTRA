@@ -1,0 +1,88 @@
+{
+  "handle": "@effective_contribution_to_geometry",
+  "object_type": "mathematical_object",
+  "status": "indexed-unlinked",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Effective contribution to geometry",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 2,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 1,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 147,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@effective_contribution_to_geometry",
+        "relation": "CONTRIBUTES_TO",
+        "target": "@einstein_tensor",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-45",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Effective geometric contributions alter the readable field equation."
+      },
+      {
+        "source": "@einstein_tensor",
+        "relation": "RECEIVES_CONTRIBUTION_FROM",
+        "target": "@effective_contribution_to_geometry",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@effective_contribution_to_geometry CONTRIBUTES_TO @einstein_tensor); rule=CONTRIBUTES_TO→RECEIVES_CONTRIBUTION_FROM"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 2023,
+        "source": "@effective_contribution_to_geometry",
+        "relation": "CONTRIBUTES_TO",
+        "target": "@einstein_tensor",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Effective geometric contributions alter the readable field equation."
+      },
+      {
+        "id": 19671,
+        "source": "@effective_contribution_to_geometry",
+        "relation": "CONTRIBUTES_TO",
+        "target": "@einstein_tensor",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Effective geometric contributions alter the readable field equation."
+      },
+      {
+        "id": 3076,
+        "source": "@einstein_tensor",
+        "relation": "RECEIVES_CONTRIBUTION_FROM",
+        "target": "@effective_contribution_to_geometry",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@effective_contribution_to_geometry CONTRIBUTES_TO @einstein_tensor); rule=CONTRIBUTES_TO→RECEIVES_CONTRIBUTION_FROM"
+      }
+    ]
+  },
+  "address": "@effective_contribution_to_geometry",
+  "address_sha256": "fdfaa27e7190e883d0de80eb220e372e3120a4bdfe535bb475faac6cef78d551"
+}

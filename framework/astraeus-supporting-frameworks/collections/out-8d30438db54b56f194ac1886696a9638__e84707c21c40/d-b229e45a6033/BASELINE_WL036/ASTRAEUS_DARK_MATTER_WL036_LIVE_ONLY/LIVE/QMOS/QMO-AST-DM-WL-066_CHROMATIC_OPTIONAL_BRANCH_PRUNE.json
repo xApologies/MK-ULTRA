@@ -1,0 +1,265 @@
+{
+  "schema": "ASTRAEUS_API_QMO_CHROMATIC_OPTIONAL_BRANCH_PRUNE_V1",
+  "qmo_id": "QMO-AST-DM-WL-066",
+  "name": "Mote Chirality / Optional Chromatic Dark Branch Prune",
+  "atlas_version": "WL-v181",
+  "status": "API_OPTIONAL_BRANCH_PRUNED_FROM_CRITICAL_PATH_NOT_PARENT_PROMOTED",
+  "mote_chirality_pair": {
+    "schema": "ASTRAEUS_CROSS_API_PAIR_QUERY_V1",
+    "a": "@mote_chirality",
+    "b": "@dm_omega_to_chromatic_representation",
+    "radius": 2,
+    "a_node_count": 28,
+    "b_node_count": 7,
+    "interface": [
+      {
+        "handle": "@chirality_occupancy_cube",
+        "distance_a": 1,
+        "distance_b": 2
+      },
+      {
+        "handle": "@chirality_space",
+        "distance_a": 2,
+        "distance_b": 1
+      },
+      {
+        "handle": "@persistent_recursive_topology",
+        "distance_a": 2,
+        "distance_b": 2
+      }
+    ],
+    "path_a_to_b": [
+      {
+        "source": "@mote_chirality",
+        "relation": "DIRECTED_TO",
+        "target": "@chirality_occupancy_cube",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:49484->49485",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@chirality_occupancy_cube",
+        "relation": "DIRECTED_TO",
+        "target": "@chirality_space",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50159->50160",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@chirality_space",
+        "relation": "OPTIONALLY_REQUIRES",
+        "target": "@dm_omega_to_chromatic_representation",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPTIONAL_OPEN_HANDLE",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      }
+    ],
+    "path_b_to_a": null,
+    "edge_policy": {
+      "timespace": "high-confidence direct/non-derived RP42 records",
+      "darkmatter": "high-confidence DM_DIRECT_EDGE_REGISTRY records",
+      "gluing": "exact handle equality only; no cross-edge is invented"
+    }
+  },
+  "persistent_topology_pair": {
+    "schema": "ASTRAEUS_CROSS_API_PAIR_QUERY_V1",
+    "a": "@persistent_recursive_topology",
+    "b": "@dm_omega_to_chromatic_representation",
+    "radius": 2,
+    "a_node_count": 42,
+    "b_node_count": 7,
+    "interface": [
+      {
+        "handle": "@chirality_space",
+        "distance_a": 1,
+        "distance_b": 1
+      },
+      {
+        "handle": "@dm_omega_to_chromatic_representation",
+        "distance_a": 2,
+        "distance_b": 0
+      },
+      {
+        "handle": "@persistent_recursive_topology",
+        "distance_a": 0,
+        "distance_b": 2
+      },
+      {
+        "handle": "@chirality_map",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@chirality_occupancy_cube",
+        "distance_a": 2,
+        "distance_b": 2
+      }
+    ],
+    "path_a_to_b": [
+      {
+        "source": "@persistent_recursive_topology",
+        "relation": "DEPENDS_TO",
+        "target": "@chirality_space",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45115",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@chirality_space",
+        "relation": "OPTIONALLY_REQUIRES",
+        "target": "@dm_omega_to_chromatic_representation",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPTIONAL_OPEN_HANDLE",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      }
+    ],
+    "path_b_to_a": null,
+    "edge_policy": {
+      "timespace": "high-confidence direct/non-derived RP42 records",
+      "darkmatter": "high-confidence DM_DIRECT_EDGE_REGISTRY records",
+      "gluing": "exact handle equality only; no cross-edge is invented"
+    }
+  },
+  "dm_recover_open": {
+    "handle": "@dm_omega_to_chromatic_representation",
+    "record": {
+      "handle": "@dm_omega_to_chromatic_representation",
+      "name": "Chirality-Space to Chromatic/Basin Representation",
+      "origin": "DARKMATTER_2.0",
+      "namespace": "open",
+      "type": "OpenRepresentationRelation",
+      "status": "OPTIONAL_OPEN_HANDLE",
+      "criticality": "optional",
+      "definition": "Typed unresolved object promoted from the Master Dark-Matter QMO. It remains mathematically open; promotion makes the unknown queryable rather than solved.",
+      "math": "R_OmegaC^R subseteq Omega x X_C^R | requirements: Do not identify chirality-space elements with chromatic components by shared notation.; Any transported representation must satisfy the appropriate equivariance/commutation condition.; Not required by the primary residue-bundle branch.",
+      "source_refs": [
+        "QMO_RUNTIME_v0.3:formal/OPEN_SLOT_REGISTRY.json"
+      ]
+    },
+    "incoming": [
+      {
+        "source": "@chirality_space",
+        "relation": "OPTIONALLY_REQUIRES",
+        "target": "@dm_omega_to_chromatic_representation",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPTIONAL_OPEN_HANDLE",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0"
+      }
+    ],
+    "outgoing": [
+      {
+        "source": "@dm_omega_to_chromatic_representation",
+        "relation": "REPRESENTS_AS",
+        "target": "@dm_chromatic_optional_branch",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPTIONAL_OPEN_HANDLE",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0"
+      }
+    ],
+    "composed_in": [],
+    "composed_out": []
+  },
+  "dm_crawl_open": {
+    "start": "@dm_omega_to_chromatic_representation",
+    "depth": 3,
+    "handles": [
+      "@dm_chromatic_optional_branch",
+      "@dm_omega_to_chromatic_representation",
+      "@residue_quantum_field_bundle"
+    ],
+    "edges": [
+      {
+        "source": "@dm_omega_to_chromatic_representation",
+        "relation": "REPRESENTS_AS",
+        "target": "@dm_chromatic_optional_branch",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPTIONAL_OPEN_HANDLE",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0"
+      },
+      {
+        "source": "@dm_chromatic_optional_branch",
+        "relation": "NOT_REQUIRED_FOR",
+        "target": "@residue_quantum_field_bundle",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "THEOREM",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0"
+      }
+    ]
+  },
+  "dm_recover_branch": {
+    "handle": "@dm_chromatic_optional_branch",
+    "record": {
+      "handle": "@dm_chromatic_optional_branch",
+      "name": "Optional Chromatic/Basin Representation Branch",
+      "origin": "DARKMATTER_2.0",
+      "namespace": "representation",
+      "type": "OptionalRepresentationBranch",
+      "status": "OPTIONAL_NOT_CRITICAL_PATH",
+      "criticality": "optional",
+      "definition": "Historical/downstream chromatic or basin representation route. It is not required for the current persistent-boundary / residue-bundle critical path.",
+      "math": "E --chi--> Omega --R_{OmegaC}^R--> X_C^R; R_{OmegaC}^R remains open.",
+      "source_refs": [
+        "ATLAS_V36:FORMAL/220_V36_NATIVE_CHIRALITY_FACTORIZATION.md",
+        "ATLAS_V36:FORMAL/223_V36_CHROMATIC_BRANCH_OPTIONALITY.md"
+      ]
+    },
+    "incoming": [
+      {
+        "source": "@dm_omega_to_chromatic_representation",
+        "relation": "REPRESENTS_AS",
+        "target": "@dm_chromatic_optional_branch",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPTIONAL_OPEN_HANDLE",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0"
+      }
+    ],
+    "outgoing": [
+      {
+        "source": "@dm_chromatic_optional_branch",
+        "relation": "NOT_REQUIRED_FOR",
+        "target": "@residue_quantum_field_bundle",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "THEOREM",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0"
+      }
+    ],
+    "composed_in": [],
+    "composed_out": []
+  },
+  "finding": "The only previously unvisited dark-specific handle within the local mote/persistence neighborhood is @dm_omega_to_chromatic_representation. DM2.0 marks it OPTIONAL_OPEN_HANDLE, sends it to @dm_chromatic_optional_branch, and proves that branch NOT_REQUIRED_FOR the residue quantum field bundle. Therefore it is not promoted into the critical dark-matter path.",
+  "next_handle": null,
+  "disposition": "PRUNE_OPTIONAL_BRANCH; return to nonchromatic embedding/qualification search",
+  "guardrails": [
+    "chromatic representation is optional",
+    "chirality-space != chromatic component",
+    "optional open branch != primary OpenSlot",
+    "no parent promotion"
+  ]
+}

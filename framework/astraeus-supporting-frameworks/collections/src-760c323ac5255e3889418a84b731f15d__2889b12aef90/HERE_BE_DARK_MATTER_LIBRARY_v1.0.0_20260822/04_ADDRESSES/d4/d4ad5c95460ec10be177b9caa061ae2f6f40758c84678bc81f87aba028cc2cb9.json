@@ -1,0 +1,130 @@
+{
+  "handle": "@topology_induction",
+  "object_type": "mathematical_object",
+  "status": "indexed-unlinked",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Topology Induction",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 3,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 4,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 1,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 150,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@topology_induction",
+        "relation": "GENERATES",
+        "target": "@localized_persistent_topology",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-45",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Topology induction generates local persistent topology."
+      },
+      {
+        "source": "@topology_induction",
+        "relation": "FEEDS_BLACK_HOLE_MODEL",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-52",
+        "provenance": "DERIVED:RP52_HAWKING_REVERSE_CRAWL; witness=@topology_induction-[GENERATES]->@localized_persistent_topology | @localized_persistent_topology-[REALIZES]->@spacetime | @spacetime-[SUPPORTS]->@black_hole"
+      },
+      {
+        "source": "@topology_induction",
+        "relation": "GLOBALLY_FEEDS_BLACK_HOLE",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-53",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_REVERSE_CRAWL; witness=@topology_induction-[FEEDS_BLACK_HOLE_MODEL]->@black_hole"
+      },
+      {
+        "source": "@localized_persistent_topology",
+        "relation": "GENERATED_BY",
+        "target": "@topology_induction",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@topology_induction GENERATES @localized_persistent_topology); rule=GENERATES→GENERATED_BY"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 2017,
+        "source": "@topology_induction",
+        "relation": "GENERATES",
+        "target": "@localized_persistent_topology",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Topology induction generates local persistent topology."
+      },
+      {
+        "id": 17657,
+        "source": "@topology_induction",
+        "relation": "FEEDS_BLACK_HOLE_MODEL",
+        "target": "@black_hole",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP52_HAWKING_REVERSE_CRAWL; witness=@topology_induction-[GENERATES]->@localized_persistent_topology | @localized_persistent_topology-[REALIZES]->@spacetime | @spacetime-[SUPPORTS]->@black_hole"
+      },
+      {
+        "id": 18477,
+        "source": "@topology_induction",
+        "relation": "GLOBALLY_FEEDS_BLACK_HOLE",
+        "target": "@black_hole",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_REVERSE_CRAWL; witness=@topology_induction-[FEEDS_BLACK_HOLE_MODEL]->@black_hole"
+      },
+      {
+        "id": 19666,
+        "source": "@topology_induction",
+        "relation": "GENERATES",
+        "target": "@localized_persistent_topology",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Topology induction generates local persistent topology."
+      },
+      {
+        "id": 3071,
+        "source": "@localized_persistent_topology",
+        "relation": "GENERATED_BY",
+        "target": "@topology_induction",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@topology_induction GENERATES @localized_persistent_topology); rule=GENERATES→GENERATED_BY"
+      }
+    ]
+  },
+  "address": "@topology_induction",
+  "address_sha256": "d4ad5c95460ec10be177b9caa061ae2f6f40758c84678bc81f87aba028cc2cb9"
+}

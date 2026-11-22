@@ -1,0 +1,224 @@
+{
+  "schema": "tome-final-volume-assembly-validation/v1",
+  "created_at": "2026-08-12T12:07:42.295688+00:00",
+  "assembly_method": "BYTE_VERIFIED_SEALED_CHAPTER_PDF_CONCATENATION_WITH_CONTINUOUS_VOLUME_PAGINATION",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1_SEALED_CHAPTER_ARTIFACT_ASSEMBLY",
+  "source_renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "volume_id": "V05",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_05_TIME_SHELL/MK_ULTRA_TOME_VOLUME_05_TIME_SHELL_FINAL.pdf",
+    "bytes": 2985153,
+    "sha256": "67553a34f579474ba823505dd835c52d944e5a230969ed42508a6a0b8be96fa2"
+  },
+  "actual_pages": 46,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V05-C01": 3,
+    "V05-C02": 9,
+    "V05-C03": 15,
+    "V05-C04": 21,
+    "V05-C05": 27,
+    "V05-C06": 32,
+    "V05-C07": 37,
+    "V05-C08": 43
+  },
+  "chapter_count": 8,
+  "chapter_inputs": [
+    {
+      "chapter_id": "V05-C01",
+      "source_sha256": "c81ba06348f543eb4c003deeed98a6b71938d9d7cdcc3006c59db0432413be79",
+      "published_source_sha256": "4d78fe43cf2da6ccf62ea513b67e6e69dd397a1c93af2107ed019c5af79267b9",
+      "published_source_differs_from_current_sealed_ledger_source": true,
+      "word_count": 1521,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_05_TIME_SHELL/MK_ULTRA_TOME_V05_C01_TIME_SHELL_IDENTITY_AND_SCOPE.pdf",
+        "bytes": 185595,
+        "sha256": "fb5fa1b613797aeb1e7ffad7343e6b220d06f706170764471f9ec1e5b60344e5"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_05_TIME_SHELL/MK_ULTRA_TOME_V05_C01_TIME_SHELL_IDENTITY_AND_SCOPE_VALIDATION.json",
+        "bytes": 3310,
+        "sha256": "fdfbfcad5c5ee1a5fd63bba6de4f6acd1ff97b69e4492af7d752a8926aa0e166"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 3,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V05-C02",
+      "source_sha256": "147929a59a71f18398e120538dc5fefdc8d6de9e33ef95384b0c2ff896103dd5",
+      "published_source_sha256": "147929a59a71f18398e120538dc5fefdc8d6de9e33ef95384b0c2ff896103dd5",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1177,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_05_TIME_SHELL/MK_ULTRA_TOME_V05_C02_PERSISTENCE_CLOSURE.pdf",
+        "bytes": 165239,
+        "sha256": "1b0e26cf1ae4bfcf12aa1613973a5cd7057d76b95672f181efca710fd81fef6e"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_05_TIME_SHELL/MK_ULTRA_TOME_V05_C02_PERSISTENCE_CLOSURE_VALIDATION.json",
+        "bytes": 2675,
+        "sha256": "dbf00bd14705ede15ba76f82f6b26e5bdd4facae765812900064d96d53d2242a"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 9,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V05-C03",
+      "source_sha256": "4c2f44b5683427b61b04f9345483586a32a5d581f9339438410e13008adc426f",
+      "published_source_sha256": "4c2f44b5683427b61b04f9345483586a32a5d581f9339438410e13008adc426f",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1217,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_05_TIME_SHELL/MK_ULTRA_TOME_V05_C03_T0_T7_AND_R0_R7_NATURAL_REGIMES.pdf",
+        "bytes": 157748,
+        "sha256": "128969207d0250536d179e49c9e477f603d56defaa20e8bc34b9693788b1db77"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_05_TIME_SHELL/MK_ULTRA_TOME_V05_C03_T0_T7_AND_R0_R7_NATURAL_REGIMES_VALIDATION.json",
+        "bytes": 2687,
+        "sha256": "4640e6f1077995688d6daf016cf543ee4e2d0de704f36f5b7f9fc50c797fd6ca"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 15,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V05-C04",
+      "source_sha256": "ec5166f184b025c1ed8f95900a49778f4ac91e2007e0318659e13bb59a4b8c2f",
+      "published_source_sha256": "ec5166f184b025c1ed8f95900a49778f4ac91e2007e0318659e13bb59a4b8c2f",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1240,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_05_TIME_SHELL/MK_ULTRA_TOME_V05_C04_CHIRALITY_COUPLED_LOCALIZATION.pdf",
+        "bytes": 161469,
+        "sha256": "ad80b751853a7ce664ca4c07153d127f96f86f61ddc502f979c4e0b983e561d2"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_05_TIME_SHELL/MK_ULTRA_TOME_V05_C04_CHIRALITY_COUPLED_LOCALIZATION_VALIDATION.json",
+        "bytes": 2687,
+        "sha256": "ca84abddf68d93ba9c8b0693cca8f83dd4fc2fcef10b1820e14781839df7e45b"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 21,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V05-C05",
+      "source_sha256": "cce09f2910b132e088b54f845fc6aef1b19fa61a90e967ed8222c3e1eeebac45",
+      "published_source_sha256": "cce09f2910b132e088b54f845fc6aef1b19fa61a90e967ed8222c3e1eeebac45",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1007,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_05_TIME_SHELL/MK_ULTRA_TOME_V05_C05_PLANCK_HORIZON_INTERFACE.pdf",
+        "bytes": 155600,
+        "sha256": "41f62f3503230e86194fac4721ce47dfb326f96162f12697969b9de74d28f419"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_05_TIME_SHELL/MK_ULTRA_TOME_V05_C05_PLANCK_HORIZON_INTERFACE_VALIDATION.json",
+        "bytes": 2679,
+        "sha256": "5c1a71026297af5f9a11bb63b3780d78eb72710b02f6dba6dcc56a2ef2def013"
+      },
+      "pages": 5,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 27,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V05-C06",
+      "source_sha256": "adef70db8d336a8f2521de2123e3505d58f567c164259086f640fc337871c6c5",
+      "published_source_sha256": "5c56981cc9b1b8bf3ec16c2585413d0a6afc93c78513a1a61e94401a8178f83d",
+      "published_source_differs_from_current_sealed_ledger_source": true,
+      "word_count": 1420,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_05_TIME_SHELL/MK_ULTRA_TOME_V05_C06_PROJECTION_AND_INTERTWINING_REQUIREMENTS.pdf",
+        "bytes": 147149,
+        "sha256": "170ca5db084906e3f06ae0bff52ab01074fb325ac6c2edd46721697de18cd680"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_05_TIME_SHELL/MK_ULTRA_TOME_V05_C06_PROJECTION_AND_INTERTWINING_REQUIREMENTS_VALIDATION.json",
+        "bytes": 3410,
+        "sha256": "a0e4e902485da0d13b3c2d99fb71e519c39ddcf6528fee2255e9a0d58fe0f6e7"
+      },
+      "pages": 5,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 32,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V05-C07",
+      "source_sha256": "42a57791bbb38345449dff55b88949cbe0df5c58bf9257c6bae8530e3545752e",
+      "published_source_sha256": "42a57791bbb38345449dff55b88949cbe0df5c58bf9257c6bae8530e3545752e",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1318,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_05_TIME_SHELL/MK_ULTRA_TOME_V05_C07_QUANTUM_FIELD_HANDOFF.pdf",
+        "bytes": 151149,
+        "sha256": "c4858e9b8848179a8225ca18791e69987f10574ca7c7649a7894ea3763ec68f1"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_05_TIME_SHELL/MK_ULTRA_TOME_V05_C07_QUANTUM_FIELD_HANDOFF_VALIDATION.json",
+        "bytes": 2679,
+        "sha256": "60cee66cc95a1c26c5a0149bd0a444ff437302b86bb4b06381c36899869784e0"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 37,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V05-C08",
+      "source_sha256": "fc3d903a0f0d91fe7a681ead3c99a5990630d8d43652c32068b2663634c002ac",
+      "published_source_sha256": "f6ad6db86473ff8ee220a2af98f8a579072d601c32f07d0504dc2ce8e7d2f9a3",
+      "published_source_differs_from_current_sealed_ledger_source": true,
+      "word_count": 1336,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_05_TIME_SHELL/MK_ULTRA_TOME_V05_C08_TIME_SHELL_MODELS_EVIDENCE_AND_OPEN_TYPING.pdf",
+        "bytes": 154622,
+        "sha256": "f00065173ceb936915d9c322855517b3b57fc8b142ddb9bb43e023f80c4f55f7"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_05_TIME_SHELL/MK_ULTRA_TOME_V05_C08_TIME_SHELL_MODELS_EVIDENCE_AND_OPEN_TYPING_VALIDATION.json",
+        "bytes": 3348,
+        "sha256": "a13854556f32a93ecd1e0dc0622a5ea32df0fb36865d6efe73ac33d2addf162b"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 43,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    }
+  ],
+  "raw_latex_guard": {
+    "result": "PASS_INHERITED_FROM_QUALIFIED_CHAPTER_RECEIPTS",
+    "hits": []
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V05-C01": "c81ba06348f543eb4c003deeed98a6b71938d9d7cdcc3006c59db0432413be79",
+    "V05-C02": "147929a59a71f18398e120538dc5fefdc8d6de9e33ef95384b0c2ff896103dd5",
+    "V05-C03": "4c2f44b5683427b61b04f9345483586a32a5d581f9339438410e13008adc426f",
+    "V05-C04": "ec5166f184b025c1ed8f95900a49778f4ac91e2007e0318659e13bb59a4b8c2f",
+    "V05-C05": "cce09f2910b132e088b54f845fc6aef1b19fa61a90e967ed8222c3e1eeebac45",
+    "V05-C06": "adef70db8d336a8f2521de2123e3505d58f567c164259086f640fc337871c6c5",
+    "V05-C07": "42a57791bbb38345449dff55b88949cbe0df5c58bf9257c6bae8530e3545752e",
+    "V05-C08": "fc3d903a0f0d91fe7a681ead3c99a5990630d8d43652c32068b2663634c002ac"
+  },
+  "source_hashes_after": {
+    "V05-C01": "c81ba06348f543eb4c003deeed98a6b71938d9d7cdcc3006c59db0432413be79",
+    "V05-C02": "147929a59a71f18398e120538dc5fefdc8d6de9e33ef95384b0c2ff896103dd5",
+    "V05-C03": "4c2f44b5683427b61b04f9345483586a32a5d581f9339438410e13008adc426f",
+    "V05-C04": "ec5166f184b025c1ed8f95900a49778f4ac91e2007e0318659e13bb59a4b8c2f",
+    "V05-C05": "cce09f2910b132e088b54f845fc6aef1b19fa61a90e967ed8222c3e1eeebac45",
+    "V05-C06": "adef70db8d336a8f2521de2123e3505d58f567c164259086f640fc337871c6c5",
+    "V05-C07": "42a57791bbb38345449dff55b88949cbe0df5c58bf9257c6bae8530e3545752e",
+    "V05-C08": "fc3d903a0f0d91fe7a681ead3c99a5990630d8d43652c32068b2663634c002ac"
+  },
+  "sealed_chapter_content_change_count": 0,
+  "duplicate_chapter_inputs": [],
+  "missing_chapter_inputs": []
+}

@@ -1,0 +1,293 @@
+===== Mote lattice and occupancy definition | source lines 49040-49160 =====
+49040: A source-compatible occupancy function is:
+49041: 
+49042: ```latex
+49043: n :
+49044: \{0,1\}^{3}
+49045: \longrightarrow
+49046: \{0,1\}.
+49047: ```
+49048: 
+49049: Equivalent layered form:
+49050: 
+49051: ```latex
+49052: n_{\mathrm{bot}}(x,y)
+49053: =
+49054: n(x,y,0),
+49055: \qquad
+49056: n_{\mathrm{top}}(x,y)
+49057: =
+49058: n(x,y,1).
+49059: ```
+49060: 
+49061: # New Handle — @mote_lattice
+49062: 
+49063: ## Definition
+49064: 
+49065: ```latex
+49066: \Lambda_{\mathrm{mote}}
+49067: =
+49068: \Lambda_{2\times2}
+49069: \times
+49070: \mathbb{Z}_{2},
+49071: ```
+49072: 
+49073: where:
+49074: 
+49075: ```latex
+49076: \Lambda_{2\times2}
+49077: =
+49078: \{0,1\}\times\{0,1\}.
+49079: ```
+49080: 
+49081: This makes the recovered structure a product of:
+49082: 
+49083: ```text
+49084: a four-site 2×2 layer
+49085: and
+49086: a two-state layer index.
+49087: ```
+49088: 
+49089: Hence:
+49090: 
+49091: ```text
+49092: 2×2 layer
+49093: ×
+49094: 2 layers
+49095: =
+49096: 2×2×2 lattice.
+49097: ```
+49098: 
+49099: # New Handle — @mote_occupancy_function
+49100: 
+49101: ## Per-Layer Source Definition
+49102: 
+49103: ```latex
+49104: n(x,y)\in\{0,1\}.
+49105: ```
+49106: 
+49107: ## Three-Index Lift
+49108: 
+49109: ```latex
+49110: n(x,y,z)\in\{0,1\}.
+49111: ```
+49112: 
+49113: The three-index form is a faithful geometric re-expression of the source’s paired-layer notation; it does not replace the exact source notation.
+49114: 
+49115: # Exact Recovered Constraint
+49116: 
+49117: The source states:
+49118: 
+49119: ```latex
+49120: \sum_{x,y}n(x,y)=2,
+49121: ```
+49122: 
+49123: together with:
+49124: 
+49125: ```latex
+49126: n(0,0)+n(1,1)=1,
+49127: ```
+49128: 
+49129: and:
+49130: 
+49131: ```latex
+49132: n(0,1)+n(1,0)=1.
+49133: ```
+49134: 
+49135: Taken literally, these equations require:
+49136: 
+49137: ```text
+49138: two occupied sites per layer,
+49139: with one occupied site on each diagonal.
+49140: ```
+49141: 
+49142: # Worked Source Configuration
+49143: 
+49144: The source then supplies the bottom-layer example:
+49145: 
+49146: ```latex
+49147: n_{\mathrm{bot}}(0,0)
+49148: =
+49149: n_{\mathrm{bot}}(1,1)
+49150: =
+49151: 1,
+49152: ```
+49153: 
+49154: ```latex
+49155: n_{\mathrm{bot}}(0,1)
+49156: =
+49157: n_{\mathrm{bot}}(1,0)
+49158: =
+49159: 0.
+49160: ```
+
+===== Mote dependency/addendum and open assembly obligations | source lines 50080-50180 =====
+50080: |+>, |->:
+50081:     Hilbert-state representation
+50082: 
+50083: 01101001 / 10010110:
+50084:     serialization convention
+50085: 
+50086: mote ensemble:
+50087:     statistical aggregate
+50088: 
+50089: ER-foam lattice:
+50090:     higher-order assembly
+50091: ```
+50092: 
+50093: # Newly Isolated Handles
+50094: 
+50095: ```text
+50096: @mote_configuration_space
+50097: @mote_ensemble
+50098: @genesis_partial_isometry
+50099: @mote_collapse_profile
+50100: @white_core_mote_coupling
+50101: ```
+50102: 
+50103: All other recovered material thickens existing handles.
+50104: 
+50105: # Edge Registry Addendum
+50106: 
+50107: ```text
+50108: @zero_state
+50109: → @mote_creation_operator
+50110: 
+50111: @mote_creation_operator
+50112: → @genesis_partial_isometry
+50113: 
+50114: @genesis_partial_isometry
+50115: → @mote_hilbert_space
+50116: 
+50117: @mote_lattice
+50118: → @mote_configuration_space
+50119: 
+50120: @mote_configuration_space
+50121: → @mote_chirality
+50122: 
+50123: @mote_chirality
+50124: → @mote_hilbert_space
+50125: 
+50126: @mote_hilbert_space
+50127: → @mote_ensemble
+50128: 
+50129: @infinity_spectrum
+50130: → @collapse_map
+50131: 
+50132: @collapse_map
+50133: → @mote_collapse_profile
+50134: 
+50135: @mote_collapse_profile
+50136: → @mote_hilbert_space
+50137: 
+50138: @white_state_core
+50139: → @white_core_mote_coupling
+50140: 
+50141: @mote_collapse_profile
+50142: → @white_core_mote_coupling
+50143: 
+50144: @mote_creation_operator
+50145: → @white_core_mote_coupling
+50146: 
+50147: @white_core_mote_coupling
+50148: → @mote
+50149: 
+50150: @mote_ensemble
+50151: → @er_foam
+50152: 
+50153: @mote_ensemble
+50154: → @time_shell
+50155: 
+50156: @mote
+50157: → @chirality_occupancy_cube
+50158: 
+50159: @chirality_occupancy_cube
+50160: → @chirality_space
+50161: ```
+50162: 
+50163: # Open Mathematical Audit Items
+50164: 
+50165: ```text
+50166: [OPEN] Correct or reinterpret the source diagonal equations.
+50167: [OPEN] Specify whether the worked constrained mote sector has exactly two states.
+50168: [OPEN] Define adjacency edges on the eight-site lattice explicitly.
+50169: [OPEN] Define the mirror action on site coordinates.
+50170: [OPEN] Determine the traversal map producing each serialized byte.
+50171: [OPEN] Extend the number operator beyond the single-mote sector.
+50172: [OPEN] State algebraic relations for multi-mote creation.
+50173: [OPEN] Define the tensor-product or Fock-space construction for mote ensembles.
+50174: [OPEN] Derive ER-foam assembly rules from mote adjacency.
+50175: [OPEN] Relate the mote Hilbert sector to the canonical field-handoff bundle.
+50176: ```
+50177: 
+50178: # RP-22 Status
+50179: 
+50180: ```text
+
+===== RP23 audit warnings including exact adjacency graph gap | source lines 51040-51105 =====
+51040:     distinguishable organization at recursive depth d
+51041: 
+51042: B_d:
+51043:     available organizational freedom at recursive depth d
+51044: 
+51045: I_d:
+51046:     inherited organization at recursive depth d
+51047: 
+51048: O_d:
+51049:     occupancy structure at recursive depth d
+51050: 
+51051: C_d:
+51052:     chirality contribution at recursive depth d
+51053: 
+51054: Π_persist:
+51055:     persistence-potential aggregator
+51056: 
+51057: Π_occ:
+51058:     recursive occupancy projection operator
+51059: 
+51060: χ_occ:
+51061:     recursively structured occupancy/chirality state
+51062: 
+51063: χ_map:
+51064:     foundational chirality map
+51065: 
+51066: λ_close:
+51067:     localization/closure parameter.
+51068: ```
+51069: 
+51070: # Audit Warnings
+51071: 
+51072: ```text
+51073: [OPEN] The product I_d B_d R_d O_d C_d has not yet been assigned
+51074:        an algebraic type guaranteeing multiplication is defined.
+51075: 
+51076: [OPEN] The codomain of Π_persist remains unspecified.
+51077: 
+51078: [OPEN] χ is used both as chirality and as recursively structured occupancy;
+51079:        typed namespaces remain mandatory.
+51080: 
+51081: [OPEN] The mote closure predicate is a recovered system scaffold,
+51082:        not an exact source equation.
+51083: 
+51084: [OPEN] The relation between local five-dimensional state
+51085:        (x,y,z;χ;h) and formal Time-Space remains unresolved.
+51086: 
+51087: [OPEN] The source diagonal inconsistency in the mote remains unresolved.
+51088: 
+51089: [OPEN] The exact adjacency graph N(x,y,z) for the eight-site mote
+51090:        has not been recovered.
+51091: ```
+51092: 
+51093: # RP-23 Status
+51094: 
+51095: ```text
+51096: GENESIS_SYSTEM: thickened
+51097: RESOLUTION_SYSTEM: thickened
+51098: BANDWIDTH_SYSTEM: thickened
+51099: INHERITANCE_SYSTEM: thickened
+51100: OCCUPANCY_SYSTEM: thickened
+51101: PERSISTENCE_SYSTEM: thickened
+51102: CHIRALITY_SYSTEM: audited
+51103: 2X2X2_MOTE: integrated into upper dependency system
+51104: INTERDEPENDENCY_GRAPH: expanded
+51105: NEW_HANDLES_ISOLATED: 6

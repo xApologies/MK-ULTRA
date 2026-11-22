@@ -1,0 +1,77 @@
+{
+  "handle": "@observational_graph",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@observational_graph",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@observational_graph",
+        "relation": "GENERALIZES",
+        "target": "@dependency_graph",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@dependency_graph SPECIALIZES_AS @observational_graph); rule=SPECIALIZES_AS→GENERALIZES"
+      },
+      {
+        "source": "@dependency_graph",
+        "relation": "SPECIALIZES_AS",
+        "target": "@observational_graph",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:52399;CANONICAL_API_TYPED_LINE:52399"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 2154,
+        "source": "@observational_graph",
+        "relation": "GENERALIZES",
+        "target": "@dependency_graph",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@dependency_graph SPECIALIZES_AS @observational_graph); rule=SPECIALIZES_AS→GENERALIZES"
+      },
+      {
+        "id": 304,
+        "source": "@dependency_graph",
+        "relation": "SPECIALIZES_AS",
+        "target": "@observational_graph",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:52399;CANONICAL_API_TYPED_LINE:52399"
+      }
+    ]
+  },
+  "address": "@observational_graph",
+  "address_sha256": "5d3c7da527340428a248740f4d54f2f45f072f827578d68fe9b36b3576a25307"
+}

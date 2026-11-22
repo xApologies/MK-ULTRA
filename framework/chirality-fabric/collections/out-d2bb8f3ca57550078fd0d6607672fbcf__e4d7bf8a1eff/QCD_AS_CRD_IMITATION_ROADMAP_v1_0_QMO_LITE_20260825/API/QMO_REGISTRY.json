@@ -1,0 +1,70 @@
+{
+  "schema": "QCD_AS_CRD_IMITATION_QMO_LITE_v1_0",
+  "database": "DATABASE/imitation.sqlite3",
+  "api": "API/mini_qmo_api.py",
+  "addresses": [
+    {
+      "qmo_id": "Q_CRD",
+      "uri": "qmo://crd/frozen",
+      "name": "Frozen CRD",
+      "status": "FROZEN"
+    },
+    {
+      "qmo_id": "Q_SIG",
+      "uri": "qmo://crd/behavior-signature",
+      "name": "CRD Behavioral Signature",
+      "status": "CLOSED"
+    },
+    {
+      "qmo_id": "Q_HEL",
+      "uri": "qmo://mk43/helicon",
+      "name": "Helicon / Transduction",
+      "status": "SOURCE_ARCHITECTURE"
+    },
+    {
+      "qmo_id": "Q_Q",
+      "uri": "qmo://mk43/quantum-handoff",
+      "name": "Quantum-Field Handoff",
+      "status": "PARTIAL"
+    },
+    {
+      "qmo_id": "Q_YM",
+      "uri": "qmo://yang-mills/configuration-space",
+      "name": "Yang-Mills Physical Configuration Space",
+      "status": "COMPARISON_TARGET"
+    },
+    {
+      "qmo_id": "Q_RYM",
+      "uri": "qmo://yang-mills/evolution",
+      "name": "Yang-Mills Evolution",
+      "status": "COMPARISON_TARGET"
+    },
+    {
+      "qmo_id": "Q_PI",
+      "uri": "qmo://bridge/crd-yang-mills/readout",
+      "name": "CRD-to-Yang-Mills Readout",
+      "status": "OPEN"
+    },
+    {
+      "qmo_id": "Q_IMIT",
+      "uri": "qmo://bridge/crd-yang-mills/imitation-contract",
+      "name": "QCD-as-CRD Imitation Contract",
+      "status": "CLOSED_FORMAL"
+    },
+    {
+      "qmo_id": "Q_QCD",
+      "uri": "qmo://qcd/specialization",
+      "name": "QCD Specialization",
+      "status": "FUTURE_QUALIFIED"
+    },
+    {
+      "qmo_id": "Q_GB",
+      "uri": "qmo://qcd/glueball-test",
+      "name": "Glueball Test",
+      "status": "LOCKED"
+    }
+  ],
+  "last_pass": "qmo://bridge/crd-yang-mills/imitation-contract",
+  "current_blocker": "qmo://bridge/crd-yang-mills/readout",
+  "locked_test": "qmo://qcd/glueball-test"
+}

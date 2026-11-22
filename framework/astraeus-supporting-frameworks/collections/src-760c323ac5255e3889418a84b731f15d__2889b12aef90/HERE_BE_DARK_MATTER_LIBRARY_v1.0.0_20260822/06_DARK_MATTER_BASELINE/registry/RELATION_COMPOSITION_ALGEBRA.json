@@ -1,0 +1,36 @@
+{
+  "schema": "DM20_RELATION_COMPOSITION_ALGEBRA",
+  "orientation": {
+    "USES": "forward",
+    "DEPENDS_ON": "forward",
+    "CONSTRAINED_BY": "forward",
+    "SCHUR_REDUCES": "forward",
+    "DESCENDS_FROM": "forward",
+    "CONTAINS": "forward",
+    "COMPARES": "forward",
+    "REQUIRES": "forward",
+    "MAY_MODULATE": "forward",
+    "BOUNDS": "reverse",
+    "REALIZES": "forward",
+    "READS_OUT_AT": "reverse",
+    "QUALIFIES_MEMBERSHIP_IN": "reverse",
+    "SUPPLIES_MODE0_ACCESS_INTERFACE": "reverse",
+    "HAS_ACTIVE_GEOMETRY_LEVEL": "reverse",
+    "SATURATION_GUARDS": "none",
+    "SELECTS_ACCESS_TO": "none",
+    "TARGETS": "none",
+    "CORRESPONDS_TO": "none",
+    "CONSTRAINS": "none",
+    "OPTIONALLY_REQUIRES": "none",
+    "REPRESENTS_AS": "none",
+    "NOT_REQUIRED_FOR": "none",
+    "SUBSET_OF": "forward"
+  },
+  "policy": "Only relations with explicit forward/reverse dependency orientation enter generic self-composition. Open handles remain queryable but are never promoted by composition.",
+  "semantic_correction_2_1_final": {
+    "relation": "REALIZES",
+    "old_orientation": "reverse",
+    "new_orientation": "forward",
+    "reason": "A concrete realization/family depends on the abstract type it realizes. The abstract parent type does not acquire a definition dependency on a child realization."
+  }
+}

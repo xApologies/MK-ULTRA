@@ -1,0 +1,77 @@
+{
+  "handle": "@cognitive_persistence",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@cognitive_persistence",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@cognitive_persistence",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@conscious_experience",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:1730->1732"
+      },
+      {
+        "source": "@cosmology",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@cognitive_persistence",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "DEPENDENCY_GRAPH_2_10.md:1589->1593"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 187,
+        "source": "@cognitive_persistence",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@conscious_experience",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:1730->1732"
+      },
+      {
+        "id": 279,
+        "source": "@cosmology",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@cognitive_persistence",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "DEPENDENCY_GRAPH_2_10.md:1589->1593"
+      }
+    ]
+  },
+  "address": "@cognitive_persistence",
+  "address_sha256": "8e2cbf6fe56d37f8a297b5c16243a82af107a78f9c436d846fe41ace7555e83c"
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1",
+  "landscape_id": "DL-DM-E066-RESIDUE-Q-SURVIVAL",
+  "seed": "@dm_projection_residue_survival",
+  "status": "APPEND_ONLY_CONDITIONAL",
+  "nodes": [
+    "@dm_conditional_boundary_residue_seed",
+    "@dm_projection_residue_survival",
+    "@residue_quantum_field_bundle",
+    "@dm_q_completion_family",
+    "@dm_q_survival",
+    "@dm_conditional_q_handoff_distinction",
+    "@dm_metric_action_selection"
+  ],
+  "terminal": {
+    "state": "OPEN_FORK",
+    "iteration": 3,
+    "focus": "@dm_metric_action_selection",
+    "reason": "Projection/residue and Q survival close conditionally; stress-energy requires a metric-coupled action branch."
+  }
+}

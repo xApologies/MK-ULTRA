@@ -1,0 +1,30 @@
+{
+  "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+  "handle": "@dm_conditional_ucm_qualification_witness",
+  "canonical_name": "Conditional UCM-Native Dark-Matter Qualification Witness",
+  "type": "ConditionalMatchedFullVisibleQualificationWitness",
+  "status": "LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT",
+  "checkpoint": "E076",
+  "definition": "A complete conditional DM_R witness template whose stress-energy separation is supplied by the native UCM source lane rather than the E069 scalar proxy.",
+  "math": "(u_f,u_v) in DM_R conditional on WA-E064-002, WA-E065-001, WA-E066-001, WA-E075-001.",
+  "parents": [
+    "@dm_dark_matter_qualification_locus",
+    "@dm_conditional_ucm_stress_energy_witness",
+    "@dm_conditional_boundary_residue_seed",
+    "@dm_conditional_q_handoff_distinction"
+  ],
+  "working_assumptions": [
+    "WA-DM-E064-002",
+    "WA-DM-E065-001",
+    "WA-DM-E066-001",
+    "WA-DM-E075-001"
+  ],
+  "proof_debt": [
+    "PD-DM-001",
+    "PD-DM-002",
+    "PD-DM-004",
+    "PD-DM-007"
+  ],
+  "physical_claim": false,
+  "baseline_mutation": false
+}

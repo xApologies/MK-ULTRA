@@ -1,0 +1,1186 @@
+{
+  "inputs": [
+    {
+      "handle": "@number_scale_reparameterization_frontier",
+      "kind": "qmo"
+    },
+    {
+      "handle": "@valuation_fiber_quotient",
+      "kind": "qmo"
+    },
+    {
+      "handle": "@bandwidth_capacity_order",
+      "kind": "qmo"
+    },
+    {
+      "handle": "@unit_value_role",
+      "kind": "qmo"
+    },
+    {
+      "handle": "@unit_order_reparameterization_stabilizer",
+      "kind": "qmo"
+    },
+    {
+      "handle": "@relative_value_transport",
+      "kind": "qmo"
+    }
+  ],
+  "roots": [
+    "@number_scale_reparameterization_frontier",
+    "@valuation_fiber_quotient",
+    "@bandwidth_capacity_order",
+    "@unit_value_role",
+    "@unit_order_reparameterization_stabilizer",
+    "@relative_value_transport"
+  ],
+  "member_qmos": [
+    "@bandwidth_algebra",
+    "@bandwidth_capacity_order",
+    "@bandwidth_scalar_valuation",
+    "@classifier_readout_role",
+    "@closed_domain_unity",
+    "@foundational_valuation_lift",
+    "@global_transduction_object",
+    "@identity_witness",
+    "@it_number_unit_normalization_4",
+    "@number_object_readout_frontier",
+    "@number_ontology",
+    "@number_scale_reparameterization_frontier",
+    "@number_unit_normalization_frontier",
+    "@number_valuation_codomain_frontier",
+    "@numeral_role_polymorphism",
+    "@numerical_codomain_circularity_defect",
+    "@object_mathematics",
+    "@rainbow_road_recursive_domain",
+    "@relative_value_transport",
+    "@theorem_fiber_structure_not_numerical",
+    "@theorem_object_before_scalarization",
+    "@theorem_order_precedes_scalarization",
+    "@theorem_unit_order_underdetermination",
+    "@theorem_unit_value_not_counting",
+    "@theorem_valuation_factorization",
+    "@transduction",
+    "@unit_anchored_ordered_value_domain",
+    "@unit_closed_unity_nonidentity_guard",
+    "@unit_normalization_invariant",
+    "@unit_order_reparameterization_stabilizer",
+    "@unit_string_configuration_domain",
+    "@unit_value_role",
+    "@valuation_fiber_equivalence",
+    "@valuation_fiber_quotient",
+    "@valuation_readout_role",
+    "@value_domain_reparameterization"
+  ],
+  "member_edge_ids": [
+    "E-00027",
+    "E-00103",
+    "E-00106",
+    "E-00281",
+    "E-00285",
+    "E-00306",
+    "E-00307",
+    "E-00308",
+    "E-00314",
+    "E-00315",
+    "E-00318",
+    "E-00325",
+    "E-00327",
+    "E-00367",
+    "E-00370",
+    "E-00371",
+    "E-00372",
+    "E-00373",
+    "E-00374",
+    "E-00377",
+    "E-00378",
+    "E-00379",
+    "E-00380",
+    "E-00381",
+    "E-00382",
+    "E-00398",
+    "E-00401",
+    "E-00402",
+    "E-00403",
+    "E-00406",
+    "E-00407",
+    "E-00408",
+    "E-00409",
+    "E-00410",
+    "E-00411",
+    "E-00412",
+    "E-00413",
+    "E-00414",
+    "E-00415",
+    "E-00416",
+    "E-00417",
+    "E-00418",
+    "E-00419",
+    "E-00420",
+    "E-00421",
+    "E-00422",
+    "E-00423",
+    "E-00424",
+    "E-00425",
+    "RR-00138"
+  ],
+  "member_edges": [
+    {
+      "edge_id": "E-00027",
+      "source": "@transduction",
+      "relation": "IS_MORPHISM_IN",
+      "target": "@global_transduction_object",
+      "graph_family": "categorical",
+      "status": "SOURCE_IMPORTED",
+      "confidence": "high",
+      "audit_status": "live_model_derived",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::L-218;L-234"
+      ]
+    },
+    {
+      "edge_id": "E-00103",
+      "source": "@number_ontology",
+      "relation": "DOWNSTREAM_OF",
+      "target": "@object_mathematics",
+      "graph_family": "object_math",
+      "status": "PARKED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "edge_id": "E-00106",
+      "source": "@object_mathematics",
+      "relation": "USES_NATIVE_BRANCH",
+      "target": "@transduction",
+      "graph_family": "native_mount",
+      "status": "SOURCE_BACKED",
+      "confidence": "high",
+      "audit_status": "vera_audited",
+      "provenance": [
+        "transduction_geometry::API"
+      ]
+    },
+    {
+      "edge_id": "E-00281",
+      "source": "@number_object_readout_frontier",
+      "relation": "USES",
+      "target": "@transduction",
+      "graph_family": "signature_role_and_number_return",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_007_ROLE_SEPARATION_AND_NUMBER_RETURN",
+        "R-025",
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "SELF_BUILD_PASS_005_SIGNATURE_REALIZATION",
+        "SELF_BUILD_PASS_006_SIGNATURE_ROLE_NORMALIZATION",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "QMO:@recovery_history_signature_quotient",
+        "QMO:@holonomy_history_signature"
+      ]
+    },
+    {
+      "edge_id": "E-00285",
+      "source": "@number_object_readout_frontier",
+      "relation": "CONSTRAINS",
+      "target": "@number_ontology",
+      "graph_family": "signature_role_and_number_return",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_007_ROLE_SEPARATION_AND_NUMBER_RETURN",
+        "R-025",
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "SELF_BUILD_PASS_005_SIGNATURE_REALIZATION",
+        "SELF_BUILD_PASS_006_SIGNATURE_ROLE_NORMALIZATION",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "QMO:@recovery_history_signature_quotient",
+        "QMO:@holonomy_history_signature"
+      ]
+    },
+    {
+      "edge_id": "E-00306",
+      "source": "@bandwidth_algebra",
+      "relation": "HAS_OPTIONAL_READOUT",
+      "target": "@bandwidth_scalar_valuation",
+      "graph_family": "number_valuation_probe",
+      "status": "SOURCE_BACKED",
+      "confidence": "high",
+      "audit_status": "source",
+      "provenance": [
+        "SELF_BUILD_PASS_008_VALUATION_ROLE_PROBE",
+        "R-026",
+        "BANDWIDTH_ALGEBRA::FORMAL/00_EXECUTIVE_SUMMARY.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "TRANSDUCTION_GEOMETRY::@classifier_scope",
+        "QMO:@dl_number_object_readout",
+        "QMO:@it_number_object_readout_3"
+      ]
+    },
+    {
+      "edge_id": "E-00307",
+      "source": "@bandwidth_scalar_valuation",
+      "relation": "READS",
+      "target": "@bandwidth_algebra",
+      "graph_family": "number_valuation_probe",
+      "status": "SOURCE_BACKED",
+      "confidence": "high",
+      "audit_status": "source",
+      "provenance": [
+        "SELF_BUILD_PASS_008_VALUATION_ROLE_PROBE",
+        "R-026",
+        "BANDWIDTH_ALGEBRA::FORMAL/00_EXECUTIVE_SUMMARY.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "TRANSDUCTION_GEOMETRY::@classifier_scope",
+        "QMO:@dl_number_object_readout",
+        "QMO:@it_number_object_readout_3"
+      ]
+    },
+    {
+      "edge_id": "E-00308",
+      "source": "@bandwidth_scalar_valuation",
+      "relation": "HAS_ROLE",
+      "target": "@valuation_readout_role",
+      "graph_family": "number_valuation_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_008_VALUATION_ROLE_PROBE",
+        "R-026",
+        "BANDWIDTH_ALGEBRA::FORMAL/00_EXECUTIVE_SUMMARY.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "TRANSDUCTION_GEOMETRY::@classifier_scope",
+        "QMO:@dl_number_object_readout",
+        "QMO:@it_number_object_readout_3"
+      ]
+    },
+    {
+      "edge_id": "E-00314",
+      "source": "@theorem_object_before_scalarization",
+      "relation": "USES",
+      "target": "@bandwidth_scalar_valuation",
+      "graph_family": "number_valuation_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_008_VALUATION_ROLE_PROBE",
+        "R-026",
+        "BANDWIDTH_ALGEBRA::FORMAL/00_EXECUTIVE_SUMMARY.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "TRANSDUCTION_GEOMETRY::@classifier_scope",
+        "QMO:@dl_number_object_readout",
+        "QMO:@it_number_object_readout_3"
+      ]
+    },
+    {
+      "edge_id": "E-00315",
+      "source": "@foundational_valuation_lift",
+      "relation": "ABSTRACTS",
+      "target": "@bandwidth_scalar_valuation",
+      "graph_family": "number_valuation_probe",
+      "status": "DERIVED_CANDIDATE",
+      "confidence": "high",
+      "audit_status": "candidate",
+      "provenance": [
+        "SELF_BUILD_PASS_008_VALUATION_ROLE_PROBE",
+        "R-027",
+        "BANDWIDTH_ALGEBRA::FORMAL/00_EXECUTIVE_SUMMARY.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "TRANSDUCTION_GEOMETRY::@classifier_scope",
+        "QMO:@dl_number_object_readout",
+        "QMO:@it_number_object_readout_3"
+      ]
+    },
+    {
+      "edge_id": "E-00318",
+      "source": "@numerical_codomain_circularity_defect",
+      "relation": "AUDITS",
+      "target": "@bandwidth_scalar_valuation",
+      "graph_family": "number_valuation_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_008_VALUATION_ROLE_PROBE",
+        "R-027",
+        "BANDWIDTH_ALGEBRA::FORMAL/00_EXECUTIVE_SUMMARY.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "TRANSDUCTION_GEOMETRY::@classifier_scope",
+        "QMO:@dl_number_object_readout",
+        "QMO:@it_number_object_readout_3"
+      ]
+    },
+    {
+      "edge_id": "E-00325",
+      "source": "@number_valuation_codomain_frontier",
+      "relation": "USES",
+      "target": "@transduction",
+      "graph_family": "number_valuation_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_008_VALUATION_ROLE_PROBE",
+        "R-027",
+        "BANDWIDTH_ALGEBRA::FORMAL/00_EXECUTIVE_SUMMARY.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "TRANSDUCTION_GEOMETRY::@classifier_scope",
+        "QMO:@dl_number_object_readout",
+        "QMO:@it_number_object_readout_3"
+      ]
+    },
+    {
+      "edge_id": "E-00327",
+      "source": "@number_valuation_codomain_frontier",
+      "relation": "CONSTRAINS",
+      "target": "@number_ontology",
+      "graph_family": "number_valuation_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_008_VALUATION_ROLE_PROBE",
+        "R-027",
+        "BANDWIDTH_ALGEBRA::FORMAL/00_EXECUTIVE_SUMMARY.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "TRANSDUCTION_GEOMETRY::@classifier_scope",
+        "QMO:@dl_number_object_readout",
+        "QMO:@it_number_object_readout_3"
+      ]
+    },
+    {
+      "edge_id": "E-00367",
+      "source": "@unit_string_configuration_domain",
+      "relation": "HAS_INVARIANT",
+      "target": "@unit_normalization_invariant",
+      "graph_family": "number_unit_normalization_probe",
+      "status": "SOURCE_BACKED",
+      "confidence": "high",
+      "audit_status": "source",
+      "provenance": [
+        "SELF_BUILD_PASS_009_UNIT_NORMALIZATION_PROBE",
+        "R-028",
+        "BANDWIDTH_ALGEBRA::FORMAL/07_UNIT_STRING_AND_HELICON_INTERFACE.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/09_EXAMPLES.md",
+        "QMO:@number_valuation_codomain_frontier",
+        "QMO:@foundational_valuation_lift"
+      ]
+    },
+    {
+      "edge_id": "E-00370",
+      "source": "@unit_normalization_invariant",
+      "relation": "HAS_ROLE",
+      "target": "@unit_value_role",
+      "graph_family": "number_unit_normalization_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_009_UNIT_NORMALIZATION_PROBE",
+        "R-028",
+        "BANDWIDTH_ALGEBRA::FORMAL/07_UNIT_STRING_AND_HELICON_INTERFACE.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/09_EXAMPLES.md",
+        "QMO:@number_valuation_codomain_frontier",
+        "QMO:@foundational_valuation_lift"
+      ]
+    },
+    {
+      "edge_id": "E-00371",
+      "source": "@theorem_unit_value_not_counting",
+      "relation": "CERTIFIES",
+      "target": "@unit_value_role",
+      "graph_family": "number_unit_normalization_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_009_UNIT_NORMALIZATION_PROBE",
+        "R-028",
+        "BANDWIDTH_ALGEBRA::FORMAL/07_UNIT_STRING_AND_HELICON_INTERFACE.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/09_EXAMPLES.md",
+        "QMO:@number_valuation_codomain_frontier",
+        "QMO:@foundational_valuation_lift"
+      ]
+    },
+    {
+      "edge_id": "E-00372",
+      "source": "@numeral_role_polymorphism",
+      "relation": "DISTINGUISHES",
+      "target": "@unit_value_role",
+      "graph_family": "number_unit_normalization_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_009_UNIT_NORMALIZATION_PROBE",
+        "R-028",
+        "BANDWIDTH_ALGEBRA::FORMAL/07_UNIT_STRING_AND_HELICON_INTERFACE.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/09_EXAMPLES.md",
+        "QMO:@number_valuation_codomain_frontier",
+        "QMO:@foundational_valuation_lift"
+      ]
+    },
+    {
+      "edge_id": "E-00373",
+      "source": "@numeral_role_polymorphism",
+      "relation": "DISTINGUISHES",
+      "target": "@closed_domain_unity",
+      "graph_family": "number_unit_normalization_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_009_UNIT_NORMALIZATION_PROBE",
+        "R-028",
+        "BANDWIDTH_ALGEBRA::FORMAL/07_UNIT_STRING_AND_HELICON_INTERFACE.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/09_EXAMPLES.md",
+        "QMO:@number_valuation_codomain_frontier",
+        "QMO:@foundational_valuation_lift"
+      ]
+    },
+    {
+      "edge_id": "E-00374",
+      "source": "@unit_closed_unity_nonidentity_guard",
+      "relation": "SEPARATES",
+      "target": "@unit_normalization_invariant",
+      "graph_family": "number_unit_normalization_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_009_UNIT_NORMALIZATION_PROBE",
+        "R-028",
+        "BANDWIDTH_ALGEBRA::FORMAL/07_UNIT_STRING_AND_HELICON_INTERFACE.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/09_EXAMPLES.md",
+        "QMO:@number_valuation_codomain_frontier",
+        "QMO:@foundational_valuation_lift"
+      ]
+    },
+    {
+      "edge_id": "E-00377",
+      "source": "@number_valuation_codomain_frontier",
+      "relation": "ADVANCES_TO",
+      "target": "@number_unit_normalization_frontier",
+      "graph_family": "number_unit_normalization_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_009_UNIT_NORMALIZATION_PROBE",
+        "R-029",
+        "BANDWIDTH_ALGEBRA::FORMAL/07_UNIT_STRING_AND_HELICON_INTERFACE.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/09_EXAMPLES.md",
+        "QMO:@number_valuation_codomain_frontier",
+        "QMO:@foundational_valuation_lift"
+      ]
+    },
+    {
+      "edge_id": "E-00378",
+      "source": "@number_unit_normalization_frontier",
+      "relation": "USES",
+      "target": "@unit_normalization_invariant",
+      "graph_family": "number_unit_normalization_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_009_UNIT_NORMALIZATION_PROBE",
+        "R-029",
+        "BANDWIDTH_ALGEBRA::FORMAL/07_UNIT_STRING_AND_HELICON_INTERFACE.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/09_EXAMPLES.md",
+        "QMO:@number_valuation_codomain_frontier",
+        "QMO:@foundational_valuation_lift"
+      ]
+    },
+    {
+      "edge_id": "E-00379",
+      "source": "@number_unit_normalization_frontier",
+      "relation": "USES",
+      "target": "@foundational_valuation_lift",
+      "graph_family": "number_unit_normalization_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_009_UNIT_NORMALIZATION_PROBE",
+        "R-029",
+        "BANDWIDTH_ALGEBRA::FORMAL/07_UNIT_STRING_AND_HELICON_INTERFACE.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/09_EXAMPLES.md",
+        "QMO:@number_valuation_codomain_frontier",
+        "QMO:@foundational_valuation_lift"
+      ]
+    },
+    {
+      "edge_id": "E-00380",
+      "source": "@number_unit_normalization_frontier",
+      "relation": "USES",
+      "target": "@transduction",
+      "graph_family": "number_unit_normalization_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_009_UNIT_NORMALIZATION_PROBE",
+        "R-029",
+        "BANDWIDTH_ALGEBRA::FORMAL/07_UNIT_STRING_AND_HELICON_INTERFACE.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/09_EXAMPLES.md",
+        "QMO:@number_valuation_codomain_frontier",
+        "QMO:@foundational_valuation_lift"
+      ]
+    },
+    {
+      "edge_id": "E-00381",
+      "source": "@number_unit_normalization_frontier",
+      "relation": "USES",
+      "target": "@identity_witness",
+      "graph_family": "number_unit_normalization_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_009_UNIT_NORMALIZATION_PROBE",
+        "R-029",
+        "BANDWIDTH_ALGEBRA::FORMAL/07_UNIT_STRING_AND_HELICON_INTERFACE.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/09_EXAMPLES.md",
+        "QMO:@number_valuation_codomain_frontier",
+        "QMO:@foundational_valuation_lift"
+      ]
+    },
+    {
+      "edge_id": "E-00382",
+      "source": "@number_unit_normalization_frontier",
+      "relation": "CONSTRAINS",
+      "target": "@number_ontology",
+      "graph_family": "number_unit_normalization_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_009_UNIT_NORMALIZATION_PROBE",
+        "R-029",
+        "BANDWIDTH_ALGEBRA::FORMAL/07_UNIT_STRING_AND_HELICON_INTERFACE.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/09_EXAMPLES.md",
+        "QMO:@number_valuation_codomain_frontier",
+        "QMO:@foundational_valuation_lift"
+      ]
+    },
+    {
+      "edge_id": "E-00398",
+      "source": "@it_number_unit_normalization_4",
+      "relation": "HAS_ITERATION_SEED",
+      "target": "@number_unit_normalization_frontier",
+      "graph_family": "iteration_metadata",
+      "status": "DERIVED_ARCHITECTURE",
+      "confidence": "high",
+      "audit_status": "architectural",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_bounded_qmo_iteration",
+        "QMO:@number_unit_normalization_frontier",
+        "QMO:@bounded_recursive_iteration",
+        "QMO:@bounded_dependency_crawl",
+        "QMO:@it_number_unit_normalization_4_landscape"
+      ]
+    },
+    {
+      "edge_id": "E-00401",
+      "source": "@valuation_fiber_equivalence",
+      "relation": "INDUCED_BY",
+      "target": "@foundational_valuation_lift",
+      "graph_family": "number_value_scale_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "R-030",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ]
+    },
+    {
+      "edge_id": "E-00402",
+      "source": "@valuation_fiber_quotient",
+      "relation": "QUOTIENTS_BY",
+      "target": "@valuation_fiber_equivalence",
+      "graph_family": "number_value_scale_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "R-030",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ]
+    },
+    {
+      "edge_id": "E-00403",
+      "source": "@theorem_valuation_factorization",
+      "relation": "CERTIFIES",
+      "target": "@valuation_fiber_quotient",
+      "graph_family": "number_value_scale_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "R-030",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ]
+    },
+    {
+      "edge_id": "E-00406",
+      "source": "@theorem_fiber_structure_not_numerical",
+      "relation": "USES",
+      "target": "@valuation_fiber_quotient",
+      "graph_family": "number_value_scale_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "R-030",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ]
+    },
+    {
+      "edge_id": "E-00407",
+      "source": "@theorem_fiber_structure_not_numerical",
+      "relation": "COMPARES_WITH",
+      "target": "@classifier_readout_role",
+      "graph_family": "number_value_scale_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "R-030",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ]
+    },
+    {
+      "edge_id": "E-00408",
+      "source": "@bandwidth_capacity_order",
+      "relation": "PRECEDES",
+      "target": "@bandwidth_scalar_valuation",
+      "graph_family": "number_value_scale_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "R-031",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ]
+    },
+    {
+      "edge_id": "E-00409",
+      "source": "@theorem_order_precedes_scalarization",
+      "relation": "CERTIFIES",
+      "target": "@bandwidth_capacity_order",
+      "graph_family": "number_value_scale_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "R-031",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ]
+    },
+    {
+      "edge_id": "E-00410",
+      "source": "@unit_anchored_ordered_value_domain",
+      "relation": "USES",
+      "target": "@valuation_fiber_quotient",
+      "graph_family": "number_value_scale_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "R-031",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ]
+    },
+    {
+      "edge_id": "E-00411",
+      "source": "@unit_anchored_ordered_value_domain",
+      "relation": "USES",
+      "target": "@bandwidth_capacity_order",
+      "graph_family": "number_value_scale_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "R-031",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ]
+    },
+    {
+      "edge_id": "E-00412",
+      "source": "@unit_anchored_ordered_value_domain",
+      "relation": "USES",
+      "target": "@unit_value_role",
+      "graph_family": "number_value_scale_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "R-031",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ]
+    },
+    {
+      "edge_id": "E-00413",
+      "source": "@value_domain_reparameterization",
+      "relation": "ACTS_ON",
+      "target": "@unit_anchored_ordered_value_domain",
+      "graph_family": "number_value_scale_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "R-032",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ]
+    },
+    {
+      "edge_id": "E-00414",
+      "source": "@unit_order_reparameterization_stabilizer",
+      "relation": "CLASSIFIES",
+      "target": "@value_domain_reparameterization",
+      "graph_family": "number_value_scale_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "R-032",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ]
+    },
+    {
+      "edge_id": "E-00415",
+      "source": "@theorem_unit_order_underdetermination",
+      "relation": "CERTIFIES",
+      "target": "@unit_order_reparameterization_stabilizer",
+      "graph_family": "number_value_scale_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "R-032",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ]
+    },
+    {
+      "edge_id": "E-00416",
+      "source": "@theorem_unit_order_underdetermination",
+      "relation": "CONSTRAINS",
+      "target": "@number_ontology",
+      "graph_family": "number_value_scale_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "R-032",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ]
+    },
+    {
+      "edge_id": "E-00417",
+      "source": "@relative_value_transport",
+      "relation": "USES",
+      "target": "@transduction",
+      "graph_family": "number_value_scale_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "R-033",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ]
+    },
+    {
+      "edge_id": "E-00418",
+      "source": "@relative_value_transport",
+      "relation": "ACTS_ON",
+      "target": "@valuation_fiber_quotient",
+      "graph_family": "number_value_scale_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "R-033",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ]
+    },
+    {
+      "edge_id": "E-00419",
+      "source": "@relative_value_transport",
+      "relation": "ANCHORED_BY",
+      "target": "@unit_value_role",
+      "graph_family": "number_value_scale_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "R-033",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ]
+    },
+    {
+      "edge_id": "E-00420",
+      "source": "@number_scale_reparameterization_frontier",
+      "relation": "USES",
+      "target": "@valuation_fiber_quotient",
+      "graph_family": "number_value_scale_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "R-033",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ]
+    },
+    {
+      "edge_id": "E-00421",
+      "source": "@number_scale_reparameterization_frontier",
+      "relation": "USES",
+      "target": "@unit_anchored_ordered_value_domain",
+      "graph_family": "number_value_scale_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "R-033",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ]
+    },
+    {
+      "edge_id": "E-00422",
+      "source": "@number_scale_reparameterization_frontier",
+      "relation": "USES",
+      "target": "@unit_order_reparameterization_stabilizer",
+      "graph_family": "number_value_scale_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "R-033",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ]
+    },
+    {
+      "edge_id": "E-00423",
+      "source": "@number_scale_reparameterization_frontier",
+      "relation": "TESTS",
+      "target": "@relative_value_transport",
+      "graph_family": "number_value_scale_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "R-033",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ]
+    },
+    {
+      "edge_id": "E-00424",
+      "source": "@number_scale_reparameterization_frontier",
+      "relation": "CONSTRAINS",
+      "target": "@number_ontology",
+      "graph_family": "number_value_scale_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "R-033",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ]
+    },
+    {
+      "edge_id": "E-00425",
+      "source": "@number_unit_normalization_frontier",
+      "relation": "RESOLVES_TO",
+      "target": "@number_scale_reparameterization_frontier",
+      "graph_family": "number_value_scale_probe",
+      "status": "DERIVED_INTERNAL",
+      "confidence": "high",
+      "audit_status": "closure_certified",
+      "provenance": [
+        "SELF_BUILD_PASS_010_011_VALUE_FIBER_SCALE_PROBE",
+        "R-033",
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ]
+    },
+    {
+      "edge_id": "RR-00138",
+      "source": "@rainbow_road_recursive_domain",
+      "relation": "TRANSDUCES_VIA",
+      "target": "@transduction",
+      "graph_family": "rainbow_runtime",
+      "status": "DERIVED_CLOSED",
+      "confidence": "high",
+      "audit_status": "closure_contract",
+      "provenance": [
+        "LIVE_MODEL::NF-007"
+      ]
+    }
+  ],
+  "statistics": {
+    "qmo_count": 36,
+    "edge_count": 50
+  },
+  "resolution_context": {
+    "operator": "@resolution",
+    "policy": "PRESERVE_MEMBER_RESOLUTION_STATE; NO_EXTRA_QUOTIENT_BY_LANDSCAPE",
+    "landscape_resolution": "QUERY_RELATIVE_AND_HISTORY_BEARING"
+  },
+  "bandwidth_context": {
+    "operator": "@bandwidth_algebra",
+    "policy": "REGISTERED_EDGE_AVAILABILITY_ONLY; LANDSCAPE_DOES_NOT_INVENT_AVAILABLE_TRANSFORMATIONS",
+    "landscape_bandwidth": "AVAILABLE_MEMBER_DEPENDENCY_STRUCTURE"
+  },
+  "landscape_id": "DL-b1c836b5d4ba",
+  "qmo_address": "@dl_number_scale_reparameterization",
+  "canonical_name": "Dependency Landscape: @number_scale_reparameterization_frontier, @valuation_fiber_quotient, @bandwidth_capacity_order, @unit_value_role, @unit_order_reparameterization_stabilizer, @relative_value_transport",
+  "status": "DERIVED_CLOSED_INTERNAL",
+  "construction": {
+    "operator": "@dependency_landscape",
+    "depth": 2,
+    "direction": "bidirectional",
+    "edge_policy": "REGISTERED_EDGES_ONLY",
+    "member_claim_promotion": false
+  },
+  "history": {
+    "policy": "APPEND_ONLY",
+    "created_in_api_release": "0.15.0",
+    "created_live_model_revision": "v0.28.0",
+    "parent_landscapes": [],
+    "parent_graphs": [],
+    "parent_qmos": [
+      "@number_scale_reparameterization_frontier",
+      "@valuation_fiber_quotient",
+      "@bandwidth_capacity_order",
+      "@unit_value_role",
+      "@unit_order_reparameterization_stabilizer",
+      "@relative_value_transport"
+    ]
+  },
+  "provenance": [
+    "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+    "GENESIS_DIRECTION::2026-08-22",
+    "RUNTIME_REGISTER",
+    "QMO:@number_scale_reparameterization_frontier",
+    "QMO:@valuation_fiber_quotient",
+    "QMO:@bandwidth_capacity_order",
+    "QMO:@unit_value_role",
+    "QMO:@unit_order_reparameterization_stabilizer",
+    "QMO:@relative_value_transport"
+  ],
+  "semantic_guard": "Landscape membership preserves member status; registration does not promote member claims."
+}

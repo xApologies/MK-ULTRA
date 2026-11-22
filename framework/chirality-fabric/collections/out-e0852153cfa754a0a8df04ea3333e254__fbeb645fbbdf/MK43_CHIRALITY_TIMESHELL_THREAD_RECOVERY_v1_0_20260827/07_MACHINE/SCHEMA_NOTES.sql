@@ -1,0 +1,2 @@
+-- thread_recovery.sqlite schema
+-- tables: meta, artifacts, chronology, concepts, relations, statements, equations, analogies, qmo_discoveries, open_questions, recovery_rules

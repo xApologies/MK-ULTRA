@@ -1,0 +1,960 @@
+{
+  "handle": "@dm_projection_residue_survival",
+  "record": {
+    "handle": "@dm_projection_residue_survival",
+    "name": "Projection-Residue Survival Test",
+    "origin": "DARKMATTER_2.0",
+    "namespace": "boundary",
+    "type": "FullVsVisibleSurvivalTest",
+    "status": "ATLAS_DERIVED_ACTIVE",
+    "criticality": "critical",
+    "definition": "Tests whether matched full and visible-only constructions remain distinguishable after boundary projection and invariant-residue bundle construction.",
+    "math": "B_full^R not ~=_F B_vis^R is a sufficient field-bundle survival witness.",
+    "source_refs": [
+      "ATLAS_V36:FORMAL/225_V36_PROJECTION_RESIDUE_SURVIVAL_TEST.md"
+    ]
+  },
+  "incoming": [
+    {
+      "source": "@dm_q_survival",
+      "relation": "DEPENDS_ON",
+      "target": "@dm_projection_residue_survival",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.1",
+      "origin": "DARKMATTER_2.1"
+    }
+  ],
+  "outgoing": [
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "DEPENDS_ON",
+      "target": "@boundary_projection",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.1",
+      "origin": "DARKMATTER_2.1"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "DEPENDS_ON",
+      "target": "@dm_hidden_boundary_contact",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.1",
+      "origin": "DARKMATTER_2.1"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "DEPENDS_ON",
+      "target": "@residue_quantum_field_bundle",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.1",
+      "origin": "DARKMATTER_2.1"
+    }
+  ],
+  "composed_in": [
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@dm_projection_residue_survival",
+      "primitive_depth": 2,
+      "shortest_path": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_q_survival",
+        "@dm_projection_residue_survival"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    }
+  ],
+  "composed_out": [
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@admissible_equivalence",
+      "primitive_depth": 4,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@dm_hidden_persistent_subset",
+        "@dm_formal_persistence_qualification",
+        "@admissible_equivalence"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@bandwidth",
+      "primitive_depth": 8,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@dm_hidden_persistent_subset",
+        "@dm_formal_persistence_qualification",
+        "@inheritance_morphism",
+        "@recursive_inheritance",
+        "@genesis_field",
+        "@resolution",
+        "@bandwidth"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@black_hole",
+      "primitive_depth": 7,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam",
+        "@helicon",
+        "@graviton",
+        "@black_hole"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@black_hole_information_closure",
+      "primitive_depth": 8,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam",
+        "@helicon",
+        "@graviton",
+        "@black_hole",
+        "@black_hole_information_closure"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@chirality",
+      "primitive_depth": 10,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@dm_hidden_persistent_subset",
+        "@dm_formal_persistence_qualification",
+        "@inheritance_morphism",
+        "@recursive_inheritance",
+        "@genesis_field",
+        "@resolution",
+        "@bandwidth",
+        "@persistence",
+        "@chirality"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@chirality_map",
+      "primitive_depth": 14,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@dm_hidden_persistent_subset",
+        "@dm_formal_persistence_qualification",
+        "@inheritance_morphism",
+        "@recursive_inheritance",
+        "@genesis_field",
+        "@resolution",
+        "@bandwidth",
+        "@inheritance",
+        "@occupancy",
+        "@persistence_potential",
+        "@persistent_recursive_topology",
+        "@chirality_space",
+        "@chirality_map"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@chirality_space",
+      "primitive_depth": 13,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@dm_hidden_persistent_subset",
+        "@dm_formal_persistence_qualification",
+        "@inheritance_morphism",
+        "@recursive_inheritance",
+        "@genesis_field",
+        "@resolution",
+        "@bandwidth",
+        "@inheritance",
+        "@occupancy",
+        "@persistence_potential",
+        "@persistent_recursive_topology",
+        "@chirality_space"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@chirality_transport",
+      "primitive_depth": 15,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@dm_hidden_persistent_subset",
+        "@dm_formal_persistence_qualification",
+        "@inheritance_morphism",
+        "@recursive_inheritance",
+        "@genesis_field",
+        "@resolution",
+        "@bandwidth",
+        "@inheritance",
+        "@occupancy",
+        "@persistence_potential",
+        "@persistent_recursive_topology",
+        "@chirality_space",
+        "@chirality_map",
+        "@chirality_transport"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@coherent_continuation_class",
+      "primitive_depth": 5,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@dm_hidden_persistent_subset",
+        "@dm_formal_persistence_qualification",
+        "@admissible_equivalence",
+        "@coherent_continuation_class"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@coherent_helicon_propagation",
+      "primitive_depth": 6,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam",
+        "@helicon",
+        "@coherent_helicon_propagation"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@configuration_space_3_1_1",
+      "primitive_depth": 6,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam",
+        "@time_shell",
+        "@configuration_space_3_1_1"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@continuation_operator",
+      "primitive_depth": 16,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@dm_hidden_persistent_subset",
+        "@dm_formal_persistence_qualification",
+        "@inheritance_morphism",
+        "@recursive_inheritance",
+        "@genesis_field",
+        "@resolution",
+        "@bandwidth",
+        "@inheritance",
+        "@occupancy",
+        "@persistence_potential",
+        "@persistent_recursive_topology",
+        "@time_space",
+        "@structured_temporal_manifold",
+        "@temporal_metric",
+        "@continuation_operator"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@continuity_perturbation",
+      "primitive_depth": 7,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam",
+        "@helicon",
+        "@graviton",
+        "@continuity_perturbation"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@dm_formal_persistence_qualification",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@dm_hidden_persistent_subset",
+        "@dm_formal_persistence_qualification"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@dm_hidden_persistent_subset",
+      "primitive_depth": 2,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@dm_hidden_persistent_subset"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@dm_hidden_state_embedding",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@dm_hidden_persistent_subset",
+        "@dm_hidden_state_embedding"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@einstein_field_equation",
+      "primitive_depth": 8,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam",
+        "@helicon",
+        "@graviton",
+        "@black_hole",
+        "@einstein_field_equation"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@einstein_hilbert_action",
+      "primitive_depth": 10,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam",
+        "@helicon",
+        "@graviton",
+        "@black_hole",
+        "@einstein_field_equation",
+        "@metric_variation",
+        "@einstein_hilbert_action"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@einstein_tensor",
+      "primitive_depth": 9,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam",
+        "@helicon",
+        "@graviton",
+        "@black_hole",
+        "@einstein_field_equation",
+        "@einstein_tensor"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@er_foam",
+      "primitive_depth": 4,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@genesis_field",
+      "primitive_depth": 6,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@dm_hidden_persistent_subset",
+        "@dm_formal_persistence_qualification",
+        "@inheritance_morphism",
+        "@recursive_inheritance",
+        "@genesis_field"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@geometry",
+      "primitive_depth": 6,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam",
+        "@time_shell",
+        "@geometry"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@gravitational_helicon_mode",
+      "primitive_depth": 6,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam",
+        "@helicon",
+        "@gravitational_helicon_mode"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@gravitational_radiation",
+      "primitive_depth": 7,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam",
+        "@time_shell",
+        "@gravity",
+        "@gravitational_radiation"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@gravitational_self_coupling",
+      "primitive_depth": 6,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam",
+        "@time_shell",
+        "@gravitational_self_coupling"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@graviton",
+      "primitive_depth": 6,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam",
+        "@helicon",
+        "@graviton"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@graviton_radiative_stability",
+      "primitive_depth": 7,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam",
+        "@time_shell",
+        "@native_constraint_closure",
+        "@graviton_radiative_stability"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@gravity",
+      "primitive_depth": 6,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam",
+        "@time_shell",
+        "@gravity"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@helicon",
+      "primitive_depth": 5,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam",
+        "@helicon"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@helicon_curvature",
+      "primitive_depth": 7,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam",
+        "@helicon",
+        "@helicon_resonance",
+        "@helicon_curvature"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@helicon_resonance",
+      "primitive_depth": 6,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam",
+        "@helicon",
+        "@helicon_resonance"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@inheritance",
+      "primitive_depth": 9,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@dm_hidden_persistent_subset",
+        "@dm_formal_persistence_qualification",
+        "@inheritance_morphism",
+        "@recursive_inheritance",
+        "@genesis_field",
+        "@resolution",
+        "@bandwidth",
+        "@inheritance"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@inheritance_morphism",
+      "primitive_depth": 4,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@dm_hidden_persistent_subset",
+        "@dm_formal_persistence_qualification",
+        "@inheritance_morphism"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@inherited_state_bundle",
+      "primitive_depth": 17,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@dm_hidden_persistent_subset",
+        "@dm_formal_persistence_qualification",
+        "@inheritance_morphism",
+        "@recursive_inheritance",
+        "@genesis_field",
+        "@resolution",
+        "@bandwidth",
+        "@inheritance",
+        "@occupancy",
+        "@persistence_potential",
+        "@persistent_recursive_topology",
+        "@time_space",
+        "@structured_temporal_manifold",
+        "@temporal_metric",
+        "@continuation_operator",
+        "@inherited_state_bundle"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@localized_persistent_topology",
+      "primitive_depth": 6,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam",
+        "@stable_er_foam_knot",
+        "@localized_persistent_topology"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@matter_action",
+      "primitive_depth": 10,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam",
+        "@helicon",
+        "@graviton",
+        "@black_hole",
+        "@einstein_field_equation",
+        "@stress_energy_tensor",
+        "@matter_action"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@matter_coupling",
+      "primitive_depth": 9,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam",
+        "@helicon",
+        "@graviton",
+        "@black_hole",
+        "@einstein_field_equation",
+        "@matter_coupling"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@matter_readable_organization",
+      "primitive_depth": 8,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam",
+        "@stable_er_foam_knot",
+        "@localized_persistent_topology",
+        "@particle_readable_organization",
+        "@matter_readable_organization"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@metric_compatible_connection",
+      "primitive_depth": 10,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam",
+        "@helicon",
+        "@graviton",
+        "@black_hole",
+        "@spacetime",
+        "@readable_space_time",
+        "@metric_compatible_connection"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@metric_perturbation",
+      "primitive_depth": 10,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam",
+        "@helicon",
+        "@graviton",
+        "@black_hole",
+        "@spacetime",
+        "@readable_space_time",
+        "@metric_perturbation"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@metric_tensor",
+      "primitive_depth": 10,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam",
+        "@helicon",
+        "@graviton",
+        "@black_hole",
+        "@einstein_field_equation",
+        "@einstein_tensor",
+        "@metric_tensor"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@metric_variation",
+      "primitive_depth": 9,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam",
+        "@helicon",
+        "@graviton",
+        "@black_hole",
+        "@einstein_field_equation",
+        "@metric_variation"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@native_constraint_closure",
+      "primitive_depth": 6,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam",
+        "@time_shell",
+        "@native_constraint_closure"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@native_graviton_dispersion",
+      "primitive_depth": 7,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam",
+        "@helicon",
+        "@gravitational_helicon_mode",
+        "@native_graviton_dispersion"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@occupancy",
+      "primitive_depth": 10,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@dm_hidden_persistent_subset",
+        "@dm_formal_persistence_qualification",
+        "@inheritance_morphism",
+        "@recursive_inheritance",
+        "@genesis_field",
+        "@resolution",
+        "@bandwidth",
+        "@inheritance",
+        "@occupancy"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@particle_readable_organization",
+      "primitive_depth": 7,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary",
+        "@projection_admissibility",
+        "@er_foam",
+        "@stable_er_foam_knot",
+        "@localized_persistent_topology",
+        "@particle_readable_organization"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@persistence",
+      "primitive_depth": 9,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@dm_hidden_persistent_subset",
+        "@dm_formal_persistence_qualification",
+        "@inheritance_morphism",
+        "@recursive_inheritance",
+        "@genesis_field",
+        "@resolution",
+        "@bandwidth",
+        "@persistence"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@persistence_potential",
+      "primitive_depth": 11,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@dm_hidden_persistent_subset",
+        "@dm_formal_persistence_qualification",
+        "@inheritance_morphism",
+        "@recursive_inheritance",
+        "@genesis_field",
+        "@resolution",
+        "@bandwidth",
+        "@inheritance",
+        "@occupancy",
+        "@persistence_potential"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@persistent_boundary",
+      "primitive_depth": 2,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@persistent_boundary"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_projection_residue_survival",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@persistent_locus",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_projection_residue_survival",
+        "@dm_hidden_boundary_contact",
+        "@dm_hidden_persistent_subset",
+        "@persistent_locus"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    }
+  ]
+}

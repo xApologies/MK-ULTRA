@@ -1,0 +1,208 @@
+{
+  "schema": "tome-final-volume-assembly-validation/v1",
+  "created_at": "2026-08-12T12:06:57.325009+00:00",
+  "assembly_method": "BYTE_VERIFIED_SEALED_CHAPTER_PDF_CONCATENATION_WITH_CONTINUOUS_VOLUME_PAGINATION",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1_SEALED_CHAPTER_ARTIFACT_ASSEMBLY",
+  "source_renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "volume_id": "V04",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_04_HELICON/MK_ULTRA_TOME_VOLUME_04_HELICON_FINAL.pdf",
+    "bytes": 2983968,
+    "sha256": "fa8dba355f2ccdc2076b87e56b6bcf606870a7319fccf83382d5b35e8dfbc85f"
+  },
+  "actual_pages": 47,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V04-C01": 3,
+    "V04-C02": 11,
+    "V04-C03": 17,
+    "V04-C04": 23,
+    "V04-C05": 29,
+    "V04-C06": 34,
+    "V04-C07": 39,
+    "V04-C08": 45
+  },
+  "chapter_count": 8,
+  "chapter_inputs": [
+    {
+      "chapter_id": "V04-C01",
+      "source_sha256": "19ccbc9c7860e96c358d333431ff61eacab3acb790825d4bd28af490250eba70",
+      "word_count": 2119,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_04_HELICON/MK_ULTRA_TOME_V04_C01_HELICON_IDENTITY_AND_STATE_SPACE.pdf",
+        "bytes": 200409,
+        "sha256": "ae7ef66351aebf678176d93c82002562b2eb1e616fcb534f017185806d15c17a"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_04_HELICON/MK_ULTRA_TOME_V04_C01_HELICON_IDENTITY_AND_STATE_SPACE_VALIDATION.json",
+        "bytes": 3003,
+        "sha256": "c5673a4a7fa03b677bff959067fa5a8c2a77e2d70aeb80dd25dda1bf1345ad1d"
+      },
+      "pages": 8,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 3,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V04-C02",
+      "source_sha256": "d56d807d6da7332a0ba64c77a83287dc5021e454c963af5290e2abbdeaf653e9",
+      "word_count": 1093,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_04_HELICON/MK_ULTRA_TOME_V04_C02_STRUCTURAL_TUPLE_AND_ONE_FORM_REPRESENTATIONS.pdf",
+        "bytes": 145299,
+        "sha256": "7379e5a820471bc06165ac7421ef686271f414e0c6294f2f4e0861cf14ffd0c2"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_04_HELICON/MK_ULTRA_TOME_V04_C02_STRUCTURAL_TUPLE_AND_ONE_FORM_REPRESENTATIONS_VALIDATION.json",
+        "bytes": 2695,
+        "sha256": "cefd50da848a1ba31f0b305a294754093fd7571011fbeae0d2dc552a7012cfcc"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 11,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V04-C03",
+      "source_sha256": "ca437217028b6eca45799d6c0f3446675b83614111ed2e477c6e2505f481103c",
+      "word_count": 1289,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_04_HELICON/MK_ULTRA_TOME_V04_C03_HELICON_FIELD_STRENGTH_AND_CURVATURE.pdf",
+        "bytes": 149760,
+        "sha256": "f302a3e22295a91ce802dc9c85ef40b8f203ca5f1b1c1e31cfd3a6d033b8fca6"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_04_HELICON/MK_ULTRA_TOME_V04_C03_HELICON_FIELD_STRENGTH_AND_CURVATURE_VALIDATION.json",
+        "bytes": 2694,
+        "sha256": "9eab9750362c0700330ebe9f46a0a4ce0a8eb2e71f9b75e7d7b85f1d17aa9af6"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 17,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V04-C04",
+      "source_sha256": "cc40859b668b9d908fba570fad2852970cf16e1d337b15696f36f1b628b9be0a",
+      "word_count": 1285,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_04_HELICON/MK_ULTRA_TOME_V04_C04_SPECTRAL_OPERATOR_AND_ANGULAR_REDUCTION.pdf",
+        "bytes": 158260,
+        "sha256": "352c67eb0c08f40311b2c92d1b62761e40e1f043820e7c0043ed0b68005f82fb"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_04_HELICON/MK_ULTRA_TOME_V04_C04_SPECTRAL_OPERATOR_AND_ANGULAR_REDUCTION_VALIDATION.json",
+        "bytes": 2697,
+        "sha256": "573f081341450a8f655354c9c97271c50842b3a46322e99b07c0472578b766d7"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 23,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V04-C05",
+      "source_sha256": "984ea29bba9409ec6f099ee70fe83f86315b8a158cb55a5bf8289ca4b04fdbe6",
+      "word_count": 1026,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_04_HELICON/MK_ULTRA_TOME_V04_C05_MODES_RESONANCE_AND_WAKE_DYNAMICS.pdf",
+        "bytes": 123724,
+        "sha256": "9d3234ae9aee2cbc9e0347cc3bee54a0a00458eb4f99c27a1db10fc1d6693d89"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_04_HELICON/MK_ULTRA_TOME_V04_C05_MODES_RESONANCE_AND_WAKE_DYNAMICS_VALIDATION.json",
+        "bytes": 2691,
+        "sha256": "df172d98f0ef07cb3ba94dd53b72031da1a3a381c6f346e210c9beea487f346d"
+      },
+      "pages": 5,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 29,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V04-C06",
+      "source_sha256": "7db8deaa18dbc6689c6ccbc19eba173fb9e7c9f4d882f3d331c807ce529c11d3",
+      "word_count": 871,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_04_HELICON/MK_ULTRA_TOME_V04_C06_STABILITY_AND_PROPAGATION.pdf",
+        "bytes": 114156,
+        "sha256": "a3d20240e9c6d0b0fb208143a1a3739f161356d458d4701509e11523432a8c7d"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_04_HELICON/MK_ULTRA_TOME_V04_C06_STABILITY_AND_PROPAGATION_VALIDATION.json",
+        "bytes": 2680,
+        "sha256": "c0c9e38ccc8f4303153a512c4211168f8646aa9f5314e61ce2469ecb057516f7"
+      },
+      "pages": 5,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 34,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V04-C07",
+      "source_sha256": "44221d104a450c6ca7be29f61931b855876adc93b689aef80a7b92a98e0d3941",
+      "word_count": 1141,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_04_HELICON/MK_ULTRA_TOME_V04_C07_GRAVITATIONAL_HELICON_MODE.pdf",
+        "bytes": 143351,
+        "sha256": "52a08a61fdb739db182b7ee63330915c38b10edf38459eaf2fd35f7caae981ac"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_04_HELICON/MK_ULTRA_TOME_V04_C07_GRAVITATIONAL_HELICON_MODE_VALIDATION.json",
+        "bytes": 2685,
+        "sha256": "131a719d8004230aaed54ad1219a5045d668d696defe93cdfb3638799dc47c3d"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 39,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V04-C08",
+      "source_sha256": "2ea43dbcc2b84459a5a18d76a067748f40b3462ff30bdcacaaa794093e2973e5",
+      "word_count": 1089,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_04_HELICON/MK_ULTRA_TOME_V04_C08_HELICON_INTERFACES_AND_OPEN_MATHEMATICS.pdf",
+        "bytes": 143825,
+        "sha256": "f639e16059c372af099485cd0e051587750aa3efc0d8bec6bdaf7042ebf83537"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_04_HELICON/MK_ULTRA_TOME_V04_C08_HELICON_INTERFACES_AND_OPEN_MATHEMATICS_VALIDATION.json",
+        "bytes": 2689,
+        "sha256": "5eab6dd51ec5409a4757384bbf656ed1849b74fbaa382fc24fea2e7a97cae351"
+      },
+      "pages": 5,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 45,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    }
+  ],
+  "raw_latex_guard": {
+    "result": "PASS_INHERITED_FROM_QUALIFIED_CHAPTER_RECEIPTS",
+    "hits": []
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V04-C01": "19ccbc9c7860e96c358d333431ff61eacab3acb790825d4bd28af490250eba70",
+    "V04-C02": "d56d807d6da7332a0ba64c77a83287dc5021e454c963af5290e2abbdeaf653e9",
+    "V04-C03": "ca437217028b6eca45799d6c0f3446675b83614111ed2e477c6e2505f481103c",
+    "V04-C04": "cc40859b668b9d908fba570fad2852970cf16e1d337b15696f36f1b628b9be0a",
+    "V04-C05": "984ea29bba9409ec6f099ee70fe83f86315b8a158cb55a5bf8289ca4b04fdbe6",
+    "V04-C06": "7db8deaa18dbc6689c6ccbc19eba173fb9e7c9f4d882f3d331c807ce529c11d3",
+    "V04-C07": "44221d104a450c6ca7be29f61931b855876adc93b689aef80a7b92a98e0d3941",
+    "V04-C08": "2ea43dbcc2b84459a5a18d76a067748f40b3462ff30bdcacaaa794093e2973e5"
+  },
+  "source_hashes_after": {
+    "V04-C01": "19ccbc9c7860e96c358d333431ff61eacab3acb790825d4bd28af490250eba70",
+    "V04-C02": "d56d807d6da7332a0ba64c77a83287dc5021e454c963af5290e2abbdeaf653e9",
+    "V04-C03": "ca437217028b6eca45799d6c0f3446675b83614111ed2e477c6e2505f481103c",
+    "V04-C04": "cc40859b668b9d908fba570fad2852970cf16e1d337b15696f36f1b628b9be0a",
+    "V04-C05": "984ea29bba9409ec6f099ee70fe83f86315b8a158cb55a5bf8289ca4b04fdbe6",
+    "V04-C06": "7db8deaa18dbc6689c6ccbc19eba173fb9e7c9f4d882f3d331c807ce529c11d3",
+    "V04-C07": "44221d104a450c6ca7be29f61931b855876adc93b689aef80a7b92a98e0d3941",
+    "V04-C08": "2ea43dbcc2b84459a5a18d76a067748f40b3462ff30bdcacaaa794093e2973e5"
+  },
+  "sealed_chapter_content_change_count": 0,
+  "duplicate_chapter_inputs": [],
+  "missing_chapter_inputs": []
+}

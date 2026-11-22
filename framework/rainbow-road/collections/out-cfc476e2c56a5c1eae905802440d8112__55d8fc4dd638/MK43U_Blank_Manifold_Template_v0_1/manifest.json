@@ -1,0 +1,37 @@
+{
+  "artifact_name": "MK43U_Blank_Manifold_Template_v0_1",
+  "created": "2026-05-27T05:08:40",
+  "purpose": "Resolution-independent blank manifold topology blueprint for MK43 Ultra atomic profile population.",
+  "architecture": {
+    "source_manifold": "(channels, N, N, N)",
+    "setlift_manifold": "(channels, N, N, N, 2)",
+    "chirality_statecode": "(N, N, N)"
+  },
+  "channels": {
+    "0": "T0 chirality substrate",
+    "1": "T1 chirality occupancy",
+    "2": "T2 adjacency topology",
+    "3": "T3 propagation topology",
+    "4": "T4 persistence emergence",
+    "5": "T5 proto-material density",
+    "6": "T6 classical continuity",
+    "7": "T7A core persistence",
+    "8": "T7B shell occupancy",
+    "9": "T7C closure equilibrium",
+    "10": "ancestry / closure reference"
+  },
+  "generator_rule": {
+    "resolution_scaling": "N may be 32, 64, 128, 1024, or arbitrary.",
+    "topology_population": "Atomic profiles populate the manifold.",
+    "pipeline_compatibility": "Template compatible with MK43 Ultra recursive continuity pipeline."
+  },
+  "chirality_definition": {
+    "0": "∅",
+    "1": "{∅}"
+  },
+  "important_note": [
+    "This template intentionally contains no atomic topology.",
+    "This is a structural blueprint only.",
+    "Atomic profile translators populate this template downstream."
+  ]
+}

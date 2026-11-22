@@ -1,0 +1,32 @@
+{
+  "name": "MK43 Library",
+  "version": "1.D.0",
+  "artifact_type": "full_executable_closure_release",
+  "alpha_files_preserved": 32,
+  "tests_passed": 58,
+  "cache_files_included": false,
+  "entrypoint": "mk43_library1c:create_module",
+  "closure_release": "Library 1.D",
+  "packaging_cleanup_only": true,
+  "module_id": "mk43.library",
+  "runtime_package": "mk43_library",
+  "runtime_entrypoint": "mk43_library:create_module",
+  "release_version": "1.D",
+  "build_version": "1.D.0",
+  "runtime_identity_stable": true,
+  "release_identity_separate": true,
+  "tests_failed": 0,
+  "runtime_identity": {
+    "module_id": "mk43.library",
+    "package": "mk43_library",
+    "entrypoint": "mk43_library:create_module",
+    "role": "library"
+  },
+  "live_state": {
+    "database": "state/library.sqlite3",
+    "root_handle": "@TimeSpace",
+    "package_handle": "@TimeSpaceModel",
+    "commit_receipt_id": "e3fbb3df7366438481f4c09c194eb29e",
+    "canonical_fingerprint": "0ff4d7f747c900784de47f69baf459be338ed712cd8739b3746d72cdc8b1ab77"
+  }
+}

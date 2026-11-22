@@ -1,0 +1,11 @@
+{
+  "schema": "ASTRAEUS_DM_ITERATION_RUN_V1",
+  "run_id": "IT-DM-E087-DIRECT-GRAVITY-FIBER",
+  "checkpoint": "E087",
+  "seed": "@dm_explicit_two_port_continuity_residual_witness",
+  "ceiling": 128,
+  "iterations_used": 5,
+  "terminal_state": "OPEN_SINGLE_PROJECTION_FIBER_GATE",
+  "open_next": "@dm_two_port_timeshell_gravity_fiber_test",
+  "note": "Do not derive a global gravity model. Attack only one selected full/visible fiber of the already-recovered Time-Shell projection channel."
+}

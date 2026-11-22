@@ -1,0 +1,12 @@
+{
+  "qmo_address": "@dc/propagation_morphism_to_readout",
+  "steps": [
+    "Prop_gamma",
+    "Identity/History certification",
+    "Resolution/readout q_R",
+    "classify geometry",
+    "VECTOR | SCALAR | VECTOR_FIBER | HISTORY_ONLY"
+  ],
+  "status": "CLOSED_LOCAL",
+  "optional_next": "@qmo/propagation_readout_classifier"
+}

@@ -1,0 +1,802 @@
+{
+  "schema": "ASTRAEUS_DM_LIVE_OBJECT_REGISTRY_V1",
+  "baseline_release": "2.2.0",
+  "objects": [
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_joint_hidden_network_witness",
+      "canonical_name": "Joint Hidden-Network Load/Response Witness",
+      "type": "ConditionalDualWitnessTheorem",
+      "status": "LIVE_DERIVED_CLOSED_INTERNAL",
+      "checkpoint": "E063",
+      "definition": "Conditional theorem: a selected positive two-port hidden path satisfying the native-load assumptions has both nonzero hidden boundary response and nonzero supported native load.",
+      "math": "p,q>0 and positive hidden load support => DeltaLambda_H != 0 AND Delta rho_H > 0; W_H^R=(Delta boldrho_H^R,Lambda_H) is jointly nonzero.",
+      "parents": [
+        "@dm_hidden_response_operator",
+        "@dm_hidden_relational_load",
+        "@dm_native_hidden_witness"
+      ],
+      "source_theorems": [
+        "ATLAS_V36/167_MODE0_PORT_ATTACHMENT_THEOREMS.md:V24-T4",
+        "ATLAS_V36/184_V29_EQUILIBRIUM_NATIVE_LOAD_WITNESS.md:V29-T3",
+        "ATLAS_V36/207_V33_DARK_NETWORK_WITNESS_PAIR.md"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_conditional_dark_readout_witness",
+      "canonical_name": "Conditional Dark-Readout Factorization Witness",
+      "type": "ConditionalFactorizationDefectWitness",
+      "status": "LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT",
+      "checkpoint": "E064",
+      "definition": "A controlled full/visible pair that is identical under ordinary matter readout but separated by readable density -> stress-energy -> fixed-GR gravitational readout, conditional on registered working assumptions.",
+      "math": "M_R(u_full)=M_R(u_vis), Delta rho_read!=0 => Delta T!=0 => g_full!=g_vis => (u_full,u_vis) in D_R.",
+      "parents": [
+        "@dm_joint_hidden_network_witness",
+        "@dm_native_density_to_readable_source",
+        "@dm_dark_readout_defect"
+      ],
+      "working_assumptions": [
+        "WA-DM-E064-001",
+        "WA-DM-E064-002",
+        "WA-DM-E064-003"
+      ],
+      "proof_debt": [
+        "PD-DM-001",
+        "PD-DM-002",
+        "PD-DM-003"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_conditional_boundary_residue_seed",
+      "canonical_name": "Conditional Hidden Boundary/Residue Seed",
+      "type": "ConditionalBoundaryResidueSeed",
+      "status": "LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT",
+      "checkpoint": "E065",
+      "definition": "A selected hidden support, conditionally admitted through persistence into nonempty canonical boundary contact, yields a typed Persistent-Boundary projection/residue entry point.",
+      "math": "B_H^R≠∅; choose b_H∈B_H^R; p_H=Π(b_H); F_{p_H}=Inv(Π^{-1}(p_H)).",
+      "parents": [
+        "@dm_joint_hidden_network_witness",
+        "@dm_hidden_boundary_contact",
+        "@boundary_projection",
+        "@residue_quantum_field_bundle"
+      ],
+      "working_assumptions": [
+        "WA-DM-E065-001"
+      ],
+      "proof_debt": [
+        "PD-DM-001"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_conditional_q_handoff_distinction",
+      "canonical_name": "Conditional Projection-Residue/Q Handoff Distinction",
+      "type": "ConditionalQHandoffDistinction",
+      "status": "LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT",
+      "checkpoint": "E066",
+      "definition": "A matched full/visible pair whose declared invariant-residue comparison differs cannot be identified after standard Q completion by a Q-isomorphism preserving the residue-bundle constituent.",
+      "math": "r_H(B_full^R)≠r_H(B_vis^R) => B_full^R not~=_F B_vis^R => Q_full not~=_Q Q_vis (for residue-preserving Q morphisms).",
+      "parents": [
+        "@dm_projection_residue_survival",
+        "@dm_q_survival",
+        "@dm_conditional_boundary_residue_seed"
+      ],
+      "working_assumptions": [
+        "WA-DM-E065-001",
+        "WA-DM-E066-001"
+      ],
+      "proof_debt": [
+        "PD-DM-001",
+        "PD-DM-004"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_stress_active_action_fiber",
+      "canonical_name": "Stress-Active Covariant Hidden Action Fiber",
+      "type": "MetricVariationKernelComplement",
+      "status": "LIVE_DERIVED_CLOSED_INTERNAL",
+      "checkpoint": "E067",
+      "definition": "Subset of the already-closed covariant hidden-action family whose metric variation generates nonzero hidden stress-energy.",
+      "math": "S_H,act^cov := {S_H∈S_H^cov(Q_H,g) | V_g(S_H) != 0}, V_g(S_H)=-(2/sqrt(-g))δS_H/δg^(μν).",
+      "parents": [
+        "@dm_covariant_hidden_action_family",
+        "@dm_stress_energy_realization_family",
+        "@metric_variation"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false,
+      "open_nonemptiness": "@dm_stress_active_action_fiber_nonempty"
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_conditional_scalar_stress_active_witness",
+      "canonical_name": "Conditional Scalar-Proxy Stress-Active Witness",
+      "type": "ConditionalMetricActiveActionWitness",
+      "status": "LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT",
+      "checkpoint": "E069",
+      "definition": "One conventional scalar realization supplies an explicit nonzero metric-variation witness on a selected hidden diagnostic sector, conditional on the representation/admissibility bridge.",
+      "math": "phi_H=k x, V=0, k!=0 => T^(phiH)_mu_nu != 0 => V_g(S_phiH)!=0 => S_H,act^cov nonempty (conditional).",
+      "parents": [
+        "@dm_stress_active_action_fiber",
+        "@matter_action",
+        "@metric_variation",
+        "@klein_gordon_field"
+      ],
+      "working_assumptions": [
+        "WA-DM-E069-001"
+      ],
+      "proof_debt": [
+        "PD-DM-006"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_conditional_action_dark_readout_witness",
+      "canonical_name": "Conditional Action-Lane Dark Readout Witness",
+      "type": "ConditionalFactorizationDefectWitness",
+      "status": "LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT",
+      "checkpoint": "E070",
+      "definition": "A matched full/visible pair separated by a metric-active hidden action but identical under ordinary matter readout lies in the dark-readout factorization defect, conditional on the proxy realization bridge.",
+      "math": "M_R(u_f)=M_R(u_v), T_H!=0 => T_f!=T_v => g_f!=g_v => (u_f,u_v) in D_R.",
+      "parents": [
+        "@dm_conditional_scalar_stress_active_witness",
+        "@dm_dark_readout_defect"
+      ],
+      "working_assumptions": [
+        "WA-DM-E064-002",
+        "WA-DM-E069-001"
+      ],
+      "proof_debt": [
+        "PD-DM-002",
+        "PD-DM-006"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_conditional_qualification_witness",
+      "canonical_name": "Conditional Dark-Matter Qualification Witness",
+      "type": "ConditionalMatchedFullVisibleQualificationWitness",
+      "status": "LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT",
+      "checkpoint": "E071",
+      "definition": "A single proof-debt-carrying matched full/visible tuple satisfying all predicates in the closed DM_R definition under four explicit working assumptions.",
+      "math": "(u_f,u_v) in DM_R conditional on WA-E064-002, WA-E065-001, WA-E066-001, WA-E069-001.",
+      "parents": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_conditional_action_dark_readout_witness",
+        "@dm_conditional_boundary_residue_seed",
+        "@dm_conditional_q_handoff_distinction"
+      ],
+      "working_assumptions": [
+        "WA-DM-E064-002",
+        "WA-DM-E065-001",
+        "WA-DM-E066-001",
+        "WA-DM-E069-001"
+      ],
+      "proof_debt": [
+        "PD-DM-001",
+        "PD-DM-002",
+        "PD-DM-004",
+        "PD-DM-006"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_ucm_source_domain_distinction",
+      "canonical_name": "Hidden-Network UCM Source-Domain Distinction",
+      "type": "UCMSourceStateSeparationWitness",
+      "status": "LIVE_SOURCE_DERIVED_CLOSED_AT_SOURCE_DOMAIN",
+      "checkpoint": "E073",
+      "definition": "A controlled full/visible UCM source-state pair distinguished by the already-established nonzero hidden network organization before readable source projection.",
+      "math": "u_full=(O,Chi,A_full,P,Rred,S,B,...), u_vis=(O,Chi,A_vis,P,Rred,S,B,...), selected hidden support nontrivial => u_full != u_vis.",
+      "parents": [
+        "@dm_joint_hidden_network_witness",
+        "@dm_hidden_s3_network",
+        "@universal_coupling"
+      ],
+      "working_assumptions": [
+        "WA-DM-E064-001"
+      ],
+      "proof_debt": [],
+      "physical_claim": false,
+      "baseline_mutation": false,
+      "boundary": "Readable stress-energy separation P_T(U_dyn(u_full)) != P_T(U_dyn(u_vis)) is not inferred here."
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_ucm_event_to_source_nonannihilation",
+      "canonical_name": "UCM Event-to-Readable-Source Nonannihilation Gate",
+      "type": "OpenSourceProjectionSensitivityGate",
+      "status": "LIVE_OPEN_CANDIDATE",
+      "checkpoint": "E074",
+      "definition": "The exact remaining UCM compression question after hidden-network source-state separation: does the recovered event-to-readable-source map preserve at least one selected hidden distinction?",
+      "math": "Pi_U=P_T o U_dyn; seek Delta T_U=P_T(U_dyn(u_f))-P_T(U_dyn(u_v)) != 0.",
+      "parents": [
+        "@dm_ucm_source_domain_distinction",
+        "@stress_energy_tensor"
+      ],
+      "working_assumptions": [],
+      "proof_debt": [
+        "PD-DM-007"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_conditional_ucm_stress_energy_witness",
+      "canonical_name": "Conditional UCM Hidden Stress-Energy Witness",
+      "type": "ConditionalReadableStressEnergySeparationWitness",
+      "status": "LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT",
+      "checkpoint": "E075",
+      "definition": "A component-level nonannihilation witness carrying the E063 positive hidden density direction through the recovered UCM event/source projection into a nonzero full-vs-visible stress-energy difference.",
+      "math": "Delta rho_H>0; WA-E075-001 => u^mu u^nu Delta T_U_mu_nu !=0 => Delta T_U !=0 => T_D^R!=0.",
+      "parents": [
+        "@dm_joint_hidden_network_witness",
+        "@dm_ucm_source_domain_distinction",
+        "@stress_energy_tensor"
+      ],
+      "working_assumptions": [
+        "WA-DM-E075-001"
+      ],
+      "proof_debt": [
+        "PD-DM-007"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_conditional_ucm_qualification_witness",
+      "canonical_name": "Conditional UCM-Native Dark-Matter Qualification Witness",
+      "type": "ConditionalMatchedFullVisibleQualificationWitness",
+      "status": "LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT",
+      "checkpoint": "E076",
+      "definition": "A complete conditional DM_R witness template whose stress-energy separation is supplied by the native UCM source lane rather than the E069 scalar proxy.",
+      "math": "(u_f,u_v) in DM_R conditional on WA-E064-002, WA-E065-001, WA-E066-001, WA-E075-001.",
+      "parents": [
+        "@dm_dark_matter_qualification_locus",
+        "@dm_conditional_ucm_stress_energy_witness",
+        "@dm_conditional_boundary_residue_seed",
+        "@dm_conditional_q_handoff_distinction"
+      ],
+      "working_assumptions": [
+        "WA-DM-E064-002",
+        "WA-DM-E065-001",
+        "WA-DM-E066-001",
+        "WA-DM-E075-001"
+      ],
+      "proof_debt": [
+        "PD-DM-001",
+        "PD-DM-002",
+        "PD-DM-004",
+        "PD-DM-007"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_ucm_topology_source_scope_inclusion",
+      "canonical_name": "UCM Topology-Bearing Source-Scope Inclusion",
+      "type": "RecoveredProjectionScopeClosure",
+      "status": "LIVE_SOURCE_DERIVED_CLOSED",
+      "checkpoint": "E077",
+      "definition": "The recovered UCM readable source projection has declared source-side inputs O, Chi, A, P, Rred, S, B. Thus UCM-internal adjacency/topology, chirality, persistence, redistribution, survivability/strain, and Bandwidth belong to the full UCM source ledger T_U rather than requiring a second independent beta_ext source branch.",
+      "math": "T_U(L)=Pi_read^UCM(O,Chi,A,P,Rred,S,B); beta_ext contains only downstream GR inputs not already represented in Pi_read^UCM.",
+      "parents": [
+        "@universal_coupling",
+        "@dm_hidden_s3_network",
+        "@stress_energy_tensor"
+      ],
+      "working_assumptions": [],
+      "proof_debt": [],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_ucm_two_gate_factorization",
+      "canonical_name": "UCM Dynamic-Event / Readable-Source Two-Gate Factorization",
+      "type": "DiagnosticFactorization",
+      "status": "LIVE_SOURCE_DERIVED_DIAGNOSTIC_CLOSED",
+      "checkpoint": "E078",
+      "definition": "The previous single nonannihilation debt is decomposed into dynamic-event survival and event-to-readable-source fiber separation. Failure may occur at either gate.",
+      "math": "Pi_U=P_T o U_dyn; blindness = dynamic collision OR P_T collision.",
+      "parents": [
+        "@dm_ucm_source_domain_distinction",
+        "@universal_coupling",
+        "@dm_ucm_event_to_source_nonannihilation"
+      ],
+      "working_assumptions": [],
+      "proof_debt": [
+        "PD-DM-008",
+        "PD-DM-009"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_conditional_ucm_dynamic_event_witness",
+      "canonical_name": "Conditional UCM Dynamic-Event Separation Witness",
+      "type": "ConditionalDynamicEventSeparationWitness",
+      "status": "LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT",
+      "checkpoint": "E079",
+      "definition": "Conditional closure of UCM Gate 1: U_dyn(u_full) != U_dyn(u_vis).",
+      "math": "C_H in Persist_R7(Surv_R6(Argmin Recoverable(C4_full))) and C_H absent from visible event => U_dyn(u_full)!=U_dyn(u_vis).",
+      "parents": [
+        "@dm_ucm_two_gate_factorization",
+        "@dm_hidden_s3_network",
+        "@universal_coupling"
+      ],
+      "working_assumptions": [
+        "WA-DM-E079-001"
+      ],
+      "proof_debt": [
+        "PD-DM-008"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_response_spectrum_residue_discriminator",
+      "canonical_name": "Hidden Port-Response Spectrum Residue Discriminator",
+      "type": "ConditionalResidueSpectralDiscriminator",
+      "status": "LIVE_CONDITIONAL_CLOSED_WITH_NARROWED_PROOF_DEBT",
+      "checkpoint": "E080",
+      "definition": "The previously abstract residue discriminator can be instantiated by a concrete representation-invariant port-response spectral signature. Conditional on its inclusion in Inv at the boundary comparison, B_full^R is residue-distinguishable from B_vis^R and the closed Q-survival theorem carries the distinction into Q.",
+      "math": "DeltaLambda_H>=0 and !=0; selected two-port bridge has rank=1, trace=2w_eff>0. If this spectral invariant is in Inv, residue bundles differ and Q survival follows.",
+      "parents": [
+        "@dm_hidden_response_operator",
+        "@dm_projection_residue_survival",
+        "@dm_q_survival"
+      ],
+      "working_assumptions": [
+        "WA-DM-E065-001",
+        "WA-DM-E080-001"
+      ],
+      "proof_debt": [
+        "PD-DM-001",
+        "PD-DM-004"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_port_response_trace_invariant",
+      "canonical_name": "Hidden Port-Response Trace Invariant",
+      "type": "DerivedResponseTraceInvariant",
+      "status": "LIVE_DERIVED_CLOSED_INTERNAL",
+      "checkpoint": "E081",
+      "definition": "The matched full/visible hidden-network pair has a state-level response invariant with tr(Lambda_full)>tr(Lambda_vis), and this trace gap is independent of port naming/relabeling.",
+      "math": "DeltaLambda_H >=_PSD 0, DeltaLambda_H != 0 => tr(DeltaLambda_H)>0 => tr(Lambda_full)>tr(Lambda_vis). For permutation P, tr(P Lambda P^T)=tr(Lambda).",
+      "parents": [
+        "@dm_hidden_response_operator",
+        "@dm_response_spectrum_residue_discriminator"
+      ],
+      "working_assumptions": [],
+      "proof_debt": [
+        "PD-DM-010"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_conditional_response_trace_residue_survival",
+      "canonical_name": "Conditional Hidden Response-Trace Residue Survival",
+      "type": "ConditionalProjectionResidueSurvivalWitness",
+      "status": "LIVE_CONDITIONAL_CLOSED_WITH_NARROWED_PROOF_DEBT",
+      "checkpoint": "E082",
+      "definition": "Conditional on one explicit symmetry-action typing, the hidden response trace survives as declared invariant residue and separates the matched full/visible projection-residue bundles.",
+      "math": "I_Lambda(N)=tr(Lambda_N); I_Lambda(full)>I_Lambda(vis). If I_Lambda is G_Pi-invariant, then I_Lambda is admissible residue data and B_full^R not ~=_F B_vis^R under the declared invariant-preserving comparison.",
+      "parents": [
+        "@dm_port_response_trace_invariant",
+        "@dm_projection_residue_survival",
+        "@boundary_projection"
+      ],
+      "working_assumptions": [
+        "WA-DM-E065-001",
+        "WA-DM-E082-001"
+      ],
+      "proof_debt": [
+        "PD-DM-001",
+        "PD-DM-010"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_response_trace_q_handoff_witness",
+      "canonical_name": "Hidden Response-Trace Q-Handoff Survival Witness",
+      "type": "ConditionalQHandoffSurvivalWitness",
+      "status": "LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT",
+      "checkpoint": "E083",
+      "definition": "The response-trace distinction, once admitted into invariant residue, survives the standard Q completion without any chromatic dictionary or new field ontology.",
+      "math": "B_full^R not ~=_F B_vis^R => Q_full not ~=_Q Q_vis for Q morphisms preserving the residue-bundle constituent.",
+      "parents": [
+        "@dm_conditional_response_trace_residue_survival",
+        "@dm_q_survival",
+        "@dm_q_completion_family"
+      ],
+      "working_assumptions": [
+        "WA-DM-E065-001",
+        "WA-DM-E082-001"
+      ],
+      "proof_debt": [
+        "PD-DM-001",
+        "PD-DM-010"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_conditional_event_density_source_separation",
+      "canonical_name": "Conditional Event-Level Density / UCM Source Separation",
+      "type": "ConditionalEventSourceSeparationWitness",
+      "status": "LIVE_CONDITIONAL_CLOSED_WITH_SINGLE_COMPONENT_PROOF_DEBT",
+      "checkpoint": "E084",
+      "definition": "UCM Gate 2 is conditionally closed on one event-level density component. The broad PD-DM-009 and the old density debt PD-DM-003 are narrowed/merged into PD-DM-011.",
+      "math": "Delta rho_E != 0 and Delta rho_read[u] != 0 => Delta T_U != 0 => P_T(e_full) != P_T(e_vis).",
+      "parents": [
+        "@dm_conditional_ucm_dynamic_event_witness",
+        "@energy_density",
+        "@stress_energy_tensor",
+        "@dm_ucm_two_gate_factorization"
+      ],
+      "working_assumptions": [
+        "WA-DM-E079-001",
+        "WA-DM-E084-001"
+      ],
+      "proof_debt": [
+        "PD-DM-008",
+        "PD-DM-011"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_density_profile_readout_factorization_gate",
+      "canonical_name": "Resolution-Profile Readout Factorization Gate",
+      "type": "SourceReconciledReadoutFactorizationGate",
+      "status": "LIVE_DIAGNOSTIC_SOURCE_ROUTE_CORRECTION",
+      "checkpoint": "E085",
+      "definition": "The E084 selected event-component scaffold is retained only as a local conditional shortcut; the source-grounded generic density/readout lane must use the Resolution-level profile factorization rather than a universal scalar rho_E map.",
+      "math": "Delta boldrho_H^R -> Beta_R -> BasinOrg_R -> F_TS^B -> FieldIntensity_R -> C_rho,u -> Delta rho_read[u].",
+      "parents": [
+        "@dm_resolution_density_profile",
+        "@dm_native_density_to_readable_source",
+        "@energy_density",
+        "@time_shell"
+      ],
+      "working_assumptions": [],
+      "proof_debt": [
+        "PD-DM-011"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_explicit_two_port_continuity_residual_witness",
+      "canonical_name": "Explicit Two-Port Hidden Continuity Residual Witness",
+      "type": "ExplicitFiniteContinuityResidualWitness",
+      "status": "LIVE_DERIVED_CLOSED_INTERNAL",
+      "checkpoint": "E086",
+      "definition": "The selected two-port hidden network has an explicit readable-port state for which omission of the hidden S3 component changes native continuity redistribution.",
+      "math": "c_*=(1,-1)^T; Delta(deltaC)_P(c_*)=-DeltaLambda_H c_*=-2 w_eff (1,-1)^T != 0; ||Delta(deltaC)_P||^2=8 w_eff^2>0.",
+      "parents": [
+        "@dm_joint_hidden_network_witness",
+        "@dm_hidden_response_operator",
+        "@continuity_perturbation"
+      ],
+      "working_assumptions": [],
+      "proof_debt": [],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_two_port_timeshell_gravity_fiber_test",
+      "canonical_name": "Two-Port Time-Shell Gravity Fiber Test",
+      "type": "TypedGravityProjectionFiberGate",
+      "status": "LIVE_OPEN_TYPED_GATE",
+      "checkpoint": "E087",
+      "definition": "The direct hidden-network gravity question is reduced to one projection-fiber separation test on one explicit continuity-response pair.",
+      "math": "x_full=-Lambda_full c_*; x_vis=-Lambda_vis c_*; x_full!=x_vis. Test x_full not~_G x_vis where x~_G y iff G_TS(x)=G_TS(y).",
+      "parents": [
+        "@dm_explicit_two_port_continuity_residual_witness",
+        "@continuity_perturbation",
+        "@time_shell_projection_operator",
+        "@weak_field_metric_perturbation"
+      ],
+      "working_assumptions": [],
+      "proof_debt": [
+        "PD-DM-012"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_conditional_direct_timeshell_dark_readout_witness",
+      "canonical_name": "Conditional Direct Time-Shell Dark-Readout Witness",
+      "type": "ConditionalDirectTimeShellDarkReadoutWitness",
+      "status": "LIVE_CONDITIONAL_CLOSED_WITH_SINGLE_GRAVITY_FIBER_DEBT",
+      "checkpoint": "E088",
+      "definition": "A direct conditional dark-readout witness exists on the selected two-port Time-Shell gravity fiber without using the UCM event-density bridge, chromatic route, or residue/Q route.",
+      "math": "M_R(N_full)=M_R(N_vis) and G_TS(-Lambda_full c_*)!=G_TS(-Lambda_vis c_*) => (N_full,N_vis,c_*) in D_G^R subset of the selected dark-readout comparison class.",
+      "parents": [
+        "@dm_two_port_timeshell_gravity_fiber_test",
+        "@dm_dark_readout_defect",
+        "@matter_readable_organization"
+      ],
+      "working_assumptions": [
+        "WA-DM-E064-002",
+        "WA-DM-E088-001"
+      ],
+      "proof_debt": [
+        "PD-DM-002",
+        "PD-DM-012"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_chirality_seed_byte_probe_basis",
+      "canonical_name": "Recovered Chirality Seed / Byte Probe Basis",
+      "type": "RecoveredCrossDomainProbeBasis",
+      "status": "LIVE_SOURCE_RECOVERED",
+      "checkpoint": "E089",
+      "definition": "The Live Landscape probe basis is corrected: use two mirror chirality orientations (seed/byte) crossed, when useful, with six basin occupancy levels. Do not treat 1/7..6/7 as six byte identities.",
+      "math": "Seed_L=[[1,0],[0,1]], Seed_R=[[0,1],[1,0]] under 1={empty set},0=empty set; Byte_L=(Seed_L,Seed_R), Byte_R=(Seed_R,Seed_L); basin beta_k=k/7, k=1..6.",
+      "parents": [
+        "@chirality_seed",
+        "@left_chirality_seed",
+        "@right_chirality_seed",
+        "@chirality_byte",
+        "@energy_density"
+      ],
+      "working_assumptions": [],
+      "proof_debt": [],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_chirality_seed_contrast_normal_form",
+      "canonical_name": "Chirality-Seed Mirror Contrast Normal Form",
+      "type": "RepresentationNormalFormMatch",
+      "status": "LIVE_DERIVED_CLOSED_INTERNAL",
+      "checkpoint": "E090",
+      "definition": "The E063 two-port hidden response normal form is exactly a positive scalar multiple of the recovered chirality-seed mirror contrast. The E086 probe c_* is therefore the canonical nontrivial seed-contrast mode in this representation.",
+      "math": "D_chi=[[1,-1],[-1,1]]; spec(D_chi)={0,2}; c_*=(1,-1)^T; D_chi c_*=2 c_*; DeltaLambda_H=w_eff D_chi, w_eff>0.",
+      "parents": [
+        "@dm_chirality_seed_byte_probe_basis",
+        "@dm_joint_hidden_network_witness",
+        "@dm_explicit_two_port_continuity_residual_witness"
+      ],
+      "working_assumptions": [],
+      "proof_debt": [],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_chirality_byte_basin_probe_family",
+      "canonical_name": "Chirality-Byte / Basin Finite Probe Family",
+      "type": "ConditionalFiniteProbeFamily",
+      "status": "LIVE_CONDITIONAL_DIAGNOSTIC",
+      "checkpoint": "E091",
+      "definition": "All six interior basin levels preserve a nonzero mirror chirality contrast under the diagnostic weighting. The family gives six explicit positive-amplitude inputs sharing one canonical chiral contrast direction.",
+      "math": "For k=1..6: D_k=(k/7)D_chi; D_k c_*=2(k/7)c_* !=0; ||2(k/7)c_*||^2=8(k/7)^2.",
+      "parents": [
+        "@dm_chirality_seed_contrast_normal_form",
+        "@chirality_byte",
+        "@energy_density"
+      ],
+      "working_assumptions": [
+        "WA-DM-E091-001"
+      ],
+      "proof_debt": [
+        "PD-DM-013"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_chirality_seed_timeshell_gravity_fiber_test",
+      "canonical_name": "Canonical Chirality-Seed Time-Shell Gravity Fiber Test",
+      "type": "CanonicalizedGravityProjectionFiberGate",
+      "status": "LIVE_OPEN_TYPED_GATE_RETYPE",
+      "checkpoint": "E092",
+      "definition": "PD-DM-012 is retyped onto a canonical chirality-seed contrast input. The only direct-readout question remains whether the existing G_TS fiber separates this explicit persistent-continuity contrast rather than annihilating it.",
+      "math": "D_chi c_*=2c_*; Delta(deltaC)_P=-w_eff D_chi c_*=-2w_eff c_* !=0. Test G_TS(x_vis-w_eff D_chi c_*) != G_TS(x_vis) on the selected admissible fiber.",
+      "parents": [
+        "@dm_chirality_seed_contrast_normal_form",
+        "@dm_explicit_two_port_continuity_residual_witness",
+        "@time_shell_projection_operator",
+        "@weak_field_metric_perturbation"
+      ],
+      "working_assumptions": [],
+      "proof_debt": [
+        "PD-DM-012"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_xapi_energy_density_stress_corridor",
+      "canonical_name": "Dark-Matter Resolution Density -> Stress-Energy Cross-API Corridor",
+      "type": "TypedCrossAPIComponentRoute",
+      "status": "LIVE_DERIVED_CLOSED_TYPED_ROUTE",
+      "checkpoint": "E095",
+      "definition": "The DM 2.2 Resolution-level hidden density profile directly REALIZES API 4.3 @energy_density, and API 4.3 @energy_density directly ENTERS @stress_energy_tensor. Therefore the structural component route is already present across the two APIs.",
+      "math": "@dm_resolution_density_profile --REALIZES--> @energy_density --ENTERS--> @stress_energy_tensor",
+      "parents": [
+        "@dm_resolution_density_profile",
+        "@energy_density",
+        "@stress_energy_tensor"
+      ],
+      "working_assumptions": [],
+      "proof_debt": [
+        "PD-DM-014"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false,
+      "limitations": [
+        "Does not reconstruct the full stress-energy tensor from density alone.",
+        "Does not by itself supply SI calibration or a chosen readable observer normalization.",
+        "Does not prove physical dark-matter existence."
+      ]
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_xapi_density_readout_factorization",
+      "canonical_name": "Native-Density Readout Factorization",
+      "type": "OpenHandleFactorization",
+      "status": "LIVE_DERIVED_NARROWED",
+      "checkpoint": "E095",
+      "definition": "The old native-density-to-readable-source problem factors into two source-closed structural steps plus one residual calibration/observer step.",
+      "math": "Delta boldrho_H^R -> @energy_density -> @stress_energy_tensor; remaining debt = component-preserving readable calibration/observer normalization, not tensor existence.",
+      "parents": [
+        "@dm_native_density_to_readable_source",
+        "@dm_xapi_energy_density_stress_corridor",
+        "@dm_stress_energy_separation_gate"
+      ],
+      "working_assumptions": [],
+      "proof_debt": [
+        "PD-DM-014"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_xapi_master_dependency_map",
+      "canonical_name": "Dark Matter / API 4.3 Master Dependency Map",
+      "type": "CrossAPIFixedPointMap",
+      "status": "LIVE_DERIVED_CLOSED_MAP",
+      "checkpoint": "E096",
+      "definition": "Exhaustive fixed-point map of the baseline API 4.3 x DM 2.2 semantic environment, preserving every direct source relation and shortest closure path used for navigation.",
+      "math": "|V|=2422; |E_sem|=6489; |Cl(E_sem)|=72564; DM->API reachability pairs=4391; API->DM pairs=0.",
+      "parents": [
+        "QMO-XAPI-002"
+      ],
+      "working_assumptions": [],
+      "proof_debt": [],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_source_backfilled_master_map",
+      "canonical_name": "Source-Backfilled Dark Matter Master Map",
+      "type": "SourceXAPICrosswalk",
+      "status": "LIVE_DERIVED_CLOSED_MAP",
+      "checkpoint": "E097",
+      "definition": "Crosswalk joining the recovered Archive.zip LaTeX spine to API 4.3, DM 2.2, and the existing XAPI fixed-point landscape without altering any parent source.",
+      "math": "19 source anchors; 51 direct source->handle links; 2689 source reachability pairs; exact density/metric constitutive anchor SRC-DM-019 reaches 149 handles.",
+      "parents": [
+        "QMO-XAPI-002",
+        "ASTRAEUS_MK43_DARK_MATTER_LATEX_RECOVERY_20260822"
+      ],
+      "working_assumptions": [],
+      "proof_debt": [],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_source_density_geometry_calibration",
+      "canonical_name": "Source Density-to-Geometry Calibration Witness",
+      "type": "SourceDeclaredShellConstitutiveWitness",
+      "status": "LIVE_DERIVED_CLOSED_SOURCE_EFFECTIVE",
+      "checkpoint": "E098",
+      "definition": "Exact source-declared shell sector in which positive energy density is mapped to metric log-scale by m=ln(mu/mu0), phi=(1/2)ln det g, phi+alpha m=phi0.",
+      "math": "For mu_f,mu_v>0, alpha!=0, mu_f!=mu_v: Delta phi = -alpha ln(mu_f/mu_v) != 0 and det(g_f)/det(g_v)=(mu_f/mu_v)^(-2 alpha) != 1.",
+      "parents": [
+        "@energy_density",
+        "@time_shell",
+        "@projected_spacetime_metric"
+      ],
+      "working_assumptions": [
+        "SOURCE_SECTOR_CONDITIONS: mu>0, alpha!=0"
+      ],
+      "proof_debt": [],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_source_er_gravitational_readout_chain",
+      "canonical_name": "Source ER Gravitational Readout Chain",
+      "type": "SourceEffectiveDarkMatterChain",
+      "status": "LIVE_DERIVED_CLOSED_SOURCE_EFFECTIVE",
+      "checkpoint": "E099",
+      "definition": "Recovered source chain from ER adjacency/energy density through effective geometry or ER stress-energy into Einstein/cosmological/galactic gravitational readout.",
+      "math": "W_ij -> g^(ER)_mn; rho_ER enters Friedmann/Einstein sector; Phi_eff=Phi_GR+deltaPhi_ER; v^2=r d_r Phi_eff. Historical total field equation includes T^(ER)_mn as a distinct source sector.",
+      "parents": [
+        "@er_network",
+        "@energy_density",
+        "@stress_energy_tensor",
+        "@einstein_field_equation",
+        "@gravity"
+      ],
+      "working_assumptions": [],
+      "proof_debt": [
+        "PD-DM-015"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_source_er_effective_model_closure",
+      "canonical_name": "Source-Effective ER Dark Matter Model Closure",
+      "type": "SourceEffectiveModelClosure",
+      "status": "LIVE_CLOSED_SOURCE_EFFECTIVE_EMPIRICAL_OPEN",
+      "checkpoint": "E100",
+      "definition": "Internal closure of the recovered source-effective Dark Matter branch: hidden/load-bearing ER geometry has an explicit network representation, density/metric and stress-energy/Einstein interfaces, large-scale coarse-graining, and galactic readout equations. External physical identification is not promoted.",
+      "math": "ER network W -> {g_ER, rho_ER/T_ER} -> Einstein/metric response -> {Phi_eff, v(r)}; exact source shell sector also has Delta mu !=0 => Delta phi !=0 => det g differs.",
+      "parents": [
+        "@dm_source_density_geometry_calibration",
+        "@dm_source_er_gravitational_readout_chain",
+        "@dm_xapi_master_dependency_map"
+      ],
+      "working_assumptions": [],
+      "proof_debt": [
+        "PD-DM-015"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    }
+  ],
+  "live_version": "2.2.0+live.e100",
+  "object_count": 35
+}

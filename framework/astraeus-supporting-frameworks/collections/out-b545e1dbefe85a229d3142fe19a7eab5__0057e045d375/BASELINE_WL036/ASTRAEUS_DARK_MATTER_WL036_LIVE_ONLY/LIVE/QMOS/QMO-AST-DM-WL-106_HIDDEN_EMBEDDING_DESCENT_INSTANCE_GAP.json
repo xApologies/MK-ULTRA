@@ -1,0 +1,38 @@
+{
+  "schema": "ASTRAEUS_HIDDEN_EMBEDDING_DESCENT_INSTANCE_GAP_V1",
+  "qmo_id": "QMO-AST-DM-WL-106",
+  "name": "Hidden Embedding Descent Instance Gap",
+  "atlas_version": "WL-v222",
+  "work_layer": "WL-035",
+  "status": "HIDDEN_EMBEDDING_DESCENT_INSTANCE_GAP",
+  "parent_promotions": 0,
+  "transduction_source": {
+    "handle": "@transduction_descent",
+    "type": "local-to-global gluing architecture",
+    "formal_objects": ["Descent-Compatible Local Family", "Global Realization Object", "Glue", "Gluing Witness", "Realizable(X)"]
+  },
+  "dark_matter_source": {
+    "bundle": "pi_H:E_H^R->T_H",
+    "family": "Emb_H,phys^R",
+    "open": "nonemptiness and physical selection"
+  },
+  "missing_instance_data": [
+    "hidden-bundle local cover/localization data",
+    "overlap transition family",
+    "triple-overlap/descent compatibility data",
+    "gluing witness whose global realization is injective and satisfies Emb_H,phys^R constraints"
+  ],
+  "work_layer_factorization": {
+    "H_LOCAL": "source-supported local realizations compatible with base/inheritance/constraint structure",
+    "H_GLOBAL": "valid gluing witness with global realization in Emb_H,phys^R",
+    "H_SELECT": "physical selection if family is nonempty"
+  },
+  "guardrails": [
+    "generic descent architecture != DM-specific descent instance",
+    "global realization != hidden embedding unless Emb_H,phys^R constraints are certified",
+    "no local-cover data may be invented",
+    "no OpenSlot closure",
+    "no parent promotion"
+  ],
+  "branch_disposition": "stop typed-lift/descent elaboration; return to global next-handle discovery"
+}

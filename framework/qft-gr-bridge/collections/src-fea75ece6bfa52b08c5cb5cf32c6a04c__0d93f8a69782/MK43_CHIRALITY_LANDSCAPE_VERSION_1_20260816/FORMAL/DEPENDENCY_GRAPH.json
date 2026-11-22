@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "id": "P0",
+      "label": "Prime Boundary 0|0"
+    },
+    {
+      "id": "ADDR",
+      "label": "Boundary Address"
+    },
+    {
+      "id": "FABR",
+      "label": "Global Chirality Fabric"
+    },
+    {
+      "id": "S4",
+      "label": "S4 Time-Space"
+    },
+    {
+      "id": "S3",
+      "label": "S3 Continuity Carrier"
+    },
+    {
+      "id": "S2",
+      "label": "Localized S2 Address"
+    },
+    {
+      "id": "W",
+      "label": "S3 Corridor / Cobordism"
+    },
+    {
+      "id": "TG",
+      "label": "Transduction Geometry"
+    },
+    {
+      "id": "ER",
+      "label": "ER Foam"
+    },
+    {
+      "id": "H",
+      "label": "Helicon"
+    },
+    {
+      "id": "QFT",
+      "label": "QFT Readout"
+    },
+    {
+      "id": "G",
+      "label": "Graviton/Continuity"
+    },
+    {
+      "id": "GR",
+      "label": "GR Readout"
+    }
+  ],
+  "edges": [
+    {
+      "source": "P0",
+      "target": "ADDR",
+      "relation": "generates"
+    },
+    {
+      "source": "ADDR",
+      "target": "FABR",
+      "relation": "localizes/glues"
+    },
+    {
+      "source": "FABR",
+      "target": "S3",
+      "relation": "geometric realization"
+    },
+    {
+      "source": "S3",
+      "target": "S2",
+      "relation": "contains boundaries"
+    },
+    {
+      "source": "S2",
+      "target": "W",
+      "relation": "bounds"
+    },
+    {
+      "source": "W",
+      "target": "S2",
+      "relation": "targets"
+    },
+    {
+      "source": "FABR",
+      "target": "TG",
+      "relation": "typed by"
+    },
+    {
+      "source": "FABR",
+      "target": "ER",
+      "relation": "admissibility/adjacency"
+    },
+    {
+      "source": "ER",
+      "target": "H",
+      "relation": "supports"
+    },
+    {
+      "source": "H",
+      "target": "QFT",
+      "relation": "spectral readout"
+    },
+    {
+      "source": "H",
+      "target": "G",
+      "relation": "gravitational mode"
+    },
+    {
+      "source": "G",
+      "target": "GR",
+      "relation": "Time-Shell projection"
+    },
+    {
+      "source": "W",
+      "target": "QFT",
+      "relation": "rho_Q / U_Q"
+    },
+    {
+      "source": "W",
+      "target": "GR",
+      "relation": "rho_G / U_G"
+    },
+    {
+      "source": "S3",
+      "target": "S4",
+      "relation": "slice/embedded in"
+    }
+  ]
+}

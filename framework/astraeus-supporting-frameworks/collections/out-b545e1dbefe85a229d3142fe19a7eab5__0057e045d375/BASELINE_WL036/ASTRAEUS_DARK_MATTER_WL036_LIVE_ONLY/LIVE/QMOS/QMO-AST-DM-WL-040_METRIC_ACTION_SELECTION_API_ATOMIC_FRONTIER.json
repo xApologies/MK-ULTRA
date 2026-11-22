@@ -1,0 +1,81 @@
+{
+  "schema": "ASTRAEUS_API_QMO_NEXT_HANDLE_V1",
+  "qmo_id": "QMO-AST-DM-WL-040",
+  "name": "Metric-Action Selection: API-Atomic Frontier and Pivot",
+  "atlas_version": "WL-v155",
+  "status": "API_CRAWL_FRONTIER_NOT_PARENT_PROMOTED",
+  "seed": "@dm_metric_action_selection",
+  "current_record": {
+    "handle": "@dm_metric_action_selection",
+    "name": "Metric-Coupled Hidden Action Selection",
+    "origin": "DARKMATTER_2.2",
+    "namespace": "readout",
+    "type": "OpenActionSelection",
+    "status": "OPEN_PRIMARY_HANDLE",
+    "criticality": "critical",
+    "definition": "Primary open source-selection problem after bidirectional cross-crawl: select the physically realized action/equivalence class from @dm_covariant_hidden_action_family.",
+    "math": "Select S_H∈S_H^cov(Q_H,g); then T_H_mn=-(2/sqrt(-g)) δS_H/δg^(mn).",
+    "source_refs": [
+      "CURRENT_FORMAL:Axiom_A14_Quantum_Action_Principle",
+      "TOME_CH71:stress-energy requires field/action/metric variation"
+    ]
+  },
+  "direct_api_dependencies": [
+    {
+      "handle": "@dm_covariant_hidden_action_family",
+      "record": {
+        "handle": "@dm_covariant_hidden_action_family",
+        "name": "Covariant Hidden-Sector Action Family",
+        "origin": "DARKMATTER_2.2",
+        "namespace": "readout",
+        "type": "MetricCoupledActionFamily",
+        "status": "ATLAS_DERIVED_CLOSED",
+        "criticality": "critical",
+        "definition": "Cross-API restriction of the hidden action search to metric-coupled hidden actions that can be embedded into the existing total-action/diffeomorphism-invariance architecture.",
+        "math": "S_H^cov(Q_H,g)={S_H∈S_adm(Q_H,g) | S_tot=S_EH+S_vis+S_H is compatible with the parent total-action and diffeomorphism-invariance structure}. For any selected S_H, T_H_mn=-(2/sqrt(-g)) δS_H/δg^(mn). The admissible family is defined; the physically realized member/equivalence class remains open.",
+        "source_refs": [
+          "MK43_API_4.3:@total_action",
+          "MK43_API_4.3:@diffeomorphism_invariance",
+          "MK43_API_4.3:@matter_action",
+          "MK43_API_4.3:@metric_variation",
+          "MK43_API_4.3:@noether_identity",
+          "DM2.1:@dm_metric_action_selection"
+        ]
+      },
+      "role": "closed admissible covariant family"
+    },
+    {
+      "handle": "@dm_q_completion_family",
+      "record": {
+        "handle": "@dm_q_completion_family",
+        "name": "Residue-Bundle Q-Completion Family",
+        "origin": "DARKMATTER_2.2",
+        "namespace": "field",
+        "type": "ConditionalCompletionFamily",
+        "status": "ATLAS_DERIVED_CLOSED",
+        "criticality": "critical",
+        "definition": "Set of complete QFT handoff objects extending an admissible residue bundle under the current Time-Space field axioms/theorems. It replaces the open arbitrary residue→Q map.",
+        "math": "C_Q(B):={ Q=(M,F,π_F,h,∇,R_∇,Γ,A,P,S) | Q extends B=(M,F,π_F) and satisfies the admitted field axioms }. For a residue bundle produced under the full current Time-Space assumptions, C_Q(B)≠∅ by T1–T4.",
+        "source_refs": [
+          "CURRENT_FORMAL:Theorem_T1_Quantum_Field_Deduction",
+          "CURRENT_FORMAL:Theorem_T4_Field_Level_Handoff"
+        ]
+      },
+      "role": "closed Q-completion family"
+    },
+    {
+      "handle": "@quantum_action_functional",
+      "api43_registry_status": "indexed-unlinked",
+      "api43_axiom": "A14 Quantum Action Principle",
+      "role": "foundational action object; stationary-action rule governs configurations for a chosen action"
+    }
+  ],
+  "api_result": "No narrower current Dark Matter open selector is exposed beneath @dm_metric_action_selection. The closed families constrain the search space; A14 does not itself select which member of S_H^cov is physically realized.",
+  "next_handle_rule": "Do not elaborate a selector proof here. Pivot to the other API-supplied open primary target with a concrete QMO strategy: @dm_dark_matter_qualification_nonempty -> QMO-XAPI-CAND-001 -> @initial_data_set.",
+  "guardrails": [
+    "stationary action selects admissible field configurations for a specified functional; it is not by itself an action-family member selector",
+    "indexed-unlinked @quantum_action_functional is not silently converted into a new graph edge",
+    "open selector remains open",
+    "parent promotions = 0"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "states": [
+    "R",
+    "O",
+    "Y",
+    "G",
+    "B",
+    "V"
+  ],
+  "directed_edges": [
+    [
+      "B",
+      "G"
+    ],
+    [
+      "B",
+      "V"
+    ],
+    [
+      "G",
+      "B"
+    ],
+    [
+      "G",
+      "Y"
+    ],
+    [
+      "O",
+      "R"
+    ],
+    [
+      "O",
+      "Y"
+    ],
+    [
+      "R",
+      "O"
+    ],
+    [
+      "R",
+      "V"
+    ],
+    [
+      "V",
+      "B"
+    ],
+    [
+      "V",
+      "R"
+    ],
+    [
+      "Y",
+      "G"
+    ],
+    [
+      "Y",
+      "O"
+    ]
+  ],
+  "all_states_reachable_from_each": {
+    "R": 6,
+    "O": 6,
+    "Y": 6,
+    "G": 6,
+    "B": 6,
+    "V": 6
+  },
+  "path_counts_from_R": {
+    "1": 2,
+    "2": 4,
+    "3": 8,
+    "4": 16,
+    "5": 32,
+    "6": 64,
+    "7": 128,
+    "8": 256,
+    "9": 512,
+    "10": 1024,
+    "11": 2048,
+    "12": 4096
+  },
+  "criteria": [
+    {
+      "id": "C1",
+      "name": "All finite path words walked",
+      "status": "REFUTED_AS_TERMINAL_FOR_CYCLIC_DOMAIN",
+      "statement": "In any nontrivial reachable cycle, arbitrarily long distinct path words exist by repetition, so literal exhaustion of all finite path words has no finite terminal stage."
+    },
+    {
+      "id": "C2",
+      "name": "All states visited",
+      "status": "TOO_WEAK",
+      "statement": "Visiting every chirality presentation does not necessarily visit every structurally distinct transition or History class."
+    },
+    {
+      "id": "C3",
+      "name": "All directed adjacency edges realized",
+      "status": "FINITE_IF_LOCAL_GRAPH_FINITE",
+      "statement": "Finite structural criterion: every admissible directed local transition class has appeared at least once."
+    },
+    {
+      "id": "C4",
+      "name": "All History-equivalence classes realized",
+      "status": "PROMISING_GENERAL",
+      "statement": "Complete History is exhaustion of all admissible equivalence classes under an explicitly declared History quotient."
+    },
+    {
+      "id": "C5",
+      "name": "No new admissible History-distinct continuation remains",
+      "status": "PROMISING_OPERATIONAL",
+      "statement": "Terminal condition at realized state/history H when every currently admissible continuation belongs to an already-realized History-equivalence class."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_PAIR_V1",
+  "a": "@recursive_depth",
+  "b": "@dm_native_density_to_readable_source",
+  "radius": 3,
+  "interface": [
+    {
+      "handle": "@bandwidth",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@genesis_field",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@mote_lattice",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@resolution",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@dm_runtime_transition_capacity",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@mote_chirality",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@persistence",
+      "distance_a": 3,
+      "distance_b": 3
+    }
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry; exact-handle interface only"
+}

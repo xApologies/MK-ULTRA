@@ -1,0 +1,81 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_NEIGHBORS_V1",
+  "handle": "@containment_volume",
+  "incoming": [
+    [
+      "@transition_capacity",
+      {
+        "source": "@transition_capacity",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@containment_volume",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56462->56464",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@transition_capacity",
+      {
+        "source": "@transition_capacity",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@containment_volume",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "API_CODE_BLOCK:56464;API_CODE_BLOCK:56598;CANONICAL_API_VERTICAL:56462->56464;CANONICAL_API_VERTICAL:56596->56598",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@dm_hidden_relational_load",
+      {
+        "source": "@dm_hidden_relational_load",
+        "relation": "USES",
+        "target": "@containment_volume",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      }
+    ]
+  ],
+  "outgoing": [
+    [
+      "@energy_density",
+      {
+        "source": "@containment_volume",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@energy_density",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56464->56466",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@energy_density",
+      {
+        "source": "@containment_volume",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@energy_density",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "API_CODE_BLOCK:56466;API_CODE_BLOCK:56600;CANONICAL_API_VERTICAL:56464->56466;CANONICAL_API_VERTICAL:56598->56600",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ]
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry"
+}

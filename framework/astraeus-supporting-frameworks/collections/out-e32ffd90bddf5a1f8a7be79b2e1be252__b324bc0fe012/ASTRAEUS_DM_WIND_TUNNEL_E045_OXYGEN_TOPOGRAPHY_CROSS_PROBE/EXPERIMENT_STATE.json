@@ -1,0 +1,64 @@
+{
+  "experiment": "E045",
+  "candidate": "CAND-DM-CROSS-PROBE-HISTORY-TOPOGRAPHY-048",
+  "title": "Oxygen Cross-Probe of the History Topography Quotient",
+  "status": "CROSS-PROBE TOPOGRAPHIC VISIBILITY CLOSED; STRICT PARTITION INVARIANCE FALSE; COMMON H/O LATE BASIN RECOVERED",
+  "physical_dark_matter_witness": false,
+  "parent_promotions": 0,
+  "results": {
+    "E008_continuity_readout_formula_reconstructed_exactly": true,
+    "oxygen_projections_tested": 3,
+    "hydrogen_control_projections_tested": 4,
+    "strict_E044_partition_invariance_across_all_oxygen_views": false,
+    "O_mean_abs_stabilization_depth": 4,
+    "O_l2_norm_stabilization_depth": 6,
+    "O_max_abs_stabilization_depth": 7,
+    "latest_stabilization_depth_across_all_H_O_views": 7,
+    "universally_pairwise_distinct_prefix_depth": 4,
+    "universally_distinct_states": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "oxygen_ensemble_class_members": {
+      "OX0": [
+        0
+      ],
+      "OX1": [
+        1
+      ],
+      "OX2": [
+        2
+      ],
+      "OX3": [
+        3
+      ],
+      "OX4": [
+        4
+      ],
+      "OX5": [
+        5
+      ],
+      "OX6": [
+        6
+      ],
+      "OX7": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    "E7_E16_common_single_topographic_class_under_all_views": true
+  },
+  "ruling": "The E044 History topography is visible through independently mounted Oxygen activation maps, but the exact quotient partition is not invariant under probe weighting. Oxygen mean-absolute coarsens the basin entrance, L2 matches the substrate stabilization at depth 6, and max-absolute retains one extra transition step. All seven H/O views distinguish E0-E4 and all stabilize by E7, establishing a common cross-probe late basin and probe-robust early History distinction without claiming identical readout classes.",
+  "next_handle": "TEST_ORDER_PRESERVATION_BETWEEN_HISTORY_TOPOGRAPHIC_DEPTH_AND_CROSS_PROBE_RESPONSE_STRENGTH;_IF_NO_ROBUST_ORDER_PARK_TOPOGRAPHIC_COORDINATE"
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_NEIGHBORS_V1",
+  "handle": "@field_level_handoff_theorem",
+  "incoming": [
+    [
+      "@dm_q_completion_family",
+      {
+        "source": "@dm_q_completion_family",
+        "relation": "DEPENDS_ON",
+        "target": "@field_level_handoff_theorem",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1",
+        "origin": "DARKMATTER_2.1",
+        "origin_api": "DARKMATTER_2.1"
+      }
+    ]
+  ],
+  "outgoing": [],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry"
+}

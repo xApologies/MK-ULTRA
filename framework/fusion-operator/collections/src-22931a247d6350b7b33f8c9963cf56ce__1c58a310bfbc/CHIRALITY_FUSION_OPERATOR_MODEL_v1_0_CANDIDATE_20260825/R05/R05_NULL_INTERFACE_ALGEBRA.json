@@ -1,0 +1,52 @@
+{
+  "schema": "NullInterfaceAlgebra.R05.v1",
+  "status": "CLOSED_WORK_LAYER",
+  "preferred_model": "labeled_span_finite_pushout_plus_external_witness",
+  "state_alphabet": {
+    "N": "empty-set state label; interpretation is unique empty set",
+    "E": "singleton-empty state label; interpretation is {emptyset}"
+  },
+  "carrier_category": "finite labeled sets / FinSet over Sigma_0",
+  "interface": {
+    "J": [
+      "j"
+    ],
+    "label_j": "N",
+    "maps": {
+      "A": "j->a_star",
+      "B": "j->b_star"
+    }
+  },
+  "pushout": {
+    "formula": "Q = A disjoint_union_J B = (A disjoint_union B)/(a_star ~ b_star)",
+    "shared_locus": "q=[a_star]=[b_star]",
+    "shared_label": "N",
+    "null_preserved": true,
+    "universal_property": "PROVED_IN_R05_FINITE_LABELED_SET_SCOPE"
+  },
+  "relation_layer": {
+    "contact_relation": "R_AB={(A:a_star,B:b_star)}",
+    "relation_nonempty": true,
+    "fusion_witness": "eta_F",
+    "witness_nonempty": true,
+    "witness_inside_empty_set": false
+  },
+  "exact_seed_case": {
+    "A_size": 4,
+    "B_size": 4,
+    "J_size": 1,
+    "Q_size": 7,
+    "null_classes_after_pushout": 3,
+    "E_classes_after_pushout": 4
+  },
+  "rulings": {
+    "duplicate_literal_empty_sets": "REJECTED",
+    "singleton_collapse_as_fusion": "REJECTED",
+    "relation_only": "VALID_PREFUSION_NOT_FUSED_CARRIER",
+    "graph_edge_only": "VALID_CONTACT_NOT_IDENTIFICATION",
+    "bare_unlabeled_quotient": "TOO_WEAK_FOR_TYPED_FUSION",
+    "pointed_wedge": "VALID_SPECIAL_CASE_NOT_FULL_PREFERRED_MODEL",
+    "simplicial_or_cell_complex": "DEFERRED_OVERPOWERED_FOR_R05"
+  },
+  "next_run": "R06_Reversibility"
+}

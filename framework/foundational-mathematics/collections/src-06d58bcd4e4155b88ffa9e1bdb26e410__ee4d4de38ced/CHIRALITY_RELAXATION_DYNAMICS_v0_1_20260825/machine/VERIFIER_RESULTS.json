@@ -1,0 +1,586 @@
+{
+  "schema": "CRD_VERIFIER_v0_1",
+  "image_transcription": {
+    "byte_A": "10010110",
+    "byte_B": "01101001",
+    "bitwise_complements": true,
+    "layers": 2,
+    "domains_per_layer": 2,
+    "seeds_per_domain": 4,
+    "total_seeds": 16,
+    "domain_0": [
+      [
+        "10010110",
+        "01101001"
+      ],
+      [
+        "01101001",
+        "10010110"
+      ]
+    ],
+    "domain_1": [
+      [
+        "01101001",
+        "10010110"
+      ],
+      [
+        "10010110",
+        "01101001"
+      ]
+    ],
+    "status": "WORK_LAYER_TRANSCRIPTION_FROM_USER_DIAGRAM"
+  },
+  "graph": {
+    "vertices": 16,
+    "edges": 28,
+    "connected_components": 1,
+    "cycle_rank_beta1": 13,
+    "edge_categories": {
+      "intra_domain_axial": 16,
+      "inter_domain_bridge": 4,
+      "inter_layer_alignment": 8
+    }
+  },
+  "fusion_v1_bridge": {
+    "assumption": "A and B are treated as the serialized mirror-pair classes for this diagnostic; every actual Fusion seam still requires an explicit null/contact port witness.",
+    "mirror_candidate_edges": 16,
+    "same_class_edges": 12,
+    "mirror_candidate_categories": [
+      "intra_domain_axial"
+    ],
+    "all_single_candidate_edges_nonbridges": true
+  },
+  "strict_v1_result": {
+    "orientation_changes_forced_by_bare_quotient": 0,
+    "verdict": "NO RIPPLE DERIVED FROM FUSION v1 ALONE; a seam-to-adjacency/backreaction law is required."
+  },
+  "candidate_backreaction_lift": {
+    "coefficient_group": "Z2",
+    "edge_1_cochain": "f",
+    "vertex_reorientation_0_cochain": "x",
+    "closure_equation": "x_u XOR x_v = f_e",
+    "triviality_test": "f is a coboundary iff cycle XOR is zero on every cycle",
+    "full_H1_dimension": 13,
+    "fusion_accessible_cohomology_rank": 11,
+    "single_hard_seam_equal_capacity_mincut_histogram": {
+      "2": 12,
+      "3": 4
+    },
+    "single_hard_seam_cases": [
+      {
+        "edge": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "min_soft_cut": 2,
+        "partition_size": [
+          1,
+          15
+        ]
+      },
+      {
+        "edge": [
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1
+          ]
+        ],
+        "min_soft_cut": 2,
+        "partition_size": [
+          1,
+          15
+        ]
+      },
+      {
+        "edge": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        "min_soft_cut": 2,
+        "partition_size": [
+          1,
+          15
+        ]
+      },
+      {
+        "edge": [
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            1
+          ]
+        ],
+        "min_soft_cut": 3,
+        "partition_size": [
+          1,
+          15
+        ]
+      },
+      {
+        "edge": [
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            1
+          ]
+        ],
+        "min_soft_cut": 2,
+        "partition_size": [
+          15,
+          1
+        ]
+      },
+      {
+        "edge": [
+          [
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            1
+          ]
+        ],
+        "min_soft_cut": 2,
+        "partition_size": [
+          15,
+          1
+        ]
+      },
+      {
+        "edge": [
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0
+          ]
+        ],
+        "min_soft_cut": 3,
+        "partition_size": [
+          1,
+          15
+        ]
+      },
+      {
+        "edge": [
+          [
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            1
+          ]
+        ],
+        "min_soft_cut": 2,
+        "partition_size": [
+          1,
+          15
+        ]
+      },
+      {
+        "edge": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            1
+          ]
+        ],
+        "min_soft_cut": 2,
+        "partition_size": [
+          1,
+          15
+        ]
+      },
+      {
+        "edge": [
+          [
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            1
+          ]
+        ],
+        "min_soft_cut": 2,
+        "partition_size": [
+          1,
+          15
+        ]
+      },
+      {
+        "edge": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0
+          ]
+        ],
+        "min_soft_cut": 2,
+        "partition_size": [
+          1,
+          15
+        ]
+      },
+      {
+        "edge": [
+          [
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            1,
+            1
+          ]
+        ],
+        "min_soft_cut": 3,
+        "partition_size": [
+          1,
+          15
+        ]
+      },
+      {
+        "edge": [
+          [
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            1
+          ]
+        ],
+        "min_soft_cut": 2,
+        "partition_size": [
+          15,
+          1
+        ]
+      },
+      {
+        "edge": [
+          [
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "min_soft_cut": 2,
+        "partition_size": [
+          15,
+          1
+        ]
+      },
+      {
+        "edge": [
+          [
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            0
+          ]
+        ],
+        "min_soft_cut": 3,
+        "partition_size": [
+          1,
+          15
+        ]
+      },
+      {
+        "edge": [
+          [
+            1,
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "min_soft_cut": 2,
+        "partition_size": [
+          1,
+          15
+        ]
+      }
+    ],
+    "basin_capacity_rule": "c_e = C(beta_u,beta_v,R_e,B_e) > 0 remains symbolic; no physical calibration is assumed."
+  },
+  "finite_witnesses": {
+    "gauge_trivial_four_seam_cut": {
+      "flipped_component": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "seams": [
+        [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0
+          ]
+        ]
+      ],
+      "min_residual_violations_equal_capacity": 0,
+      "interpretation": "A coherent two-layer reorientation can absorb this four-seam pattern exactly."
+    },
+    "five_seam_knot_candidate": {
+      "seams": [
+        [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1
+          ]
+        ]
+      ],
+      "extra_seam": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "min_residual_violations_equal_capacity": 1,
+      "after_unbinding_extra_seam_min_residual": 0,
+      "interpretation": "The extra seam creates a nontrivial Z2 cycle syndrome; unbinding it returns the seam pattern to a coboundary and permits complete relaxation."
+    }
+  },
+  "firewalls": [
+    "The Z2 backreaction lift is a new work-layer diagnostic, not API 4.3 canon.",
+    "Fusion v1 itself preserves source chirality and does not prove neighbor reorientation.",
+    "Basin colors are capacity labels here, not calibrated physical energies.",
+    "No QCD identity, Hawking microscopic derivation, black-hole ontology, or physical S3 transfer is claimed.",
+    "The API Time-Space -> Genesis Field -> Resolution -> Bandwidth -> Persistence -> Chirality edge order is not modified.",
+    "The sandbox boundary is not flipped or bypassed."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "handle": "debt://PD-DM-014",
+  "object_type": "proof_debt",
+  "status": "DISCHARGED_IN_SOURCE_DECLARED_SHELL_SECTOR",
+  "domain": "PROOF_DEBT",
+  "namespace": "mk43://proof-debt",
+  "name": "Readable energy-density component calibration / observer normalization",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E095",
+  "qmo_generated": false,
+  "proof_status": "DISCHARGED_IN_SOURCE_DECLARED_SHELL_SECTOR",
+  "empirical_status": "",
+  "provenance_class": "PROOF_DEBT",
+  "metadata": {
+    "id": "PD-DM-014",
+    "title": "Readable energy-density component calibration / observer normalization",
+    "status": "DISCHARGED_IN_SOURCE_DECLARED_SHELL_SECTOR",
+    "priority": "CLOSED_INTERNAL_SOURCE_MODEL",
+    "checkpoint_opened": "E095",
+    "payload_json": "{\"debt_id\": \"PD-DM-014\", \"title\": \"Readable energy-density component calibration / observer normalization\", \"status\": \"DISCHARGED_IN_SOURCE_DECLARED_SHELL_SECTOR\", \"priority\": \"CLOSED_INTERNAL_SOURCE_MODEL\", \"checkpoint_opened\": \"E095\", \"discharges\": \"residual part of @dm_native_density_to_readable_source after cross-API structural factorization\", \"related_handles\": [\"@dm_resolution_density_profile\", \"@energy_density\", \"@stress_energy_tensor\", \"@dm_stress_energy_separation_gate\"], \"question\": \"For one declared Resolution cell and one fixed normalized readable observer, type/calibrate the already-registered energy-density realization so a nonzero native Delta rho component is certified as a nonzero readable T_mn u^m u^n component.\", \"closed_parts\": [\"DM profile REALIZES API energy density\", \"API energy density ENTERS stress-energy tensor\", \"one nonzero readable density component suffices to separate stress-energy tensors\"], \"not_required\": [\"full tensor reconstruction from a scalar\", \"new gravity mechanism\", \"new matter action selection\"], \"trigger_to_reopen\": \"Only if quantitative/readable normalization is required for unconditional qualification.\", \"resolution_note\": \"E098/SRC-DM-019: exact historical shell constitutive relation supplies a nonannihilating density->metric-scale calibration for positive mu and alpha!=0. This discharges the gate only in that declared source sector, not as a universal empirical calibration.\"}"
+  },
+  "address": "debt://PD-DM-014",
+  "address_sha256": "1f54ee579a0d117079042a54783de60baec01ee3c351fdbc3b1d9e5831f7d35d"
+}

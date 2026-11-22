@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "confidence": {
+      "maximum": 1,
+      "minimum": 0,
+      "type": "number"
+    },
+    "context_tags": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "direction_deg": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "duration_ms": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "event_class": {
+      "type": "string"
+    },
+    "impulsiveness": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "level_db": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "onset_ms": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "semantic_tags": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "spectrum": {
+      "items": {
+        "type": "number"
+      },
+      "type": [
+        "array",
+        "null"
+      ]
+    },
+    "timestamp": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "event_class",
+    "confidence",
+    "timestamp"
+  ],
+  "title": "Acoustic Event Hypothesis",
+  "type": "object"
+}

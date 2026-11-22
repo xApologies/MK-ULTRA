@@ -1,0 +1,5 @@
+lift,endpoint_exchange_symmetric,"idempotent_f(a,a)=a",internal_between_endpoints,monotone,positive_homogeneous,nonnegative_on_nonnegative_inputs,extra_structure,source_ruling
+arithmetic_mean,True,True,True,True,True,True,linear/additive,No source rule requires linear endpoint averaging.
+geometric_mean,True,True,True,True,True,True,multiplicative/log-natural,No source rule requires multiplicative averaging.
+minimum,True,True,True,True,True,True,lower lattice bound,No source rule says the physical edge load is the weaker endpoint.
+maximum,True,True,True,True,True,True,upper lattice bound,No source rule says the physical edge load is the stronger endpoint.

@@ -1,0 +1,35 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_NEIGHBORS_V1",
+  "handle": "@energy_density",
+  "incoming": [
+    [
+      "@dm_resolution_density_profile",
+      {
+        "source": "@dm_resolution_density_profile",
+        "relation": "REALIZES",
+        "target": "@energy_density",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      }
+    ],
+    [
+      "@dm_stress_energy_separation_gate",
+      {
+        "source": "@dm_stress_energy_separation_gate",
+        "relation": "USES",
+        "target": "@energy_density",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      }
+    ]
+  ],
+  "outgoing": []
+}

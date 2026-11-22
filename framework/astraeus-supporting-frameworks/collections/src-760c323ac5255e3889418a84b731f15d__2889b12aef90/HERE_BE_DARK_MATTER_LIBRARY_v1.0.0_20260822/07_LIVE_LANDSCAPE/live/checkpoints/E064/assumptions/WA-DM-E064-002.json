@@ -1,0 +1,18 @@
+{
+  "assumption_id": "WA-DM-E064-002",
+  "name": "Matched Full / Visible Readout Pair",
+  "status": "WORKING_ASSUMPTION",
+  "checkpoint": "E064",
+  "scope": "one fixed Resolution-R comparison problem",
+  "statement": "Let u_full and u_vis be a controlled pair with M_R(u_full)=M_R(u_vis), where u_full carries the selected hidden support and u_vis is the corresponding ordinary-visible reconstruction under the same declared external comparison data.",
+  "source_support": [
+    "QMO-DM-BRIDGE-CAND-004",
+    "ATLAS 122 dark readout factorization framework",
+    "ATLAS 178 UCM source-fiber framework"
+  ],
+  "not_claimed": [
+    "uniqueness of visible reference representative",
+    "empirical realization"
+  ],
+  "proof_debt": "PD-DM-002"
+}

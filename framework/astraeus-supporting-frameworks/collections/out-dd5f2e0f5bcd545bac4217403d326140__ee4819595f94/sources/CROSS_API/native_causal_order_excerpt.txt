@@ -1,0 +1,61 @@
+053935: the native transduction framework as fundamentally quantum.
+053936: 
+053937: # 6. Native Causal Order
+053938: 
+053939: ## Handle
+053940: 
+053941: ```text
+053942: @native_causal_order
+053943: ```
+053944: 
+053945: ## Type
+053946: 
+053947: ```text
+053948: Type: AdmissiblePartialOrder
+053949: Domain: geometric-expression events
+053950: Codomain: ordered, independent, or inadmissibly related event pairs
+053951: DependsOn:
+053952:     @admissibility
+053953:     @recursive_inheritance
+053954:     @er_network
+053955:     @time_shell
+053956: UsedBy:
+053957:     @causality
+053958:     @lorentz_limit
+053959:     @locality
+053960:     @graviton_propagation
+053961: ```
+053962: 
+053963: For geometric-expression events \(e_i,e_j\), define
+053964: 
+053965: \[
+053966: e_i\prec e_j
+053967: \]
+053968: 
+053969: iff there exists an admissible directed path from \(e_i\) to \(e_j\).
+053970: 
+053971: Define independence by
+053972: 
+053973: \[
+053974: e_i\parallel e_j
+053975: \]
+053976: 
+053977: iff neither \(e_i\prec e_j\) nor \(e_j\prec e_i\).
+053978: 
+053979: Let
+053980: 
+053981: \[
+053982: r:\mathrm{Events}\to\mathbb{Z}
+053983: \]
+053984: 
+053985: be an inherited-order rank satisfying
+053986: 
+053987: \[
+053988: e_i\to e_j
+053989: \quad\Longrightarrow\quad
+053990: r(e_j)>r(e_i).
+053991: \]
+053992: 
+053993: Then no directed causal cycle exists. A hypothetical cycle would require
+053994: 
+053995: \[

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "E01",
+    "source": "CRD",
+    "relation": "HAS_SIGNATURE",
+    "target": "SIG_CRD",
+    "status": "CLOSED"
+  },
+  {
+    "id": "E02",
+    "source": "CRD",
+    "relation": "UPSTREAM_OF",
+    "target": "HELICON",
+    "status": "ARCHITECTURAL"
+  },
+  {
+    "id": "E03",
+    "source": "HELICON",
+    "relation": "HANDS_OFF_TO",
+    "target": "Q_HANDOFF",
+    "status": "PARTIAL"
+  },
+  {
+    "id": "E04",
+    "source": "Q_HANDOFF",
+    "relation": "FUTURE_REALIZES",
+    "target": "YM_SPACE",
+    "status": "OPEN"
+  },
+  {
+    "id": "E05",
+    "source": "PI_YM",
+    "relation": "MAPS_TO",
+    "target": "YM_SPACE",
+    "status": "OPEN"
+  },
+  {
+    "id": "E06",
+    "source": "IMITATION",
+    "relation": "COMPARES",
+    "target": "CRD",
+    "status": "CLOSED_FORMAL"
+  },
+  {
+    "id": "E07",
+    "source": "IMITATION",
+    "relation": "COMPARES",
+    "target": "YM_EVOLUTION",
+    "status": "CLOSED_FORMAL"
+  },
+  {
+    "id": "E08",
+    "source": "YM_SPACE",
+    "relation": "SPECIALIZES_TO",
+    "target": "QCD",
+    "status": "FUTURE_QUALIFIED"
+  },
+  {
+    "id": "E09",
+    "source": "QCD",
+    "relation": "FUTURE_TESTS_WITH",
+    "target": "GLUEBALL",
+    "status": "LOCKED"
+  }
+]

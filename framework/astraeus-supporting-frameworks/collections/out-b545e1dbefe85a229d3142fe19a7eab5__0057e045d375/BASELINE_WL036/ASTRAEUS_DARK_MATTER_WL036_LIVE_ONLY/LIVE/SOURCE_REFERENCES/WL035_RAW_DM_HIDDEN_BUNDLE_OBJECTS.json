@@ -1,0 +1,46 @@
+[
+  {
+    "handle": "@dm_constraint_preserving_embedding_family",
+    "name": "Constraint-Preserving Hidden-State Embedding Family",
+    "namespace": "state",
+    "type": "TypedEmbeddingFamily",
+    "status": "ATLAS_DERIVED_CLOSED",
+    "criticality": "critical",
+    "definition": "Cross-API refinement of the hidden-state embedding problem. Candidate embeddings must preserve the existing hidden/base and inheritance commuting laws and land in the physical kernel of the Time-Space native constraint algebra.",
+    "math": "Emb_H,phys^R={ iota_H:E_H^R\u21aaE | pi_E\u2218iota_H=j_T\u2218pi_H; I\u2218iota_H=iota_H\u2218I_H; iota_H(E_H^R)\u2286ker(C) }. API4.3 supplies C_a|Psi_phys>=0, U ker(C)\u2286ker(C), and C_read Pi_T=Pi_T C_native on admissible states. The family is defined; nonemptiness/selection of a physical iota_H remains open.",
+    "source_refs": [
+      "MK43_API_4.3:@native_constraint_closure",
+      "DM2.1:@dm_hidden_state_embedding",
+      "CROSS_CRAWL:TS43<->DM21"
+    ]
+  },
+  {
+    "handle": "@dm_hidden_state_bundle",
+    "name": "Hidden S3 Relational-State Bundle",
+    "namespace": "state",
+    "type": "ConditionalRelationalStateBundle",
+    "status": "ATLAS_DERIVED_ACTIVE",
+    "criticality": "critical",
+    "definition": "Type-normalized bundle candidate for the time-indexed hidden S3 network organization. Its existence as a smooth admissible bundle is conditional on the declared hidden relational history.",
+    "math": "\u03c0_H:E_H^R\u2192T_H, with fiber state R_H(t)=(V_t,E_t,w_t,\u03c7_t,H_t)_R. This types the domain of iota_H; it does not itself prove iota_H exists.",
+    "source_refs": [
+      "TOME_CH94:R=(V,E,w,\u03c7,H), H:t\u21a6R(t)",
+      "CURRENT_FORMAL:@inherited_state_bundle"
+    ]
+  },
+  {
+    "handle": "@dm_hidden_state_embedding",
+    "name": "Hidden S3 State Embedding into Inherited State Bundle",
+    "namespace": "open",
+    "type": "OpenBundleMonomorphism",
+    "status": "OPEN_PRIMARY_HANDLE",
+    "criticality": "critical",
+    "definition": "Primary open selection/existence problem after bidirectional cross-crawl: select a physical embedding from @dm_constraint_preserving_embedding_family. The family is typed; nonemptiness and a realized embedding remain open.",
+    "math": "Select iota_H\u2208Emb_H,phys^R. Required: pi_E\u2218iota_H=j_T\u2218pi_H; I\u2218iota_H=iota_H\u2218I_H; iota_H(E_H^R)\u2286ker(C).",
+    "source_refs": [
+      "QMO_RUNTIME_v0.2:QMO-DM-CAND-002",
+      "CURRENT_FORMAL:@inherited_state_bundle",
+      "TOME_CH94:relational-state/history type normalization"
+    ]
+  }
+]

@@ -1,0 +1,132 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_PAIR_QUERY_V1",
+  "a": "@genesis_partial_isometry",
+  "b": "@dm_native_density_to_readable_source",
+  "radius": 4,
+  "a_node_count": 66,
+  "b_node_count": 44,
+  "interface": [
+    {
+      "handle": "@mote_chirality",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@resolution",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@dm_resolution_density_profile",
+      "distance_a": 4,
+      "distance_b": 1
+    },
+    {
+      "handle": "@mote_hilbert_space",
+      "distance_a": 1,
+      "distance_b": 4
+    },
+    {
+      "handle": "@genesis_field",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@mote_lattice",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@mote",
+      "distance_a": 2,
+      "distance_b": 4
+    },
+    {
+      "handle": "@bandwidth",
+      "distance_a": 4,
+      "distance_b": 3
+    },
+    {
+      "handle": "@chirality",
+      "distance_a": 3,
+      "distance_b": 4
+    },
+    {
+      "handle": "@chirality_occupancy_cube",
+      "distance_a": 3,
+      "distance_b": 4
+    },
+    {
+      "handle": "@dm_hidden_state_bundle",
+      "distance_a": 4,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_runtime_transition_capacity",
+      "distance_a": 4,
+      "distance_b": 3
+    },
+    {
+      "handle": "@mote_configuration_space",
+      "distance_a": 3,
+      "distance_b": 4
+    },
+    {
+      "handle": "@mote_diagonal_rule",
+      "distance_a": 3,
+      "distance_b": 4
+    },
+    {
+      "handle": "@persistence_potential",
+      "distance_a": 3,
+      "distance_b": 4
+    },
+    {
+      "handle": "@genlang_root_gen",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@genlang_root_vel",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@inheritance",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@mote_closure",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@mote_occupancy_function",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@persistence",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@recursive_inheritance",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@time_space",
+      "distance_a": 4,
+      "distance_b": 4
+    }
+  ],
+  "path_a_to_b": null,
+  "path_b_to_a": null,
+  "edge_policy": {
+    "timespace": "high-confidence direct/non-derived RP42 records",
+    "darkmatter": "high-confidence DM_DIRECT_EDGE_REGISTRY records",
+    "gluing": "exact handle equality only; no cross-edge is invented"
+  }
+}

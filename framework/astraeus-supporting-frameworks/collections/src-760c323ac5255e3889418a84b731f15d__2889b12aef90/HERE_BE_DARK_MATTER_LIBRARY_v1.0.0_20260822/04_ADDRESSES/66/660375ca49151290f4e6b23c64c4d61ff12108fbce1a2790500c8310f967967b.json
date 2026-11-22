@@ -1,0 +1,120 @@
+{
+  "handle": "@dm_covariant_hidden_action_family",
+  "object_type": "mathematical_object",
+  "status": "ATLAS_DERIVED_CLOSED",
+  "domain": "DM22",
+  "namespace": "readout",
+  "name": "Covariant Hidden-Sector Action Family",
+  "definition": "Cross-API restriction of the hidden action search to metric-coupled hidden actions that can be embedded into the existing total-action/diffeomorphism-invariance architecture.",
+  "math": "S_H^cov(Q_H,g)={S_H∈S_adm(Q_H,g) | S_tot=S_EH+S_vis+S_H is compatible with the parent total-action and diffeomorphism-invariance structure}. For any selected S_H, T_H_mn=-(2/sqrt(-g)) δS_H/δg^(mn). The admissible family is defined; the physically realized member/equivalence class remains open.",
+  "source_layer": "DM22",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "DM22",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 6,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 6,
+    "live_in_count": 3,
+    "closure_out_reachability_count": 151,
+    "closure_in_reachability_count": 6,
+    "direct_source_anchors": [
+      {
+        "id": 16,
+        "source_id": "SRC-DM-008",
+        "relation": "HISTORICAL_ACTION_SLOT_SUPPORTS",
+        "handle": "@dm_covariant_hidden_action_family",
+        "status": "SOURCE_BACKFILL_ONLY",
+        "provenance": "tome_mk43_skeleton/tome_mk43.tex:251-260"
+      }
+    ],
+    "source_reachability_anchor_count": 3,
+    "aliases": [],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19721,
+        "source": "@dm_covariant_hidden_action_family",
+        "relation": "DEPENDS_ON",
+        "target": "@diffeomorphism_invariance",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.2_CROSS_API"
+      },
+      {
+        "id": 19722,
+        "source": "@dm_covariant_hidden_action_family",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_q_completion_family",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.2_CROSS_API"
+      },
+      {
+        "id": 19723,
+        "source": "@dm_covariant_hidden_action_family",
+        "relation": "DEPENDS_ON",
+        "target": "@matter_action",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.2_CROSS_API"
+      },
+      {
+        "id": 19724,
+        "source": "@dm_covariant_hidden_action_family",
+        "relation": "DEPENDS_ON",
+        "target": "@metric_variation",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.2_CROSS_API"
+      },
+      {
+        "id": 19725,
+        "source": "@dm_covariant_hidden_action_family",
+        "relation": "DEPENDS_ON",
+        "target": "@quantum_action_functional",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.2_CROSS_API"
+      },
+      {
+        "id": 19726,
+        "source": "@dm_covariant_hidden_action_family",
+        "relation": "DEPENDS_ON",
+        "target": "@total_action",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.2_CROSS_API"
+      },
+      {
+        "id": 19781,
+        "source": "@dm_metric_action_selection",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_covariant_hidden_action_family",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.2_CROSS_API"
+      }
+    ]
+  },
+  "address": "@dm_covariant_hidden_action_family",
+  "address_sha256": "660375ca49151290f4e6b23c64c4d61ff12108fbce1a2790500c8310f967967b"
+}

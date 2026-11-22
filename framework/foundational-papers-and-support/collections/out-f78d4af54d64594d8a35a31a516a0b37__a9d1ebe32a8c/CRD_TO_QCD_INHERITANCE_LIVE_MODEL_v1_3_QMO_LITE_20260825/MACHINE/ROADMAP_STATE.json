@@ -1,0 +1,40 @@
+{
+  "package": "CRD_TO_QCD_INHERITANCE_LIVE_MODEL_v1_3_QMO_LITE_20260825",
+  "version": "1.3",
+  "active_run": "L08B",
+  "finish_line": "L09E",
+  "post_finish": "L10",
+  "source_correction": "MASTER_2: hard-stop B6 basins; environmental 142857 tail is not basin C6",
+  "retired": [
+    "L08 old C6->A2",
+    "L09B C6 compact lift"
+  ],
+  "retained": [
+    "L06 no-go",
+    "L07 target algebra only",
+    "L09A exact static gauge skeleton",
+    "D_P diagnostic conditional on source-derived U_e"
+  ],
+  "roadmap_batches": {
+    "A": [
+      "L06",
+      "L07",
+      "L08A"
+    ],
+    "B": [
+      "L08B",
+      "L08C"
+    ],
+    "C": [
+      "L09A",
+      "L09C"
+    ],
+    "D": [
+      "L09D",
+      "L09E"
+    ],
+    "post_finish": [
+      "L10"
+    ]
+  }
+}

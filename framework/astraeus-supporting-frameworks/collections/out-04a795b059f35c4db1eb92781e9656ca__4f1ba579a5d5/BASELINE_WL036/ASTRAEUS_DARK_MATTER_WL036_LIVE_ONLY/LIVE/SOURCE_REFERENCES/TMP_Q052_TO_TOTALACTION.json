@@ -1,0 +1,57 @@
+{
+  "schema": "ASTRAEUS_QMO_CROSS_CRAWL_V1",
+  "seeds": [
+    "@qmo_ast_dm_052"
+  ],
+  "targets": [
+    "@total_action"
+  ],
+  "bidirectional": true,
+  "edge_count": 1659,
+  "reachable_count": 270,
+  "distance_histogram": {
+    "0": 1,
+    "1": 5,
+    "2": 33,
+    "3": 86,
+    "4": 145
+  },
+  "paths": {
+    "@qmo_ast_dm_052 -> @total_action": [
+      {
+        "from": "@qmo_ast_dm_052",
+        "relation": "TARGETS",
+        "to": "@dm_metric_action_selection",
+        "traversal": "forward",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V117_V125",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@dm_metric_action_selection",
+        "relation": "DEPENDS_ON",
+        "to": "@dm_covariant_hidden_action_family",
+        "traversal": "forward",
+        "origin": "DARKMATTER_2.2",
+        "provenance": "DM2.2_CROSS_API",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "OPEN_HANDLE",
+        "confidence": "high"
+      },
+      {
+        "from": "@dm_covariant_hidden_action_family",
+        "relation": "DEPENDS_ON",
+        "to": "@total_action",
+        "traversal": "forward",
+        "origin": "DARKMATTER_2.2",
+        "provenance": "DM2.2_CROSS_API",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "ATLAS_DERIVED",
+        "confidence": "high"
+      }
+    ]
+  },
+  "guardrail": "Navigation evidence only. Composed paths are not direct theorems and no parent object is promoted."
+}

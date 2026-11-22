@@ -1,0 +1,25 @@
+{
+  "handle": "iteration://IT-DM-E079-R4R7-EVENT-WITNESS",
+  "object_type": "bounded_iteration",
+  "status": "CONDITIONAL_GATE_1_CLOSED",
+  "domain": "ITERATION",
+  "namespace": "mk43://iteration",
+  "name": "IT-DM-E079-R4R7-EVENT-WITNESS",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "BOUNDED_ITERATION",
+  "metadata": {
+    "id": "IT-DM-E079-R4R7-EVENT-WITNESS",
+    "seed": "@dm_ucm_dynamic_event_survival",
+    "terminal_state": "CONDITIONAL_GATE_1_CLOSED",
+    "source_file": "live/registry",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_ITERATION_RUN_V1\", \"run_id\": \"IT-DM-E079-R4R7-EVENT-WITNESS\", \"checkpoint\": \"E079\", \"seed\": \"@dm_ucm_dynamic_event_survival\", \"ceiling\": 256, \"iterations_used\": 4, \"terminal_state\": \"CONDITIONAL_GATE_1_CLOSED\", \"open_next\": \"@dm_ucm_event_source_fiber_separation\", \"note\": \"Uses stable abstraction boundary: one selected corridor witness, not a global R4/R5 numerical solution.\"}"
+  },
+  "address": "iteration://IT-DM-E079-R4R7-EVENT-WITNESS",
+  "address_sha256": "5feafdfcd511db03c12a934b784322e7d4ade6a234243261498513f207127336"
+}

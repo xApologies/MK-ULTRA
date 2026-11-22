@@ -1,0 +1,9 @@
+gate,obligation,criterion,passed,evidence
+D1,Fixed quantum/matter anchor,"rho_Q,H^anchor(F0)=rho_Q,H^anchor(F1)=[Q_H]",True,E025
+D2,Endogenous hidden History,fresh vs H2-conditioned ER History,True,E003/E025
+D3,Same-target nonidentity UCM response,"Respond(H,ER_fresh) != Respond(H,ER_H2-history)",True,E004
+D4,Closed-region continuity conservation,local Delta C !=0 while net Delta C=0,True,E007
+D5,Rank-two anisotropic precursor,all endogenous lift cases anisotropic and validation passes,True,E006/E007
+D6,Localized conditioned-only target,conditioned route overlap=1; fresh=0; all local residuals nonzero,True,E018
+D7,Exact gravitational/tensor admissibility A_g,source-valid admission into C_TT / TT sector,False,SOURCE ROLE RECOVERED; EXACT OPERATOR OPEN
+D8,Direct Time-Shell gravity fiber separation,"G_TS(response0)!=G_TS(response1), G_TS=Pi_T o A_g",False,BLOCKED ON D7

@@ -1,0 +1,193 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_PAIR_QUERY_V1",
+  "a": "@dm_hidden_boundary_response_form",
+  "b": "@rotational_symmetry_constraint",
+  "radius": 3,
+  "a_node_count": 9,
+  "b_node_count": 56,
+  "interface": [],
+  "path_a_to_b": [
+    {
+      "source": "@dm_hidden_boundary_response_form",
+      "relation": "DESCENDS_FROM",
+      "target": "@dm_hidden_response_operator",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "origin_api": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@dm_hidden_response_operator",
+      "relation": "SCHUR_REDUCES",
+      "target": "@dm_continuity_laplacian",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "origin_api": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@dm_continuity_laplacian",
+      "relation": "REALIZES",
+      "target": "@continuity_redistribution",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "origin_api": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@continuity_redistribution",
+      "relation": "DIRECTED_TO",
+      "target": "@gravitational_self_coupling",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54745->54746",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@gravitational_self_coupling",
+      "relation": "DIRECTED_TO",
+      "target": "@gravity",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54748->54749",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@gravity",
+      "relation": "DEPENDS_TO",
+      "target": "@gravitational_radiation",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45089",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@gravitational_radiation",
+      "relation": "DEPENDS_TO",
+      "target": "@inspiral",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45083",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@inspiral",
+      "relation": "DEPENDS_TO",
+      "target": "@merger",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45099",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@merger",
+      "relation": "DEPENDS_TO",
+      "target": "@ringdown",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45102",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@ringdown",
+      "relation": "DEPENDS_TO",
+      "target": "@black_hole_horizon",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45131",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@black_hole_horizon",
+      "relation": "DEPENDS_TO",
+      "target": "@white_state_core",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45052",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@white_state_core",
+      "relation": "DIRECTED_TO",
+      "target": "@white_core_mote_coupling",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:50138->50139",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@white_core_mote_coupling",
+      "relation": "DIRECTED_TO",
+      "target": "@mote",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:50147->50148",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@mote",
+      "relation": "DEPENDS_TO",
+      "target": "@er_foam",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45104",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@er_foam",
+      "relation": "DEPENDS_TO",
+      "target": "@helicon",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45073",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@helicon",
+      "relation": "SATISFIES",
+      "target": "@rotational_symmetry_constraint",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "direct_api_recovery",
+      "recovery_pass": "RP-38",
+      "provenance": "DIRECT_DEFINITION_API:2498-2510",
+      "origin_api": "TIMESPACE_4.3"
+    }
+  ],
+  "path_b_to_a": null,
+  "edge_policy": {
+    "timespace": "high-confidence direct/non-derived RP42 records",
+    "darkmatter": "high-confidence DM_DIRECT_EDGE_REGISTRY records",
+    "gluing": "exact handle equality only; no cross-edge is invented"
+  }
+}

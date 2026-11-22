@@ -1,0 +1,236 @@
+{
+  "schema": "ASTRAEUS_API_QMO_CHAIN_V1",
+  "qmo_id": "QMO-AST-DM-WL-030",
+  "name": "Orientation-History Next-Handle Cross-API Crawl",
+  "status": "API_GENERATED_WORK_LAYER_NAVIGATION_OBJECT_NOT_PARENT_PROMOTED",
+  "operation": "cross_qmo_chain.py bidirectional navigation; original edge direction retained per step",
+  "seed": "@orientation_history",
+  "targets": [
+    "@dm_hidden_state_embedding",
+    "@dm_dark_matter_qualification_locus",
+    "@dm_dark_matter_qualification_nonempty",
+    "@universal_coupling"
+  ],
+  "edge_count_runtime": 1333,
+  "reachable_count_radius4": 87,
+  "paths": {
+    "@orientation_history -> @dm_hidden_state_embedding": [
+      {
+        "from": "@orientation_history",
+        "relation": "DEPENDS_TO",
+        "to": "@relational_history",
+        "traversal": "forward",
+        "origin": "TIMESPACE_4.3_FULL_CANONICAL",
+        "provenance": "DIRECT_API_LINE:45106",
+        "source_location": "source_snapshots/api43/MK43_Ultra_API_CURRENT_CANONICAL.md:58008",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@relational_history",
+        "relation": "DEPENDS_ON",
+        "to": "@dm_hidden_state_bundle",
+        "traversal": "reverse",
+        "origin": "DARKMATTER_2.1",
+        "provenance": "DM2.1",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "ATLAS_DERIVED",
+        "confidence": "high"
+      },
+      {
+        "from": "@dm_hidden_state_bundle",
+        "relation": "DEPENDS_ON",
+        "to": "@dm_hidden_state_embedding",
+        "traversal": "reverse",
+        "origin": "DARKMATTER_2.1",
+        "provenance": "DM2.1",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "OPEN_HANDLE",
+        "confidence": "high"
+      }
+    ],
+    "@orientation_history -> @dm_dark_matter_qualification_locus": [
+      {
+        "from": "@orientation_history",
+        "relation": "DEPENDS_TO",
+        "to": "@relational_history",
+        "traversal": "forward",
+        "origin": "TIMESPACE_4.3_FULL_CANONICAL",
+        "provenance": "DIRECT_API_LINE:45106",
+        "source_location": "source_snapshots/api43/MK43_Ultra_API_CURRENT_CANONICAL.md:58008",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@relational_history",
+        "relation": "DEPENDS_ON",
+        "to": "@dm_hidden_state_bundle",
+        "traversal": "reverse",
+        "origin": "DARKMATTER_2.1",
+        "provenance": "DM2.1",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "ATLAS_DERIVED",
+        "confidence": "high"
+      },
+      {
+        "from": "@dm_hidden_state_bundle",
+        "relation": "DEPENDS_ON",
+        "to": "@dm_hidden_s3_network",
+        "traversal": "forward",
+        "origin": "DARKMATTER_2.1",
+        "provenance": "DM2.1",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "ATLAS_DERIVED",
+        "confidence": "high"
+      },
+      {
+        "from": "@dm_hidden_s3_network",
+        "relation": "DEPENDS_ON",
+        "to": "@dm_dark_matter_qualification_locus",
+        "traversal": "reverse",
+        "origin": "DARKMATTER_2.1",
+        "provenance": "DM2.1",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "ATLAS_DERIVED",
+        "confidence": "high"
+      }
+    ],
+    "@orientation_history -> @dm_dark_matter_qualification_nonempty": [
+      {
+        "from": "@orientation_history",
+        "relation": "DEPENDS_TO",
+        "to": "@relational_history",
+        "traversal": "forward",
+        "origin": "TIMESPACE_4.3_FULL_CANONICAL",
+        "provenance": "DIRECT_API_LINE:45106",
+        "source_location": "source_snapshots/api43/MK43_Ultra_API_CURRENT_CANONICAL.md:58008",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@relational_history",
+        "relation": "DEPENDS_ON",
+        "to": "@dm_hidden_state_bundle",
+        "traversal": "reverse",
+        "origin": "DARKMATTER_2.1",
+        "provenance": "DM2.1",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "ATLAS_DERIVED",
+        "confidence": "high"
+      },
+      {
+        "from": "@dm_hidden_state_bundle",
+        "relation": "DEPENDS_ON",
+        "to": "@dm_hidden_s3_network",
+        "traversal": "forward",
+        "origin": "DARKMATTER_2.1",
+        "provenance": "DM2.1",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "ATLAS_DERIVED",
+        "confidence": "high"
+      },
+      {
+        "from": "@dm_hidden_s3_network",
+        "relation": "DEPENDS_ON",
+        "to": "@dm_dark_matter_qualification_locus",
+        "traversal": "reverse",
+        "origin": "DARKMATTER_2.1",
+        "provenance": "DM2.1",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "ATLAS_DERIVED",
+        "confidence": "high"
+      },
+      {
+        "from": "@dm_dark_matter_qualification_locus",
+        "relation": "DEPENDS_ON",
+        "to": "@dm_dark_matter_qualification_nonempty",
+        "traversal": "reverse",
+        "origin": "DARKMATTER_2.1",
+        "provenance": "DM2.1",
+        "source_location": "source_snapshots/dm22/DM_DIRECT_EDGE_REGISTRY.json",
+        "audit_status": "OPEN_HANDLE",
+        "confidence": "high"
+      }
+    ],
+    "@orientation_history -> @universal_coupling": [
+      {
+        "from": "@orientation_history",
+        "relation": "VERTICAL_CHAIN",
+        "to": "@chirality_transport",
+        "traversal": "reverse",
+        "origin": "TIMESPACE_4.3_FULL_CANONICAL",
+        "provenance": "API_CODE_BLOCK:27682",
+        "source_location": "source_snapshots/api43/MK43_Ultra_API_CURRENT_CANONICAL.md:57358",
+        "audit_status": "recovered",
+        "confidence": "medium"
+      },
+      {
+        "from": "@chirality_transport",
+        "relation": "DEPENDS_TO",
+        "to": "@recursive_inheritance",
+        "traversal": "forward",
+        "origin": "TIMESPACE_4.3_FULL_CANONICAL",
+        "provenance": "DIRECT_API_LINE:45060",
+        "source_location": "source_snapshots/api43/MK43_Ultra_API_CURRENT_CANONICAL.md:57365",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@recursive_inheritance",
+        "relation": "RELATED_TO",
+        "to": "@inheritance",
+        "traversal": "reverse",
+        "origin": "TIMESPACE_4.3_FULL_CANONICAL",
+        "provenance": null,
+        "source_location": "source_snapshots/api43/MK43_Ultra_API_CURRENT_CANONICAL.md:57158",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@inheritance",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "to": "@admissibility",
+        "traversal": "forward",
+        "origin": "TIMESPACE_4.3_FULL_CANONICAL",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56131->56133",
+        "source_location": "source_snapshots/api43/MK43_Ultra_API_CURRENT_CANONICAL.md:57854",
+        "audit_status": "recovered",
+        "confidence": "medium"
+      },
+      {
+        "from": "@admissibility",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "to": "@native_interaction_factorization",
+        "traversal": "forward",
+        "origin": "TIMESPACE_4.3_FULL_CANONICAL",
+        "provenance": "CANONICAL_API_DEPENDSON:54037",
+        "source_location": "source_snapshots/api43/MK43_Ultra_API_CURRENT_CANONICAL.md:57215",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@native_interaction_factorization",
+        "relation": "DIRECTED_TO",
+        "to": "@universal_coupling",
+        "traversal": "reverse",
+        "origin": "TIMESPACE_4.3_FULL_CANONICAL",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54793->54794",
+        "source_location": "source_snapshots/api43/MK43_Ultra_API_CURRENT_CANONICAL.md:58364",
+        "audit_status": "recovered",
+        "confidence": "high"
+      }
+    ]
+  },
+  "next_handle_readout": {
+    "first_shared_timespace_to_dark_handle": "@relational_history",
+    "next_dark_container": "@dm_hidden_state_bundle",
+    "primary_open_selection_handle": "@dm_hidden_state_embedding"
+  },
+  "interpretation": "The rotational candidate already has a canonical Time-Space handle route into the Dark Matter state-representation branch. The first useful API handle is @relational_history; the Dark Matter API attaches @dm_hidden_state_bundle to it; the selection frontier remains @dm_hidden_state_embedding.",
+  "guardrails": [
+    "bidirectional traversal is navigation only and does not reverse a dependency law",
+    "path existence != physical witness",
+    "no new edge",
+    "no parent promotion"
+  ]
+}

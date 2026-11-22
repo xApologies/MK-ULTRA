@@ -1,0 +1,92 @@
+{
+  "handle": "@dm_response_spectrum_residue_discriminator",
+  "object_type": "qmo_derived_mathematical_object",
+  "status": "LIVE_CONDITIONAL_CLOSED_WITH_NARROWED_PROOF_DEBT",
+  "domain": "DM30",
+  "namespace": "mk43://dark-matter/live",
+  "name": "Hidden Port-Response Spectrum Residue Discriminator",
+  "definition": "The previously abstract residue discriminator can be instantiated by a concrete representation-invariant port-response spectral signature. Conditional on its inclusion in Inv at the boundary comparison, B_full^R is residue-distinguishable from B_vis^R and the closed Q-survival theorem carries the distinction into Q.",
+  "math": "DeltaLambda_H>=0 and !=0; selected two-port bridge has rank=1, trace=2w_eff>0. If this spectral invariant is in Inv, residue bundles differ and Q survival follows.",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E080",
+  "qmo_generated": true,
+  "proof_status": "DERIVED_OR_CONDITIONAL",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "LIVE_QMO_DERIVED",
+  "metadata": {
+    "payload": {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_response_spectrum_residue_discriminator",
+      "canonical_name": "Hidden Port-Response Spectrum Residue Discriminator",
+      "type": "ConditionalResidueSpectralDiscriminator",
+      "status": "LIVE_CONDITIONAL_CLOSED_WITH_NARROWED_PROOF_DEBT",
+      "checkpoint": "E080",
+      "definition": "The previously abstract residue discriminator can be instantiated by a concrete representation-invariant port-response spectral signature. Conditional on its inclusion in Inv at the boundary comparison, B_full^R is residue-distinguishable from B_vis^R and the closed Q-survival theorem carries the distinction into Q.",
+      "math": "DeltaLambda_H>=0 and !=0; selected two-port bridge has rank=1, trace=2w_eff>0. If this spectral invariant is in Inv, residue bundles differ and Q survival follows.",
+      "parents": [
+        "@dm_hidden_response_operator",
+        "@dm_projection_residue_survival",
+        "@dm_q_survival"
+      ],
+      "working_assumptions": [
+        "WA-DM-E065-001",
+        "WA-DM-E080-001"
+      ],
+      "proof_debt": [
+        "PD-DM-001",
+        "PD-DM-004"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    "direct_live_edges_out": [
+      {
+        "source": "@dm_response_spectrum_residue_discriminator",
+        "relation": "DERIVED_FROM",
+        "target": "@dm_hidden_response_operator",
+        "graph_family": "dark_matter_live",
+        "confidence": "high",
+        "audit_status": "LIVE_DERIVED",
+        "provenance": "E080",
+        "origin": "LIVE_LANDSCAPE",
+        "source_layer": "live"
+      },
+      {
+        "source": "@dm_response_spectrum_residue_discriminator",
+        "relation": "TARGETS",
+        "target": "@dm_projection_residue_survival",
+        "graph_family": "dark_matter_live",
+        "confidence": "high",
+        "audit_status": "LIVE_DERIVED",
+        "provenance": "E080",
+        "origin": "LIVE_LANDSCAPE",
+        "source_layer": "live"
+      },
+      {
+        "source": "@dm_response_spectrum_residue_discriminator",
+        "relation": "CONDITIONAL_ON",
+        "target": "@dm_projection_residue_survival",
+        "graph_family": "dark_matter_live",
+        "confidence": "medium",
+        "audit_status": "WORKING_ASSUMPTION",
+        "provenance": "WA-DM-E080-001",
+        "origin": "LIVE_LANDSCAPE",
+        "source_layer": "live"
+      },
+      {
+        "source": "@dm_response_spectrum_residue_discriminator",
+        "relation": "CONDITIONALLY_SUPPORTS",
+        "target": "@dm_q_survival",
+        "graph_family": "dark_matter_live",
+        "confidence": "medium",
+        "audit_status": "CONDITIONAL_DERIVATION",
+        "provenance": "WA-DM-E080-001",
+        "origin": "LIVE_LANDSCAPE",
+        "source_layer": "live"
+      }
+    ],
+    "direct_live_edges_in": []
+  },
+  "address": "@dm_response_spectrum_residue_discriminator",
+  "address_sha256": "7c8ea80e5fe40c696685f5d4487cf0e62a7ba60b6ca26c0bf8e4d96a05c3427d"
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1",
+  "landscape_id": "DL-DM-E075-UCM-COMPONENT-WITNESS",
+  "seed": "@dm_joint_hidden_network_witness",
+  "status": "APPEND_ONLY_CONDITIONAL",
+  "nodes": [
+    "@dm_joint_hidden_network_witness",
+    "@dm_resolution_density_profile",
+    "@energy_density",
+    "@dm_ucm_source_domain_distinction",
+    "@dm_ucm_event_to_source_nonannihilation",
+    "@stress_energy_tensor",
+    "@dm_conditional_ucm_stress_energy_witness"
+  ],
+  "working_assumptions": [
+    "WA-DM-E075-001"
+  ],
+  "terminal": {
+    "state": "CONDITIONAL_STRESS_ENERGY_SEPARATION_CLOSED",
+    "iteration": 3,
+    "focus": "@dm_conditional_ucm_stress_energy_witness",
+    "reason": "One nonzero hidden density component is conditionally preserved through the recovered UCM source handoff, sufficient to prove tensor inequality without reconstructing the full tensor."
+  }
+}

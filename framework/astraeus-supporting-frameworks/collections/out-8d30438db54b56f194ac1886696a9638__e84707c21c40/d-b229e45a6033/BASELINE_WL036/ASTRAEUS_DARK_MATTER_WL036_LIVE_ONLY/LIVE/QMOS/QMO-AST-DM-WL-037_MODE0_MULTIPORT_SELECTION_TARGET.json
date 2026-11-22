@@ -1,0 +1,69 @@
+{
+  "schema": "ASTRAEUS_API_QMO_SELECTION_V1",
+  "qmo_id": "QMO-AST-DM-WL-037",
+  "name": "Mode-0 Multi-Port Hidden-S3 Selection Target",
+  "atlas_version": "WL-v152",
+  "status": "SOURCE_CONSTRAINED_SELECTION_TARGET_OPEN_NOT_PARENT_PROMOTED",
+  "seed": "@dm_mode0_network_selection_rule",
+  "input_handle": "@dm_mode0_access_interface",
+  "existing_output_class": "@dm_hidden_s3_network",
+  "api_edges": [
+    {
+      "source": "@dm_mode0_access_interface",
+      "relation": "REQUIRES",
+      "target": "@dm_mode0_network_selection_rule",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "OPEN_HANDLE",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@dm_mode0_network_selection_rule",
+      "relation": "SELECTS_ACCESS_TO",
+      "target": "@dm_hidden_s3_network",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "OPEN_HANDLE",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@dm_one_port_no_go",
+      "relation": "CONSTRAINS",
+      "target": "@dm_hidden_s3_network",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "THEOREM",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@dm_direct_cycle_gravity_no_go",
+      "relation": "CONSTRAINS",
+      "target": "@dm_hidden_s3_network",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "THEOREM",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0"
+    }
+  ],
+  "source_recovery": {
+    "white_state_core_role": "Mode-0 access/reference interface; exact core is not identified with the extended hidden network or dark matter.",
+    "pinning_status": "UNPROVED; do not use White-State Core as a Dirichlet-pinned continuity reference.",
+    "one_port_result": "A free one-port hidden component is invisible to the reduced S2 operator.",
+    "multi_port_result": "A hidden component joining at least two distinct readable/black-hole ports can modify the reduced S2 continuity operator.",
+    "cycle_result": "Closed circulation is not required for operator-mediated hidden-network response; pure direct divergence-free cycle source remains no-go in that shortcut."
+  },
+  "selection_target_retyping": "The API already registers @dm_hidden_s3_network as a multi-port continuity-network class. WL-v152 therefore does not invent a new topology type. A Mode-0 selection candidate must choose a member/subsupport of that registered class consistent with the one-port/direct-cycle constraints.",
+  "work_layer_candidate_restriction": "Sel_0(a) subseteq X_H,mp^R, where X_H,mp^R denotes @dm_hidden_s3_network states with at least two distinct readable/black-hole ports unless an independently proved pinned-core branch is later admitted.",
+  "selection_rule_status": "OPEN_HANDLE; no global map Mode0AccessState -> P(X_H^R) is claimed closed.",
+  "next_handle": "@dm_runtime_transition_capacity",
+  "guardrails": [
+    "White-State Core != hidden S3 network != dark matter",
+    "multi-port eligibility != physical hidden-state embedding",
+    "cycle topology is optional; direct pure-cycle source shortcut remains constrained",
+    "selection candidate != parent promotion"
+  ]
+}

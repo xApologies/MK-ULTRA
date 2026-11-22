@@ -1,0 +1,32 @@
+{
+  "id": "QMO-AST-DM-WL-008_HELICON_HORIZONTAL_TRANSPORT_SOURCE_GAP",
+  "work_layer": "WL-009",
+  "atlas": "WL-v133",
+  "date": "2026-08-17",
+  "status": "SOURCE_AUDIT_BLOCKER_NOT_PARENT_PROMOTED",
+  "parents": [
+    "QMO-AST-DM-WL-007_STAGEWISE_GRAVITY_INTERTWINING_DARK_ONSET",
+    "@helicon_transport_along_bridges",
+    "Time-Space API 4.3",
+    "Transduction Geometry v1.0"
+  ],
+  "required_operator": "U_2(gamma):Helicon_alpha->Helicon_beta compatible with chirality/ER horizontal transport",
+  "source_findings": [
+    "@helicon_transport_along_bridges is indexed-unlinked with no upstream/downstream edges and one source occurrence",
+    "Time-Space API explicitly leaves 'Recover helicon transport along ER bridges' open",
+    "Time-Space API explicitly leaves the exact operator carrying H through ER adjacency open",
+    "Transduction Geometry revises 'Helicon required in every corridor' to candidate carrier for propagating corridors"
+  ],
+  "result": "U_2(gamma) is UNTYPED in the mounted source corpus; P005 cannot prove the propagating Helicon stage square or composite gravity intertwining",
+  "nonimplications": [
+    "does not reject Helicon local mathematics",
+    "does not reject the Helicon-to-gravity dependency route",
+    "does not reject localized-knot/transduction branches",
+    "does not identify a failure of the entire dark-matter candidate"
+  ],
+  "next_routes": [
+    "source archaeology for the missing Helicon/ER horizontal transport operator",
+    "independent Gate-B UCM residual/action branch"
+  ],
+  "parent_promotions": 0
+}

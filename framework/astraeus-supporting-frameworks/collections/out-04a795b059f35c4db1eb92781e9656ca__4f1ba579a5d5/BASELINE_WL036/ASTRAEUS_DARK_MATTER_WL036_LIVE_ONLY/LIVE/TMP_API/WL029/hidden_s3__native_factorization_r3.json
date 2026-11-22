@@ -1,0 +1,156 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_PAIR_QUERY_V1",
+  "a": "@dm_hidden_s3_network",
+  "b": "@native_interaction_factorization",
+  "radius": 3,
+  "a_node_count": 72,
+  "b_node_count": 102,
+  "interface": [
+    {
+      "handle": "@admissibility",
+      "distance_a": 2,
+      "distance_b": 1
+    },
+    {
+      "handle": "@dm_runtime_transition_capacity",
+      "distance_a": 1,
+      "distance_b": 2
+    },
+    {
+      "handle": "@dm_hidden_s3_network",
+      "distance_a": 0,
+      "distance_b": 3
+    },
+    {
+      "handle": "@native_interaction_factorization",
+      "distance_a": 3,
+      "distance_b": 0
+    },
+    {
+      "handle": "@bandwidth",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@continuity_redistribution",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_constraint_preserving_embedding_family",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_continuity_laplacian",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_er_branch_readout_separation",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_hidden_relational_load",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_local_capacity_envelope",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_local_continuity_response_coefficient",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@gravitational_self_coupling",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@graviton",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@native_causal_order",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@native_constraint_closure",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@resolution",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@er_foam",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@gravity",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@recursive_inheritance",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@time_shell",
+      "distance_a": 3,
+      "distance_b": 3
+    }
+  ],
+  "path_a_to_b": [
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "USES",
+      "target": "@dm_runtime_transition_capacity",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "origin_api": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@dm_runtime_transition_capacity",
+      "relation": "DEPENDS_ON",
+      "target": "@admissibility",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "origin_api": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@admissibility",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@native_interaction_factorization",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DEPENDSON:54037",
+      "origin_api": "TIMESPACE_4.3"
+    }
+  ],
+  "path_b_to_a": null,
+  "edge_policy": {
+    "timespace": "high-confidence direct/non-derived RP42 records",
+    "darkmatter": "high-confidence DM_DIRECT_EDGE_REGISTRY records",
+    "gluing": "exact handle equality only; no cross-edge is invented"
+  }
+}

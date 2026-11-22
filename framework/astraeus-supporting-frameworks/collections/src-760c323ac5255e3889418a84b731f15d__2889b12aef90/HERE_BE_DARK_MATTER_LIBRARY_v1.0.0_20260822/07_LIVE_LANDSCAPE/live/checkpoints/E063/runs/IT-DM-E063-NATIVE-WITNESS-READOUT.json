@@ -1,0 +1,149 @@
+{
+  "schema": "ASTRAEUS_BOUNDED_ITERATION_RUN_V1",
+  "run_id": "IT-DM-E063-NATIVE-WITNESS-READOUT",
+  "checkpoint": "E063",
+  "seed": "@dm_native_hidden_witness",
+  "requested_ceiling": 4,
+  "direction": "outgoing_semantic_edges_only",
+  "relation_filter": [
+    "CONSTRAINED_BY",
+    "CONTAINS",
+    "DEPENDS_ON",
+    "DESCENDS_FROM",
+    "ENTERS",
+    "REALIZES",
+    "REQUIRES",
+    "SCHUR_REDUCES",
+    "USES"
+  ],
+  "iterations": [
+    {
+      "iteration": 0,
+      "frontier": [
+        "@dm_native_hidden_witness"
+      ],
+      "edges": [],
+      "new_nodes": [],
+      "open_hits": []
+    },
+    {
+      "iteration": 1,
+      "frontier": [
+        "@dm_native_hidden_witness"
+      ],
+      "edges": [
+        {
+          "source": "@dm_native_hidden_witness",
+          "relation": "CONTAINS",
+          "target": "@dm_hidden_response_operator",
+          "graph_family": "dark_matter",
+          "confidence": "high",
+          "audit_status": "ATLAS_DERIVED",
+          "provenance": "DM2.0",
+          "origin": "DARKMATTER_2.0",
+          "source_layer": "dm22"
+        },
+        {
+          "source": "@dm_native_hidden_witness",
+          "relation": "CONTAINS",
+          "target": "@dm_resolution_density_profile",
+          "graph_family": "dark_matter",
+          "confidence": "high",
+          "audit_status": "ATLAS_DERIVED",
+          "provenance": "DM2.0",
+          "origin": "DARKMATTER_2.0",
+          "source_layer": "dm22"
+        }
+      ],
+      "new_nodes": [
+        "@dm_hidden_response_operator",
+        "@dm_resolution_density_profile"
+      ],
+      "open_hits": []
+    },
+    {
+      "iteration": 2,
+      "frontier": [
+        "@dm_hidden_response_operator",
+        "@dm_resolution_density_profile"
+      ],
+      "edges": [
+        {
+          "source": "@dm_hidden_response_operator",
+          "relation": "SCHUR_REDUCES",
+          "target": "@dm_continuity_laplacian",
+          "graph_family": "dark_matter",
+          "confidence": "high",
+          "audit_status": "ATLAS_DERIVED",
+          "provenance": "DM2.0",
+          "origin": "DARKMATTER_2.0",
+          "source_layer": "dm22"
+        },
+        {
+          "source": "@dm_resolution_density_profile",
+          "relation": "DEPENDS_ON",
+          "target": "@dm_hidden_relational_load",
+          "graph_family": "dark_matter",
+          "confidence": "high",
+          "audit_status": "ATLAS_DERIVED",
+          "provenance": "DM2.0",
+          "origin": "DARKMATTER_2.0",
+          "source_layer": "dm22"
+        },
+        {
+          "source": "@dm_resolution_density_profile",
+          "relation": "DEPENDS_ON",
+          "target": "@resolution",
+          "graph_family": "dark_matter",
+          "confidence": "high",
+          "audit_status": "ATLAS_DERIVED",
+          "provenance": "DM2.0",
+          "origin": "DARKMATTER_2.0",
+          "source_layer": "dm22"
+        },
+        {
+          "source": "@dm_resolution_density_profile",
+          "relation": "REALIZES",
+          "target": "@energy_density",
+          "graph_family": "dark_matter",
+          "confidence": "high",
+          "audit_status": "ATLAS_DERIVED",
+          "provenance": "DM2.0",
+          "origin": "DARKMATTER_2.0",
+          "source_layer": "dm22"
+        },
+        {
+          "source": "@dm_resolution_density_profile",
+          "relation": "REQUIRES",
+          "target": "@dm_native_density_to_readable_source",
+          "graph_family": "dark_matter",
+          "confidence": "high",
+          "audit_status": "OPEN_HANDLE",
+          "provenance": "DM2.0",
+          "origin": "DARKMATTER_2.0",
+          "source_layer": "dm22"
+        }
+      ],
+      "new_nodes": [
+        "@dm_continuity_laplacian",
+        "@dm_hidden_relational_load",
+        "@resolution",
+        "@energy_density",
+        "@dm_native_density_to_readable_source"
+      ],
+      "open_hits": [
+        "@dm_native_density_to_readable_source"
+      ]
+    }
+  ],
+  "terminal": {
+    "state": "OPEN_FORK",
+    "iteration": 2,
+    "open_handles": [
+      "@dm_native_density_to_readable_source"
+    ],
+    "reason": "Registered dependency walk reached an explicitly open readout/transduction handle. Stop rather than invent its map."
+  },
+  "navigation_reverse_edges_used": false,
+  "promotion_effect": "NONE"
+}

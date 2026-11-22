@@ -1,0 +1,28 @@
+{
+  "schema": "ASTRAEUS_DM_WORK_LAYER_QMO_V1",
+  "qmo_id": "QMO-AST-DM-WL-018",
+  "name": "UCM Event-Telemetry-Component Factorization",
+  "status": "SOURCE_NORMALIZED_ROLE_FACTORIZATION_NOT_PARENT_PROMOTED",
+  "work_layer_revision": "WL-019",
+  "date": "2026-08-17",
+  "factorization": "P_T^R = Pi_T,R o Theta_R at role level, where Theta_R extracts recovered UniversalCouplingEvent telemetry and Pi_T,R is the readable stress-energy projection role.",
+  "gates": [
+    "Sep_dyn",
+    "Sep_tel",
+    "Sep_T"
+  ],
+  "inclusion": "Sep_T => Sep_tel => Sep_dyn; correspondingly Pers_U subseteq Pers_tel subseteq Pers_dyn on the common domain.",
+  "component_route": "Theta_R -> pi_rho,R -> T_rho,R -> readable density -> tensor separation",
+  "source_refs": [
+    "FILE_LIBRARY:UCM 2.md",
+    "DARK_MATTER_API_2.2:sources/ATLAS_V36/182_V29_UCM_DYNAMIC_EVENT_FACTORIZATION.md",
+    "DARK_MATTER_API_2.2:sources/ATLAS_V36/200_V32_ENERGY_STRESS_HANDLE_RECOVERY.md",
+    "DARK_MATTER_API_2.2:sources/ATLAS_V36/201_V32_DENSITY_SEPARATION_WITNESS.md"
+  ],
+  "guardrails": [
+    "telemetry difference does not imply readable tensor difference",
+    "R in Pi_read source notation is redistribution, not Resolution",
+    "no explicit universal Pi_T formula claimed",
+    "no parent promotion"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "handle": "@correspondence_registry",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@correspondence_registry",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 2,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 2,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@correspondence_registry",
+        "relation": "DIRECTED_TO",
+        "target": "@detector_observable",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54850->54851"
+      },
+      {
+        "source": "@correspondence_registry",
+        "relation": "DIRECTED_TO",
+        "target": "@newtonian_gravity",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54847->54848"
+      },
+      {
+        "source": "@time_shell",
+        "relation": "DIRECTED_TO",
+        "target": "@correspondence_registry",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54844->54845"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 276,
+        "source": "@correspondence_registry",
+        "relation": "DIRECTED_TO",
+        "target": "@detector_observable",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54850->54851"
+      },
+      {
+        "id": 277,
+        "source": "@correspondence_registry",
+        "relation": "DIRECTED_TO",
+        "target": "@newtonian_gravity",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54847->54848"
+      },
+      {
+        "id": 1089,
+        "source": "@time_shell",
+        "relation": "DIRECTED_TO",
+        "target": "@correspondence_registry",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54844->54845"
+      }
+    ]
+  },
+  "address": "@correspondence_registry",
+  "address_sha256": "94cdbafef3d15328985430e5a7ad6ba7e1fd3ce5f810a4431fd0bb1d3e12c03d"
+}

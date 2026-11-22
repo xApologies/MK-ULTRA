@@ -1,0 +1,199 @@
+
+% Tome v2 – Block B
+% Core Genesis Algebra and White State Core
+
+\chapter{Genesis Algebra and the Mote}
+
+In this chapter we introduce the \emph{mote} as the first stable, discrete
+geometric excitation above the zero state.  We treat the mote as a
+two-layer $2\times 2$ lattice of Planck-scale beads with exactly one
+diagonal pair occupied on each layer.  The bottom layer encodes an
+``ignition'' choice (left- or right-handed), while the top layer is fixed
+by the diagonal rule.
+
+\section{From $0+0$ to the first stable object}
+
+We begin from a purely algebraic statement of nothingness: two
+independent null slots,
+\[
+  (0,0),
+\]
+with no distinguished ordering and no background manifold.  A \emph{mote
+creation} event is defined as the minimal operation that:
+
+\begin{enumerate}
+  \item preserves overall null content (no net classical quantity is
+  created),
+  \item but breaks the degeneracy between the two slots by assigning
+  complementary geometric roles.
+\end{enumerate}
+
+We represent this by the schema
+\begin{equation}
+  0 \oplus 0 \;\longrightarrow\; 1,
+  \label{eq:zero-plus-zero-equals-one}
+\end{equation}
+where $\oplus$ is \emph{not} ordinary addition, but a constrained
+Genesis operation that produces a single stable mote state from two
+indistinguishable null slots.  Equation~\eqref{eq:zero-plus-zero-equals-one}
+is the defining axiom of \emph{Genesis algebra}.
+
+\section{Lattice representation}
+
+Let the four sites of a $2\times 2$ layer be labelled
+\[
+  (x,y) \in \{0,1\}\times\{0,1\},
+\]
+with $x$ horizontal and $y$ vertical.  A single layer configuration is
+then a binary function
+\[
+  n(x,y) \in \{0,1\},
+\]
+with the \emph{diagonal rule}
+\begin{equation}
+  \sum_{x,y} n(x,y) = 2,
+  \qquad
+  n(0,0) + n(1,1) = 1,
+  \qquad
+  n(0,1) + n(1,0) = 1.
+  \label{eq:diagonal-rule}
+\end{equation}
+Thus each layer contains exactly one \emph{occupied diagonal}.
+
+The full mote consists of a pair of such layers,
+\[
+  n_{\mathrm{bot}}(x,y),\quad
+  n_{\mathrm{top}}(x,y),
+\]
+with the constraint that the top diagonal is the complement of the
+bottom diagonal.  If the bottom layer is
+\[
+  n_{\mathrm{bot}}(0,0) = n_{\mathrm{bot}}(1,1) = 1,\quad
+  n_{\mathrm{bot}}(0,1) = n_{\mathrm{bot}}(1,0) = 0,
+\]
+then the top layer is
+\[
+  n_{\mathrm{top}}(0,1) = n_{\mathrm{top}}(1,0) = 1,\quad
+  n_{\mathrm{top}}(0,0) = n_{\mathrm{top}}(1,1) = 0.
+\]
+
+\section{Chirality and handedness}
+
+We define a chirality label
+\begin{equation}
+  \chi = 
+  \begin{cases}
+    +1, & \text{if the bottom layer occupies the $(0,0)\!\leftrightarrow\!(1,1)$ diagonal},\\[4pt]
+    -1, & \text{if the bottom layer occupies the $(0,1)\!\leftrightarrow\!(1,0)$ diagonal}.
+  \end{cases}
+  \label{eq:mote-chirality}
+\end{equation}
+The top layer then necessarily has chirality $-\chi$.
+
+At the purely algebraic level, the two chiralities are equivalent; the
+Genesis algebra itself does not prefer left or right.  Physical
+symmetry-breaking (for example, in the emergence of right-handed
+biomolecular structures) can then be modelled as a bias in the
+statistical distribution of $\chi$ over large ensembles of motes.
+
+\section{Hilbert space and creation operator}
+
+We now embed the discrete mote configurations in a minimal Hilbert
+space.  Let $\mathcal{H}_{\mathrm{mote}}$ be spanned by the two
+orthonormal chirality eigenstates
+\[
+  \ket{+} \equiv \ket{\chi=+1},\qquad
+  \ket{-} \equiv \ket{\chi=-1}.
+\]
+The vacuum state $\ket{\Omega}$ carries no motes:
+\[
+  \hat{N} \ket{\Omega} = 0,
+\]
+where $\hat{N}$ is a number operator.
+
+A single \emph{Genesis creation operator} $\hat{G}^\dagger$ is defined by
+\begin{equation}
+  \hat{G}^\dagger \ket{\Omega}
+   \;=\;
+   \frac{1}{\sqrt{2}}\bigl(\ket{+} + \ket{-}\bigr),
+  \label{eq:genesis-creation}
+\end{equation}
+creating an equal superposition of left- and right-handed motes from
+the null state.  Its adjoint acts as an annihilation operator,
+\[
+  \hat{G}\ket{+} = \hat{G}\ket{-} = \frac{1}{\sqrt{2}} \ket{\Omega},
+\]
+and we impose the algebra
+\begin{equation}
+  \hat{G}\hat{G}^\dagger \ket{\Omega} = \ket{\Omega},\qquad
+  \hat{G}^\dagger \hat{G} \ket{\pm} = \ket{\pm},
+  \label{eq:genesis-algebra}
+\end{equation}
+so that $\hat{G}$ and $\hat{G}^\dagger$ act as partial isometries on
+the single-mote sector.
+
+\chapter{Infinity Spectrum and Collapse Algebra}
+
+In this chapter we extend Genesis algebra to an \emph{infinity spectrum}
+of possible mote excitations, and introduce a simple \emph{collapse
+algebra} that models how large families of motes reduce to stable,
+finite configurations suitable for building time-shell lattices.
+
+\section{Definition of the infinity spectrum}
+
+We label distinct ``sizes'' or complexity classes of infinity by an
+index $k \in \mathbb{N}$ and write the corresponding abstract infinity
+as $\mathfrak{I}_k$.  We demand only that
+\begin{equation}
+  \mathfrak{I}_1 \prec \mathfrak{I}_2 \prec \cdots,
+  \label{eq:infinity-spectrum}
+\end{equation}
+where $\prec$ denotes ``strictly smaller than'' in the sense of
+cardinality.  No explicit set-theoretic construction is required at this
+stage; we treat $\{\mathfrak{I}_k\}$ as a formal spectrum.
+
+\section{Collapse maps}
+
+A \emph{collapse map} is a homomorphism
+\[
+  C_k : \mathfrak{I}_k \longrightarrow \mathcal{H}_{\mathrm{mote}},
+\]
+sending an abstract infinity to a normalized mote superposition.  We
+represent this schematically by
+\begin{equation}
+  C_k(\mathfrak{I}_k)
+    \;=\;
+    \alpha_k \ket{+} + \beta_k \ket{-},
+  \qquad
+  |\alpha_k|^2 + |\beta_k|^2 = 1.
+  \label{eq:collapse-map}
+\end{equation}
+Different choices of $k$ correspond to different \emph{collapse
+profiles}, e.g. biased vs.\ unbiased chirality outcomes.
+
+\section{White state core as infinity engine}
+
+Finally we combine these ingredients into a minimal phenomenological
+Hamiltonian for the white state core,
+\begin{equation}
+  \hat{H}_{\mathrm{core}}
+   \;=\;
+   \sum_{k} \lambda_k
+      \bigl(
+        \hat{G}^\dagger C_k(\mathfrak{I}_k)
+        + C_k(\mathfrak{I}_k)^\dagger \hat{G}
+      \bigr)
+   \;+\; \hat{H}_{\mathrm{self}},
+  \label{eq:white-core-hamiltonian}
+\end{equation}
+where $\lambda_k$ are coupling constants and $\hat{H}_{\mathrm{self}}$
+collects self-interaction terms in the mote sector.  The core thus acts
+as an \emph{infinity engine}: it continuously converts abstract
+infinite degrees of freedom into concrete, chirality-labelled motes
+that can be assembled into higher structures such as ER-foam lattices
+and time shells.
+
+This block provides the detailed algebraic backbone for the conceptual
+discussion in Chapter~0 and prepares the ground for the later,
+fully-fledged field-theoretic treatment of helicons, dark bridges, and
+cosmological phase structure.

@@ -1,0 +1,26 @@
+{
+  "handle": "qmo://QMO-XAPI-002",
+  "object_type": "qmo",
+  "status": "COMPLETED_FIXED_POINT_CROSS_CRAWL_NO_PARENT_PROMOTION",
+  "domain": "QMO",
+  "namespace": "mk43://qmo",
+  "name": "API 4.3 x Dark Matter 2.2 Exhaustive Combined Closure",
+  "definition": "",
+  "math": "",
+  "source_layer": "live_xapi",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "QMO_REGISTRY",
+  "metadata": {
+    "qmo_id": "QMO-XAPI-002",
+    "name": "API 4.3 x Dark Matter 2.2 Exhaustive Combined Closure",
+    "status": "COMPLETED_FIXED_POINT_CROSS_CRAWL_NO_PARENT_PROMOTION",
+    "source_layer": "live_xapi",
+    "source_file": "live/checkpoints/E093/qmo/QMO-XAPI-002.json",
+    "payload_json": "{\"schema\": \"MK43_QMO_V2\", \"qmo_id\": \"QMO-XAPI-002\", \"name\": \"API 4.3 x Dark Matter 2.2 Exhaustive Combined Closure\", \"status\": \"COMPLETED_FIXED_POINT_CROSS_CRAWL_NO_PARENT_PROMOTION\", \"operation\": \"FULL_FIXED_POINT_CROSS_API_DEPENDENCY_LANDSCAPE\", \"mount_scope\": [\"MK43_API_4.3\", \"DARK_MATTER_API_2.2\", \"ASTRAEUS_LIVE_OVERLAY_v1.0_observation_only\"], \"source_hashes\": {\"api43_zip\": \"0010a4de99d78748ede57670b3bca1df6185b7ba8dd0faf266cc3ba1a4ccf752\", \"dm22_zip\": \"ee4819595f94a52565ab21c832c902ea4040e315f3f575b203c61e53740ed63a\", \"live_v1_zip\": \"3acc6c14817e19f73f6cb3688df587b269c2f1117d236c04de5579d5b99121ba\"}, \"counts\": {\"api43_handles\": 2384, \"api43_typed_edge_records\": 75432, \"api43_noncomposed_edge_records\": 18942, \"api43_semantic_edge_records\": 6676, \"api43_unique_semantic_pairs\": 6399, \"api43_semantic_self_closure_pairs\": 68054, \"dm22_objects\": 38, \"dm22_open_handles\": 7, \"dm22_validated_primitive_dependency_pairs\": 315, \"dm22_validated_fixed_point_pairs\": 5769, \"combined_nodes\": 2422, \"combined_semantic_edge_records\": 7135, \"combined_unique_semantic_pairs\": 6489, \"combined_fixed_point_pairs\": 72564, \"combined_cross_dm_to_api_pairs\": 4391, \"combined_cross_api_to_dm_pairs\": 0}, \"fixed_point\": {\"ceiling\": 1000000000, \"iterations_used\": 8, \"wave_counts\": [38, 33, 54, 49, 48, 16, 8, 1, 1], \"nodes_reached_from_all_dm_objects\": 248, \"api_nodes_reached_from_all_dm_objects\": 210, \"dm_nodes_reached\": 38, \"terminal\": \"NO_NEW_STRUCTURE\"}, \"full_navigation_fixed_point\": {\"iterations_used\": 9, \"wave_counts\": [38, 33, 324, 214, 41, 13, 4, 1, 1, 1], \"nodes_reached\": 670, \"api_nodes_reached\": 632}, \"bridge_corridor\": [{\"source\": \"@dm_resolution_density_profile\", \"relation\": \"REALIZES\", \"target\": \"@energy_density\", \"layer\": \"DM22\", \"confidence\": \"high\", \"audit_status\": \"ATLAS_DERIVED\", \"provenance\": \"DM2.0\"}, {\"source\": \"@energy_density\", \"relation\": \"ENTERS\", \"target\": \"@stress_energy_tensor\", \"layer\": \"DM22\", \"confidence\": \"high\", \"audit_status\": \"recovered\", \"provenance\": \"DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Energy density is a stress-energy component.\"}, {\"source\": \"@stress_energy_tensor\", \"relation\": \"FAMILY_DEPENDS_ON\", \"target\": \"@einstein_field_equation\", \"layer\": \"DM22\", \"confidence\": \"high\", \"audit_status\": \"recovered\", \"provenance\": \"ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:304\"}, {\"source\": \"@einstein_field_equation\", \"relation\": \"REALIZES\", \"target\": \"@gravity\", \"layer\": \"DM22\", \"confidence\": \"high\", \"audit_status\": \"recovered\", \"provenance\": \"DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; The readable gravitational response is governed by the Einstein equation.\"}], \"interpretation\": \"The two APIs form a finite cross-API mathematical environment. Exhaustive closure is used for path discovery and factorization, not automatic proof or canonical-edge promotion. Open handles remain queryable. Exact direct relations and provenance remain attached to every selected corridor.\"}"
+  },
+  "address": "qmo://QMO-XAPI-002",
+  "address_sha256": "c1e0c11ab7fe01c3ca79a5d2822620beb799241631df52ba3396ed202d08f1cb"
+}

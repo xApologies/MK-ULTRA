@@ -1,0 +1,26 @@
+{
+  "handle": "assumption://WA-DM-E075-001",
+  "object_type": "working_assumption",
+  "status": "SUPERSEDED_BY_FACTORED_EVENT_LEVEL_WA-DM-E084-001",
+  "domain": "ASSUMPTION",
+  "namespace": "mk43://assumption",
+  "name": "UCM Hidden Energy-Density Component Nonannihilation",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E075",
+  "qmo_generated": false,
+  "proof_status": "CONDITIONAL",
+  "empirical_status": "",
+  "provenance_class": "WORKING_ASSUMPTION",
+  "metadata": {
+    "id": "WA-DM-E075-001",
+    "name": "UCM Hidden Energy-Density Component Nonannihilation",
+    "status": "SUPERSEDED_BY_FACTORED_EVENT_LEVEL_WA-DM-E084-001",
+    "checkpoint": "E075",
+    "proof_debt": "PD-DM-007",
+    "payload_json": "{\"assumption_id\": \"WA-DM-E075-001\", \"name\": \"UCM Hidden Energy-Density Component Nonannihilation\", \"status\": \"LEGACY_COMPOUND_SCAFFOLD_REQUIRES_E078_TWO_GATE_SPLIT\", \"checkpoint\": \"E075\", \"scope\": \"one selected E063 positive hidden-network diagnostic sector and one fixed readable observer/convention\", \"statement\": \"Assume the recovered UCM event-to-readable-source projection does not annihilate the selected nonzero hidden local energy-density direction. In component form: Delta rho_H>0 implies u^mu u^nu [P_T(e_full)-P_T(e_vis)]_{mu nu} != 0 for the declared comparison observer u.\", \"source_support\": [\"@dm_resolution_density_profile REALIZES @energy_density\", \"API 4.3 @energy_density ENTERS @stress_energy_tensor\", \"ATLAS 133 relationship/adjacency energy realization\", \"ATLAS 178/182 UCM source/event projection architecture\", \"@dm_stress_energy_separation_gate\"], \"not_claimed\": [\"absolute calibration of rho_H\", \"full reconstruction of T_mn from one scalar density\", \"linearity or injectivity of the entire UCM source map\", \"identity of dark matter with energy density\"], \"proof_debt\": \"PD-DM-007\", \"note\": \"Retained for provenance. E078 shows this scaffold compresses both dynamic-event survival and event-to-source sensitivity; use WA-DM-E079-001 plus the remaining Gate-2 debt for new work.\"}"
+  },
+  "address": "assumption://WA-DM-E075-001",
+  "address_sha256": "bd60af8a4c26642d071fbd9b16028273e7b4ecf6b8eb7dfa8580d113690a54e2"
+}

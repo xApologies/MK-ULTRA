@@ -1,0 +1,29 @@
+{
+  "schema": "ASTRAEUS_GENESIS_PARTIAL_ISOMETRY_ROLE_FIREWALL_V1",
+  "qmo_id": "QMO-AST-DM-WL-110",
+  "name": "Genesis Partial Isometry vs Hidden-State Embedding Role Firewall",
+  "atlas_version": "WL-v226",
+  "work_layer": "WL-036",
+  "status": "ROLE_FIREWALL_NO_HIDDEN_EMBEDDING_CLOSURE",
+  "parent_promotions": 0,
+  "source_role": "@genesis_partial_isometry is the restricted map between the vacuum sector and the single-mote chirality sector.",
+  "registered_neighborhood": {
+    "incoming": "@mote_creation_operator",
+    "outgoing": "@mote_hilbert_space"
+  },
+  "hidden_embedding_pair_interface": [
+    "@mote_chirality",
+    "@resolution",
+    "@chirality",
+    "@genesis_field",
+    "@mote_lattice",
+    "@time_shell",
+    "@time_space"
+  ],
+  "finding": "The partial isometry is a legitimate state-sector map but does not target @inherited_state_bundle and is not a substitute for the open bundle monomorphism iota_H. Do not reuse the word isometry to close @dm_hidden_state_embedding.",
+  "next_handle": "@collapse_map",
+  "source_receipts": [
+    "WL036_RAW_GENESIS_PARTIAL_ISOMETRY_NEIGHBORS.json",
+    "WL036_RAW_PARTIAL_ISOMETRY_HIDDEN_EMBED_PAIR.json"
+  ]
+}

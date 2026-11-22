@@ -1,0 +1,21 @@
+{
+  "schema": "ASTRAEUS_DM_CHECKPOINT_MANIFEST_V1",
+  "checkpoint": "E069",
+  "live_api_version": "2.2.0+live.e072",
+  "summary": "E069 — Metric-Active Scalar Proxy",
+  "baseline_release": "DM_2.2.0",
+  "baseline_mutation": 0,
+  "parent_promotions": 0,
+  "physical_promotions": 0,
+  "files": [
+    "assumptions/WA-DM-E069-001.json",
+    "closure/CC-DM-E069-001.json",
+    "formal/LIVE_OBJECT_dm_conditional_scalar_stress_active_witness.json",
+    "landscapes/DL-DM-E069-SCALAR-PROXY-STRESS-ACTIVE.json",
+    "proof_debt/PD-DM-006.json",
+    "qmos/QMO-DM-BRIDGE-CAND-010.json",
+    "reports/E069_REPORT.md",
+    "runs/IT-DM-E069-SCALAR-PROXY.json",
+    "source_snapshots/TOME_SCALAR_ACTION_SOURCE_NOTE.md"
+  ]
+}

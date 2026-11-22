@@ -1,0 +1,45 @@
+{
+  "schema": "ASTRAEUS_WL033_SOURCE_RECEIPTS_V1",
+  "date": "2026-08-18",
+  "local_byte_authoritative_sources": [
+    {
+      "archive": "TIME_SPACE_API_4.3.zip",
+      "uses": [
+        "mote lattice/configuration/chirality RP21-RP23",
+        "explicit open N(x,y,z)",
+        "mote ensemble -> ER foam dependency",
+        "ER-throat incidence -> weighted adjacency"
+      ]
+    },
+    {
+      "archive": "TRANSDUCTION_GEOMETRY_v1.0.zip",
+      "uses": [
+        "@admissibility_relation",
+        "@transduction_descent",
+        "@gluing_data",
+        "@chirality_fabric",
+        "@macro_descent_audit",
+        "D21-D26 local-to-global realization definitions"
+      ]
+    }
+  ],
+  "file_library_reference_sources": [
+    {
+      "title": "MK43U_AERA_Helicon_Chirality_Companion.pdf",
+      "use": "orientation generates adjacency; C_a \u00b7_rho C_b iff A=1"
+    },
+    {
+      "title": "MK43U_AERA_Phase_I_II_III_Master_Copy_Full.pdf",
+      "use": "primitive state graph e_ij iff A(s_i,s_j,rho_ij)=1; W/ER historical edge typing"
+    },
+    {
+      "title": "all_chapters.json / ER Network Formalism",
+      "use": "Planck-scale W_ij>=0 symmetric adjacency; no mote edge selector"
+    },
+    {
+      "title": "Boundary Investigation.pdf",
+      "use": "6-neighbor rule is experimental boundary extraction only; explicitly not promoted to mote canon"
+    }
+  ],
+  "conclusion": "No source recovered an exact eight-site N(x,y,z) or a complete mote-specific gluing-data instance. Generic Transduction Descent machinery already exists, so the next relevant object is @chirality_fabric / mote-specific gluing data rather than a new general assembly algebra."
+}

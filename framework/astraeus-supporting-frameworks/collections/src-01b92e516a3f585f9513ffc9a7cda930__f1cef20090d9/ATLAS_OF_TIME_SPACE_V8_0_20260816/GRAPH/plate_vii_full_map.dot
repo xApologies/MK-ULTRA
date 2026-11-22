@@ -1,0 +1,35 @@
+digraph G {
+ graph [bgcolor="#06101b", rankdir=TB, pad=0.5, nodesep=0.35, ranksep=0.55, label="ATLAS PLATE VII — TIME-SPACE v3 FULL CARTOGRAPHY", labelloc=t, fontcolor="#f3d48b", fontsize=26];
+ node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#8fb9cc", fillcolor="#0d2132", fontcolor="#e8f2f7", penwidth=1.3];
+ edge [color="#6fa7bf", fontcolor="#d7e9f1", fontname="Helvetica", fontsize=9, penwidth=1.3];
+ T [label="T⁵ ≅ S³ × S²\nminimal five-dimensional Time-Space", shape=ellipse, color="#f3d48b", fillcolor="#19334a", penwidth=2.5];
+ S3 [label="S³ continuity base"];
+ chi [label="χ₃\nchirality fabric"];
+ H [label="H₃\nHelicon continuity candidate"];
+ path [label="γ in S³"];
+ W [label="γ*T⁵ ≅ S²×I\ncorridor / portal"];
+ S2 [label="Σ_p ≅ S²\nlocalized readable spacetime", fillcolor="#193a38"];
+ locH [label="H_p^loc\nS³→S² transduction"];
+ ER [label="ER_p[n]\ntransient adjacency events"];
+ load [label="⟨ER load⟩\npersistent coarse-grained geometry"];
+ Q [label="QFT / Q handoff"];
+ GR [label="GR / metric"];
+ D [label="H_D\nnon-radiative candidate"];
+ R [label="δH_R\nradiative sector"];
+ DM [label="T^H_{μν}\ndark-sector candidate"];
+ Gv [label="H_g → graviton → h_{μν}"];
+ T -> S3;
+ S3 -> chi -> H;
+ S3 -> path -> W -> S2;
+ H -> locH -> S2;
+ S2 -> ER -> load;
+ S2 -> Q;
+ S2 -> GR;
+ H -> D -> DM -> GR;
+ H -> R -> Gv -> GR;
+ load -> DM [style=dashed, label="candidate source"];
+ chi -> Q [style=dashed, label="local χ readout"];
+ chi -> GR [style=dashed, label="local χ readout"];
+ note [label="NEXT CROSSROAD:\nCan nonflat smooth S³ connection curvature\nproduce dark-sector load + local QFT/GR closure\nwithout generalized topology?", fillcolor="#3b2c27", color="#f0b96c", penwidth=2];
+ GR -> note [style=invis];
+}

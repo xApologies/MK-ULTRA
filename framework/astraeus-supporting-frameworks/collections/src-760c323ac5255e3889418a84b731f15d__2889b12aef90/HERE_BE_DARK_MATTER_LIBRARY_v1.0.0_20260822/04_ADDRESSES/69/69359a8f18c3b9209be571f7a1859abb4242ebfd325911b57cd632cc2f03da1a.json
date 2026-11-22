@@ -1,0 +1,25 @@
+{
+  "handle": "landscape://DL-DM-E066-RESIDUE-Q-SURVIVAL",
+  "object_type": "dependency_landscape",
+  "status": "APPEND_ONLY_CONDITIONAL",
+  "domain": "LANDSCAPE",
+  "namespace": "mk43://landscape",
+  "name": "DL-DM-E066-RESIDUE-Q-SURVIVAL",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "DEPENDENCY_LANDSCAPE",
+  "metadata": {
+    "id": "DL-DM-E066-RESIDUE-Q-SURVIVAL",
+    "seed": "@dm_projection_residue_survival",
+    "status": "APPEND_ONLY_CONDITIONAL",
+    "source_file": "live/checkpoints/E066/landscapes/DL-DM-E066-RESIDUE-Q-SURVIVAL.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1\", \"landscape_id\": \"DL-DM-E066-RESIDUE-Q-SURVIVAL\", \"seed\": \"@dm_projection_residue_survival\", \"status\": \"APPEND_ONLY_CONDITIONAL\", \"nodes\": [\"@dm_conditional_boundary_residue_seed\", \"@dm_projection_residue_survival\", \"@residue_quantum_field_bundle\", \"@dm_q_completion_family\", \"@dm_q_survival\", \"@dm_conditional_q_handoff_distinction\", \"@dm_metric_action_selection\"], \"terminal\": {\"state\": \"OPEN_FORK\", \"iteration\": 3, \"focus\": \"@dm_metric_action_selection\", \"reason\": \"Projection/residue and Q survival close conditionally; stress-energy requires a metric-coupled action branch.\"}}"
+  },
+  "address": "landscape://DL-DM-E066-RESIDUE-Q-SURVIVAL",
+  "address_sha256": "69359a8f18c3b9209be571f7a1859abb4242ebfd325911b57cd632cc2f03da1a"
+}

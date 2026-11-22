@@ -1,0 +1,25 @@
+{
+  "handle": "landscape://DL-DM-E084-EVENT-DENSITY-GATE",
+  "object_type": "dependency_landscape",
+  "status": "CONDITIONAL_GATE_2_CLOSURE",
+  "domain": "LANDSCAPE",
+  "namespace": "mk43://landscape",
+  "name": "DL-DM-E084-EVENT-DENSITY-GATE",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "DEPENDENCY_LANDSCAPE",
+  "metadata": {
+    "id": "DL-DM-E084-EVENT-DENSITY-GATE",
+    "seed": "@dm_conditional_ucm_dynamic_event_witness",
+    "status": "CONDITIONAL_GATE_2_CLOSURE",
+    "source_file": "DL-DM-E084-EVENT-DENSITY-GATE.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1\", \"landscape_id\": \"DL-DM-E084-EVENT-DENSITY-GATE\", \"seed\": \"@dm_conditional_ucm_dynamic_event_witness\", \"status\": \"CONDITIONAL_GATE_2_CLOSURE\", \"nodes\": [\"@dm_conditional_ucm_dynamic_event_witness\", \"@energy_density\", \"@dm_event_density_component_survival\", \"@stress_energy_tensor\", \"@dm_conditional_event_density_source_separation\"], \"terminal\": {\"state\": \"CONDITIONAL_UCM_GATE_2_CLOSED\", \"iteration\": 4, \"focus\": \"@dm_conditional_event_density_source_separation\", \"reason\": \"One readable density component is enough to separate stress tensors; full P_T remains unnecessary for the selected witness.\"}}"
+  },
+  "address": "landscape://DL-DM-E084-EVENT-DENSITY-GATE",
+  "address_sha256": "955e00ff6c53fcc56023e7a10059d34ada0d8eaaeddfea4c46c3a90dd1e5c8a9"
+}

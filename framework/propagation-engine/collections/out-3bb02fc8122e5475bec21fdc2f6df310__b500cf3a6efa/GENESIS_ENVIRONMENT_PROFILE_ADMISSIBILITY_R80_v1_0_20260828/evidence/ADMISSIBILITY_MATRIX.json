@@ -1,0 +1,62 @@
+{
+  "X_square5|P2_square": {
+    "family_match": true,
+    "realized_ops": [
+      "PROJECT",
+      "READOUT",
+      "TRANSPORT"
+    ],
+    "admissible": true
+  },
+  "X_square5|P3_simplex": {
+    "family_match": false,
+    "realized_ops": [
+      "DEFORM",
+      "PROJECT",
+      "READOUT",
+      "TRANSPORT"
+    ],
+    "admissible": false
+  },
+  "X_square5|P5_full": {
+    "family_match": true,
+    "realized_ops": [
+      "DEFORM",
+      "LIFT",
+      "PROJECT",
+      "READOUT",
+      "TRANSPORT"
+    ],
+    "admissible": true
+  },
+  "X_simplex5|P2_square": {
+    "family_match": false,
+    "realized_ops": [
+      "PROJECT",
+      "READOUT",
+      "TRANSPORT"
+    ],
+    "admissible": false
+  },
+  "X_simplex5|P3_simplex": {
+    "family_match": true,
+    "realized_ops": [
+      "DEFORM",
+      "PROJECT",
+      "READOUT",
+      "TRANSPORT"
+    ],
+    "admissible": true
+  },
+  "X_simplex5|P5_full": {
+    "family_match": true,
+    "realized_ops": [
+      "DEFORM",
+      "LIFT",
+      "PROJECT",
+      "READOUT",
+      "TRANSPORT"
+    ],
+    "admissible": true
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "start": "@dm_history_to_continuity_strength",
+  "depth": 4,
+  "handles": [
+    "@admissibility",
+    "@admissible_continuation",
+    "@dm_history_to_continuity_strength",
+    "@dm_local_continuity_response_coefficient",
+    "@graviton_radiative_stability",
+    "@inherited_state_bundle",
+    "@native_constraint_closure",
+    "@readable_graviton_projection"
+  ],
+  "edges": [
+    {
+      "source": "@dm_history_to_continuity_strength",
+      "relation": "MAY_MODULATE",
+      "target": "@dm_local_continuity_response_coefficient",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "OPEN_HANDLE",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@dm_local_continuity_response_coefficient",
+      "relation": "DEPENDS_ON",
+      "target": "@admissibility",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@admissibility",
+      "relation": "RESOLVED_VERTICAL_CHAIN",
+      "target": "@admissible_continuation",
+      "graph_family": "mixed",
+      "confidence": "medium",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-39",
+      "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56133->56135",
+      "origin": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@admissibility",
+      "relation": "VERTICAL_CHAIN",
+      "target": "@admissible_continuation",
+      "graph_family": "mixed",
+      "confidence": "medium",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-35",
+      "provenance": "API_CODE_BLOCK:56135;CANONICAL_API_VERTICAL:56133->56135;CANONICAL_API_VERTICAL:56542->56544",
+      "origin": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@admissibility",
+      "relation": "DIRECTED_TO",
+      "target": "@native_constraint_closure",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54799->54800",
+      "origin": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@admissibility",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@native_constraint_closure",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DEPENDSON:54131",
+      "origin": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@native_constraint_closure",
+      "relation": "DIRECTED_TO",
+      "target": "@graviton_radiative_stability",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54820->54821",
+      "origin": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@native_constraint_closure",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@graviton_radiative_stability",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DEPENDSON:54209",
+      "origin": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@native_constraint_closure",
+      "relation": "DIRECTED_TO",
+      "target": "@readable_graviton_projection",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54814->54815",
+      "origin": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@native_constraint_closure",
+      "relation": "USED_BY",
+      "target": "@readable_graviton_projection",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_USEDBY:54139",
+      "origin": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@admissible_continuation",
+      "relation": "DEPENDS_TO",
+      "target": "@inherited_state_bundle",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45043",
+      "origin": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@admissible_continuation",
+      "relation": "DIRECTED_TO",
+      "target": "@inherited_state_bundle",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-35",
+      "provenance": "CANONICAL_API_HANDLE_ARROW:45043",
+      "origin": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@admissible_continuation",
+      "relation": "EXPLICIT_ARROW",
+      "target": "@inherited_state_bundle",
+      "graph_family": "audit",
+      "confidence": "high",
+      "audit_status": "direct_source",
+      "recovery_pass": "RP-39",
+      "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45043",
+      "origin": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@admissible_continuation",
+      "relation": "FORMALLY_DEPENDS_ON",
+      "target": "@inherited_state_bundle",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_UPSTREAM_FIELD:45519",
+      "origin": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@admissible_continuation",
+      "relation": "RECOVERED_DEPENDENCY",
+      "target": "@inherited_state_bundle",
+      "graph_family": "mixed",
+      "confidence": "medium",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "EDGE_LEDGER_LINE:45043;vertical_chain:1714,vertical_chain:27457",
+      "origin": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@admissible_continuation",
+      "relation": "USED_BY",
+      "target": "@inherited_state_bundle",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:45163",
+      "origin": "TIMESPACE_4.3"
+    }
+  ]
+}

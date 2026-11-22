@@ -1,0 +1,39 @@
+{
+  "schema": "ASTRAEUS_SOURCE_NATIVE_HIDDEN_FIBER_COMPONENT_TEMPLATE_V1",
+  "qmo_id": "QMO-AST-DM-WL-085",
+  "name": "Source-Native Component Template for Hidden S3 Relational-State Fiber",
+  "atlas_version": "WL-v201",
+  "status": "CANDIDATE_COMPONENT_REALIZATION_NOT_EMBEDDED",
+  "dm_bundle": {
+    "handle": "@dm_hidden_state_bundle",
+    "type": "ConditionalRelationalStateBundle",
+    "math": "pi_H:E_H^R->T_H, with fiber state R_H(t)=(V_t,E_t,w_t,chi_t,H_t)_R",
+    "status": "ATLAS_DERIVED_ACTIVE"
+  },
+  "source_native_component_candidates": {
+    "H_t": "@orientation_history -> @relational_history",
+    "chi_t": "@chirality_transport / @chirality_labelled_mote",
+    "V_t": "finite set of @chirality_labelled_mote states at the declared Resolution (candidate vertex realization)",
+    "E_t": "@er_throat_incidence / @adjacency_lattice (candidate edge/incidence realization)",
+    "w_t": "@weighted_adjacency with W_ij>=0 and W_ij=W_ji"
+  },
+  "candidate_tuple": "R_ERH(t;R)=(V_mote^chi(t), E_ER(t), W_ER(t), chi_t, H_rel(t))_R",
+  "source_chain": [
+    "@chirality_transport -> @orientation_history -> @relational_history",
+    "@persistent_boundary -> @projection_admissibility -> @planck_landscape -> @chirality_labelled_mote -> @er_throat_incidence -> @weighted_adjacency -> @adjacency_lattice -> @er_foam"
+  ],
+  "finding": "The source-native History/ER-Foam chain supplies objects with the same component roles V,E,w,chi,H used by the Dark Matter hidden relational-state fiber. This gives a concrete candidate fiber-data template rather than a new abstract container.",
+  "remaining_gap": "Show that a selected R_ERH(t;R) belongs to an admissible hidden-S3 bundle and admits iota_H in the constraint-preserving physical embedding family. Component-role matching alone does not close either requirement.",
+  "guardrails": [
+    "Planck/ER component tuple != hidden S3 fiber by identity.",
+    "Chirality-labelled motes are candidate vertices, not automatically V_H.",
+    "ER-throat incidence is candidate E_t data, not proof that rotational H0/H1 changes E_t.",
+    "Weighted adjacency is candidate w_t data, not a physical gravity readout by itself.",
+    "No hidden-state embedding is selected."
+  ],
+  "receipts": [
+    "MK43_Ultra_API_CURRENT_CANONICAL.md:27672-27730",
+    "DM22_HANDLE_REGISTRY.json:@dm_hidden_state_bundle",
+    "LIVE/TMP_API/WL032/relational_history__hidden_state_bundle_r3.json"
+  ]
+}

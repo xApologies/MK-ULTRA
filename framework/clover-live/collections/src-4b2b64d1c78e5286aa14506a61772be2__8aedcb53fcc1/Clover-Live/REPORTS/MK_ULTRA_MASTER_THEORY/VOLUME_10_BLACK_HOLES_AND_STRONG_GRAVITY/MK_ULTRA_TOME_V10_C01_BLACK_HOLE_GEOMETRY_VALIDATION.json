@@ -1,0 +1,106 @@
+{
+  "schema": "tome-publication-renderer-validation/v1",
+  "created_at": "2026-08-11T02:01:06.797111+00:00",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "engine": "KaTeX 0.16.22 -> HTML/CSS -> Playwright -> Microsoft Edge PDF",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_10_BLACK_HOLES_AND_STRONG_GRAVITY/MK_ULTRA_TOME_V10_C01_BLACK_HOLE_GEOMETRY.pdf",
+    "bytes": 166502,
+    "sha256": "95a7c4bd1dc9bf73ace7e836cd9ab370d2fc02b403c59b1b565b57d6b957a809"
+  },
+  "actual_pages": 7,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V10-C01": 3
+  },
+  "chapter_validations": [
+    {
+      "chapter_id": "V10-C01",
+      "source_sha256": "fc8a340e201f82d78b65b75e9290b88a002af6b59d65ae74daa641cd5cc3f12d",
+      "page_start": 3,
+      "headings": 24,
+      "display_equations": 21,
+      "inline_equations": 0,
+      "equation_tags": 21,
+      "api_handles": 34,
+      "table_rows": 35,
+      "content_markers_present": true
+    }
+  ],
+  "engine_metrics": {
+    "renderer": "TOME_PUBLICATION_RENDERER_V1",
+    "katexVersion": "0.16.22",
+    "chapters": [
+      {
+        "id": "V10-C01",
+        "sourceBytes": 11622,
+        "paragraphs": 43,
+        "headings": 24,
+        "displayEquations": 21,
+        "inlineEquations": 0,
+        "tables": 1,
+        "tableRows": 34,
+        "listItems": 0,
+        "codeBlocks": 0,
+        "figures": 0
+      }
+    ],
+    "paragraphs": 43,
+    "headings": 24,
+    "displayEquations": 21,
+    "inlineEquations": 0,
+    "tables": 1,
+    "tableRows": 34,
+    "listItems": 0,
+    "blockQuotes": 0,
+    "codeBlocks": 0,
+    "figures": 0,
+    "mathLayout": {
+      "checked": 21,
+      "scaled": [],
+      "remainingOverflow": []
+    }
+  },
+  "raw_latex_guard": {
+    "result": "PASS",
+    "hits": [],
+    "commands_scanned": [
+      "frac",
+      "mathcal",
+      "mathrm",
+      "begin",
+      "end",
+      "left",
+      "right",
+      "longrightarrow",
+      "rightarrow",
+      "otimes",
+      "partial",
+      "nabla",
+      "mu",
+      "nu",
+      "sum",
+      "int",
+      "operatorname"
+    ]
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V10-C01": "fc8a340e201f82d78b65b75e9290b88a002af6b59d65ae74daa641cd5cc3f12d"
+  },
+  "source_hashes_after": {
+    "V10-C01": "fc8a340e201f82d78b65b75e9290b88a002af6b59d65ae74daa641cd5cc3f12d"
+  },
+  "sealed_chapter_content_change_count": 0,
+  "visual_qa": {
+    "result": "PASS",
+    "scope": "ALL_7_PAGES",
+    "pages_inspected": 7,
+    "blank_pages": 0,
+    "clipped_text_or_math": 0,
+    "overlapping_elements": 0,
+    "unrendered_latex": 0,
+    "layout_defects": 0,
+    "inspection_method": "Poppler 120-DPI page render with full-document contact sheets"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "T1_profile_preservation_under_transport": {
+    "status": "PASS",
+    "statement": "Rainbow Road transport can change relational state and History while preserving a closed projection identity profile."
+  },
+  "T2_resolution_dependent_identity_failure": {
+    "status": "PASS",
+    "statement": "A transport can preserve identity at coarse Resolution and fail the deeper profile match at finer Resolution."
+  },
+  "T3_formalism_classifier": {
+    "status": "PASS",
+    "winner": "fibered_category_over_simplicial_base",
+    "scores": {
+      "abstract_simplicial_complex": 1,
+      "simplicial_set": 2,
+      "cellular_sheaf_cosheaf": 4,
+      "fibered_category_over_simplicial_base": 6
+    },
+    "statement": "No single simpler candidate satisfies all current requirements; a fibered/category-like transport structure over a simplicial/higher-order base is the minimal composite candidate among those tested."
+  }
+}

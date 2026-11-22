@@ -1,0 +1,31 @@
+{
+  "schema": "ASTRAEUS_DM_WORK_LAYER_QMO_V1",
+  "qmo_id": "QMO-AST-DM-WL-020",
+  "name": "Cross-Scale Rotation / ER / S3 Corridor Audit",
+  "status": "EXECUTED_SOURCE_TYPING_AUDIT_PARTIAL_PASS_NOT_PARENT_PROMOTED",
+  "work_layer_revision": "WL-021",
+  "date": "2026-08-17",
+  "factorization": "Adj_chi^R --iota_chiER^R--> ERAdj^R --j_U^R--> X_U^R --U_corr^R--> Corr_R4/R5^R --kappa_S3^R--> Hist_S3^R --lambda_g^R--> localized S2 galaxy pair",
+  "stage_status": {
+    "iota_chiER^R": "SOURCE_GROUNDED_REPRESENTATION_ROLE",
+    "j_U^R": "OPEN_RUNTIME_COMPLETION",
+    "U_corr^R": "SOURCE_RECOVERED_ON_FULL_UCM_RUNTIME_DOMAIN",
+    "kappa_S3^R": "OPEN_S3_CANDIDATE_TYPING",
+    "lambda_g^R": "GENERIC_T5_S3_S2_GEOMETRY_RECOVERED_PHYSICAL_GALAXY_INSTANCE_OPEN"
+  },
+  "primary_next_target": "j_U^R controlled runtime completion for one rotation-generated ER adjacency pair",
+  "parent_qmo_050": "OPEN",
+  "source_refs": [
+    "FILE_LIBRARY:MK43U_AERA_Phase_I_II_III_Master_Copy_Full.pdf",
+    "FILE_LIBRARY:MKULTRA_DARK_MATTER_TARGETED_RECOVERY_v0.1.md",
+    "FILE_LIBRARY:UCM 2.md",
+    "QFT_GR_BRIDGE_VERSION_1",
+    "DARK_MATTER_API_2.2:sources/ATLAS_V36/182_V29_UCM_DYNAMIC_EVENT_FACTORIZATION.md"
+  ],
+  "guardrails": [
+    "bare adjacency is not a complete UCM transaction state",
+    "resolved UCM corridor is not automatically an S3 History object",
+    "generic S2/T5/S3 fibration is not a concrete galaxy realization",
+    "no parent promotion"
+  ]
+}

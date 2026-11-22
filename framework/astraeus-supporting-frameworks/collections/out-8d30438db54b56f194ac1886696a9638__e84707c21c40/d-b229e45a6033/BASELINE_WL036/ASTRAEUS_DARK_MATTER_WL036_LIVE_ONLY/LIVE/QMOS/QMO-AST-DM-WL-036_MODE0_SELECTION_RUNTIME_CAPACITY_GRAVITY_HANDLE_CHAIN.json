@@ -1,0 +1,85 @@
+{
+  "schema": "ASTRAEUS_API_QMO_CHAIN_V1",
+  "qmo_id": "QMO-AST-DM-WL-036",
+  "name": "Mode-0 Hidden-Network Selection / Runtime-Capacity / Gravity Handle Chain",
+  "status": "API_GENERATED_SUPPORTING_BRANCH_NOT_PARENT_PROMOTED",
+  "atlas_version": "WL-v151",
+  "seed": "@dm_mode0_network_selection_rule",
+  "seed_status": "OPEN_HANDLE / supporting (DM22 current registry)",
+  "exact_forward_chain": [
+    {
+      "source": "@dm_mode0_access_interface",
+      "relation": "REQUIRES",
+      "target": "@dm_mode0_network_selection_rule",
+      "origin": "DARKMATTER_2.0/2.2 direct-edge registry"
+    },
+    {
+      "source": "@dm_mode0_network_selection_rule",
+      "relation": "SELECTS_ACCESS_TO",
+      "target": "@dm_hidden_s3_network",
+      "origin": "DARKMATTER_2.0/2.2 direct-edge registry"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "USES",
+      "target": "@dm_runtime_transition_capacity",
+      "origin": "DARKMATTER_2.0/2.2 direct-edge registry"
+    },
+    {
+      "source": "@dm_runtime_transition_capacity",
+      "relation": "DEPENDS_ON",
+      "target": "@continuity_redistribution",
+      "origin": "DARKMATTER_2.0/2.2 direct-edge registry"
+    },
+    {
+      "source": "@continuity_redistribution",
+      "relation": "DIRECTED_TO",
+      "target": "@gravitational_self_coupling",
+      "origin": "TIMESPACE_4.3 canonical"
+    },
+    {
+      "source": "@gravitational_self_coupling",
+      "relation": "DIRECTED_TO",
+      "target": "@gravity",
+      "origin": "TIMESPACE_4.3 canonical"
+    }
+  ],
+  "parallel_black_hole_exit": {
+    "source": "@gravitational_self_coupling",
+    "relation": "DIRECTED_TO",
+    "target": "@black_hole",
+    "origin": "TIMESPACE_4.3 canonical"
+  },
+  "capacity_side_constraints": [
+    "@dm_runtime_transition_capacity CONSTRAINED_BY @bandwidth",
+    "@dm_runtime_transition_capacity CONSTRAINED_BY @resolution",
+    "@dm_runtime_transition_capacity DEPENDS_ON @admissibility",
+    "@dm_runtime_transition_capacity SATURATION_GUARDS @dm_continuity_laplacian"
+  ],
+  "network_constraints": [
+    "@dm_one_port_no_go CONSTRAINS @dm_hidden_s3_network",
+    "@dm_direct_cycle_gravity_no_go CONSTRAINS @dm_hidden_s3_network",
+    "@dm_hidden_s3_network REQUIRES @dm_hidden_state_embedding (physical admission remains frozen/source-blocked in current campaign)"
+  ],
+  "source_status_correction": {
+    "handle": "@dm_hidden_sector_conservation",
+    "dm20_record": "OPEN_PRIMARY_HANDLE",
+    "dm21_current": "ATLAS_DERIVED_CLOSED",
+    "dm22_current": "ATLAS_DERIVED_CLOSED",
+    "object_registry": "ATLAS_DERIVED_CLOSED",
+    "constraint_registry": "ATLAS_DERIVED_CLOSED",
+    "runtime_issue": "tools/dm_api.py recover() loads DM20_HANDLE_REGISTRY.json for record metadata, while open() and the current registries are newer. Therefore recover() can display stale status for this handle.",
+    "disposition": "Do not treat @dm_hidden_sector_conservation as the next open handle; use current DM22/canonical status precedence."
+  },
+  "interpretation": "The API-generated next-handle branch places Mode-0 selection, hidden S3 support, Resolution/Bandwidth-constrained runtime capacity, continuity redistribution, gravitational self-coupling, gravity, and black-hole output in one constrained dependency landscape. The open structural handle is the Mode-0 network selection rule; no new gravity bridge is required.",
+  "next_handle": "@dm_mode0_network_selection_rule",
+  "next_after_selection": "@dm_runtime_transition_capacity",
+  "guardrails": [
+    "supporting open handle != primary dark-matter existence theorem",
+    "dependency graph chain != physical witness",
+    "Mode-0 access interface != White-State Core != hidden S3 network != dark matter",
+    "runtime transition capacity is constrained by Bandwidth and Resolution; it is not scalar Bandwidth itself",
+    "hidden-state embedding branch remains frozen pending missing concrete parent state/evaluator source",
+    "no parent promotion"
+  ]
+}

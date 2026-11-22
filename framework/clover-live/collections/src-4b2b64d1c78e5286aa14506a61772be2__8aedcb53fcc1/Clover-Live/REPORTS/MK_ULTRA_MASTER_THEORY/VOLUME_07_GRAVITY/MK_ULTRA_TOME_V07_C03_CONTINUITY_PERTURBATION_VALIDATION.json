@@ -1,0 +1,106 @@
+{
+  "schema": "tome-publication-renderer-validation/v1",
+  "created_at": "2026-08-10T19:33:54.249974+00:00",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "engine": "KaTeX 0.16.22 -> HTML/CSS -> Playwright -> Microsoft Edge PDF",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_07_GRAVITY/MK_ULTRA_TOME_V07_C03_CONTINUITY_PERTURBATION.pdf",
+    "bytes": 140646,
+    "sha256": "0336c252927ef605118696cb1a930dce0d3d10ef0a199a4fe1fa2aad3ae047e8"
+  },
+  "actual_pages": 6,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V07-C03": 3
+  },
+  "chapter_validations": [
+    {
+      "chapter_id": "V07-C03",
+      "source_sha256": "fa9e9b4e652863de428aa809016bc6d417048ba70acf3b5e84f17667ce3012c0",
+      "page_start": 3,
+      "headings": 20,
+      "display_equations": 17,
+      "inline_equations": 14,
+      "equation_tags": 17,
+      "api_handles": 2,
+      "table_rows": 3,
+      "content_markers_present": true
+    }
+  ],
+  "engine_metrics": {
+    "renderer": "TOME_PUBLICATION_RENDERER_V1",
+    "katexVersion": "0.16.22",
+    "chapters": [
+      {
+        "id": "V07-C03",
+        "sourceBytes": 8869,
+        "paragraphs": 35,
+        "headings": 20,
+        "displayEquations": 17,
+        "inlineEquations": 14,
+        "tables": 1,
+        "tableRows": 2,
+        "listItems": 0,
+        "codeBlocks": 0,
+        "figures": 0
+      }
+    ],
+    "paragraphs": 35,
+    "headings": 20,
+    "displayEquations": 17,
+    "inlineEquations": 14,
+    "tables": 1,
+    "tableRows": 2,
+    "listItems": 0,
+    "blockQuotes": 0,
+    "codeBlocks": 0,
+    "figures": 0,
+    "mathLayout": {
+      "checked": 17,
+      "scaled": [],
+      "remainingOverflow": []
+    }
+  },
+  "raw_latex_guard": {
+    "result": "PASS",
+    "hits": [],
+    "commands_scanned": [
+      "frac",
+      "mathcal",
+      "mathrm",
+      "begin",
+      "end",
+      "left",
+      "right",
+      "longrightarrow",
+      "rightarrow",
+      "otimes",
+      "partial",
+      "nabla",
+      "mu",
+      "nu",
+      "sum",
+      "int",
+      "operatorname"
+    ]
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V07-C03": "fa9e9b4e652863de428aa809016bc6d417048ba70acf3b5e84f17667ce3012c0"
+  },
+  "source_hashes_after": {
+    "V07-C03": "fa9e9b4e652863de428aa809016bc6d417048ba70acf3b5e84f17667ce3012c0"
+  },
+  "visual_qa": {
+    "result": "PASS",
+    "scope": "ALL_6_PAGES",
+    "pages_inspected": 6,
+    "blank_pages": 0,
+    "clipped_text_or_math": 0,
+    "overlapping_elements": 0,
+    "unrendered_latex": 0,
+    "layout_defects": 0,
+    "inspection_method": "Poppler 130-DPI page render with full-document contact sheets"
+  },
+  "sealed_chapter_content_change_count": 0
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "ASTRAEUS_INFINITY_SPECTRUM_HISTORY_FIREWALL_V1",
+  "qmo_id": "QMO-AST-DM-WL-113",
+  "name": "Infinity Spectrum / Collapse Input History Firewall",
+  "atlas_version": "WL-v229",
+  "work_layer": "WL-036",
+  "status": "SOURCE_BRANCH_MISMATCH_FOR_HISTORY_INGRESS",
+  "parent_promotions": 0,
+  "source_type": {
+    "handle": "@infinity_spectrum",
+    "type": "InfinityClass",
+    "symbol": "\ud835\udd40_k",
+    "ordering": "\ud835\udd40_1 \u227a \ud835\udd40_2 \u227a ...; source interprets \u227a as strict cardinal-size ordering",
+    "collapse": "C_k:\ud835\udd40_k->H_mote"
+  },
+  "graph": {
+    "incoming_to_infinity_spectrum": [],
+    "outgoing": [
+      "@collapse_map"
+    ]
+  },
+  "finding": "The collapse input is a formal InfinityClass, not a generic runtime History slot. No registered History -> InfinityClass ingress exists; do not invent C_k(H).",
+  "protocol_disposition": "AST-DM-WL-P028 -> SOURCE_BRANCH_MISMATCH_FOR_HISTORY_INGRESS",
+  "next_handle": "@mote_identity"
+}

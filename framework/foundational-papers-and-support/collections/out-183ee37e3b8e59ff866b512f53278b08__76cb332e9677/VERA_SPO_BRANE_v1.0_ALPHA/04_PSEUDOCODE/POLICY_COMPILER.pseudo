@@ -1,0 +1,25 @@
+FUNCTION COMPILE_DEVICE_POLICY(spo, device_caps):
+    ASSERT VERIFY(spo.fingerprint)
+
+    policy ← EMPTY_POLICY()
+    FOR rule IN spo.rules:
+        IF NOT DEVICE_CAN_REALIZE(rule, device_caps):
+            IF rule.required:
+                REJECT("mandatory rule cannot be realized safely")
+            ELSE:
+                CONTINUE
+            END
+        END
+
+        compiled ← LOWER_TO_BOUNDED_PARAMETERS(rule, device_caps)
+        ASSERT compiled WITHIN spo.safety_constraints
+        policy.ADD(compiled)
+    END
+
+    ASSERT STATIC_CHECK_UNKNOWN_DEFAULT(policy) == PRESERVE
+    ASSERT STATIC_CHECK_PROTECTED_EVENTS(policy) == PASS
+    ASSERT STATIC_CHECK_USER_OVERRIDE(policy) == PASS
+
+    policy.fingerprint ← HASH_CANONICAL(policy)
+    RETURN SIGN_OR_FINGERPRINT(policy), BUILD_COMPILE_RECEIPT(policy)
+END

@@ -1,0 +1,25 @@
+{
+  "handle": "iteration://IT-DM-E086-EXPLICIT-CONTINUITY-RESIDUAL",
+  "object_type": "bounded_iteration",
+  "status": "NONZERO_CONTINUITY_RESIDUAL_CLOSED",
+  "domain": "ITERATION",
+  "namespace": "mk43://iteration",
+  "name": "IT-DM-E086-EXPLICIT-CONTINUITY-RESIDUAL",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "BOUNDED_ITERATION",
+  "metadata": {
+    "id": "IT-DM-E086-EXPLICIT-CONTINUITY-RESIDUAL",
+    "seed": "@dm_hidden_response_operator",
+    "terminal_state": "NONZERO_CONTINUITY_RESIDUAL_CLOSED",
+    "source_file": "live/checkpoints/E086/runs/IT-DM-E086-EXPLICIT-CONTINUITY-RESIDUAL.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_ITERATION_RUN_V1\", \"run_id\": \"IT-DM-E086-EXPLICIT-CONTINUITY-RESIDUAL\", \"checkpoint\": \"E086\", \"seed\": \"@dm_hidden_response_operator\", \"ceiling\": 64, \"iterations_used\": 4, \"terminal_state\": \"NONZERO_CONTINUITY_RESIDUAL_CLOSED\", \"open_next\": \"@dm_two_port_timeshell_gravity_fiber_test\", \"note\": \"Forward route now uses the already-recovered continuity->Time-Shell gravity channel rather than native-density calibration.\"}"
+  },
+  "address": "iteration://IT-DM-E086-EXPLICIT-CONTINUITY-RESIDUAL",
+  "address_sha256": "1edff7dd97f289fad6d86e08ff0a23605e35e98cd09eb9fc6e2432b2ec07cb14"
+}

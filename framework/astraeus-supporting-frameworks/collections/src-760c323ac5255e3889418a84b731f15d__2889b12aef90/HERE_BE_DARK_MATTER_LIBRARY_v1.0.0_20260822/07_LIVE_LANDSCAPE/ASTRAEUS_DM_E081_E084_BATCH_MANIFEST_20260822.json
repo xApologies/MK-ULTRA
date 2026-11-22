@@ -1,0 +1,54 @@
+{
+  "schema": "ASTRAEUS_DM_E081_E084_BATCH_MANIFEST_V1",
+  "date": "2026-08-22",
+  "source_live_release": "v0.7.0 / 2.2.0+live.e080",
+  "target_live_release": "v0.8.0 / 2.2.0+live.e084",
+  "baseline_release": "DM_2.2.0",
+  "checkpoints": [
+    "E081",
+    "E082",
+    "E083",
+    "E084"
+  ],
+  "current_frontier": "@dm_event_density_component_survival",
+  "highest_leverage_proof_debt": "PD-DM-011",
+  "new_internal_closure": [
+    "port-response trace gap and port-relabeling invariance"
+  ],
+  "conditional_closures": [
+    "response-trace residue survival",
+    "response-trace Q survival",
+    "event-level density UCM Gate-2 separation"
+  ],
+  "new_debts": [
+    "PD-DM-010",
+    "PD-DM-011"
+  ],
+  "debt_reductions": {
+    "PD-DM-004": "reduced to PD-DM-010",
+    "PD-DM-003": "merged into PD-DM-011",
+    "PD-DM-009": "reduced to PD-DM-011",
+    "PD-DM-008": "conditionally covered by E079 working assumption"
+  },
+  "validation": {
+    "baseline_mutations": 0,
+    "parent_promotions": 0,
+    "physical_promotions": 0,
+    "canonical_edge_promotions": 0,
+    "new_working_assumptions": 2,
+    "new_live_objects": 4,
+    "new_qmos": 4,
+    "new_certificates": 4,
+    "db_counts": {
+      "edges": 932,
+      "qmos": 28,
+      "landscapes": 23,
+      "iterations": 23,
+      "promotions": 23,
+      "live_objects": 20,
+      "closure_certificates": 22,
+      "working_assumptions": 11,
+      "proof_debt": 11
+    }
+  }
+}

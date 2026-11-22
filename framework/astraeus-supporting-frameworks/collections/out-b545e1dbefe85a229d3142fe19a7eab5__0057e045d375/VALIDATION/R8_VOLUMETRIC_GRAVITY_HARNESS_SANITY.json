@@ -1,0 +1,95 @@
+{
+  "schema": "R8_VOLUMETRIC_GRAVITY_HARNESS_SANITY_V1",
+  "alpha": 0.25,
+  "samples": [
+    {
+      "p": [
+        1,
+        0,
+        0
+      ],
+      "r": 1.0,
+      "r_prime": 0.875,
+      "contracts": true
+    },
+    {
+      "p": [
+        0,
+        1,
+        0
+      ],
+      "r": 1.0,
+      "r_prime": 0.875,
+      "contracts": true
+    },
+    {
+      "p": [
+        0,
+        0,
+        1
+      ],
+      "r": 1.0,
+      "r_prime": 0.875,
+      "contracts": true
+    },
+    {
+      "p": [
+        -1,
+        0,
+        0
+      ],
+      "r": 1.0,
+      "r_prime": 0.875,
+      "contracts": true
+    },
+    {
+      "p": [
+        1,
+        1,
+        0
+      ],
+      "r": 1.4142135623730951,
+      "r_prime": 1.2677669529663689,
+      "contracts": true
+    },
+    {
+      "p": [
+        2,
+        0,
+        0
+      ],
+      "r": 2.0,
+      "r_prime": 1.8333333333333333,
+      "contracts": true
+    },
+    {
+      "p": [
+        2,
+        1,
+        2
+      ],
+      "r": 3.0,
+      "r_prime": 2.8125,
+      "contracts": true
+    }
+  ],
+  "shell_radii": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "contracted_shell_radii": [
+    0.0,
+    0.875,
+    1.8333333333333333,
+    2.8125,
+    3.8
+  ],
+  "strict_shell_order_preserved": true,
+  "axis_unit_points_equal_radius": true,
+  "intrinsic_unit_string_edge_measure": 1,
+  "status": "PASS_SYNTHETIC_GEOMETRY_ONLY",
+  "physical_claim": "NONE"
+}

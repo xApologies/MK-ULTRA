@@ -1,0 +1,126 @@
+{
+  "schema": "ASTRAEUS_ITERATION_REGISTRY_V1",
+  "api_release": "0.8.0",
+  "run_count": 1,
+  "runs": [
+    {
+      "function": "@bounded_dependency_crawl",
+      "mode": "chain",
+      "seed": "@object_resolution_recovery_witness_minimality",
+      "requested_iteration_bound": 1000000,
+      "actual_iterations_executed": 2,
+      "target": null,
+      "terminal": {
+        "state": "OPEN_FORK",
+        "focus": "@recovery_history_signature_minimality",
+        "exploration_targets": [
+          {
+            "relation": "QUERIES",
+            "target": "@history_holonomy",
+            "edge_id": "E-00147"
+          },
+          {
+            "relation": "QUERIES",
+            "target": "@holonomy_history_signature",
+            "edge_id": "E-00148"
+          },
+          {
+            "relation": "TESTS",
+            "target": "@recovery_discriminator",
+            "edge_id": "E-00149"
+          }
+        ]
+      },
+      "visited": [
+        "@object_resolution_recovery_witness_minimality",
+        "@recovery_witness_counterexample_crawl",
+        "@recovery_history_signature_minimality"
+      ],
+      "chain_preview": {
+        "seed": "@object_resolution_recovery_witness_minimality",
+        "seed_kind": "qmo",
+        "initial_focus": "@object_resolution_recovery_witness_minimality",
+        "steps": [
+          {
+            "step": 1,
+            "input_focus": "@object_resolution_recovery_witness_minimality",
+            "progression_relation": "ADVANCES_TO",
+            "resolved_qmo": "@recovery_witness_counterexample_crawl",
+            "edge_id": "E-00114",
+            "graph_handle": null,
+            "landscape_handle": null
+          },
+          {
+            "step": 2,
+            "input_focus": "@recovery_witness_counterexample_crawl",
+            "progression_relation": "ADVANCES_TO",
+            "resolved_qmo": "@recovery_history_signature_minimality",
+            "edge_id": "E-00146",
+            "graph_handle": null,
+            "landscape_handle": null
+          }
+        ],
+        "terminal": {
+          "state": "OPEN_FORK",
+          "focus": "@recovery_history_signature_minimality",
+          "exploration_targets": [
+            {
+              "relation": "QUERIES",
+              "target": "@history_holonomy",
+              "edge_id": "E-00147"
+            },
+            {
+              "relation": "QUERIES",
+              "target": "@holonomy_history_signature",
+              "edge_id": "E-00148"
+            },
+            {
+              "relation": "TESTS",
+              "target": "@recovery_discriminator",
+              "edge_id": "E-00149"
+            }
+          ]
+        },
+        "visited_focuses": [
+          "@object_resolution_recovery_witness_minimality",
+          "@recovery_witness_counterexample_crawl",
+          "@recovery_history_signature_minimality"
+        ],
+        "landscape_depth": 1,
+        "direction": "bidirectional",
+        "subdomain_eligibility": false
+      },
+      "history_policy": "APPEND_ONLY",
+      "domain": "@black_rainbow_closed_landscape",
+      "run_id": "IT-248e42a5cee6",
+      "qmo_address": "@it_recovery_witness_1m_ceiling",
+      "canonical_name": "Bounded Iteration: @object_resolution_recovery_witness_minimality",
+      "status": "DERIVED_ITERATION_RUN",
+      "materialized_qmo": "@dc_recovery_witness_to_signature",
+      "domain_state": "OPEN_RESULT",
+      "construction": {
+        "operator": "@bounded_recursive_iteration",
+        "specialization": "@bounded_dependency_crawl",
+        "finite_horizon": 1000000,
+        "mode": "chain",
+        "direction": "bidirectional",
+        "target": null
+      },
+      "history": {
+        "policy": "APPEND_ONLY",
+        "created_in_api_release": "0.8.0",
+        "created_live_model_revision": "v0.21.0",
+        "requested_bound": 1000000,
+        "actual_iterations": 2
+      },
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_bounded_qmo_iteration",
+        "QMO:@object_resolution_recovery_witness_minimality",
+        "QMO:@bounded_recursive_iteration",
+        "QMO:@bounded_dependency_crawl",
+        "QMO:@dc_recovery_witness_to_signature"
+      ],
+      "semantic_guard": "Iteration bound N is a ceiling. Early termination is canonical. Registered dependencies only; member claims are not promoted by iteration."
+    }
+  ]
+}

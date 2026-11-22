@@ -1,0 +1,37 @@
+[
+  {
+    "id": "EQ01",
+    "label": "CRD evolution",
+    "ascii": "X' = R_CRD(X)",
+    "latex": "X'=\\mathcal R_{\\rm CRD}(X)",
+    "status": "FROZEN"
+  },
+  {
+    "id": "EQ02",
+    "label": "Desired readout",
+    "ascii": "Pi_YM : C_G -> C_YM",
+    "latex": "\\Pi_{\\rm YM}:\\mathcal C_G\\rightharpoonup\\mathcal C_{\\rm YM}",
+    "status": "OPEN"
+  },
+  {
+    "id": "EQ03",
+    "label": "Candidate factorization",
+    "ascii": "Pi_YM = rho_YM o Pi_Q o H_chi",
+    "latex": "\\Pi_{\\rm YM}=\\rho_{\\rm YM}\\circ\\Pi_Q\\circ H_\\chi",
+    "status": "OPEN"
+  },
+  {
+    "id": "EQ04",
+    "label": "Exact imitation",
+    "ascii": "Pi_YM o R_CRD = R_YM o Pi_YM",
+    "latex": "\\Pi_{\\rm YM}\\circ\\mathcal R_{\\rm CRD}=\\mathcal R_{\\rm YM}\\circ\\Pi_{\\rm YM}",
+    "status": "FORMAL_TARGET"
+  },
+  {
+    "id": "EQ05",
+    "label": "Approximate imitation",
+    "ascii": "D_imit(X)=d_O(Pi_YM(R_CRD(X)),R_YM(Pi_YM(X))) <= epsilon",
+    "latex": "D_{\\rm imit}(X)=d_{\\mathcal O}(\\Pi_{\\rm YM}(\\mathcal R_{\\rm CRD}X),\\mathcal R_{\\rm YM}(\\Pi_{\\rm YM}X))\\le\\epsilon",
+    "status": "FORMAL_TARGET"
+  }
+]

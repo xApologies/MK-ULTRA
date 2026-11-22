@@ -1,0 +1,3045 @@
+{
+  "schema": "ASTRAEUS_RAINBOW_ROAD_OBJECT_REGISTRY_V2",
+  "object_count": 199,
+  "objects": [
+    {
+      "handle": "@adjoint_transduction_audit",
+      "canonical_name": "@adjoint_transduction_audit",
+      "type": "audit architecture",
+      "status": "PROMOTED_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "Unit/counit and defect framework for forward realization vs backward restriction/readback.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-246",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-248",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-249",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-250"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@admissibility_relation",
+      "canonical_name": "@admissibility_relation",
+      "type": "structural relation",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Compatibility relation Adm_f(x,y) defining admissible continuation along dependency arrows.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v50"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v50"
+      }
+    },
+    {
+      "handle": "@admissible_lift_family",
+      "canonical_name": "@admissible_lift_family",
+      "type": "lift structure",
+      "status": "PROMOTED_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "Family LiftSet(f,x) of structurally admissible typed lifts before connection selection.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v49"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v49"
+      }
+    },
+    {
+      "handle": "@analogy_moebius_gluing",
+      "canonical_name": "@analogy_moebius_gluing",
+      "type": "analogy",
+      "status": "TYPED_ANALOGY",
+      "branch": "transduction_geometry",
+      "definition": "Möbius gluing illustrates locally simple data with globally nontrivial transition structure.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-299",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-300"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v41"
+      }
+    },
+    {
+      "handle": "@analogy_moebius_holonomy",
+      "canonical_name": "@analogy_moebius_holonomy",
+      "type": "analogy",
+      "status": "TYPED_ANALOGY",
+      "branch": "transduction_geometry",
+      "definition": "Möbius loop transport illustrates nontrivial holonomy with preserved base identity.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-299",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-300"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v41"
+      }
+    },
+    {
+      "handle": "@analogy_moebius_identity_history",
+      "canonical_name": "@analogy_moebius_identity_history",
+      "type": "analogy",
+      "status": "TYPED_ANALOGY",
+      "branch": "transduction_geometry",
+      "definition": "Möbius recurrence illustrates same identity with changed presentation/history.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-299",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-300"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v41"
+      }
+    },
+    {
+      "handle": "@bandwidth",
+      "canonical_name": "@bandwidth",
+      "type": "capacity/admissible-morphism structure",
+      "status": "RECOVERED_PLUS_LIFT",
+      "branch": "transduction_geometry",
+      "definition": "Available organizational freedom; in GTG, the currently supportable morphism/deformation family.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-004",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-195",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-220",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-265"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@bandwidth_algebra",
+      "canonical_name": "Bandwidth Algebra",
+      "type": "typed partial path/category-like algebra",
+      "status": "FORMAL_LIVE_MODEL_V1",
+      "branch": "bandwidth_algebra",
+      "definition": "Closure of Bandwidth-admissible typed transformation generators under admissible composition and identities.",
+      "provenance": [
+        "BANDWIDTH_ALGEBRA::API/bandwidth_algebra_schema.json"
+      ]
+    },
+    {
+      "handle": "@bandwidth_compose",
+      "canonical_name": "compose",
+      "type": "bandwidth algebra operator",
+      "status": "SOURCE_BACKED",
+      "branch": "bandwidth_algebra",
+      "definition": "Native Bandwidth Algebra operator: compose.",
+      "provenance": [
+        "BANDWIDTH_ALGEBRA::API/bandwidth_algebra_schema.json"
+      ]
+    },
+    {
+      "handle": "@bandwidth_descent_defect",
+      "canonical_name": "@bandwidth_descent_defect",
+      "type": "audit defect",
+      "status": "PROMOTED_AUDIT_OBJECT",
+      "branch": "transduction_geometry",
+      "definition": "Mismatch between translated available-morphism families across overlap.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-275"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@bandwidth_domain_repair",
+      "canonical_name": "Bandwidth-Domain Repair",
+      "type": "continuity repair",
+      "status": "DERIVED",
+      "branch": "live_model",
+      "definition": "Restrict the operative modifier to a subdomain respecting active Resolution equivalence.",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "handle": "@bandwidth_expand",
+      "canonical_name": "expand",
+      "type": "bandwidth algebra operator",
+      "status": "SOURCE_BACKED",
+      "branch": "bandwidth_algebra",
+      "definition": "Native Bandwidth Algebra operator: expand.",
+      "provenance": [
+        "BANDWIDTH_ALGEBRA::API/bandwidth_algebra_schema.json"
+      ]
+    },
+    {
+      "handle": "@bandwidth_identity",
+      "canonical_name": "identity",
+      "type": "bandwidth algebra operator",
+      "status": "SOURCE_BACKED",
+      "branch": "bandwidth_algebra",
+      "definition": "Native Bandwidth Algebra operator: identity.",
+      "provenance": [
+        "BANDWIDTH_ALGEBRA::API/bandwidth_algebra_schema.json"
+      ]
+    },
+    {
+      "handle": "@bandwidth_join",
+      "canonical_name": "join",
+      "type": "bandwidth algebra operator",
+      "status": "SOURCE_BACKED",
+      "branch": "bandwidth_algebra",
+      "definition": "Native Bandwidth Algebra operator: join.",
+      "provenance": [
+        "BANDWIDTH_ALGEBRA::API/bandwidth_algebra_schema.json"
+      ]
+    },
+    {
+      "handle": "@bandwidth_meet",
+      "canonical_name": "meet",
+      "type": "bandwidth algebra operator",
+      "status": "SOURCE_BACKED",
+      "branch": "bandwidth_algebra",
+      "definition": "Native Bandwidth Algebra operator: meet.",
+      "provenance": [
+        "BANDWIDTH_ALGEBRA::API/bandwidth_algebra_schema.json"
+      ]
+    },
+    {
+      "handle": "@bandwidth_modifier",
+      "canonical_name": "Bandwidth Modifier",
+      "type": "typed Bandwidth transformation",
+      "status": "DERIVED",
+      "branch": "live_model",
+      "definition": "Restriction, expansion, redirection, or mixed Bandwidth transformation M:A_B->A_B'.",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "handle": "@bandwidth_modify",
+      "canonical_name": "modify",
+      "type": "bandwidth algebra operator",
+      "status": "SOURCE_BACKED",
+      "branch": "bandwidth_algebra",
+      "definition": "Native Bandwidth Algebra operator: modify.",
+      "provenance": [
+        "BANDWIDTH_ALGEBRA::API/bandwidth_algebra_schema.json"
+      ]
+    },
+    {
+      "handle": "@bandwidth_resolution_interface_defect",
+      "canonical_name": "Bandwidth–Resolution Interface Defect",
+      "type": "structural defect set",
+      "status": "DERIVED",
+      "branch": "live_model",
+      "definition": "Pairs hidden together at source Resolution whose Bandwidth-modified targets become distinguishable.",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "handle": "@bandwidth_resolution_quotient",
+      "canonical_name": "resolution_quotient",
+      "type": "bandwidth algebra operator",
+      "status": "SOURCE_BACKED",
+      "branch": "bandwidth_algebra",
+      "definition": "Native Bandwidth Algebra operator: resolution_quotient.",
+      "provenance": [
+        "BANDWIDTH_ALGEBRA::API/bandwidth_algebra_schema.json"
+      ]
+    },
+    {
+      "handle": "@bandwidth_restrict",
+      "canonical_name": "restrict",
+      "type": "bandwidth algebra operator",
+      "status": "SOURCE_BACKED",
+      "branch": "bandwidth_algebra",
+      "definition": "Native Bandwidth Algebra operator: restrict.",
+      "provenance": [
+        "BANDWIDTH_ALGEBRA::API/bandwidth_algebra_schema.json"
+      ]
+    },
+    {
+      "handle": "@blast_radius",
+      "canonical_name": "@blast_radius",
+      "type": "impact metric",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Typed downstream impact distribution for revision/rejection of a handle.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v48"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v48"
+      }
+    },
+    {
+      "handle": "@bottleneck",
+      "canonical_name": "@bottleneck",
+      "type": "resilience concept",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Scope-relative high-path-participation dependency with low bypass redundancy.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v48"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v48"
+      }
+    },
+    {
+      "handle": "@bridge_point",
+      "canonical_name": "@bridge_point",
+      "type": "resilience concept",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Architectural connector whose removal fragments graph regions.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v48"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v48"
+      }
+    },
+    {
+      "handle": "@chirality",
+      "canonical_name": "@chirality",
+      "type": "admissibility/orientation structure",
+      "status": "RECOVERED_PLUS_LIFT",
+      "branch": "transduction_geometry",
+      "definition": "Organizational chirality and transported chirality class used in identity and local admissibility.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-005",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-194"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@chirality_fabric",
+      "canonical_name": "@chirality_fabric",
+      "type": "distributed admissibility/gluing candidate",
+      "status": "STRONG_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "Candidate: local admissibility objects + overlap transition maps + descent compatibility.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-271",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-276"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@chirality_localization_action",
+      "canonical_name": "chirality localization action",
+      "type": "binary localization action",
+      "status": "ATLAS_CANDIDATE",
+      "branch": "identity_through_history",
+      "definition": "Lambda_chi",
+      "provenance": [
+        "IDENTITY_THROUGH_HISTORY::API/IDENTITY_HISTORY_OBJECTS.json"
+      ]
+    },
+    {
+      "handle": "@chirality_state",
+      "canonical_name": "ChiralityState",
+      "type": "holonomy/chirality record",
+      "status": "SOURCE_BACKED",
+      "branch": "holonomy_chirality",
+      "definition": "Record fields: domain, state, chirality_class, provenance",
+      "provenance": [
+        "HOLONOMY_CHIRALITY::API/holonomy_chirality_schema.json"
+      ]
+    },
+    {
+      "handle": "@choke_point",
+      "canonical_name": "@choke_point",
+      "type": "resilience concept",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Bottleneck with high blast radius and low alternative support.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v48"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v48"
+      }
+    },
+    {
+      "handle": "@circularity_audit",
+      "canonical_name": "@circularity_audit",
+      "type": "audit engine",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Rejects promotion-bearing evidentiary cycles while permitting non-evidentiary graph cycles.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v46"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v46"
+      }
+    },
+    {
+      "handle": "@classifier_scope",
+      "canonical_name": "@classifier_scope",
+      "type": "classification scope contract",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Declares object class, equivalence relation, base, structure group/groupoid, Resolution, regularity and operative conditions for a classifier claim.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-291",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-293"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v40"
+      }
+    },
+    {
+      "handle": "@closed_domain_unity",
+      "canonical_name": "Closed-Domain Unity",
+      "type": "whole-domain closure object",
+      "status": "ACTIVE_DOMAIN_CONSTRAINT",
+      "branch": "rainbow_runtime",
+      "definition": "Identity of one closed whole-domain under the declared closure/identity rule; glyph 1 remains a symbolic label.",
+      "provenance": [
+        "LIVE_MODEL §3"
+      ]
+    },
+    {
+      "handle": "@closure",
+      "canonical_name": "@closure",
+      "type": "stabilization/identity-formation candidate",
+      "status": "STRENGTHENED_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "Stabilization/retraction candidate; may preserve or form/select identity.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-201",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-212"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@closure_certificate",
+      "canonical_name": "Closure Certificate",
+      "type": "derivation certificate",
+      "status": "DOMAIN_ACTIVE",
+      "branch": "rainbow_runtime",
+      "definition": "Machine-auditable witness that an output is an internal consequence of admitted objects and licensed transformations with intact provenance/recovery and no domain-boundary extension.",
+      "provenance": [
+        "NF-007"
+      ]
+    },
+    {
+      "handle": "@closure_equivariance_defect",
+      "canonical_name": "Closure Equivariance Defect",
+      "type": "structural defect",
+      "status": "DERIVED_DOMAIN_RULE",
+      "branch": "rainbow_runtime",
+      "definition": "Mismatch between closing a structure before versus after an admitted Möbius/readout handoff, after accounting for the typed transformed presentation.",
+      "provenance": [
+        "NF-007"
+      ]
+    },
+    {
+      "handle": "@compatibility",
+      "canonical_name": "Compatibility",
+      "type": "allowed relation structure",
+      "status": "STORY_PROBE_SOURCE",
+      "branch": "live_model",
+      "definition": "Structure of which possibilities can meaningfully connect; retained as probe guidance, not a numerical object.",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "handle": "@component_salvage_protocol",
+      "canonical_name": "@component_salvage_protocol",
+      "type": "method",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Decompose legacy mathematics into independently reusable components without whole-object lock-in.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-278",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-279",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-284"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@connection_selection",
+      "canonical_name": "ConnectionSelection",
+      "type": "holonomy/chirality record",
+      "status": "SOURCE_BACKED",
+      "branch": "holonomy_chirality",
+      "definition": "Record fields: arrow, state, R, B, H, E, chi, selected_lift, selection_witness, status",
+      "provenance": [
+        "HOLONOMY_CHIRALITY::API/holonomy_chirality_schema.json"
+      ]
+    },
+    {
+      "handle": "@constraint_perturbation",
+      "canonical_name": "Constraint Perturbation",
+      "type": "perturbation class",
+      "status": "DOMAIN_ACTIVE",
+      "branch": "rainbow_runtime",
+      "definition": "Change to an upstream admissibility/constraint object; may propagate through all dependent structures during sandbox reclosure.",
+      "provenance": [
+        "NF-007"
+      ]
+    },
+    {
+      "handle": "@core_witness_collision",
+      "canonical_name": "Core Witness Collision",
+      "type": "recovery counterexample defect",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "branch": "self_build",
+      "definition": "A merge-fiber collision in which distinct fine lineages have the same unqualified core witness projection (provenance root, Identity-Witness class, invariant residue).",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "CE-RW-001"
+      ],
+      "metadata": {
+        "generated_by": "R-010",
+        "audit_status": "AWAITING_CLOSURE_CERTIFICATE",
+        "closure_certificate": "CC-004"
+      }
+    },
+    {
+      "handle": "@counit_defect",
+      "canonical_name": "@counit_defect",
+      "type": "audit defect",
+      "status": "PROMOTED_AUDIT_OBJECT",
+      "branch": "transduction_geometry",
+      "definition": "Typed discrepancy between f! f* y and y.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-249",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-250"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@cross_resolution_section",
+      "canonical_name": "Cross-Resolution Section",
+      "type": "compatible family",
+      "status": "SOURCE_BACKED_SYNTHESIS",
+      "branch": "live_model",
+      "definition": "Family s_a(R)=rho_R(a) compatible under declared Resolution handoffs.",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "handle": "@dependency_category",
+      "canonical_name": "@dependency_category",
+      "type": "typed category",
+      "status": "PROMOTED_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "Base category of dependency contexts and typed composable arrows.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-231"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@dependency_cone",
+      "canonical_name": "@dependency_cone",
+      "type": "dependency object",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Typed upstream/downstream dependency cone for a QMO handle.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v47"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v47"
+      }
+    },
+    {
+      "handle": "@dependency_cone_snapshot",
+      "canonical_name": "@dependency_cone_snapshot",
+      "type": "snapshot object",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Versioned dependency-cone snapshot for historical recoverability.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v47"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v47"
+      }
+    },
+    {
+      "handle": "@dependency_criticality",
+      "canonical_name": "@dependency_criticality",
+      "type": "dependency taxonomy",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Classifies dependency edges by invalidation significance.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v47"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v47"
+      }
+    },
+    {
+      "handle": "@dependency_cut_set",
+      "canonical_name": "@dependency_cut_set",
+      "type": "resilience diagnostic",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Candidate minimal upstream cut whose removal destroys all valid routes.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v47"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v47"
+      }
+    },
+    {
+      "handle": "@derivation_error_taxonomy",
+      "canonical_name": "@derivation_error_taxonomy",
+      "type": "error taxonomy",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Typed error classes for malformed or unresolved derivations.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v43"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v43"
+      }
+    },
+    {
+      "handle": "@derivation_macro",
+      "canonical_name": "@derivation_macro",
+      "type": "higher-order derivation operator",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Reusable typed abstraction of a compiler-valid derivation path.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v45"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v45"
+      }
+    },
+    {
+      "handle": "@derivation_metadata_package",
+      "canonical_name": "@derivation_metadata_package",
+      "type": "metadata package",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Automatically extracted typed metadata for a derivation path.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v44"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v44"
+      }
+    },
+    {
+      "handle": "@derivation_path",
+      "canonical_name": "@derivation_path",
+      "type": "derivation object",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Ordered compiler-witnessed path through QMO objects/operators.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v44"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v44"
+      }
+    },
+    {
+      "handle": "@derivation_provenance_chain",
+      "canonical_name": "@derivation_provenance_chain",
+      "type": "provenance object",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Step-level ordered provenance chain for a derivation.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v44"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v44"
+      }
+    },
+    {
+      "handle": "@derivation_salvage",
+      "canonical_name": "@derivation_salvage",
+      "type": "salvage method",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Preserves valid prefixes/fragments of failed derivations.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v44"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v44"
+      }
+    },
+    {
+      "handle": "@descent_defect",
+      "canonical_name": "@descent_defect",
+      "type": "audit defect",
+      "status": "PROMOTED_AUDIT_OBJECT",
+      "branch": "transduction_geometry",
+      "definition": "Triple-overlap failure D_ijk = g_ij g_jk g_ki.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-272"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@domain_extension_proposal",
+      "canonical_name": "Domain Extension Proposal",
+      "type": "boundary-change proposal",
+      "status": "AUDIT_REQUIRED",
+      "branch": "rainbow_runtime",
+      "definition": "Any proposed primitive, axiom, transformation, or closure-rule change not derivable within the current domain; cannot self-promote.",
+      "provenance": [
+        "NF-007"
+      ]
+    },
+    {
+      "handle": "@dual_impact_status",
+      "canonical_name": "@dual_impact_status",
+      "type": "impact object",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Separates mathematical-validity impact from trust/evidence impact.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v47"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v47"
+      }
+    },
+    {
+      "handle": "@dynamic_recursive_closure",
+      "canonical_name": "Dynamic Recursive Closure",
+      "type": "closure operator",
+      "status": "DERIVED_DOMAIN_RULE",
+      "branch": "rainbow_runtime",
+      "definition": "Cl_RR closes admitted internal derivations back into the current Rainbow Road domain; reopens when Bandwidth, Resolution, source corpus, licensed rules, or approved domain boundary changes.",
+      "provenance": [
+        "GENESIS DIRECTION 2026-08-22",
+        "NF-007"
+      ]
+    },
+    {
+      "handle": "@eventual_recoverability",
+      "canonical_name": "Eventual Recoverability",
+      "type": "access/recovery predicate",
+      "status": "CANDIDATE",
+      "branch": "live_model",
+      "definition": "A structure need not be readable now if retained provenance permits recovery in some admissible resolving regime.",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "handle": "@evolution_descent_defect",
+      "canonical_name": "@evolution_descent_defect",
+      "type": "audit defect",
+      "status": "PROMOTED_AUDIT_OBJECT",
+      "branch": "transduction_geometry",
+      "definition": "Mismatch between evolve-then-translate and translate-then-evolve.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-273"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@fabric_equivalence_test",
+      "canonical_name": "@fabric_equivalence_test",
+      "type": "classification audit",
+      "status": "PROMOTED_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "Scope-aware test determining whether two fabric signatures represent equivalent global fabrics under the declared classifier scope.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-288",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-291"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v40"
+      }
+    },
+    {
+      "handle": "@fabric_signature",
+      "canonical_name": "@fabric_signature",
+      "type": "scope-aware classifier signature",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Composite global-fabric classification signature containing local type, gluing, connection, holonomy, curvature, descent, topology and stratum metadata.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-289",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-290"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v40"
+      }
+    },
+    {
+      "handle": "@failed_derivation",
+      "canonical_name": "@failed_derivation",
+      "type": "research metadata type",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Recoverable rejected derivation with failing rule and provenance.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v43"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v43"
+      }
+    },
+    {
+      "handle": "@fine_lineage_selector",
+      "canonical_name": "Fine Lineage Selector",
+      "type": "self-build candidate object",
+      "status": "CANDIDATE",
+      "branch": "self_build",
+      "definition": "A witness-mediated selector over a handoff merge fiber; it is not an inverse to q_ji and may be partial/context-dependent.",
+      "provenance": [
+        "SELF_BUILD_PASS_001",
+        "LIVE_MODEL::NF-005 OPEN"
+      ],
+      "metadata": {
+        "generated_by": "R-003",
+        "audit_status": "UNPROMOTED"
+      }
+    },
+    {
+      "handle": "@formal_identity",
+      "canonical_name": "Formal Identity",
+      "type": "identity layer",
+      "status": "ACTIVE",
+      "branch": "live_model",
+      "definition": "Underlying identity class retained across presentation changes.",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "handle": "@formal_lift_family",
+      "canonical_name": "@formal_lift_family",
+      "type": "lift structure",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Formal family LiftSet(f,x) of all structurally admissible lifts.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v50"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v50"
+      }
+    },
+    {
+      "handle": "@formal_object",
+      "canonical_name": "Formal Object",
+      "type": "formal mathematical object",
+      "status": "ACTIVE",
+      "branch": "live_model",
+      "definition": "Recoverable mathematical object with Formal Identity, presentations, admissible transformations, Resolution views, and provenance.",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "handle": "@fragility_vector",
+      "canonical_name": "@fragility_vector",
+      "type": "resilience vector",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Single-point, unresolved, candidate, semantic, trust and blast-radius fragility profile.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v48"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v48"
+      }
+    },
+    {
+      "handle": "@genesis",
+      "canonical_name": "@genesis",
+      "type": "organizational field",
+      "status": "RECOVERED",
+      "branch": "transduction_geometry",
+      "definition": "Recursive self-inheriting organizational field.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-001",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-002"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@global_fabric_classifier",
+      "canonical_name": "@global_fabric_classifier",
+      "type": "classifier",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Current classifier using local type, gluing class, and holonomy conjugacy data.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-280",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-281",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-282"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@global_transduction_object",
+      "canonical_name": "@global_transduction_object",
+      "type": "total category",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Grothendieck-construction-like total category assembling dependency contexts and indexed state geometries.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-230",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-233"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@gluing_class",
+      "canonical_name": "@gluing_class",
+      "type": "equivalence class",
+      "status": "PROMOTED_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "Transition-data equivalence class under local reparameterization.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-280"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@gluing_data",
+      "canonical_name": "@gluing_data",
+      "type": "transition data",
+      "status": "PROMOTED_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "Representative local transition maps plus their equivalence/gauge class for reconstruction and descent auditing.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-303",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-305"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v41"
+      }
+    },
+    {
+      "handle": "@handoff_merge_fiber",
+      "canonical_name": "Handoff Merge Fiber",
+      "type": "non-injective fiber",
+      "status": "DERIVED",
+      "branch": "live_model",
+      "definition": "Fine presentations identified by one coarse Resolution handoff.",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "handle": "@high_recall_metadata",
+      "canonical_name": "@high_recall_metadata",
+      "type": "metadata policy",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Capture formal and exploratory research metadata at high recall, preserving type/status/provenance.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-296"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v41"
+      }
+    },
+    {
+      "handle": "@history",
+      "canonical_name": "@history",
+      "type": "path/provenance ledger",
+      "status": "PROMOTED_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "Path through the total transduction object; layered projections recover fiber/orbit/stratum histories.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-226",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-234"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@history_bearing_return",
+      "canonical_name": "History-Bearing Return",
+      "type": "continuity result",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "branch": "rainbow_runtime",
+      "definition": "Return to a prior local presentation after recursive traversal while retaining a distinct recoverable History state.",
+      "provenance": [
+        "LIVE_MODEL RR-006",
+        "NF-007"
+      ],
+      "metadata": {
+        "closure_certificate": "CERT-RR-001"
+      }
+    },
+    {
+      "handle": "@history_holonomy",
+      "canonical_name": "history holonomy",
+      "type": "closed-path witness transformation",
+      "status": "SOURCE_BACKED",
+      "branch": "identity_through_history",
+      "definition": "closed-path witness transformation",
+      "provenance": [
+        "IDENTITY_THROUGH_HISTORY::D45"
+      ]
+    },
+    {
+      "handle": "@history_path",
+      "canonical_name": "history path",
+      "type": "composable_path",
+      "status": "SOURCE_BACKED",
+      "branch": "identity_through_history",
+      "definition": "composable_path",
+      "provenance": [
+        "IDENTITY_THROUGH_HISTORY::API/IDENTITY_HISTORY_OBJECTS.json"
+      ]
+    },
+    {
+      "handle": "@history_trace",
+      "canonical_name": "History Trace",
+      "type": "ordered traversal record",
+      "status": "ACTIVE",
+      "branch": "live_model",
+      "definition": "Ordered structurally relevant traversal/provenance retained upstream.",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "handle": "@history_trace_counterexample_sufficiency",
+      "canonical_name": "History Trace Counterexample Sufficiency",
+      "type": "derived recovery result",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "branch": "self_build",
+      "definition": "For CE-RW-001, adjoining the distinct ordered History token to the colliding core witness separates the two fine lineages. This proves sufficiency for the counterexample, not global minimality.",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "CE-RW-001"
+      ],
+      "metadata": {
+        "generated_by": "R-012",
+        "audit_status": "AWAITING_CLOSURE_CERTIFICATE",
+        "closure_certificate": "CC-006"
+      }
+    },
+    {
+      "handle": "@history_transport",
+      "canonical_name": "history transport",
+      "type": "witness transport",
+      "status": "BRACED",
+      "branch": "identity_through_history",
+      "definition": "witness transport",
+      "provenance": [
+        "IDENTITY_THROUGH_HISTORY::D44"
+      ]
+    },
+    {
+      "handle": "@holonomy_class",
+      "canonical_name": "@holonomy_class",
+      "type": "conjugacy invariant",
+      "status": "PROMOTED_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "Conjugacy class of loop holonomy induced by gluing/connection transport.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-281"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@holonomy_history_signature",
+      "canonical_name": "Holonomy History Signature",
+      "type": "history/holonomy signature scaffold",
+      "status": "SOURCE_BACKED_SCAFFOLD",
+      "branch": "holonomy_chirality",
+      "definition": "Source-backed D57 scaffold for a History-sensitive signature carried by holonomy/transport structure; exact minimal sufficient signature remains open.",
+      "provenance": [
+        "HOLONOMY_CHIRALITY::Transduction Definitions D57",
+        "SELF_BUILD_PASS_003 frontier recovery"
+      ]
+    },
+    {
+      "handle": "@holonomy_record",
+      "canonical_name": "HolonomyRecord",
+      "type": "holonomy/chirality record",
+      "status": "SOURCE_BACKED",
+      "branch": "holonomy_chirality",
+      "definition": "Record fields: loop, type, transport_action, equivalence_scope, defect, visibility_by_resolution, provenance",
+      "provenance": [
+        "HOLONOMY_CHIRALITY::API/holonomy_chirality_schema.json"
+      ]
+    },
+    {
+      "handle": "@identity_base",
+      "canonical_name": "@identity_base",
+      "type": "stratified moduli-like orbit space",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Coarse global base of identity classes/strata.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-206"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@identity_groupoid",
+      "canonical_name": "@identity_groupoid",
+      "type": "higher identity quotient",
+      "status": "PROMOTED_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "Full identity geometry retaining equivalence arrows and isotropy.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-211"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@identity_holonomy_defect",
+      "canonical_name": "identity holonomy defect",
+      "type": "identity-return defect",
+      "status": "SOURCE_BACKED",
+      "branch": "identity_through_history",
+      "definition": "identity-return defect",
+      "provenance": [
+        "IDENTITY_THROUGH_HISTORY::D47"
+      ]
+    },
+    {
+      "handle": "@identity_invariant",
+      "canonical_name": "@identity_invariant",
+      "type": "identity tuple",
+      "status": "MAJOR_RESULT",
+      "branch": "transduction_geometry",
+      "definition": "Continuation ancestry class + transported chirality class + invariant residue.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-191"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@identity_orbit",
+      "canonical_name": "@identity_orbit",
+      "type": "orbit",
+      "status": "PROMOTED_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "Admissible identity-preserving orbit of developmental/presentation states.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-207",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-208"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@identity_sensitivity",
+      "canonical_name": "IdentitySensitivity",
+      "type": "holonomy/chirality record",
+      "status": "SOURCE_BACKED",
+      "branch": "holonomy_chirality",
+      "definition": "Record fields: identity_classifier, chirality_defect_class, sensitive, witness",
+      "provenance": [
+        "HOLONOMY_CHIRALITY::API/holonomy_chirality_schema.json"
+      ]
+    },
+    {
+      "handle": "@identity_stratum",
+      "canonical_name": "@identity_stratum",
+      "type": "orbit-type stratum",
+      "status": "PROMOTED_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "Structural class containing identity orbits with common isotropy/invariant type.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-214",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-216"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@identity_witness",
+      "canonical_name": "identity witness",
+      "type": "recoverable witness relation",
+      "status": "SOURCE_BACKED",
+      "branch": "identity_through_history",
+      "definition": "recoverable witness relation",
+      "provenance": [
+        "IDENTITY_THROUGH_HISTORY::Transduction D39"
+      ]
+    },
+    {
+      "handle": "@impact_ledger",
+      "canonical_name": "@impact_ledger",
+      "type": "change ledger",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Records propagation and revalidation effects of significant revisions.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v47"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v47"
+      }
+    },
+    {
+      "handle": "@internal_self_promotion",
+      "canonical_name": "Internal Self-Promotion",
+      "type": "closure transition",
+      "status": "DOMAIN_ACTIVE",
+      "branch": "rainbow_runtime",
+      "definition": "Automatic transition from generated/candidate to internally closed derived mathematics when a complete Closure Certificate validates inside the current domain.",
+      "provenance": [
+        "GENESIS DIRECTION 2026-08-22",
+        "NF-007"
+      ]
+    },
+    {
+      "handle": "@invariant_residue",
+      "canonical_name": "Invariant Residue",
+      "type": "preserved structural residue",
+      "status": "ACTIVE",
+      "branch": "live_model",
+      "definition": "Declared recoverable organizational content preserved under admissible projection/transport.",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "handle": "@language_missing",
+      "canonical_name": "@language_missing",
+      "type": "coverage status",
+      "status": "PROMOTED_RULE",
+      "branch": "transduction_geometry",
+      "definition": "Marker for QMO objects lacking curated language entries.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-316"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v42"
+      }
+    },
+    {
+      "handle": "@language_orphan",
+      "canonical_name": "@language_orphan",
+      "type": "coverage status",
+      "status": "PROMOTED_RULE",
+      "branch": "transduction_geometry",
+      "definition": "Marker for language terms lacking QMO mathematical handles unless explicitly exempted.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-317"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v42"
+      }
+    },
+    {
+      "handle": "@language_sync_engine",
+      "canonical_name": "@language_sync_engine",
+      "type": "synchronization engine",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Generates/checks semantic language entries against the live QMO object and edge graph.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-312"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v42"
+      }
+    },
+    {
+      "handle": "@lift_coherence_audit",
+      "canonical_name": "@lift_coherence_audit",
+      "type": "lift audit",
+      "status": "PROMOTED_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "Compares composite lift with sequential lift up to declared equivalence.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v49"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v49"
+      }
+    },
+    {
+      "handle": "@lift_composition_coherence",
+      "canonical_name": "@lift_composition_coherence",
+      "type": "coherence audit",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Compares sequential and composite structural lifting.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v50"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v50"
+      }
+    },
+    {
+      "handle": "@lift_defect",
+      "canonical_name": "@lift_defect",
+      "type": "lift audit",
+      "status": "PROMOTED_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "Typed failure/nonuniqueness/coherence disposition for lift existence.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v49"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v49"
+      }
+    },
+    {
+      "handle": "@lift_family",
+      "canonical_name": "LiftFamily",
+      "type": "holonomy/chirality record",
+      "status": "SOURCE_BACKED",
+      "branch": "holonomy_chirality",
+      "definition": "Record fields: arrow, source_state, formal_lifts, bandwidth_available_lifts, status",
+      "provenance": [
+        "HOLONOMY_CHIRALITY::API/holonomy_chirality_schema.json"
+      ]
+    },
+    {
+      "handle": "@macro_connection_to_holonomy",
+      "canonical_name": "@macro_connection_to_holonomy",
+      "type": "derivation macro",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Connection-selected closed-path transport to holonomy diagnostic.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v45"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v45"
+      }
+    },
+    {
+      "handle": "@macro_dependency_graph",
+      "canonical_name": "@macro_dependency_graph",
+      "type": "dependency graph",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Tracks macro expansion, use, composition, specialization and invalidation.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v45"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v45"
+      }
+    },
+    {
+      "handle": "@macro_descent_audit",
+      "canonical_name": "@macro_descent_audit",
+      "type": "derivation macro",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Overlap-transition composition to descent/global-gluing disposition.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v45"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v45"
+      }
+    },
+    {
+      "handle": "@macro_path_curvature_audit",
+      "canonical_name": "@macro_path_curvature_audit",
+      "type": "derivation macro",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Same-endpoint transport comparison to typed curvature defect.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v45"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v45"
+      }
+    },
+    {
+      "handle": "@minimal_fabric_signature",
+      "canonical_name": "@minimal_fabric_signature",
+      "type": "classifier core",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Minimal current fabric signature: LocalType + GluingData + ConnectionClass + ClassifierScope.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-304",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-305"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v41"
+      }
+    },
+    {
+      "handle": "@mobius_orientation_handoff",
+      "canonical_name": "Möbius Orientation Handoff",
+      "type": "presentation handoff",
+      "status": "DERIVED_DOMAIN_RULE",
+      "branch": "rainbow_runtime",
+      "definition": "Local readout handoff H between White/superpose and Black/neon presentations of the same Rainbow Road whole-domain carrier.",
+      "provenance": [
+        "LIVE_MODEL RR-003",
+        "NF-007"
+      ]
+    },
+    {
+      "handle": "@mobius_probe",
+      "canonical_name": "Möbius Probe",
+      "type": "test instrument",
+      "status": "PARKED_PROBE",
+      "branch": "live_model",
+      "definition": "Topology probe retained only when an object/continuity question requires it.",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "handle": "@mobius_recursive_carrier",
+      "canonical_name": "Möbius Recursive Carrier",
+      "type": "recursive presentation carrier",
+      "status": "DOMAIN_ACTIVE",
+      "branch": "rainbow_runtime",
+      "definition": "Möbius carrier used as the local presentation/return geometry of Rainbow Road: one traversal changes local orientation; a second returns local orientation without erasing History.",
+      "provenance": [
+        "LIVE_MODEL RR-003/RR-006",
+        "NF-007"
+      ]
+    },
+    {
+      "handle": "@moebius_monodromy",
+      "canonical_name": "@moebius_monodromy",
+      "type": "holonomy special case",
+      "status": "STRENGTHENED_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "Closed-loop transport example preserving base identity while presentation/history may change.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-266"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@number_ontology",
+      "canonical_name": "Number Ontology",
+      "type": "downstream interpretation",
+      "status": "PARKED",
+      "branch": "live_model",
+      "definition": "Classification of objects as numbers is not required by the active object-first program.",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "handle": "@object_mathematics",
+      "canonical_name": "Object Mathematics",
+      "type": "program root",
+      "status": "ACTIVE",
+      "branch": "live_model",
+      "definition": "Mathematical objects are studied without requiring prior classification as numbers.",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "handle": "@object_resolution_recovery_witness_minimality",
+      "canonical_name": "Recovery Witness Minimality Frontier",
+      "type": "research frontier",
+      "status": "ACTIVE_FRONTIER",
+      "branch": "live_model",
+      "definition": "Find the smallest witness/provenance structure selecting the correct fine lineage from a non-injective Resolution handoff.",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "handle": "@objectivity",
+      "canonical_name": "Structural Objectivity",
+      "type": "objectivity/readability condition",
+      "status": "CANDIDATE",
+      "branch": "live_model",
+      "definition": "Objectivity supplies a domain in which structure can become distinguishable without requiring number ontology.",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "handle": "@observational_identity",
+      "canonical_name": "observational identity",
+      "type": "resolution/readout object",
+      "status": "SOURCE_BACKED",
+      "branch": "resolution_readout",
+      "definition": "Obs_R",
+      "provenance": [
+        "RESOLUTION_READOUT::API/resolution_readout_schema.json"
+      ]
+    },
+    {
+      "handle": "@occupancy",
+      "canonical_name": "@occupancy",
+      "type": "realized state",
+      "status": "PROMOTED_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "The actually realized object/section among supportable possibilities.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-195",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-200",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-234"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@operative_lift_family",
+      "canonical_name": "@operative_lift_family",
+      "type": "lift structure",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Bandwidth-restricted subset of the formal lift family.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v50"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v50"
+      }
+    },
+    {
+      "handle": "@operator_signature",
+      "canonical_name": "@operator_signature",
+      "type": "operator type contract",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Input/output/preservation/change/requirement contract for mathematical operators.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v43"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v43"
+      }
+    },
+    {
+      "handle": "@persistence",
+      "canonical_name": "@persistence",
+      "type": "identity-preservation criterion",
+      "status": "PROMOTED_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "Preservation/recovery of organizational identity under admissible development and transport.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-011",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-200",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-208",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-258"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@persistence_closure_native",
+      "canonical_name": "persistence closure native",
+      "type": "identity-stable algebraic closure",
+      "status": "ATLAS_CANDIDATE",
+      "branch": "identity_through_history",
+      "definition": "Cl_P",
+      "provenance": [
+        "IDENTITY_THROUGH_HISTORY::API/IDENTITY_HISTORY_OBJECTS.json"
+      ]
+    },
+    {
+      "handle": "@perturbation_probe",
+      "canonical_name": "Recursive Perturbation Probe",
+      "type": "sandbox consistency probe",
+      "status": "DOMAIN_ACTIVE",
+      "branch": "rainbow_runtime",
+      "definition": "Noncanonical sandbox that injects an alternative object/relation/constraint and recursively propagates dependency consequences to test reclosure or defect formation.",
+      "provenance": [
+        "GENESIS DIRECTION 2026-08-22",
+        "NF-007"
+      ]
+    },
+    {
+      "handle": "@primitive_structural_zero",
+      "canonical_name": "Primitive Structural Zero",
+      "type": "boundary/localization object",
+      "status": "SOURCE_BACKED_LIVE_GUARD",
+      "branch": "rainbow_runtime",
+      "definition": "Structural boundary object 𝔃 := 0_L | 0_R; glyph 0 is not presumed numerical.",
+      "provenance": [
+        "LIVE_MODEL §2",
+        "PRIME v0.1.1"
+      ]
+    },
+    {
+      "handle": "@provenance",
+      "canonical_name": "Provenance",
+      "type": "lineage structure",
+      "status": "ACTIVE",
+      "branch": "live_model",
+      "definition": "Recoverable ancestry/source/derivation trace.",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "handle": "@provenance_repair",
+      "canonical_name": "Provenance Repair",
+      "type": "continuity repair",
+      "status": "DERIVED",
+      "branch": "live_model",
+      "definition": "Carry the Identity/History witness selecting the correct formal representative.",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "handle": "@qmo_review_graph",
+      "canonical_name": "@qmo_review_graph",
+      "type": "review graph",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Quarantine graph for unresolved or uncertain candidate derivations.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v43"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v43"
+      }
+    },
+    {
+      "handle": "@quotient",
+      "canonical_name": "quotient",
+      "type": "resolution/readout object",
+      "status": "SOURCE_BACKED",
+      "branch": "resolution_readout",
+      "definition": "A_B/K_R",
+      "provenance": [
+        "RESOLUTION_READOUT::API/resolution_readout_schema.json"
+      ]
+    },
+    {
+      "handle": "@rainbow_road_probe",
+      "canonical_name": "Rainbow Road Probe",
+      "type": "test instrument",
+      "status": "PARKED_PROBE",
+      "branch": "live_model",
+      "definition": "Bounded-domain probe for presentation, History, Resolution, and continuity; not the research endpoint.",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "handle": "@rainbow_road_recursive_domain",
+      "canonical_name": "Rainbow Road Recursive Domain",
+      "type": "dynamic recursive closure domain",
+      "status": "DOMAIN_ACTIVE",
+      "branch": "rainbow_runtime",
+      "definition": "Bounded working domain whose mathematical objects, derivations, readouts, Bandwidth states, Resolution states, and History recursively re-enter one recoverable domain.",
+      "provenance": [
+        "GENESIS DIRECTION 2026-08-22",
+        "LIVE_MODEL §6",
+        "NF-007"
+      ]
+    },
+    {
+      "handle": "@readable_geometry",
+      "canonical_name": "readable geometry",
+      "type": "resolution/readout object",
+      "status": "SOURCE_BACKED",
+      "branch": "resolution_readout",
+      "definition": "Geo_R(B)=Spec_T(A_B/K_R)",
+      "provenance": [
+        "RESOLUTION_READOUT::API/resolution_readout_schema.json"
+      ]
+    },
+    {
+      "handle": "@readout_perturbation",
+      "canonical_name": "Readout Perturbation",
+      "type": "perturbation class",
+      "status": "DOMAIN_ACTIVE",
+      "branch": "rainbow_runtime",
+      "definition": "Change to a downstream label/readout only; does not by itself license rewriting unrelated upstream structure.",
+      "provenance": [
+        "NF-007"
+      ]
+    },
+    {
+      "handle": "@reclosure_branch",
+      "canonical_name": "Perturbation Reclosure Branch",
+      "type": "sandbox branch",
+      "status": "DOMAIN_ACTIVE",
+      "branch": "rainbow_runtime",
+      "definition": "Isolated alternative closure branch created by a perturbation. It never overwrites canonical state merely because it reaches a fixed point.",
+      "provenance": [
+        "NF-007"
+      ]
+    },
+    {
+      "handle": "@recovery_discriminator",
+      "canonical_name": "Recovery Discriminator",
+      "type": "derived recovery witness component",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "branch": "self_build",
+      "definition": "Any retained witness component d such that augmenting a colliding witness map by d separates the recovery-relevant lineages in the handoff merge fiber.",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "CE-RW-001"
+      ],
+      "metadata": {
+        "generated_by": "R-011",
+        "audit_status": "AWAITING_CLOSURE_CERTIFICATE",
+        "closure_certificate": "CC-005"
+      }
+    },
+    {
+      "handle": "@recovery_history_signature_minimality",
+      "canonical_name": "Recovery History Signature Minimality",
+      "type": "self-build research frontier",
+      "status": "ACTIVE_FRONTIER",
+      "branch": "self_build",
+      "definition": "Determine whether full ordered History can be replaced by a smaller retained History/holonomy signature that remains separating on every recovery-relevant handoff fiber and stable under admissible composition.",
+      "provenance": [
+        "SELF_BUILD_PASS_003"
+      ],
+      "metadata": {
+        "priority": "P0"
+      }
+    },
+    {
+      "handle": "@recovery_provenance_bundle",
+      "canonical_name": "Recovery Provenance Bundle",
+      "type": "witness bundle",
+      "status": "OPEN",
+      "branch": "live_model",
+      "definition": "Unknown minimal retained structure sufficient to recover the correct fine lineage after a non-injective handoff.",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "handle": "@recovery_witness_counterexample_crawl",
+      "canonical_name": "Recovery Witness Counterexample Crawl",
+      "type": "self-build research frontier",
+      "status": "ACTIVE_FRONTIER",
+      "branch": "self_build",
+      "definition": "Can the smallest candidate witness bundle fail to distinguish two fine-resolution lineages in the same non-injective handoff fiber, and if so, exactly which additional structural component is necessary to repair the ambiguity?",
+      "provenance": [
+        "LIVE_MODEL::NF-006",
+        "SELF_BUILD_PASS_001"
+      ]
+    },
+    {
+      "handle": "@recursive_dependency_grammar",
+      "canonical_name": "@recursive_dependency_grammar",
+      "type": "generative grammar",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Object + typed arrow + composition + identity + quotient/refinement across abstraction levels.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-222"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@recursive_impact_cone",
+      "canonical_name": "Recursive Impact Cone",
+      "type": "dependency impact structure",
+      "status": "DERIVED_DOMAIN_RULE",
+      "branch": "rainbow_runtime",
+      "definition": "Dependency descendants whose derivation or validity may require recomputation after a perturbation. This is a structural cone, not a foundational numerical measure.",
+      "provenance": [
+        "NF-007"
+      ]
+    },
+    {
+      "handle": "@redundancy_vector",
+      "canonical_name": "@redundancy_vector",
+      "type": "resilience vector",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Route, alternative-dependency, provenance and macro redundancy profile.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v48"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v48"
+      }
+    },
+    {
+      "handle": "@research_pareto_frontier",
+      "canonical_name": "@research_pareto_frontier",
+      "type": "priority structure",
+      "status": "PROMOTED_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "Non-dominated research targets under declared priority dimensions.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v49"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v49"
+      }
+    },
+    {
+      "handle": "@research_priority_operator",
+      "canonical_name": "@research_priority_operator",
+      "type": "research scheduler",
+      "status": "PROMOTED_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "Multi-objective operator selecting high-value unresolved mathematical targets.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v49"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v49"
+      }
+    },
+    {
+      "handle": "@research_priority_vector",
+      "canonical_name": "@research_priority_vector",
+      "type": "priority vector",
+      "status": "PROMOTED_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "Impact/fragility/discharge/redundancy/scope/recoverability/cost/circularity/novelty profile.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v49"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v49"
+      }
+    },
+    {
+      "handle": "@research_queue",
+      "canonical_name": "@research_queue",
+      "type": "research queue",
+      "status": "PROMOTED_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "Typed generated research actions.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v49"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v49"
+      }
+    },
+    {
+      "handle": "@resolution",
+      "canonical_name": "@resolution",
+      "type": "readout/refinement structure",
+      "status": "RECOVERED_PLUS_LIFT",
+      "branch": "transduction_geometry",
+      "definition": "Distinguishable organization; in GTG, a readout that preserves or forgets distinctions.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-003",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-195",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-234"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@resolution_blind_core",
+      "canonical_name": "Resolution Blind Core",
+      "type": "resolution kernel intersection",
+      "status": "SOURCE_BACKED",
+      "branch": "live_model",
+      "definition": "Structure invisible at every Resolution in the currently modeled family.",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "handle": "@resolution_congruence",
+      "canonical_name": "resolution congruence",
+      "type": "resolution/readout object",
+      "status": "SOURCE_BACKED",
+      "branch": "resolution_readout",
+      "definition": "K_R",
+      "provenance": [
+        "RESOLUTION_READOUT::API/resolution_readout_schema.json"
+      ]
+    },
+    {
+      "handle": "@resolution_descent_defect",
+      "canonical_name": "@resolution_descent_defect",
+      "type": "audit defect",
+      "status": "PROMOTED_AUDIT_OBJECT",
+      "branch": "transduction_geometry",
+      "definition": "Mismatch between Resolution readout and overlap translation.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-274"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@resolution_domain",
+      "canonical_name": "resolution domain",
+      "type": "resolution/readout object",
+      "status": "SOURCE_BACKED",
+      "branch": "resolution_readout",
+      "definition": "Dom_R([x]_R)=q_R^{-1}([x]_R)",
+      "provenance": [
+        "RESOLUTION_READOUT::API/resolution_readout_schema.json",
+        "IDENTITY_THROUGH_HISTORY::API/IDENTITY_HISTORY_OBJECTS.json"
+      ],
+      "also_in_branches": [
+        "identity_through_history"
+      ]
+    },
+    {
+      "handle": "@resolution_equivalence",
+      "canonical_name": "resolution equivalence",
+      "type": "resolution/readout object",
+      "status": "SOURCE_BACKED",
+      "branch": "resolution_readout",
+      "definition": "x ~_R y iff q_R(x)=q_R(y)",
+      "provenance": [
+        "RESOLUTION_READOUT::API/resolution_readout_schema.json"
+      ]
+    },
+    {
+      "handle": "@resolution_handoff",
+      "canonical_name": "Resolution Handoff",
+      "type": "cross-resolution map",
+      "status": "DERIVED",
+      "branch": "live_model",
+      "definition": "Compatible handoff q_ji between fine and coarse Resolution presentations.",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "handle": "@resolution_index",
+      "canonical_name": "resolution index",
+      "type": "resolution/readout object",
+      "status": "SOURCE_BACKED",
+      "branch": "resolution_readout",
+      "definition": "Res",
+      "provenance": [
+        "RESOLUTION_READOUT::API/resolution_readout_schema.json"
+      ]
+    },
+    {
+      "handle": "@resolution_landscape",
+      "canonical_name": "resolution landscape",
+      "type": "resolution/readout object",
+      "status": "SOURCE_BACKED",
+      "branch": "resolution_readout",
+      "definition": "L_R(B)={Geo_R(B),q_ji}",
+      "provenance": [
+        "RESOLUTION_READOUT::API/resolution_readout_schema.json"
+      ]
+    },
+    {
+      "handle": "@resolution_quotiented_lift_family",
+      "canonical_name": "@resolution_quotiented_lift_family",
+      "type": "lift structure",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Lift family modulo current Resolution/readout equivalence.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v50"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v50"
+      }
+    },
+    {
+      "handle": "@resolution_repair",
+      "canonical_name": "Resolution Repair",
+      "type": "continuity repair",
+      "status": "DERIVED",
+      "branch": "live_model",
+      "definition": "Refine Resolution until the needed representatives are distinguishable.",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "handle": "@return_not_reset",
+      "canonical_name": "Return Is Not Reset",
+      "type": "continuity theorem object",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "branch": "rainbow_runtime",
+      "definition": "A recurrence of local presentation does not identify the current structural-History state with the earlier state when traversal History is retained.",
+      "provenance": [
+        "LIVE_MODEL RR-006",
+        "NF-007"
+      ],
+      "metadata": {
+        "closure_certificate": "CERT-RR-002"
+      }
+    },
+    {
+      "handle": "@robustness_map",
+      "canonical_name": "@robustness_map",
+      "type": "resilience map",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Layered map of mathematical, trust, semantic, recovery and reasoning robustness.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v48"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v48"
+      }
+    },
+    {
+      "handle": "@robustness_signature",
+      "canonical_name": "@robustness_signature",
+      "type": "resilience signature",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Multi-dimensional robustness profile combining redundancy, fragility, dependency cones and impact profile.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v48"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v48"
+      }
+    },
+    {
+      "handle": "@semantic_closure_fixed_point",
+      "canonical_name": "Semantic Closure Fixed Point",
+      "type": "closure state",
+      "status": "DERIVED_DOMAIN_RULE",
+      "branch": "rainbow_runtime",
+      "definition": "A mathematical state X* with Cl_RR(X*) structurally equivalent to X* under the current domain contract. History may still grow while semantic closure remains fixed.",
+      "provenance": [
+        "NF-007"
+      ]
+    },
+    {
+      "handle": "@semantic_contradiction_audit",
+      "canonical_name": "@semantic_contradiction_audit",
+      "type": "audit engine",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Detects QMO relations or metadata that violate semantic type/conflation constraints.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-313"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v42"
+      }
+    },
+    {
+      "handle": "@semantic_type_system",
+      "canonical_name": "@semantic_type_system",
+      "type": "semantic type system",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Weak type system constraining terminology, relations, status modality and forbidden conflations.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-310",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-311"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v42"
+      }
+    },
+    {
+      "handle": "@square_curvature",
+      "canonical_name": "SquareCurvature",
+      "type": "holonomy/chirality record",
+      "status": "SOURCE_BACKED",
+      "branch": "holonomy_chirality",
+      "definition": "Record fields: U, V, W, Z, path_1, path_2, defect, scope, status",
+      "provenance": [
+        "HOLONOMY_CHIRALITY::API/holonomy_chirality_schema.json"
+      ]
+    },
+    {
+      "handle": "@state_fiber",
+      "canonical_name": "@state_fiber",
+      "type": "indexed state groupoid/category",
+      "status": "PROMOTED_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "Admissible state geometry F(U) over dependency context U.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-232"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@status_monotonicity",
+      "canonical_name": "@status_monotonicity",
+      "type": "status rule",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Prevents conclusions from exceeding unresolved/candidate premise status without independent discharge.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v46"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v46"
+      }
+    },
+    {
+      "handle": "@stratum_graph",
+      "canonical_name": "@stratum_graph",
+      "type": "directed typed graph",
+      "status": "PROMOTED_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "Graph of admissible identity-stratum transition classes.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-217",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-224"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@strong_resolution_handoff_continuity",
+      "canonical_name": "Strong Resolution-Handoff Continuity",
+      "type": "recoverability condition",
+      "status": "DERIVED_CANDIDATE",
+      "branch": "live_model",
+      "definition": "Weak coherence plus common Formal Identity, valid witness, retained essential distinctions, and recoverable lineage.",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "handle": "@structural_discontinuity",
+      "canonical_name": "Structural Discontinuity",
+      "type": "failure predicate",
+      "status": "CANDIDATE",
+      "branch": "live_model",
+      "definition": "Failure when a structurally essential prior distinction is neither readable nor recoverable.",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "handle": "@support_multiplicity",
+      "canonical_name": "@support_multiplicity",
+      "type": "support structure",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Tracks independent/alternative support routes.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v47"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v47"
+      }
+    },
+    {
+      "handle": "@theory_chirality_fabric_as_admissibility_descent",
+      "canonical_name": "@theory_chirality_fabric_as_admissibility_descent",
+      "type": "theory candidate",
+      "status": "STRONG_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "Chirality Fabric may be modeled as local admissibility structures plus transition/gluing data.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-308"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v41"
+      }
+    },
+    {
+      "handle": "@time_shell_history_address",
+      "canonical_name": "time shell history address",
+      "type": "history-bearing persistent boundary address",
+      "status": "ATLAS_CANDIDATE",
+      "branch": "identity_through_history",
+      "definition": "history-bearing persistent boundary address",
+      "provenance": [
+        "IDENTITY_THROUGH_HISTORY::API/IDENTITY_HISTORY_OBJECTS.json"
+      ]
+    },
+    {
+      "handle": "@transduction",
+      "canonical_name": "@transduction",
+      "type": "typed transformation",
+      "status": "STRENGTHENED_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "Inheritance-preserving change of realization; globally a morphism with base and fiber components.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-009",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-218",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-219"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@transduction_compiler",
+      "canonical_name": "@transduction_compiler",
+      "type": "derivation compiler",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Semantic/operator type checker and QMO admission gate.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v43"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v43"
+      }
+    },
+    {
+      "handle": "@transduction_connection",
+      "canonical_name": "@transduction_connection",
+      "type": "connection-like structure",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Typed admissibility-aware horizontal-lift selection rule.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-262",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-263"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@transduction_curvature",
+      "canonical_name": "@transduction_curvature",
+      "type": "typed path-dependence defect",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Coherence defect between same-endpoint connection-selected transports.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-254",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-255",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-264"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@transduction_descent",
+      "canonical_name": "@transduction_descent",
+      "type": "descent architecture",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Local-to-global gluing architecture for connections/admissibility data.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-270"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@transduction_language",
+      "canonical_name": "@transduction_language",
+      "type": "semantic language system",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Queryable controlled vocabulary and semantic contract for the Transduction theory.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-297",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-298"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v41"
+      }
+    },
+    {
+      "handle": "@transduction_reasoning_grammar",
+      "canonical_name": "@transduction_reasoning_grammar",
+      "type": "reasoning grammar",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Grammar of admissible reusable derivation procedures over QMO objects.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v45"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v45"
+      }
+    },
+    {
+      "handle": "@transport_path",
+      "canonical_name": "TransportPath",
+      "type": "holonomy/chirality record",
+      "status": "SOURCE_BACKED",
+      "branch": "holonomy_chirality",
+      "definition": "Record fields: path, selected_lifts, source, target, history_record",
+      "provenance": [
+        "HOLONOMY_CHIRALITY::API/holonomy_chirality_schema.json"
+      ]
+    },
+    {
+      "handle": "@trust_graph",
+      "canonical_name": "@trust_graph",
+      "type": "trust graph",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Typed graph of evidentiary, dependency, descriptive, validation and discharge relations.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v46"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v46"
+      }
+    },
+    {
+      "handle": "@trust_strata",
+      "canonical_name": "@trust_strata",
+      "type": "trust architecture",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Classifies evidentiary role/ancestry strata without conflating them with truth ranking.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v46"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v46"
+      }
+    },
+    {
+      "handle": "@trust_witness",
+      "canonical_name": "@trust_witness",
+      "type": "trust object",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Explains trust stratum, evidence edges, unresolved/discharged dependencies, independence and provenance.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v46"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v46"
+      }
+    },
+    {
+      "handle": "@typed_analogy_record",
+      "canonical_name": "@typed_analogy_record",
+      "type": "metadata schema",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Typed analogy object preserving mapping, utility, break conditions, status and provenance.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-299",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-300"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v41"
+      }
+    },
+    {
+      "handle": "@typed_lift_architecture",
+      "canonical_name": "@typed_lift_architecture",
+      "type": "lift architecture",
+      "status": "PROMOTED_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "Cartesian-style restriction lifts and cocartesian-style realization lifts by operator family.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-238",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-239",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-240"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@unit_defect",
+      "canonical_name": "@unit_defect",
+      "type": "audit defect",
+      "status": "PROMOTED_AUDIT_OBJECT",
+      "branch": "transduction_geometry",
+      "definition": "Typed discrepancy between x and f* f! x.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-248",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-250"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@weak_resolution_handoff_coherence",
+      "canonical_name": "Weak Resolution-Handoff Coherence",
+      "type": "commutation condition",
+      "status": "DERIVED",
+      "branch": "live_model",
+      "definition": "q_ji(rho_Rj(a)) = rho_Ri(a); presentation consistency only.",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "handle": "@witness_bundle_core",
+      "canonical_name": "Witness Bundle Core",
+      "type": "self-build candidate object",
+      "status": "CANDIDATE",
+      "branch": "self_build",
+      "definition": "Candidate recovery witness containing formal address/provenance pointer + Identity Witness + transition token + invariant residue.",
+      "provenance": [
+        "SELF_BUILD_PASS_001",
+        "LIVE_MODEL::NF-005 OPEN"
+      ],
+      "metadata": {
+        "generated_by": "R-002",
+        "audit_status": "UNPROMOTED"
+      }
+    },
+    {
+      "handle": "@witness_bundle_full_state_fallback",
+      "canonical_name": "Witness Bundle Full State Fallback",
+      "type": "self-build candidate object",
+      "status": "FALLBACK_CANDIDATE",
+      "branch": "self_build",
+      "definition": "Retain the fuller predecessor structural state when compressed provenance cannot guarantee unique lineage recovery.",
+      "provenance": [
+        "SELF_BUILD_PASS_001",
+        "LIVE_MODEL::NF-005 OPEN"
+      ],
+      "metadata": {
+        "generated_by": "R-002",
+        "audit_status": "UNPROMOTED"
+      }
+    },
+    {
+      "handle": "@witness_bundle_history_augmented",
+      "canonical_name": "Witness Bundle History Augmented",
+      "type": "self-build candidate object",
+      "status": "CANDIDATE",
+      "branch": "self_build",
+      "definition": "Core candidate plus explicit ordered History trace.",
+      "provenance": [
+        "SELF_BUILD_PASS_001",
+        "LIVE_MODEL::NF-005 OPEN"
+      ],
+      "metadata": {
+        "generated_by": "R-002",
+        "audit_status": "UNPROMOTED"
+      }
+    },
+    {
+      "handle": "@witness_fiber_separation_criterion",
+      "canonical_name": "Witness Fiber Separation Criterion",
+      "type": "recovery theorem object",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "branch": "self_build",
+      "definition": "A recovery witness uniquely selects a fine lineage from a non-injective handoff merge fiber exactly when the witness map separates distinct lineages on that fiber.",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "CE-RW-001",
+        "FIVE_BRANCH_NATIVE_CORPUS"
+      ],
+      "metadata": {
+        "generated_by": "R-009",
+        "audit_status": "AWAITING_CLOSURE_CERTIFICATE",
+        "closure_certificate": "CC-003"
+      }
+    },
+    {
+      "handle": "@dependency_landscape",
+      "canonical_name": "Dependency Landscape",
+      "type": "QMO constructor / recursive dependency landscape operator",
+      "status": "AUDITED_ARCHITECTURAL_OPERATOR",
+      "branch": "api_runtime",
+      "definition": "Constructs a typed dependency-landscape QMO from one or more QMO and/or dependency-landscape inputs by preserving registered dependency edges, provenance, History, Resolution context, and Bandwidth context. Landscape inclusion does not promote member claims.",
+      "provenance": [
+        "API_4.3::RP-30.13_API_CRAWL_CONTRACT",
+        "API_4.3::RP-45_recover_dependency_landscape(@graviton,@general_relativity)",
+        "GENESIS_DIRECTION::2026-08-22_dependency_landscape_qmo"
+      ],
+      "source_status": "SOURCE_ADAPTED_USER_DIRECTED_ARCHITECTURE",
+      "metadata": {
+        "audit": "VERA_AUDITED_DOMAIN_EXTENSION",
+        "member_status_preserved": true,
+        "landscape_is_qmo": true,
+        "live_model_revision": "v0.18.0"
+      }
+    },
+    {
+      "handle": "@dl_history_signature",
+      "canonical_name": "Dependency Landscape: @recovery_history_signature_minimality, @holonomy_history_signature",
+      "type": "dependency landscape QMO",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "branch": "dependency_landscape",
+      "definition": "Dependency Landscape QMO built from @recovery_history_signature_minimality, @holonomy_history_signature; contains 8 member QMOs and 7 preserved registered dependency edges. It carries its own History, Resolution context, Bandwidth context, and provenance.",
+      "provenance": [
+        "API_4.3::RP-30.13_API_CRAWL_CONTRACT",
+        "API_4.3::RP-45_DEPENDENCY_LANDSCAPE_DENSIFICATION",
+        "GENESIS_DIRECTION::2026-08-22",
+        "QMO:@recovery_history_signature_minimality",
+        "QMO:@holonomy_history_signature"
+      ],
+      "source_status": "GENERATED_FROM_REGISTERED_QMO_GRAPH",
+      "metadata": {
+        "landscape_id": "DL-a12ffa9e8e21",
+        "resolution_context": {
+          "operator": "@resolution",
+          "policy": "PRESERVE_MEMBER_RESOLUTION_STATE; NO_EXTRA_QUOTIENT_BY_LANDSCAPE",
+          "landscape_resolution": "QUERY_RELATIVE_AND_HISTORY_BEARING"
+        },
+        "bandwidth_context": {
+          "operator": "@bandwidth_algebra",
+          "policy": "REGISTERED_EDGE_AVAILABILITY_ONLY; LANDSCAPE_DOES_NOT_INVENT_AVAILABLE_TRANSFORMATIONS",
+          "landscape_bandwidth": "AVAILABLE_MEMBER_DEPENDENCY_STRUCTURE"
+        },
+        "history_policy": "APPEND_ONLY",
+        "member_status_preserved": true,
+        "live_model_revision": "v0.18.0"
+      }
+    },
+    {
+      "handle": "@dl_resolution_recovery",
+      "canonical_name": "Dependency Landscape: @strong_resolution_handoff_continuity, @recovery_discriminator",
+      "type": "dependency landscape QMO",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "branch": "dependency_landscape",
+      "definition": "Dependency Landscape QMO built from @strong_resolution_handoff_continuity, @recovery_discriminator; contains 26 member QMOs and 32 preserved registered dependency edges. It carries its own History, Resolution context, Bandwidth context, and provenance.",
+      "provenance": [
+        "API_4.3::RP-30.13_API_CRAWL_CONTRACT",
+        "API_4.3::RP-45_DEPENDENCY_LANDSCAPE_DENSIFICATION",
+        "GENESIS_DIRECTION::2026-08-22",
+        "QMO:@strong_resolution_handoff_continuity",
+        "QMO:@recovery_discriminator"
+      ],
+      "source_status": "GENERATED_FROM_REGISTERED_QMO_GRAPH",
+      "metadata": {
+        "landscape_id": "DL-b85c029a60eb",
+        "resolution_context": {
+          "operator": "@resolution",
+          "policy": "PRESERVE_MEMBER_RESOLUTION_STATE; NO_EXTRA_QUOTIENT_BY_LANDSCAPE",
+          "landscape_resolution": "QUERY_RELATIVE_AND_HISTORY_BEARING"
+        },
+        "bandwidth_context": {
+          "operator": "@bandwidth_algebra",
+          "policy": "REGISTERED_EDGE_AVAILABILITY_ONLY; LANDSCAPE_DOES_NOT_INVENT_AVAILABLE_TRANSFORMATIONS",
+          "landscape_bandwidth": "AVAILABLE_MEMBER_DEPENDENCY_STRUCTURE"
+        },
+        "history_policy": "APPEND_ONLY",
+        "member_status_preserved": true,
+        "live_model_revision": "v0.18.0"
+      }
+    },
+    {
+      "handle": "@dl_history_resolution_bridge",
+      "canonical_name": "Dependency Landscape: @dl_history_signature, @dl_resolution_recovery",
+      "type": "dependency landscape QMO",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "branch": "dependency_landscape",
+      "definition": "Dependency Landscape QMO built from @dl_history_signature, @dl_resolution_recovery; contains 27 member QMOs and 33 preserved registered dependency edges. It carries its own History, Resolution context, Bandwidth context, and provenance.",
+      "provenance": [
+        "API_4.3::RP-30.13_API_CRAWL_CONTRACT",
+        "API_4.3::RP-45_DEPENDENCY_LANDSCAPE_DENSIFICATION",
+        "GENESIS_DIRECTION::2026-08-22",
+        "QMO:@dl_history_signature",
+        "QMO:@dl_resolution_recovery"
+      ],
+      "source_status": "GENERATED_FROM_REGISTERED_QMO_GRAPH",
+      "metadata": {
+        "landscape_id": "DL-ee67ffe08f2e",
+        "resolution_context": {
+          "operator": "@resolution",
+          "policy": "PRESERVE_MEMBER_RESOLUTION_STATE; NO_EXTRA_QUOTIENT_BY_LANDSCAPE",
+          "landscape_resolution": "QUERY_RELATIVE_AND_HISTORY_BEARING"
+        },
+        "bandwidth_context": {
+          "operator": "@bandwidth_algebra",
+          "policy": "REGISTERED_EDGE_AVAILABILITY_ONLY; LANDSCAPE_DOES_NOT_INVENT_AVAILABLE_TRANSFORMATIONS",
+          "landscape_bandwidth": "AVAILABLE_MEMBER_DEPENDENCY_STRUCTURE"
+        },
+        "history_policy": "APPEND_ONLY",
+        "member_status_preserved": true,
+        "live_model_revision": "v0.18.0"
+      }
+    },
+    {
+      "handle": "@dependency_graph",
+      "canonical_name": "Dependency Graph",
+      "type": "QMO constructor / typed dependency graph operator",
+      "status": "AUDITED_ARCHITECTURAL_OPERATOR",
+      "branch": "api_runtime",
+      "definition": "Constructs a focused typed dependency-graph QMO from registered QMO and/or dependency-graph inputs using only registered edges. Supports path, induced, and ego graph modes. Graph construction preserves member status, provenance, Resolution context, Bandwidth context, and History.",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_graph",
+        "API_4.3::DEPENDENCY_GRAPH_IS_MATHEMATICAL_OBJECT"
+      ],
+      "source_status": "SOURCE_ADAPTED_USER_DIRECTED_ARCHITECTURE",
+      "metadata": {
+        "audit": "VERA_AUDITED_DOMAIN_EXTENSION",
+        "graph_is_qmo": true,
+        "member_status_preserved": true,
+        "live_model_revision": "v0.20.0"
+      }
+    },
+    {
+      "handle": "@dependency_chain",
+      "canonical_name": "Dependency Chain",
+      "type": "QMO constructor / recursive dependency chain operator",
+      "status": "AUDITED_ARCHITECTURAL_OPERATOR",
+      "branch": "api_runtime",
+      "definition": "Constructs an ordered history-bearing QMO by repeatedly crawling a current QMO/graph/landscape, resolving a unique registered progression when available, packaging each progression as a Dependency Graph, composing the accumulated structure into a Dependency Landscape, and continuing until closure, fork, defect, or depth boundary. A closed chain may qualify as a closed API subdomain.",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_chain",
+        "ASTRAEUS_API::DEPENDENCY_LANDSCAPE_V1"
+      ],
+      "source_status": "USER_DIRECTED_ARCHITECTURE",
+      "metadata": {
+        "audit": "VERA_AUDITED_DOMAIN_EXTENSION",
+        "chain_is_qmo": true,
+        "history_policy": "APPEND_ONLY",
+        "subdomain_eligibility": "CONDITIONAL_ON_TERMINAL_CLOSURE",
+        "live_model_revision": "v0.20.0"
+      }
+    },
+    {
+      "handle": "@dc_recovery_witness_to_signature_g01",
+      "canonical_name": "Dependency Graph: @object_resolution_recovery_witness_minimality, @recovery_witness_counterexample_crawl",
+      "type": "dependency graph QMO",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "branch": "dependency_graph",
+      "definition": "Path Dependency Graph QMO built from @object_resolution_recovery_witness_minimality, @recovery_witness_counterexample_crawl; contains 2 member QMOs and 1 registered dependency edges.",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_graph",
+        "API_4.3::DEPENDENCY_GRAPH_IS_MATHEMATICAL_OBJECT",
+        "RUNTIME_REGISTER",
+        "QMO:@object_resolution_recovery_witness_minimality",
+        "QMO:@recovery_witness_counterexample_crawl"
+      ],
+      "source_status": "GENERATED_FROM_REGISTERED_QMO_GRAPH",
+      "metadata": {
+        "graph_id": "DG-d89a18fafa57",
+        "graph_type": "path",
+        "resolution_context": {
+          "operator": "@resolution",
+          "graph_resolution": "PATH_REGISTERED_DEPENDENCY_VIEW",
+          "depth": 1
+        },
+        "bandwidth_context": {
+          "operator": "@bandwidth_algebra",
+          "policy": "ONLY_CURRENTLY_REGISTERED_DEPENDENCY_EDGES_ARE_AVAILABLE"
+        },
+        "history_policy": "APPEND_ONLY",
+        "member_status_preserved": true,
+        "live_model_revision": "v0.20.0"
+      }
+    },
+    {
+      "handle": "@dc_recovery_witness_to_signature_l01",
+      "canonical_name": "Dependency Landscape: @dc_recovery_witness_to_signature_g01",
+      "type": "dependency landscape QMO",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "branch": "dependency_landscape",
+      "definition": "Dependency Landscape QMO built from @dc_recovery_witness_to_signature_g01; contains 7 member QMOs and 6 preserved registered dependency edges.",
+      "provenance": [
+        "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+        "GENESIS_DIRECTION::2026-08-22",
+        "RUNTIME_REGISTER",
+        "QMO:@dc_recovery_witness_to_signature_g01"
+      ],
+      "source_status": "GENERATED_FROM_REGISTERED_QMO_GRAPH",
+      "metadata": {
+        "landscape_id": "DL-7a8fb844468f",
+        "resolution_context": {
+          "operator": "@resolution",
+          "policy": "PRESERVE_MEMBER_RESOLUTION_STATE; NO_EXTRA_QUOTIENT_BY_LANDSCAPE",
+          "landscape_resolution": "QUERY_RELATIVE_AND_HISTORY_BEARING"
+        },
+        "bandwidth_context": {
+          "operator": "@bandwidth_algebra",
+          "policy": "REGISTERED_EDGE_AVAILABILITY_ONLY; LANDSCAPE_DOES_NOT_INVENT_AVAILABLE_TRANSFORMATIONS",
+          "landscape_bandwidth": "AVAILABLE_MEMBER_DEPENDENCY_STRUCTURE"
+        },
+        "history_policy": "APPEND_ONLY",
+        "member_status_preserved": true,
+        "live_model_revision": "v0.20.0"
+      }
+    },
+    {
+      "handle": "@dc_recovery_witness_to_signature_g02",
+      "canonical_name": "Dependency Graph: @recovery_witness_counterexample_crawl, @recovery_history_signature_minimality",
+      "type": "dependency graph QMO",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "branch": "dependency_graph",
+      "definition": "Path Dependency Graph QMO built from @recovery_witness_counterexample_crawl, @recovery_history_signature_minimality; contains 2 member QMOs and 1 registered dependency edges.",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_graph",
+        "API_4.3::DEPENDENCY_GRAPH_IS_MATHEMATICAL_OBJECT",
+        "RUNTIME_REGISTER",
+        "QMO:@recovery_witness_counterexample_crawl",
+        "QMO:@recovery_history_signature_minimality"
+      ],
+      "source_status": "GENERATED_FROM_REGISTERED_QMO_GRAPH",
+      "metadata": {
+        "graph_id": "DG-88f33087524e",
+        "graph_type": "path",
+        "resolution_context": {
+          "operator": "@resolution",
+          "graph_resolution": "PATH_REGISTERED_DEPENDENCY_VIEW",
+          "depth": 1
+        },
+        "bandwidth_context": {
+          "operator": "@bandwidth_algebra",
+          "policy": "ONLY_CURRENTLY_REGISTERED_DEPENDENCY_EDGES_ARE_AVAILABLE"
+        },
+        "history_policy": "APPEND_ONLY",
+        "member_status_preserved": true,
+        "live_model_revision": "v0.20.0"
+      }
+    },
+    {
+      "handle": "@dc_recovery_witness_to_signature_l02",
+      "canonical_name": "Dependency Landscape: @dc_recovery_witness_to_signature_l01, @dc_recovery_witness_to_signature_g02",
+      "type": "dependency landscape QMO",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "branch": "dependency_landscape",
+      "definition": "Dependency Landscape QMO built from @dc_recovery_witness_to_signature_l01, @dc_recovery_witness_to_signature_g02; contains 10 member QMOs and 9 preserved registered dependency edges.",
+      "provenance": [
+        "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+        "GENESIS_DIRECTION::2026-08-22",
+        "RUNTIME_REGISTER",
+        "QMO:@dc_recovery_witness_to_signature_l01",
+        "QMO:@dc_recovery_witness_to_signature_g02"
+      ],
+      "source_status": "GENERATED_FROM_REGISTERED_QMO_GRAPH",
+      "metadata": {
+        "landscape_id": "DL-1e1bdaf52ab4",
+        "resolution_context": {
+          "operator": "@resolution",
+          "policy": "PRESERVE_MEMBER_RESOLUTION_STATE; NO_EXTRA_QUOTIENT_BY_LANDSCAPE",
+          "landscape_resolution": "QUERY_RELATIVE_AND_HISTORY_BEARING"
+        },
+        "bandwidth_context": {
+          "operator": "@bandwidth_algebra",
+          "policy": "REGISTERED_EDGE_AVAILABILITY_ONLY; LANDSCAPE_DOES_NOT_INVENT_AVAILABLE_TRANSFORMATIONS",
+          "landscape_bandwidth": "AVAILABLE_MEMBER_DEPENDENCY_STRUCTURE"
+        },
+        "history_policy": "APPEND_ONLY",
+        "member_status_preserved": true,
+        "live_model_revision": "v0.20.0"
+      }
+    },
+    {
+      "handle": "@dc_recovery_witness_to_signature",
+      "canonical_name": "Dependency Chain: @object_resolution_recovery_witness_minimality",
+      "type": "dependency chain QMO",
+      "status": "ACTIVE_DEPENDENCY_CHAIN",
+      "branch": "dependency_chain",
+      "definition": "Dependency Chain QMO seeded by @object_resolution_recovery_witness_minimality; contains 2 resolved progression step(s) and terminates in state OPEN_FORK at @recovery_history_signature_minimality.",
+      "provenance": [
+        "GENESIS_DIRECTION::2026-08-22_dependency_chain",
+        "QMO:@object_resolution_recovery_witness_minimality",
+        "QMO:@dc_recovery_witness_to_signature_g01",
+        "QMO:@dc_recovery_witness_to_signature_g02",
+        "QMO:@dc_recovery_witness_to_signature_l01",
+        "QMO:@dc_recovery_witness_to_signature_l02"
+      ],
+      "source_status": "GENERATED_BY_RECURSIVE_DEPENDENCY_CHAIN_RUNTIME",
+      "metadata": {
+        "chain_id": "DC-99028cade24b",
+        "terminal": {
+          "state": "OPEN_FORK",
+          "focus": "@recovery_history_signature_minimality",
+          "exploration_targets": [
+            {
+              "relation": "QUERIES",
+              "target": "@history_holonomy",
+              "edge_id": "E-00147"
+            },
+            {
+              "relation": "QUERIES",
+              "target": "@holonomy_history_signature",
+              "edge_id": "E-00148"
+            },
+            {
+              "relation": "TESTS",
+              "target": "@recovery_discriminator",
+              "edge_id": "E-00149"
+            }
+          ]
+        },
+        "resolution_context": {
+          "operator": "@resolution",
+          "policy": "EACH_CHAIN_STEP_HAS_ITS_OWN_GRAPH/LANDSCAPE_RESOLUTION; CHAIN_ORDER_PRESERVED"
+        },
+        "bandwidth_context": {
+          "operator": "@bandwidth_algebra",
+          "policy": "ONLY_REGISTERED_PROGRESSIONS_AND_EDGES_AVAILABLE_TO_CHAIN"
+        },
+        "history_policy": "APPEND_ONLY",
+        "domain_state": "OPEN_NOT_A_DOMAIN",
+        "live_model_revision": "v0.20.0"
+      }
+    },
+    {
+      "handle": "@dl_recovery_progression_graphs",
+      "canonical_name": "Dependency Landscape: @dc_recovery_witness_to_signature_g01, @dc_recovery_witness_to_signature_g02",
+      "type": "dependency landscape QMO",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "branch": "dependency_landscape",
+      "definition": "Dependency Landscape QMO built from @dc_recovery_witness_to_signature_g01, @dc_recovery_witness_to_signature_g02; contains 10 member QMOs and 9 preserved registered dependency edges.",
+      "provenance": [
+        "API_4.3::DEPENDENCY_LANDSCAPE_ARCHITECTURE",
+        "GENESIS_DIRECTION::2026-08-22",
+        "RUNTIME_REGISTER",
+        "QMO:@dc_recovery_witness_to_signature_g01",
+        "QMO:@dc_recovery_witness_to_signature_g02"
+      ],
+      "source_status": "GENERATED_FROM_REGISTERED_QMO_GRAPH",
+      "metadata": {
+        "landscape_id": "DL-78e2b36b1e20",
+        "resolution_context": {
+          "operator": "@resolution",
+          "policy": "PRESERVE_MEMBER_RESOLUTION_STATE; NO_EXTRA_QUOTIENT_BY_LANDSCAPE",
+          "landscape_resolution": "QUERY_RELATIVE_AND_HISTORY_BEARING"
+        },
+        "bandwidth_context": {
+          "operator": "@bandwidth_algebra",
+          "policy": "REGISTERED_EDGE_AVAILABILITY_ONLY; LANDSCAPE_DOES_NOT_INVENT_AVAILABLE_TRANSFORMATIONS",
+          "landscape_bandwidth": "AVAILABLE_MEMBER_DEPENDENCY_STRUCTURE"
+        },
+        "history_policy": "APPEND_ONLY",
+        "member_status_preserved": true,
+        "live_model_revision": "v0.20.0"
+      }
+    }
+  ]
+}

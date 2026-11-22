@@ -1,0 +1,107 @@
+{
+  "schema": "tome-publication-renderer-validation/v1",
+  "created_at": "2026-08-10T02:00:24.213573+00:00",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "engine": "KaTeX 0.16.22 -> HTML/CSS -> Playwright -> Microsoft Edge PDF",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_02_GENESIS_LANGUAGE/MK_ULTRA_TOME_V02_C01_WHY_A_NEW_REPRESENTATIONAL_LANGUAGE_WAS_REQUIRED.pdf",
+    "bytes": 247451,
+    "sha256": "783bba73d0ef25fb41ddf00ff341726371d553185d60c1617b4d5c711a2541fc"
+  },
+  "actual_pages": 11,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V02-C01": 3
+  },
+  "chapter_validations": [
+    {
+      "chapter_id": "V02-C01",
+      "source_sha256": "e4ea3e78569f3c7abddc1878f1670b5bc60f99b1a5de9162ba76cc85e3a0f393",
+      "page_start": 3,
+      "headings": 16,
+      "display_equations": 18,
+      "inline_equations": 65,
+      "equation_tags": 18,
+      "api_handles": 82,
+      "table_rows": 83,
+      "content_markers_present": true
+    }
+  ],
+  "engine_metrics": {
+    "renderer": "TOME_PUBLICATION_RENDERER_V1",
+    "katexVersion": "0.16.22",
+    "chapters": [
+      {
+        "id": "V02-C01",
+        "sourceBytes": 39484,
+        "paragraphs": 73,
+        "headings": 16,
+        "displayEquations": 18,
+        "inlineEquations": 65,
+        "tables": 1,
+        "tableRows": 82,
+        "listItems": 8,
+        "codeBlocks": 0,
+        "figures": 0
+      }
+    ],
+    "paragraphs": 73,
+    "headings": 16,
+    "displayEquations": 18,
+    "inlineEquations": 65,
+    "tables": 1,
+    "tableRows": 82,
+    "listItems": 8,
+    "blockQuotes": 0,
+    "codeBlocks": 0,
+    "figures": 0,
+    "mathLayout": {
+      "checked": 18,
+      "scaled": [],
+      "remainingOverflow": []
+    }
+  },
+  "raw_latex_guard": {
+    "result": "PASS",
+    "hits": [],
+    "commands_scanned": [
+      "frac",
+      "mathcal",
+      "mathrm",
+      "begin",
+      "end",
+      "left",
+      "right",
+      "longrightarrow",
+      "rightarrow",
+      "otimes",
+      "partial",
+      "nabla",
+      "mu",
+      "nu",
+      "sum",
+      "int",
+      "operatorname"
+    ]
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V02-C01": "e4ea3e78569f3c7abddc1878f1670b5bc60f99b1a5de9162ba76cc85e3a0f393"
+  },
+  "source_hashes_after": {
+    "V02-C01": "e4ea3e78569f3c7abddc1878f1670b5bc60f99b1a5de9162ba76cc85e3a0f393"
+  },
+  "sealed_chapter_content_change_count": 0,
+  "visual_qa": {
+    "result": "PASS",
+    "rendered_page_count": 11,
+    "pages_inspected": "ALL_11_PAGES",
+    "equations": "PASS_ALL_18_TYPESET_WITHOUT_RAW_LATEX_OR_CLIPPING",
+    "tables": "PASS_COMPLETE_82_ADDRESS_REGISTER",
+    "prose": "PASS_READABLE_WITHOUT_HEADER_OVERLAP_OR_OVERFLOW",
+    "chapter_boundary": "PASS_V02_C01_PRESENT",
+    "continuous_page_numbers": "PASS",
+    "blank_pages": 0,
+    "visible_defects": 0
+  }
+}

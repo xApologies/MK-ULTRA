@@ -1,0 +1,183 @@
+{
+  "handle": "@continuity_conservation",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Continuity Conservation",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 4,
+    "api43_direct_in_count": 2,
+    "xapi_raw_out_count": 6,
+    "xapi_raw_in_count": 2,
+    "live_out_count": 3,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 151,
+    "closure_in_reachability_count": 7,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 1,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@continuity_conservation",
+        "relation": "DIRECTED_TO",
+        "target": "@native_constraint_closure",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54802->54803"
+      },
+      {
+        "source": "@continuity_conservation",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@native_constraint_closure",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DEPENDSON:54132"
+      },
+      {
+        "source": "@continuity_conservation",
+        "relation": "CORRESPONDS_TO",
+        "target": "@local_energy_momentum_conservation",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-45",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Native continuity conservation corresponds to readable covariant conservation."
+      },
+      {
+        "source": "@continuity_conservation",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@graviton_radiative_stability",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@continuity_conservation -> @native_constraint_closure -> @graviton_radiative_stability; relations=FORMALLY_DEPENDS_ON + FORMALLY_DEPENDS_ON; primitive_depth=2"
+      },
+      {
+        "source": "@native_constraint_closure",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@continuity_conservation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@continuity_conservation FORMALLY_DEPENDS_ON @native_constraint_closure); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      },
+      {
+        "source": "@local_energy_momentum_conservation",
+        "relation": "CORRESPONDS_TO",
+        "target": "@continuity_conservation",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@continuity_conservation CORRESPONDS_TO @local_energy_momentum_conservation); rule=CORRESPONDS_TO→CORRESPONDS_TO"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 261,
+        "source": "@continuity_conservation",
+        "relation": "DIRECTED_TO",
+        "target": "@native_constraint_closure",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54802->54803"
+      },
+      {
+        "id": 262,
+        "source": "@continuity_conservation",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@native_constraint_closure",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_DEPENDSON:54132"
+      },
+      {
+        "id": 2039,
+        "source": "@continuity_conservation",
+        "relation": "CORRESPONDS_TO",
+        "target": "@local_energy_momentum_conservation",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Native continuity conservation corresponds to readable covariant conservation."
+      },
+      {
+        "id": 19062,
+        "source": "@continuity_conservation",
+        "relation": "DIRECTED_TO",
+        "target": "@native_constraint_closure",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54802->54803"
+      },
+      {
+        "id": 19063,
+        "source": "@continuity_conservation",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@native_constraint_closure",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_DEPENDSON:54132"
+      },
+      {
+        "id": 19678,
+        "source": "@continuity_conservation",
+        "relation": "CORRESPONDS_TO",
+        "target": "@local_energy_momentum_conservation",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Native continuity conservation corresponds to readable covariant conservation."
+      },
+      {
+        "id": 2142,
+        "source": "@native_constraint_closure",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@continuity_conservation",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@continuity_conservation FORMALLY_DEPENDS_ON @native_constraint_closure); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      },
+      {
+        "id": 3091,
+        "source": "@local_energy_momentum_conservation",
+        "relation": "CORRESPONDS_TO",
+        "target": "@continuity_conservation",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@continuity_conservation CORRESPONDS_TO @local_energy_momentum_conservation); rule=CORRESPONDS_TO→CORRESPONDS_TO"
+      }
+    ]
+  },
+  "address": "@continuity_conservation",
+  "address_sha256": "e53283cba913a81a0d85231c436f14048d6f6a7edee11ea42d4e13a0e726bd20"
+}

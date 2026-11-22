@@ -1,0 +1,44 @@
+{
+  "handle": "@integration_genesis_gr_time_shell",
+  "kind": "integration_object",
+  "title": "Integrated original Time-Shell handoff",
+  "status": "source_relative_composition",
+  "equation": "I(N)=L_D(P_MK(N)); rho_D(I(N))=P_MK(N)",
+  "source": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/REPORT.md",
+  "hypotheses": [
+    "P_MK is defined on the admitted native input",
+    "Original fields, boundaries and conventions are retained",
+    "P_MK(N) lies in the matched smooth translator domain"
+  ],
+  "outgoing": [
+    {
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@continuity_perturbation",
+      "origin": "additive_integration"
+    },
+    {
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@graviton",
+      "origin": "additive_integration"
+    },
+    {
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@projected_gr_inheritance",
+      "origin": "additive_integration"
+    },
+    {
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "target": "@time_shell",
+      "origin": "additive_integration"
+    }
+  ],
+  "incoming": [
+    {
+      "source": "@integration_provenance_status",
+      "relation": "INTEGRATION_DEPENDS_ON",
+      "origin": "additive_integration"
+    }
+  ],
+  "source_locations": [],
+  "truncation_limit": 12
+}

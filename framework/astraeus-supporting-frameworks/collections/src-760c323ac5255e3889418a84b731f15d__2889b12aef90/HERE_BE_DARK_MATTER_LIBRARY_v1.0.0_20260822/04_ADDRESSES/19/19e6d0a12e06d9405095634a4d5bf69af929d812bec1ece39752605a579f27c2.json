@@ -1,0 +1,56 @@
+{
+  "handle": "@dm_omega_to_chromatic_representation",
+  "object_type": "mathematical_object",
+  "status": "OPTIONAL_OPEN_HANDLE",
+  "domain": "DM22",
+  "namespace": "open",
+  "name": "Chirality-Space to Chromatic/Basin Representation",
+  "definition": "Typed unresolved object promoted from the Master Dark-Matter QMO. It remains mathematically open; promotion makes the unknown queryable rather than solved.",
+  "math": "R_OmegaC^R subseteq Omega x X_C^R | requirements: Do not identify chirality-space elements with chromatic components by shared notation.; Any transported representation must satisfy the appropriate equivariance/commutation condition.; Not required by the primary residue-bundle branch.",
+  "source_layer": "DM22",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "DM22",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 1,
+    "live_in_count": 1,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19788,
+        "source": "@dm_omega_to_chromatic_representation",
+        "relation": "REPRESENTS_AS",
+        "target": "@dm_chromatic_optional_branch",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPTIONAL_OPEN_HANDLE",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19713,
+        "source": "@chirality_space",
+        "relation": "OPTIONALLY_REQUIRES",
+        "target": "@dm_omega_to_chromatic_representation",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPTIONAL_OPEN_HANDLE",
+        "provenance": "DM2.0"
+      }
+    ]
+  },
+  "address": "@dm_omega_to_chromatic_representation",
+  "address_sha256": "19e6d0a12e06d9405095634a4d5bf69af929d812bec1ece39752605a579f27c2"
+}

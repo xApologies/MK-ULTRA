@@ -1,0 +1,32 @@
+{
+  "a": "@killing_vector",
+  "b": "@shift_vector",
+  "radius": 2,
+  "a_node_count": 43,
+  "b_node_count": 20,
+  "interface": [],
+  "path_a_to_b": [
+    {
+      "source": "@killing_vector",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@spacetime",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-46",
+      "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@killing_vector -> @levi_civita_connection -> @spacetime; relations=DEPENDS_ON + DEPENDS_ON; primitive_depth=2"
+    },
+    {
+      "source": "@spacetime",
+      "relation": "SUPPORTS",
+      "target": "@shift_vector",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-47",
+      "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=3; path=@spacetime -> @adm_decomposition -> @shift_vector; relations=SUPPORTS + SUPPORTS => SUPPORTS"
+    }
+  ],
+  "direct_neighborhood_policy": "high-confidence non-derived/direct-source Time-Space API edges only",
+  "path_policy": "high-confidence registered + admissibly derived Time-Space API edges; directions preserved"
+}

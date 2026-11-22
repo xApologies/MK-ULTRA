@@ -1,0 +1,41 @@
+{
+  "schema": "MK43_TRUST_STRATA_V1",
+  "strata": [
+    {
+      "id": "T0",
+      "name": "SOURCE_EXTERNAL",
+      "role": "external/recovered source evidence"
+    },
+    {
+      "id": "T1",
+      "name": "FORMAL_PRIMITIVE",
+      "role": "declared definition/primitive"
+    },
+    {
+      "id": "T2",
+      "name": "DERIVED_MATHEMATICS",
+      "role": "result derived from accepted premises/operators"
+    },
+    {
+      "id": "T3",
+      "name": "COMPILER_STRUCTURAL",
+      "role": "well-formedness/type validation"
+    },
+    {
+      "id": "T4",
+      "name": "CANDIDATE_THEORY",
+      "role": "hypothesis/model candidate"
+    },
+    {
+      "id": "T5",
+      "name": "ANALOGY_HEURISTIC",
+      "role": "explanatory or search aid"
+    },
+    {
+      "id": "T6",
+      "name": "GENERATED_METADATA",
+      "role": "index/cache/summary/language binding"
+    }
+  ],
+  "critical_rule": "descendants_cannot_upgrade_ancestors_without_independent_evidence"
+}

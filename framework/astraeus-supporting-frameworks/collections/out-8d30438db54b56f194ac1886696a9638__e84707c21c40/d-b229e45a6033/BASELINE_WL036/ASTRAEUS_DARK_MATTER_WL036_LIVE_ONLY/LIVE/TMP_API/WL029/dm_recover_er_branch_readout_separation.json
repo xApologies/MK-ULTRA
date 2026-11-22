@@ -1,0 +1,574 @@
+{
+  "handle": "@dm_er_branch_readout_separation",
+  "record": null,
+  "incoming": [
+    {
+      "source": "@dm_dark_matter_qualification_locus",
+      "relation": "DEPENDS_ON",
+      "target": "@dm_er_branch_readout_separation",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.2_CROSS_API",
+      "origin": "DARKMATTER_2.2"
+    }
+  ],
+  "outgoing": [
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "DEPENDS_ON",
+      "target": "@dm_dark_readout_defect",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.2_CROSS_API",
+      "origin": "DARKMATTER_2.2"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "DEPENDS_ON",
+      "target": "@er_foam",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.2_CROSS_API",
+      "origin": "DARKMATTER_2.2"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "DEPENDS_ON",
+      "target": "@graviton",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.2_CROSS_API",
+      "origin": "DARKMATTER_2.2"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "DEPENDS_ON",
+      "target": "@gravity",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.2_CROSS_API",
+      "origin": "DARKMATTER_2.2"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "DEPENDS_ON",
+      "target": "@localized_persistent_topology",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.2_CROSS_API",
+      "origin": "DARKMATTER_2.2"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "DEPENDS_ON",
+      "target": "@matter_readable_organization",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.2_CROSS_API",
+      "origin": "DARKMATTER_2.2"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "DEPENDS_ON",
+      "target": "@particle_readable_organization",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.2_CROSS_API",
+      "origin": "DARKMATTER_2.2"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "DEPENDS_ON",
+      "target": "@time_shell",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.2_CROSS_API",
+      "origin": "DARKMATTER_2.2"
+    }
+  ],
+  "composed_in": [],
+  "composed_out": [
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@black_hole",
+      "primitive_depth": 2,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@graviton",
+        "@black_hole"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@black_hole_information_closure",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@graviton",
+        "@black_hole",
+        "@black_hole_information_closure"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@coherent_helicon_propagation",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@er_foam",
+        "@helicon",
+        "@coherent_helicon_propagation"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@configuration_space_3_1_1",
+      "primitive_depth": 2,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@time_shell",
+        "@configuration_space_3_1_1"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@continuity_perturbation",
+      "primitive_depth": 2,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@graviton",
+        "@continuity_perturbation"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@einstein_field_equation",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@graviton",
+        "@black_hole",
+        "@einstein_field_equation"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@einstein_hilbert_action",
+      "primitive_depth": 5,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@graviton",
+        "@black_hole",
+        "@einstein_field_equation",
+        "@metric_variation",
+        "@einstein_hilbert_action"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@einstein_tensor",
+      "primitive_depth": 4,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@graviton",
+        "@black_hole",
+        "@einstein_field_equation",
+        "@einstein_tensor"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@geometry",
+      "primitive_depth": 2,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@time_shell",
+        "@geometry"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@gravitational_helicon_mode",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@er_foam",
+        "@helicon",
+        "@gravitational_helicon_mode"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@gravitational_radiation",
+      "primitive_depth": 2,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@gravity",
+        "@gravitational_radiation"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@gravitational_self_coupling",
+      "primitive_depth": 2,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@time_shell",
+        "@gravitational_self_coupling"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@graviton_radiative_stability",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@time_shell",
+        "@native_constraint_closure",
+        "@graviton_radiative_stability"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@helicon",
+      "primitive_depth": 2,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@er_foam",
+        "@helicon"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@helicon_curvature",
+      "primitive_depth": 4,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@er_foam",
+        "@helicon",
+        "@helicon_resonance",
+        "@helicon_curvature"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@helicon_resonance",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@er_foam",
+        "@helicon",
+        "@helicon_resonance"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@matter_action",
+      "primitive_depth": 5,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@graviton",
+        "@black_hole",
+        "@einstein_field_equation",
+        "@stress_energy_tensor",
+        "@matter_action"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@matter_coupling",
+      "primitive_depth": 4,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@graviton",
+        "@black_hole",
+        "@einstein_field_equation",
+        "@matter_coupling"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@metric_compatible_connection",
+      "primitive_depth": 5,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@graviton",
+        "@black_hole",
+        "@spacetime",
+        "@readable_space_time",
+        "@metric_compatible_connection"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@metric_perturbation",
+      "primitive_depth": 5,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@graviton",
+        "@black_hole",
+        "@spacetime",
+        "@readable_space_time",
+        "@metric_perturbation"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@metric_tensor",
+      "primitive_depth": 5,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@graviton",
+        "@black_hole",
+        "@einstein_field_equation",
+        "@einstein_tensor",
+        "@metric_tensor"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@metric_variation",
+      "primitive_depth": 4,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@graviton",
+        "@black_hole",
+        "@einstein_field_equation",
+        "@metric_variation"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@native_constraint_closure",
+      "primitive_depth": 2,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@time_shell",
+        "@native_constraint_closure"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@native_graviton_dispersion",
+      "primitive_depth": 4,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@er_foam",
+        "@helicon",
+        "@gravitational_helicon_mode",
+        "@native_graviton_dispersion"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@phase_gravitational_wave_equations",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@time_shell",
+        "@geometry",
+        "@phase_gravitational_wave_equations"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@projected_spacetime_metric",
+      "primitive_depth": 5,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@graviton",
+        "@continuity_perturbation",
+        "@time_shell_projection_operator",
+        "@weak_field_metric_perturbation",
+        "@projected_spacetime_metric"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@readable_space_time",
+      "primitive_depth": 4,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@graviton",
+        "@black_hole",
+        "@spacetime",
+        "@readable_space_time"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@rotational_helicon_mode",
+      "primitive_depth": 4,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@er_foam",
+        "@helicon",
+        "@helicon_resonance",
+        "@rotational_helicon_mode"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@spacetime",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@graviton",
+        "@black_hole",
+        "@spacetime"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@stable_er_foam_knot",
+      "primitive_depth": 2,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@er_foam",
+        "@stable_er_foam_knot"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@stress_energy_tensor",
+      "primitive_depth": 4,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@graviton",
+        "@black_hole",
+        "@einstein_field_equation",
+        "@stress_energy_tensor"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@tensor_field",
+      "primitive_depth": 6,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@graviton",
+        "@black_hole",
+        "@einstein_field_equation",
+        "@einstein_tensor",
+        "@metric_tensor",
+        "@tensor_field"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@time_shell_projection",
+      "primitive_depth": 6,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@graviton",
+        "@black_hole",
+        "@spacetime",
+        "@readable_space_time",
+        "@metric_perturbation",
+        "@time_shell_projection"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@time_shell_projection_operator",
+      "primitive_depth": 3,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@graviton",
+        "@continuity_perturbation",
+        "@time_shell_projection_operator"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    },
+    {
+      "source": "@dm_er_branch_readout_separation",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@weak_field_metric_perturbation",
+      "primitive_depth": 4,
+      "shortest_path": [
+        "@dm_er_branch_readout_separation",
+        "@graviton",
+        "@continuity_perturbation",
+        "@time_shell_projection_operator",
+        "@weak_field_metric_perturbation"
+      ],
+      "status": "DERIVED_SELF_CLOSURE"
+    }
+  ]
+}

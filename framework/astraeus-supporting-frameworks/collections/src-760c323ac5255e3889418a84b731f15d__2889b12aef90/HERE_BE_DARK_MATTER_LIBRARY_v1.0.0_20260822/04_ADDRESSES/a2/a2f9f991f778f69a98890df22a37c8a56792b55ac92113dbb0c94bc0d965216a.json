@@ -1,0 +1,25 @@
+{
+  "handle": "iteration://IT-DM-E084-EVENT-DENSITY-GATE",
+  "object_type": "bounded_iteration",
+  "status": "CONDITIONAL_UCM_GATE_2_CLOSED",
+  "domain": "ITERATION",
+  "namespace": "mk43://iteration",
+  "name": "IT-DM-E084-EVENT-DENSITY-GATE",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "BOUNDED_ITERATION",
+  "metadata": {
+    "id": "IT-DM-E084-EVENT-DENSITY-GATE",
+    "seed": "@dm_conditional_ucm_dynamic_event_witness",
+    "terminal_state": "CONDITIONAL_UCM_GATE_2_CLOSED",
+    "source_file": "IT-DM-E084-EVENT-DENSITY-GATE.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_ITERATION_RUN_V1\", \"run_id\": \"IT-DM-E084-EVENT-DENSITY-GATE\", \"checkpoint\": \"E084\", \"seed\": \"@dm_conditional_ucm_dynamic_event_witness\", \"ceiling\": 128, \"iterations_used\": 4, \"terminal_state\": \"CONDITIONAL_UCM_GATE_2_CLOSED\", \"open_next\": \"@dm_event_density_component_survival\", \"note\": \"PD-DM-003 and PD-DM-009 are compressed into one event-level component proof debt PD-DM-011.\"}"
+  },
+  "address": "iteration://IT-DM-E084-EVENT-DENSITY-GATE",
+  "address_sha256": "a2f9f991f778f69a98890df22a37c8a56792b55ac92113dbb0c94bc0d965216a"
+}

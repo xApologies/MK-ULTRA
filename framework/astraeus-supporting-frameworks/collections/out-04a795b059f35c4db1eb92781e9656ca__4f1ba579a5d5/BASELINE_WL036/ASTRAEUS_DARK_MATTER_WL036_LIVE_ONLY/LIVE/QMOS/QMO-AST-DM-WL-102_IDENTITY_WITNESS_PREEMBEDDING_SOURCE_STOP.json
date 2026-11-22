@@ -1,0 +1,22 @@
+{
+  "schema": "ASTRAEUS_IDENTITY_WITNESS_PREEMBEDDING_STOP_V1",
+  "qmo_id": "QMO-AST-DM-WL-102",
+  "name": "Identity Witness Transport Pre-Embedding Source Stop",
+  "atlas_version": "WL-v218",
+  "work_layer": "WL-035",
+  "status": "IDENTITY_CONTRACT_UNTYPED",
+  "parent_promotions": 0,
+  "source_findings": [
+    "No Dark Matter API object/edge types W_Id, Formal Identity, Identity Holonomy, or T_Id directly on @dm_hidden_state_bundle.",
+    "No Identity Through History source object contains the DM2.2 (V,E,w,chi,H)_R hidden-bundle fiber.",
+    "@dm_formal_persistence_qualification is post-embedding and cannot supply a pre-embedding Identity contract."
+  ],
+  "result": "P026 stops before bundle-specific History transport.",
+  "branch_disposition": "loop-back to @dm_hidden_state_embedding; stop Identity elaboration",
+  "next_action": "global API next-handle rank across primary Dark Matter OpenSlots",
+  "guardrails": [
+    "absence of source relation != proof no future relation exists",
+    "post-embedding persistence predicate != pre-embedding Identity witness",
+    "no parent promotion"
+  ]
+}

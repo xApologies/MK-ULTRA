@@ -1,0 +1,173 @@
+{
+  "handle": "@general_energy",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "General Energy",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 2,
+    "api43_direct_in_count": 3,
+    "xapi_raw_out_count": 3,
+    "xapi_raw_in_count": 5,
+    "live_out_count": 1,
+    "live_in_count": 2,
+    "closure_out_reachability_count": 147,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@general_energy",
+        "relation": "PROJECTS_TO",
+        "target": "@stress_energy_tensor",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-45",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; General energy organization is represented through stress-energy."
+      },
+      {
+        "source": "@general_energy",
+        "relation": "GLOBALLY_FEEDS_BLACK_HOLE",
+        "target": "@black_hole",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-53",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_REVERSE_CRAWL; witness=@general_energy-[PROJECTS_TO]->@stress_energy_tensor | @stress_energy_tensor-[SUPPORTS]->@black_hole"
+      },
+      {
+        "source": "@native_unit_of_energy",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@general_energy",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56526->56528"
+      },
+      {
+        "source": "@native_unit_of_energy",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@general_energy",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "API_CODE_BLOCK:56528;API_CODE_BLOCK:56584;CANONICAL_API_VERTICAL:56526->56528;CANONICAL_API_VERTICAL:56582->56584"
+      },
+      {
+        "source": "@stress_energy_tensor",
+        "relation": "PROJECTED_FROM",
+        "target": "@general_energy",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@general_energy PROJECTS_TO @stress_energy_tensor); rule=PROJECTS_TO→PROJECTED_FROM"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 2040,
+        "source": "@general_energy",
+        "relation": "PROJECTS_TO",
+        "target": "@stress_energy_tensor",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; General energy organization is represented through stress-energy."
+      },
+      {
+        "id": 18224,
+        "source": "@general_energy",
+        "relation": "GLOBALLY_FEEDS_BLACK_HOLE",
+        "target": "@black_hole",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP53_BLACK_HOLE_GLOBAL_REVERSE_CRAWL; witness=@general_energy-[PROJECTS_TO]->@stress_energy_tensor | @stress_energy_tensor-[SUPPORTS]->@black_hole"
+      },
+      {
+        "id": 19679,
+        "source": "@general_energy",
+        "relation": "PROJECTS_TO",
+        "target": "@stress_energy_tensor",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; General energy organization is represented through stress-energy."
+      },
+      {
+        "id": 785,
+        "source": "@native_unit_of_energy",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@general_energy",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56526->56528"
+      },
+      {
+        "id": 786,
+        "source": "@native_unit_of_energy",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@general_energy",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:56528;API_CODE_BLOCK:56584;CANONICAL_API_VERTICAL:56526->56528;CANONICAL_API_VERTICAL:56582->56584"
+      },
+      {
+        "id": 3092,
+        "source": "@stress_energy_tensor",
+        "relation": "PROJECTED_FROM",
+        "target": "@general_energy",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@general_energy PROJECTS_TO @stress_energy_tensor); rule=PROJECTS_TO→PROJECTED_FROM"
+      },
+      {
+        "id": 19265,
+        "source": "@native_unit_of_energy",
+        "relation": "RESOLVED_VERTICAL_CHAIN",
+        "target": "@general_energy",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:56526->56528"
+      },
+      {
+        "id": 19266,
+        "source": "@native_unit_of_energy",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@general_energy",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:56528;API_CODE_BLOCK:56584;CANONICAL_API_VERTICAL:56526->56528;CANONICAL_API_VERTICAL:56582->56584"
+      }
+    ]
+  },
+  "address": "@general_energy",
+  "address_sha256": "07cbfddf7146930b7ad8de995525c17110c7ab522a3a95b7304d91657de0f6d4"
+}

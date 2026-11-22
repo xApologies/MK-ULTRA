@@ -1,0 +1,11 @@
+digraph G {
+ rankdir=TB; node [shape=box];
+ U [label="H13"];
+ V [label="H13 + a"];
+ W [label="H13 + b"];
+ Z [label="H13 + a + b"];
+ U->V [label="refine +a"];
+ U->W [label="refine +b"];
+ V->Z [label="refine +b"];
+ W->Z [label="refine +a"];
+}

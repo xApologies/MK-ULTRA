@@ -1,0 +1,56 @@
+{
+  "handle": "@recursive_dependency_graph",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@recursive_dependency_graph",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 0,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 1,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@recursive_expansion",
+        "relation": "GENERATES",
+        "target": "@recursive_dependency_graph",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:52383;CANONICAL_API_TYPED_LINE:52383"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 991,
+        "source": "@recursive_expansion",
+        "relation": "GENERATES",
+        "target": "@recursive_dependency_graph",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:52383;CANONICAL_API_TYPED_LINE:52383"
+      }
+    ]
+  },
+  "address": "@recursive_dependency_graph",
+  "address_sha256": "c7c7e84653f4f209df2b1080692919ca7a8bd35337a3382018f0c396921ffa17"
+}

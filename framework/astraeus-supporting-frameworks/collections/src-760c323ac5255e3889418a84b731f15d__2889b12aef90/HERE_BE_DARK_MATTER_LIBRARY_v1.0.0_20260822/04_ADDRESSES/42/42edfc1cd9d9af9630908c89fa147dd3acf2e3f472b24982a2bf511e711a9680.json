@@ -1,0 +1,25 @@
+{
+  "handle": "iteration://IT-DM-E066-RESIDUE-Q-SURVIVAL",
+  "object_type": "bounded_iteration",
+  "status": "OPEN_FORK",
+  "domain": "ITERATION",
+  "namespace": "mk43://iteration",
+  "name": "IT-DM-E066-RESIDUE-Q-SURVIVAL",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "BOUNDED_ITERATION",
+  "metadata": {
+    "id": "IT-DM-E066-RESIDUE-Q-SURVIVAL",
+    "seed": "@dm_projection_residue_survival",
+    "terminal_state": "OPEN_FORK",
+    "source_file": "live/checkpoints/E066/runs/IT-DM-E066-RESIDUE-Q-SURVIVAL.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_ITERATION_RUN_V1\", \"run_id\": \"IT-DM-E066-RESIDUE-Q-SURVIVAL\", \"checkpoint\": \"E066\", \"seed\": \"@dm_projection_residue_survival\", \"ceiling\": 64, \"iterations_used\": 3, \"terminal_state\": \"OPEN_FORK\", \"open_next\": \"@dm_metric_action_selection\", \"working_assumptions\": [\"WA-DM-E065-001\", \"WA-DM-E066-001\"], \"note\": \"Chromatic representation and density calibration were not required for this branch.\"}"
+  },
+  "address": "iteration://IT-DM-E066-RESIDUE-Q-SURVIVAL",
+  "address_sha256": "42edfc1cd9d9af9630908c89fa147dd3acf2e3f472b24982a2bf511e711a9680"
+}

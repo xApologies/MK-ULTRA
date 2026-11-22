@@ -1,0 +1,48 @@
+{
+  "schema": "TRANSDUCTION_OBJECT_V0_1",
+  "status": "BRACED_SCHEMA_LOAD_BEARING_CONTRACTS",
+  "fields": [
+    "handle",
+    "formal_identity",
+    "global_realization",
+    "dependency_graph",
+    "state_fibers",
+    "chirality_structure",
+    "admissibility",
+    "bandwidth_algebra",
+    "resolution_landscape",
+    "history",
+    "identity_witnesses",
+    "connection",
+    "holonomy",
+    "gluing_witnesses",
+    "provenance",
+    "trust",
+    "formal_layer",
+    "debt"
+  ],
+  "query_contracts": [
+    "FORMAL_IDENTITY",
+    "OBSERVATIONAL_IDENTITY",
+    "VIEW",
+    "AVAILABLE_TRANSFORMS",
+    "RESOLUTION_GEOMETRY",
+    "TRANSPORT",
+    "HISTORY",
+    "HOLONOMY",
+    "IDENTITY_TEST",
+    "DEPENDENCIES",
+    "PROVENANCE",
+    "DERIVATION",
+    "ROBUSTNESS",
+    "RESEARCH_DEBT"
+  ],
+  "runtime_invariants": [
+    "Formal Identity != Observational Identity",
+    "Bandwidth != Resolution",
+    "History != Identity",
+    "Transport != Transduction",
+    "Connection != Curvature",
+    "local compatibility != global realization"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "handle": "qmo://QMO-DM-BRIDGE-CAND-003",
+  "object_type": "qmo",
+  "status": "OPEN_CROSS_BRANCH_CANDIDATE_NOT_PROMOTED",
+  "domain": "QMO",
+  "namespace": "mk43://qmo",
+  "name": "QMO-DM-BRIDGE-CAND-003_LOCAL_EMBEDDING_DESCENT_WITNESS",
+  "definition": "",
+  "math": "",
+  "source_layer": "live_e062",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "QMO_REGISTRY",
+  "metadata": {
+    "qmo_id": "QMO-DM-BRIDGE-CAND-003",
+    "name": "QMO-DM-BRIDGE-CAND-003_LOCAL_EMBEDDING_DESCENT_WITNESS",
+    "status": "OPEN_CROSS_BRANCH_CANDIDATE_NOT_PROMOTED",
+    "source_layer": "live_e062",
+    "source_file": "live/checkpoints/E062/qmos/QMO-DM-BRIDGE-CAND-003_LOCAL_EMBEDDING_DESCENT_WITNESS.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_QMO_CANDIDATE_V1\", \"qmo_id\": \"QMO-DM-BRIDGE-CAND-003\", \"handle\": \"@dm_local_embedding_descent_witness\", \"canonical_name\": \"Local-to-Global Hidden Embedding Descent Witness\", \"status\": \"OPEN_CROSS_BRANCH_CANDIDATE_NOT_PROMOTED\", \"problem\": \"Can the global hidden-state embedding be built from local constraint-preserving injections that satisfy overlap/descent and inheritance compatibility?\", \"source_backed_inputs\": [{\"handle\": \"@dm_hidden_state_bundle\", \"role\": \"domain bundle candidate\"}, {\"handle\": \"@dm_constraint_preserving_embedding_family\", \"role\": \"global target conditions\"}, {\"source\": \"ATLAS V35 admissible-lift construction\", \"role\": \"local native-state witness generator; not itself a bundle embedding\"}, {\"handle\": \"@transduction_descent\", \"role\": \"Math5 local-to-global gluing architecture; cross-branch use is candidate only\"}, {\"handle\": \"@gluing_data\", \"role\": \"overlap transition/descent data\"}, {\"handle\": \"@resolution\", \"role\": \"local distinguishability/readout context\"}, {\"handle\": \"@bandwidth\", \"role\": \"available-lift/admissibility context\"}], \"candidate_criterion\": [\"Choose an admissible cover {U_a} of T_H.\", \"Construct local maps tilde_iota_a:E_H^R|U_a -> P_H^R|U_a that satisfy the base, constraint, injection, and local inheritance requirements.\", \"Require compatibility on every nonempty overlap U_a intersect U_b after the declared local transition/gluing identifications.\", \"Require Resolution/Bandwidth conditions for every local witness and overlap handoff.\", \"If the local maps satisfy a valid descent/gluing theorem under the actual bundle types, assemble a global tilde_iota_H and test its full inheritance law.\"], \"v35_lift_boundary\": \"L_adm^R(z|W_H^R) nonempty can supply local native antecedent assignments, but by itself does not prove full hidden-state encoding, injectivity, overlap compatibility, inheritance equivariance, or landing in ker(C).\", \"next_search_target\": \"Recover or construct the first source-authoritative local hidden-state encoding map with enough data to test overlap/descent compatibility.\", \"guardrails\": [\"Candidate overlay only.\", \"No cross-branch edge is promoted into API 4.3, DM 2.2, or Math5.\", \"Standard gluing is used only conditionally on matching source types.\"]}"
+  },
+  "address": "qmo://QMO-DM-BRIDGE-CAND-003",
+  "address_sha256": "1e1d8a49d1605c5bd462277507500f12c7e07735453dd76cfbdd73614b3e4a8e"
+}

@@ -1,0 +1,122 @@
+{
+  "schema": "ASTRAEUS_DARK_MATTER_API_LIVE_STATE_V1",
+  "model_release": "v2.0.0",
+  "api_version": "2.2.0+live.e100",
+  "immutable_baseline": {
+    "release": "2.2.0",
+    "validation": "PASS 16/16",
+    "physical_status": "OPEN_NOT_EMPIRICALLY_IDENTIFIED",
+    "source_zip": "baseline/DM_2.2.0_SOURCE.zip",
+    "source_sha256": "ee4819595f94a52565ab21c832c902ea4040e315f3f575b203c61e53740ed63a"
+  },
+  "live_policy": {
+    "append_only": true,
+    "baseline_mutable": false,
+    "registered_edges_only": true,
+    "edge_direction_preserved": true,
+    "reverse_traversal_navigation_only": true,
+    "reachability_is_not_proof": true,
+    "candidate_default": true,
+    "closure_certificate_required_for_internal_promotion": true,
+    "rollback_target": "DM_2.2.0"
+  },
+  "current_checkpoint": "E100",
+  "current_primary_handle": "@dm_source_er_effective_model_closure",
+  "parent_primary_handle": "@dm_metric_action_selection",
+  "current_status": "CLOSED_SOURCE_EFFECTIVE_MODEL_EMPIRICAL_VALIDATION_OPEN",
+  "last_terminal": {
+    "state": "CLOSED_SOURCE_EFFECTIVE_MODEL",
+    "iteration": 4,
+    "focus": "QMO-DM-SRC-XAPI-003",
+    "reason": "Recovered source equations backfill the remaining density-to-geometry calibration sector and provide an ER-network -> energy/stress -> Einstein/galactic readout chain. Strict hidden-S3 and empirical validation remain outside this closure class."
+  },
+  "baseline_open_handles": [
+    "@dm_dark_matter_qualification_nonempty",
+    "@dm_hidden_state_embedding",
+    "@dm_metric_action_selection",
+    "@dm_history_to_continuity_strength",
+    "@dm_mode0_network_selection_rule",
+    "@dm_native_density_to_readable_source",
+    "@dm_omega_to_chromatic_representation"
+  ],
+  "live_candidate_qmo_count": 34,
+  "live_landscape_count": 33,
+  "live_iteration_run_count": 33,
+  "live_closure_certificate_count": 35,
+  "next_operation": "Treat the source-effective Dark Matter model as internally closed. Reopen strict hidden-S3 qualification only if desired; otherwise proceed to external parameterization/observational validation under PD-DM-015.",
+  "foundation_return_gates": [
+    "@dm_hidden_state_embedding",
+    "@dm_local_embedding_descent_witness",
+    "@dm_native_density_to_readable_source",
+    "@dm_projection_residue_survival"
+  ],
+  "forward_exploration_policy": {
+    "conditional_scaffolds_allowed": true,
+    "park_nonterminal_foundational_gaps": true,
+    "preserve_return_handles": true,
+    "scaffold_never_promotes_without_closure": true
+  },
+  "live_derived_object_count": 35,
+  "working_assumption_count": 13,
+  "proof_debt_count": 15,
+  "stable_abstraction_policy": {
+    "enabled": true,
+    "policy_file": "method/STABLE_ABSTRACTION_BOUNDARY_POLICY.md",
+    "conditional_results_must_carry_assumptions": true,
+    "proof_debt_registry": "live/api/PROOF_DEBT_REGISTRY.json"
+  },
+  "highest_leverage_proof_debt": "PD-DM-015",
+  "parallel_forward_lanes": [
+    "PD-DM-015 external parameterization/observational validation [POST-CLOSURE]",
+    "PD-DM-001 strict hidden-S3 realization [OPTIONAL REFINEMENT]",
+    "PD-DM-010 residue-symmetry typing [INDEPENDENT CROSSCHECK]",
+    "PD-DM-012 chirality contrast through Time-Shell gravity fiber [INDEPENDENT CROSSCHECK]"
+  ],
+  "conditional_qualification_assumption_cut": [
+    "Strict DM2.2 hidden-S3 qualification remains separate from source-effective closure."
+  ],
+  "chirality_probe_basis": {
+    "seed": "2x2 existence/nonexistence mirror arrangement",
+    "byte_pair": [
+      "LEFT=10010110",
+      "RIGHT=01101001"
+    ],
+    "primary_object": "2x2x2 arrangement",
+    "basins": [
+      "1/7",
+      "2/7",
+      "3/7",
+      "4/7",
+      "5/7",
+      "6/7"
+    ],
+    "correction": "basins are occupancy/energy-density states, not six byte identities"
+  },
+  "xapi_fixed_point": {
+    "qmo": "QMO-XAPI-002",
+    "combined_nodes": 2422,
+    "semantic_pairs": 6489,
+    "closure_pairs": 72564,
+    "iterations": 8,
+    "ceiling": 1000000000,
+    "dm_to_api_pairs": 4391,
+    "api_to_dm_pairs": 0,
+    "energy_density_bridge": [
+      "@dm_resolution_density_profile",
+      "@energy_density",
+      "@stress_energy_tensor",
+      "@einstein_field_equation",
+      "@gravity"
+    ]
+  },
+  "closure_class": "SOURCE_EFFECTIVE_INTERNAL_CLOSURE",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "strict_dm22_hidden_s3_status": "REFINEMENT_OPEN_NOT_REQUIRED_FOR_SOURCE_EFFECTIVE_CLOSURE",
+  "source_backfill": {
+    "archive_sha256": "b9bc2b55a44d6cb7af2055675119b4f52442420dcd642686e2f180689680c167",
+    "recovery_zip_sha256": "ba1659e1cd44676f58d0d2cd24750244ec2b7e3e7cb20df97ff0bd5b8f1b9285",
+    "source_qmo": "QMO-DM-SRC-XAPI-003",
+    "source_anchor_count": 19,
+    "exact_density_geometry_anchor": "SRC-DM-019"
+  }
+}

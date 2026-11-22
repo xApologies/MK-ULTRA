@@ -1,0 +1,77 @@
+{
+  "handle": "@recovery_closure",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@recovery_closure",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 1,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@recovery_closure",
+        "relation": "REALIZES",
+        "target": "@fixed_point_recovery",
+        "graph_family": "runtime",
+        "confidence": "high",
+        "audit_status": "explicitly_recovered",
+        "recovery_pass": "RP-42",
+        "provenance": "DIRECT_API_LINE:58714"
+      },
+      {
+        "source": "@recovery_state",
+        "relation": "DIRECTED_TO",
+        "target": "@recovery_closure",
+        "graph_family": "runtime",
+        "confidence": "high",
+        "audit_status": "explicitly_recovered",
+        "recovery_pass": "RP-42",
+        "provenance": "DIRECT_API_LINE:58713"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 1211,
+        "source": "@recovery_closure",
+        "relation": "REALIZES",
+        "target": "@fixed_point_recovery",
+        "layer": "API43",
+        "graph_family": "runtime",
+        "confidence": "high",
+        "audit_status": "explicitly_recovered",
+        "provenance": "DIRECT_API_LINE:58714"
+      },
+      {
+        "id": 1210,
+        "source": "@recovery_state",
+        "relation": "DIRECTED_TO",
+        "target": "@recovery_closure",
+        "layer": "API43",
+        "graph_family": "runtime",
+        "confidence": "high",
+        "audit_status": "explicitly_recovered",
+        "provenance": "DIRECT_API_LINE:58713"
+      }
+    ]
+  },
+  "address": "@recovery_closure",
+  "address_sha256": "c20d5063b484617c9c7f84e74c605c0ed095a3ac95089e5a2ac901edf67d8736"
+}

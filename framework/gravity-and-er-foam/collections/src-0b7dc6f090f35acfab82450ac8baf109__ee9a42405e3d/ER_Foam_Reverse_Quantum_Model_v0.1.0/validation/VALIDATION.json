@@ -1,0 +1,28 @@
+{
+  "artifact": "ER-Foam Reverse Quantum Model v0.1.0",
+  "source_tensor_shape": [
+    7,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "hilbert_dimension": 224,
+  "constructive_support_dimension": 192,
+  "exact_factorization": false,
+  "max_tensor_reconstruction_error": 4.768371586472142e-08,
+  "max_base_inverse_error": 4.541306275474e-08,
+  "max_forward_amplitude_error": 1.1424970275397683e-09,
+  "max_inverse_amplitude_error": 1.1270309407951373e-09,
+  "vector_placeholder_all_zero": true,
+  "spatial_marginal_uniform": true,
+  "normalizations": {
+    "base_probability_sum": 1.0,
+    "observed_probability_sum": 1.0,
+    "base_amplitude_norm": 0.9999999999999999,
+    "observed_amplitude_norm": 1.0,
+    "reverse_amplitude_norm": 1.0
+  },
+  "verdict": "PASS \u2014 exact minimal inverse quantum representative recovered from the supplied ER-foam rest tensor"
+}

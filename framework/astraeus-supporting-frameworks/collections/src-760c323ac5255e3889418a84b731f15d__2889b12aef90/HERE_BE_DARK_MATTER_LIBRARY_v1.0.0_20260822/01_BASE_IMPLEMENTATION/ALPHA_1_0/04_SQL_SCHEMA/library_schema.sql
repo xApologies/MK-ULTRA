@@ -1,0 +1,18 @@
+PRAGMA foreign_keys = ON;
+CREATE TABLE models(model_id TEXT PRIMARY KEY, model_handle TEXT UNIQUE NOT NULL, model_name TEXT NOT NULL, model_type TEXT NOT NULL, root_handle TEXT NOT NULL, domain_boundary_json TEXT NOT NULL, active_version_id TEXT, language TEXT NOT NULL DEFAULT 'en-US', created_at TEXT NOT NULL);
+CREATE TABLE model_versions(model_version_id TEXT PRIMARY KEY, model_id TEXT NOT NULL, version_number INTEGER NOT NULL, package_hash TEXT NOT NULL, status TEXT NOT NULL, metadata_json TEXT NOT NULL, created_at TEXT NOT NULL, FOREIGN KEY(model_id) REFERENCES models(model_id));
+CREATE TABLE mathematical_objects(object_id TEXT PRIMARY KEY, canonical_handle TEXT UNIQUE NOT NULL, object_type TEXT NOT NULL, active_version_id TEXT, created_at TEXT NOT NULL);
+CREATE TABLE object_versions(version_id TEXT PRIMARY KEY, object_id TEXT NOT NULL, version_number INTEGER NOT NULL, canonical_math_json TEXT NOT NULL, symbol_signature_json TEXT NOT NULL, domain_json TEXT NOT NULL, assumptions_json TEXT NOT NULL, constraints_json TEXT NOT NULL, package_hash TEXT NOT NULL, status TEXT NOT NULL, language TEXT NOT NULL DEFAULT 'en-US', created_at TEXT NOT NULL, FOREIGN KEY(object_id) REFERENCES mathematical_objects(object_id));
+CREATE TABLE content_blocks(block_id TEXT PRIMARY KEY, version_id TEXT NOT NULL, content_type TEXT NOT NULL, ordinal_position INTEGER NOT NULL, body TEXT NOT NULL, body_format TEXT NOT NULL, metadata_json TEXT NOT NULL, FOREIGN KEY(version_id) REFERENCES object_versions(version_id));
+CREATE TABLE aliases(alias TEXT PRIMARY KEY, canonical_handle TEXT NOT NULL, FOREIGN KEY(canonical_handle) REFERENCES mathematical_objects(canonical_handle));
+CREATE TABLE object_relations(relation_id TEXT PRIMARY KEY, source_handle TEXT NOT NULL, relation_type TEXT NOT NULL, target_handle TEXT NOT NULL, model_handle TEXT, ordinal_position INTEGER, metadata_json TEXT NOT NULL);
+CREATE TABLE model_membership(model_handle TEXT NOT NULL, canonical_handle TEXT NOT NULL, ordinal_position INTEGER NOT NULL, required INTEGER NOT NULL DEFAULT 1, PRIMARY KEY(model_handle,canonical_handle));
+CREATE TABLE provenance(provenance_id TEXT PRIMARY KEY, version_id TEXT NOT NULL, source_archive TEXT, source_file TEXT, source_section TEXT, source_line_start INTEGER, source_line_end INTEGER, source_hash TEXT, author TEXT, recovery_pass TEXT, metadata_json TEXT NOT NULL, FOREIGN KEY(version_id) REFERENCES object_versions(version_id));
+CREATE TABLE population_jobs(job_id TEXT PRIMARY KEY, operation_type TEXT NOT NULL, payload_hash TEXT NOT NULL, status TEXT NOT NULL, preview_json TEXT NOT NULL, validation_json TEXT NOT NULL, created_at TEXT NOT NULL, committed_at TEXT);
+CREATE TABLE transaction_receipts(receipt_id TEXT PRIMARY KEY, job_id TEXT NOT NULL, operation_type TEXT NOT NULL, affected_handles_json TEXT NOT NULL, pre_state_hash TEXT, post_state_hash TEXT, result_json TEXT NOT NULL, created_at TEXT NOT NULL, FOREIGN KEY(job_id) REFERENCES population_jobs(job_id));
+CREATE TABLE purge_receipts(purge_receipt_id TEXT PRIMARY KEY, canonical_handle TEXT NOT NULL, former_package_hash TEXT, reason TEXT, impact_summary_json TEXT NOT NULL, created_at TEXT NOT NULL);
+CREATE INDEX idx_objects_handle ON mathematical_objects(canonical_handle);
+CREATE INDEX idx_blocks_version_type ON content_blocks(version_id,content_type,ordinal_position);
+CREATE INDEX idx_rel_source ON object_relations(source_handle,relation_type);
+CREATE INDEX idx_rel_target ON object_relations(target_handle,relation_type);
+CREATE INDEX idx_membership_model ON model_membership(model_handle,ordinal_position);

@@ -1,0 +1,106 @@
+{
+  "schema": "tome-publication-renderer-validation/v1",
+  "created_at": "2026-08-10T19:58:22.830374+00:00",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "engine": "KaTeX 0.16.22 -> HTML/CSS -> Playwright -> Microsoft Edge PDF",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_07_GRAVITY/MK_ULTRA_TOME_V07_C05_WEAK_FIELD_METRIC_AND_CURVATURE.pdf",
+    "bytes": 158492,
+    "sha256": "a7b40590bfd01edf164726afc4d71ddf45cefcabff18b0a62f8f5797726ac7f2"
+  },
+  "actual_pages": 7,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V07-C05": 3
+  },
+  "chapter_validations": [
+    {
+      "chapter_id": "V07-C05",
+      "source_sha256": "ec7bdae416dd5bebbda64478109d2928d3fe39b41d05f12a389ad754d0204222",
+      "page_start": 3,
+      "headings": 24,
+      "display_equations": 21,
+      "inline_equations": 14,
+      "equation_tags": 21,
+      "api_handles": 16,
+      "table_rows": 17,
+      "content_markers_present": true
+    }
+  ],
+  "engine_metrics": {
+    "renderer": "TOME_PUBLICATION_RENDERER_V1",
+    "katexVersion": "0.16.22",
+    "chapters": [
+      {
+        "id": "V07-C05",
+        "sourceBytes": 12474,
+        "paragraphs": 43,
+        "headings": 24,
+        "displayEquations": 21,
+        "inlineEquations": 14,
+        "tables": 1,
+        "tableRows": 16,
+        "listItems": 0,
+        "codeBlocks": 0,
+        "figures": 0
+      }
+    ],
+    "paragraphs": 43,
+    "headings": 24,
+    "displayEquations": 21,
+    "inlineEquations": 14,
+    "tables": 1,
+    "tableRows": 16,
+    "listItems": 0,
+    "blockQuotes": 0,
+    "codeBlocks": 0,
+    "figures": 0,
+    "mathLayout": {
+      "checked": 21,
+      "scaled": [],
+      "remainingOverflow": []
+    }
+  },
+  "raw_latex_guard": {
+    "result": "PASS",
+    "hits": [],
+    "commands_scanned": [
+      "frac",
+      "mathcal",
+      "mathrm",
+      "begin",
+      "end",
+      "left",
+      "right",
+      "longrightarrow",
+      "rightarrow",
+      "otimes",
+      "partial",
+      "nabla",
+      "mu",
+      "nu",
+      "sum",
+      "int",
+      "operatorname"
+    ]
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V07-C05": "ec7bdae416dd5bebbda64478109d2928d3fe39b41d05f12a389ad754d0204222"
+  },
+  "source_hashes_after": {
+    "V07-C05": "ec7bdae416dd5bebbda64478109d2928d3fe39b41d05f12a389ad754d0204222"
+  },
+  "sealed_chapter_content_change_count": 0,
+  "visual_qa": {
+    "result": "PASS",
+    "scope": "ALL_7_PAGES",
+    "pages_inspected": 7,
+    "blank_pages": 0,
+    "clipped_text_or_math": 0,
+    "overlapping_elements": 0,
+    "unrendered_latex": 0,
+    "layout_defects": 0,
+    "inspection_method": "Poppler 130-DPI page render with full-document contact sheets"
+  }
+}

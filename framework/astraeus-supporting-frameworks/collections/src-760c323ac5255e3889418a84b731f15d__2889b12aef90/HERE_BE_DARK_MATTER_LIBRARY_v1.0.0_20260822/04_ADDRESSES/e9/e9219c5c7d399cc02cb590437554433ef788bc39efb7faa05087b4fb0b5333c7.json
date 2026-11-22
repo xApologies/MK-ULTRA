@@ -1,0 +1,26 @@
+{
+  "handle": "closure://CC-DM-E075-001",
+  "object_type": "closure_certificate",
+  "status": "CONDITIONAL_UCM_STRESS_ENERGY_SEPARATION_CLOSED",
+  "domain": "CLOSURE",
+  "namespace": "mk43://closure",
+  "name": "CC-DM-E075-001",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E075",
+  "qmo_generated": true,
+  "proof_status": "CONDITIONAL_UCM_STRESS_ENERGY_SEPARATION_CLOSED",
+  "empirical_status": "",
+  "provenance_class": "CLOSURE_CERTIFICATE",
+  "metadata": {
+    "id": "CC-DM-E075-001",
+    "object_handle": "@dm_conditional_ucm_stress_energy_witness",
+    "decision": "CONDITIONAL_UCM_STRESS_ENERGY_SEPARATION_CLOSED",
+    "checkpoint": "E075",
+    "source_file": "live/registry",
+    "payload_json": "{\"schema\": \"ASTRAEUS_CLOSURE_CERTIFICATE_V1\", \"certificate_id\": \"CC-DM-E075-001\", \"checkpoint\": \"E075\", \"object\": \"@dm_conditional_ucm_stress_energy_witness\", \"decision\": \"CONDITIONAL_UCM_STRESS_ENERGY_SEPARATION_CLOSED\", \"scope\": \"one selected component-level hidden-network diagnostic sector\", \"working_assumptions\": [\"WA-DM-E075-001\"], \"checks\": {\"Delta_rho_H_nonzero_from_E063\": true, \"component_nonannihilation_assumed\": true, \"Delta_T_nonzero_follows\": true, \"full_tensor_reconstructed_from_scalar\": false, \"baseline_dm22_modified\": false, \"physical_promotion\": false}, \"limitations\": [\"Conditional on WA-DM-E075-001.\", \"Does not calibrate the residual or identify a physical dark-matter species.\"]}"
+  },
+  "address": "closure://CC-DM-E075-001",
+  "address_sha256": "e9219c5c7d399cc02cb590437554433ef788bc39efb7faa05087b4fb0b5333c7"
+}

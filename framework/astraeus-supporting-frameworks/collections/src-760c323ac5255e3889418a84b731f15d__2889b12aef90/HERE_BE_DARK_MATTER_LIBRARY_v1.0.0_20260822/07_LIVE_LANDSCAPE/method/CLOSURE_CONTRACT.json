@@ -1,0 +1,42 @@
+{
+  "schema": "ASTRAEUS_RECURSIVE_CLOSURE_CONTRACT_V1",
+  "version": "0.3.0",
+  "operator_handle": "@dynamic_recursive_closure",
+  "laws": {
+    "extensive": "X is retained inside Cl_RR(X)",
+    "monotone": "Admitting more validated structure cannot invalidate retained provenance silently.",
+    "idempotent_semantics": "Cl_RR(Cl_RR(X)) ~= Cl_RR(X) when B, R, sources, rules, and domain contract are unchanged.",
+    "history_non_idempotent": "Repeated traversal may append History even when semantic closure is unchanged.",
+    "domain_bounded_iteration": "Every recursive iteration has a finite requested horizon and remains inside the Black Rainbow closure envelope unless explicitly terminated as a domain-extension condition."
+  },
+  "internal_self_promotion": {
+    "allowed": true,
+    "requires": [
+      "all premises admitted in current domain",
+      "licensed derivation rule",
+      "no new primitive or axiom",
+      "output type admitted by domain signature",
+      "Bandwidth/admissibility obligations pass",
+      "Resolution/readout obligations pass when applicable",
+      "provenance complete and acyclic",
+      "recovery witness present for any suppressed essential structure",
+      "hard guards satisfied",
+      "Möbius/orientation behavior typed as invariant, equivariant, or explicitly chiral"
+    ],
+    "result_status": "DERIVED_CLOSED_INTERNAL"
+  },
+  "domain_extension": {
+    "auto_promote": false,
+    "requires_vera_audit": true,
+    "triggers": [
+      "new primitive",
+      "new axiom",
+      "new unlicensed transformation",
+      "change to closure contract",
+      "change to hard guard",
+      "source claim not derivable from mounted corpus"
+    ]
+  },
+  "perturbation_policy": "Perturbations run in isolated reclosure branches; reclosure is diagnostic and never overwrites canon automatically.",
+  "closed_landscape": "@black_rainbow_closed_landscape"
+}

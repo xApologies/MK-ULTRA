@@ -1,0 +1,25 @@
+{
+  "handle": "landscape://DL-DM-E087-DIRECT-GRAVITY-FIBER",
+  "object_type": "dependency_landscape",
+  "status": "OPEN_SINGLE_PROJECTION_FIBER_GATE",
+  "domain": "LANDSCAPE",
+  "namespace": "mk43://landscape",
+  "name": "DL-DM-E087-DIRECT-GRAVITY-FIBER",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "DEPENDENCY_LANDSCAPE",
+  "metadata": {
+    "id": "DL-DM-E087-DIRECT-GRAVITY-FIBER",
+    "seed": "@dm_explicit_two_port_continuity_residual_witness",
+    "status": "OPEN_SINGLE_PROJECTION_FIBER_GATE",
+    "source_file": "live/checkpoints/E087/landscapes/DL-DM-E087-DIRECT-GRAVITY-FIBER.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1\", \"landscape_id\": \"DL-DM-E087-DIRECT-GRAVITY-FIBER\", \"seed\": \"@dm_explicit_two_port_continuity_residual_witness\", \"status\": \"OPEN_SINGLE_PROJECTION_FIBER_GATE\", \"nodes\": [\"@dm_explicit_two_port_continuity_residual_witness\", \"@continuity_perturbation\", \"@time_shell_projection_operator\", \"@weak_field_metric_perturbation\", \"@dm_two_port_timeshell_gravity_fiber_test\"], \"terminal\": {\"state\": \"OPEN_SINGLE_PROJECTION_FIBER_GATE\", \"iteration\": 5, \"focus\": \"@dm_two_port_timeshell_gravity_fiber_test\", \"reason\": \"Source recovery gives the complete route and exact fiber criterion; only separation of this selected pair by G_TS remains.\"}}"
+  },
+  "address": "landscape://DL-DM-E087-DIRECT-GRAVITY-FIBER",
+  "address_sha256": "978da923bcada20e597e550c83ad07de37c3b7792a83fdd025cbb433da4198bf"
+}

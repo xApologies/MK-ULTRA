@@ -1,0 +1,65 @@
+[
+  {
+    "id": "EQ01",
+    "label": "Time-Space fibration",
+    "ascii": "S2 -> T5 --pi--> S3",
+    "latex": "S^2\\to T_5\\xrightarrow{\\pi}S^3",
+    "status": "SOURCE_BACKED"
+  },
+  {
+    "id": "EQ02",
+    "label": "Local fiber",
+    "ascii": "Sigma_p = pi^(-1)(p) ~= S2",
+    "latex": "\\Sigma_p:=\\pi^{-1}(p)\\cong S^2",
+    "status": "SOURCE_BACKED"
+  },
+  {
+    "id": "EQ03",
+    "label": "Corridor pullback",
+    "ascii": "W_gamma = gamma^*(T5)",
+    "latex": "W_\\gamma:=\\gamma^*(T_5)",
+    "status": "SOURCE_BACKED"
+  },
+  {
+    "id": "EQ04",
+    "label": "Address",
+    "ascii": "A_p=(p,Sigma_p,F_p,chi_p,Inv_p,R_p,B_p,O_p,H_p)",
+    "latex": "A_p=(p,\\Sigma_p,F_p,\\chi_p,\\mathrm{Inv}_p,R_p,B_p,O_p,H_p)",
+    "status": "NEW_DERIVATION"
+  },
+  {
+    "id": "EQ05",
+    "label": "Rainbow Road",
+    "ascii": "R = P_n o ... o P_1",
+    "latex": "\\mathfrak R=\\mathsf P_n\\circ\\cdots\\circ\\mathsf P_1",
+    "status": "NEW_DERIVATION"
+  },
+  {
+    "id": "EQ06",
+    "label": "Road transport",
+    "ascii": "P_Gamma = P_n o ... o P_1",
+    "latex": "P_\\Gamma=P_n\\circ\\cdots\\circ P_1",
+    "status": "NEW_DERIVATION"
+  },
+  {
+    "id": "EQ07",
+    "label": "QFT naturality",
+    "ascii": "rho_Q,beta o P_Gamma = U_Q(Gamma) o rho_Q,alpha",
+    "latex": "\\rho_{Q,\\beta}\\circ P_\\Gamma=U_Q(\\Gamma)\\circ\\rho_{Q,\\alpha}",
+    "status": "FORMAL_TARGET"
+  },
+  {
+    "id": "EQ08",
+    "label": "GR naturality",
+    "ascii": "rho_G,beta o P_Gamma = U_G(Gamma) o rho_G,alpha",
+    "latex": "\\rho_{G,\\beta}\\circ P_\\Gamma=U_G(\\Gamma)\\circ\\rho_{G,\\alpha}",
+    "status": "FORMAL_TARGET"
+  },
+  {
+    "id": "EQ09",
+    "label": "Road-wise naturality theorem",
+    "ascii": "local commuting squares => composite commuting square",
+    "latex": "(\\forall i\\;\\rho_iP_i=U_i\\rho_{i-1})\\Rightarrow \\rho_n(P_n\\cdots P_1)=(U_n\\cdots U_1)\\rho_0",
+    "status": "PROVED_FORMAL"
+  }
+]

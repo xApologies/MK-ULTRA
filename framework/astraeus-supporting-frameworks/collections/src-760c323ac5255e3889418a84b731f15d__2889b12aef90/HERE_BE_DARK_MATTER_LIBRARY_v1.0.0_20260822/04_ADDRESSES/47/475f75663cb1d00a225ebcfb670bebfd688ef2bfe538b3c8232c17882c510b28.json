@@ -1,0 +1,77 @@
+{
+  "handle": "@ontological_graph",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@ontological_graph",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@ontological_graph",
+        "relation": "GENERALIZES",
+        "target": "@dependency_graph",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@dependency_graph SPECIALIZES_AS @ontological_graph); rule=SPECIALIZES_AS→GENERALIZES"
+      },
+      {
+        "source": "@dependency_graph",
+        "relation": "SPECIALIZES_AS",
+        "target": "@ontological_graph",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:52393;CANONICAL_API_TYPED_LINE:52393"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 2155,
+        "source": "@ontological_graph",
+        "relation": "GENERALIZES",
+        "target": "@dependency_graph",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@dependency_graph SPECIALIZES_AS @ontological_graph); rule=SPECIALIZES_AS→GENERALIZES"
+      },
+      {
+        "id": 305,
+        "source": "@dependency_graph",
+        "relation": "SPECIALIZES_AS",
+        "target": "@ontological_graph",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:52393;CANONICAL_API_TYPED_LINE:52393"
+      }
+    ]
+  },
+  "address": "@ontological_graph",
+  "address_sha256": "475f75663cb1d00a225ebcfb670bebfd688ef2bfe538b3c8232c17882c510b28"
+}

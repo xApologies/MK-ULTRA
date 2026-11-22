@@ -1,0 +1,3 @@
+# Algorithm Catalog
+
+A01 NormalizeAddress; A02 ResolveAlias; A03 ValidateAddressPackage; A04 ValidateModelPackage; A05 PreviewTransaction; A06 AddOneAddress; A07 AddManyAddresses; A08 AddModelPackage; A09 AppendContent; A10 ReplaceAddress; A11 ReplacePackage; A12 RemoveAddress; A13 RemovePackage; A14 PurgeAddress; A15 PurgePackage; A16 PullAddress; A17 PullMany; A18 PullModel; A19 PullQMO; A20 AssembleChunk; A21 ComputeCanonicalFingerprint; A22 RebuildIndexes; A23 ValidateReferentialIntegrity; A24 CommitTransaction; A25 RollbackTransaction; A26 EmitRecoveryReceipt; A27 EmitPopulationReceipt; A28 HistoricalRecovery; A29 LanguagePayloadSelection; A30 CoverageAudit.

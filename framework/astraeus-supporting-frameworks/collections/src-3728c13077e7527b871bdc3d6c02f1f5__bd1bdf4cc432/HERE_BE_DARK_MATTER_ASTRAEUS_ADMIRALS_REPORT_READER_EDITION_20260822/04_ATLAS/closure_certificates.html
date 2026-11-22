@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+
+<html lang="" xml:lang="" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8"/>
+<meta content="pandoc" name="generator"/>
+<meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
+<title>closure certificates</title>
+<style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+<style>
+:root { color-scheme: light dark; }
+body { max-width: 980px; margin: 0 auto; padding: 2.2rem 1.5rem 5rem; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 1.62; }
+h1,h2,h3,h4 { line-height: 1.2; margin-top: 1.8em; }
+h1 { border-bottom: 2px solid currentColor; padding-bottom: .25rem; }
+h2 { border-bottom: 1px solid color-mix(in srgb, currentColor 30%, transparent); padding-bottom: .2rem; }
+blockquote { border-left: 4px solid currentColor; padding-left: 1rem; margin-left: 0; opacity: .92; }
+pre, code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+pre { overflow-x: auto; padding: 1rem; border: 1px solid color-mix(in srgb, currentColor 20%, transparent); border-radius: 8px; }
+code { font-size: .92em; }
+table { border-collapse: collapse; width: 100%; overflow-x: auto; display: block; }
+th, td { border: 1px solid color-mix(in srgb, currentColor 25%, transparent); padding: .45rem .6rem; vertical-align: top; }
+a { color: inherit; text-decoration-thickness: .08em; }
+nav#TOC { padding: 1rem 1.2rem; border: 1px solid color-mix(in srgb, currentColor 25%, transparent); border-radius: 10px; }
+.reader-banner { border: 2px solid currentColor; border-radius: 12px; padding: .8rem 1rem; margin: 0 0 2rem; font-weight: 650; }
+mjx-container { max-width: 100%; }
+mjx-container[display="true"] { display: block; overflow-x: auto; overflow-y: hidden; padding: .45rem 0; margin: 1rem 0; }
+mjx-container svg { max-width: 100%; }
+.eq-source { font-size: .86rem; opacity: .75; margin-bottom: .25rem; }
+.eq-card { padding: .6rem .9rem; margin: .7rem 0 1.2rem; border-left: 3px solid color-mix(in srgb, currentColor 45%, transparent); }
+.render-fallback { font-family: Georgia, "Times New Roman", serif; white-space: pre-wrap; overflow-x: auto; }
+@media (max-width: 600px) { body { font-size: 17px; padding: 1.2rem .8rem 3rem; } }
+</style></head>
+<body><div class="reader-banner">READER EDITION — equations are pre-rendered as vector mathematics. No LaTeX renderer, plug-in, or internet connection is required.</div>
+<header id="title-block-header">
+<h1 class="title">closure certificates</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#closure-certificates" id="toc-closure-certificates">Closure Certificates</a></li>
+</ul>
+</nav>
+<h1 id="closure-certificates">Closure Certificates</h1>
+<p>Records: <strong>35</strong></p>
+<table>
+<colgroup>
+<col style="width: 20%"/>
+<col style="width: 20%"/>
+<col style="width: 20%"/>
+<col style="width: 20%"/>
+<col style="width: 20%"/>
+</colgroup>
+<thead>
+<tr class="header">
+<th>id</th>
+<th>object_handle</th>
+<th>decision</th>
+<th>checkpoint</th>
+<th>source_file</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>CC-DM-E063-001</td>
+<td><span class="citation" data-cites="dm_joint_hidden_network_witness">@dm_joint_hidden_network_witness</span></td>
+<td>DERIVED_CLOSED_INTERNAL</td>
+<td>E063</td>
+<td>live/checkpoints/E063/closure/CC-DM-E063-001_JOINT_WITNESS.json</td>
+</tr>
+<tr class="even">
+<td>CC-DM-E064-001</td>
+<td><span class="citation" data-cites="dm_conditional_dark_readout_witness">@dm_conditional_dark_readout_witness</span></td>
+<td>CONDITIONAL_CLOSED_WITH_WORKING_ASSUMPTIONS</td>
+<td>E064</td>
+<td>live/checkpoints/E064/closure/CC-DM-E064-001_CONDITIONAL_DARK_READOUT.json</td>
+</tr>
+<tr class="odd">
+<td>CC-DM-E065-001</td>
+<td><span class="citation" data-cites="dm_conditional_boundary_residue_seed">@dm_conditional_boundary_residue_seed</span></td>
+<td>CONDITIONAL_CLOSED_WITH_WORKING_ASSUMPTION</td>
+<td>E065</td>
+<td>live/checkpoints/E065/closure/CC-DM-E065-001_BOUNDARY_RESIDUE_ENTRY.json</td>
+</tr>
+<tr class="even">
+<td>CC-DM-E066-001</td>
+<td><span class="citation" data-cites="dm_conditional_q_handoff_distinction">@dm_conditional_q_handoff_distinction</span></td>
+<td>CONDITIONAL_CLOSED_WITH_WORKING_ASSUMPTIONS</td>
+<td>E066</td>
+<td>live/checkpoints/E066/closure/CC-DM-E066-001_Q_SURVIVAL.json</td>
+</tr>
+<tr class="odd">
+<td>CC-DM-E067-001</td>
+<td><span class="citation" data-cites="dm_stress_active_action_fiber">@dm_stress_active_action_fiber</span></td>
+<td>DERIVED_CLOSED_INTERNAL</td>
+<td>E067</td>
+<td>live/checkpoints/E067/closure/CC-DM-E067-001_ACTION_KERNEL_FACTORIZATION.json</td>
+</tr>
+<tr class="even">
+<td>CC-DM-E068-001</td>
+<td><span class="citation" data-cites="dm_live_qualification_cut">@dm_live_qualification_cut</span></td>
+<td>DIAGNOSTIC_CLOSED</td>
+<td>E068</td>
+<td>live/checkpoints/E068/closure/CC-DM-E068-001_CRITICAL_CUT_AUDIT.json</td>
+</tr>
+<tr class="odd">
+<td>CC-DM-E069-001</td>
+<td><span class="citation" data-cites="dm_conditional_scalar_stress_active_witness">@dm_conditional_scalar_stress_active_witness</span></td>
+<td>CONDITIONAL_CLOSED_WITH_WORKING_ASSUMPTION</td>
+<td>E069</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>CC-DM-E070-001</td>
+<td><span class="citation" data-cites="dm_conditional_action_dark_readout_witness">@dm_conditional_action_dark_readout_witness</span></td>
+<td>CONDITIONAL_CLOSED_WITH_WORKING_ASSUMPTIONS</td>
+<td>E070</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>CC-DM-E071-001</td>
+<td><span class="citation" data-cites="dm_conditional_qualification_witness">@dm_conditional_qualification_witness</span></td>
+<td>CONDITIONAL_PREDICATE_ASSEMBLY_CLOSED</td>
+<td>E071</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>CC-DM-E072-001</td>
+<td><span class="citation" data-cites="dm_metric_active_representation_witness">@dm_metric_active_representation_witness</span></td>
+<td>DIAGNOSTIC_CLOSED_OPEN_EXISTENCE</td>
+<td>E072</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>CC-DM-E073-001</td>
+<td><span class="citation" data-cites="dm_ucm_source_domain_distinction">@dm_ucm_source_domain_distinction</span></td>
+<td>SOURCE_DOMAIN_SEPARATION_CLOSED_READABLE_SOURCE_OPEN</td>
+<td>E073</td>
+<td>live/registry</td>
+</tr>
+<tr class="even">
+<td>CC-DM-E074-001</td>
+<td><span class="citation" data-cites="dm_ucm_event_to_source_nonannihilation">@dm_ucm_event_to_source_nonannihilation</span></td>
+<td>DIAGNOSTIC_FACTORIZATION_CLOSED_OPEN_SENSITIVITY</td>
+<td>E074</td>
+<td>live/registry</td>
+</tr>
+<tr class="odd">
+<td>CC-DM-E075-001</td>
+<td><span class="citation" data-cites="dm_conditional_ucm_stress_energy_witness">@dm_conditional_ucm_stress_energy_witness</span></td>
+<td>CONDITIONAL_UCM_STRESS_ENERGY_SEPARATION_CLOSED</td>
+<td>E075</td>
+<td>live/registry</td>
+</tr>
+<tr class="even">
+<td>CC-DM-E076-001</td>
+<td><span class="citation" data-cites="dm_conditional_ucm_qualification_witness">@dm_conditional_ucm_qualification_witness</span></td>
+<td>CONDITIONAL_UCM_NATIVE_QUALIFICATION_ASSEMBLY_CLOSED</td>
+<td>E076</td>
+<td>live/registry</td>
+</tr>
+<tr class="odd">
+<td>CC-DM-E077-001</td>
+<td><span class="citation" data-cites="dm_ucm_topology_source_scope_inclusion">@dm_ucm_topology_source_scope_inclusion</span></td>
+<td>SOURCE_SCOPE_CLOSED_SENSITIVITY_NOT_INFERRED</td>
+<td>E077</td>
+<td>live/registry</td>
+</tr>
+<tr class="even">
+<td>CC-DM-E078-001</td>
+<td><span class="citation" data-cites="dm_ucm_two_gate_factorization">@dm_ucm_two_gate_factorization</span></td>
+<td>TWO_GATE_FACTORIZATION_CLOSED_BOTH_SENSITIVITIES_OPEN</td>
+<td>E078</td>
+<td>live/registry</td>
+</tr>
+<tr class="odd">
+<td>CC-DM-E079-001</td>
+<td><span class="citation" data-cites="dm_conditional_ucm_dynamic_event_witness">@dm_conditional_ucm_dynamic_event_witness</span></td>
+<td>CONDITIONAL_DYNAMIC_EVENT_SEPARATION_CLOSED</td>
+<td>E079</td>
+<td>live/registry</td>
+</tr>
+<tr class="even">
+<td>CC-DM-E080-001</td>
+<td><span class="citation" data-cites="dm_response_spectrum_residue_discriminator">@dm_response_spectrum_residue_discriminator</span></td>
+<td>CONCRETE_RESIDUE_DISCRIMINATOR_CONDITIONAL_CLOSURE</td>
+<td>E080</td>
+<td>live/registry</td>
+</tr>
+<tr class="odd">
+<td>CC-DM-E081-001</td>
+<td><span class="citation" data-cites="dm_port_response_trace_invariant">@dm_port_response_trace_invariant</span></td>
+<td>PORT_RESPONSE_TRACE_INVARIANCE_CLOSED</td>
+<td>E081</td>
+<td>CC-DM-E081-001.json</td>
+</tr>
+<tr class="even">
+<td>CC-DM-E082-001</td>
+<td><span class="citation" data-cites="dm_conditional_response_trace_residue_survival">@dm_conditional_response_trace_residue_survival</span></td>
+<td>CONDITIONAL_RESPONSE_TRACE_RESIDUE_SURVIVAL</td>
+<td>E082</td>
+<td>CC-DM-E082-001.json</td>
+</tr>
+<tr class="odd">
+<td>CC-DM-E083-001</td>
+<td><span class="citation" data-cites="dm_response_trace_q_handoff_witness">@dm_response_trace_q_handoff_witness</span></td>
+<td>CONDITIONAL_TRACE_Q_SURVIVAL_CLOSED</td>
+<td>E083</td>
+<td>CC-DM-E083-001.json</td>
+</tr>
+<tr class="even">
+<td>CC-DM-E084-001</td>
+<td><span class="citation" data-cites="dm_conditional_event_density_source_separation">@dm_conditional_event_density_source_separation</span></td>
+<td>CONDITIONAL_UCM_GATE_2_COMPONENT_CLOSURE</td>
+<td>E084</td>
+<td>CC-DM-E084-001.json</td>
+</tr>
+<tr class="odd">
+<td>CC-DM-E085-001</td>
+<td><span class="citation" data-cites="dm_density_profile_readout_factorization_gate">@dm_density_profile_readout_factorization_gate</span></td>
+<td>DENSITY_READOUT_ROUTE_RECONCILED_TO_PROFILE_FACTOR</td>
+<td>E085</td>
+<td>live/checkpoints/E085/certs/CC-DM-E085-001.json</td>
+</tr>
+<tr class="even">
+<td>CC-DM-E086-001</td>
+<td><span class="citation" data-cites="dm_explicit_two_port_continuity_residual_witness">@dm_explicit_two_port_continuity_residual_witness</span></td>
+<td>EXPLICIT_TWO_PORT_CONTINUITY_RESIDUAL_CLOSED</td>
+<td>E086</td>
+<td>live/checkpoints/E086/certs/CC-DM-E086-001.json</td>
+</tr>
+<tr class="odd">
+<td>CC-DM-E087-001</td>
+<td><span class="citation" data-cites="dm_two_port_timeshell_gravity_fiber_test">@dm_two_port_timeshell_gravity_fiber_test</span></td>
+<td>DIRECT_GRAVITY_GATE_TYPED_NOT_SOLVED</td>
+<td>E087</td>
+<td>live/checkpoints/E087/certs/CC-DM-E087-001.json</td>
+</tr>
+<tr class="even">
+<td>CC-DM-E088-001</td>
+<td><span class="citation" data-cites="dm_conditional_direct_timeshell_dark_readout_witness">@dm_conditional_direct_timeshell_dark_readout_witness</span></td>
+<td>CONDITIONAL_DIRECT_TIMESHELL_DARK_READOUT_CLOSED</td>
+<td>E088</td>
+<td>live/checkpoints/E088/certs/CC-DM-E088-001.json</td>
+</tr>
+<tr class="odd">
+<td>CC-DM-E089-001</td>
+<td><span class="citation" data-cites="dm_chirality_seed_byte_probe_basis">@dm_chirality_seed_byte_probe_basis</span></td>
+<td>CHIRALITY_PROBE_BASIS_RECOVERED_AND_SIX_STATE_AMBIGUITY_CORRECTED</td>
+<td>E089</td>
+<td>live/checkpoints/E089/certs/CC-DM-E089-001.json</td>
+</tr>
+<tr class="even">
+<td>CC-DM-E090-001</td>
+<td><span class="citation" data-cites="dm_chirality_seed_contrast_normal_form">@dm_chirality_seed_contrast_normal_form</span></td>
+<td>CHIRALITY_SEED_CONTRAST_NORMAL_FORM_MATCH_CLOSED</td>
+<td>E090</td>
+<td>live/checkpoints/E090/certs/CC-DM-E090-001.json</td>
+</tr>
+<tr class="odd">
+<td>CC-DM-E091-001</td>
+<td><span class="citation" data-cites="dm_chirality_byte_basin_probe_family">@dm_chirality_byte_basin_probe_family</span></td>
+<td>SIX_BASIN_MIRROR_PROBE_FAMILY_CONDITIONALLY_CLOSED</td>
+<td>E091</td>
+<td>live/checkpoints/E091/certs/CC-DM-E091-001.json</td>
+</tr>
+<tr class="even">
+<td>CC-DM-E092-001</td>
+<td><span class="citation" data-cites="dm_chirality_seed_timeshell_gravity_fiber_test">@dm_chirality_seed_timeshell_gravity_fiber_test</span></td>
+<td>DIRECT_GRAVITY_GATE_REANCHORED_TO_CANONICAL_CHIRALITY_CONTRAST</td>
+<td>E092</td>
+<td>live/checkpoints/E092/certs/CC-DM-E092-001.json</td>
+</tr>
+<tr class="odd">
+<td>CC-DM-E095-001</td>
+<td><span class="citation" data-cites="dm_xapi_energy_density_stress_corridor">@dm_xapi_energy_density_stress_corridor</span></td>
+<td>CROSS_API_STRUCTURAL_COMPONENT_ROUTE_CLOSED</td>
+<td>E095</td>
+<td>live/checkpoints/E095/closure/CC-DM-E095-001.json</td>
+</tr>
+<tr class="even">
+<td>CC-DM-E097-001</td>
+<td><span class="citation" data-cites="dm_source_backfilled_master_map">@dm_source_backfilled_master_map</span></td>
+<td>SOURCE_ARCHIVE_MOUNTED_AND_XAPI_CROSSWALK_CLOSED</td>
+<td>E097</td>
+<td>ASTRAEUS_DM_E097_E100_SOURCE_CLOSURE_REPORT_20260822.md</td>
+</tr>
+<tr class="odd">
+<td>CC-DM-E098-001</td>
+<td><span class="citation" data-cites="dm_source_density_geometry_calibration">@dm_source_density_geometry_calibration</span></td>
+<td>SOURCE_DENSITY_TO_SHELL_GEOMETRY_CALIBRATION_CLOSED</td>
+<td>E098</td>
+<td>ASTRAEUS_DM_E097_E100_SOURCE_CLOSURE_REPORT_20260822.md</td>
+</tr>
+<tr class="even">
+<td>CC-DM-E099-001</td>
+<td><span class="citation" data-cites="dm_source_er_gravitational_readout_chain">@dm_source_er_gravitational_readout_chain</span></td>
+<td>SOURCE_ER_GRAVITATIONAL_READOUT_CHAIN_CLOSED</td>
+<td>E099</td>
+<td>ASTRAEUS_DM_E097_E100_SOURCE_CLOSURE_REPORT_20260822.md</td>
+</tr>
+<tr class="odd">
+<td>CC-DM-E100-001</td>
+<td><span class="citation" data-cites="dm_source_er_effective_model_closure">@dm_source_er_effective_model_closure</span></td>
+<td>SOURCE_EFFECTIVE_DARK_MATTER_MODEL_CLOSED_EMPIRICAL_VALIDATION_OPEN</td>
+<td>E100</td>
+<td>ASTRAEUS_DM_E097_E100_SOURCE_CLOSURE_REPORT_20260822.md</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

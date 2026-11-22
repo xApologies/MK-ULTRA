@@ -1,0 +1,32 @@
+digraph QMO {
+  rankdir=LR;
+  graph [label="Time-Space to Consciousness — R10 Core Spine", labelloc=t];
+  node [shape=box];
+  "@time_space";
+  "@genesis_field";
+  "@resolution";
+  "@bandwidth";
+  "@persistence";
+  "@chirality";
+  "@helicon";
+  "@graviton";
+  "@time_shell";
+  "@spacetime";
+  "@black_hole";
+  "@black_hole_cosmology";
+  "@cosmology";
+  "@consciousness";
+  "@time_space" -> "@genesis_field" [label="EXPLICIT_ARROW"];
+  "@genesis_field" -> "@resolution" [label="EXPLICIT_ARROW"];
+  "@resolution" -> "@bandwidth" [label="EXPLICIT_ARROW"];
+  "@bandwidth" -> "@persistence" [label="EXPLICIT_ARROW"];
+  "@persistence" -> "@chirality" [label="EXPLICIT_ARROW"];
+  "@chirality" -> "@helicon" [label="COMPOSED_DEPENDENCY"];
+  "@helicon" -> "@graviton" [label="EXPLICIT_ARROW"];
+  "@graviton" -> "@time_shell" [label="EXPLICIT_ARROW"];
+  "@time_shell" -> "@spacetime" [label="COMPOSED_DEPENDENCY"];
+  "@spacetime" -> "@black_hole" [label="SUPPORTS"];
+  "@black_hole" -> "@black_hole_cosmology" [label="BLACK_HOLE_MODEL_REACHES"];
+  "@black_hole_cosmology" -> "@cosmology" [label="DEPENDS_ON"];
+  "@cosmology" -> "@consciousness" [label="EXPLICIT_ARROW"];
+}

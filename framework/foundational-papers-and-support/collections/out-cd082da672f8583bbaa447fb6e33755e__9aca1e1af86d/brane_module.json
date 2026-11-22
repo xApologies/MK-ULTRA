@@ -1,0 +1,28 @@
+{
+  "canonical_state_policy": "READ_ONLY",
+  "capabilities": [
+    "resolve",
+    "neighbors",
+    "recover_closure",
+    "recover_equations",
+    "recover_provenance",
+    "resolve_chirality",
+    "admissible",
+    "probe_subject",
+    "validate_graph"
+  ],
+  "chirality_model": "deterministic-edge-and-path-derived-v1",
+  "contract_version": "2.0",
+  "domain_ids": [
+    "mk43-ultra",
+    "gravity",
+    "canonical-mathematics"
+  ],
+  "entrypoint": "mk43_api1b:create_module",
+  "internal_dimension": 5,
+  "name": "MK43 Ultra API 1.B",
+  "provenance_model": "object-specific-canonical-registry-v1",
+  "rewrite_policy": "DERIVED_ONLY",
+  "role": "api",
+  "version": "1.B.0"
+}

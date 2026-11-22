@@ -1,0 +1,63 @@
+{
+  "handle": "@dm_xapi_master_dependency_map",
+  "object_type": "qmo_derived_mathematical_object",
+  "status": "LIVE_DERIVED_CLOSED_MAP",
+  "domain": "DM30",
+  "namespace": "mk43://dark-matter/live",
+  "name": "Dark Matter / API 4.3 Master Dependency Map",
+  "definition": "Exhaustive fixed-point map of the baseline API 4.3 x DM 2.2 semantic environment, preserving every direct source relation and shortest closure path used for navigation.",
+  "math": "|V|=2422; |E_sem|=6489; |Cl(E_sem)|=72564; DM->API reachability pairs=4391; API->DM pairs=0.",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E096",
+  "qmo_generated": true,
+  "proof_status": "DERIVED_OR_CONDITIONAL",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "LIVE_QMO_DERIVED",
+  "metadata": {
+    "payload": {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_xapi_master_dependency_map",
+      "canonical_name": "Dark Matter / API 4.3 Master Dependency Map",
+      "type": "CrossAPIFixedPointMap",
+      "status": "LIVE_DERIVED_CLOSED_MAP",
+      "checkpoint": "E096",
+      "definition": "Exhaustive fixed-point map of the baseline API 4.3 x DM 2.2 semantic environment, preserving every direct source relation and shortest closure path used for navigation.",
+      "math": "|V|=2422; |E_sem|=6489; |Cl(E_sem)|=72564; DM->API reachability pairs=4391; API->DM pairs=0.",
+      "parents": [
+        "QMO-XAPI-002"
+      ],
+      "working_assumptions": [],
+      "proof_debt": [],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    "direct_live_edges_out": [
+      {
+        "source": "@dm_xapi_master_dependency_map",
+        "relation": "DERIVED_FROM",
+        "target": "@dm_xapi_energy_density_stress_corridor",
+        "graph_family": "live_xapi",
+        "confidence": "high",
+        "audit_status": "live_derived",
+        "provenance": "QMO-XAPI-002",
+        "origin": "LIVE_OVERLAY",
+        "source_layer": "LIVE_XAPI"
+      }
+    ],
+    "direct_live_edges_in": [
+      {
+        "source": "@dm_source_backfilled_master_map",
+        "relation": "DERIVED_FROM",
+        "target": "@dm_xapi_master_dependency_map",
+        "graph_family": "LIVE_SOURCE_BACKFILL",
+        "confidence": "medium",
+        "audit_status": "LIVE_DERIVED_CLOSED_MAP",
+        "provenance": "QMO-DM-SRC-XAPI-003",
+        "origin": "E097-E100",
+        "source_layer": "LIVE_OVERLAY"
+      }
+    ]
+  },
+  "address": "@dm_xapi_master_dependency_map",
+  "address_sha256": "da31f4af55570aec8b3660b34a63c784486683cbad506de5afe5d46cfbb65028"
+}

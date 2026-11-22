@@ -1,0 +1,20 @@
+{
+  "schema": "ASTRAEUS_FIELD_REDUNDANCY_CRAWL_V1",
+  "api_release": "0.10.0",
+  "live_model_revision": "v0.23.0",
+  "frontier": "@holonomy_signature_field_redundancy_crawl",
+  "status": "OPEN_BOUNDED_CRAWL_COMPLETED",
+  "landscape": "@dl_holonomy_field_redundancy",
+  "landscape_qmo_count": 16,
+  "landscape_edge_count": 22,
+  "iteration": "@it_holonomy_field_redundancy_3",
+  "requested_iterations": 3,
+  "actual_iterations": 3,
+  "terminal": "MAX_ITERATIONS",
+  "result": "No licensed typed field projection with proven kernel equality was derived; frontier remains open.",
+  "guards": [
+    "NO_FIELD_SUBTUPLE_PROMOTION_WITHOUT_KERNEL_TEST",
+    "[h]_SEMANTICS_UNRESOLVED",
+    "FULL_HISTORY_PROVENANCE_REMAINS_FALLBACK"
+  ]
+}

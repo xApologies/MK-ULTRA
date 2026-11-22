@@ -1,0 +1,56 @@
+{
+  "schema": "ASTRAEUS_WL035_TYPED_LIFT_DESCENT_SOURCE_RECEIPTS_V1",
+  "date": "2026-08-18",
+  "sources": [
+    {
+      "source": "Transduction Geometry v1.0",
+      "objects": [
+        "@typed_lift_architecture",
+        "@transduction_connection",
+        "@transduction_descent"
+      ],
+      "ledger": [
+        "L-238",
+        "L-239",
+        "L-240",
+        "L-262",
+        "L-263",
+        "L-268",
+        "L-270",
+        "L-395",
+        "L-396",
+        "L-401",
+        "L-404",
+        "L-406",
+        "L-412",
+        "L-414"
+      ]
+    },
+    {
+      "source": "Dark Matter API 2.2",
+      "objects": [
+        "@dm_hidden_state_bundle",
+        "@dm_constraint_preserving_embedding_family",
+        "@dm_hidden_state_embedding"
+      ],
+      "math": "pi_H:E_H^R->T_H; Emb_H,phys^R with base/inheritance/constraint requirements"
+    }
+  ],
+  "raw_outputs": [
+    "WL035_RAW_CONNECTION_TO_ADMISSIBILITY_PATH.json",
+    "WL035_RAW_CONNECTION_TO_INHERITED_STATE_BUNDLE_PATH.json",
+    "WL035_RAW_DM_EMBEDDING_FAMILY_RECOVER.json",
+    "WL035_RAW_DM_HIDDEN_STATE_BUNDLE_RECOVER.json",
+    "WL035_RAW_DM_HIDDEN_STATE_EMBEDDING_RECOVER.json",
+    "WL035_RAW_TRANSDUCTION_CONNECTION_NEIGHBORS.json",
+    "WL035_RAW_TRANSDUCTION_CONNECTION_OBJECT.json",
+    "WL035_RAW_TRANSDUCTION_CONNECTION_ROBUSTNESS.json",
+    "WL035_RAW_TRANSDUCTION_DESCENT_NEIGHBORS.json",
+    "WL035_RAW_TRANSDUCTION_DESCENT_OBJECT.json",
+    "WL035_RAW_TYPED_LIFT_ARCHITECTURE_NEIGHBORS.json",
+    "WL035_RAW_TYPED_LIFT_ARCHITECTURE_OBJECT.json",
+    "WL035_RAW_TYPED_LIFT_ROBUSTNESS.json"
+  ],
+  "result": "typed-lift/descent architecture provides a role-compatible decomposition but no DM-specific local descent instance or selector; hidden embedding remains open",
+  "parent_promotions": 0
+}

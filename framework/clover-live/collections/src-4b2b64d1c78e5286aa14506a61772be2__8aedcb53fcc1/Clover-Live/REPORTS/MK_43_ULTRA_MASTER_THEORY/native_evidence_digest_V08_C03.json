@@ -1,0 +1,1158 @@
+{
+  "chapter_ids": [
+    "V08-C03"
+  ],
+  "chapters": [
+    {
+      "assigned_handle_count": 20,
+      "chapter_id": "V08-C03",
+      "handles": [
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@constraint_energy` — Constraint energy",
+          "canonical_uri": "mk43://recover/core/constraint-energy",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.772062+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 91,
+            "english_units": 3,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@constraint_energy",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 21,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 205,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@constraint_energy",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 9602,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V08_C03\\constraint_energy_e969a6e70ea643cda7536dbbac83417e.md",
+            "reused_master_query": false,
+            "sha256": "b6cfb8e03e3cbfc0ff22154b17f64da93acfd6171757ca4790289923960e46aa"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@dominant_energy_condition",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.774060+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 189,
+            "english_units": 24,
+            "equation_units": 4,
+            "evidence_diversity": 2,
+            "handle": "@dominant_energy_condition",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P2",
+            "registered_dependencies": 145,
+            "run_id": "RP-05B",
+            "score": 75,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 4017,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 721,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:721"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 723,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:723"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 732,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:732"
+            }
+          ],
+          "handle": "@dominant_energy_condition",
+          "incoming_relation_types": {
+            "BLACK_HOLE_GLOBAL_REACHES": 1,
+            "BLACK_HOLE_MODEL_REACHES": 1,
+            "SUPPORTS": 3,
+            "SUPPORTS_FAMILY": 1
+          },
+          "native_report": {
+            "bytes": 2398990,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V08_C03\\dominant_energy_condition_b2280daca37048009a4e54a4007f48e1.md",
+            "reused_master_query": false,
+            "sha256": "cf53b96ce94a010ecefa2a3abc9b2c6fcd4667645f6083374893e6a7490748a3"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "BLACK_HOLE_CROSS_FAMILY_NODE": 1,
+            "COMPOSED_DEPENDENCY": 132,
+            "DEPENDS_ON": 3,
+            "FAMILY_DEPENDS_ON": 1,
+            "FEEDS_BLACK_HOLE_MODEL": 1,
+            "GLOBALLY_FEEDS_BLACK_HOLE": 1
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@energy_bands_as_geometric_density` — Energy Bands as Geometric Density",
+          "canonical_uri": "mk43://recover/gravity/energy-bands-as-geometric-density",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.774060+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 67,
+            "english_units": 1,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@energy_bands_as_geometric_density",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 15,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 200,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@energy_bands_as_geometric_density",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 10121,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V08_C03\\energy_bands_as_geometric_density_ae44b1039ff046b887f8539a8d31a47d.md",
+            "reused_master_query": false,
+            "sha256": "7461b71e586a58561c9306000af8c0e4cc7595e07464fdc7261567f42eb1101d"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@energy_closed_history",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.774060+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 23,
+            "english_units": 5,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@energy_closed_history",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 1,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 26,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 92,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@energy_closed_history",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 9300,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V08_C03\\energy_closed_history_43cb464c23ee43d48fa8642f478bb635.md",
+            "reused_master_query": false,
+            "sha256": "252499885f41034a112fa6c4262bfc41fa060c5d83b6343725509c43a4489568"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@energy_color_taxonomy` — Energy--Color Taxonomy",
+          "canonical_uri": "mk43://recover/core/energy-color-taxonomy",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.774060+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 66,
+            "english_units": 1,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@energy_color_taxonomy",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 15,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 203,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@energy_color_taxonomy",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 9734,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V08_C03\\energy_color_taxonomy_36d3906d4e0e4b5fb704710212b43934.md",
+            "reused_master_query": false,
+            "sha256": "9de32d622244a5f32d710379cc123d405dec3d8fec8897df6d5cfbba6408e524"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@energy_composition",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.775061+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 22,
+            "english_units": 4,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@energy_composition",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 1,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 23,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 91,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@energy_composition",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 9232,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\energy_composition_5785873c53c44b79800fb0f53e767ce5.md",
+            "reused_master_query": true,
+            "sha256": "bb213abb7632d56b54804d726ccfa01ce5feb23c97864b57c78edbd6d4d9e8ce"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@energy_condition",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.775061+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 574,
+            "english_units": 481,
+            "equation_units": 6,
+            "evidence_diversity": 2,
+            "handle": "@energy_condition",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P2",
+            "registered_dependencies": 586,
+            "run_id": "RP-05B",
+            "score": 82,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 9901,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 721,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:721"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 723,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:723"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 732,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:732"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1798,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1798"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1960,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1960"
+            }
+          ],
+          "handle": "@energy_condition",
+          "incoming_relation_types": {
+            "BLACK_HOLE_GLOBAL_REACHES": 1,
+            "BLACK_HOLE_MODEL_REACHES": 1,
+            "COMPOSED_DEPENDENCY": 414,
+            "DEPENDS_ON": 15,
+            "SUPPORTS": 2,
+            "SUPPORTS_FAMILY": 1
+          },
+          "native_report": {
+            "bytes": 3126690,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V08_C03\\energy_condition_e52af183577746b88b37aecb3ee41ca3.md",
+            "reused_master_query": false,
+            "sha256": "782dfe851486c8c0f842cfebf9f31d545299644c1f45bb94854f4954fe687651"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "BLACK_HOLE_CROSS_FAMILY_NODE": 1,
+            "COMPOSED_DEPENDENCY": 131,
+            "DEPENDS_ON": 2,
+            "FAMILY_DEPENDS_ON": 1,
+            "FEEDS_BLACK_HOLE_MODEL": 1,
+            "GLOBALLY_FEEDS_BLACK_HOLE": 1,
+            "SUPPORTS": 15
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@energy_density",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.775061+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 136,
+            "english_units": 63,
+            "equation_units": 4,
+            "evidence_diversity": 2,
+            "handle": "@energy_density",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 3,
+            "recommended_priority": "P2",
+            "registered_dependencies": 5,
+            "run_id": "RP-05B",
+            "score": 76,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 1807,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 549,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:549"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 723,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:723"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 2203,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:2203"
+            }
+          ],
+          "handle": "@energy_density",
+          "incoming_relation_types": {
+            "RESOLVED_VERTICAL_CHAIN": 1,
+            "VERTICAL_CHAIN": 1
+          },
+          "native_report": {
+            "bytes": 1671658,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V08_C03\\energy_density_9c2a205d5f564d4686c4f7b3ec0207b9.md",
+            "reused_master_query": false,
+            "sha256": "d1cb6093d0d587a0d414245c91d5af75baf990ed80f9702c31d5bd11dc64ea46"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "ENTERS": 1,
+            "FEEDS_BLACK_HOLE_MODEL": 1,
+            "GLOBALLY_FEEDS_BLACK_HOLE": 1
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@energy_identity",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.775061+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 22,
+            "english_units": 4,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@energy_identity",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 1,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 23,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 91,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@energy_identity",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 9168,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V08_C03\\energy_identity_3ab344918a634f89a5acd6912f36bd1f.md",
+            "reused_master_query": false,
+            "sha256": "2990cb1574c1b6d4b108539c048e1a936261aa8bd329d678ec10522679e98c76"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@energy_redistribution` — Energy Redistribution",
+          "canonical_uri": "mk43://recover/core/energy-redistribution",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.775061+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 67,
+            "english_units": 1,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@energy_redistribution",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 15,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 199,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@energy_redistribution",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 9728,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V08_C03\\energy_redistribution_80cfba20277041fa90853da17944ce1f.md",
+            "reused_master_query": false,
+            "sha256": "0533895cad852afce571edefad8eb24a2e5bc4e29ef3dc71d223be65493812ce"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@energy_reversal",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.775061+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 21,
+            "english_units": 4,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@energy_reversal",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 1,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 23,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 90,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@energy_reversal",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 9168,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V08_C03\\energy_reversal_91a8fa5512c24a9e9215c7729228bd68.md",
+            "reused_master_query": false,
+            "sha256": "b939ed7cc774d5ebbc82db7362ac429a198a88335e5143bde525d472414ebcd1"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@er_linked_planetary_energy_networks` — ER-Linked Planetary Energy Networks",
+          "canonical_uri": "mk43://recover/substrate/er-linked-planetary-energy-networks",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.775061+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 73,
+            "english_units": 5,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@er_linked_planetary_energy_networks",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 27,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 199,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@er_linked_planetary_energy_networks",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 10198,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V08_C03\\er_linked_planetary_energy_networks_9163e0b5c92643a381ae3b697b347547.md",
+            "reused_master_query": false,
+            "sha256": "49b47694db3f7a40ca0164724cf76ef3cfa85e43aa247f1fdbb134c197609239"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@general_energy",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.777061+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 129,
+            "english_units": 37,
+            "equation_units": 6,
+            "evidence_diversity": 2,
+            "handle": "@general_energy",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P2",
+            "registered_dependencies": 5,
+            "run_id": "RP-05B",
+            "score": 82,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 2780,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 549,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:549"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1798,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1798"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1799,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1799"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 2203,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:2203"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 2204,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:2204"
+            }
+          ],
+          "handle": "@general_energy",
+          "incoming_relation_types": {
+            "PROJECTED_FROM": 1,
+            "RESOLVED_VERTICAL_CHAIN": 1,
+            "VERTICAL_CHAIN": 1
+          },
+          "native_report": {
+            "bytes": 1625958,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\general_energy_2a9562e039f44771b38406c565be6b31.md",
+            "reused_master_query": true,
+            "sha256": "90d7ab086bda7278f6d6488f2e09c6738969e379b00b74430d3be45c43cacccd"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "GLOBALLY_FEEDS_BLACK_HOLE": 1,
+            "PROJECTS_TO": 1
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@gravitational_wave_energy_flux",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.881690+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 588,
+            "english_units": 517,
+            "equation_units": 5,
+            "evidence_diversity": 2,
+            "handle": "@gravitational_wave_energy_flux",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P2",
+            "registered_dependencies": 651,
+            "run_id": "RP-05B",
+            "score": 82,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 10513,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 721,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:721"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 723,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:723"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1798,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1798"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1960,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1960"
+            }
+          ],
+          "handle": "@gravitational_wave_energy_flux",
+          "incoming_relation_types": {
+            "BLACK_HOLE_GLOBAL_REACHES": 1,
+            "BLACK_HOLE_MODEL_REACHES": 1,
+            "CARRIES": 1,
+            "COMPOSED_DEPENDENCY": 414,
+            "DEPENDS_ON": 4,
+            "RECEIVES_CONTRIBUTION_FROM": 1,
+            "SUPPORTS": 41,
+            "SUPPORTS_FAMILY": 1
+          },
+          "native_report": {
+            "bytes": 2590078,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V08_C03\\gravitational_wave_energy_flux_3c27c45936904beb9f834c861d093acd.md",
+            "reused_master_query": false,
+            "sha256": "0f37e8678e5c86e70d0d9c548bfe88da3cc5ce636e206175999199d5b6470c13"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "BLACK_HOLE_CROSS_FAMILY_NODE": 1,
+            "COMPOSED_DEPENDENCY": 131,
+            "CONTRIBUTES_TO": 1,
+            "DEPENDS_ON": 47,
+            "FAMILY_DEPENDS_ON": 1,
+            "FEEDS_BLACK_HOLE_MODEL": 1,
+            "GLOBALLY_FEEDS_BLACK_HOLE": 1,
+            "SUPPORTS": 4
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@mo_bius_energy_band` — Möbius Energy Band",
+          "canonical_uri": "mk43://recover/chapter0/mo-bius-energy-band",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.884689+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 78,
+            "english_units": 15,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@mo_bius_energy_band",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 42,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 175,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@mo_bius_energy_band",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 9680,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V08_C03\\mo_bius_energy_band_b253b18568a146fe90348850dded474f.md",
+            "reused_master_query": false,
+            "sha256": "95e689ab9147dd8b97ed17f88f78b94d6b1c9d68c0d5cf0ae223c9357b9e334f"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "New Handle — @mote_ensemble",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.885695+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 127,
+            "english_units": 75,
+            "equation_units": 5,
+            "evidence_diversity": 2,
+            "handle": "@mote_ensemble",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 4,
+            "recommended_priority": "P2",
+            "registered_dependencies": 5,
+            "run_id": "RP-05B",
+            "score": 84,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 2907,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 549,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:549"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 551,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:551"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 719,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:719"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 722,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:722"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1798,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1798"
+            }
+          ],
+          "handle": "@mote_ensemble",
+          "incoming_relation_types": {
+            "DIRECTED_TO": 2,
+            "VERTICAL_CHAIN": 1
+          },
+          "native_report": {
+            "bytes": 651671,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V08_C03\\mote_ensemble_1b3178f7f39648139c8eaf0c8556e024.md",
+            "reused_master_query": false,
+            "sha256": "4adab0173c2253094eb3c4fb8f6c6f86801f03f8d2ebdca15d3c1a8aa9c69e19"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "DIRECTED_TO": 2
+          }
+        },
+        {
+          "api_status": "REUSED",
+          "canonical_name": "@null_energy_condition",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.885695+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 578,
+            "english_units": 500,
+            "equation_units": 5,
+            "evidence_diversity": 2,
+            "handle": "@null_energy_condition",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P2",
+            "registered_dependencies": 581,
+            "run_id": "RP-05B",
+            "score": 82,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 10163,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 721,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:721"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 723,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:723"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1798,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1798"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1960,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1960"
+            }
+          ],
+          "handle": "@null_energy_condition",
+          "incoming_relation_types": {
+            "BLACK_HOLE_GLOBAL_REACHES": 1,
+            "BLACK_HOLE_MODEL_REACHES": 1,
+            "COMPOSED_DEPENDENCY": 414,
+            "DEPENDS_ON": 11,
+            "SUPPORTS": 3,
+            "SUPPORTS_FAMILY": 1
+          },
+          "native_report": {
+            "bytes": 2585448,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V08_C03\\null_energy_condition_11b22e92917848edae9d252ee8b6f84d.md",
+            "reused_master_query": false,
+            "sha256": "88f1bfd1f7794ec5cff07cfb3b8cccb8e2b00304d595c5387bc4e25f88b269c4"
+          },
+          "object_class": "matter inequality",
+          "outgoing_relation_types": {
+            "BLACK_HOLE_CROSS_FAMILY_NODE": 1,
+            "COMPOSED_DEPENDENCY": 131,
+            "DEPENDS_ON": 3,
+            "FAMILY_DEPENDS_ON": 1,
+            "FEEDS_BLACK_HOLE_MODEL": 1,
+            "GLOBALLY_FEEDS_BLACK_HOLE": 1,
+            "IMPLIES_VIA_EINSTEIN_EQUATION": 1,
+            "SUPPORTS": 11
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "`@remote_algebra` — Remote Algebra",
+          "canonical_uri": "mk43://recover/genesis/remote-algebra",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.890197+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 77,
+            "english_units": 2,
+            "equation_units": 0,
+            "evidence_diversity": 1,
+            "handle": "@remote_algebra",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P1",
+            "registered_dependencies": 0,
+            "run_id": "RP-05B",
+            "score": 18,
+            "state": "THIN",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 195,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [],
+          "handle": "@remote_algebra",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 9514,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V08_C03\\remote_algebra_75568ae7a7044d209325cbe232ed6bd0.md",
+            "reused_master_query": false,
+            "sha256": "95b2cca3b33ce03926ae6fc8170da6294cbe80d4fb5823a9b79ecc07467a3dfc"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@strong_energy_condition",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.893200+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 170,
+            "english_units": 24,
+            "equation_units": 3,
+            "evidence_diversity": 2,
+            "handle": "@strong_energy_condition",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P2",
+            "registered_dependencies": 145,
+            "run_id": "RP-05B",
+            "score": 68,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 3986,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 721,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:721"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 723,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:723"
+            }
+          ],
+          "handle": "@strong_energy_condition",
+          "incoming_relation_types": {
+            "BLACK_HOLE_GLOBAL_REACHES": 1,
+            "BLACK_HOLE_MODEL_REACHES": 1,
+            "SUPPORTS": 3,
+            "SUPPORTS_FAMILY": 1
+          },
+          "native_report": {
+            "bytes": 1856945,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V08_C03\\strong_energy_condition_072471c7fba949cabf4a449a6fba1e88.md",
+            "reused_master_query": false,
+            "sha256": "03f04d4f99be6b22028cd2631de352f7decce6bdfe01d1a8c9376231f97487ad"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "BLACK_HOLE_CROSS_FAMILY_NODE": 1,
+            "COMPOSED_DEPENDENCY": 132,
+            "DEPENDS_ON": 3,
+            "FAMILY_DEPENDS_ON": 1,
+            "FEEDS_BLACK_HOLE_MODEL": 1,
+            "GLOBALLY_FEEDS_BLACK_HOLE": 1
+          }
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@weak_energy_condition",
+          "canonical_uri": null,
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.896202+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 149,
+            "english_units": 24,
+            "equation_units": 3,
+            "evidence_diversity": 2,
+            "handle": "@weak_energy_condition",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 2,
+            "recommended_priority": "P2",
+            "registered_dependencies": 145,
+            "run_id": "RP-05B",
+            "score": 68,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 3971,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 721,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:721"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 723,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:723"
+            }
+          ],
+          "handle": "@weak_energy_condition",
+          "incoming_relation_types": {
+            "BLACK_HOLE_GLOBAL_REACHES": 1,
+            "BLACK_HOLE_MODEL_REACHES": 1,
+            "SUPPORTS": 3,
+            "SUPPORTS_FAMILY": 1
+          },
+          "native_report": {
+            "bytes": 1856901,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V08_C03\\weak_energy_condition_505ca1da80c4452cafafbef0c5b9eb10.md",
+            "reused_master_query": false,
+            "sha256": "c32c2c0aea7bfd24f3c60f7fb386ae0e1d1619d03851a594194bb26e650dcc56"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {
+            "BLACK_HOLE_CROSS_FAMILY_NODE": 1,
+            "COMPOSED_DEPENDENCY": 132,
+            "DEPENDS_ON": 3,
+            "FAMILY_DEPENDS_ON": 1,
+            "FEEDS_BLACK_HOLE_MODEL": 1,
+            "GLOBALLY_FEEDS_BLACK_HOLE": 1
+          }
+        }
+      ],
+      "title": "Energy as a Cross-Level Quantity"
+    }
+  ],
+  "database_sha256": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03",
+  "database_unchanged": true,
+  "query_architecture": "Runtime -> BRANE -> API/QMO -> Library 4.1",
+  "query_receipt": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\native_query_receipt_V08_C03.json",
+  "schema": "mk-ultra-tome-native-evidence-digest-v1"
+}

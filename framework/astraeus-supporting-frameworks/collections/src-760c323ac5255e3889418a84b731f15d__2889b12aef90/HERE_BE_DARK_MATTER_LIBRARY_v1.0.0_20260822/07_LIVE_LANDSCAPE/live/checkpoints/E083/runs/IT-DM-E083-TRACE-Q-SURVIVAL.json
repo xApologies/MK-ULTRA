@@ -1,0 +1,11 @@
+{
+  "schema": "ASTRAEUS_DM_ITERATION_RUN_V1",
+  "run_id": "IT-DM-E083-TRACE-Q-SURVIVAL",
+  "checkpoint": "E083",
+  "seed": "@dm_conditional_response_trace_residue_survival",
+  "ceiling": 64,
+  "iterations_used": 3,
+  "terminal_state": "CONDITIONAL_Q_SURVIVAL_CLOSED",
+  "open_next": "@dm_event_density_component_survival",
+  "note": "No new field model introduced; Q survival is inherited from the already-closed DM 2.1/2.2 theorem."
+}

@@ -1,0 +1,207 @@
+[
+  {
+    "handle": "@integration_genesis_gr_time_shell",
+    "title": "Integrated original Time-Shell handoff",
+    "status": "source_relative_composition",
+    "equation": "I(N)=L_D(P_MK(N)); rho_D(I(N))=P_MK(N)",
+    "dependencies": [
+      "@graviton",
+      "@continuity_perturbation",
+      "@time_shell",
+      "@projected_gr_inheritance"
+    ],
+    "source": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/REPORT.md",
+    "hypotheses": [
+      "P_MK is defined on the admitted native input",
+      "Original fields, boundaries and conventions are retained",
+      "P_MK(N) lies in the matched smooth translator domain"
+    ]
+  },
+  {
+    "handle": "@integration_native_fixed_point",
+    "title": "Original gravitational self-coupling attachment",
+    "status": "inherited_operator_contract",
+    "equation": "q*=R_C[delta_C_m+F_g(q*)]",
+    "dependencies": [
+      "@gravitational_self_coupling",
+      "@continuity_redistribution",
+      "@continuity_perturbation"
+    ],
+    "source": "sources/MK43_Existing_Gravity_Source_Trace.md",
+    "hypotheses": [
+      "Actual source operators must be supplied",
+      "Existence and convergence are not implied by a fixed-point notation"
+    ]
+  },
+  {
+    "handle": "@integration_metric_readout",
+    "title": "Original classical Time-Shell metric readout",
+    "status": "inherited_operator_contract",
+    "equation": "h=Pi_T(q*); g=g_bar+h",
+    "dependencies": [
+      "@time_shell",
+      "@continuity_perturbation"
+    ],
+    "source": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/REPORT.md",
+    "hypotheses": [
+      "Original scope of Pi_T retained",
+      "Full classical output is not forced through a radiative TT projector"
+    ]
+  },
+  {
+    "handle": "@integration_geometry_chain",
+    "title": "Exact metric-to-connection-to-curvature calculation",
+    "status": "derived_geometric_identity",
+    "equation": "Gamma=Gamma_bar+K; R=R_bar+bar_nabla K+K*K",
+    "dependencies": [
+      "@levi_civita_connection",
+      "@riemann_tensor",
+      "@einstein_tensor",
+      "@integration_metric_readout"
+    ],
+    "source": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/REPORT.md",
+    "hypotheses": [
+      "Smooth symmetric nondegenerate Lorentzian metrics",
+      "Same manifold and conventions",
+      "No extension of a weak-field native approximation is inferred"
+    ]
+  },
+  {
+    "handle": "@integration_genesis_gr_roundtrip",
+    "title": "Evaluated Genesis-GR object and operation round trip",
+    "status": "representation_theorem_scoped",
+    "equation": "rho L=id; L rho=id; rho_out C_G=C_GR rho_in",
+    "dependencies": [
+      "@integration_geometry_chain"
+    ],
+    "source": "checkpoints/expanded/Genesis_GR_Translation_Closure/DERIVATION.md",
+    "hypotheses": [
+      "Invertible smooth frame realization",
+      "Source metric compatibility and torsion restriction",
+      "No inverse of the entire microscopic state is asserted"
+    ]
+  },
+  {
+    "handle": "@integration_matched_source",
+    "title": "Retained original source and matter fields",
+    "status": "integration_contract",
+    "equation": "(g,Phi,b,T) -> (g_G,Phi,b,T_G)",
+    "dependencies": [
+      "@stress_energy_tensor",
+      "@integration_genesis_gr_roundtrip"
+    ],
+    "source": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/REPORT.md",
+    "hypotheses": [
+      "Matter fields are retained, not recovered from T alone",
+      "T is supplied independently, not set to the Einstein residual"
+    ]
+  },
+  {
+    "handle": "@integration_mode_image_inverse",
+    "title": "Optional gravitational-mode image inverse",
+    "status": "conditional_linear_theorem",
+    "equation": "S* S=id; inverse on Im(S) is S*; Q=S S*",
+    "dependencies": [
+      "@native_probability_preservation",
+      "@readable_graviton_projection"
+    ],
+    "source": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/REPORT.md",
+    "hypotheses": [
+      "Source Hilbert-sector contract",
+      "Inverse only on the represented image",
+      "Not an inverse of a channel that traces out data"
+    ]
+  },
+  {
+    "handle": "@integration_feedback_response",
+    "title": "Response of native fixed-point output",
+    "status": "conditional_differentiation_theorem",
+    "equation": "delta_g=D Pi_T (I-A)^(-1) B delta_m",
+    "dependencies": [
+      "@integration_native_fixed_point",
+      "@integration_metric_readout"
+    ],
+    "source": "checkpoints/expanded/MK43_Graviton_TimeShell_Handoff_v0_1/REPORT.md",
+    "hypotheses": [
+      "Differentiable actual operators",
+      "I-A boundedly invertible on the selected domain",
+      "Other explicit source dependence must also be varied"
+    ]
+  },
+  {
+    "handle": "@integration_chirality_energy_mass",
+    "title": "T4/T5 Persistence accounting",
+    "status": "source_derived_scalar_identities",
+    "equation": "Delta M4=epsilon_P E_lock; epsilon_P E_hist(K=>Y)=Delta M_shell",
+    "dependencies": [
+      "@mass",
+      "@native_unit_of_energy",
+      "@chirality",
+      "@persistence"
+    ],
+    "source": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/REPORT.md",
+    "hypotheses": [
+      "Version 3 T4/T5 selector and shared epsilon_P",
+      "Admissible histories and fixed vacuum baseline",
+      "Not all Native History Energy is rest mass"
+    ]
+  },
+  {
+    "handle": "@integration_rainbow_road_transport",
+    "title": "History-bearing path and energy increments",
+    "status": "source_derived_path_accounting",
+    "equation": "RR_(D,B)=Path(Gen_D(B)); E(gamma2 o gamma1)=E(gamma1)+E(gamma2)",
+    "dependencies": [
+      "@integration_chirality_energy_mass"
+    ],
+    "source": "checkpoints/expanded/MKUltra_Chirality_Energy_Mass_Bridge/REPORT.md",
+    "hypotheses": [
+      "Actual admitted generator actions are required",
+      "Scalar endpoint energy does not recover full History",
+      "General chirality generator correspondence is not automatically certified"
+    ]
+  },
+  {
+    "handle": "@integration_metric_codec",
+    "title": "Optional GRC metric-only representation",
+    "status": "representation_only",
+    "equation": "Z=asinh_ewise(g/sigma); g=sigma sinh_ewise Z",
+    "dependencies": [
+      "@integration_metric_readout"
+    ],
+    "source": "checkpoints/expanded/Genesis_GR_Regular_Completion_v0_1/THEOREM.md",
+    "hypotheses": [
+      "sigma positive",
+      "Componentwise encoding with its nonlinear chart transition",
+      "No new GRC scalar action or metric-code graph replaces original physics"
+    ]
+  },
+  {
+    "handle": "@integration_provenance_status",
+    "title": "Inherited and derived status separation",
+    "status": "audit_registry",
+    "equation": "recorded_source_status != independently_rerun_physical_audit",
+    "dependencies": [
+      "@gravity_audit_v2",
+      "@integration_genesis_gr_time_shell"
+    ],
+    "source": "registry/GRAVITY_AUDIT_INHERITED.json",
+    "hypotheses": [
+      "All source qualifications retained",
+      "Audit item 12 has no newly acquired external-data result"
+    ]
+  },
+  {
+    "handle": "@mass",
+    "title": "Native Mass v3.0 — supplied T4/T5 source import",
+    "status": "source_definition_relative_to_axioms",
+    "equation": "Mass_MK([X])=Pers([P4_lock(X)])-Pers([0_E])",
+    "dependencies": [],
+    "source": "sources/_mass_b(4).txt",
+    "hypotheses": [
+      "Imported from the supplied v3.0 mass manuscript, not retroactively added to original API bytes",
+      "Downstream readable gravity and unit maps retain their correspondence conditions"
+    ],
+    "kind": "imported_source_object"
+  }
+]

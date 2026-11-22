@@ -1,0 +1,32 @@
+{
+  "run": "R60",
+  "status": "STRONG_CANDIDATE_CLOSURE",
+  "target": "propagation vector",
+  "source_native_objects": {
+    "boundary": "Primitive P2 |",
+    "oriented_dependency": "x -> y",
+    "transport": "Transduction Geometry D6",
+    "transduction": "Transduction Geometry D7",
+    "parallel_transport": "P_gamma^Conn",
+    "corridor_transport": "P_W",
+    "identity_witness": "W_Id(x,y;h)",
+    "history_transport": "T_Id(h)",
+    "corridor_operator": "C_alpha_beta = Pi_beta o P_W o L_alpha",
+    "portal": "p=(id_p,x,ell,y,h_p)"
+  },
+  "candidate": {
+    "propagation_morphism": "identity-bearing admissible traversal between relational occupancy states",
+    "propagation_vector": "Resolution/readout geometric representation of propagation morphism",
+    "formula_when_affine": "vec P_R(gamma;x)=phi_R(y)-phi_R(x)"
+  },
+  "firewalls": [
+    "one object in unbounded environment does not earn an absolute vector",
+    "two objects earn relational state/distance before full vector components",
+    "common-mode ambient motion is not relative propagation",
+    "transport != transduction",
+    "projection operator != propagation morphism",
+    "general manifold does not admit global subtraction without extra structure",
+    "reverse History traversal != physical time reversal"
+  ],
+  "next": "@qmo/propagation_morphism_vector_bridge"
+}

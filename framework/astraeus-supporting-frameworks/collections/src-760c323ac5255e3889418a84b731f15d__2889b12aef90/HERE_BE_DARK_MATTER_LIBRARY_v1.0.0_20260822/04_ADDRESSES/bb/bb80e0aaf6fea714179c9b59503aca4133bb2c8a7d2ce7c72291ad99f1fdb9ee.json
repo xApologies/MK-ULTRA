@@ -1,0 +1,98 @@
+{
+  "handle": "@mote_closure",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@mote_closure",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 2,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 2,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@mote_closure",
+        "relation": "DIRECTED_TO",
+        "target": "@persistent_recursive_topology",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:51004->51005"
+      },
+      {
+        "source": "@bandwidth",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_closure",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50986->50987"
+      },
+      {
+        "source": "@persistence_potential",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_closure",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:51001->51002"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 738,
+        "source": "@mote_closure",
+        "relation": "DIRECTED_TO",
+        "target": "@persistent_recursive_topology",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:51004->51005"
+      },
+      {
+        "id": 70,
+        "source": "@bandwidth",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_closure",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50986->50987"
+      },
+      {
+        "id": 849,
+        "source": "@persistence_potential",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_closure",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:51001->51002"
+      }
+    ]
+  },
+  "address": "@mote_closure",
+  "address_sha256": "bb80e0aaf6fea714179c9b59503aca4133bb2c8a7d2ce7c72291ad99f1fdb9ee"
+}

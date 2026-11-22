@@ -1,0 +1,26 @@
+{
+  "handle": "qmo://QMO-DM-BRIDGE-CAND-007",
+  "object_type": "qmo",
+  "status": "LIVE_CONDITIONAL_CANDIDATE",
+  "domain": "QMO",
+  "namespace": "mk43://qmo",
+  "name": "Conditional Projection-Residue/Q Survival Witness",
+  "definition": "",
+  "math": "",
+  "source_layer": "live_e066",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "QMO_REGISTRY",
+  "metadata": {
+    "qmo_id": "QMO-DM-BRIDGE-CAND-007",
+    "name": "Conditional Projection-Residue/Q Survival Witness",
+    "status": "LIVE_CONDITIONAL_CANDIDATE",
+    "source_layer": "live_e066",
+    "source_file": "live/checkpoints/E066/qmos/QMO-DM-BRIDGE-CAND-007_Q_SURVIVAL.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_QMO_CANDIDATE_V1\", \"qmo_id\": \"QMO-DM-BRIDGE-CAND-007\", \"handle\": \"@dm_conditional_q_handoff_distinction\", \"canonical_name\": \"Conditional Projection-Residue/Q Survival Witness\", \"status\": \"LIVE_CONDITIONAL_CANDIDATE\", \"parents\": [\"@dm_conditional_boundary_residue_seed\", \"@dm_projection_residue_survival\", \"@dm_q_completion_family\", \"@dm_q_survival\"], \"working_assumptions\": [\"WA-DM-E065-001\", \"WA-DM-E066-001\"], \"derivation\": [\"declared residue discriminator differs => B_full^R not ~=_F B_vis^R under the declared invariant-preserving bundle comparison\", \"B_full^R not ~=_F B_vis^R => Q_full and Q_vis cannot be identified by a Q-isomorphism preserving the residue-bundle constituent\"], \"result\": \"Conditional Q-handoff distinction without using the optional chromatic branch or native-density calibration.\", \"guardrails\": [\"Q distinction is not stress-energy distinction.\", \"No action selection is inferred.\", \"No physical dark-matter claim.\"]}"
+  },
+  "address": "qmo://QMO-DM-BRIDGE-CAND-007",
+  "address_sha256": "825716d258b3180280be895458466351af6c62c3c2861ccb7eec2c77e05027dc"
+}

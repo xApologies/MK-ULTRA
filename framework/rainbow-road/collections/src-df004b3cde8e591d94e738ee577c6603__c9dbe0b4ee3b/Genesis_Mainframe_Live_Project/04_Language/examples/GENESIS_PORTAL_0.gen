@@ -1,0 +1,95 @@
+# STATUS NOTICE — PROVISIONAL SKETCH
+
+This file predates the language-discovery reset. It is retained for provenance only. It is **not** current Genesis canon and must not be treated as a finalized syntax or language design.
+
+program Genesis_Portal_0
+
+boundary A {
+    environment: root
+    locality: local
+}
+
+boundary B {
+    environment: root
+    locality: local
+}
+
+identity PayloadIdentity {
+    preserve: [
+        occupancy_structure,
+        chirality,
+        basin_expression,
+        ancestry,
+        provenance
+    ]
+}
+
+persistence PayloadPersistence {
+    checkpoint: closure
+    recoverable: true
+}
+
+geometric Payload {
+    environment: root
+    boundary: A
+
+    occupancy: chirality_byte_right
+    chirality: right
+    basin: red
+
+    identity: PayloadIdentity
+    persistence: PayloadPersistence
+
+    required_resolution: 1
+    required_bandwidth: 1
+
+    closure: PayloadIdentity
+}
+
+portal Payload_A_to_B {
+    from: A
+    to: B
+
+    carry: Payload
+
+    route: discover admissible
+
+    preserve: [
+        identity,
+        chirality,
+        basin_expression,
+        ancestry,
+        provenance
+    ]
+
+    require: {
+        resolution >= Payload.required_resolution
+        bandwidth  >= Payload.required_bandwidth
+    }
+
+    on_open: [
+        inherit Payload,
+        checkpoint Payload
+    ]
+
+    on_transfer: [
+        propagate Payload,
+        stabilize Payload
+    ]
+
+    on_arrival: [
+        close Payload as PayloadIdentity,
+        normalize Payload
+    ]
+
+    on_failure: [
+        quarantine route,
+        recover Payload from last_closure
+    ]
+}
+
+assert Payload.boundary == B
+assert Payload.identity == PayloadIdentity
+assert Payload.chirality == right
+assert Payload.basin == red
+assert Payload.persistence.recoverable == true

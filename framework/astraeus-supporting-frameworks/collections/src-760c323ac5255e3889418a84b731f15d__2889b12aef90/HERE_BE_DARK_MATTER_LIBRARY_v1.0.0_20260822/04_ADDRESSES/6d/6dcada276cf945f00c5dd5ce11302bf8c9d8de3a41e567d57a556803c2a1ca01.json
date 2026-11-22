@@ -1,0 +1,25 @@
+{
+  "handle": "iteration://IT-DM-E091-CHIRALITY-BASIN-WIND-TUNNEL",
+  "object_type": "bounded_iteration",
+  "status": "SIX_BASIN_PROBE_FAMILY_READY",
+  "domain": "ITERATION",
+  "namespace": "mk43://iteration",
+  "name": "IT-DM-E091-CHIRALITY-BASIN-WIND-TUNNEL",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "BOUNDED_ITERATION",
+  "metadata": {
+    "id": "IT-DM-E091-CHIRALITY-BASIN-WIND-TUNNEL",
+    "seed": "@chirality_byte",
+    "terminal_state": "SIX_BASIN_PROBE_FAMILY_READY",
+    "source_file": "live/checkpoints/E091/runs/IT-DM-E091-CHIRALITY-BASIN-WIND-TUNNEL.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_ITERATION_RUN_V1\", \"run_id\": \"IT-DM-E091-CHIRALITY-BASIN-WIND-TUNNEL\", \"checkpoint\": \"E091\", \"seed\": \"@chirality_byte\", \"ceiling\": 64, \"iterations_used\": 4, \"terminal_state\": \"SIX_BASIN_PROBE_FAMILY_READY\", \"open_next\": \"@dm_chirality_seed_timeshell_gravity_fiber_test\", \"note\": \"Do not reopen PD-DM-013 unless the exact basin operator becomes necessary. The source-grounded seed contrast already suffices for the next continuity/Time-Shell test.\"}"
+  },
+  "address": "iteration://IT-DM-E091-CHIRALITY-BASIN-WIND-TUNNEL",
+  "address_sha256": "6dcada276cf945f00c5dd5ce11302bf8c9d8de3a41e567d57a556803c2a1ca01"
+}

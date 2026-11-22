@@ -1,0 +1,398 @@
+{
+  "schema": "ASTRAEUS_DM_LIVE_PROMOTION_LEDGER_V1",
+  "baseline_release": "2.2.0",
+  "entries": [
+    {
+      "checkpoint": "E062",
+      "decision": "NO_PROMOTION",
+      "parent_promotions": 0,
+      "physical_promotions": 0,
+      "canonical_edge_promotions": 0,
+      "candidate_qmos": [
+        "QMO-DM-BRIDGE-CAND-002",
+        "QMO-DM-BRIDGE-CAND-003"
+      ],
+      "reason": "Guarded cycle diagnostic and descent retyping exposed a next frontier but did not prove embedding nonemptiness."
+    },
+    {
+      "checkpoint": "E063",
+      "decision": "LIVE_INTERNAL_DERIVED_PROMOTION_ONLY",
+      "parent_promotions": 0,
+      "physical_promotions": 0,
+      "canonical_parent_edge_promotions": 0,
+      "live_internal_objects_promoted": [
+        "@dm_joint_hidden_network_witness"
+      ],
+      "closure_certificates": [
+        "CC-DM-E063-001"
+      ],
+      "candidate_qmos": [
+        "QMO-DM-BRIDGE-CAND-004"
+      ],
+      "reason": "Conjunction of two admitted conditional source theorems closes a finite dual-witness object; readable-source sensitivity remains open."
+    },
+    {
+      "checkpoint": "E064",
+      "decision": "LIVE_CONDITIONAL_CLOSURE_ONLY",
+      "parent_promotions": 0,
+      "physical_promotions": 0,
+      "canonical_parent_edge_promotions": 0,
+      "live_conditional_objects": [
+        "@dm_conditional_dark_readout_witness"
+      ],
+      "closure_certificates": [
+        "CC-DM-E064-001"
+      ],
+      "candidate_qmos": [
+        "QMO-DM-BRIDGE-CAND-005"
+      ],
+      "working_assumptions": [
+        "WA-DM-E064-001",
+        "WA-DM-E064-002",
+        "WA-DM-E064-003"
+      ],
+      "proof_debt": [
+        "PD-DM-001",
+        "PD-DM-002",
+        "PD-DM-003"
+      ],
+      "reason": "Stable-abstraction fast forward closes a dark-readout factorization witness only conditionally; open interfaces remain explicit proof debt."
+    },
+    {
+      "checkpoint": "E065",
+      "decision": "NO_BASELINE_PROMOTION",
+      "live_change": "conditional boundary/residue entry",
+      "parent_promotions": 0,
+      "physical_promotions": 0,
+      "canonical_edge_promotions": 0
+    },
+    {
+      "checkpoint": "E066",
+      "decision": "NO_BASELINE_PROMOTION",
+      "live_change": "conditional Q-handoff survival",
+      "parent_promotions": 0,
+      "physical_promotions": 0,
+      "canonical_edge_promotions": 0
+    },
+    {
+      "checkpoint": "E067",
+      "decision": "NO_BASELINE_PROMOTION",
+      "live_change": "internal action-kernel factorization",
+      "parent_promotions": 0,
+      "physical_promotions": 0,
+      "canonical_edge_promotions": 0
+    },
+    {
+      "checkpoint": "E068",
+      "decision": "NO_BASELINE_PROMOTION",
+      "live_change": "diagnostic critical-cut reranking",
+      "parent_promotions": 0,
+      "physical_promotions": 0,
+      "canonical_edge_promotions": 0
+    },
+    {
+      "checkpoint": "E069",
+      "decision": "LIVE_CONDITIONAL_CLOSURE_ONLY",
+      "parent_promotions": 0,
+      "physical_promotions": 0,
+      "canonical_parent_edge_promotions": 0,
+      "live_conditional_objects": [
+        "@dm_conditional_scalar_stress_active_witness"
+      ],
+      "closure_certificates": [
+        "CC-DM-E069-001"
+      ],
+      "candidate_qmos": [
+        "QMO-DM-BRIDGE-CAND-010"
+      ],
+      "working_assumptions": [
+        "WA-DM-E069-001"
+      ],
+      "proof_debt": [
+        "PD-DM-006"
+      ],
+      "reason": "Conventional scalar realization supplies an explicit metric-active proxy only under a representation/admissibility assumption."
+    },
+    {
+      "checkpoint": "E070",
+      "decision": "LIVE_CONDITIONAL_CLOSURE_ONLY",
+      "parent_promotions": 0,
+      "physical_promotions": 0,
+      "canonical_parent_edge_promotions": 0,
+      "live_conditional_objects": [
+        "@dm_conditional_action_dark_readout_witness"
+      ],
+      "closure_certificates": [
+        "CC-DM-E070-001"
+      ],
+      "candidate_qmos": [
+        "QMO-DM-BRIDGE-CAND-011"
+      ],
+      "reason": "Independent action lane conditionally reaches the dark-readout defect without density or residue middle lanes."
+    },
+    {
+      "checkpoint": "E071",
+      "decision": "LIVE_CONDITIONAL_QUALIFICATION_ASSEMBLY_ONLY",
+      "parent_promotions": 0,
+      "physical_promotions": 0,
+      "canonical_parent_edge_promotions": 0,
+      "live_conditional_objects": [
+        "@dm_conditional_qualification_witness"
+      ],
+      "closure_certificates": [
+        "CC-DM-E071-001"
+      ],
+      "candidate_qmos": [
+        "QMO-DM-BRIDGE-CAND-012"
+      ],
+      "reason": "All predicates of the closed DM_R definition assemble on one tuple only under four explicit working assumptions."
+    },
+    {
+      "checkpoint": "E072",
+      "decision": "NO_BASELINE_PROMOTION_DIAGNOSTIC_REPRIORITIZATION",
+      "parent_promotions": 0,
+      "physical_promotions": 0,
+      "canonical_parent_edge_promotions": 0,
+      "closure_certificates": [
+        "CC-DM-E072-001"
+      ],
+      "candidate_qmos": [
+        "QMO-DM-BRIDGE-CAND-013"
+      ],
+      "reason": "Proof debt compressed to four current assumptions; next frontier is the Q-compatible metric-active representation bridge."
+    },
+    {
+      "checkpoint": "E073",
+      "decision": "LIVE_SOURCE_DOMAIN_CLOSURE_ONLY",
+      "parent_promotions": 0,
+      "physical_promotions": 0,
+      "canonical_parent_edge_promotions": 0,
+      "live_objects": [
+        "@dm_ucm_source_domain_distinction"
+      ],
+      "closure_certificates": [
+        "CC-DM-E073-001"
+      ],
+      "candidate_qmos": [
+        "QMO-DM-BRIDGE-CAND-014"
+      ],
+      "reason": "Hidden network distinguishes full/visible UCM source records, but readable source projection sensitivity remains open."
+    },
+    {
+      "checkpoint": "E074",
+      "decision": "NO_BASELINE_PROMOTION_UCM_GATE_COMPRESSION",
+      "parent_promotions": 0,
+      "physical_promotions": 0,
+      "canonical_parent_edge_promotions": 0,
+      "live_objects": [
+        "@dm_ucm_event_to_source_nonannihilation"
+      ],
+      "closure_certificates": [
+        "CC-DM-E074-001"
+      ],
+      "candidate_qmos": [
+        "QMO-DM-BRIDGE-CAND-015"
+      ],
+      "reason": "Pi_U factorization isolates one source-projection nonannihilation gate and bypasses generic metric-active representation on shortest UCM lane."
+    },
+    {
+      "checkpoint": "E075",
+      "decision": "LIVE_CONDITIONAL_UCM_STRESS_ENERGY_ONLY",
+      "parent_promotions": 0,
+      "physical_promotions": 0,
+      "canonical_parent_edge_promotions": 0,
+      "live_conditional_objects": [
+        "@dm_conditional_ucm_stress_energy_witness"
+      ],
+      "closure_certificates": [
+        "CC-DM-E075-001"
+      ],
+      "candidate_qmos": [
+        "QMO-DM-BRIDGE-CAND-016"
+      ],
+      "reason": "One component-level nonannihilation assumption carries the E063 hidden density distinction into readable stress-energy separation."
+    },
+    {
+      "checkpoint": "E076",
+      "decision": "LIVE_CONDITIONAL_UCM_QUALIFICATION_ASSEMBLY_ONLY",
+      "parent_promotions": 0,
+      "physical_promotions": 0,
+      "canonical_parent_edge_promotions": 0,
+      "live_conditional_objects": [
+        "@dm_conditional_ucm_qualification_witness"
+      ],
+      "closure_certificates": [
+        "CC-DM-E076-001"
+      ],
+      "candidate_qmos": [
+        "QMO-DM-BRIDGE-CAND-017"
+      ],
+      "reason": "Full conditional DM_R predicate assembly now uses UCM-native source projection instead of the scalar proxy; unconditional nonemptiness remains open."
+    },
+    {
+      "checkpoint": "E077",
+      "decision": "NO_PARENT_PROMOTION_SOURCE_SCOPE_CLOSURE_ONLY",
+      "parent_promotion": false,
+      "physical_promotion": false,
+      "canonical_edge_promotion": false,
+      "baseline_mutation": false
+    },
+    {
+      "checkpoint": "E078",
+      "decision": "NO_PARENT_PROMOTION_DIAGNOSTIC_SPLIT_ONLY",
+      "parent_promotion": false,
+      "physical_promotion": false,
+      "canonical_edge_promotion": false,
+      "baseline_mutation": false
+    },
+    {
+      "checkpoint": "E079",
+      "decision": "NO_PARENT_PROMOTION_CONDITIONAL_EVENT_WITNESS",
+      "parent_promotion": false,
+      "physical_promotion": false,
+      "canonical_edge_promotion": false,
+      "baseline_mutation": false
+    },
+    {
+      "checkpoint": "E080",
+      "decision": "NO_PARENT_PROMOTION_CONDITIONAL_RESIDUE_DISCRIMINATOR",
+      "parent_promotion": false,
+      "physical_promotion": false,
+      "canonical_edge_promotion": false,
+      "baseline_mutation": false
+    },
+    {
+      "checkpoint": "E081",
+      "decision": "NO_PARENT_PROMOTION_INTERNAL_TRACE_INVARIANT",
+      "parent_promotion": false,
+      "physical_promotion": false,
+      "canonical_edge_promotion": false,
+      "baseline_mutation": false
+    },
+    {
+      "checkpoint": "E082",
+      "decision": "NO_PARENT_PROMOTION_CONDITIONAL_RESIDUE_SURVIVAL",
+      "parent_promotion": false,
+      "physical_promotion": false,
+      "canonical_edge_promotion": false,
+      "baseline_mutation": false
+    },
+    {
+      "checkpoint": "E083",
+      "decision": "NO_PARENT_PROMOTION_CONDITIONAL_Q_SURVIVAL",
+      "parent_promotion": false,
+      "physical_promotion": false,
+      "canonical_edge_promotion": false,
+      "baseline_mutation": false
+    },
+    {
+      "checkpoint": "E084",
+      "decision": "NO_PARENT_PROMOTION_CONDITIONAL_EVENT_COMPONENT_SOURCE_SEPARATION",
+      "parent_promotion": false,
+      "physical_promotion": false,
+      "canonical_edge_promotion": false,
+      "baseline_mutation": false
+    },
+    {
+      "checkpoint": "E085",
+      "decision": "NO_PARENT_PROMOTION_PROFILE_ROUTE_RECONCILIATION",
+      "parent_promotion": false,
+      "physical_promotion": false,
+      "canonical_edge_promotion": false,
+      "baseline_mutation": false
+    },
+    {
+      "checkpoint": "E086",
+      "decision": "NO_PARENT_PROMOTION_EXPLICIT_CONTINUITY_RESIDUAL",
+      "parent_promotion": false,
+      "physical_promotion": false,
+      "canonical_edge_promotion": false,
+      "baseline_mutation": false
+    },
+    {
+      "checkpoint": "E087",
+      "decision": "NO_PARENT_PROMOTION_DIRECT_GRAVITY_FIBER_GATE",
+      "parent_promotion": false,
+      "physical_promotion": false,
+      "canonical_edge_promotion": false,
+      "baseline_mutation": false
+    },
+    {
+      "checkpoint": "E088",
+      "decision": "NO_PARENT_PROMOTION_CONDITIONAL_DIRECT_TIMESHELL_DARK_READOUT",
+      "parent_promotion": false,
+      "physical_promotion": false,
+      "canonical_edge_promotion": false,
+      "baseline_mutation": false
+    },
+    {
+      "checkpoint": "E089",
+      "decision": "NO_PARENT_PROMOTION_CHIRALITY_SOURCE_RECOVERY",
+      "parent_promotion": false,
+      "physical_promotion": false,
+      "canonical_edge_promotion": false,
+      "baseline_mutation": false
+    },
+    {
+      "checkpoint": "E090",
+      "decision": "NO_PARENT_PROMOTION_CHIRALITY_NORMAL_FORM_MATCH",
+      "parent_promotion": false,
+      "physical_promotion": false,
+      "canonical_edge_promotion": false,
+      "baseline_mutation": false
+    },
+    {
+      "checkpoint": "E091",
+      "decision": "NO_PARENT_PROMOTION_CONDITIONAL_BASIN_PROBE_FAMILY",
+      "parent_promotion": false,
+      "physical_promotion": false,
+      "canonical_edge_promotion": false,
+      "baseline_mutation": false
+    },
+    {
+      "checkpoint": "E092",
+      "decision": "NO_PARENT_PROMOTION_CHIRALITY_REANCHORED_GRAVITY_GATE",
+      "parent_promotion": false,
+      "physical_promotion": false,
+      "canonical_edge_promotion": false,
+      "baseline_mutation": false
+    },
+    {
+      "checkpoint": "E093-E096",
+      "decision": "LIVE_CROSS_API_MAP_AND_TYPED_ROUTE_ONLY",
+      "parent_promotions": 0,
+      "physical_promotions": 0,
+      "canonical_edge_promotions": 0,
+      "live_internal_objects_promoted": [
+        "@dm_xapi_energy_density_stress_corridor",
+        "@dm_xapi_density_readout_factorization",
+        "@dm_xapi_master_dependency_map"
+      ],
+      "closure_certificates": [
+        "CC-DM-E095-001"
+      ],
+      "reason": "Exhaustive registered-edge closure reveals a source-backed density->energy-density->stress-energy route. Calibration/observer normalization remains proof debt."
+    },
+    {
+      "checkpoint": "E097-E100",
+      "decision": "LIVE_SOURCE_EFFECTIVE_INTERNAL_CLOSURE_ONLY",
+      "parent_promotions": 0,
+      "physical_promotions": 0,
+      "canonical_edge_promotions": 0,
+      "baseline_mutation": false,
+      "live_internal_objects_promoted": [
+        "@dm_source_backfilled_master_map",
+        "@dm_source_density_geometry_calibration",
+        "@dm_source_er_gravitational_readout_chain",
+        "@dm_source_er_effective_model_closure"
+      ],
+      "closure_certificates": [
+        "CC-DM-E097-001",
+        "CC-DM-E098-001",
+        "CC-DM-E099-001",
+        "CC-DM-E100-001"
+      ],
+      "reason": "Recovered source equations discharge the source-sector calibration gap and close an effective ER Dark Matter chain, but do not establish empirical dark matter or supersede the strict DM2.2 hidden-S3 qualification contract."
+    }
+  ]
+}

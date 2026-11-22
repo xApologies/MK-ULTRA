@@ -1,0 +1,29 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_PATH_QUERY_V1",
+  "source": "@dm_native_hidden_witness",
+  "target": "@galaxy",
+  "path": [
+    {
+      "source": "@dm_native_hidden_witness",
+      "relation": "CONTAINS",
+      "target": "@dm_hidden_response_operator",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "origin_api": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@dm_hidden_response_operator",
+      "relation": "READS_OUT_AT",
+      "target": "@galaxy",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "origin_api": "DARKMATTER_2.0"
+    }
+  ]
+}

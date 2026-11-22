@@ -1,0 +1,77 @@
+{
+  "handle": "@genesis_identity",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@genesis_identity",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 2,
+    "xapi_raw_out_count": 0,
+    "xapi_raw_in_count": 2,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 2,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@genesis_closure",
+        "relation": "DEPENDS_TO",
+        "target": "@genesis_identity",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:55634"
+      },
+      {
+        "source": "@genesis_inheritance",
+        "relation": "DEPENDS_TO",
+        "target": "@genesis_identity",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:55608"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 353,
+        "source": "@genesis_closure",
+        "relation": "DEPENDS_TO",
+        "target": "@genesis_identity",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:55634"
+      },
+      {
+        "id": 372,
+        "source": "@genesis_inheritance",
+        "relation": "DEPENDS_TO",
+        "target": "@genesis_identity",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:55608"
+      }
+    ]
+  },
+  "address": "@genesis_identity",
+  "address_sha256": "ada74a09beb7b30b887b58b544836c48df4ea40ab32ddf1d9c7749ed53c9fed2"
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "ASTRAEUS_QMO_CANDIDATE_V1",
+  "qmo_id": "QMO-DM-BRIDGE-CAND-010",
+  "handle": "@dm_conditional_scalar_stress_active_witness",
+  "canonical_name": "Conditional Scalar-Proxy Stress-Active Witness",
+  "status": "LIVE_CONDITIONAL_CANDIDATE",
+  "provenance_class": [
+    "DM_2.2_SOURCE_DERIVED_INPUTS",
+    "EXTERNAL_ESTABLISHED_SCALAR_FIELD_MATHEMATICS",
+    "STABLE_ABSTRACTION_WORKING_ASSUMPTION"
+  ],
+  "parents": [
+    "@dm_stress_active_action_fiber_nonempty",
+    "@dm_covariant_hidden_action_family",
+    "@dm_stress_energy_realization_family",
+    "@matter_action",
+    "@metric_variation",
+    "@klein_gordon_field"
+  ],
+  "working_assumptions": [
+    "WA-DM-E069-001"
+  ],
+  "construction": {
+    "proxy_action": "S_phiH[g,phi_H]=Integral sqrt(|g|)[-1/2 g^(mu nu) nabla_mu phi_H nabla_nu phi_H - V(phi_H)] d^d x",
+    "proxy_stress": "T_mu_nu^(phiH)=nabla_mu phi_H nabla_nu phi_H - g_mu_nu[1/2 nabla^a phi_H nabla_a phi_H + V(phi_H)]",
+    "finite_wind_tunnel": "On a local flat patch choose V=0 and phi_H=k x with k!=0. Then T_tt=T_xx=k^2/2 (for signature -,+,+,+), hence metric variation is nonzero."
+  },
+  "result": "Conditional on WA-DM-E069-001, the stress-active hidden action fiber is nonempty on the selected proxy sector.",
+  "guardrails": [
+    "Scalar realization is a diagnostic representation only.",
+    "PD-DM-005 is conditionally bypassed, not source-discharged.",
+    "No physical dark-matter promotion."
+  ]
+}

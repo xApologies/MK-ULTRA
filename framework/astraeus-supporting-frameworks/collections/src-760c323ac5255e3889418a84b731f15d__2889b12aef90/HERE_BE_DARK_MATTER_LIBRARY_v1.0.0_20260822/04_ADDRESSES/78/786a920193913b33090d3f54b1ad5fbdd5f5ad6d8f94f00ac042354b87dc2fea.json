@@ -1,0 +1,55 @@
+{
+  "handle": "@dm_xapi_density_readout_factorization",
+  "object_type": "qmo_derived_mathematical_object",
+  "status": "LIVE_DERIVED_NARROWED",
+  "domain": "DM30",
+  "namespace": "mk43://dark-matter/live",
+  "name": "Native-Density Readout Factorization",
+  "definition": "The old native-density-to-readable-source problem factors into two source-closed structural steps plus one residual calibration/observer step.",
+  "math": "Delta boldrho_H^R -> @energy_density -> @stress_energy_tensor; remaining debt = component-preserving readable calibration/observer normalization, not tensor existence.",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E095",
+  "qmo_generated": true,
+  "proof_status": "DERIVED_OR_CONDITIONAL",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "LIVE_QMO_DERIVED",
+  "metadata": {
+    "payload": {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_xapi_density_readout_factorization",
+      "canonical_name": "Native-Density Readout Factorization",
+      "type": "OpenHandleFactorization",
+      "status": "LIVE_DERIVED_NARROWED",
+      "checkpoint": "E095",
+      "definition": "The old native-density-to-readable-source problem factors into two source-closed structural steps plus one residual calibration/observer step.",
+      "math": "Delta boldrho_H^R -> @energy_density -> @stress_energy_tensor; remaining debt = component-preserving readable calibration/observer normalization, not tensor existence.",
+      "parents": [
+        "@dm_native_density_to_readable_source",
+        "@dm_xapi_energy_density_stress_corridor",
+        "@dm_stress_energy_separation_gate"
+      ],
+      "working_assumptions": [],
+      "proof_debt": [
+        "PD-DM-014"
+      ],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    "direct_live_edges_out": [
+      {
+        "source": "@dm_xapi_density_readout_factorization",
+        "relation": "FACTORS",
+        "target": "@dm_native_density_to_readable_source",
+        "graph_family": "live_xapi",
+        "confidence": "high",
+        "audit_status": "live_derived",
+        "provenance": "CC-DM-E095-001",
+        "origin": "LIVE_OVERLAY",
+        "source_layer": "LIVE_XAPI"
+      }
+    ],
+    "direct_live_edges_in": []
+  },
+  "address": "@dm_xapi_density_readout_factorization",
+  "address_sha256": "786a920193913b33090d3f54b1ad5fbdd5f5ad6d8f94f00ac042354b87dc2fea"
+}

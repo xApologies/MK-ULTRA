@@ -1,0 +1,25 @@
+{
+  "handle": "landscape://DL-DM-E085-PROFILE-READOUT-ROUTE",
+  "object_type": "dependency_landscape",
+  "status": "SOURCE_ROUTE_RECONCILED",
+  "domain": "LANDSCAPE",
+  "namespace": "mk43://landscape",
+  "name": "DL-DM-E085-PROFILE-READOUT-ROUTE",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "DEPENDENCY_LANDSCAPE",
+  "metadata": {
+    "id": "DL-DM-E085-PROFILE-READOUT-ROUTE",
+    "seed": "@dm_native_density_to_readable_source",
+    "status": "SOURCE_ROUTE_RECONCILED",
+    "source_file": "live/checkpoints/E085/landscapes/DL-DM-E085-PROFILE-READOUT-ROUTE.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1\", \"landscape_id\": \"DL-DM-E085-PROFILE-READOUT-ROUTE\", \"seed\": \"@dm_native_density_to_readable_source\", \"status\": \"SOURCE_ROUTE_RECONCILED\", \"nodes\": [\"@dm_resolution_density_profile\", \"@dm_density_profile_readout_factorization_gate\", \"@time_shell\", \"@energy_density\", \"@stress_energy_tensor\"], \"terminal\": {\"state\": \"MULTI_GATE_PROFILE_TRANSLATION\", \"iteration\": 5, \"focus\": \"@dm_density_profile_readout_factorization_gate\", \"reason\": \"The generic scalar route is blocked by the V33 no-go; the source-backed profile route carries several still-open translation/calibration gates and is parked to avoid a new swamp.\"}}"
+  },
+  "address": "landscape://DL-DM-E085-PROFILE-READOUT-ROUTE",
+  "address_sha256": "dc3b1abad5305883242809bc02c8636c1c1a9a282fb4b46daee6b54eeb08a793"
+}

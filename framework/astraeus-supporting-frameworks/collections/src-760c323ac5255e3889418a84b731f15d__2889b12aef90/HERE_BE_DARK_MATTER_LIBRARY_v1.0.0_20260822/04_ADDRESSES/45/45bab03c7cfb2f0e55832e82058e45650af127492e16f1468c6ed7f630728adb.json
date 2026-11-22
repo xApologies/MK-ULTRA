@@ -1,0 +1,25 @@
+{
+  "handle": "iteration://IT-DM-E085-PROFILE-READOUT-ROUTE",
+  "object_type": "bounded_iteration",
+  "status": "MULTI_GATE_PROFILE_TRANSLATION",
+  "domain": "ITERATION",
+  "namespace": "mk43://iteration",
+  "name": "IT-DM-E085-PROFILE-READOUT-ROUTE",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "BOUNDED_ITERATION",
+  "metadata": {
+    "id": "IT-DM-E085-PROFILE-READOUT-ROUTE",
+    "seed": "@dm_native_density_to_readable_source",
+    "terminal_state": "MULTI_GATE_PROFILE_TRANSLATION",
+    "source_file": "live/checkpoints/E085/runs/IT-DM-E085-PROFILE-READOUT-ROUTE.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_ITERATION_RUN_V1\", \"run_id\": \"IT-DM-E085-PROFILE-READOUT-ROUTE\", \"checkpoint\": \"E085\", \"seed\": \"@dm_native_density_to_readable_source\", \"ceiling\": 128, \"iterations_used\": 5, \"terminal_state\": \"MULTI_GATE_PROFILE_TRANSLATION\", \"open_next\": \"@dm_explicit_two_port_continuity_residual_witness\", \"note\": \"Bounded attack stopped rather than recursively deriving Beta_R, Time-Shell basin fidelity, and calibration. Switch to the direct continuity-response lane.\"}"
+  },
+  "address": "iteration://IT-DM-E085-PROFILE-READOUT-ROUTE",
+  "address_sha256": "45bab03c7cfb2f0e55832e82058e45650af127492e16f1468c6ed7f630728adb"
+}

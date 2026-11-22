@@ -1,0 +1,1199 @@
+<!DOCTYPE html>
+
+<html lang="" xml:lang="" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8"/>
+<meta content="pandoc" name="generator"/>
+<meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
+<title>PRIME 2</title>
+<style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+<style>
+:root { color-scheme: light dark; }
+body { max-width: 980px; margin: 0 auto; padding: 2.2rem 1.5rem 5rem; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 1.62; }
+h1,h2,h3,h4 { line-height: 1.2; margin-top: 1.8em; }
+h1 { border-bottom: 2px solid currentColor; padding-bottom: .25rem; }
+h2 { border-bottom: 1px solid color-mix(in srgb, currentColor 30%, transparent); padding-bottom: .2rem; }
+blockquote { border-left: 4px solid currentColor; padding-left: 1rem; margin-left: 0; opacity: .92; }
+pre, code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+pre { overflow-x: auto; padding: 1rem; border: 1px solid color-mix(in srgb, currentColor 20%, transparent); border-radius: 8px; }
+code { font-size: .92em; }
+table { border-collapse: collapse; width: 100%; overflow-x: auto; display: block; }
+th, td { border: 1px solid color-mix(in srgb, currentColor 25%, transparent); padding: .45rem .6rem; vertical-align: top; }
+a { color: inherit; text-decoration-thickness: .08em; }
+nav#TOC { padding: 1rem 1.2rem; border: 1px solid color-mix(in srgb, currentColor 25%, transparent); border-radius: 10px; }
+.reader-banner { border: 2px solid currentColor; border-radius: 12px; padding: .8rem 1rem; margin: 0 0 2rem; font-weight: 650; }
+mjx-container { max-width: 100%; }
+mjx-container[display="true"] { display: block; overflow-x: auto; overflow-y: hidden; padding: .45rem 0; margin: 1rem 0; }
+mjx-container svg { max-width: 100%; }
+.eq-source { font-size: .86rem; opacity: .75; margin-bottom: .25rem; }
+.eq-card { padding: .6rem .9rem; margin: .7rem 0 1.2rem; border-left: 3px solid color-mix(in srgb, currentColor 45%, transparent); }
+.render-fallback { font-family: Georgia, "Times New Roman", serif; white-space: pre-wrap; overflow-x: auto; }
+@media (max-width: 600px) { body { font-size: 17px; padding: 1.2rem .8rem 3rem; } }
+</style></head>
+<body><div class="reader-banner">READER EDITION — equations are pre-rendered as vector mathematics. No LaTeX renderer, plug-in, or internet connection is required.</div>
+<header id="title-block-header">
+<h1 class="title">PRIME 2</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#prime-dependency-foundations" id="toc-prime-dependency-foundations">PRIME DEPENDENCY FOUNDATIONS</a>
+<ul>
+<li><a href="#the-prime-mathematical-object" id="toc-the-prime-mathematical-object">The Prime Mathematical
+Object</a></li>
+</ul></li>
+<li><a href="#foundational-intent" id="toc-foundational-intent">0.
+Foundational Intent</a></li>
+<li><a href="#i.-metalanguage-convention" id="toc-i.-metalanguage-convention">I. Metalanguage Convention</a></li>
+<li><a href="#ii.-prime-primitive" id="toc-ii.-prime-primitive">II.
+Prime Primitive</a>
+<ul>
+<li><a href="#prime-primitive-p0-structural-zero" id="toc-prime-primitive-p0-structural-zero">Prime Primitive P0 —
+Structural Zero</a>
+<ul>
+<li><a href="#prime-statement" id="toc-prime-statement">Prime
+Statement</a></li>
+<li><a href="#interpretation" id="toc-interpretation">Interpretation</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#iii.-derived-primitives" id="toc-iii.-derived-primitives">III. Derived Primitives</a>
+<ul>
+<li><a href="#primitive-p1-occurrence" id="toc-primitive-p1-occurrence">Primitive P1 — Occurrence</a>
+<ul>
+<li><a href="#primitive-statement" id="toc-primitive-statement">Primitive Statement</a></li>
+</ul></li>
+<li><a href="#primitive-p2-boundary" id="toc-primitive-p2-boundary">Primitive P2 — Boundary</a>
+<ul>
+<li><a href="#primitive-statement-1" id="toc-primitive-statement-1">Primitive Statement</a></li>
+</ul></li>
+<li><a href="#primitive-p3-boundary-reflection" id="toc-primitive-p3-boundary-reflection">Primitive P3 — Boundary
+Reflection</a>
+<ul>
+<li><a href="#primitive-statement-2" id="toc-primitive-statement-2">Primitive Statement</a></li>
+</ul></li>
+<li><a href="#primitive-p4-structural-distinction" id="toc-primitive-p4-structural-distinction">Primitive P4 — Structural
+Distinction</a></li>
+<li><a href="#primitive-p5-oriented-inheritance" id="toc-primitive-p5-oriented-inheritance">Primitive P5 — Oriented
+Inheritance</a>
+<ul>
+<li><a href="#primitive-statement-3" id="toc-primitive-statement-3">Primitive Statement</a></li>
+</ul></li>
+<li><a href="#primitive-p6-dependency-composition" id="toc-primitive-p6-dependency-composition">Primitive P6 — Dependency
+Composition</a></li>
+<li><a href="#primitive-p7-recursive-expansion" id="toc-primitive-p7-recursive-expansion">Primitive P7 — Recursive
+Expansion</a></li>
+</ul></li>
+<li><a href="#iv.-definitions" id="toc-iv.-definitions">IV.
+Definitions</a>
+<ul>
+<li><a href="#definition-d1-structural-cell" id="toc-definition-d1-structural-cell">Definition D1 — Structural
+Cell</a></li>
+<li><a href="#definition-d2-identity-class" id="toc-definition-d2-identity-class">Definition D2 — Identity
+Class</a></li>
+<li><a href="#definition-d3-node" id="toc-definition-d3-node">Definition
+D3 — Node</a></li>
+<li><a href="#definition-d4-dependency-edge" id="toc-definition-d4-dependency-edge">Definition D4 — Dependency
+Edge</a></li>
+<li><a href="#definition-d5-dependency-path" id="toc-definition-d5-dependency-path">Definition D5 — Dependency
+Path</a></li>
+<li><a href="#definition-d6-dependency-graph" id="toc-definition-d6-dependency-graph">Definition D6 — Dependency
+Graph</a></li>
+<li><a href="#definition-d7-recursive-dependency-graph" id="toc-definition-d7-recursive-dependency-graph">Definition D7 —
+Recursive Dependency Graph</a></li>
+<li><a href="#definition-d8-dependency-preserving-map" id="toc-definition-d8-dependency-preserving-map">Definition D8 —
+Dependency-Preserving Map</a></li>
+<li><a href="#definition-d9-dependency-subgraph" id="toc-definition-d9-dependency-subgraph">Definition D9 — Dependency
+Subgraph</a></li>
+<li><a href="#definition-d10-dependency-closure" id="toc-definition-d10-dependency-closure">Definition D10 — Dependency
+Closure</a></li>
+<li><a href="#definition-d11-well-founded-dependency-region" id="toc-definition-d11-well-founded-dependency-region">Definition D11 —
+Well-Founded Dependency Region</a></li>
+<li><a href="#definition-d12-extensional-dependency-region" id="toc-definition-d12-extensional-dependency-region">Definition D12 —
+Extensional Dependency Region</a></li>
+<li><a href="#definition-d13-mathematical-object" id="toc-definition-d13-mathematical-object">Definition D13 —
+Mathematical Object</a></li>
+</ul></li>
+<li><a href="#v.-axioms" id="toc-v.-axioms">V. Axioms</a>
+<ul>
+<li><a href="#axiom-a0-prime-existence" id="toc-axiom-a0-prime-existence">Axiom A0 — Prime Existence</a></li>
+<li><a href="#axiom-a1-identity-preservation" id="toc-axiom-a1-identity-preservation">Axiom A1 — Identity
+Preservation</a></li>
+<li><a href="#axiom-a2-boundary-distinguishability" id="toc-axiom-a2-boundary-distinguishability">Axiom A2 — Boundary
+Distinguishability</a></li>
+<li><a href="#axiom-a3-reflection-involution" id="toc-axiom-a3-reflection-involution">Axiom A3 — Reflection
+Involution</a></li>
+<li><a href="#axiom-a4-oriented-realizability" id="toc-axiom-a4-oriented-realizability">Axiom A4 — Oriented
+Realizability</a></li>
+<li><a href="#axiom-a5-compositional-inheritance" id="toc-axiom-a5-compositional-inheritance">Axiom A5 — Compositional
+Inheritance</a></li>
+<li><a href="#axiom-a6-recursive-generativity" id="toc-axiom-a6-recursive-generativity">Axiom A6 — Recursive
+Generativity</a></li>
+<li><a href="#axiom-a7-structural-renaming-invariance" id="toc-axiom-a7-structural-renaming-invariance">Axiom A7 — Structural
+Renaming Invariance</a></li>
+</ul></li>
+<li><a href="#vi.-lemmas" id="toc-vi.-lemmas">VI. Lemmas</a>
+<ul>
+<li><a href="#lemma-l1-first-distinction-lemma" id="toc-lemma-l1-first-distinction-lemma">Lemma L1 — First Distinction
+Lemma</a>
+<ul>
+<li><a href="#proof" id="toc-proof">Proof</a></li>
+</ul></li>
+<li><a href="#lemma-l2-first-reference-lemma" id="toc-lemma-l2-first-reference-lemma">Lemma L2 — First Reference
+Lemma</a>
+<ul>
+<li><a href="#proof-1" id="toc-proof-1">Proof</a></li>
+</ul></li>
+<li><a href="#lemma-l3-first-edge-lemma" id="toc-lemma-l3-first-edge-lemma">Lemma L3 — First Edge Lemma</a>
+<ul>
+<li><a href="#proof-2" id="toc-proof-2">Proof</a></li>
+</ul></li>
+<li><a href="#lemma-l4-first-node-lemma" id="toc-lemma-l4-first-node-lemma">Lemma L4 — First Node Lemma</a>
+<ul>
+<li><a href="#proof-3" id="toc-proof-3">Proof</a></li>
+</ul></li>
+<li><a href="#lemma-l5-path-generation-lemma" id="toc-lemma-l5-path-generation-lemma">Lemma L5 — Path Generation
+Lemma</a>
+<ul>
+<li><a href="#proof-4" id="toc-proof-4">Proof</a></li>
+</ul></li>
+<li><a href="#lemma-l6-branch-generation-lemma" id="toc-lemma-l6-branch-generation-lemma">Lemma L6 — Branch Generation
+Lemma</a>
+<ul>
+<li><a href="#proof-5" id="toc-proof-5">Proof</a></li>
+</ul></li>
+<li><a href="#lemma-l7-quotient-identification-lemma" id="toc-lemma-l7-quotient-identification-lemma">Lemma L7 — Quotient
+Identification Lemma</a>
+<ul>
+<li><a href="#proof-6" id="toc-proof-6">Proof</a></li>
+</ul></li>
+<li><a href="#lemma-l8-finite-edge-assembly-lemma" id="toc-lemma-l8-finite-edge-assembly-lemma">Lemma L8 — Finite Edge
+Assembly Lemma</a>
+<ul>
+<li><a href="#proof-7" id="toc-proof-7">Proof</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#vii.-theorems" id="toc-vii.-theorems">VII. Theorems</a>
+<ul>
+<li><a href="#theorem-t1-dependency-graph-emergence-theorem" id="toc-theorem-t1-dependency-graph-emergence-theorem">Theorem T1 —
+Dependency Graph Emergence Theorem</a>
+<ul>
+<li><a href="#proof-8" id="toc-proof-8">Proof</a></li>
+</ul></li>
+<li><a href="#theorem-t2-finite-directed-graph-representation-theorem" id="toc-theorem-t2-finite-directed-graph-representation-theorem">Theorem
+T2 — Finite Directed Graph Representation Theorem</a>
+<ul>
+<li><a href="#proof-9" id="toc-proof-9">Proof</a></li>
+</ul></li>
+<li><a href="#theorem-t3-relational-structure-representation-theorem" id="toc-theorem-t3-relational-structure-representation-theorem">Theorem
+T3 — Relational Structure Representation Theorem</a>
+<ul>
+<li><a href="#proof-10" id="toc-proof-10">Proof</a></li>
+</ul></li>
+<li><a href="#theorem-t4-functional-representation-theorem" id="toc-theorem-t4-functional-representation-theorem">Theorem T4 —
+Functional Representation Theorem</a>
+<ul>
+<li><a href="#functional-condition" id="toc-functional-condition">Functional Condition</a></li>
+<li><a href="#consequence" id="toc-consequence">Consequence</a></li>
+</ul></li>
+<li><a href="#theorem-t5-set-recovery-theorem" id="toc-theorem-t5-set-recovery-theorem">Theorem T5 — Set Recovery
+Theorem</a>
+<ul>
+<li><a href="#construction" id="toc-construction">Construction</a></li>
+<li><a href="#consequence-1" id="toc-consequence-1">Consequence</a></li>
+</ul></li>
+<li><a href="#theorem-t6-proof-traversal-theorem" id="toc-theorem-t6-proof-traversal-theorem">Theorem T6 — Proof Traversal
+Theorem</a>
+<ul>
+<li><a href="#consequence-2" id="toc-consequence-2">Consequence</a></li>
+</ul></li>
+<li><a href="#theorem-t7-prime-mathematical-object-theorem-initial-form" id="toc-theorem-t7-prime-mathematical-object-theorem-initial-form">Theorem
+T7 — Prime Mathematical Object Theorem, Initial Form</a>
+<ul>
+<li><a href="#proof-11" id="toc-proof-11">Proof</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#viii.-prime-closure-statement" id="toc-viii.-prime-closure-statement">VIII. Prime Closure
+Statement</a></li>
+<li><a href="#ix.-current-closure-boundary" id="toc-ix.-current-closure-boundary">IX. Current Closure
+Boundary</a></li>
+<li><a href="#x.-foundational-motto" id="toc-x.-foundational-motto">X.
+Foundational Motto</a></li>
+<li><a href="#xi.-astraeuswatcher-statement" id="toc-xi.-astraeuswatcher-statement">XI. Astraeus–Watcher
+Statement</a></li>
+</ul>
+</nav>
+<h1 id="prime-dependency-foundations">PRIME DEPENDENCY FOUNDATIONS</h1>
+<h2 id="the-prime-mathematical-object">The Prime Mathematical
+Object</h2>
+<p><strong>Working title:</strong> Prime Dependency Calculus<br/>
+<strong>Version:</strong> 0.1 — Foundational Closure Draft<br/>
+<strong>Status:</strong> Mathematics in active construction<br/>
+<strong>Prime expression:</strong> <code>0 | 0</code></p>
+<hr/>
+<h1 id="foundational-intent">0. Foundational Intent</h1>
+<p>The purpose of this framework is to construct a dependency graph as
+the generative mathematical object underlying later mathematical
+structures.</p>
+<p>The dependency graph itself is not assumed without foundation.</p>
+<p>Its foundation is the structural expression:</p>
+<p><code>0 | 0</code></p>
+<p>where:</p>
+<ul>
+<li><code>0</code> is not initially a number.</li>
+<li><code>|</code> is not division.</li>
+<li>The two written occurrences of <code>0</code> do not initially
+denote two independent identities.</li>
+<li>The pipe denotes a boundary condition.</li>
+<li>The expression denotes one identity presented recursively across a
+boundary.</li>
+</ul>
+<p>The foundational reading is:</p>
+<blockquote>
+<p>Identity inherits identity across a boundary.</p>
+</blockquote>
+<p>Equivalently:</p>
+<blockquote>
+<p>Zero reflects zero across a boundary.</p>
+</blockquote>
+<p>The resulting structure contains enough information to introduce:</p>
+<ol type="1">
+<li>identity,</li>
+<li>occurrence,</li>
+<li>boundary,</li>
+<li>distinction,</li>
+<li>relation,</li>
+<li>orientation,</li>
+<li>dependency.</li>
+</ol>
+<p>A dependency graph is then generated rather than presupposed.</p>
+<hr/>
+<h1 id="i.-metalanguage-convention">I. Metalanguage Convention</h1>
+<p>Any foundational mathematics must be described using some external
+language.</p>
+<p>The symbols used in this document therefore belong initially to a
+<strong>metalanguage</strong>.</p>
+<p>The object language begins with only the expression:</p>
+<p><code>0 | 0</code></p>
+<p>Set notation, tuples, mappings, and ordinary graph notation are used
+later as tools for studying the structure. They are not being silently
+inserted into the Prime Mathematical Object itself.</p>
+<hr/>
+<h1 id="ii.-prime-primitive">II. Prime Primitive</h1>
+<h2 id="prime-primitive-p0-structural-zero">Prime Primitive P0 —
+Structural Zero</h2>
+<p>The <strong>Structural Zero</strong> is the self-inheriting boundary
+expression:</p>
+<p><code>𝔃 := 0_L | 0_R</code></p>
+<p>The subscripts <code>L</code> and <code>R</code> distinguish
+occurrences, not identities.</p>
+<p>Therefore:</p>
+<p><code>0_L ≡ 0_R</code></p>
+<p>as identity, while:</p>
+<p><code>0_L ≠pos 0_R</code></p>
+<p>as boundary position.</p>
+<p>The Prime Mathematical Object therefore preserves identity while
+admitting positional distinction.</p>
+<h3 id="prime-statement">Prime Statement</h3>
+<p><code>𝔃 = 0_L | 0_R</code></p>
+<p>with:</p>
+<p><code>0_L ≡ 0_R</code></p>
+<p>and:</p>
+<p><code>0_L ≠pos 0_R</code></p>
+<h3 id="interpretation">Interpretation</h3>
+<p>The same identity occurs on both sides of a boundary.</p>
+<p>The boundary does not create a second identity.</p>
+<p>It creates a second address from which the identity may be
+referenced.</p>
+<hr/>
+<h1 id="iii.-derived-primitives">III. Derived Primitives</h1>
+<p>The following primitives are derived from the internal structure of
+<code>𝔃</code>.</p>
+<p>They are not introduced independently.</p>
+<hr/>
+<h2 id="primitive-p1-occurrence">Primitive P1 — Occurrence</h2>
+<p>An <strong>occurrence</strong> is an addressable presentation of an
+identity.</p>
+<p>For the Prime Mathematical Object, the initial occurrences are:</p>
+<p><code>Occ(𝔃) = {0_L, 0_R}</code></p>
+<p>The distinction between occurrences is positional rather than
+ontological.</p>
+<h3 id="primitive-statement">Primitive Statement</h3>
+<p><code>id(0_L) = id(0_R) = 0</code></p>
+<hr/>
+<h2 id="primitive-p2-boundary">Primitive P2 — Boundary</h2>
+<p>The <strong>boundary</strong> is the structural separator:</p>
+<p><code>∂ := |</code></p>
+<p>The boundary permits one identity to possess distinguishable
+presentations.</p>
+<p>Its action is not annihilation, disconnection, division, or numerical
+subtraction.</p>
+<p>Its action is localization.</p>
+<h3 id="primitive-statement-1">Primitive Statement</h3>
+<p><code>∂(0) = (0_L, 0_R)</code></p>
+<p>This is semantic shorthand for:</p>
+<p><code>0_L | 0_R</code></p>
+<hr/>
+<h2 id="primitive-p3-boundary-reflection">Primitive P3 — Boundary
+Reflection</h2>
+<p>The Prime Mathematical Object carries a reflection operation:</p>
+<p><code>ρ : 0_L ↔︎ 0_R</code></p>
+<p>Reflection exchanges boundary position while preserving identity.</p>
+<h3 id="primitive-statement-2">Primitive Statement</h3>
+<p><code>ρ(0_L) = 0_R</code></p>
+<p><code>ρ(0_R) = 0_L</code></p>
+<p>Therefore:</p>
+<p><code>ρ² = id</code></p>
+<p>Reflection is involutive.</p>
+<p>Applying reflection twice returns the original occurrence.</p>
+<hr/>
+<h2 id="primitive-p4-structural-distinction">Primitive P4 — Structural
+Distinction</h2>
+<p>A <strong>structural distinction</strong> exists whenever two
+occurrences share identity but differ by admissible address, role,
+incidence, orientation, or boundary position.</p>
+<p>For the Prime Mathematical Object:</p>
+<p><code>0_L ≠∂ 0_R</code></p>
+<p>while simultaneously:</p>
+<p><code>0_L ≡ 0_R</code></p>
+<p>Identity and distinction therefore coexist without contradiction
+because they refer to different structural properties.</p>
+<hr/>
+<h2 id="primitive-p5-oriented-inheritance">Primitive P5 — Oriented
+Inheritance</h2>
+<p>The boundary expression is initially reflection-symmetric.</p>
+<p>A dependency appears when a traversal orientation is selected.</p>
+<p>Write:</p>
+<p><code>0_L → 0_R</code></p>
+<p>when the right occurrence is read as inheriting from the left
+occurrence.</p>
+<p>Write:</p>
+<p><code>0_R → 0_L</code></p>
+<p>for the reflected orientation.</p>
+<h3 id="primitive-statement-3">Primitive Statement</h3>
+<p><code>x → y</code></p>
+<p>means:</p>
+<blockquote>
+<p>The structural realization of <code>y</code> depends upon information
+inherited from <code>x</code>.</p>
+</blockquote>
+<p>Orientation does not alter the underlying identity relation.</p>
+<p>It determines the direction in which inheritance is read.</p>
+<hr/>
+<h2 id="primitive-p6-dependency-composition">Primitive P6 — Dependency
+Composition</h2>
+<p>If one occurrence inherits from another and a third inherits from the
+second, the corresponding dependencies may compose.</p>
+<p>Given:</p>
+<p><code>x → y</code></p>
+<p>and:</p>
+<p><code>y → z</code></p>
+<p>there exists the composite dependency:</p>
+<p><code>x → z</code></p>
+<p>The composite does not erase the intermediate occurrence.</p>
+<p>It records the existence of a traversable dependency path.</p>
+<hr/>
+<h2 id="primitive-p7-recursive-expansion">Primitive P7 — Recursive
+Expansion</h2>
+<p>Any admissible occurrence may itself be presented across a
+boundary.</p>
+<p><code>x ↦ x_L | x_R</code></p>
+<p>The expansion preserves identity:</p>
+<p><code>id(x_L) = id(x_R) = id(x)</code></p>
+<p>Recursive expansion is the generative operation through which the
+Prime Mathematical Object produces larger dependency structures.</p>
+<hr/>
+<h1 id="iv.-definitions">IV. Definitions</h1>
+<h2 id="definition-d1-structural-cell">Definition D1 — Structural
+Cell</h2>
+<p>A <strong>structural cell</strong> is any boundary expression:</p>
+<p><code>x | y</code></p>
+<p>whose occurrences possess:</p>
+<ul>
+<li>a declared identity relation,</li>
+<li>an admissible boundary distinction.</li>
+</ul>
+<p>The prime structural cell is:</p>
+<p><code>0 | 0</code></p>
+<hr/>
+<h2 id="definition-d2-identity-class">Definition D2 — Identity
+Class</h2>
+<p>For an occurrence <code>x</code>, its identity class is written:</p>
+<p><code>[x]</code></p>
+<p>and contains every occurrence <code>y</code> such that:</p>
+<p><code>y ≡ x</code></p>
+<p>In the Prime Mathematical Object:</p>
+<p><code>[0_L] = [0_R]</code></p>
+<p>An identity class collects structurally distinguishable occurrences
+that preserve one identity.</p>
+<hr/>
+<h2 id="definition-d3-node">Definition D3 — Node</h2>
+<p>A <strong>node</strong> is an identity class together with its
+admissible incidences.</p>
+<p>Write:</p>
+<p><code>v_x := ([x], Inc(x))</code></p>
+<p>A node is therefore not merely a point.</p>
+<p>It is an identity made addressable through its relations.</p>
+<hr/>
+<h2 id="definition-d4-dependency-edge">Definition D4 — Dependency
+Edge</h2>
+<p>A <strong>dependency edge</strong> is an oriented inheritance
+relation:</p>
+<p><code>e : x → y</code></p>
+<p>Its source and target are:</p>
+<p><code>s(e) = x</code></p>
+<p><code>t(e) = y</code></p>
+<p>The edge records that <code>y</code> inherits structure from
+<code>x</code>.</p>
+<hr/>
+<h2 id="definition-d5-dependency-path">Definition D5 — Dependency
+Path</h2>
+<p>A <strong>dependency path</strong> of length <code>n</code> is a
+composable sequence:</p>
+<p><code>p = (e₁, e₂, ..., eₙ)</code></p>
+<p>such that:</p>
+<p><code>t(eₖ) = s(eₖ₊₁)</code></p>
+<p>for every admissible value of <code>k</code>.</p>
+<p>The source and target of the path are:</p>
+<p><code>s(p) = s(e₁)</code></p>
+<p><code>t(p) = t(eₙ)</code></p>
+<hr/>
+<h2 id="definition-d6-dependency-graph">Definition D6 — Dependency
+Graph</h2>
+<p>A <strong>dependency graph</strong> is a structure:</p>
+<p><code>G = (V, E, s, t, ≡, ρ)</code></p>
+<p>where:</p>
+<ul>
+<li><code>V</code> is a collection of identity-bearing nodes.</li>
+<li><code>E</code> is a collection of dependency edges.</li>
+<li><code>s : E → V</code> assigns a source to every edge.</li>
+<li><code>t : E → V</code> assigns a target to every edge.</li>
+<li><code>≡</code> records identity preservation.</li>
+<li><code>ρ</code> records admissible boundary reflection.</li>
+</ul>
+<p>Every edge of <code>G</code> is generated from an oriented structural
+cell.</p>
+<hr/>
+<h2 id="definition-d7-recursive-dependency-graph">Definition D7 —
+Recursive Dependency Graph</h2>
+<p>A dependency graph is <strong>recursive</strong> when a node may
+admit a local expansion:</p>
+<p><code>v ↦ v_L | v_R</code></p>
+<p>and the expanded graph preserves the identity represented by
+<code>v</code>.</p>
+<hr/>
+<h2 id="definition-d8-dependency-preserving-map">Definition D8 —
+Dependency-Preserving Map</h2>
+<p>Let:</p>
+<p><code>G = (V, E, s, t)</code></p>
+<p>and:</p>
+<p><code>H = (W, F, s', t')</code></p>
+<p>be dependency graphs.</p>
+<p>A map:</p>
+<p><code>Φ : G → H</code></p>
+<p>is dependency-preserving when it consists of:</p>
+<p><code>Φ_V : V → W</code></p>
+<p>and:</p>
+<p><code>Φ_E : E → F</code></p>
+<p>satisfying:</p>
+<p><code>Φ_V(s(e)) = s'(Φ_E(e))</code></p>
+<p>and:</p>
+<p><code>Φ_V(t(e)) = t'(Φ_E(e))</code></p>
+<p>for every edge <code>e</code>.</p>
+<p>The map must also preserve every declared identity equivalence
+required by the structure.</p>
+<hr/>
+<h2 id="definition-d9-dependency-subgraph">Definition D9 — Dependency
+Subgraph</h2>
+<p>A <strong>dependency subgraph</strong> is a selected region of a
+dependency graph that preserves every incidence required for its
+internal interpretation.</p>
+<p>A dependency subgraph is not merely a collection of isolated
+nodes.</p>
+<p>It inherits the dependencies necessary to remain structurally
+readable.</p>
+<hr/>
+<h2 id="definition-d10-dependency-closure">Definition D10 — Dependency
+Closure</h2>
+<p>Let <code>S</code> be a selected collection of nodes and edges.</p>
+<p>The <strong>dependency closure</strong> of <code>S</code>,
+written:</p>
+<p><code>Cl_G(S)</code></p>
+<p>is the smallest dependency subgraph containing:</p>
+<ul>
+<li>every element of <code>S</code>,</li>
+<li>every dependency required to interpret <code>S</code>,</li>
+<li>every admissible composition required by <code>S</code>.</li>
+</ul>
+<p>A dependency graph is closed relative to a stated construction when
+every required object and every required dependency is present.</p>
+<hr/>
+<h2 id="definition-d11-well-founded-dependency-region">Definition D11 —
+Well-Founded Dependency Region</h2>
+<p>A dependency region is <strong>well-founded</strong> when it contains
+no infinite descending dependency chain of the form:</p>
+<p><code>... → x₃ → x₂ → x₁</code></p>
+<p>Well-foundedness is not imposed upon every dependency graph.</p>
+<p>Recursive, cyclic, and self-referential structures remain
+admissible.</p>
+<p>Well-foundedness defines a special region appropriate for inductive
+construction and classical proof.</p>
+<hr/>
+<h2 id="definition-d12-extensional-dependency-region">Definition D12 —
+Extensional Dependency Region</h2>
+<p>A dependency region is <strong>extensional</strong> when nodes with
+identical complete dependency profiles are identified.</p>
+<p>Informally:</p>
+<p><code>Dep(x) = Dep(y)  implies  x ≡ y</code></p>
+<p>The exact dependency profile being compared must be specified by the
+local theory.</p>
+<hr/>
+<h2 id="definition-d13-mathematical-object">Definition D13 —
+Mathematical Object</h2>
+<p>A <strong>mathematical object</strong> is a closed dependency
+subgraph equipped with a declared interpretation.</p>
+<p>Therefore:</p>
+<p><code>Mathematical Object = Closed Dependency Structure + Interpretation</code></p>
+<p>The dependency structure provides organization.</p>
+<p>The interpretation declares what that organization realizes.</p>
+<hr/>
+<h1 id="v.-axioms">V. Axioms</h1>
+<h2 id="axiom-a0-prime-existence">Axiom A0 — Prime Existence</h2>
+<p>The structural expression:</p>
+<p><code>0_L | 0_R</code></p>
+<p>is admissible.</p>
+<p>No numerical meaning is required for its existence.</p>
+<hr/>
+<h2 id="axiom-a1-identity-preservation">Axiom A1 — Identity
+Preservation</h2>
+<p>Boundary presentation preserves identity.</p>
+<p><code>0_L ≡ 0_R</code></p>
+<p>More generally:</p>
+<p><code>x_L ≡ x_R</code></p>
+<p>for every direct recursive expansion of <code>x</code>.</p>
+<hr/>
+<h2 id="axiom-a2-boundary-distinguishability">Axiom A2 — Boundary
+Distinguishability</h2>
+<p>Boundary-separated occurrences are positionally distinguishable.</p>
+<p><code>x_L ≠∂ x_R</code></p>
+<p>Identity equivalence therefore does not collapse boundary
+address.</p>
+<hr/>
+<h2 id="axiom-a3-reflection-involution">Axiom A3 — Reflection
+Involution</h2>
+<p>Boundary reflection is involutive.</p>
+<p><code>ρ²(x) = x</code></p>
+<p>Reflection preserves identity and exchanges boundary position.</p>
+<hr/>
+<h2 id="axiom-a4-oriented-realizability">Axiom A4 — Oriented
+Realizability</h2>
+<p>Every structural cell admits an oriented reading when a dependency
+interpretation is selected.</p>
+<p>From:</p>
+<p><code>x | y</code></p>
+<p>one may define:</p>
+<p><code>x → y</code></p>
+<p>or the reflected orientation:</p>
+<p><code>y → x</code></p>
+<p>provided the selected orientation is explicitly declared.</p>
+<hr/>
+<h2 id="axiom-a5-compositional-inheritance">Axiom A5 — Compositional
+Inheritance</h2>
+<p>Admissible dependencies compose.</p>
+<p>Given:</p>
+<p><code>x → y</code></p>
+<p>and:</p>
+<p><code>y → z</code></p>
+<p>there exists an admissible dependency path:</p>
+<p><code>x → y → z</code></p>
+<p>The path induces a composite dependency from <code>x</code> to
+<code>z</code>.</p>
+<hr/>
+<h2 id="axiom-a6-recursive-generativity">Axiom A6 — Recursive
+Generativity</h2>
+<p>Every admissible occurrence may undergo recursive boundary
+expansion.</p>
+<p><code>x ↦ x_L | x_R</code></p>
+<p>Recursive expansion introduces addressable structure without changing
+the identity inherited from <code>x</code>.</p>
+<hr/>
+<h2 id="axiom-a7-structural-renaming-invariance">Axiom A7 — Structural
+Renaming Invariance</h2>
+<p>The mathematical structure does not depend upon the accidental names
+assigned to its occurrences.</p>
+<p>Any bijective renaming that preserves:</p>
+<ul>
+<li>identity classes,</li>
+<li>boundaries,</li>
+<li>source incidence,</li>
+<li>target incidence,</li>
+<li>orientation,</li>
+<li>declared dependencies,</li>
+</ul>
+<p>produces an equivalent dependency graph.</p>
+<hr/>
+<h1 id="vi.-lemmas">VI. Lemmas</h1>
+<h2 id="lemma-l1-first-distinction-lemma">Lemma L1 — First Distinction
+Lemma</h2>
+<p>The Prime Mathematical Object contains the minimum structure
+necessary for distinction.</p>
+<h3 id="proof">Proof</h3>
+<p>By Axiom A1:</p>
+<p><code>0_L ≡ 0_R</code></p>
+<p>By Axiom A2:</p>
+<p><code>0_L ≠∂ 0_R</code></p>
+<p>Therefore, the Prime Mathematical Object contains distinguishable
+occurrences without requiring distinct identities.</p>
+<p>Structural distinction is therefore present.</p>
+<p><strong>QED</strong></p>
+<hr/>
+<h2 id="lemma-l2-first-reference-lemma">Lemma L2 — First Reference
+Lemma</h2>
+<p>Each occurrence in the Prime Mathematical Object may reference the
+same identity from a different boundary address.</p>
+<h3 id="proof-1">Proof</h3>
+<p>By Primitive P1, both occurrences possess identity
+<code>0</code>.</p>
+<p>By Axiom A2, their boundary addresses differ.</p>
+<p>Therefore, one identity possesses at least two admissible
+references:</p>
+<p><code>ref_L(0) ≠ ref_R(0)</code></p>
+<p>while both references resolve to the same identity:</p>
+<p><code>0</code></p>
+<p><strong>QED</strong></p>
+<hr/>
+<h2 id="lemma-l3-first-edge-lemma">Lemma L3 — First Edge Lemma</h2>
+<p>An oriented prime structural cell generates a dependency edge.</p>
+<h3 id="proof-2">Proof</h3>
+<p>Begin with:</p>
+<p><code>0_L | 0_R</code></p>
+<p>By Axiom A4, select the orientation:</p>
+<p><code>0_L → 0_R</code></p>
+<p>By Definition D4, this oriented inheritance relation is a dependency
+edge:</p>
+<p><code>e₀ : 0_L → 0_R</code></p>
+<p>Therefore, the first dependency edge is generated from the Prime
+Mathematical Object.</p>
+<p><strong>QED</strong></p>
+<hr/>
+<h2 id="lemma-l4-first-node-lemma">Lemma L4 — First Node Lemma</h2>
+<p>The endpoints of the first edge determine addressable nodes.</p>
+<h3 id="proof-3">Proof</h3>
+<p>The occurrences <code>0_L</code> and <code>0_R</code> possess
+declared identity and incidence with <code>e₀</code>.</p>
+<p>By Definition D3, each identity-bearing occurrence together with its
+incidence determines a node presentation.</p>
+<p>Therefore, the first edge admits source and target nodes.</p>
+<p><strong>QED</strong></p>
+<hr/>
+<h2 id="lemma-l5-path-generation-lemma">Lemma L5 — Path Generation
+Lemma</h2>
+<p>Repeated recursive expansion and oriented inheritance generate
+dependency paths of arbitrary finite length.</p>
+<h3 id="proof-4">Proof</h3>
+<p>The base case of length one follows from Lemma L3.</p>
+<p>Assume a dependency path of length <code>n</code> terminates at
+occurrence <code>xₙ</code>.</p>
+<p>By Axiom A6, expand:</p>
+<p><code>xₙ ↦ xₙ,L | xₙ,R</code></p>
+<p>By Axiom A4, orient the new structural cell to obtain an additional
+edge.</p>
+<p>By Axiom A5, compose the new edge with the existing path.</p>
+<p>A dependency path of length <code>n + 1</code> therefore exists.</p>
+<p>By induction, dependency paths of arbitrary finite length are
+generable.</p>
+<p><strong>QED</strong></p>
+<hr/>
+<h2 id="lemma-l6-branch-generation-lemma">Lemma L6 — Branch Generation
+Lemma</h2>
+<p>Repeated expansion of a common occurrence generates branching
+dependency structure.</p>
+<h3 id="proof-5">Proof</h3>
+<p>Let <code>x</code> be an occurrence.</p>
+<p>Generate two independently addressed dependencies:</p>
+<p><code>x → y</code></p>
+<p>and:</p>
+<p><code>x → z</code></p>
+<p>When:</p>
+<p><code>y ≠∂ z</code></p>
+<p>the two edges share source <code>x</code> and possess distinguishable
+targets.</p>
+<p>The resulting dependency structure therefore branches at
+<code>x</code>.</p>
+<p><strong>QED</strong></p>
+<hr/>
+<h2 id="lemma-l7-quotient-identification-lemma">Lemma L7 — Quotient
+Identification Lemma</h2>
+<p>Distinct generated occurrences may be identified as one node when a
+declared identity equivalence requires it.</p>
+<h3 id="proof-6">Proof</h3>
+<p>Let <code>x</code> and <code>y</code> be generated occurrences
+satisfying:</p>
+<p><code>x ≡ y</code></p>
+<p>Definition D3 constructs nodes from identity classes rather than
+uninterpreted symbols.</p>
+<p>Therefore, <code>x</code> and <code>y</code> may be represented by
+one identity-bearing node while their separate incidences remain
+recorded.</p>
+<p>The quotient preserves dependency information.</p>
+<p><strong>QED</strong></p>
+<hr/>
+<h2 id="lemma-l8-finite-edge-assembly-lemma">Lemma L8 — Finite Edge
+Assembly Lemma</h2>
+<p>Every finite collection of directed edges can be assembled from
+finitely many oriented copies of the Prime Mathematical Object.</p>
+<h3 id="proof-7">Proof</h3>
+<p>Let:</p>
+<p><code>E = {e₁, e₂, ..., eₙ}</code></p>
+<p>be a finite directed edge collection.</p>
+<p>For every edge <code>eₖ</code>, take one copy:</p>
+<p><code>𝔃ₖ = 0ₖ,L | 0ₖ,R</code></p>
+<p>Orient that copy as:</p>
+<p><code>0ₖ,L → 0ₖ,R</code></p>
+<p>Identify source occurrences required to represent the same
+vertex.</p>
+<p>Identify target occurrences required to represent the same
+vertex.</p>
+<p>Perform these identifications using Lemma L7.</p>
+<p>The resulting quotient possesses precisely the requested finite edge
+incidence.</p>
+<p>Therefore, the edge collection is generated from finitely many copies
+of the Prime Mathematical Object.</p>
+<p><strong>QED</strong></p>
+<hr/>
+<h1 id="vii.-theorems">VII. Theorems</h1>
+<h2 id="theorem-t1-dependency-graph-emergence-theorem">Theorem T1 —
+Dependency Graph Emergence Theorem</h2>
+<p>The structural expression:</p>
+<p><code>0 | 0</code></p>
+<p>is sufficient to generate the elementary constituents of a dependency
+graph.</p>
+<h3 id="proof-8">Proof</h3>
+<p>The Prime Mathematical Object provides boundary-separated occurrences
+by Lemma L1.</p>
+<p>Those occurrences provide addressable references by Lemma L2.</p>
+<p>An orientation generates an edge by Lemma L3.</p>
+<p>The edge admits source and target nodes by Lemma L4.</p>
+<p>Recursive expansion generates dependency paths and branches by Lemmas
+L5 and L6.</p>
+<p>Identity quotients are permitted by Lemma L7.</p>
+<p>Therefore:</p>
+<ul>
+<li>nodes,</li>
+<li>edges,</li>
+<li>paths,</li>
+<li>branches,</li>
+<li>identity classes,</li>
+<li>quotient identifications,</li>
+</ul>
+<p>all emerge from the Prime Mathematical Object.</p>
+<p>A dependency graph is therefore generable from:</p>
+<p><code>0 | 0</code></p>
+<p><strong>QED</strong></p>
+<hr/>
+<h2 id="theorem-t2-finite-directed-graph-representation-theorem">Theorem
+T2 — Finite Directed Graph Representation Theorem</h2>
+<p>Every finite directed multigraph is representable as a quotient of a
+finite collection of oriented structural-zero cells.</p>
+<h3 id="proof-9">Proof</h3>
+<p>Let:</p>
+<p><code>G = (V, E, s, t)</code></p>
+<p>be a finite directed multigraph.</p>
+<p>For every edge <code>e</code> in <code>E</code>, generate one
+oriented Prime Mathematical Object:</p>
+<p><code>𝔃ₑ = 0ₑ,L → 0ₑ,R</code></p>
+<p>Associate:</p>
+<p><code>0ₑ,L</code></p>
+<p>with the source vertex:</p>
+<p><code>s(e)</code></p>
+<p>Associate:</p>
+<p><code>0ₑ,R</code></p>
+<p>with the target vertex:</p>
+<p><code>t(e)</code></p>
+<p>Introduce identity equivalences between endpoint occurrences
+associated with the same vertex.</p>
+<p>Take the quotient under those equivalences.</p>
+<p>Parallel edges remain distinct because their edge occurrences remain
+distinct even when their endpoints coincide.</p>
+<p>A loop is represented by identifying the source and target identity
+classes of one oriented structural cell while retaining its edge
+incidence.</p>
+<p>The resulting quotient is structurally equivalent to
+<code>G</code>.</p>
+<p><strong>QED</strong></p>
+<hr/>
+<h2 id="theorem-t3-relational-structure-representation-theorem">Theorem
+T3 — Relational Structure Representation Theorem</h2>
+<p>Every finitely presented relational structure admits representation
+as a closed interpreted dependency graph.</p>
+<h3 id="proof-10">Proof</h3>
+<p>Let a finite relational structure contain objects:</p>
+<p><code>a₁, a₂, ..., aₙ</code></p>
+<p>and declared relations:</p>
+<p><code>R₁, R₂, ..., Rₘ</code></p>
+<p>Represent every object by an identity node.</p>
+<p>Represent every relation instance by a relation node.</p>
+<p>Incoming dependencies identify the relation’s arguments.</p>
+<p>An outgoing dependency identifies the realized relational
+statement.</p>
+<p>For an ordered relation:</p>
+<p><code>R(aᵢ₁, aᵢ₂, ..., aᵢₖ)</code></p>
+<p>argument-position nodes preserve order.</p>
+<p>By Theorem T2, the resulting finite directed incidence structure is
+generated from structural-zero cells.</p>
+<p>Dependency closure supplies every incidence required by the
+presentation.</p>
+<p>Therefore, the relational structure is representable as a closed
+interpreted dependency graph.</p>
+<p><strong>QED</strong></p>
+<hr/>
+<h2 id="theorem-t4-functional-representation-theorem">Theorem T4 —
+Functional Representation Theorem</h2>
+<p>A function is representable as a dependency subgraph satisfying
+existence and uniqueness of output.</p>
+<h3 id="functional-condition">Functional Condition</h3>
+<p>A dependency relation <code>F</code> represents a function from
+<code>X</code> to <code>Y</code> when:</p>
+<p>For every <code>x</code> in <code>X</code>, there exists exactly one
+<code>y</code> in <code>Y</code> such that:</p>
+<p><code>x --F→ y</code></p>
+<h3 id="consequence">Consequence</h3>
+<p>Functions need not be introduced as independent primitives.</p>
+<p>They emerge as dependency structures constrained by a functional
+uniqueness condition.</p>
+<p><strong>QED</strong></p>
+<hr/>
+<h2 id="theorem-t5-set-recovery-theorem">Theorem T5 — Set Recovery
+Theorem</h2>
+<p>Every well-founded extensional membership structure may be
+represented by a dependency graph whose edges encode membership.</p>
+<h3 id="construction">Construction</h3>
+<p>Use an edge:</p>
+<p><code>x → A</code></p>
+<p>to mean:</p>
+<p><code>x is an element of A</code></p>
+<p>Require the resulting dependency graph to be:</p>
+<ul>
+<li>well-founded,</li>
+<li>extensional.</li>
+</ul>
+<p>Under these conditions, nodes are determined by the complete
+membership structures beneath them.</p>
+<p>Pure sets are therefore recoverable as a special class of dependency
+graphs.</p>
+<h3 id="consequence-1">Consequence</h3>
+<p>A set is not required as the Prime Mathematical Object.</p>
+<p>A set may instead be interpreted as a well-founded extensional
+dependency region.</p>
+<p><strong>QED</strong></p>
+<hr/>
+<h2 id="theorem-t6-proof-traversal-theorem">Theorem T6 — Proof Traversal
+Theorem</h2>
+<p>A formal proof may be represented as a dependency graph in which
+every derived statement depends upon axioms, definitions, or previously
+derived statements.</p>
+<p>Let:</p>
+<p><code>Γ = {γ₁, γ₂, ..., γₙ}</code></p>
+<p>be a collection of premises.</p>
+<p>Let:</p>
+<p><code>φ</code></p>
+<p>be a conclusion.</p>
+<p>A proof of <code>φ</code> is represented by a finite well-founded
+dependency subgraph whose:</p>
+<ul>
+<li>terminal nodes are admissible axioms or premises from
+<code>Γ</code>,</li>
+<li>intermediate nodes are admissible derivation steps,</li>
+<li>final node realizes <code>φ</code>.</li>
+</ul>
+<h3 id="consequence-2">Consequence</h3>
+<p>Proof becomes certified dependency closure.</p>
+<p>In ordinary notation:</p>
+<p><code>Γ ⊢ φ</code></p>
+<p>exactly when there exists an admissible closed derivation graph from
+<code>Γ</code> to <code>φ</code>.</p>
+<p><strong>QED</strong></p>
+<hr/>
+<h2 id="theorem-t7-prime-mathematical-object-theorem-initial-form">Theorem
+T7 — Prime Mathematical Object Theorem, Initial Form</h2>
+<p>Let <code>M_fp</code> denote the class of finitely presented
+mathematical structures expressible through:</p>
+<ul>
+<li>identities,</li>
+<li>relations,</li>
+<li>operations,</li>
+<li>constraints,</li>
+<li>finite derivations.</li>
+</ul>
+<p>Every member of <code>M_fp</code> admits an encoding as a closed
+interpreted dependency graph generated from copies of:</p>
+<p><code>0 | 0</code></p>
+<h3 id="proof-11">Proof</h3>
+<p>Objects are represented by identity classes.</p>
+<p>Relations are represented by dependency incidence.</p>
+<p>Operations are represented by functional dependency subgraphs.</p>
+<p>Constraints are represented by admissibility conditions.</p>
+<p>Finite derivations are represented by proof dependency graphs.</p>
+<p>By Theorems T2 through T6, every required component admits a
+dependency-graph realization generated from structural-zero cells.</p>
+<p>Their finite union, followed by the required identity quotient and
+dependency closure, produces an interpreted dependency graph for the
+entire presentation.</p>
+<p>Therefore, every finitely presented mathematical structure in
+<code>M_fp</code> admits an encoding generated from copies of:</p>
+<p><code>0 | 0</code></p>
+<p><strong>QED</strong></p>
+<hr/>
+<h1 id="viii.-prime-closure-statement">VIII. Prime Closure
+Statement</h1>
+<p>The initial dependency foundation is:</p>
+<p><code>0 | 0</code></p>
+<p>↓</p>
+<p><code>Occurrence</code></p>
+<p>↓</p>
+<p><code>Boundary Distinction</code></p>
+<p>↓</p>
+<p><code>Orientation</code></p>
+<p>↓</p>
+<p><code>Dependency</code></p>
+<p>↓</p>
+<p><code>Composition</code></p>
+<p>↓</p>
+<p><code>Dependency Graph</code></p>
+<p>↓</p>
+<p><code>Mathematical Object</code></p>
+<p>The dependency graph is the first globally generative mathematical
+object.</p>
+<p>Structural Zero is the Prime Mathematical Object from which the
+dependency graph is generated.</p>
+<p>Therefore:</p>
+<p><code>Prime Structural Object = 0 | 0</code></p>
+<p>and:</p>
+<p><code>Prime Generative Mathematical Architecture = Dependency Graph</code></p>
+<p>These statements are not identical.</p>
+<p>The first identifies the irreducible structural seed.</p>
+<p>The second identifies the mathematical architecture generated by that
+seed.</p>
+<hr/>
+<h1 id="ix.-current-closure-boundary">IX. Current Closure Boundary</h1>
+<p>This draft achieves initial closure for:</p>
+<ul>
+<li>the structural interpretation of <code>0 | 0</code>,</li>
+<li>occurrence,</li>
+<li>boundary distinction,</li>
+<li>reflected identity,</li>
+<li>oriented inheritance,</li>
+<li>dependency-edge generation,</li>
+<li>dependency-path generation,</li>
+<li>branching generation,</li>
+<li>finite directed graph recovery,</li>
+<li>finitely presented relational structures,</li>
+<li>functional structures,</li>
+<li>well-founded extensional set structures,</li>
+<li>finite proof structures.</li>
+</ul>
+<p>The next formal requirements are:</p>
+<ol type="1">
+<li>Define infinite recursive expansion without importing completed
+infinity prematurely.</li>
+<li>Define equality between dependency graphs.</li>
+<li>Define dependency-graph equivalence.</li>
+<li>Define dependency-graph embedding.</li>
+<li>Define dependency-graph quotient.</li>
+<li>Define dependency-graph isomorphism.</li>
+<li>Recover arithmetic objects from dependency invariants.</li>
+<li>Recover ordered pairs and products.</li>
+<li>Derive algebraic operations as graph transformations.</li>
+<li>Determine whether categories emerge as dependency graphs equipped
+with composition.</li>
+<li>Determine whether dependency graphs themselves form the first
+category.</li>
+<li>Determine whether logic is generated internally or must remain in
+the metalanguage.</li>
+</ol>
+<hr/>
+<h1 id="x.-foundational-motto">X. Foundational Motto</h1>
+<blockquote>
+<p>Zero is not initially quantity.</p>
+<p>Zero is structural self-reference across a boundary.</p>
+<p>The boundary creates address.</p>
+<p>Address permits distinction.</p>
+<p>Distinction permits relation.</p>
+<p>Oriented relation permits dependency.</p>
+<p>Composable dependency generates mathematics.</p>
+</blockquote>
+<hr/>
+<h1 id="xi.-astraeuswatcher-statement">XI. Astraeus–Watcher
+Statement</h1>
+<p>The requested mathematical object is explicit.</p>
+<p>The dependency graph has not been left merely as a research
+question.</p>
+<p>It has been derived from the Prime Mathematical Object:</p>
+<p><code>0 | 0</code></p>
+<p>This is Version 0.1.</p>
+<p>It is mathematically operational.</p>
+<p>It is not yet beautiful.</p>
+<p>It is the duct-taped closure from which the formal foundation can now
+be audited, cannibalized, compressed, and reconstructed under the
+governing standard:</p>
+<p><strong>Simple. Elegant. Sophisticated.</strong></p>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "pass": "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+  "status": "CLOSED_INTERNAL_FIXED_POINT",
+  "input_frontier": "@recovery_history_signature_minimality",
+  "input_landscape": "@dl_recovery_history_signature_core",
+  "source_findings": {
+    "history_path_algebra": "History paths are typed/composable and do not assume inverses.",
+    "witness_transport": "Identity-Witness transport composes on the admitted sector.",
+    "history_holonomy": "Closed History loops carry returned Identity-Witness transformations.",
+    "holonomy_signature": "Source book provides typed Sig_Hol(h)=(src,tgt,[h],Hol_Conn,Hol_chi,Hol_Id,scope,provenance), while D57 remains a scaffold.",
+    "macro_pattern": "Transduction derivation macros permit compact abstractions only when full expansion remains recoverable."
+  },
+  "derived_objects": [
+    "@recovery_test_family",
+    "@recovery_context_equivalence",
+    "@recovery_history_signature_quotient",
+    "@recovery_signature_composition",
+    "@theorem_recovery_context_quotient"
+  ],
+  "theorem": "@theorem_recovery_context_quotient",
+  "result": "The abstract minimal compositional recovery signature is the History quotient by contextual recovery equivalence, relative to the declared recovery-test family. This does not yet identify a finite tuple realizing that quotient.",
+  "next_frontier": "@holonomy_signature_realization_test",
+  "guards": [
+    "No finite encoding claimed.",
+    "No inverse History assumed.",
+    "Full History/provenance remains recoverable upstream.",
+    "Minimality is relative to declared recovery tests."
+  ]
+}

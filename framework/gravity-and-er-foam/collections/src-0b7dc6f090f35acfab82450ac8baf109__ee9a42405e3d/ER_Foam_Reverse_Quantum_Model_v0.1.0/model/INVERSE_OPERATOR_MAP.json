@@ -1,0 +1,19 @@
+{
+  "forward": [
+    "|Q0>",
+    "persistence amplitude filter sqrt([1,1.02])",
+    "operator-conditioned chirality amplitude filter",
+    "constructive closure projector",
+    "normalization",
+    "|Q_ER>"
+  ],
+  "reverse": [
+    "|Q_ER>",
+    "restrict to constructive support",
+    "divide by chirality amplitude filter",
+    "divide by persistence amplitude filter",
+    "renormalize",
+    "|Q0>"
+  ],
+  "noninvertible_component": "closure projection removes destabilization ancestry; the minimal inverse sets that component to zero, matching the uploaded rest state"
+}

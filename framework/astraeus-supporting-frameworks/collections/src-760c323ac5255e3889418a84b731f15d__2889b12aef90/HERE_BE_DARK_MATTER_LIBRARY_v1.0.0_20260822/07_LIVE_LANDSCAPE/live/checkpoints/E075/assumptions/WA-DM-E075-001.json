@@ -1,0 +1,22 @@
+{
+  "assumption_id": "WA-DM-E075-001",
+  "name": "UCM Hidden Energy-Density Component Nonannihilation",
+  "status": "WORKING_ASSUMPTION",
+  "checkpoint": "E075",
+  "scope": "one selected E063 positive hidden-network diagnostic sector and one fixed readable observer/convention",
+  "statement": "Assume the recovered UCM event-to-readable-source projection does not annihilate the selected nonzero hidden local energy-density direction. In component form: Delta rho_H>0 implies u^mu u^nu [P_T(e_full)-P_T(e_vis)]_{mu nu} != 0 for the declared comparison observer u.",
+  "source_support": [
+    "@dm_resolution_density_profile REALIZES @energy_density",
+    "API 4.3 @energy_density ENTERS @stress_energy_tensor",
+    "ATLAS 133 relationship/adjacency energy realization",
+    "ATLAS 178/182 UCM source/event projection architecture",
+    "@dm_stress_energy_separation_gate"
+  ],
+  "not_claimed": [
+    "absolute calibration of rho_H",
+    "full reconstruction of T_mn from one scalar density",
+    "linearity or injectivity of the entire UCM source map",
+    "identity of dark matter with energy density"
+  ],
+  "proof_debt": "PD-DM-007"
+}

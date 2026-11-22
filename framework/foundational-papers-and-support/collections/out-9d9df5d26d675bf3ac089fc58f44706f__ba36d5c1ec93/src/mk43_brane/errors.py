@@ -1,0 +1,13 @@
+class BraneError(Exception): pass
+class RequestValidationError(BraneError): pass
+class ModuleCompatibilityError(BraneError): pass
+class PrivilegeViolation(BraneError): pass
+class HandleResolutionError(BraneError): pass
+class ApiRecoveryError(BraneError): pass
+class LibraryRecoveryError(BraneError): pass
+class CoverageError(BraneError): pass
+class ReportGenerationError(BraneError): pass
+class ArtifactValidationError(BraneError): pass
+class QmoStateError(BraneError): pass
+class ModuleReplacementError(BraneError): pass
+class SecurityBoundaryError(BraneError): pass

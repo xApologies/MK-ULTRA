@@ -1,0 +1,218 @@
+{
+  "a": "@ergoregion",
+  "b": "@graviton",
+  "radius": 2,
+  "a_node_count": 45,
+  "b_node_count": 105,
+  "interface": [
+    {
+      "handle": "@black_hole",
+      "distance_a": 1,
+      "distance_b": 1
+    },
+    {
+      "handle": "@ergoregion",
+      "distance_a": 0,
+      "distance_b": 2
+    },
+    {
+      "handle": "@graviton",
+      "distance_a": 2,
+      "distance_b": 0
+    },
+    {
+      "handle": "@ergosphere",
+      "distance_a": 1,
+      "distance_b": 2
+    },
+    {
+      "handle": "@metric_perturbation",
+      "distance_a": 2,
+      "distance_b": 1
+    },
+    {
+      "handle": "@time_shell_projection",
+      "distance_a": 2,
+      "distance_b": 1
+    },
+    {
+      "handle": "@apparent_horizon",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@black_hole_angular_momentum",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@black_hole_charge",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@black_hole_information_closure",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@black_hole_mass",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@black_hole_perturbation",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@black_hole_region",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@black_hole_uniqueness",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@cauchy_horizon",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@coordinate_singularity",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@cosmic_censorship",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@curvature_singularity",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@dynamical_horizon",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@einstein_field_equation",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@event_horizon",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@gravitational_self_coupling",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@horizon_area",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@inner_horizon",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@innermost_stable_circular_orbit",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@isolated_horizon",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@killing_horizon",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@light_ring",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@no_hair_theorem",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@penrose_singularity_theorem",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@photon_sphere",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@projected_gr_inheritance",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@quantum_field_in_curved_spacetime",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@readable_space_time",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@ring_singularity",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@spacetime",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@static_limit",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@surface_gravity",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@trapping_horizon",
+      "distance_a": 2,
+      "distance_b": 2
+    }
+  ],
+  "path_a_to_b": [
+    {
+      "source": "@ergoregion",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@graviton",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-47",
+      "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=6; path=@ergoregion -> @black_hole -> @graviton; relations=FAMILY_DEPENDS_ON + DEPENDS_ON => COMPOSED_DEPENDENCY"
+    }
+  ],
+  "direct_neighborhood_policy": "high-confidence non-derived/direct-source Time-Space API edges only",
+  "path_policy": "high-confidence registered + admissibly derived Time-Space API edges; directions preserved"
+}

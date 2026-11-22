@@ -1,0 +1,70 @@
+{
+  "qmo_address": "@dl/chirality_holonomy_representation",
+  "members": [
+    "@r42/moebius_action",
+    "@r42/history_holonomy",
+    "@r42/holonomy_record",
+    "@r42/connection_selection_record",
+    "@r42/dihedral_signature",
+    "@r42/source_signature_floor",
+    "@open/connection_selection_semantics"
+  ],
+  "edges": [
+    {
+      "source": "@r42/moebius_action",
+      "relation": "INDUCES",
+      "target": "@r42/dihedral_signature"
+    },
+    {
+      "source": "@r42/dihedral_signature",
+      "relation": "IS_COMPONENT_OF",
+      "target": "@r42/source_signature_floor"
+    },
+    {
+      "source": "@r42/history_holonomy",
+      "relation": "TYPES",
+      "target": "@r42/source_signature_floor"
+    },
+    {
+      "source": "@r42/holonomy_record",
+      "relation": "REALIZES_RECORD_FOR",
+      "target": "@r42/source_signature_floor"
+    },
+    {
+      "source": "@r42/connection_selection_record",
+      "relation": "REQUIRES",
+      "target": "@open/connection_selection_semantics"
+    },
+    {
+      "source": "@r42/source_signature_floor",
+      "relation": "FEEDS",
+      "target": "@r42/connection_selection_record"
+    }
+  ],
+  "source_locks": {
+    "moebius": "T^6=id; H^2=id; HTH^-1=T^-1 under typed coordinate",
+    "history_holonomy": "returned Identity-Witness transformation equivalence class",
+    "connection_record": [
+      "arrow",
+      "state",
+      "R",
+      "B",
+      "H",
+      "E",
+      "chi",
+      "selected_lift",
+      "selection_witness",
+      "status"
+    ],
+    "holonomy_record": [
+      "loop",
+      "type",
+      "transport_action",
+      "equivalence_scope",
+      "defect",
+      "visibility_by_resolution",
+      "provenance"
+    ]
+  },
+  "status": "CLOSED_TO_ROADBLOCK"
+}

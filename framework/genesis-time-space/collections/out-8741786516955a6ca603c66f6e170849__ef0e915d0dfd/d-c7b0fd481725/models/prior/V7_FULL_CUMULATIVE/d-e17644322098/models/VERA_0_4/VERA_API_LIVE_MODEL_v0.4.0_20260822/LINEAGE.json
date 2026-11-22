@@ -1,0 +1,31 @@
+{
+  "schema": "ASTRAEUS_RAINBOW_ROAD_LINEAGE_V1",
+  "current_release": "0.7.0",
+  "predecessor": {
+    "file": "ASTRAEUS_OBJECT_MATH_API_v0.1.0_20260822.zip",
+    "sha256": "14b66a48009f818859e3fc5beea02bf1c9a88b41b61c2ecd98eb38b8c565e39d"
+  },
+  "architecture_specimen": {
+    "file": "4.3(20260822-134229).zip",
+    "sha256": "0010a4de99d78748ede57670b3bca1df6185b7ba8dd0faf266cc3ba1a4ccf752",
+    "role": "ARCHITECTURE_SPECIMEN_ONLY_NOT_MATHEMATICAL_SOURCE"
+  },
+  "restructure_script": "RESTRUCTURE_RAINBOW_ROAD_API_v0.2.0.py",
+  "continuity_note": "Current package includes the immediate predecessor and the architecture specimen so the v0.1 -> v0.2 transition can be reconstructed without treating API 4.3 domain content as canonical.",
+  "immediate_predecessor": "ASTRAEUS_RAINBOW_ROAD_OBJECT_MATH_API_v0.6.0_20260822.zip",
+  "predecessor_sha256": "4c3158c845c9fb7025915f38df5a178365057da0e891aa98f8fea047bc869b9e",
+  "self_build_pass": "003_RECOVERY_WITNESS",
+  "frontier_transition": "@recovery_witness_counterexample_crawl -> @recovery_history_signature_minimality",
+  "counterexample": "CE-RW-001",
+  "predecessor_storage_policy": "CONTENT_ADDRESSED_REFERENCE_NOT_RENESTED",
+  "packaging_note": "The immediate v0.3 predecessor is referenced by exact SHA-256 rather than nested again, preventing literal recursive package blow-up while preserving lineage identity.",
+  "live_model_revision": "v0.20.0",
+  "metadata_model": "QMO_ADDRESSED_LIVE_MODEL_V1",
+  "dependency_landscape_model": "ACTIVE_V1",
+  "command_namespace": "AT_COMMAND_REGISTRY_V1",
+  "canonical_help": "@help",
+  "command_qmo_separation": "ACTIVE",
+  "dependency_graph_model": "ACTIVE_V1",
+  "dependency_chain_model": "ACTIVE_V1",
+  "dependency_chain_note": "Ordered crawl/graph/landscape/QMO recursion may close as a subdomain when terminal closure is certified."
+}

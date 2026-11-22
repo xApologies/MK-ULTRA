@@ -1,0 +1,182 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_NEIGHBORS_V1",
+  "handle": "@configuration_space_3_1_1",
+  "incoming": [
+    [
+      "@artifact_coordinate",
+      {
+        "source": "@artifact_coordinate",
+        "relation": "DIRECTED_TO",
+        "target": "@configuration_space_3_1_1",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54835->54836",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@artifact_coordinate",
+      {
+        "source": "@artifact_coordinate",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@configuration_space_3_1_1",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DEPENDSON:54293",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@chirality_history",
+      {
+        "source": "@chirality_history",
+        "relation": "DIRECTED_TO",
+        "target": "@configuration_space_3_1_1",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54832->54833",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@chirality_history",
+      {
+        "source": "@chirality_history",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@configuration_space_3_1_1",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DEPENDSON:54292",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@geometric",
+      {
+        "source": "@geometric",
+        "relation": "DIRECTED_TO",
+        "target": "@configuration_space_3_1_1",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54829->54830",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@geometric",
+      {
+        "source": "@geometric",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@configuration_space_3_1_1",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DEPENDSON:54291",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@time_shell",
+      {
+        "source": "@time_shell",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@configuration_space_3_1_1",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DEPENDSON:54294",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ]
+  ],
+  "outgoing": [
+    [
+      "@dimensionality_audit",
+      {
+        "source": "@configuration_space_3_1_1",
+        "relation": "USED_BY",
+        "target": "@dimensionality_audit",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_USEDBY:54298",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@lorentz_signature",
+      {
+        "source": "@configuration_space_3_1_1",
+        "relation": "DIRECTED_TO",
+        "target": "@lorentz_signature",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54841->54842",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@lorentz_signature",
+      {
+        "source": "@configuration_space_3_1_1",
+        "relation": "USED_BY",
+        "target": "@lorentz_signature",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_USEDBY:54297",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@readable_spacetime",
+      {
+        "source": "@configuration_space_3_1_1",
+        "relation": "DIRECTED_TO",
+        "target": "@readable_spacetime",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54838->54839",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@readable_spacetime",
+      {
+        "source": "@configuration_space_3_1_1",
+        "relation": "USED_BY",
+        "target": "@readable_spacetime",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_USEDBY:54296",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ]
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry"
+}

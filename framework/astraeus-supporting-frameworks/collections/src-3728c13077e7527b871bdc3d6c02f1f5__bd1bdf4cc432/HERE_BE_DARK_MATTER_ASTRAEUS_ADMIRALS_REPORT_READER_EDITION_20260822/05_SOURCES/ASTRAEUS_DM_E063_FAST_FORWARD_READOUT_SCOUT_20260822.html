@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+
+<html lang="" xml:lang="" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8"/>
+<meta content="pandoc" name="generator"/>
+<meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
+<title>ASTRAEUS DM E063 FAST FORWARD READOUT SCOUT 20260822</title>
+<style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+<style>
+:root { color-scheme: light dark; }
+body { max-width: 980px; margin: 0 auto; padding: 2.2rem 1.5rem 5rem; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 1.62; }
+h1,h2,h3,h4 { line-height: 1.2; margin-top: 1.8em; }
+h1 { border-bottom: 2px solid currentColor; padding-bottom: .25rem; }
+h2 { border-bottom: 1px solid color-mix(in srgb, currentColor 30%, transparent); padding-bottom: .2rem; }
+blockquote { border-left: 4px solid currentColor; padding-left: 1rem; margin-left: 0; opacity: .92; }
+pre, code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+pre { overflow-x: auto; padding: 1rem; border: 1px solid color-mix(in srgb, currentColor 20%, transparent); border-radius: 8px; }
+code { font-size: .92em; }
+table { border-collapse: collapse; width: 100%; overflow-x: auto; display: block; }
+th, td { border: 1px solid color-mix(in srgb, currentColor 25%, transparent); padding: .45rem .6rem; vertical-align: top; }
+a { color: inherit; text-decoration-thickness: .08em; }
+nav#TOC { padding: 1rem 1.2rem; border: 1px solid color-mix(in srgb, currentColor 25%, transparent); border-radius: 10px; }
+.reader-banner { border: 2px solid currentColor; border-radius: 12px; padding: .8rem 1rem; margin: 0 0 2rem; font-weight: 650; }
+mjx-container { max-width: 100%; }
+mjx-container[display="true"] { display: block; overflow-x: auto; overflow-y: hidden; padding: .45rem 0; margin: 1rem 0; }
+mjx-container svg { max-width: 100%; }
+.eq-source { font-size: .86rem; opacity: .75; margin-bottom: .25rem; }
+.eq-card { padding: .6rem .9rem; margin: .7rem 0 1.2rem; border-left: 3px solid color-mix(in srgb, currentColor 45%, transparent); }
+.render-fallback { font-family: Georgia, "Times New Roman", serif; white-space: pre-wrap; overflow-x: auto; }
+@media (max-width: 600px) { body { font-size: 17px; padding: 1.2rem .8rem 3rem; } }
+</style></head>
+<body><div class="reader-banner">READER EDITION — equations are pre-rendered as vector mathematics. No LaTeX renderer, plug-in, or internet connection is required.</div>
+<header id="title-block-header">
+<h1 class="title">ASTRAEUS DM E063 FAST FORWARD READOUT SCOUT
+20260822</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#astraeus-dark-matter-e063-fast-forward-readout-scout" id="toc-astraeus-dark-matter-e063-fast-forward-readout-scout">Astraeus
+Dark Matter — E063 Fast-Forward Readout Scout</a>
+<ul>
+<li><a href="#status" id="toc-status">Status</a></li>
+<li><a href="#why-e063-moved-lanes" id="toc-why-e063-moved-lanes">1. Why
+E063 moved lanes</a></li>
+<li><a href="#registered-edge-crawl" id="toc-registered-edge-crawl">2.
+Registered-edge crawl</a></li>
+<li><a href="#new-internal-mathematical-closure" id="toc-new-internal-mathematical-closure">3. New internal mathematical
+closure</a></li>
+<li><a href="#concrete-wind-tunnel-vector" id="toc-concrete-wind-tunnel-vector">4. Concrete wind-tunnel
+vector</a></li>
+<li><a href="#the-next-qmo-is-smaller-than-the-old-embedding-problem" id="toc-the-next-qmo-is-smaller-than-the-old-embedding-problem">5. The
+next QMO is smaller than the old embedding problem</a>
+<ul>
+<li><a href="#probe-a-ucm-source-fiber-discrimination" id="toc-probe-a-ucm-source-fiber-discrimination">Probe A — UCM
+source-fiber discrimination</a></li>
+<li><a href="#probe-b-density-nonannihilation-shortcut" id="toc-probe-b-density-nonannihilation-shortcut">Probe B — density
+nonannihilation shortcut</a></li>
+</ul></li>
+<li><a href="#current-frontier" id="toc-current-frontier">6. Current
+frontier</a></li>
+<li><a href="#gate-ruling" id="toc-gate-ruling">7. Gate ruling</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="astraeus-dark-matter-e063-fast-forward-readout-scout">Astraeus
+Dark Matter — E063 Fast-Forward Readout Scout</h1>
+<h2 id="status">Status</h2>
+<p><strong>APPEND-ONLY LIVE-LANDSCAPE UPDATE</strong></p>
+<ul>
+<li>immutable rollback baseline: <strong>Dark Matter API
+2.2.0</strong></li>
+<li>prior checkpoint: <strong>E062</strong></li>
+<li>foundational embedding gate: <strong>parked, not
+closed</strong></li>
+<li>active exploration seed: <code>@dm_native_hidden_witness</code></li>
+<li>bounded-crawl terminal: <strong>OPEN_FORK</strong> at iteration
+<strong>2</strong></li>
+<li>live internal closures: <strong>1</strong></li>
+<li>new candidate QMOs: <strong>1</strong></li>
+<li>parent API promotions: <strong>0</strong></li>
+<li>physical dark-matter promotions: <strong>0</strong></li>
+</ul>
+<h2 id="why-e063-moved-lanes">1. Why E063 moved lanes</h2>
+<p>E062 showed that the hidden-state embedding branch returns to its own
+open handle. The correct response is to preserve that gate and stop
+recursively redefining it for now.</p>
+<p>DM 2.2 already contains a separate, finite downstream witness
+package:</p>
+<pre class="text"><code>@dm_native_hidden_witness
+  contains
+    @dm_resolution_density_profile
+    @dm_hidden_response_operator.</code></pre>
+<p>E063 therefore explores that earned structure conditionally rather
+than waiting for the global embedding problem to close.</p>
+<h2 id="registered-edge-crawl">2. Registered-edge crawl</h2>
+<p>The filtered outgoing walk begins:</p>
+<pre class="text"><code>iteration 0
+  @dm_native_hidden_witness
+
+iteration 1
+  @dm_hidden_response_operator
+  @dm_resolution_density_profile
+
+iteration 2 includes
+  @dm_continuity_laplacian
+  @dm_hidden_relational_load
+  @resolution
+  @energy_density
+  @dm_native_density_to_readable_source   [OPEN]</code></pre>
+<p>The run stops at the existing open transduction handle instead of
+manufacturing a map.</p>
+<h2 id="new-internal-mathematical-closure">3. New internal mathematical
+closure</h2>
+<p>The same positive two-port hidden bridge can satisfy both
+already-derived witness theorems.</p>
+<p>For</p>
+<pre class="text"><code>a --p-- h --q-- b,   p,q&gt;0,</code></pre>
+<p>the Schur reduction gives</p>
+<pre class="text"><code>w_eff = p q/(p+q) &gt; 0,
+DeltaLambda_H = w_eff [[1,-1],[-1,1]] != 0.</code></pre>
+<p>Under the positive hidden relationship-capacity assumptions and fixed
+<code>V&gt;0</code>,</p>
+<pre class="text"><code>Delta rho_H
+=
+[sum_(e in E_H) r(e) T_run(e)]/V
+&gt;0.</code></pre>
+<p>Therefore, on one support satisfying both premise sets,</p>
+<pre class="text"><code>W_H^R=(Delta boldrho_H^R,Lambda_H)</code></pre>
+<p>is jointly nonzero.</p>
+<p>This is registered in the Live Landscape as</p>
+<pre class="text"><code>@dm_joint_hidden_network_witness</code></pre>
+<p>with Closure Certificate <code>CC-DM-E063-001</code>.</p>
+<p>It is a conditional mathematical theorem, <strong>not</strong> a
+physical dark-matter promotion.</p>
+<h2 id="concrete-wind-tunnel-vector">4. Concrete wind-tunnel vector</h2>
+<p>E063 uses a deliberately small finite test vector:</p>
+<pre class="text"><code>p=2, q=3, V=10,
+r_e=w_e, T_run=1.</code></pre>
+<p>Then</p>
+<pre class="text"><code>w_eff = 6/5 = 1.2,
+DeltaLambda_H = 1.2 [[1,-1],[-1,1]],
+Delta rho_H = 0.5.</code></pre>
+<p>For <code>c=(1,0)</code>,</p>
+<pre class="text"><code>Delta j_H=(1.2,-1.2).</code></pre>
+<p>The example is dimensionless diagnostic algebra. It is not calibrated
+physical energy.</p>
+<h2 id="the-next-qmo-is-smaller-than-the-old-embedding-problem">5. The
+next QMO is smaller than the old embedding problem</h2>
+<p><code>QMO-DM-BRIDGE-CAND-004</code> targets the
+<strong>already-existing</strong> open handle</p>
+<pre class="text"><code>@dm_native_density_to_readable_source.</code></pre>
+<p>There are now two legitimate probes:</p>
+<h3 id="probe-a-ucm-source-fiber-discrimination">Probe A — UCM
+source-fiber discrimination</h3>
+<p>Use the recovered source architecture</p>
+<pre class="text"><code>Pi_U(O,Chi,A,P,Rred,S,B).</code></pre>
+<p>For a controlled full/visible pair with the same ordinary matter
+readout, ask only</p>
+<pre class="text"><code>Pi_U(u_full) != Pi_U(u_vis) ?</code></pre>
+<p>The source explicitly warns that listing adjacency/redistribution as
+arguments does not prove sensitivity, so no answer is inserted.</p>
+<h3 id="probe-b-density-nonannihilation-shortcut">Probe B — density
+nonannihilation shortcut</h3>
+<p>The existing stress-energy separation theorem needs only one readable
+density component:</p>
+<pre class="text"><code>Delta rho_read[u] != 0
+=&gt;
+Delta T_mn != 0.</code></pre>
+<p>So test</p>
+<pre class="text"><code>T_rho,R,u(Delta boldrho_H^R) != 0 ?</code></pre>
+<p>rather than reconstructing the entire stress-energy tensor.</p>
+<h2 id="current-frontier">6. Current frontier</h2>
+<p>The Live Landscape now distinguishes two levels:</p>
+<pre class="text"><code>foundation return gate:
+  @dm_hidden_state_embedding
+
+active exploration frontier:
+  @dm_native_density_to_readable_source</code></pre>
+<p>This is intentional. Failure of the active lane does not erase the
+parked foundational problem, and success in the active lane does not
+retroactively prove the embedding exists.</p>
+<h2 id="gate-ruling">7. Gate ruling</h2>
+<pre class="text"><code>E063 RESULT:
+  one conditional dual-witness theorem internally closed
+  one explicit finite test vector validated
+  registered crawl stopped at existing open readout handle
+  foundational embedding branch preserved as parked return gate
+  next QMO = QMO-DM-BRIDGE-CAND-004
+  next handle = @dm_native_density_to_readable_source
+
+parent promotions: 0
+physical promotions: 0
+DM 2.2 mutation: 0</code></pre>
+</body>
+</html>

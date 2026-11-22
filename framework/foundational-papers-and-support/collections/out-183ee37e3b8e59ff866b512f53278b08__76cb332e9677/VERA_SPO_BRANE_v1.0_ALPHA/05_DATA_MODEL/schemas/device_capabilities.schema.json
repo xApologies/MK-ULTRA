@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "capability_fingerprint": {
+      "type": "string"
+    },
+    "device_id": {
+      "type": "string"
+    },
+    "localization_preservation": {
+      "type": "boolean"
+    },
+    "max_processing_latency_ms": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "operations": {
+      "items": {
+        "enum": [
+          "PRESERVE",
+          "ATTENUATE",
+          "TRANSFORM",
+          "EMPHASIZE"
+        ]
+      },
+      "type": "array"
+    },
+    "output_safety_bounds": {
+      "type": "object"
+    },
+    "user_override_supported": {
+      "const": true
+    }
+  },
+  "required": [
+    "device_id",
+    "capability_fingerprint",
+    "operations",
+    "user_override_supported"
+  ],
+  "title": "Device Capabilities",
+  "type": "object"
+}

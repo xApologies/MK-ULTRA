@@ -1,0 +1,114 @@
+{
+  "schema": "E062_SELECTED_MATH5_OBJECTS",
+  "objects": [
+    {
+      "handle": "@admissible_lift_family",
+      "canonical_name": "@admissible_lift_family",
+      "type": "lift structure",
+      "status": "PROMOTED_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "Family LiftSet(f,x) of structurally admissible typed lifts before connection selection.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v49"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v49"
+      }
+    },
+    {
+      "handle": "@chirality_fabric",
+      "canonical_name": "@chirality_fabric",
+      "type": "distributed admissibility/gluing candidate",
+      "status": "STRONG_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "Candidate: local admissibility objects + overlap transition maps + descent compatibility.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-271",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-276"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    },
+    {
+      "handle": "@cross_resolution_section",
+      "canonical_name": "Cross-Resolution Section",
+      "type": "compatible family",
+      "status": "SOURCE_BACKED_SYNTHESIS",
+      "branch": "live_model",
+      "definition": "Family s_a(R)=rho_R(a) compatible under declared Resolution handoffs.",
+      "provenance": [
+        "LIVE_MODEL::NF-004/NF-005"
+      ]
+    },
+    {
+      "handle": "@formal_lift_family",
+      "canonical_name": "@formal_lift_family",
+      "type": "lift structure",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Formal family LiftSet(f,x) of all structurally admissible lifts.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v50"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v50"
+      }
+    },
+    {
+      "handle": "@gluing_data",
+      "canonical_name": "@gluing_data",
+      "type": "transition data",
+      "status": "PROMOTED_CANDIDATE",
+      "branch": "transduction_geometry",
+      "definition": "Representative local transition maps plus their equivalence/gauge class for reconstruction and descent auditing.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-303",
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-305"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v41"
+      }
+    },
+    {
+      "handle": "@operative_lift_family",
+      "canonical_name": "@operative_lift_family",
+      "type": "lift structure",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Bandwidth-restricted subset of the formal lift family.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::v50"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v50"
+      }
+    },
+    {
+      "handle": "@transduction_descent",
+      "canonical_name": "@transduction_descent",
+      "type": "descent architecture",
+      "status": "MAJOR_PROMOTION",
+      "branch": "transduction_geometry",
+      "definition": "Local-to-global gluing architecture for connections/admissibility data.",
+      "provenance": [
+        "TRANSDUCTION_GEOMETRY::QMO_LEDGER_REGISTRY.json#L-270"
+      ],
+      "source_status": "IMPORTED_NATIVE_OBJECT",
+      "metadata": {
+        "identity_status": "CREATED",
+        "live_model_revision": "v39"
+      }
+    }
+  ]
+}

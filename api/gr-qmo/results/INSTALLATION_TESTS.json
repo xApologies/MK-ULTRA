@@ -1,0 +1,257 @@
+{
+  "all_passed": true,
+  "named_checks": 50,
+  "checks": [
+    {
+      "name": "full_metric_roundtrip",
+      "passed": true,
+      "scope": "installed adapter on supplied fixture"
+    },
+    {
+      "name": "independent_source_roundtrip",
+      "passed": true,
+      "scope": "installed adapter on supplied fixture"
+    },
+    {
+      "name": "original_retained_data_roundtrip",
+      "passed": true,
+      "scope": "installed adapter on supplied fixture"
+    },
+    {
+      "name": "caller_data_not_mutated",
+      "passed": true,
+      "scope": "installed adapter on supplied fixture"
+    },
+    {
+      "name": "payload_original_matter_kept",
+      "passed": true,
+      "scope": "installed adapter on supplied fixture"
+    },
+    {
+      "name": "source_not_created_from_einstein",
+      "passed": true,
+      "scope": "installed adapter on supplied fixture"
+    },
+    {
+      "name": "curved_metric_scalar",
+      "passed": true,
+      "scope": "installed adapter on supplied fixture"
+    },
+    {
+      "name": "signature_check",
+      "passed": true,
+      "scope": "installed adapter on supplied fixture"
+    },
+    {
+      "name": "supplied_projection_callback_composed",
+      "passed": true,
+      "scope": "explicit identity fixture, not actual Pi_T"
+    },
+    {
+      "name": "missing_native_callback_rejected",
+      "passed": true,
+      "scope": "negative control"
+    },
+    {
+      "name": "reject_missing_or_invalid_retained_data",
+      "passed": true,
+      "scope": "negative control"
+    },
+    {
+      "name": "reject_missing_or_invalid_domain_witness",
+      "passed": true,
+      "scope": "negative control"
+    },
+    {
+      "name": "reject_missing_or_invalid_source_reference",
+      "passed": true,
+      "scope": "negative control"
+    },
+    {
+      "name": "reject_missing_or_invalid_probe_normals",
+      "passed": true,
+      "scope": "negative control"
+    },
+    {
+      "name": "reject_euclidean_metric",
+      "passed": true,
+      "scope": "negative control"
+    },
+    {
+      "name": "reject_degenerate_metric",
+      "passed": true,
+      "scope": "negative control"
+    },
+    {
+      "name": "reject_asymmetric_metric",
+      "passed": true,
+      "scope": "negative control"
+    },
+    {
+      "name": "asymmetric_source_rejected",
+      "passed": true,
+      "scope": "negative control"
+    },
+    {
+      "name": "metric_codec_roundtrip",
+      "passed": true,
+      "scope": "optional component codec only"
+    },
+    {
+      "name": "metric_codec_scale_rejected",
+      "passed": true,
+      "scope": "negative control"
+    },
+    {
+      "name": "mode_image_inverse",
+      "passed": true,
+      "scope": "finite synthetic isometry"
+    },
+    {
+      "name": "mode_outside_image_rejected",
+      "passed": true,
+      "scope": "negative control"
+    },
+    {
+      "name": "nonisometric_mode_map_rejected",
+      "passed": true,
+      "scope": "negative control"
+    },
+    {
+      "name": "feedback_response",
+      "passed": true,
+      "scope": "finite evaluated derivative fixture"
+    },
+    {
+      "name": "singular_feedback_rejected",
+      "passed": true,
+      "scope": "negative control"
+    },
+    {
+      "name": "history_energy_telescopes",
+      "passed": true,
+      "scope": "native scalar accounting"
+    },
+    {
+      "name": "closed_history_zero_net_not_zero_content",
+      "passed": true,
+      "scope": "scalar change"
+    },
+    {
+      "name": "nonpositive_native_unit_rejected",
+      "passed": true,
+      "scope": "negative control"
+    },
+    {
+      "name": "base_source_and_index_integrity",
+      "passed": true,
+      "scope": "source preservation"
+    },
+    {
+      "name": "original_handle_count_preserved",
+      "passed": true,
+      "scope": "index"
+    },
+    {
+      "name": "full_active_parent_edges_preserved",
+      "passed": true,
+      "scope": "index"
+    },
+    {
+      "name": "complete_active_qmo_edge_count",
+      "passed": true,
+      "scope": "index"
+    },
+    {
+      "name": "unchanged_parent_edges_preserved",
+      "passed": true,
+      "scope": "index"
+    },
+    {
+      "name": "two_direction_records_corrected",
+      "passed": true,
+      "scope": "index"
+    },
+    {
+      "name": "three_stale_derived_edges_retired",
+      "passed": true,
+      "scope": "index"
+    },
+    {
+      "name": "legacy_api_graph_not_loaded",
+      "passed": true,
+      "scope": "index"
+    },
+    {
+      "name": "no_dangling_dependencies",
+      "passed": true,
+      "scope": "index"
+    },
+    {
+      "name": "all_qmo_objects_preserved",
+      "passed": true,
+      "scope": "index"
+    },
+    {
+      "name": "correct_time_shell_realization",
+      "passed": true,
+      "scope": "index"
+    },
+    {
+      "name": "correct_reverse_lookup",
+      "passed": true,
+      "scope": "index"
+    },
+    {
+      "name": "old_time_shell_direction_absent",
+      "passed": true,
+      "scope": "index"
+    },
+    {
+      "name": "retired_downstream_edges_absent",
+      "passed": true,
+      "scope": "index"
+    },
+    {
+      "name": "all_integration_edges_expose_conditions",
+      "passed": true,
+      "scope": "index"
+    },
+    {
+      "name": "mass_v3_import_registered",
+      "passed": true,
+      "scope": "installed adapter on supplied fixture"
+    },
+    {
+      "name": "native_time_shell_record_preserved",
+      "passed": true,
+      "scope": "installed adapter on supplied fixture"
+    },
+    {
+      "name": "audit_12_not_promoted",
+      "passed": true,
+      "scope": "installed adapter on supplied fixture"
+    },
+    {
+      "name": "audit_provisional_statuses_retained",
+      "passed": true,
+      "scope": "installed adapter on supplied fixture"
+    },
+    {
+      "name": "fourteen_checkpoints_registered",
+      "passed": true,
+      "scope": "installed adapter on supplied fixture"
+    },
+    {
+      "name": "experimental_foam_not_active",
+      "passed": true,
+      "scope": "installed adapter on supplied fixture"
+    },
+    {
+      "name": "translator_preserved_bytewise",
+      "passed": true,
+      "scope": "installed adapter on supplied fixture"
+    }
+  ],
+  "scope": "installation, algebra, source preservation and constructed fixtures only"
+}

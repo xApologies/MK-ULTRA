@@ -1,0 +1,27 @@
+{
+  "experiment": "E017",
+  "candidate": "CAND-DM-ENDOGENOUS-FABRIC-LOCALIZED-RESPONSE-020",
+  "title": "Brute-Force H/O Scanning-Probe Localization on Endogenous ER Route Fabric",
+  "status": "BRUTE-FORCE LOCALIZATION RESULT / NOT CANONICAL UCM LAW / NOT PHYSICAL DARK-MATTER WITNESS",
+  "physical_dark_matter_witness": false,
+  "parent_promotions": 0,
+  "runs": {
+    "placements_per_probe_signal": 29791,
+    "supported_probe_projections": 6,
+    "signals": 2,
+    "total_sliding_probe_evaluations": 357492
+  },
+  "independent_test_signal": "absolute conditioned-minus-fresh chirality-history residual; this signal is not used to construct the E016 route-ready mask",
+  "results": {
+    "t0_10_top1pct_enrichment_min_by_family": {
+      "Hydrogen": 13.34448793016465,
+      "Oxygen": 13.34448793016465
+    },
+    "independent_H_vs_O_average_map_pearson": 0.999999047132285,
+    "all_supported_H_O_projections_top1pct_enriched_at_t0_10": true,
+    "H_O_average_maps_positive_correlation": true
+  },
+  "ruling": "The endogenous adjacency+corridor+persistence route-ready fabric predicts where an independent chirality-history response is strongest for brute-force translated H and O local probes. The effect is cross-probe and spatially localized rather than uniform across the sandbox.",
+  "boundary": "Probe translation and overlap response are controlled work-layer diagnostics. This does not establish the exact UCM Respond operator, Portal transport law, or readable gravitational response.",
+  "next_handle": "SELECT_HIGH_RESPONSE_ROUTE_PATCH_AS_TARGET_ISOLATOR_AND_TEST_SOURCE_UCM_RESPONSE_CHAIN"
+}

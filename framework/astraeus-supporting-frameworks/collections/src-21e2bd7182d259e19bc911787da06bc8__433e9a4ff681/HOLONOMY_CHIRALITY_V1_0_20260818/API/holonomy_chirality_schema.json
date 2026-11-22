@@ -1,0 +1,71 @@
+{
+  "book": "Holonomy & Chirality",
+  "version": "1.0",
+  "objects": {
+    "ChiralityState": [
+      "domain",
+      "state",
+      "chirality_class",
+      "provenance"
+    ],
+    "LiftFamily": [
+      "arrow",
+      "source_state",
+      "formal_lifts",
+      "bandwidth_available_lifts",
+      "status"
+    ],
+    "ConnectionSelection": [
+      "arrow",
+      "state",
+      "R",
+      "B",
+      "H",
+      "E",
+      "chi",
+      "selected_lift",
+      "selection_witness",
+      "status"
+    ],
+    "TransportPath": [
+      "path",
+      "selected_lifts",
+      "source",
+      "target",
+      "history_record"
+    ],
+    "HolonomyRecord": [
+      "loop",
+      "type",
+      "transport_action",
+      "equivalence_scope",
+      "defect",
+      "visibility_by_resolution",
+      "provenance"
+    ],
+    "SquareCurvature": [
+      "U",
+      "V",
+      "W",
+      "Z",
+      "path_1",
+      "path_2",
+      "defect",
+      "scope",
+      "status"
+    ],
+    "IdentitySensitivity": [
+      "identity_classifier",
+      "chirality_defect_class",
+      "sensitive",
+      "witness"
+    ]
+  },
+  "invariants": [
+    "Connection != Curvature",
+    "History != Identity",
+    "Bandwidth != Resolution",
+    "component holonomy != total Identity Holonomy",
+    "base loop != lifted loop action"
+  ]
+}

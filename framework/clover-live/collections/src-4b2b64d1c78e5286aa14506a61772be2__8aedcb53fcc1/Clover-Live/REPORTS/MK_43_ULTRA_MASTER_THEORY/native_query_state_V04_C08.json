@@ -1,0 +1,212 @@
+{
+  "api_address_count": 2384,
+  "chapter_ids": [
+    "V04-C08"
+  ],
+  "complete": true,
+  "created_at": "2026-08-10T12:13:33.261414+00:00",
+  "database_sha256_after": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03",
+  "database_sha256_before": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03",
+  "database_unchanged": true,
+  "failed_queries": [],
+  "next_handle": null,
+  "requested_handles": [
+    "@helicon_mathematics",
+    "@ingress_the_shear_corridor_opens"
+  ],
+  "results": [
+    {
+      "artifacts": [
+        {
+          "bytes": 9681,
+          "path": "provenance://unavailable/content-sha256/33ec2444a7e8e12e3cb65a73c92232deb0944efd37762c6fcbd8c17359b5fc55/helicon_mathematics_aa3e97a0128245a5851335924302dd31.md",
+          "sha256": "33ec2444a7e8e12e3cb65a73c92232deb0944efd37762c6fcbd8c17359b5fc55"
+        }
+      ],
+      "elapsed_seconds": 0.878333,
+      "ordinal": 0,
+      "requested_handle": "@helicon_mathematics",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/33ec2444a7e8e12e3cb65a73c92232deb0944efd37762c6fcbd8c17359b5fc55/helicon_mathematics_aa3e97a0128245a5851335924302dd31.md",
+          "rendered_realizations": 1,
+          "sha256": "33ec2444a7e8e12e3cb65a73c92232deb0944efd37762c6fcbd8c17359b5fc55",
+          "size_bytes": 9681,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "aa3e97a0128245a5851335924302dd31",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@helicon_mathematics",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V04_C08-0000",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 10099,
+          "path": "provenance://unavailable/content-sha256/7d2fcd4e89bbc9119b0421902af32a6bb1128f732509b00a7c2553154da4dae0/ingress_the_shear_corridor_opens_7660abc951d243199c619ded9ac82eb6.md",
+          "sha256": "7d2fcd4e89bbc9119b0421902af32a6bb1128f732509b00a7c2553154da4dae0"
+        }
+      ],
+      "elapsed_seconds": 0.241761,
+      "ordinal": 1,
+      "requested_handle": "@ingress_the_shear_corridor_opens",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/7d2fcd4e89bbc9119b0421902af32a6bb1128f732509b00a7c2553154da4dae0/ingress_the_shear_corridor_opens_7660abc951d243199c619ded9ac82eb6.md",
+          "rendered_realizations": 1,
+          "sha256": "7d2fcd4e89bbc9119b0421902af32a6bb1128f732509b00a7c2553154da4dae0",
+          "size_bytes": 10099,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "7660abc951d243199c619ded9ac82eb6",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@ingress_the_shear_corridor_opens",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V04_C08-0001",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    }
+  ],
+  "reused_master_queries": [],
+  "runtime_info": {
+    "api_visible_to_runtime": false,
+    "direct_api_access": false,
+    "direct_library_access": false,
+    "downstream_role": "brane",
+    "manifest": {
+      "architecture": {
+        "composition_rule": "contract-compatible ports; no domain overlap required",
+        "domain_policy": "independent-port-domains",
+        "module_storage": "external-only",
+        "mounts_external": [
+          "ai",
+          "api",
+          "library"
+        ],
+        "owns": [
+          "private_qmo",
+          "port_registry",
+          "composition_mechanism"
+        ],
+        "private_objects": [
+          "qmo"
+        ],
+        "runtime_visibility": [
+          "brane"
+        ]
+      },
+      "build_version": "2.3.3",
+      "entrypoint": "mk43_brane:Brane",
+      "module_id": "mk43.brane",
+      "name": "MK43 BRANE 2.3.3",
+      "package": "mk43_brane",
+      "release_identity_separate": true,
+      "release_version": "2.3.3",
+      "role": "brane",
+      "runtime_identity_stable": true,
+      "schema_version": "1.0",
+      "version": "2.3.3"
+    },
+    "package_root": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/src",
+    "private_qmo_access": false,
+    "qmo_visible_to_runtime": false,
+    "root": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/mk43_brane_mount_n5ptsyzt",
+    "runtime_boundary": "Runtime -> BRANE",
+    "runtime_module_id": "mk43.runtime",
+    "runtime_version": "4.2.0",
+    "source": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/BRANE_3.1.zip",
+    "source_sha256": "ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e"
+  },
+  "runtime_validation": {
+    "boundary": {
+      "ai_owned_by": "BRANE",
+      "api_owned_by": "BRANE",
+      "library_owned_by": "BRANE",
+      "qmo_owned_by": "BRANE",
+      "runtime_accepts": "BRANE",
+      "runtime_rejects_direct_api": true
+    },
+    "errors": [],
+    "info": {
+      "api_visible_to_runtime": false,
+      "direct_api_access": false,
+      "direct_library_access": false,
+      "downstream_role": "brane",
+      "manifest": {
+        "architecture": {
+          "composition_rule": "contract-compatible ports; no domain overlap required",
+          "domain_policy": "independent-port-domains",
+          "module_storage": "external-only",
+          "mounts_external": [
+            "ai",
+            "api",
+            "library"
+          ],
+          "owns": [
+            "private_qmo",
+            "port_registry",
+            "composition_mechanism"
+          ],
+          "private_objects": [
+            "qmo"
+          ],
+          "runtime_visibility": [
+            "brane"
+          ]
+        },
+        "build_version": "2.3.3",
+        "entrypoint": "mk43_brane:Brane",
+        "module_id": "mk43.brane",
+        "name": "MK43 BRANE 2.3.3",
+        "package": "mk43_brane",
+        "release_identity_separate": true,
+        "release_version": "2.3.3",
+        "role": "brane",
+        "runtime_identity_stable": true,
+        "schema_version": "1.0",
+        "version": "2.3.3"
+      },
+      "package_root": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/src",
+      "private_qmo_access": false,
+      "qmo_visible_to_runtime": false,
+      "root": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/mk43_brane_mount_n5ptsyzt",
+      "runtime_boundary": "Runtime -> BRANE",
+      "runtime_module_id": "mk43.runtime",
+      "runtime_version": "4.2.0",
+      "source": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/BRANE_3.1.zip",
+      "source_sha256": "ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e"
+    },
+    "valid": true,
+    "warnings": []
+  },
+  "schema": "mk-ultra-tome-native-chapter-query-receipt-v1",
+  "successful_queries": [
+    "@helicon_mathematics",
+    "@ingress_the_shear_corridor_opens"
+  ]
+}

@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+import sqlite3,json,urllib.parse
+from pathlib import Path
+from http.server import BaseHTTPRequestHandler,ThreadingHTTPServer
+DB=Path(__file__).resolve().parent.parent/"database"/"R43_CONNECTION_SELECTION_WITNESS.sqlite"
+def cx():
+ c=sqlite3.connect(DB);c.row_factory=sqlite3.Row;return c
+def rr(x):return [dict(r) for r in x.fetchall()]
+class H(BaseHTTPRequestHandler):
+ def out(self,x):
+  b=json.dumps(x,indent=2).encode();self.send_response(200);self.send_header("Content-Type","application/json");self.send_header("Content-Length",str(len(b)));self.end_headers();self.wfile.write(b)
+ def do_GET(self):
+  p=urllib.parse.urlparse(self.path).path;c=cx()
+  try:
+   if p=="/":return self.out({"landscape":"@dl/connection_selection_witness","terminal":"@open/domain_preference_or_state_instance","state":"ROADBLOCK_AFTER_SELECTION_SEMANTICS_CLOSURE"})
+   if p=="/criteria":return self.out(rr(c.execute("select * from watcher_criteria order by priority")))
+   if p=="/theorems":return self.out(rr(c.execute("select * from theorems")))
+   if p=="/roadblocks":return self.out(rr(c.execute("select * from roadblocks")))
+   return self.out({"error":"not found"})
+  finally:c.close()
+if __name__=="__main__":ThreadingHTTPServer(("127.0.0.1",8778),H).serve_forever()

@@ -1,0 +1,106 @@
+{
+  "schema": "tome-publication-renderer-validation/v1",
+  "created_at": "2026-08-10T18:36:09.160131+00:00",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "engine": "KaTeX 0.16.22 -> HTML/CSS -> Playwright -> Microsoft Edge PDF",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_06_QUANTUM_AND_FIELD_REALIZATION/MK_ULTRA_TOME_V06_C02_STATE_SPACES_PROBABILITY_AND_QUANTIZATION.pdf",
+    "bytes": 183974,
+    "sha256": "dd062e36b25cb54d75120999da81606507e732a3fddd1e9e340ab342db1ed280"
+  },
+  "actual_pages": 7,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V06-C02": 3
+  },
+  "chapter_validations": [
+    {
+      "chapter_id": "V06-C02",
+      "source_sha256": "4e86562656a1fac3f18ea5693b201c5db49cca00ca7f7afcec7d7419332f9c01",
+      "page_start": 3,
+      "headings": 21,
+      "display_equations": 18,
+      "inline_equations": 22,
+      "equation_tags": 18,
+      "api_handles": 5,
+      "table_rows": 6,
+      "content_markers_present": true
+    }
+  ],
+  "engine_metrics": {
+    "renderer": "TOME_PUBLICATION_RENDERER_V1",
+    "katexVersion": "0.16.22",
+    "chapters": [
+      {
+        "id": "V06-C02",
+        "sourceBytes": 16901,
+        "paragraphs": 52,
+        "headings": 21,
+        "displayEquations": 18,
+        "inlineEquations": 22,
+        "tables": 1,
+        "tableRows": 5,
+        "listItems": 0,
+        "codeBlocks": 0,
+        "figures": 0
+      }
+    ],
+    "paragraphs": 52,
+    "headings": 21,
+    "displayEquations": 18,
+    "inlineEquations": 22,
+    "tables": 1,
+    "tableRows": 5,
+    "listItems": 0,
+    "blockQuotes": 0,
+    "codeBlocks": 0,
+    "figures": 0,
+    "mathLayout": {
+      "checked": 18,
+      "scaled": [],
+      "remainingOverflow": []
+    }
+  },
+  "raw_latex_guard": {
+    "result": "PASS",
+    "hits": [],
+    "commands_scanned": [
+      "frac",
+      "mathcal",
+      "mathrm",
+      "begin",
+      "end",
+      "left",
+      "right",
+      "longrightarrow",
+      "rightarrow",
+      "otimes",
+      "partial",
+      "nabla",
+      "mu",
+      "nu",
+      "sum",
+      "int",
+      "operatorname"
+    ]
+  },
+  "visual_qa": {
+    "result": "PASS",
+    "pages_inspected": "ALL_7_PAGES",
+    "findings": {
+      "clipping": 0,
+      "overlap": 0,
+      "blank_pages": 0,
+      "unreadable_text": 0,
+      "math_layout_failures": 0
+    }
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V06-C02": "4e86562656a1fac3f18ea5693b201c5db49cca00ca7f7afcec7d7419332f9c01"
+  },
+  "source_hashes_after": {
+    "V06-C02": "4e86562656a1fac3f18ea5693b201c5db49cca00ca7f7afcec7d7419332f9c01"
+  },
+  "sealed_chapter_content_change_count": 0
+}

@@ -1,0 +1,45 @@
+{
+  "handle": "@dm_hidden_boundary_response_form",
+  "object_type": "mathematical_object",
+  "status": "ATLAS_DERIVED_ACTIVE",
+  "domain": "DM22",
+  "namespace": "projection",
+  "name": "Hidden Boundary-Response Form",
+  "definition": "Positive response geometry on relative S2 port states after quotienting the kernel of the hidden response operator.",
+  "math": "B_H([x],[y])=x^T Lambda_H y on R^P/ker(Lambda_H).",
+  "source_layer": "DM22",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "DM22",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 0,
+    "live_out_count": 1,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19755,
+        "source": "@dm_hidden_boundary_response_form",
+        "relation": "DESCENDS_FROM",
+        "target": "@dm_hidden_response_operator",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      }
+    ]
+  },
+  "address": "@dm_hidden_boundary_response_form",
+  "address_sha256": "9f374e531d2c86eec85b8032dee9d726462a1d7e71da0d4696cc937d7a2be82c"
+}

@@ -1,0 +1,34 @@
+{
+  "version": "3.0",
+  "checkpoint": "S3 Helicon / Transient ER / Dark-Sector Candidate",
+  "carrier": {
+    "T5": "S3 x S2",
+    "status": "UNCHANGED_STANDARD_BRANCH"
+  },
+  "s3_helicon": {
+    "object": "E_H -> S3",
+    "state": "H_3 in Gamma_adm(E_H)",
+    "status": "FORMALIZED_CANDIDATE"
+  },
+  "s3_to_s2": {
+    "map": "Tau_H,p",
+    "status": "TYPED_SOCKET_OPERATOR_OPEN"
+  },
+  "er_foam": {
+    "model": "dynamic edge activation a_ij[n]",
+    "status": "WORKING_FORMALIZATION"
+  },
+  "coarse_graining": {
+    "result": "transient links can yield persistent mean load under stationary ergodic hypotheses",
+    "status": "PROVED_CONDITIONAL"
+  },
+  "dark_sector": {
+    "criterion": "rho_vis(H)=0 and rho_G(H)!=0",
+    "status": "DEFINITION_CANDIDATE_EXISTENCE_OPEN"
+  },
+  "bianchi": {
+    "condition": "nabla(T_vis+T_H)=0",
+    "status": "HARD_DOWNSTREAM_REQUIREMENT"
+  },
+  "next_major_crossroad": "nonflat smooth S3 Helicon/chirality connection versus defects/history/generalized branch"
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+  "certificate_id": "CC-DM-E063-001",
+  "checkpoint": "E063",
+  "object": "@dm_joint_hidden_network_witness",
+  "decision": "DERIVED_CLOSED_INTERNAL",
+  "scope": "conditional finite mathematical witness only",
+  "premises": [
+    {
+      "source": "DM2.2 ATLAS 167 V24-T4",
+      "statement": "positive hidden path joining two readable ports gives nonzero reduced boundary response"
+    },
+    {
+      "source": "DM2.2 ATLAS 184 V29-T3",
+      "statement": "nonnegative hidden relationship-capacity terms with at least one strict positive term and V>0 give Delta rho_H>0"
+    },
+    {
+      "source": "DM2.2 ATLAS 207",
+      "statement": "native hidden witness keeps density-profile and response-operator coordinates distinct"
+    }
+  ],
+  "derivation": "Conjunction of two source-closed conditional results on one support satisfying both premise sets.",
+  "checks": {
+    "all_premises_admitted_in_source_domain": true,
+    "new_primitive_added": false,
+    "new_axiom_added": false,
+    "type_conflict_detected": false,
+    "provenance_complete": true,
+    "physical_promotion": false,
+    "baseline_dm22_modified": false
+  },
+  "limitations": [
+    "Does not certify existence of a physical hidden network",
+    "Does not certify UCM/readable-source sensitivity",
+    "Does not solve @dm_native_density_to_readable_source",
+    "Does not solve @dm_hidden_state_embedding"
+  ]
+}

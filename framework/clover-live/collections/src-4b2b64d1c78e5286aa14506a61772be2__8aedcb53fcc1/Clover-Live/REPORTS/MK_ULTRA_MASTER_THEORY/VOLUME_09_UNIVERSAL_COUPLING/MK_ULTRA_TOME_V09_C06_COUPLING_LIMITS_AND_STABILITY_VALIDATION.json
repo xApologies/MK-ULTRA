@@ -1,0 +1,106 @@
+{
+  "schema": "tome-publication-renderer-validation/v1",
+  "created_at": "2026-08-11T00:22:22.483398+00:00",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "engine": "KaTeX 0.16.22 -> HTML/CSS -> Playwright -> Microsoft Edge PDF",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_09_UNIVERSAL_COUPLING/MK_ULTRA_TOME_V09_C06_COUPLING_LIMITS_AND_STABILITY.pdf",
+    "bytes": 150537,
+    "sha256": "eae7080b1c54b58b872ffa0dfa3ff5ebc1bbf7db52290efa67c9567b5bae162f"
+  },
+  "actual_pages": 6,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V09-C06": 3
+  },
+  "chapter_validations": [
+    {
+      "chapter_id": "V09-C06",
+      "source_sha256": "3cf219ff3cdbf071d74d9eeab68abf8bbc1a49bbfe25cb43680e79a75d50580d",
+      "page_start": 3,
+      "headings": 24,
+      "display_equations": 21,
+      "inline_equations": 0,
+      "equation_tags": 21,
+      "api_handles": 1,
+      "table_rows": 2,
+      "content_markers_present": true
+    }
+  ],
+  "engine_metrics": {
+    "renderer": "TOME_PUBLICATION_RENDERER_V1",
+    "katexVersion": "0.16.22",
+    "chapters": [
+      {
+        "id": "V09-C06",
+        "sourceBytes": 7448,
+        "paragraphs": 43,
+        "headings": 24,
+        "displayEquations": 21,
+        "inlineEquations": 0,
+        "tables": 1,
+        "tableRows": 1,
+        "listItems": 0,
+        "codeBlocks": 0,
+        "figures": 0
+      }
+    ],
+    "paragraphs": 43,
+    "headings": 24,
+    "displayEquations": 21,
+    "inlineEquations": 0,
+    "tables": 1,
+    "tableRows": 1,
+    "listItems": 0,
+    "blockQuotes": 0,
+    "codeBlocks": 0,
+    "figures": 0,
+    "mathLayout": {
+      "checked": 21,
+      "scaled": [],
+      "remainingOverflow": []
+    }
+  },
+  "raw_latex_guard": {
+    "result": "PASS",
+    "hits": [],
+    "commands_scanned": [
+      "frac",
+      "mathcal",
+      "mathrm",
+      "begin",
+      "end",
+      "left",
+      "right",
+      "longrightarrow",
+      "rightarrow",
+      "otimes",
+      "partial",
+      "nabla",
+      "mu",
+      "nu",
+      "sum",
+      "int",
+      "operatorname"
+    ]
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V09-C06": "3cf219ff3cdbf071d74d9eeab68abf8bbc1a49bbfe25cb43680e79a75d50580d"
+  },
+  "source_hashes_after": {
+    "V09-C06": "3cf219ff3cdbf071d74d9eeab68abf8bbc1a49bbfe25cb43680e79a75d50580d"
+  },
+  "sealed_chapter_content_change_count": 0,
+  "visual_qa": {
+    "result": "PASS",
+    "scope": "ALL_6_PAGES",
+    "pages_inspected": 6,
+    "blank_pages": 0,
+    "clipped_text_or_math": 0,
+    "overlapping_elements": 0,
+    "unrendered_latex": 0,
+    "layout_defects": 0,
+    "inspection_method": "Poppler 120-DPI page render with full-document contact sheet"
+  }
+}

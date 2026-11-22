@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ModelPackage",
+  "type": "object",
+  "required": [
+    "package_handle",
+    "root_handle",
+    "addresses",
+    "package_version"
+  ],
+  "properties": {
+    "package_handle": {
+      "type": "string",
+      "pattern": "^@[A-Za-z0-9_.:-]+$"
+    },
+    "root_handle": {
+      "type": "string",
+      "pattern": "^@[A-Za-z0-9_.:-]+$"
+    },
+    "addresses": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "package_version": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string",
+      "default": "en-US"
+    }
+  }
+}

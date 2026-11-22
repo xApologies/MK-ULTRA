@@ -1,0 +1,22 @@
+{
+  "overall": "PASS",
+  "checks": {
+    "all_objects_have_required_fields": true,
+    "all_edges_have_required_fields": true,
+    "all_edge_handles_exist": true,
+    "all_equation_owners_exist": true,
+    "root_fixed_point_reached": true,
+    "work_layer_closure_recovered": true,
+    "parent_higgs_hash_unchanged": true,
+    "api43_hash_unchanged": true,
+    "physical_debts_preserved": true,
+    "native_graviton_source_debt_preserved": true
+  },
+  "counts": {
+    "objects": 74,
+    "edges": 147,
+    "equations": 19,
+    "proof_debt": 6
+  },
+  "closure_ruling": "NATIVE_HIGGS_WORK_LAYER_CLOSED__PHYSICAL_IDENTIFICATION_OPEN"
+}

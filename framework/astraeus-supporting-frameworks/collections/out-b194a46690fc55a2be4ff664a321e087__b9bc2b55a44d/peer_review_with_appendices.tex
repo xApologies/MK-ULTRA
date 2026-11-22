@@ -1,0 +1,189 @@
+
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{hyperref}
+
+\title{Unified Bead-Lattice Time-Shell Quantum Gravity:\\
+A Discrete Framework for Emergent Spacetime, Gravitons, and Cosmology}
+\author{Anonymous Submission}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We present a unified theoretical framework that connects Planck-scale structure,
+quantum gravity, emergent spacetime, transverse-traceless graviton propagation,
+entanglement-induced topology change, and cosmological evolution. The model is 
+built from a discrete network of Planck-scale beads forming a dynamic time-shell
+encoding the present. The bulk–shell system reproduces linearized graviton 
+dynamics, ER bridge formation, and classical general relativity in the continuum 
+limit. Detailed appendices provide full derivations of the TT kernel, bead 
+Hamiltonian, continuum limit, ER-bridge geometry, and cosmological behavior.
+\end{abstract}
+
+\section{Introduction}
+Spacetime is modeled as a two-dimensional time-shell populated by Planck-scale 
+beads, each encoding local geometric and energetic information. These beads 
+interact elastically and gravitationally, reproducing curvature, gravitational 
+waves, wormhole throats, and cosmological evolution.
+
+\section{Planck-Scale Bead Structure}
+Each bead $i$ carries log-energy $m_i = \ln(\mu_i/\mu_0)$, metric log-scale 
+$\varphi_i = \tfrac{1}{2}\ln(\det g^{(i)}_{ab})$, time phase $\theta_i$, and 
+adjacency edges $b_{ij}$ defining local geometry.
+
+\section{Time-Shell Geometry}
+The time shell is the 2D hypersurface of the present moment. Its induced metric:
+\[
+h_{ab} = \partial_a X^\mu \partial_b X^\nu g_{\mu\nu},
+\]
+determines spacetime curvature. The constitutive relation linking energy density 
+and geometric scale is:
+\[
+\varphi + \alpha m = \varphi_0.
+\]
+
+\section{Unified Lagrangian}
+\subsection{Bulk Action}
+\[
+S_{\rm bulk}
+= \frac{1}{16\pi G_N}\!\int d^4x\sqrt{-g}(R - 2\Lambda)
+- \frac{1}{2}\!\int d^4x\sqrt{-g}\!
+\left(\partial_\mu\Phi \partial^\mu\Phi + m_\Phi^2\Phi^2\right).
+\]
+
+\subsection{Shell Action}
+\[
+S_{\rm shell} = \int_{\Sigma} d^2x\sqrt{h}
+\left[
+\frac{1}{2}\rho_\varphi \dot{\varphi}^2
++ \frac{1}{2}\chi_m \dot{m}^2
++ \frac{1}{2}I_\theta \dot{\theta}^2
+- \frac{1}{2}\kappa (\Delta\varphi)^2
+- \frac{1}{2}D (\nabla m)^2
+\right].
+\]
+
+\subsection{Interaction Action}
+\[
+S_{\rm int}
+= \Gamma\!\int_{\Sigma}\! d^2x\sqrt{h}\,\mu(x)\,\Phi(X(x)).
+\]
+
+\subsection{Nonlocal Memory Kernel}
+\[
+S_{\rm mem}
+= \frac{1}{2}\!\int\! d^2x\sqrt{h}\!\int\! d^2y\sqrt{h}\;\mu(x)W(x,y)\mu(y).
+\]
+
+\section{Linearized Gravity and the TT Kernel}
+Linearizing $g_{\mu\nu}=\eta_{\mu\nu}+h_{\mu\nu}$ gives the Fierz-Pauli operator:
+\[
+\mathcal E_{\mu\nu}^{\ \ \rho\sigma}
+= \tfrac12(\delta_\mu^\rho \delta_\nu^\sigma\Box
++ \delta_\nu^\rho\delta_\mu^\sigma\Box
+- \eta^{\rho\sigma}\partial_\mu\partial_\nu
+- \eta_{\mu\nu}\Box\eta^{\rho\sigma}).
+\]
+Projecting onto TT modes yields:
+\[
+K_{\rm TT}(\omega,k)
+= \frac{4\pi G_N}{\sqrt{k^2 - \omega^2 + i0^+}}.
+\]
+
+\section{ER Bridges and Entanglement Geometry}
+Bead entanglement increases adjacency strengths $b_{ij}$, shrinking effective 
+distance and forming emergent wormhole throats.
+
+\section{Emergent Classical GR}
+Coarse-graining bead geometry yields curvature tensors:
+\[
+R_{abcd} \sim (\Delta g_{ab})_{\rm lattice},
+\]
+recovering Einstein's equations.
+
+\section{Cosmology}
+Energy density mapped to the spherical time-shell reproduces expansion. Heat-death 
+concentrates energy into Planck-scale clusters that seed new cycles.
+
+\newpage
+\appendix
+
+\section{Appendix A: Quadratic Expansion and TT Derivation}
+Starting from $g_{\mu\nu}=\eta_{\mu\nu}+h_{\mu\nu}$, we expand:
+\[
+S_{\rm bulk}^{(2)} = \frac{1}{2}\int d^4x\; h^{\mu\nu}\mathcal E_{\mu\nu}^{\ \ \rho\sigma}h_{\rho\sigma}.
+\]
+Applying TT projection:
+\[
+P_{\rm TT}^{ij,kl} = 
+\frac12(\delta^{ik}\delta^{jl} + \delta^{il}\delta^{jk})
+- \frac12\delta^{ij}\delta^{kl}
+- \frac{k^i k^k \delta^{jl} + k^i k^l \delta^{jk}+\dots}{k^2}.
+\]
+The induced shell kernel is:
+\[
+K_{\rm TT} = \Pi_{\rm TT}(\omega,k)\;G_{\rm bulk}(\omega,k)\;\Pi_{\rm TT}.
+\]
+
+\section{Appendix B: Bead Hamiltonian Derivation}
+Canonical momenta:
+\[
+\pi_{\varphi,i} = \rho_\varphi \dot{\varphi}_i,\quad
+\pi_{m,i} = \chi_m\dot{m}_i,\quad
+\pi_{\theta,i}=I_\theta \dot{\theta}_i.
+\]
+Hamiltonian:
+\[
+H = \sum_i\left[
+\frac{\pi_{\varphi,i}^2}{2\rho_\varphi}
++ \frac{\pi_{m,i}^2}{2\chi_m}
++ \frac{\pi_{\theta,i}^2}{2I_\theta}
+\right]
++ \!\sum_{\langle ij\rangle}\!
+\left[\frac12\kappa(\varphi_i-\varphi_j)^2
++ \frac12D(m_i-m_j)^2\right].
+\]
+
+\section{Appendix C: Continuum Limit to GR}
+Define lattice spacing $a$. As $a\to 0$:
+\[
+\varphi_i - \varphi_j \approx a\partial_a\varphi,
+\quad
+(\varphi_i - \varphi_j)^2 \to a^2(\partial\varphi)^2.
+\]
+Curvature emerges from second differences:
+\[
+g_{ab}(x+a\hat{e}_i) + g_{ab}(x-a\hat{e}_i) -2g_{ab}(x)
+\approx a^2\partial_i^2 g_{ab}.
+\]
+
+\section{Appendix D: ER Bridge Formation Equations}
+Entanglement modifies adjacency:
+\[
+b_{ij} = b_0 + \lambda\,S_{ij},
+\]
+where $S_{ij}$ is mutual entanglement entropy. Effective metric:
+\[
+d_{\rm eff}(i,j) = \frac{1}{b_{ij}}.
+\]
+Topology changes when:
+\[
+\frac{\partial^2 d_{\rm eff}}{\partial x^2} < 0.
+\]
+
+\section{Appendix E: Cosmological Cycle Dynamics}
+Energy density on shell:
+\[
+\mu(\theta,\phi,t) = \mu_0 f(t)Y_{\ell m}(\theta,\phi).
+\]
+Heat-death limit:
+\[
+\mu \to \mu_{\rm Planck},
+\]
+triggering bead collapse and new-cycle nucleation.
+
+\end{document}

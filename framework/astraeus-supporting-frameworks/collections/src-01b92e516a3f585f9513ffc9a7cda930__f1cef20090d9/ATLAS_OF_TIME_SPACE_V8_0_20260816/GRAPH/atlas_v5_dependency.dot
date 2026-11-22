@@ -1,0 +1,28 @@
+digraph AtlasV5 {
+  rankdir=TB;
+  node [shape=box, style="rounded"];
+  T5 [label="T5 = UTS3\n(candidate)"];
+  S3 [label="S3 continuity base"];
+  S2 [label="S2_p = S(T_p S3)\ndirection fiber"];
+  chi [label="chirality / Helicon connection A_H"];
+  eta [label="anchor localization eta(p)"];
+  FH [label="F_H = dA_H + A_H^2"];
+  LH [label="L_H(p,v)=||i_v F_H||^2"];
+  ER [label="transient ER event ensemble"];
+  moments [label="fiber moments D0,D2"];
+  dg [label="Delta g_H"];
+  qft [label="local QFT readout"];
+  gr [label="local GR readout"];
+  S3 -> T5 [label="unit tangent bundle"];
+  T5 -> S2 [label="fiber at p"];
+  chi -> FH;
+  eta -> chi [label="k(p)=k0+alpha eta"];
+  FH -> LH [label="contraction with v"];
+  S2 -> LH [label="v in S2_p"];
+  LH -> ER [label="candidate rate modulation"];
+  LH -> moments;
+  ER -> moments;
+  moments -> dg;
+  dg -> gr;
+  S2 -> qft;
+}

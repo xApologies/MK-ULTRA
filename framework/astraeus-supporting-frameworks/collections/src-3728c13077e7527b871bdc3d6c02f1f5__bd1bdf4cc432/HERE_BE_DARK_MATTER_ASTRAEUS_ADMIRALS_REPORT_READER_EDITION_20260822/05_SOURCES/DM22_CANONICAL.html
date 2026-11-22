@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+
+<html lang="" xml:lang="" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8"/>
+<meta content="pandoc" name="generator"/>
+<meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
+<title>DM22 CANONICAL</title>
+<style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+<style>
+:root { color-scheme: light dark; }
+body { max-width: 980px; margin: 0 auto; padding: 2.2rem 1.5rem 5rem; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 1.62; }
+h1,h2,h3,h4 { line-height: 1.2; margin-top: 1.8em; }
+h1 { border-bottom: 2px solid currentColor; padding-bottom: .25rem; }
+h2 { border-bottom: 1px solid color-mix(in srgb, currentColor 30%, transparent); padding-bottom: .2rem; }
+blockquote { border-left: 4px solid currentColor; padding-left: 1rem; margin-left: 0; opacity: .92; }
+pre, code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+pre { overflow-x: auto; padding: 1rem; border: 1px solid color-mix(in srgb, currentColor 20%, transparent); border-radius: 8px; }
+code { font-size: .92em; }
+table { border-collapse: collapse; width: 100%; overflow-x: auto; display: block; }
+th, td { border: 1px solid color-mix(in srgb, currentColor 25%, transparent); padding: .45rem .6rem; vertical-align: top; }
+a { color: inherit; text-decoration-thickness: .08em; }
+nav#TOC { padding: 1rem 1.2rem; border: 1px solid color-mix(in srgb, currentColor 25%, transparent); border-radius: 10px; }
+.reader-banner { border: 2px solid currentColor; border-radius: 12px; padding: .8rem 1rem; margin: 0 0 2rem; font-weight: 650; }
+mjx-container { max-width: 100%; }
+mjx-container[display="true"] { display: block; overflow-x: auto; overflow-y: hidden; padding: .45rem 0; margin: 1rem 0; }
+mjx-container svg { max-width: 100%; }
+.eq-source { font-size: .86rem; opacity: .75; margin-bottom: .25rem; }
+.eq-card { padding: .6rem .9rem; margin: .7rem 0 1.2rem; border-left: 3px solid color-mix(in srgb, currentColor 45%, transparent); }
+.render-fallback { font-family: Georgia, "Times New Roman", serif; white-space: pre-wrap; overflow-x: auto; }
+@media (max-width: 600px) { body { font-size: 17px; padding: 1.2rem .8rem 3rem; } }
+</style></head>
+<body><div class="reader-banner">READER EDITION — equations are pre-rendered as vector mathematics. No LaTeX renderer, plug-in, or internet connection is required.</div>
+<header id="title-block-header">
+<h1 class="title">DM22 CANONICAL</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#mk43-dark-matter-api" id="toc-mk43-dark-matter-api">MK43
+DARK MATTER API</a></li>
+<li><a href="#release-result" id="toc-release-result">0. RELEASE
+RESULT</a></li>
+<li><a href="#current-critical-path" id="toc-current-critical-path">1.
+CURRENT CRITICAL PATH</a></li>
+<li><a href="#major-2.1-closures" id="toc-major-2.1-closures">2. MAJOR
+2.1 CLOSURES</a></li>
+<li><a href="#object-registry" id="toc-object-registry">3. OBJECT
+REGISTRY</a>
+<ul>
+<li><a href="#dm_chromatic_optional_branch-optional-chromaticbasin-representation-branch" id="toc-dm_chromatic_optional_branch-optional-chromaticbasin-representation-branch"><code>@dm_chromatic_optional_branch</code>
+— Optional Chromatic/Basin Representation Branch</a></li>
+<li><a href="#dm_continuity_laplacian-selected-continuity-graph-laplacian" id="toc-dm_continuity_laplacian-selected-continuity-graph-laplacian"><code>@dm_continuity_laplacian</code>
+— Selected Continuity Graph Laplacian</a></li>
+<li><a href="#dm_dark_matter_qualification_locus-dark-matter-qualification-locus" id="toc-dm_dark_matter_qualification_locus-dark-matter-qualification-locus"><code>@dm_dark_matter_qualification_locus</code>
+— Dark-Matter Qualification Locus</a></li>
+<li><a href="#dm_dark_matter_qualification_nonempty-dark-matter-qualification-nonemptiness" id="toc-dm_dark_matter_qualification_nonempty-dark-matter-qualification-nonemptiness"><code>@dm_dark_matter_qualification_nonempty</code>
+— Dark-Matter Qualification Nonemptiness</a></li>
+<li><a href="#dm_dark_readout_defect-dark-readout-factorization-defect" id="toc-dm_dark_readout_defect-dark-readout-factorization-defect"><code>@dm_dark_readout_defect</code>
+— Dark Readout Factorization Defect</a></li>
+<li><a href="#dm_direct_cycle_gravity_no_go-direct-cycle-gravity-kernel-no-go" id="toc-dm_direct_cycle_gravity_no_go-direct-cycle-gravity-kernel-no-go"><code>@dm_direct_cycle_gravity_no_go</code>
+— Direct Cycle-Gravity Kernel No-Go</a></li>
+<li><a href="#dm_energy_gravity_consistency_filter-energy-gravity-consistency-filter" id="toc-dm_energy_gravity_consistency_filter-energy-gravity-consistency-filter"><code>@dm_energy_gravity_consistency_filter</code>
+— Energy-Gravity Consistency Filter</a></li>
+<li><a href="#dm_formal_persistence_qualification-hidden-state-formal-persistence-qualification" id="toc-dm_formal_persistence_qualification-hidden-state-formal-persistence-qualification"><code>@dm_formal_persistence_qualification</code>
+— Hidden-State Formal Persistence Qualification</a></li>
+<li><a href="#dm_hidden_boundary_contact-hidden-persistent-boundary-contact-set" id="toc-dm_hidden_boundary_contact-hidden-persistent-boundary-contact-set"><code>@dm_hidden_boundary_contact</code>
+— Hidden Persistent-Boundary Contact Set</a></li>
+<li><a href="#dm_hidden_boundary_response_form-hidden-boundary-response-form" id="toc-dm_hidden_boundary_response_form-hidden-boundary-response-form"><code>@dm_hidden_boundary_response_form</code>
+— Hidden Boundary-Response Form</a></li>
+<li><a href="#dm_hidden_persistent_subset-hidden-persistent-subset" id="toc-dm_hidden_persistent_subset-hidden-persistent-subset"><code>@dm_hidden_persistent_subset</code>
+— Hidden Persistent Subset</a></li>
+<li><a href="#dm_hidden_relational_load-hidden-relational-capacity-load" id="toc-dm_hidden_relational_load-hidden-relational-capacity-load"><code>@dm_hidden_relational_load</code>
+— Hidden Relational-Capacity Load</a></li>
+<li><a href="#dm_hidden_response_operator-hidden-s3-to-s2-response-operator" id="toc-dm_hidden_response_operator-hidden-s3-to-s2-response-operator"><code>@dm_hidden_response_operator</code>
+— Hidden S3 to S2 Response Operator</a></li>
+<li><a href="#dm_hidden_s3_network-hidden-s3-multi-port-continuity-network" id="toc-dm_hidden_s3_network-hidden-s3-multi-port-continuity-network"><code>@dm_hidden_s3_network</code>
+— Hidden S3 Multi-Port Continuity Network</a></li>
+<li><a href="#dm_hidden_sector_conservation-hidden-sector-conservation-exchange-law" id="toc-dm_hidden_sector_conservation-hidden-sector-conservation-exchange-law"><code>@dm_hidden_sector_conservation</code>
+— Hidden-Sector Conservation / Exchange Law</a></li>
+<li><a href="#dm_hidden_state_bundle-hidden-s3-relational-state-bundle" id="toc-dm_hidden_state_bundle-hidden-s3-relational-state-bundle"><code>@dm_hidden_state_bundle</code>
+— Hidden S3 Relational-State Bundle</a></li>
+<li><a href="#dm_hidden_state_embedding-hidden-s3-state-embedding-into-inherited-state-bundle" id="toc-dm_hidden_state_embedding-hidden-s3-state-embedding-into-inherited-state-bundle"><code>@dm_hidden_state_embedding</code>
+— Hidden S3 State Embedding into Inherited State Bundle</a></li>
+<li><a href="#dm_history_support_preorder-history-support-preorder" id="toc-dm_history_support_preorder-history-support-preorder"><code>@dm_history_support_preorder</code>
+— History-Support Preorder</a></li>
+<li><a href="#dm_history_to_continuity_strength-history-support-to-continuity-strength-transduction" id="toc-dm_history_to_continuity_strength-history-support-to-continuity-strength-transduction"><code>@dm_history_to_continuity_strength</code>
+— History Support to Continuity-Strength Transduction</a></li>
+<li><a href="#dm_local_capacity_envelope-local-constitutive-capacity-envelope" id="toc-dm_local_capacity_envelope-local-constitutive-capacity-envelope"><code>@dm_local_capacity_envelope</code>
+— Local Constitutive Capacity Envelope</a></li>
+<li><a href="#dm_local_continuity_response_coefficient-local-continuity-response-coefficient" id="toc-dm_local_continuity_response_coefficient-local-continuity-response-coefficient"><code>@dm_local_continuity_response_coefficient</code>
+— Local Continuity Response Coefficient</a></li>
+<li><a href="#dm_metric_action_selection-metric-coupled-hidden-action-selection" id="toc-dm_metric_action_selection-metric-coupled-hidden-action-selection"><code>@dm_metric_action_selection</code>
+— Metric-Coupled Hidden Action Selection</a></li>
+<li><a href="#dm_mode0_access_interface-mode-0-white-state-access-interface" id="toc-dm_mode0_access_interface-mode-0-white-state-access-interface"><code>@dm_mode0_access_interface</code>
+— Mode-0 / White-State Access Interface</a></li>
+<li><a href="#dm_mode0_network_selection_rule-mode-0-hidden-network-selection-rule" id="toc-dm_mode0_network_selection_rule-mode-0-hidden-network-selection-rule"><code>@dm_mode0_network_selection_rule</code>
+— Mode-0 Hidden-Network Selection Rule</a></li>
+<li><a href="#dm_native_density_to_readable_source-native-density-profile-to-readable-source" id="toc-dm_native_density_to_readable_source-native-density-profile-to-readable-source"><code>@dm_native_density_to_readable_source</code>
+— Native Density Profile to Readable Source</a></li>
+<li><a href="#dm_native_hidden_witness-native-hidden-network-witness" id="toc-dm_native_hidden_witness-native-hidden-network-witness"><code>@dm_native_hidden_witness</code>
+— Native Hidden-Network Witness</a></li>
+<li><a href="#dm_omega_to_chromatic_representation-chirality-space-to-chromaticbasin-representation" id="toc-dm_omega_to_chromatic_representation-chirality-space-to-chromaticbasin-representation"><code>@dm_omega_to_chromatic_representation</code>
+— Chirality-Space to Chromatic/Basin Representation</a></li>
+<li><a href="#dm_one_port_no_go-free-one-port-hidden-appendage-no-go" id="toc-dm_one_port_no_go-free-one-port-hidden-appendage-no-go"><code>@dm_one_port_no_go</code>
+— Free One-Port Hidden Appendage No-Go</a></li>
+<li><a href="#dm_projection_residue_survival-projection-residue-survival-test" id="toc-dm_projection_residue_survival-projection-residue-survival-test"><code>@dm_projection_residue_survival</code>
+— Projection-Residue Survival Test</a></li>
+<li><a href="#dm_q_completion_family-residue-bundle-q-completion-family" id="toc-dm_q_completion_family-residue-bundle-q-completion-family"><code>@dm_q_completion_family</code>
+— Residue-Bundle Q-Completion Family</a></li>
+<li><a href="#dm_q_survival-q-handoff-survival-theorem" id="toc-dm_q_survival-q-handoff-survival-theorem"><code>@dm_q_survival</code>
+— Q-Handoff Survival Theorem</a></li>
+<li><a href="#dm_resolution_density_profile-resolution-level-hidden-density-profile" id="toc-dm_resolution_density_profile-resolution-level-hidden-density-profile"><code>@dm_resolution_density_profile</code>
+— Resolution-Level Hidden Density Profile</a></li>
+<li><a href="#dm_runtime_transition_capacity-runtime-transition-capacity" id="toc-dm_runtime_transition_capacity-runtime-transition-capacity"><code>@dm_runtime_transition_capacity</code>
+— Runtime Transition Capacity</a></li>
+<li><a href="#dm_stress_energy_realization_family-hidden-stress-energy-realization-family" id="toc-dm_stress_energy_realization_family-hidden-stress-energy-realization-family"><code>@dm_stress_energy_realization_family</code>
+— Hidden Stress-Energy Realization Family</a></li>
+<li><a href="#dm_stress_energy_separation_gate-stress-energy-separation-gate" id="toc-dm_stress_energy_separation_gate-stress-energy-separation-gate"><code>@dm_stress_energy_separation_gate</code>
+— Stress-Energy Separation Gate</a></li>
+</ul></li>
+<li><a href="#self-closure" id="toc-self-closure">4.
+SELF-CLOSURE</a></li>
+<li><a href="#dark-matter-qualification" id="toc-dark-matter-qualification">5. DARK-MATTER QUALIFICATION</a></li>
+<li><a href="#open-handles" id="toc-open-handles">6. OPEN
+HANDLES</a></li>
+<li><a href="#design-rule" id="toc-design-rule">7. DESIGN RULE</a></li>
+<li><a href="#bidirectional-cross-api-closure-2.2" id="toc-bidirectional-cross-api-closure-2.2">12. BIDIRECTIONAL CROSS-API
+CLOSURE — 2.2</a></li>
+</ul>
+</nav>
+<h1 id="mk43-dark-matter-api">MK43 DARK MATTER API</h1>
+<p><strong>Release:</strong> 2.2.0<br/>
+<strong>Date:</strong> 2026-08-16<br/>
+<strong>Parent:</strong> MK43 Ultra / Time-Space API 4.3<br/>
+<strong>Predecessor:</strong> Dark Matter API 2.0<br/>
+<strong>Active geometry:</strong> <code>S4 -&gt; S3 -&gt; S2</code></p>
+<hr/>
+<h1 id="release-result">0. RELEASE RESULT</h1>
+<p>Dark Matter API 2.1 is the first brute-force-mined formalization in
+which the child API contains an explicit mathematical qualification
+definition for dark matter.</p>
+<p>It does <strong>not</strong> prove that the qualification locus is
+nonempty.</p>
+<p>Status:</p>
+<pre class="text"><code>qualification definition: CLOSED
+source realization: PARTIAL
+existence witness: OPEN
+empirical identification: OPEN</code></pre>
+<p>Primary blockers:</p>
+<pre class="text"><code>@dm_hidden_state_embedding
+@dm_metric_action_selection
+@dm_dark_matter_qualification_nonempty</code></pre>
+<hr/>
+<h1 id="current-critical-path">1. CURRENT CRITICAL PATH</h1>
+<pre class="text"><code>@dm_mode0_access_interface
+@dm_mode0_network_selection_rule
+@dm_hidden_s3_network
+@dm_hidden_state_bundle
+@dm_hidden_state_embedding
+@inherited_state_bundle
+@dm_formal_persistence_qualification
+@persistent_locus
+@dm_hidden_persistent_subset
+@dm_hidden_boundary_contact
+@persistent_boundary
+@boundary_projection
+@projective_target_manifold
+@residue_quantum_field_bundle
+@dm_projection_residue_survival
+@dm_q_completion_family
+@dm_q_survival
+@dm_metric_action_selection
+@dm_stress_energy_realization_family
+@stress_energy_tensor
+@dm_hidden_sector_conservation
+@dm_stress_energy_separation_gate
+@dm_energy_gravity_consistency_filter
+@dm_dark_matter_qualification_locus
+@dm_dark_matter_qualification_nonempty</code></pre>
+<hr/>
+<h1 id="major-2.1-closures">2. MAJOR 2.1 CLOSURES</h1>
+<pre class="text"><code>@dm_hidden_boundary_contact
+@dm_q_completion_family
+@dm_q_survival
+@dm_stress_energy_realization_family
+@dm_hidden_sector_conservation
+@dm_dark_matter_qualification_locus</code></pre>
+<p>The former broad/open handles have been superseded where
+appropriate.</p>
+<hr/>
+<h1 id="object-registry">3. OBJECT REGISTRY</h1>
+<h2 id="dm_chromatic_optional_branch-optional-chromaticbasin-representation-branch"><code>@dm_chromatic_optional_branch</code>
+— Optional Chromatic/Basin Representation Branch</h2>
+<pre class="text"><code>type: OptionalRepresentationBranch
+status: OPTIONAL_NOT_CRITICAL_PATH
+criticality: optional</code></pre>
+<p>Historical/downstream chromatic or basin representation route. It is
+not required for the current persistent-boundary / residue-bundle
+critical path.</p>
+<pre class="text"><code>E --chi--&gt; Omega --R_{OmegaC}^R--&gt; X_C^R; R_{OmegaC}^R remains open.</code></pre>
+<h2 id="dm_continuity_laplacian-selected-continuity-graph-laplacian"><code>@dm_continuity_laplacian</code>
+— Selected Continuity Graph Laplacian</h2>
+<pre class="text"><code>type: FiniteWeightedLaplacian
+status: ATLAS_DERIVED_ACTIVE
+criticality: critical</code></pre>
+<p>Finite algebraic realization of continuity redistribution on a
+selected network support.</p>
+<pre class="text"><code>L_N=B_N W_N B_N^T; deltaC=-L_N c.</code></pre>
+<h2 id="dm_dark_matter_qualification_locus-dark-matter-qualification-locus"><code>@dm_dark_matter_qualification_locus</code>
+— Dark-Matter Qualification Locus</h2>
+<pre class="text"><code>type: MatchedFullVisibleQualificationRelation
+status: ATLAS_DERIVED_CLOSED
+criticality: critical</code></pre>
+<p>Precise internal definition of what a dark-matter realization would
+have to be in the current architecture. It does not assert that such a
+pair exists in nature.</p>
+<pre class="text"><code>DM_R:={(u_f,u_v): matched external data; u_f contains admissible hidden S3 organization; M_R(u_f)=M_R(u_v); T_H:=T_f−T_v≠0; g_f≠g_v; Ein(g_f)=κT_f; Ein(g_v)=κT_v; persistence/boundary/Q gates pass}.</code></pre>
+<h2 id="dm_dark_matter_qualification_nonempty-dark-matter-qualification-nonemptiness"><code>@dm_dark_matter_qualification_nonempty</code>
+— Dark-Matter Qualification Nonemptiness</h2>
+<pre class="text"><code>type: OpenExistenceTheorem
+status: OPEN_PRIMARY_HANDLE
+criticality: critical</code></pre>
+<p>Final internal existence target after the source map is typed: prove
+that the Dark-Matter Qualification Locus contains at least one
+admissible full/visible comparison state.</p>
+<pre class="text"><code>Goal: DM_R ≠ ∅ for at least one declared Resolution R and matched comparison class.</code></pre>
+<h2 id="dm_dark_readout_defect-dark-readout-factorization-defect"><code>@dm_dark_readout_defect</code>
+— Dark Readout Factorization Defect</h2>
+<pre class="text"><code>type: ReadoutFactorizationDefect
+status: ATLAS_DERIVED_ACTIVE
+criticality: critical</code></pre>
+<p>Pairs of formal states identified by ordinary matter readout but
+distinguished by gravitational readout.</p>
+<pre class="text"><code>D_R={(x,y): M_R(x)=M_R(y), G_R(x)!=G_R(y)}.</code></pre>
+<h2 id="dm_direct_cycle_gravity_no_go-direct-cycle-gravity-kernel-no-go"><code>@dm_direct_cycle_gravity_no_go</code>
+— Direct Cycle-Gravity Kernel No-Go</h2>
+<pre class="text"><code>type: NoGoTheorem
+status: ATLAS_DERIVED_CLOSED
+criticality: constraint</code></pre>
+<p>A pure divergence-free circulation is killed by the direct deltaC
+gravitational channel; cycle organization can matter only through
+network/operator dependence or another typed route.</p>
+<pre class="text"><code>z in ker(D_C) =&gt; G_direct(z)=0.</code></pre>
+<h2 id="dm_energy_gravity_consistency_filter-energy-gravity-consistency-filter"><code>@dm_energy_gravity_consistency_filter</code>
+— Energy-Gravity Consistency Filter</h2>
+<pre class="text"><code>type: CompatibilityFilter
+status: ATLAS_DERIVED_ACTIVE
+criticality: supporting</code></pre>
+<p>Admits only native continuity/gravity flows whose readable metric and
+energy/stress-energy route agree.</p>
+<pre class="text"><code>Flow_EG(N)={Phi in Flow(N): Ein(g_Phi)=kappa T_E(N)}.</code></pre>
+<h2 id="dm_formal_persistence_qualification-hidden-state-formal-persistence-qualification"><code>@dm_formal_persistence_qualification</code>
+— Hidden-State Formal Persistence Qualification</h2>
+<pre class="text"><code>type: PredicateOnEmbeddedHiddenStates
+status: ATLAS_DERIVED_ACTIVE
+criticality: critical</code></pre>
+<p>Exact formal Persistence test applied only after a hidden S3 network
+state has been embedded in the Time-Space Inherited State Bundle.</p>
+<pre class="text"><code>P_Xi(x) := [exists n&gt;=1 such that I^n(iota_HE^R(x)) ~ iota_HE^R(x)]. If true, iota_HE^R(x) in Xi.</code></pre>
+<h2 id="dm_hidden_boundary_contact-hidden-persistent-boundary-contact-set"><code>@dm_hidden_boundary_contact</code>
+— Hidden Persistent-Boundary Contact Set</h2>
+<pre class="text"><code>type: CanonicalBoundaryContactSet
+status: ATLAS_DERIVED_CLOSED
+criticality: critical</code></pre>
+<p>Canonical boundary-incidence object replacing the arbitrary open
+incidence relation. It detects whether the closure of the hidden
+persistent subset reaches the already-existing Persistent Boundary.</p>
+<pre class="text"><code>B_H^R := cl_E(Xi_H^R) ∩ ∂Xi. B_H^R=∅ kills the residue route at Resolution R; B_H^R≠∅ supplies the relevant boundary support.</code></pre>
+<h2 id="dm_hidden_boundary_response_form-hidden-boundary-response-form"><code>@dm_hidden_boundary_response_form</code>
+— Hidden Boundary-Response Form</h2>
+<pre class="text"><code>type: PositiveQuotientBilinearForm
+status: ATLAS_DERIVED_ACTIVE
+criticality: supporting</code></pre>
+<p>Positive response geometry on relative S2 port states after
+quotienting the kernel of the hidden response operator.</p>
+<pre class="text"><code>B_H([x],[y])=x^T Lambda_H y on R^P/ker(Lambda_H).</code></pre>
+<h2 id="dm_hidden_persistent_subset-hidden-persistent-subset"><code>@dm_hidden_persistent_subset</code>
+— Hidden Persistent Subset</h2>
+<pre class="text"><code>type: ConditionalSubsetOfPersistentLocus
+status: ATLAS_DERIVED_CLOSED
+criticality: critical</code></pre>
+<p>Once a hidden-state embedding exists, this object selects the
+embedded hidden states that satisfy the exact Time-Space Persistence
+criterion.</p>
+<pre class="text"><code>Xi_H^R := { iota_H(x) | x∈Dom(iota_H), iota_H(x)∈Xi } ⊆ Xi.</code></pre>
+<h2 id="dm_hidden_relational_load-hidden-relational-capacity-load"><code>@dm_hidden_relational_load</code>
+— Hidden Relational-Capacity Load</h2>
+<pre class="text"><code>type: FiniteNetworkLoadFunctional
+status: ATLAS_DERIVED_ACTIVE
+criticality: critical</code></pre>
+<p>Static supported load assigned to hidden relationships using
+relationship valuation and runtime transition capacity. It is not
+endpoint history energy and is not automatically mass.</p>
+<pre class="text"><code>L_H(U)=sum_{e in E_H(U)} r(e) T_run(e); rho_H(U)=L_H(U)/V(U).</code></pre>
+<h2 id="dm_hidden_response_operator-hidden-s3-to-s2-response-operator"><code>@dm_hidden_response_operator</code>
+— Hidden S3 to S2 Response Operator</h2>
+<pre class="text"><code>type: SchurReducedBoundaryOperator
+status: ATLAS_DERIVED_ACTIVE
+criticality: critical</code></pre>
+<p>Effective S2-port operator obtained by eliminating hidden S3 interior
+coordinates from the continuity Laplacian.</p>
+<pre class="text"><code>Lambda_N=L_PP-L_PI L_II^{-1} L_IP; DeltaLambda_H=Lambda_full-Lambda_vis.</code></pre>
+<h2 id="dm_hidden_s3_network-hidden-s3-multi-port-continuity-network"><code>@dm_hidden_s3_network</code>
+— Hidden S3 Multi-Port Continuity Network</h2>
+<pre class="text"><code>type: DerivedNetworkCandidate
+status: ATLAS_DERIVED_ACTIVE
+criticality: critical</code></pre>
+<p>Candidate Mode-0-selected hidden continuity organization joining
+multiple localized S2 / black-hole ports within the established S3
+continuity level. It is a derived subnetwork candidate, not a new
+dimension and not yet identified with dark matter.</p>
+<pre class="text"><code>G_H^R=(V_H,E_H,w), with multi-port hidden connectivity; active geometry remains S4 -&gt; S3 -&gt; S2.</code></pre>
+<h2 id="dm_hidden_sector_conservation-hidden-sector-conservation-exchange-law"><code>@dm_hidden_sector_conservation</code>
+— Hidden-Sector Conservation / Exchange Law</h2>
+<pre class="text"><code>type: StressEnergyExchangeBalanceIdentity
+status: ATLAS_DERIVED_CLOSED
+criticality: critical</code></pre>
+<p>Covariant hidden/visible exchange identity implied by total
+stress-energy conservation after a full/visible source decomposition is
+defined.</p>
+<pre class="text"><code>T_full=T_vis+T_H, ∇_μ T_full^{μν}=0. Define J^ν:=∇_μ T_vis^{μν}; then ∇_μ T_H^{μν}=-J^ν. If J^ν=0, the hidden sector is separately conserved.</code></pre>
+<h2 id="dm_hidden_state_bundle-hidden-s3-relational-state-bundle"><code>@dm_hidden_state_bundle</code>
+— Hidden S3 Relational-State Bundle</h2>
+<pre class="text"><code>type: ConditionalRelationalStateBundle
+status: ATLAS_DERIVED_ACTIVE
+criticality: critical</code></pre>
+<p>Type-normalized bundle candidate for the time-indexed hidden S3
+network organization. Its existence as a smooth admissible bundle is
+conditional on the declared hidden relational history.</p>
+<pre class="text"><code>π_H:E_H^R→T_H, with fiber state R_H(t)=(V_t,E_t,w_t,χ_t,H_t)_R. This types the domain of iota_H; it does not itself prove iota_H exists.</code></pre>
+<h2 id="dm_hidden_state_embedding-hidden-s3-state-embedding-into-inherited-state-bundle"><code>@dm_hidden_state_embedding</code>
+— Hidden S3 State Embedding into Inherited State Bundle</h2>
+<pre class="text"><code>type: OpenBundleMonomorphism
+status: OPEN_PRIMARY_HANDLE
+criticality: critical</code></pre>
+<p>Current primary open map: embed the hidden relational-state bundle
+into the Time-Space Inherited State Bundle while preserving base
+continuation and inherited evolution.</p>
+<pre class="text"><code>π_H:E_H^R→T_H; iota_H:E_H^R↪E; π_E∘iota_H=j_T∘π_H; I∘iota_H=iota_H∘I_H. Existence/injectivity for the physical hidden network remain open.</code></pre>
+<h2 id="dm_history_support_preorder-history-support-preorder"><code>@dm_history_support_preorder</code>
+— History-Support Preorder</h2>
+<pre class="text"><code>type: PreorderOnRelationships
+status: ATLAS_DERIVED_ACTIVE
+criticality: supporting</code></pre>
+<p>Orders relationships by inclusion of invariant-preserving admissible
+history support.</p>
+<pre class="text"><code>e &lt;=_H f iff S_R(e) subseteq S_R(f).</code></pre>
+<h2 id="dm_history_to_continuity_strength-history-support-to-continuity-strength-transduction"><code>@dm_history_to_continuity_strength</code>
+— History Support to Continuity-Strength Transduction</h2>
+<pre class="text"><code>type: OpenMonotoneFunctional
+status: OPEN_HANDLE
+criticality: supporting</code></pre>
+<p>Typed unresolved object promoted from the Master Dark-Matter QMO. It
+remains mathematically open; promotion makes the unknown queryable
+rather than solved.</p>
+<pre class="text"><code>K_R : HistorySupport_R -&gt; ContinuityStrength | requirements: Respect history-support preorder where all other local conditions are equal.; Do not identify raw history count with physical continuity strength.; Allow source-authoritative decay/forgetting if present.</code></pre>
+<h2 id="dm_local_capacity_envelope-local-constitutive-capacity-envelope"><code>@dm_local_capacity_envelope</code>
+— Local Constitutive Capacity Envelope</h2>
+<pre class="text"><code>type: LocalCapacityBound
+status: ATLAS_DERIVED_ACTIVE
+criticality: supporting</code></pre>
+<p>Local upper envelope on runtime transition capacity induced by the
+recovered continuity-flow relation and admissible endpoint-state
+range.</p>
+<pre class="text"><code>U_ij^+=kappa_ij A_ij DeltaC_ij^+; T_run(e_ij)&lt;=U_ij^+.</code></pre>
+<h2 id="dm_local_continuity_response_coefficient-local-continuity-response-coefficient"><code>@dm_local_continuity_response_coefficient</code>
+— Local Continuity Response Coefficient</h2>
+<pre class="text"><code>type: LocalEdgeResponseCoefficient
+status: ATLAS_DERIVED_ACTIVE
+criticality: critical</code></pre>
+<p>Local unsaturated edge-response coefficient used by the finite
+continuity Laplacian. It is definitionally distinct from runtime
+transition capacity.</p>
+<pre class="text"><code>w_e = kappa_ij A_ij &gt;= 0; W_N=diag(w_e); L_N=B_N W_N B_N^T.</code></pre>
+<h2 id="dm_metric_action_selection-metric-coupled-hidden-action-selection"><code>@dm_metric_action_selection</code>
+— Metric-Coupled Hidden Action Selection</h2>
+<pre class="text"><code>type: OpenActionSelection
+status: OPEN_PRIMARY_HANDLE
+criticality: critical</code></pre>
+<p>Narrow remaining source-map problem: select or derive the admissible
+hidden-sector action/constitutive functional with explicit metric
+dependence needed for readable stress-energy.</p>
+<pre class="text"><code>S_H ∈ S_adm(Q_H,g). Required: differentiability in g, declared field variables/couplings, compatibility with Q-handoff data, and conservation/exchange consistency.</code></pre>
+<h2 id="dm_mode0_access_interface-mode-0-white-state-access-interface"><code>@dm_mode0_access_interface</code>
+— Mode-0 / White-State Access Interface</h2>
+<pre class="text"><code>type: CuratorialAccessInterface
+status: USER_CURATORIAL_RULING_ACTIVE
+criticality: critical</code></pre>
+<p>Mode 0 routes through the White-State Core and is treated in the
+current dark-matter landscape as an access interface to the
+inter-black-hole hidden continuity network. The White-State Core is not
+identified with the network or with dark matter.</p>
+<pre class="text"><code>Mode1 -&gt; local GR/Penrose singularity branch; Mode0 -&gt; White-State Core -&gt; hidden inter-black-hole network (current curatorial ruling).</code></pre>
+<h2 id="dm_mode0_network_selection_rule-mode-0-hidden-network-selection-rule"><code>@dm_mode0_network_selection_rule</code>
+— Mode-0 Hidden-Network Selection Rule</h2>
+<pre class="text"><code>type: OpenSelectionMap
+status: OPEN_HANDLE
+criticality: supporting</code></pre>
+<p>Typed unresolved object promoted from the Master Dark-Matter QMO. It
+remains mathematically open; promotion makes the unknown queryable
+rather than solved.</p>
+<pre class="text"><code>Sel_0 : Mode0AccessState -&gt; P(X_H^R) | requirements: Preserve current White-State-Core access-interface distinction.; Select hidden S3 support without identifying White-State Core with dark matter.; Remain inside S4 -&gt; S3 -&gt; S2.</code></pre>
+<h2 id="dm_native_density_to_readable_source-native-density-profile-to-readable-source"><code>@dm_native_density_to_readable_source</code>
+— Native Density Profile to Readable Source</h2>
+<pre class="text"><code>type: OpenTransduction
+status: OPEN_HANDLE
+criticality: supporting</code></pre>
+<p>Typed unresolved object promoted from the Master Dark-Matter QMO. It
+remains mathematically open; promotion makes the unknown queryable
+rather than solved.</p>
+<pre class="text"><code>T_rho,R : DensityProfile_R -&gt; ReadableSource_R | requirements: Cannot use one regional scalar as a universal spatial profile inverse.; Must preserve any claimed nonzero distinction through an explicitly typed translation/calibration.; Must not reconstruct a full stress-energy tensor from scalar density alone.</code></pre>
+<h2 id="dm_native_hidden_witness-native-hidden-network-witness"><code>@dm_native_hidden_witness</code>
+— Native Hidden-Network Witness</h2>
+<pre class="text"><code>type: TypedWitnessTuple
+status: ATLAS_DERIVED_ACTIVE
+criticality: critical</code></pre>
+<p>Current finite diagnostic package keeping static supported-load
+profile and hidden inter-port response distinct.</p>
+<pre class="text"><code>W_H^R=(Delta boldrho_H^R, Lambda_H) with separately typed history/chirality/persistence data when required.</code></pre>
+<h2 id="dm_omega_to_chromatic_representation-chirality-space-to-chromaticbasin-representation"><code>@dm_omega_to_chromatic_representation</code>
+— Chirality-Space to Chromatic/Basin Representation</h2>
+<pre class="text"><code>type: OpenRepresentationRelation
+status: OPTIONAL_OPEN_HANDLE
+criticality: optional</code></pre>
+<p>Typed unresolved object promoted from the Master Dark-Matter QMO. It
+remains mathematically open; promotion makes the unknown queryable
+rather than solved.</p>
+<pre class="text"><code>R_OmegaC^R subseteq Omega x X_C^R | requirements: Do not identify chirality-space elements with chromatic components by shared notation.; Any transported representation must satisfy the appropriate equivariance/commutation condition.; Not required by the primary residue-bundle branch.</code></pre>
+<h2 id="dm_one_port_no_go-free-one-port-hidden-appendage-no-go"><code>@dm_one_port_no_go</code>
+— Free One-Port Hidden Appendage No-Go</h2>
+<pre class="text"><code>type: NoGoTheorem
+status: ATLAS_DERIVED_CLOSED
+criticality: constraint</code></pre>
+<p>A free hidden connected component attached to only one readable port
+contributes zero effective Schur/Kron port operator.</p>
+<pre class="text"><code>one readable port =&gt; Lambda_H=0 for a free hidden component.</code></pre>
+<h2 id="dm_projection_residue_survival-projection-residue-survival-test"><code>@dm_projection_residue_survival</code>
+— Projection-Residue Survival Test</h2>
+<pre class="text"><code>type: FullVsVisibleSurvivalTest
+status: ATLAS_DERIVED_ACTIVE
+criticality: critical</code></pre>
+<p>Tests whether matched full and visible-only constructions remain
+distinguishable after boundary projection and invariant-residue bundle
+construction.</p>
+<pre class="text"><code>B_full^R not ~=_F B_vis^R is a sufficient field-bundle survival witness.</code></pre>
+<h2 id="dm_q_completion_family-residue-bundle-q-completion-family"><code>@dm_q_completion_family</code>
+— Residue-Bundle Q-Completion Family</h2>
+<pre class="text"><code>type: ConditionalCompletionFamily
+status: ATLAS_DERIVED_CLOSED
+criticality: critical</code></pre>
+<p>Set of complete QFT handoff objects extending an admissible residue
+bundle under the current Time-Space field axioms/theorems. It replaces
+the open arbitrary residue→Q map.</p>
+<pre class="text"><code>C_Q(B):={ Q=(M,F,π_F,h,∇,R_∇,Γ,A,P,S) | Q extends B=(M,F,π_F) and satisfies the admitted field axioms }. For a residue bundle produced under the full current Time-Space assumptions, C_Q(B)≠∅ by T1–T4.</code></pre>
+<h2 id="dm_q_survival-q-handoff-survival-theorem"><code>@dm_q_survival</code>
+— Q-Handoff Survival Theorem</h2>
+<pre class="text"><code>type: StructuredTupleSurvivalTheorem
+status: ATLAS_DERIVED_CLOSED
+criticality: critical</code></pre>
+<p>A hidden full-vs-visible distinction that survives as a
+non-isomorphic residue bundle cannot disappear by merely appending the
+standard Q-handoff structure, because the residue bundle is a
+constituent of Q.</p>
+<pre class="text"><code>B_full≄B_vis ⇒ no Q-isomorphism preserving the residue-bundle constituent can identify Q_full with Q_vis. Thus bundle-level survival implies Q-structured survival under the declared morphism category.</code></pre>
+<h2 id="dm_resolution_density_profile-resolution-level-hidden-density-profile"><code>@dm_resolution_density_profile</code>
+— Resolution-Level Hidden Density Profile</h2>
+<pre class="text"><code>type: ResolutionIndexedDensityProfile
+status: ATLAS_DERIVED_ACTIVE
+criticality: critical</code></pre>
+<p>Resolution-level profile of hidden supported relational-capacity
+load. The scalar regional density is only its weighted compression.</p>
+<pre class="text"><code>rho_{H,a}^R=L_H(U_a)/V_a; Delta boldrho_H^R=(Delta rho_{H,a}^R)_a.</code></pre>
+<h2 id="dm_runtime_transition_capacity-runtime-transition-capacity"><code>@dm_runtime_transition_capacity</code>
+— Runtime Transition Capacity</h2>
+<pre class="text"><code>type: EdgeCapacityFunctional
+status: ATLAS_DERIVED_ACTIVE
+criticality: critical</code></pre>
+<p>Maximum globally feasible continuity flow supported by an
+already-persistent relationship under the active Time-Space
+constraints.</p>
+<pre class="text"><code>T_run(e)=sup_{Phi in F_run(G_*)} Phi(e).</code></pre>
+<h2 id="dm_stress_energy_realization_family-hidden-stress-energy-realization-family"><code>@dm_stress_energy_realization_family</code>
+— Hidden Stress-Energy Realization Family</h2>
+<pre class="text"><code>type: ConditionalStressEnergyFamily
+status: ATLAS_DERIVED_CLOSED
+criticality: critical</code></pre>
+<p>Set-valued readable stress-energy construction conditional on a
+metric-coupled hidden action. It replaces the arbitrary open
+residue→stress-energy map.</p>
+<pre class="text"><code>T_H(Q,g):={ -(2/√(-g)) δS_H/δg^{μν} | S_H∈S_adm(Q_H,g) }. The family is typed; selecting the physically relevant member remains the metric-action-selection problem.</code></pre>
+<h2 id="dm_stress_energy_separation_gate-stress-energy-separation-gate"><code>@dm_stress_energy_separation_gate</code>
+— Stress-Energy Separation Gate</h2>
+<pre class="text"><code>type: SufficientTensorSeparationWitness
+status: ATLAS_DERIVED_ACTIVE
+criticality: critical</code></pre>
+<p>A nonzero readable density difference for the same observer is
+sufficient to prove the full and visible stress-energy tensors are
+unequal; it does not reconstruct the full tensor.</p>
+<pre class="text"><code>Delta rho_read[u]=Delta T_mn u^m u^n != 0 =&gt; Delta T_mn != 0.</code></pre>
+<h1 id="self-closure">4. SELF-CLOSURE</h1>
+<pre class="text"><code>composable nodes: 214
+primitive dependency pairs: 307
+fixed-point dependency pairs: 5447
+closure growth: 17.74x
+child nontrivial SCCs: 1</code></pre>
+<p>Recursive consequences are kept in:</p>
+<pre class="text"><code>registry/DM_COMPOSED_DEPENDENCY_INDEX.json</code></pre>
+<p>rather than bloating the direct graph.</p>
+<hr/>
+<h1 id="dark-matter-qualification">5. DARK-MATTER QUALIFICATION</h1>
+<p>The canonical internal qualification object is:</p>
+<pre class="text"><code>@dm_dark_matter_qualification_locus</code></pre>
+<p>Its nonemptiness theorem target is:</p>
+<pre class="text"><code>@dm_dark_matter_qualification_nonempty</code></pre>
+<p>The child API therefore separates:</p>
+<pre class="text"><code>definition
+from
+existence
+from
+empirical identification.</code></pre>
+<hr/>
+<h1 id="open-handles">6. OPEN HANDLES</h1>
+<ul>
+<li><code>@dm_dark_matter_qualification_nonempty</code> —
+OPEN_PRIMARY_HANDLE — Dark-Matter Qualification Nonemptiness</li>
+<li><code>@dm_hidden_state_embedding</code> — OPEN_PRIMARY_HANDLE —
+Hidden S3 State Embedding into Inherited State Bundle</li>
+<li><code>@dm_metric_action_selection</code> — OPEN_PRIMARY_HANDLE —
+Metric-Coupled Hidden Action Selection</li>
+<li><code>@dm_history_to_continuity_strength</code> — OPEN_HANDLE —
+History Support to Continuity-Strength Transduction</li>
+<li><code>@dm_mode0_network_selection_rule</code> — OPEN_HANDLE — Mode-0
+Hidden-Network Selection Rule</li>
+<li><code>@dm_native_density_to_readable_source</code> — OPEN_HANDLE —
+Native Density Profile to Readable Source</li>
+<li><code>@dm_omega_to_chromatic_representation</code> —
+OPTIONAL_OPEN_HANDLE — Chirality-Space to Chromatic/Basin
+Representation</li>
+</ul>
+<hr/>
+<h1 id="design-rule">7. DESIGN RULE</h1>
+<p>Direct graph:</p>
+<pre class="text"><code>small, typed, source-aware</code></pre>
+<p>Recursive closure:</p>
+<pre class="text"><code>dense, derived, queryable</code></pre>
+<p>A closure edge is not promoted to a physical mechanism until a
+targeted proof/recovery pass survives.</p>
+<p>Dark matter remains physically unresolved.</p>
+<hr/>
+<h1 id="bidirectional-cross-api-closure-2.2">12. BIDIRECTIONAL CROSS-API
+CLOSURE — 2.2</h1>
+<p>Dark Matter API 2.2 adds a directional cross-crawl layer:</p>
+<pre class="text"><code>Time-Space 4.3 -&gt; Dark Matter
+Dark Matter -&gt; Time-Space 4.3</code></pre>
+<p>The source/type-audited promotions are:</p>
+<pre class="text"><code>@native_constraint_closure
+@total_action
+@diffeomorphism_invariance
+@particle_readable_organization
+
+@dm_constraint_preserving_embedding_family
+@dm_covariant_hidden_action_family
+@dm_er_branch_readout_separation</code></pre>
+<p>The current primary questions remain open but are narrower:</p>
+<pre class="text"><code>@dm_hidden_state_embedding
+  -&gt; select from Emb_H,phys^R
+
+@dm_metric_action_selection
+  -&gt; select from S_H^cov(Q_H,g)
+
+@dm_dark_matter_qualification_nonempty
+  -&gt; construct one witness in DM_R</code></pre>
+<p>Cross-crawl statistics:</p>
+<pre class="text"><code>direct TS/DM interface: 27
+
+DM objects reached from Time-Space: 35/38
+
+novel full-Time-Space handles exposed by reverse crawl:
+  depth 1: 17
+  depth 2: 101
+  depth 3: 279
+
+strict fixed-point dependency pairs after promotion:
+  5769
+
+Dark Matter child SCCs:
+  0</code></pre>
+<p>Dense cross-links remain in the mining overlay unless a targeted
+source/type audit earns promotion.</p>
+</body>
+</html>

@@ -1,0 +1,69 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_PAIR_V1",
+  "a": "@S3",
+  "b": "@dm_dark_matter_qualification_nonempty",
+  "radius": 4,
+  "interface": [
+    {
+      "handle": "@admissibility",
+      "distance_a": 3,
+      "distance_b": 4
+    },
+    {
+      "handle": "@dm_hidden_state_embedding",
+      "distance_a": 4,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_runtime_transition_capacity",
+      "distance_a": 4,
+      "distance_b": 3
+    },
+    {
+      "handle": "@graviton",
+      "distance_a": 4,
+      "distance_b": 3
+    },
+    {
+      "handle": "@inherited_state_bundle",
+      "distance_a": 3,
+      "distance_b": 4
+    },
+    {
+      "handle": "@time_space",
+      "distance_a": 3,
+      "distance_b": 4
+    },
+    {
+      "handle": "@dm_constraint_preserving_embedding_family",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@inheritance_morphism",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@mote",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@native_causal_order",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@native_constraint_closure",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@zer0_interaction",
+      "distance_a": 4,
+      "distance_b": 4
+    }
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry; exact-handle interface only"
+}

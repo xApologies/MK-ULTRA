@@ -1,0 +1,279 @@
+{
+  "metadata": {
+    "checkpoint_name": "CRADLE_SU2_SU3_THREAD_CONTINUITY_QMO_v3_0_20260827",
+    "version": "3.0",
+    "date": "2026-08-27",
+    "local_time": "16:14-05:00",
+    "scope": "Cradle/SU2/SU3 mathematical notebook thread continuity",
+    "excluded_volume": "GENESIS_THE_TOME_v0_2_BRUTE_FORCE_20260827.zip",
+    "canonical_db": "database/thread_continuity_qmo.sqlite",
+    "mini_api": "api/qmo_api.py",
+    "latest_state": "Genesis rank / representation emergence",
+    "su2_status": "NOT_DERIVED",
+    "su3_status": "NOT_DERIVED",
+    "t0_t5_status": "STRUCTURAL_MECHANISM_CLOSED"
+  },
+  "counts": {
+    "metadata": 12,
+    "qmo_objects": 24,
+    "qmo_relations": 19,
+    "equations": 15,
+    "theorems": 4,
+    "hypotheses": 4,
+    "chronology": 14,
+    "open_questions": 10,
+    "sources": 41,
+    "artifacts": 12,
+    "supersession": 2,
+    "aliases": 19,
+    "api_routes": 15
+  },
+  "latest_qmo": "@open/genesis_rank",
+  "qmo_objects": [
+    {
+      "address": "@domain/genesis_field",
+      "name": "Genesis Field",
+      "type": "domain",
+      "status": "LOCKED"
+    },
+    {
+      "address": "@primitive/fold_1",
+      "name": "First Fold",
+      "type": "boundary",
+      "status": "LOCKED"
+    },
+    {
+      "address": "@primitive/cradle",
+      "name": "Cradle",
+      "type": "primitive_structure",
+      "status": "LOCKED"
+    },
+    {
+      "address": "@structure/rainbow",
+      "name": "Rainbow Structural Object",
+      "type": "structural_object",
+      "status": "LOCKED"
+    },
+    {
+      "address": "@carrier/white",
+      "name": "White Carrier",
+      "type": "carrier",
+      "status": "WORKING_CLOSED"
+    },
+    {
+      "address": "@operation/midpoint",
+      "name": "Cradle Midpoint Readout",
+      "type": "operation",
+      "status": "CANDIDATE"
+    },
+    {
+      "address": "@operation/reversal",
+      "name": "Cradle Reversal",
+      "type": "involution",
+      "status": "PROVED"
+    },
+    {
+      "address": "@operation/mobius_complement",
+      "name": "Möbius Complement",
+      "type": "involution",
+      "status": "PROVED_IN_MODEL"
+    },
+    {
+      "address": "@group/v4",
+      "name": "Klein Four Closure",
+      "type": "group",
+      "status": "PROVED_IN_MODEL"
+    },
+    {
+      "address": "@structure/central_white_fiber",
+      "name": "Central White Fiber",
+      "type": "special_locus",
+      "status": "PROVED_IN_MODEL"
+    },
+    {
+      "address": "@rule/sqrt_inheritance",
+      "name": "Square-Root Complex Inheritance",
+      "type": "global_rule",
+      "status": "WORKING_LOCK"
+    },
+    {
+      "address": "@space/riemann_sphere",
+      "name": "Riemann Sphere",
+      "type": "representation_space",
+      "status": "ESTABLISHED"
+    },
+    {
+      "address": "@space/hopf_lift",
+      "name": "Hopf Lift",
+      "type": "representation_space",
+      "status": "ESTABLISHED"
+    },
+    {
+      "address": "@pipeline/t0",
+      "name": "T0 Admissibility",
+      "type": "pipeline_stage",
+      "status": "CLOSED_STRUCTURAL"
+    },
+    {
+      "address": "@pipeline/t1",
+      "name": "T1 Asymmetry",
+      "type": "pipeline_stage",
+      "status": "CLOSED_STRUCTURAL"
+    },
+    {
+      "address": "@pipeline/t2",
+      "name": "T2 Adjacency",
+      "type": "pipeline_stage",
+      "status": "CLOSED_STRUCTURAL"
+    },
+    {
+      "address": "@pipeline/t3",
+      "name": "T3 History",
+      "type": "pipeline_stage",
+      "status": "CLOSED_STRUCTURAL"
+    },
+    {
+      "address": "@pipeline/t4",
+      "name": "T4 Persistence Selection",
+      "type": "pipeline_stage",
+      "status": "PARTIAL"
+    },
+    {
+      "address": "@pipeline/t5",
+      "name": "T5 Persistence Closure",
+      "type": "pipeline_stage",
+      "status": "CLOSED_PLACEMENT"
+    },
+    {
+      "address": "@concept/genesis_rank",
+      "name": "Genesis Rank",
+      "type": "foundational_extension",
+      "status": "CANDIDATE_FOUNDATIONAL"
+    },
+    {
+      "address": "@concept/recoverable_independence",
+      "name": "Recoverable Independence",
+      "type": "foundational_extension",
+      "status": "CANDIDATE_FOUNDATIONAL"
+    },
+    {
+      "address": "@target/su2",
+      "name": "SU(2)",
+      "type": "candidate_representation",
+      "status": "NOT_DERIVED"
+    },
+    {
+      "address": "@target/su3",
+      "name": "SU(3)",
+      "type": "candidate_representation",
+      "status": "NOT_DERIVED"
+    },
+    {
+      "address": "@structure/hermitian_bundle",
+      "name": "Downstream Hermitian C^n Bundle",
+      "type": "representation_handoff",
+      "status": "SOURCE_LOCATED"
+    }
+  ],
+  "open_questions": [
+    {
+      "address": "@open/t4_operator",
+      "priority": 1,
+      "question": "Derive exact T4 persistence-selection operator.",
+      "status": "OPEN"
+    },
+    {
+      "address": "@open/t5_operator",
+      "priority": 1,
+      "question": "Derive exact T5 persistence-closure operator.",
+      "status": "OPEN"
+    },
+    {
+      "address": "@open/type_timeshell",
+      "priority": 1,
+      "question": "Type the source relation T_s=P_c⊗C.",
+      "status": "OPEN"
+    },
+    {
+      "address": "@open/genesis_exchange",
+      "priority": 1,
+      "question": "Prove an exchange/equal-cardinality theorem for finite Genesis bases.",
+      "status": "OPEN"
+    },
+    {
+      "address": "@open/genesis_rank",
+      "priority": 1,
+      "question": "Compute Genesis rank of the T5 persistent chirality-bearing object.",
+      "status": "OPEN"
+    },
+    {
+      "address": "@open/hermitian",
+      "priority": 2,
+      "question": "Derive or reject a Genesis-native positive Hermitian invariant on the representation carrier.",
+      "status": "OPEN"
+    },
+    {
+      "address": "@open/det1",
+      "priority": 2,
+      "question": "Derive or reject determinant-one/orientation normalization.",
+      "status": "OPEN"
+    },
+    {
+      "address": "@open/generation",
+      "priority": 2,
+      "question": "Determine whether admissible T5 holonomy/automorphisms generate all of SU(n) or a proper subgroup.",
+      "status": "OPEN"
+    },
+    {
+      "address": "@open/midpoint",
+      "priority": 2,
+      "question": "Derive or reject midpoint Cradle readout as foundational.",
+      "status": "OPEN"
+    },
+    {
+      "address": "@open/tile_update",
+      "priority": 2,
+      "question": "Derive exact local tile-update semantics of Cradle relational readout.",
+      "status": "OPEN"
+    }
+  ],
+  "reports": [
+    {
+      "alias": "R1",
+      "filename": "ASTRAEUS_HACK_SU2_FUSION_UPDATE_AUDIT_20260827.md"
+    },
+    {
+      "alias": "R2",
+      "filename": "ASTRAEUS_CRADLE_FULL_HACK_R2_20260827.md"
+    },
+    {
+      "alias": "R3",
+      "filename": "ASTRAEUS_WHITE_MOBIUS_CRADLE_FULL_HACK_R3_20260827.md"
+    },
+    {
+      "alias": "R4",
+      "filename": "ASTRAEUS_ORDERED_COMPLEX_CRADLE_SU2_HACK_R4_20260827.md"
+    },
+    {
+      "alias": "R5",
+      "filename": "ASTRAEUS_SQRT_RIEMANN_HOPF_SU2_HACK_R5_20260827.md"
+    },
+    {
+      "alias": "R6",
+      "filename": "ASTRAEUS_HELICON_HERMITIAN_SU2_HACK_R6_20260827.md"
+    },
+    {
+      "alias": "R7",
+      "filename": "ASTRAEUS_T0_T3_COMPOSITION_SU2_HACK_R7_20260827.md"
+    },
+    {
+      "alias": "R8",
+      "filename": "ASTRAEUS_T0_T5_CHIRALITY_SEED_SU2_CLOSURE_HACK_R8_20260827.md"
+    },
+    {
+      "alias": "R9",
+      "filename": "ASTRAEUS_T0_T5_SU3_GROUND_UP_AUDIT_R9_20260827.md"
+    }
+  ],
+  "excluded_genesis_volume": "GENESIS_THE_TOME_v0_2_BRUTE_FORCE_20260827.zip"
+}

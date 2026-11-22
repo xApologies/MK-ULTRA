@@ -1,0 +1,5 @@
+regime,threshold,network_fact,capacity_or_response_consequence,status
+Above merge threshold,t=0.6067716271752466,A and B disconnected,Any A-B runtime flow is zero on this selected support regardless of edge-capacity magnitudes.,EXACT TOPOLOGICAL
+At merge threshold,t=0.604379076252503,A and B first connected; unit mincut=1,"If every edge on at least one selected A-B path has strictly positive T_run, then Cap_run(A,B)>0.",CONDITIONAL ON POSITIVE RUNTIME CAPACITY
+Below merge threshold,t=0.60,unit mincut=2,Two edge-disjoint topological channels exist in the bounded patch; physical capacity still requires T_run values.,EXACT TOPOLOGICAL / CAPACITY OPEN
+Thickened corridor,t=0.58,unit mincut=6,Six edge-disjoint topological channels exist; a V31 positive-weight two-port realization has a nonzero reduced response operator.,EXACT TOPOLOGICAL / POSITIVE-WEIGHT CONDITIONAL

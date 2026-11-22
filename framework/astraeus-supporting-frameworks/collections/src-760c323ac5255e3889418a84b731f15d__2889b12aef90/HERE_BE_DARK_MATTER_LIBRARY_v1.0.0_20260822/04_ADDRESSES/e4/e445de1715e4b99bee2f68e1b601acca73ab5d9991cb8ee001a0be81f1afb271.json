@@ -1,0 +1,98 @@
+{
+  "handle": "@environment",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@environment",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 2,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 2,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@environment",
+        "relation": "MATHEMATICS_HAS_LANGUAGE_PROJECTION",
+        "target": "@genlang_root_era",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48023;CANONICAL_API_TYPED_LINE:48023"
+      },
+      {
+        "source": "@environment",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@neural_er_adjacency",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:28070"
+      },
+      {
+        "source": "@genlang_root_era",
+        "relation": "LANGUAGE_EXPRESSES",
+        "target": "@environment",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48022;CANONICAL_API_TYPED_LINE:48022"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 316,
+        "source": "@environment",
+        "relation": "MATHEMATICS_HAS_LANGUAGE_PROJECTION",
+        "target": "@genlang_root_era",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48023;CANONICAL_API_TYPED_LINE:48023"
+      },
+      {
+        "id": 317,
+        "source": "@environment",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@neural_er_adjacency",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "API_CODE_BLOCK:28070"
+      },
+      {
+        "id": 431,
+        "source": "@genlang_root_era",
+        "relation": "LANGUAGE_EXPRESSES",
+        "target": "@environment",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48022;CANONICAL_API_TYPED_LINE:48022"
+      }
+    ]
+  },
+  "address": "@environment",
+  "address_sha256": "e445de1715e4b99bee2f68e1b601acca73ab5d9991cb8ee001a0be81f1afb271"
+}

@@ -1,0 +1,118 @@
+{
+  "roadmap": "CHIRALITY_FUSION_OPERATOR_ROADMAP_v1_0_20260825",
+  "version": "2.0-R10-CLOSED",
+  "date": "2026-08-25",
+  "model_scope": "Chirality / Quantum Exploration Model",
+  "status": "COMPLETE",
+  "active_run": null,
+  "closed_runs": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "R05",
+    "R06",
+    "R07",
+    "R08",
+    "R09",
+    "R10"
+  ],
+  "runs": [
+    {
+      "id": "R01",
+      "title": "Fusion Existence",
+      "status": "CLOSED",
+      "depends_on": []
+    },
+    {
+      "id": "R02",
+      "title": "Subsystem Test",
+      "status": "CLOSED",
+      "depends_on": [
+        "R01"
+      ]
+    },
+    {
+      "id": "R03",
+      "title": "Entanglement Boundary",
+      "status": "CLOSED",
+      "depends_on": [
+        "R02"
+      ]
+    },
+    {
+      "id": "R04",
+      "title": "Superposition Structure",
+      "status": "CLOSED",
+      "depends_on": [
+        "R03"
+      ]
+    },
+    {
+      "id": "R05",
+      "title": "Null-Interface Algebra",
+      "status": "CLOSED",
+      "depends_on": [
+        "R04"
+      ]
+    },
+    {
+      "id": "R06",
+      "title": "Reversibility",
+      "status": "CLOSED",
+      "depends_on": [
+        "R05"
+      ]
+    },
+    {
+      "id": "R07",
+      "title": "Chirality Conservation",
+      "status": "CLOSED",
+      "depends_on": [
+        "R06"
+      ]
+    },
+    {
+      "id": "R08",
+      "title": "Resolution / Readout",
+      "status": "CLOSED",
+      "depends_on": [
+        "R07"
+      ]
+    },
+    {
+      "id": "R09",
+      "title": "Holonomy",
+      "status": "CLOSED",
+      "depends_on": [
+        "R08"
+      ]
+    },
+    {
+      "id": "R10",
+      "title": "Fusion of Fusion / Recursive Composition",
+      "status": "CLOSED",
+      "depends_on": [
+        "R09"
+      ]
+    }
+  ],
+  "crawl_rules": {
+    "sequential_default": true,
+    "no_random_walk": true,
+    "no_silent_promotion": true,
+    "girl_project_firewall": true,
+    "run_requires_vera_audit": true,
+    "run_requires_counterexample_ledger": true,
+    "run_requires_exit_verdict": true
+  },
+  "finish_checkpoint": "CHIRALITY FUSION OPERATOR MODEL v1.0 candidate",
+  "checkpoint_date": "2026-08-25",
+  "last_checkpoint": "CHIRALITY_FUSION_CRAWL_CHECKPOINT_R10_v1_0_20260825",
+  "progress": {
+    "closed": 10,
+    "total": 10,
+    "bar": "[\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0] 10/10"
+  },
+  "major_checkpoint": "CHIRALITY FUSION OPERATOR MODEL v1.0 CANDIDATE"
+}

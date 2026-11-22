@@ -1,0 +1,64 @@
+{
+  "schema": "DM_API_PATCHSET_CANDIDATE_V1",
+  "patch_id": "DM10-SELF-PATCH-001",
+  "status": "CANDIDATE_NOT_APPLIED_TO_DM_1.0",
+  "trigger": "Self-crawl SCC/circularity audit",
+  "finding": {
+    "scc": {
+      "scc_id": "SCC-003",
+      "size": 3,
+      "contains_dm_handles": [
+        "@dm_continuity_laplacian",
+        "@dm_runtime_transition_capacity"
+      ],
+      "nodes": [
+        "@continuity_redistribution",
+        "@dm_continuity_laplacian",
+        "@dm_runtime_transition_capacity"
+      ],
+      "classification": "CHILD_REQUIRES_AUDIT"
+    },
+    "problem": "DM API 1.0 encoded the continuity Laplacian as USING runtime transition capacity, which creates a circular dependency after composition.",
+    "source_audit": "Atlas v24 explicitly states that the Laplacian uses w_e=kappa_ij A_ij, while T_run(e) is an independent finite flow ceiling. The objects must not be conflated."
+  },
+  "remove_or_supersede_edge": {
+    "source": "@dm_continuity_laplacian",
+    "relation": "USES",
+    "target": "@dm_runtime_transition_capacity",
+    "reason": "Definition-level dependency is false/too strong. T_run constrains the regime of validity but does not define W_N or L_N."
+  },
+  "add_object": {
+    "handle": "@dm_local_continuity_response_coefficient",
+    "name": "Local Continuity Response Coefficient",
+    "namespace": "network",
+    "type": "LocalEdgeResponseCoefficient",
+    "status": "SELF_CRAWL_PATCH_CANDIDATE_NOT_PROMOTED",
+    "criticality": "supporting",
+    "definition": "Local small-signal edge response coefficient used by the finite continuity Laplacian. It is distinct from runtime transition capacity.",
+    "math": "w_e = kappa_ij A_ij >= 0; W_N=diag(w_e); L_N=B_N W_N B_N^T.",
+    "source_refs": [
+      "ATLAS_V36:FORMAL/165_CONTINUITY_GRAPH_LAPLACIAN.md"
+    ]
+  },
+  "add_edges": [
+    {
+      "source": "@dm_continuity_laplacian",
+      "relation": "USES",
+      "target": "@dm_local_continuity_response_coefficient",
+      "status": "PATCH_CANDIDATE"
+    },
+    {
+      "source": "@dm_local_continuity_response_coefficient",
+      "relation": "DEPENDS_ON",
+      "target": "@admissibility",
+      "status": "PATCH_CANDIDATE"
+    },
+    {
+      "source": "@dm_runtime_transition_capacity",
+      "relation": "SATURATION_GUARDS",
+      "target": "@dm_continuity_laplacian",
+      "status": "PATCH_CANDIDATE_NONCOMPOSABLE_CONSTRAINT",
+      "interpretation": "The finite-capacity ceiling constrains the unsaturated validity regime; it does not enter the Laplacian coefficient definition."
+    }
+  ]
+}

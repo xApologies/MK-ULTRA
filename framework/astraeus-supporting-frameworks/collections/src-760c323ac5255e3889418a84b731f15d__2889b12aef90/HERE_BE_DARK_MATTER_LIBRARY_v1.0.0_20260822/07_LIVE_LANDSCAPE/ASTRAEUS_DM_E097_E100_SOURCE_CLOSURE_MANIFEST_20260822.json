@@ -1,0 +1,64 @@
+{
+  "schema": "ASTRAEUS_DM_E097_E100_SOURCE_CLOSURE_MANIFEST_V1",
+  "created_at": "2026-08-22T22:40:00Z",
+  "closure": {
+    "class": "SOURCE_EFFECTIVE_INTERNAL_MODEL_CLOSED",
+    "strict_dm22_hidden_s3": "OPEN_OPTIONAL_REFINEMENT",
+    "empirical_validation": "OPEN"
+  },
+  "source": {
+    "archive_sha256": "b9bc2b55a44d6cb7af2055675119b4f52442420dcd642686e2f180689680c167",
+    "recovery_sha256": "ba1659e1cd44676f58d0d2cd24750244ec2b7e3e7cb20df97ff0bd5b8f1b9285",
+    "source_anchor_count": 19,
+    "source_counts": {
+      "source_nodes": 19,
+      "source_links": 51,
+      "source_reachability": 2689,
+      "nodes": 2422,
+      "raw_edges": 19815,
+      "semantic_pairs": 6489,
+      "reachability": 72564,
+      "proof_debt_crosswalk": 13
+    },
+    "src_dm_019_reachability": 149
+  },
+  "live": {
+    "directory": "provenance://unavailable/path-sha256/9bc565f4543dba99f9df7ed56d18bc4de4e177d4cd5e8cab2022c2fe8287d1d1/ASTRAEUS_DARK_MATTER_API_LIVE_v2.0.0_20260822",
+    "sqlite_integrity": "ok",
+    "counts": {
+      "edges": 958,
+      "qmos": 38,
+      "live_objects": 35,
+      "closure_certificates": 35,
+      "proof_debt": 15,
+      "working_assumptions": 13,
+      "iterations": 33,
+      "landscapes": 33,
+      "promotions": 32
+    },
+    "files_checksum_controlled": 591,
+    "zip": "ASTRAEUS_DARK_MATTER_API_LIVE_v2.0.0_20260822.zip",
+    "zip_sha256": "5d44be3a5982a65e9007519d7255941d50802cc8b43e3d9e96349da78820d99e",
+    "zip_entries": 594,
+    "zip_crc_clean": true
+  },
+  "source_xapi": {
+    "directory": "provenance://unavailable/path-sha256/e91641ec1a8aaca7ac52f864aea956198ba4405c89bdb50ea6882820ed6460f5/ASTRAEUS_DM_SOURCE_XAPI_COMBINED_LIVE_LANDSCAPE_v2.0.0_20260822",
+    "files_checksum_controlled": 9,
+    "zip": "ASTRAEUS_DM_SOURCE_XAPI_COMBINED_LIVE_LANDSCAPE_v2.0.0_20260822.zip",
+    "zip_sha256": "c80cb91e25f83a6c80836ee41e39e95ffcb4f641c6121e0583bba192e6ae2494",
+    "zip_entries": 10,
+    "zip_crc_clean": true
+  },
+  "reports": [
+    "ASTRAEUS_DM_E097_E100_SOURCE_CLOSURE_REPORT_20260822.md",
+    "ASTRAEUS_DM_CLOSURE_RULING_20260822.md"
+  ],
+  "baseline": {
+    "dm22_source_sha256": "ee4819595f94a52565ab21c832c902ea4040e315f3f575b203c61e53740ed63a",
+    "dm22_validation": "PASS 16/16",
+    "parent_mutation": false,
+    "api43_mutation": false,
+    "physical_promotion": false
+  }
+}

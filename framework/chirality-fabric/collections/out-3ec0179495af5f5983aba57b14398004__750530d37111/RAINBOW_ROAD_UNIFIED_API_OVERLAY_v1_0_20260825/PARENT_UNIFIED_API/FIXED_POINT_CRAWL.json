@@ -1,0 +1,130 @@
+{
+  "schema": "MK43_UNIFIED_FIXED_POINT_CRAWL_V1",
+  "ceiling": 1000000000,
+  "seed_roots": [
+    "@general_relativity",
+    "@time_space",
+    "@time_shell",
+    "@er_foam",
+    "@genesis_field",
+    "@dm_hidden_s3_network",
+    "@dm_source_er_effective_model_closure",
+    "@higgs_field",
+    "@higgs_work_layer_closure"
+  ],
+  "direct": {
+    "mode": "direct",
+    "direction": "both",
+    "ceiling": 1000000000,
+    "iterations_used": 8,
+    "wave_counts": [
+      9,
+      300,
+      347,
+      103,
+      44,
+      8,
+      4,
+      16,
+      2
+    ],
+    "recovered_count": 833,
+    "terminal": "NO_NEW_STRUCTURE"
+  },
+  "typed": {
+    "mode": "typed",
+    "direction": "both",
+    "ceiling": 1000000000,
+    "iterations_used": 7,
+    "wave_counts": [
+      9,
+      483,
+      212,
+      80,
+      24,
+      7,
+      16,
+      2
+    ],
+    "recovered_count": 833,
+    "terminal": "NO_NEW_STRUCTURE"
+  },
+  "navigation": {
+    "mode": "navigation",
+    "direction": "both",
+    "ceiling": 1000000000,
+    "iterations_used": 7,
+    "wave_counts": [
+      9,
+      483,
+      212,
+      80,
+      24,
+      7,
+      16,
+      2
+    ],
+    "recovered_count": 833,
+    "terminal": "NO_NEW_STRUCTURE"
+  },
+  "mathematical_endpoint_nodes": 882,
+  "weak_component_count": 17,
+  "largest_weak_components": [
+    833,
+    16,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "directed_reachability": {
+    "typed_pairs": 458099,
+    "typed_distance_histogram": {
+      "1": 64268,
+      "2": 166787,
+      "3": 94764,
+      "4": 64782,
+      "5": 38325,
+      "6": 17068,
+      "7": 6858,
+      "8": 2816,
+      "9": 1265,
+      "10": 807,
+      "11": 240,
+      "12": 88,
+      "13": 24,
+      "14": 5,
+      "15": 2
+    },
+    "navigation_pairs": 458099,
+    "navigation_distance_histogram": {
+      "1": 64268,
+      "2": 166787,
+      "3": 94764,
+      "4": 64782,
+      "5": 38325,
+      "6": 17068,
+      "7": 6858,
+      "8": 2816,
+      "9": 1265,
+      "10": 807,
+      "11": 240,
+      "12": 88,
+      "13": 24,
+      "14": 5,
+      "15": 2
+    }
+  },
+  "terminal_explanation": "The one-billion ceiling was admitted. The finite union graph reached a least fixed point first; continuing would repeat an unchanged frontier."
+}

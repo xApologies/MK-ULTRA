@@ -1,0 +1,421 @@
+{
+  "file_count_before_self_manifests": 83,
+  "files": [
+    {
+      "bytes": 2208,
+      "path": "00_RELEASE/CANONICAL_DECISIONS.md",
+      "sha256": "38693815d738f27787c90cc0761e218a9ea4fdd31bfa16ab559e8a3c79fd6a74"
+    },
+    {
+      "bytes": 470,
+      "path": "00_RELEASE/CHANGELOG.md",
+      "sha256": "57abd97911de65a0092ac56d50ca4144dba99bb5286575bf1a5119d27eaf1393"
+    },
+    {
+      "bytes": 1420,
+      "path": "00_RELEASE/OPEN_QUESTIONS.md",
+      "sha256": "facd4b30567a12f915ef5418dcabafbadf9f69d4740acb1d42d2de11c975f719"
+    },
+    {
+      "bytes": 1136,
+      "path": "00_RELEASE/RELEASE_SCOPE.md",
+      "sha256": "a775c809e7562130366ac62bebeb6dd36871a8daf5ce7e7e6846ed3d90042ae9"
+    },
+    {
+      "bytes": 1350,
+      "path": "01_ARCHITECTURE/BRANE_PORT_MAPPING.md",
+      "sha256": "03fb320a359f8e57705448783403129c1d094e3b82010581e3c072d5340ad587"
+    },
+    {
+      "bytes": 816,
+      "path": "01_ARCHITECTURE/DEPENDENCY_GRAPH.md",
+      "sha256": "4fe42a8e3d9e1d61d12511b1f9a945139c56ab36187d7b49a3d707ab32cf08fc"
+    },
+    {
+      "bytes": 631,
+      "path": "01_ARCHITECTURE/OBJECT_LIFECYCLE.md",
+      "sha256": "7d1f8c25efbf9b34136aa6c0b55f093d3d38c9a830b9e2dd4103df70b9855629"
+    },
+    {
+      "bytes": 853,
+      "path": "01_ARCHITECTURE/REALTIME_BOUNDARY.md",
+      "sha256": "93b6ea63642e484b56e519fd6560d6755f4e6653c692fdec6700abf8d98316ce"
+    },
+    {
+      "bytes": 3863,
+      "path": "01_ARCHITECTURE/SYSTEM_OVERVIEW.md",
+      "sha256": "c098ed400de2d36ecad66e6d543be3dfe63b332bbb1e2a998a10fea65d2acc66"
+    },
+    {
+      "bytes": 845,
+      "path": "02_FORMAL_MODEL/ACOUSTIC_EVENT_MODEL.md",
+      "sha256": "400193baa247ca644f4159ce0c04c4dd811809f0e1f3d14b5156767c75bc1609"
+    },
+    {
+      "bytes": 556,
+      "path": "02_FORMAL_MODEL/PROVENANCE_VERSIONING.md",
+      "sha256": "82916392d1f4530cb79aaaefa49fb369af429bad0d817a5b65e836139cec6d42"
+    },
+    {
+      "bytes": 1012,
+      "path": "02_FORMAL_MODEL/SPO_API_FORMALISM.md",
+      "sha256": "683538daf0bafde7cc7793953fdc1c26d825555edbffa2097763181d406d1735"
+    },
+    {
+      "bytes": 798,
+      "path": "02_FORMAL_MODEL/SPO_INSTANCE_FORMALISM.md",
+      "sha256": "d270fc1dd4d050f8bf39dea00843834af5d8d8fca387cdfb2addf437583503e1"
+    },
+    {
+      "bytes": 724,
+      "path": "02_FORMAL_MODEL/TRANSDUCTION_OPERATOR.md",
+      "sha256": "bc083c607af673443a5cbd88c7fc8cd9fdc9edcf0c960e36b44d03f2c3843f99"
+    },
+    {
+      "bytes": 1122,
+      "path": "02_FORMAL_MODEL/VERA_SAFETY_INVARIANTS.md",
+      "sha256": "bd2efc9b2ee6e9285677c66f6179a0a405fd0f2e8a4b3eeae5d184329e15b67a"
+    },
+    {
+      "bytes": 548,
+      "path": "03_ALGORITHMS/A01_AUTHOR_PROFILE.md",
+      "sha256": "6f546a03970b513a3104f6e20beec310e3af020259a0ac55313f6172b5d3dadb"
+    },
+    {
+      "bytes": 289,
+      "path": "03_ALGORITHMS/A02_RESOLVE_SPO_API.md",
+      "sha256": "8d124cd9240049732273f864bc7e00b591b482cf31f8ada09ba1c90f39897ac1"
+    },
+    {
+      "bytes": 551,
+      "path": "03_ALGORITHMS/A03_BRANE_INSTANTIATE_SPO.md",
+      "sha256": "170c250c0f89c5093808cb03494795422bf0a5cb9c21e257be411185deb03642"
+    },
+    {
+      "bytes": 433,
+      "path": "03_ALGORITHMS/A04_COMPILE_DEVICE_POLICY.md",
+      "sha256": "71b33acbcd72b3f3ab53c6df92ec319c6d6659e3cc67896a107f0e575a01d09a"
+    },
+    {
+      "bytes": 449,
+      "path": "03_ALGORITHMS/A05_RUNTIME_EVENT_DECISION.md",
+      "sha256": "63089e34051f32c41f676517dcea9ea37b5c1089bc157292c5894cdd04af321b"
+    },
+    {
+      "bytes": 514,
+      "path": "03_ALGORITHMS/A06_VERA_GATE.md",
+      "sha256": "4717bc391220719a5df4283e5601509e7cc3f042bc2774f17d737b8161739741"
+    },
+    {
+      "bytes": 389,
+      "path": "03_ALGORITHMS/A07_FEEDBACK_REVISION.md",
+      "sha256": "1617c68ae5f21314485a59c6ba84831cf11213a7ec5f2c19c972ca4e4ce68eff"
+    },
+    {
+      "bytes": 263,
+      "path": "03_ALGORITHMS/A08_ROLLBACK.md",
+      "sha256": "37ccfa22d6a2b27b885e85ed6e0d320ce8d45fc445a7db9aa4c0698673c56070"
+    },
+    {
+      "bytes": 516,
+      "path": "03_ALGORITHMS/A09_FAILURE_HANDLING.md",
+      "sha256": "931cf0cc7154b8efade3474b8e5e7ce18c3cea9f7d31844474996538520f9dd1"
+    },
+    {
+      "bytes": 514,
+      "path": "03_ALGORITHMS/A10_GENESIS_POINT_RECONCILIATION.md",
+      "sha256": "1fa0cacf6f2572ea3459b680fd84987afdd5f5f3bb361c9c6f261ab9544cc113"
+    },
+    {
+      "bytes": 509,
+      "path": "04_PSEUDOCODE/AUTHORING_PLANE.pseudo",
+      "sha256": "40ae75c5faa286578ecd3adaa08e3edc5cb95114269ce4a6e5d6e83617be3186"
+    },
+    {
+      "bytes": 1160,
+      "path": "04_PSEUDOCODE/BRANE_COMPOSITION.pseudo",
+      "sha256": "d8142dfaf4fe2c5c0f4e6a2fbacb6994547407ed1120469689bd35e4c1219c70"
+    },
+    {
+      "bytes": 1123,
+      "path": "04_PSEUDOCODE/END_TO_END.pseudo",
+      "sha256": "e8505adebc1d2d1cf9386526fb565e3180b83c56349890a555c1270b1fed66b0"
+    },
+    {
+      "bytes": 822,
+      "path": "04_PSEUDOCODE/POLICY_COMPILER.pseudo",
+      "sha256": "02244cf01320933e524160b7685024cf14aa90923e5b913699e7883c73ef2e98"
+    },
+    {
+      "bytes": 316,
+      "path": "04_PSEUDOCODE/PROFILE_UPDATE.pseudo",
+      "sha256": "2a54dbf7644b7ff6ac3b052835a7c0476e02c21aa3cdabfa3d47bc5861e5a29a"
+    },
+    {
+      "bytes": 591,
+      "path": "04_PSEUDOCODE/REALTIME_LOOP.pseudo",
+      "sha256": "4ed0809265dd87a362797c8e8174c7a9347c46c7a3e06611784ccebb9cef60a2"
+    },
+    {
+      "bytes": 731,
+      "path": "04_PSEUDOCODE/SPO_PROJECTION.pseudo",
+      "sha256": "b6fc9ca6c6d2988ce3d352af2ac99c8493aff0d64ea4d55ce67b1f4f36391b44"
+    },
+    {
+      "bytes": 824,
+      "path": "04_PSEUDOCODE/VERA_SAFETY_GATE.pseudo",
+      "sha256": "d66f120573062dabc342dde294cad84184044c08ffb9cdf8ef87b68ed7b8b397"
+    },
+    {
+      "bytes": 389,
+      "path": "05_DATA_MODEL/examples/synthetic_device_capabilities.json",
+      "sha256": "eb1ff492de09d55c9f801caa31505b5a70be90c7b3eb40d4cdc76ec3b7605509"
+    },
+    {
+      "bytes": 632,
+      "path": "05_DATA_MODEL/examples/synthetic_profile_definition.json",
+      "sha256": "6c365c8eaaf7c5dfe02a83f865b925d46296715444cac69168dc58c9ddab71b2"
+    },
+    {
+      "bytes": 1203,
+      "path": "05_DATA_MODEL/schemas/acoustic_event.schema.json",
+      "sha256": "6621950b0bb6be8a58569a6d5aac6cc7e3a49a0433c5c38c4d653abdaea91a8b"
+    },
+    {
+      "bytes": 877,
+      "path": "05_DATA_MODEL/schemas/device_capabilities.schema.json",
+      "sha256": "4fc9c1342290a3e0154cccf33867aa6abaa8fcadf1961ffb3c2a1f97a42f7a2d"
+    },
+    {
+      "bytes": 943,
+      "path": "05_DATA_MODEL/schemas/device_policy.schema.json",
+      "sha256": "eed363d0abd252985269b0dff87594f844c263cb113570e8eb30afcbbe0176d2"
+    },
+    {
+      "bytes": 860,
+      "path": "05_DATA_MODEL/schemas/profile_definition_package.schema.json",
+      "sha256": "5df003673187ca4b106f64fba4aa4ad0d0adb711dbf7aa69f37706657606b339"
+    },
+    {
+      "bytes": 775,
+      "path": "05_DATA_MODEL/schemas/provenance_receipt.schema.json",
+      "sha256": "b6fac7f1a4b9f04e18b3f39184eee183abd37daec4b33a5001e06a9ebe40f3dd"
+    },
+    {
+      "bytes": 1153,
+      "path": "05_DATA_MODEL/schemas/spo_api.schema.json",
+      "sha256": "e1caf1faf744d233a1147f8cf4cbc37f7664deab7e12764fc238639b51a22240"
+    },
+    {
+      "bytes": 1043,
+      "path": "05_DATA_MODEL/schemas/spo_instance.schema.json",
+      "sha256": "aac391d2c57f28df4eefb7ee13a85305dc0cb6fee7be72effd7b882a4ae7bbf5"
+    },
+    {
+      "bytes": 884,
+      "path": "05_DATA_MODEL/schemas/transform_rule.schema.json",
+      "sha256": "f8135c1a2ccca5e589b0a5e264f17952a21fe2b34d2f7b8fd4c46a0d3fc179c7"
+    },
+    {
+      "bytes": 631,
+      "path": "06_IMPLEMENTATION_DESIGN/AI_AUTHORING_PLANE.md",
+      "sha256": "2e6df814bdc8ac74c34b04a52ab32a3e478f29c5c460213f82b60f2c12f84e59"
+    },
+    {
+      "bytes": 904,
+      "path": "06_IMPLEMENTATION_DESIGN/BRANE_ADAPTER.md",
+      "sha256": "b37b250e2fecf21cb0a485338fd0a2678c6bece5c4f788870bca8d750effeb9f"
+    },
+    {
+      "bytes": 1030,
+      "path": "06_IMPLEMENTATION_DESIGN/BUILD_PHASES.md",
+      "sha256": "5d42107e2607f10828f3e5cb4c6b0f7d8c0abdaf10a0438d6dda8624cf794df5"
+    },
+    {
+      "bytes": 856,
+      "path": "06_IMPLEMENTATION_DESIGN/HARDWARE_RUNTIME_BOUNDARY.md",
+      "sha256": "a2df2a23d2070af4d49e763b52492f61ad039e6af1db737adfc234e6e710ec47"
+    },
+    {
+      "bytes": 1049,
+      "path": "06_IMPLEMENTATION_DESIGN/IMPLEMENTATION_MAP.md",
+      "sha256": "167cb562a432801f63cacf2add20d9d2681362ec4011417ecb1706901023a944"
+    },
+    {
+      "bytes": 666,
+      "path": "06_IMPLEMENTATION_DESIGN/LATENCY_AND_RESOURCE_BUDGET.md",
+      "sha256": "15b3afbb606c9ace1686aef9f438b115a16b15f8d6de218ef0a8ac76c1a93fdd"
+    },
+    {
+      "bytes": 489,
+      "path": "06_IMPLEMENTATION_DESIGN/LIBRARY_DESIGN.md",
+      "sha256": "9d2b8a3f87e30933b719c1ca2f6fd7ec0c687529dca57f58803f7ccc8c9f25e0"
+    },
+    {
+      "bytes": 620,
+      "path": "06_IMPLEMENTATION_DESIGN/PRIVACY_SECURITY.md",
+      "sha256": "6124cbed3dbc8e535f0c972b5087b91cbaacf16d169d4e3c9a941da59c944d2f"
+    },
+    {
+      "bytes": 623,
+      "path": "06_IMPLEMENTATION_DESIGN/REGULATORY_RESEARCH_BOUNDARY.md",
+      "sha256": "87ec350ae8b1244d02f88c8db926f1356a5750abd1a5492184f6ffb05282f24e"
+    },
+    {
+      "bytes": 1279,
+      "path": "07_TESTING/ACCEPTANCE_MATRIX.md",
+      "sha256": "e770388d42ce695621cae09900fde2c92a2ad2d31e5dd653c0bdb1ee5e44f294"
+    },
+    {
+      "bytes": 531,
+      "path": "07_TESTING/FAILURE_INJECTION.md",
+      "sha256": "afde0b94de4afb809d414a9ba91fccfb684b8b582c124f28ed36cf1e094055c9"
+    },
+    {
+      "bytes": 840,
+      "path": "07_TESTING/SAFETY_PROPERTY_TESTS.md",
+      "sha256": "ecb8514d04bfdc7ef0a22e6c775f0560921e7322fc9af9c835b2f485a307d4f6"
+    },
+    {
+      "bytes": 1009,
+      "path": "07_TESTING/SIMULATION_VECTORS.json",
+      "sha256": "a0352068a4ce4443306ec7280deb8adce56f80cab840ad56355ca83d298fc654"
+    },
+    {
+      "bytes": 851,
+      "path": "08_RECOVERY/CANONICAL_ONE_PAGE.md",
+      "sha256": "77efcc70c16f341200e2f5b1c7c5669df9ea2ca4fa24c2a8fedabca15e8ce13b"
+    },
+    {
+      "bytes": 599,
+      "path": "08_RECOVERY/START_HERE.md",
+      "sha256": "ace0e86cccd1bf36dc9d7ca1129d7bd17728cad5746ceba16e8cecd723d11736"
+    },
+    {
+      "bytes": 182345,
+      "path": "09_SOURCE_PROVENANCE/SOURCE_ARCHIVES/AI_2.1_SOURCE.zip",
+      "sha256": "87bd88fd8ea1a0359a04c5486de34359c431d34aee490b842824c2465fc70781"
+    },
+    {
+      "bytes": 8205727,
+      "path": "09_SOURCE_PROVENANCE/SOURCE_ARCHIVES/API_1.0_ALPHA_SOURCE.zip",
+      "sha256": "7b2ad13c0a7a4efc9d7fc824a47e09b725c8cde7ec70fde74600057031c11b10"
+    },
+    {
+      "bytes": 8282524,
+      "path": "09_SOURCE_PROVENANCE/SOURCE_ARCHIVES/API_2.0_SOURCE.zip",
+      "sha256": "9aca1e1af86d985347f81344dd3369a12fe5809d082fdc54038dcaf575f25fb6"
+    },
+    {
+      "bytes": 192686,
+      "path": "09_SOURCE_PROVENANCE/SOURCE_ARCHIVES/BRANE_3.1_SOURCE.zip",
+      "sha256": "ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e"
+    },
+    {
+      "bytes": 4846,
+      "path": "09_SOURCE_PROVENANCE/SOURCE_ARCHIVES/COLLAPSE_INTELLIGENCE_1.0_SOURCE.zip",
+      "sha256": "b0b83bfc401ad4c3d0c049a757d34cb378f322b56888a56728dade686b7ea797"
+    },
+    {
+      "bytes": 18363490,
+      "path": "09_SOURCE_PROVENANCE/SOURCE_ARCHIVES/HSV1_MMO_FIELD_v0.28_SOURCE.zip",
+      "sha256": "6aa44f7cd7eb78ac707612677ca76a666f13d0ef7f2742ebe9ca46f373bf9317"
+    },
+    {
+      "bytes": 18555,
+      "path": "09_SOURCE_PROVENANCE/SOURCE_ARCHIVES/LIBRARY_1.0_ALPHA_SOURCE.zip",
+      "sha256": "7dd4311247b20744427de8ba447f726e5e113365c044333e7b53f85af299303a"
+    },
+    {
+      "bytes": 155620,
+      "path": "09_SOURCE_PROVENANCE/SOURCE_ARCHIVES/LIBRARY_3.0_SOURCE.zip",
+      "sha256": "5ce07b7c142c421520cf02fc2d3897bd758344da42a2d6eaafbb8f19acc8d6ce"
+    },
+    {
+      "bytes": 2545,
+      "path": "09_SOURCE_PROVENANCE/SOURCE_INVENTORY.json",
+      "sha256": "4ef75cf7d72c8696f2f31b394d8867fec68667f41bee33b528dc6e2e0d03271a"
+    },
+    {
+      "bytes": 1725,
+      "path": "09_SOURCE_PROVENANCE/SOURCE_NOTES.md",
+      "sha256": "85c22cdf19c9cacc2000d4509017ed6902139857fdc89867e9c296044e371461"
+    },
+    {
+      "bytes": 483,
+      "path": "10_PROTOTYPE_SCAFFOLD/README.md",
+      "sha256": "a041d45130adc25340dab768f1538fef05e9960a938d63ecf6890b0032a3eead"
+    },
+    {
+      "bytes": 786,
+      "path": "10_PROTOTYPE_SCAFFOLD/examples/demo.py",
+      "sha256": "71ffa718515fbcc8ff76da35d1fdfecfb6d7e3fb2f5b5d50ed6c667d58430316"
+    },
+    {
+      "bytes": 294,
+      "path": "10_PROTOTYPE_SCAFFOLD/pyproject.toml",
+      "sha256": "1b4ad3fa26235bd4125881bf4aeda940a35345fad9ea707d95b621570cb26dfa"
+    },
+    {
+      "bytes": 210,
+      "path": "10_PROTOTYPE_SCAFFOLD/src/vera_spo/__init__.py",
+      "sha256": "d9c1d91c8b61af5eff41ac078eb8a51d56e0f02a05f673b1cb974b6af93f29a6"
+    },
+    {
+      "bytes": 1114,
+      "path": "10_PROTOTYPE_SCAFFOLD/src/vera_spo/compiler.py",
+      "sha256": "c3086e3a8b212b7c6df236d6aabae69225041fef05c59663cc24b5f82c94d9f8"
+    },
+    {
+      "bytes": 256,
+      "path": "10_PROTOTYPE_SCAFFOLD/src/vera_spo/dsp.py",
+      "sha256": "210db13579c5cebe106a5910095fe0aef3c90adc920f24dae7fd0d04decec7d6"
+    },
+    {
+      "bytes": 1323,
+      "path": "10_PROTOTYPE_SCAFFOLD/src/vera_spo/gate.py",
+      "sha256": "27bb2dd0091467fab76c15708b4f1313d05c739fffb4b0e0b35bd21021941115"
+    },
+    {
+      "bytes": 1350,
+      "path": "10_PROTOTYPE_SCAFFOLD/src/vera_spo/models.py",
+      "sha256": "322c40732990eed5811e26e59bae2ecc621ca8e8b25161925ad7fb2b23c7b1dd"
+    },
+    {
+      "bytes": 1178,
+      "path": "10_PROTOTYPE_SCAFFOLD/src/vera_spo/projection.py",
+      "sha256": "192b8d0c00811355291e6865a004adc89e5d8fab15a3b5117bd9fd1551f030c8"
+    },
+    {
+      "bytes": 545,
+      "path": "10_PROTOTYPE_SCAFFOLD/src/vera_spo/runtime.py",
+      "sha256": "80440f99964f6761e88127ced83e684c7ce3befde1d5c3e282c47fb915399fb8"
+    },
+    {
+      "bytes": 1805,
+      "path": "10_PROTOTYPE_SCAFFOLD/tests/test_gate.py",
+      "sha256": "84a074f7719ad0d02d245f471361988c18c219b93a4a81440406efb05bc34c34"
+    },
+    {
+      "bytes": 1288,
+      "path": "11_MACHINE_READABLE/algorithm_registry.json",
+      "sha256": "481215704b9c956c34a6e401e754e19b57bb81f68f9873d93197bfe914c45e05"
+    },
+    {
+      "bytes": 1284,
+      "path": "11_MACHINE_READABLE/dependency_graph.json",
+      "sha256": "3373ae63c51fb13ceb906388ff9afeee79518681ec6377c020ff59f51b606f5d"
+    },
+    {
+      "bytes": 432,
+      "path": "11_MACHINE_READABLE/release_manifest.json",
+      "sha256": "464a104992884905e6050e781ad7397bdce4f5cd135fe0ff4157e796e06ae52a"
+    },
+    {
+      "bytes": 3740,
+      "path": "README_FIRST.md",
+      "sha256": "e47308be665f12c5e688e843e8308596c438e4d662d8f4ec52aef2cb2c3b4298"
+    }
+  ],
+  "release_id": "VERA-SPO-BRANE-1.0-ALPHA-20260819"
+}

@@ -1,0 +1,512 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_NEIGHBORS_V1",
+  "handle": "@cosmology",
+  "incoming": [
+    [
+      "@gravitational_self_coupling",
+      {
+        "source": "@gravitational_self_coupling",
+        "relation": "DIRECTED_TO",
+        "target": "@cosmology",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54754->54755",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@gravitational_self_coupling",
+      {
+        "source": "@gravitational_self_coupling",
+        "relation": "USED_BY",
+        "target": "@cosmology",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_USEDBY:53689",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@gravity",
+      {
+        "source": "@gravity",
+        "relation": "DEPENDS_TO",
+        "target": "@cosmology",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45088",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@gravity",
+      {
+        "source": "@gravity",
+        "relation": "DIRECTED_TO",
+        "target": "@cosmology",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45088",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@gravity",
+      {
+        "source": "@gravity",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@cosmology",
+        "graph_family": "audit",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45088",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@gravity",
+      {
+        "source": "@gravity",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@cosmology",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:34123;CANONICAL_API_UPSTREAM_FIELD:45400",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@gravity",
+      {
+        "source": "@gravity",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@cosmology",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "EDGE_LEDGER_LINE:45088;arrow_line:27136,canonical_roadmap,prior_adjacency",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@gravity",
+      {
+        "source": "@gravity",
+        "relation": "USED_BY",
+        "target": "@cosmology",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:36864;CANONICAL_API_DOWNSTREAM_FIELD:45485",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@projected_gr_inheritance",
+      {
+        "source": "@projected_gr_inheritance",
+        "relation": "DIRECTED_TO",
+        "target": "@cosmology",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54769->54770",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@structure_formation",
+      {
+        "source": "@structure_formation",
+        "relation": "DEPENDS_ON",
+        "target": "@cosmology",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:130",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@cosmological_principle",
+      {
+        "source": "@cosmological_principle",
+        "relation": "FAMILY_DEPENDS_ON",
+        "target": "@cosmology",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:512",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@scale_factor",
+      {
+        "source": "@scale_factor",
+        "relation": "FAMILY_DEPENDS_ON",
+        "target": "@cosmology",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:513",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@hubble_parameter",
+      {
+        "source": "@hubble_parameter",
+        "relation": "FAMILY_DEPENDS_ON",
+        "target": "@cosmology",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:514",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@friedmann_equation",
+      {
+        "source": "@friedmann_equation",
+        "relation": "FAMILY_DEPENDS_ON",
+        "target": "@cosmology",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:515",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@acceleration_equation",
+      {
+        "source": "@acceleration_equation",
+        "relation": "FAMILY_DEPENDS_ON",
+        "target": "@cosmology",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:516",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@continuity_equation_cosmology",
+      {
+        "source": "@continuity_equation_cosmology",
+        "relation": "FAMILY_DEPENDS_ON",
+        "target": "@cosmology",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:517",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@spatial_curvature_parameter",
+      {
+        "source": "@spatial_curvature_parameter",
+        "relation": "FAMILY_DEPENDS_ON",
+        "target": "@cosmology",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:518",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@equation_of_state",
+      {
+        "source": "@equation_of_state",
+        "relation": "FAMILY_DEPENDS_ON",
+        "target": "@cosmology",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:519",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@cosmological_horizon",
+      {
+        "source": "@cosmological_horizon",
+        "relation": "FAMILY_DEPENDS_ON",
+        "target": "@cosmology",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:520",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@particle_horizon",
+      {
+        "source": "@particle_horizon",
+        "relation": "FAMILY_DEPENDS_ON",
+        "target": "@cosmology",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:521",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@event_horizon_cosmology",
+      {
+        "source": "@event_horizon_cosmology",
+        "relation": "FAMILY_DEPENDS_ON",
+        "target": "@cosmology",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:522",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@structure_formation",
+      {
+        "source": "@structure_formation",
+        "relation": "FAMILY_DEPENDS_ON",
+        "target": "@cosmology",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:523",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@primordial_black_hole",
+      {
+        "source": "@primordial_black_hole",
+        "relation": "FAMILY_DEPENDS_ON",
+        "target": "@cosmology",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:524",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@supermassive_black_hole",
+      {
+        "source": "@supermassive_black_hole",
+        "relation": "FAMILY_DEPENDS_ON",
+        "target": "@cosmology",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:525",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@galactic_nucleus",
+      {
+        "source": "@galactic_nucleus",
+        "relation": "FAMILY_DEPENDS_ON",
+        "target": "@cosmology",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:526",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@black_hole_cosmology",
+      {
+        "source": "@black_hole_cosmology",
+        "relation": "FAMILY_DEPENDS_ON",
+        "target": "@cosmology",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:527",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@black_hole_cosmology",
+      {
+        "source": "@black_hole_cosmology",
+        "relation": "DEPENDS_ON",
+        "target": "@cosmology",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:705",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ]
+  ],
+  "outgoing": [
+    [
+      "@consciousness",
+      {
+        "source": "@cosmology",
+        "relation": "DEPENDS_TO",
+        "target": "@consciousness",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45071",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@consciousness",
+      {
+        "source": "@cosmology",
+        "relation": "DIRECTED_TO",
+        "target": "@consciousness",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45071",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@consciousness",
+      {
+        "source": "@cosmology",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@consciousness",
+        "graph_family": "audit",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45071",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@consciousness",
+      {
+        "source": "@cosmology",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@consciousness",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:45365",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@consciousness",
+      {
+        "source": "@cosmology",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@consciousness",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "EDGE_LEDGER_LINE:45071;canonical_roadmap",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@consciousness",
+      {
+        "source": "@cosmology",
+        "relation": "USED_BY",
+        "target": "@consciousness",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:45401",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@acceleration_equation",
+      {
+        "source": "@cosmology",
+        "relation": "DEPENDS_ON",
+        "target": "@acceleration_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:129",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@einstein_field_equation",
+      {
+        "source": "@cosmology",
+        "relation": "GOVERNED_BY",
+        "target": "@einstein_field_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:204",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@einstein_field_equation",
+      {
+        "source": "@cosmology",
+        "relation": "DEPENDS_ON",
+        "target": "@einstein_field_equation",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:542",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_NEIGHBORS_V1",
+  "handle": "@structured_temporal_manifold",
+  "incoming": [
+    [
+      "@time_space",
+      {
+        "source": "@time_space",
+        "relation": "DEPENDS_TO",
+        "target": "@structured_temporal_manifold",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45143",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@time_space",
+      {
+        "source": "@time_space",
+        "relation": "DIRECTED_TO",
+        "target": "@structured_temporal_manifold",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45143",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@time_space",
+      {
+        "source": "@time_space",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@structured_temporal_manifold",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45143",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@time_space",
+      {
+        "source": "@time_space",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@structured_temporal_manifold",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:45820",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@time_space",
+      {
+        "source": "@time_space",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@structured_temporal_manifold",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "EDGE_LEDGER_LINE:45143;canonical_roadmap,vertical_chain:1703,vertical_chain:27446",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@time_space",
+      {
+        "source": "@time_space",
+        "relation": "USED_BY",
+        "target": "@structured_temporal_manifold",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:45849",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ]
+  ],
+  "outgoing": [
+    [
+      "@temporal_metric",
+      {
+        "source": "@structured_temporal_manifold",
+        "relation": "DEPENDS_TO",
+        "target": "@temporal_metric",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45134",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@temporal_metric",
+      {
+        "source": "@structured_temporal_manifold",
+        "relation": "DIRECTED_TO",
+        "target": "@temporal_metric",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45134",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@temporal_metric",
+      {
+        "source": "@structured_temporal_manifold",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@temporal_metric",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45134",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@temporal_metric",
+      {
+        "source": "@structured_temporal_manifold",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@temporal_metric",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:45827",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@temporal_metric",
+      {
+        "source": "@structured_temporal_manifold",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@temporal_metric",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "EDGE_LEDGER_LINE:45134;canonical_roadmap,vertical_chain:1703,vertical_chain:27446",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@temporal_metric",
+      {
+        "source": "@structured_temporal_manifold",
+        "relation": "USED_BY",
+        "target": "@temporal_metric",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:45821",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ]
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry"
+}

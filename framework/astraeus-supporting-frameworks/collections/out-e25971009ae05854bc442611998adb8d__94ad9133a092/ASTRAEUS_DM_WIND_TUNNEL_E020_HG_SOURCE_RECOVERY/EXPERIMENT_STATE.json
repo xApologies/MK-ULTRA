@@ -1,0 +1,22 @@
+{
+  "experiment": "E020",
+  "candidate": "CAND-DM-HG-SOURCE-RECOVERY-023",
+  "title": "Source Recovery of the Gravitational-Helicon Propagation Law and Bottleneck Reclassification",
+  "status": "PROPAGATION + MASSLESS DISPERSION SOURCE-RECOVERED; INSTANCE MODE SELECTION / P_g OPEN",
+  "physical_dark_matter_witness": false,
+  "parent_promotions": 0,
+  "results": {
+    "E019_pre_helicon_chain": "8/8 PASS",
+    "native_Hg_update_law": "RECOVERED",
+    "ER_Laplacian_and_eigenproblem": "RECOVERED",
+    "exact_discrete_dispersion": "RECOVERED",
+    "massless_condition_mu_g_zero": "RECOVERED",
+    "c_A_definition": "RECOVERED_AS_PROPAGATION_CEILING",
+    "c_A_instance_numeric_calibration": "NOT_RECOVERED",
+    "exact_E019_W_ij_rule": "NOT_RECOVERED",
+    "constructive_P_g_kernel": "NOT_RECOVERED",
+    "E019_specific_H_g_mode": "NOT_SELECTED"
+  },
+  "ruling": "E019's bottleneck was too broad. The project sources already contain the native gravitational-helicon recurrence, ER spectral eigenproblem, exact discrete dispersion, and massless condition. The frontier is now instance-level spectral construction and gravitational-sector selection: fix source-valid ER weights for the E019 witness, extract its eigenmodes, determine which carry the endogenous conserved anisotropic response, then satisfy the still-open P_g/helicon-kernel obligation.",
+  "next_handle": "RECOVER_SOURCE_VALID_ER_EDGE_WEIGHTS_FOR_E019_OR_PROVE_ONLY_SCALE_FREE_SPECTRAL_TEST_IS_AVAILABLE"
+}

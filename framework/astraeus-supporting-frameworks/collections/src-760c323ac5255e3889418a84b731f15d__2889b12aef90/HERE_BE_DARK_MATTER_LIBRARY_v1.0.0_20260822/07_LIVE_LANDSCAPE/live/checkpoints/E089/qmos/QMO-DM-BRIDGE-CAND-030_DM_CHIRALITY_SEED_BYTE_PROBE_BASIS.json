@@ -1,0 +1,29 @@
+{
+  "schema": "ASTRAEUS_QMO_CANDIDATE_V1",
+  "qmo_id": "QMO-DM-BRIDGE-CAND-030",
+  "handle": "@dm_chirality_seed_byte_probe_basis",
+  "canonical_name": "Recovered Chirality Seed / Byte Probe Basis",
+  "status": "LIVE_SOURCE_RECOVERED_PROBE_BASIS",
+  "checkpoint": "E089",
+  "parents": [
+    "@chirality_seed",
+    "@left_chirality_seed",
+    "@right_chirality_seed",
+    "@chirality_byte",
+    "@energy_density"
+  ],
+  "source_basis": [
+    "chirality_recovery_report.md",
+    "uploaded chirality-seed image"
+  ],
+  "derivation": [
+    "Recovered chirality is an admissibility/organizational grammar rather than mere orientation.",
+    "The primitive seed uses existence states 0=empty set and 1={empty set}, arranged as mirror-related 2x2 patterns.",
+    "The canonical byte pair is LEFT=10010110 and RIGHT=01101001, but the primary object is the 2x2x2 arrangement rather than its serialization.",
+    "The six values 1/7,...,6/7 are recovered basin / energy-density occupancy states inside chirality topology; they are not six different chirality bytes."
+  ],
+  "result": "The Live Landscape probe basis is corrected: use two mirror chirality orientations (seed/byte) crossed, when useful, with six basin occupancy levels. Do not treat 1/7..6/7 as six byte identities.",
+  "math": "Seed_L=[[1,0],[0,1]], Seed_R=[[0,1],[1,0]] under 1={empty set},0=empty set; Byte_L=(Seed_L,Seed_R), Byte_R=(Seed_R,Seed_L); basin beta_k=k/7, k=1..6.",
+  "boundary": "This is source recovery and representation typing. It does not by itself establish a dark-matter identity, a chirality-to-gravity law, or a basin-to-continuity operator.",
+  "physical_claim": false
+}

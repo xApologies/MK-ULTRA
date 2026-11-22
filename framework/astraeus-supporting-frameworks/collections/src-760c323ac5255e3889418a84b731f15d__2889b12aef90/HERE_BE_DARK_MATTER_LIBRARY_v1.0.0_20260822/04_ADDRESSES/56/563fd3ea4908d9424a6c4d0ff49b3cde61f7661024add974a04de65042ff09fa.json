@@ -1,0 +1,97 @@
+{
+  "handle": "@er_contribution_to_geometry",
+  "object_type": "mathematical_object",
+  "status": "indexed-unlinked",
+  "domain": "API43",
+  "namespace": "",
+  "name": "ER Contribution to Geometry",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 2,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 1,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 147,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [
+      {
+        "id": 14,
+        "source_id": "SRC-DM-007",
+        "relation": "SOURCE_DEFINES",
+        "handle": "@er_contribution_to_geometry",
+        "status": "SOURCE_BACKFILL_ONLY",
+        "provenance": "chapters_6_10/chapters_6_10.tex:18-29"
+      }
+    ],
+    "source_reachability_anchor_count": 1,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@er_contribution_to_geometry",
+        "relation": "CONTRIBUTES_TO",
+        "target": "@metric_tensor",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-45",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; ER organization contributes to the readable metric."
+      },
+      {
+        "source": "@metric_tensor",
+        "relation": "RECEIVES_CONTRIBUTION_FROM",
+        "target": "@er_contribution_to_geometry",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@er_contribution_to_geometry CONTRIBUTES_TO @metric_tensor); rule=CONTRIBUTES_TO→RECEIVES_CONTRIBUTION_FROM"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 2022,
+        "source": "@er_contribution_to_geometry",
+        "relation": "CONTRIBUTES_TO",
+        "target": "@metric_tensor",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; ER organization contributes to the readable metric."
+      },
+      {
+        "id": 19670,
+        "source": "@er_contribution_to_geometry",
+        "relation": "CONTRIBUTES_TO",
+        "target": "@metric_tensor",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; ER organization contributes to the readable metric."
+      },
+      {
+        "id": 3075,
+        "source": "@metric_tensor",
+        "relation": "RECEIVES_CONTRIBUTION_FROM",
+        "target": "@er_contribution_to_geometry",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@er_contribution_to_geometry CONTRIBUTES_TO @metric_tensor); rule=CONTRIBUTES_TO→RECEIVES_CONTRIBUTION_FROM"
+      }
+    ]
+  },
+  "address": "@er_contribution_to_geometry",
+  "address_sha256": "563fd3ea4908d9424a6c4d0ff49b3cde61f7661024add974a04de65042ff09fa"
+}

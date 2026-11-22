@@ -1,0 +1,30 @@
+{
+  "schema": "mk43.brane.manifest.v0.1",
+  "brane_id": "mk43.gravity.brane",
+  "brane_version": "0.1.0",
+  "domain": "gravity",
+  "runtime_protocol": "1.0-draft",
+  "qmo_schema": "1.0-draft",
+  "modules": {
+    "collapse_intelligence": {
+      "id": "mk43.collapse-intelligence",
+      "version": "0.1.0",
+      "entrypoint": "collapse_intelligence"
+    },
+    "api": {
+      "id": "mk43.ultra.api",
+      "version": "4.3",
+      "mode": "read_only"
+    },
+    "library": {
+      "id": "mk43.knowledge.library",
+      "version": "1.0-draft"
+    }
+  },
+  "policies": {
+    "qmo_retention": "ephemeral",
+    "coverage_mode": "annotated",
+    "default_format": "markdown"
+  },
+  "checksums": {}
+}

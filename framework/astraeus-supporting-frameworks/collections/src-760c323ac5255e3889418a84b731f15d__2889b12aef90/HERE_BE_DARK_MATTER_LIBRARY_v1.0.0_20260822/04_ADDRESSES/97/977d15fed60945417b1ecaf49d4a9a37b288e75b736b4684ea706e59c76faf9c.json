@@ -1,0 +1,78 @@
+{
+  "handle": "@dm_hidden_relational_load",
+  "object_type": "mathematical_object",
+  "status": "ATLAS_DERIVED_ACTIVE",
+  "domain": "DM22",
+  "namespace": "energy",
+  "name": "Hidden Relational-Capacity Load",
+  "definition": "Static supported load assigned to hidden relationships using relationship valuation and runtime transition capacity. It is not endpoint history energy and is not automatically mass.",
+  "math": "L_H(U)=sum_{e in E_H(U)} r(e) T_run(e); rho_H(U)=L_H(U)/V(U).",
+  "source_layer": "DM22",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "DM22",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 3,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 3,
+    "live_in_count": 2,
+    "closure_out_reachability_count": 195,
+    "closure_in_reachability_count": 2,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 2,
+    "aliases": [],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19759,
+        "source": "@dm_hidden_relational_load",
+        "relation": "USES",
+        "target": "@containment_volume",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19760,
+        "source": "@dm_hidden_relational_load",
+        "relation": "USES",
+        "target": "@dm_runtime_transition_capacity",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19761,
+        "source": "@dm_hidden_relational_load",
+        "relation": "USES",
+        "target": "@relationship",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19797,
+        "source": "@dm_resolution_density_profile",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_hidden_relational_load",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      }
+    ]
+  },
+  "address": "@dm_hidden_relational_load",
+  "address_sha256": "977d15fed60945417b1ecaf49d4a9a37b288e75b736b4684ea706e59c76faf9c"
+}

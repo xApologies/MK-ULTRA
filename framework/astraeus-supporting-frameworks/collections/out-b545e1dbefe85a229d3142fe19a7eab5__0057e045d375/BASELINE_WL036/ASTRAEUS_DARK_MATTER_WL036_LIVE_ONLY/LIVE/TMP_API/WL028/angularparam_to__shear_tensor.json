@@ -1,0 +1,16 @@
+{
+  "source": "@angular_momentum_parameter",
+  "target": "@shear_tensor",
+  "path": [
+    {
+      "source": "@angular_momentum_parameter",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@shear_tensor",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-51",
+      "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=3; witness=@angular_momentum_parameter-[COMPOSED_DEPENDENCY]->@white_state_core-[COMPOSED_DEPENDENCY]->@shear_tensor"
+    }
+  ]
+}

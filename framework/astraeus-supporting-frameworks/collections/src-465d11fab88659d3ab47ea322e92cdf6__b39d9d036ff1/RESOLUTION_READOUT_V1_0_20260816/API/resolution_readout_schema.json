@@ -1,0 +1,20 @@
+{
+  "module": "Resolution & Readout",
+  "version": "1.0",
+  "date": "2026-08-16",
+  "objects": {
+    "resolution_index": "Res",
+    "resolution_congruence": "K_R",
+    "quotient": "A_B/K_R",
+    "resolution_equivalence": "x ~_R y iff q_R(x)=q_R(y)",
+    "readable_geometry": "Geo_R(B)=Spec_T(A_B/K_R)",
+    "resolution_landscape": "L_R(B)={Geo_R(B),q_ji}",
+    "observational_identity": "Obs_R",
+    "resolution_domain": "Dom_R([x]_R)=q_R^{-1}([x]_R)"
+  },
+  "native_calculus": false,
+  "time_shell_resolution_address": {
+    "status": "candidate",
+    "formula": "TSAddr(o*,R)={x in dXi | Order(Read_R(Pi_TS(x)))=o*}"
+  }
+}

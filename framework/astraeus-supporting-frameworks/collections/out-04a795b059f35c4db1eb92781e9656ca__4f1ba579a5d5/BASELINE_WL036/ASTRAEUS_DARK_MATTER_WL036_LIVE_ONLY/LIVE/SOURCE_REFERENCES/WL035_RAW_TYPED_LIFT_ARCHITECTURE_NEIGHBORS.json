@@ -1,0 +1,22 @@
+[
+  {
+    "edge_id": "E-0005",
+    "source": "@transduction_connection",
+    "relation": "SELECTS_LIFTS_IN",
+    "target": "@typed_lift_architecture",
+    "graph_family": "categorical",
+    "confidence": "high",
+    "audit_status": "live_model_derived",
+    "provenance": "L-238;L-263"
+  },
+  {
+    "edge_id": "E-0031",
+    "source": "@adjoint_transduction_audit",
+    "relation": "AUDITS_ROUND_TRIP_OF",
+    "target": "@typed_lift_architecture",
+    "graph_family": "audit",
+    "confidence": "medium",
+    "audit_status": "live_model_derived",
+    "provenance": "L-246;L-252"
+  }
+]

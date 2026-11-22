@@ -1,0 +1,89 @@
+{
+  "handle": "@dm_formal_persistence_qualification",
+  "object_type": "mathematical_object",
+  "status": "ATLAS_DERIVED_ACTIVE",
+  "domain": "DM22",
+  "namespace": "persistence",
+  "name": "Hidden-State Formal Persistence Qualification",
+  "definition": "Exact formal Persistence test applied only after a hidden S3 network state has been embedded in the Time-Space Inherited State Bundle.",
+  "math": "P_Xi(x) := [exists n>=1 such that I^n(iota_HE^R(x)) ~ iota_HE^R(x)]. If true, iota_HE^R(x) in Xi.",
+  "source_layer": "DM22",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "DM22",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 4,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 4,
+    "live_in_count": 1,
+    "closure_out_reachability_count": 202,
+    "closure_in_reachability_count": 6,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 1,
+    "aliases": [],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19749,
+        "source": "@dm_formal_persistence_qualification",
+        "relation": "DEPENDS_ON",
+        "target": "@admissible_equivalence",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19750,
+        "source": "@dm_formal_persistence_qualification",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_hidden_state_embedding",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19751,
+        "source": "@dm_formal_persistence_qualification",
+        "relation": "DEPENDS_ON",
+        "target": "@inheritance_morphism",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19752,
+        "source": "@dm_formal_persistence_qualification",
+        "relation": "DEPENDS_ON",
+        "target": "@persistent_locus",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19756,
+        "source": "@dm_hidden_persistent_subset",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_formal_persistence_qualification",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      }
+    ]
+  },
+  "address": "@dm_formal_persistence_qualification",
+  "address_sha256": "59c05a37fb54ff44600bfb4b90214e4f3589f7226ea855d012e15b143a15781c"
+}

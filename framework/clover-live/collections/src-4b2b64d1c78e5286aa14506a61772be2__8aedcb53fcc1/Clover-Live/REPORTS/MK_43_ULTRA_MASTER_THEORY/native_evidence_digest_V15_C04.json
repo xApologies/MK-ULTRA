@@ -1,0 +1,121 @@
+{
+  "chapter_ids": [
+    "V15-C04"
+  ],
+  "chapters": [
+    {
+      "assigned_handle_count": 2,
+      "chapter_id": "V15-C04",
+      "handles": [
+        {
+          "api_status": "PRESENT_IN_CURRENT_API_HANDLE_ARRAY",
+          "canonical_name": "@gravity_audit_12",
+          "canonical_uri": null,
+          "coverage_v2": null,
+          "definitions": [],
+          "equations": [],
+          "handle": "@gravity_audit_12",
+          "incoming_relation_types": {},
+          "native_report": {
+            "bytes": 7213,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V15_C04\\gravity_audit_12_826cba3c3bcf4e56a3581d3358ad2001.md",
+            "reused_master_query": false,
+            "sha256": "4659b41d0462ad33d72bd7e69102f3bbd3618847592b498fdce074c0a01fdbd3"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        },
+        {
+          "api_status": "DECLARED",
+          "canonical_name": "@gravity_audit_v2",
+          "canonical_uri": "mk43://recover/audit/gravity-v2",
+          "coverage_v2": {
+            "analogy_units": 0,
+            "calculated_at": "2026-08-03T17:42:21.881690+00:00",
+            "conflicts": 0,
+            "definition_units": 0,
+            "distinct_source_hashes": 82,
+            "english_units": 27,
+            "equation_units": 7,
+            "evidence_diversity": 2,
+            "handle": "@gravity_audit_v2",
+            "model_mechanism_units": 0,
+            "prediction_experiment_units": 0,
+            "provenance_units": 1,
+            "recommended_priority": "P2",
+            "registered_dependencies": 1,
+            "run_id": "RP-05B",
+            "score": 77,
+            "state": "MEDIUM",
+            "theorem_proof_units": 0,
+            "unique_substantive_units": 262,
+            "unresolved_questions": 0
+          },
+          "definitions": [],
+          "equations": [
+            {
+              "environment": "math_block",
+              "equation_id": 548,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:548"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 712,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:712"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 721,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:721"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 732,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:732"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 1798,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:1798"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 2203,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:2203"
+            },
+            {
+              "environment": "math_block",
+              "equation_id": 2204,
+              "evidence_class": "DETERMINISTIC_COHERENT_SOURCE_UNIT_EQUATION",
+              "record_id": "live_model.source_unit_equations:2204"
+            }
+          ],
+          "handle": "@gravity_audit_v2",
+          "incoming_relation_types": {
+            "DIRECTED_TO": 1
+          },
+          "native_report": {
+            "bytes": 2300844,
+            "path": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\NATIVE_QUERY\\V15_C04\\gravity_audit_v2_34c2cf478cc14e7db7567d66141d7cc0.md",
+            "reused_master_query": false,
+            "sha256": "07fc850c5626853dfec76acee0afd8b5c3f9cc1d7e65d1d0c967cca161fb65e7"
+          },
+          "object_class": null,
+          "outgoing_relation_types": {}
+        }
+      ],
+      "title": "Black-Hole and Strong-Gravity Observables"
+    }
+  ],
+  "database_sha256": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03",
+  "database_unchanged": true,
+  "query_architecture": "Runtime -> BRANE -> API/QMO -> Library 4.1",
+  "query_receipt": "REPORTS\\MK_43_ULTRA_MASTER_THEORY\\native_query_receipt_V15_C04.json",
+  "schema": "mk-ultra-tome-native-evidence-digest-v1"
+}

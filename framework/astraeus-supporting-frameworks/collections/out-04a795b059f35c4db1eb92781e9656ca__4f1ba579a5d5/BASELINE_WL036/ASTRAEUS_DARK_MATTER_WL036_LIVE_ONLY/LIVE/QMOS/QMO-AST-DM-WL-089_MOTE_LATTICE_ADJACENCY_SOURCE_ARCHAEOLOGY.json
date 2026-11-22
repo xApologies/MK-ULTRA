@@ -1,0 +1,25 @@
+{
+  "schema": "ASTRAEUS_MOTE_ADJACENCY_SOURCE_ARCHAEOLOGY_V1",
+  "qmo_id": "QMO-AST-DM-WL-089",
+  "name": "Mote-Lattice Adjacency Source Archaeology",
+  "atlas_version": "WL-v205",
+  "status": "SOURCE_GAP_CONFIRMED_RETYPED",
+  "root_handle": "@mote_lattice",
+  "recovered_handles": [
+    "@mote_occupancy_function",
+    "@mote_diagonal_rule",
+    "@mote_chirality",
+    "@chirality_occupancy_cube",
+    "@planck_scale_adjacency_graph",
+    "@er_throat_incidence",
+    "@weighted_adjacency"
+  ],
+  "finding": "The exact N(x,y,z) / eight-site edge selector is explicitly open. Diagonal/chirality rules and ER W_ij typing do not select mote edges.",
+  "next_handle": "@admissibility_relation",
+  "parent_promotions": 0,
+  "guardrails": [
+    "@mote_diagonal_rule != mote adjacency law",
+    "W symmetry/nonnegativity != edge selector",
+    "6-neighbor boundary extraction convention != canonical mote adjacency"
+  ]
+}

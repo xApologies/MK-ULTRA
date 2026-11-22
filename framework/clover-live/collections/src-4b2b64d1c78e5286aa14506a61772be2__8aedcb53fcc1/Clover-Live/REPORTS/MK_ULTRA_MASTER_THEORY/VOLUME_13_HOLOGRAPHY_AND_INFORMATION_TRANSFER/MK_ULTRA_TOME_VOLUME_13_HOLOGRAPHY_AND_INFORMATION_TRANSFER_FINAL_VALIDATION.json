@@ -1,0 +1,176 @@
+{
+  "schema": "tome-final-volume-assembly-validation/v1",
+  "created_at": "2026-08-12T12:07:47.885463+00:00",
+  "assembly_method": "BYTE_VERIFIED_SEALED_CHAPTER_PDF_CONCATENATION_WITH_CONTINUOUS_VOLUME_PAGINATION",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1_SEALED_CHAPTER_ARTIFACT_ASSEMBLY",
+  "source_renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "volume_id": "V13",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_13_HOLOGRAPHY_AND_INFORMATION_TRANSFER/MK_ULTRA_TOME_VOLUME_13_HOLOGRAPHY_AND_INFORMATION_TRANSFER_FINAL.pdf",
+    "bytes": 2204413,
+    "sha256": "5500ff6ade94425c251b59b9d306b6e4a7ed3d30e57275ed37d6ca9980206a5d"
+  },
+  "actual_pages": 37,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V13-C01": 3,
+    "V13-C02": 9,
+    "V13-C03": 15,
+    "V13-C04": 21,
+    "V13-C05": 28,
+    "V13-C06": 34
+  },
+  "chapter_count": 6,
+  "chapter_inputs": [
+    {
+      "chapter_id": "V13-C01",
+      "source_sha256": "477641ec579b8d5b58ec7846878dcddcbc818326f54632e25332833248d792c9",
+      "published_source_sha256": "477641ec579b8d5b58ec7846878dcddcbc818326f54632e25332833248d792c9",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1197,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_13_HOLOGRAPHY_AND_INFORMATION_TRANSFER/MK_ULTRA_TOME_V13_C01_HOLOGRAPHIC_TRANSFER_LAW.pdf",
+        "bytes": 147788,
+        "sha256": "bbac8e5ae47edfc95b92877b4f5f871a149012ca0742dd1b8e7fdf3e48d22e14"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_13_HOLOGRAPHY_AND_INFORMATION_TRANSFER/MK_ULTRA_TOME_V13_C01_HOLOGRAPHIC_TRANSFER_LAW_VALIDATION.json",
+        "bytes": 2846,
+        "sha256": "4f984a4b08bd976b1c11f24e9c273c10103eea921973a8e407f8284d3b03ad0c"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 3,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V13-C02",
+      "source_sha256": "cd6cee341e8ea3bd074c40b48028a17cc7d110e2bd83f8c7ebcdd5223a6f2ee2",
+      "published_source_sha256": "732b5845cb8c2dfbe52fec48db13fe914751fd65da719e8a72990778e15384ef",
+      "published_source_differs_from_current_sealed_ledger_source": true,
+      "word_count": 1225,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_13_HOLOGRAPHY_AND_INFORMATION_TRANSFER/MK_ULTRA_TOME_V13_C02_BOUNDARY_ENCODING_AND_PHASE_DATA.pdf",
+        "bytes": 159793,
+        "sha256": "672a634b472835dbc1af7a680758a7606710eacf834468c0e665398f6435c5f2"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_13_HOLOGRAPHY_AND_INFORMATION_TRANSFER/MK_ULTRA_TOME_V13_C02_BOUNDARY_ENCODING_AND_PHASE_DATA_VALIDATION.json",
+        "bytes": 3476,
+        "sha256": "52cc8b0b96c04b313d9c28071d0a4bc2b14e139315a89d7395f07950a4748582"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 9,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V13-C03",
+      "source_sha256": "b1a9108c2e0cdd754886b683cb0686de877f8a389d4e4054776b33f86a04bd61",
+      "published_source_sha256": "186f9dbe9189cfc2d907393a6d413411e9b506d6b19b07d17a6e15758c762d95",
+      "published_source_differs_from_current_sealed_ledger_source": true,
+      "word_count": 1182,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_13_HOLOGRAPHY_AND_INFORMATION_TRANSFER/MK_ULTRA_TOME_V13_C03_TENSOR_NETWORKS_AND_ERROR_CORRECTION.pdf",
+        "bytes": 156520,
+        "sha256": "c0aed966437323d07b34a3790a6f14eacca8e378ae1103f501def4cf385051fa"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_13_HOLOGRAPHY_AND_INFORMATION_TRANSFER/MK_ULTRA_TOME_V13_C03_TENSOR_NETWORKS_AND_ERROR_CORRECTION_VALIDATION.json",
+        "bytes": 3643,
+        "sha256": "32f23f87af6167b92d0c3eb1bef93bae7f946bb4963eb4d1de5851024370fca1"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 15,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V13-C04",
+      "source_sha256": "f88b3db7f8917fe078262434b21856cecb71a3c0e89f1ff369d5328d7fe97660",
+      "published_source_sha256": "f88b3db7f8917fe078262434b21856cecb71a3c0e89f1ff369d5328d7fe97660",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1330,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_13_HOLOGRAPHY_AND_INFORMATION_TRANSFER/MK_ULTRA_TOME_V13_C04_BLACK_HOLE_INFORMATION.pdf",
+        "bytes": 161630,
+        "sha256": "7dfd2070651b4467316ba82ba4f3dbe9891312a99fd7f484dfe0b3510ed189e7"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_13_HOLOGRAPHY_AND_INFORMATION_TRANSFER/MK_ULTRA_TOME_V13_C04_BLACK_HOLE_INFORMATION_VALIDATION.json",
+        "bytes": 2859,
+        "sha256": "e3c41e003774ef95fed197b4ba559672907033788871535549f04c250683d8f0"
+      },
+      "pages": 7,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 21,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V13-C05",
+      "source_sha256": "e4d491fbb82f15a60eed4b81ef9631b92c018890a0e146c785f0fd8181e659cd",
+      "published_source_sha256": "e4d491fbb82f15a60eed4b81ef9631b92c018890a0e146c785f0fd8181e659cd",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1077,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_13_HOLOGRAPHY_AND_INFORMATION_TRANSFER/MK_ULTRA_TOME_V13_C05_CYCLE_TO_CYCLE_MEMORY.pdf",
+        "bytes": 154583,
+        "sha256": "9e4cf5adc09ea1d96c032ad77f80e35d84e02810a2f3357e290a27db4bccbb29"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_13_HOLOGRAPHY_AND_INFORMATION_TRANSFER/MK_ULTRA_TOME_V13_C05_CYCLE_TO_CYCLE_MEMORY_VALIDATION.json",
+        "bytes": 2845,
+        "sha256": "e2bcb9f13af79dc14df49284fac3cef63efa1474453e31dda92e1d42121496b1"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 28,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V13-C06",
+      "source_sha256": "0573633769396acb1f2cf4cef118f2df434698b76f9efd85df1fd16f76194cef",
+      "published_source_sha256": "0573633769396acb1f2cf4cef118f2df434698b76f9efd85df1fd16f76194cef",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1019,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_13_HOLOGRAPHY_AND_INFORMATION_TRANSFER/MK_ULTRA_TOME_V13_C06_INFORMATION_CONSERVATION_ACROSS_PROJECTIONS.pdf",
+        "bytes": 143682,
+        "sha256": "61455341a51e95301308059bc5850b8e568c5f9db3f8449c1c78d4b4a7dd550e"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_13_HOLOGRAPHY_AND_INFORMATION_TRANSFER/MK_ULTRA_TOME_V13_C06_INFORMATION_CONSERVATION_ACROSS_PROJECTIONS_VALIDATION.json",
+        "bytes": 2864,
+        "sha256": "5c5526ab9522b3ba0f01b16b45ad7be03c40bff6238488f12bbaea7c4b1c72c9"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 34,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    }
+  ],
+  "raw_latex_guard": {
+    "result": "PASS_INHERITED_FROM_QUALIFIED_CHAPTER_RECEIPTS",
+    "hits": []
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V13-C01": "477641ec579b8d5b58ec7846878dcddcbc818326f54632e25332833248d792c9",
+    "V13-C02": "cd6cee341e8ea3bd074c40b48028a17cc7d110e2bd83f8c7ebcdd5223a6f2ee2",
+    "V13-C03": "b1a9108c2e0cdd754886b683cb0686de877f8a389d4e4054776b33f86a04bd61",
+    "V13-C04": "f88b3db7f8917fe078262434b21856cecb71a3c0e89f1ff369d5328d7fe97660",
+    "V13-C05": "e4d491fbb82f15a60eed4b81ef9631b92c018890a0e146c785f0fd8181e659cd",
+    "V13-C06": "0573633769396acb1f2cf4cef118f2df434698b76f9efd85df1fd16f76194cef"
+  },
+  "source_hashes_after": {
+    "V13-C01": "477641ec579b8d5b58ec7846878dcddcbc818326f54632e25332833248d792c9",
+    "V13-C02": "cd6cee341e8ea3bd074c40b48028a17cc7d110e2bd83f8c7ebcdd5223a6f2ee2",
+    "V13-C03": "b1a9108c2e0cdd754886b683cb0686de877f8a389d4e4054776b33f86a04bd61",
+    "V13-C04": "f88b3db7f8917fe078262434b21856cecb71a3c0e89f1ff369d5328d7fe97660",
+    "V13-C05": "e4d491fbb82f15a60eed4b81ef9631b92c018890a0e146c785f0fd8181e659cd",
+    "V13-C06": "0573633769396acb1f2cf4cef118f2df434698b76f9efd85df1fd16f76194cef"
+  },
+  "sealed_chapter_content_change_count": 0,
+  "duplicate_chapter_inputs": [],
+  "missing_chapter_inputs": []
+}

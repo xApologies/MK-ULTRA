@@ -1,0 +1,54 @@
+{
+  "counterexample_id": "CE-RW-001",
+  "title": "Same coarse readout / same core witness / distinct History lineages",
+  "status": "DERIVED_INTERNAL_COUNTEREXAMPLE",
+  "domain": "@rainbow_road_recursive_domain",
+  "merge_fiber": "F_c={ell_alpha, ell_beta}",
+  "fine_lineages": {
+    "ell_alpha": {
+      "formal_source": "X",
+      "formal_target": "Y",
+      "coarse_readout": "c",
+      "identity_class": "I",
+      "identity_witness_class": "W_I",
+      "invariant_residue": "r",
+      "provenance_root": "P",
+      "history": "h_alpha=(e_a,e_b)",
+      "history_token": "H-alpha"
+    },
+    "ell_beta": {
+      "formal_source": "X",
+      "formal_target": "Y",
+      "coarse_readout": "c",
+      "identity_class": "I",
+      "identity_witness_class": "W_I",
+      "invariant_residue": "r",
+      "provenance_root": "P",
+      "history": "h_beta=(e_c,e_d)",
+      "history_token": "H-beta"
+    }
+  },
+  "constraints": [
+    "ell_alpha != ell_beta",
+    "q(ell_alpha)=q(ell_beta)=c",
+    "same formal source and target",
+    "same declared Identity class",
+    "same unqualified Identity-Witness class",
+    "same invariant residue",
+    "same provenance root",
+    "h_alpha != h_beta"
+  ],
+  "core_projection": "W_core(ell)=(provenance_root, identity_witness_class, invariant_residue)",
+  "core_result": "W_core(ell_alpha)=W_core(ell_beta): collision",
+  "history_augmented_projection": "W_H(ell)=(W_core(ell), history_token)",
+  "history_result": "W_H(ell_alpha)!=W_H(ell_beta): separated",
+  "interpretation": "The unqualified core bundle is not universally lineage-separating. Explicit History is sufficient for this counterexample, but global minimality of the full History trace is not established.",
+  "source_basis": [
+    "RESOLUTION_READOUT::S35 RL8 / RL-T2: formal identities may be observationally conflated by non-injective Resolution maps",
+    "IDENTITY_THROUGH_HISTORY::D39 + Formal/02: Identity Witness certifies declared Identity class; History is a separate ordered structure",
+    "IDENTITY_THROUGH_HISTORY::Formal/01: History is an ordered composable path and inverse is not assumed",
+    "HOLONOMY_CHIRALITY::HC-T8: same endpoint and preserved residue do not force path equivalence",
+    "UNIFIED_TRANSDUCTION_OBJECT::invariant separation: History != Identity"
+  ],
+  "guard": "If a concrete Identity Witness implementation already retains a history-separating token, then that implementation may satisfy the criterion without an additional full History trace. The theorem below tests separation, not field names."
+}

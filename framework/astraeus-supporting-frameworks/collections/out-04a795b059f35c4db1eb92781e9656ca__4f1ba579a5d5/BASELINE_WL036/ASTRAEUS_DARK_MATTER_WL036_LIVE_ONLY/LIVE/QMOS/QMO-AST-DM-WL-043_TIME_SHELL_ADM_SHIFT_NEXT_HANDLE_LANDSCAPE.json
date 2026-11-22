@@ -1,0 +1,240 @@
+{
+  "schema": "ASTRAEUS_API_QMO_HANDLE_CASCADE_V1",
+  "qmo_id": "QMO-AST-DM-WL-043",
+  "name": "Time-Shell / Initial-Data / ADM Shift Next-Handle Landscape",
+  "atlas_version": "WL-v158",
+  "status": "API_NAVIGATION_LANDSCAPE_NOT_PARENT_PROMOTED",
+  "paths": {
+    "@time_shell -> @shift_vector": [
+      {
+        "from": "@time_shell",
+        "relation": "DEPENDS_TO",
+        "to": "@geometry",
+        "api_line": 58291,
+        "source_form": "json",
+        "provenance": "DIRECT_API_LINE:45136"
+      },
+      {
+        "from": "@geometry",
+        "relation": "CONTAINS",
+        "to": "@differential_geometry",
+        "api_line": 62634,
+        "source_form": "markdown",
+        "provenance": null
+      },
+      {
+        "from": "@differential_geometry",
+        "relation": "SUPPORTS",
+        "to": "@general_relativity",
+        "api_line": 62635,
+        "source_form": "markdown",
+        "provenance": null
+      },
+      {
+        "from": "@general_relativity",
+        "relation": "CONTAINS_BRANCH",
+        "to": "@initial_data_set",
+        "api_line": 62604,
+        "source_form": "markdown",
+        "provenance": null
+      },
+      {
+        "from": "@initial_data_set",
+        "relation": "DEPENDS_ON",
+        "to": "@hamiltonian_constraint",
+        "api_line": 62328,
+        "source_form": "markdown",
+        "provenance": "ACCEPTED_MATHEMATICS"
+      },
+      {
+        "from": "@hamiltonian_constraint",
+        "relation": "DEPENDS_ON",
+        "to": "@shift_vector",
+        "api_line": 61790,
+        "source_form": "markdown",
+        "provenance": "ACCEPTED_MATHEMATICS"
+      }
+    ],
+    "@orientation_history -> @shift_vector": [
+      {
+        "from": "@orientation_history",
+        "relation": "DEPENDS_TO",
+        "to": "@relational_history",
+        "api_line": 58008,
+        "source_form": "json",
+        "provenance": "DIRECT_API_LINE:45106"
+      },
+      {
+        "from": "@relational_history",
+        "relation": "DEPENDS_TO",
+        "to": "@admissible_equivalence",
+        "api_line": 58206,
+        "source_form": "json",
+        "provenance": "DIRECT_API_LINE:45129"
+      },
+      {
+        "from": "@admissible_equivalence",
+        "relation": "DEPENDS_TO",
+        "to": "@coherent_continuation_class",
+        "api_line": 57226,
+        "source_form": "json",
+        "provenance": "DIRECT_API_LINE:45044"
+      },
+      {
+        "from": "@coherent_continuation_class",
+        "relation": "DEPENDS_TO",
+        "to": "@persistent_locus",
+        "api_line": 57400,
+        "source_form": "json",
+        "provenance": "DIRECT_API_LINE:45064"
+      },
+      {
+        "from": "@persistent_locus",
+        "relation": "DEPENDS_TO",
+        "to": "@persistent_boundary",
+        "api_line": 58073,
+        "source_form": "json",
+        "provenance": "DIRECT_API_LINE:45114"
+      },
+      {
+        "from": "@persistent_boundary",
+        "relation": "DEPENDS_TO",
+        "to": "@projection_admissibility",
+        "api_line": 58059,
+        "source_form": "json",
+        "provenance": "DIRECT_API_LINE:45112"
+      },
+      {
+        "from": "@projection_admissibility",
+        "relation": "DEPENDS_TO",
+        "to": "@er_foam",
+        "api_line": 58139,
+        "source_form": "json",
+        "provenance": "DIRECT_API_LINE:45122"
+      },
+      {
+        "from": "@er_foam",
+        "relation": "RELATED_TO",
+        "to": "@helicon",
+        "api_line": 57170,
+        "source_form": "json",
+        "provenance": null
+      },
+      {
+        "from": "@helicon",
+        "relation": "DEPENDS_TO",
+        "to": "@graviton",
+        "api_line": 57808,
+        "source_form": "json",
+        "provenance": "DIRECT_API_LINE:45092"
+      },
+      {
+        "from": "@graviton",
+        "relation": "VERTICAL_CHAIN",
+        "to": "@readable_space_time",
+        "api_line": 57755,
+        "source_form": "json",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:27374->27376"
+      },
+      {
+        "from": "@readable_space_time",
+        "relation": "SUPPORTS",
+        "to": "@general_relativity",
+        "api_line": 62626,
+        "source_form": "markdown",
+        "provenance": null
+      },
+      {
+        "from": "@general_relativity",
+        "relation": "CONTAINS_BRANCH",
+        "to": "@initial_data_set",
+        "api_line": 62604,
+        "source_form": "markdown",
+        "provenance": null
+      },
+      {
+        "from": "@initial_data_set",
+        "relation": "DEPENDS_ON",
+        "to": "@hamiltonian_constraint",
+        "api_line": 62328,
+        "source_form": "markdown",
+        "provenance": "ACCEPTED_MATHEMATICS"
+      },
+      {
+        "from": "@hamiltonian_constraint",
+        "relation": "DEPENDS_ON",
+        "to": "@shift_vector",
+        "api_line": 61790,
+        "source_form": "markdown",
+        "provenance": "ACCEPTED_MATHEMATICS"
+      }
+    ],
+    "@shift_vector -> @kerr_geometry": [
+      {
+        "from": "@shift_vector",
+        "relation": "FAMILY_DEPENDS_ON",
+        "to": "@cauchy_problem",
+        "api_line": 62060,
+        "source_form": "markdown",
+        "provenance": "ACCEPTED_MATHEMATICS"
+      },
+      {
+        "from": "@cauchy_problem",
+        "relation": "DEPENDS_ON",
+        "to": "@einstein_field_equation",
+        "api_line": 62266,
+        "source_form": "markdown",
+        "provenance": "ACCEPTED_MATHEMATICS"
+      },
+      {
+        "from": "@einstein_field_equation",
+        "relation": "ADMITS",
+        "to": "@kerr_geometry",
+        "api_line": 62496,
+        "source_form": "markdown",
+        "provenance": null
+      }
+    ],
+    "@shift_vector -> @gravity": [
+      {
+        "from": "@shift_vector",
+        "relation": "FAMILY_DEPENDS_ON",
+        "to": "@cauchy_problem",
+        "api_line": 62060,
+        "source_form": "markdown",
+        "provenance": "ACCEPTED_MATHEMATICS"
+      },
+      {
+        "from": "@cauchy_problem",
+        "relation": "DEPENDS_ON",
+        "to": "@einstein_field_equation",
+        "api_line": 62266,
+        "source_form": "markdown",
+        "provenance": "ACCEPTED_MATHEMATICS"
+      },
+      {
+        "from": "@einstein_field_equation",
+        "relation": "REALIZES",
+        "to": "@gravity",
+        "api_line": 62622,
+        "source_form": "markdown",
+        "provenance": null
+      }
+    ]
+  },
+  "handle_record": {
+    "handle": "@shift_vector",
+    "family": "F6_INITIAL_VALUE_ADM",
+    "object": "Spatial relabeling between slices",
+    "status": "RECOVERED_ACCEPTED_MATHEMATICS"
+  },
+  "next_handle": "@shift_vector",
+  "reason": "After the initial-data/extrinsic-curvature crawl, the API exposes the ADM shift as the nearest accepted handle shared by the initial-value architecture and a registered route to Kerr/gravity. This matches the project question about rotational frame readout without defining frame dragging by fiat.",
+  "guardrails": [
+    "@shift_vector != frame dragging by definition",
+    "Time-Shell-to-shift path is dependency navigation, not an equality or transduction theorem",
+    "orientation-History path contains the known Helicon branch but does not supply the missing Helicon horizontal-transport operator",
+    "Kerr is downstream accepted comparison only",
+    "parent promotions = 0"
+  ]
+}

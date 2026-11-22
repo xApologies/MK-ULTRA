@@ -1,0 +1,77 @@
+{
+  "handle": "@genlang_word_verin",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@genlang_word_verin",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 2,
+    "xapi_raw_out_count": 0,
+    "xapi_raw_in_count": 2,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@genlang_root_rin",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_word_verin",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48075;CANONICAL_API_TYPED_LINE:48075"
+      },
+      {
+        "source": "@genlang_root_ve",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_word_verin",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48074;CANONICAL_API_TYPED_LINE:48074"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 457,
+        "source": "@genlang_root_rin",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_word_verin",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48075;CANONICAL_API_TYPED_LINE:48075"
+      },
+      {
+        "id": 472,
+        "source": "@genlang_root_ve",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_word_verin",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48074;CANONICAL_API_TYPED_LINE:48074"
+      }
+    ]
+  },
+  "address": "@genlang_word_verin",
+  "address_sha256": "fca7f584ff3beb6cdbce31493d2e9a713c221680c4d7ac4c0ee3627d8c96ceec"
+}

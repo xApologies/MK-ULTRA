@@ -1,0 +1,32 @@
+% Recovered verbatim from chapters_16_20_with_part/chapters_16_20_with_part.tex
+% Canonical chapter 16
+\chapter{Classical Geometry from ER Foam}
+
+\section{ER Foam as a Microscopic Substrate}
+
+In MK--43 Ultra, the ER network $W_{ij}$ defines microscopic adjacency between Planck-scale sites.
+At this level, there is no \emph{a priori} notion of a smooth manifold; instead, there is a weighted graph whose edges reflect the strength of Einstein--Rosen connectivity and underlying entanglement.
+
+To recover classical geometry, we seek a map from the ER network to an effective metric $g_{\mu\nu}^{\mathrm{(eff)}}$ on a continuum manifold $M$.
+This map should satisfy:
+\begin{enumerate}
+  \item locality: nearby points in the continuum are strongly connected in the ER graph;
+  \item approximate Lorentzian structure on large scales;
+  \item stability under small perturbations of $W_{ij}$.
+\end{enumerate}
+
+\section{Graph Distances and Effective Metric}
+
+Define an ER graph distance $d_{ER}(i,j)$ as the minimal weighted path length between nodes $i$ and $j$.
+In a coarse-grained limit, we assign coordinate charts so that
+\[
+  d_{ER}(i,j) \approx \sqrt{g_{\mu\nu}^{\mathrm{(eff)}}(x_i)\,\Delta x^\mu\Delta x^\nu},
+\]
+where $x_i$ are emergent coordinates and $\Delta x^\mu = x_j^\mu - x_i^\mu$.
+The tensor $g_{\mu\nu}^{\mathrm{(eff)}}$ is then reconstructed (up to diffeomorphisms) from the statistics of ER distances at large scales.
+
+\section{Emergence of Continuum Locality}
+
+Continuum locality is recovered when there exists a scale $L\gg \ell_P$ such that, upon coarse-graining over regions of size $L$, the ER connectivity decays rapidly with graph distance and admits an effective light-cone structure compatible with a Lorentzian metric.
+Nonlocal ER connections survive as suppressed corrections, potentially relevant for phenomena such as wormholes or long-range entanglement, but classical observers perceive an approximately local spacetime.
+

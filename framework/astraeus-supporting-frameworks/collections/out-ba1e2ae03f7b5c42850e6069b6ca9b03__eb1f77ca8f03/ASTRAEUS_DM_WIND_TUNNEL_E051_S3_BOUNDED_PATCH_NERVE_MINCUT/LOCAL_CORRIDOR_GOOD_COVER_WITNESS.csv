@@ -1,0 +1,8 @@
+neighborhood,sites,connected,edge_count,cycle_rank,contractible_as_path_subgraph,members
+U_A,3,True,2,0.0,True,"(17, 16, 15);(17, 15, 15);(16, 15, 15)"
+U_M,3,True,2,0.0,True,"(16, 15, 15);(15, 15, 15);(14, 15, 15)"
+U_B,2,True,1,0.0,True,"(14, 15, 15);(14, 16, 15)"
+U_A∩U_M,1,True,0,0.0,True,"(16, 15, 15)"
+U_M∩U_B,1,True,0,0.0,True,"(14, 15, 15)"
+U_A∩U_B,0,False,0,,False,
+U_A∩U_M∩U_B,0,False,0,,False,

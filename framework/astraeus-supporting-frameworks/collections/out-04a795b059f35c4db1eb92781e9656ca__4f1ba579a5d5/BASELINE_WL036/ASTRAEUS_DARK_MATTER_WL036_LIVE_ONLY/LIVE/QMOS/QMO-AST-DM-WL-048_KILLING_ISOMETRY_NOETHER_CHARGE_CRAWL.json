@@ -1,0 +1,270 @@
+{
+  "schema": "ASTRAEUS_API_QMO_SYMMETRY_CRAWL_V1",
+  "qmo_id": "QMO-AST-DM-WL-048",
+  "name": "Killing Vector -> Isometry -> Noether-Charge Next-Handle Crawl",
+  "atlas_version": "WL-v163",
+  "status": "ACCEPTED_GR_SYMMETRY_NAVIGATION_NOT_PARENT_PROMOTED",
+  "killing_isometry_pair": {
+    "a": "@killing_vector",
+    "b": "@isometry",
+    "radius": 2,
+    "a_node_count": 43,
+    "b_node_count": 31,
+    "interface": [
+      {
+        "handle": "@isometry",
+        "distance_a": 1,
+        "distance_b": 0
+      },
+      {
+        "handle": "@killing_vector",
+        "distance_a": 0,
+        "distance_b": 1
+      },
+      {
+        "handle": "@axisymmetric_spacetime",
+        "distance_a": 1,
+        "distance_b": 1
+      },
+      {
+        "handle": "@killing_equation",
+        "distance_a": 1,
+        "distance_b": 1
+      },
+      {
+        "handle": "@komar_angular_momentum",
+        "distance_a": 1,
+        "distance_b": 1
+      },
+      {
+        "handle": "@komar_mass",
+        "distance_a": 1,
+        "distance_b": 1
+      },
+      {
+        "handle": "@stationary_spacetime",
+        "distance_a": 1,
+        "distance_b": 1
+      },
+      {
+        "handle": "@adm_mass",
+        "distance_a": 2,
+        "distance_b": 1
+      },
+      {
+        "handle": "@asymptotic_flatness",
+        "distance_a": 2,
+        "distance_b": 1
+      },
+      {
+        "handle": "@asymptotic_symmetry",
+        "distance_a": 2,
+        "distance_b": 1
+      },
+      {
+        "handle": "@bms_group",
+        "distance_a": 2,
+        "distance_b": 1
+      },
+      {
+        "handle": "@bondi_mass",
+        "distance_a": 2,
+        "distance_b": 1
+      },
+      {
+        "handle": "@bondi_mass_loss",
+        "distance_a": 2,
+        "distance_b": 1
+      },
+      {
+        "handle": "@levi_civita_connection",
+        "distance_a": 1,
+        "distance_b": 2
+      },
+      {
+        "handle": "@metric_tensor",
+        "distance_a": 2,
+        "distance_b": 1
+      },
+      {
+        "handle": "@noether_charge",
+        "distance_a": 2,
+        "distance_b": 1
+      },
+      {
+        "handle": "@static_spacetime",
+        "distance_a": 2,
+        "distance_b": 1
+      },
+      {
+        "handle": "@black_hole_angular_momentum",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@spacetime",
+        "distance_a": 2,
+        "distance_b": 2
+      }
+    ],
+    "path_a_to_b": [
+      {
+        "source": "@killing_vector",
+        "relation": "DEPENDS_ON",
+        "target": "@isometry",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:61"
+      }
+    ],
+    "direct_neighborhood_policy": "high-confidence non-derived/direct-source Time-Space API edges only",
+    "path_policy": "high-confidence registered + admissibly derived Time-Space API edges; directions preserved"
+  },
+  "isometry_noether_pair": {
+    "a": "@isometry",
+    "b": "@noether_charge",
+    "radius": 2,
+    "a_node_count": 31,
+    "b_node_count": 26,
+    "interface": [
+      {
+        "handle": "@isometry",
+        "distance_a": 0,
+        "distance_b": 1
+      },
+      {
+        "handle": "@noether_charge",
+        "distance_a": 1,
+        "distance_b": 0
+      },
+      {
+        "handle": "@adm_mass",
+        "distance_a": 1,
+        "distance_b": 2
+      },
+      {
+        "handle": "@asymptotic_flatness",
+        "distance_a": 1,
+        "distance_b": 2
+      },
+      {
+        "handle": "@asymptotic_symmetry",
+        "distance_a": 1,
+        "distance_b": 2
+      },
+      {
+        "handle": "@axisymmetric_spacetime",
+        "distance_a": 1,
+        "distance_b": 2
+      },
+      {
+        "handle": "@bms_group",
+        "distance_a": 1,
+        "distance_b": 2
+      },
+      {
+        "handle": "@bondi_mass",
+        "distance_a": 1,
+        "distance_b": 2
+      },
+      {
+        "handle": "@bondi_mass_loss",
+        "distance_a": 1,
+        "distance_b": 2
+      },
+      {
+        "handle": "@diffeomorphism_invariance",
+        "distance_a": 2,
+        "distance_b": 1
+      },
+      {
+        "handle": "@first_law_black_hole_mechanics",
+        "distance_a": 2,
+        "distance_b": 1
+      },
+      {
+        "handle": "@killing_equation",
+        "distance_a": 1,
+        "distance_b": 2
+      },
+      {
+        "handle": "@killing_vector",
+        "distance_a": 1,
+        "distance_b": 2
+      },
+      {
+        "handle": "@komar_angular_momentum",
+        "distance_a": 1,
+        "distance_b": 2
+      },
+      {
+        "handle": "@komar_mass",
+        "distance_a": 1,
+        "distance_b": 2
+      },
+      {
+        "handle": "@metric_tensor",
+        "distance_a": 1,
+        "distance_b": 2
+      },
+      {
+        "handle": "@static_spacetime",
+        "distance_a": 1,
+        "distance_b": 2
+      },
+      {
+        "handle": "@stationary_spacetime",
+        "distance_a": 1,
+        "distance_b": 2
+      }
+    ],
+    "path_a_to_b": [
+      {
+        "source": "@isometry",
+        "relation": "SUPPORTS_FAMILY",
+        "target": "@noether_charge",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@noether_charge FAMILY_DEPENDS_ON @isometry); rule=FAMILY_DEPENDS_ON→SUPPORTS_FAMILY"
+      }
+    ],
+    "direct_neighborhood_policy": "high-confidence non-derived/direct-source Time-Space API edges only",
+    "path_policy": "high-confidence registered + admissibly derived Time-Space API edges; directions preserved"
+  },
+  "direct_edges": [
+    {
+      "source": "@killing_vector",
+      "relation": "DEPENDS_ON",
+      "target": "@isometry",
+      "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:61"
+    },
+    {
+      "source": "@noether_charge",
+      "relation": "FAMILY_DEPENDS_ON",
+      "target": "@isometry",
+      "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:348"
+    },
+    {
+      "source": "@noether_charge",
+      "relation": "DEPENDS_ON",
+      "target": "@diffeomorphism_invariance",
+      "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:603"
+    }
+  ],
+  "objects": {
+    "@isometry": "Metric-preserving diffeomorphism",
+    "@noether_charge": "Covariant phase-space conserved charge"
+  },
+  "interpretation": "The API turns the Killing-vector branch into an algebraic symmetry object (@isometry) and then exposes a conserved-charge object (@noether_charge). This matches the project preference to follow algebraic objects rather than scalar rotational profiles.",
+  "guardrails": [
+    "Killing/isometry/Noether objects are accepted GR comparison structure",
+    "Noether charge is not automatically the work-layer dark invariant",
+    "conserved charge != dark matter",
+    "parent promotions = 0"
+  ],
+  "next_handle": "@noether_charge"
+}

@@ -1,0 +1,25 @@
+{
+  "handle": "landscape://DL-DM-E073-UCM-SOURCE-DOMAIN",
+  "object_type": "dependency_landscape",
+  "status": "APPEND_ONLY_SOURCE_DOMAIN_CLOSURE",
+  "domain": "LANDSCAPE",
+  "namespace": "mk43://landscape",
+  "name": "DL-DM-E073-UCM-SOURCE-DOMAIN",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "DEPENDENCY_LANDSCAPE",
+  "metadata": {
+    "id": "DL-DM-E073-UCM-SOURCE-DOMAIN",
+    "seed": "@dm_joint_hidden_network_witness",
+    "status": "APPEND_ONLY_SOURCE_DOMAIN_CLOSURE",
+    "source_file": "live/registry",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1\", \"landscape_id\": \"DL-DM-E073-UCM-SOURCE-DOMAIN\", \"seed\": \"@dm_joint_hidden_network_witness\", \"status\": \"APPEND_ONLY_SOURCE_DOMAIN_CLOSURE\", \"nodes\": [\"@dm_joint_hidden_network_witness\", \"@dm_hidden_s3_network\", \"@universal_coupling\", \"@dm_ucm_source_domain_distinction\"], \"terminal\": {\"state\": \"SOURCE_DOMAIN_DISTINCTION_CLOSED\", \"iteration\": 2, \"focus\": \"@dm_ucm_source_domain_distinction\", \"reason\": \"Nonzero hidden network structure yields distinct full/visible UCM source records; projection sensitivity remains a separate gate.\"}}"
+  },
+  "address": "landscape://DL-DM-E073-UCM-SOURCE-DOMAIN",
+  "address_sha256": "d5d9438b7f2d8571fb3e5cfc5fed5d14b6788ce308ce9d0391aedce56640b551"
+}

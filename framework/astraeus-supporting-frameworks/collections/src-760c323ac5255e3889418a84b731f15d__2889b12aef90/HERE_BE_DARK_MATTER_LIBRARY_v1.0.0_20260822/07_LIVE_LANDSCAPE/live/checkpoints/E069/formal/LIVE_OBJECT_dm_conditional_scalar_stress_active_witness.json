@@ -1,0 +1,24 @@
+{
+  "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+  "handle": "@dm_conditional_scalar_stress_active_witness",
+  "canonical_name": "Conditional Scalar-Proxy Stress-Active Witness",
+  "type": "ConditionalMetricActiveActionWitness",
+  "status": "LIVE_CONDITIONAL_CLOSED_WITH_PROOF_DEBT",
+  "checkpoint": "E069",
+  "definition": "One conventional scalar realization supplies an explicit nonzero metric-variation witness on a selected hidden diagnostic sector, conditional on the representation/admissibility bridge.",
+  "math": "phi_H=k x, V=0, k!=0 => T^(phiH)_mu_nu != 0 => V_g(S_phiH)!=0 => S_H,act^cov nonempty (conditional).",
+  "parents": [
+    "@dm_stress_active_action_fiber",
+    "@matter_action",
+    "@metric_variation",
+    "@klein_gordon_field"
+  ],
+  "working_assumptions": [
+    "WA-DM-E069-001"
+  ],
+  "proof_debt": [
+    "PD-DM-006"
+  ],
+  "physical_claim": false,
+  "baseline_mutation": false
+}

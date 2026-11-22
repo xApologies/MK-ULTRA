@@ -1,0 +1,21 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "type":"object",
+  "additionalProperties":false,
+  "required":["operation","subject"],
+  "properties":{
+    "operation":{"const":"generate_report"},
+    "subject":{"type":"string","minLength":1},
+    "request_id":{"type":"string","pattern":"^[A-Za-z0-9._:-]{1,128}$"},
+    "language":{"type":"string","minLength":1,"maxLength":35},
+    "artifact_format":{"const":"markdown"},
+    "format":{"const":"markdown"},
+    "depth":{"enum":["complete","bounded","structural"]},
+    "direction":{"enum":["upstream","downstream","both"]},
+    "coverage_mode":{"enum":["strict","annotated","structural_only"]},
+    "title":{"type":["string","null"]},
+    "presentation_requirements":{"type":"object"},
+    "integrity_requirements":{"type":"object"},
+    "options":{"type":"object"}
+  }
+}

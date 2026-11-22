@@ -1,0 +1,22 @@
+{
+  "schema": "ASTRAEUS_INHERITED_MOTE_IDENTITY_SEAM_V1",
+  "qmo_id": "QMO-AST-DM-WL-115",
+  "name": "Inheritance / Mote Identity / Orientation-History Seam",
+  "atlas_version": "WL-v231",
+  "work_layer": "WL-036",
+  "status": "SEMANTIC_COMMON_CARRIER_TRANSFORMATION_OPEN",
+  "parent_promotions": 0,
+  "source_semantics": [
+    "inheritance carries occupancy",
+    "inheritance carries chirality",
+    "inheritance carries orientation_history",
+    "inheritance carries mote_identity"
+  ],
+  "registered_edges": [
+    "@inheritance -> @occupancy",
+    "@inheritance -> @mote_identity"
+  ],
+  "firewall": "Canonical prose role for orientation_history is not equivalent to a registered transformation edge into mote_identity or ER incidence.",
+  "finding": "Runtime History should be sought on inherited mote-state organization, not by changing the primitive InfinityClass collapse input.",
+  "next_handle": "@recursive_chirality_evolution_field"
+}

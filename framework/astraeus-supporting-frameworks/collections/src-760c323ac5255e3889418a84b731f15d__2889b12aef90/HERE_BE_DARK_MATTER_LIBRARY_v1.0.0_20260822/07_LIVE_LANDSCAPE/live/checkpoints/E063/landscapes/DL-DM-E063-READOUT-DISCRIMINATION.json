@@ -1,0 +1,110 @@
+{
+  "schema": "ASTRAEUS_DEPENDENCY_LANDSCAPE_V1",
+  "landscape_id": "DL-DM-E063-READOUT-DISCRIMINATION",
+  "checkpoint": "E063",
+  "seed": "@dm_native_hidden_witness",
+  "status": "BOUNDED_OPEN_FRONTIER",
+  "scope": "Fast-forward from the already-active native hidden witness toward readable source discrimination, preserving the unresolved foundational embedding as a return gate.",
+  "registered_nodes": [
+    "@dm_continuity_laplacian",
+    "@dm_hidden_relational_load",
+    "@dm_hidden_response_operator",
+    "@dm_native_density_to_readable_source",
+    "@dm_native_hidden_witness",
+    "@dm_resolution_density_profile",
+    "@energy_density",
+    "@resolution"
+  ],
+  "registered_edges": [
+    {
+      "source": "@dm_native_hidden_witness",
+      "relation": "CONTAINS",
+      "target": "@dm_hidden_response_operator",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "source_layer": "dm22"
+    },
+    {
+      "source": "@dm_native_hidden_witness",
+      "relation": "CONTAINS",
+      "target": "@dm_resolution_density_profile",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "source_layer": "dm22"
+    },
+    {
+      "source": "@dm_hidden_response_operator",
+      "relation": "SCHUR_REDUCES",
+      "target": "@dm_continuity_laplacian",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "source_layer": "dm22"
+    },
+    {
+      "source": "@dm_resolution_density_profile",
+      "relation": "DEPENDS_ON",
+      "target": "@dm_hidden_relational_load",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "source_layer": "dm22"
+    },
+    {
+      "source": "@dm_resolution_density_profile",
+      "relation": "DEPENDS_ON",
+      "target": "@resolution",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "source_layer": "dm22"
+    },
+    {
+      "source": "@dm_resolution_density_profile",
+      "relation": "REALIZES",
+      "target": "@energy_density",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "source_layer": "dm22"
+    },
+    {
+      "source": "@dm_resolution_density_profile",
+      "relation": "REQUIRES",
+      "target": "@dm_native_density_to_readable_source",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "OPEN_HANDLE",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "source_layer": "dm22"
+    }
+  ],
+  "terminal": {
+    "state": "OPEN_FORK",
+    "iteration": 2,
+    "open_handles": [
+      "@dm_native_density_to_readable_source"
+    ],
+    "reason": "Registered dependency walk reached an explicitly open readout/transduction handle. Stop rather than invent its map."
+  },
+  "closed_live_object": "@dm_joint_hidden_network_witness",
+  "candidate_qmo": "QMO-DM-BRIDGE-CAND-004",
+  "priority_frontier": "@dm_native_density_to_readable_source",
+  "foundation_return_gate": "@dm_hidden_state_embedding",
+  "interpretation": "The dependency landscape has enough source-backed structure to construct a concrete dual witness, but the native-density/readable-source transduction remains the smallest nonannihilation gate. No arbitrary bridge is inserted."
+}

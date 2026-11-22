@@ -1,0 +1,26 @@
+{
+  "handle": "qmo://QMO-DM-BRIDGE-CAND-019",
+  "object_type": "qmo",
+  "status": "LIVE_SOURCE_DERIVED_DIAGNOSTIC_CLOSED",
+  "domain": "QMO",
+  "namespace": "mk43://qmo",
+  "name": "UCM Dynamic-Event / Readable-Source Two-Gate Factorization",
+  "definition": "",
+  "math": "",
+  "source_layer": "live",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "QMO_REGISTRY",
+  "metadata": {
+    "qmo_id": "QMO-DM-BRIDGE-CAND-019",
+    "name": "UCM Dynamic-Event / Readable-Source Two-Gate Factorization",
+    "status": "LIVE_SOURCE_DERIVED_DIAGNOSTIC_CLOSED",
+    "source_layer": "live",
+    "source_file": "live/checkpoints/E078/qmos/QMO-DM-BRIDGE-CAND-019_DM_UCM_TWO_GATE_FACTORIZATION.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_QMO_CANDIDATE_V1\", \"qmo_id\": \"QMO-DM-BRIDGE-CAND-019\", \"handle\": \"@dm_ucm_two_gate_factorization\", \"canonical_name\": \"UCM Dynamic-Event / Readable-Source Two-Gate Factorization\", \"status\": \"LIVE_SOURCE_DERIVED_DIAGNOSTIC_CLOSED\", \"checkpoint\": \"E078\", \"parents\": [\"@dm_ucm_source_domain_distinction\", \"@universal_coupling\", \"@dm_ucm_event_to_source_nonannihilation\"], \"source_basis\": [\"ATLAS_V36:182_V29_UCM_DYNAMIC_EVENT_FACTORIZATION.md\", \"ATLAS_V36:178_V28_UCM_SOURCE_FIBER.md\"], \"factorization\": \"Pi_U = P_T o U_dyn on the common admissible domain.\", \"gate_1\": \"G_dyn: U_dyn(u_full) != U_dyn(u_vis).\", \"gate_2\": \"G_T: P_T(e_full) != P_T(e_vis), with e_full=U_dyn(u_full), e_vis=U_dyn(u_vis).\", \"result\": \"The previous single nonannihilation debt is decomposed into dynamic-event survival and event-to-readable-source fiber separation. Failure may occur at either gate.\", \"guardrail\": \"u_full != u_vis does not prove G_dyn; e_full != e_vis does not prove G_T.\"}"
+  },
+  "address": "qmo://QMO-DM-BRIDGE-CAND-019",
+  "address_sha256": "bee3097fd7120434533fefce4f88de84337a6bfac494356bc79a4ac284875379"
+}

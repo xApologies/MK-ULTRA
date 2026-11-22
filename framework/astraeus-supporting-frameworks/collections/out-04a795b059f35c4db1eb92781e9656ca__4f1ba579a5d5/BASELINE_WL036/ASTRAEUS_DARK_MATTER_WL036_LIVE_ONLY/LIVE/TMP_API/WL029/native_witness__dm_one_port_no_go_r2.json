@@ -1,0 +1,16 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_PAIR_QUERY_V1",
+  "a": "@dm_native_hidden_witness",
+  "b": "@dm_one_port_no_go",
+  "radius": 2,
+  "a_node_count": 10,
+  "b_node_count": 15,
+  "interface": [],
+  "path_a_to_b": null,
+  "path_b_to_a": null,
+  "edge_policy": {
+    "timespace": "high-confidence direct/non-derived RP42 records",
+    "darkmatter": "high-confidence DM_DIRECT_EDGE_REGISTRY records",
+    "gluing": "exact handle equality only; no cross-edge is invented"
+  }
+}

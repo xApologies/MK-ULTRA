@@ -1,0 +1,23 @@
+{
+  "handle": "promotion://promo_0b65e509316770b37962a061",
+  "object_type": "promotion_decision",
+  "status": "NO_PROMOTION",
+  "domain": "PROMOTION",
+  "namespace": "mk43://promotion",
+  "name": "E062 NO_PROMOTION",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E062",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "PROMOTION_LEDGER",
+  "metadata": {
+    "checkpoint": "E062",
+    "decision": "NO_PROMOTION",
+    "payload_json": "{\"checkpoint\": \"E062\", \"decision\": \"NO_PROMOTION\", \"parent_promotions\": 0, \"physical_promotions\": 0, \"canonical_edge_promotions\": 0, \"candidate_qmos\": [\"QMO-DM-BRIDGE-CAND-002\", \"QMO-DM-BRIDGE-CAND-003\"], \"reason\": \"Guarded cycle diagnostic and descent retyping exposed a next frontier but did not prove embedding nonemptiness.\"}"
+  },
+  "address": "promotion://promo_0b65e509316770b37962a061",
+  "address_sha256": "8031520b5156c5405842a252cab16065a15f7d35ead81a97766a3518a1c136e3"
+}

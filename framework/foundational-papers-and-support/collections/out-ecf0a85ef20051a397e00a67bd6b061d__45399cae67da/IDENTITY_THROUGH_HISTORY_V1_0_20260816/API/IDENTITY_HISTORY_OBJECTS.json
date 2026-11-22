@@ -1,0 +1,45 @@
+{
+  "version": "1.0",
+  "objects": {
+    "@history_path": {
+      "type": "composable_path",
+      "domain": "organizational states"
+    },
+    "@identity_witness": {
+      "type": "recoverable witness relation",
+      "source": "Transduction D39"
+    },
+    "@history_transport": {
+      "type": "witness transport",
+      "source": "D44",
+      "status": "BRACED"
+    },
+    "@history_holonomy": {
+      "type": "closed-path witness transformation",
+      "source": "D45"
+    },
+    "@identity_holonomy_defect": {
+      "type": "identity-return defect",
+      "source": "D47"
+    },
+    "@persistence_closure_native": {
+      "type": "identity-stable algebraic closure",
+      "symbol": "Cl_P",
+      "status": "ATLAS_CANDIDATE"
+    },
+    "@chirality_localization_action": {
+      "type": "binary localization action",
+      "symbol": "Lambda_chi",
+      "status": "ATLAS_CANDIDATE"
+    },
+    "@time_shell_history_address": {
+      "type": "history-bearing persistent boundary address",
+      "status": "ATLAS_CANDIDATE"
+    },
+    "@resolution_domain": {
+      "type": "fixed-ordering Resolution readout domain",
+      "symbol": "D_R(o*)",
+      "status": "ATLAS_DERIVED"
+    }
+  }
+}

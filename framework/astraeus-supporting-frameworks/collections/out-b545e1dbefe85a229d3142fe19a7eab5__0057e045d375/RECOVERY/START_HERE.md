@@ -1,0 +1,45 @@
+# START HERE — ASTRAEUS DARK MATTER R8 / WL-041
+
+## Stable baseline
+
+Genesis-designated stable recovery anchor remains:
+
+```text
+2.0 — Closure
+ASTRAEUS_DARK_MATTER_LIVE_RECOVERY_R5_WL038.zip
+SHA256 4f1ba579a5d58c8718f112927c0fb99e558eb522d8c88e5f7f03fbde1b795161
+```
+
+R8 is append-only post-closure research and does not supersede that stable baseline.
+
+## Immediate state
+
+```text
+Work layer: WL-041
+Atlas: WL-v265
+QMO frontier: QMO-AST-DM-WL-149
+Protocol: AST-DM-WL-P034
+Next: RECOVER_LAYERED_ADJACENCY_ADMISSION_AND_SAME_PAIR_RESPONSE
+Parent promotions: 0
+Physical dark-matter witness: NOT ESTABLISHED
+```
+
+## Read in this order
+
+1. `LIVE/STATE_VECTOR.json`
+2. `LIVE/LIVE_MODEL.md`
+3. `RECOVERY/STABLE_CLOSURE_BASELINE_2.0.md`
+4. `RECOVERY/R8_VOLUMETRIC_DIRECT_GRAVITY_REPORT_WL041.md`
+5. `LIVE/WORK_LAYER_WL041/ATLAS/WL_V259_UNIT_STRING_VOLUMETRIC_GRAVITY_RETYPE.md`
+6. `LIVE/WORK_LAYER_WL041/ATLAS/WL_V260_RADIAL_SHELL_CONTRACTION_GEOMETRY.md`
+7. `LIVE/WORK_LAYER_WL041/ATLAS/WL_V261_DIRECT_GRAVITY_HANDOFF_PRECEDENCE_RECONCILIATION.md`
+8. `LIVE/WORK_LAYER_WL041/ATLAS/WL_V262_LAYERED_S2_FULL_VISIBLE_PAIR_TYPING.md`
+9. `LIVE/WORK_LAYER_WL041/ATLAS/WL_V263_ADJACENCY_EXTRACTOR_TO_UCM_ADMISSION_REDUCTION.md`
+10. `LIVE/WORK_LAYER_WL041/ATLAS/WL_V264_VOLUMETRIC_UCM_RESPONSE_HARNESS.md`
+11. `LIVE/WORK_LAYER_WL041/ATLAS/WL_V265_DIRECT_GRAVITY_TWIN_HUNT_REBASE.md`
+12. `LIVE/WORK_LAYER_WL041/PROTOCOLS/VOLUMETRIC_DIRECT_GRAVITY_TWIN_TRANSMISSION_TEST.md`
+13. `LIVE/WORK_LAYER_WL041/SOURCE_RECEIPTS/WL041_SOURCE_RECEIPT.md`
+
+## Recovery ruling
+
+The layered branch now has a formal same-readout pair, an explicit adjacency extractor, and the shortest recovered direct-gravity route. The remaining high-value source hunt is operative UCM admission plus a same-pair nonidentity response. The radial lattice is a test harness only.

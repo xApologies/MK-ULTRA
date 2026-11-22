@@ -1,0 +1,46 @@
+{
+  "schema": "ASTRAEUS_DM_OPEN_HANDLE_GUARDED_CYCLE_AUDIT_V1",
+  "audit_id": "E062-AUDIT-GUARDED-EMBEDDING-LOOP",
+  "source_release": "Dark Matter API 2.2.0",
+  "query_graph": {
+    "nodes": 71,
+    "edges": 95,
+    "nontrivial_scc_count": 1,
+    "seed_scc": [
+      "@dm_constraint_preserving_embedding_family",
+      "@dm_hidden_s3_network",
+      "@dm_hidden_state_bundle",
+      "@dm_hidden_state_embedding"
+    ],
+    "cycles_through_seed_scc": [
+      [
+        "@dm_hidden_s3_network",
+        "@dm_hidden_state_embedding",
+        "@dm_hidden_state_bundle",
+        "@dm_hidden_s3_network"
+      ],
+      [
+        "@dm_constraint_preserving_embedding_family",
+        "@dm_hidden_state_bundle",
+        "@dm_hidden_s3_network",
+        "@dm_hidden_state_embedding",
+        "@dm_constraint_preserving_embedding_family"
+      ]
+    ]
+  },
+  "closure_eligible_graph": {
+    "rule": "remove outgoing edges from OPEN_HANDLE_REGISTRY sources for solved self-composition",
+    "nodes": 70,
+    "edges": 87,
+    "nontrivial_scc_count": 0,
+    "sccs": []
+  },
+  "disposition": "OPEN_HANDLE_GUARDED_RECURSION_KNOT_NOT_A_CLOSED_CHILD_SCC",
+  "interpretation": [
+    "The raw/queryable relation graph contains a dependency loop around the open hidden-state embedding.",
+    "DM 2.2 self-closure can still report zero child SCCs because its own policy excludes open handles from solved composition/promotion.",
+    "Therefore the loop is a blocker/diagnostic, not a contradiction and not a closure proof.",
+    "Breaking the loop requires an independently constructed witness or a lawful local-to-global construction; recursive reachability alone cannot select iota_H."
+  ],
+  "no_promotion": true
+}

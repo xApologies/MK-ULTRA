@@ -1,0 +1,4 @@
+digraph G { graph [bgcolor="#07101f",rankdir=LR,pad="0.25",label="Atlas Plate XX — Unit String Configuration Geometry",labelloc=t,fontcolor="#e3b76f",fontsize=22]; node [shape=box,style="rounded,filled",fillcolor="#101d31",color="#d7a85b",fontcolor="white",fontname="Helvetica"]; edge [color="#70b7d8",fontcolor="#d9eaf2"];
+C1[label="c1\nell=1"]; C2[label="c2\nell=1"]; C3[label="c3\nell=1"]; C4[label="c4\nell=1"]; AB[label="Bandwidth Algebra\nGen(B)",shape=ellipse,fillcolor="#17253d"]; CH[label="chirality / holonomy\nconstraints",shape=ellipse,fillcolor="#17253d"];
+C1->C2[label="admissible reconfigure"]; C2->C3; C1->C4; C4->C3; AB->C2[style=dashed]; AB->C4[style=dashed]; CH->C3[style=dashed];
+}

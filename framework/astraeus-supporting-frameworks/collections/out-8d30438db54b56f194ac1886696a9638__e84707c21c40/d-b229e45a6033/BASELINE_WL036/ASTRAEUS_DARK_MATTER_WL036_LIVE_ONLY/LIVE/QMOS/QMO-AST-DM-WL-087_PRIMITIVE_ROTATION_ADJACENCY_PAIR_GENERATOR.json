@@ -1,0 +1,19 @@
+{
+  "schema": "ASTRAEUS_PRIMITIVE_ROTATION_ADJACENCY_PAIR_GENERATOR_V1",
+  "qmo_id": "QMO-AST-DM-WL-087",
+  "name": "Primitive Finite-Rotation Adjacency Pair Generator for ER Witness Search",
+  "atlas_version": "WL-v203",
+  "status": "SOURCE_GROUNDED_PRIMITIVE_PAIR_GENERATOR_SCALE_INHERITANCE_OPEN",
+  "source_objects": {
+    "cell": "C_z=(chi_plus,chi_minus)",
+    "rotation": "R_i(C_z)=C_i",
+    "composition": "C_a \u00b7_rho C_b=C_c iff A(C_a,C_b,rho)=1; otherwise empty",
+    "primitive_state": "s_i=(chi_i,rho_i,sigma_i,A_i)",
+    "adjacency": "e_ij exists iff A(s_i,s_j,rho_ij)=1"
+  },
+  "source_result": "Finite orientation re-embedding is capable of changing admissible adjacency at the primitive chirality-cell/substrate level; orientation is therefore a pair-generator for distinct adjacency states rather than a decorative label.",
+  "use_in_P022": "Choose H0/H1 so their controlled difference contains a finite relative-orientation re-embedding from this admitted class. This makes a primitive adjacency difference source-grounded. Then test whether that difference is inherited into the selected ER-throat incidence / weighted-adjacency realization at Resolution R.",
+  "remaining_gap": "Primitive rotation-generated adjacency must still be carried through the source-native persistence/Planck realization into the particular ER-throat incidence pair used by the hidden-S3/qualification witness. Matter-readout equality, physical embedding, action selection, and gravity separation remain open.",
+  "parent_status": "QMO-AST-DM-050 remains open; primitive orientation-generated adjacency is not the same object as the parent HistorySupport-to-corridor-incidence witness.",
+  "source_receipt": "LIVE/SOURCE_REFERENCES/WL032_FILE_LIBRARY_PRIMITIVE_ROTATION_SOURCE_RECEIPT.json"
+}

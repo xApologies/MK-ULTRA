@@ -1,0 +1,26 @@
+{
+  "GenesisRelationRecord": {
+    "source_occurrence": "AddressedOccurrence",
+    "relation_role": "Root/Operator/RelationRole",
+    "target_occurrence": "AddressedOccurrence",
+    "source_boundary": "Boundary",
+    "target_boundary": "Boundary",
+    "scope": "Scope",
+    "aspect": "Aspect",
+    "resolution": "Resolution?",
+    "history": "History?",
+    "provenance": "Provenance",
+    "status": "Status"
+  },
+  "RealizationWitness": {
+    "source": "FormalItem",
+    "target": "FormalItem",
+    "preserved": "Invariant[]",
+    "forgotten": "Structure[]",
+    "external_inputs": "Structure[]",
+    "equivalence": "EquivalenceType",
+    "descent": "DescentWitness?",
+    "intertwining": "IntertwiningWitness?",
+    "provenance": "SourceReceipt[]"
+  }
+}

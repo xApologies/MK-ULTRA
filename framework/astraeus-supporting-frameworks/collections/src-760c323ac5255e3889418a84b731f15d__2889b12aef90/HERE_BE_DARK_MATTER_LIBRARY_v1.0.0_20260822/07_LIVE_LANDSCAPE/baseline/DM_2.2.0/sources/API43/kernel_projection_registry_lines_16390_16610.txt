@@ -1,0 +1,221 @@
+016390: @theorem_t4 -> mk43://recover/kernel/theorem/theorem-t4-field-level-handoff-theorem -> Theorem T4 — Field-Level Handoff Theorem
+016391: @structured_temporal_manifold -> mk43://recover/kernel/primitive/structured-temporal-manifold -> Structured Temporal Manifold
+016392: @temporal_metric -> mk43://recover/kernel/primitive/temporal-metric -> Temporal Metric
+016393: @continuation_operator -> mk43://recover/kernel/primitive/continuation-operator -> Continuation Operator
+016394: @inherited_state_bundle -> mk43://recover/kernel/primitive/inherited-state-bundle -> Inherited State Bundle
+016395: @inheritance_morphism -> mk43://recover/kernel/primitive/inheritance-morphism -> Inheritance Morphism
+016396: @chirality_space -> mk43://recover/kernel/primitive/chirality-space -> Chirality Space
+016397: @chirality_map -> mk43://recover/kernel/primitive/chirality-map -> Chirality Map
+016398: @chirality_transport -> mk43://recover/kernel/primitive/chirality-transport -> Chirality Transport
+016399: @persistent_locus -> mk43://recover/kernel/primitive/persistent-locus -> Persistent Locus
+016400: @persistent_boundary -> mk43://recover/kernel/primitive/persistent-boundary -> Persistent Boundary
+016401: @boundary_projection -> mk43://recover/kernel/primitive/boundary-projection -> Boundary Projection
+016402: @projective_target_manifold -> mk43://recover/kernel/primitive/projective-target-manifold -> Projective Target Manifold
+016403: @residue_quantum_field_bundle -> mk43://recover/kernel/primitive/residue-quantum-field-bundle -> Residue / Quantum Field Bundle
+016404: @hermitian_metric -> mk43://recover/kernel/primitive/hermitian-metric -> Hermitian Metric
+016405: @hermitian_connection -> mk43://recover/kernel/primitive/hermitian-connection -> Hermitian Connection
+016406: @curvature -> mk43://recover/kernel/primitive/curvature -> Curvature
+016407: @field_section -> mk43://recover/kernel/primitive/field-section -> Field Section
+016408: @observable_algebra -> mk43://recover/kernel/primitive/observable-algebra -> Observable Algebra
+016409: @quantum_action_functional -> mk43://recover/kernel/primitive/quantum-action-functional -> Quantum Action Functional
+016410: @admissible_continuation -> mk43://recover/kernel/axiom/admissible-continuation -> Admissible Continuation
+016411: @inherited_state_bundle -> mk43://recover/kernel/axiom/inherited-state-bundle -> Inherited State Bundle
+016412: @chirality_organization -> mk43://recover/kernel/axiom/chirality-organization -> Chirality Organization
+016413: @persistence -> mk43://recover/kernel/axiom/persistence -> Persistence
+016414: @boundary_formation -> mk43://recover/kernel/axiom/boundary-formation -> Boundary Formation
+016415: @boundary_projection -> mk43://recover/kernel/axiom/boundary-projection -> Boundary Projection
+016416: @projection_residue -> mk43://recover/kernel/axiom/projection-residue -> Projection Residue
+016417: @field_section -> mk43://recover/kernel/axiom/field-section -> Field Section
+016418: @complex_residue_structure -> mk43://recover/kernel/axiom/complex-residue-structure -> Complex Residue Structure
+016419: @hermitian_metric -> mk43://recover/kernel/axiom/hermitian-metric -> Hermitian Metric
+016420: @superposition_closure -> mk43://recover/kernel/axiom/superposition-closure -> Superposition Closure
+016421: @observable_operator_algebra -> mk43://recover/kernel/axiom/observable-operator-algebra -> Observable Operator Algebra
+016422: @spectral_projection_rule -> mk43://recover/kernel/axiom/spectral-projection-rule -> Spectral Projection Rule
+016423: @connection_and_curvature -> mk43://recover/kernel/axiom/connection-and-curvature -> Connection and Curvature
+016424: @quantum_action_principle -> mk43://recover/kernel/axiom/quantum-action-principle -> Quantum Action Principle
+016425: @continuation_inheritance_compatibility -> mk43://recover/kernel/lemma/continuation-inheritance-compatibility -> Continuation–Inheritance Compatibility
+016426: @chirality_transport -> mk43://recover/kernel/lemma/chirality-transport -> Chirality Transport
+016427: @persistence_locus -> mk43://recover/kernel/lemma/persistence-locus -> Persistence Locus
+016428: @boundary_projection -> mk43://recover/kernel/lemma/boundary-projection -> Boundary Projection
+016429: @projection_residue_bundle -> mk43://recover/kernel/lemma/projection-residue-bundle -> Projection Residue Bundle
+016430: @projective_quotient -> mk43://recover/kernel/lemma/projective-quotient -> Projective Quotient
+016431: @residue_invariance -> mk43://recover/kernel/lemma/residue-invariance -> Residue Invariance
+016432: @complexification -> mk43://recover/kernel/lemma/complexification -> Complexification
+016433: @amplitude_geometry -> mk43://recover/kernel/lemma/amplitude-geometry -> Amplitude Geometry
+016434: @superposition -> mk43://recover/kernel/lemma/superposition -> Superposition
+016435: @observable_operators -> mk43://recover/kernel/lemma/observable-operators -> Observable Operators
+016436: @spectral_measurement_projection -> mk43://recover/kernel/lemma/spectral-measurement-projection -> Spectral Measurement Projection
+016437: @field_transport -> mk43://recover/kernel/lemma/field-transport -> Field Transport
+016438: @quantum_field_deduction -> mk43://recover/kernel/theorem/quantum-field-deduction -> Quantum Field Deduction
+016439: @correspondence_to_known_quantum_field_theory -> mk43://recover/kernel/theorem/correspondence-to-known-quantum-field-theory -> Correspondence to Known Quantum Field Theory
+016440: @framework_integrity_theorem -> mk43://recover/kernel/theorem/framework-integrity-theorem -> Framework Integrity Theorem
+016441: @field_level_handoff_theorem -> mk43://recover/kernel/theorem/field-level-handoff-theorem -> Field-Level Handoff Theorem
+016442: ```
+016443: 
+016444: ## Formal Dependency Edges
+016445: 
+016446: ```text
+016447: Primitive P0 — Structured Temporal Manifold -> Primitive P1 — Temporal Metric
+016448: Primitive P0 — Structured Temporal Manifold -> Primitive P2 — Continuation Operator
+016449: Primitive P1 — Temporal Metric -> Primitive P2 — Continuation Operator
+016450: Primitive P0 — Structured Temporal Manifold -> Primitive P3 — Inherited State Bundle
+016451: Primitive P1 — Temporal Metric -> Primitive P3 — Inherited State Bundle
+016452: Primitive P2 — Continuation Operator -> Primitive P3 — Inherited State Bundle
+016453: Primitive P0 — Structured Temporal Manifold -> Primitive P4 — Inheritance Morphism
+016454: Primitive P1 — Temporal Metric -> Primitive P4 — Inheritance Morphism
+016455: Primitive P2 — Continuation Operator -> Primitive P4 — Inheritance Morphism
+016456: Primitive P3 — Inherited State Bundle -> Primitive P4 — Inheritance Morphism
+016457: Primitive P3 — Inherited State Bundle -> Primitive P5 — Chirality Space
+016458: Primitive P4 — Inheritance Morphism -> Primitive P5 — Chirality Space
+016459: Primitive P3 — Inherited State Bundle -> Primitive P6 — Chirality Map
+016460: Primitive P4 — Inheritance Morphism -> Primitive P6 — Chirality Map
+016461: Primitive P5 — Chirality Space -> Primitive P6 — Chirality Map
+016462: Primitive P3 — Inherited State Bundle -> Primitive P7 — Chirality Transport
+016463: Primitive P4 — Inheritance Morphism -> Primitive P7 — Chirality Transport
+016464: Primitive P5 — Chirality Space -> Primitive P7 — Chirality Transport
+016465: Primitive P6 — Chirality Map -> Primitive P7 — Chirality Transport
+016466: Primitive P3 — Inherited State Bundle -> Primitive P8 — Persistent Locus
+016467: Primitive P4 — Inheritance Morphism -> Primitive P8 — Persistent Locus
+016468: Primitive P6 — Chirality Map -> Primitive P8 — Persistent Locus
+016469: Primitive P7 — Chirality Transport -> Primitive P8 — Persistent Locus
+016470: Primitive P8 — Persistent Locus -> Primitive P9 — Persistent Boundary
+016471: Primitive P8 — Persistent Locus -> Primitive P10 — Boundary Projection
+016472: Primitive P9 — Persistent Boundary -> Primitive P10 — Boundary Projection
+016473: Primitive P9 — Persistent Boundary -> Primitive P11 — Projective Target Manifold
+016474: Primitive P10 — Boundary Projection -> Primitive P11 — Projective Target Manifold
+016475: Primitive P11 — Projective Target Manifold -> Primitive P12 — Residue / Quantum Field Bundle
+016476: Primitive P11 — Projective Target Manifold -> Primitive P13 — Hermitian Metric
+016477: Primitive P12 — Residue / Quantum Field Bundle -> Primitive P13 — Hermitian Metric
+016478: Primitive P12 — Residue / Quantum Field Bundle -> Primitive P14 — Hermitian Connection
+016479: Primitive P13 — Hermitian Metric -> Primitive P14 — Hermitian Connection
+016480: Primitive P13 — Hermitian Metric -> Primitive P15 — Curvature
+016481: Primitive P14 — Hermitian Connection -> Primitive P15 — Curvature
+016482: Primitive P12 — Residue / Quantum Field Bundle -> Primitive P16 — Field Section
+016483: Primitive P13 — Hermitian Metric -> Primitive P16 — Field Section
+016484: Primitive P14 — Hermitian Connection -> Primitive P16 — Field Section
+016485: Primitive P15 — Curvature -> Primitive P16 — Field Section
+016486: Primitive P13 — Hermitian Metric -> Primitive P17 — Observable Algebra
+016487: Primitive P14 — Hermitian Connection -> Primitive P17 — Observable Algebra
+016488: Primitive P15 — Curvature -> Primitive P17 — Observable Algebra
+016489: Primitive P16 — Field Section -> Primitive P17 — Observable Algebra
+016490: Primitive P13 — Hermitian Metric -> Primitive P18 — Quantum Action Functional
+016491: Primitive P14 — Hermitian Connection -> Primitive P18 — Quantum Action Functional
+016492: Primitive P15 — Curvature -> Primitive P18 — Quantum Action Functional
+016493: Primitive P16 — Field Section -> Primitive P18 — Quantum Action Functional
+016494: Primitive P17 — Observable Algebra -> Primitive P18 — Quantum Action Functional
+016495: Primitive P0 — Structured Temporal Manifold -> Axiom A0 — Admissible Continuation
+016496: Primitive P1 — Temporal Metric -> Axiom A0 — Admissible Continuation
+016497: Primitive P2 — Continuation Operator -> Axiom A0 — Admissible Continuation
+016498: Primitive P0 — Structured Temporal Manifold -> Axiom A1 — Inherited State Bundle
+016499: Primitive P1 — Temporal Metric -> Axiom A1 — Inherited State Bundle
+016500: Primitive P2 — Continuation Operator -> Axiom A1 — Inherited State Bundle
+016501: Primitive P3 — Inherited State Bundle -> Axiom A1 — Inherited State Bundle
+016502: Primitive P4 — Inheritance Morphism -> Axiom A1 — Inherited State Bundle
+016503: Primitive P3 — Inherited State Bundle -> Axiom A2 — Chirality Organization
+016504: Primitive P4 — Inheritance Morphism -> Axiom A2 — Chirality Organization
+016505: Primitive P5 — Chirality Space -> Axiom A2 — Chirality Organization
+016506: Primitive P6 — Chirality Map -> Axiom A2 — Chirality Organization
+016507: Primitive P7 — Chirality Transport -> Axiom A2 — Chirality Organization
+016508: Axiom A1 — Inherited State Bundle -> Axiom A2 — Chirality Organization
+016509: Primitive P3 — Inherited State Bundle -> Axiom A3 — Persistence
+016510: Primitive P4 — Inheritance Morphism -> Axiom A3 — Persistence
+016511: Primitive P8 — Persistent Locus -> Axiom A3 — Persistence
+016512: Definition 1 — Invariant Residue -> Axiom A3 — Persistence
+016513: Definition 2 — Admissible Equivalence -> Axiom A3 — Persistence
+016514: Axiom A1 — Inherited State Bundle -> Axiom A3 — Persistence
+016515: Axiom A2 — Chirality Organization -> Axiom A3 — Persistence
+016516: Primitive P8 — Persistent Locus -> Axiom A4 — Boundary Formation
+016517: Primitive P9 — Persistent Boundary -> Axiom A4 — Boundary Formation
+016518: Axiom A3 — Persistence -> Axiom A4 — Boundary Formation
+016519: Primitive P9 — Persistent Boundary -> Axiom A5 — Boundary Projection
+016520: Primitive P10 — Boundary Projection -> Axiom A5 — Boundary Projection
+016521: Primitive P11 — Projective Target Manifold -> Axiom A5 — Boundary Projection
+016522: Axiom A4 — Boundary Formation -> Axiom A5 — Boundary Projection
+016523: Definition 1 — Invariant Residue -> Axiom A6 — Projection Residue
+016524: Primitive P10 — Boundary Projection -> Axiom A6 — Projection Residue
+016525: Primitive P11 — Projective Target Manifold -> Axiom A6 — Projection Residue
+016526: Primitive P12 — Residue / Quantum Field Bundle -> Axiom A6 — Projection Residue
+016527: Axiom A5 — Boundary Projection -> Axiom A6 — Projection Residue
+016528: Primitive P12 — Residue / Quantum Field Bundle -> Axiom A7 — Field Section
+016529: Primitive P16 — Field Section -> Axiom A7 — Field Section
+016530: Axiom A6 — Projection Residue -> Axiom A7 — Field Section
+016531: Primitive P12 — Residue / Quantum Field Bundle -> Axiom A8 — Complex Residue Structure
+016532: Axiom A6 — Projection Residue -> Axiom A8 — Complex Residue Structure
+016533: Axiom A7 — Field Section -> Axiom A8 — Complex Residue Structure
+016534: Primitive P12 — Residue / Quantum Field Bundle -> Axiom A9 — Hermitian Metric
+016535: Primitive P13 — Hermitian Metric -> Axiom A9 — Hermitian Metric
+016536: Axiom A8 — Complex Residue Structure -> Axiom A9 — Hermitian Metric
+016537: Primitive P12 — Residue / Quantum Field Bundle -> Axiom A10 — Superposition Closure
+016538: Primitive P13 — Hermitian Metric -> Axiom A10 — Superposition Closure
+016539: Definition 4 — Quantum-Field Input Class -> Axiom A10 — Superposition Closure
+016540: Axiom A8 — Complex Residue Structure -> Axiom A10 — Superposition Closure
+016541: Axiom A9 — Hermitian Metric -> Axiom A10 — Superposition Closure
+016542: Primitive P13 — Hermitian Metric -> Axiom A11 — Observable Operator Algebra
+016543: Primitive P16 — Field Section -> Axiom A11 — Observable Operator Algebra
+016544: Primitive P17 — Observable Algebra -> Axiom A11 — Observable Operator Algebra
+016545: Axiom A8 — Complex Residue Structure -> Axiom A11 — Observable Operator Algebra
+016546: Axiom A9 — Hermitian Metric -> Axiom A11 — Observable Operator Algebra
+016547: Axiom A10 — Superposition Closure -> Axiom A11 — Observable Operator Algebra
+016548: Primitive P17 — Observable Algebra -> Axiom A12 — Spectral Projection Rule
+016549: Definition 6 — Spectral Projection Family -> Axiom A12 — Spectral Projection Rule
+016550: Axiom A9 — Hermitian Metric -> Axiom A12 — Spectral Projection Rule
+016551: Axiom A10 — Superposition Closure -> Axiom A12 — Spectral Projection Rule
+016552: Axiom A11 — Observable Operator Algebra -> Axiom A12 — Spectral Projection Rule
+016553: Primitive P13 — Hermitian Metric -> Axiom A13 — Connection and Curvature
+016554: Primitive P14 — Hermitian Connection -> Axiom A13 — Connection and Curvature
+016555: Primitive P15 — Curvature -> Axiom A13 — Connection and Curvature
+016556: Axiom A8 — Complex Residue Structure -> Axiom A13 — Connection and Curvature
+016557: Axiom A9 — Hermitian Metric -> Axiom A13 — Connection and Curvature
+016558: Axiom A10 — Superposition Closure -> Axiom A13 — Connection and Curvature
+016559: Axiom A11 — Observable Operator Algebra -> Axiom A13 — Connection and Curvature
+016560: Axiom A12 — Spectral Projection Rule -> Axiom A13 — Connection and Curvature
+016561: Primitive P18 — Quantum Action Functional -> Axiom A14 — Quantum Action Principle
+016562: Axiom A8 — Complex Residue Structure -> Axiom A14 — Quantum Action Principle
+016563: Axiom A9 — Hermitian Metric -> Axiom A14 — Quantum Action Principle
+016564: Axiom A10 — Superposition Closure -> Axiom A14 — Quantum Action Principle
+016565: Axiom A11 — Observable Operator Algebra -> Axiom A14 — Quantum Action Principle
+016566: Axiom A12 — Spectral Projection Rule -> Axiom A14 — Quantum Action Principle
+016567: Axiom A13 — Connection and Curvature -> Axiom A14 — Quantum Action Principle
+016568: Primitive P2 — Continuation Operator -> Lemma L1 — Continuation–Inheritance Compatibility
+016569: Primitive P3 — Inherited State Bundle -> Lemma L1 — Continuation–Inheritance Compatibility
+016570: Primitive P4 — Inheritance Morphism -> Lemma L1 — Continuation–Inheritance Compatibility
+016571: Axiom A0 — Admissible Continuation -> Lemma L1 — Continuation–Inheritance Compatibility
+016572: Axiom A1 — Inherited State Bundle -> Lemma L1 — Continuation–Inheritance Compatibility
+016573: Primitive P4 — Inheritance Morphism -> Lemma L2 — Chirality Transport
+016574: Primitive P5 — Chirality Space -> Lemma L2 — Chirality Transport
+016575: Primitive P6 — Chirality Map -> Lemma L2 — Chirality Transport
+016576: Primitive P7 — Chirality Transport -> Lemma L2 — Chirality Transport
+016577: Axiom A1 — Inherited State Bundle -> Lemma L2 — Chirality Transport
+016578: Axiom A2 — Chirality Organization -> Lemma L2 — Chirality Transport
+016579: Lemma L1 — Continuation–Inheritance Compatibility -> Lemma L2 — Chirality Transport
+016580: Primitive P3 — Inherited State Bundle -> Lemma L3 — Persistence Locus
+016581: Primitive P4 — Inheritance Morphism -> Lemma L3 — Persistence Locus
+016582: Primitive P8 — Persistent Locus -> Lemma L3 — Persistence Locus
+016583: Definition 2 — Admissible Equivalence -> Lemma L3 — Persistence Locus
+016584: Axiom A3 — Persistence -> Lemma L3 — Persistence Locus
+016585: Lemma L1 — Continuation–Inheritance Compatibility -> Lemma L3 — Persistence Locus
+016586: Lemma L2 — Chirality Transport -> Lemma L3 — Persistence Locus
+016587: Primitive P9 — Persistent Boundary -> Lemma L4 — Boundary Projection
+016588: Primitive P10 — Boundary Projection -> Lemma L4 — Boundary Projection
+016589: Primitive P11 — Projective Target Manifold -> Lemma L4 — Boundary Projection
+016590: Axiom A4 — Boundary Formation -> Lemma L4 — Boundary Projection
+016591: Axiom A5 — Boundary Projection -> Lemma L4 — Boundary Projection
+016592: Lemma L3 — Persistence Locus -> Lemma L4 — Boundary Projection
+016593: Definition 1 — Invariant Residue -> Lemma L5 — Projection Residue Bundle
+016594: Primitive P12 — Residue / Quantum Field Bundle -> Lemma L5 — Projection Residue Bundle
+016595: Axiom A5 — Boundary Projection -> Lemma L5 — Projection Residue Bundle
+016596: Axiom A6 — Projection Residue -> Lemma L5 — Projection Residue Bundle
+016597: Lemma L4 — Boundary Projection -> Lemma L5 — Projection Residue Bundle
+016598: Definition 3 — Projective Target Manifold -> Lemma L6 — Projective Quotient
+016599: Primitive P10 — Boundary Projection -> Lemma L6 — Projective Quotient
+016600: Primitive P11 — Projective Target Manifold -> Lemma L6 — Projective Quotient
+016601: Lemma L4 — Boundary Projection -> Lemma L6 — Projective Quotient
+016602: Definition 1 — Invariant Residue -> Lemma L7 — Residue Invariance
+016603: Definition 3 — Projective Target Manifold -> Lemma L7 — Residue Invariance
+016604: Primitive P10 — Boundary Projection -> Lemma L7 — Residue Invariance
+016605: Primitive P12 — Residue / Quantum Field Bundle -> Lemma L7 — Residue Invariance
+016606: Lemma L5 — Projection Residue Bundle -> Lemma L7 — Residue Invariance
+016607: Lemma L6 — Projective Quotient -> Lemma L7 — Residue Invariance
+016608: Primitive P12 — Residue / Quantum Field Bundle -> Lemma L8 — Complexification
+016609: Axiom A8 — Complex Residue Structure -> Lemma L8 — Complexification
+016610: Lemma L5 — Projection Residue Bundle -> Lemma L8 — Complexification

@@ -1,0 +1,176 @@
+{
+  "status": "FAIL",
+  "tests": [
+    {
+      "name": "Sheared flat: selected native connection matches independent GR connection",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sheared flat: connection inverse",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sheared flat: full Riemann commutation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sheared flat: Ricci and scalar commutation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sheared flat: specified scalar curvature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sheared flat: Einstein tensor commutation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sheared flat: covariant derivative of vector",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sheared flat: composed covariant derivatives",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sheared flat: Genesis endpoint round trip",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sheared flat: GR endpoint round trip",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Negative control: omitting derivative-of-frame is detected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Negative control: reject incompatible selected connection",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Curved product: selected native connection matches independent GR connection",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Curved product: connection inverse",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Curved product: full Riemann commutation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Curved product: Ricci and scalar commutation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Curved product: specified scalar curvature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Curved product: Einstein tensor commutation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Curved product: covariant derivative of vector",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Curved product: Genesis endpoint round trip",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Curved product: GR endpoint round trip",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Negative control: missing frame bracket changes curvature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FLRW: selected native connection matches independent GR connection",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FLRW: connection inverse",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FLRW: full Riemann commutation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FLRW: Ricci and scalar commutation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FLRW: specified scalar curvature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FLRW: Einstein tensor commutation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FLRW: full off-shell Einstein-source residual",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FLRW: independent source gives expected temporal equation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FLRW: independent source gives expected spatial equation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "FLRW: source divergence commutation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "exception",
+      "passed": false,
+      "detail": "TypeError(\"'int' object is not iterable\")"
+    }
+  ],
+  "named_checks": 33,
+  "passed": 32,
+  "elapsed_seconds": 4.231481841999994,
+  "python": "3.13.5",
+  "sympy": "1.14.0",
+  "scope": "Exact local symbolic tests on constructed evaluated smooth fields. No Q_R-native state, history inverse, global PDE existence, or empirical validation."
+}

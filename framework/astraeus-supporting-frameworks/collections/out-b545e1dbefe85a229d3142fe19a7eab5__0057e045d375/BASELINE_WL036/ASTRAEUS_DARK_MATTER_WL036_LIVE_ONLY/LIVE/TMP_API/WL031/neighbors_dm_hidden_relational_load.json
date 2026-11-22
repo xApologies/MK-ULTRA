@@ -1,0 +1,64 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_NEIGHBORS_V1",
+  "handle": "@dm_hidden_relational_load",
+  "incoming": [
+    [
+      "@dm_resolution_density_profile",
+      {
+        "source": "@dm_resolution_density_profile",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_hidden_relational_load",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      }
+    ]
+  ],
+  "outgoing": [
+    [
+      "@containment_volume",
+      {
+        "source": "@dm_hidden_relational_load",
+        "relation": "USES",
+        "target": "@containment_volume",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      }
+    ],
+    [
+      "@dm_runtime_transition_capacity",
+      {
+        "source": "@dm_hidden_relational_load",
+        "relation": "USES",
+        "target": "@dm_runtime_transition_capacity",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      }
+    ],
+    [
+      "@relationship",
+      {
+        "source": "@dm_hidden_relational_load",
+        "relation": "USES",
+        "target": "@relationship",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      }
+    ]
+  ]
+}

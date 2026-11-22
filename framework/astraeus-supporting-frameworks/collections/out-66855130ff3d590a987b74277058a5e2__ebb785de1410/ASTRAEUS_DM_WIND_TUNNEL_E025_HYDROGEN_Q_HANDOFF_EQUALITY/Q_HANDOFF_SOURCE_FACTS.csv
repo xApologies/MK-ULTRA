@@ -1,0 +1,11 @@
+source,item,statement,status
+D02,Canonical Q object,"Q=(M,F,pi_F,h,nabla,R_nabla,Gamma,A,P,S)",RECOVERED
+D04,Atomic projection,A_H : Q_H -> X_H,RECOVERED
+D04,Atomic carrier,"X_H=(S_H,L_H,chi_H,C_H,a_H)",RECOVERED
+D05,Environment-conditioned state,Z_H = ENV_ER fiber_product_T X_H,RECOVERED
+T02,Relational traversal guard,component atomic arrays remain immutable; atomic identity and ancestry preserved,RECOVERED
+M01,Atomic reverse recovery,R_H : X_H -> Q_H / ~_H,RECOVERED
+M01,Reverse identity,R_H o A_H = identity on the declared atomic admissible-equivalence class,RECOVERED
+T05,Hydrogen anchor closure,B_H(Q_H)=R_H(A_H(Q_H))=[Q_H],RECOVERED
+W01,Hydrogen witness,environment-conditioned H -> persistent identity -> complete QFT handoff -> Atomic Profile -> quotient recovery,RECOVERED
+QFT_GR bridge,Global rho_Q,rho_Q:F->Q_QFT is still a typed map to be completed,OPEN_GLOBAL

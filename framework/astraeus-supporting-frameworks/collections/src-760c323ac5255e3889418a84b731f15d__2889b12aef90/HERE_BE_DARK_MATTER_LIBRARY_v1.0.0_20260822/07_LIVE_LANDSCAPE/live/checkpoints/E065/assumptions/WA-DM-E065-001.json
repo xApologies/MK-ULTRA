@@ -1,0 +1,21 @@
+{
+  "assumption_id": "WA-DM-E065-001",
+  "name": "Boundary-Admitted Hidden Support",
+  "status": "WORKING_ASSUMPTION",
+  "checkpoint": "E065",
+  "scope": "one selected Resolution-R hidden support already satisfying the E063 positive finite witness premises",
+  "statement": "Let the selected hidden support admit a constraint-compatible hidden-state embedding whose image passes the exact Persistence criterion and has nonempty canonical boundary contact B_H^R=cl_E(Xi_H^R)∩∂Xi.",
+  "source_support": [
+    "@dm_hidden_state_embedding",
+    "@dm_formal_persistence_qualification",
+    "@dm_hidden_persistent_subset",
+    "@dm_hidden_boundary_contact",
+    "CC-DM-E063-001"
+  ],
+  "not_claimed": [
+    "global nonemptiness of Emb_H,phys^R",
+    "physical realization of the hidden support",
+    "uniqueness of the boundary contact point"
+  ],
+  "proof_debt": "PD-DM-001"
+}

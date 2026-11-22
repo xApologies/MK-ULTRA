@@ -1,0 +1,25 @@
+{
+  "handle": "iteration://IT-DM-E074-UCM-EVENT-SOURCE-GATE",
+  "object_type": "bounded_iteration",
+  "status": "OPEN_FORK_EVENT_TO_SOURCE_SENSITIVITY",
+  "domain": "ITERATION",
+  "namespace": "mk43://iteration",
+  "name": "IT-DM-E074-UCM-EVENT-SOURCE-GATE",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "BOUNDED_ITERATION",
+  "metadata": {
+    "id": "IT-DM-E074-UCM-EVENT-SOURCE-GATE",
+    "seed": "@dm_ucm_source_domain_distinction",
+    "terminal_state": "OPEN_FORK_EVENT_TO_SOURCE_SENSITIVITY",
+    "source_file": "live/registry",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_ITERATION_RUN_V1\", \"run_id\": \"IT-DM-E074-UCM-EVENT-SOURCE-GATE\", \"checkpoint\": \"E074\", \"seed\": \"@dm_ucm_source_domain_distinction\", \"ceiling\": 128, \"iterations_used\": 2, \"terminal_state\": \"OPEN_FORK_EVENT_TO_SOURCE_SENSITIVITY\", \"open_next\": \"@dm_ucm_event_to_source_nonannihilation\", \"note\": \"Exact source-projection compression gate isolated; action-selection lane parked as an alternate representation route.\"}"
+  },
+  "address": "iteration://IT-DM-E074-UCM-EVENT-SOURCE-GATE",
+  "address_sha256": "4b610821be153137cd5bd1ec0d2efc6796a032ecb43f3773c2c59bd11048558e"
+}

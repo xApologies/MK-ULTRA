@@ -1,0 +1,53 @@
+{
+  "a": "@ergoregion",
+  "b": "@time_shell",
+  "radius": 2,
+  "a_node_count": 45,
+  "b_node_count": 76,
+  "interface": [
+    {
+      "handle": "@black_hole",
+      "distance_a": 1,
+      "distance_b": 2
+    },
+    {
+      "handle": "@gravitational_self_coupling",
+      "distance_a": 2,
+      "distance_b": 1
+    },
+    {
+      "handle": "@graviton",
+      "distance_a": 2,
+      "distance_b": 1
+    },
+    {
+      "handle": "@projected_gr_inheritance",
+      "distance_a": 2,
+      "distance_b": 1
+    },
+    {
+      "handle": "@metric_perturbation",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@time_shell_projection",
+      "distance_a": 2,
+      "distance_b": 2
+    }
+  ],
+  "path_a_to_b": [
+    {
+      "source": "@ergoregion",
+      "relation": "COMPOSED_DEPENDENCY",
+      "target": "@time_shell",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-51",
+      "provenance": "DERIVED:RP51_SAFE_TRANSITIVE_CLOSURE; round=1; witness=@ergoregion-[COMPOSED_DEPENDENCY]->@general_relativity-[COMPOSED_DEPENDENCY]->@time_shell"
+    }
+  ],
+  "direct_neighborhood_policy": "high-confidence non-derived/direct-source Time-Space API edges only",
+  "path_policy": "high-confidence registered + admissibly derived Time-Space API edges; directions preserved"
+}

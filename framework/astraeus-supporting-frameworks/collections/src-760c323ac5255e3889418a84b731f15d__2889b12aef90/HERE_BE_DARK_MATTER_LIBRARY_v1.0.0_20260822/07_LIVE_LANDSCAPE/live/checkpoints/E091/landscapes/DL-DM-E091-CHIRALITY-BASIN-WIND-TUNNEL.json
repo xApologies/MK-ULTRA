@@ -1,0 +1,18 @@
+{
+  "schema": "ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1",
+  "landscape_id": "DL-DM-E091-CHIRALITY-BASIN-WIND-TUNNEL",
+  "seed": "@chirality_byte",
+  "status": "CONDITIONAL_FINITE_SWEEP_CLOSED",
+  "nodes": [
+    "@chirality_byte",
+    "@energy_density",
+    "@dm_chirality_seed_contrast_normal_form",
+    "@dm_chirality_byte_basin_probe_family"
+  ],
+  "terminal": {
+    "state": "SIX_BASIN_PROBE_FAMILY_READY",
+    "iteration": 4,
+    "focus": "@dm_chirality_byte_basin_probe_family",
+    "reason": "All six interior basin levels give nonzero mirror contrast under one explicitly provisional occupancy weighting."
+  }
+}

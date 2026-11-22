@@ -1,0 +1,68 @@
+{
+  "schema": "ASTRAEUS_QMO_CROSS_CRAWL_V1",
+  "seeds": [
+    "@black_hole"
+  ],
+  "targets": [
+    "@dm_hidden_s3_network"
+  ],
+  "bidirectional": true,
+  "edge_count": 1659,
+  "reachable_count": 245,
+  "distance_histogram": {
+    "0": 1,
+    "1": 6,
+    "2": 24,
+    "3": 63,
+    "4": 151
+  },
+  "paths": {
+    "@black_hole -> @dm_hidden_s3_network": [
+      {
+        "from": "@black_hole",
+        "relation": "RELATED_TO",
+        "to": "@gravity",
+        "traversal": "reverse",
+        "origin": "TIMESPACE_4.3_FULL_CANONICAL",
+        "provenance": null,
+        "source_location": "source_snapshots/api43/MK43_Ultra_API_CURRENT_CANONICAL.md:57179",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@gravity",
+        "relation": "DEPENDS_TO",
+        "to": "@time_shell",
+        "traversal": "reverse",
+        "origin": "TIMESPACE_4.3_FULL_CANONICAL",
+        "provenance": "DIRECT_API_LINE:45137",
+        "source_location": "source_snapshots/api43/MK43_Ultra_API_CURRENT_CANONICAL.md:58298",
+        "audit_status": "recovered",
+        "confidence": "high"
+      },
+      {
+        "from": "@time_shell",
+        "relation": "USES",
+        "to": "@qmo_ast_dm_029",
+        "traversal": "reverse",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V93_V98",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      },
+      {
+        "from": "@qmo_ast_dm_029",
+        "relation": "TARGETS",
+        "to": "@dm_hidden_s3_network",
+        "traversal": "forward",
+        "origin": "ASTRAEUS_WORK_LAYER",
+        "provenance": "ASTRAEUS_LIVE_V93_V98",
+        "source_location": "metadata/CANDIDATE_EDGE_REGISTRY.json",
+        "audit_status": null,
+        "confidence": null
+      }
+    ]
+  },
+  "guardrail": "Navigation evidence only. Composed paths are not direct theorems and no parent object is promoted."
+}

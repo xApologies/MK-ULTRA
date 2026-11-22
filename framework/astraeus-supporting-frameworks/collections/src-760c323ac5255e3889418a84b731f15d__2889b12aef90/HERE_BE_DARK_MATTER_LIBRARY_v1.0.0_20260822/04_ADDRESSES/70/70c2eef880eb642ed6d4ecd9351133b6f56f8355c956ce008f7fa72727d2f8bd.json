@@ -1,0 +1,130 @@
+{
+  "handle": "@universal_coupling",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Universal Coupling",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 2,
+    "api43_direct_in_count": 2,
+    "xapi_raw_out_count": 2,
+    "xapi_raw_in_count": 3,
+    "live_out_count": 0,
+    "live_in_count": 4,
+    "closure_out_reachability_count": 1,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@universal_coupling",
+        "relation": "DIRECTED_TO",
+        "target": "@native_interaction_factorization",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54793->54794"
+      },
+      {
+        "source": "@universal_coupling",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@native_interaction_factorization",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DEPENDSON:54040"
+      },
+      {
+        "source": "@graviton_radiative_stability",
+        "relation": "USED_BY",
+        "target": "@universal_coupling",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_USEDBY:54213"
+      },
+      {
+        "source": "@native_interaction_factorization",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@universal_coupling",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@universal_coupling FORMALLY_DEPENDS_ON @native_interaction_factorization); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 1163,
+        "source": "@universal_coupling",
+        "relation": "DIRECTED_TO",
+        "target": "@native_interaction_factorization",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:54793->54794"
+      },
+      {
+        "id": 1164,
+        "source": "@universal_coupling",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@native_interaction_factorization",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_DEPENDSON:54040"
+      },
+      {
+        "id": 566,
+        "source": "@graviton_radiative_stability",
+        "relation": "USED_BY",
+        "target": "@universal_coupling",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_USEDBY:54213"
+      },
+      {
+        "id": 2293,
+        "source": "@native_interaction_factorization",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@universal_coupling",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@universal_coupling FORMALLY_DEPENDS_ON @native_interaction_factorization); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      },
+      {
+        "id": 19172,
+        "source": "@graviton_radiative_stability",
+        "relation": "USED_BY",
+        "target": "@universal_coupling",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_USEDBY:54213"
+      }
+    ]
+  },
+  "address": "@universal_coupling",
+  "address_sha256": "70c2eef880eb642ed6d4ecd9351133b6f56f8355c956ce008f7fa72727d2f8bd"
+}

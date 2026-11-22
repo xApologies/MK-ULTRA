@@ -1,0 +1,8 @@
+gate,obligation,status,evidence
+Q1,Source-native local edge-flow law recovered,PASS,Phi_ij=kappa_ij A_ij(C_j-C_i); R7 V24
+Q2,Direct cycle-kernel quotient recovered,PASS,Flow/ker(D_C) -> im(D_C); R7 V23
+Q3,E006 endpoint-lift physical selector recovered,NO / TERMINATED,All four are surrogate stress-tests; source selects none
+Q4,Current pair continuity-response difference nonzero,PASS,L2=0.0036081662333576
+Q5,Current pair net continuity difference conserved,PASS,net=0
+Q6,Current pair direct-flow quotient difference nonzero,PASS,Nonzero D_C(Delta phi) implies nonzero quotient class
+Q7,Readable gravitational noncollapse,OPEN,tensor/gravitational admission + Time-Shell projection still unresolved

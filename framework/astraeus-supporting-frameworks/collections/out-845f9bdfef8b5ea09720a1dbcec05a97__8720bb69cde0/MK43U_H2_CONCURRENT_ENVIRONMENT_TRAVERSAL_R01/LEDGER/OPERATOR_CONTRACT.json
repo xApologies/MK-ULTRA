@@ -1,0 +1,40 @@
+{
+  "source_native": {
+    "H_v2_arrays": "unchanged",
+    "ER_tensor": "unchanged 7x2x2x2x2x2",
+    "Pipeline1_environmental_strengths": "read directly from phase3_ready_pipeline.json",
+    "Pipeline2_roles": "R0-R7 and R4/R5/R6 domain contracts preserved",
+    "dot_grammar": [
+      "inherit",
+      "propagate",
+      "stabilize",
+      "redistribute",
+      "destabilize",
+      "close",
+      "normalize"
+    ],
+    "chirality_policy": "R0-R7 read-only; no chirality rewrite",
+    "runtime_contract": "M->ER, ER->ER, ER->M, M->next domain",
+    "no_element_specific_environment_rule": true
+  },
+  "reconstructed_execution_layer": {
+    "N6_zero_flux_transport": "pairwise discrete conservative flow; no calculus",
+    "ER_tile_expansion": "repeat 2x2x2 tile by XYZ parity over 32x32x32",
+    "ER_chirality_index": "sign of supplied H chirality field",
+    "ER_persistence_index": "p=0 for T0-T4; p=1 for T5+",
+    "environment_chirality_update": "bounded blend from simultaneous manifold occupancy-weighted chirality",
+    "continuous_TimeShell_interface": "mean N6 absolute persistence contrast; activated as Time-Shell-relevant at T5",
+    "R1_surface_map": "geometric conjunction of shell overlap, environment admissibility, and T5+ boundary context",
+    "R2_exchange": "symmetric gross shell-sharing using source T6 coupling_interface_exposure=0.12",
+    "R4_candidate": "pair_closure_topology * interaction_surface * environment_context",
+    "R5_recoverability_gate": "recoverability > strain + bandwidth_overload + chirality_overconstraint",
+    "R6_survival": "all six source-stated survivability conditions must pass; no external numeric threshold",
+    "R7_environment_relaxation": "10% relaxation step, interpreting dynamic_history_retention=0.10 as slow decay increment"
+  },
+  "important_nonclaims": [
+    "Not the lost historical executable.",
+    "Not a validated physical simulation of atomic hydrogen.",
+    "H2 label is post-run topology classification, never an environment target.",
+    "The pair-closure topology is H-specific source data already present in the H-v2 manifold."
+  ]
+}

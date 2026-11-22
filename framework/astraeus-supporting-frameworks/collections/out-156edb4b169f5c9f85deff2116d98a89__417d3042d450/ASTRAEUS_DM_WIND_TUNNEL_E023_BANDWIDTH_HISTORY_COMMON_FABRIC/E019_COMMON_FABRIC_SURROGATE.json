@@ -1,0 +1,29 @@
+{
+  "source_template": "F = Op(Fabr_chi; B,R,H)",
+  "scope": "LOCAL COMMON-FABRIC SURROGATE; NOT the completed global Fabr_chi realization",
+  "shared_formal_target": {
+    "object": "single H-v2 target",
+    "formal_matter_identity": "H",
+    "identity_channels_preserved": {
+      "P": true,
+      "closure": true,
+      "adjacency": true,
+      "chirality": true
+    }
+  },
+  "F0": {
+    "label": "fresh operative state",
+    "B_hat": "same mounted local transformation architecture",
+    "R_hat": "same target/readout scope",
+    "H_hat": "fresh ER history"
+  },
+  "F1": {
+    "label": "H2-conditioned operative state",
+    "B_hat": "same mounted local transformation architecture",
+    "R_hat": "same target/readout scope",
+    "H_hat": "fresh history + appended H+H->H2 conditioning history"
+  },
+  "UTO_history_rule_alignment": "Transport/mutation appends History rather than overwriting it.",
+  "common_provenance": "PASS at experiment/source level",
+  "global_gluing_witness": "NOT RECOVERED"
+}

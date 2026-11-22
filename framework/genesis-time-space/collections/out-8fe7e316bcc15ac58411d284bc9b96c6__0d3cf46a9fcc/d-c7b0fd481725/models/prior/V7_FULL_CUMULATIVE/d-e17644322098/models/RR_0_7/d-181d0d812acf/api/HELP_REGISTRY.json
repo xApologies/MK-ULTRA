@@ -1,0 +1,492 @@
+{
+  "schema": "ASTRAEUS_API_HELP_REGISTRY_V2",
+  "api_release": "0.7.0",
+  "canonical_help": "@help",
+  "namespace": "STRUCTURAL_IMPLEMENTATION_COMMANDS",
+  "command_count": 37,
+  "commands": [
+    {
+      "address": "@help",
+      "runtime_name": "help",
+      "syntax": "@help [topic]",
+      "purpose": "List all available API structural commands, or explain one command.",
+      "category": "discovery",
+      "implementation": "runtime/astraeus_math_api.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "help",
+        "/help"
+      ]
+    },
+    {
+      "address": "@qmo",
+      "runtime_name": "qmo",
+      "syntax": "@qmo @handle",
+      "purpose": "Return joined operational QMO plus semantic metadata.",
+      "category": "query",
+      "implementation": "runtime/astraeus_math_api.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "qmo"
+      ]
+    },
+    {
+      "address": "@meta",
+      "runtime_name": "meta",
+      "syntax": "@meta @handle",
+      "purpose": "Return current QMO metadata.",
+      "category": "query",
+      "implementation": "runtime/astraeus_math_api.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "meta"
+      ]
+    },
+    {
+      "address": "@meaning",
+      "runtime_name": "meaning",
+      "syntax": "@meaning @handle",
+      "purpose": "Return concise QMO meaning and status.",
+      "category": "query",
+      "implementation": "runtime/astraeus_math_api.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "meaning"
+      ]
+    },
+    {
+      "address": "@qmo_history",
+      "runtime_name": "qmo-history",
+      "syntax": "@qmo_history @handle",
+      "purpose": "Read append-only semantic metadata History for one QMO.",
+      "category": "history",
+      "implementation": "runtime/astraeus_math_api.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "qmo-history"
+      ]
+    },
+    {
+      "address": "@object",
+      "runtime_name": "object",
+      "syntax": "@object @handle",
+      "purpose": "Return one operational mathematical object record.",
+      "category": "query",
+      "implementation": "runtime/astraeus_math_api.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "object"
+      ]
+    },
+    {
+      "address": "@neighbors",
+      "runtime_name": "neighbors",
+      "syntax": "@neighbors @handle --direction in|out|both",
+      "purpose": "Return typed immediate dependencies.",
+      "category": "query",
+      "implementation": "runtime/astraeus_math_api.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "neighbors"
+      ]
+    },
+    {
+      "address": "@search",
+      "runtime_name": "search",
+      "syntax": "@search QUERY [--limit N]",
+      "purpose": "Search the indexed API/library corpus.",
+      "category": "query",
+      "implementation": "runtime/astraeus_math_api.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "search"
+      ]
+    },
+    {
+      "address": "@path",
+      "runtime_name": "path",
+      "syntax": "@path @source @target --depth N",
+      "purpose": "Find a directed registered dependency path.",
+      "category": "query",
+      "implementation": "runtime/astraeus_math_api.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "path"
+      ]
+    },
+    {
+      "address": "@equation",
+      "runtime_name": "equation",
+      "syntax": "@equation @handle",
+      "purpose": "Return a registered equation object.",
+      "category": "query",
+      "implementation": "runtime/astraeus_math_api.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "equation"
+      ]
+    },
+    {
+      "address": "@theorem",
+      "runtime_name": "theorem",
+      "syntax": "@theorem @handle",
+      "purpose": "Return a registered theorem object.",
+      "category": "query",
+      "implementation": "runtime/astraeus_math_api.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "theorem"
+      ]
+    },
+    {
+      "address": "@branch",
+      "runtime_name": "branch",
+      "syntax": "@branch BRANCH",
+      "purpose": "List QMOs in a mathematical/API branch.",
+      "category": "query",
+      "implementation": "runtime/astraeus_math_api.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "branch"
+      ]
+    },
+    {
+      "address": "@frontier",
+      "runtime_name": "frontier",
+      "syntax": "@frontier",
+      "purpose": "Show active research frontiers.",
+      "category": "research",
+      "implementation": "runtime/astraeus_math_api.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "frontier"
+      ]
+    },
+    {
+      "address": "@candidates",
+      "runtime_name": "candidates",
+      "syntax": "@candidates",
+      "purpose": "Show candidate mathematical objects.",
+      "category": "research",
+      "implementation": "runtime/astraeus_math_api.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "candidates"
+      ]
+    },
+    {
+      "address": "@source",
+      "runtime_name": "source",
+      "syntax": "@source SOURCE_ID",
+      "purpose": "Return a mounted source record.",
+      "category": "provenance",
+      "implementation": "runtime/astraeus_math_api.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "source"
+      ]
+    },
+    {
+      "address": "@why",
+      "runtime_name": "why",
+      "syntax": "@why @handle",
+      "purpose": "Show an object plus incoming/outgoing typed dependencies.",
+      "category": "explanation",
+      "implementation": "runtime/astraeus_math_api.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "why"
+      ]
+    },
+    {
+      "address": "@crawl",
+      "runtime_name": "crawl",
+      "syntax": "@crawl [@handle] --depth N",
+      "purpose": "Recursively expand declared downstream dependencies.",
+      "category": "research",
+      "implementation": "runtime/astraeus_math_api.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "crawl"
+      ]
+    },
+    {
+      "address": "@domain",
+      "runtime_name": "domain",
+      "syntax": "@domain",
+      "purpose": "Show the Rainbow Road recursive domain contract.",
+      "category": "runtime",
+      "implementation": "runtime/astraeus_math_api.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "domain"
+      ]
+    },
+    {
+      "address": "@closure_contract",
+      "runtime_name": "closure-contract",
+      "syntax": "@closure_contract",
+      "purpose": "Show recursive closure and self-promotion rules.",
+      "category": "runtime",
+      "implementation": "runtime/astraeus_math_api.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "closure-contract"
+      ]
+    },
+    {
+      "address": "@certificates",
+      "runtime_name": "certificates",
+      "syntax": "@certificates",
+      "purpose": "Show closure certificates.",
+      "category": "audit",
+      "implementation": "runtime/astraeus_math_api.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "certificates"
+      ]
+    },
+    {
+      "address": "@perturbations",
+      "runtime_name": "perturbations",
+      "syntax": "@perturbations",
+      "purpose": "Show registered perturbation probes.",
+      "category": "stress_test",
+      "implementation": "runtime/astraeus_math_api.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "perturbations"
+      ]
+    },
+    {
+      "address": "@runtime_state",
+      "runtime_name": "runtime-state",
+      "syntax": "@runtime_state",
+      "purpose": "Show current Rainbow Road runtime state.",
+      "category": "runtime",
+      "implementation": "runtime/astraeus_math_api.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "runtime-state"
+      ]
+    },
+    {
+      "address": "@api_live",
+      "runtime_name": "api-live",
+      "syntax": "@api_live",
+      "purpose": "Show global API/live-model state.",
+      "category": "runtime",
+      "implementation": "runtime/astraeus_math_api.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "api-live"
+      ]
+    },
+    {
+      "address": "@dependency_landscape",
+      "runtime_name": "dependency-landscape",
+      "syntax": "@dependency_landscape INPUT... [--depth N] [--direction upstream|downstream|bidirectional] [--register] [--handle @name]",
+      "purpose": "Construct a Dependency Landscape from QMO and/or Landscape inputs. Registered output becomes a QMO.",
+      "category": "constructor",
+      "implementation": "runtime/dependency_landscape.py via runtime/astraeus_math_api.py",
+      "produces_qmo": true,
+      "qmo_backing_handle": "@dependency_landscape",
+      "aliases": [
+        "dependency-landscape"
+      ]
+    },
+    {
+      "address": "@landscape",
+      "runtime_name": "landscape",
+      "syntax": "@landscape @handle",
+      "purpose": "Query one registered Dependency Landscape QMO.",
+      "category": "query",
+      "implementation": "runtime/dependency_landscape.py via runtime/astraeus_math_api.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "landscape"
+      ]
+    },
+    {
+      "address": "@landscapes",
+      "runtime_name": "landscapes",
+      "syntax": "@landscapes",
+      "purpose": "List registered Dependency Landscape QMOs.",
+      "category": "query",
+      "implementation": "runtime/dependency_landscape.py via runtime/astraeus_math_api.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "landscapes"
+      ]
+    },
+    {
+      "address": "@landscape_history",
+      "runtime_name": "landscape-history",
+      "syntax": "@landscape_history [@handle]",
+      "purpose": "Read append-only Dependency Landscape creation/revision History.",
+      "category": "history",
+      "implementation": "runtime/dependency_landscape.py via runtime/astraeus_math_api.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "landscape-history"
+      ]
+    },
+    {
+      "address": "@dependency_graph",
+      "runtime_name": "dependency-graph",
+      "syntax": "@dependency_graph INPUT... [--mode path|induced|ego] [--depth N] [--direction upstream|downstream|bidirectional] [--register] [--handle @name]",
+      "purpose": "Construct a focused typed Dependency Graph. Registered output becomes a QMO.",
+      "category": "constructor",
+      "implementation": "runtime/dependency_graph.py via runtime/astraeus_math_api.py",
+      "produces_qmo": true,
+      "qmo_backing_handle": "@dependency_graph",
+      "aliases": [
+        "dependency-graph"
+      ]
+    },
+    {
+      "address": "@graph",
+      "runtime_name": "graph",
+      "syntax": "@graph @handle",
+      "purpose": "Read one registered Dependency Graph QMO.",
+      "category": "query",
+      "implementation": "runtime/dependency_graph.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "graph"
+      ]
+    },
+    {
+      "address": "@graphs",
+      "runtime_name": "graphs",
+      "syntax": "@graphs",
+      "purpose": "List registered Dependency Graph QMOs.",
+      "category": "query",
+      "implementation": "runtime/dependency_graph.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "graphs"
+      ]
+    },
+    {
+      "address": "@graph_history",
+      "runtime_name": "graph-history",
+      "syntax": "@graph_history [@handle]",
+      "purpose": "Read append-only Dependency Graph construction History.",
+      "category": "history",
+      "implementation": "runtime/dependency_graph.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "graph-history"
+      ]
+    },
+    {
+      "address": "@dependency_chain",
+      "runtime_name": "dependency-chain",
+      "syntax": "@dependency_chain SEED [--max-steps N] [--landscape-depth N] [--direction upstream|downstream|bidirectional] [--register] [--handle @name]",
+      "purpose": "Recursively crawl/resolve QMO dependencies into an ordered Dependency Chain QMO until closure, fork, defect, or step boundary.",
+      "category": "constructor",
+      "implementation": "runtime/dependency_chain.py via runtime/astraeus_math_api.py",
+      "produces_qmo": true,
+      "qmo_backing_handle": "@dependency_chain",
+      "aliases": [
+        "dependency-chain"
+      ]
+    },
+    {
+      "address": "@chain",
+      "runtime_name": "chain",
+      "syntax": "@chain @handle",
+      "purpose": "Read one registered Dependency Chain QMO.",
+      "category": "query",
+      "implementation": "runtime/dependency_chain.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "chain"
+      ]
+    },
+    {
+      "address": "@chains",
+      "runtime_name": "chains",
+      "syntax": "@chains",
+      "purpose": "List registered Dependency Chain QMOs.",
+      "category": "query",
+      "implementation": "runtime/dependency_chain.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "chains"
+      ]
+    },
+    {
+      "address": "@chain_history",
+      "runtime_name": "chain-history",
+      "syntax": "@chain_history [@handle]",
+      "purpose": "Read append-only Dependency Chain History.",
+      "category": "history",
+      "implementation": "runtime/dependency_chain.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "chain-history"
+      ]
+    },
+    {
+      "address": "@qmo_types",
+      "runtime_name": "qmo-types",
+      "syntax": "@qmo_types",
+      "purpose": "List QMO roles/types the API can represent or construct.",
+      "category": "discovery",
+      "implementation": "runtime/astraeus_math_api.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "qmo-types"
+      ]
+    },
+    {
+      "address": "@graph_types",
+      "runtime_name": "graph-types",
+      "syntax": "@graph_types",
+      "purpose": "List implemented Dependency Graph modes and higher-order graph objects.",
+      "category": "discovery",
+      "implementation": "runtime/astraeus_math_api.py",
+      "produces_qmo": false,
+      "qmo_backing_handle": null,
+      "aliases": [
+        "graph-types"
+      ]
+    }
+  ],
+  "note": "Structural commands are implementations, not QMOs by default. @dependency_graph, @dependency_landscape, and @dependency_chain are intentional dual-role addresses with QMO backing semantics."
+}

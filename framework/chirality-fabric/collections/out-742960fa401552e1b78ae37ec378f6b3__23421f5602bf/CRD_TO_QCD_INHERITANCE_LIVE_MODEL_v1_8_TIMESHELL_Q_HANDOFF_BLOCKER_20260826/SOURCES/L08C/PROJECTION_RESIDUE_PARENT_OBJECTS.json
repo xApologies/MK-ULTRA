@@ -1,0 +1,602 @@
+[
+  {
+    "handle": "@boundary_projection",
+    "object_type": "mathematical_object",
+    "base_status": "indexed-unlinked",
+    "models": [
+      "model://api43",
+      "model://here-be-dark-matter",
+      "model://higgs-work-v1.1",
+      "model://timespace43"
+    ],
+    "domains": [
+      "API43",
+      "HIGGS_WORK_LAYER_V1_1",
+      "TIME_SPACE_4_3"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "Boundary Projection"
+      },
+      {
+        "source": "HIGGS_V1_1",
+        "name": "Boundary Projection"
+      }
+    ],
+    "status_variants": [
+      {
+        "source": "HERE_BE_DARK_MATTER_LIBRARY",
+        "status": "indexed-unlinked"
+      },
+      {
+        "source": "DM22",
+        "status": "indexed-unlinked",
+        "criticality": "critical",
+        "origin": "TIMESPACE_4.3"
+      },
+      {
+        "source": "HIGGS_V1_1",
+        "status": "SOURCE_CLOSED",
+        "type": "Map"
+      }
+    ],
+    "definitions": [
+      {
+        "source": "HIGGS_V1_1",
+        "definition": "Pi : dXi -> M, mapping persistent-boundary organization onto the Projective Target Manifold while invariant residue is retained."
+      }
+    ],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@boundary_projection",
+          "name": "Boundary Projection",
+          "origin": "TIMESPACE_4.3",
+          "criticality": "critical",
+          "uri": "mk43://recover/kernel/lemma/boundary-projection",
+          "parent_status": "indexed-unlinked",
+          "parent_upstream": "none",
+          "parent_downstream": "none",
+          "source_occurrences": "86",
+          "registry_line": 31058,
+          "occurrence_lines": [
+            16401,
+            16415,
+            16428,
+            31058,
+            46161
+          ]
+        }
+      },
+      {
+        "source": "HIGGS_OBJECT_REGISTRY",
+        "record": {
+          "model_handle": "@higgs_qmo",
+          "canonical_handle": "@boundary_projection",
+          "canonical_name": "Boundary Projection",
+          "aliases": [],
+          "status": "SOURCE_CLOSED",
+          "type": "Map",
+          "definition": "Pi : dXi -> M, mapping persistent-boundary organization onto the Projective Target Manifold while invariant residue is retained.",
+          "symbols": [
+            "Pi"
+          ],
+          "equations": [],
+          "provenance": [
+            "S-CORRIDOR",
+            "S-TS-DEF"
+          ],
+          "notes": []
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@dm_chirality_seed_timeshell_gravity_fiber_test",
+    "object_type": "qmo_derived_mathematical_object",
+    "base_status": "LIVE_OPEN_TYPED_GATE_RETYPE",
+    "models": [
+      "model://dm30",
+      "model://here-be-dark-matter",
+      "model://live"
+    ],
+    "domains": [
+      "DARK_MATTER_LIVE_E100",
+      "DARK_MATTER_SOURCE_EFFECTIVE"
+    ],
+    "names": [
+      {
+        "source": "DM_LIVE_E100",
+        "name": "Canonical Chirality-Seed Time-Shell Gravity Fiber Test"
+      }
+    ],
+    "status_variants": [
+      {
+        "source": "HERE_BE_DARK_MATTER_LIBRARY",
+        "status": "LIVE_OPEN_TYPED_GATE_RETYPE"
+      },
+      {
+        "source": "DM_LIVE_E100",
+        "status": "LIVE_OPEN_TYPED_GATE_RETYPE",
+        "checkpoint": "E092"
+      }
+    ],
+    "definitions": [
+      {
+        "source": "DM_LIVE_E100",
+        "definition": "PD-DM-012 is retyped onto a canonical chirality-seed contrast input. The only direct-readout question remains whether the existing G_TS fiber separates this explicit persistent-continuity contrast rather than annihilating it."
+      }
+    ],
+    "math_variants": [
+      {
+        "source": "DM_LIVE_E100",
+        "math": "D_chi c_*=2c_*; Delta(deltaC)_P=-w_eff D_chi c_*=-2w_eff c_* !=0. Test G_TS(x_vis-w_eff D_chi c_*) != G_TS(x_vis) on the selected admissible fiber."
+      },
+      {
+        "source": "HERE_BE_DARK_MATTER_LIBRARY_CANONICAL_MATH",
+        "math": "D_chi c_*=2c_*; Delta(deltaC)_P=-w_eff D_chi c_*=-2w_eff c_* !=0. Test G_TS(x_vis-w_eff D_chi c_*) != G_TS(x_vis) on the selected admissible fiber."
+      }
+    ],
+    "variant_records": [
+      {
+        "source": "DM_LIVE_OBJECT_REGISTRY",
+        "record": {
+          "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+          "handle": "@dm_chirality_seed_timeshell_gravity_fiber_test",
+          "canonical_name": "Canonical Chirality-Seed Time-Shell Gravity Fiber Test",
+          "type": "CanonicalizedGravityProjectionFiberGate",
+          "status": "LIVE_OPEN_TYPED_GATE_RETYPE",
+          "checkpoint": "E092",
+          "definition": "PD-DM-012 is retyped onto a canonical chirality-seed contrast input. The only direct-readout question remains whether the existing G_TS fiber separates this explicit persistent-continuity contrast rather than annihilating it.",
+          "math": "D_chi c_*=2c_*; Delta(deltaC)_P=-w_eff D_chi c_*=-2w_eff c_* !=0. Test G_TS(x_vis-w_eff D_chi c_*) != G_TS(x_vis) on the selected admissible fiber.",
+          "parents": [
+            "@dm_chirality_seed_contrast_normal_form",
+            "@dm_explicit_two_port_continuity_residual_witness",
+            "@time_shell_projection_operator",
+            "@weak_field_metric_perturbation"
+          ],
+          "working_assumptions": [],
+          "proof_debt": [
+            "PD-DM-012"
+          ],
+          "physical_claim": false,
+          "baseline_mutation": false
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@dm_conditional_response_trace_residue_survival",
+    "object_type": "qmo_derived_mathematical_object",
+    "base_status": "LIVE_CONDITIONAL_CLOSED_WITH_NARROWED_PROOF_DEBT",
+    "models": [
+      "model://dm30",
+      "model://here-be-dark-matter",
+      "model://live"
+    ],
+    "domains": [
+      "DARK_MATTER_LIVE_E100",
+      "DARK_MATTER_SOURCE_EFFECTIVE"
+    ],
+    "names": [
+      {
+        "source": "DM_LIVE_E100",
+        "name": "Conditional Hidden Response-Trace Residue Survival"
+      }
+    ],
+    "status_variants": [
+      {
+        "source": "HERE_BE_DARK_MATTER_LIBRARY",
+        "status": "LIVE_CONDITIONAL_CLOSED_WITH_NARROWED_PROOF_DEBT"
+      },
+      {
+        "source": "DM_LIVE_E100",
+        "status": "LIVE_CONDITIONAL_CLOSED_WITH_NARROWED_PROOF_DEBT",
+        "checkpoint": "E082"
+      }
+    ],
+    "definitions": [
+      {
+        "source": "DM_LIVE_E100",
+        "definition": "Conditional on one explicit symmetry-action typing, the hidden response trace survives as declared invariant residue and separates the matched full/visible projection-residue bundles."
+      }
+    ],
+    "math_variants": [
+      {
+        "source": "DM_LIVE_E100",
+        "math": "I_Lambda(N)=tr(Lambda_N); I_Lambda(full)>I_Lambda(vis). If I_Lambda is G_Pi-invariant, then I_Lambda is admissible residue data and B_full^R not ~=_F B_vis^R under the declared invariant-preserving comparison."
+      },
+      {
+        "source": "HERE_BE_DARK_MATTER_LIBRARY_CANONICAL_MATH",
+        "math": "I_Lambda(N)=tr(Lambda_N); I_Lambda(full)>I_Lambda(vis). If I_Lambda is G_Pi-invariant, then I_Lambda is admissible residue data and B_full^R not ~=_F B_vis^R under the declared invariant-preserving comparison."
+      }
+    ],
+    "variant_records": [
+      {
+        "source": "DM_LIVE_OBJECT_REGISTRY",
+        "record": {
+          "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+          "handle": "@dm_conditional_response_trace_residue_survival",
+          "canonical_name": "Conditional Hidden Response-Trace Residue Survival",
+          "type": "ConditionalProjectionResidueSurvivalWitness",
+          "status": "LIVE_CONDITIONAL_CLOSED_WITH_NARROWED_PROOF_DEBT",
+          "checkpoint": "E082",
+          "definition": "Conditional on one explicit symmetry-action typing, the hidden response trace survives as declared invariant residue and separates the matched full/visible projection-residue bundles.",
+          "math": "I_Lambda(N)=tr(Lambda_N); I_Lambda(full)>I_Lambda(vis). If I_Lambda is G_Pi-invariant, then I_Lambda is admissible residue data and B_full^R not ~=_F B_vis^R under the declared invariant-preserving comparison.",
+          "parents": [
+            "@dm_port_response_trace_invariant",
+            "@dm_projection_residue_survival",
+            "@boundary_projection"
+          ],
+          "working_assumptions": [
+            "WA-DM-E065-001",
+            "WA-DM-E082-001"
+          ],
+          "proof_debt": [
+            "PD-DM-001",
+            "PD-DM-010"
+          ],
+          "physical_claim": false,
+          "baseline_mutation": false
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@projection_admissibility",
+    "object_type": "mathematical_object",
+    "base_status": "active",
+    "models": [
+      "model://api43",
+      "model://here-be-dark-matter",
+      "model://timespace43"
+    ],
+    "domains": [
+      "API43",
+      "TIME_SPACE_4_3"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "Projection Admissibility"
+      }
+    ],
+    "status_variants": [
+      {
+        "source": "HERE_BE_DARK_MATTER_LIBRARY",
+        "status": "active"
+      }
+    ],
+    "definitions": [],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@projection_admissibility",
+          "name": "Projection Admissibility",
+          "origin": "TIMESPACE_4.3",
+          "criticality": "critical",
+          "uri": null,
+          "parent_status": null,
+          "parent_upstream": "@persistent_boundary",
+          "parent_downstream": "@er_foam",
+          "source_occurrences": null,
+          "registry_line": 45719,
+          "occurrence_lines": [
+            7923,
+            27497,
+            41158,
+            45112,
+            45122,
+            45421,
+            45639,
+            45719,
+            47505,
+            48101,
+            48210,
+            57073,
+            57578,
+            58060,
+            58061,
+            58062,
+            58063,
+            58064,
+            58065,
+            58066
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@projective_target_manifold",
+    "object_type": "mathematical_object",
+    "base_status": "indexed-unlinked",
+    "models": [
+      "model://api43",
+      "model://here-be-dark-matter",
+      "model://higgs-work-v1.1",
+      "model://timespace43"
+    ],
+    "domains": [
+      "API43",
+      "HIGGS_WORK_LAYER_V1_1",
+      "TIME_SPACE_4_3"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "Projective Target Manifold"
+      },
+      {
+        "source": "HIGGS_V1_1",
+        "name": "Projective Target Manifold"
+      }
+    ],
+    "status_variants": [
+      {
+        "source": "HERE_BE_DARK_MATTER_LIBRARY",
+        "status": "indexed-unlinked"
+      },
+      {
+        "source": "DM22",
+        "status": "indexed-unlinked",
+        "criticality": "critical",
+        "origin": "TIMESPACE_4.3"
+      },
+      {
+        "source": "HIGGS_V1_1",
+        "status": "SOURCE_CLOSED",
+        "type": "StateSpace"
+      }
+    ],
+    "definitions": [
+      {
+        "source": "HIGGS_V1_1",
+        "definition": "The target manifold M on which projected residue / quantum-field structure is organized."
+      }
+    ],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@projective_target_manifold",
+          "name": "Projective Target Manifold",
+          "origin": "TIMESPACE_4.3",
+          "criticality": "critical",
+          "uri": "mk43://recover/kernel/primitive/projective-target-manifold",
+          "parent_status": "indexed-unlinked",
+          "parent_upstream": "none",
+          "parent_downstream": "none",
+          "source_occurrences": "86",
+          "registry_line": 41198,
+          "occurrence_lines": [
+            16402,
+            41198,
+            47109
+          ]
+        }
+      },
+      {
+        "source": "HIGGS_OBJECT_REGISTRY",
+        "record": {
+          "model_handle": "@higgs_qmo",
+          "canonical_handle": "@projective_target_manifold",
+          "canonical_name": "Projective Target Manifold",
+          "aliases": [],
+          "status": "SOURCE_CLOSED",
+          "type": "StateSpace",
+          "definition": "The target manifold M on which projected residue / quantum-field structure is organized.",
+          "symbols": [
+            "M"
+          ],
+          "equations": [],
+          "provenance": [
+            "S-TS-DEF"
+          ],
+          "notes": []
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@residue_quantum_field_bundle",
+    "object_type": "mathematical_object",
+    "base_status": "indexed-unlinked",
+    "models": [
+      "model://api43",
+      "model://here-be-dark-matter",
+      "model://higgs-work-v1.1",
+      "model://timespace43"
+    ],
+    "domains": [
+      "API43",
+      "HIGGS_WORK_LAYER_V1_1",
+      "TIME_SPACE_4_3"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "Residue / Quantum Field Bundle"
+      },
+      {
+        "source": "HIGGS_V1_1",
+        "name": "Residue / Quantum Field Bundle"
+      }
+    ],
+    "status_variants": [
+      {
+        "source": "HERE_BE_DARK_MATTER_LIBRARY",
+        "status": "indexed-unlinked"
+      },
+      {
+        "source": "DM22",
+        "status": "indexed-unlinked",
+        "criticality": "critical",
+        "origin": "TIMESPACE_4.3"
+      },
+      {
+        "source": "HIGGS_V1_1",
+        "status": "SOURCE_CLOSED",
+        "type": "Bundle"
+      }
+    ],
+    "definitions": [
+      {
+        "source": "HIGGS_V1_1",
+        "definition": "The smooth complex bundle F -> M assembled from invariant projection residue and used as the QFT-compatible field substrate."
+      }
+    ],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@residue_quantum_field_bundle",
+          "name": "Residue / Quantum Field Bundle",
+          "origin": "TIMESPACE_4.3",
+          "criticality": "critical",
+          "uri": "mk43://recover/kernel/primitive/residue-quantum-field-bundle",
+          "parent_status": "indexed-unlinked",
+          "parent_upstream": "none",
+          "parent_downstream": "none",
+          "source_occurrences": "113",
+          "registry_line": 41838,
+          "occurrence_lines": [
+            16403,
+            41838,
+            47166
+          ]
+        }
+      },
+      {
+        "source": "HIGGS_OBJECT_REGISTRY",
+        "record": {
+          "model_handle": "@higgs_qmo",
+          "canonical_handle": "@residue_quantum_field_bundle",
+          "canonical_name": "Residue / Quantum Field Bundle",
+          "aliases": [],
+          "status": "SOURCE_CLOSED",
+          "type": "Bundle",
+          "definition": "The smooth complex bundle F -> M assembled from invariant projection residue and used as the QFT-compatible field substrate.",
+          "symbols": [
+            "F",
+            "pi_F"
+          ],
+          "equations": [],
+          "provenance": [
+            "S-TS-DEF",
+            "S-TS-THM"
+          ],
+          "notes": []
+        }
+      }
+    ]
+  },
+  {
+    "handle": "@time_shell_projection_operator",
+    "object_type": "mathematical_object",
+    "base_status": "active",
+    "models": [
+      "model://api43",
+      "model://here-be-dark-matter",
+      "model://higgs-work-v1.1",
+      "model://timespace43"
+    ],
+    "domains": [
+      "API43",
+      "HIGGS_WORK_LAYER_V1_1",
+      "TIME_SPACE_4_3"
+    ],
+    "names": [
+      {
+        "source": "DM22",
+        "name": "Time-Shell Projection Operator"
+      },
+      {
+        "source": "HIGGS_V1_1",
+        "name": "Time-Shell Projection Operator"
+      }
+    ],
+    "status_variants": [
+      {
+        "source": "HERE_BE_DARK_MATTER_LIBRARY",
+        "status": "active"
+      },
+      {
+        "source": "HIGGS_V1_1",
+        "status": "EXTERNAL_API43_REFERENCE",
+        "type": "Operator"
+      }
+    ],
+    "definitions": [
+      {
+        "source": "HIGGS_V1_1",
+        "definition": "Projection operator carrying continuity perturbation to readable metric perturbation."
+      }
+    ],
+    "math_variants": [],
+    "variant_records": [
+      {
+        "source": "DM22_HANDLE_REGISTRY",
+        "record": {
+          "handle": "@time_shell_projection_operator",
+          "name": "Time-Shell Projection Operator",
+          "origin": "TIMESPACE_4.3",
+          "criticality": "critical",
+          "uri": null,
+          "parent_status": null,
+          "parent_upstream": "@continuity_perturbation",
+          "parent_downstream": "@weak_field_metric_perturbation",
+          "source_occurrences": null,
+          "registry_line": 45838,
+          "occurrence_lines": [
+            7927,
+            27528,
+            43968,
+            45070,
+            45138,
+            45380,
+            45838,
+            45876,
+            47534,
+            57124,
+            57175,
+            57466,
+            57467,
+            57468,
+            57469,
+            57470,
+            57471,
+            57472,
+            58309,
+            58310
+          ]
+        }
+      },
+      {
+        "source": "HIGGS_OBJECT_REGISTRY",
+        "record": {
+          "model_handle": "@higgs_work_qmo",
+          "canonical_handle": "@time_shell_projection_operator",
+          "canonical_name": "Time-Shell Projection Operator",
+          "aliases": [],
+          "status": "EXTERNAL_API43_REFERENCE",
+          "type": "Operator",
+          "definition": "Projection operator carrying continuity perturbation to readable metric perturbation.",
+          "symbols": [],
+          "equations": [],
+          "provenance": [
+            "API43:0010a4de99d78748ede57670b3bca1df6185b7ba8dd0faf266cc3ba1a4ccf752"
+          ],
+          "notes": []
+        }
+      }
+    ]
+  }
+]

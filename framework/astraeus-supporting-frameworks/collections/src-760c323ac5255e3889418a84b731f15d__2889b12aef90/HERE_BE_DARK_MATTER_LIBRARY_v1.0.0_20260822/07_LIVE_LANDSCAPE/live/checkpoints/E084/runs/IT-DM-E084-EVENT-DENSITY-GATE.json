@@ -1,0 +1,11 @@
+{
+  "schema": "ASTRAEUS_DM_ITERATION_RUN_V1",
+  "run_id": "IT-DM-E084-EVENT-DENSITY-GATE",
+  "checkpoint": "E084",
+  "seed": "@dm_conditional_ucm_dynamic_event_witness",
+  "ceiling": 128,
+  "iterations_used": 4,
+  "terminal_state": "CONDITIONAL_UCM_GATE_2_CLOSED",
+  "open_next": "@dm_event_density_component_survival",
+  "note": "PD-DM-003 and PD-DM-009 are compressed into one event-level component proof debt PD-DM-011."
+}

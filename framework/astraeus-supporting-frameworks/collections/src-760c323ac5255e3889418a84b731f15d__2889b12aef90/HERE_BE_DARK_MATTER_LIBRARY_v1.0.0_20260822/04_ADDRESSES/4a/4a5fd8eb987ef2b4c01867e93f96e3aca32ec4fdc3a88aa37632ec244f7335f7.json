@@ -1,0 +1,78 @@
+{
+  "handle": "@dm_stress_energy_separation_gate",
+  "object_type": "mathematical_object",
+  "status": "ATLAS_DERIVED_ACTIVE",
+  "domain": "DM22",
+  "namespace": "readout",
+  "name": "Stress-Energy Separation Gate",
+  "definition": "A nonzero readable density difference for the same observer is sufficient to prove the full and visible stress-energy tensors are unequal; it does not reconstruct the full tensor.",
+  "math": "Delta rho_read[u]=Delta T_mn u^m u^n != 0 => Delta T_mn != 0.",
+  "source_layer": "DM22",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "DM22",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 4,
+    "xapi_raw_in_count": 0,
+    "live_out_count": 4,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 161,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19810,
+        "source": "@dm_stress_energy_separation_gate",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_hidden_sector_conservation",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19811,
+        "source": "@dm_stress_energy_separation_gate",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_stress_energy_realization_family",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19812,
+        "source": "@dm_stress_energy_separation_gate",
+        "relation": "USES",
+        "target": "@energy_density",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19813,
+        "source": "@dm_stress_energy_separation_gate",
+        "relation": "USES",
+        "target": "@stress_energy_tensor",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      }
+    ]
+  },
+  "address": "@dm_stress_energy_separation_gate",
+  "address_sha256": "4a5fd8eb987ef2b4c01867e93f96e3aca32ec4fdc3a88aa37632ec244f7335f7"
+}

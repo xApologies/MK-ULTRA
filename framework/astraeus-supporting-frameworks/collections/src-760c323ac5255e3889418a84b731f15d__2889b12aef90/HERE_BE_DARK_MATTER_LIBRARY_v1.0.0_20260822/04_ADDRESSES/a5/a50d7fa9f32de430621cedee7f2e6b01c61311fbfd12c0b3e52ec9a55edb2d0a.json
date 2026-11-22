@@ -1,0 +1,25 @@
+{
+  "handle": "iteration://IT-DM-E070-ACTION-DARK-READOUT",
+  "object_type": "bounded_iteration",
+  "status": "CONDITIONAL_DARK_READOUT_CLOSED",
+  "domain": "ITERATION",
+  "namespace": "mk43://iteration",
+  "name": "IT-DM-E070-ACTION-DARK-READOUT",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "BOUNDED_ITERATION",
+  "metadata": {
+    "id": "IT-DM-E070-ACTION-DARK-READOUT",
+    "seed": "@dm_conditional_scalar_stress_active_witness",
+    "terminal_state": "CONDITIONAL_DARK_READOUT_CLOSED",
+    "source_file": null,
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_ITERATION_RUN_V1\", \"run_id\": \"IT-DM-E070-ACTION-DARK-READOUT\", \"checkpoint\": \"E070\", \"seed\": \"@dm_conditional_scalar_stress_active_witness\", \"ceiling\": 64, \"iterations_used\": 3, \"terminal_state\": \"CONDITIONAL_DARK_READOUT_CLOSED\", \"open_next\": \"@dm_dark_matter_qualification_locus\", \"working_assumptions\": [\"WA-DM-E064-002\", \"WA-DM-E069-001\"], \"note\": \"Independent action route bypasses PD-DM-003 and PD-DM-004 for the dark-readout defect itself.\"}"
+  },
+  "address": "iteration://IT-DM-E070-ACTION-DARK-READOUT",
+  "address_sha256": "a50d7fa9f32de430621cedee7f2e6b01c61311fbfd12c0b3e52ec9a55edb2d0a"
+}

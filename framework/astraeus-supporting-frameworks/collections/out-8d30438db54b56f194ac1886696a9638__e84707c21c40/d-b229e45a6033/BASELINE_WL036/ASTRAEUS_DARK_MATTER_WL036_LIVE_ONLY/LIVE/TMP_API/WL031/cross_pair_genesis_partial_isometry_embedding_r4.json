@@ -1,0 +1,392 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_PAIR_QUERY_V1",
+  "a": "@genesis_partial_isometry",
+  "b": "@dm_hidden_state_embedding",
+  "radius": 4,
+  "a_node_count": 66,
+  "b_node_count": 130,
+  "interface": [
+    {
+      "handle": "@mote_chirality",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@resolution",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@dm_hidden_state_bundle",
+      "distance_a": 4,
+      "distance_b": 1
+    },
+    {
+      "handle": "@mote_hilbert_space",
+      "distance_a": 1,
+      "distance_b": 4
+    },
+    {
+      "handle": "@chirality",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@genesis_field",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@mote_lattice",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@time_shell",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_runtime_transition_capacity",
+      "distance_a": 4,
+      "distance_b": 2
+    },
+    {
+      "handle": "@mote",
+      "distance_a": 2,
+      "distance_b": 4
+    },
+    {
+      "handle": "@mote_ensemble",
+      "distance_a": 2,
+      "distance_b": 4
+    },
+    {
+      "handle": "@native_constraint_closure",
+      "distance_a": 4,
+      "distance_b": 2
+    },
+    {
+      "handle": "@recursive_inheritance",
+      "distance_a": 4,
+      "distance_b": 2
+    },
+    {
+      "handle": "@bandwidth",
+      "distance_a": 4,
+      "distance_b": 3
+    },
+    {
+      "handle": "@chirality_occupancy_cube",
+      "distance_a": 3,
+      "distance_b": 4
+    },
+    {
+      "handle": "@dm_er_branch_readout_separation",
+      "distance_a": 4,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_mode0_access_interface",
+      "distance_a": 4,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_resolution_density_profile",
+      "distance_a": 4,
+      "distance_b": 3
+    },
+    {
+      "handle": "@er_foam",
+      "distance_a": 3,
+      "distance_b": 4
+    },
+    {
+      "handle": "@mote_configuration_space",
+      "distance_a": 3,
+      "distance_b": 4
+    },
+    {
+      "handle": "@mote_diagonal_rule",
+      "distance_a": 3,
+      "distance_b": 4
+    },
+    {
+      "handle": "@native_causal_order",
+      "distance_a": 4,
+      "distance_b": 3
+    },
+    {
+      "handle": "@persistence_potential",
+      "distance_a": 3,
+      "distance_b": 4
+    },
+    {
+      "handle": "@persistent_recursive_topology",
+      "distance_a": 4,
+      "distance_b": 3
+    },
+    {
+      "handle": "@white_state_core",
+      "distance_a": 3,
+      "distance_b": 4
+    },
+    {
+      "handle": "@chirality_space",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@configuration_space_3_1_1",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@correspondence_registry",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@genlang_root_gen",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@genlang_root_vel",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@geometry",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@gravitational_self_coupling",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@graviton",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@gravity",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@helicon_orientation",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@inheritance",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@mote_closure",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@mote_occupancy_function",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@native_probability_preservation",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@persistence",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@projected_gr_inheritance",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@projection_admissibility",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@time_space",
+      "distance_a": 4,
+      "distance_b": 4
+    },
+    {
+      "handle": "@zer0_interaction",
+      "distance_a": 4,
+      "distance_b": 4
+    }
+  ],
+  "path_a_to_b": [
+    {
+      "source": "@genesis_partial_isometry",
+      "relation": "DIRECTED_TO",
+      "target": "@mote_hilbert_space",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:50114->50115",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@mote_hilbert_space",
+      "relation": "DIRECTED_TO",
+      "target": "@mote_ensemble",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:50126->50127",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@mote_ensemble",
+      "relation": "DIRECTED_TO",
+      "target": "@time_shell",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:50153->50154",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@time_shell",
+      "relation": "DEPENDS_TO",
+      "target": "@gravity",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45137",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@gravity",
+      "relation": "DEPENDS_TO",
+      "target": "@gravitational_radiation",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45089",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@gravitational_radiation",
+      "relation": "DEPENDS_TO",
+      "target": "@inspiral",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45083",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@inspiral",
+      "relation": "DEPENDS_TO",
+      "target": "@merger",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45099",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@merger",
+      "relation": "DEPENDS_TO",
+      "target": "@ringdown",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45102",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@ringdown",
+      "relation": "DEPENDS_TO",
+      "target": "@black_hole_horizon",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45131",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@black_hole_horizon",
+      "relation": "DEPENDS_TO",
+      "target": "@white_state_core",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45052",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@white_state_core",
+      "relation": "SUPPLIES_MODE0_ACCESS_INTERFACE",
+      "target": "@dm_mode0_access_interface",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "USER_CURATORIAL_RULING",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "origin_api": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@dm_mode0_access_interface",
+      "relation": "REQUIRES",
+      "target": "@dm_mode0_network_selection_rule",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "OPEN_HANDLE",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "origin_api": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@dm_mode0_network_selection_rule",
+      "relation": "SELECTS_ACCESS_TO",
+      "target": "@dm_hidden_s3_network",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "OPEN_HANDLE",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "origin_api": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "REQUIRES",
+      "target": "@dm_hidden_state_embedding",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "OPEN_HANDLE",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "origin_api": "DARKMATTER_2.0"
+    }
+  ],
+  "path_b_to_a": null,
+  "edge_policy": {
+    "timespace": "high-confidence direct/non-derived RP42 records",
+    "darkmatter": "high-confidence DM_DIRECT_EDGE_REGISTRY records",
+    "gluing": "exact handle equality only; no cross-edge is invented"
+  }
+}

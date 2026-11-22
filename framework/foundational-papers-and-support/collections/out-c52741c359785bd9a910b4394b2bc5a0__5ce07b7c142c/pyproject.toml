@@ -1,0 +1,11 @@
+[build-system]
+requires=["setuptools>=68"]
+build-backend="setuptools.build_meta"
+[project]
+name="mk43-library1c"
+version="1.3.0"
+description="MK43 BRANE Library 1.C closure release"
+requires-python=">=3.11"
+[tool.pytest.ini_options]
+pythonpath=["."]
+testpaths=["tests"]

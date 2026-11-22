@@ -1,0 +1,78 @@
+{
+  "handle": "@dm_hidden_persistent_subset",
+  "object_type": "mathematical_object",
+  "status": "ATLAS_DERIVED_CLOSED",
+  "domain": "DM22",
+  "namespace": "boundary",
+  "name": "Hidden Persistent Subset",
+  "definition": "Once a hidden-state embedding exists, this object selects the embedded hidden states that satisfy the exact Time-Space Persistence criterion.",
+  "math": "Xi_H^R := { iota_H(x) | x∈Dom(iota_H), iota_H(x)∈Xi } ⊆ Xi.",
+  "source_layer": "DM22",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "DM22",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 3,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 3,
+    "live_in_count": 1,
+    "closure_out_reachability_count": 203,
+    "closure_in_reachability_count": 5,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 1,
+    "aliases": [],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19756,
+        "source": "@dm_hidden_persistent_subset",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_formal_persistence_qualification",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19757,
+        "source": "@dm_hidden_persistent_subset",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_hidden_state_embedding",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19758,
+        "source": "@dm_hidden_persistent_subset",
+        "relation": "SUBSET_OF",
+        "target": "@persistent_locus",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      },
+      {
+        "id": 19753,
+        "source": "@dm_hidden_boundary_contact",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_hidden_persistent_subset",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1"
+      }
+    ]
+  },
+  "address": "@dm_hidden_persistent_subset",
+  "address_sha256": "739bb0a805e132cfe2f6713a0c96ae3ec6a9358d7835ec51148c3f3d97e4bd32"
+}

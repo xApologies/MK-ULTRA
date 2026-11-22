@@ -1,0 +1,26 @@
+{
+  "handle": "qmo://QMO-DM-BRIDGE-CAND-031",
+  "object_type": "qmo",
+  "status": "LIVE_DERIVED_CLOSED_INTERNAL",
+  "domain": "QMO",
+  "namespace": "mk43://qmo",
+  "name": "Chirality-Seed Mirror Contrast Normal Form",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "QMO_REGISTRY",
+  "metadata": {
+    "qmo_id": "QMO-DM-BRIDGE-CAND-031",
+    "name": "Chirality-Seed Mirror Contrast Normal Form",
+    "status": "LIVE_DERIVED_CLOSED_INTERNAL",
+    "source_layer": "LIVE",
+    "source_file": "live/checkpoints/E090/qmos/QMO-DM-BRIDGE-CAND-031_DM_CHIRALITY_SEED_CONTRAST_NORMAL_FORM.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_QMO_CANDIDATE_V1\", \"qmo_id\": \"QMO-DM-BRIDGE-CAND-031\", \"handle\": \"@dm_chirality_seed_contrast_normal_form\", \"canonical_name\": \"Chirality-Seed Mirror Contrast Normal Form\", \"status\": \"LIVE_DERIVED_CLOSED_INTERNAL\", \"checkpoint\": \"E090\", \"parents\": [\"@dm_chirality_seed_byte_probe_basis\", \"@dm_joint_hidden_network_witness\", \"@dm_explicit_two_port_continuity_residual_witness\"], \"source_basis\": [\"chirality_recovery_report.md\", \"uploaded chirality-seed image\", \"ASTRAEUS_DM_E063_FAST_FORWARD_READOUT_SCOUT_20260822.md\", \"E086 live object\"], \"derivation\": [\"Encode the recovered existence arrangements as Seed_L=I_2 and Seed_R=X, using 1={empty set} and 0=empty set.\", \"Their arrangement contrast is D_chi=Seed_L-Seed_R=[[1,-1],[-1,1]].\", \"E063 independently derived DeltaLambda_H=w_eff[[1,-1],[-1,1]] for the positive two-port hidden bridge.\", \"Therefore DeltaLambda_H=w_eff D_chi. This is a representation-level normal-form match, not an ontological identity between chirality seed and graph Laplacian.\", \"The previously selected contrast vector c_*=(1,-1)^T is the nontrivial eigenvector of D_chi with eigenvalue 2.\"], \"result\": \"The E063 two-port hidden response normal form is exactly a positive scalar multiple of the recovered chirality-seed mirror contrast. The E086 probe c_* is therefore the canonical nontrivial seed-contrast mode in this representation.\", \"math\": \"D_chi=[[1,-1],[-1,1]]; spec(D_chi)={0,2}; c_*=(1,-1)^T; D_chi c_*=2 c_*; DeltaLambda_H=w_eff D_chi, w_eff>0.\", \"boundary\": \"Normal-form equality under this recovered 0/1 arrangement representation does not imply whole-object identity, physical dark matter, or a universal chirality-to-gravity equation.\", \"physical_claim\": false}"
+  },
+  "address": "qmo://QMO-DM-BRIDGE-CAND-031",
+  "address_sha256": "6db789b5947f1a2f4771e75ff31cb5b501e3727c824a8ea8ee9e22af8e6ebcaf"
+}

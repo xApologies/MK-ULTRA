@@ -1,0 +1,52 @@
+{
+  "qmo_address": "@dl/torus_history_signature",
+  "roots": [
+    "@r41/ordered_history",
+    "@r41/holonomy_signature"
+  ],
+  "members": [
+    "@r41/ordered_history",
+    "@r41/winding_signature",
+    "@r41/invariant_augmented_signature",
+    "@r41/history_holonomy",
+    "@r41/holonomy_signature",
+    "@r41/holonomy_representation",
+    "@open/holonomy_representation_faithfulness"
+  ],
+  "edges": [
+    {
+      "source": "@r41/ordered_history",
+      "relation": "COMPRESSES_TO",
+      "target": "@r41/winding_signature"
+    },
+    {
+      "source": "@r41/winding_signature",
+      "relation": "FAILS_TO_SEPARATE",
+      "target": "@r41/ordered_history"
+    },
+    {
+      "source": "@r41/ordered_history",
+      "relation": "QUERIES",
+      "target": "@r41/history_holonomy"
+    },
+    {
+      "source": "@r41/history_holonomy",
+      "relation": "SUPPORTS",
+      "target": "@r41/holonomy_signature"
+    },
+    {
+      "source": "@r41/holonomy_signature",
+      "relation": "REQUIRES_INSTANCE_OF",
+      "target": "@r41/holonomy_representation"
+    },
+    {
+      "source": "@r41/holonomy_representation",
+      "relation": "TESTED_BY",
+      "target": "@open/holonomy_representation_faithfulness"
+    }
+  ],
+  "resolution_context": "History-bearing; no quotient beyond explicitly admitted equivalence.",
+  "bandwidth_context": "Only admissible paths/transforms count; no invented connection.",
+  "history_policy": "APPEND_ONLY",
+  "status": "CLOSED_TO_ROADBLOCK"
+}

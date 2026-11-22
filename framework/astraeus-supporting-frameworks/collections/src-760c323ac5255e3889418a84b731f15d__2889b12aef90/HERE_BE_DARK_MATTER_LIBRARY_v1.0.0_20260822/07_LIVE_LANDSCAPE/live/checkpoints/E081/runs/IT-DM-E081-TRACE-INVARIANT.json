@@ -1,0 +1,11 @@
+{
+  "schema": "ASTRAEUS_DM_ITERATION_RUN_V1",
+  "run_id": "IT-DM-E081-TRACE-INVARIANT",
+  "checkpoint": "E081",
+  "seed": "@dm_hidden_response_operator",
+  "ceiling": 128,
+  "iterations_used": 3,
+  "terminal_state": "OPEN_SINGLE_SYMMETRY_ACTION_TYPE",
+  "open_next": "@dm_projection_symmetry_response_action",
+  "note": "Replaces pairwise difference-spectrum bookkeeping with a simpler full-vs-visible trace invariant."
+}

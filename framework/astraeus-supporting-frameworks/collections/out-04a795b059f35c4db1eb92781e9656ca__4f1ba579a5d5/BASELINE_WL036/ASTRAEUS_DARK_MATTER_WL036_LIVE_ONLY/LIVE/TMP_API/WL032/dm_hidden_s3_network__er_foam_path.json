@@ -1,0 +1,20 @@
+{
+  "source": "@dm_hidden_s3_network",
+  "target": "@er_foam",
+  "direct": null,
+  "composed": {
+    "source": "@dm_hidden_s3_network",
+    "relation": "COMPOSED_DEPENDENCY",
+    "target": "@er_foam",
+    "primitive_depth": 5,
+    "shortest_path": [
+      "@dm_hidden_s3_network",
+      "@dm_runtime_transition_capacity",
+      "@bandwidth",
+      "@persistence",
+      "@chirality",
+      "@er_foam"
+    ],
+    "status": "DERIVED_SELF_CLOSURE"
+  }
+}

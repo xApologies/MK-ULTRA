@@ -1,0 +1,98 @@
+{
+  "handle": "@proof_dependency_graph",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@proof_dependency_graph",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 2,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 2,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 2,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@proof_dependency_graph",
+        "relation": "CERTIFIES",
+        "target": "@mathematical_object",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:52389;CANONICAL_API_TYPED_LINE:52389"
+      },
+      {
+        "source": "@proof_dependency_graph",
+        "relation": "REALIZED_BY",
+        "target": "@dependency_graph",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@dependency_graph REALIZES @proof_dependency_graph); rule=REALIZES→REALIZED_BY"
+      },
+      {
+        "source": "@dependency_graph",
+        "relation": "REALIZES",
+        "target": "@proof_dependency_graph",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:52388;CANONICAL_API_TYPED_LINE:52388"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 945,
+        "source": "@proof_dependency_graph",
+        "relation": "CERTIFIES",
+        "target": "@mathematical_object",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:52389;CANONICAL_API_TYPED_LINE:52389"
+      },
+      {
+        "id": 2156,
+        "source": "@proof_dependency_graph",
+        "relation": "REALIZED_BY",
+        "target": "@dependency_graph",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@dependency_graph REALIZES @proof_dependency_graph); rule=REALIZES→REALIZED_BY"
+      },
+      {
+        "id": 306,
+        "source": "@dependency_graph",
+        "relation": "REALIZES",
+        "target": "@proof_dependency_graph",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:52388;CANONICAL_API_TYPED_LINE:52388"
+      }
+    ]
+  },
+  "address": "@proof_dependency_graph",
+  "address_sha256": "f8600c8d4b1d731571e195443c7e94ba1596ce54f1ccdb4895676597e2b35184"
+}

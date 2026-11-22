@@ -1,0 +1,25 @@
+{
+  "schema": "ASTRAEUS_CONFIG311_DARK_READOUT_PIVOT_AUDIT_V1",
+  "qmo_id": "QMO-AST-DM-WL-117",
+  "name": "Configuration Space 3+1+1 Readout-Side Pivot",
+  "atlas_version": "WL-v233",
+  "work_layer": "WL-036",
+  "status": "READOUT_SIDE_LOOP_NO_DIRECT_DARK_PATH",
+  "parent_promotions": 0,
+  "source_type": "GeometricConfigurationSpace; native 3+1+1; readable projection 1+3",
+  "source_math": "G_geo=(X,Y,Z;A;chi), Pi_T(X,Y,Z;A;chi)=(T,X,Y,Z)",
+  "registered_chain": [
+    "@chirality_history -> @configuration_space_3_1_1",
+    "@configuration_space_3_1_1 -> @readable_spacetime"
+  ],
+  "dark_pair_interface": [
+    "@dm_er_branch_readout_separation",
+    "@time_shell",
+    "@er_foam",
+    "@graviton",
+    "@gravity"
+  ],
+  "directional_path_to_qualification": "NONE in current cross-runtime graph",
+  "finding": "Useful chirality-History readout architecture, but following forward loops into established readable spacetime; not a dark-witness bridge.",
+  "next_handle": "GLOBAL_RANK_FRESH_NON_LOOPING"
+}

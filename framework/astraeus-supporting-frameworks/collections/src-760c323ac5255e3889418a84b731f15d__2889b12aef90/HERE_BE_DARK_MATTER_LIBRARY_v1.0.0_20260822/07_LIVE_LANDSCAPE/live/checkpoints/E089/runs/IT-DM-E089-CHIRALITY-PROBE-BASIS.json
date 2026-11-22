@@ -1,0 +1,11 @@
+{
+  "schema": "ASTRAEUS_DM_ITERATION_RUN_V1",
+  "run_id": "IT-DM-E089-CHIRALITY-PROBE-BASIS",
+  "checkpoint": "E089",
+  "seed": "@chirality_seed",
+  "ceiling": 64,
+  "iterations_used": 5,
+  "terminal_state": "SOURCE_PROBE_BASIS_RECOVERED",
+  "open_next": "@dm_chirality_seed_contrast_normal_form",
+  "note": "Use recovered seed/byte arrangement as the next probe basis. Preserve seed, byte, and basin as distinct object classes."
+}

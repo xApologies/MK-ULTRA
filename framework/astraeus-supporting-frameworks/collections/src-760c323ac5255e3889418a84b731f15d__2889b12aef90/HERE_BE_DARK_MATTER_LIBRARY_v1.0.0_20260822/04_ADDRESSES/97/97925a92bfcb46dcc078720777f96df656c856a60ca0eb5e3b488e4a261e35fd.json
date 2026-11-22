@@ -1,0 +1,26 @@
+{
+  "handle": "qmo://QMO-DM-BRIDGE-CAND-025",
+  "object_type": "qmo",
+  "status": "LIVE_CONDITIONAL_CANDIDATE",
+  "domain": "QMO",
+  "namespace": "mk43://qmo",
+  "name": "Conditional Event-Level Density / UCM Source Separation",
+  "definition": "",
+  "math": "",
+  "source_layer": "live",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "QMO_REGISTRY",
+  "metadata": {
+    "qmo_id": "QMO-DM-BRIDGE-CAND-025",
+    "name": "Conditional Event-Level Density / UCM Source Separation",
+    "status": "LIVE_CONDITIONAL_CANDIDATE",
+    "source_layer": "live",
+    "source_file": "E084",
+    "payload_json": "{\"schema\": \"ASTRAEUS_QMO_CANDIDATE_V1\", \"qmo_id\": \"QMO-DM-BRIDGE-CAND-025\", \"handle\": \"@dm_conditional_event_density_source_separation\", \"canonical_name\": \"Conditional Event-Level Density / UCM Source Separation\", \"status\": \"LIVE_CONDITIONAL_CANDIDATE\", \"checkpoint\": \"E084\", \"parents\": [\"@dm_conditional_ucm_dynamic_event_witness\", \"@energy_density\", \"@stress_energy_tensor\", \"@dm_ucm_two_gate_factorization\"], \"working_assumptions\": [\"WA-DM-E079-001\", \"WA-DM-E084-001\"], \"source_basis\": [\"ATLAS_V36:196_V31_SCALAR_LOAD_TO_STRESS_ENERGY_NO_GO.md\", \"ATLAS_V36:200_V32_ENERGY_STRESS_HANDLE_RECOVERY.md\", \"ATLAS_V36:201_V32_DENSITY_SEPARATION_WITNESS.md\"], \"derivation\": [\"V31 types rho_E:E_U->R as a native-load readout on admissible UCM source/event states and explicitly rejects global scalar-only reconstruction of P_T.\", \"The selected positive hidden support supplies Delta rho_E>0 on the controlled full/visible event comparison.\", \"WA-DM-E084-001 assumes only that one readable density component of P_T is nonannihilating on that selected difference.\", \"The V32 density-separation theorem then gives P_T(e_full) != P_T(e_vis), closing UCM Gate 2 conditionally without reconstructing the full tensor.\"], \"result\": \"UCM Gate 2 is conditionally closed on one event-level density component. The broad PD-DM-009 and the old density debt PD-DM-003 are narrowed/merged into PD-DM-011.\", \"math\": \"Delta rho_E != 0 and Delta rho_read[u] != 0 => Delta T_U != 0 => P_T(e_full) != P_T(e_vis).\", \"boundary\": \"No scalar-only factorization of P_T is claimed. The remaining debt is exactly one component-preserving readout witness.\"}"
+  },
+  "address": "qmo://QMO-DM-BRIDGE-CAND-025",
+  "address_sha256": "97925a92bfcb46dcc078720777f96df656c856a60ca0eb5e3b488e4a261e35fd"
+}

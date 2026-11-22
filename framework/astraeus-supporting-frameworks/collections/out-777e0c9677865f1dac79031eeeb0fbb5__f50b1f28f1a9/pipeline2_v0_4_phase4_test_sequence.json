@@ -1,0 +1,371 @@
+{
+  "test_plan_name": "Pipeline_2_v0_4_Phase4_Completion_Test_Sequence",
+  "source_prerequisite": "Pipeline_2C_v0_3_Phase3_Test_Sequence",
+  "prerequisite_tests": [
+    {
+      "id": "P2v03-001",
+      "name": "R0 5D identity registration audit",
+      "inputs": [
+        "H",
+        "N",
+        "N2",
+        "C6H6"
+      ],
+      "gate": "all pass chirality/artifact identity checks"
+    },
+    {
+      "id": "P2v03-002",
+      "name": "H+H controlled continuity exchange",
+      "inputs": [
+        "H+H"
+      ],
+      "gate": "nonzero shell-sharing transfer, no merger, no runaway"
+    },
+    {
+      "id": "P2v03-003",
+      "name": "H+H three full-cycle equilibrium",
+      "inputs": [
+        "H+H"
+      ],
+      "gate": "asymptotic weak shell-sharing convergence"
+    },
+    {
+      "id": "P2v03-004",
+      "name": "N+N corridor memory",
+      "inputs": [
+        "N+N"
+      ],
+      "gate": "bounded corridor persists across cycles"
+    },
+    {
+      "id": "P2v03-005",
+      "name": "N+N continuity transfer through corridor",
+      "inputs": [
+        "N+N"
+      ],
+      "gate": "regulated transfer without identity loss"
+    },
+    {
+      "id": "P2v03-006",
+      "name": "C6H6 cyclic persistence under R4 probe",
+      "inputs": [
+        "C6H6"
+      ],
+      "gate": "cyclic recovery and no fragmentation"
+    },
+    {
+      "id": "P2v03-007",
+      "name": "mixed pair hierarchy scan",
+      "inputs": [
+        "H+N",
+        "H+C6H6",
+        "N+C6H6"
+      ],
+      "gate": "repeatable interaction classification"
+    },
+    {
+      "id": "P2v03-008",
+      "name": "A+B+C+D multi-manifold arbitration",
+      "inputs": [
+        "selected four topology environment"
+      ],
+      "gate": "stable recursive ecology or interpretable failure boundary"
+    },
+    {
+      "id": "P2v03-009",
+      "name": "reverse recovery audit",
+      "inputs": [
+        "R7 outputs"
+      ],
+      "gate": "high chirality/identity/artifact recovery correlation"
+    }
+  ],
+  "phase4_tests": [
+    {
+      "id": "P2v04-001",
+      "name": "R0-R3 Phase 3 baseline preservation",
+      "inputs": [
+        "H",
+        "N",
+        "H+H",
+        "N+N",
+        "C6H6"
+      ],
+      "gate": "pre-exposure interaction ecology preserved; chirality read-only lock verified"
+    },
+    {
+      "id": "P2v04-002",
+      "name": "Hydrogen centralized persistence under R4 recursive exposure",
+      "inputs": [
+        "H"
+      ],
+      "r4_condition": "continuity_compression_field + recursive_density_gradient_field",
+      "gate": "centralized persistence responds without chirality rewrite; recovery/failure threshold interpretable"
+    },
+    {
+      "id": "P2v04-003",
+      "name": "Nitrogen shell asymmetry exposure",
+      "inputs": [
+        "N"
+      ],
+      "r4_condition": "shell_asymmetry_field",
+      "gate": "shell differentiation remains recoverable/adaptive or fails with interpretable boundary"
+    },
+    {
+      "id": "P2v04-004",
+      "name": "H+H weak coupling destabilization",
+      "inputs": [
+        "H+H"
+      ],
+      "r4_condition": "coupling_destabilization_field",
+      "gate": "weak shell-sharing response classified without forced merger"
+    },
+    {
+      "id": "P2v04-005",
+      "name": "N+N bounded corridor distortion",
+      "inputs": [
+        "N+N"
+      ],
+      "r4_condition": "corridor_distortion_field",
+      "gate": "corridor recovery/resonance/instability classified while independent closure preserved"
+    },
+    {
+      "id": "P2v04-006",
+      "name": "C6H6 oscillatory interference exposure",
+      "inputs": [
+        "C6H6"
+      ],
+      "r4_condition": "oscillatory_interference_field",
+      "gate": "cyclic aromatic persistence produces resonance/oscillation signature or interpretable fragmentation boundary"
+    },
+    {
+      "id": "P2v04-007",
+      "name": "Relational chirality imbalance exposure",
+      "inputs": [
+        "H+N",
+        "N+C6H6"
+      ],
+      "r4_condition": "chirality_imbalance_exposure_field",
+      "gate": "chirality imbalance observed relationally; ontological chirality remains read-only"
+    },
+    {
+      "id": "P2v04-008",
+      "name": "R5 post-exposure adaptation classification",
+      "inputs": [
+        "R4 outputs from P2v04-002 through P2v04-007"
+      ],
+      "gate": "each output classified as recovered/adapted/resonant/unstable/fragmented/failed-with-boundary"
+    },
+    {
+      "id": "P2v04-009",
+      "name": "R6 stressed ecological arbitration",
+      "inputs": [
+        "mixed topology set after R4 exposure"
+      ],
+      "gate": "stressed ecology arbitrates coherently or fails with interpretable boundary"
+    },
+    {
+      "id": "P2v04-010",
+      "name": "R7 recursive closure after perturbation exposure",
+      "inputs": [
+        "R5 and R6 outputs"
+      ],
+      "gate": "post-exposure recursive ecology closes or records non-closure boundary"
+    },
+    {
+      "id": "P2v04-011",
+      "name": "Reverse recovery audit",
+      "inputs": [
+        "R7 post-exposure states"
+      ],
+      "gate": "source identity and chirality ancestry remain recoverable within acceptable correlation threshold"
+    }
+  ],
+  "r4_r6_functional_integration_tests": [
+    {
+      "id": "P2v04-R4R6-001",
+      "name": "Triple hydrogen ordered topology resolution",
+      "inputs": [
+        "H+H+H"
+      ],
+      "path": "T0/T7 handoff -> R0 -> R7",
+      "gates": [
+        "R4 emits weak corridor candidates without chirality write",
+        "R5 evaluates H3_proto for chirality/bandwidth overoccupancy",
+        "R5 resolves toward H2+H when pairwise corridor is most recoverable",
+        "R6 stabilizes H2+H or records recoverability failure",
+        "no hardcoded hydrogen rule is present"
+      ]
+    },
+    {
+      "id": "P2v04-R4R6-002",
+      "name": "Triple nitrogen constrained corridor selection",
+      "inputs": [
+        "N+N+N"
+      ],
+      "path": "T0/T7 handoff -> R0 -> R7",
+      "gates": [
+        "R4 emits strong nitrogen corridor candidates",
+        "R5 detects multi-corridor overconstraint",
+        "R5 selects stable corridor and records non-surviving corridor candidates",
+        "R6 stabilizes N2+N when recoverability criteria support it",
+        "third nitrogen ancestry remains identifiable"
+      ]
+    },
+    {
+      "id": "P2v04-R4R6-003",
+      "name": "Reverse de-evolution trace audit",
+      "inputs": [
+        "resolved H2+H or N2+N ecology"
+      ],
+      "path": "R7 -> R0",
+      "gates": [
+        "reverse traversal exposes ordered de-evolution",
+        "R6 survivability residuals unwind before R5 resolution trace",
+        "R4 corridor candidates weaken before R3 awareness",
+        "ancestry remains recoverable at R0"
+      ]
+    },
+    {
+      "id": "P2v04-R4R6-004",
+      "name": "No blanket R4-R6 macro-domain audit",
+      "inputs": [
+        "pipeline package"
+      ],
+      "path": "static package audit",
+      "gates": [
+        "R4, R5, and R6 have distinct roles",
+        "R4 cannot resolve topology",
+        "R5 cannot invent corridor candidates",
+        "R6 cannot write chirality",
+        "active JSON contains R4/R5/R6 domain-specific fields"
+      ]
+    }
+  ],
+  "r4_r6_incremental_audit_tests": [
+    {
+      "id": "P2D-COMPAT-001",
+      "name": "Ancestor preservation audit",
+      "requirement": "All Pipeline 2D ancestor files remain present unless intentionally upgraded."
+    },
+    {
+      "id": "R4-DOMAIN-001",
+      "name": "R4 corridor candidate formation",
+      "requirement": "R4 forms corridor candidates without final topology resolution or chirality write."
+    },
+    {
+      "id": "R5-DOMAIN-001",
+      "name": "R5 ordered topology resolution",
+      "requirement": "R5 resolves overoccupied corridor ecology using chirality, bandwidth, strain, recoverability, and ancestry."
+    },
+    {
+      "id": "R6-DOMAIN-001",
+      "name": "R6 survivability stabilization",
+      "requirement": "R6 stabilizes R5-resolved topology and suppresses runaway corridor proliferation."
+    },
+    {
+      "id": "NO-HARDCODE-001",
+      "name": "No element-specific rule audit",
+      "requirement": "No active domain may hardcode hydrogen/nitrogen/oxygen outputs."
+    },
+    {
+      "id": "REVERSE-TRACE-001",
+      "name": "Reverse de-evolution trace audit",
+      "requirement": "R7 to R0 traversal must expose ordered unwinding while preserving ancestry recoverability."
+    }
+  ],
+  "phase4_completion_tests": [
+    {
+      "id": "P4-A01",
+      "name": "Single hydrogen roundtrip",
+      "input": "H",
+      "path": "R0->R7->R0",
+      "required_result": "ancestry recovery and bounded drift"
+    },
+    {
+      "id": "P4-A02",
+      "name": "Triple hydrogen constrained topology",
+      "input": "H+H+H",
+      "path": "R0->R7",
+      "required_result": "invalid unrestricted H3 ecology suppressed; constrained pairwise topology may emerge if recoverable"
+    },
+    {
+      "id": "P4-A03",
+      "name": "Triple nitrogen constrained topology",
+      "input": "N+N+N",
+      "path": "R0->R7",
+      "required_result": "unrestricted N3 corridor proliferation suppressed; constrained pairwise topology may emerge if recoverable"
+    },
+    {
+      "id": "P4-A04",
+      "name": "Single C6H6 survivability",
+      "input": "C6H6",
+      "path": "R0->R7",
+      "required_result": "cyclic aromatic topology survives without disassembly"
+    },
+    {
+      "id": "P4-A05",
+      "name": "Dual C6H6 independence",
+      "input": "C6H6+C6H6",
+      "path": "R0->R7",
+      "required_result": "both aromatic manifolds remain independent; no artificial corridor forcing"
+    },
+    {
+      "id": "P4-A06",
+      "name": "Dual C6H6 roundtrip",
+      "input": "C6H6+C6H6",
+      "path": "R0->R7->R0",
+      "required_result": "both manifolds recover ancestry and remain independent"
+    },
+    {
+      "id": "P4-B01",
+      "name": "R7 oscillatory persistence",
+      "input": "R6-stabilized topology",
+      "path": "R7 repeated exposure",
+      "required_result": "valid topology survives; invalid topology exposes instability"
+    },
+    {
+      "id": "P4-C01",
+      "name": "Excitation spectra",
+      "input": "H,N,C6H6 and selected multi-manifold states",
+      "path": "R3/R4/R5/R6/R7 perturbation bands",
+      "required_result": "response classified as damped, recovered, persistent, amplified, metastable, resonant, or failure"
+    },
+    {
+      "id": "P4-C02",
+      "name": "Resonance modes",
+      "input": "R7-stable topology",
+      "path": "repeated oscillatory exposure",
+      "required_result": "stable, metastable, and unstable response bands identified"
+    },
+    {
+      "id": "P4-C03",
+      "name": "Oscillatory instability cascade",
+      "input": "stable and overoccupied topology states",
+      "path": "escalating R7/R6/R5 stress",
+      "required_result": "failure onset domain and ancestry state recorded"
+    },
+    {
+      "id": "P4-C04",
+      "name": "Chirality imbalance propagation",
+      "input": "single and multi-manifold topologies",
+      "path": "read-only chirality imbalance exposure",
+      "required_result": "imbalance propagation remains read-only, bounded, and explainable"
+    },
+    {
+      "id": "P4-C05",
+      "name": "Manifold stress-frequency behavior",
+      "input": "stable manifolds and resolved multi-manifold states",
+      "path": "single, repeated, alternating, escalating, and recovery-interval stress cycles",
+      "required_result": "fatigue, hysteresis, recovery, instability, or recursive topology fidelity amplification identified"
+    }
+  ],
+  "phase4_completion_pass_condition": [
+    "manifolds preserve ancestry",
+    "valid topology survives",
+    "invalid topology suppresses",
+    "R7 does not destabilize valid structures",
+    "perturbations damp or expose explainable failure modes",
+    "no new behavior depends on hardcoded element rules"
+  ]
+}

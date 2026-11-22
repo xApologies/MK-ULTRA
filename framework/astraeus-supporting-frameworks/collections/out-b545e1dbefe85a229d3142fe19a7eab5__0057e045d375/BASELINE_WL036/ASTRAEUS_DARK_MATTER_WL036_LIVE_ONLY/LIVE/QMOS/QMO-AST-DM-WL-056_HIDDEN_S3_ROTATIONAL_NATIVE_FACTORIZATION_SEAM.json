@@ -1,0 +1,212 @@
+{
+  "schema": "ASTRAEUS_API_QMO_MULTIPORT_ROTATIONAL_SEAM_V1",
+  "qmo_id": "QMO-AST-DM-WL-056",
+  "name": "Hidden Multi-Port S3 / Rotational Symmetry / Native Interaction Factorization Seam",
+  "atlas_version": "WL-v171",
+  "status": "API_NEXT_HANDLE_LANDSCAPE_NOT_PHYSICAL_WITNESS_NOT_PARENT_PROMOTED",
+  "hidden_rotational_query": {
+    "schema": "ASTRAEUS_CROSS_API_PAIR_QUERY_V1",
+    "a": "@dm_hidden_s3_network",
+    "b": "@rotational_symmetry_constraint",
+    "radius": 3,
+    "a_node_count": 72,
+    "b_node_count": 56,
+    "interface": [
+      {
+        "handle": "@dm_er_branch_readout_separation",
+        "distance_a": 2,
+        "distance_b": 3
+      },
+      {
+        "handle": "@er_foam",
+        "distance_a": 3,
+        "distance_b": 2
+      },
+      {
+        "handle": "@graviton",
+        "distance_a": 3,
+        "distance_b": 2
+      },
+      {
+        "handle": "@gravitational_self_coupling",
+        "distance_a": 3,
+        "distance_b": 3
+      },
+      {
+        "handle": "@native_causal_order",
+        "distance_a": 3,
+        "distance_b": 3
+      },
+      {
+        "handle": "@native_interaction_factorization",
+        "distance_a": 3,
+        "distance_b": 3
+      },
+      {
+        "handle": "@time_shell",
+        "distance_a": 3,
+        "distance_b": 3
+      }
+    ],
+    "path_a_to_b": [
+      {
+        "source": "@dm_hidden_s3_network",
+        "relation": "USES",
+        "target": "@dm_runtime_transition_capacity",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      },
+      {
+        "source": "@dm_runtime_transition_capacity",
+        "relation": "CONSTRAINED_BY",
+        "target": "@bandwidth",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      },
+      {
+        "source": "@bandwidth",
+        "relation": "DEPENDS_TO",
+        "target": "@persistence",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45050",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@persistence",
+        "relation": "DEPENDS_TO",
+        "target": "@chirality",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45110",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@chirality",
+        "relation": "DEPENDS_TO",
+        "target": "@er_foam",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45055",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@er_foam",
+        "relation": "DEPENDS_TO",
+        "target": "@helicon",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45073",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@helicon",
+        "relation": "SATISFIES",
+        "target": "@rotational_symmetry_constraint",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "recovery_pass": "RP-38",
+        "provenance": "DIRECT_DEFINITION_API:2498-2510",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    "path_b_to_a": null,
+    "edge_policy": {
+      "timespace": "high-confidence direct/non-derived RP42 records",
+      "darkmatter": "high-confidence DM_DIRECT_EDGE_REGISTRY records",
+      "gluing": "exact handle equality only; no cross-edge is invented"
+    }
+  },
+  "hidden_factorization_query": {
+    "schema": "ASTRAEUS_CROSS_API_PAIR_QUERY_V1",
+    "a": "@dm_hidden_s3_network",
+    "b": "@native_interaction_factorization",
+    "radius": 2,
+    "a_node_count": 29,
+    "b_node_count": 20,
+    "interface": [
+      {
+        "handle": "@admissibility",
+        "distance_a": 2,
+        "distance_b": 1
+      },
+      {
+        "handle": "@dm_runtime_transition_capacity",
+        "distance_a": 1,
+        "distance_b": 2
+      }
+    ],
+    "path_a_to_b": [
+      {
+        "source": "@dm_hidden_s3_network",
+        "relation": "USES",
+        "target": "@dm_runtime_transition_capacity",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      },
+      {
+        "source": "@dm_runtime_transition_capacity",
+        "relation": "DEPENDS_ON",
+        "target": "@admissibility",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      },
+      {
+        "source": "@admissibility",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@native_interaction_factorization",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DEPENDSON:54037",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    "path_b_to_a": null,
+    "edge_policy": {
+      "timespace": "high-confidence direct/non-derived RP42 records",
+      "darkmatter": "high-confidence DM_DIRECT_EDGE_REGISTRY records",
+      "gluing": "exact handle equality only; no cross-edge is invented"
+    }
+  },
+  "native_factorization_math": {
+    "type": "AdmissiblePathCompositionLaw",
+    "path_weight": "A(P)=product_k A(e_k)",
+    "kernel": "K(b,a)=sum_{P:a->b} A(P) exp(i Omega(P))",
+    "composition": "K(c,a)=sum_m K(c,m) K(m,a)"
+  },
+  "finding": "After the one-port filter, the multi-port hidden S3 network and the rotational-symmetry QMO share seven radius-3 handles, including @native_interaction_factorization. A focused radius-2 query from @dm_hidden_s3_network to @native_interaction_factorization reduces the exact interface to @dm_runtime_transition_capacity and @admissibility, with a registered directed path through those handles.",
+  "next_handle": "@native_interaction_factorization",
+  "selection_rule": "Previously traversed interface handles (@dm_er_branch_readout_separation, @er_foam, @graviton, @time_shell, @gravitational_self_coupling) are loop-back structure. @native_interaction_factorization is the least-elaborated algebraic interface handle that already consumes admissible paths/orientation-phase structure and is registered in the gravity/UCM domain.",
+  "guardrails": [
+    "do not insert the hidden S3 network into K without a typed realization",
+    "orientation phase Omega(P) != S3 History by identity",
+    "factorization handle != dark-matter nonemptiness"
+  ]
+}

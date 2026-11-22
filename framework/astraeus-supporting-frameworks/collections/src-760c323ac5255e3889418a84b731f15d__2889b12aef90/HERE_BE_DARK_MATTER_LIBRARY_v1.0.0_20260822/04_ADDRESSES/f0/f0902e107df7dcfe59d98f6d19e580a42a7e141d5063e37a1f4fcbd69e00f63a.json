@@ -1,0 +1,56 @@
+{
+  "handle": "@infinity_spectrum",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@infinity_spectrum",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 0,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@infinity_spectrum",
+        "relation": "DIRECTED_TO",
+        "target": "@collapse_map",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50129->50130"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 652,
+        "source": "@infinity_spectrum",
+        "relation": "DIRECTED_TO",
+        "target": "@collapse_map",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50129->50130"
+      }
+    ]
+  },
+  "address": "@infinity_spectrum",
+  "address_sha256": "f0902e107df7dcfe59d98f6d19e580a42a7e141d5063e37a1f4fcbd69e00f63a"
+}

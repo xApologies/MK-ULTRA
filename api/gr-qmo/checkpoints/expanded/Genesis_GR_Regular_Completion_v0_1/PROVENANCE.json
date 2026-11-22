@@ -1,0 +1,42 @@
+{
+  "version": "GRC-1 v0.1",
+  "date": "2026-10-31",
+  "status": "NEW_PROPOSED_CLASSICAL_GR_REFORMULATION",
+  "authorization": "User explicitly granted agency to develop outside the inherited domain; no source file or repository is overwritten.",
+  "claims": {
+    "new_model_solution_equivalence": "proved in THEOREM.md under explicit smooth classical domain and matched action/boundaries",
+    "unchanged_archived_native_model_equivalence": "NOT_ESTABLISHED",
+    "independent_peer_review": "NOT_PERFORMED",
+    "empirical_validation": "NOT_PERFORMED",
+    "quantum_equivalence": "NOT_CLAIMED"
+  },
+  "sources": [
+    {
+      "path": "evidence/API43_EXACT_EXCERPTS.md",
+      "sha256": "77a6c2e5079c68382d8183d94244f6a4a095300c71d97f7dd6901fe3e8b3976a",
+      "size": 11049,
+      "handling": "copied unchanged"
+    },
+    {
+      "path": "evidence/PRIOR_CLOSURE_ASSESSMENT.md",
+      "sha256": "7d0ab88af9dfdb8456129f7689107ce41e09c79922cc4ba8adb5600fc417ceb4",
+      "size": 23583,
+      "handling": "copied unchanged"
+    },
+    {
+      "path": "evidence/The_Atlas_of_Becoming_Foundational_Research_Report.pdf",
+      "sha256": "60ccf280ec8dfccc527a8bb8101a97b0110a2cbca0e098256cf8adf356df8ecb",
+      "size": 364365,
+      "handling": "copied unchanged"
+    }
+  ],
+  "previous_archive_sha256": "5772748ff8d085fb57350a4fb1a252f22f783710c51ef7b4e41bcc12dceee932",
+  "previous_archive_preserved_byte_for_byte": true,
+  "borrowed_code": {
+    "file": "code/previous_translator.py",
+    "original": "Genesis_GR_Translation_Closure.zip::Genesis_GR_Translation_Closure/code/translator.py",
+    "use": "coordinate curvature and tensor routines only; unchanged"
+  },
+  "input_source_scope": "Relevant local checkpoint evidence and primary literature, not an exhaustive new audit of every archive.",
+  "code_scope": "Local symbolic arithmetic plus a finite numerical fixture family; not an integrated PDE solver."
+}

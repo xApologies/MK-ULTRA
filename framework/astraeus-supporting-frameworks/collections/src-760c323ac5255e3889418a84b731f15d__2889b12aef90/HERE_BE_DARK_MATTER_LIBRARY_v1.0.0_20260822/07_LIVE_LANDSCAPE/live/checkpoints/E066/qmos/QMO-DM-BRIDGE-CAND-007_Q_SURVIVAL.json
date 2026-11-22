@@ -1,0 +1,27 @@
+{
+  "schema": "ASTRAEUS_QMO_CANDIDATE_V1",
+  "qmo_id": "QMO-DM-BRIDGE-CAND-007",
+  "handle": "@dm_conditional_q_handoff_distinction",
+  "canonical_name": "Conditional Projection-Residue/Q Survival Witness",
+  "status": "LIVE_CONDITIONAL_CANDIDATE",
+  "parents": [
+    "@dm_conditional_boundary_residue_seed",
+    "@dm_projection_residue_survival",
+    "@dm_q_completion_family",
+    "@dm_q_survival"
+  ],
+  "working_assumptions": [
+    "WA-DM-E065-001",
+    "WA-DM-E066-001"
+  ],
+  "derivation": [
+    "declared residue discriminator differs => B_full^R not ~=_F B_vis^R under the declared invariant-preserving bundle comparison",
+    "B_full^R not ~=_F B_vis^R => Q_full and Q_vis cannot be identified by a Q-isomorphism preserving the residue-bundle constituent"
+  ],
+  "result": "Conditional Q-handoff distinction without using the optional chromatic branch or native-density calibration.",
+  "guardrails": [
+    "Q distinction is not stress-energy distinction.",
+    "No action selection is inferred.",
+    "No physical dark-matter claim."
+  ]
+}

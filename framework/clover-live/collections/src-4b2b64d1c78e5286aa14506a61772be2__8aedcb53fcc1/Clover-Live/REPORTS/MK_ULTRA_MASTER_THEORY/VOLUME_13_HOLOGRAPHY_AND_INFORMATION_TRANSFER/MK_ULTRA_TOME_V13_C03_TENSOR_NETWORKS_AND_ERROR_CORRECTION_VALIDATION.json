@@ -1,0 +1,111 @@
+{
+  "schema": "tome-publication-renderer-validation/v1",
+  "created_at": "2026-08-11T16:45:04.261769+00:00",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "engine": "KaTeX 0.16.22 -> HTML/CSS -> Playwright -> Microsoft Edge PDF",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_13_HOLOGRAPHY_AND_INFORMATION_TRANSFER/MK_ULTRA_TOME_V13_C03_TENSOR_NETWORKS_AND_ERROR_CORRECTION.pdf",
+    "bytes": 156520,
+    "sha256": "c0aed966437323d07b34a3790a6f14eacca8e378ae1103f501def4cf385051fa"
+  },
+  "actual_pages": 6,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V13-C03": 3
+  },
+  "chapter_validations": [
+    {
+      "chapter_id": "V13-C03",
+      "source_sha256": "186f9dbe9189cfc2d907393a6d413411e9b506d6b19b07d17a6e15758c762d95",
+      "page_start": 3,
+      "headings": 23,
+      "display_equations": 21,
+      "inline_equations": 0,
+      "equation_tags": 21,
+      "api_handles": 10,
+      "table_rows": 14,
+      "content_markers_present": true
+    }
+  ],
+  "engine_metrics": {
+    "renderer": "TOME_PUBLICATION_RENDERER_V1",
+    "katexVersion": "0.16.22",
+    "chapters": [
+      {
+        "id": "V13-C03",
+        "sourceBytes": 9753,
+        "paragraphs": 42,
+        "headings": 23,
+        "displayEquations": 21,
+        "inlineEquations": 0,
+        "tables": 1,
+        "tableRows": 11,
+        "listItems": 0,
+        "codeBlocks": 0,
+        "figures": 0
+      }
+    ],
+    "paragraphs": 42,
+    "headings": 23,
+    "displayEquations": 21,
+    "inlineEquations": 0,
+    "tables": 1,
+    "tableRows": 11,
+    "listItems": 0,
+    "blockQuotes": 0,
+    "codeBlocks": 0,
+    "figures": 0,
+    "mathLayout": {
+      "checked": 21,
+      "scaled": [],
+      "remainingOverflow": []
+    }
+  },
+  "raw_latex_guard": {
+    "result": "PASS",
+    "hits": [],
+    "commands_scanned": [
+      "frac",
+      "mathcal",
+      "mathrm",
+      "begin",
+      "end",
+      "left",
+      "right",
+      "longrightarrow",
+      "rightarrow",
+      "otimes",
+      "partial",
+      "nabla",
+      "mu",
+      "nu",
+      "sum",
+      "int",
+      "operatorname"
+    ]
+  },
+  "visual_qa": {
+    "result": "PASS",
+    "pages_rendered": 6,
+    "pages_inspected": 6,
+    "contact_sheets_inspected": 2,
+    "detail_pages_reinspected": [3, 4],
+    "findings": [],
+    "inspection_note": "All six rendered pages were visually inspected, with pages 3 and 4 reinspected at full resolution after renderer-only inline-math cleanup. Cover, contents, equations, evidence table, pagination, and chapter text are legible with no clipping, overlap, raw LaTeX, or unintended blank pages."
+  },
+  "sealed_source_provenance": {
+    "path": "REPORTS/MK_43_ULTRA_MASTER_THEORY/VOLUME_13_HOLOGRAPHY_AND_INFORMATION_TRANSFER/V13_C03_TENSOR_NETWORKS_AND_ERROR_CORRECTION.md",
+    "sha256": "b1a9108c2e0cdd754886b683cb0686de877f8a389d4e4054776b33f86a04bd61",
+    "unchanged": true,
+    "render_only_source_sha256": "186f9dbe9189cfc2d907393a6d413411e9b506d6b19b07d17a6e15758c762d95",
+    "render_only_transformation": "Four inline variable expressions were represented with equivalent plain or Unicode glyphs to prevent literal dollar delimiters and satisfy the frozen renderer guard; display mathematics and sealed chapter content were unchanged."
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V13-C03": "186f9dbe9189cfc2d907393a6d413411e9b506d6b19b07d17a6e15758c762d95"
+  },
+  "source_hashes_after": {
+    "V13-C03": "186f9dbe9189cfc2d907393a6d413411e9b506d6b19b07d17a6e15758c762d95"
+  },
+  "sealed_chapter_content_change_count": 0
+}

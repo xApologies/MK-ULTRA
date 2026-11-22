@@ -1,0 +1,26 @@
+{
+  "handle": "debt://PD-DM-008",
+  "object_type": "proof_debt",
+  "status": "CONDITIONALLY_COVERED_BY_WA-DM-E079-001",
+  "domain": "PROOF_DEBT",
+  "namespace": "mk43://proof-debt",
+  "name": "Selected hidden-network UCM dynamic-event survival",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E078",
+  "qmo_generated": false,
+  "proof_status": "CONDITIONALLY_COVERED_BY_WA-DM-E079-001",
+  "empirical_status": "",
+  "provenance_class": "PROOF_DEBT",
+  "metadata": {
+    "id": "PD-DM-008",
+    "title": "Selected hidden-network UCM dynamic-event survival",
+    "status": "CONDITIONALLY_COVERED_BY_WA-DM-E079-001",
+    "priority": "MEDIUM",
+    "checkpoint_opened": "E078",
+    "payload_json": "{\"debt_id\": \"PD-DM-008\", \"title\": \"Selected hidden-network UCM dynamic-event survival\", \"status\": \"CONDITIONALLY_COVERED_BY_WA-DM-E079-001\", \"priority\": \"MEDIUM\", \"checkpoint_opened\": \"E078\", \"discharges\": \"@dm_ucm_dynamic_event_survival\", \"related_handles\": [\"@dm_ucm_source_domain_distinction\", \"@universal_coupling\", \"@dm_hidden_s3_network\"], \"question\": \"For the controlled full/visible source pair, prove U_dyn(u_full) != U_dyn(u_vis) rather than merely u_full != u_vis.\", \"trigger_to_reopen\": \"Use the recovered R4->R5->R6->R7 corridor/selection pipeline. A single selected corridor/topology feature that survives into one event record and is absent from the visible event is sufficient.\"}"
+  },
+  "address": "debt://PD-DM-008",
+  "address_sha256": "9608479c0943e0a3887c9201f800510e327391ac7a6e8ec15a184ccc6d4dc524"
+}

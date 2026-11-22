@@ -1,0 +1,48 @@
+Pipeline 2 v0.4 Runner Notes
+============================
+
+Run Pipeline 2 v0.4 as a static environmental landscape.
+
+Do not treat the pipeline as a file system.
+Do not assign time variables to the manifold.
+Do not attach a traveling kernel.
+Do not script propagation mode.
+
+Correct execution model:
+    manifold state enters R0
+    static region conditions act on manifold
+    manifold self-updates recursively
+    updated manifold enters next region
+
+Access model:
+    R0-R7 can read chirality.
+    R0-R7 cannot write chirality.
+    R0-R7 cannot write existence/non-existence state.
+
+R4 handling:
+    R4 imposes static environmental disturbance conditions.
+    The manifold response is observed.
+    Recursive exposure persistence is measured structurally.
+
+Recommended Phase 4 run order:
+    1. Confirm R0-R3 Phase 3 baseline preservation.
+    2. Run H through R4 exposure and R5-R7 closure.
+    3. Run N through shell asymmetry exposure.
+    4. Run H+H weak coupling destabilization.
+    5. Run N+N corridor distortion.
+    6. Run C6H6 oscillatory interference.
+    7. Run mixed relational chirality imbalance exposure.
+    8. Run R5 classification.
+    9. Run R6 stressed arbitration.
+    10. Run R7 closure.
+    11. Run reverse recovery audit.
+
+Expected result:
+    Not every test must recover perfectly.
+    Failures are acceptable when they produce interpretable boundaries.
+
+Invalid result:
+    unexplained topology loss
+    chirality rewrite
+    identity flattening
+    all topology classes responding identically

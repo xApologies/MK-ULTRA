@@ -1,0 +1,8 @@
+gate,obligation,criterion,status,evidence
+T1,Same Hydrogen quantum anchor,"rho_Q,H^anchor(F0)=rho_Q,H^anchor(F1)=[Q_H]",PASS,E025
+T2,Dynamic-event / response separation,same H target has nonidentity UCM response,PASS,E004/E037
+T3,Telemetry-compatible record separation,environmental response / redistribution / residual records differ in E003-E004,PASS_WORK_LAYER_SOURCE_ROLE,"UCM telemetry explicitly includes environmental response, redistribution, residuals; exact Theta_R instance object not separately serialized"
+T4,"Native density component extraction pi_rho,R","extract source-qualified rho_E,native from current pair telemetry",OPEN,no source-valid current-pair Relationship x canonical TransitionCapacity evaluator
+T5,"Native->readable density transduction T_rho,R","T_rho,R(Delta rho_native) != 0",OPEN,parent v32 explicitly identifies this as remaining component-preservation gate
+T6,Readable stress-energy separation,Delta rho_read != 0 => Delta T_mn != 0,THEOREM_RECOVERED,V32 Theorem 201.1
+T7,Fixed-GR noncollapse,Delta T_mn != 0 => g0 != g1 for same Einstein problem data,THEOREM_RECOVERED,V28 fixed-GR source-separation theorem

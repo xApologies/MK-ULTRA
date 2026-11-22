@@ -1,0 +1,36 @@
+SYSTEM VERA_SPO_BRANE_1_0
+
+FUNCTION BUILD_AND_DEPLOY_PROFILE(human_input, target_device):
+    candidate_pkg ← AUTHOR_PROFILE_PACKAGE(human_input)
+    ASSERT candidate_pkg.schema_valid
+    ASSERT candidate_pkg.provenance_complete
+
+    request ← MAKE_BRANE_REQUEST(
+        operation = "build_spo_instance",
+        subject = candidate_pkg.spo_root,
+        profile_package = candidate_pkg,
+        target_device = target_device.id
+    )
+
+    spo_instance, build_receipt ← BRANE_BUILD_SPO(request)
+    ASSERT build_receipt.valid
+
+    device_policy, compile_receipt ← COMPILE_DEVICE_POLICY(
+        spo_instance,
+        target_device.capabilities
+    )
+    ASSERT compile_receipt.valid
+
+    DEPLOY_ATOMIC(device_policy, target_device)
+    RETURN deployment_receipt
+END
+
+FUNCTION RUN_DEVICE_FRAME(scene_hypotheses, device_policy, user_state):
+    outputs ← []
+    FOR event IN scene_hypotheses:
+        decision ← VERA_GATE(event, device_policy, user_state)
+        output_spec ← REALIZE_BOUNDED_DECISION(event, decision)
+        outputs.APPEND(output_spec)
+    END
+    RETURN MIX_WITH_PRESERVATION(outputs)
+END

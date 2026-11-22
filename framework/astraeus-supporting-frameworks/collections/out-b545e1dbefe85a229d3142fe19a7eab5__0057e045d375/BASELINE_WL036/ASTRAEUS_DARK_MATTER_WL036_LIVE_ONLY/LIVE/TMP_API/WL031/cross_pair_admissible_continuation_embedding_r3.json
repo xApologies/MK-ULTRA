@@ -1,0 +1,270 @@
+{
+  "schema": "ASTRAEUS_CROSS_API_PAIR_QUERY_V1",
+  "a": "@admissible_continuation",
+  "b": "@dm_hidden_state_embedding",
+  "radius": 3,
+  "a_node_count": 13,
+  "b_node_count": 60,
+  "interface": [
+    {
+      "handle": "@inherited_state_bundle",
+      "distance_a": 1,
+      "distance_b": 1
+    },
+    {
+      "handle": "@admissible_continuation",
+      "distance_a": 0,
+      "distance_b": 2
+    },
+    {
+      "handle": "@dm_hidden_state_embedding",
+      "distance_a": 2,
+      "distance_b": 0
+    },
+    {
+      "handle": "@dm_constraint_preserving_embedding_family",
+      "distance_a": 2,
+      "distance_b": 1
+    },
+    {
+      "handle": "@inheritance_morphism",
+      "distance_a": 2,
+      "distance_b": 1
+    },
+    {
+      "handle": "@continuation_operator",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@dm_formal_persistence_qualification",
+      "distance_a": 3,
+      "distance_b": 1
+    },
+    {
+      "handle": "@dm_hidden_persistent_subset",
+      "distance_a": 3,
+      "distance_b": 1
+    },
+    {
+      "handle": "@dm_hidden_s3_network",
+      "distance_a": 3,
+      "distance_b": 1
+    },
+    {
+      "handle": "@dm_hidden_state_bundle",
+      "distance_a": 3,
+      "distance_b": 1
+    },
+    {
+      "handle": "@native_constraint_closure",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@recursive_inheritance",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@temporal_metric",
+      "distance_a": 3,
+      "distance_b": 3
+    }
+  ],
+  "path_a_to_b": [
+    {
+      "source": "@admissible_continuation",
+      "relation": "DEPENDS_TO",
+      "target": "@inherited_state_bundle",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45043",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@inherited_state_bundle",
+      "relation": "DEPENDS_TO",
+      "target": "@inheritance_morphism",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45098",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@inheritance_morphism",
+      "relation": "DEPENDS_TO",
+      "target": "@recursive_inheritance",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45097",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@recursive_inheritance",
+      "relation": "DEPENDS_TO",
+      "target": "@genesis_field",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45128",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@genesis_field",
+      "relation": "DIRECTED_TO",
+      "target": "@mote",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:50974->50975",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@mote",
+      "relation": "DIRECTED_TO",
+      "target": "@time_shell",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:49490->49491",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@time_shell",
+      "relation": "DEPENDS_TO",
+      "target": "@gravity",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45137",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@gravity",
+      "relation": "DEPENDS_TO",
+      "target": "@gravitational_radiation",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45089",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@gravitational_radiation",
+      "relation": "DEPENDS_TO",
+      "target": "@inspiral",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45083",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@inspiral",
+      "relation": "DEPENDS_TO",
+      "target": "@merger",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45099",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@merger",
+      "relation": "DEPENDS_TO",
+      "target": "@ringdown",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45102",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@ringdown",
+      "relation": "DEPENDS_TO",
+      "target": "@black_hole_horizon",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45131",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@black_hole_horizon",
+      "relation": "DEPENDS_TO",
+      "target": "@white_state_core",
+      "graph_family": "mixed",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-34",
+      "provenance": "DIRECT_API_LINE:45052",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@white_state_core",
+      "relation": "SUPPLIES_MODE0_ACCESS_INTERFACE",
+      "target": "@dm_mode0_access_interface",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "USER_CURATORIAL_RULING",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "origin_api": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@dm_mode0_access_interface",
+      "relation": "REQUIRES",
+      "target": "@dm_mode0_network_selection_rule",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "OPEN_HANDLE",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "origin_api": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@dm_mode0_network_selection_rule",
+      "relation": "SELECTS_ACCESS_TO",
+      "target": "@dm_hidden_s3_network",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "OPEN_HANDLE",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "origin_api": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "REQUIRES",
+      "target": "@dm_hidden_state_embedding",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "OPEN_HANDLE",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "origin_api": "DARKMATTER_2.0"
+    }
+  ],
+  "path_b_to_a": null,
+  "edge_policy": {
+    "timespace": "high-confidence direct/non-derived RP42 records",
+    "darkmatter": "high-confidence DM_DIRECT_EDGE_REGISTRY records",
+    "gluing": "exact handle equality only; no cross-edge is invented"
+  }
+}

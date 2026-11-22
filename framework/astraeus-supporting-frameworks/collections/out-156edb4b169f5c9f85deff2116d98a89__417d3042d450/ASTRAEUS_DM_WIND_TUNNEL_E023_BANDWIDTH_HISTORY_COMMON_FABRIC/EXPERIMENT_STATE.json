@@ -1,0 +1,25 @@
+{
+  "experiment": "E023",
+  "candidate": "CAND-DM-BANDWIDTH-HISTORY-PARTIAL-DQG-026",
+  "title": "Bandwidth/History Typing and Partial Common-Fabric Dark-Defect Test",
+  "status": "WORK-LAYER A_B/HISTORY TYPING CLOSED + PARTIAL D_QG NONEMPTY; FULL rho_Q/rho_G OPEN",
+  "physical_dark_matter_witness": false,
+  "parent_promotions": 0,
+  "E013_typing": {
+    "strict_T5_persistent_states_typed": 224,
+    "strict_T5_persistent_pairs": 92,
+    "pairs_same_R0_but_distinct_history_word_sets": 92,
+    "pairs_with_disjoint_history_word_sets": 66,
+    "pairs_same_typed_endpoints_but_different_path_words": 34,
+    "persistent_route_family_size_min": 2,
+    "persistent_route_family_size_max": 7
+  },
+  "E019_partial_D_QG": {
+    "partial_q_readout_equal": true,
+    "pre_gravitational_response_different": true,
+    "partial_defect_nonempty": true,
+    "full_D_QG_nonempty_proved": false
+  },
+  "ruling": "The E013 persistent route families can be typed without fabrication as sets of length-2 admissible work-layer operator words in a local Bandwidth-Algebra surrogate, with coarse Resolution conflating states whose History-word sets remain distinct. E019 can be typed as two History-conditioned operative-state surrogates with the same H identity/readout but different pre-gravitational response. This closes a partial bridge-native defect witness, not the canonical D_QG, because rho_Q/rho_G and global Fabr_chi gluing remain open.",
+  "next_handle": "TYPE_PRE_GR_RESPONSE_INTO_RHO_G_CANDIDATE_DOMAIN_AND_TEST_WHICH_SOURCE_OBLIGATIONS_BLOCK_CANONICAL_D_QG"
+}

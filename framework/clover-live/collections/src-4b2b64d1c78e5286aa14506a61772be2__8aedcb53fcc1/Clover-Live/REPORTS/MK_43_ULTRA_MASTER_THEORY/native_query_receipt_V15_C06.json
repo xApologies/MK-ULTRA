@@ -1,0 +1,370 @@
+{
+  "api_address_count": 2384,
+  "chapter_ids": [
+    "V15-C06"
+  ],
+  "created_at": "2026-08-11T20:07:13.448776+00:00",
+  "database_sha256_after": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03",
+  "database_sha256_before": "e648f67429d166111105718fa722cc325bb7882b65314b5532f1267018050e03",
+  "database_unchanged": true,
+  "failed_queries": [],
+  "requested_handles": [
+    "@audit_graph",
+    "@dimensionality_audit",
+    "@parameter_estimation",
+    "@parameter_registry",
+    "@scattering_audit",
+    "@unitarity_audit"
+  ],
+  "results": [
+    {
+      "artifacts": [
+        {
+          "bytes": 1068263,
+          "path": "provenance://unavailable/content-sha256/227e6ef088f417ee822e62f7136869ee2c4ad1affcc0607fde52f841053afb15/audit_graph_32ff81ec908b4de4aca06cb8ce1c8f0a.md",
+          "sha256": "227e6ef088f417ee822e62f7136869ee2c4ad1affcc0607fde52f841053afb15"
+        }
+      ],
+      "elapsed_seconds": 0.707986,
+      "ordinal": 0,
+      "requested_handle": "@audit_graph",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/227e6ef088f417ee822e62f7136869ee2c4ad1affcc0607fde52f841053afb15/audit_graph_32ff81ec908b4de4aca06cb8ce1c8f0a.md",
+          "rendered_realizations": 1,
+          "sha256": "227e6ef088f417ee822e62f7136869ee2c4ad1affcc0607fde52f841053afb15",
+          "size_bytes": 1068263,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "32ff81ec908b4de4aca06cb8ce1c8f0a",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@audit_graph",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V15_C06-0000",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 988523,
+          "path": "provenance://unavailable/content-sha256/89b8d494058e5b49af8818b365646f50f032892995673d8019f5e7aeb939fc9c/dimensionality_audit_8f5e940af06e4c1e91d1ea78f6720f43.md",
+          "sha256": "89b8d494058e5b49af8818b365646f50f032892995673d8019f5e7aeb939fc9c"
+        }
+      ],
+      "elapsed_seconds": 0.230634,
+      "ordinal": 1,
+      "requested_handle": "@dimensionality_audit",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/89b8d494058e5b49af8818b365646f50f032892995673d8019f5e7aeb939fc9c/dimensionality_audit_8f5e940af06e4c1e91d1ea78f6720f43.md",
+          "rendered_realizations": 1,
+          "sha256": "89b8d494058e5b49af8818b365646f50f032892995673d8019f5e7aeb939fc9c",
+          "size_bytes": 988523,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "8f5e940af06e4c1e91d1ea78f6720f43",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@dimensionality_audit",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V15_C06-0001",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 1863223,
+          "path": "provenance://unavailable/content-sha256/9f541e049f81e8554701f7c2963d77746bfbd6222628cee6f00dcb46e00c295d/parameter_estimation_529a1b9dffd647e6a27c6a6f37278c94.md",
+          "sha256": "9f541e049f81e8554701f7c2963d77746bfbd6222628cee6f00dcb46e00c295d"
+        }
+      ],
+      "elapsed_seconds": 0.530881,
+      "ordinal": 2,
+      "requested_handle": "@parameter_estimation",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/9f541e049f81e8554701f7c2963d77746bfbd6222628cee6f00dcb46e00c295d/parameter_estimation_529a1b9dffd647e6a27c6a6f37278c94.md",
+          "rendered_realizations": 1,
+          "sha256": "9f541e049f81e8554701f7c2963d77746bfbd6222628cee6f00dcb46e00c295d",
+          "size_bytes": 1863223,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "529a1b9dffd647e6a27c6a6f37278c94",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@parameter_estimation",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V15_C06-0002",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 1847350,
+          "path": "provenance://unavailable/content-sha256/a2665a0b2520dd77a9cf103034de63702a783d28cbdb34fee1e347041b8faff0/parameter_registry_1e88f34eae0742e6851712738aa7a354.md",
+          "sha256": "a2665a0b2520dd77a9cf103034de63702a783d28cbdb34fee1e347041b8faff0"
+        }
+      ],
+      "elapsed_seconds": 0.22479,
+      "ordinal": 3,
+      "requested_handle": "@parameter_registry",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/a2665a0b2520dd77a9cf103034de63702a783d28cbdb34fee1e347041b8faff0/parameter_registry_1e88f34eae0742e6851712738aa7a354.md",
+          "rendered_realizations": 1,
+          "sha256": "a2665a0b2520dd77a9cf103034de63702a783d28cbdb34fee1e347041b8faff0",
+          "size_bytes": 1847350,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "1e88f34eae0742e6851712738aa7a354",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@parameter_registry",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V15_C06-0003",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 1229161,
+          "path": "provenance://unavailable/content-sha256/4fe531a9d258252998ef11bc21562b5647af4bd4ad28830845bf77e232669a66/scattering_audit_e9e28b584efd4e49892a5be1abb95edd.md",
+          "sha256": "4fe531a9d258252998ef11bc21562b5647af4bd4ad28830845bf77e232669a66"
+        }
+      ],
+      "elapsed_seconds": 0.220178,
+      "ordinal": 4,
+      "requested_handle": "@scattering_audit",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/4fe531a9d258252998ef11bc21562b5647af4bd4ad28830845bf77e232669a66/scattering_audit_e9e28b584efd4e49892a5be1abb95edd.md",
+          "rendered_realizations": 1,
+          "sha256": "4fe531a9d258252998ef11bc21562b5647af4bd4ad28830845bf77e232669a66",
+          "size_bytes": 1229161,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "e9e28b584efd4e49892a5be1abb95edd",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@scattering_audit",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V15_C06-0004",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    },
+    {
+      "artifacts": [
+        {
+          "bytes": 1335766,
+          "path": "provenance://unavailable/content-sha256/2232650bba0a441187ef91b16a2a4578cfb1934608af6363b71fa4ba6417baae/unitarity_audit_cdcb38e69d4641c0b1b50a1f82ed2635.md",
+          "sha256": "2232650bba0a441187ef91b16a2a4578cfb1934608af6363b71fa4ba6417baae"
+        }
+      ],
+      "elapsed_seconds": 0.221988,
+      "ordinal": 5,
+      "requested_handle": "@unitarity_audit",
+      "response": {
+        "artifact": {
+          "encoding": "UTF-8",
+          "format": "markdown",
+          "path": "provenance://unavailable/content-sha256/2232650bba0a441187ef91b16a2a4578cfb1934608af6363b71fa4ba6417baae/unitarity_audit_cdcb38e69d4641c0b1b50a1f82ed2635.md",
+          "rendered_realizations": 1,
+          "sha256": "2232650bba0a441187ef91b16a2a4578cfb1934608af6363b71fa4ba6417baae",
+          "size_bytes": 1335766,
+          "unresolved_realizations": 0
+        },
+        "errors": [],
+        "recovery_receipt": {
+          "expected_realizations": 1,
+          "incomplete_families": 0,
+          "internal_execution_id": "cdcb38e69d4641c0b1b50a1f82ed2635",
+          "qmo_exposed": false,
+          "recovered_realizations": 1,
+          "root_handle": "@unitarity_audit",
+          "unresolved_realizations": 0
+        },
+        "request_id": "mk-ultra-tome-V15_C06-0005",
+        "status": "complete"
+      },
+      "resumed_without_requery": false,
+      "reused_master_query": false,
+      "status": "complete"
+    }
+  ],
+  "reused_master_queries": [],
+  "runtime_info": {
+    "api_visible_to_runtime": false,
+    "direct_api_access": false,
+    "direct_library_access": false,
+    "downstream_role": "brane",
+    "manifest": {
+      "architecture": {
+        "composition_rule": "contract-compatible ports; no domain overlap required",
+        "domain_policy": "independent-port-domains",
+        "module_storage": "external-only",
+        "mounts_external": [
+          "ai",
+          "api",
+          "library"
+        ],
+        "owns": [
+          "private_qmo",
+          "port_registry",
+          "composition_mechanism"
+        ],
+        "private_objects": [
+          "qmo"
+        ],
+        "runtime_visibility": [
+          "brane"
+        ]
+      },
+      "build_version": "2.3.3",
+      "entrypoint": "mk43_brane:Brane",
+      "module_id": "mk43.brane",
+      "name": "MK43 BRANE 2.3.3",
+      "package": "mk43_brane",
+      "release_identity_separate": true,
+      "release_version": "2.3.3",
+      "role": "brane",
+      "runtime_identity_stable": true,
+      "schema_version": "1.0",
+      "version": "2.3.3"
+    },
+    "package_root": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/src",
+    "private_qmo_access": false,
+    "qmo_visible_to_runtime": false,
+    "root": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/mk43_brane_mount_f1wqkvzv",
+    "runtime_boundary": "Runtime -> BRANE",
+    "runtime_module_id": "mk43.runtime",
+    "runtime_version": "4.2.0",
+    "source": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/BRANE_3.1.zip",
+    "source_sha256": "ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e"
+  },
+  "runtime_validation": {
+    "boundary": {
+      "ai_owned_by": "BRANE",
+      "api_owned_by": "BRANE",
+      "library_owned_by": "BRANE",
+      "qmo_owned_by": "BRANE",
+      "runtime_accepts": "BRANE",
+      "runtime_rejects_direct_api": true
+    },
+    "errors": [],
+    "info": {
+      "api_visible_to_runtime": false,
+      "direct_api_access": false,
+      "direct_library_access": false,
+      "downstream_role": "brane",
+      "manifest": {
+        "architecture": {
+          "composition_rule": "contract-compatible ports; no domain overlap required",
+          "domain_policy": "independent-port-domains",
+          "module_storage": "external-only",
+          "mounts_external": [
+            "ai",
+            "api",
+            "library"
+          ],
+          "owns": [
+            "private_qmo",
+            "port_registry",
+            "composition_mechanism"
+          ],
+          "private_objects": [
+            "qmo"
+          ],
+          "runtime_visibility": [
+            "brane"
+          ]
+        },
+        "build_version": "2.3.3",
+        "entrypoint": "mk43_brane:Brane",
+        "module_id": "mk43.brane",
+        "name": "MK43 BRANE 2.3.3",
+        "package": "mk43_brane",
+        "release_identity_separate": true,
+        "release_version": "2.3.3",
+        "role": "brane",
+        "runtime_identity_stable": true,
+        "schema_version": "1.0",
+        "version": "2.3.3"
+      },
+      "package_root": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/src",
+      "private_qmo_access": false,
+      "qmo_visible_to_runtime": false,
+      "root": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/mk43_brane_mount_f1wqkvzv",
+      "runtime_boundary": "Runtime -> BRANE",
+      "runtime_module_id": "mk43.runtime",
+      "runtime_version": "4.2.0",
+      "source": "provenance://unavailable/content-sha256/ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e/BRANE_3.1.zip",
+      "source_sha256": "ba36d5c1ec9338817c542b8b0bf2c5906b6c5fbf88a3c37f3f469baea5b2280e"
+    },
+    "valid": true,
+    "warnings": []
+  },
+  "schema": "mk-ultra-tome-native-chapter-query-receipt-v1",
+  "successful_queries": [
+    "@audit_graph",
+    "@dimensionality_audit",
+    "@parameter_estimation",
+    "@parameter_registry",
+    "@scattering_audit",
+    "@unitarity_audit"
+  ]
+}

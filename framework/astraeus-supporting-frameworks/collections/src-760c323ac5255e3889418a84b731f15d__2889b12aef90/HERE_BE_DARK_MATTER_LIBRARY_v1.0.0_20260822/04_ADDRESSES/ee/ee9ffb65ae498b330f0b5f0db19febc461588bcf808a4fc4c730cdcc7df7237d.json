@@ -1,0 +1,87 @@
+{
+  "handle": "@spectral_gradient",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@spectral_gradient",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 2,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 72,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 6,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@spectral_gradient",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@helicon_spectral_coupling",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@helicon_spectral_coupling FORMALLY_DEPENDS_ON @spectral_gradient); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      },
+      {
+        "source": "@helicon_spectral_coupling",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@spectral_gradient",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "recovery_pass": "RP-38",
+        "provenance": "DIRECT_EQUATION_API:2596-2614"
+      },
+      {
+        "source": "@wake_evolution",
+        "relation": "COMPOSED_DEPENDENCY",
+        "target": "@spectral_gradient",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_ADMISSIBLE_DEPENDENCY_COMPOSITION; path=@wake_evolution -> @helicon_spectral_coupling -> @spectral_gradient; relations=FORMALLY_DEPENDS_ON + FORMALLY_DEPENDS_ON; primitive_depth=2"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 2216,
+        "source": "@spectral_gradient",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@helicon_spectral_coupling",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@helicon_spectral_coupling FORMALLY_DEPENDS_ON @spectral_gradient); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      },
+      {
+        "id": 638,
+        "source": "@helicon_spectral_coupling",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@spectral_gradient",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "direct_api_recovery",
+        "provenance": "DIRECT_EQUATION_API:2596-2614"
+      }
+    ]
+  },
+  "address": "@spectral_gradient",
+  "address_sha256": "ee9ffb65ae498b330f0b5f0db19febc461588bcf808a4fc4c730cdcc7df7237d"
+}

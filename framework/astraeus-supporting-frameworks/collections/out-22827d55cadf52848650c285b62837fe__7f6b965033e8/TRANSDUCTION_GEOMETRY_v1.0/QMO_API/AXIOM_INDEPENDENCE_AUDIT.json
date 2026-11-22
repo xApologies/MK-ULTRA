@@ -1,0 +1,23 @@
+{
+  "version": "0.1",
+  "status": "PASS",
+  "axioms": {
+    "A0": {
+      "role": "typing",
+      "independent_currently": true
+    },
+    "A1": {
+      "role": "identity",
+      "independent_currently": true
+    },
+    "A2": {
+      "role": "composition",
+      "independent_currently": true
+    }
+  },
+  "rejected_for_now": [
+    "universal_lift_existence",
+    "universal_lift_uniqueness",
+    "composite_factorization"
+  ]
+}

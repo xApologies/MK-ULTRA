@@ -1,0 +1,57 @@
+[
+  {
+    "cmd": [
+      "python",
+      "provenance://unavailable/path-sha256/9bfa84276f3f3d988acd82a4eea97f50fa0963840034c43a9883ffb85ae8b43a/dm_live.py",
+      "verify"
+    ],
+    "returncode": 0,
+    "stdout": "baseline_sha256 ee4819595f94a52565ab21c832c902ea4040e315f3f575b203c61e53740ed63a\nexpected ee4819595f94a52565ab21c832c902ea4040e315f3f575b203c61e53740ed63a\nbaseline_hash_match True\nbaseline_validation PASS\n",
+    "stderr": ""
+  },
+  {
+    "cmd": [
+      "python",
+      "provenance://unavailable/path-sha256/9bfa84276f3f3d988acd82a4eea97f50fa0963840034c43a9883ffb85ae8b43a/dm_live.py",
+      "frontier"
+    ],
+    "returncode": 0,
+    "stdout": "active_frontier\t@dm_native_density_to_readable_source\nreturn_gate\t@dm_hidden_state_embedding\nreturn_gate\t@dm_local_embedding_descent_witness\n",
+    "stderr": ""
+  },
+  {
+    "cmd": [
+      "python",
+      "provenance://unavailable/path-sha256/9bfa84276f3f3d988acd82a4eea97f50fa0963840034c43a9883ffb85ae8b43a/dm_live.py",
+      "live-objects"
+    ],
+    "returncode": 0,
+    "stdout": "@dm_joint_hidden_network_witness\tLIVE_DERIVED_CLOSED_INTERNAL\tConditionalDualWitnessTheorem\tJoint Hidden-Network Load/Response Witness\tE063\n",
+    "stderr": ""
+  },
+  {
+    "cmd": [
+      "python",
+      "provenance://unavailable/path-sha256/9bfa84276f3f3d988acd82a4eea97f50fa0963840034c43a9883ffb85ae8b43a/dm_live.py",
+      "certs"
+    ],
+    "returncode": 0,
+    "stdout": "CC-DM-E063-001\tDERIVED_CLOSED_INTERNAL\t@dm_joint_hidden_network_witness\tE063\n",
+    "stderr": ""
+  },
+  {
+    "cmd": [
+      "python",
+      "provenance://unavailable/path-sha256/9bfa84276f3f3d988acd82a4eea97f50fa0963840034c43a9883ffb85ae8b43a/dm_live.py",
+      "crawl",
+      "@dm_native_hidden_witness",
+      "--depth",
+      "2",
+      "--relations",
+      "CONTAINS,DEPENDS_ON,REQUIRES,REALIZES,USES,SCHUR_REDUCES,ENTERS,DESCENDS_FROM,CONSTRAINED_BY"
+    ],
+    "returncode": 0,
+    "stdout": "0\t@dm_native_hidden_witness\n1\t@dm_native_hidden_witness --CONTAINS--> @dm_hidden_response_operator\t[ATLAS_DERIVED; dm22]\n1\t@dm_native_hidden_witness --CONTAINS--> @dm_resolution_density_profile\t[ATLAS_DERIVED; dm22]\n2\t@dm_hidden_response_operator --SCHUR_REDUCES--> @dm_continuity_laplacian\t[ATLAS_DERIVED; dm22]\n2\t@dm_resolution_density_profile --DEPENDS_ON--> @dm_hidden_relational_load\t[ATLAS_DERIVED; dm22]\n2\t@dm_resolution_density_profile --DEPENDS_ON--> @resolution\t[ATLAS_DERIVED; dm22]\n2\t@dm_resolution_density_profile --REALIZES--> @energy_density\t[ATLAS_DERIVED; dm22]\n2\t@dm_resolution_density_profile --REQUIRES--> @dm_native_density_to_readable_source\t[OPEN_HANDLE; dm22]\n",
+    "stderr": ""
+  }
+]

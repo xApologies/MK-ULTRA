@@ -1,0 +1,2083 @@
+[
+  {
+    "handle": "@cosmology",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection",
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 10,
+    "rank_sum": 30,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 2,
+        "handle": "@cosmology",
+        "anchor_support": 5,
+        "min_parent_distance": 1,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity",
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 9,
+        "handle": "@cosmology",
+        "anchor_support": 4,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 19,
+        "handle": "@cosmology",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@continuity_redistribution"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@geodesic",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection",
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 5,
+    "rank_sum": 54,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 22,
+        "handle": "@geodesic",
+        "anchor_support": 2,
+        "min_parent_distance": 1,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity",
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 25,
+        "handle": "@geodesic",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 7,
+        "handle": "@geodesic",
+        "anchor_support": 2,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@admissibility",
+          "@inherited_state_bundle"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@native_constraint_closure",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection",
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 4,
+    "rank_sum": 61,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 20,
+        "handle": "@native_constraint_closure",
+        "anchor_support": 2,
+        "min_parent_distance": 2,
+        "lexical_signal": 1,
+        "supporting_anchors": [
+          "@gravity",
+          "@local_energy_momentum_conservation"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 29,
+        "handle": "@native_constraint_closure",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@local_energy_momentum_conservation"
+        ]
+      },
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 12,
+        "handle": "@native_constraint_closure",
+        "anchor_support": 1,
+        "min_parent_distance": 1,
+        "lexical_signal": 2,
+        "supporting_anchors": [
+          "@admissibility"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@general_relativity",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 10,
+    "rank_sum": 4,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 3,
+        "handle": "@general_relativity",
+        "anchor_support": 5,
+        "min_parent_distance": 1,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity",
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 1,
+        "handle": "@general_relativity",
+        "anchor_support": 5,
+        "min_parent_distance": 1,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@energy_density",
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@total_action",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 9,
+    "rank_sum": 6,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 4,
+        "handle": "@total_action",
+        "anchor_support": 5,
+        "min_parent_distance": 1,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity",
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 2,
+        "handle": "@total_action",
+        "anchor_support": 4,
+        "min_parent_distance": 1,
+        "lexical_signal": 1,
+        "supporting_anchors": [
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@cauchy_problem",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 9,
+    "rank_sum": 7,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 1,
+        "handle": "@cauchy_problem",
+        "anchor_support": 5,
+        "min_parent_distance": 2,
+        "lexical_signal": 1,
+        "supporting_anchors": [
+          "@gravity",
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 6,
+        "handle": "@cauchy_problem",
+        "anchor_support": 4,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@angular_momentum_parameter",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 9,
+    "rank_sum": 9,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 5,
+        "handle": "@angular_momentum_parameter",
+        "anchor_support": 5,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity",
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 4,
+        "handle": "@angular_momentum_parameter",
+        "anchor_support": 4,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@birkhoff_theorem",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 9,
+    "rank_sum": 11,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 6,
+        "handle": "@birkhoff_theorem",
+        "anchor_support": 5,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity",
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 5,
+        "handle": "@birkhoff_theorem",
+        "anchor_support": 4,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@diffeomorphism_invariance",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 9,
+    "rank_sum": 12,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 9,
+        "handle": "@diffeomorphism_invariance",
+        "anchor_support": 5,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity",
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 3,
+        "handle": "@diffeomorphism_invariance",
+        "anchor_support": 4,
+        "min_parent_distance": 2,
+        "lexical_signal": 1,
+        "supporting_anchors": [
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@charge_parameter",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 9,
+    "rank_sum": 14,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 7,
+        "handle": "@charge_parameter",
+        "anchor_support": 5,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity",
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 7,
+        "handle": "@charge_parameter",
+        "anchor_support": 4,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@cosmological_constant",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 9,
+    "rank_sum": 16,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 8,
+        "handle": "@cosmological_constant",
+        "anchor_support": 5,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity",
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 8,
+        "handle": "@cosmological_constant",
+        "anchor_support": 4,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@eddington_finkelstein_coordinates",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 9,
+    "rank_sum": 20,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 10,
+        "handle": "@eddington_finkelstein_coordinates",
+        "anchor_support": 5,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity",
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 10,
+        "handle": "@eddington_finkelstein_coordinates",
+        "anchor_support": 4,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@friedmann_equation",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 9,
+    "rank_sum": 22,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 11,
+        "handle": "@friedmann_equation",
+        "anchor_support": 5,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity",
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 11,
+        "handle": "@friedmann_equation",
+        "anchor_support": 4,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@gibbons_hawking_york_term",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 9,
+    "rank_sum": 24,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 12,
+        "handle": "@gibbons_hawking_york_term",
+        "anchor_support": 5,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity",
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 12,
+        "handle": "@gibbons_hawking_york_term",
+        "anchor_support": 4,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@kruskal_szekeres_extension",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 9,
+    "rank_sum": 26,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 13,
+        "handle": "@kruskal_szekeres_extension",
+        "anchor_support": 5,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity",
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 13,
+        "handle": "@kruskal_szekeres_extension",
+        "anchor_support": 4,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@mass_parameter",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 9,
+    "rank_sum": 28,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 14,
+        "handle": "@mass_parameter",
+        "anchor_support": 5,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity",
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 14,
+        "handle": "@mass_parameter",
+        "anchor_support": 4,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@maximal_extension",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 9,
+    "rank_sum": 30,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 15,
+        "handle": "@maximal_extension",
+        "anchor_support": 5,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity",
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 15,
+        "handle": "@maximal_extension",
+        "anchor_support": 4,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@post_newtonian_expansion",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 9,
+    "rank_sum": 32,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 16,
+        "handle": "@post_newtonian_expansion",
+        "anchor_support": 5,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity",
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 16,
+        "handle": "@post_newtonian_expansion",
+        "anchor_support": 4,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@schwarzschild_radius",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 9,
+    "rank_sum": 34,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 17,
+        "handle": "@schwarzschild_radius",
+        "anchor_support": 5,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity",
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 17,
+        "handle": "@schwarzschild_radius",
+        "anchor_support": 4,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@local_energy_momentum_conservation",
+          "@matter_action",
+          "@metric_variation",
+          "@stress_energy_tensor"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@riemann_tensor",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 5,
+    "rank_sum": 36,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 18,
+        "handle": "@riemann_tensor",
+        "anchor_support": 3,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity",
+          "@local_energy_momentum_conservation",
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 18,
+        "handle": "@riemann_tensor",
+        "anchor_support": 2,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@local_energy_momentum_conservation",
+          "@stress_energy_tensor"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@mote",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 4,
+    "rank_sum": 33,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 25,
+        "handle": "@mote",
+        "anchor_support": 2,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity",
+          "@matter_readable_organization"
+        ]
+      },
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 8,
+        "handle": "@mote",
+        "anchor_support": 2,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@continuity_redistribution",
+          "@resolution"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@mote_ensemble",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 4,
+    "rank_sum": 35,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 26,
+        "handle": "@mote_ensemble",
+        "anchor_support": 2,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity",
+          "@matter_readable_organization"
+        ]
+      },
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 9,
+        "handle": "@mote_ensemble",
+        "anchor_support": 2,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@continuity_redistribution",
+          "@resolution"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@equation_of_state",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 3,
+    "rank_sum": 42,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 19,
+        "handle": "@equation_of_state",
+        "anchor_support": 2,
+        "min_parent_distance": 2,
+        "lexical_signal": 1,
+        "supporting_anchors": [
+          "@gravity",
+          "@local_energy_momentum_conservation"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 23,
+        "handle": "@equation_of_state",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@local_energy_momentum_conservation"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@causal_structure",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 3,
+    "rank_sum": 43,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 21,
+        "handle": "@causal_structure",
+        "anchor_support": 2,
+        "min_parent_distance": 1,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity",
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 22,
+        "handle": "@causal_structure",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@stress_energy_tensor"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@levi_civita_connection",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 3,
+    "rank_sum": 50,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 23,
+        "handle": "@levi_civita_connection",
+        "anchor_support": 2,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity",
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 27,
+        "handle": "@levi_civita_connection",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@stress_energy_tensor"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@lorentzian_manifold",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 3,
+    "rank_sum": 52,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 24,
+        "handle": "@lorentzian_manifold",
+        "anchor_support": 2,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity",
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 28,
+        "handle": "@lorentzian_manifold",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@stress_energy_tensor"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@ricci_scalar",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 3,
+    "rank_sum": 57,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 27,
+        "handle": "@ricci_scalar",
+        "anchor_support": 2,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity",
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 30,
+        "handle": "@ricci_scalar",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@stress_energy_tensor"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@ricci_tensor",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 3,
+    "rank_sum": 59,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 28,
+        "handle": "@ricci_tensor",
+        "anchor_support": 2,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity",
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 31,
+        "handle": "@ricci_tensor",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@stress_energy_tensor"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@scalar_curvature",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 3,
+    "rank_sum": 61,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 29,
+        "handle": "@scalar_curvature",
+        "anchor_support": 2,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity",
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 32,
+        "handle": "@scalar_curvature",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@stress_energy_tensor"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@contracted_bianchi_identity",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 2,
+    "rank_sum": 50,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 31,
+        "handle": "@contracted_bianchi_identity",
+        "anchor_support": 1,
+        "min_parent_distance": 1,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@local_energy_momentum_conservation"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 19,
+        "handle": "@contracted_bianchi_identity",
+        "anchor_support": 1,
+        "min_parent_distance": 1,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@local_energy_momentum_conservation"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@LIGO_observation",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 2,
+    "rank_sum": 54,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 34,
+        "handle": "@LIGO_observation",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 20,
+        "handle": "@LIGO_observation",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@stress_energy_tensor"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@adjacency_lattice",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 2,
+    "rank_sum": 54,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 37,
+        "handle": "@adjacency_lattice",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@matter_readable_organization"
+        ]
+      },
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 17,
+        "handle": "@adjacency_lattice",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@continuity_redistribution"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@initial_data_set",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 2,
+    "rank_sum": 56,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 30,
+        "handle": "@initial_data_set",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 1,
+        "supporting_anchors": [
+          "@stress_energy_tensor"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 26,
+        "handle": "@initial_data_set",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@stress_energy_tensor"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@bounce_criterion",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty",
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 2,
+    "rank_sum": 59,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 38,
+        "handle": "@bounce_criterion",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@matter_action"
+        ]
+      },
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 21,
+        "handle": "@bounce_criterion",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@matter_action"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@native_causal_order",
+    "open_targets": [
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 3,
+    "rank_sum": 1,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 1,
+        "handle": "@native_causal_order",
+        "anchor_support": 3,
+        "min_parent_distance": 1,
+        "lexical_signal": 1,
+        "supporting_anchors": [
+          "@admissibility",
+          "@continuity_redistribution",
+          "@inheritance_morphism"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@mote_closure",
+    "open_targets": [
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 2,
+    "rank_sum": 2,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 2,
+        "handle": "@mote_closure",
+        "anchor_support": 2,
+        "min_parent_distance": 1,
+        "lexical_signal": 1,
+        "supporting_anchors": [
+          "@bandwidth",
+          "@resolution"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@closure",
+    "open_targets": [
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 2,
+    "rank_sum": 3,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 3,
+        "handle": "@closure",
+        "anchor_support": 2,
+        "min_parent_distance": 2,
+        "lexical_signal": 1,
+        "supporting_anchors": [
+          "@bandwidth",
+          "@resolution"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@recoverability",
+    "open_targets": [
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 2,
+    "rank_sum": 4,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 4,
+        "handle": "@recoverability",
+        "anchor_support": 2,
+        "min_parent_distance": 2,
+        "lexical_signal": 1,
+        "supporting_anchors": [
+          "@bandwidth",
+          "@resolution"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@mote_lattice",
+    "open_targets": [
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 2,
+    "rank_sum": 5,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 5,
+        "handle": "@mote_lattice",
+        "anchor_support": 2,
+        "min_parent_distance": 1,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@bandwidth",
+          "@resolution"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@S0",
+    "open_targets": [
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 2,
+    "rank_sum": 6,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 6,
+        "handle": "@S0",
+        "anchor_support": 2,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@admissibility",
+          "@inherited_state_bundle"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@mote_identity",
+    "open_targets": [
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 2,
+    "rank_sum": 10,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 10,
+        "handle": "@mote_identity",
+        "anchor_support": 2,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@admissibility",
+          "@bandwidth"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@unit_string",
+    "open_targets": [
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 2,
+    "rank_sum": 11,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 11,
+        "handle": "@unit_string",
+        "anchor_support": 2,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@admissibility",
+          "@inherited_state_bundle"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@causality",
+    "open_targets": [
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 1,
+    "rank_sum": 13,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 13,
+        "handle": "@causality",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 1,
+        "supporting_anchors": [
+          "@admissibility"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@cognitive_state_geometry",
+    "open_targets": [
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 1,
+    "rank_sum": 14,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 14,
+        "handle": "@cognitive_state_geometry",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 1,
+        "supporting_anchors": [
+          "@inheritance_morphism"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@persistent_topology",
+    "open_targets": [
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 1,
+    "rank_sum": 15,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 15,
+        "handle": "@persistent_topology",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 1,
+        "supporting_anchors": [
+          "@admissibility"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@native_interaction_factorization",
+    "open_targets": [
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 1,
+    "rank_sum": 16,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 16,
+        "handle": "@native_interaction_factorization",
+        "anchor_support": 1,
+        "min_parent_distance": 1,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@admissibility"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@anomaly_freedom",
+    "open_targets": [
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 1,
+    "rank_sum": 18,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 18,
+        "handle": "@anomaly_freedom",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@admissibility"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@gauge_consistency",
+    "open_targets": [
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 1,
+    "rank_sum": 20,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 20,
+        "handle": "@gauge_consistency",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@admissibility"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@graviton_propagation",
+    "open_targets": [
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 1,
+    "rank_sum": 21,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 21,
+        "handle": "@graviton_propagation",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@admissibility"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@locality",
+    "open_targets": [
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 1,
+    "rank_sum": 22,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 22,
+        "handle": "@locality",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@admissibility"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@lorentz_limit",
+    "open_targets": [
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 1,
+    "rank_sum": 23,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 23,
+        "handle": "@lorentz_limit",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@admissibility"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@event_horizon_telescope",
+    "open_targets": [
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 1,
+    "rank_sum": 24,
+    "records": [
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 24,
+        "handle": "@event_horizon_telescope",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@stress_energy_tensor"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@mote_diagonal_rule",
+    "open_targets": [
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 1,
+    "rank_sum": 24,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 24,
+        "handle": "@mote_diagonal_rule",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@resolution"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@mote_occupancy_function",
+    "open_targets": [
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 1,
+    "rank_sum": 25,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 25,
+        "handle": "@mote_occupancy_function",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@resolution"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@multiparticle_gravity",
+    "open_targets": [
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 1,
+    "rank_sum": 26,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 26,
+        "handle": "@multiparticle_gravity",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@admissibility"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@native_probability_preservation",
+    "open_targets": [
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 1,
+    "rank_sum": 27,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 27,
+        "handle": "@native_probability_preservation",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@continuity_redistribution"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@occurrence",
+    "open_targets": [
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 1,
+    "rank_sum": 28,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 28,
+        "handle": "@occurrence",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@admissibility"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@ordering",
+    "open_targets": [
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 1,
+    "rank_sum": 29,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 29,
+        "handle": "@ordering",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@inherited_state_bundle"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@planck_landscape",
+    "open_targets": [
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 1,
+    "rank_sum": 30,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 30,
+        "handle": "@planck_landscape",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@persistent_boundary"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@scattering_audit",
+    "open_targets": [
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 1,
+    "rank_sum": 31,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 31,
+        "handle": "@scattering_audit",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@admissibility"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@inspiral",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty"
+    ],
+    "anchor_support_sum": 1,
+    "rank_sum": 32,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 32,
+        "handle": "@inspiral",
+        "anchor_support": 1,
+        "min_parent_distance": 1,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@smooth_manifold",
+    "open_targets": [
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 1,
+    "rank_sum": 32,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 32,
+        "handle": "@smooth_manifold",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@admissibility"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@particle_readable_organization",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty"
+    ],
+    "anchor_support_sum": 1,
+    "rank_sum": 33,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 33,
+        "handle": "@particle_readable_organization",
+        "anchor_support": 1,
+        "min_parent_distance": 1,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@matter_readable_organization"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@second_bianchi_identity",
+    "open_targets": [
+      "@dm_metric_action_selection"
+    ],
+    "anchor_support_sum": 1,
+    "rank_sum": 33,
+    "records": [
+      {
+        "open_target": "@dm_metric_action_selection",
+        "rank": 33,
+        "handle": "@second_bianchi_identity",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@local_energy_momentum_conservation"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@soft_graviton_limit",
+    "open_targets": [
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 1,
+    "rank_sum": 33,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 33,
+        "handle": "@soft_graviton_limit",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@admissibility"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@triadic_evolution",
+    "open_targets": [
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 1,
+    "rank_sum": 34,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 34,
+        "handle": "@triadic_evolution",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@continuity_redistribution"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@acceleration_equation",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty"
+    ],
+    "anchor_support_sum": 1,
+    "rank_sum": 35,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 35,
+        "handle": "@acceleration_equation",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@volume_form",
+    "open_targets": [
+      "@dm_hidden_state_embedding"
+    ],
+    "anchor_support_sum": 1,
+    "rank_sum": 35,
+    "records": [
+      {
+        "open_target": "@dm_hidden_state_embedding",
+        "rank": 35,
+        "handle": "@volume_form",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@admissibility"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@achronal_set",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty"
+    ],
+    "anchor_support_sum": 1,
+    "rank_sum": 36,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 36,
+        "handle": "@achronal_set",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@causal_future",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty"
+    ],
+    "anchor_support_sum": 1,
+    "rank_sum": 39,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 39,
+        "handle": "@causal_future",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity"
+        ]
+      }
+    ]
+  },
+  {
+    "handle": "@chronology_condition",
+    "open_targets": [
+      "@dm_dark_matter_qualification_nonempty"
+    ],
+    "anchor_support_sum": 1,
+    "rank_sum": 40,
+    "records": [
+      {
+        "open_target": "@dm_dark_matter_qualification_nonempty",
+        "rank": 40,
+        "handle": "@chronology_condition",
+        "anchor_support": 1,
+        "min_parent_distance": 2,
+        "lexical_signal": 0,
+        "supporting_anchors": [
+          "@gravity"
+        ]
+      }
+    ]
+  }
+]

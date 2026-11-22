@@ -1,0 +1,239 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_PAIR_V1",
+  "a": "@relational_history",
+  "b": "@dm_hidden_state_bundle",
+  "radius": 3,
+  "interface": [
+    {
+      "handle": "@dm_hidden_state_bundle",
+      "distance_a": 1,
+      "distance_b": 0
+    },
+    {
+      "handle": "@relational_history",
+      "distance_a": 0,
+      "distance_b": 1
+    },
+    {
+      "handle": "@admissible_equivalence",
+      "distance_a": 1,
+      "distance_b": 2
+    },
+    {
+      "handle": "@dm_constraint_preserving_embedding_family",
+      "distance_a": 2,
+      "distance_b": 1
+    },
+    {
+      "handle": "@dm_hidden_s3_network",
+      "distance_a": 2,
+      "distance_b": 1
+    },
+    {
+      "handle": "@dm_hidden_state_embedding",
+      "distance_a": 2,
+      "distance_b": 1
+    },
+    {
+      "handle": "@dm_history_support_preorder",
+      "distance_a": 1,
+      "distance_b": 2
+    },
+    {
+      "handle": "@genlang_phrase_sha_da_rel",
+      "distance_a": 1,
+      "distance_b": 2
+    },
+    {
+      "handle": "@genlang_root_rel",
+      "distance_a": 1,
+      "distance_b": 2
+    },
+    {
+      "handle": "@orientation_history",
+      "distance_a": 1,
+      "distance_b": 2
+    },
+    {
+      "handle": "@resolution",
+      "distance_a": 2,
+      "distance_b": 1
+    },
+    {
+      "handle": "@dm_formal_persistence_qualification",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@persistence",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@bandwidth",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@chirality_transport",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@coherent_continuation_class",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_dark_matter_qualification_locus",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@dm_direct_cycle_gravity_no_go",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@dm_hidden_persistent_subset",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@dm_history_to_continuity_strength",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@dm_mode0_network_selection_rule",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@dm_one_port_no_go",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@dm_resolution_density_profile",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@dm_runtime_transition_capacity",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@genesis_field",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@genlang_family_rel",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@genlang_root_da",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@genlang_root_sha",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@genlang_word_relrin",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@inheritance_morphism",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@inherited_state_bundle",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@mote_chirality",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@mote_lattice",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@native_constraint_closure",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@relationship",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@chirality",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@closure",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@genlang_root_rin",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@global_inheritance",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@native_unit_of_energy",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@occupancy",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@persistent_locus",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@persistent_recursive_topology",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@recoverability",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@recursive_continuity",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@recursive_inheritance",
+      "distance_a": 3,
+      "distance_b": 3
+    }
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry; exact-handle interface only"
+}

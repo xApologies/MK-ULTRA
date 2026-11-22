@@ -1,0 +1,182 @@
+{
+  "handle": "@cognitive_stability",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@cognitive_stability",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 6,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 6,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 1,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@cognitive_stability",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@cognitive_coherence_field",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@cognitive_coherence_field FORMALLY_DEPENDS_ON @cognitive_stability); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      },
+      {
+        "source": "@cognitive_coherence_field",
+        "relation": "DEPENDS_TO",
+        "target": "@cognitive_stability",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45062"
+      },
+      {
+        "source": "@cognitive_coherence_field",
+        "relation": "DIRECTED_TO",
+        "target": "@cognitive_stability",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45062"
+      },
+      {
+        "source": "@cognitive_coherence_field",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@cognitive_stability",
+        "graph_family": "audit",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45062"
+      },
+      {
+        "source": "@cognitive_coherence_field",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@cognitive_stability",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:45316"
+      },
+      {
+        "source": "@cognitive_coherence_field",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@cognitive_stability",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "EDGE_LEDGER_LINE:45062;vertical_chain:2255,vertical_chain:27998"
+      },
+      {
+        "source": "@cognitive_coherence_field",
+        "relation": "USED_BY",
+        "target": "@cognitive_stability",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:45310"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 2134,
+        "source": "@cognitive_stability",
+        "relation": "FORMALLY_SUPPORTS",
+        "target": "@cognitive_coherence_field",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@cognitive_coherence_field FORMALLY_DEPENDS_ON @cognitive_stability); rule=FORMALLY_DEPENDS_ON→FORMALLY_SUPPORTS"
+      },
+      {
+        "id": 180,
+        "source": "@cognitive_coherence_field",
+        "relation": "DEPENDS_TO",
+        "target": "@cognitive_stability",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:45062"
+      },
+      {
+        "id": 181,
+        "source": "@cognitive_coherence_field",
+        "relation": "DIRECTED_TO",
+        "target": "@cognitive_stability",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45062"
+      },
+      {
+        "id": 182,
+        "source": "@cognitive_coherence_field",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@cognitive_stability",
+        "layer": "API43",
+        "graph_family": "audit",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45062"
+      },
+      {
+        "id": 183,
+        "source": "@cognitive_coherence_field",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@cognitive_stability",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:45316"
+      },
+      {
+        "id": 184,
+        "source": "@cognitive_coherence_field",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@cognitive_stability",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "EDGE_LEDGER_LINE:45062;vertical_chain:2255,vertical_chain:27998"
+      },
+      {
+        "id": 185,
+        "source": "@cognitive_coherence_field",
+        "relation": "USED_BY",
+        "target": "@cognitive_stability",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:45310"
+      }
+    ]
+  },
+  "address": "@cognitive_stability",
+  "address_sha256": "48cef85eb3ba08cddbdb264e3e8784899541bf7e5c21ab3d8135c3ead3ec2c0a"
+}

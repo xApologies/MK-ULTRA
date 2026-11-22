@@ -1,0 +1,585 @@
+{
+  "schema": "ASTRAEUS_API_QMO_MOTE_STATE_REPRESENTATION_SEAM_V1",
+  "qmo_id": "QMO-AST-DM-WL-064",
+  "name": "Mote Configuration / Chirality / Hilbert Hidden-State Seam",
+  "atlas_version": "WL-v179",
+  "status": "API_STATE_REPRESENTATION_LANDSCAPE_NOT_PARENT_PROMOTED",
+  "hidden_s3_to_configuration": {
+    "source": "@dm_hidden_s3_network",
+    "target": "@mote_configuration_space",
+    "path": [
+      {
+        "source": "@dm_hidden_s3_network",
+        "relation": "USES",
+        "target": "@dm_runtime_transition_capacity",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      },
+      {
+        "source": "@dm_runtime_transition_capacity",
+        "relation": "CONSTRAINED_BY",
+        "target": "@bandwidth",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      },
+      {
+        "source": "@bandwidth",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_configuration_space",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50983->50984",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ]
+  },
+  "hidden_s3_to_chirality": {
+    "source": "@dm_hidden_s3_network",
+    "target": "@mote_chirality",
+    "path": [
+      {
+        "source": "@dm_hidden_s3_network",
+        "relation": "USES",
+        "target": "@dm_runtime_transition_capacity",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      },
+      {
+        "source": "@dm_runtime_transition_capacity",
+        "relation": "CONSTRAINED_BY",
+        "target": "@resolution",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      },
+      {
+        "source": "@resolution",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_chirality",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50980->50981",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ]
+  },
+  "chirality_embedding_pair": {
+    "schema": "ASTRAEUS_CROSS_API_PAIR_QUERY_V1",
+    "a": "@mote_chirality",
+    "b": "@dm_hidden_state_embedding",
+    "radius": 2,
+    "a_node_count": 28,
+    "b_node_count": 22,
+    "interface": [
+      {
+        "handle": "@dm_hidden_state_bundle",
+        "distance_a": 2,
+        "distance_b": 1
+      },
+      {
+        "handle": "@resolution",
+        "distance_a": 1,
+        "distance_b": 2
+      },
+      {
+        "handle": "@dm_runtime_transition_capacity",
+        "distance_a": 2,
+        "distance_b": 2
+      },
+      {
+        "handle": "@native_constraint_closure",
+        "distance_a": 2,
+        "distance_b": 2
+      }
+    ],
+    "path_a_to_b": [
+      {
+        "source": "@mote_chirality",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_hilbert_space",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50123->50124",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@mote_hilbert_space",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_ensemble",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50126->50127",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@mote_ensemble",
+        "relation": "DIRECTED_TO",
+        "target": "@time_shell",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50153->50154",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@time_shell",
+        "relation": "DEPENDS_TO",
+        "target": "@gravity",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45137",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@gravity",
+        "relation": "DEPENDS_TO",
+        "target": "@gravitational_radiation",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45089",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@gravitational_radiation",
+        "relation": "DEPENDS_TO",
+        "target": "@inspiral",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45083",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@inspiral",
+        "relation": "DEPENDS_TO",
+        "target": "@merger",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45099",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@merger",
+        "relation": "DEPENDS_TO",
+        "target": "@ringdown",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45102",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@ringdown",
+        "relation": "DEPENDS_TO",
+        "target": "@black_hole_horizon",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45131",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@black_hole_horizon",
+        "relation": "DEPENDS_TO",
+        "target": "@white_state_core",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45052",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@white_state_core",
+        "relation": "SUPPLIES_MODE0_ACCESS_INTERFACE",
+        "target": "@dm_mode0_access_interface",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "USER_CURATORIAL_RULING",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      },
+      {
+        "source": "@dm_mode0_access_interface",
+        "relation": "REQUIRES",
+        "target": "@dm_mode0_network_selection_rule",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      },
+      {
+        "source": "@dm_mode0_network_selection_rule",
+        "relation": "SELECTS_ACCESS_TO",
+        "target": "@dm_hidden_s3_network",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      },
+      {
+        "source": "@dm_hidden_s3_network",
+        "relation": "REQUIRES",
+        "target": "@dm_hidden_state_embedding",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      }
+    ],
+    "path_b_to_a": [
+      {
+        "source": "@dm_hidden_state_embedding",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_hidden_state_bundle",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.1",
+        "origin": "DARKMATTER_2.1",
+        "origin_api": "DARKMATTER_2.1"
+      },
+      {
+        "source": "@dm_hidden_state_bundle",
+        "relation": "DEPENDS_ON",
+        "target": "@resolution",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1",
+        "origin": "DARKMATTER_2.1",
+        "origin_api": "DARKMATTER_2.1"
+      },
+      {
+        "source": "@resolution",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_chirality",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50980->50981",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    "edge_policy": {
+      "timespace": "high-confidence direct/non-derived RP42 records",
+      "darkmatter": "high-confidence DM_DIRECT_EDGE_REGISTRY records",
+      "gluing": "exact handle equality only; no cross-edge is invented"
+    }
+  },
+  "hidden_s3_to_hilbert": {
+    "source": "@dm_hidden_s3_network",
+    "target": "@mote_hilbert_space",
+    "path": [
+      {
+        "source": "@dm_hidden_s3_network",
+        "relation": "USES",
+        "target": "@dm_runtime_transition_capacity",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      },
+      {
+        "source": "@dm_runtime_transition_capacity",
+        "relation": "CONSTRAINED_BY",
+        "target": "@resolution",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      },
+      {
+        "source": "@resolution",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_chirality",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50980->50981",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@mote_chirality",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_hilbert_space",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50123->50124",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ]
+  },
+  "hilbert_embedding_pair": {
+    "schema": "ASTRAEUS_CROSS_API_PAIR_QUERY_V1",
+    "a": "@mote_hilbert_space",
+    "b": "@dm_hidden_state_embedding",
+    "radius": 2,
+    "a_node_count": 17,
+    "b_node_count": 22,
+    "interface": [
+      {
+        "handle": "@resolution",
+        "distance_a": 2,
+        "distance_b": 2
+      }
+    ],
+    "path_a_to_b": [
+      {
+        "source": "@mote_hilbert_space",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_ensemble",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50126->50127",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@mote_ensemble",
+        "relation": "DIRECTED_TO",
+        "target": "@time_shell",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50153->50154",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@time_shell",
+        "relation": "DEPENDS_TO",
+        "target": "@gravity",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45137",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@gravity",
+        "relation": "DEPENDS_TO",
+        "target": "@gravitational_radiation",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45089",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@gravitational_radiation",
+        "relation": "DEPENDS_TO",
+        "target": "@inspiral",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45083",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@inspiral",
+        "relation": "DEPENDS_TO",
+        "target": "@merger",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45099",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@merger",
+        "relation": "DEPENDS_TO",
+        "target": "@ringdown",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45102",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@ringdown",
+        "relation": "DEPENDS_TO",
+        "target": "@black_hole_horizon",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45131",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@black_hole_horizon",
+        "relation": "DEPENDS_TO",
+        "target": "@white_state_core",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45052",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@white_state_core",
+        "relation": "SUPPLIES_MODE0_ACCESS_INTERFACE",
+        "target": "@dm_mode0_access_interface",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "USER_CURATORIAL_RULING",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      },
+      {
+        "source": "@dm_mode0_access_interface",
+        "relation": "REQUIRES",
+        "target": "@dm_mode0_network_selection_rule",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      },
+      {
+        "source": "@dm_mode0_network_selection_rule",
+        "relation": "SELECTS_ACCESS_TO",
+        "target": "@dm_hidden_s3_network",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      },
+      {
+        "source": "@dm_hidden_s3_network",
+        "relation": "REQUIRES",
+        "target": "@dm_hidden_state_embedding",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.0",
+        "origin": "DARKMATTER_2.0",
+        "origin_api": "DARKMATTER_2.0"
+      }
+    ],
+    "path_b_to_a": [
+      {
+        "source": "@dm_hidden_state_embedding",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_hidden_state_bundle",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.1",
+        "origin": "DARKMATTER_2.1",
+        "origin_api": "DARKMATTER_2.1"
+      },
+      {
+        "source": "@dm_hidden_state_bundle",
+        "relation": "DEPENDS_ON",
+        "target": "@resolution",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.1",
+        "origin": "DARKMATTER_2.1",
+        "origin_api": "DARKMATTER_2.1"
+      },
+      {
+        "source": "@resolution",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_chirality",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50980->50981",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      {
+        "source": "@mote_chirality",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_hilbert_space",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50123->50124",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    "edge_policy": {
+      "timespace": "high-confidence direct/non-derived RP42 records",
+      "darkmatter": "high-confidence DM_DIRECT_EDGE_REGISTRY records",
+      "gluing": "exact handle equality only; no cross-edge is invented"
+    }
+  },
+  "source_math": {
+    "configuration": "C_mote={n in {0,1}^{Lambda_mote} | selected diagonal/layer constraints}",
+    "chirality_projection": "pi_chi:C_mote -> {+1,-1}",
+    "hilbert_space": "H_mote=span{|+>,|->}"
+  },
+  "finding": "The APIs expose a Resolution/Bandwidth-qualified route from the hidden S3 network into mote configuration/chirality state-space handles. @mote_chirality meets the hidden-embedding radius-2 neighborhood on @dm_hidden_state_bundle, @resolution, @dm_runtime_transition_capacity, and @native_constraint_closure. No API edge identifies this Hilbert reduction with the hidden S3 bundle embedding.",
+  "next_handle": "@persistence_potential",
+  "guardrails": [
+    "mote Hilbert space != hidden-state bundle",
+    "state-space reduction != hidden S3 embedding",
+    "chirality projection != dark-matter qualification",
+    "no parent promotion"
+  ]
+}

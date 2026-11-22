@@ -1,0 +1,264 @@
+{
+  "schema": "ASTRAEUS_THEOREM_REGISTRY_V1",
+  "theorem_count": 13,
+  "theorems": [
+    {
+      "handle": "@theorem_resolution_handoff_fixed_bandwidth",
+      "title": "Resolution-Handoff Continuity Theorem — fixed Bandwidth",
+      "status": "DERIVED_CONDITIONAL",
+      "branch": "live_model",
+      "statement": "If Resolution handoff commutes, presentations share retained Formal Identity, the Identity Witness remains valid, and merged essential distinctions remain recoverable through provenance, then non-injective coarsening is structurally continuous under the declared contract.",
+      "assumptions": [
+        "rho_Ri = q_ji o rho_Rj",
+        "same retained formal object",
+        "valid Identity Witness",
+        "merged essential distinctions recoverable"
+      ],
+      "conclusion": "coarsening may change distinguishability without erasing canonical structure",
+      "provenance": [
+        "LIVE_MODEL::NF-005 §53.5"
+      ]
+    },
+    {
+      "handle": "@theorem_bandwidth_resolution_descent",
+      "title": "Bandwidth Modifier Resolution-Descent Condition",
+      "status": "DERIVED_CONDITIONAL",
+      "branch": "live_model",
+      "statement": "A typed Bandwidth modifier M descends to a well-defined Resolution readout map only if source Resolution equivalence is respected by the target readout: a~_R b implies M(a)~_R' M(b).",
+      "assumptions": [
+        "typed Bandwidth modifier",
+        "declared source/target Resolution equivalences"
+      ],
+      "conclusion": "induced readout map exists iff equivalence is respected",
+      "provenance": [
+        "LIVE_MODEL::NF-005 §53.7"
+      ]
+    },
+    {
+      "handle": "@theorem_witness_fiber_separation",
+      "title": "Recovery Witness Fiber-Separation Theorem",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "branch": "self_build",
+      "statement": "Let F_c be the fine-lineage fiber over one coarse Resolution handoff/readout c, and let W be the retained recovery-witness map on F_c. A witness-mediated recovery selector returns a unique declared fine lineage for every element of F_c if and only if W separates distinct recovery-relevant lineages on F_c (equivalently: W restricted to F_c has no collisions under the declared structural equivalence).",
+      "assumptions": [
+        "non-injective handoff fiber F_c is declared",
+        "recovery equivalence is declared",
+        "selector may use only retained witness data and may not invent suppressed structure"
+      ],
+      "conclusion": "Unique lineage recovery is equivalent to fiber separation by the retained witness; non-separating witness bundles are insufficient without an additional discriminator.",
+      "provenance": [
+        "SELF_BUILD_PASS_003",
+        "CE-RW-001",
+        "RESOLUTION_READOUT::S35",
+        "IDENTITY_THROUGH_HISTORY::D39-D49",
+        "HOLONOMY_CHIRALITY::HC-T8"
+      ]
+    },
+    {
+      "handle": "@theorem_recovery_context_quotient",
+      "title": "Recovery Context Quotient Theorem",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "branch": "self_build",
+      "statement": "Let H be the admitted typed History path algebra and let T_rec be the declared recovery-test family. Define h ~_Rec k when all tests in T_rec agree after every admissible left/right History context in which both histories can be compared. Then ~_Rec is a compositional congruence; Sig_Rec(h)=[h]_Rec has well-defined induced composition; the quotient is recovery-sufficient for T_rec; and among compositional signatures preserving all T_rec distinctions it is the coarsest (least structurally discriminating) such signature.",
+      "assumptions": [
+        "History paths compose associatively on their admitted typed sector",
+        "recovery test family is explicitly declared for the selected recovery contract",
+        "tests are compared only in contexts where both composites are typed/admissible",
+        "signature sufficiency is relative to the declared test family; no claim of finite representation is assumed"
+      ],
+      "conclusion": "Full ordered History need not be retained as the visible recovery signature in principle; the abstract minimal compositional signature is the Recovery Context Equivalence class, while full History/provenance remains recoverable upstream under the continuity contract.",
+      "provenance": [
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/02_IDENTITY_WITNESS_TRANSPORT.md",
+        "IDENTITY_THROUGH_HISTORY::D43-D49",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "TRANSDUCTION_GEOMETRY::D14_DERIVATION_MACRO",
+        "SELF_BUILD_PASS_003",
+        "QMO:@dl_recovery_history_signature_core"
+      ]
+    },
+    {
+      "handle": "@theorem_recovery_signature_realization",
+      "title": "Recovery Signature Realization Theorem",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "branch": "self_build",
+      "statement": "Let Sig_Rec=H/~_Rec be the closed abstract recovery signature quotient and let sigma:H->S be a concrete signature compatible with History composition. Then sigma is an exact realization of the minimal recovery signature iff ker(sigma)=~_Rec. If ker(sigma) strictly contains ~_Rec, sigma is recovery-insufficient; if ker(sigma) is strictly contained in ~_Rec, sigma over-resolves the declared recovery structure; if neither inclusion holds, both defect types occur.",
+      "assumptions": [
+        "Recovery Context Quotient Theorem is closed",
+        "concrete signature sigma is typed on the compared History sector",
+        "signature equality/equivalence is declared",
+        "composition compatibility is tested separately"
+      ],
+      "conclusion": "Concrete signature realization becomes a kernel-equality problem; D57/Sig_Hol cannot be promoted as minimal until this equality and composition are established.",
+      "provenance": [
+        "SELF_BUILD_PASS_004",
+        "QMO:@dl_holonomy_signature_realization",
+        "QMO:@recovery_history_signature_quotient",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "HOLONOMY_CHIRALITY::D57_HOLONOMY_HISTORY_SIGNATURE_SCAFFOLD",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md"
+      ]
+    },
+    {
+      "handle": "@theorem_signature_envelope_normalization",
+      "title": "Signature Envelope Normalization Theorem",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "branch": "self_build",
+      "statement": "Let h be a typed History path h:x->y. Let scope be the declared comparison/classifier scope for the signature and let provenance be recoverably bound to the signature QMO address. Then the flat record Sig_Hol(h)=(src,tgt,[h],Hol_Conn,Hol_chi,Hol_Id,scope,provenance) is recoverably equivalent, as a complete API record, to the typed normal form <x,y;scope,provenance | [h],Hol_Conn,Hol_chi,Hol_Id>. This factoring relocates information between type/envelope and payload but does not alter the signature kernel when equality compares the complete joined record.",
+      "assumptions": [
+        "History source and target are typed functions on h",
+        "scope remains explicitly declared and recoverable",
+        "QMO metadata/provenance lookup is one-to-one and append-only for the signature address",
+        "comparison uses the complete joined record rather than payload alone"
+      ],
+      "conclusion": "src,tgt,scope,provenance need not be treated as homogeneous payload fields in field-redundancy search. No structural payload field is thereby proven redundant.",
+      "provenance": [
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/01_HISTORY_PATH_ALGEBRA.md",
+        "IDENTITY_THROUGH_HISTORY::FORMAL/07_TIME_SHELL_HISTORY_READOUT.md",
+        "TRANSDUCTION_GEOMETRY::@classifier_scope",
+        "ASTRAEUS_API::QMO_METADATA_ADDRESS_CONTRACT",
+        "SELF_BUILD_PASS_005_SIGNATURE_REALIZATION"
+      ]
+    },
+    {
+      "handle": "@theorem_signature_role_separation",
+      "title": "Signature Role Separation Theorem",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "branch": "self_build",
+      "statement": "Let Sig_Rec be defined as the coarsest compositional signature preserving the declared recovery tests. Let Sig_Hol be the source D57 typed signature that packages, without identifying, connection, chirality, Identity, History, scope, and provenance effects. Then exact kernel equality ker(Sig_Hol)=~_Rec is not a source requirement for Sig_Hol. It becomes a requirement only under the additional implementation contract that Sig_Hol is intended to realize the minimal recovery-selector role. Otherwise Sig_Hol may intentionally retain diagnostically useful distinctions beyond recovery minimality.",
+      "assumptions": [
+        "Recovery Context Quotient Theorem is closed",
+        "D57 source signature is interpreted according to FORMAL/06_HOLONOMY.md",
+        "no extra source claim identifies the diagnostic role with minimal recovery realization"
+      ],
+      "conclusion": "Holonomy field-redundancy/minimality is an optional implementation optimization, not a foundational blocker for the recovery architecture or the number program.",
+      "provenance": [
+        "SELF_BUILD_PASS_004_RECOVERY_CONTEXT_QUOTIENT",
+        "SELF_BUILD_PASS_005_SIGNATURE_REALIZATION",
+        "SELF_BUILD_PASS_006_SIGNATURE_ROLE_NORMALIZATION",
+        "HOLONOMY_CHIRALITY::FORMAL/06_HOLONOMY.md",
+        "QMO:@recovery_history_signature_quotient",
+        "QMO:@holonomy_history_signature"
+      ]
+    },
+    {
+      "handle": "@theorem_object_before_scalarization",
+      "title": "Object-Before-Scalarization Theorem",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "branch": "number_foundations",
+      "statement": "Within the mounted Bandwidth Algebra, the formal object A_B and its Resolution readout are defined independently of any scalar valuation. BA-D11 introduces beta only when a scalar summary is needed and explicitly states that the result is a readout rather than the definition of Bandwidth. Hence scalar/numerical description is downstream of at least one fully defined native mathematical object.",
+      "assumptions": [
+        "Mounted Bandwidth Algebra v1.0 definitions are admitted",
+        "Scalar valuation is interpreted according to BA-D11/BA-D12",
+        "No claim is made that every numerical object arises this way"
+      ],
+      "conclusion": "A formal mathematical object need not be numerical in order to exist or be manipulated; numerical/scalar summary can be a later readout role.",
+      "provenance": [
+        "BANDWIDTH_ALGEBRA::FORMAL/00_EXECUTIVE_SUMMARY.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "TRANSDUCTION_GEOMETRY::@classifier_scope",
+        "QMO:@dl_number_object_readout",
+        "QMO:@it_number_object_readout_3"
+      ]
+    },
+    {
+      "handle": "@theorem_unit_value_not_counting",
+      "title": "Unit Value Is Not Counting Theorem",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "branch": "number_foundations",
+      "statement": "Let U_1 contain admissible Unit-String configurations with ell(c)=1 for every c in U_1, and let A_B(U_1) admit reconfiguration moves between distinct configurations. Then the token 1 in ell(c)=1 is invariant across a family containing potentially multiple distinct configurations. Therefore its structural role in this source construction is normalization, not enumeration of how many configurations exist.",
+      "assumptions": [
+        "Unit String source definition ell(c)=1 is admitted",
+        "Distinct admissible configurations/reconfiguration moves are permitted in A_B(U_1)",
+        "No identification of the glyph 1 with conventional arithmetic ontology is assumed"
+      ],
+      "conclusion": "A 1-labeled valuation can have a non-counting structural role; numeral glyph alone does not determine number ontology.",
+      "provenance": [
+        "BANDWIDTH_ALGEBRA::FORMAL/07_UNIT_STRING_AND_HELICON_INTERFACE.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/09_EXAMPLES.md",
+        "QMO:@number_valuation_codomain_frontier",
+        "QMO:@foundational_valuation_lift"
+      ]
+    },
+    {
+      "handle": "@theorem_valuation_factorization",
+      "title": "Valuation-Fiber Factorization Theorem",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "branch": "number_foundations",
+      "statement": "For any declared function v:X->V, define x~_v y iff v(x)=v(y). Then ~_v is an equivalence relation, the quotient projection pi_v:X->Q_v=X/~_v is well-defined, and v factors uniquely through its image by v_bar([x])=v(x). The induced v_bar is injective onto im(v).",
+      "assumptions": [
+        "v is a function",
+        "equality on V is an equivalence relation"
+      ],
+      "conclusion": "Valuation outputs correspond to valuation-fiber classes; this factorization uses no arithmetic structure on V.",
+      "provenance": [
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE"
+      ]
+    },
+    {
+      "handle": "@theorem_fiber_structure_not_numerical",
+      "title": "Fiber Structure Is Not Numericality Theorem",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "branch": "number_foundations",
+      "statement": "The fiber-equivalence and quotient-factorization construction applies to every function/readout, including qualitative classifier readouts. Therefore being a quotient label of source-object fibers is a generic readout property and is insufficient to characterize numericality.",
+      "assumptions": [
+        "@theorem_valuation_factorization",
+        "@classifier_readout_role is admitted as a non-numerical/generic classification role"
+      ],
+      "conclusion": "Numerical role requires structure beyond functional fiber partition and quotient labeling.",
+      "provenance": [
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE"
+      ]
+    },
+    {
+      "handle": "@theorem_order_precedes_scalarization",
+      "title": "Order Precedes Scalarization Theorem",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "branch": "number_foundations",
+      "statement": "Bandwidth Algebra BA-D10 defines B1<=B2 by structural inclusion of available transformations, while BA-D11 introduces scalar beta only when a scalar summary is needed. Hence the native order is meaningful before scalar numerical valuation is introduced.",
+      "assumptions": [
+        "Bandwidth Algebra BA-D10",
+        "Bandwidth Algebra BA-D11"
+      ],
+      "conclusion": "Order/comparison alone cannot be the missing condition that makes a valuation output numerical.",
+      "provenance": [
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation"
+      ]
+    },
+    {
+      "handle": "@theorem_unit_order_underdetermination",
+      "title": "Unit-Order Underdetermination Theorem",
+      "status": "DERIVED_CLOSED_INTERNAL",
+      "branch": "number_foundations",
+      "statement": "Let a valuation-output domain V carry only its valuation-fiber equality, an order <=_V, and distinguished unit u. For every automorphism phi of this declared structure with phi(u)=u, v and phi∘v satisfy the same named fiber/order/unit contract. Therefore, whenever a nonidentity such phi exists, that contract underdetermines the readout coordinate and supplies no unique quantitative or arithmetic semantics.",
+      "assumptions": [
+        "V has declared equality/order/unit only",
+        "phi preserves the declared structure and fixes u"
+      ],
+      "conclusion": "Unit plus order can constrain a value domain without closing numerical role; extra scale/transport structure is required whenever the stabilizer is nontrivial.",
+      "provenance": [
+        "QMO:@foundational_valuation_lift",
+        "QMO:@classifier_readout_role",
+        "QMO:@unit_normalization_invariant",
+        "QMO:@unit_string_configuration_domain",
+        "PRIME::FUNCTIONAL_REPRESENTATION_AND_QUOTIENT_STRUCTURE",
+        "BANDWIDTH_ALGEBRA::FORMAL/03_BANDWIDTH_ORDER_AND_VALUATION.md",
+        "BANDWIDTH_ALGEBRA::FORMAL/02_CORE_BANDWIDTH_ALGEBRA.md",
+        "QMO:@bandwidth_scalar_valuation",
+        "QMO:@number_unit_normalization_frontier"
+      ]
+    }
+  ]
+}

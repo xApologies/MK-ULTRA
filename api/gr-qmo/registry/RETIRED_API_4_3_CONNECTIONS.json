@@ -1,0 +1,83 @@
+{
+  "schema": "GR_QMO_LEGACY_CONNECTION_RETIREMENT_V1",
+  "active": false,
+  "import_into_active_graph": false,
+  "corrected": [
+    {
+      "before": {
+        "source": "@metric_perturbation",
+        "relation": "REALIZES",
+        "target": "@time_shell_projection",
+        "graph_family": "representation",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-43",
+        "provenance": "ACCEPTED_MATHEMATICS;GR_MODEL_EDGE:194"
+      },
+      "after": {
+        "source": "@time_shell_projection",
+        "relation": "REALIZES",
+        "target": "@metric_perturbation",
+        "graph_family": "representation",
+        "confidence": "high",
+        "audit_status": "corrected",
+        "recovery_pass": "GR-QMO-REPAIR-1",
+        "provenance": "CORRECTED_FROM_API_4_3_DIRECTION; source_equation=h=Pi_T(q*); replacement=@time_shell_projection REALIZES @metric_perturbation"
+      }
+    },
+    {
+      "before": {
+        "source": "@time_shell_projection",
+        "relation": "REALIZED_BY",
+        "target": "@metric_perturbation",
+        "graph_family": "representation",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@metric_perturbation REALIZES @time_shell_projection); rule=REALIZES→REALIZED_BY"
+      },
+      "after": {
+        "source": "@metric_perturbation",
+        "relation": "REALIZED_BY",
+        "target": "@time_shell_projection",
+        "graph_family": "representation",
+        "confidence": "high",
+        "audit_status": "corrected",
+        "recovery_pass": "GR-QMO-REPAIR-1",
+        "provenance": "CORRECTED_FROM_API_4_3_DIRECTION; source_equation=h=Pi_T(q*); replacement=@metric_perturbation REALIZED_BY @time_shell_projection"
+      }
+    }
+  ],
+  "retired": [
+    {
+      "source": "@graviton",
+      "relation": "PROJECTS_TO",
+      "target": "@time_shell_projection",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-47",
+      "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=1; path=@graviton -> @metric_perturbation -> @time_shell_projection; relations=PROJECTS_TO + REALIZES => PROJECTS_TO"
+    },
+    {
+      "source": "@linear_metric_perturbation",
+      "relation": "REALIZES",
+      "target": "@time_shell_projection",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-47",
+      "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=1; path=@linear_metric_perturbation -> @metric_perturbation -> @time_shell_projection; relations=SPECIALIZES + REALIZES => REALIZES"
+    },
+    {
+      "source": "@spin_2_projection",
+      "relation": "PROJECTS_TO",
+      "target": "@time_shell_projection",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "derived",
+      "recovery_pass": "RP-47",
+      "provenance": "DERIVED:RP47_TYPED_RELATION_COMPOSITION; round=2; path=@spin_2_projection -> @graviton -> @time_shell_projection; relations=REALIZES + PROJECTS_TO => PROJECTS_TO"
+    }
+  ]
+}

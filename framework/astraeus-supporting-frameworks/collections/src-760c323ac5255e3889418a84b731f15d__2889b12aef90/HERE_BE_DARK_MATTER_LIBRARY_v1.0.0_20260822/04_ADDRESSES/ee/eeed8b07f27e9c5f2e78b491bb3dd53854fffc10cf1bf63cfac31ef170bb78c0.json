@@ -1,0 +1,26 @@
+{
+  "handle": "closure://CC-DM-E095-001",
+  "object_type": "closure_certificate",
+  "status": "CROSS_API_STRUCTURAL_COMPONENT_ROUTE_CLOSED",
+  "domain": "CLOSURE",
+  "namespace": "mk43://closure",
+  "name": "CC-DM-E095-001",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E095",
+  "qmo_generated": true,
+  "proof_status": "CROSS_API_STRUCTURAL_COMPONENT_ROUTE_CLOSED",
+  "empirical_status": "",
+  "provenance_class": "CLOSURE_CERTIFICATE",
+  "metadata": {
+    "id": "CC-DM-E095-001",
+    "object_handle": "@dm_xapi_energy_density_stress_corridor",
+    "decision": "CROSS_API_STRUCTURAL_COMPONENT_ROUTE_CLOSED",
+    "checkpoint": "E095",
+    "source_file": "live/checkpoints/E095/closure/CC-DM-E095-001.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_CLOSURE_CERTIFICATE_V1\", \"certificate_id\": \"CC-DM-E095-001\", \"checkpoint\": \"E095\", \"object\": \"@dm_xapi_energy_density_stress_corridor\", \"decision\": \"CROSS_API_STRUCTURAL_COMPONENT_ROUTE_CLOSED\", \"scope\": \"formal typed route only\", \"premises\": [{\"source\": \"DM2.2 direct edge\", \"statement\": \"@dm_resolution_density_profile REALIZES @energy_density (high, ATLAS_DERIVED)\"}, {\"source\": \"API4.3 RP45 GR dependency landscape\", \"statement\": \"@energy_density ENTERS @stress_energy_tensor (high, recovered)\"}, {\"source\": \"DM2.2 V32 Theorem 201.1\", \"statement\": \"one nonzero readable density component is sufficient to prove stress-energy tensors differ\"}], \"checks\": {\"direct_cross_api_bridge_present\": true, \"stress_energy_component_edge_present\": true, \"full_tensor_reconstruction_claimed\": false, \"observer_calibration_claimed\": false, \"parent_api_mutated\": false, \"physical_promotion\": false}, \"result\": \"The structural density->stress-energy bridge is no longer an undefined monolithic map. Only component-preserving readable calibration/normalization remains open.\"}"
+  },
+  "address": "closure://CC-DM-E095-001",
+  "address_sha256": "eeed8b07f27e9c5f2e78b491bb3dd53854fffc10cf1bf63cfac31ef170bb78c0"
+}

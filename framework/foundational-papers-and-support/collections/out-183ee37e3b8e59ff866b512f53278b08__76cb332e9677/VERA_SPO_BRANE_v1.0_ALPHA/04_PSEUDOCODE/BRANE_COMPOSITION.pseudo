@@ -1,0 +1,32 @@
+FUNCTION BRANE_BUILD_SPO(request):
+    VALIDATE request
+    ai5      ← LOAD_AND_VALIDATE(AI_SLOT)
+    api5     ← LOAD_AND_VALIDATE(API_SLOT)      // API^5 = SPO_API^5
+    library5 ← LOAD_AND_VALIDATE(LIBRARY_SLOT)
+
+    ctx ← CREATE_PRIVATE_CONTEXT(request)
+    qmo6 ← CREATE_QMO6(ctx)
+
+    TRY:
+        intent ← ai5.INTERPRET(request)
+        root ← api5.RESOLVE(intent.subject)
+        graph ← api5.RECOVER_CLOSURE(root, intent.traversal_policy)
+        traversal ← ai5.COLLAPSE_TO_FINITE_REALIZATION(graph, ctx)
+
+        FOR node IN traversal.order:
+            lifted ← CHIRALITY_LIFT(node, request, ctx)
+            ASSERT api5.ADMISSIBLE(node, intent, lifted.chirality, lifted.provenance)
+            qmo6.ADD(lifted)
+            content ← library5.RECOVER(node.handle, lifted)
+            qmo6.ATTACH_KNOWLEDGE(lifted, content)
+        END
+
+        VALIDATE_HANDLE_ACCOUNTING(qmo6)
+        spo ← PROJECT_SPO(qmo6, request.profile_package, request.target_device)
+        receipt ← VALIDATE_SPO_INSTANCE(spo, qmo6)
+        RETURN spo, receipt
+
+    FINALLY:
+        DESTROY_PRIVATE_QMO(qmo6)
+        CLEAR_PRIVATE_CONTEXT(ctx)
+END

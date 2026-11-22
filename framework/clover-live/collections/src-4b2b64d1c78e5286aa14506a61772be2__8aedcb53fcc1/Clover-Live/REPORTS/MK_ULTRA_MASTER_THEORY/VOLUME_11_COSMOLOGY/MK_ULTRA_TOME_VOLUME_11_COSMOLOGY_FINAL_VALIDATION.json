@@ -1,0 +1,200 @@
+{
+  "schema": "tome-final-volume-assembly-validation/v1",
+  "created_at": "2026-08-12T12:07:46.719975+00:00",
+  "assembly_method": "BYTE_VERIFIED_SEALED_CHAPTER_PDF_CONCATENATION_WITH_CONTINUOUS_VOLUME_PAGINATION",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1_SEALED_CHAPTER_ARTIFACT_ASSEMBLY",
+  "source_renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "volume_id": "V11",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_11_COSMOLOGY/MK_ULTRA_TOME_VOLUME_11_COSMOLOGY_FINAL.pdf",
+    "bytes": 3164901,
+    "sha256": "78ecb2ef3467e0c52c20511b8d1300fb71f64457d4c20d64a45ee714368b92d2"
+  },
+  "actual_pages": 49,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V11-C01": 3,
+    "V11-C02": 10,
+    "V11-C03": 17,
+    "V11-C04": 24,
+    "V11-C05": 32,
+    "V11-C06": 39,
+    "V11-C07": 46
+  },
+  "chapter_count": 7,
+  "chapter_inputs": [
+    {
+      "chapter_id": "V11-C01",
+      "source_sha256": "43f0226743e205441c43d01c43250c25c6e5f98808f3800c9e15e0416c9f1888",
+      "published_source_sha256": "43f0226743e205441c43d01c43250c25c6e5f98808f3800c9e15e0416c9f1888",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1259,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_11_COSMOLOGY/MK_ULTRA_TOME_V11_C01_COSMOLOGICAL_REALIZATION_OF_MK_43_ULTRA.pdf",
+        "bytes": 168970,
+        "sha256": "f9582c8b16f67250393962d76816b309f80265b0adcca82721442bec2d1403ac"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_11_COSMOLOGY/MK_ULTRA_TOME_V11_C01_COSMOLOGICAL_REALIZATION_OF_MK_43_ULTRA_VALIDATION.json",
+        "bytes": 2833,
+        "sha256": "7f466f7d039b5d65e31cf7d467ee9bf3d3c1faa9a42aa3c101cc252979f3c5ee"
+      },
+      "pages": 7,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 3,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V11-C02",
+      "source_sha256": "5603b5c1f94a706803adf64716f3d1d1721bc836ada7046301cbd5e49b8e5712",
+      "published_source_sha256": "ca1c0835245fd1a17045da02a42cb539e99e7962adc42946292c5a847c3f0683",
+      "published_source_differs_from_current_sealed_ledger_source": true,
+      "word_count": 1310,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_11_COSMOLOGY/MK_ULTRA_TOME_V11_C02_FRIEDMANN_AND_BACKGROUND_DYNAMICS.pdf",
+        "bytes": 161464,
+        "sha256": "aba5640dda273dbf4c034dfdab3e78fa493f7c515b5440052ce1da64d5817604"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_11_COSMOLOGY/MK_ULTRA_TOME_V11_C02_FRIEDMANN_AND_BACKGROUND_DYNAMICS_VALIDATION.json",
+        "bytes": 3314,
+        "sha256": "f175c63e6261dfd9e0c1ac806ff041dc4d680f4bbfa2bc7f30b145482350c390"
+      },
+      "pages": 7,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 10,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V11-C03",
+      "source_sha256": "0197521019390fd29d6ed9546506506949a263a2cd52525dcfd51b8cca3eacfd",
+      "published_source_sha256": "0197521019390fd29d6ed9546506506949a263a2cd52525dcfd51b8cca3eacfd",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1511,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_11_COSMOLOGY/MK_ULTRA_TOME_V11_C03_BOUNCE_CRITERIA_AND_RE_EXPANSION.pdf",
+        "bytes": 165170,
+        "sha256": "c8f028499478a57c8285e69e94e93d8c14012fe20adb089f3d45821ab7d33b45"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_11_COSMOLOGY/MK_ULTRA_TOME_V11_C03_BOUNCE_CRITERIA_AND_RE_EXPANSION_VALIDATION.json",
+        "bytes": 2826,
+        "sha256": "e904dd1ffdc19833a65c097818b542fa2cc3572b8ba491de5100673beb0a5449"
+      },
+      "pages": 7,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 17,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V11-C04",
+      "source_sha256": "4350c252c5c6c41f0038a16b0ba1a89f3f39fd8f9368ad9a6bf035a17ac78bc4",
+      "published_source_sha256": "4350c252c5c6c41f0038a16b0ba1a89f3f39fd8f9368ad9a6bf035a17ac78bc4",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1746,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_11_COSMOLOGY/MK_ULTRA_TOME_V11_C04_COSMIC_CYCLES_AND_INHERITANCE.pdf",
+        "bytes": 176554,
+        "sha256": "232f467893be3f1bab3b828a006498be86e2813c5dbf1b938b97cc142e7a19e9"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_11_COSMOLOGY/MK_ULTRA_TOME_V11_C04_COSMIC_CYCLES_AND_INHERITANCE_VALIDATION.json",
+        "bytes": 2823,
+        "sha256": "7e0da35bca8d6a004b9070ef6bcd2eb0ae9b583dbf8406827e77338cbf57c48a"
+      },
+      "pages": 8,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 24,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V11-C05",
+      "source_sha256": "1b4a46e0e72ccdea34a7f736726eeb57426a4132a003c3f686facbda272f3a2c",
+      "published_source_sha256": "1b4a46e0e72ccdea34a7f736726eeb57426a4132a003c3f686facbda272f3a2c",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1467,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_11_COSMOLOGY/MK_ULTRA_TOME_V11_C05_STRUCTURE_FORMATION.pdf",
+        "bytes": 167590,
+        "sha256": "d6349a9dad79d7365ea85776db5e7f8ad3c4e1ecf1d027eb14774ef591dece1b"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_11_COSMOLOGY/MK_ULTRA_TOME_V11_C05_STRUCTURE_FORMATION_VALIDATION.json",
+        "bytes": 2813,
+        "sha256": "2c63db74fd5482ab69f55856c42079bc87daaba75713699625964cc9394bbf76"
+      },
+      "pages": 7,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 32,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V11-C06",
+      "source_sha256": "8aae69f9dc82f3995d8d23c6199290e889a3afab08ab7dc7e923f2c42727838c",
+      "published_source_sha256": "8aae69f9dc82f3995d8d23c6199290e889a3afab08ab7dc7e923f2c42727838c",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1263,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_11_COSMOLOGY/MK_ULTRA_TOME_V11_C06_COSMOLOGICAL_HORIZONS_AND_DARK_ENERGY.pdf",
+        "bytes": 155196,
+        "sha256": "586e0227f0000ed8209738de7bca1e3d5faa321659c7f1529ad326a2d69783f4"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_11_COSMOLOGY/MK_ULTRA_TOME_V11_C06_COSMOLOGICAL_HORIZONS_AND_DARK_ENERGY_VALIDATION.json",
+        "bytes": 2831,
+        "sha256": "a82a1d7c702d126b6995426fab1f9679ffb231658ba2862e49d7183a3507df61"
+      },
+      "pages": 7,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 39,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    },
+    {
+      "chapter_id": "V11-C07",
+      "source_sha256": "55765c9d1d20011885508782cc5784c7472b3727a22cd7c0cfe0e45c2c76354e",
+      "published_source_sha256": "55765c9d1d20011885508782cc5784c7472b3727a22cd7c0cfe0e45c2c76354e",
+      "published_source_differs_from_current_sealed_ledger_source": false,
+      "word_count": 1176,
+      "publication_pdf": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_11_COSMOLOGY/MK_ULTRA_TOME_V11_C07_COSMOLOGICAL_OBSERVABLES_AND_OPEN_PARAMETERS.pdf",
+        "bytes": 168183,
+        "sha256": "2404187b79a007dbd74e3713f5be357b16ff264515976fd6aad6dbabf9ea12e4"
+      },
+      "publication_validation": {
+        "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_11_COSMOLOGY/MK_ULTRA_TOME_V11_C07_COSMOLOGICAL_OBSERVABLES_AND_OPEN_PARAMETERS_VALIDATION.json",
+        "bytes": 2834,
+        "sha256": "5ba3efd5a1e94c2d1ceba37ef4cbb8a35b902c972317484c0c153ab99623f742"
+      },
+      "pages": 6,
+      "body_start_page_in_chapter_pdf": 3,
+      "body_start_page_in_volume": 46,
+      "raw_latex_guard": "PASS_ZERO_HITS"
+    }
+  ],
+  "raw_latex_guard": {
+    "result": "PASS_INHERITED_FROM_QUALIFIED_CHAPTER_RECEIPTS",
+    "hits": []
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V11-C01": "43f0226743e205441c43d01c43250c25c6e5f98808f3800c9e15e0416c9f1888",
+    "V11-C02": "5603b5c1f94a706803adf64716f3d1d1721bc836ada7046301cbd5e49b8e5712",
+    "V11-C03": "0197521019390fd29d6ed9546506506949a263a2cd52525dcfd51b8cca3eacfd",
+    "V11-C04": "4350c252c5c6c41f0038a16b0ba1a89f3f39fd8f9368ad9a6bf035a17ac78bc4",
+    "V11-C05": "1b4a46e0e72ccdea34a7f736726eeb57426a4132a003c3f686facbda272f3a2c",
+    "V11-C06": "8aae69f9dc82f3995d8d23c6199290e889a3afab08ab7dc7e923f2c42727838c",
+    "V11-C07": "55765c9d1d20011885508782cc5784c7472b3727a22cd7c0cfe0e45c2c76354e"
+  },
+  "source_hashes_after": {
+    "V11-C01": "43f0226743e205441c43d01c43250c25c6e5f98808f3800c9e15e0416c9f1888",
+    "V11-C02": "5603b5c1f94a706803adf64716f3d1d1721bc836ada7046301cbd5e49b8e5712",
+    "V11-C03": "0197521019390fd29d6ed9546506506949a263a2cd52525dcfd51b8cca3eacfd",
+    "V11-C04": "4350c252c5c6c41f0038a16b0ba1a89f3f39fd8f9368ad9a6bf035a17ac78bc4",
+    "V11-C05": "1b4a46e0e72ccdea34a7f736726eeb57426a4132a003c3f686facbda272f3a2c",
+    "V11-C06": "8aae69f9dc82f3995d8d23c6199290e889a3afab08ab7dc7e923f2c42727838c",
+    "V11-C07": "55765c9d1d20011885508782cc5784c7472b3727a22cd7c0cfe0e45c2c76354e"
+  },
+  "sealed_chapter_content_change_count": 0,
+  "duplicate_chapter_inputs": [],
+  "missing_chapter_inputs": []
+}

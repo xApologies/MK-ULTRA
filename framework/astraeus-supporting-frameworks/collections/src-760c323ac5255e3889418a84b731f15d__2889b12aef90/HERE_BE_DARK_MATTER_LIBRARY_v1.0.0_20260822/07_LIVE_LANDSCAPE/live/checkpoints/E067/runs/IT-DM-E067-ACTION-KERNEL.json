@@ -1,0 +1,11 @@
+{
+  "schema": "ASTRAEUS_DM_ITERATION_RUN_V1",
+  "run_id": "IT-DM-E067-ACTION-KERNEL",
+  "checkpoint": "E067",
+  "seed": "@dm_metric_action_selection",
+  "ceiling": 128,
+  "iterations_used": 3,
+  "terminal_state": "OPEN_FORK",
+  "open_next": "@dm_stress_active_action_fiber_nonempty",
+  "note": "The crawl reduced physical action selection to an existence question over a metric-variation kernel complement; no action was invented."
+}

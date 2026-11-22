@@ -1,0 +1,18 @@
+{
+  "schema": "ASTRAEUS_CLOSURE_CERTIFICATE_V1",
+  "certificate_id": "CC-DM-E087-001",
+  "checkpoint": "E087",
+  "object": "@dm_two_port_timeshell_gravity_fiber_test",
+  "decision": "DIRECT_GRAVITY_GATE_TYPED_NOT_SOLVED",
+  "scope": "one explicit two-port continuity-response pair through G_TS",
+  "checks": {
+    "native_pair_distinct_E086": true,
+    "gravity_projection_route_source_recovered": true,
+    "exact_projection_fiber_criterion_source_closed": true,
+    "A_g_operator_fully_typed": false,
+    "selected_pair_gravity_separated": false,
+    "baseline_dm22_modified": false,
+    "physical_promotion": false
+  },
+  "result": "The direct gravity branch has one exact selected-pair gate PD-DM-012; no UCM density, chromatic, or residue/Q bridge is needed to state it."
+}

@@ -1,0 +1,59 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_PAIR_V1",
+  "a": "@recursive_chirality_evolution_field",
+  "b": "@dm_hidden_s3_network",
+  "radius": 3,
+  "interface": [
+    {
+      "handle": "@bandwidth",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@dm_runtime_transition_capacity",
+      "distance_a": 3,
+      "distance_b": 1
+    },
+    {
+      "handle": "@mote_configuration_space",
+      "distance_a": 1,
+      "distance_b": 3
+    },
+    {
+      "handle": "@mote_chirality",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@mote_lattice",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@occupancy",
+      "distance_a": 2,
+      "distance_b": 3
+    },
+    {
+      "handle": "@resolution",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@inheritance",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@mote_closure",
+      "distance_a": 3,
+      "distance_b": 3
+    },
+    {
+      "handle": "@persistence",
+      "distance_a": 3,
+      "distance_b": 3
+    }
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry; exact-handle interface only"
+}

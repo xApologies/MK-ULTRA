@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "device_target": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "fingerprint": {
+      "type": "string"
+    },
+    "instance_id": {
+      "type": "string"
+    },
+    "parent_spo_api_fingerprint": {
+      "type": "string"
+    },
+    "profile_revision": {
+      "minimum": 1,
+      "type": "integer"
+    },
+    "protected_events": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "provenance": {
+      "type": "object"
+    },
+    "rules": {
+      "items": {
+        "$ref": "transform_rule.schema.json"
+      },
+      "type": "array"
+    },
+    "safety_constraints": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "instance_id",
+    "parent_spo_api_fingerprint",
+    "profile_revision",
+    "rules",
+    "protected_events",
+    "safety_constraints",
+    "provenance",
+    "fingerprint"
+  ],
+  "title": "Independent Sound Profile Object",
+  "type": "object"
+}

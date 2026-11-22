@@ -1,0 +1,98 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_NEIGHBORS_V1",
+  "handle": "@holographic_transfer_law",
+  "incoming": [],
+  "outgoing": [
+    [
+      "@mote",
+      {
+        "source": "@holographic_transfer_law",
+        "relation": "DEPENDS_TO",
+        "target": "@mote",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "DIRECT_API_LINE:45094",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@mote",
+      {
+        "source": "@holographic_transfer_law",
+        "relation": "DIRECTED_TO",
+        "target": "@mote",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "CANONICAL_API_HANDLE_ARROW:45094",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@mote",
+      {
+        "source": "@holographic_transfer_law",
+        "relation": "EXPLICIT_ARROW",
+        "target": "@mote",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "direct_source",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:45094",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@mote",
+      {
+        "source": "@holographic_transfer_law",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@mote",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_UPSTREAM_FIELD:39113;CANONICAL_API_UPSTREAM_FIELD:45589",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@mote",
+      {
+        "source": "@holographic_transfer_law",
+        "relation": "RECOVERED_DEPENDENCY",
+        "target": "@mote",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "EDGE_LEDGER_LINE:45094;prior_adjacency",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@mote",
+      {
+        "source": "@holographic_transfer_law",
+        "relation": "USED_BY",
+        "target": "@mote",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_DOWNSTREAM_FIELD:37284;CANONICAL_API_DOWNSTREAM_FIELD:45499",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ]
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry"
+}

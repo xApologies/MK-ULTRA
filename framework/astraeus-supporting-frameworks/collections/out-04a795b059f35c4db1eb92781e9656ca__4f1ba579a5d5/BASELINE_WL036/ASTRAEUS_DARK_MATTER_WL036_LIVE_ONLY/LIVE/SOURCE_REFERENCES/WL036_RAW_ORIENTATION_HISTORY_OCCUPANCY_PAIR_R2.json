@@ -1,0 +1,14 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_PAIR_V1",
+  "a": "@orientation_history",
+  "b": "@occupancy",
+  "radius": 2,
+  "interface": [
+    {
+      "handle": "@genlang_phrase_sha_da_rel",
+      "distance_a": 2,
+      "distance_b": 2
+    }
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry; exact-handle interface only"
+}

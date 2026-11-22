@@ -1,0 +1,28 @@
+{
+  "qmo_address": "@dl/complete_history_exhaustion",
+  "native_update": "geometric adjacency",
+  "completion_candidates": {
+    "C1": {
+      "name": "All finite path words walked",
+      "status": "REFUTED_AS_TERMINAL_FOR_CYCLIC_DOMAIN"
+    },
+    "C2": {
+      "name": "All states visited",
+      "status": "TOO_WEAK"
+    },
+    "C3": {
+      "name": "All directed adjacency edges realized",
+      "status": "FINITE_IF_LOCAL_GRAPH_FINITE"
+    },
+    "C4": {
+      "name": "All History-equivalence classes realized",
+      "status": "PROMISING_GENERAL"
+    },
+    "C5": {
+      "name": "No new admissible History-distinct continuation remains",
+      "status": "PROMISING_OPERATIONAL"
+    }
+  },
+  "selected_general_form": "exhaustion of admissible History-distinct realization classes",
+  "next": "@qmo/history_resolution_equivalence"
+}

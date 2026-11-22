@@ -1,0 +1,21 @@
+digraph G {
+  rankdir=LR;
+  graph [label="Bandwidth Algebra v1.0 — Atlas Dependency Placement", labelloc=t, fontsize=22];
+  node [shape=box, style="rounded", fontsize=13];
+  edge [fontsize=11];
+  Genesis [label="Genesis Field\nrecursive organization"];
+  T5 [label="Time-Space T^5\ntyped domain"];
+  R [label="Resolution R\ndistinguishable organization"];
+  AB [label="Bandwidth Algebra A_B\navailable transformations"];
+  Chi [label="Chirality\norientation / ledger"];
+  Pers [label="Persistence\nstable inherited organization"];
+  QR [label="Resolution quotient\nA_B^R = A_B / K_R"];
+  Geo [label="Readable geometry\nGeo_R(B)=Spec_T(A_B/K_R)"];
+  Corridor [label="Corridors / paths\noperator words in A_B"];
+  Unit [label="Unit String configurations\nell(c)=1"];
+  Helicon [label="Candidate Helicon modes\nspectrum of configuration geometry"];
+  Genesis -> T5 -> R -> AB -> Chi -> Pers;
+  AB -> QR -> Geo;
+  AB -> Corridor;
+  AB -> Unit -> Helicon;
+}

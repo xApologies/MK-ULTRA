@@ -1,0 +1,262 @@
+[
+  {
+    "id": 1,
+    "source_address": "@object/chirality_tile",
+    "relation": "COMPOSES",
+    "target_address": "@object/chirality_seed",
+    "status": "CURRENT",
+    "authority": "Genesis live",
+    "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+    "notes": "Four tiles per seed."
+  },
+  {
+    "id": 2,
+    "source_address": "@object/chirality_seed",
+    "relation": "SET_LIFTS_TO",
+    "target_address": "@object/chirality_byte_bite",
+    "status": "OPEN_RULE",
+    "authority": "Genesis live",
+    "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+    "notes": "Exact lift open."
+  },
+  {
+    "id": 3,
+    "source_address": "@object/chirality_byte_bite",
+    "relation": "BANDWIDTH_EXPANDS_TO",
+    "target_address": "@object/chirality_block",
+    "status": "CURRENT_WORKING",
+    "authority": "Genesis live",
+    "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+    "notes": "4x4x4 block."
+  },
+  {
+    "id": 4,
+    "source_address": "@object/chirality_block",
+    "relation": "RECURSIVELY_EXTENDS_TO",
+    "target_address": "@object/chirality_fabric",
+    "status": "OPEN",
+    "authority": "Genesis live",
+    "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+    "notes": ""
+  },
+  {
+    "id": 5,
+    "source_address": "@object/genesis_field",
+    "relation": "ADMITS",
+    "target_address": "@object/chirality_block",
+    "status": "PARENT_CANON",
+    "authority": "Genesis Sandbox",
+    "source_ref": "@source/genesis_sandbox",
+    "notes": "Sandboxed domain."
+  },
+  {
+    "id": 6,
+    "source_address": "@object/resolution",
+    "relation": "CONTROLS_READOUT_OF",
+    "target_address": "@object/color_charge",
+    "status": "LOCKED",
+    "authority": "Parent sources",
+    "source_ref": "@source/five_books",
+    "notes": ""
+  },
+  {
+    "id": 7,
+    "source_address": "@object/bandwidth",
+    "relation": "FILTERS",
+    "target_address": "@eq/local_update_generator",
+    "status": "LOCKED_ROLE",
+    "authority": "Parent sources",
+    "source_ref": "@source/five_books",
+    "notes": "Does not select by itself."
+  },
+  {
+    "id": 8,
+    "source_address": "@object/geometric_adjacency",
+    "relation": "SUPPLIES_CANDIDATES_TO",
+    "target_address": "@eq/local_update_generator",
+    "status": "V9_LOCK",
+    "authority": "Genesis v9",
+    "source_ref": "@source/genesis_chirality_v9",
+    "notes": ""
+  },
+  {
+    "id": 9,
+    "source_address": "@object/connection",
+    "relation": "SELECTS_OR_RETAINS",
+    "target_address": "@eq/local_update_generator",
+    "status": "CANDIDATE_ARCHITECTURE",
+    "authority": "R33",
+    "source_ref": "09_SOURCE_SNAPSHOTS/GENESIS_CHIRALITY_v9/R33_CONNECTION_LIFT.md",
+    "notes": ""
+  },
+  {
+    "id": 10,
+    "source_address": "@object/history",
+    "relation": "CONDITIONS",
+    "target_address": "@object/bandwidth",
+    "status": "CANDIDATE_DERIVED",
+    "authority": "R30",
+    "source_ref": "09_SOURCE_SNAPSHOTS/GENESIS_CHIRALITY_v9/R30_HISTORY_BANDWIDTH.md",
+    "notes": ""
+  },
+  {
+    "id": 11,
+    "source_address": "@object/time_shell",
+    "relation": "TEMPORALLY_ORDERS",
+    "target_address": "@eq/multiscale_update",
+    "status": "LOCKED_ARCHITECTURE",
+    "authority": "Genesis v9",
+    "source_ref": "@source/genesis_chirality_v9",
+    "notes": "T5 onward."
+  },
+  {
+    "id": 12,
+    "source_address": "@object/chirality_tile",
+    "relation": "CARRIES_WHEN_OCCUPIED",
+    "target_address": "@object/color_domain",
+    "status": "CURRENT_TOY",
+    "authority": "Genesis live",
+    "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+    "notes": ""
+  },
+  {
+    "id": 13,
+    "source_address": "@object/chirality_tile",
+    "relation": "MAY_CARRY",
+    "target_address": "@object/energy_density",
+    "status": "RECOVERED_ASSOCIATION",
+    "authority": "Unified API",
+    "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+    "notes": "Occupied state."
+  },
+  {
+    "id": 14,
+    "source_address": "@object/color_charge",
+    "relation": "RESOLVES_FROM",
+    "target_address": "@object/energy_density",
+    "status": "WORKING_ASSOCIATION",
+    "authority": "Genesis live",
+    "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+    "notes": "Exact map open."
+  },
+  {
+    "id": 15,
+    "source_address": "@object/chirality_seed",
+    "relation": "HAS_CONFIGURATION_SPACE",
+    "target_address": "@object/local_torus",
+    "status": "STRONG_CANDIDATE",
+    "authority": "R36-R37",
+    "source_ref": "@qmo/torus_continuity_r36_r37",
+    "notes": "Two occupied tiles."
+  },
+  {
+    "id": 16,
+    "source_address": "@eq/torus_update",
+    "relation": "CHANGES",
+    "target_address": "@object/relationship",
+    "status": "CURRENT_INTERPRETATION",
+    "authority": "R61",
+    "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+    "notes": ""
+  },
+  {
+    "id": 17,
+    "source_address": "@object/relationship",
+    "relation": "PROPAGATES_IN",
+    "target_address": "@object/chirality_block",
+    "status": "CURRENT_INTERSECTION",
+    "authority": "Propagation v8 + R61",
+    "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+    "notes": ""
+  },
+  {
+    "id": 18,
+    "source_address": "@eq/multiscale_update",
+    "relation": "REQUIRES",
+    "target_address": "@object/recursive_closure",
+    "status": "WORKING_CANDIDATE",
+    "authority": "R61",
+    "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+    "notes": ""
+  },
+  {
+    "id": 19,
+    "source_address": "@eq/multiscale_update",
+    "relation": "APPENDS",
+    "target_address": "@object/history",
+    "status": "WORKING_CANDIDATE",
+    "authority": "R61",
+    "source_ref": "04_MATHEMATICS/R61_MULTISCALE_TORUS_UPDATE_FORMALIZATION.md",
+    "notes": ""
+  },
+  {
+    "id": 20,
+    "source_address": "@object/history",
+    "relation": "CHANGES_FUTURE_AVAILABILITY_OF",
+    "target_address": "@eq/local_update_generator",
+    "status": "R60_CANDIDATE",
+    "authority": "R60",
+    "source_ref": "09_SOURCE_SNAPSHOTS/CURRENT_TANGENT/R60_NATIVE_UPDATE_MECHANISM_TANGENT.md",
+    "notes": ""
+  },
+  {
+    "id": 21,
+    "source_address": "@eq/local_update_generator",
+    "relation": "INTERSECTS",
+    "target_address": "@eq/domain_generator_map",
+    "status": "CURRENT_INTERSECTION",
+    "authority": "R61 + Propagation v8",
+    "source_ref": "11_HANDOFF/THREAD_HANDOFF.md",
+    "notes": "Independent model intersection."
+  },
+  {
+    "id": 22,
+    "source_address": "@eq/multiscale_update",
+    "relation": "PRECEDES_COMPARISON_WITH",
+    "target_address": "@object/qcd_comparison",
+    "status": "FIREWALL",
+    "authority": "Vera",
+    "source_ref": "03_VERA/AUTHORITY_SUPERSESSION_AND_FIREWALLS.md",
+    "notes": "Derive first."
+  },
+  {
+    "id": 23,
+    "source_address": "@eq/helicon_q_handoff",
+    "relation": "BLOCKS",
+    "target_address": "@object/qcd_comparison",
+    "status": "CRD_V1_8",
+    "authority": "CRD->QCD v1.8",
+    "source_ref": "09_SOURCE_SNAPSHOTS/CRD_QCD_v1_8/README.md",
+    "notes": ""
+  },
+  {
+    "id": 24,
+    "source_address": "@object/chirality_space",
+    "relation": "TRANSPORTED_BY",
+    "target_address": "@eq/chirality_transport",
+    "status": "FORMAL_STACK",
+    "authority": "Time-Space formal stack",
+    "source_ref": "09_SOURCE_SNAPSHOTS/TIMESPACE_FORMAL_STACK/03_Lemmas.md",
+    "notes": ""
+  },
+  {
+    "id": 25,
+    "source_address": "@object/persistence",
+    "relation": "FORMS",
+    "target_address": "@object/time_shell",
+    "status": "WORKING_ARCHITECTURE",
+    "authority": "Genesis live",
+    "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+    "notes": "T5 corridor."
+  },
+  {
+    "id": 26,
+    "source_address": "@object/time_space",
+    "relation": "PRECEDES",
+    "target_address": "@object/spacetime",
+    "status": "LOCKED",
+    "authority": "Genesis live",
+    "source_ref": "01_CANON/CANONICAL_CURRENT_STATE.md",
+    "notes": ""
+  }
+]

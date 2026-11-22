@@ -1,0 +1,55 @@
+[
+  {
+    "event": {
+      "confidence": 0.2,
+      "event_class": "UNKNOWN",
+      "timestamp": 0.0
+    },
+    "expected": "PRESERVE",
+    "id": "V001"
+  },
+  {
+    "event": {
+      "confidence": 0.99,
+      "event_class": "@alarm",
+      "timestamp": 1.0
+    },
+    "expected": "PRESERVE_REQUIRED_SEMANTICS",
+    "id": "V002",
+    "protected_events": [
+      "@alarm"
+    ]
+  },
+  {
+    "event": {
+      "confidence": 0.98,
+      "event_class": "@steady_mechanical_noise",
+      "timestamp": 2.0
+    },
+    "expected": "ATTENUATE_IF_DEVICE_CAPABLE",
+    "id": "V003",
+    "rule": {
+      "operation": "ATTENUATE"
+    }
+  },
+  {
+    "event": {
+      "confidence": 0.95,
+      "event_class": "@conversation",
+      "timestamp": 3.0
+    },
+    "expected": "PRESERVE",
+    "id": "V004",
+    "rule": null
+  },
+  {
+    "event": {
+      "confidence": 0.98,
+      "event_class": "@steady_mechanical_noise",
+      "timestamp": 4.0
+    },
+    "expected": "PRESERVE",
+    "id": "V005",
+    "user_override": true
+  }
+]

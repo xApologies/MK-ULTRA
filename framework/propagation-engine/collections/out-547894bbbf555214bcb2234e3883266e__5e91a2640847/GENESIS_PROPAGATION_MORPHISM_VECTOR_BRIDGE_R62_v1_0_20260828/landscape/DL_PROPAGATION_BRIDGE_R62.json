@@ -1,0 +1,53 @@
+{
+  "qmo_address": "@dl/propagation_bridge_r62",
+  "tests": [
+    {
+      "id": "T1",
+      "name": "Two-ball unbounded relational quotient",
+      "status": "PASS"
+    },
+    {
+      "id": "T2",
+      "name": "House inheritance/context transition",
+      "status": "PASS_WITH_TYPED_BRANCH"
+    },
+    {
+      "id": "T3",
+      "name": "Riemann-sphere intrinsic geometry",
+      "status": "PASS_WITH_INTRINSIC_BRANCH"
+    },
+    {
+      "id": "T4",
+      "name": "Projection Operator / propagation role separation",
+      "status": "PASS_SOURCE_TYPED"
+    },
+    {
+      "id": "T5",
+      "name": "Rainbow Road portal-chain composition",
+      "status": "PASS"
+    }
+  ],
+  "forward": [
+    "boundary",
+    "oriented dependency",
+    "lift",
+    "Transport/Transduction",
+    "P_gamma^Conn/P_W",
+    "Identity+History",
+    "readout",
+    "vector/scalar/fiber"
+  ],
+  "backward": [
+    "resolved motion",
+    "relational state",
+    "occupancy",
+    "History",
+    "Identity Witness",
+    "transport",
+    "lift",
+    "dependency",
+    "boundary"
+  ],
+  "intersection": "identity-bearing relational traversal",
+  "verdict": "CLOSED_LOCAL"
+}

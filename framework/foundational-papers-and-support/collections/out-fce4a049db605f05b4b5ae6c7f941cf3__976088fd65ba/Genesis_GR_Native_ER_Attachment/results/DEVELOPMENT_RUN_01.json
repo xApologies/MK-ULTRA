@@ -1,0 +1,77 @@
+{
+  "status": "FAIL",
+  "named_checks": 13,
+  "passed": 11,
+  "checks": [
+    {
+      "name": "Archived-field W -> metric -> W, all ten entries",
+      "passed": true,
+      "scope": ""
+    },
+    {
+      "name": "Symmetric target -> weights -> target algebraic identity",
+      "passed": true,
+      "scope": "Not a certification of nonnegative target coverage"
+    },
+    {
+      "name": "Unknown native weight signs are not certified",
+      "passed": true,
+      "scope": ""
+    },
+    {
+      "name": "Reference white metric is recovered, not overcounted",
+      "passed": true,
+      "scope": ""
+    },
+    {
+      "name": "Reference subtraction equals original additive formula",
+      "passed": true,
+      "scope": ""
+    },
+    {
+      "name": "Reject negative native edge weights",
+      "passed": true,
+      "scope": "Negative control"
+    },
+    {
+      "name": "Reject nonsymmetric native adjacency",
+      "passed": true,
+      "scope": "Negative control"
+    },
+    {
+      "name": "Reject unique inverse with singular covectors",
+      "passed": true,
+      "scope": "Negative control"
+    },
+    {
+      "name": "Reject zero-coupling inverse",
+      "passed": true,
+      "scope": "Negative control"
+    },
+    {
+      "name": "Entrywise nonnegativity is not misread as PSD",
+      "passed": true,
+      "scope": ""
+    },
+    {
+      "name": "Lorentzian target with negative recovered edge is not admitted",
+      "passed": true,
+      "scope": ""
+    },
+    {
+      "name": "Fixed-network target consistency detects spatially varying weights",
+      "passed": false,
+      "scope": ""
+    },
+    {
+      "name": "exception",
+      "passed": false,
+      "scope": "AssertionError('Fixed-network target consistency detects spatially varying weights')"
+    }
+  ],
+  "observations": [],
+  "elapsed_seconds": 3.024422153000046,
+  "python": "3.13.5",
+  "sympy": "1.14.0",
+  "scope": "Exact algebra of recovered API metric contributions, source-derived phase stress, and constructed continuum fixtures. No full native Q_R evaluator, independent ER action closure, or global physical equivalence."
+}

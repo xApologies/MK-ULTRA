@@ -1,0 +1,27 @@
+{
+  "experiment": "E041",
+  "candidate": "CAND-DM-INTRINSIC-MAX-TT-AXIS-044",
+  "title": "Intrinsic Principal TT Channel and Spectral-Selector Self-Termination",
+  "status": "EXACT UNIQUE PROJECTIVE MAX-TT AXIS PER PRECURSOR; PHYSICAL SELECTOR STILL OPEN AND SOURCE SPECTRAL MODE PARKED",
+  "physical_dark_matter_witness": false,
+  "parent_promotions": 0,
+  "results": {
+    "exact_native_spectral_selector_recovered": false,
+    "spectral_selector_branch_parked": true,
+    "E006_precursors": 12,
+    "all_biaxial": true,
+    "all_have_unique_global_projective_max_TT_axis": true,
+    "max_TT_axis_formula": "middle-eigenvalue eigenline [e2]",
+    "max_middle_axis_dot_silent_axis_abs": 0.0,
+    "axis_classes_across_12_precursors": {
+      "x": 3,
+      "y": 8,
+      "z": 1
+    },
+    "construction_independent_max_axis": false,
+    "chirality_directly_contributes_to_helicon_orientation_source_role": true,
+    "chirality_orientation_instance_map_recovered": false
+  },
+  "ruling": "The exact native spectral mode remains explicitly unresolved, so that selector branch is parked. Geometry-first analysis nevertheless supplies a new parameter-free result: every current biaxial STF precursor has a unique global projective direction maximizing conventional TT support, namely the middle-eigenvalue eigenline [e2]. This direction is orthogonal to both analytic TT-silent axes. However the chosen [e2] varies across E006 precursor constructions, so it cannot yet be promoted to a physical gravitational selector. Chirality has the correct source role to orient a projective helicon axis, but its instance map remains open.",
+  "next_handle": "COMPARE_WHICH_PRECURSOR_CONSTRUCTION_IS_STABLE_UNDER_SOURCE_PRESERVATION_RULES_OR_PARK_CHANNEL_SELECTION_AND_MOVE_TO_MULTI_HISTORY_DARK_DEFECT_FAMILY"
+}

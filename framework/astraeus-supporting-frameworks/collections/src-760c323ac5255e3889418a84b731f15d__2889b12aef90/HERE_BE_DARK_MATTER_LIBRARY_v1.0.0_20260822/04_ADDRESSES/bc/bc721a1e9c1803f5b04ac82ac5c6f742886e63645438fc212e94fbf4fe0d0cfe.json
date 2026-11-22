@@ -1,0 +1,88 @@
+{
+  "handle": "@dark_matter_geometry",
+  "object_type": "mathematical_object",
+  "status": "indexed-unlinked",
+  "domain": "API43",
+  "namespace": "",
+  "name": "Dark-Matter Geometry",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 1,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 2,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 1,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 151,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@dark_matter_geometry",
+        "relation": "CONTRIBUTES_TO",
+        "target": "@structure_formation",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-45",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Dark-matter geometry contributes to cosmic structure formation."
+      },
+      {
+        "source": "@structure_formation",
+        "relation": "RECEIVES_CONTRIBUTION_FROM",
+        "target": "@dark_matter_geometry",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@dark_matter_geometry CONTRIBUTES_TO @structure_formation); rule=CONTRIBUTES_TO→RECEIVES_CONTRIBUTION_FROM"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 2104,
+        "source": "@dark_matter_geometry",
+        "relation": "CONTRIBUTES_TO",
+        "target": "@structure_formation",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Dark-matter geometry contributes to cosmic structure formation."
+      },
+      {
+        "id": 19701,
+        "source": "@dark_matter_geometry",
+        "relation": "CONTRIBUTES_TO",
+        "target": "@structure_formation",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DERIVED:RP45_GR_DEPENDENCY_LANDSCAPE_CRAWL; Dark-matter geometry contributes to cosmic structure formation."
+      },
+      {
+        "id": 3129,
+        "source": "@structure_formation",
+        "relation": "RECEIVES_CONTRIBUTION_FROM",
+        "target": "@dark_matter_geometry",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@dark_matter_geometry CONTRIBUTES_TO @structure_formation); rule=CONTRIBUTES_TO→RECEIVES_CONTRIBUTION_FROM"
+      }
+    ]
+  },
+  "address": "@dark_matter_geometry",
+  "address_sha256": "bc721a1e9c1803f5b04ac82ac5c6f742886e63645438fc212e94fbf4fe0d0cfe"
+}

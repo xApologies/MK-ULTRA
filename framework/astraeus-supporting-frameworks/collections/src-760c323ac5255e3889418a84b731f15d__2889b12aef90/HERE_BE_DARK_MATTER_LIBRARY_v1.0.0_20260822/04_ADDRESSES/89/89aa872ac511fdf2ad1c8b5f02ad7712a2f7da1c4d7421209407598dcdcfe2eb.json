@@ -1,0 +1,53 @@
+{
+  "handle": "@dm_ucm_topology_source_scope_inclusion",
+  "object_type": "qmo_derived_mathematical_object",
+  "status": "LIVE_SOURCE_DERIVED_CLOSED",
+  "domain": "DM30",
+  "namespace": "mk43://dark-matter/live",
+  "name": "UCM Topology-Bearing Source-Scope Inclusion",
+  "definition": "The recovered UCM readable source projection has declared source-side inputs O, Chi, A, P, Rred, S, B. Thus UCM-internal adjacency/topology, chirality, persistence, redistribution, survivability/strain, and Bandwidth belong to the full UCM source ledger T_U rather than requiring a second independent beta_ext source branch.",
+  "math": "T_U(L)=Pi_read^UCM(O,Chi,A,P,Rred,S,B); beta_ext contains only downstream GR inputs not already represented in Pi_read^UCM.",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "E077",
+  "qmo_generated": true,
+  "proof_status": "DERIVED_OR_CONDITIONAL",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "LIVE_QMO_DERIVED",
+  "metadata": {
+    "payload": {
+      "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+      "handle": "@dm_ucm_topology_source_scope_inclusion",
+      "canonical_name": "UCM Topology-Bearing Source-Scope Inclusion",
+      "type": "RecoveredProjectionScopeClosure",
+      "status": "LIVE_SOURCE_DERIVED_CLOSED",
+      "checkpoint": "E077",
+      "definition": "The recovered UCM readable source projection has declared source-side inputs O, Chi, A, P, Rred, S, B. Thus UCM-internal adjacency/topology, chirality, persistence, redistribution, survivability/strain, and Bandwidth belong to the full UCM source ledger T_U rather than requiring a second independent beta_ext source branch.",
+      "math": "T_U(L)=Pi_read^UCM(O,Chi,A,P,Rred,S,B); beta_ext contains only downstream GR inputs not already represented in Pi_read^UCM.",
+      "parents": [
+        "@universal_coupling",
+        "@dm_hidden_s3_network",
+        "@stress_energy_tensor"
+      ],
+      "working_assumptions": [],
+      "proof_debt": [],
+      "physical_claim": false,
+      "baseline_mutation": false
+    },
+    "direct_live_edges_out": [
+      {
+        "source": "@dm_ucm_topology_source_scope_inclusion",
+        "relation": "TYPES_SOURCE_SCOPE_OF",
+        "target": "@universal_coupling",
+        "graph_family": "dark_matter_live",
+        "confidence": "high",
+        "audit_status": "LIVE_SOURCE_DERIVED",
+        "provenance": "E077",
+        "origin": "LIVE_LANDSCAPE",
+        "source_layer": "live"
+      }
+    ],
+    "direct_live_edges_in": []
+  },
+  "address": "@dm_ucm_topology_source_scope_inclusion",
+  "address_sha256": "89aa872ac511fdf2ad1c8b5f02ad7712a2f7da1c4d7421209407598dcdcfe2eb"
+}

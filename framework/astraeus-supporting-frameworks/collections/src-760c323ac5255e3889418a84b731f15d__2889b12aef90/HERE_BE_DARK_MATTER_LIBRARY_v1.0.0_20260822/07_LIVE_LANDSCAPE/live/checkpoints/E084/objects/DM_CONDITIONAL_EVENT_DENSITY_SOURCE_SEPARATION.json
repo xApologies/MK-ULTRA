@@ -1,0 +1,26 @@
+{
+  "schema": "ASTRAEUS_DM_LIVE_OBJECT_V1",
+  "handle": "@dm_conditional_event_density_source_separation",
+  "canonical_name": "Conditional Event-Level Density / UCM Source Separation",
+  "type": "ConditionalEventSourceSeparationWitness",
+  "status": "LIVE_CONDITIONAL_CLOSED_WITH_SINGLE_COMPONENT_PROOF_DEBT",
+  "checkpoint": "E084",
+  "definition": "UCM Gate 2 is conditionally closed on one event-level density component. The broad PD-DM-009 and the old density debt PD-DM-003 are narrowed/merged into PD-DM-011.",
+  "math": "Delta rho_E != 0 and Delta rho_read[u] != 0 => Delta T_U != 0 => P_T(e_full) != P_T(e_vis).",
+  "parents": [
+    "@dm_conditional_ucm_dynamic_event_witness",
+    "@energy_density",
+    "@stress_energy_tensor",
+    "@dm_ucm_two_gate_factorization"
+  ],
+  "working_assumptions": [
+    "WA-DM-E079-001",
+    "WA-DM-E084-001"
+  ],
+  "proof_debt": [
+    "PD-DM-008",
+    "PD-DM-011"
+  ],
+  "physical_claim": false,
+  "baseline_mutation": false
+}

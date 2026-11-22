@@ -1,0 +1,44 @@
+{
+  "schema": "ASTRAEUS_MATHEMATICAL_FUNCTION_REGISTRY_V1",
+  "api_release": "0.8.0",
+  "function_count": 2,
+  "functions": [
+    {
+      "handle": "@bounded_recursive_iteration",
+      "name": "Bounded Recursive Iteration Functional",
+      "kind": "recursive_qmo_function",
+      "signature": "I[Phi,B,R,Sigma,N](X0)",
+      "recurrence": "X_(i+1)=Cl_BR(Phi_(B,R)(X_i))",
+      "parameters": {
+        "X0": "seed QMO/graph/landscape/chain",
+        "Phi": "registered step functional",
+        "B": "Bandwidth context",
+        "R": "Resolution context",
+        "Sigma": "stop predicate family",
+        "N": "finite iteration/search horizon"
+      },
+      "semantic_guard": "N is a maximum horizon, not a required traversal count. Early stopping preserves mathematical meaning."
+    },
+    {
+      "handle": "@bounded_dependency_crawl",
+      "name": "Bounded Dependency Crawl Functional",
+      "kind": "dependency_iteration_specialization",
+      "signature": "Crawl_BR[X0;N,target,direction,mode]",
+      "recurrence": "expand registered dependencies; reclose/query; append History",
+      "parameters": {
+        "mode": [
+          "chain",
+          "landscape"
+        ],
+        "target": "optional recovery target",
+        "N": "finite maximum iteration count",
+        "direction": [
+          "upstream",
+          "downstream",
+          "bidirectional"
+        ]
+      },
+      "semantic_guard": "Uses only registered dependency structure and preserves member statuses."
+    }
+  ]
+}

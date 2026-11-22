@@ -1,0 +1,30 @@
+{
+  "schema": "ASTRAEUS_PULLBACK_HIDDEN_EMBEDDING_ENVELOPE_V1",
+  "qmo_id": "QMO-AST-DM-WL-121",
+  "name": "Canonical Pullback Envelope for Hidden-State Embedding",
+  "atlas_version": "WL-v237",
+  "work_layer": "WL-037",
+  "status": "CONDITIONAL_BUNDLE_CONSTRUCTION_OPEN_SELECTOR_RETYPE",
+  "parent_promotions": 0,
+  "construction": {
+    "base_map": "j_T:T_H->T",
+    "pullback": "j_T^*E={(t,e):pi_E(e)=j_T(t)}",
+    "canonical_map": "can:j_T^*E->E",
+    "required_faithful_map": "eta_H:E_H^R->j_T^*E",
+    "candidate_embedding": "iota_H=can\u2218eta_H"
+  },
+  "tests": [
+    "H1 faithful/injective hidden-state encoding",
+    "H2 inheritance equivariance",
+    "H3 image in pulled-back native constraint kernel"
+  ],
+  "finding": "The direct global embedding guess is replaced by a standard pullback envelope plus one localized faithful-encoding problem.",
+  "guardrails": [
+    "pullback != DM hidden bundle",
+    "canonical map != faithful encoding",
+    "base commutation != full embedding",
+    "not LiftSet shortcut",
+    "no OpenSlot closure",
+    "no parent promotion"
+  ]
+}

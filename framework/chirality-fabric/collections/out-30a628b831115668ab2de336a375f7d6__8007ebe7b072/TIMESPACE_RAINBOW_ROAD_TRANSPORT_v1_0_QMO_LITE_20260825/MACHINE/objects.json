@@ -1,0 +1,106 @@
+[
+  {
+    "id": "T5",
+    "name": "Five-Dimensional Time-Space",
+    "symbol": "T5",
+    "kind": "global_space",
+    "status": "CURRENT_WORK_LAYER",
+    "definition": "Five-dimensional Time-Space with S3 continuity base and localized S2 fibers."
+  },
+  {
+    "id": "S3_BASE",
+    "name": "Continuity Domain",
+    "symbol": "S3",
+    "kind": "base_space",
+    "status": "CURRENT_WORK_LAYER",
+    "definition": "Base continuity domain among localized S2 projections."
+  },
+  {
+    "id": "S2_FIBER",
+    "name": "Localized Projection Fiber",
+    "symbol": "Sigma_p",
+    "kind": "fiber",
+    "status": "CURRENT_WORK_LAYER",
+    "definition": "Localized S2 fiber over p in S3."
+  },
+  {
+    "id": "ADDRESS",
+    "name": "Time-Space Address",
+    "symbol": "A_p",
+    "kind": "record",
+    "status": "NEW_DERIVATION",
+    "definition": "Typed address carrying base/fiber, operative state, chirality, invariant residue, R/B, ordering, and History."
+  },
+  {
+    "id": "CORRIDOR",
+    "name": "Chirality Corridor",
+    "symbol": "W_gamma",
+    "kind": "route",
+    "status": "SOURCE_BACKED_WORK_LAYER",
+    "definition": "Pullback of T5 along an admissible S3 path."
+  },
+  {
+    "id": "PORTAL",
+    "name": "Portal Transaction",
+    "symbol": "P_ab",
+    "kind": "partial_morphism",
+    "status": "SOURCE_BACKED_WORK_LAYER",
+    "definition": "Admissible transaction over a Corridor."
+  },
+  {
+    "id": "ROAD",
+    "name": "Rainbow Road",
+    "symbol": "R",
+    "kind": "composite_path",
+    "status": "NEW_DERIVATION",
+    "definition": "Ordered composition of admissible Portal transactions with retained witness History."
+  },
+  {
+    "id": "READOUT",
+    "name": "Readable Projection",
+    "symbol": "Pi_read",
+    "kind": "projection",
+    "status": "ABSTRACT_TYPED",
+    "definition": "Optional readable projection that may identify formally distinct full states."
+  },
+  {
+    "id": "QREP",
+    "name": "Local QFT Representation",
+    "symbol": "rho_Q,p",
+    "kind": "representation",
+    "status": "OPEN_TYPED_TARGET",
+    "definition": "Local QFT representation of the operative state."
+  },
+  {
+    "id": "GREP",
+    "name": "Local GR Representation",
+    "symbol": "rho_G,p",
+    "kind": "representation",
+    "status": "OPEN_TYPED_TARGET",
+    "definition": "Local GR representation of the operative state."
+  },
+  {
+    "id": "UQ",
+    "name": "Induced QFT Transport",
+    "symbol": "U_Q(Gamma)",
+    "kind": "transport",
+    "status": "OPEN",
+    "definition": "Physical/readable QFT transport induced along a Time-Space Road; not derived here."
+  },
+  {
+    "id": "UG",
+    "name": "Induced GR Transport",
+    "symbol": "U_G(Gamma)",
+    "kind": "transport",
+    "status": "OPEN",
+    "definition": "Physical/readable GR transport induced along a Time-Space Road; not derived here."
+  },
+  {
+    "id": "RQG",
+    "name": "QFT-GR Common Ancestry Relation",
+    "symbol": "R_QG,p",
+    "kind": "relation",
+    "status": "NEW_DERIVATION",
+    "definition": "Pairs local QFT/GR representations that descend from one common operative state."
+  }
+]

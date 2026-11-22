@@ -1,0 +1,182 @@
+{
+  "handle": "@expand_operator",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@expand_operator",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 6,
+    "api43_direct_in_count": 1,
+    "xapi_raw_out_count": 6,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 6,
+    "closure_in_reachability_count": 1,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@expand_operator",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@dependency_expansion_operator",
+        "graph_family": "runtime",
+        "confidence": "high",
+        "audit_status": "explicitly_recovered",
+        "recovery_pass": "RP-42",
+        "provenance": "DIRECT_API_LINE:58705"
+      },
+      {
+        "source": "@expand_operator",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@dependent_expansion_operator",
+        "graph_family": "runtime",
+        "confidence": "high",
+        "audit_status": "explicitly_recovered",
+        "recovery_pass": "RP-42",
+        "provenance": "DIRECT_API_LINE:58706"
+      },
+      {
+        "source": "@expand_operator",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@alias_expansion_operator",
+        "graph_family": "runtime",
+        "confidence": "high",
+        "audit_status": "explicitly_recovered",
+        "recovery_pass": "RP-42",
+        "provenance": "DIRECT_API_LINE:58707"
+      },
+      {
+        "source": "@expand_operator",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@transformation_expansion_operator",
+        "graph_family": "runtime",
+        "confidence": "high",
+        "audit_status": "explicitly_recovered",
+        "recovery_pass": "RP-42",
+        "provenance": "DIRECT_API_LINE:58708"
+      },
+      {
+        "source": "@expand_operator",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@realization_expansion_operator",
+        "graph_family": "runtime",
+        "confidence": "high",
+        "audit_status": "explicitly_recovered",
+        "recovery_pass": "RP-42",
+        "provenance": "DIRECT_API_LINE:58709"
+      },
+      {
+        "source": "@expand_operator",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@provenance_expansion_operator",
+        "graph_family": "runtime",
+        "confidence": "high",
+        "audit_status": "explicitly_recovered",
+        "recovery_pass": "RP-42",
+        "provenance": "DIRECT_API_LINE:58710"
+      },
+      {
+        "source": "@recursive_recovery_engine",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@expand_operator",
+        "graph_family": "runtime",
+        "confidence": "high",
+        "audit_status": "explicitly_recovered",
+        "recovery_pass": "RP-42",
+        "provenance": "DIRECT_API_LINE:58701"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 1203,
+        "source": "@expand_operator",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@dependency_expansion_operator",
+        "layer": "API43",
+        "graph_family": "runtime",
+        "confidence": "high",
+        "audit_status": "explicitly_recovered",
+        "provenance": "DIRECT_API_LINE:58705"
+      },
+      {
+        "id": 1204,
+        "source": "@expand_operator",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@dependent_expansion_operator",
+        "layer": "API43",
+        "graph_family": "runtime",
+        "confidence": "high",
+        "audit_status": "explicitly_recovered",
+        "provenance": "DIRECT_API_LINE:58706"
+      },
+      {
+        "id": 1205,
+        "source": "@expand_operator",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@alias_expansion_operator",
+        "layer": "API43",
+        "graph_family": "runtime",
+        "confidence": "high",
+        "audit_status": "explicitly_recovered",
+        "provenance": "DIRECT_API_LINE:58707"
+      },
+      {
+        "id": 1206,
+        "source": "@expand_operator",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@transformation_expansion_operator",
+        "layer": "API43",
+        "graph_family": "runtime",
+        "confidence": "high",
+        "audit_status": "explicitly_recovered",
+        "provenance": "DIRECT_API_LINE:58708"
+      },
+      {
+        "id": 1207,
+        "source": "@expand_operator",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@realization_expansion_operator",
+        "layer": "API43",
+        "graph_family": "runtime",
+        "confidence": "high",
+        "audit_status": "explicitly_recovered",
+        "provenance": "DIRECT_API_LINE:58709"
+      },
+      {
+        "id": 1208,
+        "source": "@expand_operator",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@provenance_expansion_operator",
+        "layer": "API43",
+        "graph_family": "runtime",
+        "confidence": "high",
+        "audit_status": "explicitly_recovered",
+        "provenance": "DIRECT_API_LINE:58710"
+      },
+      {
+        "id": 1200,
+        "source": "@recursive_recovery_engine",
+        "relation": "FORMALLY_DEPENDS_ON",
+        "target": "@expand_operator",
+        "layer": "API43",
+        "graph_family": "runtime",
+        "confidence": "high",
+        "audit_status": "explicitly_recovered",
+        "provenance": "DIRECT_API_LINE:58701"
+      }
+    ]
+  },
+  "address": "@expand_operator",
+  "address_sha256": "9a3eb41796785037d19a39323e4575517c947665bf9763f63204d6ef0d9c1603"
+}

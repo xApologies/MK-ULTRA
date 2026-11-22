@@ -1,0 +1,53 @@
+{
+  "pass": "SELF_BUILD_PASS_003_RECOVERY_WITNESS",
+  "domain": "@rainbow_road_recursive_domain",
+  "input_frontier": "@recovery_witness_counterexample_crawl",
+  "counterexample": "CE-RW-001",
+  "core_collision": true,
+  "history_augmented_separation": true,
+  "self_promotions": [
+    {
+      "handle": "@witness_fiber_separation_criterion",
+      "from": "CANDIDATE",
+      "to": "DERIVED_CLOSED_INTERNAL",
+      "certificate": "CC-003"
+    },
+    {
+      "handle": "@core_witness_collision",
+      "from": "CANDIDATE",
+      "to": "DERIVED_CLOSED_INTERNAL",
+      "certificate": "CC-004"
+    },
+    {
+      "handle": "@recovery_discriminator",
+      "from": "CANDIDATE",
+      "to": "DERIVED_CLOSED_INTERNAL",
+      "certificate": "CC-005"
+    },
+    {
+      "handle": "@history_trace_counterexample_sufficiency",
+      "from": "CANDIDATE",
+      "to": "DERIVED_CLOSED_INTERNAL",
+      "certificate": "CC-006"
+    }
+  ],
+  "closed_theorem": "@theorem_witness_fiber_separation",
+  "new_derived_role": "@recovery_discriminator",
+  "new_frontier": "@recovery_history_signature_minimality",
+  "guard": "History is sufficient for CE-RW-001 but full ordered History is not yet proven globally minimal; a history-sensitive Identity Witness may already carry the needed discriminator.",
+  "replay": {
+    "pass": "SELF_BUILD_PASS_003_RECOVERY_WITNESS",
+    "counterexample": "CE-RW-001",
+    "core_collision": true,
+    "history_augmented_separation": true,
+    "conclusion": "Unqualified core witness is not universally separating; an additional recovery discriminator is necessary on colliding fibers. Ordered History is sufficient for CE-RW-001; global minimality remains open.",
+    "next_frontier": "@recovery_history_signature_minimality"
+  },
+  "query_index_restored": true,
+  "searchable_source_sections": 27829,
+  "new_frontier_native_queries": [
+    "@history_holonomy",
+    "@holonomy_history_signature",
+    "@recovery_discriminator"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "schema": "ASTRAEUS_API_QMO_HIDDEN_S3_NATIVE_CAUSAL_ORDER_GRAVITON_LOOP_V1",
+  "qmo_id": "QMO-AST-DM-WL-068",
+  "name": "Hidden S3 Network / Native Causal Order / Graviton Loop-Back",
+  "atlas_version": "WL-v184",
+  "status": "REGISTERED_PATH_RECOVERED_GRAVITY_LOOPBACK_NOT_PARENT_PROMOTED",
+  "hidden_s3_to_native_causal_order": [
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "USES",
+      "target": "@dm_runtime_transition_capacity",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "origin_api": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@dm_runtime_transition_capacity",
+      "relation": "DEPENDS_ON",
+      "target": "@admissibility",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "origin_api": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@admissibility",
+      "relation": "DIRECTED_TO",
+      "target": "@native_causal_order",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54778->54779",
+      "origin_api": "TIMESPACE_4.3"
+    }
+  ],
+  "native_causal_order_to_graviton": [
+    {
+      "source": "@native_causal_order",
+      "relation": "DIRECTED_TO",
+      "target": "@graviton",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54787->54788",
+      "origin_api": "TIMESPACE_4.3"
+    }
+  ],
+  "hidden_s3_to_graviton": [
+    {
+      "source": "@dm_hidden_s3_network",
+      "relation": "USES",
+      "target": "@dm_runtime_transition_capacity",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "origin_api": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@dm_runtime_transition_capacity",
+      "relation": "DEPENDS_ON",
+      "target": "@admissibility",
+      "graph_family": "dark_matter",
+      "confidence": "high",
+      "audit_status": "ATLAS_DERIVED",
+      "provenance": "DM2.0",
+      "origin": "DARKMATTER_2.0",
+      "origin_api": "DARKMATTER_2.0"
+    },
+    {
+      "source": "@admissibility",
+      "relation": "DIRECTED_TO",
+      "target": "@native_causal_order",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54778->54779",
+      "origin_api": "TIMESPACE_4.3"
+    },
+    {
+      "source": "@native_causal_order",
+      "relation": "DIRECTED_TO",
+      "target": "@graviton",
+      "graph_family": "mathematical",
+      "confidence": "high",
+      "audit_status": "recovered",
+      "recovery_pass": "RP-36",
+      "provenance": "CANONICAL_API_MULTILINE_ARROW:54787->54788",
+      "origin_api": "TIMESPACE_4.3"
+    }
+  ],
+  "finding": "A high-confidence registered route exists from @dm_hidden_s3_network through @dm_runtime_transition_capacity and @admissibility into @native_causal_order, and @native_causal_order has a registered edge to @graviton. This route does not require the dormant numerical @dm_history_to_continuity_strength handle. It is a dependency route only; a specific hidden-state difference still must be shown to alter the relevant admissible-order relation before a physical effect can be claimed.",
+  "branch_disposition": "STOP_AND_RETURN_TO_GLOBAL_RANKING because downstream @native_causal_order -> @graviton enters already-recovered gravity architecture.",
+  "guardrails": [
+    "bypass of a dormant numerical handle != solution of hidden-state embedding",
+    "native causal order change is not assumed from hidden S3 membership",
+    "path to graviton != dark-matter qualification nonemptiness",
+    "no new gravity law is created"
+  ]
+}

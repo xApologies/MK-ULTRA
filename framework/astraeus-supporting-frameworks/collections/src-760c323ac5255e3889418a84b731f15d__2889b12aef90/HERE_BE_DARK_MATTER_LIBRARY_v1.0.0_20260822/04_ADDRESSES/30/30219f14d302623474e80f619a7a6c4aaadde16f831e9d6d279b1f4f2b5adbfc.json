@@ -1,0 +1,26 @@
+{
+  "handle": "qmo://QMO-DM-BRIDGE-CAND-021",
+  "object_type": "qmo",
+  "status": "LIVE_CONDITIONAL_CANDIDATE",
+  "domain": "QMO",
+  "namespace": "mk43://qmo",
+  "name": "Hidden Port-Response Spectrum Residue Discriminator",
+  "definition": "",
+  "math": "",
+  "source_layer": "live",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "QMO_REGISTRY",
+  "metadata": {
+    "qmo_id": "QMO-DM-BRIDGE-CAND-021",
+    "name": "Hidden Port-Response Spectrum Residue Discriminator",
+    "status": "LIVE_CONDITIONAL_CANDIDATE",
+    "source_layer": "live",
+    "source_file": "live/checkpoints/E080/qmos/QMO-DM-BRIDGE-CAND-021_DM_RESPONSE_SPECTRUM_RESIDUE_DISCRIMINATOR.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_QMO_CANDIDATE_V1\", \"qmo_id\": \"QMO-DM-BRIDGE-CAND-021\", \"handle\": \"@dm_response_spectrum_residue_discriminator\", \"canonical_name\": \"Hidden Port-Response Spectrum Residue Discriminator\", \"status\": \"LIVE_CONDITIONAL_CANDIDATE\", \"checkpoint\": \"E080\", \"parents\": [\"@dm_hidden_response_operator\", \"@dm_projection_residue_survival\", \"@dm_q_survival\"], \"working_assumptions\": [\"WA-DM-E065-001\", \"WA-DM-E080-001\"], \"source_math\": [\"DeltaLambda_H=Lambda_full-Lambda_vis >=_PSD 0.\", \"For the selected two-port bridge DeltaLambda_H=w_eff[[1,-1],[-1,1]], w_eff>0.\", \"Hence spec(DeltaLambda_H)={0,2w_eff}, rank(DeltaLambda_H)=1, trace(DeltaLambda_H)=2w_eff>0.\"], \"result\": \"The previously abstract residue discriminator can be instantiated by a concrete representation-invariant port-response spectral signature. Conditional on its inclusion in Inv at the boundary comparison, B_full^R is residue-distinguishable from B_vis^R and the closed Q-survival theorem carries the distinction into Q.\", \"next_target\": \"Prove or recover the single map/contract that carries the response-spectrum discriminator into the declared invariant-residue inventory; do not reopen generic bundle foundations.\"}"
+  },
+  "address": "qmo://QMO-DM-BRIDGE-CAND-021",
+  "address_sha256": "30219f14d302623474e80f619a7a6c4aaadde16f831e9d6d279b1f4f2b5adbfc"
+}

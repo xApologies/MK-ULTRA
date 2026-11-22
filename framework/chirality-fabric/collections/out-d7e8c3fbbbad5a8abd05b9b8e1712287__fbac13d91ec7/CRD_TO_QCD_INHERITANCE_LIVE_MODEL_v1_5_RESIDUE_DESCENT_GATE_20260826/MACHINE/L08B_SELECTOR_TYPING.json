@@ -1,0 +1,44 @@
+{
+  "run": "L08B",
+  "verdict": "CLOSED_TYPED_CORRESPONDENCE_PASS_UNIQUE_MODE_NO_GO",
+  "domain": "complete admitted Road states",
+  "codomain": "allowed Helicon spectral mode family",
+  "type": "partial_set_valued_correspondence",
+  "expression": "S_RH : R_adm \u21c9 H_Hel",
+  "helicon_spectrum": "H_Hel = {H_alpha | L_H(H_alpha)=lambda_alpha H_alpha}",
+  "direct_source_dependencies": [
+    "terminal chirality",
+    "terminal chirality/ER realization",
+    "Helicon spectral eigenmode condition"
+  ],
+  "upstream_admission_dependencies": [
+    "identity/invariant residue",
+    "persistence",
+    "Resolution",
+    "Bandwidth",
+    "closure",
+    "ancestry",
+    "provenance",
+    "ordered Portal path"
+  ],
+  "retained_but_direct_spectral_dependence_open": [
+    "basin telemetry/distribution",
+    "Road History"
+  ],
+  "failure_cases": [
+    "Road contract failure",
+    "chirality inadmissible",
+    "identity/residue/persistence failure",
+    "Resolution/Bandwidth insufficient",
+    "no terminal ER/chirality realization",
+    "empty allowed mode set"
+  ],
+  "ambiguity_rule": "multiple allowed modes => return sector/set; never arbitrary tie-break",
+  "forbidden": [
+    "C6 basin cycle",
+    "142857 completion",
+    "basin-to-A2 map",
+    "QCD color label substitution",
+    "using Gamma_n as selector without Road-to-spectral-shell map"
+  ]
+}

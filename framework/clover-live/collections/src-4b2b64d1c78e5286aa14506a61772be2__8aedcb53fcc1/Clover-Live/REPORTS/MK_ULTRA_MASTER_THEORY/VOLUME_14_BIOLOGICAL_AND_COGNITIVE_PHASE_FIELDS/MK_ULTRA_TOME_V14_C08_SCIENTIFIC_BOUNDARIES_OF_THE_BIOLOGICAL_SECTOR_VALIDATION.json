@@ -1,0 +1,103 @@
+{
+  "schema": "tome-publication-renderer-validation/v1",
+  "created_at": "2026-08-11T17:52:35.726363+00:00",
+  "renderer": "TOME_PUBLICATION_RENDERER_V1",
+  "engine": "KaTeX 0.16.22 -> HTML/CSS -> Playwright -> Microsoft Edge PDF",
+  "output": {
+    "path": "REPORTS/MK_ULTRA_MASTER_THEORY/VOLUME_14_BIOLOGICAL_AND_COGNITIVE_PHASE_FIELDS/MK_ULTRA_TOME_V14_C08_SCIENTIFIC_BOUNDARIES_OF_THE_BIOLOGICAL_SECTOR.pdf",
+    "bytes": 152127,
+    "sha256": "b3fd823ee4433b6961b850cccbf277d707c13b019f35985e64ba80808306c1d6"
+  },
+  "actual_pages": 6,
+  "blank_pages": 0,
+  "chapter_start_pages": {
+    "V14-C08": 3
+  },
+  "chapter_validations": [
+    {
+      "chapter_id": "V14-C08",
+      "source_sha256": "e38170335a8e581d3484a30aa009efbfd2c3d09144bb7b0faf53c4d3194dd90d",
+      "page_start": 3,
+      "headings": 23,
+      "display_equations": 21,
+      "inline_equations": 0,
+      "equation_tags": 21,
+      "api_handles": 2,
+      "table_rows": 4,
+      "content_markers_present": true
+    }
+  ],
+  "engine_metrics": {
+    "renderer": "TOME_PUBLICATION_RENDERER_V1",
+    "katexVersion": "0.16.22",
+    "chapters": [
+      {
+        "id": "V14-C08",
+        "sourceBytes": 8365,
+        "paragraphs": 42,
+        "headings": 23,
+        "displayEquations": 21,
+        "inlineEquations": 0,
+        "tables": 1,
+        "tableRows": 3,
+        "listItems": 0,
+        "codeBlocks": 0,
+        "figures": 0
+      }
+    ],
+    "paragraphs": 42,
+    "headings": 23,
+    "displayEquations": 21,
+    "inlineEquations": 0,
+    "tables": 1,
+    "tableRows": 3,
+    "listItems": 0,
+    "blockQuotes": 0,
+    "codeBlocks": 0,
+    "figures": 0,
+    "mathLayout": {
+      "checked": 21,
+      "scaled": [],
+      "remainingOverflow": []
+    }
+  },
+  "raw_latex_guard": {
+    "result": "PASS",
+    "hits": [],
+    "commands_scanned": [
+      "frac",
+      "mathcal",
+      "mathrm",
+      "begin",
+      "end",
+      "left",
+      "right",
+      "longrightarrow",
+      "rightarrow",
+      "otimes",
+      "partial",
+      "nabla",
+      "mu",
+      "nu",
+      "sum",
+      "int",
+      "operatorname"
+    ]
+  },
+  "visual_qa": {
+    "result": "PASS",
+    "pages_rendered": 6,
+    "pages_inspected": 6,
+    "contact_sheets_inspected": 2,
+    "findings": [],
+    "inspection_note": "All six rendered pages were visually inspected. Cover, contents, equations, evidence table, pagination, and chapter text are legible with no clipping, overlap, raw LaTeX, or unintended blank pages."
+  },
+  "continuous_page_numbers": true,
+  "source_hashes_before": {
+    "V14-C08": "e38170335a8e581d3484a30aa009efbfd2c3d09144bb7b0faf53c4d3194dd90d"
+  },
+  "source_hashes_after": {
+    "V14-C08": "e38170335a8e581d3484a30aa009efbfd2c3d09144bb7b0faf53c4d3194dd90d"
+  },
+  "sealed_chapter_content_change_count": 0
+}

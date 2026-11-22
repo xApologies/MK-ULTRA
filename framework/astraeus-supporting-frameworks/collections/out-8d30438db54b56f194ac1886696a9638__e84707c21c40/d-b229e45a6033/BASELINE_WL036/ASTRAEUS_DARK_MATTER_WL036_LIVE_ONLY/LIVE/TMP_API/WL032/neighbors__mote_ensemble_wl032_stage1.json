@@ -1,0 +1,81 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_NEIGHBORS_V1",
+  "handle": "@mote_ensemble",
+  "incoming": [
+    [
+      "@genesis_field",
+      {
+        "source": "@genesis_field",
+        "relation": "VERTICAL_CHAIN",
+        "target": "@mote_ensemble",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-34",
+        "provenance": "API_CODE_BLOCK:50687",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@mote_hilbert_space",
+      {
+        "source": "@mote_hilbert_space",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_ensemble",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50126->50127",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ],
+    [
+      "@recursive_depth",
+      {
+        "source": "@recursive_depth",
+        "relation": "DIRECTED_TO",
+        "target": "@mote_ensemble",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:51016->51017",
+        "origin_api": "TIMESPACE_4.3"
+      }
+    ]
+  ],
+  "outgoing": [
+    [
+      "@er_foam",
+      {
+        "source": "@mote_ensemble",
+        "relation": "DIRECTED_TO",
+        "target": "@er_foam",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50150->50151",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ],
+    [
+      "@time_shell",
+      {
+        "source": "@mote_ensemble",
+        "relation": "DIRECTED_TO",
+        "target": "@time_shell",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-36",
+        "provenance": "CANONICAL_API_MULTILINE_ARROW:50153->50154",
+        "origin_api": "TIMESPACE_4.3"
+      },
+      1
+    ]
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry"
+}

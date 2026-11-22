@@ -1,0 +1,87 @@
+{
+  "schema": "ASTRAEUS_ADMISSIBLE_CONTINUATION_HIDDEN_EMBEDDING_SEAM_V1",
+  "qmo_id": "QMO-AST-DM-WL-070",
+  "name": "Admissible Continuation / Hidden Embedding Target Seam",
+  "atlas_version": "WL-v186",
+  "status": "SOURCE_BACKED_TARGET_TYPE_CLARIFICATION_NOT_SELECTOR",
+  "timespace_object": {
+    "handle": "@admissible_continuation",
+    "math": "C:T->T, C in Diff(T); admissible successor remains in the admissible temporal-state domain",
+    "role": "lawful continuation on the Structured Temporal Manifold"
+  },
+  "exact_interface_radius3": [
+    {
+      "handle": "@inherited_state_bundle",
+      "distance_a": 1,
+      "distance_b": 1
+    },
+    {
+      "handle": "@admissible_continuation",
+      "distance_a": 0,
+      "distance_b": 2
+    },
+    {
+      "handle": "@dm_hidden_state_embedding",
+      "distance_a": 2,
+      "distance_b": 0
+    },
+    {
+      "handle": "@dm_constraint_preserving_embedding_family",
+      "distance_a": 2,
+      "distance_b": 1
+    },
+    {
+      "handle": "@inheritance_morphism",
+      "distance_a": 2,
+      "distance_b": 1
+    },
+    {
+      "handle": "@continuation_operator",
+      "distance_a": 2,
+      "distance_b": 2
+    },
+    {
+      "handle": "@dm_formal_persistence_qualification",
+      "distance_a": 3,
+      "distance_b": 1
+    },
+    {
+      "handle": "@dm_hidden_persistent_subset",
+      "distance_a": 3,
+      "distance_b": 1
+    },
+    {
+      "handle": "@dm_hidden_s3_network",
+      "distance_a": 3,
+      "distance_b": 1
+    },
+    {
+      "handle": "@dm_hidden_state_bundle",
+      "distance_a": 3,
+      "distance_b": 1
+    },
+    {
+      "handle": "@native_constraint_closure",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@recursive_inheritance",
+      "distance_a": 3,
+      "distance_b": 2
+    },
+    {
+      "handle": "@temporal_metric",
+      "distance_a": 3,
+      "distance_b": 3
+    }
+  ],
+  "nearest_interface": "@inherited_state_bundle at distance 1/1",
+  "darkmatter_record": "@dm_hidden_state_embedding asks to select iota_H in the already-typed @dm_constraint_preserving_embedding_family; the family directly depends on @inherited_state_bundle.",
+  "finding": "The missing hidden-state problem is not the invention of a target bundle: the API already places admissible continuation into @inherited_state_bundle and the closed embedding family depends on that exact object. The remaining problem is physical selection/nonemptiness of a permitted embedding.",
+  "guardrails": [
+    "@admissible_continuation != selected hidden embedding",
+    "typed codomain/target != existence of a monomorphism",
+    "exact interface != new edge"
+  ]
+}

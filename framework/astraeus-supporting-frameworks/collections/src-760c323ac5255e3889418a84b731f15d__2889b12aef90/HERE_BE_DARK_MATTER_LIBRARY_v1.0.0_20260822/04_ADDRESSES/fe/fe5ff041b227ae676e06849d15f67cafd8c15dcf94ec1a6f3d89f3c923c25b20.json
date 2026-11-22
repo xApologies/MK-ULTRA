@@ -1,0 +1,106 @@
+{
+  "handle": "@dm_resolution_density_profile",
+  "object_type": "mathematical_object",
+  "status": "ATLAS_DERIVED_ACTIVE",
+  "domain": "DM22",
+  "namespace": "energy",
+  "name": "Resolution-Level Hidden Density Profile",
+  "definition": "Resolution-level profile of hidden supported relational-capacity load. The scalar regional density is only its weighted compression.",
+  "math": "rho_{H,a}^R=L_H(U_a)/V_a; Delta boldrho_H^R=(Delta rho_{H,a}^R)_a.",
+  "source_layer": "DM22",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "DM22",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 4,
+    "xapi_raw_in_count": 1,
+    "live_out_count": 4,
+    "live_in_count": 2,
+    "closure_out_reachability_count": 198,
+    "closure_in_reachability_count": 1,
+    "direct_source_anchors": [
+      {
+        "id": 23,
+        "source_id": "SRC-DM-010",
+        "relation": "HISTORICAL_REPRESENTATION_PRECEDENT_FOR",
+        "handle": "@dm_resolution_density_profile",
+        "status": "SOURCE_BACKFILL_ONLY",
+        "provenance": "chapters_11_15_with_part/chapters_11_15_with_part.tex:17-24"
+      },
+      {
+        "id": 30,
+        "source_id": "SRC-DM-012",
+        "relation": "HISTORICAL_REPRESENTATION_PRECEDENT_FOR",
+        "handle": "@dm_resolution_density_profile",
+        "status": "SOURCE_BACKFILL_ONLY",
+        "provenance": "chapters_11_15_with_part/chapters_11_15_with_part.tex:103-114"
+      }
+    ],
+    "source_reachability_anchor_count": 2,
+    "aliases": [],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19797,
+        "source": "@dm_resolution_density_profile",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_hidden_relational_load",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19798,
+        "source": "@dm_resolution_density_profile",
+        "relation": "DEPENDS_ON",
+        "target": "@resolution",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19799,
+        "source": "@dm_resolution_density_profile",
+        "relation": "REALIZES",
+        "target": "@energy_density",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19800,
+        "source": "@dm_resolution_density_profile",
+        "relation": "REQUIRES",
+        "target": "@dm_native_density_to_readable_source",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.0"
+      },
+      {
+        "id": 19787,
+        "source": "@dm_native_hidden_witness",
+        "relation": "CONTAINS",
+        "target": "@dm_resolution_density_profile",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "ATLAS_DERIVED",
+        "provenance": "DM2.0"
+      }
+    ]
+  },
+  "address": "@dm_resolution_density_profile",
+  "address_sha256": "fe5ff041b227ae676e06849d15f67cafd8c15dcf94ec1a6f3d89f3c923c25b20"
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "ASTRAEUS_SOURCE_BACKED_PAIR_V1",
+  "a": "@occupancy",
+  "b": "@er_throat_incidence",
+  "radius": 2,
+  "interface": [
+    {
+      "handle": "@persistent_recursive_topology",
+      "distance_a": 1,
+      "distance_b": 2
+    },
+    {
+      "handle": "@planck_landscape",
+      "distance_a": 2,
+      "distance_b": 1
+    }
+  ],
+  "policy": "TS high+medium recovered non-derived; DM high direct registry; exact-handle interface only"
+}

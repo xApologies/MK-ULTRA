@@ -1,0 +1,45 @@
+{
+  "handle": "@dm_dark_matter_qualification_nonempty",
+  "object_type": "mathematical_object",
+  "status": "OPEN_PRIMARY_HANDLE",
+  "domain": "DM22",
+  "namespace": "theorem_target",
+  "name": "Dark-Matter Qualification Nonemptiness",
+  "definition": "Final internal existence target after the source map is typed: prove that the Dark-Matter Qualification Locus contains at least one admissible full/visible comparison state.",
+  "math": "Goal: DM_R ≠ ∅ for at least one declared Resolution R and matched comparison class.",
+  "source_layer": "DM22",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "OPEN_NOT_EXTERNALLY_VALIDATED",
+  "provenance_class": "DM22",
+  "metadata": {
+    "api43_direct_out_count": 0,
+    "api43_direct_in_count": 0,
+    "xapi_raw_out_count": 1,
+    "xapi_raw_in_count": 0,
+    "live_out_count": 1,
+    "live_in_count": 2,
+    "closure_out_reachability_count": 226,
+    "closure_in_reachability_count": 0,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [],
+    "direct_edges_xapi": [
+      {
+        "id": 19735,
+        "source": "@dm_dark_matter_qualification_nonempty",
+        "relation": "DEPENDS_ON",
+        "target": "@dm_dark_matter_qualification_locus",
+        "layer": "DM22",
+        "graph_family": "dark_matter",
+        "confidence": "high",
+        "audit_status": "OPEN_HANDLE",
+        "provenance": "DM2.1"
+      }
+    ]
+  },
+  "address": "@dm_dark_matter_qualification_nonempty",
+  "address_sha256": "fe78b8ccbdd3b0da50e3210dcaa4963c225871ca7e55fb8874ecd7eb37407eea"
+}

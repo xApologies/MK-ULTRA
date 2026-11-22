@@ -1,0 +1,124 @@
+{
+  "status": "CONDITIONAL_ON_PROVISIONAL_142857_C6_GRAMMAR",
+  "basins": {
+    "1": {
+      "fraction": "1/7",
+      "alias": "Red"
+    },
+    "2": {
+      "fraction": "2/7",
+      "alias": "Orange"
+    },
+    "3": {
+      "fraction": "3/7",
+      "alias": "Yellow"
+    },
+    "4": {
+      "fraction": "4/7",
+      "alias": "Green"
+    },
+    "5": {
+      "fraction": "5/7",
+      "alias": "Blue"
+    },
+    "6": {
+      "fraction": "6/7",
+      "alias": "Violet"
+    }
+  },
+  "kappa_cycle": [
+    1,
+    3,
+    2,
+    6,
+    4,
+    5
+  ],
+  "kappa_rule": "k -> 3k mod 7 on {1,...,6}",
+  "half_turn_rule": "kappa^3(k)=7-k because 3^3=27=-1 mod 7",
+  "inverse_pairs": [
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "representative_root_map": {
+    "1": {
+      "operator": "E12",
+      "edge": [
+        1,
+        2
+      ],
+      "root": [
+        "1",
+        "0"
+      ]
+    },
+    "3": {
+      "operator": "E13",
+      "edge": [
+        1,
+        3
+      ],
+      "root": [
+        "1/2",
+        "sqrt(3)/2"
+      ]
+    },
+    "2": {
+      "operator": "E23",
+      "edge": [
+        2,
+        3
+      ],
+      "root": [
+        "-1/2",
+        "sqrt(3)/2"
+      ]
+    },
+    "6": {
+      "operator": "E21",
+      "edge": [
+        2,
+        1
+      ],
+      "root": [
+        "-1",
+        "0"
+      ]
+    },
+    "4": {
+      "operator": "E31",
+      "edge": [
+        3,
+        1
+      ],
+      "root": [
+        "-1/2",
+        "-sqrt(3)/2"
+      ]
+    },
+    "5": {
+      "operator": "E32",
+      "edge": [
+        3,
+        2
+      ],
+      "root": [
+        "1/2",
+        "-sqrt(3)/2"
+      ]
+    }
+  },
+  "fixed_orientation_equivariant_maps": 6,
+  "including_orientation_reversal": 12,
+  "firewall": "Basin scalar states k/7 are not themselves A2 root vectors; map applies to directed Portal/Road lane representation."
+}

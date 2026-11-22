@@ -1,0 +1,25 @@
+{
+  "handle": "landscape://DL-DM-E067-STRESS-ACTIVE-ACTION",
+  "object_type": "dependency_landscape",
+  "status": "APPEND_ONLY",
+  "domain": "LANDSCAPE",
+  "namespace": "mk43://landscape",
+  "name": "DL-DM-E067-STRESS-ACTIVE-ACTION",
+  "definition": "",
+  "math": "",
+  "source_layer": "LIVE_LANDSCAPE",
+  "checkpoint": "",
+  "qmo_generated": true,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "DEPENDENCY_LANDSCAPE",
+  "metadata": {
+    "id": "DL-DM-E067-STRESS-ACTIVE-ACTION",
+    "seed": "@dm_metric_action_selection",
+    "status": "APPEND_ONLY",
+    "source_file": "live/checkpoints/E067/landscapes/DL-DM-E067-STRESS-ACTIVE-ACTION.json",
+    "payload_json": "{\"schema\": \"ASTRAEUS_DM_DEPENDENCY_LANDSCAPE_V1\", \"landscape_id\": \"DL-DM-E067-STRESS-ACTIVE-ACTION\", \"seed\": \"@dm_metric_action_selection\", \"status\": \"APPEND_ONLY\", \"nodes\": [\"@dm_metric_action_selection\", \"@dm_covariant_hidden_action_family\", \"@dm_q_completion_family\", \"@quantum_action_functional\", \"@matter_action\", \"@metric_variation\", \"@total_action\", \"@diffeomorphism_invariance\", \"@noether_identity\", \"@dm_stress_energy_realization_family\", \"@stress_energy_tensor\", \"@dm_stress_active_action_fiber\", \"@dm_stress_active_action_fiber_nonempty\"], \"terminal\": {\"state\": \"OPEN_FORK\", \"iteration\": 3, \"focus\": \"@dm_stress_active_action_fiber_nonempty\", \"reason\": \"Action-family typing closes; nonemptiness of the metric-sensitive subset remains the next witness problem.\"}}"
+  },
+  "address": "landscape://DL-DM-E067-STRESS-ACTIVE-ACTION",
+  "address_sha256": "a3143fdaec151ec2c700ed68c832fc06e1881c26c26651bf089f3dd042f6ffff"
+}

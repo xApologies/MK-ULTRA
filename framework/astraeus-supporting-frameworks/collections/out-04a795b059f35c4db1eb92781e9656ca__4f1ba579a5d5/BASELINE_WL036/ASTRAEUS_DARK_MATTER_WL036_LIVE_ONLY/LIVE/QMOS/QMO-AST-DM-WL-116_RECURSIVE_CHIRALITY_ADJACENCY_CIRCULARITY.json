@@ -1,0 +1,13 @@
+{
+  "schema": "ASTRAEUS_RECURSIVE_CHIRALITY_ADJACENCY_CIRCULARITY_V1",
+  "qmo_id": "QMO-AST-DM-WL-116",
+  "name": "Recursive Chirality Evolution / Adjacency Circularity Audit",
+  "atlas_version": "WL-v232",
+  "work_layer": "WL-036",
+  "status": "CIRCULAR_IF_USED_AS_ADJACENCY_SELECTOR",
+  "parent_promotions": 0,
+  "equation": "chi_{t+1}(x,y,z)=Pi_occ(sum_{n in N(x,y,z)} w_n chi_t(n)-lambda chi_t(x,y,z))",
+  "open_source_object": "exact N(x,y,z) for eight-site mote remains OPEN",
+  "finding": "The evolution equation consumes N(x,y,z); it cannot define the missing N(x,y,z) without circularity. Mote P024 branch locally source-exhausted.",
+  "next_handle": "GLOBAL_NON_MOTE_RANK"
+}

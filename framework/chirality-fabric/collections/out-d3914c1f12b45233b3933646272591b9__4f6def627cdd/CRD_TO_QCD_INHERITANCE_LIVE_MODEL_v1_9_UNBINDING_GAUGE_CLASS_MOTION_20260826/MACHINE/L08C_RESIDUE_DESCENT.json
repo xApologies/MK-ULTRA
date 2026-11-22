@@ -1,0 +1,29 @@
+{
+  "run": "L08C",
+  "verdict": "CLOSED_DESCENT_CRITERION_PASS_FIELDWISE_SURVIVAL_NOT_SOURCE_DERIVED",
+  "projection": "Pi : dXi -> M = dXi/G_Pi",
+  "residue": "F_p = Inv(Pi^-1(p))",
+  "survival_criterion": "a survives iff a = a_bar o Pi; equivalently constant on projection equivalence classes / G_Pi-invariant",
+  "carrier_gate": "iota_partial : Graph(S_RH) \u21c0 dXi is open",
+  "guaranteed_after_carrier": [
+    "quotient point p=[x]",
+    "abstract invariant residue F_p"
+  ],
+  "admission_only": [
+    "persistent-boundary membership",
+    "Road Resolution/Bandwidth sufficiency"
+  ],
+  "fieldwise_open": [
+    "full Geometric",
+    "chirality",
+    "six basin telemetry",
+    "Road History",
+    "ancestry/provenance",
+    "Portal ordering",
+    "Helicon mode label",
+    "Helicon multiplicity",
+    "Resolution/Bandwidth as readable values"
+  ],
+  "forbidden_inference": "Pi is not B6->C3; direct six-basin to three-QCD-color quotient is not source-derived",
+  "next_run": "L09C"
+}

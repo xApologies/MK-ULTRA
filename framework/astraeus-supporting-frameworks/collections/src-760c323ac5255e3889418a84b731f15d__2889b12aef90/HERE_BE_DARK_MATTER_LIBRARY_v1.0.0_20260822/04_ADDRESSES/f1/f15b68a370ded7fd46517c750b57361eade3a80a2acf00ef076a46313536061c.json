@@ -1,0 +1,203 @@
+{
+  "handle": "@genlang_root_vel",
+  "object_type": "mathematical_object",
+  "status": "active",
+  "domain": "API43",
+  "namespace": "",
+  "name": "@genlang_root_vel",
+  "definition": "",
+  "math": "",
+  "source_layer": "API43",
+  "checkpoint": "",
+  "qmo_generated": false,
+  "proof_status": "",
+  "empirical_status": "",
+  "provenance_class": "API43",
+  "metadata": {
+    "api43_direct_out_count": 5,
+    "api43_direct_in_count": 3,
+    "xapi_raw_out_count": 5,
+    "xapi_raw_in_count": 3,
+    "live_out_count": 0,
+    "live_in_count": 0,
+    "closure_out_reachability_count": 0,
+    "closure_in_reachability_count": 1,
+    "direct_source_anchors": [],
+    "source_reachability_anchor_count": 0,
+    "aliases": [],
+    "direct_edges_api43": [
+      {
+        "source": "@genlang_root_vel",
+        "relation": "LANGUAGE_EXPRESSES",
+        "target": "@genesis_field",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48038;CANONICAL_API_TYPED_LINE:48038"
+      },
+      {
+        "source": "@genlang_root_vel",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_phrase_vel_ve_tor",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48132;CANONICAL_API_TYPED_LINE:48132"
+      },
+      {
+        "source": "@genlang_root_vel",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_word_genvel",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48077;CANONICAL_API_TYPED_LINE:48077"
+      },
+      {
+        "source": "@genlang_root_vel",
+        "relation": "LANGUAGE_APPROXIMATES",
+        "target": "@genesis_field",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "explicitly_recovered",
+        "recovery_pass": "RP-42",
+        "provenance": "DIRECT_API_LINE:47824"
+      },
+      {
+        "source": "@genlang_root_vel",
+        "relation": "GENERATED_BY",
+        "target": "@genlang_family_vel",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "derived",
+        "recovery_pass": "RP-46",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@genlang_family_vel GENERATES @genlang_root_vel); rule=GENERATES→GENERATED_BY"
+      },
+      {
+        "source": "@genesis_field",
+        "relation": "MATHEMATICS_HAS_LANGUAGE_PROJECTION",
+        "target": "@genlang_root_vel",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48039;CANONICAL_API_TYPED_LINE:48039"
+      },
+      {
+        "source": "@genlang_family_vel",
+        "relation": "FAMILY_GENERATES_ROOT",
+        "target": "@genlang_root_vel",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-35",
+        "provenance": "DIRECT_API_LINE:48061;CANONICAL_API_TYPED_LINE:48061"
+      },
+      {
+        "source": "@genlang_family_vel",
+        "relation": "GENERATES",
+        "target": "@genlang_root_vel",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "recovery_pass": "RP-39",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:48061"
+      }
+    ],
+    "direct_edges_xapi": [
+      {
+        "id": 474,
+        "source": "@genlang_root_vel",
+        "relation": "LANGUAGE_EXPRESSES",
+        "target": "@genesis_field",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48038;CANONICAL_API_TYPED_LINE:48038"
+      },
+      {
+        "id": 475,
+        "source": "@genlang_root_vel",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_phrase_vel_ve_tor",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48132;CANONICAL_API_TYPED_LINE:48132"
+      },
+      {
+        "id": 476,
+        "source": "@genlang_root_vel",
+        "relation": "LANGUAGE_COMPOSES",
+        "target": "@genlang_word_genvel",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48077;CANONICAL_API_TYPED_LINE:48077"
+      },
+      {
+        "id": 1198,
+        "source": "@genlang_root_vel",
+        "relation": "LANGUAGE_APPROXIMATES",
+        "target": "@genesis_field",
+        "layer": "API43",
+        "graph_family": "mathematical",
+        "confidence": "high",
+        "audit_status": "explicitly_recovered",
+        "provenance": "DIRECT_API_LINE:47824"
+      },
+      {
+        "id": 2184,
+        "source": "@genlang_root_vel",
+        "relation": "GENERATED_BY",
+        "target": "@genlang_family_vel",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "derived",
+        "provenance": "DERIVED:RP46_INVERSE_RELATION; source_edge=(@genlang_family_vel GENERATES @genlang_root_vel); rule=GENERATES→GENERATED_BY"
+      },
+      {
+        "id": 355,
+        "source": "@genesis_field",
+        "relation": "MATHEMATICS_HAS_LANGUAGE_PROJECTION",
+        "target": "@genlang_root_vel",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48039;CANONICAL_API_TYPED_LINE:48039"
+      },
+      {
+        "id": 402,
+        "source": "@genlang_family_vel",
+        "relation": "FAMILY_GENERATES_ROOT",
+        "target": "@genlang_root_vel",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "high",
+        "audit_status": "recovered",
+        "provenance": "DIRECT_API_LINE:48061;CANONICAL_API_TYPED_LINE:48061"
+      },
+      {
+        "id": 403,
+        "source": "@genlang_family_vel",
+        "relation": "GENERATES",
+        "target": "@genlang_root_vel",
+        "layer": "API43",
+        "graph_family": "mixed",
+        "confidence": "medium",
+        "audit_status": "recovered",
+        "provenance": "MK43_Ultra_API_CURRENT_CANONICAL.md:48061"
+      }
+    ]
+  },
+  "address": "@genlang_root_vel",
+  "address_sha256": "f15b68a370ded7fd46517c750b57361eade3a80a2acf00ef076a46313536061c"
+}
