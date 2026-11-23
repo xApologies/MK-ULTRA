@@ -65,6 +65,6 @@ Local intake, superseded installations, extraction staging, private audit report
 
 Identical content shared by source occurrences is stored once by Git object identity; source collection paths retain provenance. Redundant recovered source archives are excluded. The GR/QMO checkpoint archives and expanded evidence are retained where its supplied checkpoint manifests explicitly require both.
 
-67 historical runtime files remain outside this release because their original build paths require a separate, verified relocation decision. The complete current GR/QMO is included.
+65 runtime files remain local as historical material or unresolved dependencies. The post-publication closure audit restored 2 supported collection runtime files with verified path relocation; its [public provenance and reproducibility record](provenance/publication/runtime_closure_20261123.json) gives their scope. The complete current GR/QMO is included.
 
 134 conversation screenshot occurrences are excluded from this publication. Ordinary mathematical diagrams remain included. Original research is preserved locally.

@@ -4,7 +4,7 @@ This directory preserves selected source collections and their package-internal 
 
 The sole current GR/QMO API is [the authoritative GR/QMO public edition](../../api/gr-qmo/00_START_HERE.md). Other QMO snapshots, crawls, historical API statements, and source-era validation records in research collections are historical evidence. They do not select the active GR/QMO or feed its registry.
 
-2,323 selected files, 270,577,172 bytes. The [publication file manifest](../../provenance/file_manifest.jsonl) records the current bytes; [source occurrences](../../provenance/source_occurrences.jsonl) retains original source hashes and ancestry.
+2,324 selected files, 270,583,009 bytes. The [publication file manifest](../../provenance/file_manifest.jsonl) records the current bytes; [source occurrences](../../provenance/source_occurrences.jsonl) retains original source hashes and ancestry.
 
 | Source collection | Published files | Source lineage |
 | --- | ---: | --- |
@@ -61,7 +61,7 @@ The sole current GR/QMO API is [the authoritative GR/QMO public edition](../../a
 | [out-e674c0608b0e5f2a9f3811a5ac7e55ed__f08330c12996](collections/out-e674c0608b0e5f2a9f3811a5ac7e55ed__f08330c12996/) | 5 | CHIRALITY_CROSS_DOMAIN_EVIDENCE_MAP_PROJECT_SEED_v0_1_20260826.zip |
 | [out-eb5750f045285d33bba4565927328cda__7dd4311247b2](collections/out-eb5750f045285d33bba4565927328cda__7dd4311247b2/) | 32 | CHIRALITY_CROSS_DOMAIN_EVIDENCE_MAP_PROJECT_SEED_v0_1_20260826.zip |
 | [out-ecf0a85ef20051a397e00a67bd6b061d__45399cae67da](collections/out-ecf0a85ef20051a397e00a67bd6b061d__45399cae67da/) | 40 | CHIRALITY_CROSS_DOMAIN_EVIDENCE_MAP_PROJECT_SEED_v0_1_20260826.zip |
-| [out-f231c604cb635c80be1a6b5daafc37c1__87bd88fd8ea1](collections/out-f231c604cb635c80be1a6b5daafc37c1__87bd88fd8ea1/) | 122 | CHIRALITY_CROSS_DOMAIN_EVIDENCE_MAP_PROJECT_SEED_v0_1_20260826.zip |
+| [out-f231c604cb635c80be1a6b5daafc37c1__87bd88fd8ea1](collections/out-f231c604cb635c80be1a6b5daafc37c1__87bd88fd8ea1/) | 123 | CHIRALITY_CROSS_DOMAIN_EVIDENCE_MAP_PROJECT_SEED_v0_1_20260826.zip |
 | [out-f589142acee45f35b42496a5f32d3d81__6aa44f7cd7eb](collections/out-f589142acee45f35b42496a5f32d3d81__6aa44f7cd7eb/) | 80 | CHIRALITY_CROSS_DOMAIN_EVIDENCE_MAP_PROJECT_SEED_v0_1_20260826.zip |
 | [out-f78d4af54d64594d8a35a31a516a0b37__a9d1ebe32a8c](collections/out-f78d4af54d64594d8a35a31a516a0b37__a9d1ebe32a8c/) | 45 | CHIRALITY_CROSS_DOMAIN_EVIDENCE_MAP_PROJECT_SEED_v0_1_20260826.zip |
 | [out-fc07042438ce5104bda021e1e0629a7d__0d93f8a69782](collections/out-fc07042438ce5104bda021e1e0629a7d__0d93f8a69782/) | 87 | CHIRALITY_CROSS_DOMAIN_EVIDENCE_MAP_PROJECT_SEED_v0_1_20260826.zip |
