@@ -77,3 +77,16 @@ The sole current GR/QMO API is [the authoritative GR/QMO public edition](../../a
 | [src-708aaa5eb274563ca8ad7195d1f03e11__752f8fe6d230](collections/src-708aaa5eb274563ca8ad7195d1f03e11__752f8fe6d230/) | 1 | CFP.pdf |
 | [src-760c323ac5255e3889418a84b731f15d__2889b12aef90](collections/src-760c323ac5255e3889418a84b731f15d__2889b12aef90/) | 6 | GR.zip |
 | [src-da5608a83df65b3e9f762e2820f6068d__cca59f71a280](collections/src-da5608a83df65b3e9f762e2820f6068d__cca59f71a280/) | 1 | MK Ultra.pdf |
+
+
+## Native mass source editions
+
+The three incoming mass artifacts were verified against these existing published sources. No duplicate research payloads were added. The [existing GR/QMO integration specification](../../api/gr-qmo/INTEGRATION_SPEC.md) selects v3.0 for T4/T5; v1.0 and v1.1 remain archival source editions. This intake does not change the API or its graph.
+
+| Incoming filename | Declared version | Verified published equivalent |
+| --- | --- | --- |
+| `_mass.md` | 1.0 | [_mass(3).md](../../api/gr-qmo/sources/_mass%283%29.md) |
+| `_mass 2.md` | 1.1 | [_mass 2(4).md](../../api/gr-qmo/sources/_mass%202%284%29.md) |
+| `_mass_b.txt` | 3.0 | [_mass_b(4).txt](../../api/gr-qmo/sources/_mass_b%284%29.txt) |
+
+[Source hashes, formats and intake provenance](../../provenance/publication/mass_sources_20261124.json).

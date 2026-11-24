@@ -1,0 +1,65 @@
+{
+  "schema": "MK_ULTRA_VERIFIED_MASS_SOURCE_INTAKE_V1",
+  "intake_id": "mass-sources-20261124",
+  "baseline_commit": "ff685bdd32765c61c538b0afbb2c9c7e77087bfe",
+  "incoming_artifacts": [
+    {
+      "filename": "_mass 2.md",
+      "extension": ".md",
+      "bytes": 79204,
+      "sha256": "63d1632d5cd1b8725cf0353b0ad841bd6d9062868b9805eddd78895124b7eabe",
+      "modification_timestamp_utc": "2026-11-24T14:11:30.834487000Z",
+      "detected_type": "UTF-8 Markdown text",
+      "extension_matches_format": true,
+      "declared_version": "1.1",
+      "public_path": "api/gr-qmo/sources/_mass 2(4).md",
+      "duplicate": "EXACT_SHA256_MATCH_TO_EXISTING_ORGANIZED_AND_PUBLIC_SOURCE",
+      "filename_conflict": false
+    },
+    {
+      "filename": "_mass.md",
+      "extension": ".md",
+      "bytes": 69648,
+      "sha256": "9fd07edc00d4c2325267057df4278fd5ebe489ccfb209536f9a66bebc0dad6ee",
+      "modification_timestamp_utc": "2026-11-24T14:11:30.806486800Z",
+      "detected_type": "UTF-8 Markdown text",
+      "extension_matches_format": true,
+      "declared_version": "1.0",
+      "public_path": "api/gr-qmo/sources/_mass(3).md",
+      "duplicate": "EXACT_SHA256_MATCH_TO_EXISTING_ORGANIZED_AND_PUBLIC_SOURCE",
+      "filename_conflict": false
+    },
+    {
+      "filename": "_mass_b.txt",
+      "extension": ".txt",
+      "bytes": 48253,
+      "sha256": "bb4b551c6814e0def76f94e2170ee40bafd15c0897f517be0e891357d7c892c9",
+      "modification_timestamp_utc": "2026-11-24T14:11:30.787487200Z",
+      "detected_type": "UTF-8 plain text with Markdown formatting",
+      "extension_matches_format": true,
+      "declared_version": "3.0",
+      "public_path": "api/gr-qmo/sources/_mass_b(4).txt",
+      "duplicate": "EXACT_SHA256_MATCH_TO_EXISTING_ORGANIZED_AND_PUBLIC_SOURCE",
+      "filename_conflict": false
+    }
+  ],
+  "research_payloads_added": 0,
+  "source_reference_occurrences_registered": 3,
+  "disposition": "Use existing exact-content public equivalents; preserve incoming occurrence filenames and lineage in the local organization inventory.",
+  "archive_handling": "All three are UTF-8 text, not archives; no extraction performed.",
+  "authority": "The existing GR/QMO integration specification selects native mass v3.0 for T4/T5. Versions 1.0 and 1.1 remain archival source editions. This intake changes no API or mathematical authority.",
+  "authority_evidence": [
+    {
+      "path": "api/gr-qmo/INTEGRATION_SPEC.md",
+      "lines": "121–122"
+    },
+    {
+      "path": "api/gr-qmo/INSTALLED_OBJECTS.md",
+      "lines": "181–193"
+    }
+  ],
+  "source_claims": "Version and closure labels are supplied research claims, not independent validation.",
+  "privacy_review": "All three complete files passed UTF-8/control-content, credential, private-path and unintended-personal-content review.",
+  "graph_objects_edges_formulas_and_endpoints_changed": false,
+  "created_utc": "2026-11-24T14:22:38.642269+00:00"
+}
